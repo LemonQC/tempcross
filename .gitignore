@@ -6,3 +6,8 @@ results/
 *.log
 configs/calibration_measured*.json
 configs/scenes_measured*.json
+
+# Large raw JSON is preserved losslessly in committed gzip; run regenerates JSON.
+evidence/v1/trials.json
+evidence/dev_smoke/trials.json
+evidence/implementation_interrupted/trials.json

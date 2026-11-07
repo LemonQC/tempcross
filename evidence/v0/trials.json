@@ -1,0 +1,5714 @@
+[
+  {
+    "scene": {
+      "scene_id": 0,
+      "target": [
+        0.5006987051607217,
+        0.022542090095675052,
+        0.045
+      ],
+      "blocker": {
+        "center": [
+          0.5381823262592168,
+          0.07192810177250969,
+          0.135
+        ],
+        "half_extent": [
+          0.025,
+          0.025,
+          0.09
+        ]
+      },
+      "azimuth": 0.921564704820152
+    },
+    "blocked": false,
+    "candidates": [
+      {
+        "yaw_rad": 0.0,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 0.009768272898594388,
+        "max_ik_angle_error_rad": 0.06217125278728913,
+        "joint_path_jump_rad": 2.12247686561075,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43620980264800296,
+          0.3350011877460548,
+          0.19501158034040691
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 0.7853981633974483,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 0.009768167521341827,
+        "max_ik_angle_error_rad": 0.062171381959705174,
+        "joint_path_jump_rad": 2.127230056321273,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4362097783550775,
+          0.3350007040577693,
+          0.19501157936650906
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 1.5707963267948966,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 0.009768517887385841,
+        "max_ik_angle_error_rad": 0.06217029126004444,
+        "joint_path_jump_rad": 2.124825871417483,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43620981328094377,
+          0.3350064529474026,
+          0.1950115807642374
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 2.356194490192345,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.7636803533392782e-05,
+        "max_ik_angle_error_rad": 3.403806791869408e-05,
+        "joint_path_jump_rad": 0.406055982177452,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350027044530325,
+          0.3350274748003103,
+          0.19501159591680411
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 3.141592653589793,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.7633408876697516e-05,
+        "max_ik_angle_error_rad": 3.4007159683958535e-05,
+        "joint_path_jump_rad": 0.4060559596795536,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43500011546636963,
+          0.33502747131186716,
+          0.1950115954688897
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 3.9269908169872414,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 0.009768187665657105,
+        "max_ik_angle_error_rad": 0.0621715993945666,
+        "joint_path_jump_rad": 2.128034232439215,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43620980999084097,
+          0.3350002376682328,
+          0.19501157743335526
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 4.71238898038469,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 0.009768407391572158,
+        "max_ik_angle_error_rad": 0.062170549907472374,
+        "joint_path_jump_rad": 2.124602862602904,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4362098527524286,
+          0.3350018171121251,
+          0.19501157747629982
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 5.497787143782138,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 0.00976848144961199,
+        "max_ik_angle_error_rad": 0.062170403787299544,
+        "joint_path_jump_rad": 2.124934178970216,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4362098360056625,
+          0.3350001357389465,
+          0.1950115762124301
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      }
+    ],
+    "baselines": {
+      "motion_only": 4,
+      "vision_only": 0,
+      "weighted": 4,
+      "analytic_and": 0,
+      "oracle_any": 0
+    },
+    "summary": {
+      "scene_id": 0,
+      "occluder": false,
+      "n_candidates": 8,
+      "feasible_count": 8,
+      "invisible_feasible_count": 0,
+      "visible_feasible_count": 8,
+      "conflict_with_alternative": false,
+      "motion_only_both": true,
+      "vision_only_both": true,
+      "weighted_both": true,
+      "analytic_and_both": true
+    }
+  },
+  {
+    "scene": {
+      "scene_id": 0,
+      "target": [
+        0.5006987051607217,
+        0.022542090095675052,
+        0.045
+      ],
+      "blocker": {
+        "center": [
+          0.5381823262592168,
+          0.07192810177250969,
+          0.135
+        ],
+        "half_extent": [
+          0.025,
+          0.025,
+          0.09
+        ]
+      },
+      "azimuth": 0.921564704820152
+    },
+    "blocked": true,
+    "candidates": [
+      {
+        "yaw_rad": 0.0,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 0.009768272898594388,
+        "max_ik_angle_error_rad": 0.06217125278728913,
+        "joint_path_jump_rad": 2.12247686561075,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43620980264800296,
+          0.3350011877460548,
+          0.19501158034040691
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 0.7853981633974483,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 0.009768167521341827,
+        "max_ik_angle_error_rad": 0.062171381959705174,
+        "joint_path_jump_rad": 2.127230056321273,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": false,
+        "vis_fraction": 0.5,
+        "both": false,
+        "cam_depths_m": [
+          0.4362097783550775,
+          0.3350007040577693,
+          0.19501157936650906
+        ],
+        "occluded": [
+          false,
+          true,
+          true
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 1.5707963267948966,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 0.009768517887385841,
+        "max_ik_angle_error_rad": 0.06217029126004444,
+        "joint_path_jump_rad": 2.124825871417483,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43620981328094377,
+          0.3350064529474026,
+          0.1950115807642374
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 2.356194490192345,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.7636803533392782e-05,
+        "max_ik_angle_error_rad": 3.403806791869408e-05,
+        "joint_path_jump_rad": 0.406055982177452,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350027044530325,
+          0.3350274748003103,
+          0.19501159591680411
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 3.141592653589793,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.7633408876697516e-05,
+        "max_ik_angle_error_rad": 3.4007159683958535e-05,
+        "joint_path_jump_rad": 0.4060559596795536,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43500011546636963,
+          0.33502747131186716,
+          0.1950115954688897
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 3.9269908169872414,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 0.009768187665657105,
+        "max_ik_angle_error_rad": 0.0621715993945666,
+        "joint_path_jump_rad": 2.128034232439215,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43620980999084097,
+          0.3350002376682328,
+          0.19501157743335526
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 4.71238898038469,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 0.009768407391572158,
+        "max_ik_angle_error_rad": 0.062170549907472374,
+        "joint_path_jump_rad": 2.124602862602904,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4362098527524286,
+          0.3350018171121251,
+          0.19501157747629982
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 5.497787143782138,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 0.00976848144961199,
+        "max_ik_angle_error_rad": 0.062170403787299544,
+        "joint_path_jump_rad": 2.124934178970216,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4362098360056625,
+          0.3350001357389465,
+          0.1950115762124301
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      }
+    ],
+    "baselines": {
+      "motion_only": 4,
+      "vision_only": 0,
+      "weighted": 4,
+      "analytic_and": 0,
+      "oracle_any": 0
+    },
+    "summary": {
+      "scene_id": 0,
+      "occluder": true,
+      "n_candidates": 8,
+      "feasible_count": 8,
+      "invisible_feasible_count": 1,
+      "visible_feasible_count": 7,
+      "conflict_with_alternative": true,
+      "motion_only_both": true,
+      "vision_only_both": true,
+      "weighted_both": true,
+      "analytic_and_both": true
+    }
+  },
+  {
+    "scene": {
+      "scene_id": 1,
+      "target": [
+        0.5116487267167804,
+        -0.042416907450762695,
+        0.045
+      ],
+      "blocker": {
+        "center": [
+          0.5732615178930751,
+          -0.03549852877752577,
+          0.135
+        ],
+        "half_extent": [
+          0.025,
+          0.025,
+          0.09
+        ]
+      },
+      "azimuth": 0.1118196323762185
+    },
+    "blocked": false,
+    "candidates": [
+      {
+        "yaw_rad": 0.0,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.6185820195021144e-05,
+        "max_ik_angle_error_rad": 3.0844678931050206e-05,
+        "joint_path_jump_rad": 0.39727110983143393,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4349974397033186,
+          0.33502594924857365,
+          0.19500819058288948
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 0.7853981633974483,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.6194798161926272e-05,
+        "max_ik_angle_error_rad": 3.0981011249714404e-05,
+        "joint_path_jump_rad": 0.39727119460718513,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43500004578769197,
+          0.3350259591735449,
+          0.19500819291660892
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 1.5707963267948966,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.6193356149520023e-05,
+        "max_ik_angle_error_rad": 3.0984996408803936e-05,
+        "joint_path_jump_rad": 0.39727119400013794,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43500009854577437,
+          0.33502595781540667,
+          0.19500819260266888
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 2.356194490192345,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.619220916666899e-05,
+        "max_ik_angle_error_rad": 3.0982976832385646e-05,
+        "joint_path_jump_rad": 0.3972711910467885,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43500000040448544,
+          0.33502595668219726,
+          0.19500819232069036
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 3.141592653589793,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.6191428080284237e-05,
+        "max_ik_angle_error_rad": 3.0975602145522924e-05,
+        "joint_path_jump_rad": 0.39727118628529007,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43500001002234756,
+          0.3350259558622004,
+          0.1950081920636262
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 3.9269908169872414,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.6190976380899835e-05,
+        "max_ik_angle_error_rad": 3.096199583902363e-05,
+        "joint_path_jump_rad": 0.3972711793267879,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.435000013598402,
+          0.3350259553141572,
+          0.19500819180000606
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 4.71238898038469,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.619066899440384e-05,
+        "max_ik_angle_error_rad": 3.0940244312481126e-05,
+        "joint_path_jump_rad": 0.3972711687882418,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43500000305403785,
+          0.33502595483093617,
+          0.19500819150628562
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 5.497787143782138,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.619324103097649e-05,
+        "max_ik_angle_error_rad": 3.0910403079797154e-05,
+        "joint_path_jump_rad": 0.3972711629976603,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350029342298984,
+          0.3350259571076109,
+          0.1950081911292823
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      }
+    ],
+    "baselines": {
+      "motion_only": 0,
+      "vision_only": 0,
+      "weighted": 0,
+      "analytic_and": 0,
+      "oracle_any": 0
+    },
+    "summary": {
+      "scene_id": 1,
+      "occluder": false,
+      "n_candidates": 8,
+      "feasible_count": 8,
+      "invisible_feasible_count": 0,
+      "visible_feasible_count": 8,
+      "conflict_with_alternative": false,
+      "motion_only_both": true,
+      "vision_only_both": true,
+      "weighted_both": true,
+      "analytic_and_both": true
+    }
+  },
+  {
+    "scene": {
+      "scene_id": 1,
+      "target": [
+        0.5116487267167804,
+        -0.042416907450762695,
+        0.045
+      ],
+      "blocker": {
+        "center": [
+          0.5732615178930751,
+          -0.03549852877752577,
+          0.135
+        ],
+        "half_extent": [
+          0.025,
+          0.025,
+          0.09
+        ]
+      },
+      "azimuth": 0.1118196323762185
+    },
+    "blocked": true,
+    "candidates": [
+      {
+        "yaw_rad": 0.0,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.6185820195021144e-05,
+        "max_ik_angle_error_rad": 3.0844678931050206e-05,
+        "joint_path_jump_rad": 0.39727110983143393,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4349974397033186,
+          0.33502594924857365,
+          0.19500819058288948
+        ],
+        "occluded": [
+          false,
+          false,
+          true
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 0.7853981633974483,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.6194798161926272e-05,
+        "max_ik_angle_error_rad": 3.0981011249714404e-05,
+        "joint_path_jump_rad": 0.39727119460718513,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43500004578769197,
+          0.3350259591735449,
+          0.19500819291660892
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 1.5707963267948966,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.6193356149520023e-05,
+        "max_ik_angle_error_rad": 3.0984996408803936e-05,
+        "joint_path_jump_rad": 0.39727119400013794,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43500009854577437,
+          0.33502595781540667,
+          0.19500819260266888
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 2.356194490192345,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.619220916666899e-05,
+        "max_ik_angle_error_rad": 3.0982976832385646e-05,
+        "joint_path_jump_rad": 0.3972711910467885,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43500000040448544,
+          0.33502595668219726,
+          0.19500819232069036
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 3.141592653589793,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.6191428080284237e-05,
+        "max_ik_angle_error_rad": 3.0975602145522924e-05,
+        "joint_path_jump_rad": 0.39727118628529007,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43500001002234756,
+          0.3350259558622004,
+          0.1950081920636262
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 3.9269908169872414,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.6190976380899835e-05,
+        "max_ik_angle_error_rad": 3.096199583902363e-05,
+        "joint_path_jump_rad": 0.3972711793267879,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.435000013598402,
+          0.3350259553141572,
+          0.19500819180000606
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 4.71238898038469,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.619066899440384e-05,
+        "max_ik_angle_error_rad": 3.0940244312481126e-05,
+        "joint_path_jump_rad": 0.3972711687882418,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43500000305403785,
+          0.33502595483093617,
+          0.19500819150628562
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 5.497787143782138,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.619324103097649e-05,
+        "max_ik_angle_error_rad": 3.0910403079797154e-05,
+        "joint_path_jump_rad": 0.3972711629976603,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350029342298984,
+          0.3350259571076109,
+          0.1950081911292823
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      }
+    ],
+    "baselines": {
+      "motion_only": 0,
+      "vision_only": 0,
+      "weighted": 0,
+      "analytic_and": 0,
+      "oracle_any": 0
+    },
+    "summary": {
+      "scene_id": 1,
+      "occluder": true,
+      "n_candidates": 8,
+      "feasible_count": 8,
+      "invisible_feasible_count": 0,
+      "visible_feasible_count": 8,
+      "conflict_with_alternative": false,
+      "motion_only_both": true,
+      "vision_only_both": true,
+      "weighted_both": true,
+      "analytic_and_both": true
+    }
+  },
+  {
+    "scene": {
+      "scene_id": 2,
+      "target": [
+        0.5128963716121544,
+        0.053210796880019465,
+        0.045
+      ],
+      "blocker": {
+        "center": [
+          0.5715507219904968,
+          0.0733022672516634,
+          0.135
+        ],
+        "half_extent": [
+          0.025,
+          0.025,
+          0.09
+        ]
+      },
+      "azimuth": 0.33001368371273315
+    },
+    "blocked": false,
+    "candidates": [
+      {
+        "yaw_rad": 0.0,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 4.3730926563747204e-07,
+        "max_ik_angle_error_rad": 2.2550254161463384e-06,
+        "joint_path_jump_rad": 0.3956457986477075,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.434999999503757,
+          0.335000206646806,
+          0.1949999325513796
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 0.7853981633974483,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.5724729947445366e-05,
+        "max_ik_angle_error_rad": 2.88674282074056e-05,
+        "joint_path_jump_rad": 0.39570052570581665,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350001003490836,
+          0.3350254520924534,
+          0.19500763021230288
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 1.5707963267948966,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.5945251125077747e-05,
+        "max_ik_angle_error_rad": 3.056432076479286e-05,
+        "joint_path_jump_rad": 0.3957020281629241,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350002061948046,
+          0.3350256963575759,
+          0.19500768947106817
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 2.356194490192345,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.594423824196931e-05,
+        "max_ik_angle_error_rad": 3.056493730995212e-05,
+        "joint_path_jump_rad": 0.39570202669692967,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350003971847322,
+          0.33502569538068994,
+          0.19500768922653883
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 3.141592653589793,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.5943996590960003e-05,
+        "max_ik_angle_error_rad": 3.056244836932012e-05,
+        "joint_path_jump_rad": 0.3957020258499312,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350016570360036,
+          0.3350256951242752,
+          0.19500768900220555
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 3.9269908169872414,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.5942837766216195e-05,
+        "max_ik_angle_error_rad": 3.055105212759362e-05,
+        "joint_path_jump_rad": 0.39570201766584745,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350000934015336,
+          0.3350256938890926,
+          0.19500768877278463
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 4.71238898038469,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.5942532062457843e-05,
+        "max_ik_angle_error_rad": 3.053557499689895e-05,
+        "joint_path_jump_rad": 0.3957020100666314,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350001781547355,
+          0.3350256934508086,
+          0.19500768848855177
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 5.497787143782138,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.57858126837719e-05,
+        "max_ik_angle_error_rad": 2.692751249841863e-05,
+        "joint_path_jump_rad": 0.39569979875159983,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4349993772955295,
+          0.3350254869597158,
+          0.19500757589349263
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      }
+    ],
+    "baselines": {
+      "motion_only": 0,
+      "vision_only": 0,
+      "weighted": 0,
+      "analytic_and": 0,
+      "oracle_any": 0
+    },
+    "summary": {
+      "scene_id": 2,
+      "occluder": false,
+      "n_candidates": 8,
+      "feasible_count": 8,
+      "invisible_feasible_count": 0,
+      "visible_feasible_count": 8,
+      "conflict_with_alternative": false,
+      "motion_only_both": true,
+      "vision_only_both": true,
+      "weighted_both": true,
+      "analytic_and_both": true
+    }
+  },
+  {
+    "scene": {
+      "scene_id": 2,
+      "target": [
+        0.5128963716121544,
+        0.053210796880019465,
+        0.045
+      ],
+      "blocker": {
+        "center": [
+          0.5715507219904968,
+          0.0733022672516634,
+          0.135
+        ],
+        "half_extent": [
+          0.025,
+          0.025,
+          0.09
+        ]
+      },
+      "azimuth": 0.33001368371273315
+    },
+    "blocked": true,
+    "candidates": [
+      {
+        "yaw_rad": 0.0,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 4.3730926563747204e-07,
+        "max_ik_angle_error_rad": 2.2550254161463384e-06,
+        "joint_path_jump_rad": 0.3956457986477075,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": false,
+        "vis_fraction": 0.5,
+        "both": false,
+        "cam_depths_m": [
+          0.434999999503757,
+          0.335000206646806,
+          0.1949999325513796
+        ],
+        "occluded": [
+          false,
+          true,
+          true
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 0.7853981633974483,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.5724729947445366e-05,
+        "max_ik_angle_error_rad": 2.88674282074056e-05,
+        "joint_path_jump_rad": 0.39570052570581665,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350001003490836,
+          0.3350254520924534,
+          0.19500763021230288
+        ],
+        "occluded": [
+          false,
+          false,
+          true
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 1.5707963267948966,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.5945251125077747e-05,
+        "max_ik_angle_error_rad": 3.056432076479286e-05,
+        "joint_path_jump_rad": 0.3957020281629241,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350002061948046,
+          0.3350256963575759,
+          0.19500768947106817
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 2.356194490192345,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.594423824196931e-05,
+        "max_ik_angle_error_rad": 3.056493730995212e-05,
+        "joint_path_jump_rad": 0.39570202669692967,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350003971847322,
+          0.33502569538068994,
+          0.19500768922653883
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 3.141592653589793,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.5943996590960003e-05,
+        "max_ik_angle_error_rad": 3.056244836932012e-05,
+        "joint_path_jump_rad": 0.3957020258499312,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350016570360036,
+          0.3350256951242752,
+          0.19500768900220555
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 3.9269908169872414,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.5942837766216195e-05,
+        "max_ik_angle_error_rad": 3.055105212759362e-05,
+        "joint_path_jump_rad": 0.39570201766584745,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350000934015336,
+          0.3350256938890926,
+          0.19500768877278463
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 4.71238898038469,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.5942532062457843e-05,
+        "max_ik_angle_error_rad": 3.053557499689895e-05,
+        "joint_path_jump_rad": 0.3957020100666314,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350001781547355,
+          0.3350256934508086,
+          0.19500768848855177
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 5.497787143782138,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.57858126837719e-05,
+        "max_ik_angle_error_rad": 2.692751249841863e-05,
+        "joint_path_jump_rad": 0.39569979875159983,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4349993772955295,
+          0.3350254869597158,
+          0.19500757589349263
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      }
+    ],
+    "baselines": {
+      "motion_only": 0,
+      "vision_only": 1,
+      "weighted": 7,
+      "analytic_and": 1,
+      "oracle_any": 1
+    },
+    "summary": {
+      "scene_id": 2,
+      "occluder": true,
+      "n_candidates": 8,
+      "feasible_count": 8,
+      "invisible_feasible_count": 1,
+      "visible_feasible_count": 7,
+      "conflict_with_alternative": true,
+      "motion_only_both": false,
+      "vision_only_both": true,
+      "weighted_both": true,
+      "analytic_and_both": true
+    }
+  },
+  {
+    "scene": {
+      "scene_id": 3,
+      "target": [
+        0.47718533150544556,
+        0.04888775838544511,
+        0.045
+      ],
+      "blocker": {
+        "center": [
+          0.5212926439977684,
+          0.005315462316674742,
+          0.135
+        ],
+        "half_extent": [
+          0.025,
+          0.025,
+          0.09
+        ]
+      },
+      "azimuth": 5.503889016181599
+    },
+    "blocked": false,
+    "candidates": [
+      {
+        "yaw_rad": 0.0,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 0.0027979411734342058,
+        "max_ik_angle_error_rad": 0.017846314815168626,
+        "joint_path_jump_rad": 2.1087431189998003,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43569165372464935,
+          0.3350000010677146,
+          0.19502162008086715
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 0.7853981633974483,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 3.081854551144769e-05,
+        "max_ik_angle_error_rad": 4.466704214543143e-05,
+        "joint_path_jump_rad": 0.4226845486791697,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350001403738603,
+          0.3350307907746755,
+          0.19502165230514185
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 1.5707963267948966,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 3.081768445541299e-05,
+        "max_ik_angle_error_rad": 4.458546131541023e-05,
+        "joint_path_jump_rad": 0.42268452278893665,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350003205344365,
+          0.3350307901178541,
+          0.19502165109192482
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 2.356194490192345,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 0.002800396285550108,
+        "max_ik_angle_error_rad": 0.017840168321116873,
+        "joint_path_jump_rad": 2.112258476085367,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43569121460806526,
+          0.3350002566093351,
+          0.19502161642294602
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 3.141592653589793,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 0.002798427849428377,
+        "max_ik_angle_error_rad": 0.017845506424385555,
+        "joint_path_jump_rad": 2.111320314645118,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43569163067737554,
+          0.33500052774136524,
+          0.1950216153096664
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 3.9269908169872414,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 0.0027984554071423186,
+        "max_ik_angle_error_rad": 0.01784527050089106,
+        "joint_path_jump_rad": 2.1063540599180177,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4356916105890692,
+          0.33500034487495545,
+          0.19502161405253066
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 4.71238898038469,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 0.002798274093324193,
+        "max_ik_angle_error_rad": 0.017845583979598404,
+        "joint_path_jump_rad": 2.1102976077281426,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4356915832673939,
+          0.33500208093899786,
+          0.19502161216645644
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 5.497787143782138,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 0.0027982164099174776,
+        "max_ik_angle_error_rad": 0.01784679848845405,
+        "joint_path_jump_rad": 2.112507157937348,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4356916852778382,
+          0.3350004096545631,
+          0.19502161055049172
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      }
+    ],
+    "baselines": {
+      "motion_only": 2,
+      "vision_only": 0,
+      "weighted": 2,
+      "analytic_and": 0,
+      "oracle_any": 0
+    },
+    "summary": {
+      "scene_id": 3,
+      "occluder": false,
+      "n_candidates": 8,
+      "feasible_count": 8,
+      "invisible_feasible_count": 0,
+      "visible_feasible_count": 8,
+      "conflict_with_alternative": false,
+      "motion_only_both": true,
+      "vision_only_both": true,
+      "weighted_both": true,
+      "analytic_and_both": true
+    }
+  },
+  {
+    "scene": {
+      "scene_id": 3,
+      "target": [
+        0.47718533150544556,
+        0.04888775838544511,
+        0.045
+      ],
+      "blocker": {
+        "center": [
+          0.5212926439977684,
+          0.005315462316674742,
+          0.135
+        ],
+        "half_extent": [
+          0.025,
+          0.025,
+          0.09
+        ]
+      },
+      "azimuth": 5.503889016181599
+    },
+    "blocked": true,
+    "candidates": [
+      {
+        "yaw_rad": 0.0,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 0.0027979411734342058,
+        "max_ik_angle_error_rad": 0.017846314815168626,
+        "joint_path_jump_rad": 2.1087431189998003,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43569165372464935,
+          0.3350000010677146,
+          0.19502162008086715
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 0.7853981633974483,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 3.081854551144769e-05,
+        "max_ik_angle_error_rad": 4.466704214543143e-05,
+        "joint_path_jump_rad": 0.4226845486791697,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350001403738603,
+          0.3350307907746755,
+          0.19502165230514185
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 1.5707963267948966,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 3.081768445541299e-05,
+        "max_ik_angle_error_rad": 4.458546131541023e-05,
+        "joint_path_jump_rad": 0.42268452278893665,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350003205344365,
+          0.3350307901178541,
+          0.19502165109192482
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 2.356194490192345,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 0.002800396285550108,
+        "max_ik_angle_error_rad": 0.017840168321116873,
+        "joint_path_jump_rad": 2.112258476085367,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43569121460806526,
+          0.3350002566093351,
+          0.19502161642294602
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 3.141592653589793,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 0.002798427849428377,
+        "max_ik_angle_error_rad": 0.017845506424385555,
+        "joint_path_jump_rad": 2.111320314645118,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43569163067737554,
+          0.33500052774136524,
+          0.1950216153096664
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 3.9269908169872414,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 0.0027984554071423186,
+        "max_ik_angle_error_rad": 0.01784527050089106,
+        "joint_path_jump_rad": 2.1063540599180177,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4356916105890692,
+          0.33500034487495545,
+          0.19502161405253066
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 4.71238898038469,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 0.002798274093324193,
+        "max_ik_angle_error_rad": 0.017845583979598404,
+        "joint_path_jump_rad": 2.1102976077281426,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4356915832673939,
+          0.33500208093899786,
+          0.19502161216645644
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 5.497787143782138,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 0.0027982164099174776,
+        "max_ik_angle_error_rad": 0.01784679848845405,
+        "joint_path_jump_rad": 2.112507157937348,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": false,
+        "vis_fraction": 0.5,
+        "both": false,
+        "cam_depths_m": [
+          0.4356916852778382,
+          0.3350004096545631,
+          0.19502161055049172
+        ],
+        "occluded": [
+          false,
+          true,
+          true
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      }
+    ],
+    "baselines": {
+      "motion_only": 2,
+      "vision_only": 0,
+      "weighted": 2,
+      "analytic_and": 0,
+      "oracle_any": 0
+    },
+    "summary": {
+      "scene_id": 3,
+      "occluder": true,
+      "n_candidates": 8,
+      "feasible_count": 8,
+      "invisible_feasible_count": 1,
+      "visible_feasible_count": 7,
+      "conflict_with_alternative": true,
+      "motion_only_both": true,
+      "vision_only_both": true,
+      "weighted_both": true,
+      "analytic_and_both": true
+    }
+  },
+  {
+    "scene": {
+      "scene_id": 4,
+      "target": [
+        0.5102489755346613,
+        -0.05350518241930686,
+        0.045
+      ],
+      "blocker": {
+        "center": [
+          0.543246801609277,
+          -0.0010157218167305276,
+          0.135
+        ],
+        "half_extent": [
+          0.025,
+          0.025,
+          0.09
+        ]
+      },
+      "azimuth": 1.0095721363980068
+    },
+    "blocked": false,
+    "candidates": [
+      {
+        "yaw_rad": 0.0,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.6226104593831032e-05,
+        "max_ik_angle_error_rad": 3.0908746858621324e-05,
+        "joint_path_jump_rad": 0.3975221968891128,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4349977303680346,
+          0.3350259916133109,
+          0.19500827375282898
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 0.7853981633974483,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.6238013382686152e-05,
+        "max_ik_angle_error_rad": 3.105701018356098e-05,
+        "joint_path_jump_rad": 0.39752229609411255,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43500333344014963,
+          0.3350260045061263,
+          0.195008276124422
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 1.5707963267948966,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.6233278263300857e-05,
+        "max_ik_angle_error_rad": 3.105551087728795e-05,
+        "joint_path_jump_rad": 0.39752228297261244,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350001379040536,
+          0.33502599986863274,
+          0.19500827578334415
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 2.356194490192345,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.6234882623129982e-05,
+        "max_ik_angle_error_rad": 3.105813325604367e-05,
+        "joint_path_jump_rad": 0.39752229056543953,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43500326803573447,
+          0.33502600148687894,
+          0.19500827550494348
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 3.141592653589793,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.6231415224521975e-05,
+        "max_ik_angle_error_rad": 3.104508424229293e-05,
+        "joint_path_jump_rad": 0.3975222749008839,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43500000648319304,
+          0.3350259979763514,
+          0.19500827526440484
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 3.9269908169872414,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.6230962895226292e-05,
+        "max_ik_angle_error_rad": 3.103084007408512e-05,
+        "joint_path_jump_rad": 0.3975222676396426,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350000706674747,
+          0.33502599742237776,
+          0.1950082749904886
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 4.71238898038469,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.6230911263998946e-05,
+        "max_ik_angle_error_rad": 3.1008530603494666e-05,
+        "joint_path_jump_rad": 0.39752225762460947,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350002868975427,
+          0.3350259971848052,
+          0.19500827469890425
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 5.497787143782138,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.622929284924787e-05,
+        "max_ik_angle_error_rad": 3.097318127606956e-05,
+        "joint_path_jump_rad": 0.39752223675874776,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350012591224254,
+          0.33502599530453236,
+          0.19500827428918316
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      }
+    ],
+    "baselines": {
+      "motion_only": 0,
+      "vision_only": 0,
+      "weighted": 0,
+      "analytic_and": 0,
+      "oracle_any": 0
+    },
+    "summary": {
+      "scene_id": 4,
+      "occluder": false,
+      "n_candidates": 8,
+      "feasible_count": 8,
+      "invisible_feasible_count": 0,
+      "visible_feasible_count": 8,
+      "conflict_with_alternative": false,
+      "motion_only_both": true,
+      "vision_only_both": true,
+      "weighted_both": true,
+      "analytic_and_both": true
+    }
+  },
+  {
+    "scene": {
+      "scene_id": 4,
+      "target": [
+        0.5102489755346613,
+        -0.05350518241930686,
+        0.045
+      ],
+      "blocker": {
+        "center": [
+          0.543246801609277,
+          -0.0010157218167305276,
+          0.135
+        ],
+        "half_extent": [
+          0.025,
+          0.025,
+          0.09
+        ]
+      },
+      "azimuth": 1.0095721363980068
+    },
+    "blocked": true,
+    "candidates": [
+      {
+        "yaw_rad": 0.0,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.6226104593831032e-05,
+        "max_ik_angle_error_rad": 3.0908746858621324e-05,
+        "joint_path_jump_rad": 0.3975221968891128,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4349977303680346,
+          0.3350259916133109,
+          0.19500827375282898
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 0.7853981633974483,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.6238013382686152e-05,
+        "max_ik_angle_error_rad": 3.105701018356098e-05,
+        "joint_path_jump_rad": 0.39752229609411255,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43500333344014963,
+          0.3350260045061263,
+          0.195008276124422
+        ],
+        "occluded": [
+          false,
+          false,
+          true
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 1.5707963267948966,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.6233278263300857e-05,
+        "max_ik_angle_error_rad": 3.105551087728795e-05,
+        "joint_path_jump_rad": 0.39752228297261244,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350001379040536,
+          0.33502599986863274,
+          0.19500827578334415
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 2.356194490192345,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.6234882623129982e-05,
+        "max_ik_angle_error_rad": 3.105813325604367e-05,
+        "joint_path_jump_rad": 0.39752229056543953,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43500326803573447,
+          0.33502600148687894,
+          0.19500827550494348
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 3.141592653589793,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.6231415224521975e-05,
+        "max_ik_angle_error_rad": 3.104508424229293e-05,
+        "joint_path_jump_rad": 0.3975222749008839,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43500000648319304,
+          0.3350259979763514,
+          0.19500827526440484
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 3.9269908169872414,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.6230962895226292e-05,
+        "max_ik_angle_error_rad": 3.103084007408512e-05,
+        "joint_path_jump_rad": 0.3975222676396426,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350000706674747,
+          0.33502599742237776,
+          0.1950082749904886
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 4.71238898038469,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.6230911263998946e-05,
+        "max_ik_angle_error_rad": 3.1008530603494666e-05,
+        "joint_path_jump_rad": 0.39752225762460947,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350002868975427,
+          0.3350259971848052,
+          0.19500827469890425
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 5.497787143782138,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.622929284924787e-05,
+        "max_ik_angle_error_rad": 3.097318127606956e-05,
+        "joint_path_jump_rad": 0.39752223675874776,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350012591224254,
+          0.33502599530453236,
+          0.19500827428918316
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      }
+    ],
+    "baselines": {
+      "motion_only": 0,
+      "vision_only": 0,
+      "weighted": 0,
+      "analytic_and": 0,
+      "oracle_any": 0
+    },
+    "summary": {
+      "scene_id": 4,
+      "occluder": true,
+      "n_candidates": 8,
+      "feasible_count": 8,
+      "invisible_feasible_count": 0,
+      "visible_feasible_count": 8,
+      "conflict_with_alternative": false,
+      "motion_only_both": true,
+      "vision_only_both": true,
+      "weighted_both": true,
+      "analytic_and_both": true
+    }
+  },
+  {
+    "scene": {
+      "scene_id": 5,
+      "target": [
+        0.5081932756366117,
+        0.04174999004432438,
+        0.045
+      ],
+      "blocker": {
+        "center": [
+          0.5180305914425029,
+          0.1029645897549748,
+          0.135
+        ],
+        "half_extent": [
+          0.025,
+          0.025,
+          0.09
+        ]
+      },
+      "azimuth": 1.4114565475807914
+    },
+    "blocked": false,
+    "candidates": [
+      {
+        "yaw_rad": 0.0,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.8612978092015473e-06,
+        "max_ik_angle_error_rad": 8.81658682034103e-06,
+        "joint_path_jump_rad": 0.3996923430357823,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4349989569927542,
+          0.33500022655439554,
+          0.1949999293049248
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 0.7853981633974483,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.6591763275234253e-05,
+        "max_ik_angle_error_rad": 3.171358890473318e-05,
+        "joint_path_jump_rad": 0.3997455806288232,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43500000751992096,
+          0.33502637705307653,
+          0.19500904673978273
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 1.5707963267948966,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.6590256364207157e-05,
+        "max_ik_angle_error_rad": 3.1718285499760935e-05,
+        "joint_path_jump_rad": 0.39974558069855287,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350002976507425,
+          0.3350263756612353,
+          0.19500904637406563
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 2.356194490192345,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.6588902054008404e-05,
+        "max_ik_angle_error_rad": 3.171474752357029e-05,
+        "joint_path_jump_rad": 0.3997455766925532,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350000116304042,
+          0.33502637432781074,
+          0.19500904604749936
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 3.141592653589793,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.6588020773962774e-05,
+        "max_ik_angle_error_rad": 3.170485202415037e-05,
+        "joint_path_jump_rad": 0.3997455707923715,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350000457651693,
+          0.33502637340854896,
+          0.1950090457533465
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 3.9269908169872414,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.658754196746702e-05,
+        "max_ik_angle_error_rad": 3.168739799710513e-05,
+        "joint_path_jump_rad": 0.3997455622052457,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350000826600573,
+          0.33502637282461695,
+          0.1950090454600585
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 4.71238898038469,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 7.426770085464908e-07,
+        "max_ik_angle_error_rad": 5.374695409396505e-06,
+        "joint_path_jump_rad": 0.39969249066463447,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43499996604882585,
+          0.33500025428791486,
+          0.1950000287191951
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 5.497787143782138,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 4.0041844591281935e-07,
+        "max_ik_angle_error_rad": 2.5586835268015967e-06,
+        "joint_path_jump_rad": 0.3996922909968852,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4349999894206449,
+          0.33500023004171886,
+          0.19499993418799155
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      }
+    ],
+    "baselines": {
+      "motion_only": 7,
+      "vision_only": 0,
+      "weighted": 7,
+      "analytic_and": 0,
+      "oracle_any": 0
+    },
+    "summary": {
+      "scene_id": 5,
+      "occluder": false,
+      "n_candidates": 8,
+      "feasible_count": 8,
+      "invisible_feasible_count": 0,
+      "visible_feasible_count": 8,
+      "conflict_with_alternative": false,
+      "motion_only_both": true,
+      "vision_only_both": true,
+      "weighted_both": true,
+      "analytic_and_both": true
+    }
+  },
+  {
+    "scene": {
+      "scene_id": 5,
+      "target": [
+        0.5081932756366117,
+        0.04174999004432438,
+        0.045
+      ],
+      "blocker": {
+        "center": [
+          0.5180305914425029,
+          0.1029645897549748,
+          0.135
+        ],
+        "half_extent": [
+          0.025,
+          0.025,
+          0.09
+        ]
+      },
+      "azimuth": 1.4114565475807914
+    },
+    "blocked": true,
+    "candidates": [
+      {
+        "yaw_rad": 0.0,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.8612978092015473e-06,
+        "max_ik_angle_error_rad": 8.81658682034103e-06,
+        "joint_path_jump_rad": 0.3996923430357823,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4349989569927542,
+          0.33500022655439554,
+          0.1949999293049248
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 0.7853981633974483,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.6591763275234253e-05,
+        "max_ik_angle_error_rad": 3.171358890473318e-05,
+        "joint_path_jump_rad": 0.3997455806288232,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43500000751992096,
+          0.33502637705307653,
+          0.19500904673978273
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 1.5707963267948966,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.6590256364207157e-05,
+        "max_ik_angle_error_rad": 3.1718285499760935e-05,
+        "joint_path_jump_rad": 0.39974558069855287,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350002976507425,
+          0.3350263756612353,
+          0.19500904637406563
+        ],
+        "occluded": [
+          false,
+          false,
+          true
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 2.356194490192345,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.6588902054008404e-05,
+        "max_ik_angle_error_rad": 3.171474752357029e-05,
+        "joint_path_jump_rad": 0.3997455766925532,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350000116304042,
+          0.33502637432781074,
+          0.19500904604749936
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 3.141592653589793,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.6588020773962774e-05,
+        "max_ik_angle_error_rad": 3.170485202415037e-05,
+        "joint_path_jump_rad": 0.3997455707923715,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350000457651693,
+          0.33502637340854896,
+          0.1950090457533465
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 3.9269908169872414,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.658754196746702e-05,
+        "max_ik_angle_error_rad": 3.168739799710513e-05,
+        "joint_path_jump_rad": 0.3997455622052457,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350000826600573,
+          0.33502637282461695,
+          0.1950090454600585
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 4.71238898038469,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 7.426770085464908e-07,
+        "max_ik_angle_error_rad": 5.374695409396505e-06,
+        "joint_path_jump_rad": 0.39969249066463447,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43499996604882585,
+          0.33500025428791486,
+          0.1950000287191951
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 5.497787143782138,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 4.0041844591281935e-07,
+        "max_ik_angle_error_rad": 2.5586835268015967e-06,
+        "joint_path_jump_rad": 0.3996922909968852,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4349999894206449,
+          0.33500023004171886,
+          0.19499993418799155
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      }
+    ],
+    "baselines": {
+      "motion_only": 7,
+      "vision_only": 0,
+      "weighted": 7,
+      "analytic_and": 0,
+      "oracle_any": 0
+    },
+    "summary": {
+      "scene_id": 5,
+      "occluder": true,
+      "n_candidates": 8,
+      "feasible_count": 8,
+      "invisible_feasible_count": 0,
+      "visible_feasible_count": 8,
+      "conflict_with_alternative": false,
+      "motion_only_both": true,
+      "vision_only_both": true,
+      "weighted_both": true,
+      "analytic_and_both": true
+    }
+  },
+  {
+    "scene": {
+      "scene_id": 6,
+      "target": [
+        0.5079709477612782,
+        0.03694366693957003,
+        0.045
+      ],
+      "blocker": {
+        "center": [
+          0.5371326277034041,
+          0.0916574350692923,
+          0.135
+        ],
+        "half_extent": [
+          0.025,
+          0.025,
+          0.09
+        ]
+      },
+      "azimuth": 1.08110934770375
+    },
+    "blocked": false,
+    "candidates": [
+      {
+        "yaw_rad": 0.0,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 4.520579648993529e-06,
+        "max_ik_angle_error_rad": 2.2344568327263948e-05,
+        "joint_path_jump_rad": 0.4001154852023123,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4349981655666311,
+          0.33500022870635265,
+          0.19499992896369217
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 0.7853981633974483,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.6660163083446757e-05,
+        "max_ik_angle_error_rad": 3.18484976258081e-05,
+        "joint_path_jump_rad": 0.40016837100665065,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350000038235609,
+          0.33502644900044526,
+          0.1950092003786781
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 1.5707963267948966,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.6658497118349087e-05,
+        "max_ik_angle_error_rad": 3.185250876396839e-05,
+        "joint_path_jump_rad": 0.40016837032061536,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350000502404964,
+          0.33502644744707677,
+          0.19500919998881094
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 2.356194490192345,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.6657232998716555e-05,
+        "max_ik_angle_error_rad": 3.1848790618670335e-05,
+        "joint_path_jump_rad": 0.4001683666635859,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43500000009825174,
+          0.3350264462112423,
+          0.1950091996487559
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 3.141592653589793,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.6661169162135442e-05,
+        "max_ik_angle_error_rad": 3.184593305596239e-05,
+        "joint_path_jump_rad": 0.40016837873882405,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43500473809427426,
+          0.33502645009078447,
+          0.19500919935229577
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 3.9269908169872414,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.6655894578712178e-05,
+        "max_ik_angle_error_rad": 3.181928244886641e-05,
+        "joint_path_jump_rad": 0.400168351272359,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43500000055286137,
+          0.33502644470990706,
+          0.19500919905563505
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 4.71238898038469,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.6770864811044424e-05,
+        "max_ik_angle_error_rad": 2.9243236385270778e-05,
+        "joint_path_jump_rad": 0.40016746667594655,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350011806045309,
+          0.33502652517887505,
+          0.19500913289869176
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 5.497787143782138,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 3.2732013893658404e-06,
+        "max_ik_angle_error_rad": 4.795159782359445e-06,
+        "joint_path_jump_rad": 0.4001154317238474,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4349982377849371,
+          0.33500023212846,
+          0.19499993388822137
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      }
+    ],
+    "baselines": {
+      "motion_only": 7,
+      "vision_only": 0,
+      "weighted": 7,
+      "analytic_and": 0,
+      "oracle_any": 0
+    },
+    "summary": {
+      "scene_id": 6,
+      "occluder": false,
+      "n_candidates": 8,
+      "feasible_count": 8,
+      "invisible_feasible_count": 0,
+      "visible_feasible_count": 8,
+      "conflict_with_alternative": false,
+      "motion_only_both": true,
+      "vision_only_both": true,
+      "weighted_both": true,
+      "analytic_and_both": true
+    }
+  },
+  {
+    "scene": {
+      "scene_id": 6,
+      "target": [
+        0.5079709477612782,
+        0.03694366693957003,
+        0.045
+      ],
+      "blocker": {
+        "center": [
+          0.5371326277034041,
+          0.0916574350692923,
+          0.135
+        ],
+        "half_extent": [
+          0.025,
+          0.025,
+          0.09
+        ]
+      },
+      "azimuth": 1.08110934770375
+    },
+    "blocked": true,
+    "candidates": [
+      {
+        "yaw_rad": 0.0,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 4.520579648993529e-06,
+        "max_ik_angle_error_rad": 2.2344568327263948e-05,
+        "joint_path_jump_rad": 0.4001154852023123,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4349981655666311,
+          0.33500022870635265,
+          0.19499992896369217
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 0.7853981633974483,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.6660163083446757e-05,
+        "max_ik_angle_error_rad": 3.18484976258081e-05,
+        "joint_path_jump_rad": 0.40016837100665065,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350000038235609,
+          0.33502644900044526,
+          0.1950092003786781
+        ],
+        "occluded": [
+          false,
+          false,
+          true
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 1.5707963267948966,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.6658497118349087e-05,
+        "max_ik_angle_error_rad": 3.185250876396839e-05,
+        "joint_path_jump_rad": 0.40016837032061536,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350000502404964,
+          0.33502644744707677,
+          0.19500919998881094
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 2.356194490192345,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.6657232998716555e-05,
+        "max_ik_angle_error_rad": 3.1848790618670335e-05,
+        "joint_path_jump_rad": 0.4001683666635859,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43500000009825174,
+          0.3350264462112423,
+          0.1950091996487559
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 3.141592653589793,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.6661169162135442e-05,
+        "max_ik_angle_error_rad": 3.184593305596239e-05,
+        "joint_path_jump_rad": 0.40016837873882405,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43500473809427426,
+          0.33502645009078447,
+          0.19500919935229577
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 3.9269908169872414,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.6655894578712178e-05,
+        "max_ik_angle_error_rad": 3.181928244886641e-05,
+        "joint_path_jump_rad": 0.400168351272359,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43500000055286137,
+          0.33502644470990706,
+          0.19500919905563505
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 4.71238898038469,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.6770864811044424e-05,
+        "max_ik_angle_error_rad": 2.9243236385270778e-05,
+        "joint_path_jump_rad": 0.40016746667594655,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350011806045309,
+          0.33502652517887505,
+          0.19500913289869176
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 5.497787143782138,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 3.2732013893658404e-06,
+        "max_ik_angle_error_rad": 4.795159782359445e-06,
+        "joint_path_jump_rad": 0.4001154317238474,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4349982377849371,
+          0.33500023212846,
+          0.19499993388822137
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      }
+    ],
+    "baselines": {
+      "motion_only": 7,
+      "vision_only": 0,
+      "weighted": 7,
+      "analytic_and": 0,
+      "oracle_any": 0
+    },
+    "summary": {
+      "scene_id": 6,
+      "occluder": true,
+      "n_candidates": 8,
+      "feasible_count": 8,
+      "invisible_feasible_count": 0,
+      "visible_feasible_count": 8,
+      "conflict_with_alternative": false,
+      "motion_only_both": true,
+      "vision_only_both": true,
+      "weighted_both": true,
+      "analytic_and_both": true
+    }
+  },
+  {
+    "scene": {
+      "scene_id": 7,
+      "target": [
+        0.4717627689493663,
+        -0.024444855450178653,
+        0.045
+      ],
+      "blocker": {
+        "center": [
+          0.45856205691557583,
+          0.03613353345049234,
+          0.135
+        ],
+        "half_extent": [
+          0.025,
+          0.025,
+          0.09
+        ]
+      },
+      "azimuth": 1.7853534326057876
+    },
+    "blocked": false,
+    "candidates": [
+      {
+        "yaw_rad": 0.0,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 3.232478058485479e-05,
+        "max_ik_angle_error_rad": 4.656070758149636e-05,
+        "joint_path_jump_rad": 0.4286609455985532,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43500000118303056,
+          0.335032321490948,
+          0.19502680926609106
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 0.7853981633974483,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 0.0004595035336700574,
+        "max_ik_angle_error_rad": 0.002865414963349721,
+        "joint_path_jump_rad": 7.410233694079796,
+        "tool_axis_box_intersection": false,
+        "feasible": false,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": false,
+        "cam_depths_m": [
+          0.43512959124772077,
+          0.33500000285833026,
+          0.1949999183217859
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 1.5707963267948966,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 3.2319804376041516e-05,
+        "max_ik_angle_error_rad": 5.022789698740332e-05,
+        "joint_path_jump_rad": 0.4286625731086967,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350000781624458,
+          0.33503231768934894,
+          0.19502682485494716
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 2.356194490192345,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 3.232199525475605e-05,
+        "max_ik_angle_error_rad": 4.999153825630816e-05,
+        "joint_path_jump_rad": 0.42866248663018003,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43500150396678783,
+          0.3350323198799708,
+          0.1950268232873918
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 3.141592653589793,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 3.2320949626054694e-05,
+        "max_ik_angle_error_rad": 4.967282757837116e-05,
+        "joint_path_jump_rad": 0.42866234862058106,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350000010189504,
+          0.33503231879711765,
+          0.19502682161792095
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 3.9269908169872414,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 3.232166457087651e-05,
+        "max_ik_angle_error_rad": 4.925244459465366e-05,
+        "joint_path_jump_rad": 0.42866216750478064,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43500000863821287,
+          0.33503231943079015,
+          0.1950268197207312
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 4.71238898038469,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 0.0004542199844340302,
+        "max_ik_angle_error_rad": 0.002874127107049759,
+        "joint_path_jump_rad": 7.0614858220235295,
+        "tool_axis_box_intersection": false,
+        "feasible": false,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": false,
+        "cam_depths_m": [
+          0.43512996386884134,
+          0.33499969404745794,
+          0.19499989263796633
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 5.497787143782138,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 0.0004602327290435045,
+        "max_ik_angle_error_rad": 0.0028586149237835264,
+        "joint_path_jump_rad": 7.411358115457771,
+        "tool_axis_box_intersection": false,
+        "feasible": false,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": false,
+        "cam_depths_m": [
+          0.43512936380803097,
+          0.33499874282881853,
+          0.19499991090082705
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      }
+    ],
+    "baselines": {
+      "motion_only": 0,
+      "vision_only": 0,
+      "weighted": 0,
+      "analytic_and": 0,
+      "oracle_any": 0
+    },
+    "summary": {
+      "scene_id": 7,
+      "occluder": false,
+      "n_candidates": 8,
+      "feasible_count": 5,
+      "invisible_feasible_count": 0,
+      "visible_feasible_count": 5,
+      "conflict_with_alternative": false,
+      "motion_only_both": true,
+      "vision_only_both": true,
+      "weighted_both": true,
+      "analytic_and_both": true
+    }
+  },
+  {
+    "scene": {
+      "scene_id": 7,
+      "target": [
+        0.4717627689493663,
+        -0.024444855450178653,
+        0.045
+      ],
+      "blocker": {
+        "center": [
+          0.45856205691557583,
+          0.03613353345049234,
+          0.135
+        ],
+        "half_extent": [
+          0.025,
+          0.025,
+          0.09
+        ]
+      },
+      "azimuth": 1.7853534326057876
+    },
+    "blocked": true,
+    "candidates": [
+      {
+        "yaw_rad": 0.0,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 3.232478058485479e-05,
+        "max_ik_angle_error_rad": 4.656070758149636e-05,
+        "joint_path_jump_rad": 0.4286609455985532,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43500000118303056,
+          0.335032321490948,
+          0.19502680926609106
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 0.7853981633974483,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 0.0004595035336700574,
+        "max_ik_angle_error_rad": 0.002865414963349721,
+        "joint_path_jump_rad": 7.410233694079796,
+        "tool_axis_box_intersection": false,
+        "feasible": false,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": false,
+        "cam_depths_m": [
+          0.43512959124772077,
+          0.33500000285833026,
+          0.1949999183217859
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 1.5707963267948966,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 3.2319804376041516e-05,
+        "max_ik_angle_error_rad": 5.022789698740332e-05,
+        "joint_path_jump_rad": 0.4286625731086967,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350000781624458,
+          0.33503231768934894,
+          0.19502682485494716
+        ],
+        "occluded": [
+          false,
+          false,
+          true
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 2.356194490192345,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 3.232199525475605e-05,
+        "max_ik_angle_error_rad": 4.999153825630816e-05,
+        "joint_path_jump_rad": 0.42866248663018003,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43500150396678783,
+          0.3350323198799708,
+          0.1950268232873918
+        ],
+        "occluded": [
+          false,
+          false,
+          true
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 3.141592653589793,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 3.2320949626054694e-05,
+        "max_ik_angle_error_rad": 4.967282757837116e-05,
+        "joint_path_jump_rad": 0.42866234862058106,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350000010189504,
+          0.33503231879711765,
+          0.19502682161792095
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 3.9269908169872414,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 3.232166457087651e-05,
+        "max_ik_angle_error_rad": 4.925244459465366e-05,
+        "joint_path_jump_rad": 0.42866216750478064,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43500000863821287,
+          0.33503231943079015,
+          0.1950268197207312
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 4.71238898038469,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 0.0004542199844340302,
+        "max_ik_angle_error_rad": 0.002874127107049759,
+        "joint_path_jump_rad": 7.0614858220235295,
+        "tool_axis_box_intersection": false,
+        "feasible": false,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": false,
+        "cam_depths_m": [
+          0.43512996386884134,
+          0.33499969404745794,
+          0.19499989263796633
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 5.497787143782138,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 0.0004602327290435045,
+        "max_ik_angle_error_rad": 0.0028586149237835264,
+        "joint_path_jump_rad": 7.411358115457771,
+        "tool_axis_box_intersection": false,
+        "feasible": false,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": false,
+        "cam_depths_m": [
+          0.43512936380803097,
+          0.33499874282881853,
+          0.19499991090082705
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      }
+    ],
+    "baselines": {
+      "motion_only": 0,
+      "vision_only": 0,
+      "weighted": 0,
+      "analytic_and": 0,
+      "oracle_any": 0
+    },
+    "summary": {
+      "scene_id": 7,
+      "occluder": true,
+      "n_candidates": 8,
+      "feasible_count": 5,
+      "invisible_feasible_count": 0,
+      "visible_feasible_count": 5,
+      "conflict_with_alternative": false,
+      "motion_only_both": true,
+      "vision_only_both": true,
+      "weighted_both": true,
+      "analytic_and_both": true
+    }
+  },
+  {
+    "scene": {
+      "scene_id": 8,
+      "target": [
+        0.4924244876568543,
+        -0.01826344780753105,
+        0.045
+      ],
+      "blocker": {
+        "center": [
+          0.5194447635411883,
+          0.03753892392642378,
+          0.135
+        ],
+        "half_extent": [
+          0.025,
+          0.025,
+          0.09
+        ]
+      },
+      "azimuth": 1.1198572831264793
+    },
+    "blocked": false,
+    "candidates": [
+      {
+        "yaw_rad": 0.0,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.87571337939272e-05,
+        "max_ik_angle_error_rad": 3.722873313661997e-05,
+        "joint_path_jump_rad": 0.4124018659166475,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350011472083449,
+          0.3350286473171576,
+          0.19501479249787151
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 0.7853981633974483,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 0.0070247961722194425,
+        "max_ik_angle_error_rad": 0.044764811420416814,
+        "joint_path_jump_rad": 7.439608045093804,
+        "tool_axis_box_intersection": false,
+        "feasible": false,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": false,
+        "cam_depths_m": [
+          0.43621084617277506,
+          0.33500000179975503,
+          0.19499993911092822
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 1.5707963267948966,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.875330750644414e-05,
+        "max_ik_angle_error_rad": 3.721112187152991e-05,
+        "joint_path_jump_rad": 0.41240186072486845,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350014935203084,
+          0.33502864401722815,
+          0.1950147909005891
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 2.356194490192345,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.8750829479455334e-05,
+        "max_ik_angle_error_rad": 3.717003376190556e-05,
+        "joint_path_jump_rad": 0.41240183896773164,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350002837546566,
+          0.3350286415249493,
+          0.19501479023562993
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 3.141592653589793,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.875196970798443e-05,
+        "max_ik_angle_error_rad": 3.711477983663091e-05,
+        "joint_path_jump_rad": 0.412401821258654,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43500217024699545,
+          0.33502864251846076,
+          0.19501478961730162
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 3.9269908169872414,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.8749419528330094e-05,
+        "max_ik_angle_error_rad": 3.7025372692197496e-05,
+        "joint_path_jump_rad": 0.41240177558177116,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.435000003405273,
+          0.3350286396285458,
+          0.19501478894070245
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 4.71238898038469,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.8749432765380445e-05,
+        "max_ik_angle_error_rad": 3.6903545141950585e-05,
+        "joint_path_jump_rad": 0.4124017228143841,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43500001439688885,
+          0.33502863910143915,
+          0.1950147881541024
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 5.497787143782138,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.8749913426657322e-05,
+        "max_ik_angle_error_rad": 3.672337814659547e-05,
+        "joint_path_jump_rad": 0.412401644509019,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43500000077641504,
+          0.3350286387133166,
+          0.19501478711603498
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      }
+    ],
+    "baselines": {
+      "motion_only": 7,
+      "vision_only": 0,
+      "weighted": 7,
+      "analytic_and": 0,
+      "oracle_any": 0
+    },
+    "summary": {
+      "scene_id": 8,
+      "occluder": false,
+      "n_candidates": 8,
+      "feasible_count": 7,
+      "invisible_feasible_count": 0,
+      "visible_feasible_count": 7,
+      "conflict_with_alternative": false,
+      "motion_only_both": true,
+      "vision_only_both": true,
+      "weighted_both": true,
+      "analytic_and_both": true
+    }
+  },
+  {
+    "scene": {
+      "scene_id": 8,
+      "target": [
+        0.4924244876568543,
+        -0.01826344780753105,
+        0.045
+      ],
+      "blocker": {
+        "center": [
+          0.5194447635411883,
+          0.03753892392642378,
+          0.135
+        ],
+        "half_extent": [
+          0.025,
+          0.025,
+          0.09
+        ]
+      },
+      "azimuth": 1.1198572831264793
+    },
+    "blocked": true,
+    "candidates": [
+      {
+        "yaw_rad": 0.0,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.87571337939272e-05,
+        "max_ik_angle_error_rad": 3.722873313661997e-05,
+        "joint_path_jump_rad": 0.4124018659166475,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350011472083449,
+          0.3350286473171576,
+          0.19501479249787151
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 0.7853981633974483,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 0.0070247961722194425,
+        "max_ik_angle_error_rad": 0.044764811420416814,
+        "joint_path_jump_rad": 7.439608045093804,
+        "tool_axis_box_intersection": false,
+        "feasible": false,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": false,
+        "cam_depths_m": [
+          0.43621084617277506,
+          0.33500000179975503,
+          0.19499993911092822
+        ],
+        "occluded": [
+          false,
+          false,
+          true
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 1.5707963267948966,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.875330750644414e-05,
+        "max_ik_angle_error_rad": 3.721112187152991e-05,
+        "joint_path_jump_rad": 0.41240186072486845,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350014935203084,
+          0.33502864401722815,
+          0.1950147909005891
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 2.356194490192345,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.8750829479455334e-05,
+        "max_ik_angle_error_rad": 3.717003376190556e-05,
+        "joint_path_jump_rad": 0.41240183896773164,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350002837546566,
+          0.3350286415249493,
+          0.19501479023562993
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 3.141592653589793,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.875196970798443e-05,
+        "max_ik_angle_error_rad": 3.711477983663091e-05,
+        "joint_path_jump_rad": 0.412401821258654,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43500217024699545,
+          0.33502864251846076,
+          0.19501478961730162
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 3.9269908169872414,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.8749419528330094e-05,
+        "max_ik_angle_error_rad": 3.7025372692197496e-05,
+        "joint_path_jump_rad": 0.41240177558177116,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.435000003405273,
+          0.3350286396285458,
+          0.19501478894070245
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 4.71238898038469,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.8749432765380445e-05,
+        "max_ik_angle_error_rad": 3.6903545141950585e-05,
+        "joint_path_jump_rad": 0.4124017228143841,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43500001439688885,
+          0.33502863910143915,
+          0.1950147881541024
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 5.497787143782138,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.8749913426657322e-05,
+        "max_ik_angle_error_rad": 3.672337814659547e-05,
+        "joint_path_jump_rad": 0.412401644509019,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43500000077641504,
+          0.3350286387133166,
+          0.19501478711603498
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      }
+    ],
+    "baselines": {
+      "motion_only": 7,
+      "vision_only": 0,
+      "weighted": 7,
+      "analytic_and": 0,
+      "oracle_any": 0
+    },
+    "summary": {
+      "scene_id": 8,
+      "occluder": true,
+      "n_candidates": 8,
+      "feasible_count": 7,
+      "invisible_feasible_count": 0,
+      "visible_feasible_count": 7,
+      "conflict_with_alternative": false,
+      "motion_only_both": true,
+      "vision_only_both": true,
+      "weighted_both": true,
+      "analytic_and_both": true
+    }
+  },
+  {
+    "scene": {
+      "scene_id": 9,
+      "target": [
+        0.436944280112987,
+        -0.030960902197285586,
+        0.045
+      ],
+      "blocker": {
+        "center": [
+          0.4986352092564309,
+          -0.03714388379345643,
+          0.135
+        ],
+        "half_extent": [
+          0.025,
+          0.025,
+          0.09
+        ]
+      },
+      "azimuth": 6.183293755413348
+    },
+    "blocked": false,
+    "candidates": [
+      {
+        "yaw_rad": 0.0,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 8.00666012844129e-05,
+        "max_ik_angle_error_rad": 8.669469991938515e-05,
+        "joint_path_jump_rad": 0.4592484040208381,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350000155114064,
+          0.33500001801424406,
+          0.19507507929684254
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 0.7853981633974483,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 0.004140062431183046,
+        "max_ik_angle_error_rad": 0.0255473040277598,
+        "joint_path_jump_rad": 2.1564014808439715,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350000212875872,
+          0.33699978371686684,
+          0.1950004675409152
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 1.5707963267948966,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 0.00414010723218224,
+        "max_ik_angle_error_rad": 0.025547795423147376,
+        "joint_path_jump_rad": 2.1574540837994274,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43500007277066466,
+          0.33699979559895543,
+          0.19501667830271358
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 2.356194490192345,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 8.019156351021849e-05,
+        "max_ik_angle_error_rad": 8.661815316856408e-05,
+        "joint_path_jump_rad": 0.4592480829843221,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43500048475152714,
+          0.3350000163707963,
+          0.19507520528991062
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 3.141592653589793,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 8.018026473960877e-05,
+        "max_ik_angle_error_rad": 8.661654867626778e-05,
+        "joint_path_jump_rad": 0.45924812052640446,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350000609787685,
+          0.3350000164509599,
+          0.19507519397028442
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 3.9269908169872414,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 0.004139779902473063,
+        "max_ik_angle_error_rad": 0.02554742698841718,
+        "joint_path_jump_rad": 2.153375483620032,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350000011650173,
+          0.3369996364958685,
+          0.19500000183422322
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 4.71238898038469,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 0.004139699694567846,
+        "max_ik_angle_error_rad": 0.025547982042025887,
+        "joint_path_jump_rad": 2.155421179330977,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350000766459178,
+          0.3369996581227852,
+          0.19501642899060412
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 5.497787143782138,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 0.004139215939234789,
+        "max_ik_angle_error_rad": 0.025549221708787453,
+        "joint_path_jump_rad": 2.15474461696572,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43500000217478113,
+          0.33699988980995466,
+          0.19500050632266458
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      }
+    ],
+    "baselines": {
+      "motion_only": 3,
+      "vision_only": 0,
+      "weighted": 3,
+      "analytic_and": 0,
+      "oracle_any": 0
+    },
+    "summary": {
+      "scene_id": 9,
+      "occluder": false,
+      "n_candidates": 8,
+      "feasible_count": 8,
+      "invisible_feasible_count": 0,
+      "visible_feasible_count": 8,
+      "conflict_with_alternative": false,
+      "motion_only_both": true,
+      "vision_only_both": true,
+      "weighted_both": true,
+      "analytic_and_both": true
+    }
+  },
+  {
+    "scene": {
+      "scene_id": 9,
+      "target": [
+        0.436944280112987,
+        -0.030960902197285586,
+        0.045
+      ],
+      "blocker": {
+        "center": [
+          0.4986352092564309,
+          -0.03714388379345643,
+          0.135
+        ],
+        "half_extent": [
+          0.025,
+          0.025,
+          0.09
+        ]
+      },
+      "azimuth": 6.183293755413348
+    },
+    "blocked": true,
+    "candidates": [
+      {
+        "yaw_rad": 0.0,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 8.00666012844129e-05,
+        "max_ik_angle_error_rad": 8.669469991938515e-05,
+        "joint_path_jump_rad": 0.4592484040208381,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350000155114064,
+          0.33500001801424406,
+          0.19507507929684254
+        ],
+        "occluded": [
+          false,
+          false,
+          true
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 0.7853981633974483,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 0.004140062431183046,
+        "max_ik_angle_error_rad": 0.0255473040277598,
+        "joint_path_jump_rad": 2.1564014808439715,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350000212875872,
+          0.33699978371686684,
+          0.1950004675409152
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 1.5707963267948966,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 0.00414010723218224,
+        "max_ik_angle_error_rad": 0.025547795423147376,
+        "joint_path_jump_rad": 2.1574540837994274,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43500007277066466,
+          0.33699979559895543,
+          0.19501667830271358
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 2.356194490192345,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 8.019156351021849e-05,
+        "max_ik_angle_error_rad": 8.661815316856408e-05,
+        "joint_path_jump_rad": 0.4592480829843221,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43500048475152714,
+          0.3350000163707963,
+          0.19507520528991062
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 3.141592653589793,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 8.018026473960877e-05,
+        "max_ik_angle_error_rad": 8.661654867626778e-05,
+        "joint_path_jump_rad": 0.45924812052640446,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350000609787685,
+          0.3350000164509599,
+          0.19507519397028442
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 3.9269908169872414,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 0.004139779902473063,
+        "max_ik_angle_error_rad": 0.02554742698841718,
+        "joint_path_jump_rad": 2.153375483620032,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350000011650173,
+          0.3369996364958685,
+          0.19500000183422322
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 4.71238898038469,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 0.004139699694567846,
+        "max_ik_angle_error_rad": 0.025547982042025887,
+        "joint_path_jump_rad": 2.155421179330977,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350000766459178,
+          0.3369996581227852,
+          0.19501642899060412
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 5.497787143782138,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 0.004139215939234789,
+        "max_ik_angle_error_rad": 0.025549221708787453,
+        "joint_path_jump_rad": 2.15474461696572,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43500000217478113,
+          0.33699988980995466,
+          0.19500050632266458
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      }
+    ],
+    "baselines": {
+      "motion_only": 3,
+      "vision_only": 0,
+      "weighted": 3,
+      "analytic_and": 0,
+      "oracle_any": 0
+    },
+    "summary": {
+      "scene_id": 9,
+      "occluder": true,
+      "n_candidates": 8,
+      "feasible_count": 8,
+      "invisible_feasible_count": 0,
+      "visible_feasible_count": 8,
+      "conflict_with_alternative": false,
+      "motion_only_both": true,
+      "vision_only_both": true,
+      "weighted_both": true,
+      "analytic_and_both": true
+    }
+  },
+  {
+    "scene": {
+      "scene_id": 10,
+      "target": [
+        0.5038550590153428,
+        0.011535947621484674,
+        0.045
+      ],
+      "blocker": {
+        "center": [
+          0.49600783258293657,
+          0.07303733815306977,
+          0.135
+        ],
+        "half_extent": [
+          0.025,
+          0.025,
+          0.09
+        ]
+      },
+      "azimuth": 1.697704881068212
+    },
+    "blocked": false,
+    "candidates": [
+      {
+        "yaw_rad": 0.0,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.7296166688554277e-05,
+        "max_ik_angle_error_rad": 3.32021483287437e-05,
+        "joint_path_jump_rad": 0.4040137565850858,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350004925916027,
+          0.33502711678412,
+          0.1950107094389473
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 0.7853981633974483,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 0.010675644420144566,
+        "max_ik_angle_error_rad": 0.06791003195046484,
+        "joint_path_jump_rad": 2.124207931162887,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43615095062064585,
+          0.3350000001986525,
+          0.19501069251869918
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 1.5707963267948966,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.7291196996414776e-05,
+        "max_ik_angle_error_rad": 3.32140457745034e-05,
+        "joint_path_jump_rad": 0.4040137549348036,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43500007703990146,
+          0.33502711220786763,
+          0.19501070835740328
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 2.356194490192345,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.7291589207811993e-05,
+        "max_ik_angle_error_rad": 3.320690796422876e-05,
+        "joint_path_jump_rad": 0.4040137552905891,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43500173824263944,
+          0.3350271126241222,
+          0.19501070795898898
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 3.141592653589793,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.7291765056189516e-05,
+        "max_ik_angle_error_rad": 3.318852343405429e-05,
+        "joint_path_jump_rad": 0.4040137492645554,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43500269332628777,
+          0.33502711272524477,
+          0.19501070757447372
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 3.9269908169872414,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 0.010675607325530304,
+        "max_ik_angle_error_rad": 0.06790954951833206,
+        "joint_path_jump_rad": 2.1270651882155915,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4361509534990491,
+          0.33500048552455675,
+          0.19501069103959479
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 4.71238898038469,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 0.01067562807840943,
+        "max_ik_angle_error_rad": 0.06790975960328478,
+        "joint_path_jump_rad": 2.1253250191178585,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43615096121685304,
+          0.33500152122110444,
+          0.19501069098776797
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 5.497787143782138,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.7289422479217875e-05,
+        "max_ik_angle_error_rad": 3.303453374513503e-05,
+        "joint_path_jump_rad": 0.4040136745128067,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43500129620004374,
+          0.3350271094287281,
+          0.19501070616957905
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      }
+    ],
+    "baselines": {
+      "motion_only": 7,
+      "vision_only": 0,
+      "weighted": 7,
+      "analytic_and": 0,
+      "oracle_any": 0
+    },
+    "summary": {
+      "scene_id": 10,
+      "occluder": false,
+      "n_candidates": 8,
+      "feasible_count": 8,
+      "invisible_feasible_count": 0,
+      "visible_feasible_count": 8,
+      "conflict_with_alternative": false,
+      "motion_only_both": true,
+      "vision_only_both": true,
+      "weighted_both": true,
+      "analytic_and_both": true
+    }
+  },
+  {
+    "scene": {
+      "scene_id": 10,
+      "target": [
+        0.5038550590153428,
+        0.011535947621484674,
+        0.045
+      ],
+      "blocker": {
+        "center": [
+          0.49600783258293657,
+          0.07303733815306977,
+          0.135
+        ],
+        "half_extent": [
+          0.025,
+          0.025,
+          0.09
+        ]
+      },
+      "azimuth": 1.697704881068212
+    },
+    "blocked": true,
+    "candidates": [
+      {
+        "yaw_rad": 0.0,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.7296166688554277e-05,
+        "max_ik_angle_error_rad": 3.32021483287437e-05,
+        "joint_path_jump_rad": 0.4040137565850858,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350004925916027,
+          0.33502711678412,
+          0.1950107094389473
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 0.7853981633974483,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 0.010675644420144566,
+        "max_ik_angle_error_rad": 0.06791003195046484,
+        "joint_path_jump_rad": 2.124207931162887,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43615095062064585,
+          0.3350000001986525,
+          0.19501069251869918
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 1.5707963267948966,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.7291196996414776e-05,
+        "max_ik_angle_error_rad": 3.32140457745034e-05,
+        "joint_path_jump_rad": 0.4040137549348036,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43500007703990146,
+          0.33502711220786763,
+          0.19501070835740328
+        ],
+        "occluded": [
+          false,
+          false,
+          true
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 2.356194490192345,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.7291589207811993e-05,
+        "max_ik_angle_error_rad": 3.320690796422876e-05,
+        "joint_path_jump_rad": 0.4040137552905891,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43500173824263944,
+          0.3350271126241222,
+          0.19501070795898898
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 3.141592653589793,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.7291765056189516e-05,
+        "max_ik_angle_error_rad": 3.318852343405429e-05,
+        "joint_path_jump_rad": 0.4040137492645554,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43500269332628777,
+          0.33502711272524477,
+          0.19501070757447372
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 3.9269908169872414,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 0.010675607325530304,
+        "max_ik_angle_error_rad": 0.06790954951833206,
+        "joint_path_jump_rad": 2.1270651882155915,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4361509534990491,
+          0.33500048552455675,
+          0.19501069103959479
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 4.71238898038469,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 0.01067562807840943,
+        "max_ik_angle_error_rad": 0.06790975960328478,
+        "joint_path_jump_rad": 2.1253250191178585,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43615096121685304,
+          0.33500152122110444,
+          0.19501069098776797
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 5.497787143782138,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 2.7289422479217875e-05,
+        "max_ik_angle_error_rad": 3.303453374513503e-05,
+        "joint_path_jump_rad": 0.4040136745128067,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43500129620004374,
+          0.3350271094287281,
+          0.19501070616957905
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      }
+    ],
+    "baselines": {
+      "motion_only": 7,
+      "vision_only": 0,
+      "weighted": 7,
+      "analytic_and": 0,
+      "oracle_any": 0
+    },
+    "summary": {
+      "scene_id": 10,
+      "occluder": true,
+      "n_candidates": 8,
+      "feasible_count": 8,
+      "invisible_feasible_count": 0,
+      "visible_feasible_count": 8,
+      "conflict_with_alternative": false,
+      "motion_only_both": true,
+      "vision_only_both": true,
+      "weighted_both": true,
+      "analytic_and_both": true
+    }
+  },
+  {
+    "scene": {
+      "scene_id": 11,
+      "target": [
+        0.4609640575754043,
+        0.047295901556627454,
+        0.045
+      ],
+      "blocker": {
+        "center": [
+          0.40167350179674444,
+          0.06542405632918007,
+          0.135
+        ],
+        "half_extent": [
+          0.025,
+          0.025,
+          0.09
+        ]
+      },
+      "azimuth": 2.8448679749626793
+    },
+    "blocked": false,
+    "candidates": [
+      {
+        "yaw_rad": 0.0,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 0.011571993520523967,
+        "max_ik_angle_error_rad": 0.07257767086886034,
+        "joint_path_jump_rad": 2.1742399830984978,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350003984878546,
+          0.3392454416929167,
+          0.19502026311301002
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 0.7853981633974483,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 3.781615566946333e-05,
+        "max_ik_angle_error_rad": 5.894781762619814e-05,
+        "joint_path_jump_rad": 0.43631435089078024,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43500005281747667,
+          0.3350349115654293,
+          0.19503503482937265
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 1.5707963267948966,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 0.01157190980927274,
+        "max_ik_angle_error_rad": 0.0725777276965061,
+        "joint_path_jump_rad": 2.172912980352711,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350001216058934,
+          0.33924546444322123,
+          0.19500889282962025
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 2.356194490192345,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 0.01157190341054155,
+        "max_ik_angle_error_rad": 0.07257774618150399,
+        "joint_path_jump_rad": 2.1723081804080175,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43500010741813605,
+          0.33924544189684325,
+          0.19501770152288683
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 3.141592653589793,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 0.011572121258217303,
+        "max_ik_angle_error_rad": 0.07257726146199048,
+        "joint_path_jump_rad": 2.172806754090784,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350003725974354,
+          0.3392455001419937,
+          0.19500004094808834
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 3.9269908169872414,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 0.011571900667417864,
+        "max_ik_angle_error_rad": 0.07257783171485406,
+        "joint_path_jump_rad": 2.1739831401295633,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350003346211573,
+          0.3392454524644496,
+          0.19500050918541176
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 4.71238898038469,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 0.01157190669163292,
+        "max_ik_angle_error_rad": 0.07257779660967278,
+        "joint_path_jump_rad": 2.1736880641300584,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43500058840407485,
+          0.33924545748588825,
+          0.1950072079885758
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 5.497787143782138,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 0.01157209197047733,
+        "max_ik_angle_error_rad": 0.07257736217785457,
+        "joint_path_jump_rad": 2.1738771497028786,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350000086959409,
+          0.3392453833775409,
+          0.19500001007206202
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      }
+    ],
+    "baselines": {
+      "motion_only": 1,
+      "vision_only": 0,
+      "weighted": 1,
+      "analytic_and": 0,
+      "oracle_any": 0
+    },
+    "summary": {
+      "scene_id": 11,
+      "occluder": false,
+      "n_candidates": 8,
+      "feasible_count": 8,
+      "invisible_feasible_count": 0,
+      "visible_feasible_count": 8,
+      "conflict_with_alternative": false,
+      "motion_only_both": true,
+      "vision_only_both": true,
+      "weighted_both": true,
+      "analytic_and_both": true
+    }
+  },
+  {
+    "scene": {
+      "scene_id": 11,
+      "target": [
+        0.4609640575754043,
+        0.047295901556627454,
+        0.045
+      ],
+      "blocker": {
+        "center": [
+          0.40167350179674444,
+          0.06542405632918007,
+          0.135
+        ],
+        "half_extent": [
+          0.025,
+          0.025,
+          0.09
+        ]
+      },
+      "azimuth": 2.8448679749626793
+    },
+    "blocked": true,
+    "candidates": [
+      {
+        "yaw_rad": 0.0,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 0.011571993520523967,
+        "max_ik_angle_error_rad": 0.07257767086886034,
+        "joint_path_jump_rad": 2.1742399830984978,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350003984878546,
+          0.3392454416929167,
+          0.19502026311301002
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 0.7853981633974483,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 3.781615566946333e-05,
+        "max_ik_angle_error_rad": 5.894781762619814e-05,
+        "joint_path_jump_rad": 0.43631435089078024,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43500005281747667,
+          0.3350349115654293,
+          0.19503503482937265
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 1.5707963267948966,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 0.01157190980927274,
+        "max_ik_angle_error_rad": 0.0725777276965061,
+        "joint_path_jump_rad": 2.172912980352711,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350001216058934,
+          0.33924546444322123,
+          0.19500889282962025
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 2.356194490192345,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 0.01157190341054155,
+        "max_ik_angle_error_rad": 0.07257774618150399,
+        "joint_path_jump_rad": 2.1723081804080175,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43500010741813605,
+          0.33924544189684325,
+          0.19501770152288683
+        ],
+        "occluded": [
+          false,
+          false,
+          true
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 3.141592653589793,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 0.011572121258217303,
+        "max_ik_angle_error_rad": 0.07257726146199048,
+        "joint_path_jump_rad": 2.172806754090784,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": false,
+        "vis_fraction": 0.5,
+        "both": false,
+        "cam_depths_m": [
+          0.4350003725974354,
+          0.3392455001419937,
+          0.19500004094808834
+        ],
+        "occluded": [
+          false,
+          true,
+          true
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 3.9269908169872414,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 0.011571900667417864,
+        "max_ik_angle_error_rad": 0.07257783171485406,
+        "joint_path_jump_rad": 2.1739831401295633,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350003346211573,
+          0.3392454524644496,
+          0.19500050918541176
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 4.71238898038469,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 0.01157190669163292,
+        "max_ik_angle_error_rad": 0.07257779660967278,
+        "joint_path_jump_rad": 2.1736880641300584,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.43500058840407485,
+          0.33924545748588825,
+          0.1950072079885758
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      },
+      {
+        "yaw_rad": 5.497787143782138,
+        "goal_same": true,
+        "ik_reached": true,
+        "max_ik_pos_error_m": 0.01157209197047733,
+        "max_ik_angle_error_rad": 0.07257736217785457,
+        "joint_path_jump_rad": 2.1738771497028786,
+        "tool_axis_box_intersection": false,
+        "feasible": true,
+        "observable": true,
+        "vis_fraction": 1.0,
+        "both": true,
+        "cam_depths_m": [
+          0.4350000086959409,
+          0.3392453833775409,
+          0.19500001007206202
+        ],
+        "occluded": [
+          false,
+          false,
+          false
+        ],
+        "notes": "No physical execution; IK joint interpolation/tool collision self-occlusion not verified."
+      }
+    ],
+    "baselines": {
+      "motion_only": 1,
+      "vision_only": 0,
+      "weighted": 1,
+      "analytic_and": 0,
+      "oracle_any": 0
+    },
+    "summary": {
+      "scene_id": 11,
+      "occluder": true,
+      "n_candidates": 8,
+      "feasible_count": 8,
+      "invisible_feasible_count": 1,
+      "visible_feasible_count": 7,
+      "conflict_with_alternative": true,
+      "motion_only_both": true,
+      "vision_only_both": true,
+      "weighted_both": true,
+      "analytic_and_both": true
+    }
+  }
+]

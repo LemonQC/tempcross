@@ -27,3 +27,8 @@ jobs:
           assert d['scientific_gate']=='ONLY_GEOMETRY_PROBE_NOT_A_TRO_GO'
           print('All proxy-only interpretation gates validated.')
           PY
+      - name: Verify official model extraction and v1 artifact integrity
+        run: |
+          python scripts/build_models.py
+          git diff --exit-code -- configs/validation
+          python scripts/audit_results.py evidence/v1

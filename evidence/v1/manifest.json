@@ -1,0 +1,35 @@
+{
+  "status": "PROXY_ONLY",
+  "scientific_decision": "INSUFFICIENT_EVIDENCE",
+  "seeds": [
+    314159,
+    271828,
+    161803,
+    141421
+  ],
+  "n_per_seed": 9,
+  "seconds": 183.21183643024415,
+  "python": "3.12.16",
+  "numpy": "2.5.4",
+  "source_hashes": {
+    "docs/VALIDATION_PROTOCOL.md": "6db439d20beb11be59a12c2083bbb2003bee72872bd45565925399df21b59200",
+    "configs/validation/panda.json": "d0d49606100bbeac5eaffd92224bfefea391a275f1e3bb1e65619348d6d88f15",
+    "configs/validation/sr5.json": "875bfcead0e3fac90a31545192001583ab2c9c80a61aa971b0eb8f752dedecdd",
+    "coftvalidation/__init__.py": "b04732fb88f36ced83c488e46e8dc4aa73dfaa8ac5054249adde0206e9f7c5ab",
+    "coftvalidation/experiment.py": "4ce22199c45b50dcd7094b8c685a5575bd41bbfdb3a588e36fc3aeeb0952a566",
+    "coftvalidation/geometry.py": "47b92fb2b469d7876ca76f31e54fcf80789de5efb027364cbf009f5cf299b076",
+    "coftvalidation/model.py": "1e666a257b691255e54452ce0dfe77e7fe5076d71a039a8179006a5135c3db2a",
+    "coftvalidation/report.py": "34b386b833df3ce6f66bece7ca3a51aa1c974629d6b0428fd992a3f8bfca2d60",
+    "coftvalidation/scene.py": "8722dd159790008b256cf4962510f915c780d82089aaf12abf8cd0f37e6a78b3",
+    "vendor/franka/LICENSE": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9",
+    "vendor/franka/franka_arm.xacro": "5250eceb90296803ae32cd86189edeba4ab977cdfadfdddeb5a44860f4b9ec4e",
+    "vendor/franka/joint_limits.yaml": "c531201d06715a3c90a9d793748b14d83f5b512c007dd56e3dc712eee6106ec7",
+    "vendor/rokae/LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "vendor/rokae/xMateSR5.urdf.xacro": "06c3ed79f75edfaedc74141eb665a96d28e63aaae969fe045a790a7d8767e6a7"
+  },
+  "solver_nfev": {
+    "panda": 861393,
+    "sr5": 55045
+  },
+  "independent_execution_outcomes": 0
+}

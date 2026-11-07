@@ -1,0 +1,20 @@
+# COFT analytical pilot (PROXY_NOT_CALIBRATED)
+
+Same-goal counterfactual, scene pairs: 12; yaw candidates: 8; seed: 20261107.
+
+- Geometric conflict **with** feasible observable alternative (blocked scenes): **33.3%**
+- Motion-only chosen candidate both-feasible-and-visible: **91.7%**
+- Visibility-only chosen candidate both: **100.0%**
+- Weighted/simple selector both: **100.0%**
+- Analytic conjunction (same candidate pool) solves: **100.0%**
+
+**Interpretation:** COUNTERFACTUAL_DIFFERENCE_OBSERVED. Algorithm novelty: NOT ESTABLISHED. A geometry conflict alone cannot justify T-RO or a learned COFT architecture. Review the analytic baseline before planning learning experiments.
+
+**Limitations:**
+- This is NOT real policy success or robot execution; no motion physics, contact dynamics, friction or force.
+- Only TCP-axis obstacle proxy; no finger/robot meshes or robot self-collision; IK solves each waypoint only.
+- Visibility checks one object center with 2 approach frames, axis-aligned boxes, no sensor noise/self occlusion.
+- Sample mount/camera parameters are NOT measured; any result in proxy mode is software-only.
+- Analytic conjunction is an equal-information strong baseline: if it solves the proxy, no learned algorithm novelty is established.
+- No source embodiment is modeled in v0; NOT a validated cross-embodiment transfer experiment.
+- Candidate gripper yaw invariance assumes a rotationally symmetric cylinder and equal task outcome.

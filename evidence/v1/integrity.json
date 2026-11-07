@@ -1,0 +1,70 @@
+{
+  "complete": true,
+  "scene_robot_obstacle_records": 144,
+  "candidate_robot_obstacle_records": 1152,
+  "optical_factorial_candidate_records": 2304,
+  "source_hashes_match": true,
+  "independent_execution_outcomes": 0,
+  "pure_kinematic_search_delta_sr5_minus_panda": {
+    "mean": 0.004629629629629629,
+    "ci95": [
+      -0.1574074074074074,
+      0.14814814814814814
+    ],
+    "n_scenes": 27
+  },
+  "failure_examples": {
+    "panda/interpolated_tracking_error": {
+      "scene": "314159-0",
+      "blocked": false,
+      "candidate": 3
+    },
+    "panda/hand_environment_proxy": {
+      "scene": "314159-1",
+      "blocked": true,
+      "candidate": 0
+    },
+    "sr5/hand_environment_proxy": {
+      "scene": "314159-1",
+      "blocked": true,
+      "candidate": 0
+    },
+    "sr5/arm_environment_proxy": {
+      "scene": "314159-2",
+      "blocked": false,
+      "candidate": 0
+    },
+    "panda/arm_environment_proxy": {
+      "scene": "314159-5",
+      "blocked": true,
+      "candidate": 0
+    },
+    "panda/carried_object_proxy": {
+      "scene": "314159-5",
+      "blocked": true,
+      "candidate": 0
+    },
+    "sr5/carried_object_proxy": {
+      "scene": "314159-5",
+      "blocked": true,
+      "candidate": 0
+    },
+    "panda/IK_SEARCH_FAILED_UNKNOWN_REACHABILITY": {
+      "scene": "314159-7",
+      "blocked": false,
+      "candidate": 1
+    },
+    "sr5/IK_SEARCH_FAILED_UNKNOWN_REACHABILITY": {
+      "scene": "314159-7",
+      "blocked": false,
+      "candidate": 3
+    },
+    "sr5/interpolated_tracking_error": {
+      "scene": "271828-2",
+      "blocked": false,
+      "candidate": 0
+    }
+  },
+  "actual_visibility_exploratory": true,
+  "visibility_note": "Main factorial uses desired path to isolate mount from IK. Achieved FK+robot proxy occlusion is an exploratory geometric diagnostic, not an independent success endpoint."
+}

@@ -1,0 +1,26 @@
+{
+  "mode": "PROXY_NOT_CALIBRATED",
+  "hypothesis": "Feasible target-arm actions may create different wrist visibility under the same task effect",
+  "seed": 20261107,
+  "n_scene_pairs": 12,
+  "n_candidates_per_scene": 8,
+  "scene_source": "SYNTHETIC",
+  "blocked_conflict_with_alternative_rate": 0.3333333333333333,
+  "blocked_analytic_and_success_rate": 1.0,
+  "blocked_motion_only_success_rate": 0.9166666666666666,
+  "blocked_vision_only_success_rate": 1.0,
+  "blocked_weighted_success_rate": 1.0,
+  "open_analytic_and_success_rate": 1.0,
+  "geometry_evidence": "COUNTERFACTUAL_DIFFERENCE_OBSERVED",
+  "algorithm_novelty": "NOT_ESTABLISHED",
+  "scientific_gate": "ONLY_GEOMETRY_PROBE_NOT_A_TRO_GO",
+  "limitations": [
+    "This is NOT real policy success or robot execution; no motion physics, contact dynamics, friction or force.",
+    "Only TCP-axis obstacle proxy; no finger/robot meshes or robot self-collision; IK solves each waypoint only.",
+    "Visibility checks one object center with 2 approach frames, axis-aligned boxes, no sensor noise/self occlusion.",
+    "Sample mount/camera parameters are NOT measured; any result in proxy mode is software-only.",
+    "Analytic conjunction is an equal-information strong baseline: if it solves the proxy, no learned algorithm novelty is established.",
+    "No source embodiment is modeled in v0; NOT a validated cross-embodiment transfer experiment.",
+    "Candidate gripper yaw invariance assumes a rotationally symmetric cylinder and equal task outcome."
+  ]
+}

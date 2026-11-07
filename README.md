@@ -1,5 +1,16 @@
 # COFT SR5: Cross-Embodiment Executability × Observability Hypothesis Probe
 
+> **2026-11-07 正式审计已完成：PROXY_ONLY / INSUFFICIENT_EVIDENCE。**
+> 阅读 [验证报告](docs/VALIDATION_REPORT.md)、[创新性审计](docs/NOVELTY_AUDIT.md) 和 [下一阶段决定](docs/NEXT_STAGE.md)。
+> v0 的 `analytic_and` 100% 是同标签筛选的覆盖／自洽检查，不能作为算法有效性或任务成功率。
+> 原 v0 代码与配置保留。独立 v1：`coftvalidation/`，正式原始数据：`evidence/v1/`。
+>
+> 复现：`python -m venv .venv`；`.venv/bin/pip install -r requirements-validation.lock`；
+> `OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 scripts/run_validation.sh`；
+> `.venv/bin/python scripts/audit_results.py evidence/v1`。
+> 两条官方运动链已验证，但真实工具／相机、官方网格碰撞与独立闭环结局仍未通过证据门槛。
+
+
 **Status: v0 analytical pilot only; NOT a trained model or a validated T-RO contribution.**
 
 Hardware target: **ROKAE SR5-5/0.9C** 6-DoF, **PGIA-140-80-W** two-finger gripper, **Intel RealSense D435i** eye-in-hand. This experiment uses Python only. It does **not** need ROS, large GPU training, a custom robotics simulator, or direct real-robot control.

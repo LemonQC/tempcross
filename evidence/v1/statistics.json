@@ -1,0 +1,421 @@
+{
+  "panda/mount_a/ik_found": {
+    "mean": 0.8657407407407407,
+    "ci95": [
+      0.7638888888888888,
+      0.9490740740740741
+    ],
+    "n_scenes": 27
+  },
+  "panda/mount_a/feasible_proxy": {
+    "mean": 0.37962962962962965,
+    "ci95": [
+      0.23148148148148148,
+      0.5416666666666666
+    ],
+    "n_scenes": 27
+  },
+  "panda/mount_a/observable_proxy": {
+    "mean": 0.7916666666666666,
+    "ci95": [
+      0.7592592592592593,
+      0.8287037037037037
+    ],
+    "n_scenes": 27
+  },
+  "panda/mount_a/conjunction_proxy": {
+    "mean": 0.2962962962962963,
+    "ci95": [
+      0.18055555555555555,
+      0.42592592592592593
+    ],
+    "n_scenes": 27
+  },
+  "panda/mount_a/conflict_with_alternative": {
+    "mean": 0.4074074074074074,
+    "ci95": [
+      0.2222222222222222,
+      0.5925925925925926
+    ],
+    "n_scenes": 27
+  },
+  "panda/mount_b/ik_found": {
+    "mean": 0.8657407407407407,
+    "ci95": [
+      0.7638888888888888,
+      0.9490740740740741
+    ],
+    "n_scenes": 27
+  },
+  "panda/mount_b/feasible_proxy": {
+    "mean": 0.37962962962962965,
+    "ci95": [
+      0.23148148148148148,
+      0.5416666666666666
+    ],
+    "n_scenes": 27
+  },
+  "panda/mount_b/observable_proxy": {
+    "mean": 0.8194444444444444,
+    "ci95": [
+      0.7777777777777778,
+      0.8657407407407407
+    ],
+    "n_scenes": 27
+  },
+  "panda/mount_b/conjunction_proxy": {
+    "mean": 0.3101851851851852,
+    "ci95": [
+      0.18518518518518517,
+      0.4444444444444444
+    ],
+    "n_scenes": 27
+  },
+  "panda/mount_b/conflict_with_alternative": {
+    "mean": 0.3333333333333333,
+    "ci95": [
+      0.14814814814814814,
+      0.5185185185185185
+    ],
+    "n_scenes": 27
+  },
+  "sr5/mount_a/ik_found": {
+    "mean": 0.8703703703703703,
+    "ci95": [
+      0.7407407407407407,
+      0.9814814814814815
+    ],
+    "n_scenes": 27
+  },
+  "sr5/mount_a/feasible_proxy": {
+    "mean": 0.10648148148148148,
+    "ci95": [
+      0.013888888888888888,
+      0.2177083333333327
+    ],
+    "n_scenes": 27
+  },
+  "sr5/mount_a/observable_proxy": {
+    "mean": 0.7916666666666666,
+    "ci95": [
+      0.7592592592592593,
+      0.8287037037037037
+    ],
+    "n_scenes": 27
+  },
+  "sr5/mount_a/conjunction_proxy": {
+    "mean": 0.08333333333333333,
+    "ci95": [
+      0.013888888888888888,
+      0.16666666666666666
+    ],
+    "n_scenes": 27
+  },
+  "sr5/mount_a/conflict_with_alternative": {
+    "mean": 0.1111111111111111,
+    "ci95": [
+      0.0,
+      0.25925925925925924
+    ],
+    "n_scenes": 27
+  },
+  "sr5/mount_b/ik_found": {
+    "mean": 0.8703703703703703,
+    "ci95": [
+      0.7407407407407407,
+      0.9814814814814815
+    ],
+    "n_scenes": 27
+  },
+  "sr5/mount_b/feasible_proxy": {
+    "mean": 0.10648148148148148,
+    "ci95": [
+      0.013888888888888888,
+      0.2177083333333327
+    ],
+    "n_scenes": 27
+  },
+  "sr5/mount_b/observable_proxy": {
+    "mean": 0.8194444444444444,
+    "ci95": [
+      0.7777777777777778,
+      0.8657407407407407
+    ],
+    "n_scenes": 27
+  },
+  "sr5/mount_b/conjunction_proxy": {
+    "mean": 0.08333333333333333,
+    "ci95": [
+      0.013888888888888888,
+      0.16666666666666666
+    ],
+    "n_scenes": 27
+  },
+  "sr5/mount_b/conflict_with_alternative": {
+    "mean": 0.1111111111111111,
+    "ci95": [
+      0.0,
+      0.25925925925925924
+    ],
+    "n_scenes": 27
+  },
+  "arm_feasibility_delta": {
+    "mean": -0.27314814814814814,
+    "ci95": [
+      -0.44907407407407407,
+      -0.10648148148148148
+    ],
+    "n_scenes": 27
+  },
+  "factorial_conjunction_interaction": {
+    "mean": -0.013888888888888888,
+    "ci95": [
+      -0.05092592592592592,
+      0.018634259259258625
+    ],
+    "n_scenes": 27
+  },
+  "source_valid_target_invalid_candidates": 69,
+  "reverse_candidates": 10,
+  "exploratory_scene_sign_test": {
+    "positive": 3,
+    "negative": 12,
+    "p": 0.03515625
+  },
+  "baseline/panda/mount_a/analytic_and": {
+    "mean": 0.5555555555555556,
+    "ci95": [
+      0.37037037037037035,
+      0.7407407407407407
+    ],
+    "n_scenes": 27
+  },
+  "baseline/panda/mount_a/geometry_planning": {
+    "mean": 0.5555555555555556,
+    "ci95": [
+      0.37037037037037035,
+      0.7407407407407407
+    ],
+    "n_scenes": 27
+  },
+  "baseline/panda/mount_a/ik_collision": {
+    "mean": 0.48148148148148145,
+    "ci95": [
+      0.2962962962962963,
+      0.6666666666666666
+    ],
+    "n_scenes": 27
+  },
+  "baseline/panda/mount_a/ik_only": {
+    "mean": 0.48148148148148145,
+    "ci95": [
+      0.2962962962962963,
+      0.6666666666666666
+    ],
+    "n_scenes": 27
+  },
+  "baseline/panda/mount_a/same_information_mpc": {
+    "mean": 0.5555555555555556,
+    "ci95": [
+      0.37037037037037035,
+      0.7407407407407407
+    ],
+    "n_scenes": 27
+  },
+  "baseline/panda/mount_a/visibility_only": {
+    "mean": 0.4074074074074074,
+    "ci95": [
+      0.2222222222222222,
+      0.5925925925925926
+    ],
+    "n_scenes": 27
+  },
+  "baseline/panda/mount_a/weighted_feasibility": {
+    "mean": 0.5555555555555556,
+    "ci95": [
+      0.37037037037037035,
+      0.7407407407407407
+    ],
+    "n_scenes": 27
+  },
+  "baseline/panda/mount_b/analytic_and": {
+    "mean": 0.5555555555555556,
+    "ci95": [
+      0.37037037037037035,
+      0.7407407407407407
+    ],
+    "n_scenes": 27
+  },
+  "baseline/panda/mount_b/geometry_planning": {
+    "mean": 0.5555555555555556,
+    "ci95": [
+      0.37037037037037035,
+      0.7407407407407407
+    ],
+    "n_scenes": 27
+  },
+  "baseline/panda/mount_b/ik_collision": {
+    "mean": 0.5185185185185185,
+    "ci95": [
+      0.3333333333333333,
+      0.7037037037037037
+    ],
+    "n_scenes": 27
+  },
+  "baseline/panda/mount_b/ik_only": {
+    "mean": 0.5185185185185185,
+    "ci95": [
+      0.3333333333333333,
+      0.7037037037037037
+    ],
+    "n_scenes": 27
+  },
+  "baseline/panda/mount_b/same_information_mpc": {
+    "mean": 0.5555555555555556,
+    "ci95": [
+      0.37037037037037035,
+      0.7407407407407407
+    ],
+    "n_scenes": 27
+  },
+  "baseline/panda/mount_b/visibility_only": {
+    "mean": 0.4074074074074074,
+    "ci95": [
+      0.2222222222222222,
+      0.5925925925925926
+    ],
+    "n_scenes": 27
+  },
+  "baseline/panda/mount_b/weighted_feasibility": {
+    "mean": 0.5555555555555556,
+    "ci95": [
+      0.37037037037037035,
+      0.7407407407407407
+    ],
+    "n_scenes": 27
+  },
+  "baseline/sr5/mount_a/analytic_and": {
+    "mean": 0.14814814814814814,
+    "ci95": [
+      0.037037037037037035,
+      0.2962962962962963
+    ],
+    "n_scenes": 27
+  },
+  "baseline/sr5/mount_a/geometry_planning": {
+    "mean": 0.14814814814814814,
+    "ci95": [
+      0.037037037037037035,
+      0.2962962962962963
+    ],
+    "n_scenes": 27
+  },
+  "baseline/sr5/mount_a/ik_collision": {
+    "mean": 0.14814814814814814,
+    "ci95": [
+      0.037037037037037035,
+      0.2962962962962963
+    ],
+    "n_scenes": 27
+  },
+  "baseline/sr5/mount_a/ik_only": {
+    "mean": 0.1111111111111111,
+    "ci95": [
+      0.0,
+      0.2222222222222222
+    ],
+    "n_scenes": 27
+  },
+  "baseline/sr5/mount_a/same_information_mpc": {
+    "mean": 0.14814814814814814,
+    "ci95": [
+      0.037037037037037035,
+      0.2962962962962963
+    ],
+    "n_scenes": 27
+  },
+  "baseline/sr5/mount_a/visibility_only": {
+    "mean": 0.1111111111111111,
+    "ci95": [
+      0.0,
+      0.2222222222222222
+    ],
+    "n_scenes": 27
+  },
+  "baseline/sr5/mount_a/weighted_feasibility": {
+    "mean": 0.14814814814814814,
+    "ci95": [
+      0.037037037037037035,
+      0.2962962962962963
+    ],
+    "n_scenes": 27
+  },
+  "baseline/sr5/mount_b/analytic_and": {
+    "mean": 0.14814814814814814,
+    "ci95": [
+      0.037037037037037035,
+      0.2962962962962963
+    ],
+    "n_scenes": 27
+  },
+  "baseline/sr5/mount_b/geometry_planning": {
+    "mean": 0.14814814814814814,
+    "ci95": [
+      0.037037037037037035,
+      0.2962962962962963
+    ],
+    "n_scenes": 27
+  },
+  "baseline/sr5/mount_b/ik_collision": {
+    "mean": 0.14814814814814814,
+    "ci95": [
+      0.037037037037037035,
+      0.2962962962962963
+    ],
+    "n_scenes": 27
+  },
+  "baseline/sr5/mount_b/ik_only": {
+    "mean": 0.1111111111111111,
+    "ci95": [
+      0.0,
+      0.2222222222222222
+    ],
+    "n_scenes": 27
+  },
+  "baseline/sr5/mount_b/same_information_mpc": {
+    "mean": 0.14814814814814814,
+    "ci95": [
+      0.037037037037037035,
+      0.2962962962962963
+    ],
+    "n_scenes": 27
+  },
+  "baseline/sr5/mount_b/visibility_only": {
+    "mean": 0.1111111111111111,
+    "ci95": [
+      0.0,
+      0.2222222222222222
+    ],
+    "n_scenes": 27
+  },
+  "baseline/sr5/mount_b/weighted_feasibility": {
+    "mean": 0.14814814814814814,
+    "ci95": [
+      0.037037037037037035,
+      0.2962962962962963
+    ],
+    "n_scenes": 27
+  },
+  "failure_candidate_counts": {
+    "panda/interpolated_tracking_error": 46,
+    "panda/arm_environment_proxy": 29,
+    "sr5/arm_environment_proxy": 152,
+    "panda/carried_object_proxy": 36,
+    "panda/hand_environment_proxy": 75,
+    "panda/IK_SEARCH_FAILED_UNKNOWN_REACHABILITY": 29,
+    "sr5/carried_object_proxy": 24,
+    "sr5/hand_environment_proxy": 58,
+    "sr5/interpolated_tracking_error": 28,
+    "sr5/IK_SEARCH_FAILED_UNKNOWN_REACHABILITY": 28
+  }
+}
