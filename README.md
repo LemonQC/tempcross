@@ -12,7 +12,7 @@ A source robot demonstration may be geometrically executable on the target arm y
 
 ## Run
 
-Download the source archive in this repository, extract it, then run:
+Clone this repository (all source code is directly visible), then run:
 
 ```bash
 python -m venv .venv
@@ -48,10 +48,10 @@ python -m coftprobe.experiment --mode measured \
   --out results/measured
 ```
 
-Measuring geometry is not the same as real manipulation evaluation; no policy or collision-free full-trajectory guarantee is implied.
+Only change the template status to `MEASURED` after actually replacing its example numbers with measurements. Measuring geometry is not the same as real manipulation evaluation; no policy or collision-free full-trajectory guarantee is implied.
 
 ## Source and limitations
 
 Six revolute joint origins, axes and limits were transcribed from [ROKAE official xMateSR5 URDF](https://github.com/RokaeRobot/rokae_ros2/blob/main/rokae_description/urdf/xMateSR5.urdf.xacro) (upstream Apache-2.0). Exact variant, TCP and camera mounts must be checked against the actual robot. The tool model is a simple TCP line; robot/hand mesh collisions, gripper finger occlusion, dynamics, contact and history-dependent observability are out of scope.
 
-This repo is a strictly **limited preliminary test** of an idea. Even if a geometric conflict exists, demonstrating T-RO novelty would additionally require strong joint-geometry planning baselines, real cross-embodiment source-to-target policy transfer, and closed-loop simulation/real robot results. See detailed README in the source archive for scientific gating, caveats and tests.
+This repo is a strictly **limited preliminary test** of an idea. Even if a geometric conflict exists, demonstrating T-RO novelty would additionally require strong joint-geometry planning baselines, real cross-embodiment source-to-target policy transfer, and closed-loop simulation/real robot results. See the code and tests in this repository for scientific gating, caveats and tests.
