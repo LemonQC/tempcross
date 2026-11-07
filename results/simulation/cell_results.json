@@ -1,0 +1,46 @@
+[
+  {
+    "method": "no_reps",
+    "robot": "ur5e",
+    "planned_episodes": 20,
+    "started_episodes": 0,
+    "completed_episodes": 0,
+    "successes": null,
+    "success_rate": null,
+    "ci95": null,
+    "status": "NOT_RUN_P0_BLOCKED"
+  },
+  {
+    "method": "no_reps",
+    "robot": "panda",
+    "planned_episodes": 20,
+    "started_episodes": 0,
+    "completed_episodes": 0,
+    "successes": null,
+    "success_rate": null,
+    "ci95": null,
+    "status": "NOT_RUN_P0_BLOCKED"
+  },
+  {
+    "method": "joint_reps",
+    "robot": "ur5e",
+    "planned_episodes": 20,
+    "started_episodes": 0,
+    "completed_episodes": 0,
+    "successes": null,
+    "success_rate": null,
+    "ci95": null,
+    "status": "NOT_RUN_P0_BLOCKED"
+  },
+  {
+    "method": "joint_reps",
+    "robot": "panda",
+    "planned_episodes": 20,
+    "started_episodes": 0,
+    "completed_episodes": 0,
+    "successes": null,
+    "success_rate": null,
+    "ci95": null,
+    "status": "NOT_RUN_P0_BLOCKED"
+  }
+]

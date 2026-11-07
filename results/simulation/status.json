@@ -1,0 +1,30 @@
+{
+  "status": "P0_BLOCKED",
+  "base_commit": "808f0ab19b1fb0be6bbc9f20445744ab8db8b87a",
+  "official_commit": "0f435089f48b1f16d225f868dbef855a5e75d1e0",
+  "repair_rounds": 2,
+  "valid_p0_rollouts": {
+    "ur5e": 0,
+    "panda": 0
+  },
+  "p1_completed": 0,
+  "independent_physical_task_outcomes": 0,
+  "policy_inference_tested": false,
+  "official_test_status": "LOCKED_ENV_FAILED_6_IMPORT_ERRORS; MINIMAL_ENV_76_TESTS_OK_1_SIMULATOR_SKIP",
+  "conclusion": "NO_SCIENTIFIC_DECISION_P0_BLOCKED",
+  "failure_cases": [],
+  "video_count": 0,
+  "source_unmodified": true,
+  "code_hashes": {
+    "simulation_validation/__init__.py": "7c02fc647eae89a7f2548ebafe3327eb8e21d7d123f077f8f0652579143041cb",
+    "simulation_validation/download_inference.py": "9d41be2f661a5c9215b68f71e1316babddc5ac0700515e5e19c39e3c95f0146f",
+    "simulation_validation/download_ranges.py": "dd3c3b774d0dbb12d377dd6f2dbcf6301bef45129a0cb90921d955abdd4fe407",
+    "simulation_validation/gate.py": "37b2e9076557369c0dbaf97050678a9b11d734013c92e856c461a3b9b2e5c46a",
+    "simulation_validation/inventory.py": "beee9a2436e18b27d695b1923c837d87dcb176e6c62daa65a1bd234c62678572",
+    "simulation_validation/observe.py": "bdff83f013490021946bded5f2e3d38c54a6128a121f66b219b8476960d6467f",
+    "simulation_validation/preflight.py": "96124bf3c26e6ac07043cac484719a9d0efb6f3e5199ca2dc4955d8a8968a1e7",
+    "simulation_validation/run_official.py": "5cfaea7acf43c3e6c619e489443589a4553b3897cce870ce429b146936fcfaa3",
+    "simulation_validation/video_index.py": "121fb3b944982eed155666504ad3d90bc0b28b76f4c2a073c5d27d6cd98db30b"
+  },
+  "code_hashes_role": "Final delivered code, not a claim that full integration ran; formal gate stopped before policy/telemetry import."
+}

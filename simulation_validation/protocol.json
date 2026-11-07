@@ -1,0 +1,23 @@
+{
+  "base_commit": "808f0ab19b1fb0be6bbc9f20445744ab8db8b87a",
+  "task": "pnp_counter_to_sink",
+  "environment": "XPnPCounterToSink",
+  "methods": ["no_reps", "joint_reps"],
+  "embodiments": ["ur5e", "panda"],
+  "episodes_per_cell": 20,
+  "condition_selection": "first 20 entries in each official per-embodiment bundle, no replacement",
+  "start_seed": 1000,
+  "global_seed": 7,
+  "max_steps": 600,
+  "action_horizon": 8,
+  "unnorm_key": "mg_pnp_lite",
+  "inference_representation": "none",
+  "use_wrist_image": false,
+  "success_label": "official info.is_success.task",
+  "gate": "official tests then one full Joint Reps rollout on each arm before P1",
+  "repair_limit": 2,
+  "stage_p0_episodes_excluded_from_p1": true,
+  "training": false,
+  "real_robot": false,
+  "checkpoint_selection": "official released step-050000, not selected by evaluation outcomes"
+}

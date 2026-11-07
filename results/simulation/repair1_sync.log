@@ -1,0 +1,24 @@
+Resolved 161 packages in 5ms
+   Building barx-research @ file:///home/users/lemon/coft-p2/barx
+   Building openvla @ file:///home/users/lemon/coft-p2/barx/policy
+   Building robocasa @ file:///home/users/lemon/coft-p2/barx/robocasa_x
+   Updating https://github.com/ARISE-Initiative/robosuite.git (2ebb2a0249f7a271a3ade56725d12e32d7da8898)
+   Updating https://github.com/jayLEE0301/vq_bet_official.git (09d4851288ca5deaaa1ab367a208e520f8ee9a84)
+   Building dlimp @ git+https://github.com/moojink/dlimp_openvla@040105d256bd28866cc6620621a3d5f7b6b91b46
+Downloading torchaudio (3.2MiB)
+Downloading torch (722.2MiB)
+ Downloaded torchaudio
+Downloading torchvision (6.6MiB)
+ Downloaded torchvision
+Downloading nvidia-cudnn-cu12 (697.8MiB)
+error: Failed to download and build `vq-bet @ git+https://github.com/jayLEE0301/vq_bet_official.git@09d4851288ca5deaaa1ab367a208e520f8ee9a84`
+  cause: Git operation failed
+  cause: failed to fetch into: /home/users/lemon/coft-p2/uv-cache/git-v1/db/46ad142686e377d0
+  cause: failed to fetch commit `09d4851288ca5deaaa1ab367a208e520f8ee9a84`
+  cause: process didn't exit successfully: `/usr/bin/git fetch --force --update-head-ok 'https://github.com/jayLEE0301/vq_bet_official.git' '+09d4851288ca5deaaa1ab367a208e520f8ee9a84:refs/commit/09d4851288ca5deaaa1ab367a208e520f8ee9a84'` (exit status: 128)
+         --- stderr
+         fatal: 远端意外挂断了
+         fatal: 过早的文件结束符（EOF）
+         fatal: index-pack 失败
+
+hint: `vq-bet` was included because `barx-research` (v0.1.0) depends on `vq-bet`

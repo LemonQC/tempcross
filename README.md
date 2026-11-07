@@ -1,5 +1,8 @@
 # COFT SR5: Cross-Embodiment Executability × Observability Hypothesis Probe
 
+> **COFT-P2：P0_BLOCKED（实际执行）。** 两轮官方环境修复后仍未完成物理 rollout；80 次评测未启动，成功率为 N/A。见 [闭环验证执行报告](docs/SIM_VALIDATION_REPORT.md)、[失败分类](docs/TRANSFER_FAILURES.md) 和 [算法决定](docs/NEXT_ALGORITHM_DECISION.md)。
+
+
 > **2026-11-07 正式审计已完成：PROXY_ONLY / INSUFFICIENT_EVIDENCE。**
 > 阅读 [验证报告](docs/VALIDATION_REPORT.md)、[创新性审计](docs/NOVELTY_AUDIT.md) 和 [下一阶段决定](docs/NEXT_STAGE.md)。
 > v0 的 `analytic_and` 100% 是同标签筛选的覆盖／自洽检查，不能作为算法有效性或任务成功率。

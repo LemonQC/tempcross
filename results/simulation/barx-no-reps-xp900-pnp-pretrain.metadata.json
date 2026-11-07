@@ -1,0 +1,59 @@
+{
+  "_id": "69cad80fb2df39d2ddf13a52",
+  "id": "ajaysri/barx-no-reps-xp900-pnp-pretrain",
+  "private": false,
+  "pipeline_tag": "robotics",
+  "tags": [
+    "robotics",
+    "vision-language-action",
+    "barx",
+    "robocasa-x",
+    "pytorch",
+    "base_model:ajaysri/prism-qwen25-extra-dinosiglip-224px-0_5b-stage-finetune-x7",
+    "base_model:finetune:ajaysri/prism-qwen25-extra-dinosiglip-224px-0_5b-stage-finetune-x7",
+    "license:apache-2.0",
+    "region:us"
+  ],
+  "downloads": 22,
+  "likes": 0,
+  "modelId": "ajaysri/barx-no-reps-xp900-pnp-pretrain",
+  "author": "ajaysri",
+  "sha": "9ebc6f6fb8311f3c4394cd77811a4025b26d0a62",
+  "lastModified": "2026-07-26T20:00:32.000Z",
+  "gated": false,
+  "disabled": false,
+  "model-index": null,
+  "config": {},
+  "cardData": {
+    "license": "apache-2.0",
+    "pretty_name": "BARX No Reps XP-900 PnP Counter to Sink / PnP Sink to Counter Pretrain",
+    "base_model": "ajaysri/prism-qwen25-extra-dinosiglip-224px-0_5b-stage-finetune-x7",
+    "tags": [
+      "robotics",
+      "vision-language-action",
+      "barx",
+      "robocasa-x",
+      "pytorch"
+    ]
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "checkpoints/step-050000-epoch-15-loss=0.8424.pt"
+    },
+    {
+      "rfilename": "config.json"
+    },
+    {
+      "rfilename": "dataset_statistics.json"
+    }
+  ],
+  "spaces": [],
+  "createdAt": "2026-03-30T20:07:43.000Z",
+  "usedStorage": 5554882540
+}

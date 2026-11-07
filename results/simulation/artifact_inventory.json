@@ -1,0 +1,40 @@
+{
+  "timestamp": "2026-11-07T14:21:33.523644+00:00",
+  "source": "/home/users/lemon/coft-p2/barx",
+  "artifact_root": "/home/users/lemon/coft-p2/artifacts",
+  "gpu": "NVIDIA GeForce RTX 3090, 24576 MiB, 535.230.02",
+  "artifacts": [
+    {
+      "repo": "ajaysri/robocasa-x-xp900-pnp-vq-extra-action-tokenizer",
+      "revision": "7d50d28628237c499eb8488e1cf91aab8acbaec6",
+      "path": "/home/users/lemon/coft-p2/artifacts/vq/mg_pnp_lite/checkpoints/model.pt",
+      "expected": {
+        "size_bytes": 9519250,
+        "sha256": "cbf410959839f99ee131aa8c7d4c2dc2116d134f23ee9e88e90fa089270e7378"
+      },
+      "present": true,
+      "verified": true,
+      "size_bytes": 9519250,
+      "sha256": "cbf410959839f99ee131aa8c7d4c2dc2116d134f23ee9e88e90fa089270e7378",
+      "partial_chunk_bytes": 9519250
+    },
+    {
+      "repo": "ajaysri/barx-joint-reps-xp900-pnp-pretrain",
+      "revision": "191da4c06c1050767a0379feb67a5c20e85bd703",
+      "path": "/home/users/lemon/coft-p2/artifacts/runs/joint_reps/checkpoints/step-050000-epoch-15-loss=0.2577.pt",
+      "expected": {
+        "size_bytes": 5554882540,
+        "sha256": "ffce76802a8e75d4806b30dee43624accf2c4de4213c17059457e34a8243efce"
+      },
+      "present": false,
+      "verified": false,
+      "partial_chunk_bytes": 181544839
+    }
+  ],
+  "paths": {
+    "locked_python": "/home/users/lemon/coft-p2/barx/.venv/bin/python",
+    "bootstrap_python": "/home/users/lemon/coft-p2/bootstrap/bin/python",
+    "logs": "/home/users/lemon/coft-p2",
+    "rollouts": "/home/users/lemon/coft-p2/rollouts"
+  }
+}

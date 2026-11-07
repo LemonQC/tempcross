@@ -1,0 +1,11 @@
+Resolved 161 packages in 3ms
+   Building openvla @ file:///home/users/lemon/coft-p2/barx/policy
+   Building robocasa @ file:///home/users/lemon/coft-p2/barx/robocasa_x
+   Building barx-research @ file:///home/users/lemon/coft-p2/barx
+error: Failed to download and build `vq-bet @ git+https://github.com/jayLEE0301/vq_bet_official.git@09d4851288ca5deaaa1ab367a208e520f8ee9a84`
+  cause: Git operation failed
+  cause: process didn't exit successfully: `/usr/bin/git reset --hard 09d4851288ca5deaaa1ab367a208e520f8ee9a84` (exit status: 128)
+         --- stderr
+         fatal: 不能解析对象 '09d4851288ca5deaaa1ab367a208e520f8ee9a84'。
+
+hint: `vq-bet` was included because `barx-research` (v0.1.0) depends on `vq-bet`

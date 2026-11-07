@@ -1,0 +1,11 @@
+Collecting numpy==1.23.5
+  Downloading numpy-1.23.5-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (17.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 17.1/17.1 MB 66.6 kB/s eta 0:00:00
+Collecting h5py==3.13.0
+  Downloading h5py-3.13.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (4.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.5/4.5 MB 36.3 kB/s eta 0:00:00
+Installing collected packages: numpy, h5py
+Successfully installed h5py-3.13.0 numpy-1.23.5
+
+[notice] A new release of pip is available: 23.0.1 -> 26.3
+[notice] To update, run: /home/users/lemon/coft-p2/bootstrap/bin/python -m pip install --upgrade pip

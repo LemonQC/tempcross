@@ -1,0 +1,96 @@
+test_canonical_actions_pass_through (test_action_space.ActionSpaceTest) ... ok
+test_evaluation_expansion_uses_normalized_layout (test_action_space.ActionSpaceTest) ... ok
+test_legacy_shapes_are_rejected (test_action_space.ActionSpaceTest) ... ok
+test_noop_uses_normalized_layout (test_action_space.ActionSpaceTest) ... ok
+test_normalized_simulator_action_uses_first_seven_values (test_action_space.ActionSpaceTest) ... ok
+test_all_release_archives_have_sizes_and_sha256 (test_asset_downloader.KitchenAssetDownloaderTest) ... ok
+test_archive_verification_accepts_exact_file (test_asset_downloader.KitchenAssetDownloaderTest) ... ok
+test_fixture_descriptions_are_not_executable (test_asset_downloader.KitchenAssetDownloaderTest) ... ok
+test_safe_extraction_rejects_path_traversal (test_asset_downloader.KitchenAssetDownloaderTest) ... ok
+test_three_failed_downloads_raise (test_asset_downloader.KitchenAssetDownloaderTest) ... ok
+test_checked_in_pnp_targets_use_the_paper_object_set (test_evaluation_conditions.EvaluationConditionTest) ... ok
+test_corrupt_metadata_is_rejected (test_evaluation_conditions.EvaluationConditionTest) ... ok
+test_embodiments_share_the_same_condition_seeds_per_task (test_evaluation_conditions.EvaluationConditionTest) ... ok
+test_episode_metadata_paths_are_portable (test_evaluation_conditions.EvaluationConditionTest) ... ok
+test_model_hash_ignores_install_prefix (test_evaluation_conditions.EvaluationConditionTest) ... ok
+test_model_xml_paths_are_portable (test_evaluation_conditions.EvaluationConditionTest) ... ok
+test_release_excludes_showcased_out_of_frame_seed (test_evaluation_conditions.EvaluationConditionTest) ... ok
+test_replay_metadata_ignores_mutated_object_placements (test_evaluation_conditions.EvaluationConditionTest) ... ok
+test_round_trip_supports_variable_length_simulator_states (test_evaluation_conditions.EvaluationConditionTest) ... ok
+test_round_trip_validates_metadata_and_states (test_evaluation_conditions.EvaluationConditionTest) ... ok
+test_semantic_validation_rejects_wrong_object_category_and_split (test_evaluation_conditions.EvaluationConditionTest) ... ok
+test_target_projection_detects_out_of_frame_object (test_evaluation_conditions.EvaluationConditionTest) ... ok
+test_checkpoint_labels_are_readable_and_safe (test_evaluation_logging.EvaluationLoggingTest) ... ok
+test_run_directories_never_overwrite (test_evaluation_logging.EvaluationLoggingTest) ... ok
+test_run_writes_machine_readable_files (test_evaluation_logging.EvaluationLoggingTest) ... ok
+test_canonical_actions_are_converted (test_language_motion_converter.LanguageMotionConverterTest) ... ok
+test_legacy_actions_are_rejected (test_language_motion_converter.LanguageMotionConverterTest) ... ok
+test_invalid_generation_bounds_are_rejected (test_mimicgen_release.MimicGenReleaseTest) ... ok
+test_registry_resolves_all_paper_combinations (test_mimicgen_release.MimicGenReleaseTest) ... ok
+test_source_and_generated_inventories_are_machine_readable (test_mimicgen_release.MimicGenReleaseTest) ... ok
+test_vendored_generator_is_bounded_and_uses_canonical_layout (test_mimicgen_release.MimicGenReleaseTest) ... ok
+test_vendored_snapshot_is_licensed_and_has_no_private_paths (test_mimicgen_release.MimicGenReleaseTest) ... ok
+test_individual_representation_aliases (test_names.PaperNamesTest) ... ok
+test_inference_order (test_names.PaperNamesTest) ... ok
+test_method_aliases_preserve_original_transform_specs (test_names.PaperNamesTest) ... ok
+test_prediction_keys_include_paper_names_and_legacy_names (test_names.PaperNamesTest) ... ok
+test_artifact_root_keeps_runtime_layout_outside_checkout (test_public_artifacts.PublicArtifactTest) ... ok
+test_base_download_excludes_historical_checkpoints_and_wandb (test_public_artifacts.PublicArtifactTest) ... ok
+test_checksum_failure_is_not_retried (test_public_artifacts.PublicArtifactTest) ... ok
+test_download_controls_have_conservative_defaults (test_public_artifacts.PublicArtifactTest) ... ok
+test_dry_run_never_imports_hugging_face (test_public_artifacts.PublicArtifactTest) ... ok
+test_every_remote_snapshot_has_an_immutable_revision (test_public_artifacts.PublicArtifactTest) ... ok
+test_final_download_error_is_propagated (test_public_artifacts.PublicArtifactTest) ... ok
+test_manifest_is_machine_readable_and_versioned (test_public_artifacts.PublicArtifactTest) ... ok
+test_retry_after_header_controls_backoff (test_public_artifacts.PublicArtifactTest) ... ok
+test_runtime_code_uses_manifest_revisions (test_public_artifacts.PublicArtifactTest) ... ok
+test_snapshot_receives_worker_and_timeout_arguments (test_public_artifacts.PublicArtifactTest) ... ok
+test_checked_in_subset_manifests_are_current (test_raw_data.RawDataTest) ... ok
+test_public_dataset_is_immutable_and_versioned (test_raw_data.RawDataTest) ... ok
+test_public_manifest_is_complete_and_checksummed (test_raw_data.RawDataTest) ... ok
+test_raw_subsets_match_the_24_public_rlds_datasets (test_raw_data.RawDataTest) ... ok
+test_selective_downloader_uses_pinned_anonymous_paths (test_raw_data.RawDataTest) ... ok
+test_verifier_accepts_a_matching_normalized_archive (test_raw_data.RawDataTest) ... ok
+test_verifier_rejects_checksum_mismatch_without_rewriting_data (test_raw_data.RawDataTest) ... ok
+test_dynamic_builder_uses_importable_base_module (test_release_scripts.DatasetReleaseScriptTest) ... ok
+test_manifest_task_names_select_paper_data (test_release_scripts.DatasetReleaseScriptTest) ... ok
+test_paper_sets_resolve_to_checkpoint_compatible_dataset_names (test_release_scripts.DatasetReleaseScriptTest) ... ok
+test_every_embodiment_has_an_automatic_camera_pairing (test_release_scripts.EvaluationLauncherTest) ... ok
+test_paper_protocol_defaults (test_release_scripts.EvaluationLauncherTest) ... ok
+test_paper_scene_filters_are_frozen (test_release_scripts.EvaluationLauncherTest) ... ok
+test_global_batch_size_cannot_silently_change (test_release_scripts.TrainingLauncherTest) ... ok
+test_reduced_one_gpu_quick_check_batch_is_explicit (test_release_scripts.TrainingLauncherTest) ... ok
+test_target_only_and_same_embodiment_runs_start_from_base_vlm (test_release_scripts.TrainingLauncherTest) ... ok
+test_training_logging_is_local_unless_wandb_is_explicit (test_release_scripts.TrainingLauncherTest) ... ok
+test_xp_adaptation_preserves_statistics_and_transform_aliases (test_release_scripts.TrainingLauncherTest) ... ok
+test_xp_adaptation_requires_selected_prior_checkpoint (test_release_scripts.TrainingLauncherTest) ... ok
+test_missing_token_environment_variable_is_actionable (test_runtime_contracts.AuthenticationContractTest) ... ok
+test_public_artifacts_need_no_token (test_runtime_contracts.AuthenticationContractTest) ... ok
+test_token_can_come_from_file_or_environment (test_runtime_contracts.AuthenticationContractTest) ... ok
+test_tensorflow_metadata_matches_locked_protobuf_runtime (test_runtime_contracts.DependencyContractTest) ... ok
+test_custom_mobile_robots_register_on_normal_import (test_runtime_contracts.SimulatorRegistrationTest) ... skipped 'full simulator dependencies are not installed'
+test_registration_import_is_part_of_package_initialization (test_runtime_contracts.SimulatorRegistrationTest) ... ok
+test_canonical_non_panda_actions_are_not_permuted (test_stage_release_data.StageReleaseDataTest) ... ok
+test_marked_source_is_not_permuted_again (test_stage_release_data.StageReleaseDataTest) ... ok
+test_unmarked_non_panda_actions_are_permuted_once (test_stage_release_data.StageReleaseDataTest) ... ok
+test_collects_complete_and_failed_runs (test_summarize_evaluations.EvaluationSummaryTest) ... ok
+
+----------------------------------------------------------------------
+Ran 76 tests in 1.498s
+
+OK (skipped=1)
+Downloading...
+Download attempt 1/3 failed: offline
+Download attempt 2/3 failed: offline
+Download attempt 3/3 failed: offline
+HF_HOME /tmp/tmp3l7tgzt2/hf
+model   ajaysri/prism-qwen25-extra-dinosiglip-224px-0_5b-stage-finetune-x7@98e7cc6e564d8af6302f3d6e3fe2f8280a8b16ce -> /tmp/tmp3l7tgzt2/base-vlm
+dataset ajaysri/robocasa-x-xp900-pnp@a2b5256a48428ea56064b0afb3dc184a045b10ae -> /tmp/tmp3l7tgzt2/data/mg_pnp_lite
+model   ajaysri/robocasa-x-xp900-pnp-vq-extra-action-tokenizer@7d50d28628237c499eb8488e1cf91aab8acbaec6 -> /tmp/tmp3l7tgzt2/vq/mg_pnp_lite
+model   timm/vit_large_patch14_reg4_dinov2.lvd142m@f3c408e77602bb412aa65fb03dfa0d5f95cb3832 -> /tmp/tmp3l7tgzt2/hf/hub
+model   timm/ViT-SO400M-14-SigLIP@9179d15177ece40964c50492136eda2f3e0c9f61 -> /tmp/tmp3l7tgzt2/hf/hub
+model   Qwen/Qwen2.5-0.5B@060db6499f32faf8b98477b0a26969ef7d8b9987 -> /tmp/tmp3l7tgzt2/hf/hub
+Download failed (offline); retrying in 1s [1/2]
+Download failed (offline); retrying in 2s [2/2]
+Download failed (rate limited); retrying in 17s [1/6]
+Verified 24 raw subset manifests

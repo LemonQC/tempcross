@@ -1,0 +1,5 @@
+method,robot,planned_episodes,started_episodes,completed_episodes,successes,success_rate,ci95,status
+no_reps,ur5e,20,0,0,,,,NOT_RUN_P0_BLOCKED
+no_reps,panda,20,0,0,,,,NOT_RUN_P0_BLOCKED
+joint_reps,ur5e,20,0,0,,,,NOT_RUN_P0_BLOCKED
+joint_reps,panda,20,0,0,,,,NOT_RUN_P0_BLOCKED

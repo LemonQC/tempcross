@@ -1,0 +1,21 @@
+{
+  "status": "P0_BLOCKED",
+  "started_at": "2026-11-07T14:20:07.852329+00:00",
+  "commands": [
+    {
+      "command": [
+        "/home/users/lemon/coft-p2/barx/.venv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "log": "/home/users/lemon/coft-p2/rollouts/formal/official_tests.log",
+      "exit_code": 1
+    }
+  ],
+  "p1_started": false,
+  "blocker": "OFFICIAL_UNIT_TESTS_FAILED"
+}

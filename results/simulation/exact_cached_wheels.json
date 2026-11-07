@@ -1,0 +1,261 @@
+[
+  {
+    "name": "exceptiongroup",
+    "version": "1.3.1",
+    "sha256": "a7a39a3bd276781e98394987d3a5701d0c4edffb633bb7a5144577f82c773598",
+    "filename": "exceptiongroup-1.3.1-py3-none-any.whl",
+    "size": 16740
+  },
+  {
+    "name": "wheel",
+    "version": "0.45.1",
+    "sha256": "708e7481cc80179af0e556bbf0cc00b8444c7321e2700b8d8580231d13017248",
+    "filename": "wheel-0.45.1-py3-none-any.whl",
+    "size": 72494
+  },
+  {
+    "name": "nvidia-cuda-cupti-cu12",
+    "version": "12.1.105",
+    "sha256": "e54fde3983165c624cb79254ae9818a456eb6e87a7fd4d56a2352c24ee542d7e",
+    "filename": "nvidia_cuda_cupti_cu12-12.1.105-py3-none-manylinux1_x86_64.whl",
+    "size": 14109015
+  },
+  {
+    "name": "nvidia-cuda-runtime-cu12",
+    "version": "12.1.105",
+    "sha256": "6e258468ddf5796e25f1dc591a31029fa317d97a0a94ed93468fc86301d61e40",
+    "filename": "nvidia_cuda_runtime_cu12-12.1.105-py3-none-manylinux1_x86_64.whl",
+    "size": 823596
+  },
+  {
+    "name": "imageio-ffmpeg",
+    "version": "0.6.0",
+    "sha256": "c7e46fcec401dd990405049d2e2f475e2b397779df2519b544b8aab515195282",
+    "filename": "imageio_ffmpeg-0.6.0-py3-none-manylinux2014_x86_64.whl",
+    "size": 29498237
+  },
+  {
+    "name": "nvidia-cusolver-cu12",
+    "version": "11.4.5.107",
+    "sha256": "8a7ec542f0412294b15072fa7dab71d31334014a69f953004ea7a118206fe0dd",
+    "filename": "nvidia_cusolver_cu12-11.4.5.107-py3-none-manylinux1_x86_64.whl",
+    "size": 124161928
+  },
+  {
+    "name": "gitdb",
+    "version": "4.0.12",
+    "sha256": "67073e15955400952c6565cc3e707c554a4eea2e428946f7a4c162fab9bd9bcf",
+    "filename": "gitdb-4.0.12-py3-none-any.whl",
+    "size": 62794
+  },
+  {
+    "name": "importlib_resources",
+    "version": "7.1.0",
+    "sha256": "1bd7b48b4088eddb2cd16382150bb515af0bd2c70128194392725f82ad2c96a1",
+    "filename": "importlib_resources-7.1.0-py3-none-any.whl",
+    "size": 37232
+  },
+  {
+    "name": "nvidia-nvtx-cu12",
+    "version": "12.1.105",
+    "sha256": "dc21cf308ca5691e7c04d962e213f8a4aa9bbfa23d95412f452254c2caeb09e5",
+    "filename": "nvidia_nvtx_cu12-12.1.105-py3-none-manylinux1_x86_64.whl",
+    "size": 99138
+  },
+  {
+    "name": "Jinja2",
+    "version": "3.1.6",
+    "sha256": "85ece4451f492d0c13c5dd7c13a64681a86afae63a5f347908daf103ce6d2f67",
+    "filename": "jinja2-3.1.6-py3-none-any.whl",
+    "size": 134899
+  },
+  {
+    "name": "pyparsing",
+    "version": "3.3.2",
+    "sha256": "850ba148bd908d7e2411587e247a1e4f0327839c40e2e5e6d05a007ecc69911d",
+    "filename": "pyparsing-3.3.2-py3-none-any.whl",
+    "size": 122781
+  },
+  {
+    "name": "mdurl",
+    "version": "0.1.2",
+    "sha256": "84008a41e51615a49fc9966191ff91509e3c40b939176e643fd50a5c2196b8f8",
+    "filename": "mdurl-0.1.2-py3-none-any.whl",
+    "size": 9979
+  },
+  {
+    "name": "Werkzeug",
+    "version": "3.1.8",
+    "sha256": "63a77fb8892bf28ebc3178683445222aa500e48ebad5ec77b0ad80f8726b1f50",
+    "filename": "werkzeug-3.1.8-py3-none-any.whl",
+    "size": 226459
+  },
+  {
+    "name": "nvidia-nvjitlink-cu12",
+    "version": "12.9.86",
+    "sha256": "e3f1171dbdc83c5932a45f0f4c99180a70de9bd2718c1ab77d14104f6d7147f9",
+    "filename": "nvidia_nvjitlink_cu12-12.9.86-py3-none-manylinux2010_x86_64.manylinux_2_12_x86_64.whl",
+    "size": 39748338
+  },
+  {
+    "name": "nvidia-cufft-cu12",
+    "version": "11.0.2.54",
+    "sha256": "794e3948a1aa71fd817c3775866943936774d1c14e7628c74f6f7417224cdf56",
+    "filename": "nvidia_cufft_cu12-11.0.2.54-py3-none-manylinux1_x86_64.whl",
+    "size": 121635161
+  },
+  {
+    "name": "python-dateutil",
+    "version": "2.9.0.post0",
+    "sha256": "a8b2bc7bffae282281c8140a97d3aa9c14da0b136dfe83f850eea9a5f7470427",
+    "filename": "python_dateutil-2.9.0.post0-py2.py3-none-any.whl",
+    "size": 229892
+  },
+  {
+    "name": "mpmath",
+    "version": "1.3.0",
+    "sha256": "a0b2b9fe80bbcd81a6647ff13108738cfb482d481d826cc0e02f5b35e5c88d2c",
+    "filename": "mpmath-1.3.0-py3-none-any.whl",
+    "size": 536198
+  },
+  {
+    "name": "cloudpickle",
+    "version": "3.1.2",
+    "sha256": "9acb47f6afd73f60dc1df93bb801b472f05ff42fa6c84167d25cb206be1fbf4a",
+    "filename": "cloudpickle-3.1.2-py3-none-any.whl",
+    "size": 22228
+  },
+  {
+    "name": "Jinja2",
+    "version": "3.1.6",
+    "sha256": "85ece4451f492d0c13c5dd7c13a64681a86afae63a5f347908daf103ce6d2f67",
+    "filename": "jinja2-3.1.6-py3-none-any.whl",
+    "size": 134899
+  },
+  {
+    "name": "mpmath",
+    "version": "1.3.0",
+    "sha256": "a0b2b9fe80bbcd81a6647ff13108738cfb482d481d826cc0e02f5b35e5c88d2c",
+    "filename": "mpmath-1.3.0-py3-none-any.whl",
+    "size": 536198
+  },
+  {
+    "name": "nvidia-curand-cu12",
+    "version": "10.3.2.106",
+    "sha256": "9d264c5036dde4e64f1de8c50ae753237c12e0b1348738169cd0f8a536c0e1e0",
+    "filename": "nvidia_curand_cu12-10.3.2.106-py3-none-manylinux1_x86_64.whl",
+    "size": 56467784
+  },
+  {
+    "name": "pytest",
+    "version": "8.3.5",
+    "sha256": "c69214aa47deac29fad6c2a4f590b9c4a9fdb16a403176fe154b79c0b4d4d820",
+    "filename": "pytest-8.3.5-py3-none-any.whl",
+    "size": 343634
+  },
+  {
+    "name": "nvidia-cuda-nvrtc-cu12",
+    "version": "12.1.105",
+    "sha256": "339b385f50c309763ca65456ec75e17bbefcbbf2893f462cb8b90584cd27a1c2",
+    "filename": "nvidia_cuda_nvrtc_cu12-12.1.105-py3-none-manylinux1_x86_64.whl",
+    "size": 23671734
+  },
+  {
+    "name": "tensorboardX",
+    "version": "2.6.5",
+    "sha256": "c10b891d00af306537cb8b58a039b2ba41571f0da06f433a41c4ca8d6abe1373",
+    "filename": "tensorboardx-2.6.5-py3-none-any.whl",
+    "size": 87510
+  },
+  {
+    "name": "contourpy",
+    "version": "1.3.2",
+    "sha256": "ad687a04bc802cbe8b9c399c07162a3c35e227e2daccf1668eb1f278cb698631",
+    "filename": "contourpy-1.3.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+    "size": 325027
+  },
+  {
+    "name": "tomli",
+    "version": "2.4.1",
+    "sha256": "0d85819802132122da43cb86656f8d1f8c6587d54ae7dcaf30e90533028b49fe",
+    "filename": "tomli-2.4.1-py3-none-any.whl",
+    "size": 14583
+  },
+  {
+    "name": "sympy",
+    "version": "1.13.1",
+    "sha256": "db36cdc64bf61b9b24578b6f7bab1ecdd2452cf008f34faa33776680c26d66f8",
+    "filename": "sympy-1.13.1-py3-none-any.whl",
+    "size": 6189177
+  },
+  {
+    "name": "networkx",
+    "version": "3.4.2",
+    "sha256": "df5d4365b724cf81b8c6a7312509d0c22386097011ad1abe274afd5e9d3bbc5f",
+    "filename": "networkx-3.4.2-py3-none-any.whl",
+    "size": 1723263
+  },
+  {
+    "name": "networkx",
+    "version": "3.4.2",
+    "sha256": "df5d4365b724cf81b8c6a7312509d0c22386097011ad1abe274afd5e9d3bbc5f",
+    "filename": "networkx-3.4.2-py3-none-any.whl",
+    "size": 1723263
+  },
+  {
+    "name": "nvidia-cusparse-cu12",
+    "version": "12.1.0.106",
+    "sha256": "f3b50f42cf363f86ab21f720998517a659a48131e8d538dc02f8768237bd884c",
+    "filename": "nvidia_cusparse_cu12-12.1.0.106-py3-none-manylinux1_x86_64.whl",
+    "size": 195958278
+  },
+  {
+    "name": "six",
+    "version": "1.17.0",
+    "sha256": "4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274",
+    "filename": "six-1.17.0-py2.py3-none-any.whl",
+    "size": 11050
+  },
+  {
+    "name": "Pygments",
+    "version": "2.20.0",
+    "sha256": "81a9e26dd42fd28a23a2d169d86d7ac03b46e2f8b59ed4698fb4785f946d0176",
+    "filename": "pygments-2.20.0-py3-none-any.whl",
+    "size": 1231151
+  },
+  {
+    "name": "nvidia-cublas-cu12",
+    "version": "12.1.3.1",
+    "sha256": "ee53ccca76a6fc08fb9701aa95b6ceb242cdaab118c3bb152af4e579af792728",
+    "filename": "nvidia_cublas_cu12-12.1.3.1-py3-none-manylinux1_x86_64.whl",
+    "size": 410594774
+  },
+  {
+    "name": "einops",
+    "version": "0.8.1",
+    "sha256": "919387eb55330f5757c6bea9165c5ff5cfe63a642682ea788a6d472576d81737",
+    "filename": "einops-0.8.1-py3-none-any.whl",
+    "size": 64359
+  },
+  {
+    "name": "smmap",
+    "version": "5.0.3",
+    "sha256": "c106e05d5a61449cf6ba9a1e650227ecfb141590d2a98412103ff35d89fc7b2f",
+    "filename": "smmap-5.0.3-py3-none-any.whl",
+    "size": 24390
+  },
+  {
+    "name": "MarkupSafe",
+    "version": "3.0.3",
+    "sha256": "f42d0984e947b8adf7dd6dde396e720934d12c506ce84eea8476409563607591",
+    "filename": "markupsafe-3.0.3-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+    "size": 20681
+  },
+  {
+    "name": "cycler",
+    "version": "0.12.1",
+    "sha256": "85cef7cff222d8644161529808465972e51340599459b8ac3ccbac5a854e0d30",
+    "filename": "cycler-0.12.1-py3-none-any.whl",
+    "size": 8321
+  }
+]
