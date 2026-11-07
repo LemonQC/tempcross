@@ -1,0 +1,67 @@
+{
+  "status": "MEASURED",
+  "description": "REPLACE ALL NUMERIC VALUES WITH YOUR HAND-EYE / TCP / ACTUAL CAMERA CALIBRATION. Robot base frame, metres.",
+  "T_flange_tcp": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0.12
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "T_flange_camera_optical": [
+    [
+      1,
+      0,
+      0,
+      0.065
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0.025
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "camera": {
+    "width": 640,
+    "height": 480,
+    "fx": 420,
+    "fy": 420,
+    "cx": 320,
+    "cy": 240,
+    "near_m": 0.25,
+    "far_m": 2
+  },
+  "WARNING": "Template example is NOT calibrated. status=MEASURED is only meaningful if the user actually measures/replaces ALL values."
+}
