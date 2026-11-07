@@ -1,0 +1,67 @@
+{
+  "status": "DEMO_NOT_MEASURED",
+  "description": "Synthetic example used only to check software and counterfactual geometry. Do NOT claim this is the SR5 experimental calibration.",
+  "T_flange_tcp": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0.12
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "T_flange_camera_optical": [
+    [
+      1,
+      0,
+      0,
+      0.065
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0.025
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "camera": {
+    "width": 640,
+    "height": 480,
+    "fx": 420,
+    "fy": 420,
+    "cx": 320,
+    "cy": 240,
+    "near_m": 0.25,
+    "far_m": 2
+  },
+  "model_assumptions": "camera optical +Z aligned with flange +Z for the example; gripper mesh and self-occlusion unavailable"
+}
