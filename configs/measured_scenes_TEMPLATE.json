@@ -1,0 +1,26 @@
+{
+  "frame": "xMateSR5_base (metres)",
+  "WARNING": "Replace targets and occluder AABBs with measured robot-base coordinates; do not use this example as real data.",
+  "scenes": [
+    {
+      "scene_id": 0,
+      "target": [
+        0.475,
+        0,
+        0.045
+      ],
+      "blocker": {
+        "center": [
+          0.537,
+          0,
+          0.135
+        ],
+        "half_extent": [
+          0.025,
+          0.025,
+          0.09
+        ]
+      }
+    }
+  ]
+}
