@@ -1,0 +1,128 @@
+{
+  "robot": "ROKAE SR5-5/0.9C (xMateSR5 kinematics)",
+  "source_url": "https://github.com/RokaeRobot/rokae_ros2/blob/main/rokae_description/urdf/xMateSR5.urdf.xacro",
+  "source_license": "Apache-2.0 (source repository); numerically transcribed kinematic joint entries",
+  "notes": "Only kinematics; excludes meshes, true collisions, tool payload, controller limits and calibration. Official xMateSR5 file might require verifying exact variant against the physical SR5-5/0.9C.",
+  "joints": [
+    {
+      "name": "joint1",
+      "xyz": [
+        0,
+        0,
+        0.328
+      ],
+      "rpy": [
+        0,
+        0,
+        0
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "lower": -6.2832,
+      "upper": 6.2832
+    },
+    {
+      "name": "joint2",
+      "xyz": [
+        0,
+        0,
+        0
+      ],
+      "rpy": [
+        0,
+        0,
+        0
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "lower": -2.7925,
+      "upper": 2.618
+    },
+    {
+      "name": "joint3",
+      "xyz": [
+        0.05,
+        0,
+        0.4
+      ],
+      "rpy": [
+        0,
+        0,
+        0
+      ],
+      "axis": [
+        0,
+        -1,
+        0
+      ],
+      "lower": -2.9671,
+      "upper": 2.4435
+    },
+    {
+      "name": "joint4",
+      "xyz": [
+        -0.05,
+        0,
+        0.4
+      ],
+      "rpy": [
+        0,
+        0,
+        0
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "lower": -6.2832,
+      "upper": 6.2832
+    },
+    {
+      "name": "joint5",
+      "xyz": [
+        0,
+        0.136,
+        0
+      ],
+      "rpy": [
+        0,
+        0,
+        0
+      ],
+      "axis": [
+        0,
+        -1,
+        0
+      ],
+      "lower": -6.2832,
+      "upper": 6.2832
+    },
+    {
+      "name": "joint6",
+      "xyz": [
+        0,
+        0,
+        0.1035
+      ],
+      "rpy": [
+        0,
+        0,
+        0
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "lower": -6.2832,
+      "upper": 6.2832
+    }
+  ]
+}
