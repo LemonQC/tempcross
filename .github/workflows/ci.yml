@@ -1,0 +1,29 @@
+name: coftprobe-pilot
+on:
+  push:
+  pull_request:
+jobs:
+  offline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Unit tests
+        run: python -m pytest -q tests
+      - name: One-seed deterministic geometry probe
+        run: python -m coftprobe.experiment --mode demo --scenes 2 --yaws 4 --seed 20261107 --out results/ci
+      - name: Verify recorded limitations
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          d=json.loads(Path('results/ci/summary.json').read_text())
+          assert d['mode']=='PROXY_NOT_CALIBRATED'
+          assert d['algorithm_novelty']=='NOT_ESTABLISHED'
+          assert d['scientific_gate']=='ONLY_GEOMETRY_PROBE_NOT_A_TRO_GO'
+          print('All proxy-only interpretation gates validated.')
+          PY
