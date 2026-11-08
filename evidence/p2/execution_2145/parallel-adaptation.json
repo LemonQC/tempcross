@@ -1,0 +1,9 @@
+{
+  "supervisor_pid": 4068557,
+  "started_at": "2026-11-08T15:06:58.270755+00:00",
+  "status": "JOINT_WORKER_FINISHED",
+  "optimizer_or_sample_budget_changed": false,
+  "returncode": 0,
+  "training_status": "/home/users/lemon/coft-p2/p2/physical-20261108/training/joint_reps-lora/training_status.json",
+  "resumed_at": "2026-11-08T15:18:54.795183+00:00"
+}

@@ -1,11 +1,17 @@
 {
-  "status": "TRAINING_RESTRICTED_ADAPTATIONS",
+  "status": "COMPLETE",
   "completed_models": [
     {
       "method": "no_reps",
       "steps": 3000,
       "sample_positions": 6000,
       "checkpoint": "/home/users/lemon/coft-p2/p2/physical-20261108/adapted-checkpoints/no_reps/checkpoints/step-003000-epoch-00-loss=restricted.pt"
+    },
+    {
+      "method": "joint_reps",
+      "steps": 3000,
+      "sample_positions": 6000,
+      "checkpoint": "/home/users/lemon/coft-p2/p2/physical-20261108/adapted-checkpoints/joint_reps/checkpoints/step-003000-epoch-00-loss=restricted.pt"
     }
   ],
   "errors": [],

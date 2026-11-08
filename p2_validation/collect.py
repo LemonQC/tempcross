@@ -109,6 +109,7 @@ def collect(root,out):
     (out/'analysis.json').write_text(json.dumps(payload,indent=2)+'\n')
     (out/'video_index.json').write_text(json.dumps(video_index,indent=2)+'\n')
     write_csv(out/'cells.csv',cells);write_csv(out/'episodes.csv',episodes);write_csv(out/'paired_comparisons.csv',comparisons)
+    write_csv(out/'formal_failures.csv',[row for row in episodes if row['stage']=='formal' and not row['success']])
     write_csv(out/'paired_stage_changes.csv',paired_stages)
     for path in [root/'frozen_protocol.json',root/'script-freeze.json',root/'adaptation_suite.json']:
         if path.exists():shutil.copyfile(path,out/path.name)

@@ -1,5 +1,5 @@
 {
-  "episodes": 124,
+  "episodes": 144,
   "all_verified": true,
   "records": [
     {
@@ -443,6 +443,386 @@
       "cell": "b1-093",
       "condition_id": "8ea42c064d38822b",
       "steps": 600,
+      "all_finite": true,
+      "checks": {
+        "sim/qpos": true,
+        "sim/qvel": true,
+        "sim/body_xpos": true,
+        "sim/body_xquat": true,
+        "target/position": true,
+        "obs/robot0_eef_pos": true,
+        "obs/robot0_gripper_qpos": true,
+        "actions/environment": true,
+        "p2/raw_gripper": true,
+        "p2/pre_action_pad_center_distance": true
+      },
+      "complete_state_action_lengths": true
+    },
+    {
+      "cell": "adapted-joint_reps-panda",
+      "condition_id": "fae3caa2443a28ee",
+      "steps": 600,
+      "all_finite": true,
+      "checks": {
+        "sim/qpos": true,
+        "sim/qvel": true,
+        "sim/body_xpos": true,
+        "sim/body_xquat": true,
+        "target/position": true,
+        "obs/robot0_eef_pos": true,
+        "obs/robot0_gripper_qpos": true,
+        "actions/environment": true,
+        "p2/raw_gripper": true,
+        "p2/pre_action_pad_center_distance": true
+      },
+      "complete_state_action_lengths": true
+    },
+    {
+      "cell": "adapted-joint_reps-panda",
+      "condition_id": "07edc93081bbd8a6",
+      "steps": 600,
+      "all_finite": true,
+      "checks": {
+        "sim/qpos": true,
+        "sim/qvel": true,
+        "sim/body_xpos": true,
+        "sim/body_xquat": true,
+        "target/position": true,
+        "obs/robot0_eef_pos": true,
+        "obs/robot0_gripper_qpos": true,
+        "actions/environment": true,
+        "p2/raw_gripper": true,
+        "p2/pre_action_pad_center_distance": true
+      },
+      "complete_state_action_lengths": true
+    },
+    {
+      "cell": "adapted-joint_reps-panda",
+      "condition_id": "f10b5deb7793b0f8",
+      "steps": 600,
+      "all_finite": true,
+      "checks": {
+        "sim/qpos": true,
+        "sim/qvel": true,
+        "sim/body_xpos": true,
+        "sim/body_xquat": true,
+        "target/position": true,
+        "obs/robot0_eef_pos": true,
+        "obs/robot0_gripper_qpos": true,
+        "actions/environment": true,
+        "p2/raw_gripper": true,
+        "p2/pre_action_pad_center_distance": true
+      },
+      "complete_state_action_lengths": true
+    },
+    {
+      "cell": "adapted-joint_reps-panda",
+      "condition_id": "2b3ec80069335dfd",
+      "steps": 600,
+      "all_finite": true,
+      "checks": {
+        "sim/qpos": true,
+        "sim/qvel": true,
+        "sim/body_xpos": true,
+        "sim/body_xquat": true,
+        "target/position": true,
+        "obs/robot0_eef_pos": true,
+        "obs/robot0_gripper_qpos": true,
+        "actions/environment": true,
+        "p2/raw_gripper": true,
+        "p2/pre_action_pad_center_distance": true
+      },
+      "complete_state_action_lengths": true
+    },
+    {
+      "cell": "adapted-joint_reps-panda",
+      "condition_id": "262b376ac447f272",
+      "steps": 600,
+      "all_finite": true,
+      "checks": {
+        "sim/qpos": true,
+        "sim/qvel": true,
+        "sim/body_xpos": true,
+        "sim/body_xquat": true,
+        "target/position": true,
+        "obs/robot0_eef_pos": true,
+        "obs/robot0_gripper_qpos": true,
+        "actions/environment": true,
+        "p2/raw_gripper": true,
+        "p2/pre_action_pad_center_distance": true
+      },
+      "complete_state_action_lengths": true
+    },
+    {
+      "cell": "adapted-joint_reps-panda",
+      "condition_id": "d433f893186f6421",
+      "steps": 600,
+      "all_finite": true,
+      "checks": {
+        "sim/qpos": true,
+        "sim/qvel": true,
+        "sim/body_xpos": true,
+        "sim/body_xquat": true,
+        "target/position": true,
+        "obs/robot0_eef_pos": true,
+        "obs/robot0_gripper_qpos": true,
+        "actions/environment": true,
+        "p2/raw_gripper": true,
+        "p2/pre_action_pad_center_distance": true
+      },
+      "complete_state_action_lengths": true
+    },
+    {
+      "cell": "adapted-joint_reps-panda",
+      "condition_id": "6b53f5548b20cd0f",
+      "steps": 600,
+      "all_finite": true,
+      "checks": {
+        "sim/qpos": true,
+        "sim/qvel": true,
+        "sim/body_xpos": true,
+        "sim/body_xquat": true,
+        "target/position": true,
+        "obs/robot0_eef_pos": true,
+        "obs/robot0_gripper_qpos": true,
+        "actions/environment": true,
+        "p2/raw_gripper": true,
+        "p2/pre_action_pad_center_distance": true
+      },
+      "complete_state_action_lengths": true
+    },
+    {
+      "cell": "adapted-joint_reps-panda",
+      "condition_id": "1d746392d5c2c590",
+      "steps": 600,
+      "all_finite": true,
+      "checks": {
+        "sim/qpos": true,
+        "sim/qvel": true,
+        "sim/body_xpos": true,
+        "sim/body_xquat": true,
+        "target/position": true,
+        "obs/robot0_eef_pos": true,
+        "obs/robot0_gripper_qpos": true,
+        "actions/environment": true,
+        "p2/raw_gripper": true,
+        "p2/pre_action_pad_center_distance": true
+      },
+      "complete_state_action_lengths": true
+    },
+    {
+      "cell": "adapted-joint_reps-panda",
+      "condition_id": "af3118e41147e4a5",
+      "steps": 600,
+      "all_finite": true,
+      "checks": {
+        "sim/qpos": true,
+        "sim/qvel": true,
+        "sim/body_xpos": true,
+        "sim/body_xquat": true,
+        "target/position": true,
+        "obs/robot0_eef_pos": true,
+        "obs/robot0_gripper_qpos": true,
+        "actions/environment": true,
+        "p2/raw_gripper": true,
+        "p2/pre_action_pad_center_distance": true
+      },
+      "complete_state_action_lengths": true
+    },
+    {
+      "cell": "adapted-joint_reps-panda",
+      "condition_id": "99b5e9fd9e624ff5",
+      "steps": 600,
+      "all_finite": true,
+      "checks": {
+        "sim/qpos": true,
+        "sim/qvel": true,
+        "sim/body_xpos": true,
+        "sim/body_xquat": true,
+        "target/position": true,
+        "obs/robot0_eef_pos": true,
+        "obs/robot0_gripper_qpos": true,
+        "actions/environment": true,
+        "p2/raw_gripper": true,
+        "p2/pre_action_pad_center_distance": true
+      },
+      "complete_state_action_lengths": true
+    },
+    {
+      "cell": "adapted-joint_reps-panda",
+      "condition_id": "a39bdd3f83dcf237",
+      "steps": 600,
+      "all_finite": true,
+      "checks": {
+        "sim/qpos": true,
+        "sim/qvel": true,
+        "sim/body_xpos": true,
+        "sim/body_xquat": true,
+        "target/position": true,
+        "obs/robot0_eef_pos": true,
+        "obs/robot0_gripper_qpos": true,
+        "actions/environment": true,
+        "p2/raw_gripper": true,
+        "p2/pre_action_pad_center_distance": true
+      },
+      "complete_state_action_lengths": true
+    },
+    {
+      "cell": "adapted-joint_reps-panda",
+      "condition_id": "aaf58fe07ac7f81d",
+      "steps": 600,
+      "all_finite": true,
+      "checks": {
+        "sim/qpos": true,
+        "sim/qvel": true,
+        "sim/body_xpos": true,
+        "sim/body_xquat": true,
+        "target/position": true,
+        "obs/robot0_eef_pos": true,
+        "obs/robot0_gripper_qpos": true,
+        "actions/environment": true,
+        "p2/raw_gripper": true,
+        "p2/pre_action_pad_center_distance": true
+      },
+      "complete_state_action_lengths": true
+    },
+    {
+      "cell": "adapted-joint_reps-panda",
+      "condition_id": "c12978d07cbfaedc",
+      "steps": 600,
+      "all_finite": true,
+      "checks": {
+        "sim/qpos": true,
+        "sim/qvel": true,
+        "sim/body_xpos": true,
+        "sim/body_xquat": true,
+        "target/position": true,
+        "obs/robot0_eef_pos": true,
+        "obs/robot0_gripper_qpos": true,
+        "actions/environment": true,
+        "p2/raw_gripper": true,
+        "p2/pre_action_pad_center_distance": true
+      },
+      "complete_state_action_lengths": true
+    },
+    {
+      "cell": "adapted-joint_reps-panda",
+      "condition_id": "38cd1f56ffadfe54",
+      "steps": 600,
+      "all_finite": true,
+      "checks": {
+        "sim/qpos": true,
+        "sim/qvel": true,
+        "sim/body_xpos": true,
+        "sim/body_xquat": true,
+        "target/position": true,
+        "obs/robot0_eef_pos": true,
+        "obs/robot0_gripper_qpos": true,
+        "actions/environment": true,
+        "p2/raw_gripper": true,
+        "p2/pre_action_pad_center_distance": true
+      },
+      "complete_state_action_lengths": true
+    },
+    {
+      "cell": "adapted-joint_reps-panda",
+      "condition_id": "c8c6cac34f32db9a",
+      "steps": 362,
+      "all_finite": true,
+      "checks": {
+        "sim/qpos": true,
+        "sim/qvel": true,
+        "sim/body_xpos": true,
+        "sim/body_xquat": true,
+        "target/position": true,
+        "obs/robot0_eef_pos": true,
+        "obs/robot0_gripper_qpos": true,
+        "actions/environment": true,
+        "p2/raw_gripper": true,
+        "p2/pre_action_pad_center_distance": true
+      },
+      "complete_state_action_lengths": true
+    },
+    {
+      "cell": "adapted-joint_reps-panda",
+      "condition_id": "8dab4349703b121f",
+      "steps": 600,
+      "all_finite": true,
+      "checks": {
+        "sim/qpos": true,
+        "sim/qvel": true,
+        "sim/body_xpos": true,
+        "sim/body_xquat": true,
+        "target/position": true,
+        "obs/robot0_eef_pos": true,
+        "obs/robot0_gripper_qpos": true,
+        "actions/environment": true,
+        "p2/raw_gripper": true,
+        "p2/pre_action_pad_center_distance": true
+      },
+      "complete_state_action_lengths": true
+    },
+    {
+      "cell": "adapted-joint_reps-panda",
+      "condition_id": "384eb953be4a2dce",
+      "steps": 600,
+      "all_finite": true,
+      "checks": {
+        "sim/qpos": true,
+        "sim/qvel": true,
+        "sim/body_xpos": true,
+        "sim/body_xquat": true,
+        "target/position": true,
+        "obs/robot0_eef_pos": true,
+        "obs/robot0_gripper_qpos": true,
+        "actions/environment": true,
+        "p2/raw_gripper": true,
+        "p2/pre_action_pad_center_distance": true
+      },
+      "complete_state_action_lengths": true
+    },
+    {
+      "cell": "adapted-joint_reps-panda",
+      "condition_id": "52658e383ee5d70b",
+      "steps": 437,
+      "all_finite": true,
+      "checks": {
+        "sim/qpos": true,
+        "sim/qvel": true,
+        "sim/body_xpos": true,
+        "sim/body_xquat": true,
+        "target/position": true,
+        "obs/robot0_eef_pos": true,
+        "obs/robot0_gripper_qpos": true,
+        "actions/environment": true,
+        "p2/raw_gripper": true,
+        "p2/pre_action_pad_center_distance": true
+      },
+      "complete_state_action_lengths": true
+    },
+    {
+      "cell": "adapted-joint_reps-panda",
+      "condition_id": "9558d593cdb431b1",
+      "steps": 600,
+      "all_finite": true,
+      "checks": {
+        "sim/qpos": true,
+        "sim/qvel": true,
+        "sim/body_xpos": true,
+        "sim/body_xquat": true,
+        "target/position": true,
+        "obs/robot0_eef_pos": true,
+        "obs/robot0_gripper_qpos": true,
+        "actions/environment": true,
+        "p2/raw_gripper": true,
+        "p2/pre_action_pad_center_distance": true
+      },
+      "complete_state_action_lengths": true
+    },
+    {
+      "cell": "adapted-joint_reps-panda",
+      "condition_id": "752210ee11d69d94",
+      "steps": 475,
       "all_finite": true,
       "checks": {
         "sim/qpos": true,

@@ -16,5 +16,23 @@
     "adapter_sha256": "57cbf49a5dbe0e9d31a42d7ed7a265e2e8a262bfb8ff5cda6670fe67be5c4751",
     "lora_b_tensors": 383,
     "nonzero_lora_b_tensors": 370
+  },
+  {
+    "method": "joint_reps",
+    "steps": 3000,
+    "sample_positions": 6000,
+    "checkpoint": "/home/users/lemon/coft-p2/p2/physical-20261108/adapted-checkpoints/joint_reps/checkpoints/step-003000-epoch-00-loss=restricted.pt",
+    "checkpoint_bytes": 5010410797,
+    "checkpoint_sha256": "27a739ce465cde466f228c96f86e9a239ebd7ac095508ecf6e2f373b936fd6d8",
+    "provenance": {
+      "source_checkpoint": "/home/users/lemon/coft-p2/artifacts/runs/joint_reps/checkpoints/step-050000-epoch-15-loss=0.2577.pt",
+      "adapter": "/home/users/lemon/coft-p2/p2/physical-20261108/training/joint_reps-lora/runs/joint_reps--lora/checkpoints/step-003000-epoch-00-loss=0.5136",
+      "merged_checkpoint": "/home/users/lemon/coft-p2/p2/physical-20261108/adapted-checkpoints/joint_reps/checkpoints/step-003000-epoch-00-loss=restricted.pt",
+      "role": "RESTRICTED_LORA_ADAPTATION"
+    },
+    "adapter_path": "/home/users/lemon/coft-p2/p2/physical-20261108/training/joint_reps-lora/runs/joint_reps--lora/checkpoints/step-003000-epoch-00-loss=0.5136",
+    "adapter_sha256": "fa5f9a2fd85795e85217311eaa7252c5bac2e6ad140cbeeb6cbc6c3e3c3520a9",
+    "lora_b_tensors": 383,
+    "nonzero_lora_b_tensors": 370
   }
 ]

@@ -1,6 +1,6 @@
 # COFT SR5: Cross-Embodiment Executability × Observability Hypothesis Probe
 
-> **P2 正在执行真实物理实验。** 最新授权见 `202611082145.md`。已完成 24 次 B1 开发干预、7 组可信 B2 重放配对和 80 次新条件正式测试：Joint Reps/UR5e 8/20、Panda 1/20，No Reps/Panda 1/20，B1/Panda 3/20；B1 配对救回 2 次、退化 0 次。No Reps 受限 LoRA 已实际训练 3000 步，独立评测 2/20；Joint Reps 适配继续运行。见 [干预报告](docs/P2_INTERVENTION_REPORT.md)、[适配记录](docs/P2_TARGET_ADAPTATION.md) 和 [机器状态](evidence/p2/status.json)。
+> **P2 真实实验完成（受限适配版本）。** 新条件正式评测 120 次：Joint Reps/UR5e 8/20、Panda 1/20，No Reps/Panda 1/20，B1/Panda 3/20；B1 救回 2 次、退化 0 次。两模型各完成 3000 步受限 LoRA，评测分别 2/20、3/20。B2 正式 Oracle 未验证。当前停止该具体新算法分支，不能据受限训练否定充分标准适配。见 [干预报告](docs/P2_INTERVENTION_REPORT.md)、[适配记录](docs/P2_TARGET_ADAPTATION.md)、[科研决定](docs/P2_SCIENTIFIC_DECISION.md) 和 [原始结果](evidence/p2/execution_2145/README.md)。
 
 > **COFT-P2：P0通过，80/80次官方物理仿真完成。** No Reps：UR5e 5/20、Panda 1/20；Joint Reps：UR5e 9/20、Panda 0/20。观察到迁移差距，但未证明学习算法不可替代。见 [闭环验证报告](docs/SIM_VALIDATION_REPORT.md)、[完整失败审计](docs/TRANSFER_FAILURES.md) 和 [下一阶段决定](docs/NEXT_ALGORITHM_DECISION.md)。
 

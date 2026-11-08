@@ -10,146 +10,146 @@ To enable the following instructions: AVX2 AVX_VNNI FMA, in other operations, re
 2026-11-08 09:44:59.888977: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
 11/08 [09:45:07] INFO     | >> [*] OpenVLA Training :: Warming Up   train.py:139
                  INFO     | >>     |=> "Do or do not; there is no   train.py:158
-                          try."                                                 
+                          try."
                  INFO     | >> [*] Loading Base VLM                 train.py:173
-                          `prism-qwen25-extra-dinosiglip-224px+0_5b             
-                          ` from ID/Path                                        
+                          `prism-qwen25-extra-dinosiglip-224px+0_5b
+                          ` from ID/Path
                  INFO     | >> [*] Loading from local checkpoint     load.py:190
-                          path                                                  
-                          `/home/users/lemon/coft-p2/artifacts/runs/            
-                          joint_reps/checkpoints/step-050000-epoch-1            
-                          5-loss=0.2577.pt`                                     
+                          path
+                          `/home/users/lemon/coft-p2/artifacts/runs/
+                          joint_reps/checkpoints/step-050000-epoch-1
+                          5-loss=0.2577.pt`
                  INFO     | >> [*] Base vlm:                         load.py:269
-                          ajaysri/prism-qwen25-extra-dinosiglip-224p            
-                          x-0_5b-stage-finetune-x7 (registry ID:                
-                          prism-qwen25-extra-dinosiglip-224px+0_5b+s            
-                          tage-finetune+x7)                                     
+                          ajaysri/prism-qwen25-extra-dinosiglip-224p
+                          x-0_5b-stage-finetune-x7 (registry ID:
+                          prism-qwen25-extra-dinosiglip-224px+0_5b+s
+                          tage-finetune+x7)
                  INFO     | >> [*] Found Config =>> Loading &        load.py:279
-                          Freezing                                              
-                          prism-qwen25-extra-dinosiglip-224px+0_5b+s            
-                          tage-finetune+x7 with:                                
-                                       Vision Backbone =>>                      
-                          dinosiglip-vit-so-224px                               
-                                       LLM Backbone    =>>                      
-                          qwen25-0_5b-extra                                     
-                                       Arch Specifier  =>>                      
-                          no-align+fused-gelu-mlp                               
-                                       Checkpoint Path =>>                      
-                          `/home/users/lemon/coft-p2/artifacts/runs/            
-                          joint_reps/checkpoints/step-050000-epoch-1            
-                          5-loss=0.2577.pt`                                     
+                          Freezing
+                          prism-qwen25-extra-dinosiglip-224px+0_5b+s
+                          tage-finetune+x7 with:
+                                       Vision Backbone =>>
+                          dinosiglip-vit-so-224px
+                                       LLM Backbone    =>>
+                          qwen25-0_5b-extra
+                                       Arch Specifier  =>>
+                          no-align+fused-gelu-mlp
+                                       Checkpoint Path =>>
+                          `/home/users/lemon/coft-p2/artifacts/runs/
+                          joint_reps/checkpoints/step-050000-epoch-1
+                          5-loss=0.2577.pt`
                  INFO     | >> [*] Loading Vision Backbone           load.py:294
-                          dinosiglip-vit-so-224px                               
+                          dinosiglip-vit-so-224px
 11/08 [09:45:09] INFO     | >> Loading pretrained weights from   _builder.py:186
-                          Hugging Face hub                                      
-                          (timm/vit_large_patch14_reg4_dinov2.lv                
-                          d142m@f3c408e77602bb412aa65fb03dfa0d5f                
-                          95cb3832)                                             
+                          Hugging Face hub
+                          (timm/vit_large_patch14_reg4_dinov2.lv
+                          d142m@f3c408e77602bb412aa65fb03dfa0d5f
+                          95cb3832)
                  INFO     | >>  Safe alternative available for       _hub.py:180
-                          'pytorch_model.bin' (as                               
-                          'model.safetensors'). Loading weights                 
-                          using safetensors.                                    
+                          'pytorch_model.bin' (as
+                          'model.safetensors'). Loading weights
+                          using safetensors.
                  INFO     | >> Resized position embedding: (37,  pos_embed.py:55
-                          37) to (16, 16).                                      
+                          37) to (16, 16).
 11/08 [09:45:11] INFO     | >> Loading pretrained weights from   _builder.py:186
-                          Hugging Face hub                                      
-                          (('timm/ViT-SO400M-14-SigLIP@9179d1517                
-                          7ece40964c50492136eda2f3e0c9f61',                     
-                          'open_clip_pytorch_model.bin'))                       
+                          Hugging Face hub
+                          (('timm/ViT-SO400M-14-SigLIP@9179d1517
+                          7ece40964c50492136eda2f3e0c9f61',
+                          'open_clip_pytorch_model.bin'))
                  INFO     | >>  Safe alternative available for       _hub.py:180
-                          'open_clip_pytorch_model.bin' (as                     
-                          'open_clip_model.safetensors'). Loading               
-                          weights using safetensors.                            
+                          'open_clip_pytorch_model.bin' (as
+                          'open_clip_model.safetensors'). Loading
+                          weights using safetensors.
 11/08 [09:45:12] INFO     | >> [*] Loading Pretrained LLM            load.py:302
-                          qwen25-0_5b-extra via HF Transformers                 
+                          qwen25-0_5b-extra via HF Transformers
                  INFO     | >>     |=> Loading qwen2.5 LLM from  base_llm.py:124
-                          `Qwen/Qwen2.5-0.5B`                                   
+                          `Qwen/Qwen2.5-0.5B`
                  INFO     | >>     |=> Loading qwen2.5 (Fast)    base_llm.py:168
-                          Tokenizer via the AutoTokenizer API                   
+                          Tokenizer via the AutoTokenizer API
 Added 256 extra tokens.
                  INFO     | >> [*] Loading VQ VAE for    action_tokenizer.py:191
-                          Action Tokenization from                              
-                          /home/users/lemon/coft-p2/arti                        
-                          facts/vq/mg_pnp_lite/config.js                        
-                          on...                                                 
+                          Action Tokenization from
+                          /home/users/lemon/coft-p2/arti
+                          facts/vq/mg_pnp_lite/config.js
+                          on...
                  INFO     | >> [*] Found VQ VAE          action_tokenizer.py:194
-                          parameters:                                           
-                          <vqvae.vqvae.VqVae object at                          
-                          0x7f0cac7b71c0>                                       
+                          parameters:
+                          <vqvae.vqvae.VqVae object at
+                          0x7f0cac7b71c0>
                  INFO     | >> [*] Loading VLA                       load.py:319
-                          prism-qwen25-extra-dinosiglip-224px+0_5b+s            
-                          tage-finetune+x7 from Checkpoint                      
+                          prism-qwen25-extra-dinosiglip-224px+0_5b+s
+                          tage-finetune+x7 from Checkpoint
 11/08 [09:45:15] INFO     | >> [*] Successfully loaded          prismatic.py:132
-                          projector weights from checkpoint.                    
+                          projector weights from checkpoint.
                  INFO     | >> [*] Successfully loaded vision   prismatic.py:143
-                          backbone weights from checkpoint.                     
+                          backbone weights from checkpoint.
                  INFO     | >> [*] Invoking                         train.py:257
-                          `VLM.freeze_backbones()` for                          
-                          `prism-qwen25-dinosiglip-224px+0_5b+mx-xe             
-                          mbod-robocasa-full` => Stage:                         
-                          `vla-full-train`                                      
+                          `VLM.freeze_backbones()` for
+                          `prism-qwen25-dinosiglip-224px+0_5b+mx-xe
+                          mbod-robocasa-full` => Stage:
+                          `vla-full-train`
                  INFO     | >>     |=> [TRAINABLE] 🔥 =>>       prismatic.py:216
-                          Vision Backbone                                       
-                          `dinosiglip-vit-so-224px`                             
+                          Vision Backbone
+                          `dinosiglip-vit-so-224px`
                  INFO     | >>     |=> [TRAINABLE] 🔥 =>> LLM   prismatic.py:217
-                          Backbone `qwen25-0_5b-extra`                          
+                          Backbone `qwen25-0_5b-extra`
                  INFO     | >>     |=> [TRAINABLE] 🔥 =>>       prismatic.py:218
-                          Projector `no-align+fused-gelu-mlp`                   
+                          Projector `no-align+fused-gelu-mlp`
                  INFO     | >> [*] # Parameters (in millions):      train.py:263
-                          1252.496 Total, 1252.496 Trainable                    
+                          1252.496 Total, 1252.496 Trainable
                  INFO     | >> [*] Creating VLA Open-X Dataset with train.py:268
-                          Mixture `panda_xp_900_pnp`                            
+                          Mixture `panda_xp_900_pnp`
                  INFO     | >> [*] Loading VQ VAE for    action_tokenizer.py:191
-                          Action Tokenization from                              
-                          /home/users/lemon/coft-p2/arti                        
-                          facts/vq/mg_pnp_lite/config.js                        
-                          on...                                                 
+                          Action Tokenization from
+                          /home/users/lemon/coft-p2/arti
+                          facts/vq/mg_pnp_lite/config.js
+                          on...
                  INFO     | >> [*] Found VQ VAE          action_tokenizer.py:194
-                          parameters:                                           
-                          <vqvae.vqvae.VqVae object at                          
-                          0x7f0ca4313d00>                                       
+                          parameters:
+                          <vqvae.vqvae.VqVae object at
+                          0x7f0ca4313d00>
                  INFO     | >> [*] Saved dataset statistics    data_utils.py:293
-                          file at path                                          
-                          /home/users/lemon/coft-p2/p2/physica                  
-                          l-20261108/training/full-step-probe/                  
-                          runs/joint_reps--full/dataset_statis                  
-                          tics.json                                             
+                          file at path
+                          /home/users/lemon/coft-p2/p2/physica
+                          l-20261108/training/full-step-probe/
+                          runs/joint_reps--full/dataset_statis
+                          tics.json
                  INFO     | >> [*] Initializing Train Strategy      train.py:320
-                          `fsdp-full-shard`                                     
+                          `fsdp-full-shard`
 11/08 [09:45:16] INFO     | >> [*] FSDP Full-Shard Strategy =>>      fsdp.py:251
-                          Finalized Training Setup:                             
-                                   |-> Global (Effective) Batch Size            
-                          = 1                                                   
-                                   |-> Per-Device Batch Size = 1                
-                                   |-> Distributed World Size = 1               
-                                   |-> Gradient Accumulation Steps =            
-                          1                                                     
-                                                                                
-                                   |-> LLM Backbone FSDP Gradient               
-                          Checkpointing = True                                  
-                                   |-> Use FSDP Mixed Precision =               
-                          True                                                  
-                                           |-> Parameter Precision =            
-                          torch.bfloat16                                        
-                                           |-> Reduction Precision =            
-                          torch.float32                                         
-                                           |-> Buffer Precision =               
-                          torch.float32                                         
-                                                                                
-                                   |-> Default AdamW LR = 2e-05                 
-                                   |-> AdamW Weight Decay = 0.0                 
-                                   |-> LR Scheduler Type = constant             
-                                   |-> LR Scheduler Warmup Steps                
-                          (Ratio) = 0 (0.0)                                     
-                                   |-> Dataset Size = 81315 Examples            
-                                   |-> Max Steps = 1                            
-                                                                                
+                          Finalized Training Setup:
+                                   |-> Global (Effective) Batch Size
+                          = 1
+                                   |-> Per-Device Batch Size = 1
+                                   |-> Distributed World Size = 1
+                                   |-> Gradient Accumulation Steps =
+                          1
+
+                                   |-> LLM Backbone FSDP Gradient
+                          Checkpointing = True
+                                   |-> Use FSDP Mixed Precision =
+                          True
+                                           |-> Parameter Precision =
+                          torch.bfloat16
+                                           |-> Reduction Precision =
+                          torch.float32
+                                           |-> Buffer Precision =
+                          torch.float32
+
+                                   |-> Default AdamW LR = 2e-05
+                                   |-> AdamW Weight Decay = 0.0
+                                   |-> LR Scheduler Type = constant
+                                   |-> LR Scheduler Warmup Steps
+                          (Ratio) = 0 (0.0)
+                                   |-> Dataset Size = 81315 Examples
+                                   |-> Max Steps = 1
+
                  INFO     | >> [*] Creating Metrics with Active     train.py:344
-                          Trackers => `('jsonl',)`                              
+                          Trackers => `('jsonl',)`
                  INFO     | >> [*] Starting VLA Training Loop       train.py:357
 
 =>> [Epoch 000] Global Step 000000 =>> LR :: 0.000000:   0%|          | 0/1 [00:00<?, ?it/s]
-                                                                                            
+
 Traceback (most recent call last):
   File "/home/users/lemon/miniconda3/envs/skillcompose/lib/python3.10/runpy.py", line 196, in _run_module_as_main
     return _run_code(code, main_globals, None,
@@ -206,7 +206,7 @@ Traceback (most recent call last):
     return launch_agent(self._config, self._entrypoint, list(args))
   File "/home/users/lemon/coft-p2/barx/.venv/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 268, in launch_agent
     raise ChildFailedError(
-torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError:
 ============================================================
 p2_validation.train_adapter FAILED
 ------------------------------------------------------------

@@ -1,0 +1,23 @@
+{
+  "target_sample_directions": {
+    "counter_to_sink": 1488,
+    "sink_to_counter": 1580
+  },
+  "instructions": {
+    "pick the orange from the counter and place it in the sink": 120,
+    "pick the can from the sink and place it on the plate located on the counter": 407,
+    "pick the can from the counter and place it in the sink": 233,
+    "pick the banana from the sink and place it on the plate located on the counter": 482,
+    "pick the apple from the counter and place it in the sink": 173,
+    "pick the sponge from the counter and place it in the sink": 419,
+    "pick the lemon from the counter and place it in the sink": 164,
+    "pick the cucumber from the counter and place it in the sink": 198,
+    "pick the lemon from the sink and place it on the plate located on the counter": 361,
+    "pick the carrot from the counter and place it in the sink": 181,
+    "pick the sponge from the sink and place it on the plate located on the counter": 185,
+    "pick the cucumber from the sink and place it on the plate located on the counter": 121,
+    "pick the apple from the sink and place it on the plate located on the counter": 24
+  },
+  "target_sample_positions": 3068,
+  "interpretation": "Frame/sample positions, not counts of unique demos or full trajectories"
+}

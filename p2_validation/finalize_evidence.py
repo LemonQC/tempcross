@@ -8,6 +8,7 @@ import hashlib
 import json
 from pathlib import Path
 import shutil
+import subprocess
 
 import numpy as np
 
@@ -24,8 +25,20 @@ def finalize(root,out,index_external=True):
     import matplotlib
     matplotlib.use('Agg')
     import matplotlib.pyplot as plt
+    matplotlib.rcParams['svg.hashsalt']='p2-execution-2145'
     from p2_validation.collect import collect,write_csv
     root=Path(root).resolve();out=Path(out).resolve();collect(root,out)
+    source=Path('/home/users/lemon/coft-p2/barx')
+    source_commit=subprocess.check_output(['git','-C',str(source),'rev-parse','HEAD'],text=True).strip()
+    source_status=subprocess.check_output(['git','-C',str(source),'status','--porcelain'],text=True).strip()
+    assert source_commit=='0f435089f48b1f16d225f868dbef855a5e75d1e0' and not source_status
+    bundles=[]
+    for arm in ['ur5e','panda']:
+        for suffix in ['.npz','.json']:
+            path=source/'evaluation/conditions/pnp_counter_to_sink'/(arm+suffix)
+            bundles.append(dict(path=str(path),sha256=digest(path)))
+    (out/'official_source_integrity.json').write_text(json.dumps(dict(commit=source_commit,clean_worktree=True,
+         frozen_condition_bundles=bundles,success_function_modified=False),indent=2)+'\n')
     data=json.loads((out/'analysis.json').read_text())
     frozen=json.loads((root/'script-freeze.json').read_text());versions=[]
     for name,old in frozen['scripts'].items():
@@ -45,7 +58,8 @@ def finalize(root,out,index_external=True):
         rows=[r for r in data['episodes'] if r['cell']==cell['cell']]
         for label,count in sorted(Counter(r['observed_stage'] for r in rows).items()):
             stage_counts.append(dict(cell=cell['cell'],observed_stage=label,episodes=count))
-        fig,axes=plt.subplots(5,4,figsize=(15,14),sharex=True,sharey=True)
+        nrows=(len(rows)+3)//4
+        fig,axes=plt.subplots(nrows,4,figsize=(15,2.8*nrows),sharex=True,sharey=True,squeeze=False)
         for ax,row in zip(axes.flat,rows):
             path=Path(row['telemetry_path'])
             with h5py.File(path,'r') as f:
@@ -76,10 +90,26 @@ def finalize(root,out,index_external=True):
         fig.suptitle(cell['cell']+' — recorded trajectories (contact/lift are diagnostic proxies)')
         fig.tight_layout(rect=(0,.025,1,.97))
         plots=out/'plots';plots.mkdir(exist_ok=True)
-        destination=plots/(cell['cell']+'.svg');fig.savefig(destination);plt.close(fig)
+        destination=plots/(cell['cell']+'.svg');fig.savefig(destination,metadata={'Date':None});plt.close(fig)
         destination.write_text('\n'.join(line.rstrip() for line in destination.read_text().splitlines())+'\n')
     (out/'state_integrity.json').write_text(json.dumps(dict(episodes=len(audit),all_verified=bool(audit),records=audit),indent=2)+'\n')
     write_csv(out/'stage_counts.csv',stage_counts)
+    b1_comparison=next((r for r in data['comparisons'] if r['method']=='b1-joint_reps-panda'),None)
+    if b1_comparison and b1_comparison['rescue_condition_ids']:
+        ids=b1_comparison['rescue_condition_ids'];fig,axes=plt.subplots(len(ids),3,figsize=(15,4*len(ids)),squeeze=False)
+        for key,axis in zip(ids,axes):
+            for name,label in [('original-joint_reps-panda','B0'),('b1-joint_reps-panda','B1')]:
+                row=next(r for r in data['episodes'] if r['cell']==name and r['condition_id']==key)
+                with h5py.File(row['telemetry_path']) as f:
+                    axis[0].plot(f['p2/raw_gripper'][:],label=label)
+                    axis[1].plot(f['actions/environment'][:,6],label=label)
+                    obj=f['target/position'][:];axis[2].plot((obj[:,2]-obj[0,2])*100,label=label)
+            axis[0].axhline(.85,color='grey',ls=':');axis[0].set_ylim(0,1.05)
+            for ax,title in zip(axis,['Raw gripper prediction','Executed gripper command','Object rise (cm)']):
+                ax.set_title(key+'\n'+title);ax.set_xlabel('action/state index');ax.grid(alpha=.2);ax.legend()
+        fig.tight_layout();destination=out/'plots/b1-rescued-pairs.svg'
+        fig.savefig(destination,metadata={'Date':None});plt.close(fig)
+        destination.write_text('\n'.join(line.rstrip() for line in destination.read_text().splitlines())+'\n')
     # Exact frozen identity is checked independently from the evaluation wrapper.
     identities=[]
     for path in sorted((root/'formal').glob('*/job.json')):
@@ -114,7 +144,7 @@ def finalize(root,out,index_external=True):
         log=actual_log if actual_log.exists() else root/'training'/(label+'.log')
         if log.exists():
             # Preserve all text, while making tqdm carriage-return output readable.
-            (destination/'console.log').write_text(log.read_text(errors='replace'))
+            (destination/'console.log').write_text('\n'.join(line.rstrip() for line in log.read_text(errors='replace').splitlines())+'\n')
         status=json.loads((directory/'training_status.json').read_text())
         if label in ['no_reps-lora','joint_reps-lora'] and status['status']=='COMPLETE':
             metrics=list((directory/'runs').rglob(label.replace('-lora','--lora')+'.jsonl'))
@@ -142,7 +172,7 @@ def finalize(root,out,index_external=True):
                 ax.set_title(method+' '+key);ax.set_xlabel('completed optimizer steps');ax.grid(alpha=.2)
         fig.suptitle('Restricted adaptation: raw and 100-step means; composite losses differ by method')
         fig.tight_layout(rect=(0,0,1,.96));destination=out/'plots/training-curves.svg'
-        fig.savefig(destination);plt.close(fig)
+        fig.savefig(destination,metadata={'Date':None});plt.close(fig)
         destination.write_text('\n'.join(line.rstrip() for line in destination.read_text().splitlines())+'\n')
     suite=json.loads((root/'adaptation_suite.json').read_text())
     checkpoints=[]
@@ -162,10 +192,20 @@ def finalize(root,out,index_external=True):
                           lora_b_tensors=len(bkeys),nonzero_lora_b_tensors=sum(n>0 for n in norms))
         checkpoints.append(record)
     (out/'checkpoint_index.json').write_text(json.dumps(checkpoints,indent=2)+'\n')
+    decoded={}
     for name in ['development-video-validation.json','source-video-validation.json',
                  'target-video-validation.json','adapted-video-validation.json','b2-video-validation.json']:
         p=root/name
-        if p.exists():shutil.copyfile(p,out/name)
+        if p.exists():
+            shutil.copyfile(p,out/name)
+            for row in json.loads(p.read_text())['records']:
+                assert row['verified'];decoded[row['video_path']]=row
+    actual_videos={str(p) for p in root.rglob('*.mp4')}
+    if index_external:assert actual_videos==set(decoded),'Video integrity index does not cover every physical rollout'
+    (out/'video_completeness.json').write_text(json.dumps(dict(videos_verified=len(decoded),
+          decoded_frames=sum(r['decoded_frames'] for r in decoded.values()),
+          all_physical_rollout_videos_covered=actual_videos==set(decoded),
+          includes_repeated_b2_instrumentation_and_initial_technical_attempt=True),indent=2)+'\n')
     cache=root.parent/'matched-samples-6000'
     shutil.copyfile(cache/'sample_trace.csv',out/'matched_sample_trace.csv')
     b2=root/'b2-diagnostics-v3'
@@ -202,7 +242,7 @@ def finalize(root,out,index_external=True):
     for ax in axes[-1]:ax.set_xlabel('executed action index (1-based)')
     axes[0,0].legend();fig.suptitle('B2 physical replay pairs — seven probes, not seven independent failure cases')
     fig.tight_layout(rect=(0,0,1,.97));destination=out/'plots/b2-causal-probes.svg'
-    fig.savefig(destination);plt.close(fig)
+    fig.savefig(destination,metadata={'Date':None});plt.close(fig)
     destination.write_text('\n'.join(line.rstrip() for line in destination.read_text().splitlines())+'\n')
     write_csv(out/'b2_mechanism.csv',mechanisms)
     # All heavy artifacts stay on the host, indexed by absolute path and digest.

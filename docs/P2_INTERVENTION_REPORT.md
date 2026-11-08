@@ -8,7 +8,7 @@
 
 B1 只读取原始连续夹爪信号及历史，只改变执行动作第七维；其他维度与当次原 BARX 预测保持一致。成功标签沿用官方 `info[is_success][task]`。
 
-B2 已完成 7 个原始/闭爪干预配对，共 14 次物理重放。6 个失败配对来自 3 条代表轨迹、各 2 个固定时刻，32 步强制闭爪均未救回最终任务；成功正对照的两个分支均成功。全部分支的关节、EEF、物体、夹爪、actuator ctrl、求解器 warmstart 和控制器状态核对通过，记录误差为 0。最初一次重放在事后审计遇到 NumPy bool 相减错误，已修复并另存 v2，原始两次物理记录没有删除，也没有混入可信配对计数。
+B2 已完成 7 个原始/闭爪干预配对，共 14 次物理重放。6 个失败配对来自 3 条代表轨迹、各 2 个固定时刻，32 步强制闭爪均未救回最终任务；成功正对照的两个分支均成功。全部分支的关节、EEF、物体、夹爪、actuator ctrl、求解器 warmstart 和所记录控制器数值状态核对通过，记录误差为 0。最初一次重放在事后审计遇到 NumPy bool 相减错误，已修复并另存 v2，原始两次物理记录没有删除，也没有混入可信配对计数。
 
 同一组配对另存 v3，增加逐步 qpos/qvel、完整动作、actuator ctrl、夹爪关节和指垫位置；结论与 v2 一致。v2/v3 是重复记录，不是 12 个独立失败案例。含最初技术失败的两次重放，B2 共实际执行 30 次物理重放；可信独立设计仍是六个失败时刻探针（来自三条轨迹）加一个阳性对照。
 
@@ -45,3 +45,12 @@ B1 每一步的机械臂六维与当时原策略预测逐元素一致（误差�
 [开发及正式逐次 CSV](../evidence/p2/execution_2145/episodes.csv) · [B2 实际配对](../evidence/p2/execution_2145/b2_development.json) · [视频索引](../evidence/p2/execution_2145/video_index.json)
 
 大型 HDF5、MP4、日志与 B2 分支快照位于 `/home/users/lemon/coft-p2/p2/physical-20261108/`。本阶段未新增机器人、任务、相机、奖励或成功判据，也没有开发 COFT 新网络。
+
+
+## 适配后追加与完整性
+
+同批 20–39 上，No Reps + 受限 LoRA 为 2/20，Joint Reps + 受限 LoRA 为 3/20；相对各自原始模型救回/退化 2/1、3/1。见 [适配报告](P2_TARGET_ADAPTATION.md)。正式总数 120，B2 的 20 次按未验证门禁跳过。加上 24 次 B1 开发和 30 次 B2 重放，共 174 个新物理 rollout 视频，100108 帧全部解码。B2 重复记录及初次技术故障不作为新增独立证据。
+
+[状态核验](../evidence/p2/execution_2145/state_integrity.json) · [条件核验](../evidence/p2/execution_2145/condition_integrity.json) · [视频全覆盖](../evidence/p2/execution_2145/video_completeness.json) · [102 条正式失败](../evidence/p2/execution_2145/formal_failures.csv) · [B1 救回图](../evidence/p2/execution_2145/plots/b1-rescued-pairs.svg) · [B2 配对图](../evidence/p2/execution_2145/plots/b2-causal-probes.svg)。
+
+B1 规则文件在正式测试前写入；脚本哈希快照在首个正式进程启动后约 20 秒、模型加载阶段捕获。之后只增加 B2 遥测、TF CPU 线程限制、完成任务复用检查，没有根据正式结果改规则、样本预算或 checkpoint 选择。[版本审计](../evidence/p2/execution_2145/execution_versions.json)。

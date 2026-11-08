@@ -1,0 +1,14 @@
+{
+  "verified_at_utc": "2026-11-08T15:40:58.077474+00:00",
+  "tests_passed": 18,
+  "test_stdout_sha256": "f3cc59d8e91f5bef7ad0018e4a482efcb7f865eb26b26cda35dd6e9faf382a1d",
+  "compileall_passed": true,
+  "old_aa23600_closed_loop_results_unchanged": true,
+  "aa23600_is_ancestor": true,
+  "report_links_checked": 61,
+  "report_links_all_exist": true,
+  "formal_episodes": 120,
+  "policy_state_action_episodes": 144,
+  "all_physical_videos_verified": 174,
+  "all_physical_video_frames_decoded": 100108
+}

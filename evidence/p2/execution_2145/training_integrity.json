@@ -7,5 +7,14 @@
     "sample_trace_sha256": "88b7af02fd345baa1765b702d09d69eadd025e0ffef0d904f36d70afe5b8a62c",
     "mean_first_100_loss": 3.498201865684241,
     "mean_last_100_loss": 2.1097454661130906
+  },
+  {
+    "method": "joint_reps",
+    "optimizer_steps": 3000,
+    "finite_loss_every_step": true,
+    "sample_positions": 6000,
+    "sample_trace_sha256": "88b7af02fd345baa1765b702d09d69eadd025e0ffef0d904f36d70afe5b8a62c",
+    "mean_first_100_loss": 1.6338901218771935,
+    "mean_last_100_loss": 0.7897979337722063
   }
 ]
