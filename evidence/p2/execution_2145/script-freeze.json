@@ -1,0 +1,57 @@
+{
+  "frozen_at_utc": "2026-11-08T14:08:25.204720+00:00",
+  "source_commit": "0f435089f48b1f16d225f868dbef855a5e75d1e0",
+  "scripts": {
+    "controls.py": "ee248294953dfe51a54cf351acef1f255920817c0b979dbeeb94bc378932de74",
+    "run_policy.py": "da12567cb6aa7da7058ff95a8af0006db9b9f2a1515cc303c006ba10b3397e23",
+    "execute.py": "9cc4db541a38bc42fa6781dd31174f9790d29c2e7a59c54b649f803e4b2085dc",
+    "replay_intervention.py": "c52fff1bfbf5086c66c02419a25ea05331954b24966b3021699f54c5d41435f9",
+    "prepare_training.py": "92c01a6cb7db104b2f28bf77ce46e2185764e40f86a515167fa840d4ee5b163d",
+    "train_adapter.py": "9cbc8d59e839aacec5100749bb73a329971276627804569c3e33d267addb2702",
+    "train_suite.py": "22aa03e84c440961a03bdb6f2cc49be421a2aeb5eda3c7d1e6d943b96d86dfe2",
+    "merge_adapter.py": "5f9c928b9a9a5712a5acd38b81b4f979c74f568584454fb37cca9167211e6564"
+  },
+  "b1_threshold_candidates": [
+    0.85,
+    0.9,
+    0.93
+  ],
+  "development_indices": [
+    0,
+    1,
+    2,
+    4,
+    6,
+    10,
+    12,
+    18
+  ],
+  "b1_hysteresis": 0.03,
+  "minimum_hold": 8,
+  "formal_indices": [
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39
+  ],
+  "training_samples_per_method": 6000,
+  "learning_rate": 2e-05,
+  "training_checkpoint_selection": "final fixed step, no test selection",
+  "single_gpu_limited_exposure_not_full_paper_reproduction": true
+}

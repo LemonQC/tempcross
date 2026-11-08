@@ -1,0 +1,2450 @@
+[
+  {
+    "repo": "ajaysri/robocasa-x-target-panda-pnp",
+    "revision": "6e297509924c831c722180212d13f21686676e8e",
+    "filename": "1.0.0/dataset_info.json",
+    "path": "/home/users/lemon/coft-p2/p2/data/panda_pnp/1.0.0/dataset_info.json",
+    "size": 504,
+    "sha256": null,
+    "git_blob": "0f39c1b338bbb3202819eacf38e59410ee631dd7"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-target-panda-pnp",
+    "revision": "6e297509924c831c722180212d13f21686676e8e",
+    "filename": "1.0.0/features.json",
+    "path": "/home/users/lemon/coft-p2/p2/data/panda_pnp/1.0.0/features.json",
+    "size": 9940,
+    "sha256": null,
+    "git_blob": "92a9a7eaf2072cb11341287576cf23e0e97d7670"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-target-panda-pnp",
+    "revision": "6e297509924c831c722180212d13f21686676e8e",
+    "filename": "1.0.0/robocasa_x_target_panda_pnp-train.tfrecord-00000-of-00008",
+    "path": "/home/users/lemon/coft-p2/p2/data/panda_pnp/1.0.0/robocasa_x_target_panda_pnp-train.tfrecord-00000-of-00008",
+    "size": 107416669,
+    "sha256": "47a9132bc5565d34910186fcaecd7d2baa16f99c5fdc10ffba99590f087581e4",
+    "git_blob": "3547fdf12871ad4550d97fdfaf468f014ea5a160"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-target-panda-pnp",
+    "revision": "6e297509924c831c722180212d13f21686676e8e",
+    "filename": "1.0.0/robocasa_x_target_panda_pnp-train.tfrecord-00001-of-00008",
+    "path": "/home/users/lemon/coft-p2/p2/data/panda_pnp/1.0.0/robocasa_x_target_panda_pnp-train.tfrecord-00001-of-00008",
+    "size": 115095687,
+    "sha256": "b126b8c4598dc26b6f51bb99154327e47a9e74987bc0d2f3f33d85c1f68497ed",
+    "git_blob": "27c8ac25edf9319ba6e1cab3f16087e067eb8d70"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-target-panda-pnp",
+    "revision": "6e297509924c831c722180212d13f21686676e8e",
+    "filename": "1.0.0/robocasa_x_target_panda_pnp-train.tfrecord-00002-of-00008",
+    "path": "/home/users/lemon/coft-p2/p2/data/panda_pnp/1.0.0/robocasa_x_target_panda_pnp-train.tfrecord-00002-of-00008",
+    "size": 125654050,
+    "sha256": "e1d467876857696f77c33b479a980aee70064b18857f58c23e7093647f4dc762",
+    "git_blob": "d9869ed7ab198f8de95ce5a5dea78014f8513606"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-target-panda-pnp",
+    "revision": "6e297509924c831c722180212d13f21686676e8e",
+    "filename": "1.0.0/robocasa_x_target_panda_pnp-train.tfrecord-00003-of-00008",
+    "path": "/home/users/lemon/coft-p2/p2/data/panda_pnp/1.0.0/robocasa_x_target_panda_pnp-train.tfrecord-00003-of-00008",
+    "size": 117462018,
+    "sha256": "dbdf76aa9b13041e355d868600a78c6a1c6e2bc453cfc9f9e19bb426d8448f5b",
+    "git_blob": "104f8becc067080397492ea586fa540049f91dc9"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-target-panda-pnp",
+    "revision": "6e297509924c831c722180212d13f21686676e8e",
+    "filename": "1.0.0/robocasa_x_target_panda_pnp-train.tfrecord-00004-of-00008",
+    "path": "/home/users/lemon/coft-p2/p2/data/panda_pnp/1.0.0/robocasa_x_target_panda_pnp-train.tfrecord-00004-of-00008",
+    "size": 116105336,
+    "sha256": "dc801509c82348552c72e1356d6d31dad586fb3e6ee83eee38d928cb16c35484",
+    "git_blob": "a84b0a2231e483d796543ba21da8d0f332646866"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-target-panda-pnp",
+    "revision": "6e297509924c831c722180212d13f21686676e8e",
+    "filename": "1.0.0/robocasa_x_target_panda_pnp-train.tfrecord-00005-of-00008",
+    "path": "/home/users/lemon/coft-p2/p2/data/panda_pnp/1.0.0/robocasa_x_target_panda_pnp-train.tfrecord-00005-of-00008",
+    "size": 148924829,
+    "sha256": "717cd7bdb5fd26edf294da2c7fe0a6963f417b918d40ec0c020f0a56e238fbfe",
+    "git_blob": "86ec8dbd100b6ac6b651d6f04854484e3b939965"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-target-panda-pnp",
+    "revision": "6e297509924c831c722180212d13f21686676e8e",
+    "filename": "1.0.0/robocasa_x_target_panda_pnp-train.tfrecord-00006-of-00008",
+    "path": "/home/users/lemon/coft-p2/p2/data/panda_pnp/1.0.0/robocasa_x_target_panda_pnp-train.tfrecord-00006-of-00008",
+    "size": 130515337,
+    "sha256": "c6d2c4b0c073f43b658ca064b307cb7f5b510901d5f58dfe3f34745462c92356",
+    "git_blob": "8031b3b9e9ad5130dea29cf8a253eba470d29f58"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-target-panda-pnp",
+    "revision": "6e297509924c831c722180212d13f21686676e8e",
+    "filename": "1.0.0/robocasa_x_target_panda_pnp-train.tfrecord-00007-of-00008",
+    "path": "/home/users/lemon/coft-p2/p2/data/panda_pnp/1.0.0/robocasa_x_target_panda_pnp-train.tfrecord-00007-of-00008",
+    "size": 109535842,
+    "sha256": "c6f4d70428c015e35accabc2b476517b0db63dd42d5c3819024f9fe40f594cf9",
+    "git_blob": "dcddddd9c93d6c1043bbfd725457d55bfe20b214"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-target-panda-pnp",
+    "revision": "6e297509924c831c722180212d13f21686676e8e",
+    "filename": "README.md",
+    "path": "/home/users/lemon/coft-p2/p2/data/panda_pnp/README.md",
+    "size": 3197,
+    "sha256": null,
+    "git_blob": "2ee40a631759be15e0a1ac8d22b4ec0b557e88db"
+  },
+  {
+    "repo": "ajaysri/barx-raw-hdf5",
+    "revision": "c8b3aba2dfbbfbafa67fa82466320945d560208f",
+    "filename": "human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+    "path": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+    "size": 564120784,
+    "sha256": "3afd1c433ae028c63fe99364ac951030f4a4f232c0102f42cf31c1a8dc1ab0d0",
+    "git_blob": "178cbdcab5cf70d74580cc9f897a9a9bfbd356c9"
+  },
+  {
+    "repo": "ajaysri/barx-raw-hdf5",
+    "revision": "c8b3aba2dfbbfbafa67fa82466320945d560208f",
+    "filename": "human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+    "path": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+    "size": 716265939,
+    "sha256": "4874601734320497cc6effa4cb5d0bf64daa7ae517ce299a0130f108a033ca61",
+    "git_blob": "4734e41a36bdc1295b4b335f8d194a12a00d5d8e"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/dataset_info.json",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/dataset_info.json",
+    "size": 3709,
+    "sha256": null,
+    "git_blob": "9ff11af375c70618e9db1c3ee1089cb727d74958"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/features.json",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/features.json",
+    "size": 9940,
+    "sha256": null,
+    "git_blob": "92a9a7eaf2072cb11341287576cf23e0e97d7670"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00000-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00000-of-00256",
+    "size": 105317847,
+    "sha256": "63841fddb9200c867a11ca7fc9a9a3e61d310da161cf8b7ce1edce08574b290f",
+    "git_blob": "623d111451c2e0ae700a5e062a5907f1ca9c3587"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00001-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00001-of-00256",
+    "size": 100452137,
+    "sha256": "1bcf5238b8ce327cba81e9722ef3d8b866690d877fffcc1bc7a3aee3dfffa007",
+    "git_blob": "263ed9fe17189cf203751ec5be3cf8f4c130c945"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00002-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00002-of-00256",
+    "size": 100518568,
+    "sha256": "8f7e9b99378526a093b629e543a112320b173b3ff18328a4f0316458065f8eaa",
+    "git_blob": "b40070e4662fe54480da29a3e9fc5f186a67784a"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00003-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00003-of-00256",
+    "size": 88775812,
+    "sha256": "c1ae26a79558edd165dd212ed1bc923339c805e0d92365c2025d6dc954646549",
+    "git_blob": "d56b2cafe419c5a1f912c88727bfad49f2978ea7"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00004-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00004-of-00256",
+    "size": 96507654,
+    "sha256": "9a54955074780d658ce9e43f59f6f908edd1772307b4188eaad51220bacea19f",
+    "git_blob": "878f189827570e49e027f8f0727fef280f291a82"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00005-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00005-of-00256",
+    "size": 107224871,
+    "sha256": "ead82c7137c98ffdd19e99887f4f7b08975c4878bfcce9e3e1039fa5fe505b82",
+    "git_blob": "ed34e4c2b040af38ced44be32b1e114b40140a04"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00006-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00006-of-00256",
+    "size": 87327166,
+    "sha256": "525181c0bcace9cfa65ee26bf37c03a4f44e60591a84c9c02f58e5dae3faa1e7",
+    "git_blob": "c520e0f1795fc9563558e001bd03018661a3534e"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00007-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00007-of-00256",
+    "size": 99214825,
+    "sha256": "b047031b4aac7c07e68bcb02d1159f17a4917c4ccd5b823f1a6eb713b47fc04a",
+    "git_blob": "980b9157a30c0a0c4e46e3f7fe1a3c09a30e0a70"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00008-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00008-of-00256",
+    "size": 87547888,
+    "sha256": "06c6e019fce49af0cb457d53158f06b1a9830ef614bfc0c2e921f22482d806a7",
+    "git_blob": "accd4779ea4b2c2b07c581c408d28f5381eaa93b"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00009-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00009-of-00256",
+    "size": 111658668,
+    "sha256": "1de747b975755c18c9ec58e410831c60ab805108ff8a41843be0ab802b7926fb",
+    "git_blob": "ed3451cce925c43f2edd29b806601467f3c3f08a"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00010-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00010-of-00256",
+    "size": 101091683,
+    "sha256": "29374526331d3fad4b7bccf873831e1e46a7ecfdf086235e0e221617cd4b746b",
+    "git_blob": "64dd97f305fafe898a44b412f40aaf367d4d2980"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00011-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00011-of-00256",
+    "size": 85094671,
+    "sha256": "cdb530f01e59547f96f47742e42b6e6e070e925533a04549d2bd2a291f840a29",
+    "git_blob": "4dac4d480a9f10a869b999f0d691f54c09b96099"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00012-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00012-of-00256",
+    "size": 99666565,
+    "sha256": "24ca2e384fefe03eb8aaf21ee279bc9e57f690294cecf9f05704e7f282e34e68",
+    "git_blob": "3c018069e75a16de47ad820da1528a2f18ed8f4c"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00013-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00013-of-00256",
+    "size": 90085359,
+    "sha256": "66576bb71fd93411b445231e34d94d564fa1eea8c4e697ae51b9b3c959ca6045",
+    "git_blob": "51dd7c74bac88e3f5ad4365bb874a545d034832f"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00014-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00014-of-00256",
+    "size": 88939702,
+    "sha256": "707d44d2dc192e2513763255eacd39e4efc076626f4140072be408a2102c0839",
+    "git_blob": "5086a392b20cc418b705b29655f28d9f06c58d61"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00015-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00015-of-00256",
+    "size": 113418820,
+    "sha256": "f857f261ebdbe5d6ed395262eb2bec6f6d33ef9e93cc9003a12f04b73d04b813",
+    "git_blob": "2c2eaea1d7f6261b632a6f2e9561cbba218505b9"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00016-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00016-of-00256",
+    "size": 112838312,
+    "sha256": "17a05a6abbdeb056e4aa4f2e25d3f44d6e1afbdcbc4ffc35c672a4471cc85476",
+    "git_blob": "91e05b390962f9278866b77d2acd840c592e8e11"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00017-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00017-of-00256",
+    "size": 106200156,
+    "sha256": "cc412b841fe87f17317d63934d691334ecbe9660ee3dfabe7126fc3d116f64d2",
+    "git_blob": "43aad0cfa9617b9298acea0fdb5842295a73685c"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00018-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00018-of-00256",
+    "size": 110870008,
+    "sha256": "5463b11f2fd8326ee62c103e9ffbf41943bc219063e6ea03d0a58b10f2437277",
+    "git_blob": "a539a929dc41b4200798ec8c603f09dd23127d66"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00019-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00019-of-00256",
+    "size": 109150529,
+    "sha256": "2984bee28db359951b8e1d1e9f4ac8b542ef5277ec40a4b6b74a372564a9cc8a",
+    "git_blob": "89982c1b1399c9da1097f097452e26ead939d869"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00020-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00020-of-00256",
+    "size": 93962475,
+    "sha256": "63964e01d60d7f8125567313d32f47045d4b52fac94a7ebeb665ce1aad9f3967",
+    "git_blob": "e47fdc2e76e89bd3e3dbfa6357039428c40952d9"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00021-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00021-of-00256",
+    "size": 92461630,
+    "sha256": "b14329174d68968c18f0367d59b2fd7fbc741d5fe71af6b6e634243a088074f9",
+    "git_blob": "a185f5053c89e62d8387fe18ffc63c3dd4bd368a"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00022-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00022-of-00256",
+    "size": 104359323,
+    "sha256": "adea34412f271da0322415a1abc47a9629ebfcff3a55c18495494f861fdd13da",
+    "git_blob": "c7dd84fd5b5e915e4d95d9af5ff794677d5c0e46"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00023-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00023-of-00256",
+    "size": 95364466,
+    "sha256": "74ae3e7c3e801d38c16310f074fa756e89617052ede8d94053a33de53df08ad7",
+    "git_blob": "f8cbf91f03e810d32f4372a3f9ec48060651a1b5"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00024-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00024-of-00256",
+    "size": 102628794,
+    "sha256": "68c10be82de1e414611ed4e44be4ce661d9ee26d9c831492936b7a0b6b073159",
+    "git_blob": "4ed407565bf583d4e4608613acbbae4e909d049c"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00025-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00025-of-00256",
+    "size": 97519528,
+    "sha256": "d8daf9fd50aefe0bd9813282fdf4e572ed637fe670b9baa90180c41423adb24d",
+    "git_blob": "ef976d41be3571f6fd45a7d2c321604612c292c9"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00026-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00026-of-00256",
+    "size": 90281314,
+    "sha256": "06a3c4433a79e379d3adb136549fc17913a938f18889934aeef802c8dbf08b50",
+    "git_blob": "44304eaffe9f75d32feb0d2d7a3c9f6185422680"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00027-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00027-of-00256",
+    "size": 90354895,
+    "sha256": "365c4894d6dcc3cc0fc2913fee0c00e35c3eee2e76dddc17f86540e07d744e69",
+    "git_blob": "790d196392d79a157dfb8e7840daef76f3e7f1dd"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00028-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00028-of-00256",
+    "size": 118819339,
+    "sha256": "68e8bd78080fa723a113f9ef27aa04e1b7e2f3c642f28413f694546c9fd125e6",
+    "git_blob": "dc9fb7c45688b35d885674376642b24e28ce21fc"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00029-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00029-of-00256",
+    "size": 104150232,
+    "sha256": "cd364ea9c4033b02df28112b6cac3abff08000d917ae290486b60386a1004341",
+    "git_blob": "4654c0b6c56541d48f2315728baa93b2ce3fe1f4"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00030-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00030-of-00256",
+    "size": 102632639,
+    "sha256": "0856abdfe8a8cb16c3536e38d5f19f9d6749a035b6059c0ca0350469c0deb615",
+    "git_blob": "057ad7e27338a7cb59551aabd6a4dc3fd2009029"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00031-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00031-of-00256",
+    "size": 110597854,
+    "sha256": "b9a1616c2d66dc992a38f7ec018c46ef7406f13e514160b4ec39e5b9d9cf0658",
+    "git_blob": "0d34bd0064fc22a24b506b8e6a13114dc7ab88c8"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00032-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00032-of-00256",
+    "size": 99123243,
+    "sha256": "862c6de71dad6a5912541742a4c531970bbd08688325c1b0acf2cde982f2f341",
+    "git_blob": "5bc60e8f506bab4bdb9a841e48edaf661f4e4284"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00033-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00033-of-00256",
+    "size": 102813242,
+    "sha256": "d15985cfe2f036f4ffc16ba11e4fe0b8c3df0f6b25607bb3db81757c884219fe",
+    "git_blob": "6f7fa539c6ddce2fabc708df1a49a6aa776a7262"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00034-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00034-of-00256",
+    "size": 83361669,
+    "sha256": "5471551b91d3d90db82ec73acbd49c3e0503d9feb434c0a685d439e5dd6f6d8f",
+    "git_blob": "65ea0e9168a201b79813d07a9cc9e834980261c9"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00035-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00035-of-00256",
+    "size": 82809326,
+    "sha256": "97732ce6629d922ccbb3648486d1a06707a66ab066c9899178320670cb99ffb3",
+    "git_blob": "d048e498f34d042f152e084ec7d4e6708f89f370"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00036-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00036-of-00256",
+    "size": 91409651,
+    "sha256": "ae7874668f1f3dcc66d8df202f9f781a64486fbd62dd8a3a0e155ebaf5378927",
+    "git_blob": "ebd38eab9aefe70672f9ab6998a2bb560c70f6a4"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00037-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00037-of-00256",
+    "size": 93153121,
+    "sha256": "cff42bec2adfc54f0bb438294558aaba6d9ce9690b085524e6b138d03ca42b04",
+    "git_blob": "c6b8984166c124c685ea75d3f4e477fc35002a88"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00038-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00038-of-00256",
+    "size": 107270704,
+    "sha256": "af008a6bb1dd204f4ca04aeaf5ba9a9f9a2168ef2ef38e5fb7f2f926231b626e",
+    "git_blob": "d7888faf733159f0fedbcee36d99930b9e9258b1"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00039-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00039-of-00256",
+    "size": 119588097,
+    "sha256": "f0d29fe4ee455e6b99d358f70031456f22773fe3abdf0a2889f59b5f6c3cbb0e",
+    "git_blob": "77c470c87e097b1de0a2295fd26d09ff51fb4e56"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00040-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00040-of-00256",
+    "size": 104841825,
+    "sha256": "cc9062711602aa79c4883bb392b8d8da28badb92e6113416fe9c3d4dd146415e",
+    "git_blob": "ef358e2aceff19a02cae12260e6d92856992726c"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00041-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00041-of-00256",
+    "size": 100552205,
+    "sha256": "3003bcb6bd4756a654f892b9458f46011f82bcb2fc25947c766357be3798f5f7",
+    "git_blob": "2c9c80581e0c618426343f5e274876cf7277ad64"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00042-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00042-of-00256",
+    "size": 95929106,
+    "sha256": "3a021205b24e4ac640ccf3242db459eea35c5ed6575e1680b17f321d85555c38",
+    "git_blob": "5967920e42c69022eda48b9c674be6d96f448c3b"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00043-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00043-of-00256",
+    "size": 92730557,
+    "sha256": "85ace906d6231ad2c76cc57955f007f4e81c8a62001440a108882478f367b7f1",
+    "git_blob": "5e52bfecb820dc72232455203d0b2b382d4904d6"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00044-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00044-of-00256",
+    "size": 91469220,
+    "sha256": "4b60021c7ffd7e0be0ccc8cc8e7eb7a2653c75aaaf5d179f5ec700164884f787",
+    "git_blob": "12904cf443fda715e231a3e7b5d40a406df0bd96"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00045-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00045-of-00256",
+    "size": 99663757,
+    "sha256": "0c44b4079c2c908e283712c55d4f1b935efffc29c30bd12e634f6c68607eb7ab",
+    "git_blob": "2b73b71443dcfa91eaedd59c27b6102d614b23b5"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00046-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00046-of-00256",
+    "size": 85537152,
+    "sha256": "c40068d1f87f4f0dd70d44c2c01b898dba122d9058351e2808fb5bdaec811430",
+    "git_blob": "7bc63be06cde0f7186158fd0e9946c7e22ae88c9"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00047-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00047-of-00256",
+    "size": 113159098,
+    "sha256": "89f3eef0f79a4a7305287b0e75581dca0808e4657d5238d56ad62d874051c8e1",
+    "git_blob": "00ee652a3e5956462e974ec8826e7764a4edc801"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00048-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00048-of-00256",
+    "size": 104144793,
+    "sha256": "7fb7e7ae70204b7a265900a935f78c6f73dea4ac723116e8197aa58d61bc7d50",
+    "git_blob": "38da4879e2817017cf389695f51227e39aed2483"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00049-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00049-of-00256",
+    "size": 93388877,
+    "sha256": "82ae836113bc1959712f8f587e013f4f382b353973ea98fe89868f5aa91f9859",
+    "git_blob": "0d26aadd42342adc2dd81cc5275c0937abfa5526"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00050-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00050-of-00256",
+    "size": 111535565,
+    "sha256": "a1381d97eb731267b6ff000de92b6b08cba53f9e777a4cefe8a100d8c152db98",
+    "git_blob": "59e792f37b6b5972ffd98e025dfdf9ea27db2688"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00051-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00051-of-00256",
+    "size": 92551584,
+    "sha256": "c496b6fc467a2c682437550cacb73771676d2e9433f5ceaf7334701eaef51ba7",
+    "git_blob": "2d4c4bec996421588a772135012ab856aa9bb8df"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00052-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00052-of-00256",
+    "size": 99039498,
+    "sha256": "be12250858950e0ca6d293e819b03bee70232634015828b00de4f9252629f4db",
+    "git_blob": "a9ac5b06c24aaef5eaa462107ad205a23ece2239"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00053-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00053-of-00256",
+    "size": 87027215,
+    "sha256": "6500e82c999e47375ebbc499130f22649b4d51a6571e587b43669a0426a0e233",
+    "git_blob": "9b4b95245d6d31fca925c01da396802acd6c3434"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00054-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00054-of-00256",
+    "size": 102409543,
+    "sha256": "4d3c0ee028e2da6f005dcf93ad757ea96761c4315b8a4444b9962519ca22962d",
+    "git_blob": "ce7e7e23cb34c1ef6b81d3958c76c6976733901d"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00055-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00055-of-00256",
+    "size": 104962636,
+    "sha256": "296a5fd1c62df5388f851d495c60eba6a6b5b2f0cd51d2f476b11738d6943c3f",
+    "git_blob": "60220e6ac7b698dc72a9f5f0802b572910948838"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00056-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00056-of-00256",
+    "size": 104063304,
+    "sha256": "4c8e93b4dff1f1dd396d892956059041b2ab6b6bacc26ded71db401077fd532a",
+    "git_blob": "a224343fa631b058798df8e6a691cd0f280f3f1f"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00057-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00057-of-00256",
+    "size": 87960858,
+    "sha256": "24a0c3458cfc74a3d030f374b2cea0d827ed240be8183e5e6ca131ed76a0e714",
+    "git_blob": "a838337de81d23bf4af02acbf3e8dc9d47688971"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00058-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00058-of-00256",
+    "size": 88311186,
+    "sha256": "6423311261a70cc4dd9ce1b755cc214fbdafb3fcc0d4ff3273195e909f76c658",
+    "git_blob": "09ac23b689e32077361577fea698deb7c545794b"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00059-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00059-of-00256",
+    "size": 88562758,
+    "sha256": "0e3a428b9541a2f48f24ed8c6273941380aebb15e81397651365346086fc832e",
+    "git_blob": "6ed83c49636465884a23aa77f6d850f7ea414dd8"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00060-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00060-of-00256",
+    "size": 79765392,
+    "sha256": "eeeead8f1279c0447edef2a6945ce4f984c3d6efc68d1ddff88769e3e37c8000",
+    "git_blob": "e74df85c956656e2994d3573673e915fc3f24b26"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00061-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00061-of-00256",
+    "size": 110592919,
+    "sha256": "1942abecb8d27f6af3e26ef48167e477beec9d22c85b477b4afe96adaf813bb1",
+    "git_blob": "e9eb5f1d339390a6e875b507739003f2f03428f2"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00062-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00062-of-00256",
+    "size": 121697014,
+    "sha256": "59b8a7c1711e8ac8ede544563d1f9edb2470bf3a5352a48c9c47581de98f7ca5",
+    "git_blob": "75fd9e8b25fe1d3822b696507a31ffd573275b63"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00063-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00063-of-00256",
+    "size": 91805801,
+    "sha256": "b0b40bb5999076422e85a53baab1abb92137eb1f7eea943cfe286da7cef6b918",
+    "git_blob": "7eda3ebe865d199828ab97a2c5dfe825c0fa3a33"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00064-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00064-of-00256",
+    "size": 87733830,
+    "sha256": "0738d9a6e9361e894922a38d2ee6b6e3fa87efccea1fb835de259ffed05d7254",
+    "git_blob": "0b74df88f5e7cd7563cd18e8ef3920becf947263"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00065-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00065-of-00256",
+    "size": 104195714,
+    "sha256": "8ab5933e681b3f79f11e07e7ae85d2492345b13c24db48415666131a0e5271f2",
+    "git_blob": "5a811e57ae126dff14b6856013b6c13001322ca0"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00066-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00066-of-00256",
+    "size": 92794572,
+    "sha256": "b1347e8f8d4102b4ebb2ed7399890299a749c76cd1e049ddaf4721bdd2622d86",
+    "git_blob": "ad59d869d3a9c368ad43563f91a501e49ec37ad0"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00067-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00067-of-00256",
+    "size": 100662567,
+    "sha256": "f405b7f67efa333812fac6292ca7832e32ecab22c65718bfcf5c1f6c6200265d",
+    "git_blob": "b01ffeca694e4603bce2960a2aa379e5bd8e91a6"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00068-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00068-of-00256",
+    "size": 95771520,
+    "sha256": "8c50e439efd90486b3c89e924541162ff6354700e6cf28c5181ce8a20207d40f",
+    "git_blob": "10cef0c10c7b6688954baa02ce12f3932d3b4d44"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00069-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00069-of-00256",
+    "size": 102338439,
+    "sha256": "3c02bfbcd4cb643bbdf658090fa255e921c53ea7059eaaf0b1c362bfd800a5ac",
+    "git_blob": "c70c1b14547346cbe2d342bc79d186d0cdd994c6"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00070-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00070-of-00256",
+    "size": 94613656,
+    "sha256": "434f99dcf38f3905cf5961717c8a79cd78a6e575935630bee98ee6328d6d5ef8",
+    "git_blob": "a50c915e4ef0606bc047e42aa9036280e141f930"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00071-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00071-of-00256",
+    "size": 93410377,
+    "sha256": "cbad74e061bc5e35f3f95ab71fc30cd75dd5aa395deadf71071b48a308348304",
+    "git_blob": "36029fc1cb3f4bafc891fcbd9e968a515a39abc9"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00072-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00072-of-00256",
+    "size": 95536461,
+    "sha256": "9850c9d902a4c6d8b17b9f7f26b3472a010a21aa299b9d0868c282eb10d51bef",
+    "git_blob": "95b949ea72a3e09c97adb527607cffc0e4e0bb7a"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00073-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00073-of-00256",
+    "size": 85310234,
+    "sha256": "921d2c274fdb37e19ba7c549b7fc647e65c6e9c242a0245acbe986e827c3d4a7",
+    "git_blob": "d6678f54eed60636b191a0060c67b467aadc92c1"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00074-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00074-of-00256",
+    "size": 102501508,
+    "sha256": "d658ac9650402479a060c70e13e5db4dcb0eed71d27ba7f384eb659cf7a2f74f",
+    "git_blob": "b3414abf2c8586e8d5e6d9cce9883c88bc6ee406"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00075-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00075-of-00256",
+    "size": 111679964,
+    "sha256": "048f4cc58e2016af0adff6369e09ec4f16d5e6c0b743e90fb29140ac516b96b4",
+    "git_blob": "f95200b14c4c934958fea2630b440829aaf2f281"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00076-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00076-of-00256",
+    "size": 107595553,
+    "sha256": "66600e13c9f174f039d804f68678ba883b4770a3c180092a79ddf03d9a18441d",
+    "git_blob": "b8c084ea233879c875d5c58bb7d0dd440dd2195a"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00077-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00077-of-00256",
+    "size": 94416301,
+    "sha256": "15bbdaab43b1423bf5c32b61b539d4780d7f8fb4bef88f4a87f9719659bd4737",
+    "git_blob": "59aad76e1986b84575dd0338d9ae3c591b0a377a"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00078-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00078-of-00256",
+    "size": 109299139,
+    "sha256": "3876029eb2155b5af0fcd05ed7dfde11ac33f5dbf9704277b461274bf6a40a26",
+    "git_blob": "a2ab95d0d0fab15b68761368d56ff7d9e209e816"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00079-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00079-of-00256",
+    "size": 102885770,
+    "sha256": "3e6bdc16cddcafb163872c608fef3e89917a21073e1698d808fd4bdb3d7d5e76",
+    "git_blob": "fc2f37066fe096e5274c44ba05a70566e5444551"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00080-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00080-of-00256",
+    "size": 114424906,
+    "sha256": "12aaab238410df3abb135b63a4e5c0683c89247e6e74152d1e146f7a2f5c3c13",
+    "git_blob": "71583f2678a5af5772dfb8016fccda29861764d2"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00081-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00081-of-00256",
+    "size": 83495850,
+    "sha256": "4c25d862f9b317c96f58c2e3150c406f8a19f3f940e2b75a8e8b218ea7f65d4a",
+    "git_blob": "7806fa10c88db0d199d01ebd4f9369057a0987e3"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00082-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00082-of-00256",
+    "size": 90068349,
+    "sha256": "ec68c8ec1dee94a14cee63aab125602ac3c4bfe7b5f80993be28b1f6816ef3ae",
+    "git_blob": "5062286c5926575f1ff19111f184552a7b83eaa6"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00083-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00083-of-00256",
+    "size": 94978132,
+    "sha256": "abbe8667e0b89e7b8f69e69856053d7b34ce761fad8e02a5b3e5b25ba9888b8c",
+    "git_blob": "6a5b8f88672c344b18abf3fe24fc83316aed6b4c"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00084-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00084-of-00256",
+    "size": 94094239,
+    "sha256": "b0725eec2907a32ad5ee88ac4883cd17e356f49f627bb573225c6850f5ab7c38",
+    "git_blob": "8ee736281f06b433e6bdfc54e452f4586bda02ef"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00085-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00085-of-00256",
+    "size": 100010177,
+    "sha256": "acb100eaa597944289dec4a966be1176fd406d810a320246dd81f6214c98355e",
+    "git_blob": "c4c08ce473c0b52d1c57588bff9e2766f41e321a"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00086-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00086-of-00256",
+    "size": 92876874,
+    "sha256": "6352345b72a895e190ba807f562b479095d718e5f46ebfb77810e0d4ae1c3d7a",
+    "git_blob": "ca110d103b67497fd93a461231d24689894e1188"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00087-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00087-of-00256",
+    "size": 84122539,
+    "sha256": "a66ad7cbd501df90940243385cfd7c71b84d73a8a0b29ed23df8f10ba90c4ac2",
+    "git_blob": "12df62a59e40e3f73973c941b8d2afb11a21c016"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00088-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00088-of-00256",
+    "size": 92592554,
+    "sha256": "8385cdddc8d1a17ed37c6a7b74a95a3ff593c52dd910888662f0a2080c465ec3",
+    "git_blob": "55cbea9d4fc181a3ddd6dfe7ab412ba8538737f6"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00089-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00089-of-00256",
+    "size": 106046355,
+    "sha256": "c36ee203d6731e5d09ac65951b3d31612bb2fca9baeb6971a61cd45988ecbaed",
+    "git_blob": "e1ae15e2b2b270280b0215517e94c9bfdc603db9"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00090-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00090-of-00256",
+    "size": 93920507,
+    "sha256": "9d4557847c34cf93fc685e384666af2236de42956f4777394a3b9b85615236d6",
+    "git_blob": "9045c7608efb59a81e7ea770dd6c99cd1b3750b7"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00091-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00091-of-00256",
+    "size": 85009672,
+    "sha256": "5d2992d08ce9503fb925512d66674420c970d014412c59ca5f88a8712a41658f",
+    "git_blob": "445a44e3c14e13c4f25de4f6aaa44a34d87f3eb4"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00092-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00092-of-00256",
+    "size": 91792718,
+    "sha256": "8b4633ab816ba1afea1fd5bb5e2a5231433a0c14eb011b25c107d80143d127fd",
+    "git_blob": "222c831fdbe566e9ea071970901227b87ce9d391"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00093-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00093-of-00256",
+    "size": 94410621,
+    "sha256": "353b2b481b65ca20ba3e35da12978e16139a00e4f98364ec7239413a3526d3f5",
+    "git_blob": "04e35444d48baabe229b3578af4dbff2616ec77a"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00094-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00094-of-00256",
+    "size": 103496391,
+    "sha256": "2323cd8095b5b28bb9c549e60b61c5c416731ded88f5174d6cd25ebacb131dd8",
+    "git_blob": "280d7dcb9c027297b021df0029386fe5a90db9d0"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00095-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00095-of-00256",
+    "size": 84946885,
+    "sha256": "7dd55ed3c119ff34a49922a1aae28940221bc4a8c06ca1a146b25459b16beaed",
+    "git_blob": "39636a4a3912f39272f3ace9e44e0c1e0b247a34"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00096-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00096-of-00256",
+    "size": 107889295,
+    "sha256": "c921d07653188b9f9086fd842b754a7aa013213b619d878a8e3ddd938696a907",
+    "git_blob": "87522d070942601cc48afd0e8bc75e4b124fe2c7"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00097-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00097-of-00256",
+    "size": 93401306,
+    "sha256": "9b3746733de458bad868da1b61c1e00396b1349a0510b80beb589d10c695487b",
+    "git_blob": "9e46d83bc15981aa749576db39df4df92a693d27"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00098-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00098-of-00256",
+    "size": 101585731,
+    "sha256": "6db27e1c9a5e4a3bbe530f607e3ab4d3cde987c94ebe87dc5c12c665bf4ee1d7",
+    "git_blob": "6faca44099f82d2a894686876053e28b79fdaa46"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00099-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00099-of-00256",
+    "size": 101768642,
+    "sha256": "4de961113c3efd39fd98b84135f7cf99fe3465092d71f048a51944d334a4784e",
+    "git_blob": "67c3b90ca22dc3768b2fc3d8e0d272166ec060c2"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00100-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00100-of-00256",
+    "size": 91834754,
+    "sha256": "9ac42acc9c9c5311627f9f454b6c42d819ede4f2f4562d678c84b1a65544bc21",
+    "git_blob": "255e4277142f686ac018441c0101b9c738fea51d"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00101-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00101-of-00256",
+    "size": 94932219,
+    "sha256": "febc6549342500564058936533ab2fabd8922eb72c997f6792629e81082f6b93",
+    "git_blob": "0ec0bc5b0b4229d422b422bfbc81c1977a173e61"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00102-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00102-of-00256",
+    "size": 86561716,
+    "sha256": "940e619b098c061a8f4dba7c485922bb4fab62df3c437d76bf6b5cd10dc82715",
+    "git_blob": "4646c90dd5bf312e5747ad85af842ecdc5ebead8"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00103-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00103-of-00256",
+    "size": 82447631,
+    "sha256": "a06355e88ee150c1f08d5721544cde5a32480f7ad8f1aab44c58e4c6756c467d",
+    "git_blob": "f1d80d39dd31cfaeb1ce2820cf7149bfa29f9676"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00104-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00104-of-00256",
+    "size": 93573849,
+    "sha256": "aa703be140cdfaf309b98ed1db5ec7b576c313a27121436542b33fdd7b04a159",
+    "git_blob": "900daec0e504dbed0699ea772d91d837d52d6d09"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00105-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00105-of-00256",
+    "size": 96729090,
+    "sha256": "0308771c300323a7cf853f4efb02ecd11c7d9770ea3b45fadfe4eb6a4c93481d",
+    "git_blob": "ee35b6476d4d0c9f91e71bd174562c4a980a3898"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00106-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00106-of-00256",
+    "size": 91612999,
+    "sha256": "4dc4c1ae8b60013fc2296490d21c01efaa0e551020ede5652bb71ff15e6d4eaf",
+    "git_blob": "e67b557211b9d6c21b648cc5185e5be6991987b6"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00107-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00107-of-00256",
+    "size": 96427352,
+    "sha256": "50c3c517b3cf27ebae7b7c4e3f1bc9a501c478ce7c1ebc26640a6d3bda93b613",
+    "git_blob": "9266202bb620ee8ba7fa4ee4cd90d98051bcf185"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00108-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00108-of-00256",
+    "size": 100901039,
+    "sha256": "4ada1c202fcc10c7bc177c559cb3a68c907570e116ac698a67a2f84c11af122a",
+    "git_blob": "fee729b5fb752c55543c208fc8b70b5fa3ce211e"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00109-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00109-of-00256",
+    "size": 99602780,
+    "sha256": "2a8b0f0c8e506f4e8451900328917bbdfbf0492d35baa6661c40535cebbb76a2",
+    "git_blob": "4fdb2bc5c2613c9e201864ecd2e2b72aa82355c3"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00110-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00110-of-00256",
+    "size": 107378429,
+    "sha256": "77a15d24810a528b0c17a9a7fd1025c9dc660cbbfd179444ba836a1194cf1b0f",
+    "git_blob": "bd5254a46a70ef60e69f60b6c62e080c5293f565"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00111-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00111-of-00256",
+    "size": 114237593,
+    "sha256": "c1f99739c1da305ed7224c44cc2d8f26b3712dd1e4e5d8a8d38ca29b6ff9cc6f",
+    "git_blob": "c0d57274f2dd4678e7ba5192db52ea349c62392e"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00112-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00112-of-00256",
+    "size": 93658758,
+    "sha256": "68a34207ca0874365705680fcf7493c5ce67f656e5765d95237e563215ae813d",
+    "git_blob": "a2385f1dc825fcd34c5b86b2a3fece9530c888c9"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00113-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00113-of-00256",
+    "size": 104346940,
+    "sha256": "2c7f1739e4b3b18fa0b32ce953818d5dc648fd8b90b8385ec0d1c3b6c92a4f32",
+    "git_blob": "fcb8034850ed292df71a007aaf556e494a95e603"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00114-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00114-of-00256",
+    "size": 84504152,
+    "sha256": "a6f1e19742b260992b9586691fa2abb85d4416bcfc45951a8c2f7f8d79307763",
+    "git_blob": "123d1fab6e590e7d7c11c84b6307db3460196696"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00115-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00115-of-00256",
+    "size": 99421618,
+    "sha256": "d9c8fce008704b9558984dd5a53128eeaa36a6ed7660e8fef6428a5a65896d65",
+    "git_blob": "5a3eaa56f93d0e50a55247bffeb944829d77ca5d"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00116-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00116-of-00256",
+    "size": 101688782,
+    "sha256": "b8dfaae3621fabd8720976ffa31f595ca958f2721bd85940e701fc977a8f30ad",
+    "git_blob": "fb23614abe88059ae2d2e06894f67a4bd21a5cbd"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00117-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00117-of-00256",
+    "size": 95929387,
+    "sha256": "93713db96cea950476e287747baf874a3c7d3ce2cc834efee2b34c1903bfd32b",
+    "git_blob": "affb7821616b3307bbf45c1f65959b1c33881f3e"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00118-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00118-of-00256",
+    "size": 86950823,
+    "sha256": "f0097ddca4fffc5e957a31eacc6c70c9e6e6a4dc803a9adcb5748b7a752141c5",
+    "git_blob": "037ee890223c25c1eaf9d045407b843d18a06967"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00119-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00119-of-00256",
+    "size": 91063171,
+    "sha256": "4fb93e96e0b4fb07aafcbffa51fc7066b9c307042a637290a07d029c057b6956",
+    "git_blob": "6d1d44e0226a1231e8d33391f99172d8c2469fb4"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00120-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00120-of-00256",
+    "size": 91200335,
+    "sha256": "016c04deaf948230431606aeab0991db653c413621868fe1e3afed732392a05e",
+    "git_blob": "f99d76bc1066a7973d2a73639cacd41344b6bb9d"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00121-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00121-of-00256",
+    "size": 105598441,
+    "sha256": "f497d0aa7795c43773de2b3db80d76e5e03123b86609d743ee0a3cbd61a4f0d0",
+    "git_blob": "cb3f51f2ba1a6bd68c432ed799c537d7fee5b3fa"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00122-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00122-of-00256",
+    "size": 98610310,
+    "sha256": "7ef15843ece04afb9d845a7af66a050fe89a847e0945b3e03cf2176eb5acd72f",
+    "git_blob": "20fcdbcfbf17acba76578ae014e248ef87b388e5"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00123-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00123-of-00256",
+    "size": 89930955,
+    "sha256": "ba0bbdc410ab9435f42166b9f0ac3d784632e6632019b73bd7c94a950a391dd2",
+    "git_blob": "babf925c9c357bbab709e2fe320b4256c457a6c9"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00124-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00124-of-00256",
+    "size": 91141313,
+    "sha256": "901583f5cc36473d535bc282ebab419306a499d98e96171f60cc8235a05db7ff",
+    "git_blob": "d1aaa6125fa8742f596a373ae05e4c61f545551d"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00125-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00125-of-00256",
+    "size": 82914657,
+    "sha256": "ae742ef1a7b1b3eae41383e91f35c58081224f68ff754a7f5da80311b3a8f191",
+    "git_blob": "8ac172dc48f636ff2503f066e94d3525ab95f08a"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00126-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00126-of-00256",
+    "size": 94557823,
+    "sha256": "1042eb47e465cbde12c462c98cf135f7946234fbd1d24b3054ca84800bbaf6be",
+    "git_blob": "c8d7ef55024dcbbfd8857f030a7eb4533cf072ec"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00127-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00127-of-00256",
+    "size": 95668729,
+    "sha256": "78218638612aa0dd721f42756016f7e8c9614fbb40bf44c253d394ce53afb6f6",
+    "git_blob": "b57ee4675fe62ec5684ba36388798bd64a46136b"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00128-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00128-of-00256",
+    "size": 93027926,
+    "sha256": "497f1d55ece56d90bc63d4c1465a8bf679eb9e636e7dcb6a034ecdd4a4f0f998",
+    "git_blob": "b49fd45a9c5a850887d94412ceab4b1cf84aaac2"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00129-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00129-of-00256",
+    "size": 100633675,
+    "sha256": "9b0b5bafa94e5be2917c81733e2ce7aa79fbdda4e96ea2870549507e9ed7e8e7",
+    "git_blob": "9097d6657ecbdc787b1a41609b6e8c1874afaac2"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00130-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00130-of-00256",
+    "size": 89347059,
+    "sha256": "17325829a3cf17a90c6a1d41c6897b0a8bcc7e01857473666b3ee6c25f538fad",
+    "git_blob": "b66da5656395767597b149bd3819cab4b7fe7516"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00131-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00131-of-00256",
+    "size": 102811320,
+    "sha256": "aa022d9be19f51181e927231c5fec039bba6532cbfe2139aae2d57af86a6a276",
+    "git_blob": "8acd56fbb42b70c9d26d5a44b4cccb4adc22ffe0"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00132-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00132-of-00256",
+    "size": 85488941,
+    "sha256": "a10f8652316d4189eb59ceef7e381c4064029d43c09eadf384a55b81c0bc9e0e",
+    "git_blob": "ea70d181de524aafdf24b006ef357952f0816fb5"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00133-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00133-of-00256",
+    "size": 92994900,
+    "sha256": "0d029645886ad12562cb6a3c36fc591060e21b4d0cc4b09be05236ed469b49d6",
+    "git_blob": "43cc97d8edcb9495e3fc0809a2fa4a9f1815b143"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00134-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00134-of-00256",
+    "size": 105315708,
+    "sha256": "21d84fca38ee99250fef45fae7ab7426df82c45f532c9b896ac976890c3e587c",
+    "git_blob": "75179fead71d082e7586a84a2bc827da88be32ca"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00135-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00135-of-00256",
+    "size": 98486685,
+    "sha256": "6945de433f30bc4cb64a63fc3c95957f5a69be245c3e530b0896ee0e51e338c1",
+    "git_blob": "2b53468139f9798e8dd2d55103948e8a34d0ffb0"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00136-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00136-of-00256",
+    "size": 84147170,
+    "sha256": "d51d762a75497cd4e69080df8112bf6d375dc627e94f335f0769334f4cbc4f47",
+    "git_blob": "1f136310db8532cfc46215a9348af97a3dc05cd5"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00137-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00137-of-00256",
+    "size": 96054971,
+    "sha256": "4d961661837014f6241f3ba0c298b8dafb7441f011fd6d2b88c6373e7fca2109",
+    "git_blob": "3d09cd3968e2c81f8de0f24638208060d8d9727c"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00138-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00138-of-00256",
+    "size": 99884216,
+    "sha256": "f255b7bf2c69c8e4deb894dd4267b8206d13cdafad6d36cc9bdd657ac82b2e7f",
+    "git_blob": "e230921dd1e776aa90addd0dd31800be3ac192fb"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00139-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00139-of-00256",
+    "size": 96349468,
+    "sha256": "005578ef2073cff0179873698c8a1fda5a759cf7ad7766ab0e8d3669dd1733ba",
+    "git_blob": "fe5fb7d05d06b8e6cc0b363bab8944b447f9abfd"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00140-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00140-of-00256",
+    "size": 99921593,
+    "sha256": "e45e394525816344877fd214dfbc913252ad8cae9193aab4b5857c63e6e25255",
+    "git_blob": "1a41982fbe2ac0c622ae3aee0b70961f7949cd66"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00141-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00141-of-00256",
+    "size": 90135327,
+    "sha256": "d44441079e1ea4367c07e92f3ca51ed1d95d33b093e5cb46fb468927268ab548",
+    "git_blob": "11cd596ac0857e376bd5afb869a676e0503b9a7d"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00142-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00142-of-00256",
+    "size": 105876920,
+    "sha256": "605bd6e43bbd7236a17de157f17803a9395c115cf93ebf90aff16e6d33a37fbe",
+    "git_blob": "10be3fb5cefd01baeb720baf3f9c4d5cebfdc364"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00143-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00143-of-00256",
+    "size": 100900535,
+    "sha256": "d8c39f62ef5a7782803cd8d884e9ab3b22258744ceb0c6028666cc6cc710762a",
+    "git_blob": "c2494a49d592893603ee5a0ab452743ef384257a"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00144-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00144-of-00256",
+    "size": 85453222,
+    "sha256": "f00425ce3d8a4d94eff7c632f1ea9a5e098af7623759e442837209dfbf5dc75b",
+    "git_blob": "85a15daa16168bc30834f310536672e6e436775c"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00145-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00145-of-00256",
+    "size": 97870075,
+    "sha256": "3554f45b618336920230374913716bfff3e190269b5cdca8dd545608d2e5d166",
+    "git_blob": "4e7dec1d2cb29b25b587c6215280b5db2499d9dd"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00146-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00146-of-00256",
+    "size": 87977529,
+    "sha256": "b5395a5f5685d9ce339c3415d78874de26cedb6a92d95b1d098f083c466f38fa",
+    "git_blob": "42feb8309ea936249b902737593383d63634020c"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00147-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00147-of-00256",
+    "size": 93787068,
+    "sha256": "e6fc547601a3e4477868206304f6cf5891f848522ad42121ab7db51ed2390f05",
+    "git_blob": "0c53dc889376ee98d43a50831f6cf699de83a60e"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00148-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00148-of-00256",
+    "size": 109603067,
+    "sha256": "80396e5d93f87182773332abff531105050cdb30b0e976b15db5310ad8bfe6dd",
+    "git_blob": "68fed2e31d4a53e597ea3b6e8229e91e5b243822"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00149-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00149-of-00256",
+    "size": 100256494,
+    "sha256": "02d503045ad9109422f5feb1823f62886b11d43658a8181f19f27923f2a73fb5",
+    "git_blob": "4368b81c119f2115be1d60572260087d7aabd47a"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00150-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00150-of-00256",
+    "size": 102810853,
+    "sha256": "17ec67b937405ae2bc81141379f45930b7f1e9a3f9ba5cffe79555ccb88c0084",
+    "git_blob": "47fcd11374f591a9451dacc3da60b5608e839547"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00151-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00151-of-00256",
+    "size": 103025751,
+    "sha256": "c98b84c6424de9635f0aa1e4b1b8855a5ccdcf1a86dd41f4820b1443294ab552",
+    "git_blob": "fe5e7604c07d8d44a02170ec1bad803d43d5c2f7"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00152-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00152-of-00256",
+    "size": 103361173,
+    "sha256": "d2fab7cee655307d5f17884e46b45dd7f2f8d620c69458e922e0e374f35a5179",
+    "git_blob": "8326a0a6125a4b75e5fdb7da9e703fe6eac9aec0"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00153-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00153-of-00256",
+    "size": 87849173,
+    "sha256": "d9256ddd72e7b663c41e342f7b89b14629e3adf359b8e3f1abbd3fdcdc05627c",
+    "git_blob": "e5adce53b13bda963a93d5dbf6f32dded0fe7753"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00154-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00154-of-00256",
+    "size": 93919736,
+    "sha256": "952c1c7289b348db36d88eb5e582e400de0f5ad018c1241136eb1f1ccf2727db",
+    "git_blob": "c8218206133ec0a45ef81223586256e72b15d956"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00155-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00155-of-00256",
+    "size": 109759115,
+    "sha256": "07322b5b7e77b984fd1b6fbaf35f64666ec07e968ab5685ad82fe3e55175952e",
+    "git_blob": "220589a9761e067ed2455a7215a8417c2cc31974"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00156-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00156-of-00256",
+    "size": 89940259,
+    "sha256": "e4e469777aeffe50ef55a434ec787c184aa4841016e9d664327fbe3536170e8f",
+    "git_blob": "cf521a3b9d6f58965d05207b59a1a63aa9cf3902"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00157-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00157-of-00256",
+    "size": 84415570,
+    "sha256": "667045e72b3e0de3104a25a353e8051f60236ff975e985c47a2afc0f3400b67b",
+    "git_blob": "841db10b869877126d7e23aa3f3ac4f9410b7fb3"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00158-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00158-of-00256",
+    "size": 92790102,
+    "sha256": "5287120b9159fbfaee266d30241554e008914b1daaa21c688ad10ea57a76fbf0",
+    "git_blob": "7a1c408409bd76922a0f65be825b10308950027e"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00159-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00159-of-00256",
+    "size": 95679503,
+    "sha256": "7d915e64f031afc0b049453a55943a2626d4ead69ee08aa9033d5366c5efea9b",
+    "git_blob": "f9727f7937d11f9bbbe8488134aef609c14d8f19"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00160-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00160-of-00256",
+    "size": 117070649,
+    "sha256": "dbfac836b57d13e1d5334c0649e9b7b739bf64004106e463b1fb1e2059ac72da",
+    "git_blob": "80c7186f2aea10549b5c890a07b2c9bd211cb657"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00161-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00161-of-00256",
+    "size": 105583526,
+    "sha256": "2348cb740b4abeaa455e570c8f40ad56fbf77dd2abe8bd64d615052c7ca8bdd0",
+    "git_blob": "a9cc5c53075a9a8e4ccb2286a1e93f747a550867"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00162-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00162-of-00256",
+    "size": 96124259,
+    "sha256": "1b3bf0bb5ccd253fb0fae230005e45bce6f9b8eaaa228e0c35347c417471a4f8",
+    "git_blob": "3dc75060e1398b4d7db4d8e849293b61dd9c655e"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00163-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00163-of-00256",
+    "size": 104799464,
+    "sha256": "8649f7238506e318f42e949abe61370291855a055b8058bdccd9d9e2c7fe802d",
+    "git_blob": "6451ce9dd2b6e10c0d44ba63a35f9c55e6d85c2f"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00164-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00164-of-00256",
+    "size": 82397066,
+    "sha256": "05816442204defbc99b85bb479d4a5f1f58a924a2ab54733b06f4b82b714fa03",
+    "git_blob": "41ea2d561969b3c605000b9ce62697a043ee9044"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00165-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00165-of-00256",
+    "size": 111641303,
+    "sha256": "532204b1550e936ed19e5e48d1cea15b050e77b9b13ef5fa57f1ed1433c87045",
+    "git_blob": "316be26896c735194e49d386e9c0ac480eb2ca82"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00166-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00166-of-00256",
+    "size": 92340664,
+    "sha256": "4fca3a91cede72624252a4095a106adecb9e8586e6afd06053134c8533bee198",
+    "git_blob": "1999213cd0b7fa0d0b6c2b2b4770277794b65985"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00167-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00167-of-00256",
+    "size": 87970135,
+    "sha256": "7d27e6d0820e937bbebd1bfa7f1e81afd3332e1fc271b9e526a443c3f5c8b983",
+    "git_blob": "f52e685850c792ad145b29d6972efa30933393f9"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00168-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00168-of-00256",
+    "size": 94819353,
+    "sha256": "b3fdc88419ae8dcb8e6095581321b4af5899b1070ebdf42451aecdcd80104961",
+    "git_blob": "c598e85f410eb1f1e3a43ffa891fa8afa08574e6"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00169-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00169-of-00256",
+    "size": 104063556,
+    "sha256": "e4369999e350b054000b3e110451ea52270e53a0daab80f51b57bc618c18f5eb",
+    "git_blob": "637734b561243239aca8b5717e15539729bc1b23"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00170-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00170-of-00256",
+    "size": 102712436,
+    "sha256": "6506560da38aec799e5dd7e9a45a7044ffc577dc6f9ec31a4205a19584f50bb2",
+    "git_blob": "9bbc201284fe2e3b139999ee1e7114314e3dc3d8"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00171-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00171-of-00256",
+    "size": 79518084,
+    "sha256": "5b0ea8f74d28b74847f115ac1469b9e5f45b16294f70f02f3520f190737b1edf",
+    "git_blob": "3dd770a2473d6a7933e22bf6367cc7301d682ab3"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00172-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00172-of-00256",
+    "size": 87832573,
+    "sha256": "d07c66fa8462a74c94532d9889e2800e5b7a11ec5b02c7ead01fc4103c1b80cc",
+    "git_blob": "3b4bb0caa38b325a5fa7b4880e5589cd1d936853"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00173-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00173-of-00256",
+    "size": 87863827,
+    "sha256": "e08cc882fbb7ef6ffc242a89f84e93cd4f2f28edc94bc7dba5b2423b70b0b39c",
+    "git_blob": "1eb801b7991c7fb18ada35c24f5c900fcfece90c"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00174-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00174-of-00256",
+    "size": 111024041,
+    "sha256": "bd013467416f85a05294438714998bb39ffd6811bd236d603868f1f28a813df0",
+    "git_blob": "edef9bf2f31a298fc7696f45455b228065441981"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00175-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00175-of-00256",
+    "size": 106504561,
+    "sha256": "4c8843b2456e7858fc72952d5ddea583960b9a424394e29c87277710ab2ec332",
+    "git_blob": "b612c5d6529e4c1802599d38b60859ab73af2570"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00176-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00176-of-00256",
+    "size": 94672059,
+    "sha256": "60b30b4cf3487238b35a51785851e5f8c29d9497dcde4d840c9068cbd3e70977",
+    "git_blob": "63ac194f2a2c76615d41cf3713c26d016411bb5e"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00177-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00177-of-00256",
+    "size": 87272151,
+    "sha256": "e58d60942520f84f553f87861b67c4ce2988d276d4391aee97c1eba4d44f1c9d",
+    "git_blob": "8b080051f4e7703e438a2b60b48bf379c573bd4c"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00178-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00178-of-00256",
+    "size": 109968898,
+    "sha256": "d3ed90f5f828f47ebaa3f2e18eb29b591f823fd5ae50e6e0d86b31371e3dfa54",
+    "git_blob": "9ddcd64d5be7261bfdaa21b34608d0f847ebd3b1"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00179-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00179-of-00256",
+    "size": 89296387,
+    "sha256": "cd0433dff594e59f28e34a066893a5273c3ddce285c4dec59c0db9f865884b83",
+    "git_blob": "aefdfdf4b05e2b626fd69bccf5ca25569d9e0dd2"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00180-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00180-of-00256",
+    "size": 94941094,
+    "sha256": "0555b1b1b9ae5d100e1ebdc2bb7287dcdc982be93428bcc6f3a503d593a2fd3f",
+    "git_blob": "3de52c47f467fa9f7f60b5a5260071767c0227df"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00181-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00181-of-00256",
+    "size": 93560631,
+    "sha256": "431e3c3425dcd2c7622bc81bc2b8c96b9379ef6d8508873342ce164a5ec7b41b",
+    "git_blob": "e06d2e1340ac3503cc7d009e4fbb9c976913e689"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00182-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00182-of-00256",
+    "size": 105204071,
+    "sha256": "e1941141e2caf28bef3982d95b25dae775ab1cd4476ae8db0a71c46bc22631a1",
+    "git_blob": "36b9fc17cbc0ef3c05de908850102bf381652832"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00183-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00183-of-00256",
+    "size": 90556213,
+    "sha256": "40c374e106d5b89b3f57c4ac94bc165fcb3bd5accb50089c8d6811536a137aba",
+    "git_blob": "a0831d57a9ea1e8380d2d8d8f98b43dce7fad567"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00184-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00184-of-00256",
+    "size": 85736602,
+    "sha256": "fc024e8bf8db677d51cd590a569e75e4929c4eadea19b5b9191a1cae39ed6f2a",
+    "git_blob": "7d78da1ea0e798e7b927554e93d5a70c46ad1864"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00185-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00185-of-00256",
+    "size": 99654963,
+    "sha256": "f298763ae190b361a3842af348e3105237781c4c87ead577b3e4fee051b80c48",
+    "git_blob": "d907bfe62631ee914ce984e4fb7cd566f9d9d227"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00186-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00186-of-00256",
+    "size": 96438928,
+    "sha256": "6f57b69b008ada03939a3e834cb2d3946c0ca2915b12c2e4119fa1ca0d629fe3",
+    "git_blob": "c2e075c18edbb52c9ddeea5de884aaeec4b651da"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00187-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00187-of-00256",
+    "size": 107386588,
+    "sha256": "9ff9e4fee236e1baeed046fbe4dd8ce68e903bcbc5a247bee9799607e837496d",
+    "git_blob": "eeefebbfcfbd5def0a4801cdbd10ead2995fd55f"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00188-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00188-of-00256",
+    "size": 111819121,
+    "sha256": "4f0b0501d1f4e77fd5ddb94ab473c81a04625d6d4415a82fdf6b043995bd3ab4",
+    "git_blob": "5081da7aaac33774e7e561d6617d4eff998dd9e6"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00189-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00189-of-00256",
+    "size": 98282503,
+    "sha256": "83b611eaab10b8350e9970ad9b465ddc734358c8a44fdec18764d22b6ed16aa0",
+    "git_blob": "17187adf93c8cec320be875cdcfd5b4d27cd2e8a"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00190-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00190-of-00256",
+    "size": 110060318,
+    "sha256": "44e48a177e83f0965be6845d3c4e0742e66a992b52de04dc87cda362827ffca7",
+    "git_blob": "415d9cd49b3a571afda4d6d7035243319322b1ff"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00191-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00191-of-00256",
+    "size": 102701041,
+    "sha256": "564cf0dbd2ab40d958755eb07ecfd9322d5a44a46fbb689d783e2a1100e7d4c1",
+    "git_blob": "cabcd9095caeac38482a8cdd815bb5c2bb1f950a"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00192-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00192-of-00256",
+    "size": 96662762,
+    "sha256": "32b28d60525acd55ce83f39ccdbd14507a03e99ebd1d9c06d8fe43425a4229ec",
+    "git_blob": "70f765aeee5b607752213db57ed6cb4bfac3b7fc"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00193-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00193-of-00256",
+    "size": 84128680,
+    "sha256": "8bbce1f9fc06eaeae6b2f74c67c0e059db67f01e56aef6f2dedafeea483b3372",
+    "git_blob": "8b95200dfe4a2facf14e2786da1263c4b9ef5aa5"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00194-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00194-of-00256",
+    "size": 94340833,
+    "sha256": "9d340208689de2177f8b281dd0c23e152fceb2c020241dc35d3c7baaec3587bc",
+    "git_blob": "06374dba65abdeaf0d42ac199d69e0a9322b5c32"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00195-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00195-of-00256",
+    "size": 93098927,
+    "sha256": "0b57f2d47ea2635bbe2383a685c547ac55b2342c160e7431eaf659c5ca989f12",
+    "git_blob": "dbd87fc1112c9716b7256b34c60b85b0c6c9ba05"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00196-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00196-of-00256",
+    "size": 76680789,
+    "sha256": "bbe3b93f286e8482b4154ca4c3316eda4245f0ba64198a6b332e635ee3b7040f",
+    "git_blob": "b763a6b8941a2d70d5a32317059765ad8efbe1fe"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00197-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00197-of-00256",
+    "size": 108532520,
+    "sha256": "d64f7a59046ec6f10215141d175f3755856b50fdbc34f80fa79ead9ed61867d8",
+    "git_blob": "d6fa4f86fc700787144bebad78ae950d383f4a72"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00198-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00198-of-00256",
+    "size": 84558200,
+    "sha256": "557b1f659d7f78fe32757794fc0185b809ed39121ea956aa6cac66509f2bd816",
+    "git_blob": "e8f60c98d46ede5a39247bd0e75ea86ff71b4798"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00199-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00199-of-00256",
+    "size": 94917054,
+    "sha256": "e90917ef2575c0844da61127ad1384b9c41cd3afe0df1e82cf928ff76ac8b826",
+    "git_blob": "098c4b992d75ec0530d853f3dbb447c4dfc1a3ae"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00200-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00200-of-00256",
+    "size": 107179329,
+    "sha256": "bfe37c9a45082b3bd007e090f8d0ac6608a566d8cf94ce4e9d484ff01d2216ae",
+    "git_blob": "20dbd37f0c618ddf0266d75d9650acf6810521f4"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00201-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00201-of-00256",
+    "size": 98819755,
+    "sha256": "b3f421f62d6753ad4ebc2a947f3965d026a11c2010171bb4662a2e8c27ceac78",
+    "git_blob": "c02813c95b223f4b081a1bf277a0a7ba74b0a188"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00202-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00202-of-00256",
+    "size": 100986476,
+    "sha256": "a611ca2fbc3f033c98f6404f665347f5fc433936c04aae6368eab08e4d002e59",
+    "git_blob": "3c67782b6a0a99bd2506e7eb33ad11057fb2a1a8"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00203-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00203-of-00256",
+    "size": 112085378,
+    "sha256": "4d6ca61a219454eab924ea601e055bea1af826b6509e832b97d847c402c7eca9",
+    "git_blob": "bb6d4424795680248c683c243fba06cd0eb116c1"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00204-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00204-of-00256",
+    "size": 98076827,
+    "sha256": "d4466148a40e27d395fce5bd09aa8591991e485b10f2048d365612e8e5bc79e6",
+    "git_blob": "0785020bb0370f08d051b0b5ccfb53633d3a4ad0"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00205-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00205-of-00256",
+    "size": 103857180,
+    "sha256": "63cee239250dcf11c94fdb3bf07cfead24e95f9483c80015361fdf7727d02d27",
+    "git_blob": "72ea4e5767fc56447a3e6a27b888bb7248952b44"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00206-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00206-of-00256",
+    "size": 83698901,
+    "sha256": "522c2c47d6d7957cf8ddfb03f95381b3c9f7803f1ffb9cc6a6a1f94cdac3b2ab",
+    "git_blob": "b42392ec0da3a266eee1e97540c56384b13477d6"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00207-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00207-of-00256",
+    "size": 97551158,
+    "sha256": "4201df93ebe881425c9577e34f072517bd69847b253152bd476d44e144eaa228",
+    "git_blob": "e82f03f8ec438096d53fc63dc0b183c8b4aa2af3"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00208-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00208-of-00256",
+    "size": 106624733,
+    "sha256": "72e23fc8bf31618945bf8918b9fa8279ac4cc03df45561e51e41b7b92bb8af1f",
+    "git_blob": "6050a633f962d7247209c77222e1ef82d12a8b77"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00209-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00209-of-00256",
+    "size": 84692492,
+    "sha256": "ec9e83f705b86157a0db51480213db597a759492fc7f3eb9207c047143afc165",
+    "git_blob": "97236af2ccf042e11f9b664e404e088d21644767"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00210-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00210-of-00256",
+    "size": 97590106,
+    "sha256": "6ac8221191ee44b6eea993b3ff0fb74079526df91c16e05acc49b0e371751b7a",
+    "git_blob": "107958a27594f1b06ff3f37088cdf543af5c3573"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00211-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00211-of-00256",
+    "size": 88486888,
+    "sha256": "d6224d10cc65d8af093779d055deba956f807516b9fde4b8c8e49413a5840be4",
+    "git_blob": "79f502209df4f161ed000ab8ea66ee3c6c02d297"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00212-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00212-of-00256",
+    "size": 89651957,
+    "sha256": "bc560da33859e6e6046edc3bbbe1ba6833ea70b1832015acf284321f0036239c",
+    "git_blob": "229400ac782f92ccef60f25218862282964871a1"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00213-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00213-of-00256",
+    "size": 98108413,
+    "sha256": "033082111f1c4b7f9a3d3bf5fba9a5feba7e0033dc072215bf2c57fea78ad6ac",
+    "git_blob": "11b1143baee7594a20c91e7f90333b6904f7ae8b"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00214-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00214-of-00256",
+    "size": 84554803,
+    "sha256": "d35453a15f4ebdab047362b20c602505d605f43c1c4ebbd4cd15aff3b83ac831",
+    "git_blob": "26a0082ee0b39a77943419011aedd5f91d1fab1a"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00215-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00215-of-00256",
+    "size": 89325005,
+    "sha256": "92ced5236637cc1419b86378f2353dc28657fa4bed9434fe0ee83478169a6364",
+    "git_blob": "3f92852aab3c92eb8aed06ea28698007f7aa6ceb"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00216-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00216-of-00256",
+    "size": 100651075,
+    "sha256": "3753e9898481275138db48d969a478cec5916183379c7853a1be7166178406c2",
+    "git_blob": "63d411e075a98b125ff0f9211d7965e313034dbe"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00217-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00217-of-00256",
+    "size": 96886227,
+    "sha256": "fb5cfa6d526e0141151375dd1c051a499977bca9c08875b1184c839fd5dc6600",
+    "git_blob": "dbaaafd0ed50ad3ec30617476c0f7f828847c35a"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00218-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00218-of-00256",
+    "size": 88392330,
+    "sha256": "cc8c7db176f558fd0e3aa614f455788747fb70329522cc3206f851cf158904bb",
+    "git_blob": "f9e2dd68fecdb244032bb04998e725708f7a2666"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00219-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00219-of-00256",
+    "size": 89544925,
+    "sha256": "e196432c9d348bf133a7ac2896f393b7f23e62bbaffed54b324d241279218096",
+    "git_blob": "f88fc2d64ac137d825a149c9aaf1607398253f8c"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00220-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00220-of-00256",
+    "size": 95466984,
+    "sha256": "823a68ae435230cfb2a61343621b036b66524625b9d0dd70d0240b3ad8ae6df8",
+    "git_blob": "7405b4acdefb13fb7562d9b8914afe40dda5cffa"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00221-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00221-of-00256",
+    "size": 109559623,
+    "sha256": "fb742f21695d854ae37eda49ecceed43a3ab761cb56d775df4ff88cfa4b13c90",
+    "git_blob": "04518d365b0162d248a47b3f096626e8f4c2f7bd"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00222-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00222-of-00256",
+    "size": 101467593,
+    "sha256": "3771f78f948dc704748059ca79f064005aa11f52d2b4f5150df481fd5e1786db",
+    "git_blob": "19c24e04c4fc7c94f33a15c0cf3861e99df19789"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00223-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00223-of-00256",
+    "size": 80937888,
+    "sha256": "d35b5ff10c720ce8273db2d5157e12d02ac7c999a363580f3832b0d1fdd2ca12",
+    "git_blob": "7d77972a30d4b002fd7b1b813f5d8bafcc643076"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00224-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00224-of-00256",
+    "size": 102653243,
+    "sha256": "f974aad7ecdb544ef6c9893b825efac6fbfbd9ae8348e342b9f4454426243d7e",
+    "git_blob": "80eb372976d67d42155436fc7135b11c7c8b6952"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00225-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00225-of-00256",
+    "size": 104795441,
+    "sha256": "6546b75473f7be435496b7d69b53c85400f42a8285bf93a6c3cb25acfc419cbd",
+    "git_blob": "6e1bba6c43a6c531f01611ccbc5676c97e0e3a68"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00226-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00226-of-00256",
+    "size": 85066830,
+    "sha256": "08436d9413344323c9f13beaef2396c3aec2c6d14af01efe059b9111d57af30f",
+    "git_blob": "a9f64f6dfd740a097b58f19c315101500a9cf073"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00227-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00227-of-00256",
+    "size": 104355290,
+    "sha256": "8a19d28ce00ee9d79b3d7e22cd4fb73e0ff89f36e1c7dda6576a962abe7944d2",
+    "git_blob": "1e60e9601b65c9e3a6bda65531a87629f8a706e5"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00228-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00228-of-00256",
+    "size": 93290009,
+    "sha256": "52875bac114aaf7c96d1459b906e692dbfe4f9ae85824eee574e0374a4df19de",
+    "git_blob": "4e35c18d5658986774746835692ad989a439fbb9"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00229-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00229-of-00256",
+    "size": 98385963,
+    "sha256": "3b1a6ec8af6d002aeec039dc4de4ed95915e376e6fcf88eee5c1e73a512b1957",
+    "git_blob": "6b5db23a755914879d3ddff2a03f935ed885456d"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00230-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00230-of-00256",
+    "size": 90676531,
+    "sha256": "9d4a93db5e5585c89df514f7a019334dccfee366664ee06cee406c37f0845bcb",
+    "git_blob": "46e3c0b432632d7def9c089df50a1b3000548ab6"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00231-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00231-of-00256",
+    "size": 118519018,
+    "sha256": "9132f3a9722d1c4bcc391178ee8903cd56dd34878e2e011cddec9b8ed3007fd4",
+    "git_blob": "9baceb5bc442fd70da3416220ae5ac17050bedcf"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00232-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00232-of-00256",
+    "size": 87791625,
+    "sha256": "8b0221e171aa22923f7af62a9988bd2d87825493876357acc9136ef5878c104b",
+    "git_blob": "e10aa5dac144fe594d73095c4e901eca41509928"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00233-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00233-of-00256",
+    "size": 89475946,
+    "sha256": "2a31218a1caf57e31ce837f17e060b006c91c1df0260494b71471f1c0b492ea6",
+    "git_blob": "12f4b6d4b9c21a78761fc67febfd7b7dc2b722c5"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00234-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00234-of-00256",
+    "size": 107745153,
+    "sha256": "19ae32d98eb7a3a94cfde8c00587f506ad602057b3257c2574e7dfcf94a5025a",
+    "git_blob": "328488560584150e7f414ec03ab11adf5cefc1bc"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00235-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00235-of-00256",
+    "size": 85574572,
+    "sha256": "c18bf2c2500d26230e2f957948ee5d0e7629b5a148dfaace24950a34214b8b24",
+    "git_blob": "6f15f2cd0d907ff345970ecd72364dd93c261269"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00236-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00236-of-00256",
+    "size": 100826641,
+    "sha256": "f528cdb0db6e1acf682d692aa140a031038d697dc7e8c5db1e066c6ba6bf9faa",
+    "git_blob": "1b0d26c0170b2ae6b6f30f7267a476667fc1dbbd"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00237-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00237-of-00256",
+    "size": 90096360,
+    "sha256": "17ed809cd2858f13fd059a100db2759fdc0abecc310ac87f7582420fd86fdc7d",
+    "git_blob": "8c12e707790aedf5ccbe8cbc4544ecfc1ed3c450"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00238-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00238-of-00256",
+    "size": 90512975,
+    "sha256": "0302ee4f6278465309f3032104b934419308cf1a35a2cb6933d4dfd26c64142c",
+    "git_blob": "38fb2df0f8c45574d99c36364c6afdf3f42a386a"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00239-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00239-of-00256",
+    "size": 117731684,
+    "sha256": "03b3982b1538204163a704bc8d8ba999e54d5ac76d11cd329a041dee3180ca9b",
+    "git_blob": "9ce506b8715ee75e51e5af477eb9077413ba1699"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00240-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00240-of-00256",
+    "size": 99083047,
+    "sha256": "06970ba0fd0305dafed82bbb86419cad62c90cd2bcb3a1d93ec0cba9a26b0a13",
+    "git_blob": "30402e805862bbe399eff1282548413c5acdc802"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00241-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00241-of-00256",
+    "size": 86738928,
+    "sha256": "0078fb66a8f064286cb58dad718375f5b2e99f6b2b0336a8ba9b23d916298abc",
+    "git_blob": "5ab6183313e574a92aaa1ae674a679ef2e2d82d8"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00242-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00242-of-00256",
+    "size": 95325628,
+    "sha256": "afe4f32e0833529f3d067cd6f8b732587bfc7bddcc3955df80255914eb320adf",
+    "git_blob": "f7662ccf1c58d1bed78d222d105dc8fdb84f2714"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00243-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00243-of-00256",
+    "size": 95289635,
+    "sha256": "1c12b4cc8bc3ca9b7d2c29c2bff3af2b70b19eb06f994bb473a88a4c75df451f",
+    "git_blob": "46c170f4da4e2b339858d298198174a62ba0e706"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00244-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00244-of-00256",
+    "size": 93437203,
+    "sha256": "5d3a68d055cd6821ff15b68bdd59e6e858d1d24c7d5e743b24fc5ec818dd7da0",
+    "git_blob": "e34306b48db036e8f22622d99e3181a82631a43f"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00245-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00245-of-00256",
+    "size": 102988906,
+    "sha256": "68e7a5a2b2f4c8d6d3bc5535bdb3e29de849c7e067e3e1cff10aec83910ccf86",
+    "git_blob": "7059874a50781fdf9593d81251629bcec42c1982"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00246-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00246-of-00256",
+    "size": 103562369,
+    "sha256": "1d9076477524595e3105637c1842536f5d92a2f012219f28d86ba057bc48511d",
+    "git_blob": "3bf80dda01cdbdfcf75ed4c9ed5203519f733a02"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00247-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00247-of-00256",
+    "size": 84814486,
+    "sha256": "e97ff51ae2b5bb10a159eef0c8bfb9471f4fd1df6648a9f05bf725c81ebf2287",
+    "git_blob": "30e7c1ec4fc35ff157adc407995563412a367648"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00248-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00248-of-00256",
+    "size": 98268580,
+    "sha256": "b388317057b8912dbe3ab27678fb9396e3fb219fb7db2b7611db7a53dd5157c3",
+    "git_blob": "0e274be4fa9f26ba99e28fb730c710b02cbb3f06"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00249-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00249-of-00256",
+    "size": 110658309,
+    "sha256": "36fb194b6fe81cc08689b3e6eafc7c54db3b8bee09564acf5333a3386c13a1da",
+    "git_blob": "f612bd421bca01d5fd917d69398107e9f726e17e"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00250-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00250-of-00256",
+    "size": 116829861,
+    "sha256": "06b3927faa776df179552391ab8236da91a175a3557f2e0a0d7a74240cdcc16b",
+    "git_blob": "5686e9b79d7dc3a2939cc5f58249dd3015d735c8"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00251-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00251-of-00256",
+    "size": 119424638,
+    "sha256": "cb4cdc6a715f7c60a877a28945e294e0d9870289076edbaaabf757bbf2133f62",
+    "git_blob": "402077a852dd0605fc7f4fa1aebb9bb9f1ff1081"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00252-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00252-of-00256",
+    "size": 90682655,
+    "sha256": "e5bc8a6f032987e4f6cdf8765493d784c1b81d444df5bc6395de6ace33e99ebf",
+    "git_blob": "cab4bb7da121c8161228cbed6f9df1c53e472193"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00253-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00253-of-00256",
+    "size": 81419631,
+    "sha256": "87dc8a61ad3d87b9b91f9eb96418bbaf4b5b1de5808b6224c142d07ac6e946af",
+    "git_blob": "1db192a6bd11cf076d368816b580a42faf8e3abd"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00254-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00254-of-00256",
+    "size": 98516732,
+    "sha256": "91f16b16ed3d3ad8b0349afc1c3f8688c9aa0eb72c7e8419303ba93e8e0c49ba",
+    "git_blob": "0b4e5a778c18adb732694768d6cbc619040f4bd6"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00255-of-00256",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/1.0.0/robocasa_x_xp900_pnp-train.tfrecord-00255-of-00256",
+    "size": 96569005,
+    "sha256": "a4d2233da46e78f93dc609ef4da4f363d21eaab261e3923f26c9fd100d7cf6c3",
+    "git_blob": "4d05eec44a0b29ee5873e376506d34be68f7a0c4"
+  },
+  {
+    "repo": "ajaysri/robocasa-x-xp900-pnp",
+    "revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "filename": "README.md",
+    "path": "/home/users/lemon/coft-p2/p2/data/mg_pnp_lite/README.md",
+    "size": 383,
+    "sha256": null,
+    "git_blob": "8101f7d378354d55cc7800f42806bc14eaf3c382"
+  }
+]

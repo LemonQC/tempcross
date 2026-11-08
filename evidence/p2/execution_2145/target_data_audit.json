@@ -1,0 +1,3220 @@
+{
+  "status": "COMPLETE",
+  "target_demonstrations": 100,
+  "per_direction": 50,
+  "frozen_test_indices": [
+    20,
+    39
+  ],
+  "exact_physical_state_matches": [],
+  "overlap_conclusion": "NO_DETECTABLE_EXACT_STATE_OVERLAP",
+  "overlap_limitations": "Exact physical-state comparison ignores simulator clock. Different model/joint ordering or incomplete metadata limits exhaustive identity proof; same kitchen/object class is not trajectory leakage.",
+  "action_mapping": "12D canonical simulator -> first7 -> official libero transform (gripper open=1 close=0); mg_pnp_lite prior normalization and VQ reused",
+  "mixture": {
+    "mg_pnp_lite": 0.05,
+    "panda_pnp": 1.0,
+    "balance_weights_by_transitions": true
+  },
+  "demonstrations": [
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_1",
+      "steps": 406,
+      "task": "PnPCounterToSink",
+      "layout_id": 8,
+      "style_id": 0,
+      "seed": null,
+      "instruction": "pick the apple from the counter and place it in the sink",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        406,
+        184
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        406,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPCounterToSink",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_10",
+      "steps": 371,
+      "task": "PnPCounterToSink",
+      "layout_id": 7,
+      "style_id": 10,
+      "seed": null,
+      "instruction": "pick the carrot from the counter and place it in the sink",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        371,
+        158
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        371,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPCounterToSink",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_11",
+      "steps": 400,
+      "task": "PnPCounterToSink",
+      "layout_id": 7,
+      "style_id": 3,
+      "seed": null,
+      "instruction": "pick the can from the counter and place it in the sink",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        400,
+        158
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        400,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPCounterToSink",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_12",
+      "steps": 383,
+      "task": "PnPCounterToSink",
+      "layout_id": 8,
+      "style_id": 4,
+      "seed": null,
+      "instruction": "pick the can from the counter and place it in the sink",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        383,
+        182
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        383,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPCounterToSink",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_13",
+      "steps": 386,
+      "task": "PnPCounterToSink",
+      "layout_id": 4,
+      "style_id": 2,
+      "seed": null,
+      "instruction": "pick the orange from the counter and place it in the sink",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        386,
+        172
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        386,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPCounterToSink",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_14",
+      "steps": 375,
+      "task": "PnPCounterToSink",
+      "layout_id": 4,
+      "style_id": 2,
+      "seed": null,
+      "instruction": "pick the cucumber from the counter and place it in the sink",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        375,
+        172
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        375,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPCounterToSink",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_15",
+      "steps": 347,
+      "task": "PnPCounterToSink",
+      "layout_id": 7,
+      "style_id": 5,
+      "seed": null,
+      "instruction": "pick the carrot from the counter and place it in the sink",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        347,
+        158
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        347,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPCounterToSink",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_16",
+      "steps": 356,
+      "task": "PnPCounterToSink",
+      "layout_id": 8,
+      "style_id": 10,
+      "seed": null,
+      "instruction": "pick the can from the counter and place it in the sink",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        356,
+        180
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        356,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPCounterToSink",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_17",
+      "steps": 433,
+      "task": "PnPCounterToSink",
+      "layout_id": 4,
+      "style_id": 4,
+      "seed": null,
+      "instruction": "pick the apple from the counter and place it in the sink",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        433,
+        172
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        433,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPCounterToSink",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_18",
+      "steps": 392,
+      "task": "PnPCounterToSink",
+      "layout_id": 4,
+      "style_id": 11,
+      "seed": null,
+      "instruction": "pick the sponge from the counter and place it in the sink",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        392,
+        172
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        392,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPCounterToSink",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_19",
+      "steps": 412,
+      "task": "PnPCounterToSink",
+      "layout_id": 4,
+      "style_id": 6,
+      "seed": null,
+      "instruction": "pick the sponge from the counter and place it in the sink",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        412,
+        172
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        412,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPCounterToSink",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_2",
+      "steps": 448,
+      "task": "PnPCounterToSink",
+      "layout_id": 7,
+      "style_id": 11,
+      "seed": null,
+      "instruction": "pick the banana from the counter and place it in the sink",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        448,
+        158
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        448,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPCounterToSink",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_20",
+      "steps": 368,
+      "task": "PnPCounterToSink",
+      "layout_id": 8,
+      "style_id": 4,
+      "seed": null,
+      "instruction": "pick the orange from the counter and place it in the sink",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        368,
+        182
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        368,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPCounterToSink",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_21",
+      "steps": 361,
+      "task": "PnPCounterToSink",
+      "layout_id": 8,
+      "style_id": 10,
+      "seed": null,
+      "instruction": "pick the sponge from the counter and place it in the sink",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        361,
+        180
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        361,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPCounterToSink",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_22",
+      "steps": 365,
+      "task": "PnPCounterToSink",
+      "layout_id": 7,
+      "style_id": 5,
+      "seed": null,
+      "instruction": "pick the sponge from the counter and place it in the sink",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        365,
+        158
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        365,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPCounterToSink",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_23",
+      "steps": 428,
+      "task": "PnPCounterToSink",
+      "layout_id": 8,
+      "style_id": 1,
+      "seed": null,
+      "instruction": "pick the carrot from the counter and place it in the sink",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        428,
+        184
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        428,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPCounterToSink",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_24",
+      "steps": 444,
+      "task": "PnPCounterToSink",
+      "layout_id": 7,
+      "style_id": 2,
+      "seed": null,
+      "instruction": "pick the carrot from the counter and place it in the sink",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        444,
+        158
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        444,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPCounterToSink",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_25",
+      "steps": 381,
+      "task": "PnPCounterToSink",
+      "layout_id": 4,
+      "style_id": 6,
+      "seed": null,
+      "instruction": "pick the apple from the counter and place it in the sink",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        381,
+        172
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        381,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPCounterToSink",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_26",
+      "steps": 462,
+      "task": "PnPCounterToSink",
+      "layout_id": 4,
+      "style_id": 11,
+      "seed": null,
+      "instruction": "pick the banana from the counter and place it in the sink",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        462,
+        172
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        462,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPCounterToSink",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_27",
+      "steps": 343,
+      "task": "PnPCounterToSink",
+      "layout_id": 4,
+      "style_id": 6,
+      "seed": null,
+      "instruction": "pick the carrot from the counter and place it in the sink",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        343,
+        172
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        343,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPCounterToSink",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_28",
+      "steps": 337,
+      "task": "PnPCounterToSink",
+      "layout_id": 7,
+      "style_id": 3,
+      "seed": null,
+      "instruction": "pick the can from the counter and place it in the sink",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        337,
+        158
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        337,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPCounterToSink",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_29",
+      "steps": 409,
+      "task": "PnPCounterToSink",
+      "layout_id": 7,
+      "style_id": 3,
+      "seed": null,
+      "instruction": "pick the can from the counter and place it in the sink",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        409,
+        158
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        409,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPCounterToSink",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_3",
+      "steps": 330,
+      "task": "PnPCounterToSink",
+      "layout_id": 8,
+      "style_id": 5,
+      "seed": null,
+      "instruction": "pick the cucumber from the counter and place it in the sink",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        330,
+        182
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        330,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPCounterToSink",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_30",
+      "steps": 428,
+      "task": "PnPCounterToSink",
+      "layout_id": 7,
+      "style_id": 5,
+      "seed": null,
+      "instruction": "pick the cucumber from the counter and place it in the sink",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        428,
+        158
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        428,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPCounterToSink",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_31",
+      "steps": 367,
+      "task": "PnPCounterToSink",
+      "layout_id": 8,
+      "style_id": 1,
+      "seed": null,
+      "instruction": "pick the sponge from the counter and place it in the sink",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        367,
+        184
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        367,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPCounterToSink",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_32",
+      "steps": 376,
+      "task": "PnPCounterToSink",
+      "layout_id": 7,
+      "style_id": 9,
+      "seed": null,
+      "instruction": "pick the apple from the counter and place it in the sink",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        376,
+        158
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        376,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPCounterToSink",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_33",
+      "steps": 442,
+      "task": "PnPCounterToSink",
+      "layout_id": 8,
+      "style_id": 4,
+      "seed": null,
+      "instruction": "pick the cucumber from the counter and place it in the sink",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        442,
+        182
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        442,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPCounterToSink",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_34",
+      "steps": 303,
+      "task": "PnPCounterToSink",
+      "layout_id": 8,
+      "style_id": 10,
+      "seed": null,
+      "instruction": "pick the can from the counter and place it in the sink",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        303,
+        180
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        303,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPCounterToSink",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_35",
+      "steps": 397,
+      "task": "PnPCounterToSink",
+      "layout_id": 4,
+      "style_id": 1,
+      "seed": null,
+      "instruction": "pick the banana from the counter and place it in the sink",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        397,
+        172
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        397,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPCounterToSink",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_36",
+      "steps": 380,
+      "task": "PnPCounterToSink",
+      "layout_id": 8,
+      "style_id": 8,
+      "seed": null,
+      "instruction": "pick the lemon from the counter and place it in the sink",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        380,
+        184
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        380,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPCounterToSink",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_37",
+      "steps": 362,
+      "task": "PnPCounterToSink",
+      "layout_id": 4,
+      "style_id": 2,
+      "seed": null,
+      "instruction": "pick the lemon from the counter and place it in the sink",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        362,
+        172
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        362,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPCounterToSink",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_38",
+      "steps": 451,
+      "task": "PnPCounterToSink",
+      "layout_id": 7,
+      "style_id": 7,
+      "seed": null,
+      "instruction": "pick the orange from the counter and place it in the sink",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        451,
+        158
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        451,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPCounterToSink",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_39",
+      "steps": 341,
+      "task": "PnPCounterToSink",
+      "layout_id": 8,
+      "style_id": 10,
+      "seed": null,
+      "instruction": "pick the can from the counter and place it in the sink",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        341,
+        180
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        341,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPCounterToSink",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_4",
+      "steps": 321,
+      "task": "PnPCounterToSink",
+      "layout_id": 8,
+      "style_id": 2,
+      "seed": null,
+      "instruction": "pick the carrot from the counter and place it in the sink",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        321,
+        180
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        321,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPCounterToSink",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_40",
+      "steps": 398,
+      "task": "PnPCounterToSink",
+      "layout_id": 8,
+      "style_id": 7,
+      "seed": null,
+      "instruction": "pick the can from the counter and place it in the sink",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        398,
+        180
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        398,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPCounterToSink",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_41",
+      "steps": 313,
+      "task": "PnPCounterToSink",
+      "layout_id": 4,
+      "style_id": 10,
+      "seed": null,
+      "instruction": "pick the banana from the counter and place it in the sink",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        313,
+        172
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        313,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPCounterToSink",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_42",
+      "steps": 369,
+      "task": "PnPCounterToSink",
+      "layout_id": 7,
+      "style_id": 1,
+      "seed": null,
+      "instruction": "pick the sponge from the counter and place it in the sink",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        369,
+        158
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        369,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPCounterToSink",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_43",
+      "steps": 284,
+      "task": "PnPCounterToSink",
+      "layout_id": 8,
+      "style_id": 5,
+      "seed": null,
+      "instruction": "pick the banana from the counter and place it in the sink",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        284,
+        182
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        284,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPCounterToSink",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_44",
+      "steps": 391,
+      "task": "PnPCounterToSink",
+      "layout_id": 4,
+      "style_id": 8,
+      "seed": null,
+      "instruction": "pick the orange from the counter and place it in the sink",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        391,
+        172
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        391,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPCounterToSink",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_45",
+      "steps": 399,
+      "task": "PnPCounterToSink",
+      "layout_id": 8,
+      "style_id": 9,
+      "seed": null,
+      "instruction": "pick the sponge from the counter and place it in the sink",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        399,
+        184
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        399,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPCounterToSink",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_46",
+      "steps": 335,
+      "task": "PnPCounterToSink",
+      "layout_id": 8,
+      "style_id": 5,
+      "seed": null,
+      "instruction": "pick the lemon from the counter and place it in the sink",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        335,
+        182
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        335,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPCounterToSink",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_47",
+      "steps": 364,
+      "task": "PnPCounterToSink",
+      "layout_id": 7,
+      "style_id": 10,
+      "seed": null,
+      "instruction": "pick the lemon from the counter and place it in the sink",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        364,
+        158
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        364,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPCounterToSink",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_48",
+      "steps": 397,
+      "task": "PnPCounterToSink",
+      "layout_id": 8,
+      "style_id": 5,
+      "seed": null,
+      "instruction": "pick the can from the counter and place it in the sink",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        397,
+        182
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        397,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPCounterToSink",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_49",
+      "steps": 372,
+      "task": "PnPCounterToSink",
+      "layout_id": 8,
+      "style_id": 10,
+      "seed": null,
+      "instruction": "pick the orange from the counter and place it in the sink",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        372,
+        180
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        372,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPCounterToSink",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_5",
+      "steps": 360,
+      "task": "PnPCounterToSink",
+      "layout_id": 7,
+      "style_id": 0,
+      "seed": null,
+      "instruction": "pick the lemon from the counter and place it in the sink",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        360,
+        158
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        360,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPCounterToSink",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_50",
+      "steps": 387,
+      "task": "PnPCounterToSink",
+      "layout_id": 8,
+      "style_id": 2,
+      "seed": null,
+      "instruction": "pick the apple from the counter and place it in the sink",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        387,
+        180
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        387,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPCounterToSink",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_6",
+      "steps": 280,
+      "task": "PnPCounterToSink",
+      "layout_id": 8,
+      "style_id": 10,
+      "seed": null,
+      "instruction": "pick the orange from the counter and place it in the sink",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        280,
+        180
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        280,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPCounterToSink",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_7",
+      "steps": 462,
+      "task": "PnPCounterToSink",
+      "layout_id": 7,
+      "style_id": 8,
+      "seed": null,
+      "instruction": "pick the can from the counter and place it in the sink",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        462,
+        158
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        462,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPCounterToSink",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_8",
+      "steps": 381,
+      "task": "PnPCounterToSink",
+      "layout_id": 8,
+      "style_id": 10,
+      "seed": null,
+      "instruction": "pick the carrot from the counter and place it in the sink",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        381,
+        180
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        381,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPCounterToSink",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_9",
+      "steps": 370,
+      "task": "PnPCounterToSink",
+      "layout_id": 7,
+      "style_id": 10,
+      "seed": null,
+      "instruction": "pick the cucumber from the counter and place it in the sink",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        370,
+        158
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        370,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPCounterToSink",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_1",
+      "steps": 441,
+      "task": "PnPSinkToCounter",
+      "layout_id": 7,
+      "style_id": 5,
+      "seed": null,
+      "instruction": "pick the orange from the sink and place it on the plate located on the counter",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        441,
+        158
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        441,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPSinkToCounter",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_10",
+      "steps": 1057,
+      "task": "PnPSinkToCounter",
+      "layout_id": 7,
+      "style_id": 11,
+      "seed": null,
+      "instruction": "pick the banana from the sink and place it on the plate located on the counter",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        1057,
+        158
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        1057,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPSinkToCounter",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_11",
+      "steps": 471,
+      "task": "PnPSinkToCounter",
+      "layout_id": 7,
+      "style_id": 1,
+      "seed": null,
+      "instruction": "pick the sponge from the sink and place it on the plate located on the counter",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        471,
+        158
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        471,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPSinkToCounter",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_12",
+      "steps": 437,
+      "task": "PnPSinkToCounter",
+      "layout_id": 8,
+      "style_id": 10,
+      "seed": null,
+      "instruction": "pick the can from the sink and place it on the plate located on the counter",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        437,
+        180
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        437,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPSinkToCounter",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_13",
+      "steps": 368,
+      "task": "PnPSinkToCounter",
+      "layout_id": 8,
+      "style_id": 0,
+      "seed": null,
+      "instruction": "pick the apple from the sink and place it on the plate located on the counter",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        368,
+        184
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        368,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPSinkToCounter",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_14",
+      "steps": 488,
+      "task": "PnPSinkToCounter",
+      "layout_id": 7,
+      "style_id": 4,
+      "seed": null,
+      "instruction": "pick the can from the sink and place it on the plate located on the counter",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        488,
+        158
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        488,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPSinkToCounter",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_15",
+      "steps": 338,
+      "task": "PnPSinkToCounter",
+      "layout_id": 8,
+      "style_id": 8,
+      "seed": null,
+      "instruction": "pick the orange from the sink and place it on the plate located on the counter",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        338,
+        184
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        338,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPSinkToCounter",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_16",
+      "steps": 386,
+      "task": "PnPSinkToCounter",
+      "layout_id": 8,
+      "style_id": 10,
+      "seed": null,
+      "instruction": "pick the orange from the sink and place it on the plate located on the counter",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        386,
+        180
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        386,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPSinkToCounter",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_17",
+      "steps": 464,
+      "task": "PnPSinkToCounter",
+      "layout_id": 8,
+      "style_id": 10,
+      "seed": null,
+      "instruction": "pick the can from the sink and place it on the plate located on the counter",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        464,
+        180
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        464,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPSinkToCounter",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_18",
+      "steps": 451,
+      "task": "PnPSinkToCounter",
+      "layout_id": 8,
+      "style_id": 10,
+      "seed": null,
+      "instruction": "pick the can from the sink and place it on the plate located on the counter",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        451,
+        180
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        451,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPSinkToCounter",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_19",
+      "steps": 434,
+      "task": "PnPSinkToCounter",
+      "layout_id": 4,
+      "style_id": 2,
+      "seed": null,
+      "instruction": "pick the lemon from the sink and place it on the plate located on the counter",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        434,
+        172
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        434,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPSinkToCounter",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_2",
+      "steps": 507,
+      "task": "PnPSinkToCounter",
+      "layout_id": 4,
+      "style_id": 11,
+      "seed": null,
+      "instruction": "pick the sponge from the sink and place it on the plate located on the counter",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        507,
+        172
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        507,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPSinkToCounter",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_20",
+      "steps": 461,
+      "task": "PnPSinkToCounter",
+      "layout_id": 8,
+      "style_id": 7,
+      "seed": null,
+      "instruction": "pick the can from the sink and place it on the plate located on the counter",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        461,
+        180
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        461,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPSinkToCounter",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_21",
+      "steps": 462,
+      "task": "PnPSinkToCounter",
+      "layout_id": 4,
+      "style_id": 0,
+      "seed": null,
+      "instruction": "pick the lemon from the sink and place it on the plate located on the counter",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        462,
+        172
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        462,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPSinkToCounter",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_22",
+      "steps": 441,
+      "task": "PnPSinkToCounter",
+      "layout_id": 4,
+      "style_id": 3,
+      "seed": null,
+      "instruction": "pick the sponge from the sink and place it on the plate located on the counter",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        441,
+        172
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        441,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPSinkToCounter",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_23",
+      "steps": 360,
+      "task": "PnPSinkToCounter",
+      "layout_id": 8,
+      "style_id": 9,
+      "seed": null,
+      "instruction": "pick the sponge from the sink and place it on the plate located on the counter",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        360,
+        184
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        360,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPSinkToCounter",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_24",
+      "steps": 332,
+      "task": "PnPSinkToCounter",
+      "layout_id": 7,
+      "style_id": 2,
+      "seed": null,
+      "instruction": "pick the carrot from the sink and place it on the plate located on the counter",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        332,
+        158
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        332,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPSinkToCounter",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_25",
+      "steps": 426,
+      "task": "PnPSinkToCounter",
+      "layout_id": 7,
+      "style_id": 7,
+      "seed": null,
+      "instruction": "pick the orange from the sink and place it on the plate located on the counter",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        426,
+        158
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        426,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPSinkToCounter",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_26",
+      "steps": 374,
+      "task": "PnPSinkToCounter",
+      "layout_id": 7,
+      "style_id": 5,
+      "seed": null,
+      "instruction": "pick the carrot from the sink and place it on the plate located on the counter",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        374,
+        158
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        374,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPSinkToCounter",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_27",
+      "steps": 371,
+      "task": "PnPSinkToCounter",
+      "layout_id": 4,
+      "style_id": 2,
+      "seed": null,
+      "instruction": "pick the cucumber from the sink and place it on the plate located on the counter",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        371,
+        172
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        371,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPSinkToCounter",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_28",
+      "steps": 377,
+      "task": "PnPSinkToCounter",
+      "layout_id": 4,
+      "style_id": 6,
+      "seed": null,
+      "instruction": "pick the carrot from the sink and place it on the plate located on the counter",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        377,
+        172
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        377,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPSinkToCounter",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_29",
+      "steps": 367,
+      "task": "PnPSinkToCounter",
+      "layout_id": 8,
+      "style_id": 2,
+      "seed": null,
+      "instruction": "pick the carrot from the sink and place it on the plate located on the counter",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        367,
+        180
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        367,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPSinkToCounter",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_3",
+      "steps": 432,
+      "task": "PnPSinkToCounter",
+      "layout_id": 7,
+      "style_id": 3,
+      "seed": null,
+      "instruction": "pick the can from the sink and place it on the plate located on the counter",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        432,
+        158
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        432,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPSinkToCounter",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_30",
+      "steps": 440,
+      "task": "PnPSinkToCounter",
+      "layout_id": 8,
+      "style_id": 4,
+      "seed": null,
+      "instruction": "pick the cucumber from the sink and place it on the plate located on the counter",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        440,
+        182
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        440,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPSinkToCounter",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_31",
+      "steps": 319,
+      "task": "PnPSinkToCounter",
+      "layout_id": 8,
+      "style_id": 5,
+      "seed": null,
+      "instruction": "pick the cucumber from the sink and place it on the plate located on the counter",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        319,
+        182
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        319,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPSinkToCounter",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_32",
+      "steps": 415,
+      "task": "PnPSinkToCounter",
+      "layout_id": 7,
+      "style_id": 3,
+      "seed": null,
+      "instruction": "pick the can from the sink and place it on the plate located on the counter",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        415,
+        158
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        415,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPSinkToCounter",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_33",
+      "steps": 424,
+      "task": "PnPSinkToCounter",
+      "layout_id": 8,
+      "style_id": 2,
+      "seed": null,
+      "instruction": "pick the apple from the sink and place it on the plate located on the counter",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        424,
+        180
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        424,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPSinkToCounter",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_34",
+      "steps": 422,
+      "task": "PnPSinkToCounter",
+      "layout_id": 8,
+      "style_id": 10,
+      "seed": null,
+      "instruction": "pick the carrot from the sink and place it on the plate located on the counter",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        422,
+        180
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        422,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPSinkToCounter",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_35",
+      "steps": 410,
+      "task": "PnPSinkToCounter",
+      "layout_id": 4,
+      "style_id": 6,
+      "seed": null,
+      "instruction": "pick the apple from the sink and place it on the plate located on the counter",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        410,
+        172
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        410,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPSinkToCounter",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_36",
+      "steps": 377,
+      "task": "PnPSinkToCounter",
+      "layout_id": 7,
+      "style_id": 5,
+      "seed": null,
+      "instruction": "pick the sponge from the sink and place it on the plate located on the counter",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        377,
+        158
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        377,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPSinkToCounter",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_37",
+      "steps": 480,
+      "task": "PnPSinkToCounter",
+      "layout_id": 7,
+      "style_id": 3,
+      "seed": null,
+      "instruction": "pick the can from the sink and place it on the plate located on the counter",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        480,
+        158
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        480,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPSinkToCounter",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_38",
+      "steps": 563,
+      "task": "PnPSinkToCounter",
+      "layout_id": 8,
+      "style_id": 4,
+      "seed": null,
+      "instruction": "pick the orange from the sink and place it on the plate located on the counter",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        563,
+        182
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        563,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPSinkToCounter",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_39",
+      "steps": 538,
+      "task": "PnPSinkToCounter",
+      "layout_id": 4,
+      "style_id": 11,
+      "seed": null,
+      "instruction": "pick the carrot from the sink and place it on the plate located on the counter",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        538,
+        172
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        538,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPSinkToCounter",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_4",
+      "steps": 370,
+      "task": "PnPSinkToCounter",
+      "layout_id": 7,
+      "style_id": 5,
+      "seed": null,
+      "instruction": "pick the banana from the sink and place it on the plate located on the counter",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        370,
+        158
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        370,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPSinkToCounter",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_40",
+      "steps": 467,
+      "task": "PnPSinkToCounter",
+      "layout_id": 4,
+      "style_id": 1,
+      "seed": null,
+      "instruction": "pick the banana from the sink and place it on the plate located on the counter",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        467,
+        172
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        467,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPSinkToCounter",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_41",
+      "steps": 457,
+      "task": "PnPSinkToCounter",
+      "layout_id": 8,
+      "style_id": 1,
+      "seed": null,
+      "instruction": "pick the carrot from the sink and place it on the plate located on the counter",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        457,
+        184
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        457,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPSinkToCounter",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_42",
+      "steps": 476,
+      "task": "PnPSinkToCounter",
+      "layout_id": 8,
+      "style_id": 10,
+      "seed": null,
+      "instruction": "pick the sponge from the sink and place it on the plate located on the counter",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        476,
+        180
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        476,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPSinkToCounter",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_43",
+      "steps": 407,
+      "task": "PnPSinkToCounter",
+      "layout_id": 8,
+      "style_id": 5,
+      "seed": null,
+      "instruction": "pick the lemon from the sink and place it on the plate located on the counter",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        407,
+        182
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        407,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPSinkToCounter",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_44",
+      "steps": 412,
+      "task": "PnPSinkToCounter",
+      "layout_id": 4,
+      "style_id": 6,
+      "seed": null,
+      "instruction": "pick the sponge from the sink and place it on the plate located on the counter",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        412,
+        172
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        412,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPSinkToCounter",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_45",
+      "steps": 434,
+      "task": "PnPSinkToCounter",
+      "layout_id": 8,
+      "style_id": 1,
+      "seed": null,
+      "instruction": "pick the cucumber from the sink and place it on the plate located on the counter",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        434,
+        184
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        434,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPSinkToCounter",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_46",
+      "steps": 522,
+      "task": "PnPSinkToCounter",
+      "layout_id": 7,
+      "style_id": 10,
+      "seed": null,
+      "instruction": "pick the lemon from the sink and place it on the plate located on the counter",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        522,
+        158
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        522,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPSinkToCounter",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_47",
+      "steps": 340,
+      "task": "PnPSinkToCounter",
+      "layout_id": 7,
+      "style_id": 5,
+      "seed": null,
+      "instruction": "pick the cucumber from the sink and place it on the plate located on the counter",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        340,
+        158
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        340,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPSinkToCounter",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_48",
+      "steps": 477,
+      "task": "PnPSinkToCounter",
+      "layout_id": 8,
+      "style_id": 10,
+      "seed": null,
+      "instruction": "pick the orange from the sink and place it on the plate located on the counter",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        477,
+        180
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        477,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPSinkToCounter",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_49",
+      "steps": 513,
+      "task": "PnPSinkToCounter",
+      "layout_id": 7,
+      "style_id": 9,
+      "seed": null,
+      "instruction": "pick the can from the sink and place it on the plate located on the counter",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        513,
+        158
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        513,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPSinkToCounter",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_5",
+      "steps": 314,
+      "task": "PnPSinkToCounter",
+      "layout_id": 7,
+      "style_id": 0,
+      "seed": null,
+      "instruction": "pick the lemon from the sink and place it on the plate located on the counter",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        314,
+        158
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        314,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPSinkToCounter",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_50",
+      "steps": 410,
+      "task": "PnPSinkToCounter",
+      "layout_id": 4,
+      "style_id": 1,
+      "seed": null,
+      "instruction": "pick the can from the sink and place it on the plate located on the counter",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        410,
+        172
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        410,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPSinkToCounter",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_6",
+      "steps": 414,
+      "task": "PnPSinkToCounter",
+      "layout_id": 8,
+      "style_id": 8,
+      "seed": null,
+      "instruction": "pick the lemon from the sink and place it on the plate located on the counter",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        414,
+        184
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        414,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPSinkToCounter",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_7",
+      "steps": 410,
+      "task": "PnPSinkToCounter",
+      "layout_id": 7,
+      "style_id": 10,
+      "seed": null,
+      "instruction": "pick the cucumber from the sink and place it on the plate located on the counter",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        410,
+        158
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        410,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPSinkToCounter",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_8",
+      "steps": 469,
+      "task": "PnPSinkToCounter",
+      "layout_id": 8,
+      "style_id": 1,
+      "seed": null,
+      "instruction": "pick the sponge from the sink and place it on the plate located on the counter",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        469,
+        184
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        469,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPSinkToCounter",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_9",
+      "steps": 573,
+      "task": "PnPSinkToCounter",
+      "layout_id": 8,
+      "style_id": 4,
+      "seed": null,
+      "instruction": "pick the can from the sink and place it on the plate located on the counter",
+      "model_hash": null,
+      "model_hash_matches_test": false,
+      "state_shape": [
+        573,
+        182
+      ],
+      "gripper_action_values": [
+        -1.0,
+        1.0
+      ],
+      "camera_image_shape": [
+        573,
+        180,
+        320,
+        3
+      ],
+      "declared_env": "XPnPSinkToCounter",
+      "declared_robot": [
+        "PandaOmron"
+      ],
+      "declared_gripper": "Robotiq85Gripper",
+      "exact_state_matches": []
+    }
+  ]
+}

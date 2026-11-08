@@ -1,0 +1,103 @@
+{
+  "status": "COMPLETE",
+  "method": "b1",
+  "robot": "panda",
+  "indices": [
+    0,
+    1,
+    2,
+    4,
+    6,
+    10,
+    12,
+    18
+  ],
+  "threshold": 0.93,
+  "hysteresis": 0.03,
+  "minimum_hold": 8,
+  "checkpoint": "/home/users/lemon/coft-p2/artifacts/runs/joint_reps/checkpoints/step-050000-epoch-15-loss=0.2577.pt",
+  "official_commit": "0f435089f48b1f16d225f868dbef855a5e75d1e0",
+  "privileged_information_used_by_controller": false,
+  "checkpoint_sha256": "ffce76802a8e75d4806b30dee43624accf2c4de4213c17059457e34a8243efce",
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "model_loaded_gpu_allocated_bytes": 2729539584,
+  "conditions": [
+    {
+      "episode": 0,
+      "condition_id": "53beb94b5265a6a5",
+      "seed": 1000,
+      "state_sha256": "c158b21d1a2ea2ff35b98fe3a100f2d6ca2e976cad402b7b1ff355d5da670f96",
+      "model_sha256": "f7cc915d2685499b36a939c33fb2597ac12fe50822f50fcbd1f6be02d24b4ee5",
+      "metadata_sha256": "840c567b4f6af0e3b59795daa643646bf45936cca9668eb7a7b7de2ac9d039b7"
+    },
+    {
+      "episode": 1,
+      "condition_id": "6b445f47a914f45a",
+      "seed": 1002,
+      "state_sha256": "0e38fec804c3806c68577536f8680501e7a7c87c45913abf1cab5c8fa0799448",
+      "model_sha256": "515f987fade611503cad4014865e094882b2ca6c75209784c4ced27b20236252",
+      "metadata_sha256": "97bbc57aec63caabc32a6fe86ba0a0dcc857d883a846c264e180062c7e31f6b8"
+    },
+    {
+      "episode": 2,
+      "condition_id": "81e214827819439e",
+      "seed": 1004,
+      "state_sha256": "b86023a3f468e778b6e4e6fdf51a9b75e8684f864738e7239cf1caf1273b2520",
+      "model_sha256": "0a16d0ae650405e22854a41d17c0b64fb398b61469ff43eb7d7014fd3cceefc5",
+      "metadata_sha256": "929b49ec35621db709dd9bf480fc688a89d1e7e99bb4c2658acc694e5d008328"
+    },
+    {
+      "episode": 4,
+      "condition_id": "48f16ef2d9f843c8",
+      "seed": 1009,
+      "state_sha256": "38847baafc4973dfcb4516ac4485474396883cf74e2375599f809063fb682d26",
+      "model_sha256": "e522d84f292a6a5261a71bbc47a1668be8d7d0147f7ed65857278f09f055ce74",
+      "metadata_sha256": "a1f180b6aed49babda4d7ff742ea2ee01516b4e1961e93e9a0c07909e3e5c00b"
+    },
+    {
+      "episode": 6,
+      "condition_id": "d2ba9fb339453ffb",
+      "seed": 1011,
+      "state_sha256": "f3b413e0261abc86ab3c5a2242bbb9eb9acacb1dbe1240885e8149c200858689",
+      "model_sha256": "13cd6dce738d9629b722a41f926a57538f1e58da07f8e12b55fbc818799c280b",
+      "metadata_sha256": "5fcb715c9cfdb05ffd8eefe5b8abcb675eb164ed8a24c5a3c5d889b9cf7dcece"
+    },
+    {
+      "episode": 10,
+      "condition_id": "719906fe32b4e0cf",
+      "seed": 1015,
+      "state_sha256": "b16b4d5199824e6ab8bfa6e606d11c6a2dcc5b21b8d6b6297c512f18f15f5fa2",
+      "model_sha256": "2124dc4703be98bf6cba076d97665efb2a2567411590935219ba7ae683b2aa67",
+      "metadata_sha256": "2860e8c06bf3a6ccac384cde90e8d3420ec2454bd0ca29b9c9a21846feafeb25"
+    },
+    {
+      "episode": 12,
+      "condition_id": "4b793181f6632967",
+      "seed": 1017,
+      "state_sha256": "3c8e7428533e7ec3844a922541e84b876266f9619ceee34aa9a85d3241528ad4",
+      "model_sha256": "39e5f378a3793f06843ab512495d6d2ed32fe754bf64dd8d9634dcbd7b9a7e94",
+      "metadata_sha256": "25c9a25a47dc46419985f38b7c4e0975999591e179dcd65f9ebfa2dd57803801"
+    },
+    {
+      "episode": 18,
+      "condition_id": "8ea42c064d38822b",
+      "seed": 1029,
+      "state_sha256": "7afc8b062eacf0bfc4dd2a7c498b941743da616d3385fcb0796cfb2a1674f1ca",
+      "model_sha256": "42edb982534d95c8ca72f5d058655ab10d5cf80f7b7a9cd74e4ea69cc6f0bb4d",
+      "metadata_sha256": "267b789cf47b038577615450bbd979d3c6a0f0f4f461ba5faa50c1ceee44c232"
+    }
+  ],
+  "summary": {
+    "duration_seconds": 343.306062,
+    "embodiment": "panda",
+    "episodes": 8,
+    "finished_at": "2026-11-08T14:07:53.726903+00:00",
+    "started_at": "2026-11-08T14:02:10.420841+00:00",
+    "status": "complete",
+    "success_rate": 0.0,
+    "successes": 0,
+    "task": "pnp_counter_to_sink"
+  },
+  "peak_gpu_allocated_bytes": 3023853056,
+  "peak_gpu_reserved_bytes": 3175088128
+}

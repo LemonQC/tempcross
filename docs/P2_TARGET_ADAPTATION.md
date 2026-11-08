@@ -1,19 +1,15 @@
-# P2-C：未训练、未评测
+# P2-C 目标适配实际状态（进行中）
 
-状态：`NOT_TRAINED`。实际训练 step 为 0；没有测量训练峰值显存，没有目标适配 checkpoint，没有适配后的独立 rollout。成功率为 null，不是 0%。
+最新指令已授权训练。必要数据已实际下载并校验，匹配样本已生成；正在等待正式策略评估释放 GPU，尚未执行优化器 step。不能把等待中的模型记成 0% 成功率。
 
-此前已完成代码和公开元信息审查：官方 `target_50/panda/pnp` 是两个方向各 50 条、合计 100 条；XP-900 适配混合 `mg_pnp_lite` 与 `panda_pnp`，沿用源统计和 VQ。原始示范与评测条件的精确重叠尚未审查。详见已经找回的 [执行前分析](P2_REVIEW_202611082025_ZH.md)。
+官方 Panda target_50/PnP 为两个方向各 50 条、共 100 条，人类遥操作仿真示范。原始元数据确认 PandaOmron + Robotiq85Gripper、第三人称 `robot0_agentview_left` 训练相机；评估保持官方固定 `barx_panda_agentview`。两者是官方数据/评估配置，不是新增 Eye-in-Hand。数据版本、文件大小及校验值见 [下载清单](../evidence/p2/execution_2145/data_manifest.json)。传输恢复使用公开镜像，原 revision、LFS SHA256 和实际内容不变。
 
-当前服务器只有源模型：
+目标 RLDS revision：`6e297509924c831c722180212d13f21686676e8e`；源 RLDS revision：`a2b5256a48428ea56064b0afb3dc184a045b10ae`；原始目标 HDF5 revision：`c8b3aba2dfbbfbafa67fa82466320945d560208f`。没有下载完整 284GiB 原始库。
 
-- Joint Reps：`/home/users/lemon/coft-p2/artifacts/runs/joint_reps/checkpoints/step-050000-epoch-15-loss=0.2577.pt`
-- No Reps：`/home/users/lemon/coft-p2/artifacts/runs/no_reps/checkpoints/step-050000-epoch-15-loss=0.8424.pt`
+已检查 100 条原始示范和新测试 20–39 的精确物理状态重复（忽略时间），未发现可检测重复。原始发布文件没有逐示范模型 XML，关节顺序及元数据缺失限制穷尽性身份证明；不将此检查冒称为完全证明无轨迹重叠。见 [来源与重叠审计](../evidence/p2/execution_2145/target_data_audit.json)。
 
-它们是原始预训练权重，不能称为 Panda 50 示范适配模型。此前的单卡命令 dry-run 只生成了命令文本，没有完成 forward/backward/optimizer step。本次用户明确要求先不运行训练或仿真，因此没有通过新训练来填补这个缺口。
+两种方法将读取同一份官方源/目标混合样本序列：共 6000 个样本位置，其中源 2932、目标 3068。原 mixture 权重 0.05:1.0 按 transitions 再平衡；沿用源归一化统计与源 VQ，夹爪符号沿用官方转换。固定序列 SHA256 为 `88b7af02fd345baa1765b702d09d69eadd025e0ffef0d904f36d70afe5b8a62c`。[匹配样本记录](../evidence/p2/execution_2145/matched_samples.json)
 
-| 方法 | 目标适配实际 steps | 适配后独立评测 episodes | 成功率 |
-|---|---:|---:|---|
-| No Reps + Panda 示范 | 0 | 0 | N/A |
-| Joint Reps + Panda 示范 | 0 | 0 | N/A |
+预定先做真实 full-parameter forward/backward/optimizer step 和显存测试；必要时使用已有 upstream LoRA。最终预算两模型均为 6000 个相同样本位置，选择固定末步 checkpoint，不根据测试结果选模型。这是受限单卡适配，**不等价于官方 global batch 256 的训练暴露量**。受限适配失败不能排除充分标准适配。
 
-尚未训练不能解释为普通目标适配无效。当前也没有实测 OOM，不能宣称 RTX 3090 无法训练。机器可读状态见 [status.json](../evidence/p2/status.json)。
+实际脚本：`p2_validation/prepare_training.py`、`train_adapter.py`、`train_suite.py`、`merge_adapter.py`。日志保留 `/home/users/lemon/coft-p2/p2/physical-20261108/`；实际训练步数、显存和独立 rollout 将在完成后据日志更新。

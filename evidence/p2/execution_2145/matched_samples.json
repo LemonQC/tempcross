@@ -1,0 +1,16 @@
+{
+  "status": "COMPLETE",
+  "samples": 6000,
+  "dataset_length": 81315,
+  "dataset_counts": {
+    "panda_pnp": 3068,
+    "mg_pnp_lite": 2932
+  },
+  "source_sampling_weight": 0.05,
+  "target_sampling_weight": 1.0,
+  "seed": 7,
+  "shuffle_buffer_size": 10000,
+  "statistics_file": "/home/users/lemon/coft-p2/p2/matched-samples-6000/dataset_statistics.json",
+  "sample_trace_sha256": "88b7af02fd345baa1765b702d09d69eadd025e0ffef0d904f36d70afe5b8a62c",
+  "limitation": "Fixed finite mixed sequence for matched restricted single-GPU adaptation; not paper exposure budget."
+}

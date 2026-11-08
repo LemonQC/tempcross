@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "status": "P2_NOT_PHYSICALLY_EXECUTED",
+  "status": "P2_PHYSICAL_EXECUTION_RUNNING",
   "scientific_decision": "INSUFFICIENT_EVIDENCE",
   "baseline_commit": "aa23600dc2e41d1ca3aab8e40c4caf66cb529fd9",
   "remote_main_before_sync": "c8ecb6ef36bed4e06a109795636f62ca990ff52b",
-  "user_constraint": "Do not run new training or simulation during this synchronization audit",
+  "user_constraint": "Latest 202611082145.md explicitly authorizes new simulation, public-data downloads and limited adaptation training",
   "p2_a": {
     "status": "PARTIAL_OFFLINE_ANALYSIS",
     "input": "legacy P1 development conditions 0-19",
@@ -22,12 +22,12 @@
     "geometry_and_contact_timeseries_exported": true
   },
   "p2_b": {
-    "status": "NOT_RUN",
+    "status": "RUNNING",
     "test_condition_indices": [
       20,
       39
     ],
-    "new_test_raw_results_path": null,
+    "new_test_raw_results_path": "/home/users/lemon/coft-p2/p2/physical-20261108/formal",
     "cells": [
       {
         "method": "B0_joint_reps",
@@ -64,16 +64,39 @@
         "successes": null,
         "success_rate": null
       }
-    ]
+    ],
+    "b1_development": {
+      "episodes_completed": 24,
+      "candidate_successes": {
+        "0.85": 0,
+        "0.90": 0,
+        "0.93": 0
+      },
+      "selected_threshold": 0.85,
+      "hysteresis": 0.03,
+      "minimum_hold": 8
+    },
+    "b2_development": {
+      "status": "COMPLETE",
+      "trusted_failed_case_counterfactual_pairs": 6,
+      "rescued": 0,
+      "positive_control_passed": true,
+      "formal_status": "ORACLE_NOT_VALIDATED"
+    }
   },
   "p2_c": {
-    "status": "NOT_TRAINED",
+    "status": "WAITING_FOR_POLICY_GPU_RELEASE",
     "actual_training_steps": 0,
     "training_memory_measured": false,
     "adapted_checkpoints": [],
     "independent_evaluation_episodes": 0,
     "independent_success_rate": null,
-    "target_50_pnp_means_50_per_direction_100_total": true
+    "target_50_pnp_means_50_per_direction_100_total": true,
+    "verified_data_download_complete": true,
+    "matched_sample_positions_per_model": 6000,
+    "source_sample_positions_per_model": 2932,
+    "target_sample_positions_per_model": 3068,
+    "sample_trace_sha256": "88b7af02fd345baa1765b702d09d69eadd025e0ffef0d904f36d70afe5b8a62c"
   },
   "legacy_run_root": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume",
   "legacy_video_manifest": "results/simulation/closed_loop/external_files.csv",
@@ -82,5 +105,8 @@
     "recovered_analysis_remote_commit": "11b79e8636af9985e15261a0fc82f4759c50c540",
     "transport": "connected GitHub API; shell HTTPS push had no credentials",
     "recovered_commit_and_status_read_back_via_github": true
-  }
+  },
+  "latest_directive": "202611082145.md",
+  "execution_root": "/home/users/lemon/coft-p2/p2/physical-20261108",
+  "execution_status_updated_utc": "2026-11-08T14:30:26.040558+00:00"
 }

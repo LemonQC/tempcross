@@ -1,0 +1,74 @@
+{
+  "status": "FROZEN_BEFORE_FORMAL_TEST",
+  "development_indices": [
+    0,
+    1,
+    2,
+    4,
+    6,
+    10,
+    12,
+    18
+  ],
+  "candidate_successes": [
+    {
+      "threshold": 0.85,
+      "successes": 0,
+      "episodes": 8
+    },
+    {
+      "threshold": 0.9,
+      "successes": 0,
+      "episodes": 8
+    },
+    {
+      "threshold": 0.93,
+      "successes": 0,
+      "episodes": 8
+    }
+  ],
+  "selection_rule": "maximum official development successes, ties choose the lowest threshold",
+  "b1": {
+    "threshold": 0.85,
+    "hysteresis": 0.03,
+    "minimum_hold": 8
+  },
+  "formal_indices": [
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39
+  ],
+  "global_seed": 7,
+  "adaptation": {
+    "route": "full-parameter actual step probe; LoRA only if necessary",
+    "final_sample_positions_per_model": 6000,
+    "full_parameter_batch_size": 1,
+    "lora_batch_size": 2,
+    "full_parameter_final_steps": 6000,
+    "lora_final_steps": 3000,
+    "learning_rate": 2e-05,
+    "prior_sampling_weight": 0.05,
+    "target_sampling_weight": 1.0,
+    "target_revision": "6e297509924c831c722180212d13f21686676e8e",
+    "source_revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "checkpoint_selection": "final prescribed step; no test-based selection",
+    "equivalence": "restricted single-GPU adaptation, not equivalent to official global-batch-256 exposure"
+  }
+}

@@ -1,0 +1,8 @@
+cell,stage,status,episodes,successes,success_rate,wilson95,checkpoint,checkpoint_sha256,peak_gpu_allocated_bytes
+b1-085,development,COMPLETE,8,0,0.0,"[0.0, 0.32440756488388023]",/home/users/lemon/coft-p2/artifacts/runs/joint_reps/checkpoints/step-050000-epoch-15-loss=0.2577.pt,ffce76802a8e75d4806b30dee43624accf2c4de4213c17059457e34a8243efce,3023853056
+b1-090,development,COMPLETE,8,0,0.0,"[0.0, 0.32440756488388023]",/home/users/lemon/coft-p2/artifacts/runs/joint_reps/checkpoints/step-050000-epoch-15-loss=0.2577.pt,ffce76802a8e75d4806b30dee43624accf2c4de4213c17059457e34a8243efce,3023853056
+b1-093,development,COMPLETE,8,0,0.0,"[0.0, 0.32440756488388023]",/home/users/lemon/coft-p2/artifacts/runs/joint_reps/checkpoints/step-050000-epoch-15-loss=0.2577.pt,ffce76802a8e75d4806b30dee43624accf2c4de4213c17059457e34a8243efce,3023853056
+b1-joint_reps-panda,formal,RUNNING,2,0,,,,,
+original-joint_reps-panda,formal,RUNNING,5,0,,,,,
+original-joint_reps-ur5e,formal,COMPLETE,20,8,0.4,"[0.21880653237281705, 0.6134184992377469]",/home/users/lemon/coft-p2/artifacts/runs/joint_reps/checkpoints/step-050000-epoch-15-loss=0.2577.pt,ffce76802a8e75d4806b30dee43624accf2c4de4213c17059457e34a8243efce,3023853056
+original-no_reps-panda,formal,RUNNING,2,0,,,,,

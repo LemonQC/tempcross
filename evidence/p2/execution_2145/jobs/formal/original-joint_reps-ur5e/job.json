@@ -1,0 +1,211 @@
+{
+  "status": "COMPLETE",
+  "method": "original",
+  "robot": "ur5e",
+  "indices": [
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39
+  ],
+  "threshold": null,
+  "hysteresis": 0.03,
+  "minimum_hold": 8,
+  "checkpoint": "/home/users/lemon/coft-p2/artifacts/runs/joint_reps/checkpoints/step-050000-epoch-15-loss=0.2577.pt",
+  "official_commit": "0f435089f48b1f16d225f868dbef855a5e75d1e0",
+  "privileged_information_used_by_controller": false,
+  "checkpoint_sha256": "ffce76802a8e75d4806b30dee43624accf2c4de4213c17059457e34a8243efce",
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "model_loaded_gpu_allocated_bytes": 2729539584,
+  "conditions": [
+    {
+      "episode": 20,
+      "condition_id": "70cac703a9537a13",
+      "seed": 1031,
+      "state_sha256": "47af0801bfebf7522462b43cd1af3f04bdca92935b894d34fd3f31b85056099e",
+      "model_sha256": "36629754a19a357c231ae88bf1dbdaf9be31a88b46ef3ab0741ff2c65d58b29a",
+      "metadata_sha256": "f043be7346a5cfa5cd33aeb1c2cdb5063db1c17b4e58094b9cfb203865e052ba"
+    },
+    {
+      "episode": 21,
+      "condition_id": "bddfd9a482027000",
+      "seed": 1032,
+      "state_sha256": "8bd7e84089a0e7f1ab729d42175a0e62cc8914538e30449b61b59a1502dcc270",
+      "model_sha256": "1d8d573e5250312fcfc1d651f2315dc53706a51ae7dc5e0df72243ea24b6b464",
+      "metadata_sha256": "24f68b01c2ff2febd81d31e900fc318ef9496a375a8e79c011e15a207e94e0cd"
+    },
+    {
+      "episode": 22,
+      "condition_id": "cde81258b2a2106f",
+      "seed": 1034,
+      "state_sha256": "774af733d34707cf0dea621ea0d21c42b9b49e1160e8310f4817f3810272a5f8",
+      "model_sha256": "0dcaa20bb8c4480caff70e7aa1511c61097447fc9537f694296e45a6cebd2fdc",
+      "metadata_sha256": "a1dc310d67dd00a358c775a95abb4044d373cdefdda6b88a96670c36e99a873c"
+    },
+    {
+      "episode": 23,
+      "condition_id": "cf80abb560df7f95",
+      "seed": 1037,
+      "state_sha256": "a03cb83550be82e298522c9a7b785aa9474651aca4f77599591db9966697d21b",
+      "model_sha256": "6c941f43a71907e1fae65f25aba616fa6bbdd415bcedf5224521cdb9a63a83be",
+      "metadata_sha256": "b6f4b8dc715d8f8ad7bc05a0a0eaed46186fb631f3a1daf7b80b596da2176e42"
+    },
+    {
+      "episode": 24,
+      "condition_id": "f946a010c68060e2",
+      "seed": 1038,
+      "state_sha256": "e746db44b7d22a7c524cac744b68e5937dd8de28050ffd6aab4fe3f53936deb4",
+      "model_sha256": "ac3f54f51edb01e239ac31e873819b51e5b47bbdce906944da896c3fab6b9d55",
+      "metadata_sha256": "be906e1f3c67fe9f3a356514b02ec648aac0bfbb47df5ca5a8cfd267220a2718"
+    },
+    {
+      "episode": 25,
+      "condition_id": "c459ac4bfdcc2f40",
+      "seed": 1039,
+      "state_sha256": "4e0c0c87169fdedd14a47d0c1300733375a736330ec4c48d1ea28ee8bec95e0d",
+      "model_sha256": "4f90a1865892689a06749ff7718524eb24c6bc1dbff0976b3fc6cdbb72fb13c8",
+      "metadata_sha256": "378bd3de724acb9712d90e92d3f5800113df60d492d61d6113f3fe5587bb310d"
+    },
+    {
+      "episode": 26,
+      "condition_id": "f4664c677912682a",
+      "seed": 1040,
+      "state_sha256": "ed61500d4b0daa633e391c69458dc15d399caa2e4c53e2865b5d3e4a66ce8ccd",
+      "model_sha256": "ee55d7af09a3f952b896f4571dd3152985c2aff2adbbf18261c85c8765302b00",
+      "metadata_sha256": "aacb56b6161d3bf536d88208afb0ee0429a471cf814d7e705d96aa4642375f6f"
+    },
+    {
+      "episode": 27,
+      "condition_id": "e16b361b2fc6e63c",
+      "seed": 1041,
+      "state_sha256": "23a4f922e9fcc3abc390007a838793e89e857da74b0029017b3df240c7e6278d",
+      "model_sha256": "5dc7ef50314f11baea52523fb8f22e4c884296ee23e5d694a2e3a749193d514f",
+      "metadata_sha256": "3ed052ca1292f24152c38861dbbe51fad51fa44ddc9904a517ba61c6d0e30a05"
+    },
+    {
+      "episode": 28,
+      "condition_id": "cd6870171160d41d",
+      "seed": 1043,
+      "state_sha256": "42cabbc9f310c9050cdf3b17ec3e4b083c7f059dff2f52caaa76a7300b83615d",
+      "model_sha256": "c6e7c16bf833d7ceec328e9e930687ea9859fa180930be47ad37bba4563c01a0",
+      "metadata_sha256": "94963c684dc5fac21389e2bf75765dba4d0b2d215f1ad6e6a83db97026ff71c4"
+    },
+    {
+      "episode": 29,
+      "condition_id": "27fe33e7d93737c8",
+      "seed": 1045,
+      "state_sha256": "6e9d12b8686b11ab91b669d0c3f2bece108cf72e40de9b24a41a16740d0f59c1",
+      "model_sha256": "3d4a7d3adc1f7f9e2534fde0789a82b2b40a184b6373bf39d619c43df4ec7fd5",
+      "metadata_sha256": "4084dec423563d8389d5cff404b41c86f86d6148d89b2e18c283c1329e62108b"
+    },
+    {
+      "episode": 30,
+      "condition_id": "6ed23b70acbd4648",
+      "seed": 1046,
+      "state_sha256": "d7784a459a63a355df3e4b9ceea12dcc2620a448d02576da74c7f755b2301875",
+      "model_sha256": "464fd9393656b1aafa65194e4f73a489abf8c49f36ebdf492aeefbd57aa87187",
+      "metadata_sha256": "8ea656c9a6d95b09368a5d22456ba7c7508908b36bda3a077cea7b4f9160a5ed"
+    },
+    {
+      "episode": 31,
+      "condition_id": "c82f8f77c73bd99a",
+      "seed": 1049,
+      "state_sha256": "bf361401b9dcf2b636d2b69eb9350fb169e6a551ba3d59febef26b3fc9c988a3",
+      "model_sha256": "6f231fb10a59e424893b2a5e14928effb810e04f836683789bc5bac7175c8229",
+      "metadata_sha256": "b6aa7e4e8c02e118a24b754b1cdd55e4ecac06fc037cf7ba9a7e05d4f8f3b96f"
+    },
+    {
+      "episode": 32,
+      "condition_id": "0b173b6f68fd5fda",
+      "seed": 1051,
+      "state_sha256": "ca1b77c872792b7038676e41733a3a1591b3fba8a5900d41fb4156a3ec6fc995",
+      "model_sha256": "cb4db15dae26793b4e5b5619c2e9c2c42a9535fe7086f3953ef5bcbdc3f750ef",
+      "metadata_sha256": "7b22060e16b099fb05a4c40fa009c037e1202356dc59bad1dd85f2d7fdb89993"
+    },
+    {
+      "episode": 33,
+      "condition_id": "4f117ea00e7178e0",
+      "seed": 1052,
+      "state_sha256": "7773415c4df066bde8062028913cf6be14f85f67da42b03c1739d65c41822116",
+      "model_sha256": "0c396a93c6f90dbe398537542f3ad32d5179c37f77ff2012a94474dc6b469661",
+      "metadata_sha256": "af043aa5b601c2c410139a3675b34fc30b8d1a96376f5b6f9d522247a82e7b3f"
+    },
+    {
+      "episode": 34,
+      "condition_id": "2931dd9fb445ec4d",
+      "seed": 1053,
+      "state_sha256": "3ad4694fd9f3f8fbd4d09b211512cb1794c121efc279dcf34c7cf515ab9d908d",
+      "model_sha256": "efa902b0e0b84bb0f05d309db4522fd90609e03546960c159e14ae327212c626",
+      "metadata_sha256": "2467b8d5febd7ce77e15651ed52cddcd221349ef0018dea61eb42553dbca6438"
+    },
+    {
+      "episode": 35,
+      "condition_id": "9263c558f152aff2",
+      "seed": 1054,
+      "state_sha256": "5fb3e1596a348264a9ee29455806933b9dc884d69477d2fcc002b77d65d3e109",
+      "model_sha256": "8a57b14db1971157a4026edf7f324350b6dc3bdf8e01d12419f94546b42c7f0a",
+      "metadata_sha256": "77e4d3c54568b20b8990034a651fba747ba78f4e72f7fee2427711d7f57137a0"
+    },
+    {
+      "episode": 36,
+      "condition_id": "eece02201b3a7000",
+      "seed": 1055,
+      "state_sha256": "042b5973a737e49418327e7ce28a89f81ecc901aa267c3d1799ead8217704d7c",
+      "model_sha256": "a2b691f8ad16e73705e674fe047e3e75a1fbd35de0041192d3b85812bd37bea6",
+      "metadata_sha256": "a802b68e7f41874119c2315ce25aabc540dc18e1d51127c6d976d6a8d42188af"
+    },
+    {
+      "episode": 37,
+      "condition_id": "4fb4411057d43566",
+      "seed": 1056,
+      "state_sha256": "fe34c633c6de0a2433ec69d68c5fa602a3c74a5245fe658f17cd52d21d0b1395",
+      "model_sha256": "c7aa7ae258ee2a494ef89675f420d9e150798eef17e8e1903640ce28bbc775e5",
+      "metadata_sha256": "67143690c2b6595e11d2c272e75a35641f88cd6decc685d7a6e17bf4d8558380"
+    },
+    {
+      "episode": 38,
+      "condition_id": "4b83b98a408e3885",
+      "seed": 1058,
+      "state_sha256": "3aeb2c0d1cd1c6c7d404465166deaa3710b487e41bfb40b712a0f6495c9b0452",
+      "model_sha256": "bbd0abe3d28e7dacc58cdfde2923cb63801a63e39e74f92ae7290fec37e01945",
+      "metadata_sha256": "b03e92bbd24cb081b895f75fa6dbb6ed93dc9a0b1cfd7be97db174bc40213614"
+    },
+    {
+      "episode": 39,
+      "condition_id": "10b8a870a5865876",
+      "seed": 1063,
+      "state_sha256": "4c0d885455633887fed1d33ba38a55058d456fa966060f772d632eebcd1594db",
+      "model_sha256": "1d85fa5a5a085c24f73351b338d73649f74907e9f76b3e093f29834e81d861da",
+      "metadata_sha256": "c97d1c3cf80a60586993f454825b55f15803077cdd6c648eb4579998fff5fb79"
+    }
+  ],
+  "summary": {
+    "duration_seconds": 766.778044,
+    "embodiment": "ur5e",
+    "episodes": 20,
+    "finished_at": "2026-11-08T14:20:51.914816+00:00",
+    "started_at": "2026-11-08T14:08:05.136772+00:00",
+    "status": "complete",
+    "success_rate": 0.4,
+    "successes": 8,
+    "task": "pnp_counter_to_sink"
+  },
+  "peak_gpu_allocated_bytes": 3023853056,
+  "peak_gpu_reserved_bytes": 3175088128
+}
