@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "status": "P2_NOT_PHYSICALLY_EXECUTED",
+  "scientific_decision": "INSUFFICIENT_EVIDENCE",
+  "baseline_commit": "aa23600dc2e41d1ca3aab8e40c4caf66cb529fd9",
+  "remote_main_before_sync": "c8ecb6ef36bed4e06a109795636f62ca990ff52b",
+  "user_constraint": "Do not run new training or simulation during this synchronization audit",
+  "p2_a": {
+    "status": "PARTIAL_OFFLINE_ANALYSIS",
+    "input": "legacy P1 development conditions 0-19",
+    "legacy_episodes_available": 80,
+    "panda_joint_reps_never_close_cases_verified": 17,
+    "legal_grasp_opportunities_causally_verified": false,
+    "visibility_audit_completed": false
+  },
+  "p2_b": {
+    "status": "NOT_RUN",
+    "test_condition_indices": [20, 39],
+    "new_test_raw_results_path": null,
+    "cells": [
+      {"method": "B0_joint_reps", "robot": "ur5e", "episodes": 0, "successes": null, "success_rate": null},
+      {"method": "B0_joint_reps", "robot": "panda", "episodes": 0, "successes": null, "success_rate": null},
+      {"method": "original_no_reps", "robot": "panda", "episodes": 0, "successes": null, "success_rate": null},
+      {"method": "B1_simple_gripper_correction", "robot": "panda", "episodes": 0, "successes": null, "success_rate": null},
+      {"method": "B2_privileged_grasp_oracle", "robot": "panda", "episodes": 0, "successes": null, "success_rate": null}
+    ]
+  },
+  "p2_c": {
+    "status": "NOT_TRAINED",
+    "actual_training_steps": 0,
+    "training_memory_measured": false,
+    "adapted_checkpoints": [],
+    "independent_evaluation_episodes": 0,
+    "independent_success_rate": null,
+    "target_50_pnp_means_50_per_direction_100_total": true
+  },
+  "legacy_run_root": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume",
+  "legacy_video_manifest": "results/simulation/closed_loop/external_files.csv",
+  "new_training_or_physical_simulation_started_during_sync_audit": false
+}

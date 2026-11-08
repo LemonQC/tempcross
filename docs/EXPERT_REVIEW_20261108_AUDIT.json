@@ -1,0 +1,363 @@
+{
+  "output_directory": "/tmp/tempcross-expert-audit-20261108-mtn8ojbu",
+  "manifest": {
+    "files": 358,
+    "bytes": 368601813,
+    "issues": []
+  },
+  "cells": [
+    {
+      "method": "no_reps",
+      "arm": "ur5e",
+      "episodes": 20,
+      "successes": 5,
+      "steps": 11284,
+      "policy_chunk_shapes": [
+        [
+          8,
+          7
+        ]
+      ],
+      "policy_action_min": [
+        -0.9733697252916809,
+        -1.1104058027267456,
+        -0.9126514948509914,
+        -0.2313125151985136,
+        -0.22727821271862034,
+        -0.17976864120854685,
+        -0.05835970863699913
+      ],
+      "policy_action_max": [
+        1.1285127340556471,
+        1.2239782810211182,
+        0.5076445389442498,
+        0.3146923143613882,
+        0.26754324694439907,
+        0.20599002703969382,
+        1.0504107475280762
+      ],
+      "telemetry_errors": {},
+      "actual_seeds": [
+        1000,
+        1002,
+        1004,
+        1005,
+        1009,
+        1010,
+        1011,
+        1012,
+        1013,
+        1014,
+        1015,
+        1016,
+        1017,
+        1019,
+        1024,
+        1025,
+        1026,
+        1028,
+        1029,
+        1030
+      ]
+    },
+    {
+      "method": "no_reps",
+      "arm": "panda",
+      "episodes": 20,
+      "successes": 1,
+      "steps": 11789,
+      "policy_chunk_shapes": [
+        [
+          8,
+          7
+        ]
+      ],
+      "policy_action_min": [
+        -1.0054494952964674,
+        -1.1346036195755005,
+        -0.5039293717852704,
+        -0.1798379757358713,
+        -0.20008808716644622,
+        -0.20646016899450714,
+        -0.02748502604663372
+      ],
+      "policy_action_max": [
+        1.1375115418812527,
+        1.064870834350586,
+        0.6197316441748301,
+        0.3301058894707316,
+        0.20881254733133053,
+        0.19423683571696715,
+        1.0248829126358032
+      ],
+      "telemetry_errors": {},
+      "actual_seeds": [
+        1000,
+        1002,
+        1004,
+        1005,
+        1009,
+        1010,
+        1011,
+        1012,
+        1013,
+        1014,
+        1015,
+        1016,
+        1017,
+        1019,
+        1024,
+        1025,
+        1026,
+        1028,
+        1029,
+        1030
+      ]
+    },
+    {
+      "method": "joint_reps",
+      "arm": "ur5e",
+      "episodes": 20,
+      "successes": 9,
+      "steps": 10246,
+      "policy_chunk_shapes": [
+        [
+          8,
+          7
+        ]
+      ],
+      "policy_action_min": [
+        -0.8778891174870243,
+        -1.0910654067993164,
+        -0.9201605433309694,
+        -0.24942418937877284,
+        -0.24860817589529657,
+        -0.28043990597876184,
+        -0.07004405558109283
+      ],
+      "policy_action_max": [
+        1.1120989219330895,
+        1.2266573905944824,
+        0.8449843807440872,
+        0.2635110306807822,
+        0.16823567638565934,
+        0.1872066555705335,
+        1.02278470993042
+      ],
+      "telemetry_errors": {},
+      "actual_seeds": [
+        1000,
+        1002,
+        1004,
+        1005,
+        1009,
+        1010,
+        1011,
+        1012,
+        1013,
+        1014,
+        1015,
+        1016,
+        1017,
+        1019,
+        1024,
+        1025,
+        1026,
+        1028,
+        1029,
+        1030
+      ]
+    },
+    {
+      "method": "joint_reps",
+      "arm": "panda",
+      "episodes": 20,
+      "successes": 0,
+      "steps": 12000,
+      "policy_chunk_shapes": [
+        [
+          8,
+          7
+        ]
+      ],
+      "policy_action_min": [
+        -0.7488267727530538,
+        -1.1720706224441528,
+        -0.425536196947641,
+        -0.22701198115232907,
+        -0.13155198407626087,
+        -0.18561854123194133,
+        -0.04479890316724777
+      ],
+      "policy_action_max": [
+        1.090885300591978,
+        1.2666516304016113,
+        0.5411838103044545,
+        0.35296397271342406,
+        0.2642377207951145,
+        0.2167555825121451,
+        1.1816397905349731
+      ],
+      "telemetry_errors": {},
+      "actual_seeds": [
+        1000,
+        1002,
+        1004,
+        1005,
+        1009,
+        1010,
+        1011,
+        1012,
+        1013,
+        1014,
+        1015,
+        1016,
+        1017,
+        1019,
+        1024,
+        1025,
+        1026,
+        1028,
+        1029,
+        1030
+      ]
+    }
+  ],
+  "p0": [
+    {
+      "method": "joint_reps",
+      "arm": "ur5e",
+      "episodes": 1,
+      "successes": 1,
+      "steps": 470,
+      "policy_chunk_shapes": [
+        [
+          8,
+          7
+        ]
+      ],
+      "policy_action_min": [
+        -0.25187980560889756,
+        -1.0097469091415405,
+        -0.3405119346347685,
+        -0.13275459217622468,
+        -0.08416845367154208,
+        -0.15077620220591903,
+        -0.031488895416259766
+      ],
+      "policy_action_max": [
+        0.22651755113473016,
+        0.5616374015808105,
+        0.8449843807440872,
+        0.2635110306807822,
+        0.09497431138904966,
+        0.15285243159086803,
+        1.003849983215332
+      ],
+      "telemetry_errors": {},
+      "actual_seeds": [
+        1000
+      ]
+    },
+    {
+      "method": "joint_reps",
+      "arm": "panda",
+      "episodes": 1,
+      "successes": 0,
+      "steps": 600,
+      "policy_chunk_shapes": [
+        [
+          8,
+          7
+        ]
+      ],
+      "policy_action_min": [
+        -0.6749630684916337,
+        -1.1720706224441528,
+        -0.3122823074861024,
+        -0.15987806521347034,
+        -0.11632790107832697,
+        -0.1366251199008781,
+        0.8119053244590759
+      ],
+      "policy_action_max": [
+        0.3481209036519779,
+        0.2256542444229126,
+        0.24533440823006114,
+        0.35296397271342406,
+        0.10940708437868779,
+        0.18343137036850699,
+        1.1816397905349731
+      ],
+      "telemetry_errors": {},
+      "actual_seeds": [
+        1000
+      ]
+    }
+  ],
+  "total_physical_episodes": 82,
+  "source_clean": true,
+  "audited_at_utc": "2026-11-08T09:06:07.013170+00:00",
+  "repository": "/home/users/lemon/CodexProject/tempcross",
+  "reviewed_head": "aa23600dc2e41d1ca3aab8e40c4caf66cb529fd9",
+  "expert_document_blob_sha": "64a6ee9cf6bb39d63d5657f30d35b88e24aacf2e",
+  "official_commit": "0f435089f48b1f16d225f868dbef855a5e75d1e0",
+  "new_rollouts_executed": 0,
+  "project_tests": {
+    "command": ".venv/bin/python -m pytest -q",
+    "passed": 22
+  },
+  "official_tests": {
+    "command": "/home/users/lemon/coft-p2/barx/.venv/bin/python -m unittest discover -s tests -v",
+    "working_directory": "/home/users/lemon/coft-p2/barx",
+    "passed": 76,
+    "skipped": 0
+  },
+  "analysis_recomputed_equal_to_checked_in": true,
+  "video_validation_recomputed_equal_to_checked_in": true,
+  "video_count": 82,
+  "decoded_frames": 46389,
+  "p1_action_steps": 45319,
+  "model_sha256_recomputed": {
+    "joint_reps": "ffce76802a8e75d4806b30dee43624accf2c4de4213c17059457e34a8243efce",
+    "no_reps": "ccbd2099903ba7c307b9c47586634754ce34b6269b8577e0040ca0a2f3ca8df3",
+    "vq_tokenizer": "cbf410959839f99ee131aa8c7d4c2dc2116d134f23ee9e88e90fa089270e7378"
+  },
+  "gate_fixture_check": {
+    "scope": "isolated temporary fixture with a mock decoder; no real result changed",
+    "duplicate_episodes_and_condition_ids_accepted": true,
+    "inconsistent_summary_successes_accepted": true,
+    "does_not_imply_actual_run_corruption": true
+  },
+  "outstanding_expert_evidence": [
+    "separate simulator-only reset/step validation for both robots",
+    "official evaluator rollouts without Recorder installed",
+    "GPU memory measurements at model load and inference"
+  ],
+  "arm_input_saturation": [
+    {
+      "method": "no_reps",
+      "robot": "ur5e",
+      "steps_with_any_arm_dimension_abs_gt_one": 31,
+      "executed_steps": 11284
+    },
+    {
+      "method": "no_reps",
+      "robot": "panda",
+      "steps_with_any_arm_dimension_abs_gt_one": 18,
+      "executed_steps": 11789
+    },
+    {
+      "method": "joint_reps",
+      "robot": "ur5e",
+      "steps_with_any_arm_dimension_abs_gt_one": 30,
+      "executed_steps": 10246
+    },
+    {
+      "method": "joint_reps",
+      "robot": "panda",
+      "steps_with_any_arm_dimension_abs_gt_one": 26,
+      "executed_steps": 12000
+    }
+  ]
+}
