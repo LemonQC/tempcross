@@ -79,8 +79,14 @@ def main():
                         rise=float(sim.data.body_xpos[target,2]-initial_z)
                         if contact:contact_steps.append(t+1)
                         if contact and rise>=.03:lift_steps.append(t+1)
+                        pads=[sim.model.geom_name2id(f'gripper0_right_{side}_fingerpad_collision') for side in ['left','right']]
                         history.append(dict(step=t+1,gripper_command=float(command[6]),bilateral_contact=contact,rise_m=rise,
                                             object=sim.data.body_xpos[target].tolist(),eef=np.asarray(obs['robot0_eef_pos']).tolist(),
+                                            qpos=sim.data.qpos.tolist(),qvel=sim.data.qvel.tolist(),
+                                            full_environment_action=command.tolist(),actuator_ctrl=sim.data.ctrl.tolist(),
+                                            gripper_qpos=np.asarray(obs['robot0_gripper_qpos']).tolist(),
+                                            fingerpad_positions=sim.data.geom_xpos[pads].tolist(),
+                                            pad_center_distance_m=float(np.linalg.norm(sim.data.geom_xpos[pads[0]]-sim.data.geom_xpos[pads[1]])),
                                             success=bool(info['is_success']['task'])))
                         if info['is_success']['task']:official_success=True;break
                 finally:writer.release()

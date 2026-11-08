@@ -85,7 +85,7 @@ def collect(root,out):
                 arm_policy_mapping_max_error=0.,nonfinite_actions=nonfinite,
                 telemetry_path=str(path),video_path=str(videos[0]))
             episodes.append(row);video_index.append(dict(cell=directory.name,condition_id=condition['condition_id'],video_path=str(videos[0]),success=record['success']))
-    comparisons=[]
+    comparisons=[];paired_stages=[]
     targets={c['cell']:c for c in cells if c['status']=='COMPLETE' and c['stage']=='formal'}
     for candidate in ['b1-joint_reps-panda','adapted-no_reps-panda','adapted-joint_reps-panda']:
         baseline='original-no_reps-panda' if candidate=='adapted-no_reps-panda' else 'original-joint_reps-panda'
@@ -97,13 +97,28 @@ def collect(root,out):
         regression=[key for key in first if first[key]['success'] and not second[key]['success']]
         comparisons.append(dict(method=candidate,baseline=baseline,episodes=len(first),rescued=len(rescue),regressed=len(regression),
                                 net_success_change=len(rescue)-len(regression),rescue_condition_ids=rescue,regression_condition_ids=regression))
+        for key in first:
+            before,after=first[key],second[key]
+            paired_stages.append(dict(method=candidate,baseline=baseline,condition_id=key,
+                 official_condition_index=before['official_condition_index'],baseline_success=before['success'],candidate_success=after['success'],
+                 baseline_stage=before['observed_stage'],candidate_stage=after['observed_stage'],
+                 baseline_contact_steps=before['bilateral_contact_state_steps'],candidate_contact_steps=after['bilateral_contact_state_steps'],
+                 baseline_lift_proxy=before['sustained_contact_lift_proxy'],candidate_lift_proxy=after['sustained_contact_lift_proxy']))
     payload=dict(cells=cells,comparisons=comparisons,episodes=episodes,
                  causal_failure_labels_require_further_evidence=True,stage_proxies_are_not_official_success=True)
     (out/'analysis.json').write_text(json.dumps(payload,indent=2)+'\n')
     (out/'video_index.json').write_text(json.dumps(video_index,indent=2)+'\n')
     write_csv(out/'cells.csv',cells);write_csv(out/'episodes.csv',episodes);write_csv(out/'paired_comparisons.csv',comparisons)
-    for path in [root/'frozen_protocol.json',root/'script-freeze.json',root/'b2-diagnostics-v2/results.json',root/'adaptation_suite.json']:
-        if path.exists():shutil.copyfile(path,out/('b2_development.json' if path.name=='results.json' else path.name))
+    write_csv(out/'paired_stage_changes.csv',paired_stages)
+    for path in [root/'frozen_protocol.json',root/'script-freeze.json',root/'adaptation_suite.json']:
+        if path.exists():shutil.copyfile(path,out/path.name)
+    # v3 repeats the same seven probes with full per-step telemetry. Retain v2
+    # independently: repeated instrumentation runs are not new independent cases.
+    for version in ['v2','v3']:
+        path=root/f'b2-diagnostics-{version}'/'results.json'
+        if path.exists():shutil.copyfile(path,out/f'b2_development_{version}.json')
+    primary=root/'b2-diagnostics-v3/results.json'
+    if primary.exists():shutil.copyfile(primary,out/'b2_development.json')
     print(json.dumps(dict(cells=cells,comparisons=comparisons),indent=2))
 
 

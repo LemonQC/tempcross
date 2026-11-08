@@ -22,7 +22,7 @@
     "geometry_and_contact_timeseries_exported": true
   },
   "p2_b": {
-    "status": "RUNNING",
+    "status": "COMPLETE_WITH_B2_NOT_VALIDATED",
     "test_condition_indices": [
       20,
       39
@@ -30,36 +30,68 @@
     "new_test_raw_results_path": "/home/users/lemon/coft-p2/p2/physical-20261108/formal",
     "cells": [
       {
-        "method": "B0_joint_reps",
-        "robot": "ur5e",
-        "episodes": 0,
-        "successes": null,
-        "success_rate": null
+        "cell": "b1-joint_reps-panda",
+        "stage": "formal",
+        "status": "COMPLETE",
+        "episodes": 20,
+        "successes": 3,
+        "success_rate": 0.15,
+        "wilson95": [
+          0.052368745896216595,
+          0.36041886474075696
+        ],
+        "checkpoint": "/home/users/lemon/coft-p2/artifacts/runs/joint_reps/checkpoints/step-050000-epoch-15-loss=0.2577.pt",
+        "checkpoint_sha256": "ffce76802a8e75d4806b30dee43624accf2c4de4213c17059457e34a8243efce",
+        "peak_gpu_allocated_bytes": 3023853056
       },
       {
-        "method": "B0_joint_reps",
-        "robot": "panda",
-        "episodes": 0,
-        "successes": null,
-        "success_rate": null
+        "cell": "original-joint_reps-panda",
+        "stage": "formal",
+        "status": "COMPLETE",
+        "episodes": 20,
+        "successes": 1,
+        "success_rate": 0.05,
+        "wilson95": [
+          0.008881448800795402,
+          0.23613119344674205
+        ],
+        "checkpoint": "/home/users/lemon/coft-p2/artifacts/runs/joint_reps/checkpoints/step-050000-epoch-15-loss=0.2577.pt",
+        "checkpoint_sha256": "ffce76802a8e75d4806b30dee43624accf2c4de4213c17059457e34a8243efce",
+        "peak_gpu_allocated_bytes": 3023853056
       },
       {
-        "method": "original_no_reps",
-        "robot": "panda",
-        "episodes": 0,
-        "successes": null,
-        "success_rate": null
+        "cell": "original-joint_reps-ur5e",
+        "stage": "formal",
+        "status": "COMPLETE",
+        "episodes": 20,
+        "successes": 8,
+        "success_rate": 0.4,
+        "wilson95": [
+          0.21880653237281705,
+          0.6134184992377469
+        ],
+        "checkpoint": "/home/users/lemon/coft-p2/artifacts/runs/joint_reps/checkpoints/step-050000-epoch-15-loss=0.2577.pt",
+        "checkpoint_sha256": "ffce76802a8e75d4806b30dee43624accf2c4de4213c17059457e34a8243efce",
+        "peak_gpu_allocated_bytes": 3023853056
       },
       {
-        "method": "B1_simple_gripper_correction",
-        "robot": "panda",
-        "episodes": 0,
-        "successes": null,
-        "success_rate": null
+        "cell": "original-no_reps-panda",
+        "stage": "formal",
+        "status": "COMPLETE",
+        "episodes": 20,
+        "successes": 1,
+        "success_rate": 0.05,
+        "wilson95": [
+          0.008881448800795402,
+          0.23613119344674205
+        ],
+        "checkpoint": "/home/users/lemon/coft-p2/artifacts/runs/no_reps/checkpoints/step-050000-epoch-15-loss=0.8424.pt",
+        "checkpoint_sha256": "ccbd2099903ba7c307b9c47586634754ce34b6269b8577e0040ca0a2f3ca8df3",
+        "peak_gpu_allocated_bytes": 3023853056
       },
       {
-        "method": "B2_privileged_grasp_oracle",
-        "robot": "panda",
+        "cell": "b2-privileged-panda",
+        "status": "ORACLE_NOT_VALIDATED",
         "episodes": 0,
         "successes": null,
         "success_rate": null
@@ -82,21 +114,61 @@
       "rescued": 0,
       "positive_control_passed": true,
       "formal_status": "ORACLE_NOT_VALIDATED"
+    },
+    "formal_episodes_completed": 80,
+    "b1_paired": {
+      "method": "b1-joint_reps-panda",
+      "baseline": "original-joint_reps-panda",
+      "episodes": 20,
+      "rescued": 2,
+      "regressed": 0,
+      "net_success_change": 2,
+      "rescue_condition_ids": [
+        "52658e383ee5d70b",
+        "752210ee11d69d94"
+      ],
+      "regression_condition_ids": []
     }
   },
   "p2_c": {
-    "status": "WAITING_FOR_POLICY_GPU_RELEASE",
-    "actual_training_steps": 0,
-    "training_memory_measured": false,
-    "adapted_checkpoints": [],
-    "independent_evaluation_episodes": 0,
-    "independent_success_rate": null,
+    "status": "JOINT_TRAINING_NO_REPS_EVALUATED",
+    "actual_training_steps": {
+      "no_reps": 3000,
+      "joint_reps": "RUNNING"
+    },
+    "training_memory_measured": true,
+    "adapted_checkpoints": [
+      {
+        "method": "no_reps",
+        "steps": 3000,
+        "sample_positions": 6000,
+        "checkpoint": "/home/users/lemon/coft-p2/p2/physical-20261108/adapted-checkpoints/no_reps/checkpoints/step-003000-epoch-00-loss=restricted.pt",
+        "checkpoint_bytes": 5010410797,
+        "checkpoint_sha256": "8504d71f02bc3c2ead775ae72508f355229ff35aeefdb4710eedddcd954a0bad",
+        "provenance": {
+          "source_checkpoint": "/home/users/lemon/coft-p2/artifacts/runs/no_reps/checkpoints/step-050000-epoch-15-loss=0.8424.pt",
+          "adapter": "/home/users/lemon/coft-p2/p2/physical-20261108/training/no_reps-lora/runs/no_reps--lora/checkpoints/step-003000-epoch-00-loss=1.0442",
+          "merged_checkpoint": "/home/users/lemon/coft-p2/p2/physical-20261108/adapted-checkpoints/no_reps/checkpoints/step-003000-epoch-00-loss=restricted.pt",
+          "role": "RESTRICTED_LORA_ADAPTATION"
+        },
+        "adapter_path": "/home/users/lemon/coft-p2/p2/physical-20261108/training/no_reps-lora/runs/no_reps--lora/checkpoints/step-003000-epoch-00-loss=1.0442",
+        "adapter_sha256": "57cbf49a5dbe0e9d31a42d7ed7a265e2e8a262bfb8ff5cda6670fe67be5c4751",
+        "lora_b_tensors": 383,
+        "nonzero_lora_b_tensors": 370
+      }
+    ],
+    "independent_evaluation_episodes": 20,
+    "independent_success_rate": {
+      "no_reps": 0.1,
+      "joint_reps": null
+    },
     "target_50_pnp_means_50_per_direction_100_total": true,
     "verified_data_download_complete": true,
     "matched_sample_positions_per_model": 6000,
     "source_sample_positions_per_model": 2932,
     "target_sample_positions_per_model": 3068,
-    "sample_trace_sha256": "88b7af02fd345baa1765b702d09d69eadd025e0ffef0d904f36d70afe5b8a62c"
+    "sample_trace_sha256": "88b7af02fd345baa1765b702d09d69eadd025e0ffef0d904f36d70afe5b8a62c",
+    "route": "RESTRICTED_LORA"
   },
   "legacy_run_root": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume",
   "legacy_video_manifest": "results/simulation/closed_loop/external_files.csv",
@@ -108,5 +180,6 @@
   },
   "latest_directive": "202611082145.md",
   "execution_root": "/home/users/lemon/coft-p2/p2/physical-20261108",
-  "execution_status_updated_utc": "2026-11-08T14:30:26.040558+00:00"
+  "execution_status_updated_utc": "2026-11-08T15:12:04.844867+00:00",
+  "new_training_or_physical_simulation_started_under_latest_directive": true
 }

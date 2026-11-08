@@ -1,0 +1,15 @@
+case_id,branch_action_index,positive_control,branch_trusted,branch,success,steps,contact_state_steps,maximum_rise_m,contact_lift_consecutive_steps,video_path
+joint_reps/panda/000,117,False,True,original,False,600,0,0.0006105250762260539,0,/home/users/lemon/coft-p2/p2/physical-20261108/b2-diagnostics-v3/joint_reps-000-step-117-original.mp4
+joint_reps/panda/000,117,False,True,close32,False,600,0,0.001282588446588906,0,/home/users/lemon/coft-p2/p2/physical-20261108/b2-diagnostics-v3/joint_reps-000-step-117-close32.mp4
+joint_reps/panda/000,125,False,True,original,False,600,0,0.0006105250762260539,0,/home/users/lemon/coft-p2/p2/physical-20261108/b2-diagnostics-v3/joint_reps-000-step-125-original.mp4
+joint_reps/panda/000,125,False,True,close32,False,600,0,0.0010513956712507877,0,/home/users/lemon/coft-p2/p2/physical-20261108/b2-diagnostics-v3/joint_reps-000-step-125-close32.mp4
+joint_reps/panda/002,156,False,True,original,False,600,0,3.68381155579911e-08,0,/home/users/lemon/coft-p2/p2/physical-20261108/b2-diagnostics-v3/joint_reps-002-step-156-original.mp4
+joint_reps/panda/002,156,False,True,close32,False,600,0,3.6839228889640196e-08,0,/home/users/lemon/coft-p2/p2/physical-20261108/b2-diagnostics-v3/joint_reps-002-step-156-close32.mp4
+joint_reps/panda/002,164,False,True,original,False,600,0,3.68381155579911e-08,0,/home/users/lemon/coft-p2/p2/physical-20261108/b2-diagnostics-v3/joint_reps-002-step-164-original.mp4
+joint_reps/panda/002,164,False,True,close32,False,600,0,3.683889826522346e-08,0,/home/users/lemon/coft-p2/p2/physical-20261108/b2-diagnostics-v3/joint_reps-002-step-164-close32.mp4
+joint_reps/panda/012,143,False,True,original,False,600,0,0.03725987391221153,0,/home/users/lemon/coft-p2/p2/physical-20261108/b2-diagnostics-v3/joint_reps-012-step-143-original.mp4
+joint_reps/panda/012,143,False,True,close32,False,600,0,0.03709491181250191,0,/home/users/lemon/coft-p2/p2/physical-20261108/b2-diagnostics-v3/joint_reps-012-step-143-close32.mp4
+joint_reps/panda/012,151,False,True,original,False,600,0,0.03725987391221153,0,/home/users/lemon/coft-p2/p2/physical-20261108/b2-diagnostics-v3/joint_reps-012-step-151-original.mp4
+joint_reps/panda/012,151,False,True,close32,False,600,0,0.03725987391221153,0,/home/users/lemon/coft-p2/p2/physical-20261108/b2-diagnostics-v3/joint_reps-012-step-151-close32.mp4
+no_reps/panda/004,167,True,True,original,True,389,189,0.07847562708077005,80,/home/users/lemon/coft-p2/p2/physical-20261108/b2-diagnostics-v3/no_reps-004-step-167-original.mp4
+no_reps/panda/004,167,True,True,close32,True,389,190,0.08079793859142947,81,/home/users/lemon/coft-p2/p2/physical-20261108/b2-diagnostics-v3/no_reps-004-step-167-close32.mp4

@@ -1,6 +1,6 @@
 # COFT SR5: Cross-Embodiment Executability × Observability Hypothesis Probe
 
-> **P2 正在执行真实物理实验。** 最新授权见 `202611082145.md`。已完成 24 次 B1 开发干预、7 组可信 B2 重放配对；正式源参考 Joint Reps/UR5e 为 8/20。目标比较和有限适配继续运行。见 [干预报告](docs/P2_INTERVENTION_REPORT.md)、[适配记录](docs/P2_TARGET_ADAPTATION.md) 和 [机器状态](evidence/p2/status.json)。
+> **P2 正在执行真实物理实验。** 最新授权见 `202611082145.md`。已完成 24 次 B1 开发干预、7 组可信 B2 重放配对和 80 次新条件正式测试：Joint Reps/UR5e 8/20、Panda 1/20，No Reps/Panda 1/20，B1/Panda 3/20；B1 配对救回 2 次、退化 0 次。No Reps 受限 LoRA 已实际训练 3000 步，独立评测 2/20；Joint Reps 适配继续运行。见 [干预报告](docs/P2_INTERVENTION_REPORT.md)、[适配记录](docs/P2_TARGET_ADAPTATION.md) 和 [机器状态](evidence/p2/status.json)。
 
 > **COFT-P2：P0通过，80/80次官方物理仿真完成。** No Reps：UR5e 5/20、Panda 1/20；Joint Reps：UR5e 9/20、Panda 0/20。观察到迁移差距，但未证明学习算法不可替代。见 [闭环验证报告](docs/SIM_VALIDATION_REPORT.md)、[完整失败审计](docs/TRANSFER_FAILURES.md) 和 [下一阶段决定](docs/NEXT_ALGORITHM_DECISION.md)。
 

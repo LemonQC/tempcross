@@ -1,0 +1,20 @@
+[
+  {
+    "method": "no_reps",
+    "steps": 3000,
+    "sample_positions": 6000,
+    "checkpoint": "/home/users/lemon/coft-p2/p2/physical-20261108/adapted-checkpoints/no_reps/checkpoints/step-003000-epoch-00-loss=restricted.pt",
+    "checkpoint_bytes": 5010410797,
+    "checkpoint_sha256": "8504d71f02bc3c2ead775ae72508f355229ff35aeefdb4710eedddcd954a0bad",
+    "provenance": {
+      "source_checkpoint": "/home/users/lemon/coft-p2/artifacts/runs/no_reps/checkpoints/step-050000-epoch-15-loss=0.8424.pt",
+      "adapter": "/home/users/lemon/coft-p2/p2/physical-20261108/training/no_reps-lora/runs/no_reps--lora/checkpoints/step-003000-epoch-00-loss=1.0442",
+      "merged_checkpoint": "/home/users/lemon/coft-p2/p2/physical-20261108/adapted-checkpoints/no_reps/checkpoints/step-003000-epoch-00-loss=restricted.pt",
+      "role": "RESTRICTED_LORA_ADAPTATION"
+    },
+    "adapter_path": "/home/users/lemon/coft-p2/p2/physical-20261108/training/no_reps-lora/runs/no_reps--lora/checkpoints/step-003000-epoch-00-loss=1.0442",
+    "adapter_sha256": "57cbf49a5dbe0e9d31a42d7ed7a265e2e8a262bfb8ff5cda6670fe67be5c4751",
+    "lora_b_tensors": 383,
+    "nonzero_lora_b_tensors": 370
+  }
+]

@@ -19,7 +19,24 @@ def main():
     p.add_argument('--route',choices=['full','lora'],required=True);p.add_argument('--steps',type=int,required=True)
     p.add_argument('--batch-size',type=int,required=True);a=p.parse_args()
     source=Path(a.source).resolve();out=Path(a.out).resolve();cache=Path(a.cache).resolve()
-    if out.exists() and any(out.iterdir()):raise FileExistsError(out)
+    if out.exists() and any(out.iterdir()):
+        # A supervisor may reach a job already completed by an independent
+        # worker. Reuse only an exact, fully saved prescribed training run;
+        # never restart updates or silently accept an incomplete directory.
+        status_path=out/'training_status.json'
+        previous=json.loads(status_path.read_text()) if status_path.exists() else {}
+        metadata=json.loads((cache/'complete.json').read_text())
+        expected=dict(status='COMPLETE',method=a.method,route=a.route,prescribed_steps=a.steps,
+                      batch_size=a.batch_size,completed_optimizer_steps=a.steps,sample_positions=a.steps*a.batch_size,
+                      original_checkpoint=a.checkpoint,sample_trace_sha256=metadata['sample_trace_sha256'])
+        if all(previous.get(key)==value for key,value in expected.items()):
+            saved=list((out/'runs').rglob(f'step-{a.steps:06d}-*'))
+            if a.route=='lora':saved=[q for q in saved if q.is_dir() and (q/'adapter_config.json').exists()
+                                     and (q/'adapter_model.safetensors').exists() and (q/'optimizer.pt').exists()]
+            else:saved=[q for q in saved if q.suffix=='.pt']
+            if len(saved)==1:
+                print('Reusing exact completed training job:',out,flush=True);return
+        raise FileExistsError(out)
     out.mkdir(parents=True,exist_ok=True);sys.path[:0]=[str(source),str(source/'policy')]
     import torch
     import tensorflow as tf

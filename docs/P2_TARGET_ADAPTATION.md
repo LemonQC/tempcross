@@ -1,6 +1,6 @@
 # P2-C 目标适配实际状态（进行中）
 
-最新指令已授权训练。必要数据已实际下载并校验，匹配样本已生成；正在等待正式策略评估释放 GPU，尚未执行优化器 step。不能把等待中的模型记成 0% 成功率。
+最新指令已授权训练。必要数据已实际下载并校验，匹配样本已生成。全参数 batch=1 的真实训练尝试触发 CUDA OOM：峰值分配 23,224,258,560 bytes，完成优化器更新 0 步。上游 LoRA 的真实 forward/backward/optimizer probe 通过。No Reps 的受限 LoRA 已完成 3000 步（batch=2，6000 样本位置），用时约 609 秒，峰值分配 6,687,184,896 bytes；末步 adapter 合并后的独立评测为 **2/20（10%）**。相对原始 No Reps，救回条件 34、37，破坏条件 35，净增加 1 次成功。Joint Reps 正在使用同样更新数与样本暴露量训练；不能把其未结束的评测记成 0%。
 
 官方 Panda target_50/PnP 为两个方向各 50 条、共 100 条，人类遥操作仿真示范。原始元数据确认 PandaOmron + Robotiq85Gripper、第三人称 `robot0_agentview_left` 训练相机；评估保持官方固定 `barx_panda_agentview`。两者是官方数据/评估配置，不是新增 Eye-in-Hand。数据版本、文件大小及校验值见 [下载清单](../evidence/p2/execution_2145/data_manifest.json)。传输恢复使用公开镜像，原 revision、LFS SHA256 和实际内容不变。
 
@@ -10,6 +10,6 @@
 
 两种方法将读取同一份官方源/目标混合样本序列：共 6000 个样本位置，其中源 2932、目标 3068。原 mixture 权重 0.05:1.0 按 transitions 再平衡；沿用源归一化统计与源 VQ，夹爪符号沿用官方转换。固定序列 SHA256 为 `88b7af02fd345baa1765b702d09d69eadd025e0ffef0d904f36d70afe5b8a62c`。[匹配样本记录](../evidence/p2/execution_2145/matched_samples.json)
 
-预定先做真实 full-parameter forward/backward/optimizer step 和显存测试；必要时使用已有 upstream LoRA。最终预算两模型均为 6000 个相同样本位置，选择固定末步 checkpoint，不根据测试结果选模型。这是受限单卡适配，**不等价于官方 global batch 256 的训练暴露量**。受限适配失败不能排除充分标准适配。
+实际采用已有 upstream LoRA：rank 32、alpha 16、dropout 0，AdamW、固定学习率 2e-5、weight decay 0、BF16，单卡 batch=2、3000 步。两模型均为 6000 个相同样本位置，选择固定末步 checkpoint，不根据测试结果选模型。匹配的是更新数和样本暴露量；Joint Reps 的辅助 token 会增加算量，并非严格匹配 FLOPs 或 GPU 秒数。这是受限单卡适配，**不等价于官方 global batch 256 的训练暴露量**。受限适配失败不能排除充分标准适配。
 
 实际脚本：`p2_validation/prepare_training.py`、`train_adapter.py`、`train_suite.py`、`merge_adapter.py`。日志保留 `/home/users/lemon/coft-p2/p2/physical-20261108/`；实际训练步数、显存和独立 rollout 将在完成后据日志更新。

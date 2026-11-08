@@ -1,0 +1,60 @@
+{
+  "scripts": [
+    {
+      "file": "controls.py",
+      "initial_sha256": "ee248294953dfe51a54cf351acef1f255920817c0b979dbeeb94bc378932de74",
+      "final_sha256": "ee248294953dfe51a54cf351acef1f255920817c0b979dbeeb94bc378932de74",
+      "changed": false
+    },
+    {
+      "file": "run_policy.py",
+      "initial_sha256": "da12567cb6aa7da7058ff95a8af0006db9b9f2a1515cc303c006ba10b3397e23",
+      "final_sha256": "da12567cb6aa7da7058ff95a8af0006db9b9f2a1515cc303c006ba10b3397e23",
+      "changed": false
+    },
+    {
+      "file": "execute.py",
+      "initial_sha256": "9cc4db541a38bc42fa6781dd31174f9790d29c2e7a59c54b649f803e4b2085dc",
+      "final_sha256": "9cc4db541a38bc42fa6781dd31174f9790d29c2e7a59c54b649f803e4b2085dc",
+      "changed": false
+    },
+    {
+      "file": "replay_intervention.py",
+      "initial_sha256": "c52fff1bfbf5086c66c02419a25ea05331954b24966b3021699f54c5d41435f9",
+      "final_sha256": "55846a8a3517581134e0d888f3ab46bca103bb57fea9636db267d095f0346a72",
+      "changed": true
+    },
+    {
+      "file": "prepare_training.py",
+      "initial_sha256": "92c01a6cb7db104b2f28bf77ce46e2185764e40f86a515167fa840d4ee5b163d",
+      "final_sha256": "7226335a2100a06bddd8de99e3477a4ed9155c5ee709b2a310d642ad688cd611",
+      "changed": true
+    },
+    {
+      "file": "train_adapter.py",
+      "initial_sha256": "9cbc8d59e839aacec5100749bb73a329971276627804569c3e33d267addb2702",
+      "final_sha256": "8c4b74cd0484b284f7931d755093eb23e23cc7f03a6e47ecae83e538d06878c9",
+      "changed": true
+    },
+    {
+      "file": "train_suite.py",
+      "initial_sha256": "22aa03e84c440961a03bdb6f2cc49be421a2aeb5eda3c7d1e6d943b96d86dfe2",
+      "final_sha256": "22aa03e84c440961a03bdb6f2cc49be421a2aeb5eda3c7d1e6d943b96d86dfe2",
+      "changed": false
+    },
+    {
+      "file": "merge_adapter.py",
+      "initial_sha256": "5f9c928b9a9a5712a5acd38b81b4f979c74f568584454fb37cca9167211e6564",
+      "final_sha256": "5f9c928b9a9a5712a5acd38b81b4f979c74f568584454fb37cca9167211e6564",
+      "changed": false
+    }
+  ],
+  "experimental_rules_changed_after_formal_outcomes": false,
+  "notes": [
+    "Rule file frozen before formal launch; script hash snapshot captured 20 seconds after first process launch, during model loading.",
+    "Post-snapshot B2 v3 adds full state/action telemetry to the same probes.",
+    "Training cache preparation limits TensorFlow CPU threads; no change to sample/window/mixture settings.",
+    "Training adapter adds exact completed-job reuse to support overlapping Joint training and No Reps evaluation; no additional updates.",
+    "Matched budgets mean samples and optimizer updates, not exact token FLOPs or GPU seconds."
+  ]
+}

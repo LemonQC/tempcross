@@ -1,5 +1,37 @@
 {
-  "status": "WAITING_FOR_POLICY_GPU_RELEASE",
-  "completed_models": [],
-  "errors": []
+  "status": "TRAINING_RESTRICTED_ADAPTATIONS",
+  "completed_models": [
+    {
+      "method": "no_reps",
+      "steps": 3000,
+      "sample_positions": 6000,
+      "checkpoint": "/home/users/lemon/coft-p2/p2/physical-20261108/adapted-checkpoints/no_reps/checkpoints/step-003000-epoch-00-loss=restricted.pt"
+    }
+  ],
+  "errors": [],
+  "full_probe": {
+    "status": "FAILED",
+    "method": "joint_reps",
+    "route": "full",
+    "prescribed_steps": 1,
+    "batch_size": 1,
+    "completed_optimizer_steps": 0,
+    "sample_positions": 0,
+    "sample_trace_sha256": "88b7af02fd345baa1765b702d09d69eadd025e0ffef0d904f36d70afe5b8a62c",
+    "dataset_counts_full_sequence": {
+      "panda_pnp": 3068,
+      "mg_pnp_lite": 2932
+    },
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "original_checkpoint": "/home/users/lemon/coft-p2/artifacts/runs/joint_reps/checkpoints/step-050000-epoch-15-loss=0.2577.pt",
+    "official_source_unmodified": true,
+    "equivalence": "RESTRICTED_SINGLE_GPU_NOT_OFFICIAL_GLOBAL_BATCH_256",
+    "single_rank_fsdp": "NO_SHARD",
+    "elapsed_seconds": 11.288568235002458,
+    "peak_gpu_allocated_bytes": 23224258560,
+    "peak_gpu_reserved_bytes": 24259854336,
+    "error": "OutOfMemoryError('CUDA out of memory. Tried to allocate 520.00 MiB. GPU 0 has a total capacity of 23.68 GiB of which 259.06 MiB is free. Including non-PyTorch memory, this process has 22.84 GiB memory in use. Of the allocated memory 21.63 GiB is allocated by PyTorch, and 767.62 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)')",
+    "is_cuda_oom": true
+  },
+  "route": "lora"
 }
