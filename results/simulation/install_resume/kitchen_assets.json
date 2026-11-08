@@ -1,0 +1,34 @@
+[
+  {
+    "name": "textures",
+    "archive": "/home/users/lemon/coft-p2/artifacts/kitchen-archives/textures.zip",
+    "installed_path": "/home/users/lemon/coft-p2/barx/robocasa_x/robocasa/models/assets/textures",
+    "sha256": "d36bf23cec4ce33c83eb59dfd34faeb13d8f45f9844866a654569659fc9be23d",
+    "size_bytes": 538397915,
+    "status": "INSTALLED_VERIFIED_ARCHIVE"
+  },
+  {
+    "name": "fixtures",
+    "archive": "/home/users/lemon/coft-p2/artifacts/kitchen-archives/fixtures.zip",
+    "installed_path": "/home/users/lemon/coft-p2/barx/robocasa_x/robocasa/models/assets/fixtures",
+    "sha256": "27905b494e7bf12826a8d67c167c73d95eade467841f5d2ddbdd87efc15b4c5a",
+    "size_bytes": 472441720,
+    "status": "INSTALLED_VERIFIED_ARCHIVE"
+  },
+  {
+    "name": "objaverse",
+    "archive": "/home/users/lemon/coft-p2/artifacts/kitchen-archives/objaverse.zip",
+    "installed_path": "/home/users/lemon/coft-p2/barx/robocasa_x/robocasa/models/assets/objects/objaverse",
+    "sha256": "519f989588c7e67f818ee823e1abeb7e08a34d9ec4977395a712dc8ce80c284c",
+    "size_bytes": 2115607481,
+    "status": "INSTALLED_VERIFIED_ARCHIVE"
+  },
+  {
+    "name": "generative_textures",
+    "archive": "/home/users/lemon/coft-p2/artifacts/kitchen-archives/generative_textures.zip",
+    "installed_path": "/home/users/lemon/coft-p2/barx/robocasa_x/robocasa/models/assets/generative_textures",
+    "sha256": "a90d8ce74511120b19c859b326e3263e86be0a32eab10d6877e8a002d1b98c3d",
+    "size_bytes": 593204309,
+    "status": "INSTALLED_VERIFIED_ARCHIVE"
+  }
+]

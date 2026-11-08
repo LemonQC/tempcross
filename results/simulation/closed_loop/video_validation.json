@@ -1,0 +1,990 @@
+{
+  "videos": 82,
+  "all_verified": true,
+  "records": [
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p0/joint_reps/panda/official/2026_11_07-22_13_54--episode=1--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p0/joint_reps/panda/official/episodes.jsonl",
+      "episode": 0,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p0/joint_reps/ur5e/official/2026_11_07-22_12_49--episode=1--success=True--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p0/joint_reps/ur5e/official/episodes.jsonl",
+      "episode": 0,
+      "expected_frames": 470,
+      "decoded_frames": 470,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/panda/official/2026_11_07-22_55_23--episode=1--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/panda/official/episodes.jsonl",
+      "episode": 0,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/panda/official/2026_11_07-22_55_23--episode=2--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/panda/official/episodes.jsonl",
+      "episode": 1,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/panda/official/2026_11_07-22_55_23--episode=3--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/panda/official/episodes.jsonl",
+      "episode": 2,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/panda/official/2026_11_07-22_55_23--episode=4--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/panda/official/episodes.jsonl",
+      "episode": 3,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/panda/official/2026_11_07-22_55_23--episode=5--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/panda/official/episodes.jsonl",
+      "episode": 4,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/panda/official/2026_11_07-22_55_23--episode=6--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/panda/official/episodes.jsonl",
+      "episode": 5,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/panda/official/2026_11_07-22_55_23--episode=7--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/panda/official/episodes.jsonl",
+      "episode": 6,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/panda/official/2026_11_07-22_55_23--episode=8--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/panda/official/episodes.jsonl",
+      "episode": 7,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/panda/official/2026_11_07-22_55_23--episode=9--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/panda/official/episodes.jsonl",
+      "episode": 8,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/panda/official/2026_11_07-22_55_23--episode=10--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/panda/official/episodes.jsonl",
+      "episode": 9,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/panda/official/2026_11_07-22_55_23--episode=11--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/panda/official/episodes.jsonl",
+      "episode": 10,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/panda/official/2026_11_07-22_55_23--episode=12--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/panda/official/episodes.jsonl",
+      "episode": 11,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/panda/official/2026_11_07-22_55_23--episode=13--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/panda/official/episodes.jsonl",
+      "episode": 12,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/panda/official/2026_11_07-22_55_23--episode=14--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/panda/official/episodes.jsonl",
+      "episode": 13,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/panda/official/2026_11_07-22_55_23--episode=15--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/panda/official/episodes.jsonl",
+      "episode": 14,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/panda/official/2026_11_07-22_55_23--episode=16--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/panda/official/episodes.jsonl",
+      "episode": 15,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/panda/official/2026_11_07-22_55_23--episode=17--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/panda/official/episodes.jsonl",
+      "episode": 16,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/panda/official/2026_11_07-22_55_23--episode=18--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/panda/official/episodes.jsonl",
+      "episode": 17,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/panda/official/2026_11_07-22_55_23--episode=19--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/panda/official/episodes.jsonl",
+      "episode": 18,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/panda/official/2026_11_07-22_55_23--episode=20--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/panda/official/episodes.jsonl",
+      "episode": 19,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/ur5e/official/2026_11_07-22_43_24--episode=1--success=True--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/ur5e/official/episodes.jsonl",
+      "episode": 0,
+      "expected_frames": 470,
+      "decoded_frames": 470,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/ur5e/official/2026_11_07-22_43_24--episode=2--success=True--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/ur5e/official/episodes.jsonl",
+      "episode": 1,
+      "expected_frames": 381,
+      "decoded_frames": 381,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/ur5e/official/2026_11_07-22_43_24--episode=3--success=True--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/ur5e/official/episodes.jsonl",
+      "episode": 2,
+      "expected_frames": 426,
+      "decoded_frames": 426,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/ur5e/official/2026_11_07-22_43_24--episode=4--success=True--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/ur5e/official/episodes.jsonl",
+      "episode": 3,
+      "expected_frames": 293,
+      "decoded_frames": 293,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/ur5e/official/2026_11_07-22_43_24--episode=5--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/ur5e/official/episodes.jsonl",
+      "episode": 4,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/ur5e/official/2026_11_07-22_43_24--episode=6--success=True--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/ur5e/official/episodes.jsonl",
+      "episode": 5,
+      "expected_frames": 318,
+      "decoded_frames": 318,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/ur5e/official/2026_11_07-22_43_24--episode=7--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/ur5e/official/episodes.jsonl",
+      "episode": 6,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/ur5e/official/2026_11_07-22_43_24--episode=8--success=True--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/ur5e/official/episodes.jsonl",
+      "episode": 7,
+      "expected_frames": 454,
+      "decoded_frames": 454,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/ur5e/official/2026_11_07-22_43_24--episode=9--success=True--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/ur5e/official/episodes.jsonl",
+      "episode": 8,
+      "expected_frames": 448,
+      "decoded_frames": 448,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/ur5e/official/2026_11_07-22_43_24--episode=10--success=True--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/ur5e/official/episodes.jsonl",
+      "episode": 9,
+      "expected_frames": 437,
+      "decoded_frames": 437,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/ur5e/official/2026_11_07-22_43_24--episode=11--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/ur5e/official/episodes.jsonl",
+      "episode": 10,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/ur5e/official/2026_11_07-22_43_24--episode=12--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/ur5e/official/episodes.jsonl",
+      "episode": 11,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/ur5e/official/2026_11_07-22_43_24--episode=13--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/ur5e/official/episodes.jsonl",
+      "episode": 12,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/ur5e/official/2026_11_07-22_43_24--episode=14--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/ur5e/official/episodes.jsonl",
+      "episode": 13,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/ur5e/official/2026_11_07-22_43_24--episode=15--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/ur5e/official/episodes.jsonl",
+      "episode": 14,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/ur5e/official/2026_11_07-22_43_24--episode=16--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/ur5e/official/episodes.jsonl",
+      "episode": 15,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/ur5e/official/2026_11_07-22_43_24--episode=17--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/ur5e/official/episodes.jsonl",
+      "episode": 16,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/ur5e/official/2026_11_07-22_43_24--episode=18--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/ur5e/official/episodes.jsonl",
+      "episode": 17,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/ur5e/official/2026_11_07-22_43_24--episode=19--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/ur5e/official/episodes.jsonl",
+      "episode": 18,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/ur5e/official/2026_11_07-22_43_24--episode=20--success=True--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/ur5e/official/episodes.jsonl",
+      "episode": 19,
+      "expected_frames": 419,
+      "decoded_frames": 419,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/panda/official/2026_11_07-22_30_04--episode=1--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/panda/official/episodes.jsonl",
+      "episode": 0,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/panda/official/2026_11_07-22_30_04--episode=2--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/panda/official/episodes.jsonl",
+      "episode": 1,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/panda/official/2026_11_07-22_30_04--episode=3--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/panda/official/episodes.jsonl",
+      "episode": 2,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/panda/official/2026_11_07-22_30_04--episode=4--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/panda/official/episodes.jsonl",
+      "episode": 3,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/panda/official/2026_11_07-22_30_04--episode=5--success=True--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/panda/official/episodes.jsonl",
+      "episode": 4,
+      "expected_frames": 389,
+      "decoded_frames": 389,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/panda/official/2026_11_07-22_30_04--episode=6--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/panda/official/episodes.jsonl",
+      "episode": 5,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/panda/official/2026_11_07-22_30_04--episode=7--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/panda/official/episodes.jsonl",
+      "episode": 6,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/panda/official/2026_11_07-22_30_04--episode=8--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/panda/official/episodes.jsonl",
+      "episode": 7,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/panda/official/2026_11_07-22_30_04--episode=9--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/panda/official/episodes.jsonl",
+      "episode": 8,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/panda/official/2026_11_07-22_30_04--episode=10--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/panda/official/episodes.jsonl",
+      "episode": 9,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/panda/official/2026_11_07-22_30_04--episode=11--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/panda/official/episodes.jsonl",
+      "episode": 10,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/panda/official/2026_11_07-22_30_04--episode=12--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/panda/official/episodes.jsonl",
+      "episode": 11,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/panda/official/2026_11_07-22_30_04--episode=13--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/panda/official/episodes.jsonl",
+      "episode": 12,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/panda/official/2026_11_07-22_30_04--episode=14--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/panda/official/episodes.jsonl",
+      "episode": 13,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/panda/official/2026_11_07-22_30_04--episode=15--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/panda/official/episodes.jsonl",
+      "episode": 14,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/panda/official/2026_11_07-22_30_04--episode=16--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/panda/official/episodes.jsonl",
+      "episode": 15,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/panda/official/2026_11_07-22_30_04--episode=17--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/panda/official/episodes.jsonl",
+      "episode": 16,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/panda/official/2026_11_07-22_30_04--episode=18--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/panda/official/episodes.jsonl",
+      "episode": 17,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/panda/official/2026_11_07-22_30_04--episode=19--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/panda/official/episodes.jsonl",
+      "episode": 18,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/panda/official/2026_11_07-22_30_04--episode=20--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/panda/official/episodes.jsonl",
+      "episode": 19,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/ur5e/official/2026_11_07-22_17_21--episode=1--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/ur5e/official/episodes.jsonl",
+      "episode": 0,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/ur5e/official/2026_11_07-22_17_21--episode=2--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/ur5e/official/episodes.jsonl",
+      "episode": 1,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/ur5e/official/2026_11_07-22_17_21--episode=3--success=True--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/ur5e/official/episodes.jsonl",
+      "episode": 2,
+      "expected_frames": 343,
+      "decoded_frames": 343,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/ur5e/official/2026_11_07-22_17_21--episode=4--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/ur5e/official/episodes.jsonl",
+      "episode": 3,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/ur5e/official/2026_11_07-22_17_21--episode=5--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/ur5e/official/episodes.jsonl",
+      "episode": 4,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/ur5e/official/2026_11_07-22_17_21--episode=6--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/ur5e/official/episodes.jsonl",
+      "episode": 5,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/ur5e/official/2026_11_07-22_17_21--episode=7--success=True--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/ur5e/official/episodes.jsonl",
+      "episode": 6,
+      "expected_frames": 411,
+      "decoded_frames": 411,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/ur5e/official/2026_11_07-22_17_21--episode=8--success=True--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/ur5e/official/episodes.jsonl",
+      "episode": 7,
+      "expected_frames": 563,
+      "decoded_frames": 563,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/ur5e/official/2026_11_07-22_17_21--episode=9--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/ur5e/official/episodes.jsonl",
+      "episode": 8,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/ur5e/official/2026_11_07-22_17_21--episode=10--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/ur5e/official/episodes.jsonl",
+      "episode": 9,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/ur5e/official/2026_11_07-22_17_21--episode=11--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/ur5e/official/episodes.jsonl",
+      "episode": 10,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/ur5e/official/2026_11_07-22_17_21--episode=12--success=True--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/ur5e/official/episodes.jsonl",
+      "episode": 11,
+      "expected_frames": 521,
+      "decoded_frames": 521,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/ur5e/official/2026_11_07-22_17_21--episode=13--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/ur5e/official/episodes.jsonl",
+      "episode": 12,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/ur5e/official/2026_11_07-22_17_21--episode=14--success=True--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/ur5e/official/episodes.jsonl",
+      "episode": 13,
+      "expected_frames": 446,
+      "decoded_frames": 446,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/ur5e/official/2026_11_07-22_17_21--episode=15--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/ur5e/official/episodes.jsonl",
+      "episode": 14,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/ur5e/official/2026_11_07-22_17_21--episode=16--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/ur5e/official/episodes.jsonl",
+      "episode": 15,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/ur5e/official/2026_11_07-22_17_21--episode=17--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/ur5e/official/episodes.jsonl",
+      "episode": 16,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/ur5e/official/2026_11_07-22_17_21--episode=18--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/ur5e/official/episodes.jsonl",
+      "episode": 17,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/ur5e/official/2026_11_07-22_17_21--episode=19--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/ur5e/official/episodes.jsonl",
+      "episode": 18,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/ur5e/official/2026_11_07-22_17_21--episode=20--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/ur5e/official/episodes.jsonl",
+      "episode": 19,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true
+    }
+  ]
+}

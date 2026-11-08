@@ -1,0 +1,149 @@
+{
+  "status": "P1_COMPLETE",
+  "started_at": "2026-11-08T03:12:34.593819+00:00",
+  "commands": [
+    {
+      "command": [
+        "/home/users/lemon/coft-p2/barx/.venv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "log": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/official_tests.log",
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "/home/users/lemon/coft-p2/barx/.venv/bin/python",
+        "-m",
+        "simulation_validation.run_official",
+        "--source",
+        "/home/users/lemon/coft-p2/barx",
+        "--checkpoint",
+        "/home/users/lemon/coft-p2/artifacts/runs/joint_reps/checkpoints/step-050000-epoch-15-loss=0.2577.pt",
+        "--embodiment",
+        "ur5e",
+        "--episodes",
+        "1",
+        "--out",
+        "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p0/joint_reps/ur5e"
+      ],
+      "log": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p0/joint_reps/ur5e/console.log",
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "/home/users/lemon/coft-p2/barx/.venv/bin/python",
+        "-m",
+        "simulation_validation.run_official",
+        "--source",
+        "/home/users/lemon/coft-p2/barx",
+        "--checkpoint",
+        "/home/users/lemon/coft-p2/artifacts/runs/joint_reps/checkpoints/step-050000-epoch-15-loss=0.2577.pt",
+        "--embodiment",
+        "panda",
+        "--episodes",
+        "1",
+        "--out",
+        "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p0/joint_reps/panda"
+      ],
+      "log": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p0/joint_reps/panda/console.log",
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "/home/users/lemon/coft-p2/barx/.venv/bin/python",
+        "-m",
+        "simulation_validation.download_inference",
+        "--source",
+        "/home/users/lemon/coft-p2/barx",
+        "--root",
+        "/home/users/lemon/coft-p2/artifacts",
+        "--skip-joint",
+        "--include-no-reps"
+      ],
+      "log": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/no_reps_download.log",
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "/home/users/lemon/coft-p2/barx/.venv/bin/python",
+        "-m",
+        "simulation_validation.run_official",
+        "--source",
+        "/home/users/lemon/coft-p2/barx",
+        "--checkpoint",
+        "/home/users/lemon/coft-p2/artifacts/runs/no_reps/checkpoints/step-050000-epoch-15-loss=0.8424.pt",
+        "--embodiment",
+        "ur5e",
+        "--episodes",
+        "20",
+        "--out",
+        "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/ur5e"
+      ],
+      "log": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/ur5e/console.log",
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "/home/users/lemon/coft-p2/barx/.venv/bin/python",
+        "-m",
+        "simulation_validation.run_official",
+        "--source",
+        "/home/users/lemon/coft-p2/barx",
+        "--checkpoint",
+        "/home/users/lemon/coft-p2/artifacts/runs/no_reps/checkpoints/step-050000-epoch-15-loss=0.8424.pt",
+        "--embodiment",
+        "panda",
+        "--episodes",
+        "20",
+        "--out",
+        "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/panda"
+      ],
+      "log": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/panda/console.log",
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "/home/users/lemon/coft-p2/barx/.venv/bin/python",
+        "-m",
+        "simulation_validation.run_official",
+        "--source",
+        "/home/users/lemon/coft-p2/barx",
+        "--checkpoint",
+        "/home/users/lemon/coft-p2/artifacts/runs/joint_reps/checkpoints/step-050000-epoch-15-loss=0.2577.pt",
+        "--embodiment",
+        "ur5e",
+        "--episodes",
+        "20",
+        "--out",
+        "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/ur5e"
+      ],
+      "log": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/ur5e/console.log",
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "/home/users/lemon/coft-p2/barx/.venv/bin/python",
+        "-m",
+        "simulation_validation.run_official",
+        "--source",
+        "/home/users/lemon/coft-p2/barx",
+        "--checkpoint",
+        "/home/users/lemon/coft-p2/artifacts/runs/joint_reps/checkpoints/step-050000-epoch-15-loss=0.2577.pt",
+        "--embodiment",
+        "panda",
+        "--episodes",
+        "20",
+        "--out",
+        "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/panda"
+      ],
+      "log": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/panda/console.log",
+      "exit_code": 0
+    }
+  ],
+  "p1_started": true
+}

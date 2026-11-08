@@ -36,4 +36,11 @@ def main():
         (repo/'refs/main').write_text(item['revision'])
     if a.include_no_reps:
         snapshot_download('ajaysri/barx-no-reps-xp900-pnp-pretrain',revision=NO_REPS_REV,local_dir=root/'runs/no_reps',allow_patterns=['config.json','dataset_statistics.json','checkpoints/step-050000-epoch-15-loss=0.8424.pt'],token=False,max_workers=2)
+        # LFS SHA256/size checked against the pinned repository metadata during P2.
+        path=root/'runs/no_reps/checkpoints/step-050000-epoch-15-loss=0.8424.pt'
+        assert path.stat().st_size==5554882540
+        digest=hashlib.sha256()
+        with path.open('rb') as stream:
+            for block in iter(lambda:stream.read(4*1024*1024),b''):digest.update(block)
+        assert digest.hexdigest()=='ccbd2099903ba7c307b9c47586634754ce34b6269b8577e0040ca0a2f3ca8df3'
 if __name__=='__main__':main()

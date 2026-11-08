@@ -1,0 +1,416 @@
+{
+  "root": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume",
+  "count": 82,
+  "videos": [
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p0/joint_reps/panda/official/2026_11_07-22_13_54--episode=1--success=False--task=xpnpcountertosink.mp4",
+      "bytes": 226045,
+      "review_status": "SAMPLED_FRAMES_AND_STATE_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p0/joint_reps/ur5e/official/2026_11_07-22_12_49--episode=1--success=True--task=xpnpcountertosink.mp4",
+      "bytes": 188061,
+      "review_status": "SAMPLED_FRAMES_AND_STATE_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/panda/official/2026_11_07-22_55_23--episode=1--success=False--task=xpnpcountertosink.mp4",
+      "bytes": 226045,
+      "review_status": "SAMPLED_FRAMES_AND_STATE_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/panda/official/2026_11_07-22_55_23--episode=10--success=False--task=xpnpcountertosink.mp4",
+      "bytes": 205853,
+      "review_status": "SAMPLED_FRAMES_AND_STATE_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/panda/official/2026_11_07-22_55_23--episode=11--success=False--task=xpnpcountertosink.mp4",
+      "bytes": 211603,
+      "review_status": "SAMPLED_FRAMES_AND_STATE_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/panda/official/2026_11_07-22_55_23--episode=12--success=False--task=xpnpcountertosink.mp4",
+      "bytes": 247211,
+      "review_status": "SAMPLED_FRAMES_AND_STATE_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/panda/official/2026_11_07-22_55_23--episode=13--success=False--task=xpnpcountertosink.mp4",
+      "bytes": 249163,
+      "review_status": "SAMPLED_FRAMES_AND_STATE_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/panda/official/2026_11_07-22_55_23--episode=14--success=False--task=xpnpcountertosink.mp4",
+      "bytes": 240964,
+      "review_status": "SAMPLED_FRAMES_AND_STATE_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/panda/official/2026_11_07-22_55_23--episode=15--success=False--task=xpnpcountertosink.mp4",
+      "bytes": 301592,
+      "review_status": "SAMPLED_FRAMES_AND_STATE_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/panda/official/2026_11_07-22_55_23--episode=16--success=False--task=xpnpcountertosink.mp4",
+      "bytes": 184360,
+      "review_status": "SAMPLED_FRAMES_AND_STATE_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/panda/official/2026_11_07-22_55_23--episode=17--success=False--task=xpnpcountertosink.mp4",
+      "bytes": 202595,
+      "review_status": "SAMPLED_FRAMES_AND_STATE_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/panda/official/2026_11_07-22_55_23--episode=18--success=False--task=xpnpcountertosink.mp4",
+      "bytes": 180247,
+      "review_status": "SAMPLED_FRAMES_AND_STATE_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/panda/official/2026_11_07-22_55_23--episode=19--success=False--task=xpnpcountertosink.mp4",
+      "bytes": 253574,
+      "review_status": "SAMPLED_FRAMES_AND_STATE_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/panda/official/2026_11_07-22_55_23--episode=2--success=False--task=xpnpcountertosink.mp4",
+      "bytes": 206948,
+      "review_status": "SAMPLED_FRAMES_AND_STATE_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/panda/official/2026_11_07-22_55_23--episode=20--success=False--task=xpnpcountertosink.mp4",
+      "bytes": 195274,
+      "review_status": "SAMPLED_FRAMES_AND_STATE_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/panda/official/2026_11_07-22_55_23--episode=3--success=False--task=xpnpcountertosink.mp4",
+      "bytes": 281774,
+      "review_status": "SAMPLED_FRAMES_AND_STATE_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/panda/official/2026_11_07-22_55_23--episode=4--success=False--task=xpnpcountertosink.mp4",
+      "bytes": 187376,
+      "review_status": "SAMPLED_FRAMES_AND_STATE_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/panda/official/2026_11_07-22_55_23--episode=5--success=False--task=xpnpcountertosink.mp4",
+      "bytes": 241587,
+      "review_status": "SAMPLED_FRAMES_AND_STATE_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/panda/official/2026_11_07-22_55_23--episode=6--success=False--task=xpnpcountertosink.mp4",
+      "bytes": 245399,
+      "review_status": "SAMPLED_FRAMES_AND_STATE_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/panda/official/2026_11_07-22_55_23--episode=7--success=False--task=xpnpcountertosink.mp4",
+      "bytes": 209211,
+      "review_status": "SAMPLED_FRAMES_AND_STATE_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/panda/official/2026_11_07-22_55_23--episode=8--success=False--task=xpnpcountertosink.mp4",
+      "bytes": 170958,
+      "review_status": "SAMPLED_FRAMES_AND_STATE_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/panda/official/2026_11_07-22_55_23--episode=9--success=False--task=xpnpcountertosink.mp4",
+      "bytes": 191780,
+      "review_status": "SAMPLED_FRAMES_AND_STATE_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/ur5e/official/2026_11_07-22_43_24--episode=1--success=True--task=xpnpcountertosink.mp4",
+      "bytes": 188061,
+      "review_status": "NOT_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/ur5e/official/2026_11_07-22_43_24--episode=10--success=True--task=xpnpcountertosink.mp4",
+      "bytes": 180623,
+      "review_status": "NOT_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/ur5e/official/2026_11_07-22_43_24--episode=11--success=False--task=xpnpcountertosink.mp4",
+      "bytes": 188795,
+      "review_status": "SAMPLED_FRAMES_AND_STATE_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/ur5e/official/2026_11_07-22_43_24--episode=12--success=False--task=xpnpcountertosink.mp4",
+      "bytes": 221944,
+      "review_status": "SAMPLED_FRAMES_AND_STATE_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/ur5e/official/2026_11_07-22_43_24--episode=13--success=False--task=xpnpcountertosink.mp4",
+      "bytes": 241552,
+      "review_status": "SAMPLED_FRAMES_AND_STATE_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/ur5e/official/2026_11_07-22_43_24--episode=14--success=False--task=xpnpcountertosink.mp4",
+      "bytes": 216829,
+      "review_status": "SAMPLED_FRAMES_AND_STATE_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/ur5e/official/2026_11_07-22_43_24--episode=15--success=False--task=xpnpcountertosink.mp4",
+      "bytes": 273247,
+      "review_status": "SAMPLED_FRAMES_AND_STATE_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/ur5e/official/2026_11_07-22_43_24--episode=16--success=False--task=xpnpcountertosink.mp4",
+      "bytes": 235450,
+      "review_status": "SAMPLED_FRAMES_AND_STATE_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/ur5e/official/2026_11_07-22_43_24--episode=17--success=False--task=xpnpcountertosink.mp4",
+      "bytes": 207241,
+      "review_status": "SAMPLED_FRAMES_AND_STATE_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/ur5e/official/2026_11_07-22_43_24--episode=18--success=False--task=xpnpcountertosink.mp4",
+      "bytes": 228900,
+      "review_status": "SAMPLED_FRAMES_AND_STATE_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/ur5e/official/2026_11_07-22_43_24--episode=19--success=False--task=xpnpcountertosink.mp4",
+      "bytes": 293303,
+      "review_status": "SAMPLED_FRAMES_AND_STATE_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/ur5e/official/2026_11_07-22_43_24--episode=2--success=True--task=xpnpcountertosink.mp4",
+      "bytes": 142285,
+      "review_status": "NOT_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/ur5e/official/2026_11_07-22_43_24--episode=20--success=True--task=xpnpcountertosink.mp4",
+      "bytes": 191999,
+      "review_status": "NOT_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/ur5e/official/2026_11_07-22_43_24--episode=3--success=True--task=xpnpcountertosink.mp4",
+      "bytes": 205498,
+      "review_status": "NOT_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/ur5e/official/2026_11_07-22_43_24--episode=4--success=True--task=xpnpcountertosink.mp4",
+      "bytes": 137426,
+      "review_status": "NOT_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/ur5e/official/2026_11_07-22_43_24--episode=5--success=False--task=xpnpcountertosink.mp4",
+      "bytes": 224674,
+      "review_status": "SAMPLED_FRAMES_AND_STATE_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/ur5e/official/2026_11_07-22_43_24--episode=6--success=True--task=xpnpcountertosink.mp4",
+      "bytes": 153693,
+      "review_status": "NOT_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/ur5e/official/2026_11_07-22_43_24--episode=7--success=False--task=xpnpcountertosink.mp4",
+      "bytes": 238328,
+      "review_status": "SAMPLED_FRAMES_AND_STATE_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/ur5e/official/2026_11_07-22_43_24--episode=8--success=True--task=xpnpcountertosink.mp4",
+      "bytes": 181073,
+      "review_status": "NOT_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/joint_reps/ur5e/official/2026_11_07-22_43_24--episode=9--success=True--task=xpnpcountertosink.mp4",
+      "bytes": 199907,
+      "review_status": "NOT_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/panda/official/2026_11_07-22_30_04--episode=1--success=False--task=xpnpcountertosink.mp4",
+      "bytes": 221289,
+      "review_status": "SAMPLED_FRAMES_AND_STATE_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/panda/official/2026_11_07-22_30_04--episode=10--success=False--task=xpnpcountertosink.mp4",
+      "bytes": 183187,
+      "review_status": "SAMPLED_FRAMES_AND_STATE_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/panda/official/2026_11_07-22_30_04--episode=11--success=False--task=xpnpcountertosink.mp4",
+      "bytes": 249307,
+      "review_status": "SAMPLED_FRAMES_AND_STATE_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/panda/official/2026_11_07-22_30_04--episode=12--success=False--task=xpnpcountertosink.mp4",
+      "bytes": 209777,
+      "review_status": "SAMPLED_FRAMES_AND_STATE_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/panda/official/2026_11_07-22_30_04--episode=13--success=False--task=xpnpcountertosink.mp4",
+      "bytes": 277338,
+      "review_status": "SAMPLED_FRAMES_AND_STATE_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/panda/official/2026_11_07-22_30_04--episode=14--success=False--task=xpnpcountertosink.mp4",
+      "bytes": 237639,
+      "review_status": "SAMPLED_FRAMES_AND_STATE_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/panda/official/2026_11_07-22_30_04--episode=15--success=False--task=xpnpcountertosink.mp4",
+      "bytes": 300495,
+      "review_status": "SAMPLED_FRAMES_AND_STATE_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/panda/official/2026_11_07-22_30_04--episode=16--success=False--task=xpnpcountertosink.mp4",
+      "bytes": 212309,
+      "review_status": "SAMPLED_FRAMES_AND_STATE_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/panda/official/2026_11_07-22_30_04--episode=17--success=False--task=xpnpcountertosink.mp4",
+      "bytes": 192574,
+      "review_status": "SAMPLED_FRAMES_AND_STATE_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/panda/official/2026_11_07-22_30_04--episode=18--success=False--task=xpnpcountertosink.mp4",
+      "bytes": 197507,
+      "review_status": "SAMPLED_FRAMES_AND_STATE_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/panda/official/2026_11_07-22_30_04--episode=19--success=False--task=xpnpcountertosink.mp4",
+      "bytes": 252365,
+      "review_status": "SAMPLED_FRAMES_AND_STATE_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/panda/official/2026_11_07-22_30_04--episode=2--success=False--task=xpnpcountertosink.mp4",
+      "bytes": 185266,
+      "review_status": "SAMPLED_FRAMES_AND_STATE_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/panda/official/2026_11_07-22_30_04--episode=20--success=False--task=xpnpcountertosink.mp4",
+      "bytes": 205058,
+      "review_status": "SAMPLED_FRAMES_AND_STATE_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/panda/official/2026_11_07-22_30_04--episode=3--success=False--task=xpnpcountertosink.mp4",
+      "bytes": 244470,
+      "review_status": "SAMPLED_FRAMES_AND_STATE_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/panda/official/2026_11_07-22_30_04--episode=4--success=False--task=xpnpcountertosink.mp4",
+      "bytes": 181884,
+      "review_status": "SAMPLED_FRAMES_AND_STATE_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/panda/official/2026_11_07-22_30_04--episode=5--success=True--task=xpnpcountertosink.mp4",
+      "bytes": 196394,
+      "review_status": "SAMPLED_FRAMES_AND_STATE_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/panda/official/2026_11_07-22_30_04--episode=6--success=False--task=xpnpcountertosink.mp4",
+      "bytes": 215791,
+      "review_status": "SAMPLED_FRAMES_AND_STATE_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/panda/official/2026_11_07-22_30_04--episode=7--success=False--task=xpnpcountertosink.mp4",
+      "bytes": 188782,
+      "review_status": "SAMPLED_FRAMES_AND_STATE_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/panda/official/2026_11_07-22_30_04--episode=8--success=False--task=xpnpcountertosink.mp4",
+      "bytes": 169772,
+      "review_status": "SAMPLED_FRAMES_AND_STATE_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/panda/official/2026_11_07-22_30_04--episode=9--success=False--task=xpnpcountertosink.mp4",
+      "bytes": 201658,
+      "review_status": "SAMPLED_FRAMES_AND_STATE_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/ur5e/official/2026_11_07-22_17_21--episode=1--success=False--task=xpnpcountertosink.mp4",
+      "bytes": 270000,
+      "review_status": "SAMPLED_FRAMES_AND_STATE_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/ur5e/official/2026_11_07-22_17_21--episode=10--success=False--task=xpnpcountertosink.mp4",
+      "bytes": 242083,
+      "review_status": "SAMPLED_FRAMES_AND_STATE_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/ur5e/official/2026_11_07-22_17_21--episode=11--success=False--task=xpnpcountertosink.mp4",
+      "bytes": 199282,
+      "review_status": "SAMPLED_FRAMES_AND_STATE_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/ur5e/official/2026_11_07-22_17_21--episode=12--success=True--task=xpnpcountertosink.mp4",
+      "bytes": 224883,
+      "review_status": "NOT_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/ur5e/official/2026_11_07-22_17_21--episode=13--success=False--task=xpnpcountertosink.mp4",
+      "bytes": 225414,
+      "review_status": "SAMPLED_FRAMES_AND_STATE_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/ur5e/official/2026_11_07-22_17_21--episode=14--success=True--task=xpnpcountertosink.mp4",
+      "bytes": 202038,
+      "review_status": "NOT_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/ur5e/official/2026_11_07-22_17_21--episode=15--success=False--task=xpnpcountertosink.mp4",
+      "bytes": 270671,
+      "review_status": "SAMPLED_FRAMES_AND_STATE_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/ur5e/official/2026_11_07-22_17_21--episode=16--success=False--task=xpnpcountertosink.mp4",
+      "bytes": 211850,
+      "review_status": "SAMPLED_FRAMES_AND_STATE_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/ur5e/official/2026_11_07-22_17_21--episode=17--success=False--task=xpnpcountertosink.mp4",
+      "bytes": 193066,
+      "review_status": "SAMPLED_FRAMES_AND_STATE_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/ur5e/official/2026_11_07-22_17_21--episode=18--success=False--task=xpnpcountertosink.mp4",
+      "bytes": 180256,
+      "review_status": "SAMPLED_FRAMES_AND_STATE_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/ur5e/official/2026_11_07-22_17_21--episode=19--success=False--task=xpnpcountertosink.mp4",
+      "bytes": 283344,
+      "review_status": "SAMPLED_FRAMES_AND_STATE_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/ur5e/official/2026_11_07-22_17_21--episode=2--success=False--task=xpnpcountertosink.mp4",
+      "bytes": 198967,
+      "review_status": "SAMPLED_FRAMES_AND_STATE_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/ur5e/official/2026_11_07-22_17_21--episode=20--success=False--task=xpnpcountertosink.mp4",
+      "bytes": 196925,
+      "review_status": "SAMPLED_FRAMES_AND_STATE_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/ur5e/official/2026_11_07-22_17_21--episode=3--success=True--task=xpnpcountertosink.mp4",
+      "bytes": 180266,
+      "review_status": "NOT_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/ur5e/official/2026_11_07-22_17_21--episode=4--success=False--task=xpnpcountertosink.mp4",
+      "bytes": 267876,
+      "review_status": "SAMPLED_FRAMES_AND_STATE_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/ur5e/official/2026_11_07-22_17_21--episode=5--success=False--task=xpnpcountertosink.mp4",
+      "bytes": 219216,
+      "review_status": "SAMPLED_FRAMES_AND_STATE_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/ur5e/official/2026_11_07-22_17_21--episode=6--success=False--task=xpnpcountertosink.mp4",
+      "bytes": 230940,
+      "review_status": "SAMPLED_FRAMES_AND_STATE_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/ur5e/official/2026_11_07-22_17_21--episode=7--success=True--task=xpnpcountertosink.mp4",
+      "bytes": 176696,
+      "review_status": "NOT_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/ur5e/official/2026_11_07-22_17_21--episode=8--success=True--task=xpnpcountertosink.mp4",
+      "bytes": 210836,
+      "review_status": "NOT_REVIEWED"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p1/no_reps/ur5e/official/2026_11_07-22_17_21--episode=9--success=False--task=xpnpcountertosink.mp4",
+      "bytes": 245260,
+      "review_status": "SAMPLED_FRAMES_AND_STATE_REVIEWED"
+    }
+  ]
+}

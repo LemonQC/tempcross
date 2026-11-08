@@ -1,6 +1,6 @@
 # COFT SR5: Cross-Embodiment Executability × Observability Hypothesis Probe
 
-> **COFT-P2：P0_BLOCKED（实际执行）。** 两轮官方环境修复后仍未完成物理 rollout；80 次评测未启动，成功率为 N/A。见 [闭环验证执行报告](docs/SIM_VALIDATION_REPORT.md)、[失败分类](docs/TRANSFER_FAILURES.md) 和 [算法决定](docs/NEXT_ALGORITHM_DECISION.md)。
+> **COFT-P2：P0通过，80/80次官方物理仿真完成。** No Reps：UR5e 5/20、Panda 1/20；Joint Reps：UR5e 9/20、Panda 0/20。观察到迁移差距，但未证明学习算法不可替代。见 [闭环验证报告](docs/SIM_VALIDATION_REPORT.md)、[完整失败审计](docs/TRANSFER_FAILURES.md) 和 [下一阶段决定](docs/NEXT_ALGORITHM_DECISION.md)。
 
 
 > **2026-11-07 正式审计已完成：PROXY_ONLY / INSUFFICIENT_EVIDENCE。**

@@ -30,9 +30,17 @@ def complete_rollout(out,expected):
             and len(records)==expected and video_valid
             and all(type(r.get('success')) is bool and 0<r.get('steps',0)<=600 for r in records))
 
+def prepare_run_directory(out):
+    out=Path(out)
+    if out.exists() and any(out.iterdir()):
+        raise FileExistsError(f'Refusing to overwrite an existing run: {out}; choose a new BARX_RUN_ROOT')
+    out.mkdir(parents=True,exist_ok=True)
+    return out
+
+
 def main():
     p=argparse.ArgumentParser();p.add_argument('--source',required=True);p.add_argument('--artifacts',required=True);p.add_argument('--out',required=True);p.add_argument('--p0-only',action='store_true');a=p.parse_args()
-    source=Path(a.source).resolve();artifacts=Path(a.artifacts).resolve();out=Path(a.out).resolve();out.mkdir(parents=True,exist_ok=True)
+    source=Path(a.source).resolve();artifacts=Path(a.artifacts).resolve();out=prepare_run_directory(Path(a.out).resolve())
     python=source/'.venv/bin/python';ledger=out/'gate.json'
     state=dict(status='P0_RUNNING',started_at=datetime.now(timezone.utc).isoformat(),commands=[],p1_started=False)
     def save():ledger.write_text(json.dumps(state,indent=2))

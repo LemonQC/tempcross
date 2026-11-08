@@ -1,0 +1,31 @@
+{
+  "status": "RUNTIME_VERIFIED",
+  "checks": {
+    "cuda_matmul": true,
+    "flash_attention_cuda_kernel": true,
+    "mujoco_egl_context": true,
+    "official_robot_registration": true
+  },
+  "manipulation_episodes": 0,
+  "versions": {
+    "torch": "2.2.0+cu121",
+    "torchvision": "0.17.0+cu121",
+    "torchaudio": "2.2.0+cu121",
+    "mujoco": "3.1.1",
+    "numpy": "1.23.5",
+    "scipy": "1.13.1",
+    "transformers": "4.40.1",
+    "timm": "0.9.10",
+    "h5py": "3.13.0",
+    "tensorflow": "2.15.0",
+    "vq-bet": "0.1.0"
+  },
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "torch_cuda_build": "12.1",
+  "bf16_supported": true,
+  "flash_attention_version": "2.5.5",
+  "flash_attention_max_abs_difference": 0.0,
+  "egl_renderer": "NVIDIA GeForce RTX 3090/PCIe/SSE2",
+  "robocasa_module": "/home/users/lemon/coft-p2/barx/robocasa_x/robocasa/__init__.py",
+  "robosuite_module": "/home/users/lemon/coft-p2/barx/.venv/lib/python3.10/site-packages/robosuite/__init__.py"
+}

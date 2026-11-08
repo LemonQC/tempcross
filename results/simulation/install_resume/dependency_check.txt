@@ -1,0 +1,7 @@
+Using Python 3.10.22 environment at: /home/users/lemon/coft-p2/barx/.venv
+Checked 160 packages in 1ms
+Found 4 incompatibilities
+The package `tensorflow-metadata` requires `protobuf>=4.21.6,<4.22 ; python_full_version < '3.11'`, but `3.20.3` is installed
+The package `robosuite` requires `mujoco>=3.2.3`, but `3.1.1` is installed
+The package `robosuite` requires `mink>=0.0.5`, but it's not installed
+The package `tianshou` requires `protobuf~=3.19.0`, but `3.20.3` is installed

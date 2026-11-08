@@ -1,0 +1,802 @@
+[
+  {
+    "condition_id": "c9ea2d6b13c9b731",
+    "episode": 0,
+    "episodes_so_far": 1,
+    "instruction": "pick the cucumber from the counter and place it in the sink",
+    "layout_id": 7,
+    "seed": 1000,
+    "steps": 470,
+    "style_id": 8,
+    "success": true,
+    "success_rate": 1.0,
+    "successes_so_far": 1,
+    "case_id": "p0/joint_reps/ur5e/000",
+    "reported_seed": 1000,
+    "success_once": true,
+    "telemetry_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p0/joint_reps/ur5e/telemetry/episode-000.h5",
+    "failure_category": null,
+    "classification_status": "SUCCESS",
+    "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p0/joint_reps/ur5e/official/2026_11_07-22_12_49--episode=1--success=True--task=xpnpcountertosink.mp4",
+    "actual_seed": 1000,
+    "condition_id_observed": "c9ea2d6b13c9b731",
+    "min_eef_object_center_m": 0.06229832272085238,
+    "closest_step": 148,
+    "final_eef_object_center_distance_m": 0.10041169441236275,
+    "max_object_rise_m": 0.10805550528949803,
+    "max_rise_step": 346,
+    "final_object_displacement_m": 0.41688067701788295,
+    "final_object_position": [
+      4.02494699433429,
+      -1.5035650111839838,
+      0.7516704049427724
+    ],
+    "initial_object_position": [
+      3.9149927917666907,
+      -1.8602762478536679,
+      0.937295472867868
+    ],
+    "eef_within_10cm": true,
+    "object_rose_5cm": true,
+    "environment_action_count": 470,
+    "nonfinite_action_values": 0,
+    "padded_action_error_max": 0.0,
+    "mode_error_max": 0.0,
+    "policy_to_environment_mapping_max_error": 0.0,
+    "last30_mean_arm_action": [
+      0.07325848090123846,
+      -0.00842667818069458,
+      0.018844097307273655,
+      0.01917967248415838,
+      0.0009707711214370991,
+      0.01628395140711876
+    ],
+    "last30_eef_delta_m": [
+      0.030306548274012357,
+      -0.0009382167517000273,
+      0.0051385275896083105
+    ],
+    "gripper_close_command_fraction": 0.46170212765957447,
+    "initial_camera_T_world_optical": [
+      [
+        -0.385124938972857,
+        -0.499867055926695,
+        0.7757652401212188,
+        3.369998164754371
+      ],
+      [
+        -0.9227651354121501,
+        0.1962478450161857,
+        -0.33164934523424017,
+        -1.1997962172183487
+      ],
+      [
+        0.013538325190002642,
+        -0.84357555069222,
+        -0.5368398308856825,
+        1.540000346230137
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "grasp_contact_steps": 209,
+    "first_grasp_step": 249,
+    "last_grasp_step": 457,
+    "contact_geometry_pairs": [
+      [
+        "counter_1_right_group_top_right_0",
+        "distr_counter_g1"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "distr_counter_g10"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "distr_counter_g11"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "distr_counter_g12"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "distr_counter_g13"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "distr_counter_g14"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "distr_counter_g16"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "distr_counter_g17"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "distr_counter_g18"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "distr_counter_g19"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "distr_counter_g20"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "distr_counter_g21"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "distr_counter_g22"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "distr_counter_g23"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "distr_counter_g24"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "distr_counter_g25"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "distr_counter_g26"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "distr_counter_g27"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "distr_counter_g3"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "distr_counter_g30"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "distr_counter_g31"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "distr_counter_g32"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "distr_counter_g4"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "distr_counter_g7"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "distr_counter_g8"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "distr_counter_g9"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "gripper0_right_right_fingertip_collision"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "obj_g1"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "obj_g13"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "obj_g14"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "obj_g15"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "obj_g17"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "obj_g20"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "obj_g22"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "obj_g23"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "obj_g26"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "obj_g27"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "obj_g28"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "obj_g29"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "obj_g31"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "obj_g9"
+      ],
+      [
+        "distr_sink_g2",
+        "sink_right_group_bottom"
+      ],
+      [
+        "distr_sink_g21",
+        "sink_right_group_bottom"
+      ],
+      [
+        "distr_sink_g32",
+        "sink_right_group_bottom"
+      ],
+      [
+        "gripper0_right_left_fingerpad_collision",
+        "obj_g15"
+      ],
+      [
+        "gripper0_right_left_fingerpad_collision",
+        "obj_g2"
+      ],
+      [
+        "gripper0_right_left_fingerpad_collision",
+        "obj_g25"
+      ],
+      [
+        "gripper0_right_left_fingerpad_collision",
+        "obj_g31"
+      ],
+      [
+        "gripper0_right_left_fingertip_collision",
+        "obj_g15"
+      ],
+      [
+        "gripper0_right_left_fingertip_collision",
+        "obj_g2"
+      ],
+      [
+        "gripper0_right_left_fingertip_collision",
+        "obj_g25"
+      ],
+      [
+        "gripper0_right_left_inner_finger_collision",
+        "gripper0_right_left_inner_knuckle_collision"
+      ],
+      [
+        "gripper0_right_left_inner_knuckle_collision",
+        "gripper0_right_left_outer_finger_collision"
+      ],
+      [
+        "gripper0_right_right_fingerpad_collision",
+        "obj_g2"
+      ],
+      [
+        "gripper0_right_right_fingerpad_collision",
+        "obj_g23"
+      ],
+      [
+        "gripper0_right_right_fingerpad_collision",
+        "obj_g8"
+      ],
+      [
+        "gripper0_right_right_fingertip_collision",
+        "obj_g2"
+      ],
+      [
+        "gripper0_right_right_fingertip_collision",
+        "obj_g23"
+      ],
+      [
+        "gripper0_right_right_fingertip_collision",
+        "obj_g8"
+      ],
+      [
+        "gripper0_right_right_inner_finger_collision",
+        "gripper0_right_right_inner_knuckle_collision"
+      ],
+      [
+        "gripper0_right_right_inner_knuckle_collision",
+        "gripper0_right_right_outer_finger_collision"
+      ],
+      [
+        "obj_g1",
+        "sink_right_group_bottom"
+      ],
+      [
+        "obj_g11",
+        "sink_right_group_bottom"
+      ],
+      [
+        "obj_g13",
+        "sink_right_group_bottom"
+      ],
+      [
+        "obj_g14",
+        "sink_right_group_bottom"
+      ],
+      [
+        "obj_g15",
+        "sink_right_group_bottom"
+      ],
+      [
+        "obj_g17",
+        "sink_right_group_bottom"
+      ],
+      [
+        "obj_g20",
+        "sink_right_group_bottom"
+      ],
+      [
+        "obj_g22",
+        "sink_right_group_bottom"
+      ],
+      [
+        "obj_g22",
+        "sink_right_group_g5"
+      ],
+      [
+        "obj_g22",
+        "sink_right_group_g6"
+      ],
+      [
+        "obj_g23",
+        "sink_right_group_bottom"
+      ],
+      [
+        "obj_g26",
+        "sink_right_group_bottom"
+      ],
+      [
+        "obj_g26",
+        "sink_right_group_g5"
+      ],
+      [
+        "obj_g26",
+        "sink_right_group_g6"
+      ],
+      [
+        "obj_g27",
+        "sink_right_group_bottom"
+      ],
+      [
+        "obj_g28",
+        "sink_right_group_bottom"
+      ],
+      [
+        "obj_g29",
+        "sink_right_group_bottom"
+      ],
+      [
+        "obj_g31",
+        "sink_right_group_bottom"
+      ],
+      [
+        "obj_g9",
+        "sink_right_group_bottom"
+      ],
+      [
+        "robot0_wrist2_col",
+        "shelves_right_group_shelf_0_shelf"
+      ]
+    ],
+    "telemetry_errors": [],
+    "posthoc_center_in_frustum_fraction": 1.0,
+    "excluded_from_p1_statistics": true,
+    "video_review": "0.5fps upstream-video contact sheet inspected, alongside complete state/action history",
+    "same_condition_p0_vs_p1_repeat": {
+      "actions/environment": {
+        "same_shape": true,
+        "max_absolute_difference": 0.0
+      },
+      "sim/qpos": {
+        "same_shape": true,
+        "max_absolute_difference": 0.0
+      },
+      "obs/robot0_eef_pos": {
+        "same_shape": true,
+        "max_absolute_difference": 0.0
+      },
+      "target/position": {
+        "same_shape": true,
+        "max_absolute_difference": 0.0
+      }
+    }
+  },
+  {
+    "condition_id": "53beb94b5265a6a5",
+    "episode": 0,
+    "episodes_so_far": 1,
+    "instruction": "pick the cucumber from the counter and place it in the sink",
+    "layout_id": 7,
+    "seed": 1000,
+    "steps": 600,
+    "style_id": 8,
+    "success": false,
+    "success_rate": 0.0,
+    "successes_so_far": 0,
+    "case_id": "p0/joint_reps/panda/000",
+    "reported_seed": 1000,
+    "success_once": false,
+    "telemetry_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p0/joint_reps/panda/telemetry/episode-000.h5",
+    "failure_category": "GRASP_ALIGNMENT",
+    "classification_status": "VIDEO_REVIEW_REQUIRED",
+    "video_path": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume/p0/joint_reps/panda/official/2026_11_07-22_13_54--episode=1--success=False--task=xpnpcountertosink.mp4",
+    "actual_seed": 1000,
+    "condition_id_observed": "53beb94b5265a6a5",
+    "min_eef_object_center_m": 0.052124814202556026,
+    "closest_step": 125,
+    "final_eef_object_center_distance_m": 0.1357758787147958,
+    "max_object_rise_m": 0.0006105250762260539,
+    "max_rise_step": 335,
+    "final_object_displacement_m": 0.028498380845339306,
+    "final_object_position": [
+      3.930920381890745,
+      -1.883908210664509,
+      0.9371231395900658
+    ],
+    "initial_object_position": [
+      3.9149930103044026,
+      -1.8602767306298793,
+      0.9372954664001169
+    ],
+    "eef_within_10cm": true,
+    "object_rose_5cm": false,
+    "environment_action_count": 600,
+    "nonfinite_action_values": 0,
+    "padded_action_error_max": 0.0,
+    "mode_error_max": 0.0,
+    "policy_to_environment_mapping_max_error": 0.0,
+    "last30_mean_arm_action": [
+      0.11741219976427063,
+      0.004724341630935669,
+      -0.17553768540508186,
+      0.0005206073578643666,
+      0.005415877233060236,
+      0.007383875744425771
+    ],
+    "last30_eef_delta_m": [
+      0.006142264880049986,
+      -0.008705779422521598,
+      -0.0034699111597049637
+    ],
+    "gripper_close_command_fraction": 0.0,
+    "initial_camera_T_world_optical": [
+      [
+        -0.38512493898870187,
+        -0.49986705592332514,
+        0.775765240115524,
+        3.3699981643667507
+      ],
+      [
+        -0.9227651354055371,
+        0.196247845024769,
+        -0.3316493452475609,
+        -1.1997962170426186
+      ],
+      [
+        0.013538325190002642,
+        -0.84357555069222,
+        -0.5368398308856824,
+        1.5400003068673795
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "grasp_contact_steps": 0,
+    "first_grasp_step": null,
+    "last_grasp_step": null,
+    "contact_geometry_pairs": [
+      [
+        "counter_1_right_group_top_right_0",
+        "distr_counter_g1"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "distr_counter_g10"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "distr_counter_g11"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "distr_counter_g12"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "distr_counter_g13"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "distr_counter_g14"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "distr_counter_g16"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "distr_counter_g17"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "distr_counter_g18"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "distr_counter_g19"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "distr_counter_g20"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "distr_counter_g21"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "distr_counter_g22"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "distr_counter_g23"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "distr_counter_g24"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "distr_counter_g25"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "distr_counter_g26"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "distr_counter_g27"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "distr_counter_g3"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "distr_counter_g30"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "distr_counter_g31"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "distr_counter_g32"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "distr_counter_g4"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "distr_counter_g7"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "distr_counter_g8"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "distr_counter_g9"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "gripper0_right_left_fingertip_collision"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "gripper0_right_right_fingertip_collision"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "obj_g1"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "obj_g10"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "obj_g11"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "obj_g12"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "obj_g13"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "obj_g14"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "obj_g15"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "obj_g16"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "obj_g17"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "obj_g18"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "obj_g19"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "obj_g2"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "obj_g20"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "obj_g21"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "obj_g22"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "obj_g23"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "obj_g26"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "obj_g27"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "obj_g30"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "obj_g31"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "obj_g32"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "obj_g4"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "obj_g5"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "obj_g6"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "obj_g8"
+      ],
+      [
+        "counter_1_right_group_top_right_0",
+        "obj_g9"
+      ],
+      [
+        "distr_sink_g2",
+        "sink_right_group_bottom"
+      ],
+      [
+        "distr_sink_g21",
+        "sink_right_group_bottom"
+      ],
+      [
+        "distr_sink_g32",
+        "sink_right_group_bottom"
+      ],
+      [
+        "gripper0_right_left_fingerpad_collision",
+        "obj_g18"
+      ],
+      [
+        "gripper0_right_left_fingertip_collision",
+        "obj_g18"
+      ],
+      [
+        "gripper0_right_left_inner_finger_collision",
+        "gripper0_right_left_inner_knuckle_collision"
+      ],
+      [
+        "gripper0_right_left_inner_knuckle_collision",
+        "gripper0_right_left_outer_finger_collision"
+      ],
+      [
+        "gripper0_right_right_inner_finger_collision",
+        "gripper0_right_right_inner_knuckle_collision"
+      ],
+      [
+        "gripper0_right_right_inner_knuckle_collision",
+        "gripper0_right_right_outer_finger_collision"
+      ]
+    ],
+    "telemetry_errors": [],
+    "posthoc_center_in_frustum_fraction": 1.0,
+    "excluded_from_p1_statistics": true,
+    "video_review": "0.5fps upstream-video contact sheet inspected, alongside complete state/action history",
+    "same_condition_p0_vs_p1_repeat": {
+      "actions/environment": {
+        "same_shape": true,
+        "max_absolute_difference": 0.0
+      },
+      "sim/qpos": {
+        "same_shape": true,
+        "max_absolute_difference": 0.0
+      },
+      "obs/robot0_eef_pos": {
+        "same_shape": true,
+        "max_absolute_difference": 0.0
+      },
+      "target/position": {
+        "same_shape": true,
+        "max_absolute_difference": 0.0
+      }
+    }
+  }
+]

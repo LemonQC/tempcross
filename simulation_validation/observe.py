@@ -52,7 +52,12 @@ class Recorder:
             c=sim.data.contact[i]
             contacts.append(dict(geom1=sim.model.geom_id2name(c.geom1),geom2=sim.model.geom_id2name(c.geom2),distance=float(c.dist)))
         names=[sim.model.body_id2name(i) for i in range(sim.model.nbody)]
-        if self.step==0:self.file.attrs['body_names']=json.dumps(names)
+        if self.step==0:
+            self.file.attrs['body_names']=json.dumps(names)
+            self.file.attrs['joint_names']=json.dumps([sim.model.joint_id2name(i) for i in range(sim.model.njnt)])
+            self.file.attrs['geom_names']=json.dumps([sim.model.geom_id2name(i) for i in range(sim.model.ngeom)])
+            for field in ('jnt_range','jnt_limited','jnt_qposadr','jnt_type','geom_bodyid','actuator_ctrlrange'):
+                self.file.create_dataset('model/'+field,data=np.asarray(getattr(sim.model,field)).copy())
         grasp=None
         try:
             obj=raw.objects.get('obj')

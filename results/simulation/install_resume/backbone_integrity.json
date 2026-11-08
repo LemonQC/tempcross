@@ -1,0 +1,29 @@
+[
+  {
+    "repo_id": "timm/vit_large_patch14_reg4_dinov2.lvd142m",
+    "revision": "f3c408e77602bb412aa65fb03dfa0d5f95cb3832",
+    "path": "/home/users/lemon/coft-p2/artifacts/hf/hub/models--timm--vit_large_patch14_reg4_dinov2.lvd142m/snapshots/f3c408e77602bb412aa65fb03dfa0d5f95cb3832/model.safetensors",
+    "bytes": 1217515128,
+    "expected_lfs_sha256_from_pinned_cache": "c893d72294d4c327e631ff92f428dbc14c4f93cb5581b6c5f9d89bb5d17def27",
+    "sha256": "c893d72294d4c327e631ff92f428dbc14c4f93cb5581b6c5f9d89bb5d17def27",
+    "verified": true
+  },
+  {
+    "repo_id": "timm/ViT-SO400M-14-SigLIP",
+    "revision": "9179d15177ece40964c50492136eda2f3e0c9f61",
+    "path": "/home/users/lemon/coft-p2/artifacts/hf/hub/models--timm--ViT-SO400M-14-SigLIP/snapshots/9179d15177ece40964c50492136eda2f3e0c9f61/open_clip_model.safetensors",
+    "bytes": 3509517656,
+    "expected_lfs_sha256_from_pinned_cache": "0a04a48b797e187a568335ab67e57a8958c32cee5a707a3feb6d4c97149dcd9c",
+    "sha256": "0a04a48b797e187a568335ab67e57a8958c32cee5a707a3feb6d4c97149dcd9c",
+    "verified": true
+  },
+  {
+    "repo_id": "Qwen/Qwen2.5-0.5B",
+    "revision": "060db6499f32faf8b98477b0a26969ef7d8b9987",
+    "path": "/home/users/lemon/coft-p2/artifacts/hf/hub/models--Qwen--Qwen2.5-0.5B/snapshots/060db6499f32faf8b98477b0a26969ef7d8b9987/model.safetensors",
+    "bytes": 988097824,
+    "expected_lfs_sha256_from_pinned_cache": "88c142557820ccad55bb59756bfcfcf891de9cc6202816bd346445188a0ed342",
+    "sha256": "88c142557820ccad55bb59756bfcfcf891de9cc6202816bd346445188a0ed342",
+    "verified": true
+  }
+]
