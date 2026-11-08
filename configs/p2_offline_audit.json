@@ -1,0 +1,18 @@
+{
+  "mode": "OFFLINE_OLD_TRAJECTORIES_ONLY",
+  "source_commit": "0f435089f48b1f16d225f868dbef855a5e75d1e0",
+  "run_root": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume",
+  "source": "/home/users/lemon/coft-p2/barx",
+  "result_directory": "evidence/p2/offline_audit_verified",
+  "external_timeseries_directory": "/home/users/lemon/coft-p2/p2/offline-audit-20261108-verified",
+  "input_official_condition_indices": [0, 19],
+  "randomness": "none; recorded official scene seeds are preserved in episodes.csv",
+  "quaternion_order": "wxyz",
+  "time_alignment": "pre-action state t corresponds to environment action t and video frame t",
+  "pad_normal_tolerance_degrees": 15,
+  "contact_lift_proxy_height_m": 0.03,
+  "contact_lift_proxy_consecutive_state_steps": 10,
+  "geometry_is_legal_grasp_or_success_label": false,
+  "new_training_steps": 0,
+  "new_physical_episodes": 0
+}

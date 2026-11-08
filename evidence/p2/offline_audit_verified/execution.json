@@ -1,0 +1,41 @@
+{
+  "mode": "OFFLINE_EXISTING_P1_TRAJECTORIES_ONLY",
+  "recorded_at_utc": "2026-11-08T13:05:25.291229+00:00",
+  "old_physical_run_root": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume",
+  "official_commit": "0f435089f48b1f16d225f868dbef855a5e75d1e0",
+  "repository_parent_commit": "11b79e8636af9985e15261a0fc82f4759c50c540",
+  "analysis_command": [
+    "/home/users/lemon/coft-p2/barx/.venv/bin/python",
+    "-m",
+    "p2_validation.offline_audit",
+    "--root",
+    "/home/users/lemon/coft-p2/rollouts/user-authorized-resume",
+    "--source",
+    "/home/users/lemon/coft-p2/barx",
+    "--out",
+    "evidence/p2/offline_audit_verified",
+    "--external",
+    "/home/users/lemon/coft-p2/p2/offline-audit-20261108-verified"
+  ],
+  "analysis_input_episodes": 80,
+  "new_physical_episodes": 0,
+  "training_steps": 0,
+  "visibility_rendering_performed": false,
+  "unit_tests": {
+    "command": ".venv/bin/python -m pytest -q tests",
+    "passed": 26
+  },
+  "source_sha256": {
+    "p2_validation/offline_audit.py": "ba5b91141b23a3992d9c783741039c9a3f9a6ffd2874c771f4c00085e865bb40",
+    "p2_validation/plot_audit.py": "ed45ac58deadb81dfc89c461420d95908d001a5bfc2e9eb8c56f8791e43ec0e1",
+    "tests/test_p2_offline_audit.py": "90a406ab2c8f7a0eb4dc9e8c54fe1ecca0ebe11a9557b7cc095ffb925b82d325"
+  },
+  "initial_offline_pass_retained_at": "/home/users/lemon/coft-p2/p2/offline-audit-20261108/initial-summary",
+  "interpretation": "Offline reconstruction is not a new rollout, physical intervention, training step, or proof of a legal grasp opportunity.",
+  "delivered_source_sha256": {
+    "p2_validation/offline_audit.py": "23451e08711d92ccea58eb0fe25b005f0474d4252620805e38e1a10ddc2af949",
+    "p2_validation/plot_audit.py": "ebf6ef0a59d7e469af8dbc314b18b9f4a4f0387a1c32c99c2502b9fd94c0a29c",
+    "tests/test_p2_offline_audit.py": "90a406ab2c8f7a0eb4dc9e8c54fe1ecca0ebe11a9557b7cc095ffb925b82d325"
+  },
+  "post_execution_formatting_changes": "Generated SVG trailing whitespace and small CSV newlines normalized; numerical measurements and external time series unchanged."
+}

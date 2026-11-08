@@ -11,18 +11,59 @@
     "legacy_episodes_available": 80,
     "panda_joint_reps_never_close_cases_verified": 17,
     "legal_grasp_opportunities_causally_verified": false,
-    "visibility_audit_completed": false
+    "visibility_audit_completed": false,
+    "offline_episodes_processed": 80,
+    "offline_summary_path": "evidence/p2/offline_audit_verified/summary.json",
+    "offline_episodes_csv": "evidence/p2/offline_audit_verified/episodes.csv",
+    "external_timeseries_directory": "/home/users/lemon/coft-p2/p2/offline-audit-20261108-verified",
+    "center_prism_seen_among_17_never_close_cases": 0,
+    "center_prism_seen_among_15_official_successes": 6,
+    "center_prism_is_validated_legal_grasp_oracle": false,
+    "geometry_and_contact_timeseries_exported": true
   },
   "p2_b": {
     "status": "NOT_RUN",
-    "test_condition_indices": [20, 39],
+    "test_condition_indices": [
+      20,
+      39
+    ],
     "new_test_raw_results_path": null,
     "cells": [
-      {"method": "B0_joint_reps", "robot": "ur5e", "episodes": 0, "successes": null, "success_rate": null},
-      {"method": "B0_joint_reps", "robot": "panda", "episodes": 0, "successes": null, "success_rate": null},
-      {"method": "original_no_reps", "robot": "panda", "episodes": 0, "successes": null, "success_rate": null},
-      {"method": "B1_simple_gripper_correction", "robot": "panda", "episodes": 0, "successes": null, "success_rate": null},
-      {"method": "B2_privileged_grasp_oracle", "robot": "panda", "episodes": 0, "successes": null, "success_rate": null}
+      {
+        "method": "B0_joint_reps",
+        "robot": "ur5e",
+        "episodes": 0,
+        "successes": null,
+        "success_rate": null
+      },
+      {
+        "method": "B0_joint_reps",
+        "robot": "panda",
+        "episodes": 0,
+        "successes": null,
+        "success_rate": null
+      },
+      {
+        "method": "original_no_reps",
+        "robot": "panda",
+        "episodes": 0,
+        "successes": null,
+        "success_rate": null
+      },
+      {
+        "method": "B1_simple_gripper_correction",
+        "robot": "panda",
+        "episodes": 0,
+        "successes": null,
+        "success_rate": null
+      },
+      {
+        "method": "B2_privileged_grasp_oracle",
+        "robot": "panda",
+        "episodes": 0,
+        "successes": null,
+        "success_rate": null
+      }
     ]
   },
   "p2_c": {
@@ -36,5 +77,10 @@
   },
   "legacy_run_root": "/home/users/lemon/coft-p2/rollouts/user-authorized-resume",
   "legacy_video_manifest": "results/simulation/closed_loop/external_files.csv",
-  "new_training_or_physical_simulation_started_during_sync_audit": false
+  "new_training_or_physical_simulation_started_during_sync_audit": false,
+  "synchronization": {
+    "recovered_analysis_remote_commit": "11b79e8636af9985e15261a0fc82f4759c50c540",
+    "transport": "connected GitHub API; shell HTTPS push had no credentials",
+    "recovered_commit_and_status_read_back_via_github": true
+  }
 }

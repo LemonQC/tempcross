@@ -1,5 +1,7 @@
 # COFT SR5: Cross-Embodiment Executability × Observability Hypothesis Probe
 
+> **P2 实际状态：离线诊断部分完成；新干预与目标适配未执行。** 已找回并提交此前未推送的分析文件；本次遵守先不训练/仿真的限制。见 [同步审计](docs/P2_WORKSPACE_SYNC_AUDIT.md)、[P2-A 实际诊断](docs/P2_GRASP_CAUSAL_AUDIT.md)、[P2-B 未运行记录](docs/P2_INTERVENTION_REPORT.md)、[P2-C 未训练记录](docs/P2_TARGET_ADAPTATION.md) 和 [机器可读状态](evidence/p2/status.json)。当前科研判断为 `INSUFFICIENT_EVIDENCE`，不能以此声称新算法必要。
+
 > **COFT-P2：P0通过，80/80次官方物理仿真完成。** No Reps：UR5e 5/20、Panda 1/20；Joint Reps：UR5e 9/20、Panda 0/20。观察到迁移差距，但未证明学习算法不可替代。见 [闭环验证报告](docs/SIM_VALIDATION_REPORT.md)、[完整失败审计](docs/TRANSFER_FAILURES.md) 和 [下一阶段决定](docs/NEXT_ALGORITHM_DECISION.md)。
 
 
