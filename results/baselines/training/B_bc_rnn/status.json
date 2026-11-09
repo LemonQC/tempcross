@@ -1,0 +1,107 @@
+{
+  "status": "TIER_COMPLETE",
+  "label": "B_bc_rnn",
+  "method": "bc_rnn",
+  "group": "B",
+  "completed_optimizer_steps": 6000,
+  "nonfinite_losses": 0,
+  "anchor_positions": 96000,
+  "actual_target_positions": 96000,
+  "actual_source_positions": 0,
+  "gpu_seconds": 334.65726436814293,
+  "batch_target": 16,
+  "actual_batch": 16,
+  "frozen_commit": "1611433f432a145b93752b6a2eb07e1987bee428",
+  "validation_history": [
+    {
+      "metric": "expected_action_mse",
+      "value": 0.15678057074546814,
+      "nll": 3269086.84375,
+      "batches": 16,
+      "anchor_positions": 12000,
+      "optimizer_step": 750
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.15707494877278805,
+      "nll": 3301249.0625,
+      "batches": 16,
+      "anchor_positions": 24000,
+      "optimizer_step": 1500
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.15623724926263094,
+      "nll": 2876239.125,
+      "batches": 16,
+      "anchor_positions": 36000,
+      "optimizer_step": 2250
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.15779322292655706,
+      "nll": 2353121.828125,
+      "batches": 16,
+      "anchor_positions": 48000,
+      "optimizer_step": 3000
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.15536910388618708,
+      "nll": 2271143.6484375,
+      "batches": 16,
+      "anchor_positions": 60000,
+      "optimizer_step": 3750
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.15201937034726143,
+      "nll": 2088508.359375,
+      "batches": 16,
+      "anchor_positions": 72000,
+      "optimizer_step": 4500
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.148508011829108,
+      "nll": 1987081.5,
+      "batches": 16,
+      "anchor_positions": 84000,
+      "optimizer_step": 5250
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.14651126135140657,
+      "nll": 1992149.0703125,
+      "batches": 16,
+      "anchor_positions": 96000,
+      "optimizer_step": 6000
+    }
+  ],
+  "parameter_count": 14484763,
+  "initial_trainable_sha256": "db193d5c378c2630ff7a9faa5abb26b507019cbb63fff6619b8be494cec14a87",
+  "official_model_class": "BC_RNN_GMM",
+  "executed_trainer_sha256": "f7f64dedcdf083cc0766a7d2b73eaa5810df5bee93569036e0e0bf2936d2c1d3",
+  "initial_validation": {
+    "metric": "expected_action_mse",
+    "value": 0.1590787786990404,
+    "nll": 51232176.25,
+    "batches": 16
+  },
+  "prescribed_tier_positions": 96000,
+  "trainer_segments": [
+    {
+      "from_positions": 0,
+      "to_positions": 96000,
+      "source_sha256": "f7f64dedcdf083cc0766a7d2b73eaa5810df5bee93569036e0e0bf2936d2c1d3",
+      "source_path": "/home/users/lemon/baseline-benchmark/run-20261109/training/B_bc_rnn/executed_train_from_000000.py"
+    }
+  ],
+  "last_loss": -18.689464569091797,
+  "peak_gpu_allocated_bytes": 1415029760,
+  "peak_gpu_reserved_bytes": 1759510528,
+  "running_segment_seconds": 334.6348928902298,
+  "checkpoint": "/home/users/lemon/baseline-benchmark/run-20261109/training/B_bc_rnn/positions-096000.pt",
+  "checkpoint_sha256": "cd1e1b00352d95653322a3d3b4f1105d098bd85f1f732e2ca03b875f28cf1a2f",
+  "changed_parameter_tensors": 78
+}

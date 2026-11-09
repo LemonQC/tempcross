@@ -1,0 +1,285 @@
+{
+  "status": "COMPLETE",
+  "results": [
+    {
+      "status": "COMPLETE",
+      "label": "A_barx_no_reps",
+      "kind": "barx",
+      "task": "pnp_counter_to_sink",
+      "robot": "panda",
+      "checkpoint": "/home/users/lemon/coft-p2/artifacts/runs/no_reps/checkpoints/step-050000-epoch-15-loss=0.8424.pt",
+      "checkpoint_sha256": "ccbd2099903ba7c307b9c47586634754ce34b6269b8577e0040ca0a2f3ca8df3",
+      "indices": [
+        0
+      ],
+      "role": "DEVELOPMENT_SMOKE",
+      "frozen_commit": "1611433f432a145b93752b6a2eb07e1987bee428",
+      "policy_information": [
+        "rgb",
+        "verbatim instruction"
+      ],
+      "technical_failures_not_task_failures": true,
+      "conditions": [
+        {
+          "episode": 0,
+          "condition_id": "53beb94b5265a6a5",
+          "seed": 1000,
+          "state_sha256": "c158b21d1a2ea2ff35b98fe3a100f2d6ca2e976cad402b7b1ff355d5da670f96",
+          "model_sha256": "f7cc915d2685499b36a939c33fb2597ac12fe50822f50fcbd1f6be02d24b4ee5",
+          "metadata_sha256": "840c567b4f6af0e3b59795daa643646bf45936cca9668eb7a7b7de2ac9d039b7"
+        }
+      ],
+      "completed_episodes": 1,
+      "episodes": 1,
+      "successes": 0,
+      "duration_seconds": 76.01072609703988,
+      "peak_gpu_allocated_bytes": 3023853056,
+      "peak_gpu_reserved_bytes": 3175088128
+    },
+    {
+      "status": "COMPLETE",
+      "label": "A_barx_no_reps",
+      "kind": "barx",
+      "task": "pnp_sink_to_counter",
+      "robot": "panda",
+      "checkpoint": "/home/users/lemon/coft-p2/artifacts/runs/no_reps/checkpoints/step-050000-epoch-15-loss=0.8424.pt",
+      "checkpoint_sha256": "ccbd2099903ba7c307b9c47586634754ce34b6269b8577e0040ca0a2f3ca8df3",
+      "indices": [
+        0
+      ],
+      "role": "DEVELOPMENT_SMOKE",
+      "frozen_commit": "1611433f432a145b93752b6a2eb07e1987bee428",
+      "policy_information": [
+        "rgb",
+        "verbatim instruction"
+      ],
+      "technical_failures_not_task_failures": true,
+      "conditions": [
+        {
+          "episode": 0,
+          "condition_id": "e8eacfff7a4460be",
+          "seed": 1000,
+          "state_sha256": "e3540bbe21792808cc2835b3a5e5f0c5ef087c1c1c8e07f36fc488e016bae5f5",
+          "model_sha256": "815ba1cd53118a08fed1edefebdf92c190ee04ab7b7def3115b543f94f39c78b",
+          "metadata_sha256": "75aecd2f8dc43cee95480e56b5e581e86729a7b40a8f07fc2699c69a94a48fab"
+        }
+      ],
+      "completed_episodes": 1,
+      "episodes": 1,
+      "successes": 0,
+      "duration_seconds": 75.56812523957342,
+      "peak_gpu_allocated_bytes": 3028996096,
+      "peak_gpu_reserved_bytes": 3177185280
+    },
+    {
+      "status": "COMPLETE",
+      "label": "A_barx_joint",
+      "kind": "barx",
+      "task": "pnp_counter_to_sink",
+      "robot": "panda",
+      "checkpoint": "/home/users/lemon/coft-p2/artifacts/runs/joint_reps/checkpoints/step-050000-epoch-15-loss=0.2577.pt",
+      "checkpoint_sha256": "ffce76802a8e75d4806b30dee43624accf2c4de4213c17059457e34a8243efce",
+      "indices": [
+        0
+      ],
+      "role": "DEVELOPMENT_SMOKE",
+      "frozen_commit": "1611433f432a145b93752b6a2eb07e1987bee428",
+      "policy_information": [
+        "rgb",
+        "verbatim instruction"
+      ],
+      "technical_failures_not_task_failures": true,
+      "conditions": [
+        {
+          "episode": 0,
+          "condition_id": "53beb94b5265a6a5",
+          "seed": 1000,
+          "state_sha256": "c158b21d1a2ea2ff35b98fe3a100f2d6ca2e976cad402b7b1ff355d5da670f96",
+          "model_sha256": "f7cc915d2685499b36a939c33fb2597ac12fe50822f50fcbd1f6be02d24b4ee5",
+          "metadata_sha256": "840c567b4f6af0e3b59795daa643646bf45936cca9668eb7a7b7de2ac9d039b7"
+        }
+      ],
+      "completed_episodes": 1,
+      "episodes": 1,
+      "successes": 0,
+      "duration_seconds": 73.2443651240319,
+      "peak_gpu_allocated_bytes": 3023853056,
+      "peak_gpu_reserved_bytes": 3175088128
+    },
+    {
+      "status": "COMPLETE",
+      "label": "A_barx_joint",
+      "kind": "barx",
+      "task": "pnp_sink_to_counter",
+      "robot": "panda",
+      "checkpoint": "/home/users/lemon/coft-p2/artifacts/runs/joint_reps/checkpoints/step-050000-epoch-15-loss=0.2577.pt",
+      "checkpoint_sha256": "ffce76802a8e75d4806b30dee43624accf2c4de4213c17059457e34a8243efce",
+      "indices": [
+        0
+      ],
+      "role": "DEVELOPMENT_SMOKE",
+      "frozen_commit": "1611433f432a145b93752b6a2eb07e1987bee428",
+      "policy_information": [
+        "rgb",
+        "verbatim instruction"
+      ],
+      "technical_failures_not_task_failures": true,
+      "conditions": [
+        {
+          "episode": 0,
+          "condition_id": "e8eacfff7a4460be",
+          "seed": 1000,
+          "state_sha256": "e3540bbe21792808cc2835b3a5e5f0c5ef087c1c1c8e07f36fc488e016bae5f5",
+          "model_sha256": "815ba1cd53118a08fed1edefebdf92c190ee04ab7b7def3115b543f94f39c78b",
+          "metadata_sha256": "75aecd2f8dc43cee95480e56b5e581e86729a7b40a8f07fc2699c69a94a48fab"
+        }
+      ],
+      "completed_episodes": 1,
+      "episodes": 1,
+      "successes": 0,
+      "duration_seconds": 73.86219006124884,
+      "peak_gpu_allocated_bytes": 3028996096,
+      "peak_gpu_reserved_bytes": 3177185280
+    },
+    {
+      "status": "COMPLETE",
+      "label": "C_barx_no_reps_6000",
+      "kind": "barx",
+      "task": "pnp_counter_to_sink",
+      "robot": "panda",
+      "checkpoint": "/home/users/lemon/coft-p2/p2/physical-20261108/adapted-checkpoints/no_reps/checkpoints/step-003000-epoch-00-loss=restricted.pt",
+      "checkpoint_sha256": "8504d71f02bc3c2ead775ae72508f355229ff35aeefdb4710eedddcd954a0bad",
+      "indices": [
+        0
+      ],
+      "role": "DEVELOPMENT_SMOKE",
+      "frozen_commit": "1611433f432a145b93752b6a2eb07e1987bee428",
+      "policy_information": [
+        "rgb",
+        "verbatim instruction"
+      ],
+      "technical_failures_not_task_failures": true,
+      "conditions": [
+        {
+          "episode": 0,
+          "condition_id": "53beb94b5265a6a5",
+          "seed": 1000,
+          "state_sha256": "c158b21d1a2ea2ff35b98fe3a100f2d6ca2e976cad402b7b1ff355d5da670f96",
+          "model_sha256": "f7cc915d2685499b36a939c33fb2597ac12fe50822f50fcbd1f6be02d24b4ee5",
+          "metadata_sha256": "840c567b4f6af0e3b59795daa643646bf45936cca9668eb7a7b7de2ac9d039b7"
+        }
+      ],
+      "completed_episodes": 1,
+      "episodes": 1,
+      "successes": 0,
+      "duration_seconds": 74.89861868321896,
+      "peak_gpu_allocated_bytes": 3023853056,
+      "peak_gpu_reserved_bytes": 3175088128
+    },
+    {
+      "status": "COMPLETE",
+      "label": "C_barx_no_reps_6000",
+      "kind": "barx",
+      "task": "pnp_sink_to_counter",
+      "robot": "panda",
+      "checkpoint": "/home/users/lemon/coft-p2/p2/physical-20261108/adapted-checkpoints/no_reps/checkpoints/step-003000-epoch-00-loss=restricted.pt",
+      "checkpoint_sha256": "8504d71f02bc3c2ead775ae72508f355229ff35aeefdb4710eedddcd954a0bad",
+      "indices": [
+        0
+      ],
+      "role": "DEVELOPMENT_SMOKE",
+      "frozen_commit": "1611433f432a145b93752b6a2eb07e1987bee428",
+      "policy_information": [
+        "rgb",
+        "verbatim instruction"
+      ],
+      "technical_failures_not_task_failures": true,
+      "conditions": [
+        {
+          "episode": 0,
+          "condition_id": "e8eacfff7a4460be",
+          "seed": 1000,
+          "state_sha256": "e3540bbe21792808cc2835b3a5e5f0c5ef087c1c1c8e07f36fc488e016bae5f5",
+          "model_sha256": "815ba1cd53118a08fed1edefebdf92c190ee04ab7b7def3115b543f94f39c78b",
+          "metadata_sha256": "75aecd2f8dc43cee95480e56b5e581e86729a7b40a8f07fc2699c69a94a48fab"
+        }
+      ],
+      "completed_episodes": 1,
+      "episodes": 1,
+      "successes": 0,
+      "duration_seconds": 74.60269516380504,
+      "peak_gpu_allocated_bytes": 3028996096,
+      "peak_gpu_reserved_bytes": 3177185280
+    },
+    {
+      "status": "COMPLETE",
+      "label": "C_barx_joint_96000",
+      "kind": "barx",
+      "task": "pnp_counter_to_sink",
+      "robot": "panda",
+      "checkpoint": "/home/users/lemon/coft-p3/p3-20261109/adapted/checkpoints/step-012000-epoch-01-loss=restricted96000.pt",
+      "checkpoint_sha256": "c6fb093b9071886f93aac233f76bf3333cb98b09f959930fd5c3e469fd738b5c",
+      "indices": [
+        0
+      ],
+      "role": "DEVELOPMENT_SMOKE",
+      "frozen_commit": "1611433f432a145b93752b6a2eb07e1987bee428",
+      "policy_information": [
+        "rgb",
+        "verbatim instruction"
+      ],
+      "technical_failures_not_task_failures": true,
+      "conditions": [
+        {
+          "episode": 0,
+          "condition_id": "53beb94b5265a6a5",
+          "seed": 1000,
+          "state_sha256": "c158b21d1a2ea2ff35b98fe3a100f2d6ca2e976cad402b7b1ff355d5da670f96",
+          "model_sha256": "f7cc915d2685499b36a939c33fb2597ac12fe50822f50fcbd1f6be02d24b4ee5",
+          "metadata_sha256": "840c567b4f6af0e3b59795daa643646bf45936cca9668eb7a7b7de2ac9d039b7"
+        }
+      ],
+      "completed_episodes": 1,
+      "episodes": 1,
+      "successes": 0,
+      "duration_seconds": 73.5170503500849,
+      "peak_gpu_allocated_bytes": 3023853056,
+      "peak_gpu_reserved_bytes": 3175088128
+    },
+    {
+      "status": "COMPLETE",
+      "label": "C_barx_joint_96000",
+      "kind": "barx",
+      "task": "pnp_sink_to_counter",
+      "robot": "panda",
+      "checkpoint": "/home/users/lemon/coft-p3/p3-20261109/adapted/checkpoints/step-012000-epoch-01-loss=restricted96000.pt",
+      "checkpoint_sha256": "c6fb093b9071886f93aac233f76bf3333cb98b09f959930fd5c3e469fd738b5c",
+      "indices": [
+        0
+      ],
+      "role": "DEVELOPMENT_SMOKE",
+      "frozen_commit": "1611433f432a145b93752b6a2eb07e1987bee428",
+      "policy_information": [
+        "rgb",
+        "verbatim instruction"
+      ],
+      "technical_failures_not_task_failures": true,
+      "conditions": [
+        {
+          "episode": 0,
+          "condition_id": "e8eacfff7a4460be",
+          "seed": 1000,
+          "state_sha256": "e3540bbe21792808cc2835b3a5e5f0c5ef087c1c1c8e07f36fc488e016bae5f5",
+          "model_sha256": "815ba1cd53118a08fed1edefebdf92c190ee04ab7b7def3115b543f94f39c78b",
+          "metadata_sha256": "75aecd2f8dc43cee95480e56b5e581e86729a7b40a8f07fc2699c69a94a48fab"
+        }
+      ],
+      "completed_episodes": 1,
+      "episodes": 1,
+      "successes": 0,
+      "duration_seconds": 73.1110098711215,
+      "peak_gpu_allocated_bytes": 3028996096,
+      "peak_gpu_reserved_bytes": 3177185280
+    }
+  ]
+}

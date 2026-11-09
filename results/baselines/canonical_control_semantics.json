@@ -1,0 +1,133 @@
+{
+  "status": "VERIFIED_IDENTICAL_CANONICAL_OSC_SEMANTICS",
+  "controllers": [
+    {
+      "robot": "IIWAOmron",
+      "arm_controller": {
+        "type": "OSC_POSE",
+        "input_ref_frame": "base",
+        "input_type": "delta",
+        "input_min": -1,
+        "input_max": 1,
+        "output_min": [
+          -0.05,
+          -0.05,
+          -0.05,
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        "output_max": [
+          0.05,
+          0.05,
+          0.05,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "kp": 150,
+        "damping_ratio": 1
+      }
+    },
+    {
+      "robot": "Kinova3Omron",
+      "arm_controller": {
+        "type": "OSC_POSE",
+        "input_ref_frame": "base",
+        "input_type": "delta",
+        "input_min": -1,
+        "input_max": 1,
+        "output_min": [
+          -0.05,
+          -0.05,
+          -0.05,
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        "output_max": [
+          0.05,
+          0.05,
+          0.05,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "kp": 150,
+        "damping_ratio": 1
+      }
+    },
+    {
+      "robot": "UR5eOmron",
+      "arm_controller": {
+        "type": "OSC_POSE",
+        "input_ref_frame": "base",
+        "input_type": "delta",
+        "input_min": -1,
+        "input_max": 1,
+        "output_min": [
+          -0.05,
+          -0.05,
+          -0.05,
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        "output_max": [
+          0.05,
+          0.05,
+          0.05,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "kp": 150,
+        "damping_ratio": 1
+      }
+    },
+    {
+      "robot": "PandaOmron",
+      "arm_controller": {
+        "type": "OSC_POSE",
+        "input_ref_frame": "base",
+        "input_type": "delta",
+        "input_min": -1,
+        "input_max": 1,
+        "output_min": [
+          -0.05,
+          -0.05,
+          -0.05,
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        "output_max": [
+          0.05,
+          0.05,
+          0.05,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "kp": 150,
+        "damping_ratio": 1
+      }
+    }
+  ],
+  "splits": {
+    "source": {
+      "train": 1620,
+      "validation": 180,
+      "overlap": 0
+    },
+    "target": {
+      "train": 90,
+      "validation": 10,
+      "overlap": 0
+    }
+  },
+  "source_raw_tfds_gripper": "[-1,+1], unchanged",
+  "pretraining_stream_gripper": "BARX learning transform later maps to [0,1]; not used for new raw-data labels",
+  "policy_inputs": "RGB and language only",
+  "new_physics_steps": 0
+}

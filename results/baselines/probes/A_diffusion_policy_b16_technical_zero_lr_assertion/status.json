@@ -1,0 +1,13 @@
+{
+  "status": "TECHNICAL_FAILURE",
+  "method": "diffusion_policy",
+  "group": "A",
+  "target_batch": 16,
+  "completed_optimizer_steps": 1,
+  "nonfinite_losses": 0,
+  "frozen_commit": "1611433f432a145b93752b6a2eb07e1987bee428",
+  "loss": 1.2328802347183228,
+  "error": "AssertionError()",
+  "traceback": "Traceback (most recent call last):\n  File \"/home/users/lemon/CodexProject/tempcross/baselines/common/probe.py\", line 43, in main\n    assert status['completed_optimizer_steps']==1 and any(x['changed'] for x in changes)\nAssertionError\n",
+  "is_cuda_oom": false
+}

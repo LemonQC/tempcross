@@ -1,0 +1,621 @@
+{
+  "status": "COMPLETE",
+  "results": [
+    {
+      "label": "B_bc_gmm",
+      "status": "COMPLETE",
+      "rollouts": 2,
+      "results": [
+        {
+          "status": "COMPLETE",
+          "label": "probe_B_bc_gmm",
+          "kind": "robomimic",
+          "task": "pnp_counter_to_sink",
+          "robot": "panda",
+          "checkpoint": "/home/users/lemon/baseline-benchmark/run-20261109/probes/B_bc_gmm_b16/probe.pt",
+          "checkpoint_sha256": "b0c4deaa92939d4db04ab66e4152f07b841db45e28108b5403fc7deafa504170",
+          "indices": [
+            0
+          ],
+          "role": "DEVELOPMENT_SMOKE",
+          "frozen_commit": "1611433f432a145b93752b6a2eb07e1987bee428",
+          "policy_information": [
+            "rgb",
+            "verbatim instruction"
+          ],
+          "technical_failures_not_task_failures": true,
+          "conditions": [
+            {
+              "episode": 0,
+              "condition_id": "53beb94b5265a6a5",
+              "seed": 1000,
+              "state_sha256": "c158b21d1a2ea2ff35b98fe3a100f2d6ca2e976cad402b7b1ff355d5da670f96",
+              "model_sha256": "f7cc915d2685499b36a939c33fb2597ac12fe50822f50fcbd1f6be02d24b4ee5",
+              "metadata_sha256": "840c567b4f6af0e3b59795daa643646bf45936cca9668eb7a7b7de2ac9d039b7"
+            }
+          ],
+          "completed_episodes": 1,
+          "episodes": 1,
+          "successes": 0,
+          "duration_seconds": 46.107516187708825,
+          "peak_gpu_allocated_bytes": 71773184,
+          "peak_gpu_reserved_bytes": 90177536
+        },
+        {
+          "status": "COMPLETE",
+          "label": "probe_B_bc_gmm",
+          "kind": "robomimic",
+          "task": "pnp_sink_to_counter",
+          "robot": "panda",
+          "checkpoint": "/home/users/lemon/baseline-benchmark/run-20261109/probes/B_bc_gmm_b16/probe.pt",
+          "checkpoint_sha256": "b0c4deaa92939d4db04ab66e4152f07b841db45e28108b5403fc7deafa504170",
+          "indices": [
+            0
+          ],
+          "role": "DEVELOPMENT_SMOKE",
+          "frozen_commit": "1611433f432a145b93752b6a2eb07e1987bee428",
+          "policy_information": [
+            "rgb",
+            "verbatim instruction"
+          ],
+          "technical_failures_not_task_failures": true,
+          "conditions": [
+            {
+              "episode": 0,
+              "condition_id": "e8eacfff7a4460be",
+              "seed": 1000,
+              "state_sha256": "e3540bbe21792808cc2835b3a5e5f0c5ef087c1c1c8e07f36fc488e016bae5f5",
+              "model_sha256": "815ba1cd53118a08fed1edefebdf92c190ee04ab7b7def3115b543f94f39c78b",
+              "metadata_sha256": "75aecd2f8dc43cee95480e56b5e581e86729a7b40a8f07fc2699c69a94a48fab"
+            }
+          ],
+          "completed_episodes": 1,
+          "episodes": 1,
+          "successes": 0,
+          "duration_seconds": 48.150869871955365,
+          "peak_gpu_allocated_bytes": 71773184,
+          "peak_gpu_reserved_bytes": 90177536
+        }
+      ]
+    },
+    {
+      "label": "B_bc_rnn",
+      "status": "COMPLETE",
+      "rollouts": 2,
+      "results": [
+        {
+          "status": "COMPLETE",
+          "label": "probe_B_bc_rnn",
+          "kind": "robomimic",
+          "task": "pnp_counter_to_sink",
+          "robot": "panda",
+          "checkpoint": "/home/users/lemon/baseline-benchmark/run-20261109/probes/B_bc_rnn_b16/probe.pt",
+          "checkpoint_sha256": "fa94d9bc77c91724f5a354f8e8e39254eb74bfb1fef97535acc62a1d9f6c48a9",
+          "indices": [
+            0
+          ],
+          "role": "DEVELOPMENT_SMOKE",
+          "frozen_commit": "1611433f432a145b93752b6a2eb07e1987bee428",
+          "policy_information": [
+            "rgb",
+            "verbatim instruction"
+          ],
+          "technical_failures_not_task_failures": true,
+          "conditions": [
+            {
+              "episode": 0,
+              "condition_id": "53beb94b5265a6a5",
+              "seed": 1000,
+              "state_sha256": "c158b21d1a2ea2ff35b98fe3a100f2d6ca2e976cad402b7b1ff355d5da670f96",
+              "model_sha256": "f7cc915d2685499b36a939c33fb2597ac12fe50822f50fcbd1f6be02d24b4ee5",
+              "metadata_sha256": "840c567b4f6af0e3b59795daa643646bf45936cca9668eb7a7b7de2ac9d039b7"
+            }
+          ],
+          "completed_episodes": 1,
+          "episodes": 1,
+          "successes": 0,
+          "duration_seconds": 49.99627660308033,
+          "peak_gpu_allocated_bytes": 79767552,
+          "peak_gpu_reserved_bytes": 98566144
+        },
+        {
+          "status": "COMPLETE",
+          "label": "probe_B_bc_rnn",
+          "kind": "robomimic",
+          "task": "pnp_sink_to_counter",
+          "robot": "panda",
+          "checkpoint": "/home/users/lemon/baseline-benchmark/run-20261109/probes/B_bc_rnn_b16/probe.pt",
+          "checkpoint_sha256": "fa94d9bc77c91724f5a354f8e8e39254eb74bfb1fef97535acc62a1d9f6c48a9",
+          "indices": [
+            0
+          ],
+          "role": "DEVELOPMENT_SMOKE",
+          "frozen_commit": "1611433f432a145b93752b6a2eb07e1987bee428",
+          "policy_information": [
+            "rgb",
+            "verbatim instruction"
+          ],
+          "technical_failures_not_task_failures": true,
+          "conditions": [
+            {
+              "episode": 0,
+              "condition_id": "e8eacfff7a4460be",
+              "seed": 1000,
+              "state_sha256": "e3540bbe21792808cc2835b3a5e5f0c5ef087c1c1c8e07f36fc488e016bae5f5",
+              "model_sha256": "815ba1cd53118a08fed1edefebdf92c190ee04ab7b7def3115b543f94f39c78b",
+              "metadata_sha256": "75aecd2f8dc43cee95480e56b5e581e86729a7b40a8f07fc2699c69a94a48fab"
+            }
+          ],
+          "completed_episodes": 1,
+          "episodes": 1,
+          "successes": 0,
+          "duration_seconds": 50.335313534829766,
+          "peak_gpu_allocated_bytes": 79767552,
+          "peak_gpu_reserved_bytes": 98566144
+        }
+      ]
+    },
+    {
+      "label": "B_bc_transformer",
+      "status": "COMPLETE",
+      "rollouts": 2,
+      "results": [
+        {
+          "status": "COMPLETE",
+          "label": "probe_B_bc_transformer",
+          "kind": "robomimic",
+          "task": "pnp_counter_to_sink",
+          "robot": "panda",
+          "checkpoint": "/home/users/lemon/baseline-benchmark/run-20261109/probes/B_bc_transformer_b16/probe.pt",
+          "checkpoint_sha256": "1f7cbc66c5d5241fe5cba68ef56741d710bc59426418110eb7bf6e3dd7a5186b",
+          "indices": [
+            0
+          ],
+          "role": "DEVELOPMENT_SMOKE",
+          "frozen_commit": "1611433f432a145b93752b6a2eb07e1987bee428",
+          "policy_information": [
+            "rgb",
+            "verbatim instruction"
+          ],
+          "technical_failures_not_task_failures": true,
+          "conditions": [
+            {
+              "episode": 0,
+              "condition_id": "53beb94b5265a6a5",
+              "seed": 1000,
+              "state_sha256": "c158b21d1a2ea2ff35b98fe3a100f2d6ca2e976cad402b7b1ff355d5da670f96",
+              "model_sha256": "f7cc915d2685499b36a939c33fb2597ac12fe50822f50fcbd1f6be02d24b4ee5",
+              "metadata_sha256": "840c567b4f6af0e3b59795daa643646bf45936cca9668eb7a7b7de2ac9d039b7"
+            }
+          ],
+          "completed_episodes": 1,
+          "episodes": 1,
+          "successes": 0,
+          "duration_seconds": 49.91762226400897,
+          "peak_gpu_allocated_bytes": 270588416,
+          "peak_gpu_reserved_bytes": 293601280
+        },
+        {
+          "status": "COMPLETE",
+          "label": "probe_B_bc_transformer",
+          "kind": "robomimic",
+          "task": "pnp_sink_to_counter",
+          "robot": "panda",
+          "checkpoint": "/home/users/lemon/baseline-benchmark/run-20261109/probes/B_bc_transformer_b16/probe.pt",
+          "checkpoint_sha256": "1f7cbc66c5d5241fe5cba68ef56741d710bc59426418110eb7bf6e3dd7a5186b",
+          "indices": [
+            0
+          ],
+          "role": "DEVELOPMENT_SMOKE",
+          "frozen_commit": "1611433f432a145b93752b6a2eb07e1987bee428",
+          "policy_information": [
+            "rgb",
+            "verbatim instruction"
+          ],
+          "technical_failures_not_task_failures": true,
+          "conditions": [
+            {
+              "episode": 0,
+              "condition_id": "e8eacfff7a4460be",
+              "seed": 1000,
+              "state_sha256": "e3540bbe21792808cc2835b3a5e5f0c5ef087c1c1c8e07f36fc488e016bae5f5",
+              "model_sha256": "815ba1cd53118a08fed1edefebdf92c190ee04ab7b7def3115b543f94f39c78b",
+              "metadata_sha256": "75aecd2f8dc43cee95480e56b5e581e86729a7b40a8f07fc2699c69a94a48fab"
+            }
+          ],
+          "completed_episodes": 1,
+          "episodes": 1,
+          "successes": 0,
+          "duration_seconds": 50.15155095607042,
+          "peak_gpu_allocated_bytes": 270588416,
+          "peak_gpu_reserved_bytes": 293601280
+        }
+      ]
+    },
+    {
+      "label": "B_diffusion_policy",
+      "status": "COMPLETE",
+      "rollouts": 2,
+      "results": [
+        {
+          "status": "COMPLETE",
+          "label": "probe_B_diffusion_policy",
+          "kind": "robomimic",
+          "task": "pnp_counter_to_sink",
+          "robot": "panda",
+          "checkpoint": "/home/users/lemon/baseline-benchmark/run-20261109/probes/B_diffusion_policy_b16/probe.pt",
+          "checkpoint_sha256": "9265955848e35f192b34a743c2d331e0450ef4aa42db95d95230be808778cc86",
+          "indices": [
+            0
+          ],
+          "role": "DEVELOPMENT_SMOKE",
+          "frozen_commit": "1611433f432a145b93752b6a2eb07e1987bee428",
+          "policy_information": [
+            "rgb",
+            "verbatim instruction"
+          ],
+          "technical_failures_not_task_failures": true,
+          "conditions": [
+            {
+              "episode": 0,
+              "condition_id": "53beb94b5265a6a5",
+              "seed": 1000,
+              "state_sha256": "c158b21d1a2ea2ff35b98fe3a100f2d6ca2e976cad402b7b1ff355d5da670f96",
+              "model_sha256": "f7cc915d2685499b36a939c33fb2597ac12fe50822f50fcbd1f6be02d24b4ee5",
+              "metadata_sha256": "840c567b4f6af0e3b59795daa643646bf45936cca9668eb7a7b7de2ac9d039b7"
+            }
+          ],
+          "completed_episodes": 1,
+          "episodes": 1,
+          "successes": 0,
+          "duration_seconds": 53.11396853486076,
+          "peak_gpu_allocated_bytes": 961122816,
+          "peak_gpu_reserved_bytes": 983564288
+        },
+        {
+          "status": "COMPLETE",
+          "label": "probe_B_diffusion_policy",
+          "kind": "robomimic",
+          "task": "pnp_sink_to_counter",
+          "robot": "panda",
+          "checkpoint": "/home/users/lemon/baseline-benchmark/run-20261109/probes/B_diffusion_policy_b16/probe.pt",
+          "checkpoint_sha256": "9265955848e35f192b34a743c2d331e0450ef4aa42db95d95230be808778cc86",
+          "indices": [
+            0
+          ],
+          "role": "DEVELOPMENT_SMOKE",
+          "frozen_commit": "1611433f432a145b93752b6a2eb07e1987bee428",
+          "policy_information": [
+            "rgb",
+            "verbatim instruction"
+          ],
+          "technical_failures_not_task_failures": true,
+          "conditions": [
+            {
+              "episode": 0,
+              "condition_id": "e8eacfff7a4460be",
+              "seed": 1000,
+              "state_sha256": "e3540bbe21792808cc2835b3a5e5f0c5ef087c1c1c8e07f36fc488e016bae5f5",
+              "model_sha256": "815ba1cd53118a08fed1edefebdf92c190ee04ab7b7def3115b543f94f39c78b",
+              "metadata_sha256": "75aecd2f8dc43cee95480e56b5e581e86729a7b40a8f07fc2699c69a94a48fab"
+            }
+          ],
+          "completed_episodes": 1,
+          "episodes": 1,
+          "successes": 0,
+          "duration_seconds": 62.28316559595987,
+          "peak_gpu_allocated_bytes": 961122816,
+          "peak_gpu_reserved_bytes": 983564288
+        }
+      ]
+    },
+    {
+      "label": "C_bc_transformer",
+      "status": "COMPLETE",
+      "rollouts": 2,
+      "results": [
+        {
+          "status": "COMPLETE",
+          "label": "probe_C_bc_transformer",
+          "kind": "robomimic",
+          "task": "pnp_counter_to_sink",
+          "robot": "panda",
+          "checkpoint": "/home/users/lemon/baseline-benchmark/run-20261109/probes/C_bc_transformer_b16/probe.pt",
+          "checkpoint_sha256": "d238080418bd5a341d3d88a0d6542c3b9963f067b8efe4b1ddb331b899f6279b",
+          "indices": [
+            0
+          ],
+          "role": "DEVELOPMENT_SMOKE",
+          "frozen_commit": "1611433f432a145b93752b6a2eb07e1987bee428",
+          "policy_information": [
+            "rgb",
+            "verbatim instruction"
+          ],
+          "technical_failures_not_task_failures": true,
+          "conditions": [
+            {
+              "episode": 0,
+              "condition_id": "53beb94b5265a6a5",
+              "seed": 1000,
+              "state_sha256": "c158b21d1a2ea2ff35b98fe3a100f2d6ca2e976cad402b7b1ff355d5da670f96",
+              "model_sha256": "f7cc915d2685499b36a939c33fb2597ac12fe50822f50fcbd1f6be02d24b4ee5",
+              "metadata_sha256": "840c567b4f6af0e3b59795daa643646bf45936cca9668eb7a7b7de2ac9d039b7"
+            }
+          ],
+          "completed_episodes": 1,
+          "episodes": 1,
+          "successes": 0,
+          "duration_seconds": 56.268987625837326,
+          "peak_gpu_allocated_bytes": 270588416,
+          "peak_gpu_reserved_bytes": 293601280
+        },
+        {
+          "status": "COMPLETE",
+          "label": "probe_C_bc_transformer",
+          "kind": "robomimic",
+          "task": "pnp_sink_to_counter",
+          "robot": "panda",
+          "checkpoint": "/home/users/lemon/baseline-benchmark/run-20261109/probes/C_bc_transformer_b16/probe.pt",
+          "checkpoint_sha256": "d238080418bd5a341d3d88a0d6542c3b9963f067b8efe4b1ddb331b899f6279b",
+          "indices": [
+            0
+          ],
+          "role": "DEVELOPMENT_SMOKE",
+          "frozen_commit": "1611433f432a145b93752b6a2eb07e1987bee428",
+          "policy_information": [
+            "rgb",
+            "verbatim instruction"
+          ],
+          "technical_failures_not_task_failures": true,
+          "conditions": [
+            {
+              "episode": 0,
+              "condition_id": "e8eacfff7a4460be",
+              "seed": 1000,
+              "state_sha256": "e3540bbe21792808cc2835b3a5e5f0c5ef087c1c1c8e07f36fc488e016bae5f5",
+              "model_sha256": "815ba1cd53118a08fed1edefebdf92c190ee04ab7b7def3115b543f94f39c78b",
+              "metadata_sha256": "75aecd2f8dc43cee95480e56b5e581e86729a7b40a8f07fc2699c69a94a48fab"
+            }
+          ],
+          "completed_episodes": 1,
+          "episodes": 1,
+          "successes": 0,
+          "duration_seconds": 56.659614434000105,
+          "peak_gpu_allocated_bytes": 270588416,
+          "peak_gpu_reserved_bytes": 293601280
+        }
+      ]
+    },
+    {
+      "label": "C_diffusion_policy",
+      "status": "COMPLETE",
+      "rollouts": 2,
+      "results": [
+        {
+          "status": "COMPLETE",
+          "label": "probe_C_diffusion_policy",
+          "kind": "robomimic",
+          "task": "pnp_counter_to_sink",
+          "robot": "panda",
+          "checkpoint": "/home/users/lemon/baseline-benchmark/run-20261109/probes/C_diffusion_policy_b16/probe.pt",
+          "checkpoint_sha256": "1bd8acd81420e0483093f59fdb69c096e7cb05a54130435ca49aa0997f03d31a",
+          "indices": [
+            0
+          ],
+          "role": "DEVELOPMENT_SMOKE",
+          "frozen_commit": "1611433f432a145b93752b6a2eb07e1987bee428",
+          "policy_information": [
+            "rgb",
+            "verbatim instruction"
+          ],
+          "technical_failures_not_task_failures": true,
+          "conditions": [
+            {
+              "episode": 0,
+              "condition_id": "53beb94b5265a6a5",
+              "seed": 1000,
+              "state_sha256": "c158b21d1a2ea2ff35b98fe3a100f2d6ca2e976cad402b7b1ff355d5da670f96",
+              "model_sha256": "f7cc915d2685499b36a939c33fb2597ac12fe50822f50fcbd1f6be02d24b4ee5",
+              "metadata_sha256": "840c567b4f6af0e3b59795daa643646bf45936cca9668eb7a7b7de2ac9d039b7"
+            }
+          ],
+          "completed_episodes": 1,
+          "episodes": 1,
+          "successes": 0,
+          "duration_seconds": 54.50027953600511,
+          "peak_gpu_allocated_bytes": 961122816,
+          "peak_gpu_reserved_bytes": 983564288
+        },
+        {
+          "status": "COMPLETE",
+          "label": "probe_C_diffusion_policy",
+          "kind": "robomimic",
+          "task": "pnp_sink_to_counter",
+          "robot": "panda",
+          "checkpoint": "/home/users/lemon/baseline-benchmark/run-20261109/probes/C_diffusion_policy_b16/probe.pt",
+          "checkpoint_sha256": "1bd8acd81420e0483093f59fdb69c096e7cb05a54130435ca49aa0997f03d31a",
+          "indices": [
+            0
+          ],
+          "role": "DEVELOPMENT_SMOKE",
+          "frozen_commit": "1611433f432a145b93752b6a2eb07e1987bee428",
+          "policy_information": [
+            "rgb",
+            "verbatim instruction"
+          ],
+          "technical_failures_not_task_failures": true,
+          "conditions": [
+            {
+              "episode": 0,
+              "condition_id": "e8eacfff7a4460be",
+              "seed": 1000,
+              "state_sha256": "e3540bbe21792808cc2835b3a5e5f0c5ef087c1c1c8e07f36fc488e016bae5f5",
+              "model_sha256": "815ba1cd53118a08fed1edefebdf92c190ee04ab7b7def3115b543f94f39c78b",
+              "metadata_sha256": "75aecd2f8dc43cee95480e56b5e581e86729a7b40a8f07fc2699c69a94a48fab"
+            }
+          ],
+          "completed_episodes": 1,
+          "episodes": 1,
+          "successes": 0,
+          "duration_seconds": 54.46751540387049,
+          "peak_gpu_allocated_bytes": 961122816,
+          "peak_gpu_reserved_bytes": 983564288
+        }
+      ]
+    },
+    {
+      "label": "A_bc_transformer",
+      "status": "COMPLETE",
+      "rollouts": 2,
+      "results": [
+        {
+          "status": "COMPLETE",
+          "label": "probe_A_bc_transformer",
+          "kind": "robomimic",
+          "task": "pnp_counter_to_sink",
+          "robot": "panda",
+          "checkpoint": "/home/users/lemon/baseline-benchmark/run-20261109/probes/A_bc_transformer_b16/probe.pt",
+          "checkpoint_sha256": "2b9aff9bcece3acbb746b43b2db39c2aa8b94dea1fdbb8fec5a3bf98decd5155",
+          "indices": [
+            0
+          ],
+          "role": "DEVELOPMENT_SMOKE",
+          "frozen_commit": "1611433f432a145b93752b6a2eb07e1987bee428",
+          "policy_information": [
+            "rgb",
+            "verbatim instruction"
+          ],
+          "technical_failures_not_task_failures": true,
+          "conditions": [
+            {
+              "episode": 0,
+              "condition_id": "53beb94b5265a6a5",
+              "seed": 1000,
+              "state_sha256": "c158b21d1a2ea2ff35b98fe3a100f2d6ca2e976cad402b7b1ff355d5da670f96",
+              "model_sha256": "f7cc915d2685499b36a939c33fb2597ac12fe50822f50fcbd1f6be02d24b4ee5",
+              "metadata_sha256": "840c567b4f6af0e3b59795daa643646bf45936cca9668eb7a7b7de2ac9d039b7"
+            }
+          ],
+          "completed_episodes": 1,
+          "episodes": 1,
+          "successes": 0,
+          "duration_seconds": 56.71636912506074,
+          "peak_gpu_allocated_bytes": 270588416,
+          "peak_gpu_reserved_bytes": 293601280
+        },
+        {
+          "status": "COMPLETE",
+          "label": "probe_A_bc_transformer",
+          "kind": "robomimic",
+          "task": "pnp_sink_to_counter",
+          "robot": "panda",
+          "checkpoint": "/home/users/lemon/baseline-benchmark/run-20261109/probes/A_bc_transformer_b16/probe.pt",
+          "checkpoint_sha256": "2b9aff9bcece3acbb746b43b2db39c2aa8b94dea1fdbb8fec5a3bf98decd5155",
+          "indices": [
+            0
+          ],
+          "role": "DEVELOPMENT_SMOKE",
+          "frozen_commit": "1611433f432a145b93752b6a2eb07e1987bee428",
+          "policy_information": [
+            "rgb",
+            "verbatim instruction"
+          ],
+          "technical_failures_not_task_failures": true,
+          "conditions": [
+            {
+              "episode": 0,
+              "condition_id": "e8eacfff7a4460be",
+              "seed": 1000,
+              "state_sha256": "e3540bbe21792808cc2835b3a5e5f0c5ef087c1c1c8e07f36fc488e016bae5f5",
+              "model_sha256": "815ba1cd53118a08fed1edefebdf92c190ee04ab7b7def3115b543f94f39c78b",
+              "metadata_sha256": "75aecd2f8dc43cee95480e56b5e581e86729a7b40a8f07fc2699c69a94a48fab"
+            }
+          ],
+          "completed_episodes": 1,
+          "episodes": 1,
+          "successes": 0,
+          "duration_seconds": 57.28457669261843,
+          "peak_gpu_allocated_bytes": 270588416,
+          "peak_gpu_reserved_bytes": 293601280
+        }
+      ]
+    },
+    {
+      "label": "A_diffusion_policy",
+      "status": "COMPLETE",
+      "rollouts": 2,
+      "results": [
+        {
+          "status": "COMPLETE",
+          "label": "probe_A_diffusion_policy",
+          "kind": "robomimic",
+          "task": "pnp_counter_to_sink",
+          "robot": "panda",
+          "checkpoint": "/home/users/lemon/baseline-benchmark/run-20261109/probes/A_diffusion_policy_b16/probe.pt",
+          "checkpoint_sha256": "7e0027b5a916b385213ac99fd8248db22fa5a5dd4e9543b962db82c35a1316ef",
+          "indices": [
+            0
+          ],
+          "role": "DEVELOPMENT_SMOKE",
+          "frozen_commit": "1611433f432a145b93752b6a2eb07e1987bee428",
+          "policy_information": [
+            "rgb",
+            "verbatim instruction"
+          ],
+          "technical_failures_not_task_failures": true,
+          "conditions": [
+            {
+              "episode": 0,
+              "condition_id": "53beb94b5265a6a5",
+              "seed": 1000,
+              "state_sha256": "c158b21d1a2ea2ff35b98fe3a100f2d6ca2e976cad402b7b1ff355d5da670f96",
+              "model_sha256": "f7cc915d2685499b36a939c33fb2597ac12fe50822f50fcbd1f6be02d24b4ee5",
+              "metadata_sha256": "840c567b4f6af0e3b59795daa643646bf45936cca9668eb7a7b7de2ac9d039b7"
+            }
+          ],
+          "completed_episodes": 1,
+          "episodes": 1,
+          "successes": 0,
+          "duration_seconds": 53.51089124614373,
+          "peak_gpu_allocated_bytes": 961122816,
+          "peak_gpu_reserved_bytes": 983564288
+        },
+        {
+          "status": "COMPLETE",
+          "label": "probe_A_diffusion_policy",
+          "kind": "robomimic",
+          "task": "pnp_sink_to_counter",
+          "robot": "panda",
+          "checkpoint": "/home/users/lemon/baseline-benchmark/run-20261109/probes/A_diffusion_policy_b16/probe.pt",
+          "checkpoint_sha256": "7e0027b5a916b385213ac99fd8248db22fa5a5dd4e9543b962db82c35a1316ef",
+          "indices": [
+            0
+          ],
+          "role": "DEVELOPMENT_SMOKE",
+          "frozen_commit": "1611433f432a145b93752b6a2eb07e1987bee428",
+          "policy_information": [
+            "rgb",
+            "verbatim instruction"
+          ],
+          "technical_failures_not_task_failures": true,
+          "conditions": [
+            {
+              "episode": 0,
+              "condition_id": "e8eacfff7a4460be",
+              "seed": 1000,
+              "state_sha256": "e3540bbe21792808cc2835b3a5e5f0c5ef087c1c1c8e07f36fc488e016bae5f5",
+              "model_sha256": "815ba1cd53118a08fed1edefebdf92c190ee04ab7b7def3115b543f94f39c78b",
+              "metadata_sha256": "75aecd2f8dc43cee95480e56b5e581e86729a7b40a8f07fc2699c69a94a48fab"
+            }
+          ],
+          "completed_episodes": 1,
+          "episodes": 1,
+          "successes": 0,
+          "duration_seconds": 53.50546659901738,
+          "peak_gpu_allocated_bytes": 961122816,
+          "peak_gpu_reserved_bytes": 983564288
+        }
+      ]
+    }
+  ]
+}

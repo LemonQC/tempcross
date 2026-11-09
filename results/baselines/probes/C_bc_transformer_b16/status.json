@@ -1,0 +1,21 @@
+{
+  "status": "COMPLETE",
+  "method": "bc_transformer",
+  "group": "C",
+  "target_batch": 16,
+  "completed_optimizer_steps": 1,
+  "nonfinite_losses": 0,
+  "frozen_commit": "1611433f432a145b93752b6a2eb07e1987bee428",
+  "loss": 7.254977703094482,
+  "actual_batch": 32,
+  "target_samples": 16,
+  "source_samples": 16,
+  "parameter_count": 30574315,
+  "changed_parameter_tensors": 143,
+  "step_seconds": 0.48460977198556066,
+  "peak_gpu_allocated_bytes": 2418760704,
+  "peak_gpu_reserved_bytes": 3879731200,
+  "checkpoint": "/home/users/lemon/baseline-benchmark/run-20261109/probes/C_bc_transformer_b16/probe.pt",
+  "checkpoint_sha256": "d238080418bd5a341d3d88a0d6542c3b9963f067b8efe4b1ddb331b899f6279b",
+  "official_model_class": "BC_Transformer_GMM"
+}

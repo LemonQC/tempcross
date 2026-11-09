@@ -7,7 +7,7 @@ from baselines.common.paths import ASSETS,write_json
 from simulation_validation.download_ranges import download
 
 def main():
- info=HfApi().model_info('openai/clip-vit-large-patch14',files_metadata=True)
+ info=HfApi().model_info('openai/clip-vit-large-patch14',revision='32bd64288804d66eefd0ccbe215aa642df71cc41',files_metadata=True)
  names={s.rfilename:s for s in info.siblings}
  weight='model.safetensors' if 'model.safetensors' in names else 'pytorch_model.bin'
  wanted=['config.json','tokenizer.json','tokenizer_config.json','vocab.json','merges.txt','special_tokens_map.json',weight]

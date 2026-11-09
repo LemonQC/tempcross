@@ -1,0 +1,1066 @@
+{
+  "trainable_tensors": 212,
+  "changed_tensors": 212,
+  "tensors": [
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.0.weight",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.1.weight",
+      "changed": true,
+      "max_abs_delta": 2.384185791015625e-07
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.1.bias",
+      "changed": true,
+      "max_abs_delta": 2.0026320157739974e-07
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.4.0.conv1.weight",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.4.0.bn1.weight",
+      "changed": true,
+      "max_abs_delta": 2.384185791015625e-07
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.4.0.bn1.bias",
+      "changed": true,
+      "max_abs_delta": 2.0011010803955287e-07
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.4.0.conv2.weight",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.4.0.bn2.weight",
+      "changed": true,
+      "max_abs_delta": 2.384185791015625e-07
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.4.0.bn2.bias",
+      "changed": true,
+      "max_abs_delta": 2.0024778280003375e-07
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.4.1.conv1.weight",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.4.1.bn1.weight",
+      "changed": true,
+      "max_abs_delta": 2.384185791015625e-07
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.4.1.bn1.bias",
+      "changed": true,
+      "max_abs_delta": 2.0012390677948133e-07
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.4.1.conv2.weight",
+      "changed": true,
+      "max_abs_delta": 2.086162567138672e-07
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.4.1.bn2.weight",
+      "changed": true,
+      "max_abs_delta": 2.384185791015625e-07
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.4.1.bn2.bias",
+      "changed": true,
+      "max_abs_delta": 2.0022982027967373e-07
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.5.0.conv1.weight",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.5.0.bn1.weight",
+      "changed": true,
+      "max_abs_delta": 2.384185791015625e-07
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.5.0.bn1.bias",
+      "changed": true,
+      "max_abs_delta": 2.0025966307457566e-07
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.5.0.conv2.weight",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.5.0.bn2.weight",
+      "changed": true,
+      "max_abs_delta": 2.384185791015625e-07
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.5.0.bn2.bias",
+      "changed": true,
+      "max_abs_delta": 2.002624199803904e-07
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.5.0.downsample.0.weight",
+      "changed": true,
+      "max_abs_delta": 2.086162567138672e-07
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.5.0.downsample.1.weight",
+      "changed": true,
+      "max_abs_delta": 2.384185791015625e-07
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.5.0.downsample.1.bias",
+      "changed": true,
+      "max_abs_delta": 2.002624199803904e-07
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.5.1.conv1.weight",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.5.1.bn1.weight",
+      "changed": true,
+      "max_abs_delta": 2.384185791015625e-07
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.5.1.bn1.bias",
+      "changed": true,
+      "max_abs_delta": 2.0024856439704308e-07
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.5.1.conv2.weight",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.5.1.bn2.weight",
+      "changed": true,
+      "max_abs_delta": 2.384185791015625e-07
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.5.1.bn2.bias",
+      "changed": true,
+      "max_abs_delta": 2.0024248215122498e-07
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.6.0.conv1.weight",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.6.0.bn1.weight",
+      "changed": true,
+      "max_abs_delta": 2.384185791015625e-07
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.6.0.bn1.bias",
+      "changed": true,
+      "max_abs_delta": 2.0025514402277622e-07
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.6.0.conv2.weight",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.6.0.bn2.weight",
+      "changed": true,
+      "max_abs_delta": 2.384185791015625e-07
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.6.0.bn2.bias",
+      "changed": true,
+      "max_abs_delta": 2.002397110345555e-07
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.6.0.downsample.0.weight",
+      "changed": true,
+      "max_abs_delta": 2.086162567138672e-07
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.6.0.downsample.1.weight",
+      "changed": true,
+      "max_abs_delta": 2.384185791015625e-07
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.6.0.downsample.1.bias",
+      "changed": true,
+      "max_abs_delta": 2.002397110345555e-07
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.6.1.conv1.weight",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.6.1.bn1.weight",
+      "changed": true,
+      "max_abs_delta": 2.384185791015625e-07
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.6.1.bn1.bias",
+      "changed": true,
+      "max_abs_delta": 2.0025692037961562e-07
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.6.1.conv2.weight",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.6.1.bn2.weight",
+      "changed": true,
+      "max_abs_delta": 2.384185791015625e-07
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.6.1.bn2.bias",
+      "changed": true,
+      "max_abs_delta": 2.0025339608764625e-07
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.7.0.conv1.weight",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.7.0.bn1.weight",
+      "changed": true,
+      "max_abs_delta": 2.384185791015625e-07
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.7.0.bn1.bias",
+      "changed": true,
+      "max_abs_delta": 2.0026165259423578e-07
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.7.0.conv2.weight",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.7.0.bn2.weight",
+      "changed": true,
+      "max_abs_delta": 2.384185791015625e-07
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.7.0.bn2.bias",
+      "changed": true,
+      "max_abs_delta": 2.0025242974952562e-07
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.7.0.downsample.0.weight",
+      "changed": true,
+      "max_abs_delta": 2.086162567138672e-07
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.7.0.downsample.1.weight",
+      "changed": true,
+      "max_abs_delta": 2.384185791015625e-07
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.7.0.downsample.1.bias",
+      "changed": true,
+      "max_abs_delta": 2.0025242974952562e-07
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.7.1.conv1.weight",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.7.1.bn1.weight",
+      "changed": true,
+      "max_abs_delta": 2.384185791015625e-07
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.7.1.bn1.bias",
+      "changed": true,
+      "max_abs_delta": 2.002555987701271e-07
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.7.1.conv2.weight",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.7.1.bn2.weight",
+      "changed": true,
+      "max_abs_delta": 2.384185791015625e-07
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.7.1.bn2.bias",
+      "changed": true,
+      "max_abs_delta": 2.0025646563226474e-07
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.pool.nets.weight",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.pool.nets.bias",
+      "changed": true,
+      "max_abs_delta": 2.7939677238464355e-09
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.nets.3.weight",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.nets.3.bias",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.mid_modules.0.blocks.0.block.0.weight",
+      "changed": true,
+      "max_abs_delta": 2.0029256120324135e-07
+    },
+    {
+      "key": "policy.noise_pred_net.mid_modules.0.blocks.0.block.0.bias",
+      "changed": true,
+      "max_abs_delta": 2.0024890545755625e-07
+    },
+    {
+      "key": "policy.noise_pred_net.mid_modules.0.blocks.0.block.1.weight",
+      "changed": true,
+      "max_abs_delta": 2.384185791015625e-07
+    },
+    {
+      "key": "policy.noise_pred_net.mid_modules.0.blocks.0.block.1.bias",
+      "changed": true,
+      "max_abs_delta": 2.0025856883876259e-07
+    },
+    {
+      "key": "policy.noise_pred_net.mid_modules.0.blocks.1.block.0.weight",
+      "changed": true,
+      "max_abs_delta": 2.0070001482963562e-07
+    },
+    {
+      "key": "policy.noise_pred_net.mid_modules.0.blocks.1.block.0.bias",
+      "changed": true,
+      "max_abs_delta": 2.0023435354232788e-07
+    },
+    {
+      "key": "policy.noise_pred_net.mid_modules.0.blocks.1.block.1.weight",
+      "changed": true,
+      "max_abs_delta": 2.384185791015625e-07
+    },
+    {
+      "key": "policy.noise_pred_net.mid_modules.0.blocks.1.block.1.bias",
+      "changed": true,
+      "max_abs_delta": 2.00264835825692e-07
+    },
+    {
+      "key": "policy.noise_pred_net.mid_modules.0.cond_encoder.1.weight",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.mid_modules.0.cond_encoder.1.bias",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.mid_modules.1.blocks.0.block.0.weight",
+      "changed": true,
+      "max_abs_delta": 2.0029256120324135e-07
+    },
+    {
+      "key": "policy.noise_pred_net.mid_modules.1.blocks.0.block.0.bias",
+      "changed": true,
+      "max_abs_delta": 2.0023435354232788e-07
+    },
+    {
+      "key": "policy.noise_pred_net.mid_modules.1.blocks.0.block.1.weight",
+      "changed": true,
+      "max_abs_delta": 2.384185791015625e-07
+    },
+    {
+      "key": "policy.noise_pred_net.mid_modules.1.blocks.0.block.1.bias",
+      "changed": true,
+      "max_abs_delta": 2.0026141100970563e-07
+    },
+    {
+      "key": "policy.noise_pred_net.mid_modules.1.blocks.1.block.0.weight",
+      "changed": true,
+      "max_abs_delta": 2.0029256120324135e-07
+    },
+    {
+      "key": "policy.noise_pred_net.mid_modules.1.blocks.1.block.0.bias",
+      "changed": true,
+      "max_abs_delta": 2.0026345737278461e-07
+    },
+    {
+      "key": "policy.noise_pred_net.mid_modules.1.blocks.1.block.1.weight",
+      "changed": true,
+      "max_abs_delta": 2.384185791015625e-07
+    },
+    {
+      "key": "policy.noise_pred_net.mid_modules.1.blocks.1.block.1.bias",
+      "changed": true,
+      "max_abs_delta": 2.002667969236427e-07
+    },
+    {
+      "key": "policy.noise_pred_net.mid_modules.1.cond_encoder.1.weight",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.mid_modules.1.cond_encoder.1.bias",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.diffusion_step_encoder.1.weight",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.diffusion_step_encoder.1.bias",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.diffusion_step_encoder.3.weight",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.diffusion_step_encoder.3.bias",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.0.0.blocks.0.block.0.weight",
+      "changed": true,
+      "max_abs_delta": 2.0070001482963562e-07
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.0.0.blocks.0.block.0.bias",
+      "changed": true,
+      "max_abs_delta": 2.0026345737278461e-07
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.0.0.blocks.0.block.1.weight",
+      "changed": true,
+      "max_abs_delta": 2.384185791015625e-07
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.0.0.blocks.0.block.1.bias",
+      "changed": true,
+      "max_abs_delta": 2.0026833169595193e-07
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.0.0.blocks.1.block.0.weight",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.0.0.blocks.1.block.0.bias",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.0.0.blocks.1.block.1.weight",
+      "changed": true,
+      "max_abs_delta": 2.384185791015625e-07
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.0.0.blocks.1.block.1.bias",
+      "changed": true,
+      "max_abs_delta": 2.002686727564651e-07
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.0.0.cond_encoder.1.weight",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.0.0.cond_encoder.1.bias",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.0.0.residual_conv.weight",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.0.0.residual_conv.bias",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.0.1.blocks.0.block.0.weight",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.0.1.blocks.0.block.0.bias",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.0.1.blocks.0.block.1.weight",
+      "changed": true,
+      "max_abs_delta": 2.384185791015625e-07
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.0.1.blocks.0.block.1.bias",
+      "changed": true,
+      "max_abs_delta": 2.0026720903842943e-07
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.0.1.blocks.1.block.0.weight",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.0.1.blocks.1.block.0.bias",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.0.1.blocks.1.block.1.weight",
+      "changed": true,
+      "max_abs_delta": 2.384185791015625e-07
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.0.1.blocks.1.block.1.bias",
+      "changed": true,
+      "max_abs_delta": 2.0026823221996892e-07
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.0.1.cond_encoder.1.weight",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.0.1.cond_encoder.1.bias",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.0.2.conv.weight",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.0.2.conv.bias",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.1.0.blocks.0.block.0.weight",
+      "changed": true,
+      "max_abs_delta": 2.0046718418598175e-07
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.1.0.blocks.0.block.0.bias",
+      "changed": true,
+      "max_abs_delta": 2.0023435354232788e-07
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.1.0.blocks.0.block.1.weight",
+      "changed": true,
+      "max_abs_delta": 2.384185791015625e-07
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.1.0.blocks.0.block.1.bias",
+      "changed": true,
+      "max_abs_delta": 2.00269624883731e-07
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.1.0.blocks.1.block.0.weight",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.1.0.blocks.1.block.0.bias",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.1.0.blocks.1.block.1.weight",
+      "changed": true,
+      "max_abs_delta": 2.384185791015625e-07
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.1.0.blocks.1.block.1.bias",
+      "changed": true,
+      "max_abs_delta": 2.0027124492116855e-07
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.1.0.cond_encoder.1.weight",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.1.0.cond_encoder.1.bias",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.1.0.residual_conv.weight",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.1.0.residual_conv.bias",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.1.1.blocks.0.block.0.weight",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.1.1.blocks.0.block.0.bias",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.1.1.blocks.0.block.1.weight",
+      "changed": true,
+      "max_abs_delta": 2.384185791015625e-07
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.1.1.blocks.0.block.1.bias",
+      "changed": true,
+      "max_abs_delta": 2.0026990910082532e-07
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.1.1.blocks.1.block.0.weight",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.1.1.blocks.1.block.0.bias",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.1.1.blocks.1.block.1.weight",
+      "changed": true,
+      "max_abs_delta": 2.384185791015625e-07
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.1.1.blocks.1.block.1.bias",
+      "changed": true,
+      "max_abs_delta": 2.0027118807774968e-07
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.1.1.cond_encoder.1.weight",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.1.1.cond_encoder.1.bias",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.1.2.conv.weight",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.1.2.conv.bias",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.0.0.blocks.0.block.0.weight",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.0.0.blocks.0.block.0.bias",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.0.0.blocks.0.block.1.weight",
+      "changed": true,
+      "max_abs_delta": 2.384185791015625e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.0.0.blocks.0.block.1.bias",
+      "changed": true,
+      "max_abs_delta": 2.0026347158363933e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.0.0.blocks.1.block.0.weight",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.0.0.blocks.1.block.0.bias",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.0.0.blocks.1.block.1.weight",
+      "changed": true,
+      "max_abs_delta": 2.384185791015625e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.0.0.blocks.1.block.1.bias",
+      "changed": true,
+      "max_abs_delta": 2.00267379568686e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.0.0.cond_encoder.1.weight",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.0.0.cond_encoder.1.bias",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.0.0.residual_conv.weight",
+      "changed": true,
+      "max_abs_delta": 2.086162567138672e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.0.0.residual_conv.bias",
+      "changed": true,
+      "max_abs_delta": 2.086162567138672e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.0.1.blocks.0.block.0.weight",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.0.1.blocks.0.block.0.bias",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.0.1.blocks.0.block.1.weight",
+      "changed": true,
+      "max_abs_delta": 2.384185791015625e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.0.1.blocks.0.block.1.bias",
+      "changed": true,
+      "max_abs_delta": 2.0026723746013886e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.0.1.blocks.1.block.0.weight",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.0.1.blocks.1.block.0.bias",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.0.1.blocks.1.block.1.weight",
+      "changed": true,
+      "max_abs_delta": 2.384185791015625e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.0.1.blocks.1.block.1.bias",
+      "changed": true,
+      "max_abs_delta": 2.002675500989426e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.0.1.cond_encoder.1.weight",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.0.1.cond_encoder.1.bias",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.0.2.conv.weight",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.0.2.conv.bias",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.1.0.blocks.0.block.0.weight",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.1.0.blocks.0.block.0.bias",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.1.0.blocks.0.block.1.weight",
+      "changed": true,
+      "max_abs_delta": 2.384185791015625e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.1.0.blocks.0.block.1.bias",
+      "changed": true,
+      "max_abs_delta": 2.0026843117193494e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.1.0.blocks.1.block.0.weight",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.1.0.blocks.1.block.0.bias",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.1.0.blocks.1.block.1.weight",
+      "changed": true,
+      "max_abs_delta": 2.384185791015625e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.1.0.blocks.1.block.1.bias",
+      "changed": true,
+      "max_abs_delta": 2.0027086122809123e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.1.0.cond_encoder.1.weight",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.1.0.cond_encoder.1.bias",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.1.0.residual_conv.weight",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.1.0.residual_conv.bias",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.1.1.blocks.0.block.0.weight",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.1.1.blocks.0.block.0.bias",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.1.1.blocks.0.block.1.weight",
+      "changed": true,
+      "max_abs_delta": 2.384185791015625e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.1.1.blocks.0.block.1.bias",
+      "changed": true,
+      "max_abs_delta": 2.002697954139876e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.1.1.blocks.1.block.0.weight",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.1.1.blocks.1.block.0.bias",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.1.1.blocks.1.block.1.weight",
+      "changed": true,
+      "max_abs_delta": 2.384185791015625e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.1.1.blocks.1.block.1.bias",
+      "changed": true,
+      "max_abs_delta": 2.002705485892875e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.1.1.cond_encoder.1.weight",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.1.1.cond_encoder.1.bias",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.1.2.conv.weight",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.1.2.conv.bias",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.2.0.blocks.0.block.0.weight",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.2.0.blocks.0.block.0.bias",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.2.0.blocks.0.block.1.weight",
+      "changed": true,
+      "max_abs_delta": 2.384185791015625e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.2.0.blocks.0.block.1.bias",
+      "changed": true,
+      "max_abs_delta": 2.00262789462613e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.2.0.blocks.1.block.0.weight",
+      "changed": true,
+      "max_abs_delta": 2.0070001482963562e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.2.0.blocks.1.block.0.bias",
+      "changed": true,
+      "max_abs_delta": 2.0029256120324135e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.2.0.blocks.1.block.1.weight",
+      "changed": true,
+      "max_abs_delta": 2.384185791015625e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.2.0.blocks.1.block.1.bias",
+      "changed": true,
+      "max_abs_delta": 2.0026816116569535e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.2.0.cond_encoder.1.weight",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.2.0.cond_encoder.1.bias",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.2.0.residual_conv.weight",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.2.0.residual_conv.bias",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.2.1.blocks.0.block.0.weight",
+      "changed": true,
+      "max_abs_delta": 2.0029256120324135e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.2.1.blocks.0.block.0.bias",
+      "changed": true,
+      "max_abs_delta": 2.0026345737278461e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.2.1.blocks.0.block.1.weight",
+      "changed": true,
+      "max_abs_delta": 2.384185791015625e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.2.1.blocks.0.block.1.bias",
+      "changed": true,
+      "max_abs_delta": 2.0026162417252635e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.2.1.blocks.1.block.0.weight",
+      "changed": true,
+      "max_abs_delta": 2.0046718418598175e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.2.1.blocks.1.block.0.bias",
+      "changed": true,
+      "max_abs_delta": 2.0026345737278461e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.2.1.blocks.1.block.1.weight",
+      "changed": true,
+      "max_abs_delta": 2.384185791015625e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.2.1.blocks.1.block.1.bias",
+      "changed": true,
+      "max_abs_delta": 2.0026575953124848e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.2.1.cond_encoder.1.weight",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.2.1.cond_encoder.1.bias",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.final_conv.0.block.0.weight",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.final_conv.0.block.0.bias",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.final_conv.0.block.1.weight",
+      "changed": true,
+      "max_abs_delta": 2.384185791015625e-07
+    },
+    {
+      "key": "policy.noise_pred_net.final_conv.0.block.1.bias",
+      "changed": true,
+      "max_abs_delta": 2.002711028126214e-07
+    },
+    {
+      "key": "policy.noise_pred_net.final_conv.1.weight",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    },
+    {
+      "key": "policy.noise_pred_net.final_conv.1.bias",
+      "changed": true,
+      "max_abs_delta": 2.0116567611694336e-07
+    }
+  ]
+}

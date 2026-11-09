@@ -1,0 +1,107 @@
+{
+  "status": "TIER_COMPLETE",
+  "label": "C_bc_transformer",
+  "method": "bc_transformer",
+  "group": "C",
+  "completed_optimizer_steps": 6000,
+  "nonfinite_losses": 0,
+  "anchor_positions": 96000,
+  "actual_target_positions": 96000,
+  "actual_source_positions": 96000,
+  "gpu_seconds": 634.9568052287214,
+  "batch_target": 16,
+  "actual_batch": 32,
+  "frozen_commit": "1611433f432a145b93752b6a2eb07e1987bee428",
+  "validation_history": [
+    {
+      "metric": "expected_action_mse",
+      "value": 0.15853711683303118,
+      "nll": -12.479421973228455,
+      "batches": 16,
+      "anchor_positions": 12000,
+      "optimizer_step": 750
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.15774370031431317,
+      "nll": -15.007842123508453,
+      "batches": 16,
+      "anchor_positions": 24000,
+      "optimizer_step": 1500
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.15310839470475912,
+      "nll": -16.054682910442352,
+      "batches": 16,
+      "anchor_positions": 36000,
+      "optimizer_step": 2250
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.13835575990378857,
+      "nll": -16.130152106285095,
+      "batches": 16,
+      "anchor_positions": 48000,
+      "optimizer_step": 3000
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.12028291076421738,
+      "nll": -17.63613188266754,
+      "batches": 16,
+      "anchor_positions": 60000,
+      "optimizer_step": 3750
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.09932487597689033,
+      "nll": -16.55324387550354,
+      "batches": 16,
+      "anchor_positions": 72000,
+      "optimizer_step": 4500
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.08148317108862102,
+      "nll": -17.307942390441895,
+      "batches": 16,
+      "anchor_positions": 84000,
+      "optimizer_step": 5250
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.07467364566400647,
+      "nll": -16.906291246414185,
+      "batches": 16,
+      "anchor_positions": 96000,
+      "optimizer_step": 6000
+    }
+  ],
+  "parameter_count": 30574315,
+  "initial_trainable_sha256": "b231067b8b96d3ad78e9af9947178db1090e4bdaad0660458e9c0063aae4d7e8",
+  "official_model_class": "BC_Transformer_GMM",
+  "executed_trainer_sha256": "f7f64dedcdf083cc0766a7d2b73eaa5810df5bee93569036e0e0bf2936d2c1d3",
+  "initial_validation": {
+    "metric": "expected_action_mse",
+    "value": 0.19386498536914587,
+    "nll": 7.549942761659622,
+    "batches": 16
+  },
+  "prescribed_tier_positions": 96000,
+  "trainer_segments": [
+    {
+      "from_positions": 0,
+      "to_positions": 96000,
+      "source_sha256": "f7f64dedcdf083cc0766a7d2b73eaa5810df5bee93569036e0e0bf2936d2c1d3",
+      "source_path": "/home/users/lemon/baseline-benchmark/run-20261109/training/C_bc_transformer/executed_train_from_000000.py"
+    }
+  ],
+  "last_loss": -14.704328536987305,
+  "peak_gpu_allocated_bytes": 2702800384,
+  "peak_gpu_reserved_bytes": 4087349248,
+  "running_segment_seconds": 634.9259597789496,
+  "checkpoint": "/home/users/lemon/baseline-benchmark/run-20261109/training/C_bc_transformer/positions-096000.pt",
+  "checkpoint_sha256": "52144ec4e68a4f59a7bec5c246f51660b6e553880f8e775230d1addad536f97c",
+  "changed_parameter_tensors": 143
+}

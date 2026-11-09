@@ -1,0 +1,25 @@
+{
+  "trace_path": "/home/users/lemon/baseline-benchmark/run-20261109/training/A_diffusion_policy/consumed_anchors.csv",
+  "trace_bytes": 7751791,
+  "trace_sha256": "2e3237cb95c9e1ebb1cb59d048a113f727e24d1710b2f9d11e84c504671f327d",
+  "exact_sequence_matches_frozen_anchors": true,
+  "positions": {
+    "source": 96000
+  },
+  "unique_demonstrations": {
+    "source": 1620,
+    "target": 0
+  },
+  "expanded_input_positions": {
+    "source": 192000,
+    "target": 0
+  },
+  "expanded_label_positions": {
+    "source": 1536000,
+    "target": 0
+  },
+  "unique_anchor_frames": {
+    "source": 89717,
+    "target": 0
+  }
+}

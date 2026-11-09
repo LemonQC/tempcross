@@ -1,13 +1,13 @@
 import hashlib,json,os
 from pathlib import Path
 PROJECT=Path(__file__).resolve().parents[2]
-SOURCE=Path('/home/users/lemon/coft-p2/barx')
+SOURCE=Path(os.environ.get('BARX_SOURCE','/home/users/lemon/coft-p2/barx'))
 PYTHON=SOURCE/'.venv/bin/python'
-ROOT=Path('/home/users/lemon/baseline-benchmark/run-20261109')
-VENDOR=ROOT.parent/'vendor/robomimic'
-DEPS=ROOT.parent/'deps'
-ASSETS=ROOT.parent/'assets'
-DATA=Path('/home/users/lemon/coft-p2/p2/data')
+ROOT=Path(os.environ.get('BASELINE_RUN_ROOT','/home/users/lemon/baseline-benchmark/run-20261109'))
+VENDOR=Path(os.environ.get('BASELINE_ROBOMIMIC_ROOT',str(ROOT.parent/'vendor/robomimic')))
+DEPS=Path(os.environ.get('BASELINE_DEPS_ROOT',str(ROOT.parent/'deps')))
+ASSETS=Path(os.environ.get('BASELINE_ASSETS_ROOT',str(ROOT.parent/'assets')))
+DATA=Path(os.environ.get('BARX_DATA_ROOT','/home/users/lemon/coft-p2/p2/data'))
 TASKS=['pnp_counter_to_sink','pnp_sink_to_counter']
 DIRECTIONS={'PnPCounterToSink':TASKS[0],'PnPSinkToCounter':TASKS[1]}
 OFFICIAL_COMMIT='0f435089f48b1f16d225f868dbef855a5e75d1e0'

@@ -1,0 +1,10 @@
+{
+  "engineering_benchmark_ready": false,
+  "formal_cells": 0,
+  "formal_episodes": 0,
+  "single_training_seed": true,
+  "independent_training_seed_repeats": false,
+  "unlimited_convergence_not_demonstrated": true,
+  "can_append_method_without_changing_evaluator": false,
+  "publication_claim": "Runnable benchmark platform; T-RO scientific novelty, multiple-training-seed robustness and generalization beyond two tasks are not established by engineering completion"
+}

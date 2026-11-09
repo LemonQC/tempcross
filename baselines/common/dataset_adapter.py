@@ -2,7 +2,7 @@
 import collections,json,os
 from pathlib import Path
 import numpy as np
-from baselines.common.paths import ROOT,TASKS,write_json,digest
+from baselines.common.paths import ROOT,PROJECT,TASKS,write_json,digest
 
 
 def window_indices(method,anchor,length):
@@ -37,6 +37,7 @@ class AnchorDataset:
   self.method=method;self.group=group;self.split=split;self.handles={};self.pid=None
   domains=['source'] if group=='A' else ['target'] if group=='B' else ['target','source']
   self.rows={d:json.loads((ROOT/f'data/{d}_manifest.json').read_text()) for d in domains}
+  for d in domains:assert digest(ROOT/f'data/{d}_manifest.json')==digest(PROJECT/f'configs/datasets/baseline_{d}_manifest.json')
   self.anchors={d:np.load(ROOT/f'data/{d}_{split}_anchors.npy',mmap_mode='r') for d in self.rows}
   self.n=min(max_positions,len(next(iter(self.anchors.values()))))
   from baselines.common.language import encode

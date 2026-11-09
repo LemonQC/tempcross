@@ -1,0 +1,14 @@
+{
+  "initial_protocol_commit": "1611433f432a145b93752b6a2eb07e1987bee428",
+  "defined_before_any_final_test": true,
+  "reference_robot": "ur5e",
+  "labels": [
+    "A_barx_no_reps",
+    "A_barx_joint",
+    "A_bc_transformer",
+    "A_diffusion_policy"
+  ],
+  "reason": "All source-only learners need an in-distribution source reference to separate failed source learning from transfer failure",
+  "conditions": "unchanged already-frozen original60..99 for both tasks",
+  "training_and_selection_rules_unchanged": true
+}

@@ -1,0 +1,126 @@
+{
+  "status": "COMPLETE",
+  "jobs": [
+    {
+      "job": "/home/users/lemon/baseline-benchmark/run-20261109/smoke/A_barx_joint/pnp_counter_to_sink/panda/job.json",
+      "episodes": 1,
+      "all_verified": true
+    },
+    {
+      "job": "/home/users/lemon/baseline-benchmark/run-20261109/smoke/A_barx_joint/pnp_sink_to_counter/panda/job.json",
+      "episodes": 1,
+      "all_verified": true
+    },
+    {
+      "job": "/home/users/lemon/baseline-benchmark/run-20261109/smoke/A_barx_no_reps/pnp_counter_to_sink/panda/job.json",
+      "episodes": 1,
+      "all_verified": true
+    },
+    {
+      "job": "/home/users/lemon/baseline-benchmark/run-20261109/smoke/A_barx_no_reps/pnp_sink_to_counter/panda/job.json",
+      "episodes": 1,
+      "all_verified": true
+    },
+    {
+      "job": "/home/users/lemon/baseline-benchmark/run-20261109/smoke/C_barx_joint_96000/pnp_counter_to_sink/panda/job.json",
+      "episodes": 1,
+      "all_verified": true
+    },
+    {
+      "job": "/home/users/lemon/baseline-benchmark/run-20261109/smoke/C_barx_joint_96000/pnp_sink_to_counter/panda/job.json",
+      "episodes": 1,
+      "all_verified": true
+    },
+    {
+      "job": "/home/users/lemon/baseline-benchmark/run-20261109/smoke/C_barx_no_reps_6000/pnp_counter_to_sink/panda/job.json",
+      "episodes": 1,
+      "all_verified": true
+    },
+    {
+      "job": "/home/users/lemon/baseline-benchmark/run-20261109/smoke/C_barx_no_reps_6000/pnp_sink_to_counter/panda/job.json",
+      "episodes": 1,
+      "all_verified": true
+    },
+    {
+      "job": "/home/users/lemon/baseline-benchmark/run-20261109/smoke/probe_A_bc_transformer/pnp_counter_to_sink/panda/job.json",
+      "episodes": 1,
+      "all_verified": true
+    },
+    {
+      "job": "/home/users/lemon/baseline-benchmark/run-20261109/smoke/probe_A_bc_transformer/pnp_sink_to_counter/panda/job.json",
+      "episodes": 1,
+      "all_verified": true
+    },
+    {
+      "job": "/home/users/lemon/baseline-benchmark/run-20261109/smoke/probe_A_diffusion_policy/pnp_counter_to_sink/panda/job.json",
+      "episodes": 1,
+      "all_verified": true
+    },
+    {
+      "job": "/home/users/lemon/baseline-benchmark/run-20261109/smoke/probe_A_diffusion_policy/pnp_sink_to_counter/panda/job.json",
+      "episodes": 1,
+      "all_verified": true
+    },
+    {
+      "job": "/home/users/lemon/baseline-benchmark/run-20261109/smoke/probe_B_bc_gmm/pnp_counter_to_sink/panda/job.json",
+      "episodes": 1,
+      "all_verified": true
+    },
+    {
+      "job": "/home/users/lemon/baseline-benchmark/run-20261109/smoke/probe_B_bc_gmm/pnp_sink_to_counter/panda/job.json",
+      "episodes": 1,
+      "all_verified": true
+    },
+    {
+      "job": "/home/users/lemon/baseline-benchmark/run-20261109/smoke/probe_B_bc_rnn/pnp_counter_to_sink/panda/job.json",
+      "episodes": 1,
+      "all_verified": true
+    },
+    {
+      "job": "/home/users/lemon/baseline-benchmark/run-20261109/smoke/probe_B_bc_rnn/pnp_sink_to_counter/panda/job.json",
+      "episodes": 1,
+      "all_verified": true
+    },
+    {
+      "job": "/home/users/lemon/baseline-benchmark/run-20261109/smoke/probe_B_bc_transformer/pnp_counter_to_sink/panda/job.json",
+      "episodes": 1,
+      "all_verified": true
+    },
+    {
+      "job": "/home/users/lemon/baseline-benchmark/run-20261109/smoke/probe_B_bc_transformer/pnp_sink_to_counter/panda/job.json",
+      "episodes": 1,
+      "all_verified": true
+    },
+    {
+      "job": "/home/users/lemon/baseline-benchmark/run-20261109/smoke/probe_B_diffusion_policy/pnp_counter_to_sink/panda/job.json",
+      "episodes": 1,
+      "all_verified": true
+    },
+    {
+      "job": "/home/users/lemon/baseline-benchmark/run-20261109/smoke/probe_B_diffusion_policy/pnp_sink_to_counter/panda/job.json",
+      "episodes": 1,
+      "all_verified": true
+    },
+    {
+      "job": "/home/users/lemon/baseline-benchmark/run-20261109/smoke/probe_C_bc_transformer/pnp_counter_to_sink/panda/job.json",
+      "episodes": 1,
+      "all_verified": true
+    },
+    {
+      "job": "/home/users/lemon/baseline-benchmark/run-20261109/smoke/probe_C_bc_transformer/pnp_sink_to_counter/panda/job.json",
+      "episodes": 1,
+      "all_verified": true
+    },
+    {
+      "job": "/home/users/lemon/baseline-benchmark/run-20261109/smoke/probe_C_diffusion_policy/pnp_counter_to_sink/panda/job.json",
+      "episodes": 1,
+      "all_verified": true
+    },
+    {
+      "job": "/home/users/lemon/baseline-benchmark/run-20261109/smoke/probe_C_diffusion_policy/pnp_sink_to_counter/panda/job.json",
+      "episodes": 1,
+      "all_verified": true
+    }
+  ],
+  "episodes": 24
+}

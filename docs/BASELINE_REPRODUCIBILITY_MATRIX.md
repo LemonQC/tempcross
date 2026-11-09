@@ -22,3 +22,7 @@ XP-900是IIWA、Kinova3、UR5e多源，每机器人每任务300条，总1800条�
 新学习Baseline统一只输入RGB与完整指令，以冻结CLIP-L/14文本投影作语言输入；不输入EE、夹爪状态、深度、物体真值或接触。观测历史长度遵循各模型结构。数据适配、128px resize/116px crop、固定步数优化和语言条件化与原论文设置的差异全部公开，所以标为FAITHFUL_PORT，而非“完全官方论文复现”。
 
 依赖通过外部`deps`和PYTHONPATH隔离，固定diffusers0.11.1/huggingface_hub0.23.4，不改旧BARX虚拟环境。上游lang_utils在import时联网，外部shim只将相同CLIP-L/14投影与tokenization改为hash核验的本地权重；不改策略网络。
+
+## 训练执行补充
+
+上表的“构建通过/待GPU训练”记录的是训练前冻结时点。现已真实执行四类核心模型的forward/backward/optimizer核验及8个设置的首档96k训练，阶段日志、参数变化、采样覆盖和后续预算延长状态见[真实结果](BASELINE_RESULTS.md)及[机器状态](../results/baselines/status.json)。这不会将FAITHFUL_PORT改称完全官方论文复现，也不把首档完成等同于已完成正式测试。

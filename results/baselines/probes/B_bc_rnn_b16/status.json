@@ -1,0 +1,21 @@
+{
+  "status": "COMPLETE",
+  "method": "bc_rnn",
+  "group": "B",
+  "target_batch": 16,
+  "completed_optimizer_steps": 1,
+  "nonfinite_losses": 0,
+  "frozen_commit": "1611433f432a145b93752b6a2eb07e1987bee428",
+  "loss": 5.0081400871276855,
+  "actual_batch": 16,
+  "target_samples": 16,
+  "source_samples": 0,
+  "parameter_count": 14484763,
+  "changed_parameter_tensors": 78,
+  "step_seconds": 0.4228339693509042,
+  "peak_gpu_allocated_bytes": 1253679104,
+  "peak_gpu_reserved_bytes": 1883242496,
+  "checkpoint": "/home/users/lemon/baseline-benchmark/run-20261109/probes/B_bc_rnn_b16/probe.pt",
+  "checkpoint_sha256": "fa94d9bc77c91724f5a354f8e8e39254eb74bfb1fef97535acc62a1d9f6c48a9",
+  "official_model_class": "BC_RNN_GMM"
+}

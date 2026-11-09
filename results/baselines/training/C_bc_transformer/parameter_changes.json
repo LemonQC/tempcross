@@ -1,0 +1,722 @@
+{
+  "trainable_tensors": 143,
+  "changed_tensors": 143,
+  "all_final_trainable_parameters_finite": true,
+  "tensors": [
+    {
+      "key": "policy.nets.encoder.nets.obs.obs_nets.rgb.backbone.nets.0.weight",
+      "changed": true,
+      "max_abs_delta": 0.03557752072811127
+    },
+    {
+      "key": "policy.nets.encoder.nets.obs.obs_nets.rgb.backbone.nets.1.weight",
+      "changed": true,
+      "max_abs_delta": 0.03210240602493286
+    },
+    {
+      "key": "policy.nets.encoder.nets.obs.obs_nets.rgb.backbone.nets.1.bias",
+      "changed": true,
+      "max_abs_delta": 0.023781441152095795
+    },
+    {
+      "key": "policy.nets.encoder.nets.obs.obs_nets.rgb.backbone.nets.4.0.conv1.weight",
+      "changed": true,
+      "max_abs_delta": 0.04667355865240097
+    },
+    {
+      "key": "policy.nets.encoder.nets.obs.obs_nets.rgb.backbone.nets.4.0.bn1.weight",
+      "changed": true,
+      "max_abs_delta": 0.033539652824401855
+    },
+    {
+      "key": "policy.nets.encoder.nets.obs.obs_nets.rgb.backbone.nets.4.0.bn1.bias",
+      "changed": true,
+      "max_abs_delta": 0.024461394175887108
+    },
+    {
+      "key": "policy.nets.encoder.nets.obs.obs_nets.rgb.backbone.nets.4.0.conv2.weight",
+      "changed": true,
+      "max_abs_delta": 0.03529876470565796
+    },
+    {
+      "key": "policy.nets.encoder.nets.obs.obs_nets.rgb.backbone.nets.4.0.bn2.weight",
+      "changed": true,
+      "max_abs_delta": 0.02750992774963379
+    },
+    {
+      "key": "policy.nets.encoder.nets.obs.obs_nets.rgb.backbone.nets.4.0.bn2.bias",
+      "changed": true,
+      "max_abs_delta": 0.024010399356484413
+    },
+    {
+      "key": "policy.nets.encoder.nets.obs.obs_nets.rgb.backbone.nets.4.1.conv1.weight",
+      "changed": true,
+      "max_abs_delta": 0.03745677322149277
+    },
+    {
+      "key": "policy.nets.encoder.nets.obs.obs_nets.rgb.backbone.nets.4.1.bn1.weight",
+      "changed": true,
+      "max_abs_delta": 0.02427142858505249
+    },
+    {
+      "key": "policy.nets.encoder.nets.obs.obs_nets.rgb.backbone.nets.4.1.bn1.bias",
+      "changed": true,
+      "max_abs_delta": 0.023379262536764145
+    },
+    {
+      "key": "policy.nets.encoder.nets.obs.obs_nets.rgb.backbone.nets.4.1.conv2.weight",
+      "changed": true,
+      "max_abs_delta": 0.034828200936317444
+    },
+    {
+      "key": "policy.nets.encoder.nets.obs.obs_nets.rgb.backbone.nets.4.1.bn2.weight",
+      "changed": true,
+      "max_abs_delta": 0.028576791286468506
+    },
+    {
+      "key": "policy.nets.encoder.nets.obs.obs_nets.rgb.backbone.nets.4.1.bn2.bias",
+      "changed": true,
+      "max_abs_delta": 0.030671969056129456
+    },
+    {
+      "key": "policy.nets.encoder.nets.obs.obs_nets.rgb.backbone.nets.5.0.conv1.weight",
+      "changed": true,
+      "max_abs_delta": 0.03778451681137085
+    },
+    {
+      "key": "policy.nets.encoder.nets.obs.obs_nets.rgb.backbone.nets.5.0.bn1.weight",
+      "changed": true,
+      "max_abs_delta": 0.025300562381744385
+    },
+    {
+      "key": "policy.nets.encoder.nets.obs.obs_nets.rgb.backbone.nets.5.0.bn1.bias",
+      "changed": true,
+      "max_abs_delta": 0.029746301472187042
+    },
+    {
+      "key": "policy.nets.encoder.nets.obs.obs_nets.rgb.backbone.nets.5.0.conv2.weight",
+      "changed": true,
+      "max_abs_delta": 0.038382984697818756
+    },
+    {
+      "key": "policy.nets.encoder.nets.obs.obs_nets.rgb.backbone.nets.5.0.bn2.weight",
+      "changed": true,
+      "max_abs_delta": 0.025541841983795166
+    },
+    {
+      "key": "policy.nets.encoder.nets.obs.obs_nets.rgb.backbone.nets.5.0.bn2.bias",
+      "changed": true,
+      "max_abs_delta": 0.029363371431827545
+    },
+    {
+      "key": "policy.nets.encoder.nets.obs.obs_nets.rgb.backbone.nets.5.0.downsample.0.weight",
+      "changed": true,
+      "max_abs_delta": 0.03141018748283386
+    },
+    {
+      "key": "policy.nets.encoder.nets.obs.obs_nets.rgb.backbone.nets.5.0.downsample.1.weight",
+      "changed": true,
+      "max_abs_delta": 0.029333055019378662
+    },
+    {
+      "key": "policy.nets.encoder.nets.obs.obs_nets.rgb.backbone.nets.5.0.downsample.1.bias",
+      "changed": true,
+      "max_abs_delta": 0.029363371431827545
+    },
+    {
+      "key": "policy.nets.encoder.nets.obs.obs_nets.rgb.backbone.nets.5.1.conv1.weight",
+      "changed": true,
+      "max_abs_delta": 0.046125978231430054
+    },
+    {
+      "key": "policy.nets.encoder.nets.obs.obs_nets.rgb.backbone.nets.5.1.bn1.weight",
+      "changed": true,
+      "max_abs_delta": 0.027850687503814697
+    },
+    {
+      "key": "policy.nets.encoder.nets.obs.obs_nets.rgb.backbone.nets.5.1.bn1.bias",
+      "changed": true,
+      "max_abs_delta": 0.02679573930799961
+    },
+    {
+      "key": "policy.nets.encoder.nets.obs.obs_nets.rgb.backbone.nets.5.1.conv2.weight",
+      "changed": true,
+      "max_abs_delta": 0.039148446172475815
+    },
+    {
+      "key": "policy.nets.encoder.nets.obs.obs_nets.rgb.backbone.nets.5.1.bn2.weight",
+      "changed": true,
+      "max_abs_delta": 0.020035147666931152
+    },
+    {
+      "key": "policy.nets.encoder.nets.obs.obs_nets.rgb.backbone.nets.5.1.bn2.bias",
+      "changed": true,
+      "max_abs_delta": 0.03043999709188938
+    },
+    {
+      "key": "policy.nets.encoder.nets.obs.obs_nets.rgb.backbone.nets.6.0.conv1.weight",
+      "changed": true,
+      "max_abs_delta": 0.04079031944274902
+    },
+    {
+      "key": "policy.nets.encoder.nets.obs.obs_nets.rgb.backbone.nets.6.0.bn1.weight",
+      "changed": true,
+      "max_abs_delta": 0.02612680196762085
+    },
+    {
+      "key": "policy.nets.encoder.nets.obs.obs_nets.rgb.backbone.nets.6.0.bn1.bias",
+      "changed": true,
+      "max_abs_delta": 0.031552813947200775
+    },
+    {
+      "key": "policy.nets.encoder.nets.obs.obs_nets.rgb.backbone.nets.6.0.conv2.weight",
+      "changed": true,
+      "max_abs_delta": 0.04298512637615204
+    },
+    {
+      "key": "policy.nets.encoder.nets.obs.obs_nets.rgb.backbone.nets.6.0.bn2.weight",
+      "changed": true,
+      "max_abs_delta": 0.030230224132537842
+    },
+    {
+      "key": "policy.nets.encoder.nets.obs.obs_nets.rgb.backbone.nets.6.0.bn2.bias",
+      "changed": true,
+      "max_abs_delta": 0.03564969077706337
+    },
+    {
+      "key": "policy.nets.encoder.nets.obs.obs_nets.rgb.backbone.nets.6.0.downsample.0.weight",
+      "changed": true,
+      "max_abs_delta": 0.03439830243587494
+    },
+    {
+      "key": "policy.nets.encoder.nets.obs.obs_nets.rgb.backbone.nets.6.0.downsample.1.weight",
+      "changed": true,
+      "max_abs_delta": 0.02747565507888794
+    },
+    {
+      "key": "policy.nets.encoder.nets.obs.obs_nets.rgb.backbone.nets.6.0.downsample.1.bias",
+      "changed": true,
+      "max_abs_delta": 0.03564969077706337
+    },
+    {
+      "key": "policy.nets.encoder.nets.obs.obs_nets.rgb.backbone.nets.6.1.conv1.weight",
+      "changed": true,
+      "max_abs_delta": 0.04499996080994606
+    },
+    {
+      "key": "policy.nets.encoder.nets.obs.obs_nets.rgb.backbone.nets.6.1.bn1.weight",
+      "changed": true,
+      "max_abs_delta": 0.027752816677093506
+    },
+    {
+      "key": "policy.nets.encoder.nets.obs.obs_nets.rgb.backbone.nets.6.1.bn1.bias",
+      "changed": true,
+      "max_abs_delta": 0.03854668512940407
+    },
+    {
+      "key": "policy.nets.encoder.nets.obs.obs_nets.rgb.backbone.nets.6.1.conv2.weight",
+      "changed": true,
+      "max_abs_delta": 0.03788190707564354
+    },
+    {
+      "key": "policy.nets.encoder.nets.obs.obs_nets.rgb.backbone.nets.6.1.bn2.weight",
+      "changed": true,
+      "max_abs_delta": 0.02563345432281494
+    },
+    {
+      "key": "policy.nets.encoder.nets.obs.obs_nets.rgb.backbone.nets.6.1.bn2.bias",
+      "changed": true,
+      "max_abs_delta": 0.04533125460147858
+    },
+    {
+      "key": "policy.nets.encoder.nets.obs.obs_nets.rgb.backbone.nets.7.0.conv1.weight",
+      "changed": true,
+      "max_abs_delta": 0.043955303728580475
+    },
+    {
+      "key": "policy.nets.encoder.nets.obs.obs_nets.rgb.backbone.nets.7.0.bn1.weight",
+      "changed": true,
+      "max_abs_delta": 0.03556323051452637
+    },
+    {
+      "key": "policy.nets.encoder.nets.obs.obs_nets.rgb.backbone.nets.7.0.bn1.bias",
+      "changed": true,
+      "max_abs_delta": 0.04849908500909805
+    },
+    {
+      "key": "policy.nets.encoder.nets.obs.obs_nets.rgb.backbone.nets.7.0.conv2.weight",
+      "changed": true,
+      "max_abs_delta": 0.05190896615386009
+    },
+    {
+      "key": "policy.nets.encoder.nets.obs.obs_nets.rgb.backbone.nets.7.0.bn2.weight",
+      "changed": true,
+      "max_abs_delta": 0.029520153999328613
+    },
+    {
+      "key": "policy.nets.encoder.nets.obs.obs_nets.rgb.backbone.nets.7.0.bn2.bias",
+      "changed": true,
+      "max_abs_delta": 0.034825317561626434
+    },
+    {
+      "key": "policy.nets.encoder.nets.obs.obs_nets.rgb.backbone.nets.7.0.downsample.0.weight",
+      "changed": true,
+      "max_abs_delta": 0.04742766171693802
+    },
+    {
+      "key": "policy.nets.encoder.nets.obs.obs_nets.rgb.backbone.nets.7.0.downsample.1.weight",
+      "changed": true,
+      "max_abs_delta": 0.02874511480331421
+    },
+    {
+      "key": "policy.nets.encoder.nets.obs.obs_nets.rgb.backbone.nets.7.0.downsample.1.bias",
+      "changed": true,
+      "max_abs_delta": 0.034825317561626434
+    },
+    {
+      "key": "policy.nets.encoder.nets.obs.obs_nets.rgb.backbone.nets.7.1.conv1.weight",
+      "changed": true,
+      "max_abs_delta": 0.04518182948231697
+    },
+    {
+      "key": "policy.nets.encoder.nets.obs.obs_nets.rgb.backbone.nets.7.1.bn1.weight",
+      "changed": true,
+      "max_abs_delta": 0.030555784702301025
+    },
+    {
+      "key": "policy.nets.encoder.nets.obs.obs_nets.rgb.backbone.nets.7.1.bn1.bias",
+      "changed": true,
+      "max_abs_delta": 0.04164974018931389
+    },
+    {
+      "key": "policy.nets.encoder.nets.obs.obs_nets.rgb.backbone.nets.7.1.conv2.weight",
+      "changed": true,
+      "max_abs_delta": 0.044338710606098175
+    },
+    {
+      "key": "policy.nets.encoder.nets.obs.obs_nets.rgb.backbone.nets.7.1.bn2.weight",
+      "changed": true,
+      "max_abs_delta": 0.04858386516571045
+    },
+    {
+      "key": "policy.nets.encoder.nets.obs.obs_nets.rgb.backbone.nets.7.1.bn2.bias",
+      "changed": true,
+      "max_abs_delta": 0.03554242104291916
+    },
+    {
+      "key": "policy.nets.encoder.nets.obs.obs_nets.rgb.pool.nets.weight",
+      "changed": true,
+      "max_abs_delta": 0.049157608300447464
+    },
+    {
+      "key": "policy.nets.encoder.nets.obs.obs_nets.rgb.pool.nets.bias",
+      "changed": true,
+      "max_abs_delta": 0.004124704748392105
+    },
+    {
+      "key": "policy.nets.encoder.nets.obs.obs_nets.rgb.nets.3.weight",
+      "changed": true,
+      "max_abs_delta": 0.07109619677066803
+    },
+    {
+      "key": "policy.nets.encoder.nets.obs.obs_nets.rgb.nets.3.bias",
+      "changed": true,
+      "max_abs_delta": 0.006127983331680298
+    },
+    {
+      "key": "policy.nets.embed_encoder.weight",
+      "changed": true,
+      "max_abs_delta": 0.08379434049129486
+    },
+    {
+      "key": "policy.nets.embed_encoder.bias",
+      "changed": true,
+      "max_abs_delta": 0.02102389931678772
+    },
+    {
+      "key": "policy.nets.embed_ln.weight",
+      "changed": true,
+      "max_abs_delta": 0.03608286380767822
+    },
+    {
+      "key": "policy.nets.embed_ln.bias",
+      "changed": true,
+      "max_abs_delta": 0.03478490188717842
+    },
+    {
+      "key": "policy.nets.transformer.nets.transformer.0.nets.attention.nets.qkv.weight",
+      "changed": true,
+      "max_abs_delta": 0.050707098096609116
+    },
+    {
+      "key": "policy.nets.transformer.nets.transformer.0.nets.attention.nets.output.weight",
+      "changed": true,
+      "max_abs_delta": 0.0873710885643959
+    },
+    {
+      "key": "policy.nets.transformer.nets.transformer.0.nets.attention.nets.output.bias",
+      "changed": true,
+      "max_abs_delta": 0.057846784591674805
+    },
+    {
+      "key": "policy.nets.transformer.nets.transformer.0.nets.mlp.0.weight",
+      "changed": true,
+      "max_abs_delta": 0.08181989938020706
+    },
+    {
+      "key": "policy.nets.transformer.nets.transformer.0.nets.mlp.0.bias",
+      "changed": true,
+      "max_abs_delta": 0.01197685208171606
+    },
+    {
+      "key": "policy.nets.transformer.nets.transformer.0.nets.mlp.2.weight",
+      "changed": true,
+      "max_abs_delta": 0.11100036650896072
+    },
+    {
+      "key": "policy.nets.transformer.nets.transformer.0.nets.mlp.2.bias",
+      "changed": true,
+      "max_abs_delta": 0.06966269761323929
+    },
+    {
+      "key": "policy.nets.transformer.nets.transformer.0.nets.ln1.weight",
+      "changed": true,
+      "max_abs_delta": 0.03835713863372803
+    },
+    {
+      "key": "policy.nets.transformer.nets.transformer.0.nets.ln1.bias",
+      "changed": true,
+      "max_abs_delta": 0.021875616163015366
+    },
+    {
+      "key": "policy.nets.transformer.nets.transformer.0.nets.ln2.weight",
+      "changed": true,
+      "max_abs_delta": 0.045788347721099854
+    },
+    {
+      "key": "policy.nets.transformer.nets.transformer.0.nets.ln2.bias",
+      "changed": true,
+      "max_abs_delta": 0.023334508761763573
+    },
+    {
+      "key": "policy.nets.transformer.nets.transformer.1.nets.attention.nets.qkv.weight",
+      "changed": true,
+      "max_abs_delta": 0.03988712653517723
+    },
+    {
+      "key": "policy.nets.transformer.nets.transformer.1.nets.attention.nets.output.weight",
+      "changed": true,
+      "max_abs_delta": 0.11866359412670135
+    },
+    {
+      "key": "policy.nets.transformer.nets.transformer.1.nets.attention.nets.output.bias",
+      "changed": true,
+      "max_abs_delta": 0.07806269824504852
+    },
+    {
+      "key": "policy.nets.transformer.nets.transformer.1.nets.mlp.0.weight",
+      "changed": true,
+      "max_abs_delta": 0.04927806928753853
+    },
+    {
+      "key": "policy.nets.transformer.nets.transformer.1.nets.mlp.0.bias",
+      "changed": true,
+      "max_abs_delta": 0.013580461032688618
+    },
+    {
+      "key": "policy.nets.transformer.nets.transformer.1.nets.mlp.2.weight",
+      "changed": true,
+      "max_abs_delta": 0.13505065441131592
+    },
+    {
+      "key": "policy.nets.transformer.nets.transformer.1.nets.mlp.2.bias",
+      "changed": true,
+      "max_abs_delta": 0.07357408851385117
+    },
+    {
+      "key": "policy.nets.transformer.nets.transformer.1.nets.ln1.weight",
+      "changed": true,
+      "max_abs_delta": 0.019392788410186768
+    },
+    {
+      "key": "policy.nets.transformer.nets.transformer.1.nets.ln1.bias",
+      "changed": true,
+      "max_abs_delta": 0.01131545938551426
+    },
+    {
+      "key": "policy.nets.transformer.nets.transformer.1.nets.ln2.weight",
+      "changed": true,
+      "max_abs_delta": 0.044907569885253906
+    },
+    {
+      "key": "policy.nets.transformer.nets.transformer.1.nets.ln2.bias",
+      "changed": true,
+      "max_abs_delta": 0.028901277109980583
+    },
+    {
+      "key": "policy.nets.transformer.nets.transformer.2.nets.attention.nets.qkv.weight",
+      "changed": true,
+      "max_abs_delta": 0.03076920285820961
+    },
+    {
+      "key": "policy.nets.transformer.nets.transformer.2.nets.attention.nets.output.weight",
+      "changed": true,
+      "max_abs_delta": 0.11652116477489471
+    },
+    {
+      "key": "policy.nets.transformer.nets.transformer.2.nets.attention.nets.output.bias",
+      "changed": true,
+      "max_abs_delta": 0.08016274869441986
+    },
+    {
+      "key": "policy.nets.transformer.nets.transformer.2.nets.mlp.0.weight",
+      "changed": true,
+      "max_abs_delta": 0.03132331371307373
+    },
+    {
+      "key": "policy.nets.transformer.nets.transformer.2.nets.mlp.0.bias",
+      "changed": true,
+      "max_abs_delta": 0.01595812290906906
+    },
+    {
+      "key": "policy.nets.transformer.nets.transformer.2.nets.mlp.2.weight",
+      "changed": true,
+      "max_abs_delta": 0.14418864250183105
+    },
+    {
+      "key": "policy.nets.transformer.nets.transformer.2.nets.mlp.2.bias",
+      "changed": true,
+      "max_abs_delta": 0.07262454181909561
+    },
+    {
+      "key": "policy.nets.transformer.nets.transformer.2.nets.ln1.weight",
+      "changed": true,
+      "max_abs_delta": 0.03139251470565796
+    },
+    {
+      "key": "policy.nets.transformer.nets.transformer.2.nets.ln1.bias",
+      "changed": true,
+      "max_abs_delta": 0.02138594724237919
+    },
+    {
+      "key": "policy.nets.transformer.nets.transformer.2.nets.ln2.weight",
+      "changed": true,
+      "max_abs_delta": 0.0333174467086792
+    },
+    {
+      "key": "policy.nets.transformer.nets.transformer.2.nets.ln2.bias",
+      "changed": true,
+      "max_abs_delta": 0.024573655799031258
+    },
+    {
+      "key": "policy.nets.transformer.nets.transformer.3.nets.attention.nets.qkv.weight",
+      "changed": true,
+      "max_abs_delta": 0.032199569046497345
+    },
+    {
+      "key": "policy.nets.transformer.nets.transformer.3.nets.attention.nets.output.weight",
+      "changed": true,
+      "max_abs_delta": 0.10893630981445312
+    },
+    {
+      "key": "policy.nets.transformer.nets.transformer.3.nets.attention.nets.output.bias",
+      "changed": true,
+      "max_abs_delta": 0.07681702822446823
+    },
+    {
+      "key": "policy.nets.transformer.nets.transformer.3.nets.mlp.0.weight",
+      "changed": true,
+      "max_abs_delta": 0.03259219601750374
+    },
+    {
+      "key": "policy.nets.transformer.nets.transformer.3.nets.mlp.0.bias",
+      "changed": true,
+      "max_abs_delta": 0.013184857554733753
+    },
+    {
+      "key": "policy.nets.transformer.nets.transformer.3.nets.mlp.2.weight",
+      "changed": true,
+      "max_abs_delta": 0.12383200973272324
+    },
+    {
+      "key": "policy.nets.transformer.nets.transformer.3.nets.mlp.2.bias",
+      "changed": true,
+      "max_abs_delta": 0.05928243696689606
+    },
+    {
+      "key": "policy.nets.transformer.nets.transformer.3.nets.ln1.weight",
+      "changed": true,
+      "max_abs_delta": 0.04421311616897583
+    },
+    {
+      "key": "policy.nets.transformer.nets.transformer.3.nets.ln1.bias",
+      "changed": true,
+      "max_abs_delta": 0.03099159151315689
+    },
+    {
+      "key": "policy.nets.transformer.nets.transformer.3.nets.ln2.weight",
+      "changed": true,
+      "max_abs_delta": 0.02356243133544922
+    },
+    {
+      "key": "policy.nets.transformer.nets.transformer.3.nets.ln2.bias",
+      "changed": true,
+      "max_abs_delta": 0.01891781948506832
+    },
+    {
+      "key": "policy.nets.transformer.nets.transformer.4.nets.attention.nets.qkv.weight",
+      "changed": true,
+      "max_abs_delta": 0.028772050514817238
+    },
+    {
+      "key": "policy.nets.transformer.nets.transformer.4.nets.attention.nets.output.weight",
+      "changed": true,
+      "max_abs_delta": 0.08386803418397903
+    },
+    {
+      "key": "policy.nets.transformer.nets.transformer.4.nets.attention.nets.output.bias",
+      "changed": true,
+      "max_abs_delta": 0.06705833971500397
+    },
+    {
+      "key": "policy.nets.transformer.nets.transformer.4.nets.mlp.0.weight",
+      "changed": true,
+      "max_abs_delta": 0.030599653720855713
+    },
+    {
+      "key": "policy.nets.transformer.nets.transformer.4.nets.mlp.0.bias",
+      "changed": true,
+      "max_abs_delta": 0.014457162469625473
+    },
+    {
+      "key": "policy.nets.transformer.nets.transformer.4.nets.mlp.2.weight",
+      "changed": true,
+      "max_abs_delta": 0.08625195175409317
+    },
+    {
+      "key": "policy.nets.transformer.nets.transformer.4.nets.mlp.2.bias",
+      "changed": true,
+      "max_abs_delta": 0.03909113258123398
+    },
+    {
+      "key": "policy.nets.transformer.nets.transformer.4.nets.ln1.weight",
+      "changed": true,
+      "max_abs_delta": 0.03960484266281128
+    },
+    {
+      "key": "policy.nets.transformer.nets.transformer.4.nets.ln1.bias",
+      "changed": true,
+      "max_abs_delta": 0.028410887345671654
+    },
+    {
+      "key": "policy.nets.transformer.nets.transformer.4.nets.ln2.weight",
+      "changed": true,
+      "max_abs_delta": 0.020670533180236816
+    },
+    {
+      "key": "policy.nets.transformer.nets.transformer.4.nets.ln2.bias",
+      "changed": true,
+      "max_abs_delta": 0.014800870791077614
+    },
+    {
+      "key": "policy.nets.transformer.nets.transformer.5.nets.attention.nets.qkv.weight",
+      "changed": true,
+      "max_abs_delta": 0.03329126164317131
+    },
+    {
+      "key": "policy.nets.transformer.nets.transformer.5.nets.attention.nets.output.weight",
+      "changed": true,
+      "max_abs_delta": 0.05180920660495758
+    },
+    {
+      "key": "policy.nets.transformer.nets.transformer.5.nets.attention.nets.output.bias",
+      "changed": true,
+      "max_abs_delta": 0.04664596542716026
+    },
+    {
+      "key": "policy.nets.transformer.nets.transformer.5.nets.mlp.0.weight",
+      "changed": true,
+      "max_abs_delta": 0.037245601415634155
+    },
+    {
+      "key": "policy.nets.transformer.nets.transformer.5.nets.mlp.0.bias",
+      "changed": true,
+      "max_abs_delta": 0.015012226998806
+    },
+    {
+      "key": "policy.nets.transformer.nets.transformer.5.nets.mlp.2.weight",
+      "changed": true,
+      "max_abs_delta": 0.06915407627820969
+    },
+    {
+      "key": "policy.nets.transformer.nets.transformer.5.nets.mlp.2.bias",
+      "changed": true,
+      "max_abs_delta": 0.020628465339541435
+    },
+    {
+      "key": "policy.nets.transformer.nets.transformer.5.nets.ln1.weight",
+      "changed": true,
+      "max_abs_delta": 0.03842318058013916
+    },
+    {
+      "key": "policy.nets.transformer.nets.transformer.5.nets.ln1.bias",
+      "changed": true,
+      "max_abs_delta": 0.027851061895489693
+    },
+    {
+      "key": "policy.nets.transformer.nets.transformer.5.nets.ln2.weight",
+      "changed": true,
+      "max_abs_delta": 0.020932912826538086
+    },
+    {
+      "key": "policy.nets.transformer.nets.transformer.5.nets.ln2.bias",
+      "changed": true,
+      "max_abs_delta": 0.015481440350413322
+    },
+    {
+      "key": "policy.nets.transformer.nets.output_ln.weight",
+      "changed": true,
+      "max_abs_delta": 0.0349431037902832
+    },
+    {
+      "key": "policy.nets.transformer.nets.output_ln.bias",
+      "changed": true,
+      "max_abs_delta": 0.008207605220377445
+    },
+    {
+      "key": "policy.nets.decoder.nets.mean.weight",
+      "changed": true,
+      "max_abs_delta": 0.1493593007326126
+    },
+    {
+      "key": "policy.nets.decoder.nets.mean.bias",
+      "changed": true,
+      "max_abs_delta": 0.03967154398560524
+    },
+    {
+      "key": "policy.nets.decoder.nets.scale.weight",
+      "changed": true,
+      "max_abs_delta": 0.2204733043909073
+    },
+    {
+      "key": "policy.nets.decoder.nets.scale.bias",
+      "changed": true,
+      "max_abs_delta": 0.09719398617744446
+    },
+    {
+      "key": "policy.nets.decoder.nets.logits.weight",
+      "changed": true,
+      "max_abs_delta": 0.20722909271717072
+    },
+    {
+      "key": "policy.nets.decoder.nets.logits.bias",
+      "changed": true,
+      "max_abs_delta": 0.018606210127472878
+    },
+    {
+      "key": "policy.params.embed_timestep",
+      "changed": true,
+      "max_abs_delta": 0.05304504185914993
+    }
+  ]
+}

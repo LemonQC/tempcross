@@ -1,0 +1,1067 @@
+{
+  "trainable_tensors": 212,
+  "changed_tensors": 212,
+  "all_final_trainable_parameters_finite": true,
+  "tensors": [
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.0.weight",
+      "changed": true,
+      "max_abs_delta": 0.030275950208306313
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.1.weight",
+      "changed": true,
+      "max_abs_delta": 0.03175222873687744
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.1.bias",
+      "changed": true,
+      "max_abs_delta": 0.01918034441769123
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.4.0.conv1.weight",
+      "changed": true,
+      "max_abs_delta": 0.04939723759889603
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.4.0.bn1.weight",
+      "changed": true,
+      "max_abs_delta": 0.03023207187652588
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.4.0.bn1.bias",
+      "changed": true,
+      "max_abs_delta": 0.011966920457780361
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.4.0.conv2.weight",
+      "changed": true,
+      "max_abs_delta": 0.05070596933364868
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.4.0.bn2.weight",
+      "changed": true,
+      "max_abs_delta": 0.02325308322906494
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.4.0.bn2.bias",
+      "changed": true,
+      "max_abs_delta": 0.019941534847021103
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.4.1.conv1.weight",
+      "changed": true,
+      "max_abs_delta": 0.046040475368499756
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.4.1.bn1.weight",
+      "changed": true,
+      "max_abs_delta": 0.01563584804534912
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.4.1.bn1.bias",
+      "changed": true,
+      "max_abs_delta": 0.014441145583987236
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.4.1.conv2.weight",
+      "changed": true,
+      "max_abs_delta": 0.03817572817206383
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.4.1.bn2.weight",
+      "changed": true,
+      "max_abs_delta": 0.01788187026977539
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.4.1.bn2.bias",
+      "changed": true,
+      "max_abs_delta": 0.014753781259059906
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.5.0.conv1.weight",
+      "changed": true,
+      "max_abs_delta": 0.039826471358537674
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.5.0.bn1.weight",
+      "changed": true,
+      "max_abs_delta": 0.03495132923126221
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.5.0.bn1.bias",
+      "changed": true,
+      "max_abs_delta": 0.01645563915371895
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.5.0.conv2.weight",
+      "changed": true,
+      "max_abs_delta": 0.04375099390745163
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.5.0.bn2.weight",
+      "changed": true,
+      "max_abs_delta": 0.018980741500854492
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.5.0.bn2.bias",
+      "changed": true,
+      "max_abs_delta": 0.01650713011622429
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.5.0.downsample.0.weight",
+      "changed": true,
+      "max_abs_delta": 0.036406323313713074
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.5.0.downsample.1.weight",
+      "changed": true,
+      "max_abs_delta": 0.02521038055419922
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.5.0.downsample.1.bias",
+      "changed": true,
+      "max_abs_delta": 0.01650713011622429
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.5.1.conv1.weight",
+      "changed": true,
+      "max_abs_delta": 0.04836268350481987
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.5.1.bn1.weight",
+      "changed": true,
+      "max_abs_delta": 0.03295779228210449
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.5.1.bn1.bias",
+      "changed": true,
+      "max_abs_delta": 0.018694130703806877
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.5.1.conv2.weight",
+      "changed": true,
+      "max_abs_delta": 0.04442305862903595
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.5.1.bn2.weight",
+      "changed": true,
+      "max_abs_delta": 0.015858352184295654
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.5.1.bn2.bias",
+      "changed": true,
+      "max_abs_delta": 0.017194248735904694
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.6.0.conv1.weight",
+      "changed": true,
+      "max_abs_delta": 0.04211682826280594
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.6.0.bn1.weight",
+      "changed": true,
+      "max_abs_delta": 0.028550148010253906
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.6.0.bn1.bias",
+      "changed": true,
+      "max_abs_delta": 0.015208184719085693
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.6.0.conv2.weight",
+      "changed": true,
+      "max_abs_delta": 0.04780625179409981
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.6.0.bn2.weight",
+      "changed": true,
+      "max_abs_delta": 0.024246931076049805
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.6.0.bn2.bias",
+      "changed": true,
+      "max_abs_delta": 0.014810384251177311
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.6.0.downsample.0.weight",
+      "changed": true,
+      "max_abs_delta": 0.0537215992808342
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.6.0.downsample.1.weight",
+      "changed": true,
+      "max_abs_delta": 0.03142678737640381
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.6.0.downsample.1.bias",
+      "changed": true,
+      "max_abs_delta": 0.014810384251177311
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.6.1.conv1.weight",
+      "changed": true,
+      "max_abs_delta": 0.04805724322795868
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.6.1.bn1.weight",
+      "changed": true,
+      "max_abs_delta": 0.026182889938354492
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.6.1.bn1.bias",
+      "changed": true,
+      "max_abs_delta": 0.013727452605962753
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.6.1.conv2.weight",
+      "changed": true,
+      "max_abs_delta": 0.041870519518852234
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.6.1.bn2.weight",
+      "changed": true,
+      "max_abs_delta": 0.01607227325439453
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.6.1.bn2.bias",
+      "changed": true,
+      "max_abs_delta": 0.014797589741647243
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.7.0.conv1.weight",
+      "changed": true,
+      "max_abs_delta": 0.04621308296918869
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.7.0.bn1.weight",
+      "changed": true,
+      "max_abs_delta": 0.029622673988342285
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.7.0.bn1.bias",
+      "changed": true,
+      "max_abs_delta": 0.015161317773163319
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.7.0.conv2.weight",
+      "changed": true,
+      "max_abs_delta": 0.04304550588130951
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.7.0.bn2.weight",
+      "changed": true,
+      "max_abs_delta": 0.020664215087890625
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.7.0.bn2.bias",
+      "changed": true,
+      "max_abs_delta": 0.017935773357748985
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.7.0.downsample.0.weight",
+      "changed": true,
+      "max_abs_delta": 0.03889170289039612
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.7.0.downsample.1.weight",
+      "changed": true,
+      "max_abs_delta": 0.039571404457092285
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.7.0.downsample.1.bias",
+      "changed": true,
+      "max_abs_delta": 0.017935773357748985
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.7.1.conv1.weight",
+      "changed": true,
+      "max_abs_delta": 0.04276558384299278
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.7.1.bn1.weight",
+      "changed": true,
+      "max_abs_delta": 0.022871851921081543
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.7.1.bn1.bias",
+      "changed": true,
+      "max_abs_delta": 0.016188466921448708
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.7.1.conv2.weight",
+      "changed": true,
+      "max_abs_delta": 0.04706725478172302
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.7.1.bn2.weight",
+      "changed": true,
+      "max_abs_delta": 0.03034818172454834
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.7.1.bn2.bias",
+      "changed": true,
+      "max_abs_delta": 0.019554348662495613
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.pool.nets.weight",
+      "changed": true,
+      "max_abs_delta": 0.03178985044360161
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.pool.nets.bias",
+      "changed": true,
+      "max_abs_delta": 2.386048436164856e-05
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.nets.3.weight",
+      "changed": true,
+      "max_abs_delta": 0.05036476254463196
+    },
+    {
+      "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.nets.3.bias",
+      "changed": true,
+      "max_abs_delta": 0.012188345193862915
+    },
+    {
+      "key": "policy.noise_pred_net.mid_modules.0.blocks.0.block.0.weight",
+      "changed": true,
+      "max_abs_delta": 0.04776698723435402
+    },
+    {
+      "key": "policy.noise_pred_net.mid_modules.0.blocks.0.block.0.bias",
+      "changed": true,
+      "max_abs_delta": 0.012342602014541626
+    },
+    {
+      "key": "policy.noise_pred_net.mid_modules.0.blocks.0.block.1.weight",
+      "changed": true,
+      "max_abs_delta": 0.043538451194763184
+    },
+    {
+      "key": "policy.noise_pred_net.mid_modules.0.blocks.0.block.1.bias",
+      "changed": true,
+      "max_abs_delta": 0.015393020585179329
+    },
+    {
+      "key": "policy.noise_pred_net.mid_modules.0.blocks.1.block.0.weight",
+      "changed": true,
+      "max_abs_delta": 0.04400454834103584
+    },
+    {
+      "key": "policy.noise_pred_net.mid_modules.0.blocks.1.block.0.bias",
+      "changed": true,
+      "max_abs_delta": 0.013666246086359024
+    },
+    {
+      "key": "policy.noise_pred_net.mid_modules.0.blocks.1.block.1.weight",
+      "changed": true,
+      "max_abs_delta": 0.02150702476501465
+    },
+    {
+      "key": "policy.noise_pred_net.mid_modules.0.blocks.1.block.1.bias",
+      "changed": true,
+      "max_abs_delta": 0.012179411947727203
+    },
+    {
+      "key": "policy.noise_pred_net.mid_modules.0.cond_encoder.1.weight",
+      "changed": true,
+      "max_abs_delta": 0.10993184894323349
+    },
+    {
+      "key": "policy.noise_pred_net.mid_modules.0.cond_encoder.1.bias",
+      "changed": true,
+      "max_abs_delta": 0.011599152348935604
+    },
+    {
+      "key": "policy.noise_pred_net.mid_modules.1.blocks.0.block.0.weight",
+      "changed": true,
+      "max_abs_delta": 0.052370697259902954
+    },
+    {
+      "key": "policy.noise_pred_net.mid_modules.1.blocks.0.block.0.bias",
+      "changed": true,
+      "max_abs_delta": 0.005228222347795963
+    },
+    {
+      "key": "policy.noise_pred_net.mid_modules.1.blocks.0.block.1.weight",
+      "changed": true,
+      "max_abs_delta": 0.03098750114440918
+    },
+    {
+      "key": "policy.noise_pred_net.mid_modules.1.blocks.0.block.1.bias",
+      "changed": true,
+      "max_abs_delta": 0.008050366304814816
+    },
+    {
+      "key": "policy.noise_pred_net.mid_modules.1.blocks.1.block.0.weight",
+      "changed": true,
+      "max_abs_delta": 0.04700327664613724
+    },
+    {
+      "key": "policy.noise_pred_net.mid_modules.1.blocks.1.block.0.bias",
+      "changed": true,
+      "max_abs_delta": 0.01258204784244299
+    },
+    {
+      "key": "policy.noise_pred_net.mid_modules.1.blocks.1.block.1.weight",
+      "changed": true,
+      "max_abs_delta": 0.030774831771850586
+    },
+    {
+      "key": "policy.noise_pred_net.mid_modules.1.blocks.1.block.1.bias",
+      "changed": true,
+      "max_abs_delta": 0.01239148061722517
+    },
+    {
+      "key": "policy.noise_pred_net.mid_modules.1.cond_encoder.1.weight",
+      "changed": true,
+      "max_abs_delta": 0.10505837202072144
+    },
+    {
+      "key": "policy.noise_pred_net.mid_modules.1.cond_encoder.1.bias",
+      "changed": true,
+      "max_abs_delta": 0.0064775776118040085
+    },
+    {
+      "key": "policy.noise_pred_net.diffusion_step_encoder.1.weight",
+      "changed": true,
+      "max_abs_delta": 0.039125144481658936
+    },
+    {
+      "key": "policy.noise_pred_net.diffusion_step_encoder.1.bias",
+      "changed": true,
+      "max_abs_delta": 0.010548446327447891
+    },
+    {
+      "key": "policy.noise_pred_net.diffusion_step_encoder.3.weight",
+      "changed": true,
+      "max_abs_delta": 0.049844980239868164
+    },
+    {
+      "key": "policy.noise_pred_net.diffusion_step_encoder.3.bias",
+      "changed": true,
+      "max_abs_delta": 0.006667489185929298
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.0.0.blocks.0.block.0.weight",
+      "changed": true,
+      "max_abs_delta": 0.02343546599149704
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.0.0.blocks.0.block.0.bias",
+      "changed": true,
+      "max_abs_delta": 0.004815327003598213
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.0.0.blocks.0.block.1.weight",
+      "changed": true,
+      "max_abs_delta": 0.019828081130981445
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.0.0.blocks.0.block.1.bias",
+      "changed": true,
+      "max_abs_delta": 0.0058535011485219
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.0.0.blocks.1.block.0.weight",
+      "changed": true,
+      "max_abs_delta": 0.0345059409737587
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.0.0.blocks.1.block.0.bias",
+      "changed": true,
+      "max_abs_delta": 0.010877372696995735
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.0.0.blocks.1.block.1.weight",
+      "changed": true,
+      "max_abs_delta": 0.01656895875930786
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.0.0.blocks.1.block.1.bias",
+      "changed": true,
+      "max_abs_delta": 0.006850427947938442
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.0.0.cond_encoder.1.weight",
+      "changed": true,
+      "max_abs_delta": 0.09171280264854431
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.0.0.cond_encoder.1.bias",
+      "changed": true,
+      "max_abs_delta": 0.004931509494781494
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.0.0.residual_conv.weight",
+      "changed": true,
+      "max_abs_delta": 0.03260798752307892
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.0.0.residual_conv.bias",
+      "changed": true,
+      "max_abs_delta": 0.002825499512255192
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.0.1.blocks.0.block.0.weight",
+      "changed": true,
+      "max_abs_delta": 0.03362784534692764
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.0.1.blocks.0.block.0.bias",
+      "changed": true,
+      "max_abs_delta": 0.005165381822735071
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.0.1.blocks.0.block.1.weight",
+      "changed": true,
+      "max_abs_delta": 0.009060263633728027
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.0.1.blocks.0.block.1.bias",
+      "changed": true,
+      "max_abs_delta": 0.004951553884893656
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.0.1.blocks.1.block.0.weight",
+      "changed": true,
+      "max_abs_delta": 0.032712750136852264
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.0.1.blocks.1.block.0.bias",
+      "changed": true,
+      "max_abs_delta": 0.009300514124333858
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.0.1.blocks.1.block.1.weight",
+      "changed": true,
+      "max_abs_delta": 0.025859355926513672
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.0.1.blocks.1.block.1.bias",
+      "changed": true,
+      "max_abs_delta": 0.0067102801986038685
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.0.1.cond_encoder.1.weight",
+      "changed": true,
+      "max_abs_delta": 0.08483404666185379
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.0.1.cond_encoder.1.bias",
+      "changed": true,
+      "max_abs_delta": 0.004970898851752281
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.0.2.conv.weight",
+      "changed": true,
+      "max_abs_delta": 0.014185805805027485
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.0.2.conv.bias",
+      "changed": true,
+      "max_abs_delta": 0.0051681953482329845
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.1.0.blocks.0.block.0.weight",
+      "changed": true,
+      "max_abs_delta": 0.02463025599718094
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.1.0.blocks.0.block.0.bias",
+      "changed": true,
+      "max_abs_delta": 0.004925410728901625
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.1.0.blocks.0.block.1.weight",
+      "changed": true,
+      "max_abs_delta": 0.021120786666870117
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.1.0.blocks.0.block.1.bias",
+      "changed": true,
+      "max_abs_delta": 0.010074237361550331
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.1.0.blocks.1.block.0.weight",
+      "changed": true,
+      "max_abs_delta": 0.03949161618947983
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.1.0.blocks.1.block.0.bias",
+      "changed": true,
+      "max_abs_delta": 0.009477033279836178
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.1.0.blocks.1.block.1.weight",
+      "changed": true,
+      "max_abs_delta": 0.0242462158203125
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.1.0.blocks.1.block.1.bias",
+      "changed": true,
+      "max_abs_delta": 0.006662216503173113
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.1.0.cond_encoder.1.weight",
+      "changed": true,
+      "max_abs_delta": 0.045885391533374786
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.1.0.cond_encoder.1.bias",
+      "changed": true,
+      "max_abs_delta": 0.0060910917818546295
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.1.0.residual_conv.weight",
+      "changed": true,
+      "max_abs_delta": 0.03422227501869202
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.1.0.residual_conv.bias",
+      "changed": true,
+      "max_abs_delta": 0.003618525341153145
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.1.1.blocks.0.block.0.weight",
+      "changed": true,
+      "max_abs_delta": 0.025196628645062447
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.1.1.blocks.0.block.0.bias",
+      "changed": true,
+      "max_abs_delta": 0.006646402180194855
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.1.1.blocks.0.block.1.weight",
+      "changed": true,
+      "max_abs_delta": 0.013193368911743164
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.1.1.blocks.0.block.1.bias",
+      "changed": true,
+      "max_abs_delta": 0.008590016514062881
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.1.1.blocks.1.block.0.weight",
+      "changed": true,
+      "max_abs_delta": 0.025333985686302185
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.1.1.blocks.1.block.0.bias",
+      "changed": true,
+      "max_abs_delta": 0.009663067758083344
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.1.1.blocks.1.block.1.weight",
+      "changed": true,
+      "max_abs_delta": 0.027260899543762207
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.1.1.blocks.1.block.1.bias",
+      "changed": true,
+      "max_abs_delta": 0.00576159218326211
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.1.1.cond_encoder.1.weight",
+      "changed": true,
+      "max_abs_delta": 0.041244566440582275
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.1.1.cond_encoder.1.bias",
+      "changed": true,
+      "max_abs_delta": 0.00348618533462286
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.1.2.conv.weight",
+      "changed": true,
+      "max_abs_delta": 0.030174098908901215
+    },
+    {
+      "key": "policy.noise_pred_net.up_modules.1.2.conv.bias",
+      "changed": true,
+      "max_abs_delta": 0.006115280091762543
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.0.0.blocks.0.block.0.weight",
+      "changed": true,
+      "max_abs_delta": 0.09160808473825455
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.0.0.blocks.0.block.0.bias",
+      "changed": true,
+      "max_abs_delta": 0.0340215265750885
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.0.0.blocks.0.block.1.weight",
+      "changed": true,
+      "max_abs_delta": 0.025546371936798096
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.0.0.blocks.0.block.1.bias",
+      "changed": true,
+      "max_abs_delta": 0.024975188076496124
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.0.0.blocks.1.block.0.weight",
+      "changed": true,
+      "max_abs_delta": 0.08440502732992172
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.0.0.blocks.1.block.0.bias",
+      "changed": true,
+      "max_abs_delta": 0.017769766971468925
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.0.0.blocks.1.block.1.weight",
+      "changed": true,
+      "max_abs_delta": 0.0437544584274292
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.0.0.blocks.1.block.1.bias",
+      "changed": true,
+      "max_abs_delta": 0.020846178755164146
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.0.0.cond_encoder.1.weight",
+      "changed": true,
+      "max_abs_delta": 0.06492407619953156
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.0.0.cond_encoder.1.bias",
+      "changed": true,
+      "max_abs_delta": 0.0129396365955472
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.0.0.residual_conv.weight",
+      "changed": true,
+      "max_abs_delta": 0.07772526144981384
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.0.0.residual_conv.bias",
+      "changed": true,
+      "max_abs_delta": 0.013679832220077515
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.0.1.blocks.0.block.0.weight",
+      "changed": true,
+      "max_abs_delta": 0.10558852553367615
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.0.1.blocks.0.block.0.bias",
+      "changed": true,
+      "max_abs_delta": 0.008333721198141575
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.0.1.blocks.0.block.1.weight",
+      "changed": true,
+      "max_abs_delta": 0.04152274131774902
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.0.1.blocks.0.block.1.bias",
+      "changed": true,
+      "max_abs_delta": 0.024127503857016563
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.0.1.blocks.1.block.0.weight",
+      "changed": true,
+      "max_abs_delta": 0.052398115396499634
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.0.1.blocks.1.block.0.bias",
+      "changed": true,
+      "max_abs_delta": 0.012551994994282722
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.0.1.blocks.1.block.1.weight",
+      "changed": true,
+      "max_abs_delta": 0.026863157749176025
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.0.1.blocks.1.block.1.bias",
+      "changed": true,
+      "max_abs_delta": 0.009655465371906757
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.0.1.cond_encoder.1.weight",
+      "changed": true,
+      "max_abs_delta": 0.07350172102451324
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.0.1.cond_encoder.1.bias",
+      "changed": true,
+      "max_abs_delta": 0.014004433527588844
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.0.2.conv.weight",
+      "changed": true,
+      "max_abs_delta": 0.05127973482012749
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.0.2.conv.bias",
+      "changed": true,
+      "max_abs_delta": 0.0025336872786283493
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.1.0.blocks.0.block.0.weight",
+      "changed": true,
+      "max_abs_delta": 0.04386981576681137
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.1.0.blocks.0.block.0.bias",
+      "changed": true,
+      "max_abs_delta": 0.022130567580461502
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.1.0.blocks.0.block.1.weight",
+      "changed": true,
+      "max_abs_delta": 0.07307660579681396
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.1.0.blocks.0.block.1.bias",
+      "changed": true,
+      "max_abs_delta": 0.03922158479690552
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.1.0.blocks.1.block.0.weight",
+      "changed": true,
+      "max_abs_delta": 0.05160950869321823
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.1.0.blocks.1.block.0.bias",
+      "changed": true,
+      "max_abs_delta": 0.013508212752640247
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.1.0.blocks.1.block.1.weight",
+      "changed": true,
+      "max_abs_delta": 0.021518588066101074
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.1.0.blocks.1.block.1.bias",
+      "changed": true,
+      "max_abs_delta": 0.010429429821670055
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.1.0.cond_encoder.1.weight",
+      "changed": true,
+      "max_abs_delta": 0.08508224785327911
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.1.0.cond_encoder.1.bias",
+      "changed": true,
+      "max_abs_delta": 0.020544635131955147
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.1.0.residual_conv.weight",
+      "changed": true,
+      "max_abs_delta": 0.037577301263809204
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.1.0.residual_conv.bias",
+      "changed": true,
+      "max_abs_delta": 0.006243664771318436
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.1.1.blocks.0.block.0.weight",
+      "changed": true,
+      "max_abs_delta": 0.04457671567797661
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.1.1.blocks.0.block.0.bias",
+      "changed": true,
+      "max_abs_delta": 0.013450623489916325
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.1.1.blocks.0.block.1.weight",
+      "changed": true,
+      "max_abs_delta": 0.052742600440979004
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.1.1.blocks.0.block.1.bias",
+      "changed": true,
+      "max_abs_delta": 0.020246034488081932
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.1.1.blocks.1.block.0.weight",
+      "changed": true,
+      "max_abs_delta": 0.04270482435822487
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.1.1.blocks.1.block.0.bias",
+      "changed": true,
+      "max_abs_delta": 0.015629002824425697
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.1.1.blocks.1.block.1.weight",
+      "changed": true,
+      "max_abs_delta": 0.025165855884552002
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.1.1.blocks.1.block.1.bias",
+      "changed": true,
+      "max_abs_delta": 0.009945491328835487
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.1.1.cond_encoder.1.weight",
+      "changed": true,
+      "max_abs_delta": 0.07458330690860748
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.1.1.cond_encoder.1.bias",
+      "changed": true,
+      "max_abs_delta": 0.018671635538339615
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.1.2.conv.weight",
+      "changed": true,
+      "max_abs_delta": 0.03196956217288971
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.1.2.conv.bias",
+      "changed": true,
+      "max_abs_delta": 0.006598450243473053
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.2.0.blocks.0.block.0.weight",
+      "changed": true,
+      "max_abs_delta": 0.06936793029308319
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.2.0.blocks.0.block.0.bias",
+      "changed": true,
+      "max_abs_delta": 0.02399260923266411
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.2.0.blocks.0.block.1.weight",
+      "changed": true,
+      "max_abs_delta": 0.04081249237060547
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.2.0.blocks.0.block.1.bias",
+      "changed": true,
+      "max_abs_delta": 0.02718300186097622
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.2.0.blocks.1.block.0.weight",
+      "changed": true,
+      "max_abs_delta": 0.06683294475078583
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.2.0.blocks.1.block.0.bias",
+      "changed": true,
+      "max_abs_delta": 0.015811529010534286
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.2.0.blocks.1.block.1.weight",
+      "changed": true,
+      "max_abs_delta": 0.08356606960296631
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.2.0.blocks.1.block.1.bias",
+      "changed": true,
+      "max_abs_delta": 0.026440640911459923
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.2.0.cond_encoder.1.weight",
+      "changed": true,
+      "max_abs_delta": 0.09538879245519638
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.2.0.cond_encoder.1.bias",
+      "changed": true,
+      "max_abs_delta": 0.0253977719694376
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.2.0.residual_conv.weight",
+      "changed": true,
+      "max_abs_delta": 0.016109438613057137
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.2.0.residual_conv.bias",
+      "changed": true,
+      "max_abs_delta": 0.007282526697963476
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.2.1.blocks.0.block.0.weight",
+      "changed": true,
+      "max_abs_delta": 0.06182863563299179
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.2.1.blocks.0.block.0.bias",
+      "changed": true,
+      "max_abs_delta": 0.020248154178261757
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.2.1.blocks.0.block.1.weight",
+      "changed": true,
+      "max_abs_delta": 0.03883659839630127
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.2.1.blocks.0.block.1.bias",
+      "changed": true,
+      "max_abs_delta": 0.02370118908584118
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.2.1.blocks.1.block.0.weight",
+      "changed": true,
+      "max_abs_delta": 0.06548094004392624
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.2.1.blocks.1.block.0.bias",
+      "changed": true,
+      "max_abs_delta": 0.017784934490919113
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.2.1.blocks.1.block.1.weight",
+      "changed": true,
+      "max_abs_delta": 0.030939936637878418
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.2.1.blocks.1.block.1.bias",
+      "changed": true,
+      "max_abs_delta": 0.021694917231798172
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.2.1.cond_encoder.1.weight",
+      "changed": true,
+      "max_abs_delta": 0.14143167436122894
+    },
+    {
+      "key": "policy.noise_pred_net.down_modules.2.1.cond_encoder.1.bias",
+      "changed": true,
+      "max_abs_delta": 0.020703496411442757
+    },
+    {
+      "key": "policy.noise_pred_net.final_conv.0.block.0.weight",
+      "changed": true,
+      "max_abs_delta": 0.03241810202598572
+    },
+    {
+      "key": "policy.noise_pred_net.final_conv.0.block.0.bias",
+      "changed": true,
+      "max_abs_delta": 0.017350567504763603
+    },
+    {
+      "key": "policy.noise_pred_net.final_conv.0.block.1.weight",
+      "changed": true,
+      "max_abs_delta": 0.016524910926818848
+    },
+    {
+      "key": "policy.noise_pred_net.final_conv.0.block.1.bias",
+      "changed": true,
+      "max_abs_delta": 0.008253408595919609
+    },
+    {
+      "key": "policy.noise_pred_net.final_conv.1.weight",
+      "changed": true,
+      "max_abs_delta": 0.028427384793758392
+    },
+    {
+      "key": "policy.noise_pred_net.final_conv.1.bias",
+      "changed": true,
+      "max_abs_delta": 0.0010857116430997849
+    }
+  ]
+}

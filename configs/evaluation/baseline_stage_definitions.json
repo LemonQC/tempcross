@@ -1,0 +1,11 @@
+{
+  "role": "DIAGNOSTIC_ONLY_DEFINED_BEFORE_FINAL_60_99_TEST",
+  "approach": "TCP to object center <=.08m, not a legal-grasp test",
+  "closure": "any actual gripper command>0",
+  "contact": "official _check_grasp bilateral contact",
+  "stable_lift": "contact and object rise>=.03m for10 consecutive states",
+  "transport": ">=.10m horizontal displacement from initial object center while in bilateral contact after first confirmed lift; proxy",
+  "placement": "exact X task object-in-goal and support predicates",
+  "retreat": "exact OU.gripper_obj_far th=.1",
+  "success": "unchanged info.is_success.task, never replaced by proxies"
+}
