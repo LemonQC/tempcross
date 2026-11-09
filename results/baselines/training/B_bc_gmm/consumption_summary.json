@@ -1,4 +1,5 @@
 {
+  "coverage_schema": 2,
   "trace_path": "/home/users/lemon/baseline-benchmark/run-20261109/training/B_bc_gmm/consumed_anchors.csv",
   "trace_bytes": 30614012,
   "trace_sha256": "8666d0e7de039304d3c36b8fdceaf560e9c1abe4da40890754a73fa594edee5d",
@@ -18,6 +19,11 @@
     "source": 0,
     "target": 384000
   },
+  "expanded_loaded_action_positions": {
+    "source": 0,
+    "target": 384000
+  },
+  "label_accounting": "Transformer loads10 historical labels but the frozen supervise_all_steps=False core supervises only the last; GMM1, RNN10, DP16",
   "unique_anchor_frames": {
     "source": 0,
     "target": 36625

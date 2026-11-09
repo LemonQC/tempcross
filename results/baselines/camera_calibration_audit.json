@@ -1,0 +1,730 @@
+{
+  "status": "VERIFIED_ALL_100_TARGET_CAMERA_CALIBRATIONS",
+  "new_training_or_physics": false,
+  "actual_episode_metadata_used": true,
+  "default_camera_name_alone_is_not_calibration_evidence": true,
+  "expected_base_relative_camera": {
+    "pos": [
+      -0.17,
+      0.4,
+      0.64
+    ],
+    "quat": [
+      0.48874131,
+      0.26186095,
+      -0.40374364,
+      -0.72770313
+    ],
+    "camera_attribs": {
+      "fovy": "45"
+    },
+    "parent_body": "mobilebase0_support"
+  },
+  "rgb_resolution": [
+    180,
+    320,
+    3
+  ],
+  "records": [
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_1",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_10",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_11",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_12",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_13",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_14",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_15",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_16",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_17",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_18",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_19",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_2",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_20",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_21",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_22",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_23",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_24",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_25",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_26",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_27",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_28",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_29",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_3",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_30",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_31",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_32",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_33",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_34",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_35",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_36",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_37",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_38",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_39",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_4",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_40",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_41",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_42",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_43",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_44",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_45",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_46",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_47",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_48",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_49",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_5",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_50",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_6",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_7",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_8",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demo": "demo_9",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_1",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_10",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_11",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_12",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_13",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_14",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_15",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_16",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_17",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_18",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_19",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_2",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_20",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_21",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_22",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_23",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_24",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_25",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_26",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_27",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_28",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_29",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_3",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_30",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_31",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_32",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_33",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_34",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_35",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_36",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_37",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_38",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_39",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_4",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_40",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_41",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_42",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_43",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_44",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_45",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_46",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_47",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_48",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_49",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_5",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_50",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_6",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_7",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_8",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    },
+    {
+      "file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demo": "demo_9",
+      "training_camera": "robot0_agentview_left",
+      "evaluation_camera": "barx_panda_agentview",
+      "actual_ep_meta_calibration_matches": true
+    }
+  ]
+}

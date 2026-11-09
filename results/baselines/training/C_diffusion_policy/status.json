@@ -3,12 +3,12 @@
   "label": "C_diffusion_policy",
   "method": "diffusion_policy",
   "group": "C",
-  "completed_optimizer_steps": 6000,
+  "completed_optimizer_steps": 24000,
   "nonfinite_losses": 0,
-  "anchor_positions": 96000,
-  "actual_target_positions": 96000,
-  "actual_source_positions": 96000,
-  "gpu_seconds": 331.4485628758557,
+  "anchor_positions": 384000,
+  "actual_target_positions": 384000,
+  "actual_source_positions": 384000,
+  "gpu_seconds": 1314.0044772247784,
   "batch_target": 16,
   "actual_batch": 32,
   "frozen_commit": "1611433f432a145b93752b6a2eb07e1987bee428",
@@ -76,6 +76,198 @@
       "batches": 16,
       "anchor_positions": 96000,
       "optimizer_step": 6000
+    },
+    {
+      "metric": "ema_fixed_noise_mse",
+      "value": 0.02005797513993457,
+      "nll": null,
+      "batches": 16,
+      "anchor_positions": 108000,
+      "optimizer_step": 6750
+    },
+    {
+      "metric": "ema_fixed_noise_mse",
+      "value": 0.019402584235649556,
+      "nll": null,
+      "batches": 16,
+      "anchor_positions": 120000,
+      "optimizer_step": 7500
+    },
+    {
+      "metric": "ema_fixed_noise_mse",
+      "value": 0.018999997933860868,
+      "nll": null,
+      "batches": 16,
+      "anchor_positions": 132000,
+      "optimizer_step": 8250
+    },
+    {
+      "metric": "ema_fixed_noise_mse",
+      "value": 0.01866205350961536,
+      "nll": null,
+      "batches": 16,
+      "anchor_positions": 144000,
+      "optimizer_step": 9000
+    },
+    {
+      "metric": "ema_fixed_noise_mse",
+      "value": 0.01815032324520871,
+      "nll": null,
+      "batches": 16,
+      "anchor_positions": 156000,
+      "optimizer_step": 9750
+    },
+    {
+      "metric": "ema_fixed_noise_mse",
+      "value": 0.01771656342316419,
+      "nll": null,
+      "batches": 16,
+      "anchor_positions": 168000,
+      "optimizer_step": 10500
+    },
+    {
+      "metric": "ema_fixed_noise_mse",
+      "value": 0.017224725103005767,
+      "nll": null,
+      "batches": 16,
+      "anchor_positions": 180000,
+      "optimizer_step": 11250
+    },
+    {
+      "metric": "ema_fixed_noise_mse",
+      "value": 0.016775938391219825,
+      "nll": null,
+      "batches": 16,
+      "anchor_positions": 192000,
+      "optimizer_step": 12000
+    },
+    {
+      "metric": "ema_fixed_noise_mse",
+      "value": 0.016460949671454728,
+      "nll": null,
+      "batches": 16,
+      "anchor_positions": 204000,
+      "optimizer_step": 12750
+    },
+    {
+      "metric": "ema_fixed_noise_mse",
+      "value": 0.016291838634060696,
+      "nll": null,
+      "batches": 16,
+      "anchor_positions": 216000,
+      "optimizer_step": 13500
+    },
+    {
+      "metric": "ema_fixed_noise_mse",
+      "value": 0.0161643669125624,
+      "nll": null,
+      "batches": 16,
+      "anchor_positions": 228000,
+      "optimizer_step": 14250
+    },
+    {
+      "metric": "ema_fixed_noise_mse",
+      "value": 0.016012257430702448,
+      "nll": null,
+      "batches": 16,
+      "anchor_positions": 240000,
+      "optimizer_step": 15000
+    },
+    {
+      "metric": "ema_fixed_noise_mse",
+      "value": 0.01581249592709355,
+      "nll": null,
+      "batches": 16,
+      "anchor_positions": 252000,
+      "optimizer_step": 15750
+    },
+    {
+      "metric": "ema_fixed_noise_mse",
+      "value": 0.015715238318080083,
+      "nll": null,
+      "batches": 16,
+      "anchor_positions": 264000,
+      "optimizer_step": 16500
+    },
+    {
+      "metric": "ema_fixed_noise_mse",
+      "value": 0.015632247406756505,
+      "nll": null,
+      "batches": 16,
+      "anchor_positions": 276000,
+      "optimizer_step": 17250
+    },
+    {
+      "metric": "ema_fixed_noise_mse",
+      "value": 0.015562024054815993,
+      "nll": null,
+      "batches": 16,
+      "anchor_positions": 288000,
+      "optimizer_step": 18000
+    },
+    {
+      "metric": "ema_fixed_noise_mse",
+      "value": 0.01548237563110888,
+      "nll": null,
+      "batches": 16,
+      "anchor_positions": 300000,
+      "optimizer_step": 18750
+    },
+    {
+      "metric": "ema_fixed_noise_mse",
+      "value": 0.015440611488884315,
+      "nll": null,
+      "batches": 16,
+      "anchor_positions": 312000,
+      "optimizer_step": 19500
+    },
+    {
+      "metric": "ema_fixed_noise_mse",
+      "value": 0.015359014185378328,
+      "nll": null,
+      "batches": 16,
+      "anchor_positions": 324000,
+      "optimizer_step": 20250
+    },
+    {
+      "metric": "ema_fixed_noise_mse",
+      "value": 0.015269439754774794,
+      "nll": null,
+      "batches": 16,
+      "anchor_positions": 336000,
+      "optimizer_step": 21000
+    },
+    {
+      "metric": "ema_fixed_noise_mse",
+      "value": 0.015168551268288866,
+      "nll": null,
+      "batches": 16,
+      "anchor_positions": 348000,
+      "optimizer_step": 21750
+    },
+    {
+      "metric": "ema_fixed_noise_mse",
+      "value": 0.015151373343542218,
+      "nll": null,
+      "batches": 16,
+      "anchor_positions": 360000,
+      "optimizer_step": 22500
+    },
+    {
+      "metric": "ema_fixed_noise_mse",
+      "value": 0.015105073136510327,
+      "nll": null,
+      "batches": 16,
+      "anchor_positions": 372000,
+      "optimizer_step": 23250
+    },
+    {
+      "metric": "ema_fixed_noise_mse",
+      "value": 0.014977322483900934,
+      "nll": null,
+      "batches": 16,
+      "anchor_positions": 384000,
+      "optimizer_step": 24000
     }
   ],
   "parameter_count": 100271015,
@@ -88,20 +280,32 @@
     "nll": null,
     "batches": 16
   },
-  "prescribed_tier_positions": 96000,
+  "prescribed_tier_positions": 384000,
   "trainer_segments": [
     {
       "from_positions": 0,
       "to_positions": 96000,
       "source_sha256": "f7f64dedcdf083cc0766a7d2b73eaa5810df5bee93569036e0e0bf2936d2c1d3",
       "source_path": "/home/users/lemon/baseline-benchmark/run-20261109/training/C_diffusion_policy/executed_train_from_000000.py"
+    },
+    {
+      "from_positions": 96000,
+      "to_positions": 192000,
+      "source_sha256": "f7f64dedcdf083cc0766a7d2b73eaa5810df5bee93569036e0e0bf2936d2c1d3",
+      "source_path": "/home/users/lemon/baseline-benchmark/run-20261109/training/C_diffusion_policy/executed_train_from_096000.py"
+    },
+    {
+      "from_positions": 192000,
+      "to_positions": 384000,
+      "source_sha256": "f7f64dedcdf083cc0766a7d2b73eaa5810df5bee93569036e0e0bf2936d2c1d3",
+      "source_path": "/home/users/lemon/baseline-benchmark/run-20261109/training/C_diffusion_policy/executed_train_from_192000.py"
     }
   ],
-  "last_loss": 0.055290207266807556,
-  "peak_gpu_allocated_bytes": 2654672384,
+  "last_loss": 0.007911601103842258,
+  "peak_gpu_allocated_bytes": 2659382784,
   "peak_gpu_reserved_bytes": 2973761536,
-  "running_segment_seconds": 331.41591638093814,
-  "checkpoint": "/home/users/lemon/baseline-benchmark/run-20261109/training/C_diffusion_policy/positions-096000.pt",
-  "checkpoint_sha256": "14e68d1f5be019fd93f8f06b2b27c6dd1c54f4dcee756d80ffa72a4548ebe768",
+  "running_segment_seconds": 656.8922453923151,
+  "checkpoint": "/home/users/lemon/baseline-benchmark/run-20261109/training/C_diffusion_policy/positions-384000.pt",
+  "checkpoint_sha256": "ccf1edd89b08d6f2e46d00a92defaaf4df5094cca11d728b269fbff52acfc339",
   "changed_parameter_tensors": 212
 }

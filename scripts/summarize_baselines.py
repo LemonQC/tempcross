@@ -54,6 +54,13 @@ def main():
   coverage=OUT/'training'/r['label']/'consumption_summary.json';cov=json.loads(coverage.read_text()) if coverage.exists() else {}
   rows.append([r['label'],r['target_positions'],r['source_positions'],r['optimizer_updates'],cov.get('unique_demonstrations',{}),r.get('actual_batch'),f"{r.get('parameter_count',0)/1e6:.2f}",f"{r.get('gpu_occupied_wall_seconds',0):.1f}",f"{r.get('peak_gpu_allocated_bytes',0)/1024**3:.2f}",r.get('budget_stop_reason') or r['status']])
  lines+=table(['设置','target anchor','source anchor','实际更新','实际独立demo','实际batch','参数M','GPU占用墙钟秒','峰值GiB','终止/状态'],rows)
+ diagnostics=[]
+ for r in budgets:
+  if r['method']=='barx':continue
+  state=json.loads((OUT/'training'/r['label']/'status.json').read_text());history=state['validation_history'];best=min(history,key=lambda h:h['value'])
+  diagnostics.append([r['label'],history[-1]['metric'],f"{state['initial_validation']['value']:.6f}",f"{best['value']:.6f} @ {best['anchor_positions']}",f"{history[-1]['value']:.6f}"])
+ lines+=['','固定验证曲线的只读诊断（不同loss不直接比较；未据此更换权重）：','']+table(['设置','指标','初始','历史最小值及anchor','选定末步值'],diagnostics)
+ lines+=['','验证平台表示最近窗口未继续改善，不保证全局充分收敛；若末步较历史验证最小值恶化，也原样保留末步规则和历史checkpoint。训练CSV的learning_rate字段记录scheduler更新后的下一步LR；DP首个实际optimizer步骤LR为0，未回写原始CSV。','', '目标HDF每条ep_meta中的robot0_agentview_left与冻结评测barx_panda_agentview名称不同，但全部100条的基座相对位置、旋转、45°FOV及180×320分辨率均核对一致，见camera_calibration_audit.json；未用默认相机名称臆断视角不一致。']
  lines+=['','GPU秒是该模型单GPU占用的训练墙钟时间（包含数据等待和验证），不是CUDA kernel累计时间。验证每12k固定256 anchors，最终checkpoint来自预先冻结的验证延长/末步规则，未用最终测试挑选。预算到顶仍改善须标为BUDGET_LIMITED_NOT_CONVERGED；验证平台也不证明全局充分收敛。','', 'BARX source prior复用官方50k更新权重，不把其原始大规模预训练当作本轮训练。No Reps6k旧LoRA为3000更新/batch2、3068 target+2932 source；逐图像SHA回溯全部3068 target实际覆盖18条示范（95条eligible池）；2932 source样本完整回溯为19条三具身源示范。Joint96k旧LoRA为12000更新/batch8、48412 target+47588 source，实际100 target及115 source demos，source三具身均有。旧LoRA不是官方充分全参数适配。','', '## 同条件配对与稳定性','']
  pairs=s['paired_comparisons'];rows=[]
  for p in pairs:
@@ -66,6 +73,13 @@ def main():
    if candidates:
     k=max(c['successes'] for c in candidates);best=[c for c in candidates if c['successes']==k];lines.append(f"- {group} / {task}："+'、'.join(NAMES[c['label']] for c in best)+f'，{k}/40；仅本次观测最大值。')
  lines+=['','BARX历史LoRA在C表单独保留，不能和新C模型忽略预算差异宣称总体最强。','', '## 推理与资产','', '独占GPU、同一旧开发图像的16次warmup+80次策略调用见[latency](../results/baselines/latency/)。平均每控制步和fresh-query时间分开，chunk8缓存不会被当作每步完整推理；正式并发评测耗时不作独占延迟比较。','', f'服务器执行根目录：`{ROOT}`。完整视频、原生输出、12维实际控制、TCP、夹爪、物体轨迹及接触均在formal/，仓库[视频索引](../results/baselines/video_index.csv)和[所有外部文件SHA256](../results/baselines/external_files.csv)保留绝对路径。','', '![Official success](../results/baselines/official_success.svg)','', '![Validation](../results/baselines/validation_progress.svg)']
+ latency=[]
+ for path in sorted((OUT/'latency').glob('*.json')):
+  d=json.loads(path.read_text());latency.append(dict(label=d['label'],mean_step_ms=1000*d['mean_policy_step_seconds'],p95_step_ms=1000*d['p95_policy_step_seconds'],mean_fresh_query_ms=1000*d['mean_fresh_query_seconds'],peak_gpu_GiB=d['peak_gpu_allocated_bytes']/1024**3,parameters=d['parameter_count']))
+ if latency:
+  with (OUT/'latency_summary.csv').open('w',newline='') as f:
+   w=csv.DictWriter(f,fieldnames=list(latency[0]));w.writeheader();w.writerows(latency)
+  lines+=['','独占GPU实测推理（ms）：','']+table(['设置','均值/控制步','p95/控制步','均值/新query','峰值GiB'],[[d['label'],f"{d['mean_step_ms']:.2f}",f"{d['p95_step_ms']:.2f}",f"{d['mean_fresh_query_ms']:.2f}",f"{d['peak_gpu_GiB']:.2f}"] for d in latency])
  write('BASELINE_RESULTS.md',lines)
  stages=['approached_center_8cm_proxy','issued_close','physical_jaw_closure_5mm','bilateral_contact','stable_contact_lift','transport_10cm_contact_proxy','placement_official_subpredicate','official_task_success']
  failure=['# Baseline阶段诊断与技术异常','', '官方任务success是唯一主成功判据。到达8cm、接触后抬升3cm持续10个状态、接触搬运10cm只是预先声明的诊断代理。阶段代理不构成严格递进链，物体中心距离也不等于抓取可达性；不以代理失败否定官方成功。放置及撤离子判据直接调用官方定义，不送入policy。','']

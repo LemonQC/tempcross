@@ -1,6 +1,6 @@
 # Baseline真实执行结果
 
-状态：**ACTUAL_BENCHMARK_RUNNING**。已关闭 0 个正式评测格、0 个episode。训练日志设置 8/8，选模完成 2/8。
+状态：**ACTUAL_BENCHMARK_RUNNING**。已关闭 0 个正式评测格、0 个episode。训练日志设置 8/8，选模完成 8/8。
 
 只统计新冻结官方60–99条件；每任务每机器人每设置40次。旧P0–P3和开发smoke不加入成功率。技术错误另列，不填0%。原始小型结果见[逐episode结果](../results/baselines/episodes.csv)、[主表](../results/baselines/cells.csv)、[训练预算](../results/baselines/training_budgets.csv)、[checkpoint索引](../results/baselines/checkpoint_index.csv)。
 
@@ -50,14 +50,31 @@ Group C历史BARX使用原LoRA权重，其目标划分、初始化、分辨率�
 
 | 设置 | target anchor | source anchor | 实际更新 | 实际独立demo | 实际batch | 参数M | GPU占用墙钟秒 | 峰值GiB | 终止/状态 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| A_bc_transformer | 0 | 96000 | 6000 | {'source': 1620, 'target': 0} | 16 | 30.57 | 330.1 | 1.56 | TIER_COMPLETE |
-| A_diffusion_policy | 0 | 96000 | 6000 | {'source': 1620, 'target': 0} | 16 | 100.27 | 269.9 | 2.31 | TIER_COMPLETE |
+| A_bc_transformer | 0 | 192000 | 12000 | {'source': 1620, 'target': 0} | 16 | 30.57 | 662.6 | 1.57 | VALIDATION_NO_FURTHER_GAIN |
+| A_diffusion_policy | 0 | 192000 | 12000 | {'source': 1620, 'target': 0} | 16 | 100.27 | 532.1 | 2.31 | VALIDATION_NO_FURTHER_GAIN |
 | B_bc_gmm | 384000 | 0 | 24000 | {'source': 0, 'target': 90} | 16 | 13.18 | 301.2 | 0.44 | VALIDATION_NO_FURTHER_GAIN |
 | B_bc_rnn | 384000 | 0 | 24000 | {'source': 0, 'target': 90} | 16 | 14.48 | 1222.8 | 1.32 | VALIDATION_NO_FURTHER_GAIN |
-| B_bc_transformer | 97600 | 0 | 6100 | {'source': 0, 'target': 90} | 16 | 30.57 | 328.5 | 1.57 | TRAINING |
-| B_diffusion_policy | 96000 | 0 | 6000 | {'source': 0, 'target': 90} | 16 | 100.27 | 336.0 | 2.31 | TIER_COMPLETE |
-| C_bc_transformer | 96000 | 96000 | 6000 | {'source': 1620, 'target': 90} | 32 | 30.57 | 635.0 | 2.52 | TIER_COMPLETE |
-| C_diffusion_policy | 96000 | 96000 | 6000 | {'source': 1620, 'target': 90} | 32 | 100.27 | 331.4 | 2.47 | TIER_COMPLETE |
+| B_bc_transformer | 768000 | 0 | 48000 | {'source': 0, 'target': 90} | 16 | 30.57 | 2654.0 | 1.57 | VALIDATION_NO_FURTHER_GAIN |
+| B_diffusion_policy | 384000 | 0 | 24000 | {'source': 0, 'target': 90} | 16 | 100.27 | 1128.6 | 2.31 | VALIDATION_NO_FURTHER_GAIN |
+| C_bc_transformer | 768000 | 768000 | 48000 | {'source': 1620, 'target': 90} | 32 | 30.57 | 4579.2 | 2.52 | VALIDATION_NO_FURTHER_GAIN |
+| C_diffusion_policy | 384000 | 384000 | 24000 | {'source': 1620, 'target': 90} | 32 | 100.27 | 1314.0 | 2.48 | VALIDATION_NO_FURTHER_GAIN |
+
+固定验证曲线的只读诊断（不同loss不直接比较；未据此更换权重）：
+
+| 设置 | 指标 | 初始 | 历史最小值及anchor | 选定末步值 |
+| --- | --- | --- | --- | --- |
+| A_bc_transformer | expected_action_mse | 0.219386 | 0.077927 @ 180000 | 0.086592 |
+| A_diffusion_policy | ema_fixed_noise_mse | 1.236552 | 0.061982 @ 192000 | 0.061982 |
+| B_bc_gmm | expected_action_mse | 0.159573 | 0.099630 @ 348000 | 0.102119 |
+| B_bc_rnn | expected_action_mse | 0.159079 | 0.131192 @ 324000 | 0.131912 |
+| B_bc_transformer | expected_action_mse | 0.193865 | 0.074522 @ 408000 | 0.102114 |
+| B_diffusion_policy | ema_fixed_noise_mse | 1.243618 | 0.016060 @ 288000 | 0.016283 |
+| C_bc_transformer | expected_action_mse | 0.193865 | 0.035929 @ 540000 | 0.049620 |
+| C_diffusion_policy | ema_fixed_noise_mse | 1.243618 | 0.014977 @ 384000 | 0.014977 |
+
+验证平台表示最近窗口未继续改善，不保证全局充分收敛；若末步较历史验证最小值恶化，也原样保留末步规则和历史checkpoint。训练CSV的learning_rate字段记录scheduler更新后的下一步LR；DP首个实际optimizer步骤LR为0，未回写原始CSV。
+
+目标HDF每条ep_meta中的robot0_agentview_left与冻结评测barx_panda_agentview名称不同，但全部100条的基座相对位置、旋转、45°FOV及180×320分辨率均核对一致，见camera_calibration_audit.json；未用默认相机名称臆断视角不一致。
 
 GPU秒是该模型单GPU占用的训练墙钟时间（包含数据等待和验证），不是CUDA kernel累计时间。验证每12k固定256 anchors，最终checkpoint来自预先冻结的验证延长/末步规则，未用最终测试挑选。预算到顶仍改善须标为BUDGET_LIMITED_NOT_CONVERGED；验证平台也不证明全局充分收敛。
 
@@ -83,3 +100,20 @@ BARX历史LoRA在C表单独保留，不能和新C模型忽略预算差异宣称�
 ![Official success](../results/baselines/official_success.svg)
 
 ![Validation](../results/baselines/validation_progress.svg)
+
+独占GPU实测推理（ms）：
+
+| 设置 | 均值/控制步 | p95/控制步 | 均值/新query | 峰值GiB |
+| --- | --- | --- | --- | --- |
+| A_barx_joint | 8.38 | 66.92 | 67.01 | 2.82 |
+| A_barx_no_reps | 8.31 | 66.58 | 66.47 | 2.82 |
+| A_bc_transformer | 3.48 | 4.03 | 3.48 | 0.25 |
+| A_diffusion_policy | 4.00 | 29.47 | 29.79 | 0.90 |
+| B_bc_gmm | 1.55 | 2.12 | 1.55 | 0.07 |
+| B_bc_rnn | 1.64 | 2.18 | 1.64 | 0.07 |
+| B_bc_transformer | 3.36 | 3.89 | 3.36 | 0.25 |
+| B_diffusion_policy | 3.97 | 29.14 | 29.78 | 0.90 |
+| C_barx_joint_96000 | 8.40 | 67.27 | 67.14 | 2.82 |
+| C_barx_no_reps_6000 | 8.33 | 66.72 | 66.57 | 2.82 |
+| C_bc_transformer | 3.42 | 4.16 | 3.42 | 0.25 |
+| C_diffusion_policy | 3.91 | 29.28 | 29.17 | 0.90 |

@@ -1,5 +1,5 @@
 {
-  "status": "VALIDATION_ONLY_BUDGET_EXTENSIONS",
+  "status": "COMPLETE",
   "models": {
     "B_bc_gmm": {
       "status": "TIER_COMPLETE",
@@ -633,12 +633,12 @@
       "label": "B_bc_transformer",
       "method": "bc_transformer",
       "group": "B",
-      "completed_optimizer_steps": 6000,
+      "completed_optimizer_steps": 48000,
       "nonfinite_losses": 0,
-      "anchor_positions": 96000,
-      "actual_target_positions": 96000,
+      "anchor_positions": 768000,
+      "actual_target_positions": 768000,
       "actual_source_positions": 0,
-      "gpu_seconds": 328.50251945341006,
+      "gpu_seconds": 2654.007770174183,
       "batch_target": 16,
       "actual_batch": 16,
       "frozen_commit": "1611433f432a145b93752b6a2eb07e1987bee428",
@@ -706,6 +706,454 @@
           "batches": 16,
           "anchor_positions": 96000,
           "optimizer_step": 6000
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.11312374356202781,
+          "nll": -14.964898645877838,
+          "batches": 16,
+          "anchor_positions": 108000,
+          "optimizer_step": 6750
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.12568292766809464,
+          "nll": -13.780603289604187,
+          "batches": 16,
+          "anchor_positions": 120000,
+          "optimizer_step": 7500
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.11696682521142066,
+          "nll": -11.689052164554596,
+          "batches": 16,
+          "anchor_positions": 132000,
+          "optimizer_step": 8250
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.12027649930678308,
+          "nll": -12.06558382511139,
+          "batches": 16,
+          "anchor_positions": 144000,
+          "optimizer_step": 9000
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.11728861765004694,
+          "nll": -12.15609496831894,
+          "batches": 16,
+          "anchor_positions": 156000,
+          "optimizer_step": 9750
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.10029250010848045,
+          "nll": -12.681227207183838,
+          "batches": 16,
+          "anchor_positions": 168000,
+          "optimizer_step": 10500
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.10082676191814244,
+          "nll": -10.71971207857132,
+          "batches": 16,
+          "anchor_positions": 180000,
+          "optimizer_step": 11250
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.10691167239565402,
+          "nll": -11.270279586315155,
+          "batches": 16,
+          "anchor_positions": 192000,
+          "optimizer_step": 12000
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.09105852141510695,
+          "nll": -10.496660888195038,
+          "batches": 16,
+          "anchor_positions": 204000,
+          "optimizer_step": 12750
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.09444127045571804,
+          "nll": -11.487171530723572,
+          "batches": 16,
+          "anchor_positions": 216000,
+          "optimizer_step": 13500
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.10073702805675566,
+          "nll": -8.061352521181107,
+          "batches": 16,
+          "anchor_positions": 228000,
+          "optimizer_step": 14250
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.10125515121035278,
+          "nll": -5.959731936454773,
+          "batches": 16,
+          "anchor_positions": 240000,
+          "optimizer_step": 15000
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.10722581180743873,
+          "nll": -7.663100033998489,
+          "batches": 16,
+          "anchor_positions": 252000,
+          "optimizer_step": 15750
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.09218341810628772,
+          "nll": -9.241330653429031,
+          "batches": 16,
+          "anchor_positions": 264000,
+          "optimizer_step": 16500
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.08245134132448584,
+          "nll": -8.685031801462173,
+          "batches": 16,
+          "anchor_positions": 276000,
+          "optimizer_step": 17250
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.10620312835089862,
+          "nll": -9.392720192670822,
+          "batches": 16,
+          "anchor_positions": 288000,
+          "optimizer_step": 18000
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.08979991025989875,
+          "nll": -6.577631503343582,
+          "batches": 16,
+          "anchor_positions": 300000,
+          "optimizer_step": 18750
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.08761148113990203,
+          "nll": -6.253344282507896,
+          "batches": 16,
+          "anchor_positions": 312000,
+          "optimizer_step": 19500
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.09490615909453481,
+          "nll": -5.562057510018349,
+          "batches": 16,
+          "anchor_positions": 324000,
+          "optimizer_step": 20250
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.08485975454095751,
+          "nll": -8.309039443731308,
+          "batches": 16,
+          "anchor_positions": 336000,
+          "optimizer_step": 21000
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.08974340365966782,
+          "nll": -6.6567642390728,
+          "batches": 16,
+          "anchor_positions": 348000,
+          "optimizer_step": 21750
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.09925762022612616,
+          "nll": -7.100182294845581,
+          "batches": 16,
+          "anchor_positions": 360000,
+          "optimizer_step": 22500
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.10107352453633212,
+          "nll": -5.395181655883789,
+          "batches": 16,
+          "anchor_positions": 372000,
+          "optimizer_step": 23250
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.08560752507764846,
+          "nll": -7.363723546266556,
+          "batches": 16,
+          "anchor_positions": 384000,
+          "optimizer_step": 24000
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.08909705386031419,
+          "nll": -4.815248131752014,
+          "batches": 16,
+          "anchor_positions": 396000,
+          "optimizer_step": 24750
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.07452188053866848,
+          "nll": -6.268204838037491,
+          "batches": 16,
+          "anchor_positions": 408000,
+          "optimizer_step": 25500
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.0930603317974601,
+          "nll": -8.403390884399414,
+          "batches": 16,
+          "anchor_positions": 420000,
+          "optimizer_step": 26250
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.07813565852120519,
+          "nll": -6.648168757557869,
+          "batches": 16,
+          "anchor_positions": 432000,
+          "optimizer_step": 27000
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.10299529286567122,
+          "nll": -5.955448269844055,
+          "batches": 16,
+          "anchor_positions": 444000,
+          "optimizer_step": 27750
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.08627529264776967,
+          "nll": -7.374347656965256,
+          "batches": 16,
+          "anchor_positions": 456000,
+          "optimizer_step": 28500
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.0829177696723491,
+          "nll": -7.127032607793808,
+          "batches": 16,
+          "anchor_positions": 468000,
+          "optimizer_step": 29250
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.08310468995478004,
+          "nll": -6.220248833298683,
+          "batches": 16,
+          "anchor_positions": 480000,
+          "optimizer_step": 30000
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.0966709996573627,
+          "nll": -5.7067264169454575,
+          "batches": 16,
+          "anchor_positions": 492000,
+          "optimizer_step": 30750
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.08085536281578243,
+          "nll": -7.624727845191956,
+          "batches": 16,
+          "anchor_positions": 504000,
+          "optimizer_step": 31500
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.09095714037539437,
+          "nll": -8.133609652519226,
+          "batches": 16,
+          "anchor_positions": 516000,
+          "optimizer_step": 32250
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.0777645944035612,
+          "nll": -7.752381443977356,
+          "batches": 16,
+          "anchor_positions": 528000,
+          "optimizer_step": 33000
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.09293955465545878,
+          "nll": -7.443519324064255,
+          "batches": 16,
+          "anchor_positions": 540000,
+          "optimizer_step": 33750
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.09213299059774727,
+          "nll": -7.755212068557739,
+          "batches": 16,
+          "anchor_positions": 552000,
+          "optimizer_step": 34500
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.08625629253219813,
+          "nll": -7.99879914522171,
+          "batches": 16,
+          "anchor_positions": 564000,
+          "optimizer_step": 35250
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.09354313812218606,
+          "nll": -8.882789880037308,
+          "batches": 16,
+          "anchor_positions": 576000,
+          "optimizer_step": 36000
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.09222179497010075,
+          "nll": -7.148020267486572,
+          "batches": 16,
+          "anchor_positions": 588000,
+          "optimizer_step": 36750
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.09297476155916229,
+          "nll": -7.724258542060852,
+          "batches": 16,
+          "anchor_positions": 600000,
+          "optimizer_step": 37500
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.08405808452516794,
+          "nll": -9.143980145454407,
+          "batches": 16,
+          "anchor_positions": 612000,
+          "optimizer_step": 38250
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.0891213487193454,
+          "nll": -9.207738757133484,
+          "batches": 16,
+          "anchor_positions": 624000,
+          "optimizer_step": 39000
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.08782526782306377,
+          "nll": -9.39903038740158,
+          "batches": 16,
+          "anchor_positions": 636000,
+          "optimizer_step": 39750
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.08226136397570372,
+          "nll": -9.047740399837494,
+          "batches": 16,
+          "anchor_positions": 648000,
+          "optimizer_step": 40500
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.09182438219431788,
+          "nll": -9.260118126869202,
+          "batches": 16,
+          "anchor_positions": 660000,
+          "optimizer_step": 41250
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.08758439711527899,
+          "nll": -8.562520205974579,
+          "batches": 16,
+          "anchor_positions": 672000,
+          "optimizer_step": 42000
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.09910246240906417,
+          "nll": -9.653436750173569,
+          "batches": 16,
+          "anchor_positions": 684000,
+          "optimizer_step": 42750
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.09119548089802265,
+          "nll": -8.126135796308517,
+          "batches": 16,
+          "anchor_positions": 696000,
+          "optimizer_step": 43500
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.08910207787994295,
+          "nll": -9.347708016633987,
+          "batches": 16,
+          "anchor_positions": 708000,
+          "optimizer_step": 44250
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.09704582893755287,
+          "nll": -9.491560906171799,
+          "batches": 16,
+          "anchor_positions": 720000,
+          "optimizer_step": 45000
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.08666650962550193,
+          "nll": -8.841482013463974,
+          "batches": 16,
+          "anchor_positions": 732000,
+          "optimizer_step": 45750
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.09331041621044278,
+          "nll": -8.604364186525345,
+          "batches": 16,
+          "anchor_positions": 744000,
+          "optimizer_step": 46500
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.10025046486407518,
+          "nll": -8.750040426850319,
+          "batches": 16,
+          "anchor_positions": 756000,
+          "optimizer_step": 47250
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.10211424564477056,
+          "nll": -8.715451419353485,
+          "batches": 16,
+          "anchor_positions": 768000,
+          "optimizer_step": 48000
         }
       ],
       "parameter_count": 30574315,
@@ -718,34 +1166,55 @@
         "nll": 7.549942761659622,
         "batches": 16
       },
-      "prescribed_tier_positions": 96000,
+      "prescribed_tier_positions": 768000,
       "trainer_segments": [
         {
           "from_positions": 0,
           "to_positions": 96000,
           "source_sha256": "f7f64dedcdf083cc0766a7d2b73eaa5810df5bee93569036e0e0bf2936d2c1d3",
           "source_path": "/home/users/lemon/baseline-benchmark/run-20261109/training/B_bc_transformer/executed_train_from_000000.py"
+        },
+        {
+          "from_positions": 96000,
+          "to_positions": 192000,
+          "source_sha256": "f7f64dedcdf083cc0766a7d2b73eaa5810df5bee93569036e0e0bf2936d2c1d3",
+          "source_path": "/home/users/lemon/baseline-benchmark/run-20261109/training/B_bc_transformer/executed_train_from_096000.py"
+        },
+        {
+          "from_positions": 192000,
+          "to_positions": 384000,
+          "source_sha256": "f7f64dedcdf083cc0766a7d2b73eaa5810df5bee93569036e0e0bf2936d2c1d3",
+          "source_path": "/home/users/lemon/baseline-benchmark/run-20261109/training/B_bc_transformer/executed_train_from_192000.py"
+        },
+        {
+          "from_positions": 384000,
+          "to_positions": 768000,
+          "source_sha256": "f7f64dedcdf083cc0766a7d2b73eaa5810df5bee93569036e0e0bf2936d2c1d3",
+          "source_path": "/home/users/lemon/baseline-benchmark/run-20261109/training/B_bc_transformer/executed_train_from_384000.py"
         }
       ],
-      "last_loss": -19.40981101989746,
-      "peak_gpu_allocated_bytes": 1678791680,
-      "peak_gpu_reserved_bytes": 1988100096,
-      "running_segment_seconds": 328.47565718833357,
-      "checkpoint": "/home/users/lemon/baseline-benchmark/run-20261109/training/B_bc_transformer/positions-096000.pt",
-      "checkpoint_sha256": "dfe5e769100a31af2ad181cdf30f2ded30cfcf451c6ac65f2fe23b9f820fe3ce",
-      "changed_parameter_tensors": 143
+      "last_loss": -27.822872161865234,
+      "peak_gpu_allocated_bytes": 1680436224,
+      "peak_gpu_reserved_bytes": 2220883968,
+      "running_segment_seconds": 1327.9201414077543,
+      "checkpoint": "/home/users/lemon/baseline-benchmark/run-20261109/training/B_bc_transformer/positions-768000.pt",
+      "checkpoint_sha256": "f1511ba7871161b32edd17e6019fe8e7f2d81192d938f540572499a14a936486",
+      "changed_parameter_tensors": 143,
+      "selection_status": "SELECTED_FINAL_CHECKPOINT",
+      "budget_stop_reason": "VALIDATION_NO_FURTHER_GAIN",
+      "recent_validation_relative_improvement": -0.08379582931999231
     },
     "B_diffusion_policy": {
       "status": "TIER_COMPLETE",
       "label": "B_diffusion_policy",
       "method": "diffusion_policy",
       "group": "B",
-      "completed_optimizer_steps": 6000,
+      "completed_optimizer_steps": 24000,
       "nonfinite_losses": 0,
-      "anchor_positions": 96000,
-      "actual_target_positions": 96000,
+      "anchor_positions": 384000,
+      "actual_target_positions": 384000,
       "actual_source_positions": 0,
-      "gpu_seconds": 336.04950498696417,
+      "gpu_seconds": 1128.5820667920634,
       "batch_target": 16,
       "actual_batch": 16,
       "frozen_commit": "1611433f432a145b93752b6a2eb07e1987bee428",
@@ -813,6 +1282,198 @@
           "batches": 16,
           "anchor_positions": 96000,
           "optimizer_step": 6000
+        },
+        {
+          "metric": "ema_fixed_noise_mse",
+          "value": 0.019672204041853547,
+          "nll": null,
+          "batches": 16,
+          "anchor_positions": 108000,
+          "optimizer_step": 6750
+        },
+        {
+          "metric": "ema_fixed_noise_mse",
+          "value": 0.018842943129129708,
+          "nll": null,
+          "batches": 16,
+          "anchor_positions": 120000,
+          "optimizer_step": 7500
+        },
+        {
+          "metric": "ema_fixed_noise_mse",
+          "value": 0.018543031415902078,
+          "nll": null,
+          "batches": 16,
+          "anchor_positions": 132000,
+          "optimizer_step": 8250
+        },
+        {
+          "metric": "ema_fixed_noise_mse",
+          "value": 0.018186088418588042,
+          "nll": null,
+          "batches": 16,
+          "anchor_positions": 144000,
+          "optimizer_step": 9000
+        },
+        {
+          "metric": "ema_fixed_noise_mse",
+          "value": 0.017632848990615457,
+          "nll": null,
+          "batches": 16,
+          "anchor_positions": 156000,
+          "optimizer_step": 9750
+        },
+        {
+          "metric": "ema_fixed_noise_mse",
+          "value": 0.017190749407745898,
+          "nll": null,
+          "batches": 16,
+          "anchor_positions": 168000,
+          "optimizer_step": 10500
+        },
+        {
+          "metric": "ema_fixed_noise_mse",
+          "value": 0.01696348935365677,
+          "nll": null,
+          "batches": 16,
+          "anchor_positions": 180000,
+          "optimizer_step": 11250
+        },
+        {
+          "metric": "ema_fixed_noise_mse",
+          "value": 0.016876324836630374,
+          "nll": null,
+          "batches": 16,
+          "anchor_positions": 192000,
+          "optimizer_step": 12000
+        },
+        {
+          "metric": "ema_fixed_noise_mse",
+          "value": 0.016634409606922418,
+          "nll": null,
+          "batches": 16,
+          "anchor_positions": 204000,
+          "optimizer_step": 12750
+        },
+        {
+          "metric": "ema_fixed_noise_mse",
+          "value": 0.01666495599783957,
+          "nll": null,
+          "batches": 16,
+          "anchor_positions": 216000,
+          "optimizer_step": 13500
+        },
+        {
+          "metric": "ema_fixed_noise_mse",
+          "value": 0.016649197903461754,
+          "nll": null,
+          "batches": 16,
+          "anchor_positions": 228000,
+          "optimizer_step": 14250
+        },
+        {
+          "metric": "ema_fixed_noise_mse",
+          "value": 0.01650471455650404,
+          "nll": null,
+          "batches": 16,
+          "anchor_positions": 240000,
+          "optimizer_step": 15000
+        },
+        {
+          "metric": "ema_fixed_noise_mse",
+          "value": 0.016328644705936313,
+          "nll": null,
+          "batches": 16,
+          "anchor_positions": 252000,
+          "optimizer_step": 15750
+        },
+        {
+          "metric": "ema_fixed_noise_mse",
+          "value": 0.016160531959030777,
+          "nll": null,
+          "batches": 16,
+          "anchor_positions": 264000,
+          "optimizer_step": 16500
+        },
+        {
+          "metric": "ema_fixed_noise_mse",
+          "value": 0.016147439077030867,
+          "nll": null,
+          "batches": 16,
+          "anchor_positions": 276000,
+          "optimizer_step": 17250
+        },
+        {
+          "metric": "ema_fixed_noise_mse",
+          "value": 0.016059897956438363,
+          "nll": null,
+          "batches": 16,
+          "anchor_positions": 288000,
+          "optimizer_step": 18000
+        },
+        {
+          "metric": "ema_fixed_noise_mse",
+          "value": 0.016114034107886255,
+          "nll": null,
+          "batches": 16,
+          "anchor_positions": 300000,
+          "optimizer_step": 18750
+        },
+        {
+          "metric": "ema_fixed_noise_mse",
+          "value": 0.01609215821372345,
+          "nll": null,
+          "batches": 16,
+          "anchor_positions": 312000,
+          "optimizer_step": 19500
+        },
+        {
+          "metric": "ema_fixed_noise_mse",
+          "value": 0.016147208341863006,
+          "nll": null,
+          "batches": 16,
+          "anchor_positions": 324000,
+          "optimizer_step": 20250
+        },
+        {
+          "metric": "ema_fixed_noise_mse",
+          "value": 0.016135498823132366,
+          "nll": null,
+          "batches": 16,
+          "anchor_positions": 336000,
+          "optimizer_step": 21000
+        },
+        {
+          "metric": "ema_fixed_noise_mse",
+          "value": 0.016180597885977477,
+          "nll": null,
+          "batches": 16,
+          "anchor_positions": 348000,
+          "optimizer_step": 21750
+        },
+        {
+          "metric": "ema_fixed_noise_mse",
+          "value": 0.0162570106331259,
+          "nll": null,
+          "batches": 16,
+          "anchor_positions": 360000,
+          "optimizer_step": 22500
+        },
+        {
+          "metric": "ema_fixed_noise_mse",
+          "value": 0.01625229511409998,
+          "nll": null,
+          "batches": 16,
+          "anchor_positions": 372000,
+          "optimizer_step": 23250
+        },
+        {
+          "metric": "ema_fixed_noise_mse",
+          "value": 0.016283355478662997,
+          "nll": null,
+          "batches": 16,
+          "anchor_positions": 384000,
+          "optimizer_step": 24000
         }
       ],
       "parameter_count": 100271015,
@@ -825,34 +1486,49 @@
         "nll": null,
         "batches": 16
       },
-      "prescribed_tier_positions": 96000,
+      "prescribed_tier_positions": 384000,
       "trainer_segments": [
         {
           "from_positions": 0,
           "to_positions": 96000,
           "source_sha256": "f7f64dedcdf083cc0766a7d2b73eaa5810df5bee93569036e0e0bf2936d2c1d3",
           "source_path": "/home/users/lemon/baseline-benchmark/run-20261109/training/B_diffusion_policy/executed_train_from_000000.py"
+        },
+        {
+          "from_positions": 96000,
+          "to_positions": 192000,
+          "source_sha256": "f7f64dedcdf083cc0766a7d2b73eaa5810df5bee93569036e0e0bf2936d2c1d3",
+          "source_path": "/home/users/lemon/baseline-benchmark/run-20261109/training/B_diffusion_policy/executed_train_from_096000.py"
+        },
+        {
+          "from_positions": 192000,
+          "to_positions": 384000,
+          "source_sha256": "f7f64dedcdf083cc0766a7d2b73eaa5810df5bee93569036e0e0bf2936d2c1d3",
+          "source_path": "/home/users/lemon/baseline-benchmark/run-20261109/training/B_diffusion_policy/executed_train_from_192000.py"
         }
       ],
-      "last_loss": 0.03763091191649437,
+      "last_loss": 0.0016981733497232199,
       "peak_gpu_allocated_bytes": 2478829568,
       "peak_gpu_reserved_bytes": 2845835264,
-      "running_segment_seconds": 336.0158522920683,
-      "checkpoint": "/home/users/lemon/baseline-benchmark/run-20261109/training/B_diffusion_policy/positions-096000.pt",
-      "checkpoint_sha256": "c62632b9e7fa60e56f6bfa0991d553439f34d5fca86533078381bbb8dc3d65a6",
-      "changed_parameter_tensors": 212
+      "running_segment_seconds": 529.2859660130925,
+      "checkpoint": "/home/users/lemon/baseline-benchmark/run-20261109/training/B_diffusion_policy/positions-384000.pt",
+      "checkpoint_sha256": "9c0d8a21b2091cee4de646980caeed8d17098bf39afcea02d36d862619cb519f",
+      "changed_parameter_tensors": 212,
+      "selection_status": "SELECTED_FINAL_CHECKPOINT",
+      "budget_stop_reason": "VALIDATION_NO_FURTHER_GAIN",
+      "recent_validation_relative_improvement": -0.006795990792819876
     },
     "C_bc_transformer": {
       "status": "TIER_COMPLETE",
       "label": "C_bc_transformer",
       "method": "bc_transformer",
       "group": "C",
-      "completed_optimizer_steps": 6000,
+      "completed_optimizer_steps": 48000,
       "nonfinite_losses": 0,
-      "anchor_positions": 96000,
-      "actual_target_positions": 96000,
-      "actual_source_positions": 96000,
-      "gpu_seconds": 634.9568052287214,
+      "anchor_positions": 768000,
+      "actual_target_positions": 768000,
+      "actual_source_positions": 768000,
+      "gpu_seconds": 4579.214150944725,
       "batch_target": 16,
       "actual_batch": 32,
       "frozen_commit": "1611433f432a145b93752b6a2eb07e1987bee428",
@@ -920,6 +1596,454 @@
           "batches": 16,
           "anchor_positions": 96000,
           "optimizer_step": 6000
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.06505597452633083,
+          "nll": -16.908551394939423,
+          "batches": 16,
+          "anchor_positions": 108000,
+          "optimizer_step": 6750
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.058443254441954195,
+          "nll": -17.296060144901276,
+          "batches": 16,
+          "anchor_positions": 120000,
+          "optimizer_step": 7500
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.05877195578068495,
+          "nll": -16.849439918994904,
+          "batches": 16,
+          "anchor_positions": 132000,
+          "optimizer_step": 8250
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.06450840621255338,
+          "nll": -15.653917729854584,
+          "batches": 16,
+          "anchor_positions": 144000,
+          "optimizer_step": 9000
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.05436657625250518,
+          "nll": -17.628451824188232,
+          "batches": 16,
+          "anchor_positions": 156000,
+          "optimizer_step": 9750
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.05499643401708454,
+          "nll": -15.2595996260643,
+          "batches": 16,
+          "anchor_positions": 168000,
+          "optimizer_step": 10500
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.055185914505273104,
+          "nll": -15.192263782024384,
+          "batches": 16,
+          "anchor_positions": 180000,
+          "optimizer_step": 11250
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.057055997545830905,
+          "nll": -14.414141118526459,
+          "batches": 16,
+          "anchor_positions": 192000,
+          "optimizer_step": 12000
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.05602143768919632,
+          "nll": -14.624216914176941,
+          "batches": 16,
+          "anchor_positions": 204000,
+          "optimizer_step": 12750
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.051751198596321046,
+          "nll": -14.72724986076355,
+          "batches": 16,
+          "anchor_positions": 216000,
+          "optimizer_step": 13500
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.05122271296568215,
+          "nll": -14.79855591058731,
+          "batches": 16,
+          "anchor_positions": 228000,
+          "optimizer_step": 14250
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.05042287224205211,
+          "nll": -13.08504194021225,
+          "batches": 16,
+          "anchor_positions": 240000,
+          "optimizer_step": 15000
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.05124168243492022,
+          "nll": -13.660593092441559,
+          "batches": 16,
+          "anchor_positions": 252000,
+          "optimizer_step": 15750
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.05540519917849451,
+          "nll": -13.802668273448944,
+          "batches": 16,
+          "anchor_positions": 264000,
+          "optimizer_step": 16500
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.06395167880691588,
+          "nll": -12.923927247524261,
+          "batches": 16,
+          "anchor_positions": 276000,
+          "optimizer_step": 17250
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.05589448695536703,
+          "nll": -13.27134096622467,
+          "batches": 16,
+          "anchor_positions": 288000,
+          "optimizer_step": 18000
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.050085537892300636,
+          "nll": -13.955124080181122,
+          "batches": 16,
+          "anchor_positions": 300000,
+          "optimizer_step": 18750
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.05407122534234077,
+          "nll": -13.412073791027069,
+          "batches": 16,
+          "anchor_positions": 312000,
+          "optimizer_step": 19500
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.07723343698307872,
+          "nll": -13.590866386890411,
+          "batches": 16,
+          "anchor_positions": 324000,
+          "optimizer_step": 20250
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.05855036311550066,
+          "nll": -13.649281919002533,
+          "batches": 16,
+          "anchor_positions": 336000,
+          "optimizer_step": 21000
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.05345568642951548,
+          "nll": -12.564578890800476,
+          "batches": 16,
+          "anchor_positions": 348000,
+          "optimizer_step": 21750
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.051004699897021055,
+          "nll": -13.817030429840088,
+          "batches": 16,
+          "anchor_positions": 360000,
+          "optimizer_step": 22500
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.053915296448394656,
+          "nll": -12.790522038936615,
+          "batches": 16,
+          "anchor_positions": 372000,
+          "optimizer_step": 23250
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.05771716812159866,
+          "nll": -13.18490469455719,
+          "batches": 16,
+          "anchor_positions": 384000,
+          "optimizer_step": 24000
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.059507181867957115,
+          "nll": -13.205639243125916,
+          "batches": 16,
+          "anchor_positions": 396000,
+          "optimizer_step": 24750
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.05500402837060392,
+          "nll": -12.851747274398804,
+          "batches": 16,
+          "anchor_positions": 408000,
+          "optimizer_step": 25500
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.15998117066919804,
+          "nll": -12.19338595867157,
+          "batches": 16,
+          "anchor_positions": 420000,
+          "optimizer_step": 26250
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.15967437718063593,
+          "nll": -14.11789757013321,
+          "batches": 16,
+          "anchor_positions": 432000,
+          "optimizer_step": 27000
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.15935149788856506,
+          "nll": -14.714445054531097,
+          "batches": 16,
+          "anchor_positions": 444000,
+          "optimizer_step": 27750
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.15770520642399788,
+          "nll": -15.739732444286346,
+          "batches": 16,
+          "anchor_positions": 456000,
+          "optimizer_step": 28500
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.1445800014771521,
+          "nll": -16.901616513729095,
+          "batches": 16,
+          "anchor_positions": 468000,
+          "optimizer_step": 29250
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.13756745401769876,
+          "nll": -17.4624365568161,
+          "batches": 16,
+          "anchor_positions": 480000,
+          "optimizer_step": 30000
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.11696871742606163,
+          "nll": -17.670920968055725,
+          "batches": 16,
+          "anchor_positions": 492000,
+          "optimizer_step": 30750
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.08830086421221495,
+          "nll": -17.425738036632538,
+          "batches": 16,
+          "anchor_positions": 504000,
+          "optimizer_step": 31500
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.05836183181963861,
+          "nll": -16.944162011146545,
+          "batches": 16,
+          "anchor_positions": 516000,
+          "optimizer_step": 32250
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.04245388403069228,
+          "nll": -16.50810158252716,
+          "batches": 16,
+          "anchor_positions": 528000,
+          "optimizer_step": 33000
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.035928507189964876,
+          "nll": -15.126207411289215,
+          "batches": 16,
+          "anchor_positions": 540000,
+          "optimizer_step": 33750
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.04213269700994715,
+          "nll": -15.14479660987854,
+          "batches": 16,
+          "anchor_positions": 552000,
+          "optimizer_step": 34500
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.047019473684486,
+          "nll": -14.446181952953339,
+          "batches": 16,
+          "anchor_positions": 564000,
+          "optimizer_step": 35250
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.04068960330914706,
+          "nll": -13.502160549163818,
+          "batches": 16,
+          "anchor_positions": 576000,
+          "optimizer_step": 36000
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.039924587865243666,
+          "nll": -11.283182114362717,
+          "batches": 16,
+          "anchor_positions": 588000,
+          "optimizer_step": 36750
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.04687658965121955,
+          "nll": -10.921216905117035,
+          "batches": 16,
+          "anchor_positions": 600000,
+          "optimizer_step": 37500
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.04384509238298051,
+          "nll": -11.257076442241669,
+          "batches": 16,
+          "anchor_positions": 612000,
+          "optimizer_step": 38250
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.048677367478376254,
+          "nll": -9.733556658029556,
+          "batches": 16,
+          "anchor_positions": 624000,
+          "optimizer_step": 39000
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.047216088976711035,
+          "nll": -8.470983773469925,
+          "batches": 16,
+          "anchor_positions": 636000,
+          "optimizer_step": 39750
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.04748955409741029,
+          "nll": -7.210058510303497,
+          "batches": 16,
+          "anchor_positions": 648000,
+          "optimizer_step": 40500
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.057206219411455095,
+          "nll": -8.819274544715881,
+          "batches": 16,
+          "anchor_positions": 660000,
+          "optimizer_step": 41250
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.05223286582622677,
+          "nll": -9.795933604240417,
+          "batches": 16,
+          "anchor_positions": 672000,
+          "optimizer_step": 42000
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.048418563848827034,
+          "nll": -6.28755983710289,
+          "batches": 16,
+          "anchor_positions": 684000,
+          "optimizer_step": 42750
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.050621382892131805,
+          "nll": -8.893764734268188,
+          "batches": 16,
+          "anchor_positions": 696000,
+          "optimizer_step": 43500
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.04931213063537143,
+          "nll": -5.7825817912817,
+          "batches": 16,
+          "anchor_positions": 708000,
+          "optimizer_step": 44250
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.057199445203877985,
+          "nll": -4.110690478235483,
+          "batches": 16,
+          "anchor_positions": 720000,
+          "optimizer_step": 45000
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.05350425757933408,
+          "nll": -4.286921590566635,
+          "batches": 16,
+          "anchor_positions": 732000,
+          "optimizer_step": 45750
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.05815296224318445,
+          "nll": -5.682953864336014,
+          "batches": 16,
+          "anchor_positions": 744000,
+          "optimizer_step": 46500
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.05152915569487959,
+          "nll": -4.445057228207588,
+          "batches": 16,
+          "anchor_positions": 756000,
+          "optimizer_step": 47250
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.04961974613252096,
+          "nll": -6.441367149353027,
+          "batches": 16,
+          "anchor_positions": 768000,
+          "optimizer_step": 48000
         }
       ],
       "parameter_count": 30574315,
@@ -932,34 +2056,55 @@
         "nll": 7.549942761659622,
         "batches": 16
       },
-      "prescribed_tier_positions": 96000,
+      "prescribed_tier_positions": 768000,
       "trainer_segments": [
         {
           "from_positions": 0,
           "to_positions": 96000,
           "source_sha256": "f7f64dedcdf083cc0766a7d2b73eaa5810df5bee93569036e0e0bf2936d2c1d3",
           "source_path": "/home/users/lemon/baseline-benchmark/run-20261109/training/C_bc_transformer/executed_train_from_000000.py"
+        },
+        {
+          "from_positions": 96000,
+          "to_positions": 192000,
+          "source_sha256": "f7f64dedcdf083cc0766a7d2b73eaa5810df5bee93569036e0e0bf2936d2c1d3",
+          "source_path": "/home/users/lemon/baseline-benchmark/run-20261109/training/C_bc_transformer/executed_train_from_096000.py"
+        },
+        {
+          "from_positions": 192000,
+          "to_positions": 384000,
+          "source_sha256": "f7f64dedcdf083cc0766a7d2b73eaa5810df5bee93569036e0e0bf2936d2c1d3",
+          "source_path": "/home/users/lemon/baseline-benchmark/run-20261109/training/C_bc_transformer/executed_train_from_192000.py"
+        },
+        {
+          "from_positions": 384000,
+          "to_positions": 768000,
+          "source_sha256": "f7f64dedcdf083cc0766a7d2b73eaa5810df5bee93569036e0e0bf2936d2c1d3",
+          "source_path": "/home/users/lemon/baseline-benchmark/run-20261109/training/C_bc_transformer/executed_train_from_384000.py"
         }
       ],
-      "last_loss": -14.704328536987305,
-      "peak_gpu_allocated_bytes": 2702800384,
+      "last_loss": -19.7406005859375,
+      "peak_gpu_allocated_bytes": 2708370944,
       "peak_gpu_reserved_bytes": 4087349248,
-      "running_segment_seconds": 634.9259597789496,
-      "checkpoint": "/home/users/lemon/baseline-benchmark/run-20261109/training/C_bc_transformer/positions-096000.pt",
-      "checkpoint_sha256": "52144ec4e68a4f59a7bec5c246f51660b6e553880f8e775230d1addad536f97c",
-      "changed_parameter_tensors": 143
+      "running_segment_seconds": 2248.3567331861705,
+      "checkpoint": "/home/users/lemon/baseline-benchmark/run-20261109/training/C_bc_transformer/positions-768000.pt",
+      "checkpoint_sha256": "f0cf5dcde213c069039fd393d59867510919f75b07d4d63fafe7b772b1bf5703",
+      "changed_parameter_tensors": 143,
+      "selection_status": "SELECTED_FINAL_CHECKPOINT",
+      "budget_stop_reason": "VALIDATION_NO_FURTHER_GAIN",
+      "recent_validation_relative_improvement": 0.004461866883702958
     },
     "C_diffusion_policy": {
       "status": "TIER_COMPLETE",
       "label": "C_diffusion_policy",
       "method": "diffusion_policy",
       "group": "C",
-      "completed_optimizer_steps": 6000,
+      "completed_optimizer_steps": 24000,
       "nonfinite_losses": 0,
-      "anchor_positions": 96000,
-      "actual_target_positions": 96000,
-      "actual_source_positions": 96000,
-      "gpu_seconds": 331.4485628758557,
+      "anchor_positions": 384000,
+      "actual_target_positions": 384000,
+      "actual_source_positions": 384000,
+      "gpu_seconds": 1314.0044772247784,
       "batch_target": 16,
       "actual_batch": 32,
       "frozen_commit": "1611433f432a145b93752b6a2eb07e1987bee428",
@@ -1027,6 +2172,198 @@
           "batches": 16,
           "anchor_positions": 96000,
           "optimizer_step": 6000
+        },
+        {
+          "metric": "ema_fixed_noise_mse",
+          "value": 0.02005797513993457,
+          "nll": null,
+          "batches": 16,
+          "anchor_positions": 108000,
+          "optimizer_step": 6750
+        },
+        {
+          "metric": "ema_fixed_noise_mse",
+          "value": 0.019402584235649556,
+          "nll": null,
+          "batches": 16,
+          "anchor_positions": 120000,
+          "optimizer_step": 7500
+        },
+        {
+          "metric": "ema_fixed_noise_mse",
+          "value": 0.018999997933860868,
+          "nll": null,
+          "batches": 16,
+          "anchor_positions": 132000,
+          "optimizer_step": 8250
+        },
+        {
+          "metric": "ema_fixed_noise_mse",
+          "value": 0.01866205350961536,
+          "nll": null,
+          "batches": 16,
+          "anchor_positions": 144000,
+          "optimizer_step": 9000
+        },
+        {
+          "metric": "ema_fixed_noise_mse",
+          "value": 0.01815032324520871,
+          "nll": null,
+          "batches": 16,
+          "anchor_positions": 156000,
+          "optimizer_step": 9750
+        },
+        {
+          "metric": "ema_fixed_noise_mse",
+          "value": 0.01771656342316419,
+          "nll": null,
+          "batches": 16,
+          "anchor_positions": 168000,
+          "optimizer_step": 10500
+        },
+        {
+          "metric": "ema_fixed_noise_mse",
+          "value": 0.017224725103005767,
+          "nll": null,
+          "batches": 16,
+          "anchor_positions": 180000,
+          "optimizer_step": 11250
+        },
+        {
+          "metric": "ema_fixed_noise_mse",
+          "value": 0.016775938391219825,
+          "nll": null,
+          "batches": 16,
+          "anchor_positions": 192000,
+          "optimizer_step": 12000
+        },
+        {
+          "metric": "ema_fixed_noise_mse",
+          "value": 0.016460949671454728,
+          "nll": null,
+          "batches": 16,
+          "anchor_positions": 204000,
+          "optimizer_step": 12750
+        },
+        {
+          "metric": "ema_fixed_noise_mse",
+          "value": 0.016291838634060696,
+          "nll": null,
+          "batches": 16,
+          "anchor_positions": 216000,
+          "optimizer_step": 13500
+        },
+        {
+          "metric": "ema_fixed_noise_mse",
+          "value": 0.0161643669125624,
+          "nll": null,
+          "batches": 16,
+          "anchor_positions": 228000,
+          "optimizer_step": 14250
+        },
+        {
+          "metric": "ema_fixed_noise_mse",
+          "value": 0.016012257430702448,
+          "nll": null,
+          "batches": 16,
+          "anchor_positions": 240000,
+          "optimizer_step": 15000
+        },
+        {
+          "metric": "ema_fixed_noise_mse",
+          "value": 0.01581249592709355,
+          "nll": null,
+          "batches": 16,
+          "anchor_positions": 252000,
+          "optimizer_step": 15750
+        },
+        {
+          "metric": "ema_fixed_noise_mse",
+          "value": 0.015715238318080083,
+          "nll": null,
+          "batches": 16,
+          "anchor_positions": 264000,
+          "optimizer_step": 16500
+        },
+        {
+          "metric": "ema_fixed_noise_mse",
+          "value": 0.015632247406756505,
+          "nll": null,
+          "batches": 16,
+          "anchor_positions": 276000,
+          "optimizer_step": 17250
+        },
+        {
+          "metric": "ema_fixed_noise_mse",
+          "value": 0.015562024054815993,
+          "nll": null,
+          "batches": 16,
+          "anchor_positions": 288000,
+          "optimizer_step": 18000
+        },
+        {
+          "metric": "ema_fixed_noise_mse",
+          "value": 0.01548237563110888,
+          "nll": null,
+          "batches": 16,
+          "anchor_positions": 300000,
+          "optimizer_step": 18750
+        },
+        {
+          "metric": "ema_fixed_noise_mse",
+          "value": 0.015440611488884315,
+          "nll": null,
+          "batches": 16,
+          "anchor_positions": 312000,
+          "optimizer_step": 19500
+        },
+        {
+          "metric": "ema_fixed_noise_mse",
+          "value": 0.015359014185378328,
+          "nll": null,
+          "batches": 16,
+          "anchor_positions": 324000,
+          "optimizer_step": 20250
+        },
+        {
+          "metric": "ema_fixed_noise_mse",
+          "value": 0.015269439754774794,
+          "nll": null,
+          "batches": 16,
+          "anchor_positions": 336000,
+          "optimizer_step": 21000
+        },
+        {
+          "metric": "ema_fixed_noise_mse",
+          "value": 0.015168551268288866,
+          "nll": null,
+          "batches": 16,
+          "anchor_positions": 348000,
+          "optimizer_step": 21750
+        },
+        {
+          "metric": "ema_fixed_noise_mse",
+          "value": 0.015151373343542218,
+          "nll": null,
+          "batches": 16,
+          "anchor_positions": 360000,
+          "optimizer_step": 22500
+        },
+        {
+          "metric": "ema_fixed_noise_mse",
+          "value": 0.015105073136510327,
+          "nll": null,
+          "batches": 16,
+          "anchor_positions": 372000,
+          "optimizer_step": 23250
+        },
+        {
+          "metric": "ema_fixed_noise_mse",
+          "value": 0.014977322483900934,
+          "nll": null,
+          "batches": 16,
+          "anchor_positions": 384000,
+          "optimizer_step": 24000
         }
       ],
       "parameter_count": 100271015,
@@ -1039,34 +2376,49 @@
         "nll": null,
         "batches": 16
       },
-      "prescribed_tier_positions": 96000,
+      "prescribed_tier_positions": 384000,
       "trainer_segments": [
         {
           "from_positions": 0,
           "to_positions": 96000,
           "source_sha256": "f7f64dedcdf083cc0766a7d2b73eaa5810df5bee93569036e0e0bf2936d2c1d3",
           "source_path": "/home/users/lemon/baseline-benchmark/run-20261109/training/C_diffusion_policy/executed_train_from_000000.py"
+        },
+        {
+          "from_positions": 96000,
+          "to_positions": 192000,
+          "source_sha256": "f7f64dedcdf083cc0766a7d2b73eaa5810df5bee93569036e0e0bf2936d2c1d3",
+          "source_path": "/home/users/lemon/baseline-benchmark/run-20261109/training/C_diffusion_policy/executed_train_from_096000.py"
+        },
+        {
+          "from_positions": 192000,
+          "to_positions": 384000,
+          "source_sha256": "f7f64dedcdf083cc0766a7d2b73eaa5810df5bee93569036e0e0bf2936d2c1d3",
+          "source_path": "/home/users/lemon/baseline-benchmark/run-20261109/training/C_diffusion_policy/executed_train_from_192000.py"
         }
       ],
-      "last_loss": 0.055290207266807556,
-      "peak_gpu_allocated_bytes": 2654672384,
+      "last_loss": 0.007911601103842258,
+      "peak_gpu_allocated_bytes": 2659382784,
       "peak_gpu_reserved_bytes": 2973761536,
-      "running_segment_seconds": 331.41591638093814,
-      "checkpoint": "/home/users/lemon/baseline-benchmark/run-20261109/training/C_diffusion_policy/positions-096000.pt",
-      "checkpoint_sha256": "14e68d1f5be019fd93f8f06b2b27c6dd1c54f4dcee756d80ffa72a4548ebe768",
-      "changed_parameter_tensors": 212
+      "running_segment_seconds": 656.8922453923151,
+      "checkpoint": "/home/users/lemon/baseline-benchmark/run-20261109/training/C_diffusion_policy/positions-384000.pt",
+      "checkpoint_sha256": "ccf1edd89b08d6f2e46d00a92defaaf4df5094cca11d728b269fbff52acfc339",
+      "changed_parameter_tensors": 212,
+      "selection_status": "SELECTED_FINAL_CHECKPOINT",
+      "budget_stop_reason": "VALIDATION_NO_FURTHER_GAIN",
+      "recent_validation_relative_improvement": 0.012298538778354042
     },
     "A_bc_transformer": {
       "status": "TIER_COMPLETE",
       "label": "A_bc_transformer",
       "method": "bc_transformer",
       "group": "A",
-      "completed_optimizer_steps": 6000,
+      "completed_optimizer_steps": 12000,
       "nonfinite_losses": 0,
-      "anchor_positions": 96000,
+      "anchor_positions": 192000,
       "actual_target_positions": 0,
-      "actual_source_positions": 96000,
-      "gpu_seconds": 330.0553373647854,
+      "actual_source_positions": 192000,
+      "gpu_seconds": 662.581579440739,
       "batch_target": 16,
       "actual_batch": 16,
       "frozen_commit": "1611433f432a145b93752b6a2eb07e1987bee428",
@@ -1134,6 +2486,70 @@
           "batches": 16,
           "anchor_positions": 96000,
           "optimizer_step": 6000
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.10065182065591216,
+          "nll": -11.907837748527527,
+          "batches": 16,
+          "anchor_positions": 108000,
+          "optimizer_step": 6750
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.10150857036933303,
+          "nll": -11.86880511045456,
+          "batches": 16,
+          "anchor_positions": 120000,
+          "optimizer_step": 7500
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.09387288033030927,
+          "nll": -12.095462203025818,
+          "batches": 16,
+          "anchor_positions": 132000,
+          "optimizer_step": 8250
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.08728016749955714,
+          "nll": -12.33746600151062,
+          "batches": 16,
+          "anchor_positions": 144000,
+          "optimizer_step": 9000
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.08281091414391994,
+          "nll": -12.272232711315155,
+          "batches": 16,
+          "anchor_positions": 156000,
+          "optimizer_step": 9750
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.10072361398488283,
+          "nll": -12.195180833339691,
+          "batches": 16,
+          "anchor_positions": 168000,
+          "optimizer_step": 10500
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.07792688510380685,
+          "nll": -12.369066834449768,
+          "batches": 16,
+          "anchor_positions": 180000,
+          "optimizer_step": 11250
+        },
+        {
+          "metric": "expected_action_mse",
+          "value": 0.08659176388755441,
+          "nll": -12.240347027778625,
+          "batches": 16,
+          "anchor_positions": 192000,
+          "optimizer_step": 12000
         }
       ],
       "parameter_count": 30574315,
@@ -1146,34 +2562,43 @@
         "nll": 7.827652633190155,
         "batches": 16
       },
-      "prescribed_tier_positions": 96000,
+      "prescribed_tier_positions": 192000,
       "trainer_segments": [
         {
           "from_positions": 0,
           "to_positions": 96000,
           "source_sha256": "f7f64dedcdf083cc0766a7d2b73eaa5810df5bee93569036e0e0bf2936d2c1d3",
           "source_path": "/home/users/lemon/baseline-benchmark/run-20261109/training/A_bc_transformer/executed_train_from_000000.py"
+        },
+        {
+          "from_positions": 96000,
+          "to_positions": 192000,
+          "source_sha256": "f7f64dedcdf083cc0766a7d2b73eaa5810df5bee93569036e0e0bf2936d2c1d3",
+          "source_path": "/home/users/lemon/baseline-benchmark/run-20261109/training/A_bc_transformer/executed_train_from_096000.py"
         }
       ],
-      "last_loss": -9.229695320129395,
-      "peak_gpu_allocated_bytes": 1678791680,
-      "peak_gpu_reserved_bytes": 1988100096,
-      "running_segment_seconds": 330.025946078822,
-      "checkpoint": "/home/users/lemon/baseline-benchmark/run-20261109/training/A_bc_transformer/positions-096000.pt",
-      "checkpoint_sha256": "38369513cd7a1b2bb1b5cf92804beddf756a58301549094fbc6240f040aededf",
-      "changed_parameter_tensors": 143
+      "last_loss": -12.307710647583008,
+      "peak_gpu_allocated_bytes": 1680436224,
+      "peak_gpu_reserved_bytes": 2220883968,
+      "running_segment_seconds": 332.5002820789814,
+      "checkpoint": "/home/users/lemon/baseline-benchmark/run-20261109/training/A_bc_transformer/positions-192000.pt",
+      "checkpoint_sha256": "5f06a7224c9ffc43b0ce10c8c1089e402278879522fb224e0b0589b228fcb62f",
+      "changed_parameter_tensors": 143,
+      "selection_status": "SELECTED_FINAL_CHECKPOINT",
+      "budget_stop_reason": "VALIDATION_NO_FURTHER_GAIN",
+      "recent_validation_relative_improvement": -0.004842710318860432
     },
     "A_diffusion_policy": {
       "status": "TIER_COMPLETE",
       "label": "A_diffusion_policy",
       "method": "diffusion_policy",
       "group": "A",
-      "completed_optimizer_steps": 6000,
+      "completed_optimizer_steps": 12000,
       "nonfinite_losses": 0,
-      "anchor_positions": 96000,
+      "anchor_positions": 192000,
       "actual_target_positions": 0,
-      "actual_source_positions": 96000,
-      "gpu_seconds": 269.89760261261836,
+      "actual_source_positions": 192000,
+      "gpu_seconds": 532.1473556836136,
       "batch_target": 16,
       "actual_batch": 16,
       "frozen_commit": "1611433f432a145b93752b6a2eb07e1987bee428",
@@ -1241,6 +2666,70 @@
           "batches": 16,
           "anchor_positions": 96000,
           "optimizer_step": 6000
+        },
+        {
+          "metric": "ema_fixed_noise_mse",
+          "value": 0.06503089680336416,
+          "nll": null,
+          "batches": 16,
+          "anchor_positions": 108000,
+          "optimizer_step": 6750
+        },
+        {
+          "metric": "ema_fixed_noise_mse",
+          "value": 0.06427742284722626,
+          "nll": null,
+          "batches": 16,
+          "anchor_positions": 120000,
+          "optimizer_step": 7500
+        },
+        {
+          "metric": "ema_fixed_noise_mse",
+          "value": 0.0637299760710448,
+          "nll": null,
+          "batches": 16,
+          "anchor_positions": 132000,
+          "optimizer_step": 8250
+        },
+        {
+          "metric": "ema_fixed_noise_mse",
+          "value": 0.06333534000441432,
+          "nll": null,
+          "batches": 16,
+          "anchor_positions": 144000,
+          "optimizer_step": 9000
+        },
+        {
+          "metric": "ema_fixed_noise_mse",
+          "value": 0.0628100666217506,
+          "nll": null,
+          "batches": 16,
+          "anchor_positions": 156000,
+          "optimizer_step": 9750
+        },
+        {
+          "metric": "ema_fixed_noise_mse",
+          "value": 0.06235956773161888,
+          "nll": null,
+          "batches": 16,
+          "anchor_positions": 168000,
+          "optimizer_step": 10500
+        },
+        {
+          "metric": "ema_fixed_noise_mse",
+          "value": 0.06209163647145033,
+          "nll": null,
+          "batches": 16,
+          "anchor_positions": 180000,
+          "optimizer_step": 11250
+        },
+        {
+          "metric": "ema_fixed_noise_mse",
+          "value": 0.06198159675113857,
+          "nll": null,
+          "batches": 16,
+          "anchor_positions": 192000,
+          "optimizer_step": 12000
         }
       ],
       "parameter_count": 100271015,
@@ -1253,22 +2742,31 @@
         "nll": null,
         "batches": 16
       },
-      "prescribed_tier_positions": 96000,
+      "prescribed_tier_positions": 192000,
       "trainer_segments": [
         {
           "from_positions": 0,
           "to_positions": 96000,
           "source_sha256": "f7f64dedcdf083cc0766a7d2b73eaa5810df5bee93569036e0e0bf2936d2c1d3",
           "source_path": "/home/users/lemon/baseline-benchmark/run-20261109/training/A_diffusion_policy/executed_train_from_000000.py"
+        },
+        {
+          "from_positions": 96000,
+          "to_positions": 192000,
+          "source_sha256": "f7f64dedcdf083cc0766a7d2b73eaa5810df5bee93569036e0e0bf2936d2c1d3",
+          "source_path": "/home/users/lemon/baseline-benchmark/run-20261109/training/A_diffusion_policy/executed_train_from_096000.py"
         }
       ],
-      "last_loss": 0.08294026553630829,
+      "last_loss": 0.05284147709608078,
       "peak_gpu_allocated_bytes": 2478829568,
       "peak_gpu_reserved_bytes": 2845835264,
-      "running_segment_seconds": 269.85673107765615,
-      "checkpoint": "/home/users/lemon/baseline-benchmark/run-20261109/training/A_diffusion_policy/positions-096000.pt",
-      "checkpoint_sha256": "d6c41c650b51d1010177f87533ed171c00c9139bcc23d210a2859871b1a7c1e3",
-      "changed_parameter_tensors": 212
+      "running_segment_seconds": 262.2072140988894,
+      "checkpoint": "/home/users/lemon/baseline-benchmark/run-20261109/training/A_diffusion_policy/positions-192000.pt",
+      "checkpoint_sha256": "250f26c86f1d98bdd41aaab450a881eebd315858ffbead0f272ccf4fc6c63ffa",
+      "changed_parameter_tensors": 212,
+      "selection_status": "SELECTED_FINAL_CHECKPOINT",
+      "budget_stop_reason": "VALIDATION_NO_FURTHER_GAIN",
+      "recent_validation_relative_improvement": 0.01813074288040662
     }
   },
   "predeclared_budget_policy": true,

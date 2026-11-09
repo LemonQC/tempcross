@@ -3,12 +3,12 @@
   "label": "A_diffusion_policy",
   "method": "diffusion_policy",
   "group": "A",
-  "completed_optimizer_steps": 6000,
+  "completed_optimizer_steps": 12000,
   "nonfinite_losses": 0,
-  "anchor_positions": 96000,
+  "anchor_positions": 192000,
   "actual_target_positions": 0,
-  "actual_source_positions": 96000,
-  "gpu_seconds": 269.89760261261836,
+  "actual_source_positions": 192000,
+  "gpu_seconds": 532.1473556836136,
   "batch_target": 16,
   "actual_batch": 16,
   "frozen_commit": "1611433f432a145b93752b6a2eb07e1987bee428",
@@ -76,6 +76,70 @@
       "batches": 16,
       "anchor_positions": 96000,
       "optimizer_step": 6000
+    },
+    {
+      "metric": "ema_fixed_noise_mse",
+      "value": 0.06503089680336416,
+      "nll": null,
+      "batches": 16,
+      "anchor_positions": 108000,
+      "optimizer_step": 6750
+    },
+    {
+      "metric": "ema_fixed_noise_mse",
+      "value": 0.06427742284722626,
+      "nll": null,
+      "batches": 16,
+      "anchor_positions": 120000,
+      "optimizer_step": 7500
+    },
+    {
+      "metric": "ema_fixed_noise_mse",
+      "value": 0.0637299760710448,
+      "nll": null,
+      "batches": 16,
+      "anchor_positions": 132000,
+      "optimizer_step": 8250
+    },
+    {
+      "metric": "ema_fixed_noise_mse",
+      "value": 0.06333534000441432,
+      "nll": null,
+      "batches": 16,
+      "anchor_positions": 144000,
+      "optimizer_step": 9000
+    },
+    {
+      "metric": "ema_fixed_noise_mse",
+      "value": 0.0628100666217506,
+      "nll": null,
+      "batches": 16,
+      "anchor_positions": 156000,
+      "optimizer_step": 9750
+    },
+    {
+      "metric": "ema_fixed_noise_mse",
+      "value": 0.06235956773161888,
+      "nll": null,
+      "batches": 16,
+      "anchor_positions": 168000,
+      "optimizer_step": 10500
+    },
+    {
+      "metric": "ema_fixed_noise_mse",
+      "value": 0.06209163647145033,
+      "nll": null,
+      "batches": 16,
+      "anchor_positions": 180000,
+      "optimizer_step": 11250
+    },
+    {
+      "metric": "ema_fixed_noise_mse",
+      "value": 0.06198159675113857,
+      "nll": null,
+      "batches": 16,
+      "anchor_positions": 192000,
+      "optimizer_step": 12000
     }
   ],
   "parameter_count": 100271015,
@@ -88,20 +152,26 @@
     "nll": null,
     "batches": 16
   },
-  "prescribed_tier_positions": 96000,
+  "prescribed_tier_positions": 192000,
   "trainer_segments": [
     {
       "from_positions": 0,
       "to_positions": 96000,
       "source_sha256": "f7f64dedcdf083cc0766a7d2b73eaa5810df5bee93569036e0e0bf2936d2c1d3",
       "source_path": "/home/users/lemon/baseline-benchmark/run-20261109/training/A_diffusion_policy/executed_train_from_000000.py"
+    },
+    {
+      "from_positions": 96000,
+      "to_positions": 192000,
+      "source_sha256": "f7f64dedcdf083cc0766a7d2b73eaa5810df5bee93569036e0e0bf2936d2c1d3",
+      "source_path": "/home/users/lemon/baseline-benchmark/run-20261109/training/A_diffusion_policy/executed_train_from_096000.py"
     }
   ],
-  "last_loss": 0.08294026553630829,
+  "last_loss": 0.05284147709608078,
   "peak_gpu_allocated_bytes": 2478829568,
   "peak_gpu_reserved_bytes": 2845835264,
-  "running_segment_seconds": 269.85673107765615,
-  "checkpoint": "/home/users/lemon/baseline-benchmark/run-20261109/training/A_diffusion_policy/positions-096000.pt",
-  "checkpoint_sha256": "d6c41c650b51d1010177f87533ed171c00c9139bcc23d210a2859871b1a7c1e3",
+  "running_segment_seconds": 262.2072140988894,
+  "checkpoint": "/home/users/lemon/baseline-benchmark/run-20261109/training/A_diffusion_policy/positions-192000.pt",
+  "checkpoint_sha256": "250f26c86f1d98bdd41aaab450a881eebd315858ffbead0f272ccf4fc6c63ffa",
   "changed_parameter_tensors": 212
 }

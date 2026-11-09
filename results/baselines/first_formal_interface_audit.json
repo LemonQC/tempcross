@@ -1,0 +1,29 @@
+{
+  "role": "READ_ONLY_NO_POLICY_SELECTION",
+  "records": [
+    {
+      "label": "B_bc_gmm",
+      "task": "pnp_counter_to_sink",
+      "original_index": 60,
+      "frozen_initial_state_and_actual_control_verified": true
+    },
+    {
+      "label": "B_bc_gmm",
+      "task": "pnp_sink_to_counter",
+      "original_index": 60,
+      "frozen_initial_state_and_actual_control_verified": true
+    },
+    {
+      "label": "B_bc_rnn",
+      "task": "pnp_counter_to_sink",
+      "original_index": 60,
+      "frozen_initial_state_and_actual_control_verified": true
+    },
+    {
+      "label": "B_bc_rnn",
+      "task": "pnp_sink_to_counter",
+      "original_index": 60,
+      "frozen_initial_state_and_actual_control_verified": true
+    }
+  ]
+}

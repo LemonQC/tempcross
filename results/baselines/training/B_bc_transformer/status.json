@@ -1,14 +1,14 @@
 {
-  "status": "TRAINING",
+  "status": "TIER_COMPLETE",
   "label": "B_bc_transformer",
   "method": "bc_transformer",
   "group": "B",
-  "completed_optimizer_steps": 6100,
+  "completed_optimizer_steps": 48000,
   "nonfinite_losses": 0,
-  "anchor_positions": 97600,
-  "actual_target_positions": 97600,
+  "anchor_positions": 768000,
+  "actual_target_positions": 768000,
   "actual_source_positions": 0,
-  "gpu_seconds": 328.50251945341006,
+  "gpu_seconds": 2654.007770174183,
   "batch_target": 16,
   "actual_batch": 16,
   "frozen_commit": "1611433f432a145b93752b6a2eb07e1987bee428",
@@ -76,6 +76,454 @@
       "batches": 16,
       "anchor_positions": 96000,
       "optimizer_step": 6000
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.11312374356202781,
+      "nll": -14.964898645877838,
+      "batches": 16,
+      "anchor_positions": 108000,
+      "optimizer_step": 6750
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.12568292766809464,
+      "nll": -13.780603289604187,
+      "batches": 16,
+      "anchor_positions": 120000,
+      "optimizer_step": 7500
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.11696682521142066,
+      "nll": -11.689052164554596,
+      "batches": 16,
+      "anchor_positions": 132000,
+      "optimizer_step": 8250
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.12027649930678308,
+      "nll": -12.06558382511139,
+      "batches": 16,
+      "anchor_positions": 144000,
+      "optimizer_step": 9000
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.11728861765004694,
+      "nll": -12.15609496831894,
+      "batches": 16,
+      "anchor_positions": 156000,
+      "optimizer_step": 9750
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.10029250010848045,
+      "nll": -12.681227207183838,
+      "batches": 16,
+      "anchor_positions": 168000,
+      "optimizer_step": 10500
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.10082676191814244,
+      "nll": -10.71971207857132,
+      "batches": 16,
+      "anchor_positions": 180000,
+      "optimizer_step": 11250
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.10691167239565402,
+      "nll": -11.270279586315155,
+      "batches": 16,
+      "anchor_positions": 192000,
+      "optimizer_step": 12000
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.09105852141510695,
+      "nll": -10.496660888195038,
+      "batches": 16,
+      "anchor_positions": 204000,
+      "optimizer_step": 12750
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.09444127045571804,
+      "nll": -11.487171530723572,
+      "batches": 16,
+      "anchor_positions": 216000,
+      "optimizer_step": 13500
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.10073702805675566,
+      "nll": -8.061352521181107,
+      "batches": 16,
+      "anchor_positions": 228000,
+      "optimizer_step": 14250
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.10125515121035278,
+      "nll": -5.959731936454773,
+      "batches": 16,
+      "anchor_positions": 240000,
+      "optimizer_step": 15000
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.10722581180743873,
+      "nll": -7.663100033998489,
+      "batches": 16,
+      "anchor_positions": 252000,
+      "optimizer_step": 15750
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.09218341810628772,
+      "nll": -9.241330653429031,
+      "batches": 16,
+      "anchor_positions": 264000,
+      "optimizer_step": 16500
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.08245134132448584,
+      "nll": -8.685031801462173,
+      "batches": 16,
+      "anchor_positions": 276000,
+      "optimizer_step": 17250
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.10620312835089862,
+      "nll": -9.392720192670822,
+      "batches": 16,
+      "anchor_positions": 288000,
+      "optimizer_step": 18000
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.08979991025989875,
+      "nll": -6.577631503343582,
+      "batches": 16,
+      "anchor_positions": 300000,
+      "optimizer_step": 18750
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.08761148113990203,
+      "nll": -6.253344282507896,
+      "batches": 16,
+      "anchor_positions": 312000,
+      "optimizer_step": 19500
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.09490615909453481,
+      "nll": -5.562057510018349,
+      "batches": 16,
+      "anchor_positions": 324000,
+      "optimizer_step": 20250
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.08485975454095751,
+      "nll": -8.309039443731308,
+      "batches": 16,
+      "anchor_positions": 336000,
+      "optimizer_step": 21000
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.08974340365966782,
+      "nll": -6.6567642390728,
+      "batches": 16,
+      "anchor_positions": 348000,
+      "optimizer_step": 21750
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.09925762022612616,
+      "nll": -7.100182294845581,
+      "batches": 16,
+      "anchor_positions": 360000,
+      "optimizer_step": 22500
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.10107352453633212,
+      "nll": -5.395181655883789,
+      "batches": 16,
+      "anchor_positions": 372000,
+      "optimizer_step": 23250
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.08560752507764846,
+      "nll": -7.363723546266556,
+      "batches": 16,
+      "anchor_positions": 384000,
+      "optimizer_step": 24000
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.08909705386031419,
+      "nll": -4.815248131752014,
+      "batches": 16,
+      "anchor_positions": 396000,
+      "optimizer_step": 24750
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.07452188053866848,
+      "nll": -6.268204838037491,
+      "batches": 16,
+      "anchor_positions": 408000,
+      "optimizer_step": 25500
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.0930603317974601,
+      "nll": -8.403390884399414,
+      "batches": 16,
+      "anchor_positions": 420000,
+      "optimizer_step": 26250
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.07813565852120519,
+      "nll": -6.648168757557869,
+      "batches": 16,
+      "anchor_positions": 432000,
+      "optimizer_step": 27000
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.10299529286567122,
+      "nll": -5.955448269844055,
+      "batches": 16,
+      "anchor_positions": 444000,
+      "optimizer_step": 27750
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.08627529264776967,
+      "nll": -7.374347656965256,
+      "batches": 16,
+      "anchor_positions": 456000,
+      "optimizer_step": 28500
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.0829177696723491,
+      "nll": -7.127032607793808,
+      "batches": 16,
+      "anchor_positions": 468000,
+      "optimizer_step": 29250
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.08310468995478004,
+      "nll": -6.220248833298683,
+      "batches": 16,
+      "anchor_positions": 480000,
+      "optimizer_step": 30000
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.0966709996573627,
+      "nll": -5.7067264169454575,
+      "batches": 16,
+      "anchor_positions": 492000,
+      "optimizer_step": 30750
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.08085536281578243,
+      "nll": -7.624727845191956,
+      "batches": 16,
+      "anchor_positions": 504000,
+      "optimizer_step": 31500
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.09095714037539437,
+      "nll": -8.133609652519226,
+      "batches": 16,
+      "anchor_positions": 516000,
+      "optimizer_step": 32250
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.0777645944035612,
+      "nll": -7.752381443977356,
+      "batches": 16,
+      "anchor_positions": 528000,
+      "optimizer_step": 33000
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.09293955465545878,
+      "nll": -7.443519324064255,
+      "batches": 16,
+      "anchor_positions": 540000,
+      "optimizer_step": 33750
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.09213299059774727,
+      "nll": -7.755212068557739,
+      "batches": 16,
+      "anchor_positions": 552000,
+      "optimizer_step": 34500
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.08625629253219813,
+      "nll": -7.99879914522171,
+      "batches": 16,
+      "anchor_positions": 564000,
+      "optimizer_step": 35250
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.09354313812218606,
+      "nll": -8.882789880037308,
+      "batches": 16,
+      "anchor_positions": 576000,
+      "optimizer_step": 36000
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.09222179497010075,
+      "nll": -7.148020267486572,
+      "batches": 16,
+      "anchor_positions": 588000,
+      "optimizer_step": 36750
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.09297476155916229,
+      "nll": -7.724258542060852,
+      "batches": 16,
+      "anchor_positions": 600000,
+      "optimizer_step": 37500
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.08405808452516794,
+      "nll": -9.143980145454407,
+      "batches": 16,
+      "anchor_positions": 612000,
+      "optimizer_step": 38250
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.0891213487193454,
+      "nll": -9.207738757133484,
+      "batches": 16,
+      "anchor_positions": 624000,
+      "optimizer_step": 39000
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.08782526782306377,
+      "nll": -9.39903038740158,
+      "batches": 16,
+      "anchor_positions": 636000,
+      "optimizer_step": 39750
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.08226136397570372,
+      "nll": -9.047740399837494,
+      "batches": 16,
+      "anchor_positions": 648000,
+      "optimizer_step": 40500
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.09182438219431788,
+      "nll": -9.260118126869202,
+      "batches": 16,
+      "anchor_positions": 660000,
+      "optimizer_step": 41250
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.08758439711527899,
+      "nll": -8.562520205974579,
+      "batches": 16,
+      "anchor_positions": 672000,
+      "optimizer_step": 42000
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.09910246240906417,
+      "nll": -9.653436750173569,
+      "batches": 16,
+      "anchor_positions": 684000,
+      "optimizer_step": 42750
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.09119548089802265,
+      "nll": -8.126135796308517,
+      "batches": 16,
+      "anchor_positions": 696000,
+      "optimizer_step": 43500
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.08910207787994295,
+      "nll": -9.347708016633987,
+      "batches": 16,
+      "anchor_positions": 708000,
+      "optimizer_step": 44250
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.09704582893755287,
+      "nll": -9.491560906171799,
+      "batches": 16,
+      "anchor_positions": 720000,
+      "optimizer_step": 45000
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.08666650962550193,
+      "nll": -8.841482013463974,
+      "batches": 16,
+      "anchor_positions": 732000,
+      "optimizer_step": 45750
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.09331041621044278,
+      "nll": -8.604364186525345,
+      "batches": 16,
+      "anchor_positions": 744000,
+      "optimizer_step": 46500
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.10025046486407518,
+      "nll": -8.750040426850319,
+      "batches": 16,
+      "anchor_positions": 756000,
+      "optimizer_step": 47250
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.10211424564477056,
+      "nll": -8.715451419353485,
+      "batches": 16,
+      "anchor_positions": 768000,
+      "optimizer_step": 48000
     }
   ],
   "parameter_count": 30574315,
@@ -88,7 +536,7 @@
     "nll": 7.549942761659622,
     "batches": 16
   },
-  "prescribed_tier_positions": 192000,
+  "prescribed_tier_positions": 768000,
   "trainer_segments": [
     {
       "from_positions": 0,
@@ -101,13 +549,25 @@
       "to_positions": 192000,
       "source_sha256": "f7f64dedcdf083cc0766a7d2b73eaa5810df5bee93569036e0e0bf2936d2c1d3",
       "source_path": "/home/users/lemon/baseline-benchmark/run-20261109/training/B_bc_transformer/executed_train_from_096000.py"
+    },
+    {
+      "from_positions": 192000,
+      "to_positions": 384000,
+      "source_sha256": "f7f64dedcdf083cc0766a7d2b73eaa5810df5bee93569036e0e0bf2936d2c1d3",
+      "source_path": "/home/users/lemon/baseline-benchmark/run-20261109/training/B_bc_transformer/executed_train_from_192000.py"
+    },
+    {
+      "from_positions": 384000,
+      "to_positions": 768000,
+      "source_sha256": "f7f64dedcdf083cc0766a7d2b73eaa5810df5bee93569036e0e0bf2936d2c1d3",
+      "source_path": "/home/users/lemon/baseline-benchmark/run-20261109/training/B_bc_transformer/executed_train_from_384000.py"
     }
   ],
-  "last_loss": -19.515357971191406,
+  "last_loss": -27.822872161865234,
   "peak_gpu_allocated_bytes": 1680436224,
   "peak_gpu_reserved_bytes": 2220883968,
-  "running_segment_seconds": 5.928154274821281,
-  "checkpoint": "/home/users/lemon/baseline-benchmark/run-20261109/training/B_bc_transformer/positions-096000.pt",
-  "checkpoint_sha256": "dfe5e769100a31af2ad181cdf30f2ded30cfcf451c6ac65f2fe23b9f820fe3ce",
+  "running_segment_seconds": 1327.9201414077543,
+  "checkpoint": "/home/users/lemon/baseline-benchmark/run-20261109/training/B_bc_transformer/positions-768000.pt",
+  "checkpoint_sha256": "f1511ba7871161b32edd17e6019fe8e7f2d81192d938f540572499a14a936486",
   "changed_parameter_tensors": 143
 }

@@ -6,1062 +6,1062 @@
     {
       "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.0.weight",
       "changed": true,
-      "max_abs_delta": 0.0029877093620598316
+      "max_abs_delta": 0.007129466626793146
     },
     {
       "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.1.weight",
       "changed": true,
-      "max_abs_delta": 0.0030344724655151367
+      "max_abs_delta": 0.0063391923904418945
     },
     {
       "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.1.bias",
       "changed": true,
-      "max_abs_delta": 0.0022659723181277514
+      "max_abs_delta": 0.005135744344443083
     },
     {
       "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.4.0.conv1.weight",
       "changed": true,
-      "max_abs_delta": 0.006006693467497826
+      "max_abs_delta": 0.013145223259925842
     },
     {
       "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.4.0.bn1.weight",
       "changed": true,
-      "max_abs_delta": 0.0020014047622680664
+      "max_abs_delta": 0.004103899002075195
     },
     {
       "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.4.0.bn1.bias",
       "changed": true,
-      "max_abs_delta": 0.0018103495240211487
+      "max_abs_delta": 0.005167802330106497
     },
     {
       "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.4.0.conv2.weight",
       "changed": true,
-      "max_abs_delta": 0.00422602379694581
+      "max_abs_delta": 0.006916939280927181
     },
     {
       "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.4.0.bn2.weight",
       "changed": true,
-      "max_abs_delta": 0.002558469772338867
+      "max_abs_delta": 0.003957629203796387
     },
     {
       "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.4.0.bn2.bias",
       "changed": true,
-      "max_abs_delta": 0.002418328309431672
+      "max_abs_delta": 0.003937982022762299
     },
     {
       "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.4.1.conv1.weight",
       "changed": true,
-      "max_abs_delta": 0.004473026841878891
+      "max_abs_delta": 0.008271768689155579
     },
     {
       "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.4.1.bn1.weight",
       "changed": true,
-      "max_abs_delta": 0.00216066837310791
+      "max_abs_delta": 0.0035895109176635742
     },
     {
       "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.4.1.bn1.bias",
       "changed": true,
-      "max_abs_delta": 0.0017644764157012105
+      "max_abs_delta": 0.0039870524778962135
     },
     {
       "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.4.1.conv2.weight",
       "changed": true,
-      "max_abs_delta": 0.00394295621663332
+      "max_abs_delta": 0.011664951220154762
     },
     {
       "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.4.1.bn2.weight",
       "changed": true,
-      "max_abs_delta": 0.0017107725143432617
+      "max_abs_delta": 0.003104090690612793
     },
     {
       "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.4.1.bn2.bias",
       "changed": true,
-      "max_abs_delta": 0.0013278813567012548
+      "max_abs_delta": 0.003269810928031802
     },
     {
       "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.5.0.conv1.weight",
       "changed": true,
-      "max_abs_delta": 0.005747199058532715
+      "max_abs_delta": 0.009538410231471062
     },
     {
       "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.5.0.bn1.weight",
       "changed": true,
-      "max_abs_delta": 0.0020073652267456055
+      "max_abs_delta": 0.005308032035827637
     },
     {
       "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.5.0.bn1.bias",
       "changed": true,
-      "max_abs_delta": 0.002882941160351038
+      "max_abs_delta": 0.004687263164669275
     },
     {
       "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.5.0.conv2.weight",
       "changed": true,
-      "max_abs_delta": 0.011075697839260101
+      "max_abs_delta": 0.011288464069366455
     },
     {
       "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.5.0.bn2.weight",
       "changed": true,
-      "max_abs_delta": 0.0021896958351135254
+      "max_abs_delta": 0.004396915435791016
     },
     {
       "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.5.0.bn2.bias",
       "changed": true,
-      "max_abs_delta": 0.00209151953458786
+      "max_abs_delta": 0.006684945430606604
     },
     {
       "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.5.0.downsample.0.weight",
       "changed": true,
-      "max_abs_delta": 0.0033856183290481567
+      "max_abs_delta": 0.00814695656299591
     },
     {
       "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.5.0.downsample.1.weight",
       "changed": true,
-      "max_abs_delta": 0.0017042160034179688
+      "max_abs_delta": 0.0051326751708984375
     },
     {
       "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.5.0.downsample.1.bias",
       "changed": true,
-      "max_abs_delta": 0.00209151953458786
+      "max_abs_delta": 0.006684945430606604
     },
     {
       "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.5.1.conv1.weight",
       "changed": true,
-      "max_abs_delta": 0.008194432593882084
+      "max_abs_delta": 0.009218961000442505
     },
     {
       "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.5.1.bn1.weight",
       "changed": true,
-      "max_abs_delta": 0.003233671188354492
+      "max_abs_delta": 0.003928005695343018
     },
     {
       "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.5.1.bn1.bias",
       "changed": true,
-      "max_abs_delta": 0.0048891473561525345
+      "max_abs_delta": 0.004301740787923336
     },
     {
       "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.5.1.conv2.weight",
       "changed": true,
-      "max_abs_delta": 0.006886418908834457
+      "max_abs_delta": 0.01026751846075058
     },
     {
       "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.5.1.bn2.weight",
       "changed": true,
-      "max_abs_delta": 0.0015577077865600586
+      "max_abs_delta": 0.005259513854980469
     },
     {
       "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.5.1.bn2.bias",
       "changed": true,
-      "max_abs_delta": 0.0016201939433813095
+      "max_abs_delta": 0.006175087299197912
     },
     {
       "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.6.0.conv1.weight",
       "changed": true,
-      "max_abs_delta": 0.011809319257736206
+      "max_abs_delta": 0.016971737146377563
     },
     {
       "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.6.0.bn1.weight",
       "changed": true,
-      "max_abs_delta": 0.004054903984069824
+      "max_abs_delta": 0.008610963821411133
     },
     {
       "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.6.0.bn1.bias",
       "changed": true,
-      "max_abs_delta": 0.0034300487022846937
+      "max_abs_delta": 0.0064441305585205555
     },
     {
       "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.6.0.conv2.weight",
       "changed": true,
-      "max_abs_delta": 0.015739228576421738
+      "max_abs_delta": 0.018343400210142136
     },
     {
       "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.6.0.bn2.weight",
       "changed": true,
-      "max_abs_delta": 0.005361795425415039
+      "max_abs_delta": 0.012407183647155762
     },
     {
       "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.6.0.bn2.bias",
       "changed": true,
-      "max_abs_delta": 0.002284318907186389
+      "max_abs_delta": 0.005960094276815653
     },
     {
       "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.6.0.downsample.0.weight",
       "changed": true,
-      "max_abs_delta": 0.005555246956646442
+      "max_abs_delta": 0.010013120248913765
     },
     {
       "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.6.0.downsample.1.weight",
       "changed": true,
-      "max_abs_delta": 0.0024976730346679688
+      "max_abs_delta": 0.006954789161682129
     },
     {
       "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.6.0.downsample.1.bias",
       "changed": true,
-      "max_abs_delta": 0.002284318907186389
+      "max_abs_delta": 0.005960094276815653
     },
     {
       "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.6.1.conv1.weight",
       "changed": true,
-      "max_abs_delta": 0.008397659286856651
+      "max_abs_delta": 0.014473333954811096
     },
     {
       "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.6.1.bn1.weight",
       "changed": true,
-      "max_abs_delta": 0.0025451183319091797
+      "max_abs_delta": 0.006119370460510254
     },
     {
       "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.6.1.bn1.bias",
       "changed": true,
-      "max_abs_delta": 0.0018802062841132283
+      "max_abs_delta": 0.004255249164998531
     },
     {
       "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.6.1.conv2.weight",
       "changed": true,
-      "max_abs_delta": 0.009478256106376648
+      "max_abs_delta": 0.01258124876767397
     },
     {
       "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.6.1.bn2.weight",
       "changed": true,
-      "max_abs_delta": 0.00430905818939209
+      "max_abs_delta": 0.009277105331420898
     },
     {
       "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.6.1.bn2.bias",
       "changed": true,
-      "max_abs_delta": 0.0016799437580630183
+      "max_abs_delta": 0.004188401624560356
     },
     {
       "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.7.0.conv1.weight",
       "changed": true,
-      "max_abs_delta": 0.015148695558309555
+      "max_abs_delta": 0.0174429789185524
     },
     {
       "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.7.0.bn1.weight",
       "changed": true,
-      "max_abs_delta": 0.009489893913269043
+      "max_abs_delta": 0.01570749282836914
     },
     {
       "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.7.0.bn1.bias",
       "changed": true,
-      "max_abs_delta": 0.0036790219601243734
+      "max_abs_delta": 0.008164150640368462
     },
     {
       "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.7.0.conv2.weight",
       "changed": true,
-      "max_abs_delta": 0.020181693136692047
+      "max_abs_delta": 0.026166433468461037
     },
     {
       "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.7.0.bn2.weight",
       "changed": true,
-      "max_abs_delta": 0.009986042976379395
+      "max_abs_delta": 0.025451302528381348
     },
     {
       "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.7.0.bn2.bias",
       "changed": true,
-      "max_abs_delta": 0.004504371900111437
+      "max_abs_delta": 0.00935834925621748
     },
     {
       "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.7.0.downsample.0.weight",
       "changed": true,
-      "max_abs_delta": 0.011296648532152176
+      "max_abs_delta": 0.020908810198307037
     },
     {
       "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.7.0.downsample.1.weight",
       "changed": true,
-      "max_abs_delta": 0.006212353706359863
+      "max_abs_delta": 0.0157926082611084
     },
     {
       "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.7.0.downsample.1.bias",
       "changed": true,
-      "max_abs_delta": 0.004504371900111437
+      "max_abs_delta": 0.00935834925621748
     },
     {
       "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.7.1.conv1.weight",
       "changed": true,
-      "max_abs_delta": 0.020985150709748268
+      "max_abs_delta": 0.02923237532377243
     },
     {
       "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.7.1.bn1.weight",
       "changed": true,
-      "max_abs_delta": 0.014014959335327148
+      "max_abs_delta": 0.025290608406066895
     },
     {
       "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.7.1.bn1.bias",
       "changed": true,
-      "max_abs_delta": 0.004749575164169073
+      "max_abs_delta": 0.007096189074218273
     },
     {
       "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.7.1.conv2.weight",
       "changed": true,
-      "max_abs_delta": 0.02349923737347126
+      "max_abs_delta": 0.03419194370508194
     },
     {
       "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.7.1.bn2.weight",
       "changed": true,
-      "max_abs_delta": 0.009189844131469727
+      "max_abs_delta": 0.02072274684906006
     },
     {
       "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.backbone.nets.7.1.bn2.bias",
       "changed": true,
-      "max_abs_delta": 0.007683127652853727
+      "max_abs_delta": 0.016013046726584435
     },
     {
       "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.pool.nets.weight",
       "changed": true,
-      "max_abs_delta": 0.012072231620550156
+      "max_abs_delta": 0.027654379606246948
     },
     {
       "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.pool.nets.bias",
       "changed": true,
-      "max_abs_delta": 1.4879275113344193e-05
+      "max_abs_delta": 1.6091857105493546e-05
     },
     {
       "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.nets.3.weight",
       "changed": true,
-      "max_abs_delta": 0.013932287693023682
+      "max_abs_delta": 0.024575605988502502
     },
     {
       "key": "policy.obs_encoder.nets.obs.obs_nets.rgb.nets.3.bias",
       "changed": true,
-      "max_abs_delta": 0.008286088705062866
+      "max_abs_delta": 0.019200298935174942
     },
     {
       "key": "policy.noise_pred_net.mid_modules.0.blocks.0.block.0.weight",
       "changed": true,
-      "max_abs_delta": 0.02537531591951847
+      "max_abs_delta": 0.04922717809677124
     },
     {
       "key": "policy.noise_pred_net.mid_modules.0.blocks.0.block.0.bias",
       "changed": true,
-      "max_abs_delta": 0.005156513303518295
+      "max_abs_delta": 0.02169039472937584
     },
     {
       "key": "policy.noise_pred_net.mid_modules.0.blocks.0.block.1.weight",
       "changed": true,
-      "max_abs_delta": 0.01004481315612793
+      "max_abs_delta": 0.03480803966522217
     },
     {
       "key": "policy.noise_pred_net.mid_modules.0.blocks.0.block.1.bias",
       "changed": true,
-      "max_abs_delta": 0.0041812085546553135
+      "max_abs_delta": 0.015738438814878464
     },
     {
       "key": "policy.noise_pred_net.mid_modules.0.blocks.1.block.0.weight",
       "changed": true,
-      "max_abs_delta": 0.04465404152870178
+      "max_abs_delta": 0.12410621345043182
     },
     {
       "key": "policy.noise_pred_net.mid_modules.0.blocks.1.block.0.bias",
       "changed": true,
-      "max_abs_delta": 0.013311565853655338
+      "max_abs_delta": 0.024086393415927887
     },
     {
       "key": "policy.noise_pred_net.mid_modules.0.blocks.1.block.1.weight",
       "changed": true,
-      "max_abs_delta": 0.01873314380645752
+      "max_abs_delta": 0.044496357440948486
     },
     {
       "key": "policy.noise_pred_net.mid_modules.0.blocks.1.block.1.bias",
       "changed": true,
-      "max_abs_delta": 0.010845274664461613
+      "max_abs_delta": 0.024718938395380974
     },
     {
       "key": "policy.noise_pred_net.mid_modules.0.cond_encoder.1.weight",
       "changed": true,
-      "max_abs_delta": 0.02616562694311142
+      "max_abs_delta": 0.06083907559514046
     },
     {
       "key": "policy.noise_pred_net.mid_modules.0.cond_encoder.1.bias",
       "changed": true,
-      "max_abs_delta": 0.003344117198139429
+      "max_abs_delta": 0.01235719583928585
     },
     {
       "key": "policy.noise_pred_net.mid_modules.1.blocks.0.block.0.weight",
       "changed": true,
-      "max_abs_delta": 0.01015316043049097
+      "max_abs_delta": 0.0245222058147192
     },
     {
       "key": "policy.noise_pred_net.mid_modules.1.blocks.0.block.0.bias",
       "changed": true,
-      "max_abs_delta": 0.0052047413773834705
+      "max_abs_delta": 0.014572685584425926
     },
     {
       "key": "policy.noise_pred_net.mid_modules.1.blocks.0.block.1.weight",
       "changed": true,
-      "max_abs_delta": 0.004286766052246094
+      "max_abs_delta": 0.01268458366394043
     },
     {
       "key": "policy.noise_pred_net.mid_modules.1.blocks.0.block.1.bias",
       "changed": true,
-      "max_abs_delta": 0.0031456006690859795
+      "max_abs_delta": 0.01211118046194315
     },
     {
       "key": "policy.noise_pred_net.mid_modules.1.blocks.1.block.0.weight",
       "changed": true,
-      "max_abs_delta": 0.04865625873208046
+      "max_abs_delta": 0.1153915673494339
     },
     {
       "key": "policy.noise_pred_net.mid_modules.1.blocks.1.block.0.bias",
       "changed": true,
-      "max_abs_delta": 0.014010238461196423
+      "max_abs_delta": 0.022648990154266357
     },
     {
       "key": "policy.noise_pred_net.mid_modules.1.blocks.1.block.1.weight",
       "changed": true,
-      "max_abs_delta": 0.019273757934570312
+      "max_abs_delta": 0.0494498610496521
     },
     {
       "key": "policy.noise_pred_net.mid_modules.1.blocks.1.block.1.bias",
       "changed": true,
-      "max_abs_delta": 0.010549947619438171
+      "max_abs_delta": 0.024717634543776512
     },
     {
       "key": "policy.noise_pred_net.mid_modules.1.cond_encoder.1.weight",
       "changed": true,
-      "max_abs_delta": 0.015592905692756176
+      "max_abs_delta": 0.034204982221126556
     },
     {
       "key": "policy.noise_pred_net.mid_modules.1.cond_encoder.1.bias",
       "changed": true,
-      "max_abs_delta": 0.003332170657813549
+      "max_abs_delta": 0.006494262255728245
     },
     {
       "key": "policy.noise_pred_net.diffusion_step_encoder.1.weight",
       "changed": true,
-      "max_abs_delta": 0.038566626608371735
+      "max_abs_delta": 0.07502879947423935
     },
     {
       "key": "policy.noise_pred_net.diffusion_step_encoder.1.bias",
       "changed": true,
-      "max_abs_delta": 0.011316489428281784
+      "max_abs_delta": 0.013474492356181145
     },
     {
       "key": "policy.noise_pred_net.diffusion_step_encoder.3.weight",
       "changed": true,
-      "max_abs_delta": 0.04455847293138504
+      "max_abs_delta": 0.07464391738176346
     },
     {
       "key": "policy.noise_pred_net.diffusion_step_encoder.3.bias",
       "changed": true,
-      "max_abs_delta": 0.007613925263285637
+      "max_abs_delta": 0.014829050749540329
     },
     {
       "key": "policy.noise_pred_net.up_modules.0.0.blocks.0.block.0.weight",
       "changed": true,
-      "max_abs_delta": 0.013953574001789093
+      "max_abs_delta": 0.04118270426988602
     },
     {
       "key": "policy.noise_pred_net.up_modules.0.0.blocks.0.block.0.bias",
       "changed": true,
-      "max_abs_delta": 0.005219419486820698
+      "max_abs_delta": 0.02260938286781311
     },
     {
       "key": "policy.noise_pred_net.up_modules.0.0.blocks.0.block.1.weight",
       "changed": true,
-      "max_abs_delta": 0.010002613067626953
+      "max_abs_delta": 0.03032994270324707
     },
     {
       "key": "policy.noise_pred_net.up_modules.0.0.blocks.0.block.1.bias",
       "changed": true,
-      "max_abs_delta": 0.008974991738796234
+      "max_abs_delta": 0.02280791476368904
     },
     {
       "key": "policy.noise_pred_net.up_modules.0.0.blocks.1.block.0.weight",
       "changed": true,
-      "max_abs_delta": 0.032366085797548294
+      "max_abs_delta": 0.07359346002340317
     },
     {
       "key": "policy.noise_pred_net.up_modules.0.0.blocks.1.block.0.bias",
       "changed": true,
-      "max_abs_delta": 0.011271029710769653
+      "max_abs_delta": 0.020172175019979477
     },
     {
       "key": "policy.noise_pred_net.up_modules.0.0.blocks.1.block.1.weight",
       "changed": true,
-      "max_abs_delta": 0.01778733730316162
+      "max_abs_delta": 0.03920328617095947
     },
     {
       "key": "policy.noise_pred_net.up_modules.0.0.blocks.1.block.1.bias",
       "changed": true,
-      "max_abs_delta": 0.0061982120387256145
+      "max_abs_delta": 0.012758158147335052
     },
     {
       "key": "policy.noise_pred_net.up_modules.0.0.cond_encoder.1.weight",
       "changed": true,
-      "max_abs_delta": 0.02516455389559269
+      "max_abs_delta": 0.05017227306962013
     },
     {
       "key": "policy.noise_pred_net.up_modules.0.0.cond_encoder.1.bias",
       "changed": true,
-      "max_abs_delta": 0.005881640128791332
+      "max_abs_delta": 0.010168098844587803
     },
     {
       "key": "policy.noise_pred_net.up_modules.0.0.residual_conv.weight",
       "changed": true,
-      "max_abs_delta": 0.010099093429744244
+      "max_abs_delta": 0.025251828134059906
     },
     {
       "key": "policy.noise_pred_net.up_modules.0.0.residual_conv.bias",
       "changed": true,
-      "max_abs_delta": 0.0030173668637871742
+      "max_abs_delta": 0.006968632340431213
     },
     {
       "key": "policy.noise_pred_net.up_modules.0.1.blocks.0.block.0.weight",
       "changed": true,
-      "max_abs_delta": 0.01005981769412756
+      "max_abs_delta": 0.040863312780857086
     },
     {
       "key": "policy.noise_pred_net.up_modules.0.1.blocks.0.block.0.bias",
       "changed": true,
-      "max_abs_delta": 0.008178584277629852
+      "max_abs_delta": 0.013526637107133865
     },
     {
       "key": "policy.noise_pred_net.up_modules.0.1.blocks.0.block.1.weight",
       "changed": true,
-      "max_abs_delta": 0.0055615901947021484
+      "max_abs_delta": 0.013883233070373535
     },
     {
       "key": "policy.noise_pred_net.up_modules.0.1.blocks.0.block.1.bias",
       "changed": true,
-      "max_abs_delta": 0.00681039784103632
+      "max_abs_delta": 0.01642371155321598
     },
     {
       "key": "policy.noise_pred_net.up_modules.0.1.blocks.1.block.0.weight",
       "changed": true,
-      "max_abs_delta": 0.03966432437300682
+      "max_abs_delta": 0.0890614241361618
     },
     {
       "key": "policy.noise_pred_net.up_modules.0.1.blocks.1.block.0.bias",
       "changed": true,
-      "max_abs_delta": 0.008535031229257584
+      "max_abs_delta": 0.013902933336794376
     },
     {
       "key": "policy.noise_pred_net.up_modules.0.1.blocks.1.block.1.weight",
       "changed": true,
-      "max_abs_delta": 0.018060147762298584
+      "max_abs_delta": 0.03448694944381714
     },
     {
       "key": "policy.noise_pred_net.up_modules.0.1.blocks.1.block.1.bias",
       "changed": true,
-      "max_abs_delta": 0.007235664874315262
+      "max_abs_delta": 0.013816958293318748
     },
     {
       "key": "policy.noise_pred_net.up_modules.0.1.cond_encoder.1.weight",
       "changed": true,
-      "max_abs_delta": 0.015100794844329357
+      "max_abs_delta": 0.04292365908622742
     },
     {
       "key": "policy.noise_pred_net.up_modules.0.1.cond_encoder.1.bias",
       "changed": true,
-      "max_abs_delta": 0.004095578566193581
+      "max_abs_delta": 0.00771266408264637
     },
     {
       "key": "policy.noise_pred_net.up_modules.0.2.conv.weight",
       "changed": true,
-      "max_abs_delta": 0.009781873784959316
+      "max_abs_delta": 0.02144363708794117
     },
     {
       "key": "policy.noise_pred_net.up_modules.0.2.conv.bias",
       "changed": true,
-      "max_abs_delta": 0.00511238444596529
+      "max_abs_delta": 0.008603176102042198
     },
     {
       "key": "policy.noise_pred_net.up_modules.1.0.blocks.0.block.0.weight",
       "changed": true,
-      "max_abs_delta": 0.026482872664928436
+      "max_abs_delta": 0.03984189033508301
     },
     {
       "key": "policy.noise_pred_net.up_modules.1.0.blocks.0.block.0.bias",
       "changed": true,
-      "max_abs_delta": 0.007270123343914747
+      "max_abs_delta": 0.016925141215324402
     },
     {
       "key": "policy.noise_pred_net.up_modules.1.0.blocks.0.block.1.weight",
       "changed": true,
-      "max_abs_delta": 0.013168931007385254
+      "max_abs_delta": 0.026326119899749756
     },
     {
       "key": "policy.noise_pred_net.up_modules.1.0.blocks.0.block.1.bias",
       "changed": true,
-      "max_abs_delta": 0.008314290083944798
+      "max_abs_delta": 0.019403669983148575
     },
     {
       "key": "policy.noise_pred_net.up_modules.1.0.blocks.1.block.0.weight",
       "changed": true,
-      "max_abs_delta": 0.02733232080936432
+      "max_abs_delta": 0.0413435697555542
     },
     {
       "key": "policy.noise_pred_net.up_modules.1.0.blocks.1.block.0.bias",
       "changed": true,
-      "max_abs_delta": 0.010809842497110367
+      "max_abs_delta": 0.01861017756164074
     },
     {
       "key": "policy.noise_pred_net.up_modules.1.0.blocks.1.block.1.weight",
       "changed": true,
-      "max_abs_delta": 0.022980332374572754
+      "max_abs_delta": 0.03508251905441284
     },
     {
       "key": "policy.noise_pred_net.up_modules.1.0.blocks.1.block.1.bias",
       "changed": true,
-      "max_abs_delta": 0.008254014886915684
+      "max_abs_delta": 0.01460624672472477
     },
     {
       "key": "policy.noise_pred_net.up_modules.1.0.cond_encoder.1.weight",
       "changed": true,
-      "max_abs_delta": 0.02390158176422119
+      "max_abs_delta": 0.043682001531124115
     },
     {
       "key": "policy.noise_pred_net.up_modules.1.0.cond_encoder.1.bias",
       "changed": true,
-      "max_abs_delta": 0.005355003289878368
+      "max_abs_delta": 0.009737190790474415
     },
     {
       "key": "policy.noise_pred_net.up_modules.1.0.residual_conv.weight",
       "changed": true,
-      "max_abs_delta": 0.03152298927307129
+      "max_abs_delta": 0.04323872923851013
     },
     {
       "key": "policy.noise_pred_net.up_modules.1.0.residual_conv.bias",
       "changed": true,
-      "max_abs_delta": 0.0033181756734848022
+      "max_abs_delta": 0.005306415259838104
     },
     {
       "key": "policy.noise_pred_net.up_modules.1.1.blocks.0.block.0.weight",
       "changed": true,
-      "max_abs_delta": 0.02232232131063938
+      "max_abs_delta": 0.03981611132621765
     },
     {
       "key": "policy.noise_pred_net.up_modules.1.1.blocks.0.block.0.bias",
       "changed": true,
-      "max_abs_delta": 0.007887238636612892
+      "max_abs_delta": 0.01782579906284809
     },
     {
       "key": "policy.noise_pred_net.up_modules.1.1.blocks.0.block.1.weight",
       "changed": true,
-      "max_abs_delta": 0.012750566005706787
+      "max_abs_delta": 0.03454005718231201
     },
     {
       "key": "policy.noise_pred_net.up_modules.1.1.blocks.0.block.1.bias",
       "changed": true,
-      "max_abs_delta": 0.014708597213029861
+      "max_abs_delta": 0.034141458570957184
     },
     {
       "key": "policy.noise_pred_net.up_modules.1.1.blocks.1.block.0.weight",
       "changed": true,
-      "max_abs_delta": 0.025700237601995468
+      "max_abs_delta": 0.0391228087246418
     },
     {
       "key": "policy.noise_pred_net.up_modules.1.1.blocks.1.block.0.bias",
       "changed": true,
-      "max_abs_delta": 0.011128281243145466
+      "max_abs_delta": 0.016690568998456
     },
     {
       "key": "policy.noise_pred_net.up_modules.1.1.blocks.1.block.1.weight",
       "changed": true,
-      "max_abs_delta": 0.023887693881988525
+      "max_abs_delta": 0.04074430465698242
     },
     {
       "key": "policy.noise_pred_net.up_modules.1.1.blocks.1.block.1.bias",
       "changed": true,
-      "max_abs_delta": 0.007317479699850082
+      "max_abs_delta": 0.01069237757474184
     },
     {
       "key": "policy.noise_pred_net.up_modules.1.1.cond_encoder.1.weight",
       "changed": true,
-      "max_abs_delta": 0.02629847824573517
+      "max_abs_delta": 0.04481305554509163
     },
     {
       "key": "policy.noise_pred_net.up_modules.1.1.cond_encoder.1.bias",
       "changed": true,
-      "max_abs_delta": 0.003962456248700619
+      "max_abs_delta": 0.009710270911455154
     },
     {
       "key": "policy.noise_pred_net.up_modules.1.2.conv.weight",
       "changed": true,
-      "max_abs_delta": 0.03027045726776123
+      "max_abs_delta": 0.04579048231244087
     },
     {
       "key": "policy.noise_pred_net.up_modules.1.2.conv.bias",
       "changed": true,
-      "max_abs_delta": 0.008622477762401104
+      "max_abs_delta": 0.015997573733329773
     },
     {
       "key": "policy.noise_pred_net.down_modules.0.0.blocks.0.block.0.weight",
       "changed": true,
-      "max_abs_delta": 0.08272655308246613
+      "max_abs_delta": 0.11993430554866791
     },
     {
       "key": "policy.noise_pred_net.down_modules.0.0.blocks.0.block.0.bias",
       "changed": true,
-      "max_abs_delta": 0.039189085364341736
+      "max_abs_delta": 0.05694793909788132
     },
     {
       "key": "policy.noise_pred_net.down_modules.0.0.blocks.0.block.1.weight",
       "changed": true,
-      "max_abs_delta": 0.02097189426422119
+      "max_abs_delta": 0.03979921340942383
     },
     {
       "key": "policy.noise_pred_net.down_modules.0.0.blocks.0.block.1.bias",
       "changed": true,
-      "max_abs_delta": 0.029857724905014038
+      "max_abs_delta": 0.04020782187581062
     },
     {
       "key": "policy.noise_pred_net.down_modules.0.0.blocks.1.block.0.weight",
       "changed": true,
-      "max_abs_delta": 0.07212599366903305
+      "max_abs_delta": 0.09639138728380203
     },
     {
       "key": "policy.noise_pred_net.down_modules.0.0.blocks.1.block.0.bias",
       "changed": true,
-      "max_abs_delta": 0.018427599221467972
+      "max_abs_delta": 0.030636101961135864
     },
     {
       "key": "policy.noise_pred_net.down_modules.0.0.blocks.1.block.1.weight",
       "changed": true,
-      "max_abs_delta": 0.05479228496551514
+      "max_abs_delta": 0.07351291179656982
     },
     {
       "key": "policy.noise_pred_net.down_modules.0.0.blocks.1.block.1.bias",
       "changed": true,
-      "max_abs_delta": 0.025155415758490562
+      "max_abs_delta": 0.03620295599102974
     },
     {
       "key": "policy.noise_pred_net.down_modules.0.0.cond_encoder.1.weight",
       "changed": true,
-      "max_abs_delta": 0.06500124931335449
+      "max_abs_delta": 0.08416233211755753
     },
     {
       "key": "policy.noise_pred_net.down_modules.0.0.cond_encoder.1.bias",
       "changed": true,
-      "max_abs_delta": 0.013933738693594933
+      "max_abs_delta": 0.024374227970838547
     },
     {
       "key": "policy.noise_pred_net.down_modules.0.0.residual_conv.weight",
       "changed": true,
-      "max_abs_delta": 0.07933029532432556
+      "max_abs_delta": 0.1141090989112854
     },
     {
       "key": "policy.noise_pred_net.down_modules.0.0.residual_conv.bias",
       "changed": true,
-      "max_abs_delta": 0.016285330057144165
+      "max_abs_delta": 0.033837586641311646
     },
     {
       "key": "policy.noise_pred_net.down_modules.0.1.blocks.0.block.0.weight",
       "changed": true,
-      "max_abs_delta": 0.08354634791612625
+      "max_abs_delta": 0.1402669996023178
     },
     {
       "key": "policy.noise_pred_net.down_modules.0.1.blocks.0.block.0.bias",
       "changed": true,
-      "max_abs_delta": 0.007798037491738796
+      "max_abs_delta": 0.013471830636262894
     },
     {
       "key": "policy.noise_pred_net.down_modules.0.1.blocks.0.block.1.weight",
       "changed": true,
-      "max_abs_delta": 0.028914928436279297
+      "max_abs_delta": 0.05576586723327637
     },
     {
       "key": "policy.noise_pred_net.down_modules.0.1.blocks.0.block.1.bias",
       "changed": true,
-      "max_abs_delta": 0.029285579919815063
+      "max_abs_delta": 0.037333887070417404
     },
     {
       "key": "policy.noise_pred_net.down_modules.0.1.blocks.1.block.0.weight",
       "changed": true,
-      "max_abs_delta": 0.06215216591954231
+      "max_abs_delta": 0.12151122093200684
     },
     {
       "key": "policy.noise_pred_net.down_modules.0.1.blocks.1.block.0.bias",
       "changed": true,
-      "max_abs_delta": 0.01332140527665615
+      "max_abs_delta": 0.02558274194598198
     },
     {
       "key": "policy.noise_pred_net.down_modules.0.1.blocks.1.block.1.weight",
       "changed": true,
-      "max_abs_delta": 0.05147421360015869
+      "max_abs_delta": 0.10285210609436035
     },
     {
       "key": "policy.noise_pred_net.down_modules.0.1.blocks.1.block.1.bias",
       "changed": true,
-      "max_abs_delta": 0.009968259371817112
+      "max_abs_delta": 0.025869501754641533
     },
     {
       "key": "policy.noise_pred_net.down_modules.0.1.cond_encoder.1.weight",
       "changed": true,
-      "max_abs_delta": 0.08513577282428741
+      "max_abs_delta": 0.10735997557640076
     },
     {
       "key": "policy.noise_pred_net.down_modules.0.1.cond_encoder.1.bias",
       "changed": true,
-      "max_abs_delta": 0.0137444157153368
+      "max_abs_delta": 0.026478400453925133
     },
     {
       "key": "policy.noise_pred_net.down_modules.0.2.conv.weight",
       "changed": true,
-      "max_abs_delta": 0.055721692740917206
+      "max_abs_delta": 0.07648614794015884
     },
     {
       "key": "policy.noise_pred_net.down_modules.0.2.conv.bias",
       "changed": true,
-      "max_abs_delta": 0.0028215013444423676
+      "max_abs_delta": 0.004022110253572464
     },
     {
       "key": "policy.noise_pred_net.down_modules.1.0.blocks.0.block.0.weight",
       "changed": true,
-      "max_abs_delta": 0.053396571427583694
+      "max_abs_delta": 0.07100473344326019
     },
     {
       "key": "policy.noise_pred_net.down_modules.1.0.blocks.0.block.0.bias",
       "changed": true,
-      "max_abs_delta": 0.024532174691557884
+      "max_abs_delta": 0.03004840575158596
     },
     {
       "key": "policy.noise_pred_net.down_modules.1.0.blocks.0.block.1.weight",
       "changed": true,
-      "max_abs_delta": 0.0686941146850586
+      "max_abs_delta": 0.09147810935974121
     },
     {
       "key": "policy.noise_pred_net.down_modules.1.0.blocks.0.block.1.bias",
       "changed": true,
-      "max_abs_delta": 0.023079009726643562
+      "max_abs_delta": 0.033144865185022354
     },
     {
       "key": "policy.noise_pred_net.down_modules.1.0.blocks.1.block.0.weight",
       "changed": true,
-      "max_abs_delta": 0.04952630400657654
+      "max_abs_delta": 0.08764524012804031
     },
     {
       "key": "policy.noise_pred_net.down_modules.1.0.blocks.1.block.0.bias",
       "changed": true,
-      "max_abs_delta": 0.014494591392576694
+      "max_abs_delta": 0.030514374375343323
     },
     {
       "key": "policy.noise_pred_net.down_modules.1.0.blocks.1.block.1.weight",
       "changed": true,
-      "max_abs_delta": 0.02755880355834961
+      "max_abs_delta": 0.04793369770050049
     },
     {
       "key": "policy.noise_pred_net.down_modules.1.0.blocks.1.block.1.bias",
       "changed": true,
-      "max_abs_delta": 0.00882947351783514
+      "max_abs_delta": 0.023587912321090698
     },
     {
       "key": "policy.noise_pred_net.down_modules.1.0.cond_encoder.1.weight",
       "changed": true,
-      "max_abs_delta": 0.0726427212357521
+      "max_abs_delta": 0.10048879683017731
     },
     {
       "key": "policy.noise_pred_net.down_modules.1.0.cond_encoder.1.bias",
       "changed": true,
-      "max_abs_delta": 0.027541039511561394
+      "max_abs_delta": 0.043495163321495056
     },
     {
       "key": "policy.noise_pred_net.down_modules.1.0.residual_conv.weight",
       "changed": true,
-      "max_abs_delta": 0.03871569782495499
+      "max_abs_delta": 0.053513698279857635
     },
     {
       "key": "policy.noise_pred_net.down_modules.1.0.residual_conv.bias",
       "changed": true,
-      "max_abs_delta": 0.006461849436163902
+      "max_abs_delta": 0.01058917585760355
     },
     {
       "key": "policy.noise_pred_net.down_modules.1.1.blocks.0.block.0.weight",
       "changed": true,
-      "max_abs_delta": 0.04278324916958809
+      "max_abs_delta": 0.05426819622516632
     },
     {
       "key": "policy.noise_pred_net.down_modules.1.1.blocks.0.block.0.bias",
       "changed": true,
-      "max_abs_delta": 0.015044402331113815
+      "max_abs_delta": 0.028917303308844566
     },
     {
       "key": "policy.noise_pred_net.down_modules.1.1.blocks.0.block.1.weight",
       "changed": true,
-      "max_abs_delta": 0.0424959659576416
+      "max_abs_delta": 0.07927453517913818
     },
     {
       "key": "policy.noise_pred_net.down_modules.1.1.blocks.0.block.1.bias",
       "changed": true,
-      "max_abs_delta": 0.01733872853219509
+      "max_abs_delta": 0.045648422092199326
     },
     {
       "key": "policy.noise_pred_net.down_modules.1.1.blocks.1.block.0.weight",
       "changed": true,
-      "max_abs_delta": 0.05273855850100517
+      "max_abs_delta": 0.08457102626562119
     },
     {
       "key": "policy.noise_pred_net.down_modules.1.1.blocks.1.block.0.bias",
       "changed": true,
-      "max_abs_delta": 0.014725536108016968
+      "max_abs_delta": 0.03153032809495926
     },
     {
       "key": "policy.noise_pred_net.down_modules.1.1.blocks.1.block.1.weight",
       "changed": true,
-      "max_abs_delta": 0.021744370460510254
+      "max_abs_delta": 0.043666183948516846
     },
     {
       "key": "policy.noise_pred_net.down_modules.1.1.blocks.1.block.1.bias",
       "changed": true,
-      "max_abs_delta": 0.009189124219119549
+      "max_abs_delta": 0.015228305011987686
     },
     {
       "key": "policy.noise_pred_net.down_modules.1.1.cond_encoder.1.weight",
       "changed": true,
-      "max_abs_delta": 0.06923624128103256
+      "max_abs_delta": 0.08777153491973877
     },
     {
       "key": "policy.noise_pred_net.down_modules.1.1.cond_encoder.1.bias",
       "changed": true,
-      "max_abs_delta": 0.01765187829732895
+      "max_abs_delta": 0.03256364166736603
     },
     {
       "key": "policy.noise_pred_net.down_modules.1.2.conv.weight",
       "changed": true,
-      "max_abs_delta": 0.018908826634287834
+      "max_abs_delta": 0.030949080362915993
     },
     {
       "key": "policy.noise_pred_net.down_modules.1.2.conv.bias",
       "changed": true,
-      "max_abs_delta": 0.0034893257543444633
+      "max_abs_delta": 0.006023406982421875
     },
     {
       "key": "policy.noise_pred_net.down_modules.2.0.blocks.0.block.0.weight",
       "changed": true,
-      "max_abs_delta": 0.03286964073777199
+      "max_abs_delta": 0.047062166035175323
     },
     {
       "key": "policy.noise_pred_net.down_modules.2.0.blocks.0.block.0.bias",
       "changed": true,
-      "max_abs_delta": 0.010925168171525002
+      "max_abs_delta": 0.020580189302563667
     },
     {
       "key": "policy.noise_pred_net.down_modules.2.0.blocks.0.block.1.weight",
       "changed": true,
-      "max_abs_delta": 0.01766645908355713
+      "max_abs_delta": 0.05740809440612793
     },
     {
       "key": "policy.noise_pred_net.down_modules.2.0.blocks.0.block.1.bias",
       "changed": true,
-      "max_abs_delta": 0.011444423347711563
+      "max_abs_delta": 0.024767275899648666
     },
     {
       "key": "policy.noise_pred_net.down_modules.2.0.blocks.1.block.0.weight",
       "changed": true,
-      "max_abs_delta": 0.04271407797932625
+      "max_abs_delta": 0.06282854080200195
     },
     {
       "key": "policy.noise_pred_net.down_modules.2.0.blocks.1.block.0.bias",
       "changed": true,
-      "max_abs_delta": 0.01643790304660797
+      "max_abs_delta": 0.027109678834676743
     },
     {
       "key": "policy.noise_pred_net.down_modules.2.0.blocks.1.block.1.weight",
       "changed": true,
-      "max_abs_delta": 0.01638573408126831
+      "max_abs_delta": 0.04109567403793335
     },
     {
       "key": "policy.noise_pred_net.down_modules.2.0.blocks.1.block.1.bias",
       "changed": true,
-      "max_abs_delta": 0.010099061764776707
+      "max_abs_delta": 0.02041253261268139
     },
     {
       "key": "policy.noise_pred_net.down_modules.2.0.cond_encoder.1.weight",
       "changed": true,
-      "max_abs_delta": 0.06481761485338211
+      "max_abs_delta": 0.07793787866830826
     },
     {
       "key": "policy.noise_pred_net.down_modules.2.0.cond_encoder.1.bias",
       "changed": true,
-      "max_abs_delta": 0.008463275618851185
+      "max_abs_delta": 0.025033051148056984
     },
     {
       "key": "policy.noise_pred_net.down_modules.2.0.residual_conv.weight",
       "changed": true,
-      "max_abs_delta": 0.011950379237532616
+      "max_abs_delta": 0.018065692856907845
     },
     {
       "key": "policy.noise_pred_net.down_modules.2.0.residual_conv.bias",
       "changed": true,
-      "max_abs_delta": 0.005769792012870312
+      "max_abs_delta": 0.011454258114099503
     },
     {
       "key": "policy.noise_pred_net.down_modules.2.1.blocks.0.block.0.weight",
       "changed": true,
-      "max_abs_delta": 0.03636642545461655
+      "max_abs_delta": 0.04913739114999771
     },
     {
       "key": "policy.noise_pred_net.down_modules.2.1.blocks.0.block.0.bias",
       "changed": true,
-      "max_abs_delta": 0.007962423376739025
+      "max_abs_delta": 0.013406693004071712
     },
     {
       "key": "policy.noise_pred_net.down_modules.2.1.blocks.0.block.1.weight",
       "changed": true,
-      "max_abs_delta": 0.025548100471496582
+      "max_abs_delta": 0.042177677154541016
     },
     {
       "key": "policy.noise_pred_net.down_modules.2.1.blocks.0.block.1.bias",
       "changed": true,
-      "max_abs_delta": 0.007815059274435043
+      "max_abs_delta": 0.019687991589307785
     },
     {
       "key": "policy.noise_pred_net.down_modules.2.1.blocks.1.block.0.weight",
       "changed": true,
-      "max_abs_delta": 0.06159847602248192
+      "max_abs_delta": 0.10113281011581421
     },
     {
       "key": "policy.noise_pred_net.down_modules.2.1.blocks.1.block.0.bias",
       "changed": true,
-      "max_abs_delta": 0.013649586588144302
+      "max_abs_delta": 0.026267115026712418
     },
     {
       "key": "policy.noise_pred_net.down_modules.2.1.blocks.1.block.1.weight",
       "changed": true,
-      "max_abs_delta": 0.023514091968536377
+      "max_abs_delta": 0.04411810636520386
     },
     {
       "key": "policy.noise_pred_net.down_modules.2.1.blocks.1.block.1.bias",
       "changed": true,
-      "max_abs_delta": 0.01096003782004118
+      "max_abs_delta": 0.02093406580388546
     },
     {
       "key": "policy.noise_pred_net.down_modules.2.1.cond_encoder.1.weight",
       "changed": true,
-      "max_abs_delta": 0.04284581542015076
+      "max_abs_delta": 0.06692883372306824
     },
     {
       "key": "policy.noise_pred_net.down_modules.2.1.cond_encoder.1.bias",
       "changed": true,
-      "max_abs_delta": 0.006600243039429188
+      "max_abs_delta": 0.015344489365816116
     },
     {
       "key": "policy.noise_pred_net.final_conv.0.block.0.weight",
       "changed": true,
-      "max_abs_delta": 0.031424686312675476
+      "max_abs_delta": 0.05054936185479164
     },
     {
       "key": "policy.noise_pred_net.final_conv.0.block.0.bias",
       "changed": true,
-      "max_abs_delta": 0.017598837614059448
+      "max_abs_delta": 0.026671065017580986
     },
     {
       "key": "policy.noise_pred_net.final_conv.0.block.1.weight",
       "changed": true,
-      "max_abs_delta": 0.015934884548187256
+      "max_abs_delta": 0.026165425777435303
     },
     {
       "key": "policy.noise_pred_net.final_conv.0.block.1.bias",
       "changed": true,
-      "max_abs_delta": 0.007262569386512041
+      "max_abs_delta": 0.008469496853649616
     },
     {
       "key": "policy.noise_pred_net.final_conv.1.weight",
       "changed": true,
-      "max_abs_delta": 0.018389347940683365
+      "max_abs_delta": 0.02631256729364395
     },
     {
       "key": "policy.noise_pred_net.final_conv.1.bias",
       "changed": true,
-      "max_abs_delta": 0.0010627564042806625
+      "max_abs_delta": 0.0015120543539524078
     }
   ]
 }

@@ -2,5 +2,47 @@
   "cells": [],
   "episodes": [],
   "technical": [],
+  "pending": [
+    {
+      "label": "B_bc_gmm",
+      "task": "pnp_counter_to_sink",
+      "robot": "panda",
+      "status": "RUNNING",
+      "completed_episodes": 4,
+      "technical_failure_phase": null,
+      "error": null,
+      "job_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_gmm/pnp_counter_to_sink/panda/job.json"
+    },
+    {
+      "label": "B_bc_gmm",
+      "task": "pnp_sink_to_counter",
+      "robot": "panda",
+      "status": "RUNNING",
+      "completed_episodes": 4,
+      "technical_failure_phase": null,
+      "error": null,
+      "job_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_gmm/pnp_sink_to_counter/panda/job.json"
+    },
+    {
+      "label": "B_bc_rnn",
+      "task": "pnp_counter_to_sink",
+      "robot": "panda",
+      "status": "RUNNING",
+      "completed_episodes": 4,
+      "technical_failure_phase": null,
+      "error": null,
+      "job_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_rnn/pnp_counter_to_sink/panda/job.json"
+    },
+    {
+      "label": "B_bc_rnn",
+      "task": "pnp_sink_to_counter",
+      "robot": "panda",
+      "status": "RUNNING",
+      "completed_episodes": 4,
+      "technical_failure_phase": null,
+      "error": null,
+      "job_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_rnn/pnp_sink_to_counter/panda/job.json"
+    }
+  ],
   "formal_results_only": true
 }

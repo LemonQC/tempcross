@@ -1,26 +1,32 @@
 {
+  "coverage_schema": 2,
   "trace_path": "/home/users/lemon/baseline-benchmark/run-20261109/training/C_diffusion_policy/consumed_anchors.csv",
-  "trace_bytes": 15501177,
-  "trace_sha256": "0173a43f13c2346a41be16c8a7c3bfee4c44cdcb5ab5cd2dca16df517e330545",
+  "trace_bytes": 62004277,
+  "trace_sha256": "5fd7bfeb61fc9106dc6ae761cf66fbfb11deb865969808aaa43a7e4de72cb8d2",
   "exact_sequence_matches_frozen_anchors": true,
   "positions": {
-    "target": 96000,
-    "source": 96000
+    "target": 384000,
+    "source": 384000
   },
   "unique_demonstrations": {
     "source": 1620,
     "target": 90
   },
   "expanded_input_positions": {
-    "source": 192000,
-    "target": 192000
+    "source": 768000,
+    "target": 768000
   },
   "expanded_label_positions": {
-    "source": 1536000,
-    "target": 1536000
+    "source": 6144000,
+    "target": 6144000
   },
+  "expanded_loaded_action_positions": {
+    "source": 6144000,
+    "target": 6144000
+  },
+  "label_accounting": "Transformer loads10 historical labels but the frozen supervise_all_steps=False core supervises only the last; GMM1, RNN10, DP16",
   "unique_anchor_frames": {
-    "source": 89717,
-    "target": 33733
+    "source": 296415,
+    "target": 36625
   }
 }

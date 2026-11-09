@@ -85,11 +85,12 @@ def training(out,final):
 
 
 def episodes(out,final):
- cells=[];rows=[];technical=[]
+ cells=[];rows=[];technical=[];pending=[]
  for path in sorted((ROOT/'formal').rglob('job.json')):
   job=json.loads(path.read_text());key=dict(label=job['label'],task=job['task'],robot=job['robot'])
   if job['status']!='COMPLETE':
-   technical.append(dict(**key,status=job['status'],completed_episodes=job.get('completed_episodes',0),technical_failure_phase=job.get('technical_failure_phase'),error=job.get('error'),job_path=str(path)));continue
+   record=dict(**key,status=job['status'],completed_episodes=job.get('completed_episodes',0),technical_failure_phase=job.get('technical_failure_phase'),error=job.get('error'),job_path=str(path))
+   (technical if job['status']=='TECHNICAL_FAILURE' else pending).append(record);continue
   records=[json.loads(x) for x in (path.parent/'episodes.jsonl').read_text().splitlines()];assert len(records)==40 and [r['official_condition_index'] for r in records]==list(range(60,100));assert all(type(r['success']) is bool for r in records)
   successes=sum(r['success'] for r in records);assert successes==job['successes']
   cell=dict(**key,status='COMPLETE',successes=successes,episodes=40,success_rate=successes/40,wilson95=wilson(successes,40),checkpoint=job['checkpoint'],checkpoint_sha256=job['checkpoint_sha256'],group=job['label'][0],legacy_setting='barx' in job['label'],model_kind=job['kind'],mean_policy_prediction_seconds=sum(r['total_prediction_seconds'] for r in records)/sum(r['policy_calls'] for r in records),peak_gpu_allocated_bytes=job['peak_gpu_allocated_bytes'])
@@ -106,7 +107,7 @@ def episodes(out,final):
     states=summarize_states(tcp,obj,contacts,actions,placement,retreat,r['success'],f['baseline/gripper_pad_center_distance'][:])
    stage=('OFFICIAL_SUCCESS' if r['success'] else 'NO_CLOSE_COMMAND' if not states['issued_close'] else 'CLOSE_COMMAND_WITHOUT_5MM_JAW_REDUCTION' if not states['physical_jaw_closure_5mm'] else 'CLOSE_WITHOUT_BILATERAL_CONTACT' if not states['bilateral_contact'] else 'CONTACT_WITHOUT_STABLE_LIFT' if not states['stable_contact_lift'] else 'STABLE_LIFT_NO_10CM_TRANSPORT_PROXY' if not states['transport_10cm_contact_proxy'] else 'TRANSPORT_WITHOUT_OFFICIAL_PLACEMENT' if not states['placement_official_subpredicate'] else 'PLACEMENT_WITHOUT_RETREAT')
    rows.append(dict(**key,**r,**states,observed_failure_stage=stage,causal_failure_reason='NOT_IDENTIFIED_FROM_STAGE_PROXY'))
- csv_write(out/'cells.csv',cells);csv_write(out/'episodes.csv',rows);csv_write(out/'technical_status.csv',technical);csv_write(out/'failure_index.csv',[r for r in rows if not r['success']]);write_json(out/'analysis.json',dict(cells=cells,episodes=rows,technical=technical,formal_results_only=True))
+ csv_write(out/'cells.csv',cells);csv_write(out/'episodes.csv',rows);csv_write(out/'technical_status.csv',technical);csv_write(out/'pending_cells.csv',pending);csv_write(out/'failure_index.csv',[r for r in rows if not r['success']]);write_json(out/'analysis.json',dict(cells=cells,episodes=rows,technical=technical,pending=pending,formal_results_only=True))
  return cells,rows,technical
 
 
@@ -134,7 +135,7 @@ def paired(out,rows):
 def collect(final=False):
  out=PROJECT/'results/baselines';out.mkdir(parents=True,exist_ok=True)
  tr=training(out,final);cells,rows,technical=episodes(out,final);comparisons=paired(out,rows)
- for name in ['probe_suite.json','probe_suite_technical_attempt_01.json','smoke_suite.json','barx_smoke_suite.json','smoke_validation_summary.json','formal_validation_summary.json','closed_cell_audit.json','training_suite.json','formal_suite.json','frozen_publication.json','canonical_control_semantics.json','legacy_data_settings.json','environment.json','data_integrity_audit.json']:
+ for name in ['probe_suite.json','probe_suite_technical_attempt_01.json','smoke_suite.json','barx_smoke_suite.json','smoke_validation_summary.json','formal_validation_summary.json','closed_cell_audit.json','training_suite.json','formal_suite.json','frozen_publication.json','model_selection_publication.json','first_formal_interface_audit.json','canonical_control_semantics.json','legacy_data_settings.json','environment.json','data_integrity_audit.json','camera_calibration_audit.json']:
   p=ROOT/name
   if p.exists():shutil.copyfile(p,out/name)
  for p in (ROOT/'probes').glob('*/status.json'):
