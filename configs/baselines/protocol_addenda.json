@@ -1,0 +1,33 @@
+{
+  "original_protocol_sha256": "20aa1c8e94bbf9538a839164ad338c0e74a54aca3f892ea184a26e0351dd6544",
+  "original_protocol_preserved": true,
+  "training_hyperparameters_and_selection_rules_unchanged": true,
+  "final_test_conditions_unchanged": true,
+  "runtime_label_aliases": {
+    "A_source_bc_transformer": "A_bc_transformer",
+    "A_source_diffusion_policy": "A_diffusion_policy"
+  },
+  "legacy_factual_correction": {
+    "classification": "LEGACY_DIFFERENT_SPLIT_AND_BUDGET_RESTRICTED_LORA",
+    "no_reps_6000": {
+      "official_target_pool": 100,
+      "eligible_old_target_train_pool": 95,
+      "actually_consumed_target_demonstrations": 18,
+      "actually_consumed_source_demonstrations": 19,
+      "target_positions": 3068,
+      "source_positions": 2932
+    },
+    "joint_96000": {
+      "actually_consumed_target_demonstrations": 100,
+      "actually_consumed_source_demonstrations": 115,
+      "target_positions": 48412,
+      "source_positions": 47588
+    },
+    "evidence": "results/baselines/legacy_data_settings.json and exact provenance summaries"
+  },
+  "diffusion_probe": "First warmup optimizer step has zero LR; a separately recorded second step verifies parameter movement. Probe weights discarded; main training schedule unchanged.",
+  "transformer_label_accounting": "All frozen configs supervise_all_steps=false: 10 history frames and 10 loaded actions, only current last action supervised. coverage_schema2 separates loaded and supervised counts; original traces preserved.",
+  "source_reference_scope": "configs/evaluation/baseline_source_reference_scope.json; published before any final test; four A settings use existing frozen UR5e60..99",
+  "diagnostic_definitions": "configs/evaluation/baseline_stage_definitions.json; physical jaw motion is separate from command and official task success",
+  "original_source_pack_marker": "Early source pack has no per-group pack_complete attribute. Complete manifest, all lengths and fingerprints, and full-file SHA are verified. Data were not rewritten."
+}

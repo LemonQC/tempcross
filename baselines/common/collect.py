@@ -24,10 +24,11 @@ def copy_small(source,destination):
 
 def coverage(directory,state,out):
  path=directory/'consumed_anchors.csv';method=state['method'];group=state['group']
+ if method=='bc_transformer':assert json.loads((directory/'config.json').read_text())['algo']['transformer']['supervise_all_steps'] is False
  prior=out/'consumption_summary.json'
  if prior.exists():
   cached=json.loads(prior.read_text())
-  if cached['trace_bytes']==path.stat().st_size and cached['positions'].get('target',0)==state['actual_target_positions'] and cached['positions'].get('source',0)==state['actual_source_positions']:
+  if cached.get('coverage_schema')==2 and cached['trace_bytes']==path.stat().st_size and cached['positions'].get('target',0)==state['actual_target_positions'] and cached['positions'].get('source',0)==state['actual_source_positions']:
    assert cached['trace_sha256']==digest(path);return cached
  manifests={d:json.loads((ROOT/f'data/{d}_manifest.json').read_text()) for d in ['source','target']}
  maps={d:{r['episode_id']:r for r in rows} for d,rows in manifests.items()}
@@ -38,14 +39,17 @@ def coverage(directory,state,out):
    assert manifests[d][int(row_index)]['episode_id']==eid and frame==int(expected_frame)
    row=maps[d][eid];assert row['split']=='train';position[d]+=1;counts[d]+=1
    key=d,eid
-   if key not in entries:entries[key]=dict(row=row,n=0,anchor=set(),inputs=set(),labels=set())
-   x=entries[key];x['n']+=1;x['anchor'].add(frame);obs,labels=window_indices(method,frame,row['frames']);x['inputs'].update(map(int,obs));x['labels'].update(map(int,labels));expanded[(d,'input')]+=len(obs);expanded[(d,'label')]+=len(labels)
+   if key not in entries:entries[key]=dict(row=row,n=0,anchor=set(),inputs=set(),labels=set(),loaded_labels=set())
+   x=entries[key];x['n']+=1;x['anchor'].add(frame);obs,labels=window_indices(method,frame,row['frames'])
+   assert int(r['input_frame_count'])==len(obs) and int(r['label_frame_count'])==len(labels)
+   supervised=labels[-1:] if method=='bc_transformer' else labels
+   x['inputs'].update(map(int,obs));x['labels'].update(map(int,supervised));x['loaded_labels'].update(map(int,labels));expanded[(d,'input')]+=len(obs);expanded[(d,'label')]+=len(supervised);expanded[(d,'loaded_label')]+=len(labels)
  assert counts['target']==state['actual_target_positions'] and counts['source']==state['actual_source_positions']
  rows=[]
  for (d,eid),x in sorted(entries.items()):
-  r=x['row'];rows.append(dict(domain=d,episode_id=eid,task=r['task'],embodiment=r['embodiment'],original_file=r['original_file'],original_demo=r['original_demo'],original_frames=r['frames'],anchor_positions=x['n'],unique_anchor_frames=len(x['anchor']),unique_input_frames=len(x['inputs']),unique_label_frames=len(x['labels'])))
+  r=x['row'];rows.append(dict(domain=d,episode_id=eid,task=r['task'],embodiment=r['embodiment'],original_file=r['original_file'],original_demo=r['original_demo'],original_frames=r['frames'],anchor_positions=x['n'],unique_anchor_frames=len(x['anchor']),unique_input_frames=len(x['inputs']),unique_supervised_label_frames=len(x['labels']),unique_loaded_action_frames=len(x['loaded_labels'])))
  csv_write(out/'demonstration_coverage.csv',rows)
- result=dict(trace_path=str(path),trace_bytes=path.stat().st_size,trace_sha256=digest(path),exact_sequence_matches_frozen_anchors=True,positions=dict(counts),unique_demonstrations={d:sum(k[0]==d for k in entries) for d in manifests},expanded_input_positions={d:expanded[(d,'input')] for d in manifests},expanded_label_positions={d:expanded[(d,'label')] for d in manifests},unique_anchor_frames={d:sum(len(x['anchor']) for (domain,_),x in entries.items() if domain==d) for d in manifests})
+ result=dict(coverage_schema=2,trace_path=str(path),trace_bytes=path.stat().st_size,trace_sha256=digest(path),exact_sequence_matches_frozen_anchors=True,positions=dict(counts),unique_demonstrations={d:sum(k[0]==d for k in entries) for d in manifests},expanded_input_positions={d:expanded[(d,'input')] for d in manifests},expanded_label_positions={d:expanded[(d,'label')] for d in manifests},expanded_loaded_action_positions={d:expanded[(d,'loaded_label')] for d in manifests},label_accounting='Transformer loads10 historical labels but the frozen supervise_all_steps=False core supervises only the last; GMM1, RNN10, DP16',unique_anchor_frames={d:sum(len(x['anchor']) for (domain,_),x in entries.items() if domain==d) for d in manifests})
  write_json(out/'consumption_summary.json',result);return result
 
 
@@ -150,6 +154,7 @@ def collect(final=False):
   assert len(cells)==sum(c['status']=='COMPLETE' for c in suite['cells']) and all(c['episodes']==40 for c in cells)
   files=[]
   for p in sorted(ROOT.rglob('*')):
+   if p.name=='delivery_ready.json' or p.name.startswith('delivery-step-'):continue
    if p.is_file() and p.suffix!='.tmp':files.append(dict(absolute_path=str(p),bytes=p.stat().st_size,sha256=digest(p)))
   for r in csv.DictReader((out/'checkpoint_index.csv').open()):
    if not str(r['path']).startswith(str(ROOT)):files.append(dict(absolute_path=r['path'],bytes=int(r['bytes']),sha256=r['sha256']))

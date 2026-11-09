@@ -31,3 +31,5 @@ Group A（零target）、B（target-only）、C（source+target）分表。已�
 正式测试前的物理闭爪日志补充：除实际下发的close命令，增加左右指垫geom中心距离原始记录。`physical_jaw_closure_5mm`定义为positive close命令对应的步后指垫距离较此前运行最大值减少≥5mm，仅表示实测闭爪运动，不等同完全闭合、接触或成功抓持。阈值和定义在60–99运行前声明，官方success及所有策略输入/动作保持不变。
 
 只读数据核验还确认：1900条packed示范的canonical动作指纹全部匹配，target原HDF与官方TFDS全部100条动作完全相同；抽查300帧的正确RGB平均像素误差0.759（原图与有损JPEG之差），错误垂直翻转61.213、错误RB交换9.499，支持当前图像朝向和通道约定。source早期打包器没有逐组pack_complete属性，完整性以1800条manifest、实际长度/指纹及完整文件SHA验证，不回写数据以添加标记。
+
+覆盖统计字段修正：初期快照的Transformer expanded_label_positions把数据层载入的10个历史动作都计入，实际官方配置始终supervise_all_steps=False，只对当前末帧1个动作计算loss。coverage_schema=2分别报告expanded_loaded_action_positions与expanded_label_positions（实际监督）；GMM/RNN/DP分别1/10/16不变。原始trace的label_frame_count保持其“载入tensor长度”含义，未回写或改训练。该修正只影响审计统计，anchor顺序、预算和模型完全不变。
