@@ -94,7 +94,7 @@ def extract():
         development_indices=CASES,independent_indices=list(range(40,60)),seed=7,max_episode_steps=600,
         source_pose=dict(tcp_site='gripper0_right_grip_site',quaternion_convention='site obs xyzw; body/object wxyz; verified against XML',stable_bilateral_states=10,lift_m=.03,lift_states=10,confirmation_window_states=100),
         branch=dict(rule='min(200,max(40,argmin B0 EEF-object distance on states40..350 minus16))',frozen_indices={str(b['official_index']):b['branch_action_index'] for b in bank},prefix_replay_tolerance=1e-8),
-        controls=dict(A1=dict(arm='original recorded full Panda actions',close_at='original minimum-distance state index',close_hold_steps=32,then='original gripper schedule'),
+        controls=dict(A1=dict(arm='original recorded full Panda actions',close_at='original minimum-distance state index',hold_until='common branch plus release_offset',release_offset=275,then='open for the rest of the episode'),
           A2=dict(arm='same fixed OSC waypoint schedule as A3',gripper='original B0 recorded binary command at same absolute episode action index; hold final command after B0 ends'),
           A3=dict(arm='same fixed OSC waypoint schedule as A2',gripper='open until 5 consecutive states within grasp tolerance during descend/hold; close until scheduled release; then open'),
           gain_position=.4,gain_rotation=.4,max_position_step_m=.012,max_rotation_step_rad=.12,

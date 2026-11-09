@@ -62,8 +62,9 @@
     "A1": {
       "arm": "original recorded full Panda actions",
       "close_at": "original minimum-distance state index",
-      "close_hold_steps": 32,
-      "then": "original gripper schedule"
+      "hold_until": "common branch plus release_offset",
+      "release_offset": 275,
+      "then": "open for the rest of the episode"
     },
     "A2": {
       "arm": "same fixed OSC waypoint schedule as A3",
@@ -185,5 +186,12 @@
     "source_bank_sha256": "1685d92ac143a9abfba4ab6cdc1302b10ee01a9d4d3e811ec36fb9d93db5ba87",
     "independent_conditions_sha256": "428bda36d8277667d0a592e5259fafefb53add6bb9e8ccbd23a51713bb82a51f",
     "bundle_integrity_sha256": "d1e9064ae97010155a1ad894fb9f409394a65c095cff397e520c62b3792f0622"
+  },
+  "protocol_amendment": {
+    "initial_commit": "f6bf766440b4606ee697ef209ffd902d6b4dc1b7",
+    "document": "docs/P3_PROTOCOL_AMENDMENT_01.md",
+    "before_development_interventions": true,
+    "independent_outcomes_inspected": false,
+    "formal_rules_and_training_unchanged": true
   }
 }
