@@ -1,0 +1,10 @@
+{
+  "samples_consumed": 27392,
+  "dataset_counts": {
+    "mg_pnp_lite": 13590,
+    "panda_pnp": 13802
+  },
+  "unique_target_demonstrations": 45,
+  "unique_source_demonstrations": 41,
+  "exact_order_and_raw_hashes_match_frozen_cache": true
+}

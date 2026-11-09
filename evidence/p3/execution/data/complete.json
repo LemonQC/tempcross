@@ -1,0 +1,30 @@
+{
+  "status": "COMPLETE",
+  "samples": 96000,
+  "dataset_length": 81315,
+  "dataset_counts": {
+    "mg_pnp_lite": 47588,
+    "panda_pnp": 48412
+  },
+  "sample_seed": 20261109,
+  "sample_trace_sha256": "9edb3945712159549d52f3708f1d181f8305fe5ac29cf45eedc5cd731c57d1df",
+  "statistics_sha256": "1fe8eb967133c8e0a1c72ceb0eb0c0c6edc9e5f0428bf035b310631ba2e8427c",
+  "sampling": "fresh full-train official RLDS mixture; not repeated P2 cache",
+  "target_pool": 100,
+  "source_pool": 1800,
+  "unique_target_demonstrations": 100,
+  "unique_source_demonstrations": 115,
+  "unique_frame_positions": 88261,
+  "repeated_frame_positions": 7739,
+  "exact_repeated_preprocessed_samples": 138,
+  "prior_weight": 0.05,
+  "target_weight": 1.0,
+  "balance_by_transitions": true,
+  "split": "all published train episodes; explicit difference from P2 train[:95%]",
+  "source_code_unmodified": true,
+  "dataset_counts_full_sequence": {
+    "mg_pnp_lite": 47588,
+    "panda_pnp": 48412
+  },
+  "metadata_recovery": "Coverage CSV writer fixed; completed 96000 cache and sample order reused without resampling"
+}

@@ -1,0 +1,169 @@
+2026-11-08 22:19:37.801575: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-11-08 22:19:37.801606: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-11-08 22:19:37.802304: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+11/08 [22:19:44] INFO     | >> [*] OpenVLA Training :: Warming Up   train.py:139
+                 INFO     | >>     |=> "Do or do not; there is no   train.py:158
+                          try."
+                 INFO     | >> [*] Loading Base VLM                 train.py:173
+                          `prism-qwen25-extra-dinosiglip-224px+0_5b
+                          ` from ID/Path
+                 INFO     | >> [*] Loading from local checkpoint     load.py:190
+                          path
+                          `/home/users/lemon/coft-p2/artifacts/runs/
+                          joint_reps/checkpoints/step-050000-epoch-1
+                          5-loss=0.2577.pt`
+                 INFO     | >> [*] Base vlm:                         load.py:269
+                          ajaysri/prism-qwen25-extra-dinosiglip-224p
+                          x-0_5b-stage-finetune-x7 (registry ID:
+                          prism-qwen25-extra-dinosiglip-224px+0_5b+s
+                          tage-finetune+x7)
+                 INFO     | >> [*] Found Config =>> Loading &        load.py:279
+                          Freezing
+                          prism-qwen25-extra-dinosiglip-224px+0_5b+s
+                          tage-finetune+x7 with:
+                                       Vision Backbone =>>
+                          dinosiglip-vit-so-224px
+                                       LLM Backbone    =>>
+                          qwen25-0_5b-extra
+                                       Arch Specifier  =>>
+                          no-align+fused-gelu-mlp
+                                       Checkpoint Path =>>
+                          `/home/users/lemon/coft-p2/artifacts/runs/
+                          joint_reps/checkpoints/step-050000-epoch-1
+                          5-loss=0.2577.pt`
+                 INFO     | >> [*] Loading Vision Backbone           load.py:294
+                          dinosiglip-vit-so-224px
+11/08 [22:19:46] INFO     | >> Loading pretrained weights from   _builder.py:186
+                          Hugging Face hub
+                          (timm/vit_large_patch14_reg4_dinov2.lv
+                          d142m@f3c408e77602bb412aa65fb03dfa0d5f
+                          95cb3832)
+                 INFO     | >>  Safe alternative available for       _hub.py:180
+                          'pytorch_model.bin' (as
+                          'model.safetensors'). Loading weights
+                          using safetensors.
+                 INFO     | >> Resized position embedding: (37,  pos_embed.py:55
+                          37) to (16, 16).
+11/08 [22:19:48] INFO     | >> Loading pretrained weights from   _builder.py:186
+                          Hugging Face hub
+                          (('timm/ViT-SO400M-14-SigLIP@9179d1517
+                          7ece40964c50492136eda2f3e0c9f61',
+                          'open_clip_pytorch_model.bin'))
+                 INFO     | >>  Safe alternative available for       _hub.py:180
+                          'open_clip_pytorch_model.bin' (as
+                          'open_clip_model.safetensors'). Loading
+                          weights using safetensors.
+                 INFO     | >> [*] Loading Pretrained LLM            load.py:302
+                          qwen25-0_5b-extra via HF Transformers
+                 INFO     | >>     |=> Loading qwen2.5 LLM from  base_llm.py:124
+                          `Qwen/Qwen2.5-0.5B`
+11/08 [22:19:49] INFO     | >>     |=> Loading qwen2.5 (Fast)    base_llm.py:168
+                          Tokenizer via the AutoTokenizer API
+Added 256 extra tokens.
+                 INFO     | >> [*] Loading VQ VAE for    action_tokenizer.py:191
+                          Action Tokenization from
+                          /home/users/lemon/coft-p2/arti
+                          facts/vq/mg_pnp_lite/config.js
+                          on...
+                 INFO     | >> [*] Found VQ VAE          action_tokenizer.py:194
+                          parameters:
+                          <vqvae.vqvae.VqVae object at
+                          0x7fb264245f90>
+                 INFO     | >> [*] Loading VLA                       load.py:319
+                          prism-qwen25-extra-dinosiglip-224px+0_5b+s
+                          tage-finetune+x7 from Checkpoint
+11/08 [22:19:51] INFO     | >> [*] Successfully loaded          prismatic.py:132
+                          projector weights from checkpoint.
+                 INFO     | >> [*] Successfully loaded vision   prismatic.py:143
+                          backbone weights from checkpoint.
+                 INFO     | >> [*] Invoking                         train.py:257
+                          `VLM.freeze_backbones()` for
+                          `prism-qwen25-dinosiglip-224px+0_5b+mx-xe
+                          mbod-robocasa-full` => Stage:
+                          `vla-full-train`
+                 INFO     | >>     |=> [TRAINABLE] 🔥 =>>       prismatic.py:216
+                          Vision Backbone
+                          `dinosiglip-vit-so-224px`
+                 INFO     | >>     |=> [TRAINABLE] 🔥 =>> LLM   prismatic.py:217
+                          Backbone `qwen25-0_5b-extra`
+                 INFO     | >>     |=> [TRAINABLE] 🔥 =>>       prismatic.py:218
+                          Projector `no-align+fused-gelu-mlp`
+                 INFO     | >> [*] # Parameters (in millions):      train.py:263
+                          1252.496 Total, 1252.496 Trainable
+                 INFO     | >> [*] Creating VLA Open-X Dataset with train.py:268
+                          Mixture `panda_xp_900_pnp`
+                 INFO     | >> [*] Loading VQ VAE for    action_tokenizer.py:191
+                          Action Tokenization from
+                          /home/users/lemon/coft-p2/arti
+                          facts/vq/mg_pnp_lite/config.js
+                          on...
+                 INFO     | >> [*] Found VQ VAE          action_tokenizer.py:194
+                          parameters:
+                          <vqvae.vqvae.VqVae object at
+                          0x7fb25c1c7dc0>
+Traceback (most recent call last):
+  File "/home/users/lemon/miniconda3/envs/skillcompose/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/users/lemon/miniconda3/envs/skillcompose/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/users/lemon/CodexProject/tempcross/p3_validation/train_runtime.py", line 110, in <module>
+    if __name__=='__main__':main()
+  File "/home/users/lemon/CodexProject/tempcross/p3_validation/train_runtime.py", line 102, in main
+    upstream_main();state['launcher_returned_successfully']=True
+  File "/home/users/lemon/CodexProject/tempcross/p2_validation/train_adapter.py", line 90, in main
+    runpy.run_path(sys.argv[0],run_name='__main__');status['status']='COMPLETE'
+  File "/home/users/lemon/miniconda3/envs/skillcompose/lib/python3.10/runpy.py", line 289, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/home/users/lemon/miniconda3/envs/skillcompose/lib/python3.10/runpy.py", line 96, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/home/users/lemon/miniconda3/envs/skillcompose/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/users/lemon/coft-p2/barx/policy/vla-scripts/train.py", line 379, in <module>
+    train()
+  File "/home/users/lemon/coft-p2/barx/.venv/lib/python3.10/site-packages/draccus/argparsing.py", line 203, in wrapper_inner
+    response = fn(cfg, *args, **kwargs)
+  File "/home/users/lemon/coft-p2/barx/policy/vla-scripts/train.py", line 288, in train
+    vla_dataset, action_tokenizer, collator = get_vla_dataset_and_collator(
+  File "/home/users/lemon/coft-p2/barx/policy/prismatic/vla/materialize.py", line 150, in get_vla_dataset_and_collator
+    dataset = cls(
+  File "/home/users/lemon/coft-p2/barx/policy/prismatic/vla/datasets/datasets.py", line 476, in __init__
+    self.dataset, self.dataset_length, self.dataset_statistics = self.make_dataset(rlds_config)
+  File "/home/users/lemon/CodexProject/tempcross/p2_validation/train_adapter.py", line 53, in fixed_data
+    return CachedStream(cache),metadata['dataset_length'],statistics
+  File "/home/users/lemon/CodexProject/tempcross/p3_validation/train_runtime.py", line 22, in __init__
+    out=Path(sys.argv[sys.argv.index('--out')+1]);self.directory=ROOT/'training_inputs'/out.name
+ValueError: '--out' is not in list
+[2026-11-08 22:19:56,015] torch.distributed.elastic.multiprocessing.api: [ERROR] failed (exitcode: 1) local_rank: 0 (pid: 1341508) of binary: /home/users/lemon/coft-p2/barx/.venv/bin/python
+Traceback (most recent call last):
+  File "/home/users/lemon/miniconda3/envs/skillcompose/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/users/lemon/miniconda3/envs/skillcompose/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/users/lemon/coft-p2/barx/.venv/lib/python3.10/site-packages/torch/distributed/run.py", line 816, in <module>
+    main()
+  File "/home/users/lemon/coft-p2/barx/.venv/lib/python3.10/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 347, in wrapper
+    return f(*args, **kwargs)
+  File "/home/users/lemon/coft-p2/barx/.venv/lib/python3.10/site-packages/torch/distributed/run.py", line 812, in main
+    run(args)
+  File "/home/users/lemon/coft-p2/barx/.venv/lib/python3.10/site-packages/torch/distributed/run.py", line 803, in run
+    elastic_launch(
+  File "/home/users/lemon/coft-p2/barx/.venv/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 135, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/home/users/lemon/coft-p2/barx/.venv/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 268, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError:
+============================================================
+p3_validation.train_runtime FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2026-11-08_22:19:56
+  host      : xlb-MS
+  rank      : 0 (local_rank: 0)
+  exitcode  : 1 (pid: 1341508)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================

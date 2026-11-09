@@ -1,0 +1,125 @@
+{
+  "status": "P3_ACTUAL_TRAINING_RUNNING",
+  "updated_at_utc": "2026-11-09T04:08:38.367519+00:00",
+  "latest_directive": "202611091028.md",
+  "initial_protocol_commit": "f6bf766440b4606ee697ef209ffd902d6b4dc1b7",
+  "amended_diagnostic_protocol_commit": "4cc1129a2a9ed0732b1320f17fba280da271306c",
+  "protocol_amendment_before_diagnostics": true,
+  "formal_rules_unchanged": true,
+  "p3_a": {
+    "status": "COMPLETE",
+    "physical_rollouts": 24,
+    "summary": [
+      {
+        "method": "A1",
+        "episodes": 8,
+        "stable_contact_lift": 1,
+        "official_task_successes": 1,
+        "role": "PRIVILEGED_DIAGNOSTIC_ONLY"
+      },
+      {
+        "method": "A2",
+        "episodes": 8,
+        "stable_contact_lift": 0,
+        "official_task_successes": 0,
+        "role": "PRIVILEGED_DIAGNOSTIC_ONLY"
+      },
+      {
+        "method": "A3",
+        "episodes": 8,
+        "stable_contact_lift": 8,
+        "official_task_successes": 5,
+        "role": "PRIVILEGED_DIAGNOSTIC_ONLY"
+      }
+    ],
+    "A1_post_contact_arm_behavior_is_a_confound": true
+  },
+  "p3_b": {
+    "status": "TRAINING",
+    "prescribed_sample_positions": 96000,
+    "chosen_batch": 8,
+    "prescribed_updates": 12000,
+    "actual_updates_as_of_snapshot": 3428,
+    "actual_sample_positions_as_of_snapshot": 27424,
+    "data_manifest": {
+      "status": "COMPLETE",
+      "samples": 96000,
+      "dataset_length": 81315,
+      "dataset_counts": {
+        "mg_pnp_lite": 47588,
+        "panda_pnp": 48412
+      },
+      "sample_seed": 20261109,
+      "sample_trace_sha256": "9edb3945712159549d52f3708f1d181f8305fe5ac29cf45eedc5cd731c57d1df",
+      "statistics_sha256": "1fe8eb967133c8e0a1c72ceb0eb0c0c6edc9e5f0428bf035b310631ba2e8427c",
+      "sampling": "fresh full-train official RLDS mixture; not repeated P2 cache",
+      "target_pool": 100,
+      "source_pool": 1800,
+      "unique_target_demonstrations": 100,
+      "unique_source_demonstrations": 115,
+      "unique_frame_positions": 88261,
+      "repeated_frame_positions": 7739,
+      "exact_repeated_preprocessed_samples": 138,
+      "prior_weight": 0.05,
+      "target_weight": 1.0,
+      "balance_by_transitions": true,
+      "split": "all published train episodes; explicit difference from P2 train[:95%]",
+      "source_code_unmodified": true,
+      "dataset_counts_full_sequence": {
+        "mg_pnp_lite": 47588,
+        "panda_pnp": 48412
+      },
+      "metadata_recovery": "Coverage CSV writer fixed; completed 96000 cache and sample order reused without resampling"
+    }
+  },
+  "p3_c": {
+    "status": "80_OF_100_COMPLETE",
+    "indices": [
+      40,
+      59
+    ],
+    "completed_original_model_evaluations": 80,
+    "stronger_model_evaluation_episodes": 0,
+    "stronger_model_success_rate": null
+  },
+  "execution_root": "/home/users/lemon/coft-p3/p3-20261109",
+  "validation_snapshot": {
+    "complete_formal_cells": 4,
+    "complete_formal_episodes": 80,
+    "cells": [
+      {
+        "cell": "b1-joint_reps-panda",
+        "episodes": 20,
+        "window_and_hashes_match_frozen_protocol": true,
+        "states": "/home/users/lemon/coft-p3/p3-20261109/validation/b1-joint_reps-panda-states.json",
+        "videos": "/home/users/lemon/coft-p3/p3-20261109/validation/b1-joint_reps-panda-videos.json"
+      },
+      {
+        "cell": "original-joint_reps-panda",
+        "episodes": 20,
+        "window_and_hashes_match_frozen_protocol": true,
+        "states": "/home/users/lemon/coft-p3/p3-20261109/validation/original-joint_reps-panda-states.json",
+        "videos": "/home/users/lemon/coft-p3/p3-20261109/validation/original-joint_reps-panda-videos.json"
+      },
+      {
+        "cell": "original-joint_reps-ur5e",
+        "episodes": 20,
+        "window_and_hashes_match_frozen_protocol": true,
+        "states": "/home/users/lemon/coft-p3/p3-20261109/validation/original-joint_reps-ur5e-states.json",
+        "videos": "/home/users/lemon/coft-p3/p3-20261109/validation/original-joint_reps-ur5e-videos.json"
+      },
+      {
+        "cell": "p2-6000-joint_reps-panda",
+        "episodes": 20,
+        "window_and_hashes_match_frozen_protocol": true,
+        "states": "/home/users/lemon/coft-p3/p3-20261109/validation/p2-6000-joint_reps-panda-states.json",
+        "videos": "/home/users/lemon/coft-p3/p3-20261109/validation/p2-6000-joint_reps-panda-videos.json"
+      }
+    ],
+    "diagnostic_rollouts": 24,
+    "videos_verified": 104,
+    "decoded_frames": 59514,
+    "complete_independent_suite": false,
+    "diagnostic_complete": true
+  }
+}

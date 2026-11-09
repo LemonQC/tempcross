@@ -1,0 +1,159 @@
+2026-11-08 22:31:54.328075: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-11-08 22:31:54.328110: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-11-08 22:31:54.328811: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+11/08 [22:32:00] INFO     | >> [*] OpenVLA Training :: Warming Up   train.py:139
+                 INFO     | >>     |=> "Do or do not; there is no   train.py:158
+                          try."
+                 INFO     | >> [*] Loading Base VLM                 train.py:173
+                          `prism-qwen25-extra-dinosiglip-224px+0_5b
+                          ` from ID/Path
+                 INFO     | >> [*] Loading from local checkpoint     load.py:190
+                          path
+                          `/home/users/lemon/coft-p2/artifacts/runs/
+                          joint_reps/checkpoints/step-050000-epoch-1
+                          5-loss=0.2577.pt`
+                 INFO     | >> [*] Base vlm:                         load.py:269
+                          ajaysri/prism-qwen25-extra-dinosiglip-224p
+                          x-0_5b-stage-finetune-x7 (registry ID:
+                          prism-qwen25-extra-dinosiglip-224px+0_5b+s
+                          tage-finetune+x7)
+                 INFO     | >> [*] Found Config =>> Loading &        load.py:279
+                          Freezing
+                          prism-qwen25-extra-dinosiglip-224px+0_5b+s
+                          tage-finetune+x7 with:
+                                       Vision Backbone =>>
+                          dinosiglip-vit-so-224px
+                                       LLM Backbone    =>>
+                          qwen25-0_5b-extra
+                                       Arch Specifier  =>>
+                          no-align+fused-gelu-mlp
+                                       Checkpoint Path =>>
+                          `/home/users/lemon/coft-p2/artifacts/runs/
+                          joint_reps/checkpoints/step-050000-epoch-1
+                          5-loss=0.2577.pt`
+                 INFO     | >> [*] Loading Vision Backbone           load.py:294
+                          dinosiglip-vit-so-224px
+11/08 [22:32:02] INFO     | >> Loading pretrained weights from   _builder.py:186
+                          Hugging Face hub
+                          (timm/vit_large_patch14_reg4_dinov2.lv
+                          d142m@f3c408e77602bb412aa65fb03dfa0d5f
+                          95cb3832)
+                 INFO     | >>  Safe alternative available for       _hub.py:180
+                          'pytorch_model.bin' (as
+                          'model.safetensors'). Loading weights
+                          using safetensors.
+                 INFO     | >> Resized position embedding: (37,  pos_embed.py:55
+                          37) to (16, 16).
+11/08 [22:32:05] INFO     | >> Loading pretrained weights from   _builder.py:186
+                          Hugging Face hub
+                          (('timm/ViT-SO400M-14-SigLIP@9179d1517
+                          7ece40964c50492136eda2f3e0c9f61',
+                          'open_clip_pytorch_model.bin'))
+                 INFO     | >>  Safe alternative available for       _hub.py:180
+                          'open_clip_pytorch_model.bin' (as
+                          'open_clip_model.safetensors'). Loading
+                          weights using safetensors.
+                 INFO     | >> [*] Loading Pretrained LLM            load.py:302
+                          qwen25-0_5b-extra via HF Transformers
+                 INFO     | >>     |=> Loading qwen2.5 LLM from  base_llm.py:124
+                          `Qwen/Qwen2.5-0.5B`
+                 INFO     | >>     |=> Loading qwen2.5 (Fast)    base_llm.py:168
+                          Tokenizer via the AutoTokenizer API
+Added 256 extra tokens.
+                 INFO     | >> [*] Loading VQ VAE for    action_tokenizer.py:191
+                          Action Tokenization from
+                          /home/users/lemon/coft-p2/arti
+                          facts/vq/mg_pnp_lite/config.js
+                          on...
+                 INFO     | >> [*] Found VQ VAE          action_tokenizer.py:194
+                          parameters:
+                          <vqvae.vqvae.VqVae object at
+                          0x7fc3b46d2020>
+                 INFO     | >> [*] Loading VLA                       load.py:319
+                          prism-qwen25-extra-dinosiglip-224px+0_5b+s
+                          tage-finetune+x7 from Checkpoint
+11/08 [22:32:07] INFO     | >> [*] Successfully loaded          prismatic.py:132
+                          projector weights from checkpoint.
+                 INFO     | >> [*] Successfully loaded vision   prismatic.py:143
+                          backbone weights from checkpoint.
+                 INFO     | >> [*] Invoking                         train.py:257
+                          `VLM.freeze_backbones()` for
+                          `prism-qwen25-dinosiglip-224px+0_5b+mx-xe
+                          mbod-robocasa-full` => Stage:
+                          `vla-full-train`
+                 INFO     | >>     |=> [TRAINABLE] 🔥 =>>       prismatic.py:216
+                          Vision Backbone
+                          `dinosiglip-vit-so-224px`
+                 INFO     | >>     |=> [TRAINABLE] 🔥 =>> LLM   prismatic.py:217
+                          Backbone `qwen25-0_5b-extra`
+                 INFO     | >>     |=> [TRAINABLE] 🔥 =>>       prismatic.py:218
+                          Projector `no-align+fused-gelu-mlp`
+                 INFO     | >> [*] # Parameters (in millions):      train.py:263
+                          1252.496 Total, 1252.496 Trainable
+                 INFO     | >> [*] Creating VLA Open-X Dataset with train.py:268
+                          Mixture `panda_xp_900_pnp`
+                 INFO     | >> [*] Loading VQ VAE for    action_tokenizer.py:191
+                          Action Tokenization from
+                          /home/users/lemon/coft-p2/arti
+                          facts/vq/mg_pnp_lite/config.js
+                          on...
+                 INFO     | >> [*] Found VQ VAE          action_tokenizer.py:194
+                          parameters:
+                          <vqvae.vqvae.VqVae object at
+                          0x7fc3b4117e20>
+                 INFO     | >> [*] Saved dataset statistics    data_utils.py:293
+                          file at path
+                          /home/users/lemon/coft-p3/p3-2026110
+                          9/training/probe-b8/runs/joint_reps-
+                          -lora/dataset_statistics.json
+                 INFO     | >> [*] Initializing Train Strategy      train.py:320
+                          `ddp-lora`
+                 INFO     | >>     |=> Placing Entire VLM        lora_ddp.py:129
+                          (Vision Backbone, LLM Backbone,
+                          Projector Weights) on GPU
+trainable params: 56,787,712 || all params: 1,309,284,160 || trainable%: 4.3373
+11/08 [22:32:08] INFO     | >>     |=> 56.79M trainable LoRA     lora_ddp.py:135
+                          parameters out of 1309.28M total
+                 INFO     | >>     |=> Wrapping VLM with         lora_ddp.py:141
+                          Distributed Data Parallel
+                 INFO     | >> [*] DDP Strategy =>> Finalized    lora_ddp.py:206
+                          Training Setup:
+                                   |-> Global (Effective) Batch
+                          Size = 8
+                                   |-> Per-Device Batch Size = 8
+                                   |-> Distributed World Size =
+                          1
+                                   |-> Gradient Accumulation
+                          Steps = 1
+
+                                   |-> LLM Backbone Gradient
+                          Checkpointing = False
+                                   |-> Use Native AMP = True
+                          (torch.bfloat16)
+
+                                   |-> Default AdamW LR = 2e-05
+                                   |-> AdamW Weight Decay = 0.0
+                                   |-> LR Scheduler Type =
+                          constant
+                                   |-> LR Scheduler Warmup Steps
+                          (Ratio) = 0 (0.0)
+                                   |-> Dataset Size = 81315
+                          Examples
+                                   |-> Max Steps = 1
+
+                 INFO     | >> [*] Creating Metrics with Active     train.py:344
+                          Trackers => `('jsonl',)`
+                 INFO     | >> [*] Starting VLA Training Loop       train.py:357
+
+  ds_continuous_pred = torch.tensor(
+/home/users/lemon/coft-p2/barx/policy/prismatic/training/strategies/base_strategy.py:521: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  ds_continuous_gt = torch.tensor(
+/home/users/lemon/coft-p2/barx/policy/prismatic/training/strategies/base_strategy.py:613: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  ds_continuous_pred = torch.tensor(
+/home/users/lemon/coft-p2/barx/policy/prismatic/training/strategies/base_strategy.py:617: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  ds_continuous_gt = torch.tensor(
+
+
+11/08 [22:32:09] INFO     | >> [*] Done with Training =>>           train.py:369
+                          Finalizing Metrics
+                 INFO     | >> [*] ... and that's all, folks!       train.py:373

@@ -68,7 +68,42 @@ def instrument_loading(rd,tf):
 def write_csv(path,rows):
     if not rows:return
     with Path(path).open('w',newline='') as f:
-        w=csv.DictWriter(f,fieldnames=list(rows[0]),lineterminator='\n');w.writeheader();w.writerows(rows)
+        keys=list(dict.fromkeys(k for row in rows for k in row))
+        w=csv.DictWriter(f,fieldnames=keys,lineterminator='\n');w.writeheader();w.writerows(rows)
+
+
+def finalize_existing_cache():
+    """Recover metadata after all raw samples were written; never resample."""
+    target_map={r['episode_id']:r for r in json.loads((CACHE/'original_target_demonstrations.json').read_text())}
+    counts=Counter();frames=defaultdict(set);coverage={};hashes=set();n=0
+    with (CACHE/'sample_trace.csv').open() as f:
+        for row in csv.DictReader(f):
+            assert int(row['index'])==n
+            path=CACHE/f'sample-{n:06d}.pkl.gz';assert path.is_file()
+            key=(row['dataset'],row['episode_id']);frames[key].add(int(row['original_frame_index']))
+            if key not in coverage:
+                with gzip.open(path,'rb') as stream:raw=stream.read()
+                assert hashlib.sha256(raw).hexdigest()==row['raw_sample_sha256']
+                sample=pickle.loads(raw)
+                coverage[key]=dict(dataset=key[0],episode_id=key[1],source_file=sample['p3_file_path'].decode(),
+                    original_frames=int(sample['p3_episode_length']),sampled_positions=0,
+                    **({k:target_map[key[1]][k] for k in ['original_file','original_demo','direction']} if key[0]=='panda_pnp' else {}))
+            coverage[key]['sampled_positions']+=1;counts[key[0]]+=1;hashes.add(row['raw_sample_sha256']);n+=1
+    assert n==96000 and len(list(CACHE.glob('sample-*.pkl.gz')))==96000
+    rows=[dict(**row,unique_frames=len(frames[key]),unique_frame_fraction=len(frames[key])/row['original_frames']) for key,row in sorted(coverage.items())]
+    write_csv(CACHE/'demonstration_coverage.csv',rows)
+    stats=json.loads((CACHE/'dataset_statistics.json').read_text())
+    sizes=np.array([stats[k]['num_transitions'] for k in ['mg_pnp_lite','panda_pnp']]);weights=sizes*np.array([.05,1.]);weights/=weights.sum()
+    dataset_length=int((sizes/weights)[1])
+    summary=dict(status='COMPLETE',samples=n,dataset_length=dataset_length,dataset_counts=dict(counts),sample_seed=20261109,
+        sample_trace_sha256=sha256(CACHE/'sample_trace.csv'),statistics_sha256=sha256(CACHE/'dataset_statistics.json'),
+        sampling='fresh full-train official RLDS mixture; not repeated P2 cache',target_pool=100,source_pool=1800,
+        unique_target_demonstrations=sum(k[0]=='panda_pnp' for k in frames),unique_source_demonstrations=sum(k[0]=='mg_pnp_lite' for k in frames),
+        unique_frame_positions=sum(len(s) for s in frames.values()),repeated_frame_positions=n-sum(len(s) for s in frames.values()),exact_repeated_preprocessed_samples=n-len(hashes),
+        prior_weight=.05,target_weight=1.,balance_by_transitions=True,split='all published train episodes; explicit difference from P2 train[:95%]',source_code_unmodified=True,
+        dataset_counts_full_sequence=dict(counts),metadata_recovery='Coverage CSV writer fixed; completed 96000 cache and sample order reused without resampling')
+    (CACHE/'complete.json').write_text(json.dumps(summary,indent=2)+'\n')
+    (CACHE/'progress.json').write_text(json.dumps(summary,indent=2)+'\n');print(json.dumps(summary,indent=2))
 
 
 def main():
@@ -124,7 +159,10 @@ def main():
         split='all published train episodes, explicit deviation from P2 train[:95%]',source_code_unmodified=True,
         dataset_counts_full_sequence=dict(counts))
     # Compatibility with the measured upstream training launcher.
-    (CACHE/'complete.json').write_text(json.dumps(summary,indent=2)+'\n');print(json.dumps(summary,indent=2),flush=True)
+    (CACHE/'complete.json').write_text(json.dumps(summary,indent=2)+'\n')
+    (CACHE/'progress.json').write_text(json.dumps(summary,indent=2)+'\n');print(json.dumps(summary,indent=2),flush=True)
 
 
-if __name__=='__main__':main()
+if __name__=='__main__':
+    if '--finalize-existing' in sys.argv:finalize_existing_cache()
+    else:main()

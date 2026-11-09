@@ -1,0 +1,186 @@
+{
+  "episodes": 20,
+  "all_verified": true,
+  "records": [
+    {
+      "condition_id": "400e6cdb2abbf568",
+      "original_condition_index": 40,
+      "trial_index": 0,
+      "steps": 600,
+      "finite_and_complete": true,
+      "telemetry_path": "/home/users/lemon/coft-p3/p3-20261109/formal/p2-6000-joint_reps-panda/telemetry/episode-000.h5",
+      "sha256": "748dec03c9b7c91875d7b80549f9901051acc8d0c76e23075e752404a030b7fa"
+    },
+    {
+      "condition_id": "ae97fae0f8792175",
+      "original_condition_index": 41,
+      "trial_index": 1,
+      "steps": 600,
+      "finite_and_complete": true,
+      "telemetry_path": "/home/users/lemon/coft-p3/p3-20261109/formal/p2-6000-joint_reps-panda/telemetry/episode-001.h5",
+      "sha256": "d9682fce8c6c3dd7890745d15b7bedf9d061310e17190dbcb27ec70c25d2420b"
+    },
+    {
+      "condition_id": "01728da5031d5ae8",
+      "original_condition_index": 42,
+      "trial_index": 2,
+      "steps": 600,
+      "finite_and_complete": true,
+      "telemetry_path": "/home/users/lemon/coft-p3/p3-20261109/formal/p2-6000-joint_reps-panda/telemetry/episode-002.h5",
+      "sha256": "e0a076aa489c6de14d068b8233a881376075ffb03c16a852fa9eccb59ee20fab"
+    },
+    {
+      "condition_id": "c6377e6cd6583427",
+      "original_condition_index": 43,
+      "trial_index": 3,
+      "steps": 389,
+      "finite_and_complete": true,
+      "telemetry_path": "/home/users/lemon/coft-p3/p3-20261109/formal/p2-6000-joint_reps-panda/telemetry/episode-003.h5",
+      "sha256": "596078bf4445ff33f893c26a156fe5630159652219667cd7647e72adb6596c07"
+    },
+    {
+      "condition_id": "c407175ee4c8185c",
+      "original_condition_index": 44,
+      "trial_index": 4,
+      "steps": 600,
+      "finite_and_complete": true,
+      "telemetry_path": "/home/users/lemon/coft-p3/p3-20261109/formal/p2-6000-joint_reps-panda/telemetry/episode-004.h5",
+      "sha256": "c44860eec307309c8d2aa404e06b50166b8c4bfe9c15ea7dbe076302ff061f33"
+    },
+    {
+      "condition_id": "c9285549312edb6c",
+      "original_condition_index": 45,
+      "trial_index": 5,
+      "steps": 600,
+      "finite_and_complete": true,
+      "telemetry_path": "/home/users/lemon/coft-p3/p3-20261109/formal/p2-6000-joint_reps-panda/telemetry/episode-005.h5",
+      "sha256": "bd92be513695c739c5e0864d4ed2731569ffea7edc22c105fcc90f2d6b75e77d"
+    },
+    {
+      "condition_id": "5f0a961697756038",
+      "original_condition_index": 46,
+      "trial_index": 6,
+      "steps": 600,
+      "finite_and_complete": true,
+      "telemetry_path": "/home/users/lemon/coft-p3/p3-20261109/formal/p2-6000-joint_reps-panda/telemetry/episode-006.h5",
+      "sha256": "cb0afe942531489c42df266f5cd0cac3b637279e6f16beb5a8accb5f25c8bfdf"
+    },
+    {
+      "condition_id": "85d4f3d184cca45a",
+      "original_condition_index": 47,
+      "trial_index": 7,
+      "steps": 600,
+      "finite_and_complete": true,
+      "telemetry_path": "/home/users/lemon/coft-p3/p3-20261109/formal/p2-6000-joint_reps-panda/telemetry/episode-007.h5",
+      "sha256": "a989d4f7a47f9c2b1099984810c9e08c05257e064b30f280d75f5694929e9167"
+    },
+    {
+      "condition_id": "23a3e1137a7b24d7",
+      "original_condition_index": 48,
+      "trial_index": 8,
+      "steps": 600,
+      "finite_and_complete": true,
+      "telemetry_path": "/home/users/lemon/coft-p3/p3-20261109/formal/p2-6000-joint_reps-panda/telemetry/episode-008.h5",
+      "sha256": "8c239f05779b38db18d0f584a23229a3f18d379ef881cb7635e6e97dc35dd5eb"
+    },
+    {
+      "condition_id": "6de913baaf3ed80e",
+      "original_condition_index": 49,
+      "trial_index": 9,
+      "steps": 600,
+      "finite_and_complete": true,
+      "telemetry_path": "/home/users/lemon/coft-p3/p3-20261109/formal/p2-6000-joint_reps-panda/telemetry/episode-009.h5",
+      "sha256": "39e818ace7b23051b135c86bb16e4bd495829ab7dc30ddbe365629d71663888c"
+    },
+    {
+      "condition_id": "f20d0210264f6cca",
+      "original_condition_index": 50,
+      "trial_index": 10,
+      "steps": 600,
+      "finite_and_complete": true,
+      "telemetry_path": "/home/users/lemon/coft-p3/p3-20261109/formal/p2-6000-joint_reps-panda/telemetry/episode-010.h5",
+      "sha256": "3569fe0d271bef915d1bacaef01336b8243a5aa06b59effb62b1918a9f3110de"
+    },
+    {
+      "condition_id": "c175efaa65acbc0f",
+      "original_condition_index": 51,
+      "trial_index": 11,
+      "steps": 600,
+      "finite_and_complete": true,
+      "telemetry_path": "/home/users/lemon/coft-p3/p3-20261109/formal/p2-6000-joint_reps-panda/telemetry/episode-011.h5",
+      "sha256": "b67d282a54a4f57f8d95e79931c329f27c5f336e705dbce2c0ec352c71a7095a"
+    },
+    {
+      "condition_id": "ae6bdc71a0d692ab",
+      "original_condition_index": 52,
+      "trial_index": 12,
+      "steps": 600,
+      "finite_and_complete": true,
+      "telemetry_path": "/home/users/lemon/coft-p3/p3-20261109/formal/p2-6000-joint_reps-panda/telemetry/episode-012.h5",
+      "sha256": "c90d9ccd68341d926652eb0b26d6f36242e189f66f63ed32dbfce16485c632ad"
+    },
+    {
+      "condition_id": "98c129c10bd20f54",
+      "original_condition_index": 53,
+      "trial_index": 13,
+      "steps": 600,
+      "finite_and_complete": true,
+      "telemetry_path": "/home/users/lemon/coft-p3/p3-20261109/formal/p2-6000-joint_reps-panda/telemetry/episode-013.h5",
+      "sha256": "17afb11f62829755de377a5a1585b4357fadb0dc8bfbd83c00bd1bb4d71a2ab4"
+    },
+    {
+      "condition_id": "b91fbf4fc8244b7b",
+      "original_condition_index": 54,
+      "trial_index": 14,
+      "steps": 600,
+      "finite_and_complete": true,
+      "telemetry_path": "/home/users/lemon/coft-p3/p3-20261109/formal/p2-6000-joint_reps-panda/telemetry/episode-014.h5",
+      "sha256": "caee937575461a2671fc2b2e04a85362997c3e32fa8f939fea446ed050e1178d"
+    },
+    {
+      "condition_id": "455d7657c06dd8b6",
+      "original_condition_index": 55,
+      "trial_index": 15,
+      "steps": 600,
+      "finite_and_complete": true,
+      "telemetry_path": "/home/users/lemon/coft-p3/p3-20261109/formal/p2-6000-joint_reps-panda/telemetry/episode-015.h5",
+      "sha256": "978f1acbcfe795aecc95e94cd4aa6bb6e6133157ff9fa2e0a7fb97ece8af7be6"
+    },
+    {
+      "condition_id": "c3dadfa761d9bd06",
+      "original_condition_index": 56,
+      "trial_index": 16,
+      "steps": 600,
+      "finite_and_complete": true,
+      "telemetry_path": "/home/users/lemon/coft-p3/p3-20261109/formal/p2-6000-joint_reps-panda/telemetry/episode-016.h5",
+      "sha256": "a2e997523a7b6f2b2458671db204f085224f00f05e64bfe571b47e15e3106884"
+    },
+    {
+      "condition_id": "aac9156dce039a6a",
+      "original_condition_index": 57,
+      "trial_index": 17,
+      "steps": 431,
+      "finite_and_complete": true,
+      "telemetry_path": "/home/users/lemon/coft-p3/p3-20261109/formal/p2-6000-joint_reps-panda/telemetry/episode-017.h5",
+      "sha256": "497d4b0c751abab8784b231a938695527e3466bae9c9741ece3f346f7a1d0b62"
+    },
+    {
+      "condition_id": "dc210cb437b8482f",
+      "original_condition_index": 58,
+      "trial_index": 18,
+      "steps": 600,
+      "finite_and_complete": true,
+      "telemetry_path": "/home/users/lemon/coft-p3/p3-20261109/formal/p2-6000-joint_reps-panda/telemetry/episode-018.h5",
+      "sha256": "5d303a2f7c03fdf11c194801b8eca2f3d574fb370eefaf568f2442b3be75beb9"
+    },
+    {
+      "condition_id": "c50921ae14e0da5d",
+      "original_condition_index": 59,
+      "trial_index": 19,
+      "steps": 600,
+      "finite_and_complete": true,
+      "telemetry_path": "/home/users/lemon/coft-p3/p3-20261109/formal/p2-6000-joint_reps-panda/telemetry/episode-019.h5",
+      "sha256": "d764c2f7fe269282962c30208ea5f19daf967ec47b83f9c0acf52d25f549d0b8"
+    }
+  ]
+}

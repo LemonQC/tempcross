@@ -6,12 +6,14 @@ import sys
 import numpy as np
 
 
-def audit(source,data,out):
+def audit(source,data,out,indices=None):
     import h5py
     source=Path(source);data=Path(data);sys.path.insert(0,str(source))
     from barx.evaluation_conditions import load_bundle,model_sha256,state_sha256
     payload,frozen,models=load_bundle(source/'evaluation/conditions',task='pnp_counter_to_sink',embodiment='panda')
-    tests=payload['episodes'][20:40];test_models=[model_sha256(x) for x in models[20:40]]
+    indices=list(range(20,40)) if indices is None else list(indices)
+    assert indices and len(set(indices))==len(indices) and all(0<=i<len(frozen) for i in indices)
+    tests=[payload['episodes'][i] for i in indices];test_models=[model_sha256(models[i]) for i in indices]
     rows=[];matches=[]
     for path in sorted((data/'raw_target').rglob('*.hdf5')):
         with h5py.File(path,'r') as f:
@@ -29,7 +31,7 @@ def audit(source,data,out):
                 # Compare complete physical state sequences (ignoring simulator clock),
                 # not just language, kitchen layout, or object category.
                 if 'PnPCounterToSink' in str(path):
-                    for i,state in enumerate(frozen[20:40]):
+                    for i,state in enumerate(frozen[j] for j in indices):
                         if states.shape[1]!=len(state):continue
                         found=np.flatnonzero(np.max(np.abs(states[:,1:]-state[None,1:]),axis=1)<1e-10)
                         for t in found:
@@ -44,7 +46,7 @@ def audit(source,data,out):
                     declared_gripper=env.get('env_kwargs',{}).get('gripper_types'),exact_state_matches=exact_states))
     if len(rows)!=100:raise RuntimeError(f'Expected official 50-per-direction target demos, got {len(rows)}')
     result=dict(status='COMPLETE',target_demonstrations=len(rows),per_direction=50,
-        frozen_test_indices=[20,39],exact_physical_state_matches=matches,
+        frozen_test_indices=[min(indices),max(indices)],exact_physical_state_matches=matches,
         overlap_conclusion='NO_DETECTABLE_EXACT_STATE_OVERLAP' if not matches else 'POTENTIAL_OVERLAP_REQUIRES_REVIEW',
         overlap_limitations='Exact physical-state comparison ignores simulator clock. Different model/joint ordering or incomplete metadata limits exhaustive identity proof; same kitchen/object class is not trajectory leakage.',
         action_mapping='12D canonical simulator -> first7 -> official libero transform (gripper open=1 close=0); mg_pnp_lite prior normalization and VQ reused',

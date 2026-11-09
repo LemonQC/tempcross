@@ -1,0 +1,266 @@
+{
+  "videos": 20,
+  "all_verified": true,
+  "records": [
+    {
+      "video_path": "/home/users/lemon/coft-p3/p3-20261109/formal/p2-6000-joint_reps-panda/official/2026_11_08-22_05_29--episode=1--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p3/p3-20261109/formal/p2-6000-joint_reps-panda/official/episodes.jsonl",
+      "episode": 0,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true,
+      "sha256": "fc01445837b1b4f2e4c15c36e9014e46bd639f0f4bcf6cd47272a6d0d0b44db8"
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p3/p3-20261109/formal/p2-6000-joint_reps-panda/official/2026_11_08-22_05_29--episode=2--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p3/p3-20261109/formal/p2-6000-joint_reps-panda/official/episodes.jsonl",
+      "episode": 1,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true,
+      "sha256": "a1b8456fa09156d98dd45835cd91ab5ee99c27515a448ce6f3bd8bb4e90fda92"
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p3/p3-20261109/formal/p2-6000-joint_reps-panda/official/2026_11_08-22_05_29--episode=3--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p3/p3-20261109/formal/p2-6000-joint_reps-panda/official/episodes.jsonl",
+      "episode": 2,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true,
+      "sha256": "cc8f5bbbe98a326f77cbf69a4d2b943de8324d9e5d28d984232ae90febdc11c3"
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p3/p3-20261109/formal/p2-6000-joint_reps-panda/official/2026_11_08-22_05_29--episode=4--success=True--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p3/p3-20261109/formal/p2-6000-joint_reps-panda/official/episodes.jsonl",
+      "episode": 3,
+      "expected_frames": 389,
+      "decoded_frames": 389,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true,
+      "sha256": "1cecbbdef2b25c9102606e4a3961b23727501b55dd4a95c47ce7f55d5dbd4ac7"
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p3/p3-20261109/formal/p2-6000-joint_reps-panda/official/2026_11_08-22_05_29--episode=5--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p3/p3-20261109/formal/p2-6000-joint_reps-panda/official/episodes.jsonl",
+      "episode": 4,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true,
+      "sha256": "60c569ab60173285799d00b9848061a288ecd74ab47110d40d07777e06b23790"
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p3/p3-20261109/formal/p2-6000-joint_reps-panda/official/2026_11_08-22_05_29--episode=6--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p3/p3-20261109/formal/p2-6000-joint_reps-panda/official/episodes.jsonl",
+      "episode": 5,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true,
+      "sha256": "c068d3d30f347cd40b1e84caa87f29856ec41368cf2cf9ac90efa0f458a6344a"
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p3/p3-20261109/formal/p2-6000-joint_reps-panda/official/2026_11_08-22_05_29--episode=7--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p3/p3-20261109/formal/p2-6000-joint_reps-panda/official/episodes.jsonl",
+      "episode": 6,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true,
+      "sha256": "b94ba019d4b50a43a18ac06f9c53fea3f651fb3fbc9ccb0d9e2b99d65124ccea"
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p3/p3-20261109/formal/p2-6000-joint_reps-panda/official/2026_11_08-22_05_29--episode=8--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p3/p3-20261109/formal/p2-6000-joint_reps-panda/official/episodes.jsonl",
+      "episode": 7,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true,
+      "sha256": "61303a5a8ced743a93a71dcc30435ed45b4db9f1530bc8d4bb3a4cb841b963c5"
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p3/p3-20261109/formal/p2-6000-joint_reps-panda/official/2026_11_08-22_05_29--episode=9--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p3/p3-20261109/formal/p2-6000-joint_reps-panda/official/episodes.jsonl",
+      "episode": 8,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true,
+      "sha256": "bbbe8b8fe626ffb4d68f9a2f2d4c6490c32653d7b80dc24bbc75e4801e2cc715"
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p3/p3-20261109/formal/p2-6000-joint_reps-panda/official/2026_11_08-22_05_29--episode=10--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p3/p3-20261109/formal/p2-6000-joint_reps-panda/official/episodes.jsonl",
+      "episode": 9,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true,
+      "sha256": "291d507d22911d9350f9ec9b65bbe6f4a74b68f6de85605e82e544674072b238"
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p3/p3-20261109/formal/p2-6000-joint_reps-panda/official/2026_11_08-22_05_29--episode=11--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p3/p3-20261109/formal/p2-6000-joint_reps-panda/official/episodes.jsonl",
+      "episode": 10,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true,
+      "sha256": "bcb664a204ad5a2e3460a79e2f56cbfeb8ea3c76ebd9e913d80e34967b2ff954"
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p3/p3-20261109/formal/p2-6000-joint_reps-panda/official/2026_11_08-22_05_29--episode=12--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p3/p3-20261109/formal/p2-6000-joint_reps-panda/official/episodes.jsonl",
+      "episode": 11,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true,
+      "sha256": "83de776ba0fffe429ec6fd63a40d494373e14ccd9052d9ab4922ab519d31ff6d"
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p3/p3-20261109/formal/p2-6000-joint_reps-panda/official/2026_11_08-22_05_29--episode=13--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p3/p3-20261109/formal/p2-6000-joint_reps-panda/official/episodes.jsonl",
+      "episode": 12,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true,
+      "sha256": "cf63424224992f55b08f1277716f22abec38e1f2684994456d2f5c71aab3d6b5"
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p3/p3-20261109/formal/p2-6000-joint_reps-panda/official/2026_11_08-22_05_29--episode=14--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p3/p3-20261109/formal/p2-6000-joint_reps-panda/official/episodes.jsonl",
+      "episode": 13,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true,
+      "sha256": "993d67600d4d03643a5e7d274a89d560805de406522d81bd95d4aa4d7cfffcaf"
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p3/p3-20261109/formal/p2-6000-joint_reps-panda/official/2026_11_08-22_05_29--episode=15--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p3/p3-20261109/formal/p2-6000-joint_reps-panda/official/episodes.jsonl",
+      "episode": 14,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true,
+      "sha256": "7c4b6770a24e2249555e25dc5def298206c3c775482a8933d1334cc9fdaa6a69"
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p3/p3-20261109/formal/p2-6000-joint_reps-panda/official/2026_11_08-22_05_29--episode=16--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p3/p3-20261109/formal/p2-6000-joint_reps-panda/official/episodes.jsonl",
+      "episode": 15,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true,
+      "sha256": "85c3668262ed54c5fe9384c7fc0d561a534cddafab112366b77c2b67640a3879"
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p3/p3-20261109/formal/p2-6000-joint_reps-panda/official/2026_11_08-22_05_29--episode=17--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p3/p3-20261109/formal/p2-6000-joint_reps-panda/official/episodes.jsonl",
+      "episode": 16,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true,
+      "sha256": "6d05aa17ff7f5ed65e65e3b58eb2e8040d005c364075235cc5b0fff553c0582f"
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p3/p3-20261109/formal/p2-6000-joint_reps-panda/official/2026_11_08-22_05_29--episode=18--success=True--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p3/p3-20261109/formal/p2-6000-joint_reps-panda/official/episodes.jsonl",
+      "episode": 17,
+      "expected_frames": 431,
+      "decoded_frames": 431,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true,
+      "sha256": "d713baea94d8644eb2298fad67d1cc71cd439ca696e6d7493296985b2fe95389"
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p3/p3-20261109/formal/p2-6000-joint_reps-panda/official/2026_11_08-22_05_29--episode=19--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p3/p3-20261109/formal/p2-6000-joint_reps-panda/official/episodes.jsonl",
+      "episode": 18,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true,
+      "sha256": "088b4c702f641f2689189e999a470f3bd8b0b454bea07b9153b6396e04c2c167"
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p3/p3-20261109/formal/p2-6000-joint_reps-panda/official/2026_11_08-22_05_29--episode=20--success=False--task=xpnpcountertosink.mp4",
+      "episode_record": "/home/users/lemon/coft-p3/p3-20261109/formal/p2-6000-joint_reps-panda/official/episodes.jsonl",
+      "episode": 19,
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "encoded_dimensions": [
+        320,
+        192
+      ],
+      "verified": true,
+      "sha256": "33361b4f5bedf4b2937829840c9bbde06806d512bb8870a94f6f3f6d8994e4a0"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "probe_optimizer_steps": 1,
+  "probe_sample_positions": 8,
+  "initial_final_key_sets_identical": true,
+  "adapter_tensors": 768,
+  "changed_tensors": 371,
+  "max_abs_parameter_change": 2.014636993408203e-05,
+  "all_final_values_finite": true,
+  "probe_weights_discarded": true
+}

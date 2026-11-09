@@ -13,6 +13,8 @@ CASES=[22,24,26,29,34,35,37,39]
 
 def extract():
     import h5py
+    if (ROOT/'physical_launches.jsonl').exists():
+        raise RuntimeError('P3 physics has started: frozen assets cannot be regenerated in this workspace')
     output=PROJECT/'evidence/p3/frozen';output.mkdir(parents=True,exist_ok=True)
     sys.path[:0]=[str(SOURCE),str(SOURCE/'policy')]
     from barx.evaluation_conditions import load_bundle,validate_condition_bundle_for_evaluation

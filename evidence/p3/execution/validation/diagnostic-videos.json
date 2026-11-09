@@ -1,0 +1,174 @@
+{
+  "videos": 24,
+  "all_verified": true,
+  "records": [
+    {
+      "video_path": "/home/users/lemon/coft-p3/p3-20261109/diagnostics/condition-022/A1/rollout.mp4",
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "verified": true,
+      "sha256": "86edcef9bcb02e16f54e79321e771a73fd043bd96c9d0743981b2af2401d36d4"
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p3/p3-20261109/diagnostics/condition-022/A2/rollout.mp4",
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "verified": true,
+      "sha256": "865439dca08cad80af373499d815f4c72dd96e35c36b9e082677c70e394e8744"
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p3/p3-20261109/diagnostics/condition-022/A3/rollout.mp4",
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "verified": true,
+      "sha256": "17e61626f6d969d336241138915b5e4d8459288bd68c33d482f20f952b8624c9"
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p3/p3-20261109/diagnostics/condition-024/A1/rollout.mp4",
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "verified": true,
+      "sha256": "515c0f1e05bad017c99175d8154538f98ace76f0ef21c2ef1bf7090b9eecd770"
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p3/p3-20261109/diagnostics/condition-024/A2/rollout.mp4",
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "verified": true,
+      "sha256": "d5cbed4f6ef3d903f91ff342fd193b3942b6919037728c752bc6d337613fb601"
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p3/p3-20261109/diagnostics/condition-024/A3/rollout.mp4",
+      "expected_frames": 401,
+      "decoded_frames": 401,
+      "verified": true,
+      "sha256": "ae41a1eb48a330d48dd674e4fe165c41e8fc0b1dc9bd2938ea3ceb71afb46707"
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p3/p3-20261109/diagnostics/condition-026/A1/rollout.mp4",
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "verified": true,
+      "sha256": "382528fffbc68f2004df7eef5f487e77da863b6770a6b0018aadadcdd3dbaa56"
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p3/p3-20261109/diagnostics/condition-026/A2/rollout.mp4",
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "verified": true,
+      "sha256": "b4a0fc23c398d276c803a294de76947c8a6b4613550105e63a5b53e6ab43c6c0"
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p3/p3-20261109/diagnostics/condition-026/A3/rollout.mp4",
+      "expected_frames": 449,
+      "decoded_frames": 449,
+      "verified": true,
+      "sha256": "fd262953987662550027faa4d9a4518778c7ba31b5fad607331cd7d7c7fc801a"
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p3/p3-20261109/diagnostics/condition-029/A1/rollout.mp4",
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "verified": true,
+      "sha256": "9beff9d25ea1d0575a0530f753bc6e7d86fac65e9ae1a121b7b2e2e77d3d67fc"
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p3/p3-20261109/diagnostics/condition-029/A2/rollout.mp4",
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "verified": true,
+      "sha256": "89bb861aeb5723655fbdabee2f841233c22784db82726fc709f7f6c69c6d5a34"
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p3/p3-20261109/diagnostics/condition-029/A3/rollout.mp4",
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "verified": true,
+      "sha256": "58933315843d7f95dbd6b462659d1d12407d702a923f00bde99d5d79d586f675"
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p3/p3-20261109/diagnostics/condition-034/A1/rollout.mp4",
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "verified": true,
+      "sha256": "9a3501692498f9d6bdfec188533fc1139fb300e08923d2b8e9b4a40107128d73"
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p3/p3-20261109/diagnostics/condition-034/A2/rollout.mp4",
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "verified": true,
+      "sha256": "d45b3d78671afd360e12d0d325b03d40e67b7ad0e5cd258668f1998fc0dd5fc8"
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p3/p3-20261109/diagnostics/condition-034/A3/rollout.mp4",
+      "expected_frames": 558,
+      "decoded_frames": 558,
+      "verified": true,
+      "sha256": "93efe58644e475fcdb489419436c553adf657b01d296f4f80f6548944510b5da"
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p3/p3-20261109/diagnostics/condition-035/A1/rollout.mp4",
+      "expected_frames": 445,
+      "decoded_frames": 445,
+      "verified": true,
+      "sha256": "5088457f34b6977d1c0ef545eb0b116f4dc904b69ec1dc329c40f5da4b0037d6"
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p3/p3-20261109/diagnostics/condition-035/A2/rollout.mp4",
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "verified": true,
+      "sha256": "7157cd1eb09793ef85a8d029f3d7d09ecbe1e6fb3f9c0a316751e89592621d1e"
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p3/p3-20261109/diagnostics/condition-035/A3/rollout.mp4",
+      "expected_frames": 478,
+      "decoded_frames": 478,
+      "verified": true,
+      "sha256": "5464d0a540b9bd89ddcc3324e451c0b16f0431ecbe9b82ff6c13d67e69876dc1"
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p3/p3-20261109/diagnostics/condition-037/A1/rollout.mp4",
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "verified": true,
+      "sha256": "74669ace250cda3b123385525f43f759a602343fdb6ea60701bf0cd9424fc244"
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p3/p3-20261109/diagnostics/condition-037/A2/rollout.mp4",
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "verified": true,
+      "sha256": "240fb4fca4c06b699f1c1609504bf88f2bd6b952aa4eaeb875ae702456a23908"
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p3/p3-20261109/diagnostics/condition-037/A3/rollout.mp4",
+      "expected_frames": 555,
+      "decoded_frames": 555,
+      "verified": true,
+      "sha256": "24e910e41f72a473feb9d6c709a08ee1649fafa4dbd31b3c6657f46365e202c1"
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p3/p3-20261109/diagnostics/condition-039/A1/rollout.mp4",
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "verified": true,
+      "sha256": "f4f535df38e36e249be06da9e259d75f5cf1eae6647f78dd87d3b6a367684d8c"
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p3/p3-20261109/diagnostics/condition-039/A2/rollout.mp4",
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "verified": true,
+      "sha256": "7481936a9f2519454e5930a157c9a6f97cd8819fe53d89d6a52c0eed350f5c89"
+    },
+    {
+      "video_path": "/home/users/lemon/coft-p3/p3-20261109/diagnostics/condition-039/A3/rollout.mp4",
+      "expected_frames": 600,
+      "decoded_frames": 600,
+      "verified": true,
+      "sha256": "707a52d1dd431b056a9a9b473787ce7b6342e807ecade634c0c4e808df114c32"
+    }
+  ]
+}

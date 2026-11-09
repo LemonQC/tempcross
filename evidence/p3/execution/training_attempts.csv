@@ -1,0 +1,4 @@
+label,status,batch,completed_optimizer_steps,sample_positions,peak_gpu_allocated_bytes,peak_gpu_reserved_bytes,error
+joint-reps-96000-b8,RUNNING,8,3437,27496,20085256192,23702011904,
+probe-b8,COMPLETE,8,1,8,19811245056,23699914752,
+probe-b8-technical-argv-failure,FAILED,8,0,0,9502720,10485760,"ValueError(""'--out' is not in list"")"

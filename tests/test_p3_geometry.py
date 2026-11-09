@@ -3,6 +3,7 @@ from pathlib import Path
 import numpy as np
 from scipy.spatial.transform import Rotation
 from p3_validation.geometry import transform,inverse,error,interpolate,bounded_delta
+from p3_validation.plan import WaypointPlan
 
 
 def test_frame_conventions_and_object_relative_pose_roundtrip():
@@ -39,3 +40,19 @@ def test_frozen_budget_and_test_window():
     assert set(c['development_indices']).isdisjoint(c['independent_indices'])
     assert sum(n for _,n in c['controls']['phases'])==326
     for batch,updates in c['training']['updates_by_batch'].items():assert int(batch)*updates==96000
+
+
+def test_matched_release_and_identical_pose_only_combined_waypoints():
+    root=Path(__file__).resolve().parents[1];c=json.loads((root/'configs/p3_protocol.json').read_text())
+    release_offset=0
+    for name,n in c['controls']['phases']:
+        if name=='release':break
+        release_offset+=n
+    assert release_offset==c['controls']['A1']['release_offset']==275
+    branch=np.eye(4);grasp=transform([.2,.1,.3],[1,0,0,0]);place=transform([.5,-.2,.3],[1,0,0,0])
+    first=WaypointPlan(branch,grasp,place,c);second=WaypointPlan(branch,grasp,place,c)
+    for step in range(600):
+        a=first.goal(step);b=second.goal(step)
+        assert a[0]==b[0] and np.array_equal(a[1],b[1])
+    assert first.goal(275)[0]=='release'
+    assert first.goal(325)[0]=='retreat' and first.goal(326)[0]=='post_retreat'

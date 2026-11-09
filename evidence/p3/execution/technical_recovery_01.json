@@ -1,0 +1,17 @@
+{
+  "reason": "Input tracker relied on --out after upstream rewrote argv; fixed stable run label",
+  "optimizer_steps_before_failure": 0,
+  "sample_positions_before_failure": 0,
+  "scientific_parameters_changed": false,
+  "preserved_artifacts": [
+    {
+      "old": "/home/users/lemon/coft-p3/p3-20261109/training/probe-b8",
+      "preserved_as": "/home/users/lemon/coft-p3/p3-20261109/training/probe-b8-technical-argv-failure"
+    },
+    {
+      "old": "/home/users/lemon/coft-p3/p3-20261109/training_execution/probe-b8",
+      "preserved_as": "/home/users/lemon/coft-p3/p3-20261109/training_execution/probe-b8-technical-argv-failure"
+    }
+  ],
+  "recovered_at_utc": "2026-11-09T03:31:48.695275+00:00"
+}

@@ -1,0 +1,12 @@
+{
+  "samples_consumed": 8,
+  "dataset_counts": {
+    "mg_pnp_lite": 4,
+    "panda_pnp": 4
+  },
+  "unique_target_demonstrations": 3,
+  "unique_source_demonstrations": 4,
+  "exact_order_and_raw_hashes_match_frozen_cache": true,
+  "consumed_trace_sha256": "7559767a709d386faa0136bf4f7b72c0be276a84a754b43d26f7afa17f0bdbc5",
+  "input_stream_closed": true
+}

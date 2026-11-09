@@ -1,0 +1,39 @@
+{
+  "validation": [
+    {
+      "condition": 22,
+      "analytic_vs_recorded_controller_jacobian_max_error": 8.881784197001252e-16
+    },
+    {
+      "condition": 24,
+      "analytic_vs_recorded_controller_jacobian_max_error": 3.3306690738754696e-16
+    },
+    {
+      "condition": 26,
+      "analytic_vs_recorded_controller_jacobian_max_error": 8.881784197001252e-16
+    },
+    {
+      "condition": 29,
+      "analytic_vs_recorded_controller_jacobian_max_error": 2.6645352591003757e-15
+    },
+    {
+      "condition": 34,
+      "analytic_vs_recorded_controller_jacobian_max_error": 2.3314683517128287e-15
+    },
+    {
+      "condition": 35,
+      "analytic_vs_recorded_controller_jacobian_max_error": 1.4432899320127035e-15
+    },
+    {
+      "condition": 37,
+      "analytic_vs_recorded_controller_jacobian_max_error": 4.440892098500626e-16
+    },
+    {
+      "condition": 39,
+      "analytic_vs_recorded_controller_jacobian_max_error": 2.55351295663786e-15
+    }
+  ],
+  "new_physics_steps": 0,
+  "ik_search_performed": false,
+  "limitation": "Singular values mix linear/angular units and indicate local conditioning only; they do not prove global reachability or establish collision causality."
+}

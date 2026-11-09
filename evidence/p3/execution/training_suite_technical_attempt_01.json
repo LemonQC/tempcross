@@ -1,0 +1,36 @@
+{
+  "status": "PROBE_TECHNICAL_FAILURE",
+  "frozen_commit": "4cc1129a2a9ed0732b1320f17fba280da271306c",
+  "probes": [
+    {
+      "batch": 8,
+      "returncode": 1,
+      "training": {
+        "status": "FAILED",
+        "method": "joint_reps",
+        "route": "lora",
+        "prescribed_steps": 1,
+        "batch_size": 8,
+        "completed_optimizer_steps": 0,
+        "sample_positions": 0,
+        "sample_trace_sha256": "9edb3945712159549d52f3708f1d181f8305fe5ac29cf45eedc5cd731c57d1df",
+        "dataset_counts_full_sequence": {
+          "mg_pnp_lite": 47588,
+          "panda_pnp": 48412
+        },
+        "gpu": "NVIDIA GeForce RTX 3090",
+        "original_checkpoint": "/home/users/lemon/coft-p2/artifacts/runs/joint_reps/checkpoints/step-050000-epoch-15-loss=0.2577.pt",
+        "official_source_unmodified": true,
+        "equivalence": "RESTRICTED_SINGLE_GPU_NOT_OFFICIAL_GLOBAL_BATCH_256",
+        "single_rank_fsdp": "NO_SHARD",
+        "elapsed_seconds": 8.672181142959744,
+        "peak_gpu_allocated_bytes": 9502720,
+        "peak_gpu_reserved_bytes": 10485760,
+        "error": "ValueError(\"'--out' is not in list\")",
+        "is_cuda_oom": false
+      }
+    }
+  ],
+  "training_attempts": [],
+  "updated_at_utc": "2026-11-09T03:19:56.136242+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "physics_steps": 0,
+  "measured_control_frequency_hz": 20,
+  "nominal_speed_formula": "kp/kd * capped achieved-relative goal offset",
+  "limitations": [
+    "This linear steady-response heuristic is not a rigorous velocity/kinematic bound.",
+    "Scheduled phase speed and achieved motion are measured separately; controller/path timing is a confound, not evidence for network capacity.",
+    "No durations, gains or step caps were retuned after inspecting outcomes."
+  ]
+}
