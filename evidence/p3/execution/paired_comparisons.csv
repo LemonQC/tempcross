@@ -1,3 +1,6 @@
 candidate,baseline,episodes,rescued,regressed,net_success_change,rescue_condition_ids,regression_condition_ids
 b1-joint_reps-panda,original-joint_reps-panda,20,0,1,-1,[],['dc210cb437b8482f']
 p2-6000-joint_reps-panda,original-joint_reps-panda,20,2,2,0,"['c6377e6cd6583427', 'aac9156dce039a6a']","['455d7657c06dd8b6', 'dc210cb437b8482f']"
+p3-96000-joint_reps-panda,original-joint_reps-panda,20,1,1,0,['85d4f3d184cca45a'],['455d7657c06dd8b6']
+p3-96000-joint_reps-panda,p2-6000-joint_reps-panda,20,2,2,0,"['85d4f3d184cca45a', 'dc210cb437b8482f']","['c6377e6cd6583427', 'aac9156dce039a6a']"
+p3-96000-joint_reps-panda,b1-joint_reps-panda,20,2,1,1,"['85d4f3d184cca45a', 'dc210cb437b8482f']",['455d7657c06dd8b6']

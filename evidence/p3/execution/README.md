@@ -1,20 +1,17 @@
-# P3 实际证据（增强适配训练中）
+# P3实际完成证据
 
-已完成24次A类开发干预和40–59的80次旧模型公平评测；96000样本Joint LoRA真实训练进行中，新模型20次评测尚未执行，不能当作0%。当前状态见 [机器状态](../status.json)。
+24次开发干预＋96000样本位置训练＋100次独立40–59物理评测全部完成。新Joint LoRA为2/20；A3稳定抓持8/8、官方完整任务5/8。当前决定：停止当前COFT新网络分支，尚未证明标准方法不能解决的缺口。
 
-- [A类逐次结果](diagnostic_results.csv)、[汇总](diagnostic_summary.csv)、[原始分支与目标](diagnostic_cases/)、[A2/A3目标完全相同核验](A2_A3_matched_world_goals.json)。
-- [源接触模板](../frozen/source_contact_bank.json)、[40–59冻结身份及哈希](../frozen/independent_conditions_40_59.json)、[官方bundle验证](../frozen/official_condition_bundle_integrity.json)。
-- [公平单元结果](cells.csv)、[逐次原始统计](episodes.csv)、[同条件救回/退化](paired_comparisons.csv)、[逐条件阶段比较](paired_cases.csv)。文件中的trial_index000–019对应原官方索引40–59，绝不以文件编号替代原条件索引。
-- [已闭合物理文件绝对路径/大小/SHA256](closed_physical_artifacts_before_strong_evaluation.csv)、[104个视频及状态完整性核验](validation/summary.json)。后续新模型20次将追加最终完整索引。
-- [实际训练尝试](training_attempts.csv)、[每步损失、配置与执行记录](training/)、[真实单步参数变化](probe_parameter_verification.json)。原始控制台/JSONL及大权重保留服务器，仓库控制台副本移除进度条并清理行尾空格，不改科学数值。
-- [新96k数据元信息](data/complete.json)、[不同原始示范覆盖](data/demonstration_coverage.csv)、[目标原始demo映射](data/original_target_demonstrations.json)、[完整96k序列的主机索引](data/sample_trace_index.json)。总曝光量、唯一帧、重复帧分别报告。
-- [轨迹图](plots/diagnostic_trajectories.svg)、[解析雅可比核验](jacobian_validation.json)、[局部运动学与误差](recorded_kinematic_diagnostics.csv)、[轨迹速度与OSC响应](osc_tracking_budget.csv)。这些只读分析不增加任何物理step。
+- [五格结果](cells.csv)、[100条逐次统计](episodes.csv)、[全配对救回/退化](paired_comparisons.csv)、[逐条件阶段变化](paired_cases.csv)、[阶段测量](formal_stage_measurements.csv)、[阶段定义与限制](stage_measurement_definitions.json)。
+- [24条诊断](diagnostic_results.csv)、[分支/世界目标](diagnostic_cases/)、[A2/A3完全相同目标核查](A2_A3_matched_world_goals.json)。A类是特权开发诊断，不能混入公平排名。
+- [124次完整轨迹路径/大小/SHA256](all_rollouts.csv)、[全部服务器文件索引](external_files.csv)、[权重及优化器状态索引](model_artifacts.csv)、[全部视频解码与状态有限性核验](validation/summary.json)、[同Panda初态完全相同核验](validation/panda_matched_initial_states.json)。
+- [训练尝试](training_attempts.csv)、[每步真实损失/更新/输入记录](training/)、[初始与最终参数变化](parameter_changes.json)、[实际评测checkpoint来源](adapter_provenance.json)。
+- [96k采样来源/重复/覆盖](data/complete.json)、[全部原始示范覆盖](data/demonstration_coverage.csv)、[100条目标原始demo映射](data/original_target_demonstrations.json)、[完整96k序列索引](data/sample_trace_index.json)。
+- [冻结源接触模板](../frozen/source_contact_bank.json)、[官方40–59身份及真实seed/hash](../frozen/independent_conditions_40_59.json)、[全bundle验证](../frozen/official_condition_bundle_integrity.json)、[跨机器人场景核查](cross_embodiment_scene_audit.json)。
+- [诊断/逐条件/训练曲线](plots/)、[雅可比核验](jacobian_validation.json)、[局部条件数](recorded_kinematic_diagnostics.csv)、[OSC跟踪速度分析](osc_tracking_budget.csv)。后两项只读已有状态，没有增加仿真或调参。
 
-主机根目录：`/home/users/lemon/coft-p3/p3-20261109/`。
-A类原始文件：`diagnostics/condition-XXX/A1|A2|A3/`。
-新独立评测：`formal/<cell>/official/**/episodes.jsonl`，`formal/<cell>/telemetry/episode-000.h5`至`episode-019.h5`。
-新缓存：`/home/users/lemon/coft-p3/matched-samples-96000/`，完整序列原始SHA见索引。独立数据重叠只做可检测物理状态检查，缺少逐示范XML，不能穷尽证明无轨迹重叠。
+服务器根目录：`/home/users/lemon/coft-p3/p3-20261109`。新独立评测原始JSONL：`formal/<cell>/official/**/episodes.jsonl`；状态：`formal/<cell>/telemetry/episode-000.h5`至`episode-019.h5`，对应原官方索引40–59。诊断：`diagnostics/condition-XXX/A1|A2|A3/`。完整缓存：`/home/users/lemon/coft-p3/matched-samples-96000/`。训练初始/最终adapter、完整消费CSV和原始JSONL日志均在服务器，精确位置见索引。
 
-A类不是独立测试或公平视觉策略排名。A1保留原臂路径而没有标准抬升，A3增加抬升/运输，因此结果不能唯一归于静态位姿。A2/A3相同路径上的夹爪调度差异可直接比较。单一源接触模板不是合法抓取全集Oracle。
+官方success与接触/抬升/运输/开爪/退离测量分开。单模板不是合法抓取全集；A1原臂缺少有效抬升，不能将所有差异唯一归为空间。目标示范与测试状态未发现可检测重叠，缺少逐demo XML的审计限制仍然保留。
 
-[因果报告](../../../docs/P3_SPATIOTEMPORAL_CAUSAL_REPORT.md) · [增强适配](../../../docs/P3_STRONGER_ADAPTATION.md) · [当前科研判断](../../../docs/P3_SCIENTIFIC_DECISION.md) · [公开协议修订](../../../docs/P3_PROTOCOL_AMENDMENT_01.md)。
+[因果报告](../../../docs/P3_SPATIOTEMPORAL_CAUSAL_REPORT.md) · [实际训练报告](../../../docs/P3_STRONGER_ADAPTATION.md) · [六问科研判断](../../../docs/P3_SCIENTIFIC_DECISION.md) · [协议修订](../../../docs/P3_PROTOCOL_AMENDMENT_01.md)。

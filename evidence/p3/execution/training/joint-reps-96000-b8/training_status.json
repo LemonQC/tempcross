@@ -1,11 +1,11 @@
 {
-  "status": "RUNNING",
+  "status": "COMPLETE",
   "method": "joint_reps",
   "route": "lora",
   "prescribed_steps": 12000,
   "batch_size": 8,
-  "completed_optimizer_steps": 3437,
-  "sample_positions": 27496,
+  "completed_optimizer_steps": 12000,
+  "sample_positions": 96000,
   "sample_trace_sha256": "9edb3945712159549d52f3708f1d181f8305fe5ac29cf45eedc5cd731c57d1df",
   "dataset_counts_full_sequence": {
     "mg_pnp_lite": 47588,
@@ -16,7 +16,7 @@
   "official_source_unmodified": true,
   "equivalence": "RESTRICTED_SINGLE_GPU_NOT_OFFICIAL_GLOBAL_BATCH_256",
   "single_rank_fsdp": "NO_SHARD",
-  "elapsed_seconds": 2183.5509889451787,
-  "peak_gpu_allocated_bytes": 20085256192,
+  "elapsed_seconds": 7622.77215749817,
+  "peak_gpu_allocated_bytes": 20086709760,
   "peak_gpu_reserved_bytes": 23702011904
 }

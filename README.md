@@ -1,6 +1,6 @@
 # COFT SR5: Cross-Embodiment Executability × Observability Hypothesis Probe
 
-> **P3 正在真实执行。** 已完成24次接触空间—时间干预：A3稳定抓持8/8、完整任务5/8；新40–59的80次基线完成。新96000样本Joint LoRA已通过batch8单步验证并持续训练，最后20次评测尚未开始。见 [因果报告](docs/P3_SPATIOTEMPORAL_CAUSAL_REPORT.md)、[增强适配](docs/P3_STRONGER_ADAPTATION.md)、[当前判断](docs/P3_SCIENTIFIC_DECISION.md)、[机器状态](evidence/p3/status.json)。
+> **P3真实完成。** 24次开发物理干预，A3稳定抓持8/8、完整任务5/8；Joint LoRA完成12000次更新、96000样本位置；独立40–59五格100次评测全部完成，新模型2/20。未证明标准方法无法解决的缺口，停止当前COFT新网络分支。见 [因果报告](docs/P3_SPATIOTEMPORAL_CAUSAL_REPORT.md)、[实际适配](docs/P3_STRONGER_ADAPTATION.md)、[六问科研判断](docs/P3_SCIENTIFIC_DECISION.md)、[完整证据与大文件索引](evidence/p3/execution/README.md)。
 
 > **P2 真实实验完成（受限适配版本）。** 新条件正式评测 120 次：Joint Reps/UR5e 8/20、Panda 1/20，No Reps/Panda 1/20，B1/Panda 3/20；B1 救回 2 次、退化 0 次。两模型各完成 3000 步受限 LoRA，评测分别 2/20、3/20。B2 正式 Oracle 未验证。当前停止该具体新算法分支，不能据受限训练否定充分标准适配。见 [干预报告](docs/P2_INTERVENTION_REPORT.md)、[适配记录](docs/P2_TARGET_ADAPTATION.md)、[科研决定](docs/P2_SCIENTIFIC_DECISION.md) 和 [原始结果](evidence/p2/execution_2145/README.md)。
 

@@ -41,6 +41,18 @@ def main():
         else:
             for record in json.loads(state_file.read_text())['records']:assert sha256(record['telemetry_path'])==record['sha256']
         cells.append(dict(cell=path.parent.name,episodes=20,window_and_hashes_match_frozen_protocol=True,states=str(state_file),videos=str(video_file)))
+    # Beyond condition hashes, verify actual restored Panda states are identical
+    # between methods. Cross-embodiment states naturally have different robots.
+    matched=[];reference=ROOT/'formal/original-joint_reps-panda/telemetry'
+    for cell in cells:
+        if cell['cell']=='original-joint_reps-ur5e':continue
+        for j in range(20):
+            p=ROOT/'formal'/cell['cell']/'telemetry'/f'episode-{j:03d}.h5'
+            with h5py.File(reference/f'episode-{j:03d}.h5') as a,h5py.File(p) as b:
+                errors={k:float(np.abs(a[k][0]-b[k][0]).max()) for k in ['sim/qpos','sim/qvel','sim/body_xpos','sim/body_xquat']}
+            assert max(errors.values())==0.,(cell['cell'],j,errors)
+            matched.append(dict(cell=cell['cell'],original_condition_index=j+40,maximum_initial_state_error=0.))
+    (directory/'panda_matched_initial_states.json').write_text(json.dumps(dict(records=matched,all_identical=True),indent=2)+'\n')
     diag=json.loads((ROOT/'diagnostics/results.json').read_text());dv=directory/'diagnostic-videos.json'
     if diag['status']=='COMPLETE' and not dv.exists():
         rows=[]

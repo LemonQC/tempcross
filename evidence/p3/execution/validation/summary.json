@@ -1,6 +1,6 @@
 {
-  "complete_formal_cells": 4,
-  "complete_formal_episodes": 80,
+  "complete_formal_cells": 5,
+  "complete_formal_episodes": 100,
   "cells": [
     {
       "cell": "b1-joint_reps-panda",
@@ -29,11 +29,18 @@
       "window_and_hashes_match_frozen_protocol": true,
       "states": "/home/users/lemon/coft-p3/p3-20261109/validation/p2-6000-joint_reps-panda-states.json",
       "videos": "/home/users/lemon/coft-p3/p3-20261109/validation/p2-6000-joint_reps-panda-videos.json"
+    },
+    {
+      "cell": "p3-96000-joint_reps-panda",
+      "episodes": 20,
+      "window_and_hashes_match_frozen_protocol": true,
+      "states": "/home/users/lemon/coft-p3/p3-20261109/validation/p3-96000-joint_reps-panda-states.json",
+      "videos": "/home/users/lemon/coft-p3/p3-20261109/validation/p3-96000-joint_reps-panda-videos.json"
     }
   ],
   "diagnostic_rollouts": 24,
-  "videos_verified": 104,
-  "decoded_frames": 59514,
-  "complete_independent_suite": false,
+  "videos_verified": 124,
+  "decoded_frames": 71112,
+  "complete_independent_suite": true,
   "diagnostic_complete": true
 }

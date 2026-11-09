@@ -1,11 +1,9 @@
 {
-  "status": "P3_ACTUAL_TRAINING_RUNNING",
-  "updated_at_utc": "2026-11-09T04:08:38.367519+00:00",
+  "status": "P3_COMPLETE",
+  "updated_at_utc": "2026-11-09T06:22:24.079552+00:00",
   "latest_directive": "202611091028.md",
   "initial_protocol_commit": "f6bf766440b4606ee697ef209ffd902d6b4dc1b7",
   "amended_diagnostic_protocol_commit": "4cc1129a2a9ed0732b1320f17fba280da271306c",
-  "protocol_amendment_before_diagnostics": true,
-  "formal_rules_unchanged": true,
   "p3_a": {
     "status": "COMPLETE",
     "physical_rollouts": 24,
@@ -35,12 +33,27 @@
     "A1_post_contact_arm_behavior_is_a_confound": true
   },
   "p3_b": {
-    "status": "TRAINING",
-    "prescribed_sample_positions": 96000,
-    "chosen_batch": 8,
-    "prescribed_updates": 12000,
-    "actual_updates_as_of_snapshot": 3428,
-    "actual_sample_positions_as_of_snapshot": 27424,
+    "status": "COMPLETE",
+    "actual_optimizer_updates": 12000,
+    "batch": 8,
+    "actual_sample_positions": 96000,
+    "completed_backwards": 12000,
+    "nonfinite_losses": 0,
+    "consumed_trace_sha256": "9edb3945712159549d52f3708f1d181f8305fe5ac29cf45eedc5cd731c57d1df",
+    "changed_adapter_tensors": 742,
+    "total_adapter_tensors": 768,
+    "checkpoint": {
+      "source_checkpoint": "/home/users/lemon/coft-p2/artifacts/runs/joint_reps/checkpoints/step-050000-epoch-15-loss=0.2577.pt",
+      "source_checkpoint_sha256": "ffce76802a8e75d4806b30dee43624accf2c4de4213c17059457e34a8243efce",
+      "adapter": "/home/users/lemon/coft-p3/p3-20261109/training/joint-reps-96000-b8/runs/joint_reps--lora/checkpoints/step-012000-epoch-01-loss=0.7951",
+      "adapter_sha256": "dea19a43fb9dbbe8d14e119c87e550339913a9e202e50e7ee67a834020f9fb25",
+      "merged_checkpoint": "/home/users/lemon/coft-p3/p3-20261109/adapted/checkpoints/step-012000-epoch-01-loss=restricted96000.pt",
+      "merged_checkpoint_sha256": "c6fb093b9071886f93aac233f76bf3333cb98b09f959930fd5c3e469fd738b5c",
+      "actual_updates": 12000,
+      "sample_positions": 96000,
+      "role": "ENHANCED_BUDGET_RESTRICTED_LORA_NOT_FULL_STANDARD_FINETUNING"
+    },
+    "exposure_fraction_of_official": 0.125,
     "data_manifest": {
       "status": "COMPLETE",
       "samples": 96000,
@@ -70,22 +83,198 @@
         "panda_pnp": 48412
       },
       "metadata_recovery": "Coverage CSV writer fixed; completed 96000 cache and sample order reused without resampling"
+    },
+    "target_positions_by_direction": {
+      "PnPCounterToSink": 22878,
+      "PnPSinkToCounter": 25534
     }
   },
   "p3_c": {
-    "status": "80_OF_100_COMPLETE",
-    "indices": [
+    "status": "COMPLETE",
+    "official_indices": [
       40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
       59
     ],
-    "completed_original_model_evaluations": 80,
-    "stronger_model_evaluation_episodes": 0,
-    "stronger_model_success_rate": null
+    "formal_episodes": 100,
+    "cells": [
+      {
+        "cell": "b1-joint_reps-panda",
+        "stage": "formal",
+        "status": "COMPLETE",
+        "episodes": 20,
+        "successes": 1,
+        "success_rate": 0.05,
+        "wilson95": [
+          0.008881448800795402,
+          0.23613119344674205
+        ],
+        "checkpoint": "/home/users/lemon/coft-p2/artifacts/runs/joint_reps/checkpoints/step-050000-epoch-15-loss=0.2577.pt",
+        "checkpoint_sha256": "ffce76802a8e75d4806b30dee43624accf2c4de4213c17059457e34a8243efce",
+        "peak_gpu_allocated_bytes": 3023853056
+      },
+      {
+        "cell": "original-joint_reps-panda",
+        "stage": "formal",
+        "status": "COMPLETE",
+        "episodes": 20,
+        "successes": 2,
+        "success_rate": 0.1,
+        "wilson95": [
+          0.027866481213768224,
+          0.3010336452284873
+        ],
+        "checkpoint": "/home/users/lemon/coft-p2/artifacts/runs/joint_reps/checkpoints/step-050000-epoch-15-loss=0.2577.pt",
+        "checkpoint_sha256": "ffce76802a8e75d4806b30dee43624accf2c4de4213c17059457e34a8243efce",
+        "peak_gpu_allocated_bytes": 3023853056
+      },
+      {
+        "cell": "original-joint_reps-ur5e",
+        "stage": "formal",
+        "status": "COMPLETE",
+        "episodes": 20,
+        "successes": 6,
+        "success_rate": 0.3,
+        "wilson95": [
+          0.1454772448676043,
+          0.5189728183535235
+        ],
+        "checkpoint": "/home/users/lemon/coft-p2/artifacts/runs/joint_reps/checkpoints/step-050000-epoch-15-loss=0.2577.pt",
+        "checkpoint_sha256": "ffce76802a8e75d4806b30dee43624accf2c4de4213c17059457e34a8243efce",
+        "peak_gpu_allocated_bytes": 3023853056
+      },
+      {
+        "cell": "p2-6000-joint_reps-panda",
+        "stage": "formal",
+        "status": "COMPLETE",
+        "episodes": 20,
+        "successes": 2,
+        "success_rate": 0.1,
+        "wilson95": [
+          0.027866481213768224,
+          0.3010336452284873
+        ],
+        "checkpoint": "/home/users/lemon/coft-p2/p2/physical-20261108/adapted-checkpoints/joint_reps/checkpoints/step-003000-epoch-00-loss=restricted.pt",
+        "checkpoint_sha256": "27a739ce465cde466f228c96f86e9a239ebd7ac095508ecf6e2f373b936fd6d8",
+        "peak_gpu_allocated_bytes": 3023853056
+      },
+      {
+        "cell": "p3-96000-joint_reps-panda",
+        "stage": "formal",
+        "status": "COMPLETE",
+        "episodes": 20,
+        "successes": 2,
+        "success_rate": 0.1,
+        "wilson95": [
+          0.027866481213768224,
+          0.3010336452284873
+        ],
+        "checkpoint": "/home/users/lemon/coft-p3/p3-20261109/adapted/checkpoints/step-012000-epoch-01-loss=restricted96000.pt",
+        "checkpoint_sha256": "c6fb093b9071886f93aac233f76bf3333cb98b09f959930fd5c3e469fd738b5c",
+        "peak_gpu_allocated_bytes": 3023853056
+      }
+    ],
+    "stronger_model_successes": 2,
+    "stronger_model_episodes": 20,
+    "stronger_model_success_rate": 0.1,
+    "comparisons": [
+      {
+        "candidate": "b1-joint_reps-panda",
+        "baseline": "original-joint_reps-panda",
+        "episodes": 20,
+        "rescued": 0,
+        "regressed": 1,
+        "net_success_change": -1,
+        "rescue_condition_ids": [],
+        "regression_condition_ids": [
+          "dc210cb437b8482f"
+        ]
+      },
+      {
+        "candidate": "p2-6000-joint_reps-panda",
+        "baseline": "original-joint_reps-panda",
+        "episodes": 20,
+        "rescued": 2,
+        "regressed": 2,
+        "net_success_change": 0,
+        "rescue_condition_ids": [
+          "c6377e6cd6583427",
+          "aac9156dce039a6a"
+        ],
+        "regression_condition_ids": [
+          "455d7657c06dd8b6",
+          "dc210cb437b8482f"
+        ]
+      },
+      {
+        "candidate": "p3-96000-joint_reps-panda",
+        "baseline": "original-joint_reps-panda",
+        "episodes": 20,
+        "rescued": 1,
+        "regressed": 1,
+        "net_success_change": 0,
+        "rescue_condition_ids": [
+          "85d4f3d184cca45a"
+        ],
+        "regression_condition_ids": [
+          "455d7657c06dd8b6"
+        ]
+      },
+      {
+        "candidate": "p3-96000-joint_reps-panda",
+        "baseline": "p2-6000-joint_reps-panda",
+        "episodes": 20,
+        "rescued": 2,
+        "regressed": 2,
+        "net_success_change": 0,
+        "rescue_condition_ids": [
+          "85d4f3d184cca45a",
+          "dc210cb437b8482f"
+        ],
+        "regression_condition_ids": [
+          "c6377e6cd6583427",
+          "aac9156dce039a6a"
+        ]
+      },
+      {
+        "candidate": "p3-96000-joint_reps-panda",
+        "baseline": "b1-joint_reps-panda",
+        "episodes": 20,
+        "rescued": 2,
+        "regressed": 1,
+        "net_success_change": 1,
+        "rescue_condition_ids": [
+          "85d4f3d184cca45a",
+          "dc210cb437b8482f"
+        ],
+        "regression_condition_ids": [
+          "455d7657c06dd8b6"
+        ]
+      }
+    ]
   },
+  "scientific_decision": "NO_GO_CURRENT_COFT_NETWORK_NO_PROVEN_GAP_BEYOND_STANDARD_METHODS",
   "execution_root": "/home/users/lemon/coft-p3/p3-20261109",
-  "validation_snapshot": {
-    "complete_formal_cells": 4,
-    "complete_formal_episodes": 80,
+  "validation": {
+    "complete_formal_cells": 5,
+    "complete_formal_episodes": 100,
     "cells": [
       {
         "cell": "b1-joint_reps-panda",
@@ -114,12 +303,19 @@
         "window_and_hashes_match_frozen_protocol": true,
         "states": "/home/users/lemon/coft-p3/p3-20261109/validation/p2-6000-joint_reps-panda-states.json",
         "videos": "/home/users/lemon/coft-p3/p3-20261109/validation/p2-6000-joint_reps-panda-videos.json"
+      },
+      {
+        "cell": "p3-96000-joint_reps-panda",
+        "episodes": 20,
+        "window_and_hashes_match_frozen_protocol": true,
+        "states": "/home/users/lemon/coft-p3/p3-20261109/validation/p3-96000-joint_reps-panda-states.json",
+        "videos": "/home/users/lemon/coft-p3/p3-20261109/validation/p3-96000-joint_reps-panda-videos.json"
       }
     ],
     "diagnostic_rollouts": 24,
-    "videos_verified": 104,
-    "decoded_frames": 59514,
-    "complete_independent_suite": false,
+    "videos_verified": 124,
+    "decoded_frames": 71112,
+    "complete_independent_suite": true,
     "diagnostic_complete": true
   }
 }

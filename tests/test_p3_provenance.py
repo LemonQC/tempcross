@@ -48,3 +48,13 @@ def test_input_tracking_survives_upstream_argv_rewrite(tmp_path,monkeypatch):
         assert stream.directory.name=='frozen-run'
         assert len(list(stream.as_numpy_iterator()))==3
     finally:stream.close()
+
+
+def test_coverage_export_retains_target_demo_identity_after_source_row(tmp_path):
+    from p3_validation.prepare_data import write_csv
+    path=tmp_path/'coverage.csv'
+    write_csv(path,[dict(dataset='source',episode_id='source-content-id'),
+                    dict(dataset='target',episode_id='target-content-id',original_demo='demo_49',direction='CounterToSink')])
+    with path.open() as f:rows=list(csv.DictReader(f))
+    assert rows[0]['original_demo']==''
+    assert rows[1]['original_demo']=='demo_49' and rows[1]['direction']=='CounterToSink'

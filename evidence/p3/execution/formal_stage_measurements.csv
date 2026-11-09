@@ -1,0 +1,101 @@
+cell,official_condition_index,condition_id,official_task_success,observed_failure_stage,first_bilateral_contact_state_index,first_stable_lift_start_state_index,first_stable_lift_confirmation_state_index,stable_lift_confirmed,maximum_horizontal_displacement_from_lift_start_while_in_contact_m,release_command_action_indices,first_release_after_confirmed_lift_action_index,maximum_eef_object_distance_after_release_m,final_eef_object_distance_m,transport_and_retreat_are_continuous_measurements_not_new_success_rules
+b1-joint_reps-panda,40,400e6cdb2abbf568,False,NO_BILATERAL_CONTACT,,,,False,,[16],,,0.14548992237100716,True
+b1-joint_reps-panda,41,ae97fae0f8792175,False,NO_BILATERAL_CONTACT,,,,False,,"[120, 552, 592]",,,0.3343719452268641,True
+b1-joint_reps-panda,42,01728da5031d5ae8,False,NO_CLOSE_COMMAND,,,,False,,[],,,0.05476285425415861,True
+b1-joint_reps-panda,43,c6377e6cd6583427,False,NO_BILATERAL_CONTACT,,,,False,,[568],,,0.9014209660566905,True
+b1-joint_reps-panda,44,c407175ee4c8185c,False,NO_CLOSE_COMMAND,,,,False,,[],,,0.12546140965594513,True
+b1-joint_reps-panda,45,c9285549312edb6c,False,NO_CLOSE_COMMAND,,,,False,,[],,,0.12934671304473208,True
+b1-joint_reps-panda,46,5f0a961697756038,False,CONTACT_WITHOUT_SUSTAINED_LIFT,160,,,False,,[416],,,0.18275732024818847,True
+b1-joint_reps-panda,47,85d4f3d184cca45a,False,NO_CLOSE_COMMAND,,,,False,,[],,,0.0409534971648693,True
+b1-joint_reps-panda,48,23a3e1137a7b24d7,False,NO_CLOSE_COMMAND,,,,False,,[],,,0.059627637243720104,True
+b1-joint_reps-panda,49,6de913baaf3ed80e,False,NO_CLOSE_COMMAND,,,,False,,[],,,0.08313173313938571,True
+b1-joint_reps-panda,50,f20d0210264f6cca,False,NO_CLOSE_COMMAND,,,,False,,[],,,0.13258372151269174,True
+b1-joint_reps-panda,51,c175efaa65acbc0f,False,NO_BILATERAL_CONTACT,,,,False,,[22],,,0.17228662631056438,True
+b1-joint_reps-panda,52,ae6bdc71a0d692ab,False,NO_BILATERAL_CONTACT,,,,False,,[496],,,1.2260072255824168,True
+b1-joint_reps-panda,53,98c129c10bd20f54,False,NO_BILATERAL_CONTACT,,,,False,,[552],,,0.26907334638233577,True
+b1-joint_reps-panda,54,b91fbf4fc8244b7b,False,CONTACT_WITHOUT_SUSTAINED_LIFT,238,,,False,,"[408, 553]",,,1.0900618220934655,True
+b1-joint_reps-panda,55,455d7657c06dd8b6,True,OFFICIAL_SUCCESS,173,194,203,True,0.4266337658903752,[],,,0.10630578241694082,True
+b1-joint_reps-panda,56,c3dadfa761d9bd06,False,POST_ACQUISITION_TASK_FAILURE,219,230,239,True,0.35113429292455606,"[9, 584]",584,0.07217319840157527,0.07217319840157527,True
+b1-joint_reps-panda,57,aac9156dce039a6a,False,NO_BILATERAL_CONTACT,,,,False,,[352],,,0.6238969770116637,True
+b1-joint_reps-panda,58,dc210cb437b8482f,False,POST_ACQUISITION_TASK_FAILURE,134,149,158,True,0.40247723554980314,[400],400,0.18092025168330772,0.14431945836481738,True
+b1-joint_reps-panda,59,c50921ae14e0da5d,False,NO_CLOSE_COMMAND,,,,False,,[],,,0.07884157461717252,True
+original-joint_reps-panda,40,400e6cdb2abbf568,False,NO_CLOSE_COMMAND,,,,False,,[],,,0.39931938628300684,True
+original-joint_reps-panda,41,ae97fae0f8792175,False,NO_BILATERAL_CONTACT,,,,False,,[544],,,0.2996173311295091,True
+original-joint_reps-panda,42,01728da5031d5ae8,False,NO_CLOSE_COMMAND,,,,False,,[],,,0.05476285425415861,True
+original-joint_reps-panda,43,c6377e6cd6583427,False,NO_BILATERAL_CONTACT,,,,False,,"[258, 263]",,,0.7349811180365678,True
+original-joint_reps-panda,44,c407175ee4c8185c,False,NO_CLOSE_COMMAND,,,,False,,[],,,0.12546140965594513,True
+original-joint_reps-panda,45,c9285549312edb6c,False,NO_CLOSE_COMMAND,,,,False,,[],,,0.12934671304473208,True
+original-joint_reps-panda,46,5f0a961697756038,False,CONTACT_WITHOUT_SUSTAINED_LIFT,160,,,False,,[400],,,0.20807188524442755,True
+original-joint_reps-panda,47,85d4f3d184cca45a,False,NO_CLOSE_COMMAND,,,,False,,[],,,0.0409534971648693,True
+original-joint_reps-panda,48,23a3e1137a7b24d7,False,NO_CLOSE_COMMAND,,,,False,,[],,,0.059627637243720104,True
+original-joint_reps-panda,49,6de913baaf3ed80e,False,NO_CLOSE_COMMAND,,,,False,,[],,,0.08313173313938571,True
+original-joint_reps-panda,50,f20d0210264f6cca,False,NO_CLOSE_COMMAND,,,,False,,[],,,0.13258372151269174,True
+original-joint_reps-panda,51,c175efaa65acbc0f,False,NO_CLOSE_COMMAND,,,,False,,[],,,0.1332710181556363,True
+original-joint_reps-panda,52,ae6bdc71a0d692ab,False,NO_CLOSE_COMMAND,,,,False,,[],,,0.07130687086005126,True
+original-joint_reps-panda,53,98c129c10bd20f54,False,NO_BILATERAL_CONTACT,,,,False,,[552],,,0.26907334638233577,True
+original-joint_reps-panda,54,b91fbf4fc8244b7b,False,NO_CLOSE_COMMAND,,,,False,,[],,,0.05596100267728917,True
+original-joint_reps-panda,55,455d7657c06dd8b6,True,OFFICIAL_SUCCESS,173,194,203,True,0.4266337658903752,[],,,0.10630578241694082,True
+original-joint_reps-panda,56,c3dadfa761d9bd06,False,NO_CLOSE_COMMAND,,,,False,,[],,,0.050305256243028645,True
+original-joint_reps-panda,57,aac9156dce039a6a,False,NO_CLOSE_COMMAND,,,,False,,[],,,0.16383839189520455,True
+original-joint_reps-panda,58,dc210cb437b8482f,True,OFFICIAL_SUCCESS,151,178,187,True,0.3124968858473646,[288],288,0.1006176627466112,0.1006176627466112,True
+original-joint_reps-panda,59,c50921ae14e0da5d,False,NO_CLOSE_COMMAND,,,,False,,[],,,0.07884157461717252,True
+original-joint_reps-ur5e,40,075cca580fbf36d6,False,CONTACT_WITHOUT_SUSTAINED_LIFT,196,,,False,,"[178, 368]",,,0.15745413849395892,True
+original-joint_reps-ur5e,41,0c6e835730b8770b,False,NO_BILATERAL_CONTACT,,,,False,,"[344, 472]",,,0.11203626312964288,True
+original-joint_reps-ur5e,42,59be534fe77aa46a,False,NO_BILATERAL_CONTACT,,,,False,,[408],,,0.25840059253834957,True
+original-joint_reps-ur5e,43,3c22a39dc1ff92d7,False,NO_BILATERAL_CONTACT,,,,False,,"[286, 344]",,,0.18478516092105848,True
+original-joint_reps-ur5e,44,78373dde625683d7,False,CONTACT_WITHOUT_SUSTAINED_LIFT,208,,,False,,"[208, 240]",,,0.12553152298193657,True
+original-joint_reps-ur5e,45,55404eba9a8f513f,False,NO_CLOSE_COMMAND,,,,False,,[],,,0.0709452059300793,True
+original-joint_reps-ur5e,46,dd95ac36f467d003,True,OFFICIAL_SUCCESS,215,267,276,True,0.34051760799676734,"[192, 384]",384,0.10005881487591647,0.10005881487591647,True
+original-joint_reps-ur5e,47,b516986148627421,False,NO_BILATERAL_CONTACT,,,,False,,"[104, 120, 136, 152, 312, 360, 384, 472, 481, 488]",,,0.31023841219732134,True
+original-joint_reps-ur5e,48,3329decce931e2a3,True,OFFICIAL_SUCCESS,201,216,225,True,0.3792550231588404,[368],368,0.10363716615115363,0.10363716615115363,True
+original-joint_reps-ur5e,49,8f586ce5e3d0685d,True,OFFICIAL_SUCCESS,150,189,198,True,0.5454145140901504,[352],352,0.10631441435355214,0.10631441435355214,True
+original-joint_reps-ur5e,50,4a5cb9d28184131a,True,OFFICIAL_SUCCESS,135,186,195,True,0.40559726921318295,"[312, 314, 316, 320]",312,0.10133521328137497,0.10133521328137497,True
+original-joint_reps-ur5e,51,d8504f29a7393bd6,True,OFFICIAL_SUCCESS,329,348,357,True,0.37913068845612424,[480],480,0.1015607339095472,0.1015607339095472,True
+original-joint_reps-ur5e,52,36013b823ff81bd4,False,NO_CLOSE_COMMAND,,,,False,,[],,,0.134426152504685,True
+original-joint_reps-ur5e,53,ac93980ed281e31c,False,NO_BILATERAL_CONTACT,,,,False,,[432],,,0.7703921188168449,True
+original-joint_reps-ur5e,54,cb756f815380a3ff,False,CONTACT_WITHOUT_SUSTAINED_LIFT,255,,,False,,[],,,0.23894835291489566,True
+original-joint_reps-ur5e,55,b8fd1b2821e7848d,False,NO_BILATERAL_CONTACT,,,,False,,"[336, 552]",,,0.6687057054051229,True
+original-joint_reps-ur5e,56,15360101d4a8f8d5,True,OFFICIAL_SUCCESS,339,389,398,True,0.391167638896419,"[280, 560]",560,0.10020489657798994,0.10020489657798994,True
+original-joint_reps-ur5e,57,2e2a55312a592c6e,False,NO_BILATERAL_CONTACT,,,,False,,[128],,,0.5804543906705758,True
+original-joint_reps-ur5e,58,b9605e0a7327c5bb,False,CONTACT_WITHOUT_SUSTAINED_LIFT,175,,,False,,[336],,,0.4337163763194746,True
+original-joint_reps-ur5e,59,b88d648dc208918a,False,NO_BILATERAL_CONTACT,,,,False,,[544],,,0.4170292024603657,True
+p2-6000-joint_reps-panda,40,400e6cdb2abbf568,False,NO_CLOSE_COMMAND,,,,False,,[],,,0.1645257561860469,True
+p2-6000-joint_reps-panda,41,ae97fae0f8792175,False,NO_CLOSE_COMMAND,,,,False,,[],,,0.11432965681719014,True
+p2-6000-joint_reps-panda,42,01728da5031d5ae8,False,NO_CLOSE_COMMAND,,,,False,,[],,,0.12826788012602416,True
+p2-6000-joint_reps-panda,43,c6377e6cd6583427,True,OFFICIAL_SUCCESS,176,187,196,True,0.6643987272315781,[],,,0.10404264686347253,True
+p2-6000-joint_reps-panda,44,c407175ee4c8185c,False,NO_CLOSE_COMMAND,,,,False,,[],,,0.07496462199825348,True
+p2-6000-joint_reps-panda,45,c9285549312edb6c,False,NO_CLOSE_COMMAND,,,,False,,[],,,0.21184009450391245,True
+p2-6000-joint_reps-panda,46,5f0a961697756038,False,NO_CLOSE_COMMAND,,,,False,,[],,,0.3096268673788254,True
+p2-6000-joint_reps-panda,47,85d4f3d184cca45a,False,NO_CLOSE_COMMAND,,,,False,,[],,,0.06589613328102101,True
+p2-6000-joint_reps-panda,48,23a3e1137a7b24d7,False,NO_CLOSE_COMMAND,,,,False,,[],,,0.08276442606458005,True
+p2-6000-joint_reps-panda,49,6de913baaf3ed80e,False,NO_CLOSE_COMMAND,,,,False,,[],,,0.13917027077954644,True
+p2-6000-joint_reps-panda,50,f20d0210264f6cca,False,NO_CLOSE_COMMAND,,,,False,,[],,,0.11234551849212238,True
+p2-6000-joint_reps-panda,51,c175efaa65acbc0f,False,NO_CLOSE_COMMAND,,,,False,,[],,,0.13148075712394144,True
+p2-6000-joint_reps-panda,52,ae6bdc71a0d692ab,False,NO_BILATERAL_CONTACT,,,,False,,[192],,,0.0961001038091276,True
+p2-6000-joint_reps-panda,53,98c129c10bd20f54,False,NO_CLOSE_COMMAND,,,,False,,[],,,0.0566178686944772,True
+p2-6000-joint_reps-panda,54,b91fbf4fc8244b7b,False,NO_CLOSE_COMMAND,,,,False,,[],,,0.06564460127057178,True
+p2-6000-joint_reps-panda,55,455d7657c06dd8b6,False,NO_CLOSE_COMMAND,,,,False,,[],,,0.2902337441126443,True
+p2-6000-joint_reps-panda,56,c3dadfa761d9bd06,False,NO_CLOSE_COMMAND,,,,False,,[],,,0.07230911533115507,True
+p2-6000-joint_reps-panda,57,aac9156dce039a6a,True,OFFICIAL_SUCCESS,310,344,353,True,0.2797307815898465,[],,,0.122561649640333,True
+p2-6000-joint_reps-panda,58,dc210cb437b8482f,False,CONTACT_WITHOUT_SUSTAINED_LIFT,183,,,False,,[352],,,0.40572501741676925,True
+p2-6000-joint_reps-panda,59,c50921ae14e0da5d,False,NO_CLOSE_COMMAND,,,,False,,[],,,0.12094712639703636,True
+p3-96000-joint_reps-panda,40,400e6cdb2abbf568,False,NO_CLOSE_COMMAND,,,,False,,[],,,0.12015611311611045,True
+p3-96000-joint_reps-panda,41,ae97fae0f8792175,False,NO_CLOSE_COMMAND,,,,False,,[],,,0.1123848669064618,True
+p3-96000-joint_reps-panda,42,01728da5031d5ae8,False,NO_CLOSE_COMMAND,,,,False,,[],,,0.10342614462104512,True
+p3-96000-joint_reps-panda,43,c6377e6cd6583427,False,NO_CLOSE_COMMAND,,,,False,,[],,,0.06332977132665495,True
+p3-96000-joint_reps-panda,44,c407175ee4c8185c,False,CONTACT_WITHOUT_SUSTAINED_LIFT,438,,,False,,"[440, 480]",,,0.11099038165563747,True
+p3-96000-joint_reps-panda,45,c9285549312edb6c,False,NO_CLOSE_COMMAND,,,,False,,[],,,0.12932935058739264,True
+p3-96000-joint_reps-panda,46,5f0a961697756038,False,NO_BILATERAL_CONTACT,,,,False,,[288],,,0.2927843306964915,True
+p3-96000-joint_reps-panda,47,85d4f3d184cca45a,True,OFFICIAL_SUCCESS,282,294,303,True,0.542329281996009,[496],496,0.10096402460748358,0.10096402460748358,True
+p3-96000-joint_reps-panda,48,23a3e1137a7b24d7,False,NO_CLOSE_COMMAND,,,,False,,[],,,0.09697274453146476,True
+p3-96000-joint_reps-panda,49,6de913baaf3ed80e,False,NO_CLOSE_COMMAND,,,,False,,[],,,0.08494481036440657,True
+p3-96000-joint_reps-panda,50,f20d0210264f6cca,False,NO_CLOSE_COMMAND,,,,False,,[],,,0.1386318091295487,True
+p3-96000-joint_reps-panda,51,c175efaa65acbc0f,False,NO_CLOSE_COMMAND,,,,False,,[],,,0.08942554688879358,True
+p3-96000-joint_reps-panda,52,ae6bdc71a0d692ab,False,NO_CLOSE_COMMAND,,,,False,,[],,,0.0966460585033883,True
+p3-96000-joint_reps-panda,53,98c129c10bd20f54,False,NO_CLOSE_COMMAND,,,,False,,[],,,0.19281715184725332,True
+p3-96000-joint_reps-panda,54,b91fbf4fc8244b7b,False,NO_CLOSE_COMMAND,,,,False,,[],,,0.10811110530716991,True
+p3-96000-joint_reps-panda,55,455d7657c06dd8b6,False,NO_BILATERAL_CONTACT,,,,False,,"[400, 472]",,,0.2953487930466863,True
+p3-96000-joint_reps-panda,56,c3dadfa761d9bd06,False,NO_CLOSE_COMMAND,,,,False,,[],,,0.11898222592606149,True
+p3-96000-joint_reps-panda,57,aac9156dce039a6a,False,NO_CLOSE_COMMAND,,,,False,,[],,,0.08762601783976084,True
+p3-96000-joint_reps-panda,58,dc210cb437b8482f,True,OFFICIAL_SUCCESS,159,176,185,True,0.2451430455941735,[],,,0.12054043556958051,True
+p3-96000-joint_reps-panda,59,c50921ae14e0da5d,False,NO_CLOSE_COMMAND,,,,False,,[],,,0.10924471383790355,True

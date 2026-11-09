@@ -153,3 +153,8 @@ trainable params: 56,787,712 || all params: 1,309,284,160 || trainable%: 4.3373
   ds_continuous_pred = torch.tensor(
 /home/users/lemon/coft-p2/barx/policy/prismatic/training/strategies/base_strategy.py:617: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
   ds_continuous_gt = torch.tensor(
+
+
+11/09 [00:39:22] INFO     | >> [*] Done with Training =>>           train.py:369
+                          Finalizing Metrics
+                 INFO     | >> [*] ... and that's all, folks!       train.py:373

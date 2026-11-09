@@ -7,9 +7,9 @@ from pathlib import Path
 import shutil
 import numpy as np
 from scipy.spatial.transform import Rotation
-from p3_validation.common import ROOT,CACHE,PROJECT,SOURCE
+from p3_validation.common import ROOT,CACHE,PROJECT,SOURCE,CHECKPOINT,OLD_ADAPTED
 from p3_validation.geometry import transform,error,site_definition
-from p2_validation.offline_audit import sha256
+from p2_validation.offline_audit import sha256,longest_run
 from p3_validation.prepare_data import write_csv
 
 
@@ -63,6 +63,18 @@ def diagnostics(out,plots):
              object_relative_tcp_rotation_error_at_close_deg=float(np.rad2deg(angles[t_close])) if t_close is not None else None,
              achieved_tcp_max_upward_excursion_while_forced_closed_m=float(tcp[t_close:min(n+1,row['branch_action_index']+276),2,3].max()-tcp[t_close,2,3]) if method=='A1' else None,
              state_values_all_finite=True,official_success_remains_separate_from_contact_lift=True)
+        branch=row['branch_action_index'];post=history[branch:]
+        first_contact=next((h['action_index']+1 for h in post if h['bilateral_contact']),None)
+        # The already frozen A2/A3 hold phase occupies offsets [120,140).
+        # Apply this same time window to A1 only as a post-hoc contact audit;
+        # A1's actual arm motion differs and is not a matched hold intervention.
+        hold=[h for h in post if branch+120<=h['action_index']<branch+140]
+        row.update(first_postbranch_bilateral_contact_state_index=first_contact,
+            longest_postbranch_bilateral_contact_run_states=longest_run([h['bilateral_contact'] for h in post]),
+            bilateral_contact_states_in_common_prelift_time_window=sum(h['bilateral_contact'] for h in hold),
+            longest_bilateral_contact_run_in_common_prelift_time_window=longest_run([h['bilateral_contact'] for h in hold]),
+            closed_command_states_in_common_prelift_time_window=sum(h['gripper_command']>0 for h in hold),
+            prelift_contact_window_role='POSTHOC_CONTACT_AUDIT_ONLY_A1_ARM_IS_DIFFERENT')
         if method=='A3' and t_close is not None:
             gate=history[max(0,t_close-4):t_close+1]
             gate_valid=len(gate)==5 and all(h['grasp_position_error_m']<=.015 and h['grasp_rotation_error_rad']<=np.deg2rad(10) and h['phase'] in ['descend','hold_grasp'] for h in gate)
@@ -128,9 +140,80 @@ def formal_comparisons(out):
         rescue=[k for k in before if not before[k]['success'] and after[k]['success']];regression=[k for k in before if before[k]['success'] and not after[k]['success']]
         comparisons.append(dict(candidate=candidate,baseline=baseline,episodes=len(before),rescued=len(rescue),regressed=len(regression),net_success_change=len(rescue)-len(regression),rescue_condition_ids=rescue,regression_condition_ids=regression))
         for key,b in before.items():
-            a=after[key];paired.append(dict(candidate=candidate,baseline=baseline,condition_id=key,official_condition_index=b['official_condition_index'],baseline_success=b['success'],candidate_success=a['success'],baseline_stage=b['observed_stage'],candidate_stage=a['observed_stage'],baseline_contact_lift=b['sustained_contact_lift_proxy'],candidate_contact_lift=a['sustained_contact_lift_proxy']))
+            a=after[key];paired.append(dict(candidate=candidate,baseline=baseline,condition_id=key,official_condition_index=b['official_condition_index'],baseline_success=b['success'],candidate_success=a['success'],baseline_stage=b['observed_stage'],candidate_stage=a['observed_stage'],baseline_contact_lift=b['sustained_contact_lift_proxy'],candidate_contact_lift=a['sustained_contact_lift_proxy'],baseline_contact_states=b['bilateral_contact_state_steps'],candidate_contact_states=a['bilateral_contact_state_steps']))
     (out/'paired_analysis.json').write_text(json.dumps(comparisons,indent=2)+'\n');write_csv(out/'paired_comparisons.csv',comparisons);write_csv(out/'paired_cases.csv',paired)
+    data['comparisons']=comparisons
+    (out/'analysis.json').write_text(json.dumps(data,indent=2)+'\n')
+    write_csv(out/'paired_stage_changes.csv',paired)
     return data,comparisons
+
+
+def formal_stages(out,data,plots):
+    import h5py
+    import matplotlib.pyplot as plt
+    from p3_validation.stages import measure_stages
+    rows=[];series=defaultdict(list)
+    for episode in data['episodes']:
+        with h5py.File(episode['telemetry_path']) as f:
+            obj=f['target/position'][:];eef=f['obs/robot0_eef_pos'][:];grip=f['actions/environment'][:,6]
+        records=[json.loads(line) for line in Path(episode['telemetry_path']).with_suffix('.jsonl').read_text().splitlines()]
+        contact=np.asarray([r['grasp_contact'] is True for r in records]);assert len(records)==len(obj)
+        measures=measure_stages(obj,eef,contact,grip)
+        assert measures['stable_lift_confirmed']==episode['sustained_contact_lift_proxy']
+        rows.append(dict(cell=episode['cell'],official_condition_index=episode['official_condition_index'],condition_id=episode['condition_id'],
+            official_task_success=episode['success'],observed_failure_stage=episode['observed_stage'],**measures))
+        series[episode['cell']].append((episode,obj,eef,contact,grip))
+    write_csv(out/'formal_stage_measurements.csv',rows)
+    (out/'stage_measurement_definitions.json').write_text(json.dumps(dict(role='POSTHOC_RECORDED_STATE_MEASUREMENTS',
+        unchanged_frozen_stable_lift='bilateral contact and >=.03m rise for >=10 consecutive states',
+        index_convention='state s is before action s and after action s-1',
+        transport='maximum horizontal object displacement from start of first confirmed lift run, retaining bilateral contact',
+        release='executed closed-to-open command transition; does not establish physical placement',
+        retreat='continuous EEF-object distance after the first release after a confirmed lift; not an official retreat subpredicate',
+        object_inside_sink='not separately recorded; unchanged official task success remains authoritative',
+        no_new_rollouts_or_controller_or_success_threshold_changes=True),indent=2)+'\n')
+    if not plots:return
+    cells=[c for c in ['original-joint_reps-ur5e','original-joint_reps-panda','b1-joint_reps-panda','p2-6000-joint_reps-panda','p3-96000-joint_reps-panda'] if c in series]
+    fig,ax=plt.subplots(figsize=(14,3.6))
+    for y,cell in enumerate(cells):
+        for episode,*_ in series[cell]:
+            index=episode['official_condition_index'];success=episode['success']
+            ax.scatter(index,y,c='tab:green' if success else 'tab:red',marker='o' if success else 'x',s=50)
+        ax.text(59.8,y,f"{sum(e['success'] for e,*_ in series[cell])}/20",va='center',fontsize=9)
+    ax.set_yticks(range(len(cells)),cells);ax.set_xticks(range(40,60));ax.set_xlim(39.5,61);ax.set_ylim(len(cells)-.5,-.5)
+    ax.set_xlabel('original official condition index');ax.set_title('Independent paired task outcomes: green circle = official success; red cross = failure')
+    ax.grid(alpha=.15);fig.tight_layout();save_svg(fig,out/'plots/formal_paired_task_outcomes.svg');plt.close(fig)
+    for cell,episodes in series.items():
+        fig,axes=plt.subplots(len(episodes),3,figsize=(15,2.05*len(episodes)),squeeze=False)
+        for axis,(episode,obj,eef,contact,grip) in zip(axes,episodes):
+            t=np.arange(len(obj))/20
+            axis[0].plot(obj[:,0],obj[:,1],lw=.8,label='object');axis[0].plot(eef[:,0],eef[:,1],lw=.6,alpha=.7,label='EEF')
+            axis[0].scatter(obj[0,0],obj[0,1],marker='o',s=9);axis[0].scatter(obj[-1,0],obj[-1,1],marker='x',s=15)
+            axis[0].set_aspect('equal',adjustable='datalim');axis[0].legend(fontsize=6)
+            axis[1].plot(t,(obj[:,2]-obj[0,2])*100,lw=.8);axis[1].axhline(3,color='grey',ls=':',lw=.5)
+            axis[1].scatter(t[contact],np.full(contact.sum(),-1.),s=1,color='green',label='bilateral contact')
+            axis[2].step(t[:-1],grip,where='post',lw=.6);axis[2].set_ylim(-1.2,1.2)
+            for ax,title in zip(axis,['world XY (m)','object rise (cm) / contact','executed gripper command']):
+                ax.set_title(f"{episode['official_condition_index']} success={int(episode['success'])}: {title}",fontsize=7);ax.grid(alpha=.2)
+            axis[1].set_xlabel('seconds');axis[2].set_xlabel('seconds')
+        fig.suptitle(cell+' — recorded independent conditions 40–59');fig.tight_layout(rect=(0,0,1,.99))
+        save_svg(fig,out/'plots'/f'{cell}_trajectories.svg');plt.close(fig)
+
+
+def training_plot(out):
+    import matplotlib.pyplot as plt
+    for metric in (out/'training').glob('joint-reps-96000-*/optimizer_metrics.csv'):
+        with metric.open() as f:rows=list(csv.DictReader(f))
+        steps=np.asarray([int(r['step']) for r in rows]);loss=np.asarray([float(r['raw_loss']) for r in rows])
+        if len(rows)<100:continue
+        fig,axes=plt.subplots(1,2,figsize=(12,3.5))
+        axes[0].plot(steps,loss,lw=.2,alpha=.25,label='every actual update')
+        width=100;means=np.convolve(loss,np.ones(width)/width,mode='valid')
+        axes[0].plot(steps[width-1:],means,lw=.8,label='100-update moving mean');axes[0].set_ylabel('training loss');axes[0].legend(fontsize=7)
+        timing=np.asarray([float(r['step_time_seconds']) for r in rows]);axes[1].plot(steps,timing,lw=.3);axes[1].set_ylabel('seconds / optimizer update')
+        for ax in axes:ax.set_xlabel('completed optimizer updates');ax.grid(alpha=.2)
+        fig.suptitle('Enhanced restricted Joint LoRA — training metrics, not held-out performance');fig.tight_layout()
+        save_svg(fig,out/'plots'/f'{metric.parent.name}_training.svg');plt.close(fig)
 
 
 def training_evidence(out,final):
@@ -193,6 +276,11 @@ def collect(out,final=False,plots=True):
     from p2_validation.collect import collect as policy_collect
     policy_collect(ROOT,out);data,comparisons=formal_comparisons(out);diag=diagnostics(out,plots)
     attempts=training_evidence(out,final)
+    formal_stages(out,data,plots)
+    if plots:training_plot(out)
+    from p3_validation.scene_audit import audit as scene_audit
+    scene_audit()
+    shutil.copyfile(ROOT/'cross_embodiment_scene_audit.json',out/'cross_embodiment_scene_audit.json')
     for name in ['frozen_publication.json','frozen_publication_initial.json','target_data_audit_40_59.json','training_suite.json']:
         p=ROOT/name
         if p.exists():shutil.copyfile(p,out/name)
@@ -204,6 +292,11 @@ def collect(out,final=False,plots=True):
         assert diag['status']=='COMPLETE' and len(diag['results'])==24
         suite=json.loads((ROOT/'training_suite.json').read_text());assert suite['status']=='COMPLETE'
         assert len(data['cells'])==5 and all(c['status']=='COMPLETE' and c['episodes']==20 for c in data['cells'])
+        provenance=json.loads((ROOT/'adapted/adapter_provenance.json').read_text())
+        evaluated=next(c for c in data['cells'] if c['cell']=='p3-96000-joint_reps-panda')
+        assert evaluated['checkpoint']==provenance['merged_checkpoint']==suite['final_checkpoint']
+        assert evaluated['checkpoint_sha256']==provenance['merged_checkpoint_sha256']==sha256(evaluated['checkpoint'])
+        assert provenance['sample_positions']==suite['actual_sample_positions']==96000
         from p3_validation.validate import main as validate_completed
         validate_completed()
         verification=json.loads((ROOT/'validation/summary.json').read_text())
@@ -217,6 +310,24 @@ def collect(out,final=False,plots=True):
         for p in sorted(ROOT.rglob('*')):
             if p.is_file() and p.suffix!='.tmp':files.append(dict(absolute_path=str(p),bytes=p.stat().st_size,sha256=sha256(p)))
         write_csv(out/'external_files.csv',files)
+        models=[dict(absolute_path=str(p),bytes=p.stat().st_size,sha256=sha256(p),role=role)
+                for p,role in [(CHECKPOINT,'ORIGINAL_XP900_JOINT_50K'),(OLD_ADAPTED,'P2_6000_POSITION_FINAL_MERGED')]]
+        for record in files:
+            if Path(record['absolute_path']).suffix in ['.pt','.safetensors']:
+                models.append(dict(**record,role='P3_SERVER_WEIGHT_OR_OPTIMIZER_STATE_SEE_PROVENANCE'))
+        write_csv(out/'model_artifacts.csv',models)
+        indexed={r['absolute_path']:r for r in files};rollouts=[]
+        for r in data['episodes']:
+            rollouts.append(dict(role='FAIR_INDEPENDENT_EVALUATION',cell=r['cell'],official_condition_index=r['official_condition_index'],condition_id=r['condition_id'],
+                official_task_success=r['success'],stable_contact_lift_proxy=r['sustained_contact_lift_proxy'],steps=r['steps'],video_path=r['video_path'],telemetry_path=r['telemetry_path']))
+        for r in diag['results']:
+            rollouts.append(dict(role='PRIVILEGED_DEVELOPMENT_DIAGNOSTIC_ONLY',cell=r['method'],official_condition_index=r['condition'],condition_id=r['condition_id'],
+                official_task_success=r['task_success'],stable_contact_lift_proxy=r['stable_contact_lift'],steps=r['steps'],video_path=r['video_path'],telemetry_path=r['telemetry_path']))
+        for r in rollouts:
+            for name in ['video','telemetry']:
+                f=indexed[r[name+'_path']];r[name+'_bytes']=f['bytes'];r[name+'_sha256']=f['sha256']
+        assert len(rollouts)==124
+        write_csv(out/'all_rollouts.csv',rollouts)
     return dict(policy_cells=data['cells'],comparisons=comparisons,diagnostics=diag['summary'],training_attempts=attempts)
 
 

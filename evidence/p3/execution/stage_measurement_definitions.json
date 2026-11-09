@@ -1,0 +1,10 @@
+{
+  "role": "POSTHOC_RECORDED_STATE_MEASUREMENTS",
+  "unchanged_frozen_stable_lift": "bilateral contact and >=.03m rise for >=10 consecutive states",
+  "index_convention": "state s is before action s and after action s-1",
+  "transport": "maximum horizontal object displacement from start of first confirmed lift run, retaining bilateral contact",
+  "release": "executed closed-to-open command transition; does not establish physical placement",
+  "retreat": "continuous EEF-object distance after the first release after a confirmed lift; not an official retreat subpredicate",
+  "object_inside_sink": "not separately recorded; unchanged official task success remains authoritative",
+  "no_new_rollouts_or_controller_or_success_threshold_changes": true
+}

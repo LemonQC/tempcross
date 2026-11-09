@@ -1,0 +1,11 @@
+{
+  "source_checkpoint": "/home/users/lemon/coft-p2/artifacts/runs/joint_reps/checkpoints/step-050000-epoch-15-loss=0.2577.pt",
+  "source_checkpoint_sha256": "ffce76802a8e75d4806b30dee43624accf2c4de4213c17059457e34a8243efce",
+  "adapter": "/home/users/lemon/coft-p3/p3-20261109/training/joint-reps-96000-b8/runs/joint_reps--lora/checkpoints/step-012000-epoch-01-loss=0.7951",
+  "adapter_sha256": "dea19a43fb9dbbe8d14e119c87e550339913a9e202e50e7ee67a834020f9fb25",
+  "merged_checkpoint": "/home/users/lemon/coft-p3/p3-20261109/adapted/checkpoints/step-012000-epoch-01-loss=restricted96000.pt",
+  "merged_checkpoint_sha256": "c6fb093b9071886f93aac233f76bf3333cb98b09f959930fd5c3e469fd738b5c",
+  "actual_updates": 12000,
+  "sample_positions": 96000,
+  "role": "ENHANCED_BUDGET_RESTRICTED_LORA_NOT_FULL_STANDARD_FINETUNING"
+}

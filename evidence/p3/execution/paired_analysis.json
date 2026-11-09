@@ -26,5 +26,50 @@
       "455d7657c06dd8b6",
       "dc210cb437b8482f"
     ]
+  },
+  {
+    "candidate": "p3-96000-joint_reps-panda",
+    "baseline": "original-joint_reps-panda",
+    "episodes": 20,
+    "rescued": 1,
+    "regressed": 1,
+    "net_success_change": 0,
+    "rescue_condition_ids": [
+      "85d4f3d184cca45a"
+    ],
+    "regression_condition_ids": [
+      "455d7657c06dd8b6"
+    ]
+  },
+  {
+    "candidate": "p3-96000-joint_reps-panda",
+    "baseline": "p2-6000-joint_reps-panda",
+    "episodes": 20,
+    "rescued": 2,
+    "regressed": 2,
+    "net_success_change": 0,
+    "rescue_condition_ids": [
+      "85d4f3d184cca45a",
+      "dc210cb437b8482f"
+    ],
+    "regression_condition_ids": [
+      "c6377e6cd6583427",
+      "aac9156dce039a6a"
+    ]
+  },
+  {
+    "candidate": "p3-96000-joint_reps-panda",
+    "baseline": "b1-joint_reps-panda",
+    "episodes": 20,
+    "rescued": 2,
+    "regressed": 1,
+    "net_success_change": 1,
+    "rescue_condition_ids": [
+      "85d4f3d184cca45a",
+      "dc210cb437b8482f"
+    ],
+    "regression_condition_ids": [
+      "455d7657c06dd8b6"
+    ]
   }
 ]

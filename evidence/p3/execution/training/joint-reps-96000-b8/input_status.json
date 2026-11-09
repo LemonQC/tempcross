@@ -1,10 +1,12 @@
 {
-  "samples_consumed": 27392,
+  "samples_consumed": 96000,
   "dataset_counts": {
-    "mg_pnp_lite": 13590,
-    "panda_pnp": 13802
+    "mg_pnp_lite": 47588,
+    "panda_pnp": 48412
   },
-  "unique_target_demonstrations": 45,
-  "unique_source_demonstrations": 41,
-  "exact_order_and_raw_hashes_match_frozen_cache": true
+  "unique_target_demonstrations": 100,
+  "unique_source_demonstrations": 115,
+  "exact_order_and_raw_hashes_match_frozen_cache": true,
+  "consumed_trace_sha256": "9edb3945712159549d52f3708f1d181f8305fe5ac29cf45eedc5cd731c57d1df",
+  "input_stream_closed": true
 }

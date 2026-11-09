@@ -1,5 +1,5 @@
 {
-  "status": "TRAINING_96000",
+  "status": "COMPLETE",
   "frozen_commit": "4cc1129a2a9ed0732b1320f17fba280da271306c",
   "probes": [
     {
@@ -29,8 +29,43 @@
       }
     }
   ],
-  "training_attempts": [],
-  "updated_at_utc": "2026-11-09T03:32:12.645847+00:00",
+  "training_attempts": [
+    {
+      "batch": 8,
+      "returncode": 0,
+      "training": {
+        "status": "COMPLETE",
+        "method": "joint_reps",
+        "route": "lora",
+        "prescribed_steps": 12000,
+        "batch_size": 8,
+        "completed_optimizer_steps": 12000,
+        "sample_positions": 96000,
+        "sample_trace_sha256": "9edb3945712159549d52f3708f1d181f8305fe5ac29cf45eedc5cd731c57d1df",
+        "dataset_counts_full_sequence": {
+          "mg_pnp_lite": 47588,
+          "panda_pnp": 48412
+        },
+        "gpu": "NVIDIA GeForce RTX 3090",
+        "original_checkpoint": "/home/users/lemon/coft-p2/artifacts/runs/joint_reps/checkpoints/step-050000-epoch-15-loss=0.2577.pt",
+        "official_source_unmodified": true,
+        "equivalence": "RESTRICTED_SINGLE_GPU_NOT_OFFICIAL_GLOBAL_BATCH_256",
+        "single_rank_fsdp": "NO_SHARD",
+        "elapsed_seconds": 7622.77215749817,
+        "peak_gpu_allocated_bytes": 20086709760,
+        "peak_gpu_reserved_bytes": 23702011904
+      }
+    }
+  ],
+  "updated_at_utc": "2026-11-09T05:53:14.954939+00:00",
   "selected_batch": 8,
-  "prescribed_steps": 12000
+  "prescribed_steps": 12000,
+  "final_adapter": "/home/users/lemon/coft-p3/p3-20261109/training/joint-reps-96000-b8/runs/joint_reps--lora/checkpoints/step-012000-epoch-01-loss=0.7951",
+  "final_checkpoint": "/home/users/lemon/coft-p3/p3-20261109/adapted/checkpoints/step-012000-epoch-01-loss=restricted96000.pt",
+  "final_evaluation": {
+    "episodes": 20,
+    "successes": 2
+  },
+  "actual_training_steps": 12000,
+  "actual_sample_positions": 96000
 }

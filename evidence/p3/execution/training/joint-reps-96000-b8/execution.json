@@ -1,11 +1,12 @@
 {
-  "completed_backwards": 3400,
-  "finite_loss_checks": 3400,
+  "completed_backwards": 12000,
+  "finite_loss_checks": 12000,
   "nonfinite_losses": 0,
   "actual_training_strategy": "upstream_ddp_lora",
   "runtime_source_sha256": "6702af31170884463f41117e6e325ca4c895d31eebf7eb2d567be63daec92741",
   "initial_adapter_sha256": "a54b6a1d4648acc4f2de19526656f9926fd753bd40c692dffb382e88336169ed",
   "trainable_adapter_tensors": 768,
-  "elapsed_seconds": 2166.0812247288413,
-  "last_loss": 0.3865908980369568
+  "elapsed_seconds": 7628.542888401076,
+  "last_loss": 0.7950754165649414,
+  "launcher_returned_successfully": true
 }
