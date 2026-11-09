@@ -24,8 +24,14 @@ def validate_job(job_path):
     initial=f['baseline/restored_initial_state'][0]
     assert np.array_equal(initial,np.asarray(expected_state['initial_state'],dtype=np.float64))
     assert state_sha256(initial)==entry['state_sha256']==expected_state['condition']['state_sha256']
+    gap=f['baseline/gripper_pad_center_distance'][:];assert gap.shape==(r['steps']+1,) and np.isfinite(gap).all() and np.all(gap>0)
    actual=f['actions/environment'][:];native=f['baseline/native_action'][:]
    expected=np.stack([canonical_action(x,'barx_unnormalized' if job['kind']=='barx' else 'canonical_osc')[0] for x in native]);assert np.array_equal(actual,expected)
+   queries=f['baseline/native_query'][:];query_steps=f['baseline/native_query_action_index'][:]
+   assert len(queries)==len(query_steps) and int(query_steps[0])==0 and np.isfinite(queries).all()
+   assert np.array_equal(query_steps,np.arange(0,r['steps'],queries.shape[1]))
+   for query,start in zip(queries,query_steps):
+    start=int(start);end=min(start+len(query),len(native));assert np.array_equal(query[:end-start],native[start:end])
    tcp=f['baseline/pre_action_tcp_position'][:];motion=float(np.linalg.norm(tcp-tcp[0],axis=1).max())
    placement_available='baseline/post_action_placement' in f
    if placement_available:
@@ -42,7 +48,7 @@ def validate_job(job_path):
     frames+=1
    cap.release();assert frames==r['steps'] and frames>0
    write_json(cache,dict(video_path=str(video),sha256=digest(video),decoded_frames=frames))
-  rows.append(dict(condition_id=r['condition_id'],original_index=r['official_condition_index'],video_path=str(video),video_sha256=digest(video),decoded_frames=frames,telemetry_path=str(path),telemetry_sha256=digest(path),finite_states_and_actions=True,exact_native_action_adapter_match=True,maximum_tcp_excursion_m=motion,official_placement_subpredicates_recorded=placement_available))
+  rows.append(dict(condition_id=r['condition_id'],original_index=r['official_condition_index'],video_path=str(video),video_sha256=digest(video),decoded_frames=frames,telemetry_path=str(path),telemetry_sha256=digest(path),finite_states_and_actions=True,exact_native_action_adapter_match=True,all_native_queries_match_executed_queue=True,frozen_initial_state_values_and_sha_verified=frozen is not None,maximum_tcp_excursion_m=motion,official_placement_subpredicates_recorded=placement_available))
  result=dict(status='COMPLETE',episodes=len(rows),all_verified=True,records=rows);write_json(directory/'validation.json',result);return result
 
 

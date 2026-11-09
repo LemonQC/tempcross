@@ -590,9 +590,71 @@
         "task": "pnp_sink_to_counter"
       }
     ],
-    "actual_unique_target_demo_coverage": "NOT_IDENTIFIABLE_FROM_OLD_CACHE_METADATA; do not claim all95 visited",
+    "actual_unique_target_demo_coverage": 18,
     "target_pool_total": 100,
-    "matched_new90_10_split": false
+    "matched_new90_10_split": false,
+    "target_exact_provenance_recovery": {
+      "method": "EXACT_ORIGINAL_TFDS_DECODE_AND_UPSTREAM_RESIZE_RGB_HASH_PLUS_INSTRUCTION",
+      "target_samples": 3068,
+      "resolved_samples": 3068,
+      "unresolved_samples": 0,
+      "resolved_unique_target_demonstrations": 18,
+      "resolved_episode_ids": [
+        "0b9dcd4972bd7fd737107976903d94cf18da25974bd08d47a5401c944432fd55",
+        "0ec8390de20e0da9f668c06eb7a09cfb4193cf0b02830c6bc63f467700226d18",
+        "38184253b1415518c8deb83c010480978867327592bed262272cafe6469f2288",
+        "3982369aa7612e87aadb73d3599330efc3d36da9d2bf4f66bae92c66f00bc70d",
+        "5b45f5d23c156fee13e649bf75777ce637b85238b7f56f58e5b886e645367845",
+        "647e24a2021554db6116ad1712351e9a5c77c255bf5f764ae6908dbbd9a75937",
+        "706c72ac7e80115005256bcea33e7f276d77fa7fd196e482bb34a789bd9fe1b6",
+        "7194e14f7cab2f977d124b6dc10ba36aeea34b1cdd8a3c491cdeb1ded33e228e",
+        "93f686cbdc5a4c884e59bf3d324e0d4d0a5319d1f263e054566873539263d478",
+        "9a3a056897b9f3a59a203ce6f01c85fd2f324439ff7bcc7e81649e1f9c52bcb6",
+        "9b508c7e26313a2b3208a922c23c94460e9e4f0e164106944c9f711b876c0657",
+        "9be513a873cfc28552084c3187f3803a0f420f6aef4f868cbb22e033f02ffcf4",
+        "9c37736f9f70be8b3728786860b1ebd8cabc83fb2dd5dcb7363bc015f19c51bf",
+        "aa73b143c3aeaf25fbaf68b306308ebd3707dc552100d00469360802d009ec72",
+        "ce38a158ffd37f5c1c5c5fb74bf8fe778f2fa9ca5965b13a0fcf70692ccd12a9",
+        "d39ceff17df09ce16eab84c4c30340fb78529f664490271f74306a6080dccbfc",
+        "da9f79b545083af8fafae66da0a32dacf59172f7d2d6644675e752e8270b780e",
+        "f6008ca40319210e4411dbdc52c49b3601830925bdc1c4ea6e579b52ceb031d2"
+      ],
+      "all_matched_exact_rgb_and_raw_cache_sha256": true,
+      "source_demo_coverage": "not reconstructed by this target-only audit",
+      "new_physics_steps": 0
+    },
+    "source_exact_provenance_recovery": {
+      "method": "EXACT_ORIGINAL_TFDS_DECODE_AND_UPSTREAM_RESIZE_RGB_HASH_PLUS_INSTRUCTION",
+      "source_samples": 2932,
+      "resolved_samples": 2932,
+      "unresolved_samples": 0,
+      "resolved_unique_source_demonstrations": 19,
+      "resolved_episode_ids": [
+        "22668c0fcc44d2587c72cc25d0136ca30c77f8602421bf1452fef08945237150",
+        "32457eb18ca743530a2aabddd5fb522922ef416a1896edac913ec73934d73a55",
+        "4c6ae1e826c725bc6bc3b841cf49c46ab68a9ceea615e313cab5bb2e75e5cccd",
+        "4ec2b708c4949bc7a2295063fe0be9a426dde3bc35871da685db7545bb51f3c1",
+        "51d5ac71f7ba3da0ed2619c07ad67290a84db20e10010cd3d3c0ec65bf07862d",
+        "5eca8abf584f98ea2214ec6f099309987c2447dbc0dbe8b81fcffe0caabd48df",
+        "6085acd93a320752c30d71ff5894a2258a99ff397e92162bd93cc27132d1849f",
+        "640d8b6b13b9a3380e77b90ea941ef7bff53b6c99d040986413a898d48272482",
+        "80dc33aadf036f6dd3896ea8275e3e32f2122691033a8efd29e81e49a576b097",
+        "82959d39767b6e1e2a774bb607e21506b8c99f638d8ea7fc73ffac52e37fa203",
+        "845e6d604f0121e45611b49a14bbe5b0d81822e5bc020195438a9b80af66393f",
+        "9615cda4432ce667fffb632aa37bf3d8a7ebd9579487549eb3032eaa6356375c",
+        "9771c8eed3e73b22536b3c3b3f5362151c1638aa58b68882e9eb966358747db8",
+        "b4ad608e869eee91381e031bc4ccf786fc027593a9a11aa95ff3858f3de08054",
+        "bbea3ac7832b946a8e698d602d2712d273047d7584a3ee7a0bc3ff1442109a0c",
+        "befe8fc24e93386c37694eb8fdc16e662c318b50cc95f17df370812cb0fb954d",
+        "e6b0e2fd57a740f515364a919f18b2e749b3785e3852cc4f3e4a44dd0e05f7d2",
+        "e88e50f015f8cdf47c8831766377a401e31ea4c3ae69678b56747630b9ee931d",
+        "f2c39e06d7ad6797522b7351aa4e6d16e4e7b3f64c6208e87b99e59540463631"
+      ],
+      "all_matched_exact_rgb_and_raw_cache_sha256": true,
+      "target_demo_coverage": "separate exact target audit",
+      "new_physics_steps": 0
+    },
+    "actual_unique_source_demo_coverage": 19
   },
   "joint_96000": {
     "cache": {

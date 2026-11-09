@@ -1,5 +1,6 @@
 """Construct the pinned official robomimic models without rewriting their cores."""
 from collections import OrderedDict
+from pathlib import Path
 import json
 from baselines.common.language import install_core
 from baselines.common.paths import VENDOR
@@ -37,6 +38,8 @@ def config_for(method,max_steps=48000):
 
 def make_model(method,device='cuda',config=None,max_steps=48000):
  install_core()
+ import robomimic
+ assert Path(robomimic.__file__).resolve().parent==(VENDOR/'robomimic').resolve(),'An incompatible robomimic was imported before the pinned core'
  from robomimic.algo import algo_factory
  from robomimic.config import config_factory
  import robomimic.utils.obs_utils as ObsUtils

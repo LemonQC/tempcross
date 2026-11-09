@@ -26,5 +26,155 @@
   ],
   "all_matched_exact_rgb_and_raw_cache_sha256": true,
   "source_demo_coverage": "not reconstructed by this target-only audit",
-  "new_physics_steps": 0
+  "new_physics_steps": 0,
+  "unique_demonstrations_by_embodiment_and_task": {
+    "('panda', 'pnp_sink_to_counter')": 8,
+    "('panda', 'pnp_counter_to_sink')": 10
+  },
+  "resolved_original_demonstrations": [
+    {
+      "episode_id": "0b9dcd4972bd7fd737107976903d94cf18da25974bd08d47a5401c944432fd55",
+      "embodiment": "panda",
+      "task": "pnp_sink_to_counter",
+      "original_file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "original_demo": "demo_12",
+      "frames": 437
+    },
+    {
+      "episode_id": "0ec8390de20e0da9f668c06eb7a09cfb4193cf0b02830c6bc63f467700226d18",
+      "embodiment": "panda",
+      "task": "pnp_counter_to_sink",
+      "original_file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "original_demo": "demo_6",
+      "frames": 280
+    },
+    {
+      "episode_id": "38184253b1415518c8deb83c010480978867327592bed262272cafe6469f2288",
+      "embodiment": "panda",
+      "task": "pnp_counter_to_sink",
+      "original_file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "original_demo": "demo_1",
+      "frames": 406
+    },
+    {
+      "episode_id": "3982369aa7612e87aadb73d3599330efc3d36da9d2bf4f66bae92c66f00bc70d",
+      "embodiment": "panda",
+      "task": "pnp_counter_to_sink",
+      "original_file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "original_demo": "demo_45",
+      "frames": 399
+    },
+    {
+      "episode_id": "5b45f5d23c156fee13e649bf75777ce637b85238b7f56f58e5b886e645367845",
+      "embodiment": "panda",
+      "task": "pnp_sink_to_counter",
+      "original_file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "original_demo": "demo_42",
+      "frames": 476
+    },
+    {
+      "episode_id": "647e24a2021554db6116ad1712351e9a5c77c255bf5f764ae6908dbbd9a75937",
+      "embodiment": "panda",
+      "task": "pnp_sink_to_counter",
+      "original_file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "original_demo": "demo_46",
+      "frames": 522
+    },
+    {
+      "episode_id": "706c72ac7e80115005256bcea33e7f276d77fa7fd196e482bb34a789bd9fe1b6",
+      "embodiment": "panda",
+      "task": "pnp_counter_to_sink",
+      "original_file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "original_demo": "demo_48",
+      "frames": 397
+    },
+    {
+      "episode_id": "7194e14f7cab2f977d124b6dc10ba36aeea34b1cdd8a3c491cdeb1ded33e228e",
+      "embodiment": "panda",
+      "task": "pnp_counter_to_sink",
+      "original_file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "original_demo": "demo_5",
+      "frames": 360
+    },
+    {
+      "episode_id": "93f686cbdc5a4c884e59bf3d324e0d4d0a5319d1f263e054566873539263d478",
+      "embodiment": "panda",
+      "task": "pnp_counter_to_sink",
+      "original_file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "original_demo": "demo_30",
+      "frames": 428
+    },
+    {
+      "episode_id": "9a3a056897b9f3a59a203ce6f01c85fd2f324439ff7bcc7e81649e1f9c52bcb6",
+      "embodiment": "panda",
+      "task": "pnp_sink_to_counter",
+      "original_file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "original_demo": "demo_18",
+      "frames": 451
+    },
+    {
+      "episode_id": "9b508c7e26313a2b3208a922c23c94460e9e4f0e164106944c9f711b876c0657",
+      "embodiment": "panda",
+      "task": "pnp_sink_to_counter",
+      "original_file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "original_demo": "demo_10",
+      "frames": 1057
+    },
+    {
+      "episode_id": "9be513a873cfc28552084c3187f3803a0f420f6aef4f868cbb22e033f02ffcf4",
+      "embodiment": "panda",
+      "task": "pnp_sink_to_counter",
+      "original_file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "original_demo": "demo_33",
+      "frames": 424
+    },
+    {
+      "episode_id": "9c37736f9f70be8b3728786860b1ebd8cabc83fb2dd5dcb7363bc015f19c51bf",
+      "embodiment": "panda",
+      "task": "pnp_counter_to_sink",
+      "original_file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "original_demo": "demo_21",
+      "frames": 361
+    },
+    {
+      "episode_id": "aa73b143c3aeaf25fbaf68b306308ebd3707dc552100d00469360802d009ec72",
+      "embodiment": "panda",
+      "task": "pnp_counter_to_sink",
+      "original_file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "original_demo": "demo_12",
+      "frames": 383
+    },
+    {
+      "episode_id": "ce38a158ffd37f5c1c5c5fb74bf8fe778f2fa9ca5965b13a0fcf70692ccd12a9",
+      "embodiment": "panda",
+      "task": "pnp_sink_to_counter",
+      "original_file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "original_demo": "demo_7",
+      "frames": 410
+    },
+    {
+      "episode_id": "d39ceff17df09ce16eab84c4c30340fb78529f664490271f74306a6080dccbfc",
+      "embodiment": "panda",
+      "task": "pnp_counter_to_sink",
+      "original_file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "original_demo": "demo_8",
+      "frames": 381
+    },
+    {
+      "episode_id": "da9f79b545083af8fafae66da0a32dacf59172f7d2d6644675e752e8270b780e",
+      "embodiment": "panda",
+      "task": "pnp_counter_to_sink",
+      "original_file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "original_demo": "demo_19",
+      "frames": 412
+    },
+    {
+      "episode_id": "f6008ca40319210e4411dbdc52c49b3601830925bdc1c4ea6e579b52ceb031d2",
+      "embodiment": "panda",
+      "task": "pnp_sink_to_counter",
+      "original_file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "original_demo": "demo_21",
+      "frames": 462
+    }
+  ]
 }

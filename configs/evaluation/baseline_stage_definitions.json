@@ -7,5 +7,6 @@
   "transport": ">=.10m horizontal displacement from initial object center while in bilateral contact after first confirmed lift; proxy",
   "placement": "exact X task object-in-goal and support predicates",
   "retreat": "exact OU.gripper_obj_far th=.1",
-  "success": "unchanged info.is_success.task, never replaced by proxies"
+  "success": "unchanged info.is_success.task, never replaced by proxies",
+  "physical_closure": "DIAGNOSTIC: positive close command and measured pad-center separation reduction>=.005m from previous running maximum; actual jaw movement, not full closure/grasp"
 }

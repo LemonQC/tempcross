@@ -1,8 +1,8 @@
 label,path,bytes,sha256,optimizer_updates,target_positions,source_positions,actual_target_unique_demonstrations,budget_setting,new_training_this_benchmark
 A_bc_transformer,/home/users/lemon/baseline-benchmark/run-20261109/training/A_bc_transformer/positions-096000.pt,367190379,38369513cd7a1b2bb1b5cf92804beddf756a58301549094fbc6240f040aededf,6000,0,96000,,,
 A_diffusion_policy,/home/users/lemon/baseline-benchmark/run-20261109/training/A_diffusion_policy/positions-096000.pt,1604771086,d6c41c650b51d1010177f87533ed171c00c9139bcc23d210a2859871b1a7c1e3,6000,0,96000,,,
-B_bc_rnn,/home/users/lemon/baseline-benchmark/run-20261109/training/B_bc_rnn/positions-096000.pt,174023412,cd1e1b00352d95653322a3d3b4f1105d098bd85f1f732e2ca03b875f28cf1a2f,6000,96000,0,,,
-B_bc_transformer,/home/users/lemon/baseline-benchmark/run-20261109/training/B_bc_transformer/positions-096000.pt,367190379,dfe5e769100a31af2ad181cdf30f2ded30cfcf451c6ac65f2fe23b9f820fe3ce,6000,96000,0,,,
+B_bc_gmm,/home/users/lemon/baseline-benchmark/run-20261109/training/B_bc_gmm/positions-384000.pt,158320565,55854747380da8aec4b8b16068ef63366ebf3e6e428e3b4fd2e3a0fabb38a94e,24000,384000,0,,,
+B_bc_rnn,/home/users/lemon/baseline-benchmark/run-20261109/training/B_bc_rnn/positions-384000.pt,174023412,3cbc0ea05cf615ad9c35789375668703608d267b948198513f8e1a63b033a594,24000,384000,0,,,
 B_diffusion_policy,/home/users/lemon/baseline-benchmark/run-20261109/training/B_diffusion_policy/positions-096000.pt,1604771086,c62632b9e7fa60e56f6bfa0991d553439f34d5fca86533078381bbb8dc3d65a6,6000,96000,0,,,
 C_bc_transformer,/home/users/lemon/baseline-benchmark/run-20261109/training/C_bc_transformer/positions-096000.pt,367190379,52144ec4e68a4f59a7bec5c246f51660b6e553880f8e775230d1addad536f97c,6000,96000,96000,,,
 C_diffusion_policy,/home/users/lemon/baseline-benchmark/run-20261109/training/C_diffusion_policy/positions-096000.pt,1604771086,14e68d1f5be019fd93f8f06b2b27c6dd1c54f4dcee756d80ffa72a4548ebe768,6000,96000,96000,,,

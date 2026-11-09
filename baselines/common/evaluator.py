@@ -11,6 +11,9 @@ def evaluate(label,kind,checkpoint,task,robot='panda',smoke=False,indices=None):
  import torch
  torch.set_num_threads(4);torch.manual_seed(7);np.random.seed(7)
  marker=validate_freeze();os.environ.update(environment());sys.path[:0]=[str(SOURCE),str(SOURCE/'policy')]
+ if kind=='robomimic':
+  from baselines.common.language import install_core
+  install_core()
  from barx.benchmark import TASKS as specs,EMBODIMENTS
  from barx.simulation import build_environment_config,initialize_observation_utils
  from barx.evaluation_conditions import load_bundle,restore_frozen_condition,validate_condition_bundle_for_evaluation
@@ -29,6 +32,7 @@ def evaluate(label,kind,checkpoint,task,robot='panda',smoke=False,indices=None):
  ledger=directory/'job.json';write_json(ledger,job);rec=None;env=None;writer=None;start=time.monotonic();records=[];phase='CHECKPOINT_LOADING'
  try:
   torch.cuda.reset_peak_memory_stats();policy=(BarxPolicy if kind=='barx' else RobomimicPolicy)(checkpoint)
+  job['policy_runtime']=policy.runtime_metadata
   phase='FROZEN_ENVIRONMENT_INITIALIZATION'
   payload,states,models=load_bundle(SOURCE/'evaluation/conditions',task=task,embodiment=robot)
   validate_condition_bundle_for_evaluation(payload,states,models,task=task,camera_name=EMBODIMENTS[robot].camera,image_width=320,image_height=180,count=100)
@@ -46,6 +50,8 @@ def evaluate(label,kind,checkpoint,task,robot='panda',smoke=False,indices=None):
    phase='FROZEN_CONDITION_RESTORE'
    policy.reset();obs,metadata=restore_frozen_condition(env,payload['episodes'][index],states[index],models[index]);rec.start(payload['episodes'][index],env,obs,metadata)
    rec.append('baseline/restored_initial_state',env.env.sim.get_state().flatten())
+   from baselines.common.metrics import gripper_pad_distance
+   rec.append('baseline/gripper_pad_center_distance',gripper_pad_distance(env.env))
    raw=env.env;assert raw.control_freq==20
    phase='VIDEO_INITIALIZATION';video=directory/f'condition-{index:03d}.mp4';writer=cv2.VideoWriter(str(video),cv2.VideoWriter_fourcc(*'mp4v'),20,(320,180));assert writer.isOpened()
    success=False;timings=[];clipped=0
@@ -63,6 +69,7 @@ def evaluate(label,kind,checkpoint,task,robot='panda',smoke=False,indices=None):
     writer.write(cv2.cvtColor(rgb,cv2.COLOR_RGB2BGR));phase='SIMULATION_STEP';obs,_,_,info=env.step(action);phase='TELEMETRY_AND_SUCCESS_AUDIT';rec.snapshot(env,obs,action,info)
     from baselines.common.metrics import observe_subpredicates
     sub=observe_subpredicates(raw,task)
+    rec.append('baseline/gripper_pad_center_distance',gripper_pad_distance(raw))
     for key,value in sub.items():rec.append('baseline/post_action_'+key,value)
     rec.append('baseline/post_action_tcp_position',raw.sim.data.site_xpos[site]);rec.append('baseline/post_action_tcp_rotation_matrix',raw.sim.data.site_xmat[site].reshape(3,3))
     label_success=info['is_success']['task'];assert isinstance(label_success,(bool,np.bool_));success=bool(label_success)

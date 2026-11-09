@@ -27,3 +27,7 @@ Group A（零target）、B（target-only）、C（source+target）分表。已�
 历史数据覆盖的只读核查补充：对旧No Reps6k缓存3068个target样本，先验原pickle SHA，再以官方TFDS JPEG解码及dlimp224 resize的RGB SHA+原文指令匹配原示范，全部3068个解析成功，实际覆盖18条目标示范。95条是eligible训练池，100条是官方总池，不能混同。原始解析在服务器legacy_target_provenance.json，小型摘要已提交；这次核查没有新训练或仿真。
 
 评估执行补充：在选模关闭后用选中权重进行旧条件0完整smoke（新模型Panda及4个source-only UR5e参考），之后独占GPU记录推理延迟，最后4个独立进程并发正式评估。并发仅影响吞吐，单模型、checkpoint、条件、成功判据不变。正式轨迹另外保存恢复后的flattened初始状态，并逐值与冻结manifest及官方SHA核验。
+
+正式测试前的物理闭爪日志补充：除实际下发的close命令，增加左右指垫geom中心距离原始记录。`physical_jaw_closure_5mm`定义为positive close命令对应的步后指垫距离较此前运行最大值减少≥5mm，仅表示实测闭爪运动，不等同完全闭合、接触或成功抓持。阈值和定义在60–99运行前声明，官方success及所有策略输入/动作保持不变。
+
+只读数据核验还确认：1900条packed示范的canonical动作指纹全部匹配，target原HDF与官方TFDS全部100条动作完全相同；抽查300帧的正确RGB平均像素误差0.759（原图与有损JPEG之差），错误垂直翻转61.213、错误RB交换9.499，支持当前图像朝向和通道约定。source早期打包器没有逐组pack_complete属性，完整性以1800条manifest、实际长度/指纹及完整文件SHA验证，不回写数据以添加标记。

@@ -54,3 +54,12 @@ def test_contact_lift_is_consecutive_and_transport_is_separate():
  assert r['stable_contact_lift'] and r['longest_contact_lift_states']==10
  assert r['transport_10cm_contact_proxy'] and not r['placement_official_subpredicate']
  assert not r['official_task_success']
+
+
+def test_physical_jaw_closure_requires_measured_motion_and_positive_command():
+ from baselines.common.metrics import physical_closure
+ actions=np.zeros((2,12));actions[:,6]=1
+ assert not physical_closure(actions,[.08,.08,.08])
+ assert physical_closure(actions,[.08,.075,.07])
+ actions[:,6]=-1
+ assert not physical_closure(actions,[.08,.075,.07])

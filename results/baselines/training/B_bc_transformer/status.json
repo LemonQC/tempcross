@@ -1,12 +1,12 @@
 {
-  "status": "TIER_COMPLETE",
+  "status": "TRAINING",
   "label": "B_bc_transformer",
   "method": "bc_transformer",
   "group": "B",
-  "completed_optimizer_steps": 6000,
+  "completed_optimizer_steps": 6100,
   "nonfinite_losses": 0,
-  "anchor_positions": 96000,
-  "actual_target_positions": 96000,
+  "anchor_positions": 97600,
+  "actual_target_positions": 97600,
   "actual_source_positions": 0,
   "gpu_seconds": 328.50251945341006,
   "batch_target": 16,
@@ -88,19 +88,25 @@
     "nll": 7.549942761659622,
     "batches": 16
   },
-  "prescribed_tier_positions": 96000,
+  "prescribed_tier_positions": 192000,
   "trainer_segments": [
     {
       "from_positions": 0,
       "to_positions": 96000,
       "source_sha256": "f7f64dedcdf083cc0766a7d2b73eaa5810df5bee93569036e0e0bf2936d2c1d3",
       "source_path": "/home/users/lemon/baseline-benchmark/run-20261109/training/B_bc_transformer/executed_train_from_000000.py"
+    },
+    {
+      "from_positions": 96000,
+      "to_positions": 192000,
+      "source_sha256": "f7f64dedcdf083cc0766a7d2b73eaa5810df5bee93569036e0e0bf2936d2c1d3",
+      "source_path": "/home/users/lemon/baseline-benchmark/run-20261109/training/B_bc_transformer/executed_train_from_096000.py"
     }
   ],
-  "last_loss": -19.40981101989746,
-  "peak_gpu_allocated_bytes": 1678791680,
-  "peak_gpu_reserved_bytes": 1988100096,
-  "running_segment_seconds": 328.47565718833357,
+  "last_loss": -19.515357971191406,
+  "peak_gpu_allocated_bytes": 1680436224,
+  "peak_gpu_reserved_bytes": 2220883968,
+  "running_segment_seconds": 5.928154274821281,
   "checkpoint": "/home/users/lemon/baseline-benchmark/run-20261109/training/B_bc_transformer/positions-096000.pt",
   "checkpoint_sha256": "dfe5e769100a31af2ad181cdf30f2ded30cfcf451c6ac65f2fe23b9f820fe3ce",
   "changed_parameter_tensors": 143

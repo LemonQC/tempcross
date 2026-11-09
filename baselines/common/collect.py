@@ -9,7 +9,7 @@ from simulation_validation.analyze_rollouts import wilson
 
 
 def csv_write(path,rows):
- if not rows:return
+ if not rows:Path(path).write_text('');return
  keys=list(dict.fromkeys(k for r in rows for k in r))
  with Path(path).open('w',newline='') as f:
   w=csv.DictWriter(f,fieldnames=keys,lineterminator='\n');w.writeheader();w.writerows(rows)
@@ -58,13 +58,14 @@ def training(out,final):
   for name in ['config.json','optimizer_metrics.csv','parameter_changes.json','selected.json']:
    p=directory/name
    if p.exists():copy_small(p,dest/name)
+  result=None
   if s['status']=='TIER_COMPLETE':
    result=coverage(directory,s,dest);assert s['nonfinite_losses']==0
    with (dest/'optimizer_metrics.csv').open() as f:metrics=list(csv.DictReader(f))
    assert len(metrics)==s['completed_optimizer_steps'] and all(int(r['optimizer_step'])==i+1 and np.isfinite(float(r['raw_loss'])) for i,r in enumerate(metrics))
    if final:assert s['checkpoint_sha256']==digest(s['checkpoint'])
    checkpoints.append(dict(label=directory.name,path=s['checkpoint'],bytes=Path(s['checkpoint']).stat().st_size,sha256=s['checkpoint_sha256'],optimizer_updates=s['completed_optimizer_steps'],target_positions=s['actual_target_positions'],source_positions=s['actual_source_positions']))
-  rows.append(dict(label=directory.name,method=s['method'],group=s['group'],status=s['status'],optimizer_updates=s['completed_optimizer_steps'],target_positions=s['actual_target_positions'],source_positions=s['actual_source_positions'],total_positions=s['actual_target_positions']+s['actual_source_positions'],parameter_count=s.get('parameter_count'),gpu_occupied_wall_seconds=s.get('gpu_seconds'),peak_gpu_allocated_bytes=s.get('peak_gpu_allocated_bytes'),selected=(directory/'selected.json').exists(),checkpoint=s.get('checkpoint'),checkpoint_sha256=s.get('checkpoint_sha256'),budget_stop_reason=json.loads((directory/'selected.json').read_text()).get('budget_stop_reason') if (directory/'selected.json').exists() else None))
+  rows.append(dict(label=directory.name,method=s['method'],group=s['group'],status=s['status'],optimizer_updates=s['completed_optimizer_steps'],target_positions=s['actual_target_positions'],source_positions=s['actual_source_positions'],total_positions=s['actual_target_positions']+s['actual_source_positions'],actual_batch=s['actual_batch'],anchor_batch_per_domain=s['batch_target'],parameter_count=s.get('parameter_count'),actual_unique_target_demonstrations=result['unique_demonstrations']['target'] if result else None,actual_unique_source_demonstrations=result['unique_demonstrations']['source'] if result else None,gpu_occupied_wall_seconds=s.get('gpu_seconds'),peak_gpu_allocated_bytes=s.get('peak_gpu_allocated_bytes'),selected=(directory/'selected.json').exists(),checkpoint=s.get('checkpoint'),checkpoint_sha256=s.get('checkpoint_sha256'),budget_stop_reason=json.loads((directory/'selected.json').read_text()).get('budget_stop_reason') if (directory/'selected.json').exists() else None))
  from baselines.barx.registry import LEGACY
  legacy=json.loads((ROOT/'legacy_data_settings.json').read_text())
  recovered=PROJECT/'results/baselines/legacy_target_provenance_summary.json'
@@ -74,7 +75,7 @@ def training(out,final):
   counts=cache.get('dataset_counts',{});target=counts.get('panda_pnp',0);source=counts.get('mg_pnp_lite',0)
   metadata=dict(label=label,path=str(path),bytes=path.stat().st_size,sha256=digest(path),optimizer_updates=(3000 if no_reps else 12000) if adaptation else 'RELEASED_50000_SOURCE_PRETRAINING_UPDATES_NOT_RUN_HERE',target_positions=target,source_positions=source if adaptation else 'RELEASED_PRETRAINING_EXPOSURE_NOT_RECONSTRUCTED',actual_target_unique_demonstrations=(actual_unique if no_reps else 100) if adaptation else 0,budget_setting='LEGACY_DIFFERENT_SPLIT_AND_BUDGET_RESTRICTED_LORA' if adaptation else 'RELEASED_SOURCE_PRIOR',new_training_this_benchmark=False)
   checkpoints.append(metadata)
-  rows.append(dict(label=label,group=label[0],method='barx',status='IMMUTABLE_EXISTING_CHECKPOINT_REUSED',optimizer_updates=metadata['optimizer_updates'],target_positions=target,source_positions=metadata['source_positions'],total_positions=target+source if adaptation else 'UNKNOWN_RELEASED_PRETRAINING',selected=True,actual_target_unique_demonstrations=metadata['actual_target_unique_demonstrations'],budget_setting=metadata['budget_setting'],checkpoint=str(path),checkpoint_sha256=metadata['sha256']))
+  rows.append(dict(label=label,group=label[0],method='barx',status='IMMUTABLE_EXISTING_CHECKPOINT_REUSED',optimizer_updates=metadata['optimizer_updates'],target_positions=target,source_positions=metadata['source_positions'],total_positions=target+source if adaptation else 'UNKNOWN_RELEASED_PRETRAINING',actual_batch=(2 if no_reps else 8) if adaptation else 'RELEASED_NOT_RUN_HERE',selected=True,actual_unique_target_demonstrations=metadata['actual_target_unique_demonstrations'],budget_setting=metadata['budget_setting'],checkpoint=str(path),checkpoint_sha256=metadata['sha256']))
  csv_write(out/'training_budgets.csv',rows);csv_write(out/'checkpoint_index.csv',checkpoints)
  return rows
 
@@ -98,8 +99,8 @@ def episodes(out,final):
    with h5py.File(telem) as f:
     actions=f['actions/environment'][:];post=f['baseline/post_action_tcp_position'][:];tcp=np.concatenate([f['baseline/pre_action_tcp_position'][0][None],post]);obj=f['target/position'][:];placement=f['baseline/post_action_placement'][:];retreat=f['baseline/post_action_retreat'][:]
     assert np.isfinite(actions).all() and len(obj)==len(contacts)==len(actions)+1
-    states=summarize_states(tcp,obj,contacts,actions,placement,retreat,r['success'])
-   stage=('OFFICIAL_SUCCESS' if r['success'] else 'NO_CLOSE_COMMAND' if not states['issued_close'] else 'CLOSE_WITHOUT_BILATERAL_CONTACT' if not states['bilateral_contact'] else 'CONTACT_WITHOUT_STABLE_LIFT' if not states['stable_contact_lift'] else 'STABLE_LIFT_NO_10CM_TRANSPORT_PROXY' if not states['transport_10cm_contact_proxy'] else 'TRANSPORT_WITHOUT_OFFICIAL_PLACEMENT' if not states['placement_official_subpredicate'] else 'PLACEMENT_WITHOUT_RETREAT')
+    states=summarize_states(tcp,obj,contacts,actions,placement,retreat,r['success'],f['baseline/gripper_pad_center_distance'][:])
+   stage=('OFFICIAL_SUCCESS' if r['success'] else 'NO_CLOSE_COMMAND' if not states['issued_close'] else 'CLOSE_COMMAND_WITHOUT_5MM_JAW_REDUCTION' if not states['physical_jaw_closure_5mm'] else 'CLOSE_WITHOUT_BILATERAL_CONTACT' if not states['bilateral_contact'] else 'CONTACT_WITHOUT_STABLE_LIFT' if not states['stable_contact_lift'] else 'STABLE_LIFT_NO_10CM_TRANSPORT_PROXY' if not states['transport_10cm_contact_proxy'] else 'TRANSPORT_WITHOUT_OFFICIAL_PLACEMENT' if not states['placement_official_subpredicate'] else 'PLACEMENT_WITHOUT_RETREAT')
    rows.append(dict(**key,**r,**states,observed_failure_stage=stage,causal_failure_reason='NOT_IDENTIFIED_FROM_STAGE_PROXY'))
  csv_write(out/'cells.csv',cells);csv_write(out/'episodes.csv',rows);csv_write(out/'technical_status.csv',technical);csv_write(out/'failure_index.csv',[r for r in rows if not r['success']]);write_json(out/'analysis.json',dict(cells=cells,episodes=rows,technical=technical,formal_results_only=True))
  return cells,rows,technical
@@ -129,7 +130,7 @@ def paired(out,rows):
 def collect(final=False):
  out=PROJECT/'results/baselines';out.mkdir(parents=True,exist_ok=True)
  tr=training(out,final);cells,rows,technical=episodes(out,final);comparisons=paired(out,rows)
- for name in ['probe_suite.json','probe_suite_technical_attempt_01.json','smoke_suite.json','barx_smoke_suite.json','smoke_validation_summary.json','formal_validation_summary.json','training_suite.json','formal_suite.json','frozen_publication.json','canonical_control_semantics.json','legacy_data_settings.json','environment.json']:
+ for name in ['probe_suite.json','probe_suite_technical_attempt_01.json','smoke_suite.json','barx_smoke_suite.json','smoke_validation_summary.json','formal_validation_summary.json','closed_cell_audit.json','training_suite.json','formal_suite.json','frozen_publication.json','canonical_control_semantics.json','legacy_data_settings.json','environment.json','data_integrity_audit.json']:
   p=ROOT/name
   if p.exists():shutil.copyfile(p,out/name)
  for p in (ROOT/'probes').glob('*/status.json'):
@@ -144,17 +145,29 @@ def collect(final=False):
  status=dict(status='COMPLETE' if final else 'ACTUAL_BENCHMARK_RUNNING',directive='202611091535.md',core_learning_algorithms=4,new_learning_settings=8,models_with_training_logs=len(new),models_with_completed_tiers=sum(r['status']=='TIER_COMPLETE' for r in new),models_with_selected_checkpoints=sum(r['selected'] for r in new),formal_complete_cells=len(cells),formal_episodes=sum(c['episodes'] for c in cells),formal_technical_cells=technical,training=tr,cells=cells,paired_comparisons=comparisons,execution_root=str(ROOT))
  if final:
   suite=json.loads((ROOT/'formal_suite.json').read_text());assert suite['status'].startswith('COMPLETE')
+  status['blocked_methods_or_measurements']=suite.get('blocked',[])
+  if technical or suite.get('blocked'):status['status']='COMPLETE_WITH_TECHNICAL_BLOCKERS'
   assert len(cells)==sum(c['status']=='COMPLETE' for c in suite['cells']) and all(c['episodes']==40 for c in cells)
   files=[]
   for p in sorted(ROOT.rglob('*')):
    if p.is_file() and p.suffix!='.tmp':files.append(dict(absolute_path=str(p),bytes=p.stat().st_size,sha256=digest(p)))
   for r in csv.DictReader((out/'checkpoint_index.csv').open()):
    if not str(r['path']).startswith(str(ROOT)):files.append(dict(absolute_path=r['path'],bytes=int(r['bytes']),sha256=r['sha256']))
+  from baselines.common.paths import DATA,ASSETS
+  inputs=list((DATA/'mg_pnp_lite/1.0.0').glob('*'))+list((DATA/'panda_pnp/1.0.0').glob('*'))+list((DATA/'raw_target/human/PandaOmron').glob('*/demo_gentex_im320.hdf5'))+list((ASSETS/'clip-vit-large-patch14').glob('*'))+list(ROOT.parent.glob('*.log'))
+  for p in sorted(inputs):
+   if p.is_file():files.append(dict(absolute_path=str(p),bytes=p.stat().st_size,sha256=digest(p)))
   csv_write(out/'external_files.csv',files)
   video=[];indexed={x['absolute_path']:x for x in files}
   for r in rows:
    v=indexed[r['video_path']];h=indexed[r['telemetry_path']];video.append(dict(label=r['label'],task=r['task'],robot=r['robot'],official_index=r['official_condition_index'],condition_id=r['condition_id'],success=r['success'],video_path=r['video_path'],video_bytes=v['bytes'],video_sha256=v['sha256'],telemetry_path=r['telemetry_path'],telemetry_bytes=h['bytes'],telemetry_sha256=h['sha256']))
   csv_write(out/'video_index.csv',video)
+  representative=[];seen=set()
+  for r in rows:
+   key=(r['label'],r['task'],r['robot'],r['observed_failure_stage'])
+   if key not in seen:
+    seen.add(key);v=indexed[r['video_path']];representative.append(dict(label=r['label'],task=r['task'],robot=r['robot'],official_index=r['official_condition_index'],condition_id=r['condition_id'],success=r['success'],observed_stage=r['observed_failure_stage'],video_path=r['video_path'],video_sha256=v['sha256'],telemetry_path=r['telemetry_path'],selection_rule='FIRST_OFFICIAL_INDEX_WITH_THIS_OUTCOME_STAGE; descriptive posthoc only, no model selection'))
+  csv_write(out/'representative_cases.csv',representative)
  write_json(out/'status.json',status);print(json.dumps({k:status[k] for k in ['status','models_with_training_logs','models_with_completed_tiers','models_with_selected_checkpoints','formal_complete_cells','formal_episodes']},indent=2))
  return status
 

@@ -1,0 +1,193 @@
+{
+  "method": "EXACT_ORIGINAL_TFDS_DECODE_AND_UPSTREAM_RESIZE_RGB_HASH_PLUS_INSTRUCTION",
+  "source_samples": 2932,
+  "resolved_samples": 2932,
+  "unresolved_samples": 0,
+  "resolved_unique_source_demonstrations": 19,
+  "resolved_episode_ids": [
+    "22668c0fcc44d2587c72cc25d0136ca30c77f8602421bf1452fef08945237150",
+    "32457eb18ca743530a2aabddd5fb522922ef416a1896edac913ec73934d73a55",
+    "4c6ae1e826c725bc6bc3b841cf49c46ab68a9ceea615e313cab5bb2e75e5cccd",
+    "4ec2b708c4949bc7a2295063fe0be9a426dde3bc35871da685db7545bb51f3c1",
+    "51d5ac71f7ba3da0ed2619c07ad67290a84db20e10010cd3d3c0ec65bf07862d",
+    "5eca8abf584f98ea2214ec6f099309987c2447dbc0dbe8b81fcffe0caabd48df",
+    "6085acd93a320752c30d71ff5894a2258a99ff397e92162bd93cc27132d1849f",
+    "640d8b6b13b9a3380e77b90ea941ef7bff53b6c99d040986413a898d48272482",
+    "80dc33aadf036f6dd3896ea8275e3e32f2122691033a8efd29e81e49a576b097",
+    "82959d39767b6e1e2a774bb607e21506b8c99f638d8ea7fc73ffac52e37fa203",
+    "845e6d604f0121e45611b49a14bbe5b0d81822e5bc020195438a9b80af66393f",
+    "9615cda4432ce667fffb632aa37bf3d8a7ebd9579487549eb3032eaa6356375c",
+    "9771c8eed3e73b22536b3c3b3f5362151c1638aa58b68882e9eb966358747db8",
+    "b4ad608e869eee91381e031bc4ccf786fc027593a9a11aa95ff3858f3de08054",
+    "bbea3ac7832b946a8e698d602d2712d273047d7584a3ee7a0bc3ff1442109a0c",
+    "befe8fc24e93386c37694eb8fdc16e662c318b50cc95f17df370812cb0fb954d",
+    "e6b0e2fd57a740f515364a919f18b2e749b3785e3852cc4f3e4a44dd0e05f7d2",
+    "e88e50f015f8cdf47c8831766377a401e31ea4c3ae69678b56747630b9ee931d",
+    "f2c39e06d7ad6797522b7351aa4e6d16e4e7b3f64c6208e87b99e59540463631"
+  ],
+  "all_matched_exact_rgb_and_raw_cache_sha256": true,
+  "target_demo_coverage": "separate exact target audit",
+  "new_physics_steps": 0,
+  "unique_demonstrations_by_embodiment_and_task": {
+    "('iiwa', 'pnp_counter_to_sink')": 4,
+    "('kinova3', 'pnp_counter_to_sink')": 5,
+    "('iiwa', 'pnp_sink_to_counter')": 3,
+    "('ur5e', 'pnp_counter_to_sink')": 3,
+    "('kinova3', 'pnp_sink_to_counter')": 3,
+    "('ur5e', 'pnp_sink_to_counter')": 1
+  },
+  "resolved_original_demonstrations": [
+    {
+      "episode_id": "22668c0fcc44d2587c72cc25d0136ca30c77f8602421bf1452fef08945237150",
+      "embodiment": "iiwa",
+      "task": "pnp_counter_to_sink",
+      "original_file": "/iliad/u/jenseng/xembod/robocasa_xembod/data/mg/IIWAOmron/PnPCounterToSink/100demos_seed22/demo_gentex_im320_randcams.hdf5",
+      "original_demo": "CONTENT_ID_22668c0fcc44d2587c72cc25d0136ca30c77f8602421bf1452fef08945237150",
+      "frames": 325
+    },
+    {
+      "episode_id": "32457eb18ca743530a2aabddd5fb522922ef416a1896edac913ec73934d73a55",
+      "embodiment": "kinova3",
+      "task": "pnp_counter_to_sink",
+      "original_file": "/iliad/u/jenseng/xembod/robocasa_xembod/data/mg/Kinova3Omron/PnPCounterToSink/100demos_seed11/demo_gentex_im320_randcams.hdf5",
+      "original_demo": "CONTENT_ID_32457eb18ca743530a2aabddd5fb522922ef416a1896edac913ec73934d73a55",
+      "frames": 545
+    },
+    {
+      "episode_id": "4c6ae1e826c725bc6bc3b841cf49c46ab68a9ceea615e313cab5bb2e75e5cccd",
+      "embodiment": "iiwa",
+      "task": "pnp_counter_to_sink",
+      "original_file": "/iliad/u/jenseng/xembod/robocasa_xembod/data/mg/IIWAOmron/PnPCounterToSink/100demos_seed20/demo_gentex_im320_randcams.hdf5",
+      "original_demo": "CONTENT_ID_4c6ae1e826c725bc6bc3b841cf49c46ab68a9ceea615e313cab5bb2e75e5cccd",
+      "frames": 390
+    },
+    {
+      "episode_id": "4ec2b708c4949bc7a2295063fe0be9a426dde3bc35871da685db7545bb51f3c1",
+      "embodiment": "iiwa",
+      "task": "pnp_counter_to_sink",
+      "original_file": "/iliad/u/jenseng/xembod/robocasa_xembod/data/mg/IIWAOmron/PnPCounterToSink/100demos_seed21/demo_gentex_im320_randcams.hdf5",
+      "original_demo": "CONTENT_ID_4ec2b708c4949bc7a2295063fe0be9a426dde3bc35871da685db7545bb51f3c1",
+      "frames": 407
+    },
+    {
+      "episode_id": "51d5ac71f7ba3da0ed2619c07ad67290a84db20e10010cd3d3c0ec65bf07862d",
+      "embodiment": "kinova3",
+      "task": "pnp_counter_to_sink",
+      "original_file": "/iliad/u/jenseng/xembod/robocasa_xembod/data/mg/Kinova3Omron/PnPCounterToSink/100demos_seed11/demo_gentex_im320_randcams.hdf5",
+      "original_demo": "CONTENT_ID_51d5ac71f7ba3da0ed2619c07ad67290a84db20e10010cd3d3c0ec65bf07862d",
+      "frames": 373
+    },
+    {
+      "episode_id": "5eca8abf584f98ea2214ec6f099309987c2447dbc0dbe8b81fcffe0caabd48df",
+      "embodiment": "iiwa",
+      "task": "pnp_sink_to_counter",
+      "original_file": "/iliad/u/jenseng/xembod/robocasa_xembod/data/mg/IIWAOmron/PnPSinkToCounter/100demos_seed20/demo_gentex_im320_randcams.hdf5",
+      "original_demo": "CONTENT_ID_5eca8abf584f98ea2214ec6f099309987c2447dbc0dbe8b81fcffe0caabd48df",
+      "frames": 457
+    },
+    {
+      "episode_id": "6085acd93a320752c30d71ff5894a2258a99ff397e92162bd93cc27132d1849f",
+      "embodiment": "ur5e",
+      "task": "pnp_counter_to_sink",
+      "original_file": "/iliad/u/jenseng/xembod/robocasa_xembod/data/mg/UR5eOmron/PnPCounterToSink/100demos_seed1/demo_gentex_im320_randcams.hdf5",
+      "original_demo": "CONTENT_ID_6085acd93a320752c30d71ff5894a2258a99ff397e92162bd93cc27132d1849f",
+      "frames": 360
+    },
+    {
+      "episode_id": "640d8b6b13b9a3380e77b90ea941ef7bff53b6c99d040986413a898d48272482",
+      "embodiment": "iiwa",
+      "task": "pnp_counter_to_sink",
+      "original_file": "/iliad/u/jenseng/xembod/robocasa_xembod/data/mg/IIWAOmron/PnPCounterToSink/100demos_seed22/demo_gentex_im320_randcams.hdf5",
+      "original_demo": "CONTENT_ID_640d8b6b13b9a3380e77b90ea941ef7bff53b6c99d040986413a898d48272482",
+      "frames": 411
+    },
+    {
+      "episode_id": "80dc33aadf036f6dd3896ea8275e3e32f2122691033a8efd29e81e49a576b097",
+      "embodiment": "kinova3",
+      "task": "pnp_counter_to_sink",
+      "original_file": "/iliad/u/jenseng/xembod/robocasa_xembod/data/mg/Kinova3Omron/PnPCounterToSink/100demos_seed12/demo_gentex_im320_randcams.hdf5",
+      "original_demo": "CONTENT_ID_80dc33aadf036f6dd3896ea8275e3e32f2122691033a8efd29e81e49a576b097",
+      "frames": 389
+    },
+    {
+      "episode_id": "82959d39767b6e1e2a774bb607e21506b8c99f638d8ea7fc73ffac52e37fa203",
+      "embodiment": "kinova3",
+      "task": "pnp_counter_to_sink",
+      "original_file": "/iliad/u/jenseng/xembod/robocasa_xembod/data/mg/Kinova3Omron/PnPCounterToSink/100demos_seed12/demo_gentex_im320_randcams.hdf5",
+      "original_demo": "CONTENT_ID_82959d39767b6e1e2a774bb607e21506b8c99f638d8ea7fc73ffac52e37fa203",
+      "frames": 384
+    },
+    {
+      "episode_id": "845e6d604f0121e45611b49a14bbe5b0d81822e5bc020195438a9b80af66393f",
+      "embodiment": "kinova3",
+      "task": "pnp_counter_to_sink",
+      "original_file": "/iliad/u/jenseng/xembod/robocasa_xembod/data/mg/Kinova3Omron/PnPCounterToSink/100demos_seed11/demo_gentex_im320_randcams.hdf5",
+      "original_demo": "CONTENT_ID_845e6d604f0121e45611b49a14bbe5b0d81822e5bc020195438a9b80af66393f",
+      "frames": 381
+    },
+    {
+      "episode_id": "9615cda4432ce667fffb632aa37bf3d8a7ebd9579487549eb3032eaa6356375c",
+      "embodiment": "ur5e",
+      "task": "pnp_counter_to_sink",
+      "original_file": "/iliad/u/jenseng/xembod/robocasa_xembod/data/mg/UR5eOmron/PnPCounterToSink/100demos_seed2/demo_gentex_im320_randcams.hdf5",
+      "original_demo": "CONTENT_ID_9615cda4432ce667fffb632aa37bf3d8a7ebd9579487549eb3032eaa6356375c",
+      "frames": 391
+    },
+    {
+      "episode_id": "9771c8eed3e73b22536b3c3b3f5362151c1638aa58b68882e9eb966358747db8",
+      "embodiment": "kinova3",
+      "task": "pnp_sink_to_counter",
+      "original_file": "/iliad/u/jenseng/xembod/robocasa_xembod/data/mg/Kinova3Omron/PnPSinkToCounter/100demos_seed11/demo_gentex_im320_randcams.hdf5",
+      "original_demo": "CONTENT_ID_9771c8eed3e73b22536b3c3b3f5362151c1638aa58b68882e9eb966358747db8",
+      "frames": 603
+    },
+    {
+      "episode_id": "b4ad608e869eee91381e031bc4ccf786fc027593a9a11aa95ff3858f3de08054",
+      "embodiment": "ur5e",
+      "task": "pnp_sink_to_counter",
+      "original_file": "/iliad/u/jenseng/xembod/robocasa_xembod/data/mg/UR5eOmron/PnPSinkToCounter/100demos_seed2/demo_gentex_im320_randcams.hdf5",
+      "original_demo": "CONTENT_ID_b4ad608e869eee91381e031bc4ccf786fc027593a9a11aa95ff3858f3de08054",
+      "frames": 459
+    },
+    {
+      "episode_id": "bbea3ac7832b946a8e698d602d2712d273047d7584a3ee7a0bc3ff1442109a0c",
+      "embodiment": "ur5e",
+      "task": "pnp_counter_to_sink",
+      "original_file": "/iliad/u/jenseng/xembod/robocasa_xembod/data/mg/UR5eOmron/PnPCounterToSink/100demos_seed0/demo_gentex_im320_randcams.hdf5",
+      "original_demo": "CONTENT_ID_bbea3ac7832b946a8e698d602d2712d273047d7584a3ee7a0bc3ff1442109a0c",
+      "frames": 363
+    },
+    {
+      "episode_id": "befe8fc24e93386c37694eb8fdc16e662c318b50cc95f17df370812cb0fb954d",
+      "embodiment": "kinova3",
+      "task": "pnp_sink_to_counter",
+      "original_file": "/iliad/u/jenseng/xembod/robocasa_xembod/data/mg/Kinova3Omron/PnPSinkToCounter/100demos_seed10/demo_gentex_im320_randcams.hdf5",
+      "original_demo": "CONTENT_ID_befe8fc24e93386c37694eb8fdc16e662c318b50cc95f17df370812cb0fb954d",
+      "frames": 543
+    },
+    {
+      "episode_id": "e6b0e2fd57a740f515364a919f18b2e749b3785e3852cc4f3e4a44dd0e05f7d2",
+      "embodiment": "iiwa",
+      "task": "pnp_sink_to_counter",
+      "original_file": "/iliad/u/jenseng/xembod/robocasa_xembod/data/mg/IIWAOmron/PnPSinkToCounter/100demos_seed20/demo_gentex_im320_randcams.hdf5",
+      "original_demo": "CONTENT_ID_e6b0e2fd57a740f515364a919f18b2e749b3785e3852cc4f3e4a44dd0e05f7d2",
+      "frames": 452
+    },
+    {
+      "episode_id": "e88e50f015f8cdf47c8831766377a401e31ea4c3ae69678b56747630b9ee931d",
+      "embodiment": "iiwa",
+      "task": "pnp_sink_to_counter",
+      "original_file": "/iliad/u/jenseng/xembod/robocasa_xembod/data/mg/IIWAOmron/PnPSinkToCounter/100demos_seed20/demo_gentex_im320_randcams.hdf5",
+      "original_demo": "CONTENT_ID_e88e50f015f8cdf47c8831766377a401e31ea4c3ae69678b56747630b9ee931d",
+      "frames": 557
+    },
+    {
+      "episode_id": "f2c39e06d7ad6797522b7351aa4e6d16e4e7b3f64c6208e87b99e59540463631",
+      "embodiment": "kinova3",
+      "task": "pnp_sink_to_counter",
+      "original_file": "/iliad/u/jenseng/xembod/robocasa_xembod/data/mg/Kinova3Omron/PnPSinkToCounter/100demos_seed11/demo_gentex_im320_randcams.hdf5",
+      "original_demo": "CONTENT_ID_f2c39e06d7ad6797522b7351aa4e6d16e4e7b3f64c6208e87b99e59540463631",
+      "frames": 545
+    }
+  ]
+}

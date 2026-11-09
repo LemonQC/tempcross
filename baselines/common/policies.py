@@ -1,9 +1,10 @@
 """Existing neural policies behind the common RGB/language boundary."""
 from collections import deque
+import inspect
 import json,sys
 import cv2,numpy as np
 from baselines.common.policy_interface import BasePolicy
-from baselines.common.paths import SOURCE
+from baselines.common.paths import SOURCE,digest
 
 
 class RobomimicPolicy(BasePolicy):
@@ -12,6 +13,7 @@ class RobomimicPolicy(BasePolicy):
   import torch
   from baselines.common.model_factory import make_model
   p=torch.load(path,map_location='cpu');self.method=p['method'];self.model,self.config=make_model(self.method,config=p['config']);self.model.deserialize(p['model']);self.model.set_eval()
+  source=inspect.getfile(type(self.model));self.runtime_metadata=dict(algorithm_class=type(self.model).__name__,algorithm_source_path=source,algorithm_source_sha256=digest(source))
   self.context=10 if self.method=='bc_transformer' else 2 if self.method=='diffusion_policy' else 1
   self.history=deque(maxlen=self.context);self.query=None
   if self.method=='diffusion_policy':
@@ -47,6 +49,7 @@ class BarxPolicy(BasePolicy):
   from experiments.robot.robocasa_x.utils import patch_model_for_generation
   self.cfg=GenerateConfig(pretrained_checkpoint=str(path),unnorm_key='mg_pnp_lite',act_horizon=8)
   self.model=patch_model_for_generation(get_model(self.cfg));self.queue=deque();self.reset()
+  source=inspect.getfile(type(self.model));self.runtime_metadata=dict(algorithm_class=type(self.model).__name__,algorithm_source_path=source,algorithm_source_sha256=digest(source))
  def reset(self):self.queue.clear()
  def predict_action(self,observation):
   assert set(observation)=={'rgb','instruction'}
