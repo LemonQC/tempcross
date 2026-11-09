@@ -11,3 +11,16 @@ configs/scenes_measured*.json
 evidence/v1/trials.json
 evidence/dev_smoke/trials.json
 evidence/implementation_interrupted/trials.json
+
+# Version the baseline benchmark's small evidence, not server model/video data.
+!results/
+results/*
+!results/baselines/
+results/baselines/*
+!results/baselines/**/
+!results/baselines/**/*.json
+!results/baselines/**/*.jsonl
+!results/baselines/**/*.csv
+!results/baselines/**/*.md
+!results/baselines/**/*.txt
+!results/baselines/**/*.svg

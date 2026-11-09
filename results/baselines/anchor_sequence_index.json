@@ -1,0 +1,22 @@
+[
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/data/source_train_anchors.npy",
+    "bytes": 6144128,
+    "sha256": "501777a471b19c7462aeef85dff14b6e9b12ec84529eb1b84bb5d29530a5055b"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/data/source_validation_anchors.npy",
+    "bytes": 2176,
+    "sha256": "b18f9c32b8897fb4be8e4797b085c690843b0396e462fc1c272b157495498c79"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/data/target_train_anchors.npy",
+    "bytes": 6144128,
+    "sha256": "d63a36b43c3229736ada884def7607e365509919e7d993fffabc5ff588a9ae5e"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/data/target_validation_anchors.npy",
+    "bytes": 2176,
+    "sha256": "c85aeec35a90b1ac75363c06a36be64c36ad7b5a2678d04bb368de20817eb80b"
+  }
+]

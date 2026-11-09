@@ -1,0 +1,186 @@
+{
+  "version": "BASELINE_202611091535",
+  "baseline_commit": "bd0e2864eece26fe27b2b4ccb4fae889cbdf7c82",
+  "official_source_commit": "0f435089f48b1f16d225f868dbef855a5e75d1e0",
+  "robomimic_commit": "ae5799f0fae05c4559ee1f9645b0f77eb5251929",
+  "tasks": {
+    "pnp_counter_to_sink": {
+      "max_steps": 600,
+      "control_hz": 20,
+      "target_robot": "PandaOmron",
+      "gripper": "Robotiq85Gripper",
+      "success": "unchanged official info.is_success.task"
+    },
+    "pnp_sink_to_counter": {
+      "max_steps": 650,
+      "control_hz": 20,
+      "target_robot": "PandaOmron",
+      "gripper": "Robotiq85Gripper",
+      "success": "unchanged official info.is_success.task"
+    }
+  },
+  "development_indices": [
+    0,
+    1
+  ],
+  "final_indices": [
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99
+  ],
+  "per_cell_episodes": 40,
+  "information": {
+    "policy_keys": [
+      "rgb",
+      "instruction"
+    ],
+    "no_proprioception": true,
+    "no_depth": true,
+    "no_point_cloud": true,
+    "no_object_truth": true,
+    "telemetry_never_passed_to_policy": true
+  },
+  "data": {
+    "target_pool": 100,
+    "target_train": 90,
+    "target_validation": 10,
+    "per_task_train": 45,
+    "per_task_validation": 5,
+    "split_rule": "whole demos sorted sha256(20261109:episode_id); first 10% validation, separately by task/robot",
+    "source_pool": 1800,
+    "source_embodiments": [
+      "iiwa",
+      "kinova3",
+      "ur5e"
+    ],
+    "source_per_task_per_robot": 300,
+    "source_train": 1620,
+    "source_validation": 180,
+    "rgb": {
+      "size": [
+        128,
+        128
+      ],
+      "resize": "OpenCV INTER_AREA, RGB, no added flip; same in train/inference",
+      "train_crop": [
+        116,
+        116
+      ],
+      "eval_crop": "upstream center crop"
+    },
+    "language": "frozen official CLIP-L/14 projection, exact per-episode instruction; official max_length25 padding convention",
+    "actions": "identity canonical 7D normalized base-frame OSC delta + actual [-1,+1] gripper; base/torso0 and arm-mode-1",
+    "terminal": "official RLDS last action repeat prior gripper and zero arm"
+  },
+  "sampling": {
+    "seed": 20261109,
+    "target": "task-balanced, demonstration-balanced, uniform anchor frame; identical target sequence shared by B/C",
+    "source": "uniform over 3 source embodiments and 2 tasks, demonstration-balanced, uniform frame",
+    "joint": "one target minibatch and one source minibatch per update; target exposure identical to matched B, twice total exposure"
+  },
+  "budgets": {
+    "initial_anchor_positions": 96000,
+    "extension_tiers": [
+      192000,
+      384000,
+      768000
+    ],
+    "batch_candidates_target": [
+      16,
+      8,
+      4
+    ],
+    "joint_batch": "twice selected target batch",
+    "resource_selection": "first successful actual forward/backward/optimizer step; discard probe and restart from identical seed",
+    "validation_every_target_anchors": 12000,
+    "validation_anchors": 256,
+    "stop": "At each tier >=96000, stop if relative reduction between means of last3 and prior3 fixed-validation metrics is <=2%; otherwise next tier, capped at768000. B/C architecture pairs extend together until both plateau or cap.",
+    "selection": "final checkpoint at common stopped tier, never final test; validation diagnoses convergence and determines predeclared extension only",
+    "source_only": "same rule using source validation only, zero target demos/validation",
+    "metrics": "BC fixed-seed expected-action MSE and NLL separately; DP fixed-noise denoising MSE",
+    "unconverged_at_cap": "report BUDGET_LIMITED_NOT_CONVERGED, do not declare algorithm intrinsically worse"
+  },
+  "algorithms": {
+    "bc_gmm": "official BC_GMM, ResNet18+SpatialSoftmax64, GMM5, actor1024x1024",
+    "bc_rnn": "official BC_RNN_GMM, LSTM400x2, context10, GMM5",
+    "bc_transformer": "official BC_Transformer_GMM, 512d/6layers/8heads/context10, GMM5",
+    "diffusion_policy": "official robomimic port, UNet[256,512,1024], obs2/action8/pred16, EMA.75, 100 training noise steps, 10-step DDIM inference"
+  },
+  "optimizer": {
+    "bc_gmm": "Adam1e-4 constant",
+    "bc_rnn": "Adam1e-4 constant",
+    "bc_transformer": "AdamW1e-4, wd.01 constant; declared fixed-step schedule deviation",
+    "diffusion_policy": "AdamW1e-4 wd1e-6, cosine to cap, warmup500; upstream scheduler/EMA"
+  },
+  "models": [
+    "A_barx_no_reps",
+    "A_barx_joint",
+    "A_source_bc_transformer",
+    "A_source_diffusion_policy",
+    "B_bc_gmm",
+    "B_bc_rnn",
+    "B_bc_transformer",
+    "B_diffusion_policy",
+    "C_barx_no_reps_6000",
+    "C_barx_joint_96000",
+    "C_bc_transformer",
+    "C_diffusion_policy"
+  ],
+  "reference_robots": {
+    "ur5e": [
+      "A_barx_no_reps",
+      "A_barx_joint"
+    ]
+  },
+  "smoke": {
+    "per_model_per_task_conditions": [
+      0
+    ],
+    "full_rollout": true,
+    "probe_updates": 1
+  },
+  "legacy_barx": "Reuse immutable source/LoRA weights; full100 target exposure and 224px preprocessing differ from new 90/10-128px models; separate legacy setting, not matched-data causal ranking",
+  "tests": {
+    "condition_manifest_sha256": "e131670770227d0a1a983750a4f3caa650f058ed1cbd1436fcf6a6783b13a2cf",
+    "bundle_manifest_sha256": "54c5d82d8e9ce180ce842075ad7a3c0a34b6754facd72d96feeaafae6906a2d5",
+    "source_manifest_sha256": "fa913dc702e85e4da7ac364609dc714c5cd901b1751480628a1f167efd244298",
+    "target_manifest_sha256": "ad8c4c7a878e0096a612266674507314c1385c1b0af25b1496df363e11ca4cb5"
+  }
+}

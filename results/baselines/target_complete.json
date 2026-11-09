@@ -1,0 +1,18 @@
+{
+  "status": "COMPLETE",
+  "demonstrations": 100,
+  "train": 90,
+  "validation": 10,
+  "packed_file": "/home/users/lemon/baseline-benchmark/run-20261109/data/target.h5",
+  "bytes": 1306650604,
+  "sha256": "f26b2fb01808b5be41648b854d40aefe1060e5d05128e8336af185e33c648bba",
+  "image_resolution": [
+    128,
+    128
+  ],
+  "terminal_action_rule": "official RLDS: repeat previous gripper; final arm delta zero",
+  "policy_observations": [
+    "rgb",
+    "verbatim language instruction"
+  ]
+}

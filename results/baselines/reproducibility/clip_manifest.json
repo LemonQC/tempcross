@@ -1,0 +1,55 @@
+{
+  "repo": "openai/clip-vit-large-patch14",
+  "revision": "32bd64288804d66eefd0ccbe215aa642df71cc41",
+  "files": [
+    {
+      "filename": "config.json",
+      "size": 4519,
+      "sha256": null,
+      "git_blob": "2c19f6666e0e163c7954df66cb901353fcad088e",
+      "path": "/home/users/lemon/baseline-benchmark/assets/clip-vit-large-patch14/config.json"
+    },
+    {
+      "filename": "tokenizer.json",
+      "size": 2224003,
+      "sha256": null,
+      "git_blob": "580c79c6862f31d1f9bd08dd1a415ba0d0502cd9",
+      "path": "/home/users/lemon/baseline-benchmark/assets/clip-vit-large-patch14/tokenizer.json"
+    },
+    {
+      "filename": "tokenizer_config.json",
+      "size": 905,
+      "sha256": null,
+      "git_blob": "702bb12920b291cade3706cf215c1604d2255d93",
+      "path": "/home/users/lemon/baseline-benchmark/assets/clip-vit-large-patch14/tokenizer_config.json"
+    },
+    {
+      "filename": "vocab.json",
+      "size": 961143,
+      "sha256": null,
+      "git_blob": "4297ea6a8d2bae1fea8f48b45e257814dcb11f69",
+      "path": "/home/users/lemon/baseline-benchmark/assets/clip-vit-large-patch14/vocab.json"
+    },
+    {
+      "filename": "merges.txt",
+      "size": 524619,
+      "sha256": null,
+      "git_blob": "76e821f1b6f0a9709293c3b6b51ed90980b3166b",
+      "path": "/home/users/lemon/baseline-benchmark/assets/clip-vit-large-patch14/merges.txt"
+    },
+    {
+      "filename": "special_tokens_map.json",
+      "size": 389,
+      "sha256": null,
+      "git_blob": "9bfb42aa97dcd61e89f279ccaee988bccb4fabae",
+      "path": "/home/users/lemon/baseline-benchmark/assets/clip-vit-large-patch14/special_tokens_map.json"
+    },
+    {
+      "filename": "model.safetensors",
+      "size": 1710540580,
+      "sha256": "a2bf730a0c7debf160f7a6b50b3aaf3703e7e88ac73de7a314903141db026dcb",
+      "git_blob": "cacafd1899a1fbf021fe1eeaafebc9bc6d2a9c07",
+      "path": "/home/users/lemon/baseline-benchmark/assets/clip-vit-large-patch14/model.safetensors"
+    }
+  ]
+}

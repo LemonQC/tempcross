@@ -1,0 +1,18 @@
+{
+  "status": "COMPLETE",
+  "demonstrations": 1800,
+  "train": 1620,
+  "validation": 180,
+  "counts": {
+    "('IIWA', 'pnp_counter_to_sink')": 300,
+    "('Kinova3', 'pnp_counter_to_sink')": 300,
+    "('UR5e', 'pnp_counter_to_sink')": 300,
+    "('UR5e', 'pnp_sink_to_counter')": 300,
+    "('Kinova3', 'pnp_sink_to_counter')": 300,
+    "('IIWA', 'pnp_sink_to_counter')": 300
+  },
+  "packed_file": "/home/users/lemon/baseline-benchmark/run-20261109/data/source.h5",
+  "bytes": 29016448897,
+  "sha256": "28051d1ae35c264e5c895912eb6465e32f16bb472055f23bb832bce9b57270bf",
+  "canonical_gripper": "raw TFDS [-1,+1]; no inverse of pretraining-normalized labels"
+}

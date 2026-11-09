@@ -1,0 +1,21 @@
+{
+  "status": "IMPLEMENTING_COMMON_TRAINER_AND_EVALUATOR",
+  "directive": "202611091535.md",
+  "formal_episodes": 0,
+  "trained_learning_models": 0,
+  "model_construction_verified": [
+    "BC_GMM",
+    "BC_RNN_GMM",
+    "BC_Transformer_GMM",
+    "DiffusionPolicyUNet"
+  ],
+  "target_demos_prepared": 100,
+  "source_demos_prepared": 1800,
+  "source_robots": [
+    "IIWA",
+    "Kinova3",
+    "UR5e"
+  ],
+  "training_not_claimed_complete": true,
+  "execution_root": "/home/users/lemon/baseline-benchmark/run-20261109"
+}
