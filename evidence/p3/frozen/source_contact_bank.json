@@ -1,0 +1,1498 @@
+[
+  {
+    "official_index": 22,
+    "source_trial_index": 2,
+    "panda_trial_index": 2,
+    "source_condition": {
+      "episode": 22,
+      "condition_id": "cde81258b2a2106f",
+      "seed": 1034,
+      "state_sha256": "774af733d34707cf0dea621ea0d21c42b9b49e1160e8310f4817f3810272a5f8",
+      "model_sha256": "0dcaa20bb8c4480caff70e7aa1511c61097447fc9537f694296e45a6cebd2fdc",
+      "metadata_sha256": "a1dc310d67dd00a358c775a95abb4044d373cdefdda6b88a96670c36e99a873c"
+    },
+    "panda_condition": {
+      "episode": 22,
+      "condition_id": "f10b5deb7793b0f8",
+      "seed": 1034,
+      "state_sha256": "737fd60ab8fa77a023fb6a0a1bcad252563f60f8334365165465f63d4014f90e",
+      "model_sha256": "0569924af10e9686b9508bb1bf1187e45de11a57ed58cbda7653b899febc9d5a",
+      "metadata_sha256": "a1dc310d67dd00a358c775a95abb4044d373cdefdda6b88a96670c36e99a873c"
+    },
+    "source_telemetry": "/home/users/lemon/coft-p2/p2/physical-20261108/formal/original-joint_reps-ur5e/telemetry/episode-002.h5",
+    "source_telemetry_sha256": "adff0f65d4248ede607d73d65cc12a42e3fd519618abfc8b75c790ed83972f74",
+    "panda_telemetry": "/home/users/lemon/coft-p2/p2/physical-20261108/formal/original-joint_reps-panda/telemetry/episode-002.h5",
+    "panda_telemetry_sha256": "15c8662120be733a458e964a06478781131f755367b8ce68e6aa2ea64a0bab5e",
+    "contact_state_index": 203,
+    "contact_confirmation_states": 10,
+    "lift_confirmation_start_state": 258,
+    "release_state_index": 440,
+    "release_rule": "first open command after confirmed lift, else last contact plus one",
+    "T_object_tcp": [
+      [
+        -0.987415667949598,
+        -0.15699563873955408,
+        -0.019043846891038628,
+        0.0014628123899502743
+      ],
+      [
+        -0.1581291751403856,
+        0.9819029986720529,
+        0.10421931283717156,
+        0.004906653187141785
+      ],
+      [
+        0.0023372327806931194,
+        0.10591917019874353,
+        -0.9943719961500018,
+        0.003148454609119611
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "T_sink_release_tcp": [
+      [
+        -0.9998465083218208,
+        -0.000912342951933586,
+        0.01749649756385983,
+        0.33767850157072865
+      ],
+      [
+        0.0003633520631244619,
+        0.9973486819434819,
+        0.07277001168667213,
+        0.05681516850151258
+      ],
+      [
+        -0.017516499991217398,
+        0.07276519948394447,
+        -0.9971952657188664,
+        -0.18018205426065437
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "T_world_sink_target": [
+      [
+        -3.673205103360555e-06,
+        0.999999999993254,
+        0.0,
+        4.099998164134114
+      ],
+      [
+        -0.999999999993254,
+        -3.673205103360555e-06,
+        -0.0,
+        -1.199798898035097
+      ],
+      [
+        -0.0,
+        0.0,
+        1.0000000000000002,
+        0.96125
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "source_tcp_world": [
+      [
+        -0.2174421587093067,
+        0.975221195482792,
+        -0.04077410326359868,
+        4.009952811007232
+      ],
+      [
+        0.9759246780561107,
+        0.2179480240454317,
+        0.008347549087516197,
+        -1.741037161565578
+      ],
+      [
+        0.017027342039004554,
+        -0.03797734450703273,
+        -0.9991335200699059,
+        0.9369036241433994
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "source_object_world": [
+      [
+        0.06237681566485148,
+        0.9877071163868613,
+        0.14333103329797486,
+        4.004563957905432
+      ],
+      [
+        -0.9980191765450454,
+        0.06055162985447443,
+        0.017065267953274454,
+        -1.7399280818178755
+      ],
+      [
+        0.008176558925579502,
+        -0.144111596898788,
+        0.989527660817735,
+        0.9344832860733706
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "source_grasp_geometry": {
+      "inner_pad_gap_m": 0.05479645122572777,
+      "left_pad_position": [
+        4.003537446229323,
+        -1.7116595650740765,
+        0.9407582748636287
+      ],
+      "right_pad_position": [
+        4.0163180074602165,
+        -1.768779670320044,
+        0.9411442979280796
+      ],
+      "gripper_qpos": [
+        0.32602681151854274,
+        -0.392361378238272,
+        0.12864842767197898,
+        0.32321209881318047,
+        -0.33273925085493666,
+        0.103160793182575
+      ]
+    },
+    "sensor_vs_simulator_max_position_error_m": 0.000507343584300204,
+    "sensor_vs_simulator_max_rotation_error_rad": 0.0008181355782982956,
+    "original_closest_action_index": 209,
+    "branch_action_index": 193,
+    "object_asset": "/home/users/lemon/coft-p2/barx/robocasa_x/robocasa/models/assets/objects/objaverse/sponge/sponge_0/model.xml",
+    "source_and_target_object_asset_identical": true
+  },
+  {
+    "official_index": 24,
+    "source_trial_index": 4,
+    "panda_trial_index": 4,
+    "source_condition": {
+      "episode": 24,
+      "condition_id": "f946a010c68060e2",
+      "seed": 1038,
+      "state_sha256": "e746db44b7d22a7c524cac744b68e5937dd8de28050ffd6aab4fe3f53936deb4",
+      "model_sha256": "ac3f54f51edb01e239ac31e873819b51e5b47bbdce906944da896c3fab6b9d55",
+      "metadata_sha256": "be906e1f3c67fe9f3a356514b02ec648aac0bfbb47df5ca5a8cfd267220a2718"
+    },
+    "panda_condition": {
+      "episode": 24,
+      "condition_id": "262b376ac447f272",
+      "seed": 1038,
+      "state_sha256": "9edf4a0b9d8c9d37567518f2223e54d2430c6777de97f8501b65d4b1a795bd46",
+      "model_sha256": "6f22f02a07798a4c294a7f17f60aa2ad6e915a9a9bbd11445cfbe81ec908c956",
+      "metadata_sha256": "be906e1f3c67fe9f3a356514b02ec648aac0bfbb47df5ca5a8cfd267220a2718"
+    },
+    "source_telemetry": "/home/users/lemon/coft-p2/p2/physical-20261108/formal/original-joint_reps-ur5e/telemetry/episode-004.h5",
+    "source_telemetry_sha256": "4fb88c3e9302069e6ed49ebd6180103fbb2beccb9738e2f5f65032e628260051",
+    "panda_telemetry": "/home/users/lemon/coft-p2/p2/physical-20261108/formal/original-joint_reps-panda/telemetry/episode-004.h5",
+    "panda_telemetry_sha256": "8b8f018b46c589606c05fbfc4526c89a3d1252f5834dacf4eb7f484a48ad52c1",
+    "contact_state_index": 162,
+    "contact_confirmation_states": 10,
+    "lift_confirmation_start_state": 213,
+    "release_state_index": 352,
+    "release_rule": "first open command after confirmed lift, else last contact plus one",
+    "T_object_tcp": [
+      [
+        -0.9924609002290308,
+        0.10279351472196524,
+        0.06674469902312304,
+        0.0034645166419773332
+      ],
+      [
+        0.09968749894305068,
+        0.9938450123905749,
+        -0.04831660067572534,
+        -0.011407030085424541
+      ],
+      [
+        -0.07130051943051646,
+        -0.041298724889315144,
+        -0.9965995440754805,
+        -0.009655036481099444
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "T_sink_release_tcp": [
+      [
+        -0.9982857279370047,
+        0.05548277805455907,
+        -0.01863509422120582,
+        0.29460915238809027
+      ],
+      [
+        0.0545738454117304,
+        0.9974413797097539,
+        0.04617780245615085,
+        0.02636634412637484
+      ],
+      [
+        0.021149486855742684,
+        0.04508165238820863,
+        -0.9987594023706049,
+        -0.19770512091540948
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "T_world_sink_target": [
+      [
+        -3.673205103360555e-06,
+        0.999999999993254,
+        0.0,
+        4.099998164134114
+      ],
+      [
+        -0.999999999993254,
+        -3.673205103360555e-06,
+        -0.0,
+        -1.199798898035097
+      ],
+      [
+        -0.0,
+        0.0,
+        1.0000000000000002,
+        0.96125
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "source_tcp_world": [
+      [
+        -0.2355926890948511,
+        0.9715941433726155,
+        -0.022380916180759415,
+        3.9298489601065154
+      ],
+      [
+        0.9697753076362475,
+        0.2365315930325228,
+        0.05990541041106868,
+        -1.7175556986521816
+      ],
+      [
+        0.06349753966948962,
+        -0.007591183144302675,
+        -0.9979531233451756,
+        0.93559367713344
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "source_object_world": [
+      [
+        0.33219630167265574,
+        0.9432097173034963,
+        -0.0010229072629840408,
+        3.9394474059061717
+      ],
+      [
+        -0.9341517924582134,
+        0.32885579317000807,
+        -0.1386156410569605,
+        -1.7119063853658771
+      ],
+      [
+        -0.13040723063587062,
+        0.04700315396634167,
+        0.9903457263577702,
+        0.9461434656625013
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "source_grasp_geometry": {
+      "inner_pad_gap_m": 0.024133787937873047,
+      "left_pad_position": [
+        3.9261318887380434,
+        -1.7020640862505243,
+        0.9425452928299238
+      ],
+      "right_pad_position": [
+        3.9335693265408973,
+        -1.7326236388609257,
+        0.9422648819495427
+      ],
+      "gripper_qpos": [
+        0.4646537629412618,
+        -0.33157283210264177,
+        0.24257296803066078,
+        0.45937745278808895,
+        -0.2704782038823951,
+        0.21073201951604953
+      ]
+    },
+    "sensor_vs_simulator_max_position_error_m": 0.0003231955842133908,
+    "sensor_vs_simulator_max_rotation_error_rad": 0.0007726399672709893,
+    "original_closest_action_index": 136,
+    "branch_action_index": 120,
+    "object_asset": "/home/users/lemon/coft-p2/barx/robocasa_x/robocasa/models/assets/objects/objaverse/carrot/carrot_3/model.xml",
+    "source_and_target_object_asset_identical": true
+  },
+  {
+    "official_index": 26,
+    "source_trial_index": 6,
+    "panda_trial_index": 6,
+    "source_condition": {
+      "episode": 26,
+      "condition_id": "f4664c677912682a",
+      "seed": 1040,
+      "state_sha256": "ed61500d4b0daa633e391c69458dc15d399caa2e4c53e2865b5d3e4a66ce8ccd",
+      "model_sha256": "ee55d7af09a3f952b896f4571dd3152985c2aff2adbbf18261c85c8765302b00",
+      "metadata_sha256": "aacb56b6161d3bf536d88208afb0ee0429a471cf814d7e705d96aa4642375f6f"
+    },
+    "panda_condition": {
+      "episode": 26,
+      "condition_id": "6b53f5548b20cd0f",
+      "seed": 1040,
+      "state_sha256": "ca48672f50d4d1a550117cb347c3a9063db6f45c689092a14e0e53315ce02883",
+      "model_sha256": "bac213fd6fce1bbfc549b2a1eaabcca5f201b438581785b5726b88982ac96e4f",
+      "metadata_sha256": "aacb56b6161d3bf536d88208afb0ee0429a471cf814d7e705d96aa4642375f6f"
+    },
+    "source_telemetry": "/home/users/lemon/coft-p2/p2/physical-20261108/formal/original-joint_reps-ur5e/telemetry/episode-006.h5",
+    "source_telemetry_sha256": "c79a2f7e90f03591dd5a4b0d18d0cc98a6a1b3e3e8d5288a1ca4e7fec0a9dcdd",
+    "panda_telemetry": "/home/users/lemon/coft-p2/p2/physical-20261108/formal/original-joint_reps-panda/telemetry/episode-006.h5",
+    "panda_telemetry_sha256": "8a0552b233d7c33c65076865397d009c256047ad8a6f5d3105c7d6a61bd72467",
+    "contact_state_index": 255,
+    "contact_confirmation_states": 10,
+    "lift_confirmation_start_state": 286,
+    "release_state_index": 432,
+    "release_rule": "first open command after confirmed lift, else last contact plus one",
+    "T_object_tcp": [
+      [
+        -0.9941378228201244,
+        -0.1061807708340558,
+        -0.02038708276209603,
+        -0.0003823351420468857
+      ],
+      [
+        -0.10796707273169631,
+        0.9849552115631108,
+        0.13493088015875299,
+        0.030622553991436097
+      ],
+      [
+        0.005753298550520949,
+        0.13634102507958812,
+        -0.9906452566060343,
+        0.0018108522985009756
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "T_sink_release_tcp": [
+      [
+        -0.9957469440888788,
+        -0.09150597038521037,
+        0.010708908512117372,
+        0.1280524674056065
+      ],
+      [
+        -0.09119051312359872,
+        0.9954686208056597,
+        0.026953947902539906,
+        -0.04146483360537001
+      ],
+      [
+        -0.013126829545425791,
+        0.02586276039287129,
+        -0.9995793134969065,
+        -0.1333864335170254
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "T_world_sink_target": [
+      [
+        -3.673205103360555e-06,
+        -0.999999999993254,
+        0.0,
+        0.3006130303066353
+      ],
+      [
+        0.999999999993254,
+        -3.673205103360555e-06,
+        0.0,
+        -1.926998895772361
+      ],
+      [
+        0.0,
+        0.0,
+        1.0000000000000002,
+        0.9381176470588236
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "source_tcp_world": [
+      [
+        0.13653639141175172,
+        -0.9893548633363834,
+        -0.05034648163380476,
+        0.4938205951534021
+      ],
+      [
+        -0.9906044724195743,
+        -0.13595638689597672,
+        -0.014786483169727496,
+        -1.467347972816441
+      ],
+      [
+        0.0077841532997547334,
+        0.051892342930702134,
+        -0.9986223468872347,
+        0.9364211441713721
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "source_object_world": [
+      [
+        -0.029659110988467297,
+        -0.9960049583103019,
+        -0.08422861839462426,
+        0.524461996631804
+      ],
+      [
+        0.9995347807036428,
+        -0.02895343988495902,
+        -0.009587517016850157,
+        -1.4660618256907378
+      ],
+      [
+        0.007110506247385247,
+        -0.08447379084734816,
+        0.9964003308714746,
+        0.9372063321594867
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "source_grasp_geometry": {
+      "inner_pad_gap_m": 0.06440215875228265,
+      "left_pad_position": [
+        0.49877059993696865,
+        -1.5013292486356749,
+        0.9417656672358165
+      ],
+      "right_pad_position": [
+        0.48945847423140687,
+        -1.433507988719504,
+        0.9419147566332369
+      ],
+      "gripper_qpos": [
+        0.24787835990688423,
+        -0.3199399391969209,
+        0.037556161508583805,
+        0.23984380334350694,
+        -0.29085763331253356,
+        0.013537109113152285
+      ]
+    },
+    "sensor_vs_simulator_max_position_error_m": 0.0004170842905326143,
+    "sensor_vs_simulator_max_rotation_error_rad": 0.001246422002411147,
+    "original_closest_action_index": 150,
+    "branch_action_index": 134,
+    "object_asset": "/home/users/lemon/coft-p2/barx/robocasa_x/robocasa/models/assets/objects/objaverse/sponge/sponge_0/model.xml",
+    "source_and_target_object_asset_identical": true
+  },
+  {
+    "official_index": 29,
+    "source_trial_index": 9,
+    "panda_trial_index": 9,
+    "source_condition": {
+      "episode": 29,
+      "condition_id": "27fe33e7d93737c8",
+      "seed": 1045,
+      "state_sha256": "6e9d12b8686b11ab91b669d0c3f2bece108cf72e40de9b24a41a16740d0f59c1",
+      "model_sha256": "3d4a7d3adc1f7f9e2534fde0789a82b2b40a184b6373bf39d619c43df4ec7fd5",
+      "metadata_sha256": "4084dec423563d8389d5cff404b41c86f86d6148d89b2e18c283c1329e62108b"
+    },
+    "panda_condition": {
+      "episode": 29,
+      "condition_id": "99b5e9fd9e624ff5",
+      "seed": 1045,
+      "state_sha256": "e93ab426a83fb57fc84d7a8b0035f707616e29cf2081230fdf02dde0d517e3c4",
+      "model_sha256": "60b235535bb7e88cccfc8944d320948723f9cf9448cb13e6f3e6e8c4742c7fb4",
+      "metadata_sha256": "4084dec423563d8389d5cff404b41c86f86d6148d89b2e18c283c1329e62108b"
+    },
+    "source_telemetry": "/home/users/lemon/coft-p2/p2/physical-20261108/formal/original-joint_reps-ur5e/telemetry/episode-009.h5",
+    "source_telemetry_sha256": "b508c878f6fb9b4565cbae37658f1f87b18e6f2470fb1b03d6b7dd87286374bb",
+    "panda_telemetry": "/home/users/lemon/coft-p2/p2/physical-20261108/formal/original-joint_reps-panda/telemetry/episode-009.h5",
+    "panda_telemetry_sha256": "0f0ad4c2286e06e8e2222f9730d7dc6aff9cf48bc1b0b108a1137d86e2550141",
+    "contact_state_index": 174,
+    "contact_confirmation_states": 10,
+    "lift_confirmation_start_state": 218,
+    "release_state_index": 256,
+    "release_rule": "first open command after confirmed lift, else last contact plus one",
+    "T_object_tcp": [
+      [
+        -0.7729449042607294,
+        -0.5235138425496605,
+        -0.35845422530116877,
+        -0.013787128913781421
+      ],
+      [
+        -0.6155299209171842,
+        0.7557492688739357,
+        0.22353066691663673,
+        0.020069443187354707
+      ],
+      [
+        0.15388012033091467,
+        0.39341619089127566,
+        -0.9063909803785243,
+        0.0001778278044197723
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "T_sink_release_tcp": [
+      [
+        -0.9675607512037454,
+        -0.25255404948231086,
+        0.006530300156237666,
+        0.17245460052621064
+      ],
+      [
+        -0.25256580324573696,
+        0.9675791730384113,
+        -0.0010290447706027604,
+        -0.11093684977144269
+      ],
+      [
+        -0.006058693000950727,
+        -0.0026449938356626203,
+        -0.9999781478846075,
+        -0.07202224960406933
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "T_world_sink_target": [
+      [
+        -3.673205103360555e-06,
+        0.999999999993254,
+        0.0,
+        4.099998164134114
+      ],
+      [
+        -0.999999999993254,
+        -3.673205103360555e-06,
+        -0.0,
+        -1.199798898035097
+      ],
+      [
+        -0.0,
+        0.0,
+        1.0000000000000002,
+        1.0025000000000002
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "source_tcp_world": [
+      [
+        -0.5308979460832886,
+        0.8472007764417073,
+        -0.01995533114517753,
+        4.061057114885917
+      ],
+      [
+        0.8474042963445927,
+        0.5305281044658912,
+        -0.0211160817519288,
+        -1.6788527064910057
+      ],
+      [
+        -0.007302696849200452,
+        -0.02812071777882831,
+        -0.9995778588235795,
+        0.943862591362995
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "source_object_world": [
+      [
+        -0.026013399012215832,
+        0.9625943096735694,
+        0.26969519472155146,
+        4.041331773685445
+      ],
+      [
+        -0.9251664905319446,
+        -0.1253765642833718,
+        0.35825644715106353,
+        -1.689155566286186
+      ],
+      [
+        0.37866907434940666,
+        -0.24019348890542783,
+        0.8938214698802003,
+        0.9537449539767405
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "source_grasp_geometry": {
+      "inner_pad_gap_m": 0.06579340421919617,
+      "left_pad_position": [
+        4.041903505409489,
+        -1.647953831930201,
+        0.9497574811053342
+      ],
+      "right_pad_position": [
+        4.0789163227754655,
+        -1.7070595716647297,
+        0.9497586029236634
+      ],
+      "gripper_qpos": [
+        0.20875947374167678,
+        -0.2796091918800005,
+        -0.005947490400483473,
+        0.24897313795986153,
+        -0.2945106330677121,
+        0.03238090981353722
+      ]
+    },
+    "sensor_vs_simulator_max_position_error_m": 0.0004248225794372502,
+    "sensor_vs_simulator_max_rotation_error_rad": 0.0010569341928075749,
+    "original_closest_action_index": 176,
+    "branch_action_index": 160,
+    "object_asset": "/home/users/lemon/coft-p2/barx/robocasa_x/robocasa/models/assets/objects/objaverse/orange/orange_11/model.xml",
+    "source_and_target_object_asset_identical": true
+  },
+  {
+    "official_index": 34,
+    "source_trial_index": 14,
+    "panda_trial_index": 14,
+    "source_condition": {
+      "episode": 34,
+      "condition_id": "2931dd9fb445ec4d",
+      "seed": 1053,
+      "state_sha256": "3ad4694fd9f3f8fbd4d09b211512cb1794c121efc279dcf34c7cf515ab9d908d",
+      "model_sha256": "efa902b0e0b84bb0f05d309db4522fd90609e03546960c159e14ae327212c626",
+      "metadata_sha256": "2467b8d5febd7ce77e15651ed52cddcd221349ef0018dea61eb42553dbca6438"
+    },
+    "panda_condition": {
+      "episode": 34,
+      "condition_id": "c8c6cac34f32db9a",
+      "seed": 1053,
+      "state_sha256": "fe9c2e4afd160026565ab6e912b3be7d7f92fb9f8ed7880e729eb2204416f05d",
+      "model_sha256": "15afe188d6a079dadd37473f8784ed4cc1b61fd873f028bdca2ec137b9a59c36",
+      "metadata_sha256": "2467b8d5febd7ce77e15651ed52cddcd221349ef0018dea61eb42553dbca6438"
+    },
+    "source_telemetry": "/home/users/lemon/coft-p2/p2/physical-20261108/formal/original-joint_reps-ur5e/telemetry/episode-014.h5",
+    "source_telemetry_sha256": "249471016b9ca716f64c12af77f4412161c59108e2f125097908da07f5ca4533",
+    "panda_telemetry": "/home/users/lemon/coft-p2/p2/physical-20261108/formal/original-joint_reps-panda/telemetry/episode-014.h5",
+    "panda_telemetry_sha256": "054fc92a17a665633b1f28e4580469d4bd8479d6fc9833f335147b2b65546538",
+    "contact_state_index": 166,
+    "contact_confirmation_states": 10,
+    "lift_confirmation_start_state": 191,
+    "release_state_index": 336,
+    "release_rule": "first open command after confirmed lift, else last contact plus one",
+    "T_object_tcp": [
+      [
+        -0.6049263101063806,
+        -0.703292072523517,
+        -0.3734225757324476,
+        0.01714796390147455
+      ],
+      [
+        -0.7666598425064165,
+        0.6411273778396663,
+        0.034472761311950186,
+        -0.010336046869941606
+      ],
+      [
+        0.21516701705678834,
+        0.30714157339899456,
+        -0.9270206085416193,
+        0.007033899991610415
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "T_sink_release_tcp": [
+      [
+        -0.9996501150137724,
+        0.003567900113426894,
+        0.02620911371514059,
+        0.14221351438637453
+      ],
+      [
+        0.006775034417795521,
+        0.9923439630514972,
+        0.12331892759786485,
+        -0.010003305559945441
+      ],
+      [
+        -0.02556846615638586,
+        0.12345334780406061,
+        -0.9920209294437193,
+        -0.10436647423751477
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "T_world_sink_target": [
+      [
+        -3.673205103360555e-06,
+        -0.999999999993254,
+        0.0,
+        0.32999220178333927
+      ],
+      [
+        0.999999999993254,
+        -3.673205103360555e-06,
+        0.0,
+        -1.9269987878566384
+      ],
+      [
+        0.0,
+        0.0,
+        1.0000000000000002,
+        0.9381176470588236
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "source_tcp_world": [
+      [
+        0.17356288053340882,
+        -0.9847763841521507,
+        0.00956031992984947,
+        0.4080009791187236
+      ],
+      [
+        -0.9826844530297553,
+        -0.17381723475985014,
+        -0.06417814794811241,
+        -1.350655162161256
+      ],
+      [
+        0.06486287285154983,
+        0.001744166464120074,
+        -0.9978926623684478,
+        0.9677364808230848
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "source_object_world": [
+      [
+        0.5840226319970412,
+        -0.7641012209575921,
+        -0.27398337439772863,
+        0.3920155657292745
+      ],
+      [
+        0.7406615327572807,
+        0.6397333220727134,
+        -0.20533331566856364,
+        -1.355299391779623
+      ],
+      [
+        0.3321717315017711,
+        -0.08300964257799973,
+        0.9395591200292766,
+        0.9545736555193675
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "source_grasp_geometry": {
+      "inner_pad_gap_m": 0.06553116102805527,
+      "left_pad_position": [
+        0.4141589398719717,
+        -1.3854706856364547,
+        0.9750043118584877
+      ],
+      "right_pad_position": [
+        0.4019646354366517,
+        -1.3164256422951226,
+        0.9707360715535919
+      ],
+      "gripper_qpos": [
+        0.23510452248990105,
+        -0.3282896394109445,
+        0.02152299905857712,
+        0.24388916640044908,
+        -0.31323853614112585,
+        0.032467747586211966
+      ]
+    },
+    "sensor_vs_simulator_max_position_error_m": 0.0004628221270681986,
+    "sensor_vs_simulator_max_rotation_error_rad": 0.0008861679246890278,
+    "original_closest_action_index": 267,
+    "branch_action_index": 200,
+    "object_asset": "/home/users/lemon/coft-p2/barx/robocasa_x/robocasa/models/assets/objects/objaverse/orange/orange_11/model.xml",
+    "source_and_target_object_asset_identical": true
+  },
+  {
+    "official_index": 35,
+    "source_trial_index": 15,
+    "panda_trial_index": 15,
+    "source_condition": {
+      "episode": 35,
+      "condition_id": "9263c558f152aff2",
+      "seed": 1054,
+      "state_sha256": "5fb3e1596a348264a9ee29455806933b9dc884d69477d2fcc002b77d65d3e109",
+      "model_sha256": "8a57b14db1971157a4026edf7f324350b6dc3bdf8e01d12419f94546b42c7f0a",
+      "metadata_sha256": "77e4d3c54568b20b8990034a651fba747ba78f4e72f7fee2427711d7f57137a0"
+    },
+    "panda_condition": {
+      "episode": 35,
+      "condition_id": "8dab4349703b121f",
+      "seed": 1054,
+      "state_sha256": "ebb9ad30371f5ca4b454ca7b2f1f26b4837c96a8f36444a3dccb02bb3622ff6d",
+      "model_sha256": "df50f28d7db31e8e174611dc0a18458819346a3861ec052751604ea30fb70b2b",
+      "metadata_sha256": "77e4d3c54568b20b8990034a651fba747ba78f4e72f7fee2427711d7f57137a0"
+    },
+    "source_telemetry": "/home/users/lemon/coft-p2/p2/physical-20261108/formal/original-joint_reps-ur5e/telemetry/episode-015.h5",
+    "source_telemetry_sha256": "5c14da4ff166c759f09126a494ca7aeae327c947a2450d403d0a9acb0532971f",
+    "panda_telemetry": "/home/users/lemon/coft-p2/p2/physical-20261108/formal/original-joint_reps-panda/telemetry/episode-015.h5",
+    "panda_telemetry_sha256": "e679a3ade3e46e539519572577781a23a7fc13efbb5dcc8c7e2186184d1bb017",
+    "contact_state_index": 198,
+    "contact_confirmation_states": 10,
+    "lift_confirmation_start_state": 214,
+    "release_state_index": 336,
+    "release_rule": "first open command after confirmed lift, else last contact plus one",
+    "T_object_tcp": [
+      [
+        -0.967943866731545,
+        -0.17012494349713397,
+        -0.1847760115839773,
+        -0.0008024908714852064
+      ],
+      [
+        -0.19659600533282495,
+        0.9710311344209721,
+        0.1358254271934966,
+        -0.0041987823923758105
+      ],
+      [
+        0.15631596701540448,
+        0.16779761495687873,
+        -0.9733495152671634,
+        -0.002463294568652019
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "T_sink_release_tcp": [
+      [
+        -0.9995351868800604,
+        0.015511256416028305,
+        0.026245211240144933,
+        0.14348873298788756
+      ],
+      [
+        0.015948202428150097,
+        0.9997363044429155,
+        0.016521998006713254,
+        -0.012005217554839742
+      ],
+      [
+        -0.025982013546958914,
+        0.016932882306899506,
+        -0.999518990549368,
+        -0.12283419116564931
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "T_world_sink_target": [
+      [
+        -3.673205103360555e-06,
+        -0.999999999993254,
+        0.0,
+        0.32999220178333927
+      ],
+      [
+        0.999999999993254,
+        -3.673205103360555e-06,
+        0.0,
+        -1.9269987878566384
+      ],
+      [
+        0.0,
+        0.0,
+        1.0000000000000002,
+        0.9381176470588236
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "source_tcp_world": [
+      [
+        0.1030373766371553,
+        -0.9942751719446276,
+        0.028287479036033528,
+        0.48917875758897944
+      ],
+      [
+        -0.9946721067532797,
+        -0.10290162507658716,
+        0.0062173630736439365,
+        -1.4622967755183214
+      ],
+      [
+        -0.0032709421769617653,
+        -0.028777387148219695,
+        -0.9995804934702339,
+        0.9475075913886074
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "source_object_world": [
+      [
+        0.06418976313359664,
+        -0.9818867258625411,
+        -0.17826421930323497,
+        0.48466842330888316
+      ],
+      [
+        0.979144078741382,
+        0.09647235706729479,
+        -0.17880144682739815,
+        -1.4615463955318944
+      ],
+      [
+        0.1927603366217834,
+        -0.16306913226242262,
+        0.967601111372159,
+        0.949361074560112
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "source_grasp_geometry": {
+      "inner_pad_gap_m": 0.06116629245785005,
+      "left_pad_position": [
+        0.4921837460717839,
+        -1.493113192846969,
+        0.9538762717966005
+      ],
+      "right_pad_position": [
+        0.48564204395761557,
+        -1.4299660712544668,
+        0.9540955607669821
+      ],
+      "gripper_qpos": [
+        0.26472327188415723,
+        -0.25917915995479684,
+        0.04432994170415109,
+        0.24570923458844093,
+        -0.25959213348003723,
+        0.02691351125685445
+      ]
+    },
+    "sensor_vs_simulator_max_position_error_m": 0.00042044016515392385,
+    "sensor_vs_simulator_max_rotation_error_rad": 0.0007727354534927304,
+    "original_closest_action_index": 179,
+    "branch_action_index": 163,
+    "object_asset": "/home/users/lemon/coft-p2/barx/robocasa_x/robocasa/models/assets/objects/objaverse/apple/apple_13/model.xml",
+    "source_and_target_object_asset_identical": true
+  },
+  {
+    "official_index": 37,
+    "source_trial_index": 17,
+    "panda_trial_index": 17,
+    "source_condition": {
+      "episode": 37,
+      "condition_id": "4fb4411057d43566",
+      "seed": 1056,
+      "state_sha256": "fe34c633c6de0a2433ec69d68c5fa602a3c74a5245fe658f17cd52d21d0b1395",
+      "model_sha256": "c7aa7ae258ee2a494ef89675f420d9e150798eef17e8e1903640ce28bbc775e5",
+      "metadata_sha256": "67143690c2b6595e11d2c272e75a35641f88cd6decc685d7a6e17bf4d8558380"
+    },
+    "panda_condition": {
+      "episode": 37,
+      "condition_id": "52658e383ee5d70b",
+      "seed": 1056,
+      "state_sha256": "fc7f8c3e6fab8474ae87f8596eeae6d8ca752e7268c1571eb0ae3edde62f4506",
+      "model_sha256": "ce094928537a637d2fb1c42d8319592ce40925eb403f17f10392cdef521305d8",
+      "metadata_sha256": "67143690c2b6595e11d2c272e75a35641f88cd6decc685d7a6e17bf4d8558380"
+    },
+    "source_telemetry": "/home/users/lemon/coft-p2/p2/physical-20261108/formal/original-joint_reps-ur5e/telemetry/episode-017.h5",
+    "source_telemetry_sha256": "5e3ca5613bcb4f488bca7e44ec73ea1f2696fcb72767521a1a4033332d1983b1",
+    "panda_telemetry": "/home/users/lemon/coft-p2/p2/physical-20261108/formal/original-joint_reps-panda/telemetry/episode-017.h5",
+    "panda_telemetry_sha256": "58aa7bd13c1044eabf3dc7553ef4d5fbee80caa00f65f4f032865b77839dde29",
+    "contact_state_index": 190,
+    "contact_confirmation_states": 10,
+    "lift_confirmation_start_state": 214,
+    "release_state_index": 360,
+    "release_rule": "first open command after confirmed lift, else last contact plus one",
+    "T_object_tcp": [
+      [
+        -0.9954671586714943,
+        -0.09320983841952177,
+        -0.018896084999520578,
+        0.0011274737860504924
+      ],
+      [
+        -0.09444660096623744,
+        0.9922119709780585,
+        0.08121110893074679,
+        0.021593835169652742
+      ],
+      [
+        0.011179247399838131,
+        0.08262766285962551,
+        -0.996517783964707,
+        0.0021999670344106104
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "T_sink_release_tcp": [
+      [
+        -0.9973772625681492,
+        0.070347135523033,
+        0.017025763882112795,
+        0.12654732162990245
+      ],
+      [
+        0.071154782567251,
+        0.9960718104346076,
+        0.052706217615484066,
+        0.027391615972435446
+      ],
+      [
+        -0.013251152020585317,
+        0.05377944757272575,
+        -0.9984649107449396,
+        -0.12569238754132617
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "T_world_sink_target": [
+      [
+        -3.673205103360555e-06,
+        0.999999999993254,
+        0.0,
+        4.099998164134114
+      ],
+      [
+        -0.999999999993254,
+        -3.673205103360555e-06,
+        -0.0,
+        -1.199798898035097
+      ],
+      [
+        -0.0,
+        0.0,
+        1.0000000000000002,
+        0.9381176470588236
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "source_tcp_world": [
+      [
+        -0.041002758528046315,
+        0.9988324654644737,
+        0.025543682726896305,
+        4.012666289127538
+      ],
+      [
+        0.9991498887775249,
+        0.0408796050049897,
+        0.005325190184039055,
+        -1.793478743578049
+      ],
+      [
+        0.004274757180342642,
+        0.025740315242778894,
+        -0.9996595233489513,
+        0.9351557892902802
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "source_object_world": [
+      [
+        -0.05276678878451668,
+        0.9970005312090181,
+        0.05661807812268192,
+        3.9910721592582616
+      ],
+      [
+        -0.998531907491827,
+        -0.0533726127959131,
+        0.009240883294962442,
+        -1.7912207352631462
+      ],
+      [
+        0.012235020314808762,
+        -0.0560473458093552,
+        0.9983531435847853,
+        0.9341559277681204
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "source_grasp_geometry": {
+      "inner_pad_gap_m": 0.060844111526255955,
+      "left_pad_position": [
+        4.01124060046316,
+        -1.7615559947601798,
+        0.9397802377538843
+      ],
+      "right_pad_position": [
+        4.013956133840404,
+        -1.8270476126536246,
+        0.9384169511239232
+      ],
+      "gripper_qpos": [
+        0.2849477024229017,
+        -0.34224549947396343,
+        0.0653933433396767,
+        0.28606219112763365,
+        -0.39184199639602857,
+        0.06710478820967321
+      ]
+    },
+    "sensor_vs_simulator_max_position_error_m": 0.0003015741697023481,
+    "sensor_vs_simulator_max_rotation_error_rad": 0.0006098202129962257,
+    "original_closest_action_index": 260,
+    "branch_action_index": 200,
+    "object_asset": "/home/users/lemon/coft-p2/barx/robocasa_x/robocasa/models/assets/objects/objaverse/sponge/sponge_2/model.xml",
+    "source_and_target_object_asset_identical": true
+  },
+  {
+    "official_index": 39,
+    "source_trial_index": 19,
+    "panda_trial_index": 19,
+    "source_condition": {
+      "episode": 39,
+      "condition_id": "10b8a870a5865876",
+      "seed": 1063,
+      "state_sha256": "4c0d885455633887fed1d33ba38a55058d456fa966060f772d632eebcd1594db",
+      "model_sha256": "1d85fa5a5a085c24f73351b338d73649f74907e9f76b3e093f29834e81d861da",
+      "metadata_sha256": "c97d1c3cf80a60586993f454825b55f15803077cdd6c648eb4579998fff5fb79"
+    },
+    "panda_condition": {
+      "episode": 39,
+      "condition_id": "752210ee11d69d94",
+      "seed": 1063,
+      "state_sha256": "613d905aeeef93d83de702f37e351f5d776d37c20185805c8920d24de6176a59",
+      "model_sha256": "321d10223f45dc36ea8715d22b010bdfcc8eae41aa35740c4415dd91a11dbd81",
+      "metadata_sha256": "2fa4c9d09f1750a8e936b5bd3faa84cec77c179d04eb930b0db869211c245128"
+    },
+    "source_telemetry": "/home/users/lemon/coft-p2/p2/physical-20261108/formal/original-joint_reps-ur5e/telemetry/episode-019.h5",
+    "source_telemetry_sha256": "84b4f2ce6dfa42d48b94401b629b22b693695cbba1900506e8b40fd5887e7742",
+    "panda_telemetry": "/home/users/lemon/coft-p2/p2/physical-20261108/formal/original-joint_reps-panda/telemetry/episode-019.h5",
+    "panda_telemetry_sha256": "47f11be75eab6840c0e9fd1d55a67070bbf54bf1e38de59cf3d3d0124fcb7c39",
+    "contact_state_index": 241,
+    "contact_confirmation_states": 10,
+    "lift_confirmation_start_state": 331,
+    "release_state_index": 504,
+    "release_rule": "first open command after confirmed lift, else last contact plus one",
+    "T_object_tcp": [
+      [
+        -0.9984170768756909,
+        -0.04167900976177197,
+        0.03776507312689389,
+        4.7200590140850096e-05
+      ],
+      [
+        -0.037041868900976306,
+        0.9925449258529235,
+        0.1161140392542521,
+        0.018577652267143474
+      ],
+      [
+        -0.04232304988211985,
+        0.11453135076865736,
+        -0.9925176719533929,
+        -0.0003385484411578821
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "T_sink_release_tcp": [
+      [
+        -0.9994001455146603,
+        -0.03456130246687689,
+        -0.0022057917102903204,
+        0.1088642970453928
+      ],
+      [
+        -0.03453324785625894,
+        0.989740500506442,
+        0.13864052960716847,
+        0.010534335878851664
+      ],
+      [
+        -0.002608435886565647,
+        0.13863353861548447,
+        -0.9903403142522146,
+        -0.21400192984253175
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "T_world_sink_target": [
+      [
+        -3.673205103360555e-06,
+        0.999999999993254,
+        0.0,
+        4.099998164134114
+      ],
+      [
+        -0.999999999993254,
+        -3.673205103360555e-06,
+        -0.0,
+        -1.199798898035097
+      ],
+      [
+        -0.0,
+        0.0,
+        1.0000000000000002,
+        1.0025000000000002
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "source_tcp_world": [
+      [
+        -0.04614779314709071,
+        0.9919477314112952,
+        0.11794099938375394,
+        3.972585358348724
+      ],
+      [
+        0.9962178491955807,
+        0.0544021178398192,
+        -0.06775253883563463,
+        -1.7844887404432141
+      ],
+      [
+        -0.07362321734198446,
+        0.11436829859068352,
+        -0.9907065731818315,
+        0.9393138896412314
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "source_object_world": [
+      [
+        0.009185396023909831,
+        0.9999566938595542,
+        -0.0014962972144649655,
+        3.954007570482797
+      ],
+      [
+        -0.9994670189094065,
+        0.009227754096913954,
+        0.03131336242998337,
+        -1.7846023939268765
+      ],
+      [
+        0.03132581383186312,
+        0.001207874081584133,
+        0.9995084964261057,
+        0.9396283536230509
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "source_grasp_geometry": {
+      "inner_pad_gap_m": 0.05579152294688023,
+      "left_pad_position": [
+        3.9709512084671252,
+        -1.753696448813688,
+        0.9388402040953511
+      ],
+      "right_pad_position": [
+        3.9740064011349308,
+        -1.816124164184097,
+        0.942036968379709
+      ],
+      "gripper_qpos": [
+        0.34683173940507234,
+        -0.4640786900331156,
+        0.1755264891835063,
+        0.364449155424817,
+        -0.5360807256219335,
+        0.20047772244793696
+      ]
+    },
+    "sensor_vs_simulator_max_position_error_m": 0.00032889048214268247,
+    "sensor_vs_simulator_max_rotation_error_rad": 0.0006074750269247214,
+    "original_closest_action_index": 179,
+    "branch_action_index": 163,
+    "object_asset": "/home/users/lemon/coft-p2/barx/robocasa_x/robocasa/models/assets/objects/objaverse/sponge/sponge_3/model.xml",
+    "source_and_target_object_asset_identical": true
+  }
+]

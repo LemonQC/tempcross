@@ -1,0 +1,189 @@
+{
+  "version": "P3_202611091028",
+  "baseline_commit": "702005202d84ba0f39d213d3af72cffeaf30cc41",
+  "source_commit": "0f435089f48b1f16d225f868dbef855a5e75d1e0",
+  "development_indices": [
+    22,
+    24,
+    26,
+    29,
+    34,
+    35,
+    37,
+    39
+  ],
+  "independent_indices": [
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59
+  ],
+  "seed": 7,
+  "max_episode_steps": 600,
+  "source_pose": {
+    "tcp_site": "gripper0_right_grip_site",
+    "quaternion_convention": "site obs xyzw; body/object wxyz; verified against XML",
+    "stable_bilateral_states": 10,
+    "lift_m": 0.03,
+    "lift_states": 10,
+    "confirmation_window_states": 100
+  },
+  "branch": {
+    "rule": "min(200,max(40,argmin B0 EEF-object distance on states40..350 minus16))",
+    "frozen_indices": {
+      "22": 193,
+      "24": 120,
+      "26": 134,
+      "29": 160,
+      "34": 200,
+      "35": 163,
+      "37": 200,
+      "39": 163
+    },
+    "prefix_replay_tolerance": 1e-08
+  },
+  "controls": {
+    "A1": {
+      "arm": "original recorded full Panda actions",
+      "close_at": "original minimum-distance state index",
+      "close_hold_steps": 32,
+      "then": "original gripper schedule"
+    },
+    "A2": {
+      "arm": "same fixed OSC waypoint schedule as A3",
+      "gripper": "original B0 recorded binary command at same absolute episode action index; hold final command after B0 ends"
+    },
+    "A3": {
+      "arm": "same fixed OSC waypoint schedule as A2",
+      "gripper": "open until 5 consecutive states within grasp tolerance during descend/hold; close until scheduled release; then open"
+    },
+    "gain_position": 0.4,
+    "gain_rotation": 0.4,
+    "max_position_step_m": 0.012,
+    "max_rotation_step_rad": 0.12,
+    "position_tolerance_m": 0.015,
+    "rotation_tolerance_degrees": 10,
+    "pose_dwell_states": 5,
+    "approach_up_m": 0.08,
+    "pregrasp_up_m": 0.08,
+    "lift_m": 0.08,
+    "preplace_up_m": 0.12,
+    "retreat_up_m": 0.12,
+    "phases": [
+      [
+        "clearance",
+        30
+      ],
+      [
+        "pregrasp",
+        45
+      ],
+      [
+        "descend",
+        45
+      ],
+      [
+        "hold_grasp",
+        20
+      ],
+      [
+        "lift",
+        35
+      ],
+      [
+        "preplace",
+        65
+      ],
+      [
+        "place",
+        35
+      ],
+      [
+        "release",
+        16
+      ],
+      [
+        "retreat",
+        35
+      ]
+    ],
+    "sink_target": "source release TCP transformed by source/target sink fixture frames; frozen source rule, no search",
+    "grasp_target": "object branch world pose times source T_object_tcp, anchored for all subsequent waypoints",
+    "controller": "unchanged official OSC_POSE delta control, gain/dynamics untouched; world error expressed in actual controller reference"
+  },
+  "diagnostics": {
+    "stable_grasp": "bilateral contact and object rise>=.03m for>=10 consecutive post-action states",
+    "joint_limit_margin": 0.01,
+    "collision": "robot/fixture or non-target contacts; intended gripper-target contact separate",
+    "task_success": "unchanged official info.is_success.task",
+    "proxies_not_task_success": true
+  },
+  "training": {
+    "method": "joint_reps",
+    "initial_checkpoint": "/home/users/lemon/coft-p2/artifacts/runs/joint_reps/checkpoints/step-050000-epoch-15-loss=0.2577.pt",
+    "sample_positions": 96000,
+    "batch_probe_candidates": [
+      8,
+      4,
+      2
+    ],
+    "probe": "one real forward/backward/optimizer step per candidate until first success; probe weights discarded",
+    "updates_by_batch": {
+      "8": 12000,
+      "4": 24000,
+      "2": 48000
+    },
+    "sample_seed": 20261109,
+    "sampling": "fresh official mixed RLDS stream; full published train split100 target/1800 source, not old6000 cache repetition",
+    "prior_weight": 0.05,
+    "target_weight": 1.0,
+    "balance_by_transitions": true,
+    "normalization": "mg_pnp_lite prior statistics and VQ",
+    "shuffle_buffer": 10000,
+    "learning_rate": 2e-05,
+    "lora_rank": 32,
+    "lora_alpha": 16,
+    "lora_dropout": 0,
+    "checkpoint_selection": "only final prescribed update",
+    "target_revision": "6e297509924c831c722180212d13f21686676e8e",
+    "source_revision": "a2b5256a48428ea56064b0afb3dc184a045b10ae",
+    "coverage": "raw target demo mapping by action/instruction/length fingerprint; per-episode/frame identities and actual consumed sequence logged",
+    "limitation": "enhanced restricted LoRA, 1/8 official sample exposure; full-train coverage differs from P2 loader default95%, so budget-only causal attribution is not claimed"
+  },
+  "evaluation": {
+    "cells": [
+      "original-joint_reps-ur5e",
+      "original-joint_reps-panda",
+      "b1-joint_reps-panda",
+      "p2-6000-joint_reps-panda",
+      "p3-96000-joint_reps-panda"
+    ],
+    "episodes_per_cell": 20,
+    "b1_threshold": 0.85,
+    "b1_hysteresis": 0.03,
+    "b1_minimum_hold": 8,
+    "old_adapter": "/home/users/lemon/coft-p2/p2/physical-20261108/adapted-checkpoints/joint_reps/checkpoints/step-003000-epoch-00-loss=restricted.pt",
+    "optional_privileged_20": false
+  },
+  "frozen_assets": {
+    "source_bank_sha256": "1685d92ac143a9abfba4ab6cdc1302b10ee01a9d4d3e811ec36fb9d93db5ba87",
+    "independent_conditions_sha256": "428bda36d8277667d0a592e5259fafefb53add6bb9e8ccbd23a51713bb82a51f",
+    "bundle_integrity_sha256": "d1e9064ae97010155a1ad894fb9f409394a65c095cff397e520c62b3792f0622"
+  }
+}
