@@ -1,7 +1,7 @@
 {
   "engineering_benchmark_ready": false,
-  "formal_cells": 0,
-  "formal_episodes": 0,
+  "formal_cells": 4,
+  "formal_episodes": 160,
   "single_training_seed": true,
   "independent_training_seed_repeats": false,
   "unlimited_convergence_not_demonstrated": true,

@@ -100,7 +100,9 @@ def episodes(out,final):
    from baselines.common.validate import validate_job
    validation=validate_job(path);shutil.copyfile(path.parent/'validation.json',dest/'validation.json')
   for r in records:
-   telem=Path(r['telemetry_path']);contacts=[json.loads(line)['grasp_contact'] is True for line in telem.with_suffix('.jsonl').read_text().splitlines()]
+   telem=Path(r['telemetry_path']);contact_records=[json.loads(line) for line in telem.with_suffix('.jsonl').read_text().splitlines()]
+   assert all(type(x['grasp_contact']) is bool for x in contact_records),'Unavailable contact measurements must not become policy failures'
+   contacts=[x['grasp_contact'] for x in contact_records]
    with h5py.File(telem) as f:
     actions=f['actions/environment'][:];post=f['baseline/post_action_tcp_position'][:];tcp=np.concatenate([f['baseline/pre_action_tcp_position'][0][None],post]);obj=f['target/position'][:];placement=f['baseline/post_action_placement'][:];retreat=f['baseline/post_action_retreat'][:]
     assert np.isfinite(actions).all() and len(obj)==len(contacts)==len(actions)+1
@@ -155,7 +157,7 @@ def collect(final=False):
   assert len(cells)==sum(c['status']=='COMPLETE' for c in suite['cells']) and all(c['episodes']==40 for c in cells)
   files=[]
   for p in sorted(ROOT.rglob('*')):
-   if p.name=='delivery_ready.json' or p.name.startswith('delivery-step-'):continue
+   if p.name in ['delivery_ready.json','user_pause.json','RESUME_HANDOFF.md'] or p.name.startswith('delivery-step-'):continue
    if p.is_file() and p.suffix!='.tmp':files.append(dict(absolute_path=str(p),bytes=p.stat().st_size,sha256=digest(p)))
   for r in csv.DictReader((out/'checkpoint_index.csv').open()):
    if not str(r['path']).startswith(str(ROOT)):files.append(dict(absolute_path=r['path'],bytes=int(r['bytes']),sha256=r['sha256']))

@@ -6,8 +6,8 @@
   "models_with_training_logs": 8,
   "models_with_completed_tiers": 8,
   "models_with_selected_checkpoints": 8,
-  "formal_complete_cells": 0,
-  "formal_episodes": 0,
+  "formal_complete_cells": 4,
+  "formal_episodes": 160,
   "formal_technical_cells": [],
   "training": [
     {
@@ -243,7 +243,88 @@
       "checkpoint_sha256": "c6fb093b9071886f93aac233f76bf3333cb98b09f959930fd5c3e469fd738b5c"
     }
   ],
-  "cells": [],
+  "cells": [
+    {
+      "label": "B_bc_gmm",
+      "task": "pnp_counter_to_sink",
+      "robot": "panda",
+      "status": "COMPLETE",
+      "successes": 0,
+      "episodes": 40,
+      "success_rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.08762160119728664
+      ],
+      "checkpoint": "/home/users/lemon/baseline-benchmark/run-20261109/training/B_bc_gmm/positions-384000.pt",
+      "checkpoint_sha256": "55854747380da8aec4b8b16068ef63366ebf3e6e428e3b4fd2e3a0fabb38a94e",
+      "group": "B",
+      "legacy_setting": false,
+      "model_kind": "robomimic",
+      "mean_policy_prediction_seconds": 0.003273069012366856,
+      "peak_gpu_allocated_bytes": 71773184
+    },
+    {
+      "label": "B_bc_gmm",
+      "task": "pnp_sink_to_counter",
+      "robot": "panda",
+      "status": "COMPLETE",
+      "successes": 0,
+      "episodes": 40,
+      "success_rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.08762160119728664
+      ],
+      "checkpoint": "/home/users/lemon/baseline-benchmark/run-20261109/training/B_bc_gmm/positions-384000.pt",
+      "checkpoint_sha256": "55854747380da8aec4b8b16068ef63366ebf3e6e428e3b4fd2e3a0fabb38a94e",
+      "group": "B",
+      "legacy_setting": false,
+      "model_kind": "robomimic",
+      "mean_policy_prediction_seconds": 0.003151734003313602,
+      "peak_gpu_allocated_bytes": 71773184
+    },
+    {
+      "label": "B_bc_rnn",
+      "task": "pnp_counter_to_sink",
+      "robot": "panda",
+      "status": "COMPLETE",
+      "successes": 0,
+      "episodes": 40,
+      "success_rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.08762160119728664
+      ],
+      "checkpoint": "/home/users/lemon/baseline-benchmark/run-20261109/training/B_bc_rnn/positions-384000.pt",
+      "checkpoint_sha256": "3cbc0ea05cf615ad9c35789375668703608d267b948198513f8e1a63b033a594",
+      "group": "B",
+      "legacy_setting": false,
+      "model_kind": "robomimic",
+      "mean_policy_prediction_seconds": 0.003304345248247652,
+      "peak_gpu_allocated_bytes": 79767552
+    },
+    {
+      "label": "B_bc_rnn",
+      "task": "pnp_sink_to_counter",
+      "robot": "panda",
+      "status": "COMPLETE",
+      "successes": 0,
+      "episodes": 40,
+      "success_rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.08762160119728664
+      ],
+      "checkpoint": "/home/users/lemon/baseline-benchmark/run-20261109/training/B_bc_rnn/positions-384000.pt",
+      "checkpoint_sha256": "3cbc0ea05cf615ad9c35789375668703608d267b948198513f8e1a63b033a594",
+      "group": "B",
+      "legacy_setting": false,
+      "model_kind": "robomimic",
+      "mean_policy_prediction_seconds": 0.0034645544212454785,
+      "peak_gpu_allocated_bytes": 79767552
+    }
+  ],
   "paired_comparisons": [],
   "execution_root": "/home/users/lemon/baseline-benchmark/run-20261109"
 }

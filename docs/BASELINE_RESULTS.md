@@ -1,6 +1,6 @@
 # Baseline真实执行结果
 
-状态：**ACTUAL_BENCHMARK_RUNNING**。已关闭 0 个正式评测格、0 个episode。训练日志设置 8/8，选模完成 8/8。
+状态：**ACTUAL_BENCHMARK_RUNNING**。已关闭 4 个正式评测格、160 个episode。训练日志设置 8/8，选模完成 8/8。
 
 只统计新冻结官方60–99条件；每任务每机器人每设置40次。旧P0–P3和开发smoke不加入成功率。技术错误另列，不填0%。原始小型结果见[逐episode结果](../results/baselines/episodes.csv)、[主表](../results/baselines/cells.csv)、[训练预算](../results/baselines/training_budgets.csv)、[checkpoint索引](../results/baselines/checkpoint_index.csv)。
 
@@ -19,8 +19,8 @@
 
 | 设置 | Counter→Sink | Sink→Counter |
 | --- | --- | --- |
-| BC-GMM target-only | 未完成（不填0%） | 未完成（不填0%） |
-| BC-RNN target-only | 未完成（不填0%） | 未完成（不填0%） |
+| BC-GMM target-only | 0/40 (0.0%; 95%CI 0.0%–8.8%) | 0/40 (0.0%; 95%CI 0.0%–8.8%) |
+| BC-RNN target-only | 0/40 (0.0%; 95%CI 0.0%–8.8%) | 0/40 (0.0%; 95%CI 0.0%–8.8%) |
 | BC-Transformer target-only | 未完成（不填0%） | 未完成（不填0%） |
 | Diffusion Policy target-only | 未完成（不填0%） | 未完成（不填0%） |
 
@@ -88,6 +88,8 @@ BARX source prior复用官方50k更新权重，不把其原始大规模预训练
 
 ## 本次观测到的最佳值
 
+- B / pnp_counter_to_sink：BC-GMM target-only、BC-RNN target-only，0/40；仅本次观测最大值。
+- B / pnp_sink_to_counter：BC-GMM target-only、BC-RNN target-only，0/40；仅本次观测最大值。
 
 BARX历史LoRA在C表单独保留，不能和新C模型忽略预算差异宣称总体最强。
 

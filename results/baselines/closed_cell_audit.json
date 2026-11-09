@@ -1,0 +1,26 @@
+{
+  "cells": [
+    {
+      "job": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_rnn/pnp_counter_to_sink/panda/job.json",
+      "status": "VERIFIED",
+      "episodes": 40
+    },
+    {
+      "job": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_gmm/pnp_counter_to_sink/panda/job.json",
+      "status": "VERIFIED",
+      "episodes": 40
+    },
+    {
+      "job": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_gmm/pnp_sink_to_counter/panda/job.json",
+      "status": "VERIFIED",
+      "episodes": 40
+    },
+    {
+      "job": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_rnn/pnp_sink_to_counter/panda/job.json",
+      "status": "VERIFIED",
+      "episodes": 40
+    }
+  ],
+  "verified_episodes": 160,
+  "read_only_physics": true
+}

@@ -23,7 +23,7 @@ def plots(cells,budgets):
  import matplotlib
  matplotlib.use('Agg')
  import matplotlib.pyplot as plt
- plt.rcParams.update({'svg.fonttype':'none','font.size':9})
+ plt.rcParams.update({'svg.fonttype':'none','svg.hashsalt':'tempcross-baseline','font.size':9})
  labels=[x for x in NAMES if any(c['label']==x and c['robot']=='panda' for c in cells)]
  fig,axes=plt.subplots(1,2,figsize=(13,5),sharey=True)
  for ax,task in zip(axes,TASKS):
@@ -31,13 +31,15 @@ def plots(cells,budgets):
   means=[data[k]['success_rate'] if k in data else float('nan') for k in labels];lo=[means[i]-data[k]['wilson95'][0] if k in data else 0 for i,k in enumerate(labels)];hi=[data[k]['wilson95'][1]-means[i] if k in data else 0 for i,k in enumerate(labels)]
   ax.bar(x,means,color=[{'A':'#5478a3','B':'#519470','C':'#b58147'}[k[0]] for k in labels],yerr=[lo,hi],capsize=2)
   ax.set_xticks(x,labels,rotation=75,ha='right');ax.set_ylim(0,1);ax.set_title(task+' / Panda / original60–99');ax.set_ylabel('Official success fraction; Wilson 95% CI');ax.grid(axis='y',alpha=.2)
- fig.suptitle('Data regimes and legacy budgets differ; descriptive comparison only',fontsize=11);fig.tight_layout();fig.savefig(OUT/'official_success.svg');plt.close(fig)
+ fig.suptitle('Data regimes and legacy budgets differ; descriptive comparison only',fontsize=11);fig.tight_layout();fig.savefig(OUT/'official_success.svg',metadata={'Date':None});plt.close(fig)
  fig,ax=plt.subplots(figsize=(9,4));new=[r for r in budgets if r['method']!='barx']
  for r in new:
   p=OUT/'training'/r['label']/'status.json'
   s=json.loads(p.read_text());history=s.get('validation_history',[])
   if history:ax.plot([h['anchor_positions'] for h in history],[h['value']/s['initial_validation']['value'] for h in history],label=r['label'])
- ax.set_xlabel('Anchor positions (target for B/C; source for A)');ax.set_ylabel('Fixed-validation metric / its initial value');ax.set_title('Within-model validation progress; different losses are not comparable');ax.legend(fontsize=7);ax.grid(alpha=.2);fig.tight_layout();fig.savefig(OUT/'validation_progress.svg');plt.close(fig)
+ ax.set_xlabel('Anchor positions (target for B/C; source for A)');ax.set_ylabel('Fixed-validation metric / its initial value');ax.set_title('Within-model validation progress; different losses are not comparable');ax.legend(fontsize=7);ax.grid(alpha=.2);fig.tight_layout();fig.savefig(OUT/'validation_progress.svg',metadata={'Date':None});plt.close(fig)
+ for path in [OUT/'official_success.svg',OUT/'validation_progress.svg']:
+  path.write_text('\n'.join(line.rstrip() for line in path.read_text().splitlines())+'\n')
 
 def main():
  s=json.loads((OUT/'status.json').read_text());analysis=json.loads((OUT/'analysis.json').read_text());cells=analysis['cells'];episodes=analysis['episodes'];budgets=s['training'];by={(c['label'],c['task'],c['robot']):c for c in cells};complete=s['status']=='COMPLETE'
