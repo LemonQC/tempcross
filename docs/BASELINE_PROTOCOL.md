@@ -1,5 +1,7 @@
 # 统一Baseline冻结协议
 
+原始机器协议按冻结SHA保留；运行标签别名、历史数据覆盖事实及统计字段的修正见[protocol_addenda.json](../configs/baselines/protocol_addenda.json)，训练规则和正式测试条件保持原样。
+
 本轮只运行现有方法，不开发COFT或新的网络。机器规则见[protocol.json](../configs/baselines/protocol.json)，两任务Panda/UR5e原官方60–99身份、状态值及哈希见[冻结条件](../configs/evaluation/baseline_conditions_60_99.json)。完整100条件先按官方验证器验证，再取40条，不改变真实seed、XML、物体或成功判据。Counter-to-Sink上限600步，Sink-to-Counter按官方上限650步，均20Hz。
 
 新BC/DP模型使用相同100条目标示范池，按完整示范固定划分每任务45训练/5验证（总90/10），ID和源1620/180划分均提交。最终60–99绝不用于训练、选阈值、选checkpoint或延长预算。开发smoke只用原条件0，每任务一次完整rollout。每核心模型先单步真实forward/backward/optimizer，丢弃probe权重，再固定种子重新训练。

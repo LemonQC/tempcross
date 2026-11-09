@@ -1,6 +1,6 @@
 # Baseline真实执行结果
 
-状态：**ACTUAL_BENCHMARK_RUNNING**。已关闭 4 个正式评测格、160 个episode。训练日志设置 8/8，选模完成 8/8。
+状态：**ACTUAL_BENCHMARK_RUNNING**。已关闭 16 个正式评测格、640 个episode。训练日志设置 8/8，选模完成 8/8。
 
 只统计新冻结官方60–99条件；每任务每机器人每设置40次。旧P0–P3和开发smoke不加入成功率。技术错误另列，不填0%。原始小型结果见[逐episode结果](../results/baselines/episodes.csv)、[主表](../results/baselines/cells.csv)、[训练预算](../results/baselines/training_budgets.csv)、[checkpoint索引](../results/baselines/checkpoint_index.csv)。
 
@@ -12,8 +12,8 @@
 | --- | --- | --- |
 | BARX No Reps source | 未完成（不填0%） | 未完成（不填0%） |
 | BARX Joint source | 未完成（不填0%） | 未完成（不填0%） |
-| BC-Transformer source-only | 未完成（不填0%） | 未完成（不填0%） |
-| Diffusion Policy source-only | 未完成（不填0%） | 未完成（不填0%） |
+| BC-Transformer source-only | 0/40 (0.0%; 95%CI 0.0%–8.8%) | 0/40 (0.0%; 95%CI 0.0%–8.8%) |
+| Diffusion Policy source-only | 0/40 (0.0%; 95%CI 0.0%–8.8%) | 0/40 (0.0%; 95%CI 0.0%–8.8%) |
 
 ## Group B：仅目标学习
 
@@ -21,15 +21,15 @@
 | --- | --- | --- |
 | BC-GMM target-only | 0/40 (0.0%; 95%CI 0.0%–8.8%) | 0/40 (0.0%; 95%CI 0.0%–8.8%) |
 | BC-RNN target-only | 0/40 (0.0%; 95%CI 0.0%–8.8%) | 0/40 (0.0%; 95%CI 0.0%–8.8%) |
-| BC-Transformer target-only | 未完成（不填0%） | 未完成（不填0%） |
-| Diffusion Policy target-only | 未完成（不填0%） | 未完成（不填0%） |
+| BC-Transformer target-only | 1/40 (2.5%; 95%CI 0.4%–12.9%) | 1/40 (2.5%; 95%CI 0.4%–12.9%) |
+| Diffusion Policy target-only | 0/40 (0.0%; 95%CI 0.0%–8.8%) | 0/40 (0.0%; 95%CI 0.0%–8.8%) |
 
 ## Group C：源+目标学习
 
 | 设置 | Counter→Sink | Sink→Counter |
 | --- | --- | --- |
-| BC-Transformer source+target | 未完成（不填0%） | 未完成（不填0%） |
-| Diffusion Policy source+target | 未完成（不填0%） | 未完成（不填0%） |
+| BC-Transformer source+target | 4/40 (10.0%; 95%CI 4.0%–23.1%) | 0/40 (0.0%; 95%CI 0.0%–8.8%) |
+| Diffusion Policy source+target | 0/40 (0.0%; 95%CI 0.0%–8.8%) | 0/40 (0.0%; 95%CI 0.0%–8.8%) |
 | BARX No Reps legacy LoRA6k | 未完成（不填0%） | 未完成（不填0%） |
 | BARX Joint legacy LoRA96k | 未完成（不填0%） | 未完成（不填0%） |
 
@@ -48,7 +48,7 @@ Group C历史BARX使用原LoRA权重，其目标划分、初始化、分辨率�
 
 新模型共享100条Panda示范池（每任务50），实际90条训练、10条整示范验证；源池1800条为IIWA/Kinova3/UR5e每任务每机器人300条，实际1620/180。B/C架构配对的目标采样序列、更新次数和目标暴露相同，C另加同量source，因此总样本/计算不相等。anchor不等于展开后的图像/标签总数；精确覆盖见各training目录的demonstration_coverage.csv与consumption_summary.json。
 
-| 设置 | target anchor | source anchor | 实际更新 | 实际独立demo | 实际batch | 参数M | GPU占用墙钟秒 | 峰值GiB | 终止/状态 |
+| 设置 | target anchor | source anchor | 实际更新 | 实际独立demo | 实际batch | 参数M | 单卡训练循环秒 | 峰值GiB | 终止/状态 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | A_bc_transformer | 0 | 192000 | 12000 | {'source': 1620, 'target': 0} | 16 | 30.57 | 662.6 | 1.57 | VALIDATION_NO_FURTHER_GAIN |
 | A_diffusion_policy | 0 | 192000 | 12000 | {'source': 1620, 'target': 0} | 16 | 100.27 | 532.1 | 2.31 | VALIDATION_NO_FURTHER_GAIN |
@@ -58,6 +58,8 @@ Group C历史BARX使用原LoRA权重，其目标划分、初始化、分辨率�
 | B_diffusion_policy | 384000 | 0 | 24000 | {'source': 0, 'target': 90} | 16 | 100.27 | 1128.6 | 2.31 | VALIDATION_NO_FURTHER_GAIN |
 | C_bc_transformer | 768000 | 768000 | 48000 | {'source': 1620, 'target': 90} | 32 | 30.57 | 4579.2 | 2.52 | VALIDATION_NO_FURTHER_GAIN |
 | C_diffusion_policy | 384000 | 384000 | 24000 | {'source': 1620, 'target': 90} | 32 | 100.27 | 1314.0 | 2.48 | VALIDATION_NO_FURTHER_GAIN |
+
+B/C实际匹配审计见[matched_data_audit.json](../results/baselines/matched_data_audit.json)：已通过的配对初始化序列化文件SHA完全相同，实际消费target ID/anchor的有序哈希及更新次数相同。随机crop配置相同，但不强制每个target样本使用同一个随机crop；C混合batch的随机draw及batch统计也不同。
 
 固定验证曲线的只读诊断（不同loss不直接比较；未据此更换权重）：
 
@@ -76,20 +78,29 @@ Group C历史BARX使用原LoRA权重，其目标划分、初始化、分辨率�
 
 目标HDF每条ep_meta中的robot0_agentview_left与冻结评测barx_panda_agentview名称不同，但全部100条的基座相对位置、旋转、45°FOV及180×320分辨率均核对一致，见camera_calibration_audit.json；未用默认相机名称臆断视角不一致。
 
-GPU秒是该模型单GPU占用的训练墙钟时间（包含数据等待和验证），不是CUDA kernel累计时间。验证每12k固定256 anchors，最终checkpoint来自预先冻结的验证延长/末步规则，未用最终测试挑选。预算到顶仍改善须标为BUDGET_LIMITED_NOT_CONVERGED；验证平台也不证明全局充分收敛。
+GPU秒为单卡训练循环墙钟时间：包含循环内数据等待和周期验证，不含模型构建/加载、初始验证、checkpoint保存和哈希，也不是CUDA kernel累计时间。验证每12k固定256 anchors，最终checkpoint来自预先冻结的验证延长/末步规则，未用最终测试挑选。预算到顶仍改善须标为BUDGET_LIMITED_NOT_CONVERGED；验证平台也不证明全局充分收敛。
 
 BARX source prior复用官方50k更新权重，不把其原始大规模预训练当作本轮训练。No Reps6k旧LoRA为3000更新/batch2、3068 target+2932 source；逐图像SHA回溯全部3068 target实际覆盖18条示范（95条eligible池）；2932 source样本完整回溯为19条三具身源示范。Joint96k旧LoRA为12000更新/batch8、48412 target+47588 source，实际100 target及115 source demos，source三具身均有。旧LoRA不是官方充分全参数适配。
 
 ## 同条件配对与稳定性
 
-配对正式结果尚未完成。
+| 配对 | 任务 | 救回 | 退化 | 净增 | 精确双侧McNemar p（未校正） | 解释 |
+| --- | --- | --- | --- | --- | --- | --- |
+| C_bc_transformer vs B_bc_transformer | pnp_counter_to_sink | 3 | 0 | 3 | 0.2500 | MATCHED_NEW_TARGET_SPLIT_AND_EXPOSURE |
+| C_diffusion_policy vs B_diffusion_policy | pnp_counter_to_sink | 0 | 0 | 0 | 1.0000 | MATCHED_NEW_TARGET_SPLIT_AND_EXPOSURE |
+| C_bc_transformer vs B_bc_transformer | pnp_sink_to_counter | 0 | 1 | -1 | 1.0000 | MATCHED_NEW_TARGET_SPLIT_AND_EXPOSURE |
+| C_diffusion_policy vs B_diffusion_policy | pnp_sink_to_counter | 0 | 0 | 0 | 1.0000 | MATCHED_NEW_TARGET_SPLIT_AND_EXPOSURE |
 
 新BC/DP每设置只有一个训练seed，40条件CI衡量本次测试集不确定性，不能据此宣称跨训练seed的稳定排序或跨场景泛化。配对检验为描述性、未做多重校正；加入source的结论只适用于该共享动作/观测、目标暴露匹配且C计算更多的设定。
 
 ## 本次观测到的最佳值
 
-- B / pnp_counter_to_sink：BC-GMM target-only、BC-RNN target-only，0/40；仅本次观测最大值。
-- B / pnp_sink_to_counter：BC-GMM target-only、BC-RNN target-only，0/40；仅本次观测最大值。
+- A / pnp_counter_to_sink：BC-Transformer source-only、Diffusion Policy source-only，0/40；仅本次观测最大值。
+- A / pnp_sink_to_counter：BC-Transformer source-only、Diffusion Policy source-only，0/40；仅本次观测最大值。
+- B / pnp_counter_to_sink：BC-Transformer target-only，1/40；仅本次观测最大值。
+- B / pnp_sink_to_counter：BC-Transformer target-only，1/40；仅本次观测最大值。
+- C / pnp_counter_to_sink：BC-Transformer source+target，4/40；仅本次观测最大值。
+- C / pnp_sink_to_counter：BC-Transformer source+target、Diffusion Policy source+target，0/40；仅本次观测最大值。
 
 BARX历史LoRA在C表单独保留，不能和新C模型忽略预算差异宣称总体最强。
 

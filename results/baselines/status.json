@@ -6,8 +6,8 @@
   "models_with_training_logs": 8,
   "models_with_completed_tiers": 8,
   "models_with_selected_checkpoints": 8,
-  "formal_complete_cells": 4,
-  "formal_episodes": 160,
+  "formal_complete_cells": 16,
+  "formal_episodes": 640,
   "formal_technical_cells": [],
   "training": [
     {
@@ -245,6 +245,86 @@
   ],
   "cells": [
     {
+      "label": "A_bc_transformer",
+      "task": "pnp_counter_to_sink",
+      "robot": "panda",
+      "status": "COMPLETE",
+      "successes": 0,
+      "episodes": 40,
+      "success_rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.08762160119728664
+      ],
+      "checkpoint": "/home/users/lemon/baseline-benchmark/run-20261109/training/A_bc_transformer/positions-192000.pt",
+      "checkpoint_sha256": "5f06a7224c9ffc43b0ce10c8c1089e402278879522fb224e0b0589b228fcb62f",
+      "group": "A",
+      "legacy_setting": false,
+      "model_kind": "robomimic",
+      "mean_policy_prediction_seconds": 0.006561792461085133,
+      "peak_gpu_allocated_bytes": 270588416
+    },
+    {
+      "label": "A_bc_transformer",
+      "task": "pnp_sink_to_counter",
+      "robot": "panda",
+      "status": "COMPLETE",
+      "successes": 0,
+      "episodes": 40,
+      "success_rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.08762160119728664
+      ],
+      "checkpoint": "/home/users/lemon/baseline-benchmark/run-20261109/training/A_bc_transformer/positions-192000.pt",
+      "checkpoint_sha256": "5f06a7224c9ffc43b0ce10c8c1089e402278879522fb224e0b0589b228fcb62f",
+      "group": "A",
+      "legacy_setting": false,
+      "model_kind": "robomimic",
+      "mean_policy_prediction_seconds": 0.006621166812238069,
+      "peak_gpu_allocated_bytes": 270588416
+    },
+    {
+      "label": "A_diffusion_policy",
+      "task": "pnp_counter_to_sink",
+      "robot": "panda",
+      "status": "COMPLETE",
+      "successes": 0,
+      "episodes": 40,
+      "success_rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.08762160119728664
+      ],
+      "checkpoint": "/home/users/lemon/baseline-benchmark/run-20261109/training/A_diffusion_policy/positions-192000.pt",
+      "checkpoint_sha256": "250f26c86f1d98bdd41aaab450a881eebd315858ffbead0f272ccf4fc6c63ffa",
+      "group": "A",
+      "legacy_setting": false,
+      "model_kind": "robomimic",
+      "mean_policy_prediction_seconds": 0.005815365413339654,
+      "peak_gpu_allocated_bytes": 961122816
+    },
+    {
+      "label": "A_diffusion_policy",
+      "task": "pnp_sink_to_counter",
+      "robot": "panda",
+      "status": "COMPLETE",
+      "successes": 0,
+      "episodes": 40,
+      "success_rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.08762160119728664
+      ],
+      "checkpoint": "/home/users/lemon/baseline-benchmark/run-20261109/training/A_diffusion_policy/positions-192000.pt",
+      "checkpoint_sha256": "250f26c86f1d98bdd41aaab450a881eebd315858ffbead0f272ccf4fc6c63ffa",
+      "group": "A",
+      "legacy_setting": false,
+      "model_kind": "robomimic",
+      "mean_policy_prediction_seconds": 0.005959382229054777,
+      "peak_gpu_allocated_bytes": 961122816
+    },
+    {
       "label": "B_bc_gmm",
       "task": "pnp_counter_to_sink",
       "robot": "panda",
@@ -323,8 +403,215 @@
       "model_kind": "robomimic",
       "mean_policy_prediction_seconds": 0.0034645544212454785,
       "peak_gpu_allocated_bytes": 79767552
+    },
+    {
+      "label": "B_bc_transformer",
+      "task": "pnp_counter_to_sink",
+      "robot": "panda",
+      "status": "COMPLETE",
+      "successes": 1,
+      "episodes": 40,
+      "success_rate": 0.025,
+      "wilson95": [
+        0.0044268315026814095,
+        0.1288136896347409
+      ],
+      "checkpoint": "/home/users/lemon/baseline-benchmark/run-20261109/training/B_bc_transformer/positions-768000.pt",
+      "checkpoint_sha256": "f1511ba7871161b32edd17e6019fe8e7f2d81192d938f540572499a14a936486",
+      "group": "B",
+      "legacy_setting": false,
+      "model_kind": "robomimic",
+      "mean_policy_prediction_seconds": 0.0066517851978354055,
+      "peak_gpu_allocated_bytes": 270588416
+    },
+    {
+      "label": "B_bc_transformer",
+      "task": "pnp_sink_to_counter",
+      "robot": "panda",
+      "status": "COMPLETE",
+      "successes": 1,
+      "episodes": 40,
+      "success_rate": 0.025,
+      "wilson95": [
+        0.0044268315026814095,
+        0.1288136896347409
+      ],
+      "checkpoint": "/home/users/lemon/baseline-benchmark/run-20261109/training/B_bc_transformer/positions-768000.pt",
+      "checkpoint_sha256": "f1511ba7871161b32edd17e6019fe8e7f2d81192d938f540572499a14a936486",
+      "group": "B",
+      "legacy_setting": false,
+      "model_kind": "robomimic",
+      "mean_policy_prediction_seconds": 0.0068705314019262675,
+      "peak_gpu_allocated_bytes": 270588416
+    },
+    {
+      "label": "B_diffusion_policy",
+      "task": "pnp_counter_to_sink",
+      "robot": "panda",
+      "status": "COMPLETE",
+      "successes": 0,
+      "episodes": 40,
+      "success_rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.08762160119728664
+      ],
+      "checkpoint": "/home/users/lemon/baseline-benchmark/run-20261109/training/B_diffusion_policy/positions-384000.pt",
+      "checkpoint_sha256": "9c0d8a21b2091cee4de646980caeed8d17098bf39afcea02d36d862619cb519f",
+      "group": "B",
+      "legacy_setting": false,
+      "model_kind": "robomimic",
+      "mean_policy_prediction_seconds": 0.005795536589614737,
+      "peak_gpu_allocated_bytes": 961122816
+    },
+    {
+      "label": "B_diffusion_policy",
+      "task": "pnp_sink_to_counter",
+      "robot": "panda",
+      "status": "COMPLETE",
+      "successes": 0,
+      "episodes": 40,
+      "success_rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.08762160119728664
+      ],
+      "checkpoint": "/home/users/lemon/baseline-benchmark/run-20261109/training/B_diffusion_policy/positions-384000.pt",
+      "checkpoint_sha256": "9c0d8a21b2091cee4de646980caeed8d17098bf39afcea02d36d862619cb519f",
+      "group": "B",
+      "legacy_setting": false,
+      "model_kind": "robomimic",
+      "mean_policy_prediction_seconds": 0.005906114694160911,
+      "peak_gpu_allocated_bytes": 961122816
+    },
+    {
+      "label": "C_bc_transformer",
+      "task": "pnp_counter_to_sink",
+      "robot": "panda",
+      "status": "COMPLETE",
+      "successes": 4,
+      "episodes": 40,
+      "success_rate": 0.1,
+      "wilson95": [
+        0.03957952868260638,
+        0.23051775227522298
+      ],
+      "checkpoint": "/home/users/lemon/baseline-benchmark/run-20261109/training/C_bc_transformer/positions-768000.pt",
+      "checkpoint_sha256": "f0cf5dcde213c069039fd393d59867510919f75b07d4d63fafe7b772b1bf5703",
+      "group": "C",
+      "legacy_setting": false,
+      "model_kind": "robomimic",
+      "mean_policy_prediction_seconds": 0.006650736509661308,
+      "peak_gpu_allocated_bytes": 270588416
+    },
+    {
+      "label": "C_bc_transformer",
+      "task": "pnp_sink_to_counter",
+      "robot": "panda",
+      "status": "COMPLETE",
+      "successes": 0,
+      "episodes": 40,
+      "success_rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.08762160119728664
+      ],
+      "checkpoint": "/home/users/lemon/baseline-benchmark/run-20261109/training/C_bc_transformer/positions-768000.pt",
+      "checkpoint_sha256": "f0cf5dcde213c069039fd393d59867510919f75b07d4d63fafe7b772b1bf5703",
+      "group": "C",
+      "legacy_setting": false,
+      "model_kind": "robomimic",
+      "mean_policy_prediction_seconds": 0.006754486189779038,
+      "peak_gpu_allocated_bytes": 270588416
+    },
+    {
+      "label": "C_diffusion_policy",
+      "task": "pnp_counter_to_sink",
+      "robot": "panda",
+      "status": "COMPLETE",
+      "successes": 0,
+      "episodes": 40,
+      "success_rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.08762160119728664
+      ],
+      "checkpoint": "/home/users/lemon/baseline-benchmark/run-20261109/training/C_diffusion_policy/positions-384000.pt",
+      "checkpoint_sha256": "ccf1edd89b08d6f2e46d00a92defaaf4df5094cca11d728b269fbff52acfc339",
+      "group": "C",
+      "legacy_setting": false,
+      "model_kind": "robomimic",
+      "mean_policy_prediction_seconds": 0.005814311543072108,
+      "peak_gpu_allocated_bytes": 961122816
+    },
+    {
+      "label": "C_diffusion_policy",
+      "task": "pnp_sink_to_counter",
+      "robot": "panda",
+      "status": "COMPLETE",
+      "successes": 0,
+      "episodes": 40,
+      "success_rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.08762160119728664
+      ],
+      "checkpoint": "/home/users/lemon/baseline-benchmark/run-20261109/training/C_diffusion_policy/positions-384000.pt",
+      "checkpoint_sha256": "ccf1edd89b08d6f2e46d00a92defaaf4df5094cca11d728b269fbff52acfc339",
+      "group": "C",
+      "legacy_setting": false,
+      "model_kind": "robomimic",
+      "mean_policy_prediction_seconds": 0.006058807991319694,
+      "peak_gpu_allocated_bytes": 961122816
     }
   ],
-  "paired_comparisons": [],
+  "paired_comparisons": [
+    {
+      "candidate": "C_bc_transformer",
+      "baseline": "B_bc_transformer",
+      "task": "pnp_counter_to_sink",
+      "episodes": 40,
+      "rescued": [
+        75,
+        77,
+        87
+      ],
+      "regressed": [],
+      "net_success_change": 3,
+      "interpretation": "MATCHED_NEW_TARGET_SPLIT_AND_EXPOSURE"
+    },
+    {
+      "candidate": "C_diffusion_policy",
+      "baseline": "B_diffusion_policy",
+      "task": "pnp_counter_to_sink",
+      "episodes": 40,
+      "rescued": [],
+      "regressed": [],
+      "net_success_change": 0,
+      "interpretation": "MATCHED_NEW_TARGET_SPLIT_AND_EXPOSURE"
+    },
+    {
+      "candidate": "C_bc_transformer",
+      "baseline": "B_bc_transformer",
+      "task": "pnp_sink_to_counter",
+      "episodes": 40,
+      "rescued": [],
+      "regressed": [
+        64
+      ],
+      "net_success_change": -1,
+      "interpretation": "MATCHED_NEW_TARGET_SPLIT_AND_EXPOSURE"
+    },
+    {
+      "candidate": "C_diffusion_policy",
+      "baseline": "B_diffusion_policy",
+      "task": "pnp_sink_to_counter",
+      "episodes": 40,
+      "rescued": [],
+      "regressed": [],
+      "net_success_change": 0,
+      "interpretation": "MATCHED_NEW_TARGET_SPLIT_AND_EXPOSURE"
+    }
+  ],
   "execution_root": "/home/users/lemon/baseline-benchmark/run-20261109"
 }

@@ -1,0 +1,40 @@
+{
+  "status": "VERIFIED_ACTUAL_MATCHED_INITIALIZATION_AND_TARGET_EXPOSURE",
+  "no_training_inference_or_physics": true,
+  "pairs": [
+    {
+      "method": "bc_transformer",
+      "initial_trainable_serialized_file_sha256": "b231067b8b96d3ad78e9af9947178db1090e4bdaad0660458e9c0063aae4d7e8",
+      "initial_trainable_tensors_bitwise_identical": true,
+      "architecture_and_optimizer_config_sha256": "7cb4e05624967682cfb8a07569e207776d2c70402c3cb6f5af4d88ede49eb83c",
+      "actual_ordered_target_trace": {
+        "target_positions": 768000,
+        "ordered_episode_id_and_anchor_frame_sha256": "776c831128731238034e3fe7b667395c33b21dc958f9bd621a65d5677120901d"
+      },
+      "optimizer_updates_per_model": 48000,
+      "batch_B": 16,
+      "batch_C": 32,
+      "C_additional_source_positions": 768000,
+      "same_target_anchor_sequence_and_exposure": true,
+      "augmentation": "Same preprocessing and stochastic-crop configuration, not identical per-sample crop realizations; mixed C batch has different random draws and batch statistics",
+      "interpretation": "Joint1:1 source addition at matched target exposure and initialization, with larger C total data/compute; not equal-total-compute or a unique mechanistic attribution"
+    },
+    {
+      "method": "diffusion_policy",
+      "initial_trainable_serialized_file_sha256": "7aa21883375ef28f14b40f72230fe11568a74559e4ebf7e08242ff2bf135418b",
+      "initial_trainable_tensors_bitwise_identical": true,
+      "architecture_and_optimizer_config_sha256": "0d7ab7d96a3c62f6e85cb1b29f5668d1601976e0c17c3997eba813738d348f3b",
+      "actual_ordered_target_trace": {
+        "target_positions": 384000,
+        "ordered_episode_id_and_anchor_frame_sha256": "5d05a1de880c8795f475567524357ef0c00a70ac86246f1380ccc4d4d8d175ae"
+      },
+      "optimizer_updates_per_model": 24000,
+      "batch_B": 16,
+      "batch_C": 32,
+      "C_additional_source_positions": 384000,
+      "same_target_anchor_sequence_and_exposure": true,
+      "augmentation": "Same preprocessing and stochastic-crop configuration, not identical per-sample crop realizations; mixed C batch has different random draws and batch statistics",
+      "interpretation": "Joint1:1 source addition at matched target exposure and initialization, with larger C total data/compute; not equal-total-compute or a unique mechanistic attribution"
+    }
+  ]
+}

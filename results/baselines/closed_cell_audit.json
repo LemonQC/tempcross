@@ -19,8 +19,68 @@
       "job": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_rnn/pnp_sink_to_counter/panda/job.json",
       "status": "VERIFIED",
       "episodes": 40
+    },
+    {
+      "job": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/job.json",
+      "status": "VERIFIED",
+      "episodes": 40
+    },
+    {
+      "job": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/job.json",
+      "status": "VERIFIED",
+      "episodes": 40
+    },
+    {
+      "job": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/job.json",
+      "status": "VERIFIED",
+      "episodes": 40
+    },
+    {
+      "job": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/job.json",
+      "status": "VERIFIED",
+      "episodes": 40
+    },
+    {
+      "job": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_bc_transformer/pnp_counter_to_sink/panda/job.json",
+      "status": "VERIFIED",
+      "episodes": 40
+    },
+    {
+      "job": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_diffusion_policy/pnp_counter_to_sink/panda/job.json",
+      "status": "VERIFIED",
+      "episodes": 40
+    },
+    {
+      "job": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_bc_transformer/pnp_sink_to_counter/panda/job.json",
+      "status": "VERIFIED",
+      "episodes": 40
+    },
+    {
+      "job": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_diffusion_policy/pnp_sink_to_counter/panda/job.json",
+      "status": "VERIFIED",
+      "episodes": 40
+    },
+    {
+      "job": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_bc_transformer/pnp_counter_to_sink/panda/job.json",
+      "status": "VERIFIED",
+      "episodes": 40
+    },
+    {
+      "job": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_diffusion_policy/pnp_counter_to_sink/panda/job.json",
+      "status": "VERIFIED",
+      "episodes": 40
+    },
+    {
+      "job": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_bc_transformer/pnp_sink_to_counter/panda/job.json",
+      "status": "VERIFIED",
+      "episodes": 40
+    },
+    {
+      "job": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_diffusion_policy/pnp_sink_to_counter/panda/job.json",
+      "status": "VERIFIED",
+      "episodes": 40
     }
   ],
-  "verified_episodes": 160,
+  "verified_episodes": 640,
   "read_only_physics": true
 }

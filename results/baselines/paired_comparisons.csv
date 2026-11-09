@@ -1,0 +1,5 @@
+candidate,baseline,task,episodes,rescued,regressed,net_success_change,interpretation
+C_bc_transformer,B_bc_transformer,pnp_counter_to_sink,40,"[75, 77, 87]",[],3,MATCHED_NEW_TARGET_SPLIT_AND_EXPOSURE
+C_diffusion_policy,B_diffusion_policy,pnp_counter_to_sink,40,[],[],0,MATCHED_NEW_TARGET_SPLIT_AND_EXPOSURE
+C_bc_transformer,B_bc_transformer,pnp_sink_to_counter,40,[],[64],-1,MATCHED_NEW_TARGET_SPLIT_AND_EXPOSURE
+C_diffusion_policy,B_diffusion_policy,pnp_sink_to_counter,40,[],[],0,MATCHED_NEW_TARGET_SPLIT_AND_EXPOSURE

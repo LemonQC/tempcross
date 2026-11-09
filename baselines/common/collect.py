@@ -129,15 +129,16 @@ def paired(out,rows):
     before,after=b[key],a[key]
     if not before['success'] and after['success']:rescued.append(before['official_condition_index'])
     if before['success'] and not after['success']:regressed.append(before['official_condition_index'])
-    cases.append(dict(candidate=candidate,baseline=baseline,task=task,condition_id=key,official_index=before['official_condition_index'],baseline_success=before['success'],candidate_success=after['success'],baseline_stage=before['observed_failure_stage'],candidate_stage=after['observed_failure_stage']))
+    transition='RESCUED' if not before['success'] and after['success'] else 'REGRESSED' if before['success'] and not after['success'] else 'BOTH_SUCCESS' if after['success'] else 'BOTH_FAILURE'
+    cases.append(dict(candidate=candidate,baseline=baseline,task=task,condition_id=key,official_index=before['official_condition_index'],baseline_success=before['success'],candidate_success=after['success'],transition=transition,baseline_stage=before['observed_failure_stage'],candidate_stage=after['observed_failure_stage'],baseline_video_path=before['video_path'],candidate_video_path=after['video_path'],baseline_telemetry_path=before['telemetry_path'],candidate_telemetry_path=after['telemetry_path']))
    pairs.append(dict(candidate=candidate,baseline=baseline,task=task,episodes=40,rescued=rescued,regressed=regressed,net_success_change=len(rescued)-len(regressed),interpretation='MATCHED_NEW_TARGET_SPLIT_AND_EXPOSURE' if not 'barx' in candidate else 'LEGACY_DIFFERENT_TRAINING_BUDGET_NOT_CONTROLLED_DATA_EFFECT'))
- csv_write(out/'paired_comparisons.csv',pairs);csv_write(out/'paired_cases.csv',cases);return pairs
+ csv_write(out/'paired_comparisons.csv',pairs);csv_write(out/'paired_cases.csv',cases);csv_write(out/'paired_discordant_cases.csv',[r for r in cases if r['transition'] in ['RESCUED','REGRESSED']]);return pairs
 
 
 def collect(final=False):
  out=PROJECT/'results/baselines';out.mkdir(parents=True,exist_ok=True)
  tr=training(out,final);cells,rows,technical=episodes(out,final);comparisons=paired(out,rows)
- for name in ['probe_suite.json','probe_suite_technical_attempt_01.json','smoke_suite.json','barx_smoke_suite.json','smoke_validation_summary.json','formal_validation_summary.json','closed_cell_audit.json','training_suite.json','formal_suite.json','frozen_publication.json','model_selection_publication.json','first_formal_interface_audit.json','canonical_control_semantics.json','legacy_data_settings.json','environment.json','data_integrity_audit.json','camera_calibration_audit.json']:
+ for name in ['probe_suite.json','probe_suite_technical_attempt_01.json','smoke_suite.json','barx_smoke_suite.json','smoke_validation_summary.json','formal_validation_summary.json','closed_cell_audit.json','training_suite.json','formal_suite.json','frozen_publication.json','model_selection_publication.json','first_formal_interface_audit.json','canonical_control_semantics.json','legacy_data_settings.json','environment.json','data_integrity_audit.json','camera_calibration_audit.json','matched_data_audit.json']:
   p=ROOT/name
   if p.exists():shutil.copyfile(p,out/name)
  for p in (ROOT/'probes').glob('*/status.json'):

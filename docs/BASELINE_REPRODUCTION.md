@@ -1,5 +1,7 @@
 # Baseline运行和复现
 
+原始冻结规则与[机器补充说明](../configs/baselines/protocol_addenda.json)共同读取；实际B/C初始化及目标消费序列匹配可用`python -m baselines.common.audit_matching`只读复核。
+
 本平台复用原BARX物理环境，不覆盖P0–P3目录。执行根目录为`/home/users/lemon/baseline-benchmark/run-20261109`，固定BARX为`/home/users/lemon/coft-p2/barx`提交`0f435089f48b1f16d225f868dbef855a5e75d1e0`，Python为该目录`.venv/bin/python`。具体版本、GPU、驱动、软件路径见[environment.json](../results/baselines/environment.json)。旧环境依赖声明存在历史冲突，未以升级依赖“修复”已验证任务。
 
 ## 本机读取已完成实验

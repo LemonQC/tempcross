@@ -4,12 +4,24 @@
 
 | 设置 | 任务 | 机器人 | 到达代理 | 闭爪命令 | 实测闭爪5mm | 双指接触 | 稳定抬升 | 搬运代理 | 官方放置 | 官方success |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| A_bc_transformer | pnp_counter_to_sink | panda | 7/40 | 40/40 | 40/40 | 0/40 | 0/40 | 0/40 | 0/40 | 0/40 |
+| A_bc_transformer | pnp_sink_to_counter | panda | 2/40 | 40/40 | 40/40 | 0/40 | 0/40 | 0/40 | 0/40 | 0/40 |
+| A_diffusion_policy | pnp_counter_to_sink | panda | 1/40 | 40/40 | 40/40 | 0/40 | 0/40 | 0/40 | 0/40 | 0/40 |
+| A_diffusion_policy | pnp_sink_to_counter | panda | 0/40 | 40/40 | 40/40 | 0/40 | 0/40 | 0/40 | 0/40 | 0/40 |
 | B_bc_gmm | pnp_counter_to_sink | panda | 14/40 | 40/40 | 40/40 | 3/40 | 0/40 | 0/40 | 0/40 | 0/40 |
 | B_bc_gmm | pnp_sink_to_counter | panda | 0/40 | 40/40 | 40/40 | 0/40 | 0/40 | 0/40 | 0/40 | 0/40 |
 | B_bc_rnn | pnp_counter_to_sink | panda | 7/40 | 40/40 | 40/40 | 0/40 | 0/40 | 0/40 | 0/40 | 0/40 |
 | B_bc_rnn | pnp_sink_to_counter | panda | 0/40 | 40/40 | 40/40 | 0/40 | 0/40 | 0/40 | 0/40 | 0/40 |
+| B_bc_transformer | pnp_counter_to_sink | panda | 17/40 | 39/40 | 39/40 | 4/40 | 1/40 | 1/40 | 1/40 | 1/40 |
+| B_bc_transformer | pnp_sink_to_counter | panda | 10/40 | 40/40 | 40/40 | 3/40 | 2/40 | 2/40 | 1/40 | 1/40 |
+| B_diffusion_policy | pnp_counter_to_sink | panda | 7/40 | 40/40 | 40/40 | 1/40 | 0/40 | 0/40 | 0/40 | 0/40 |
+| B_diffusion_policy | pnp_sink_to_counter | panda | 0/40 | 40/40 | 40/40 | 0/40 | 0/40 | 0/40 | 0/40 | 0/40 |
+| C_bc_transformer | pnp_counter_to_sink | panda | 20/40 | 40/40 | 40/40 | 7/40 | 5/40 | 4/40 | 4/40 | 4/40 |
+| C_bc_transformer | pnp_sink_to_counter | panda | 15/40 | 40/40 | 40/40 | 4/40 | 3/40 | 2/40 | 0/40 | 0/40 |
+| C_diffusion_policy | pnp_counter_to_sink | panda | 7/40 | 40/40 | 40/40 | 3/40 | 2/40 | 1/40 | 0/40 | 0/40 |
+| C_diffusion_policy | pnp_sink_to_counter | panda | 2/40 | 40/40 | 40/40 | 0/40 | 0/40 | 0/40 | 0/40 | 0/40 |
 
-Panda失败阶段计数：`{"CLOSE_WITHOUT_BILATERAL_CONTACT": 157, "CONTACT_WITHOUT_STABLE_LIFT": 3}`。这是观察到的断点分类，不能从单次轨迹直接认定视觉、时间建模、动作表征或迁移是根因。
+Panda失败阶段计数：`{"CLOSE_WITHOUT_BILATERAL_CONTACT": 614, "CONTACT_WITHOUT_STABLE_LIFT": 12, "NO_CLOSE_COMMAND": 1, "TRANSPORT_WITHOUT_OFFICIAL_PLACEMENT": 4, "STABLE_LIFT_NO_10CM_TRANSPORT_PROXY": 3}`。这是观察到的断点分类，不能从单次轨迹直接认定视觉、时间建模、动作表征或迁移是根因。
 
 每episode的最大抬升、接触持续、阶段标志及视频路径见[失败索引](../results/baselines/failure_index.csv)，原始物理轨迹支持复查。闭爪命令与实测指垫中心距离减少≥5mm分别记录，后者只说明确有闭爪运动，不声称完全闭合或抓住物体。观察到的策略失败只有在完整合法rollout结束后才进入分母。
 

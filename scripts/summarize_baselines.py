@@ -55,7 +55,12 @@ def main():
   if r['method']=='barx':continue
   coverage=OUT/'training'/r['label']/'consumption_summary.json';cov=json.loads(coverage.read_text()) if coverage.exists() else {}
   rows.append([r['label'],r['target_positions'],r['source_positions'],r['optimizer_updates'],cov.get('unique_demonstrations',{}),r.get('actual_batch'),f"{r.get('parameter_count',0)/1e6:.2f}",f"{r.get('gpu_occupied_wall_seconds',0):.1f}",f"{r.get('peak_gpu_allocated_bytes',0)/1024**3:.2f}",r.get('budget_stop_reason') or r['status']])
- lines+=table(['设置','target anchor','source anchor','实际更新','实际独立demo','实际batch','参数M','GPU占用墙钟秒','峰值GiB','终止/状态'],rows)
+ lines+=table(['设置','target anchor','source anchor','实际更新','实际独立demo','实际batch','参数M','单卡训练循环秒','峰值GiB','终止/状态'],rows)
+ matched=OUT/'matched_data_audit.json'
+ if matched.exists():
+  audit=json.loads(matched.read_text())
+  lines+=['','B/C实际匹配审计见[matched_data_audit.json](../results/baselines/matched_data_audit.json)：已通过的配对初始化序列化文件SHA完全相同，实际消费target ID/anchor的有序哈希及更新次数相同。随机crop配置相同，但不强制每个target样本使用同一个随机crop；C混合batch的随机draw及batch统计也不同。']
+  if audit.get('blocked_pairs'):lines+=['','未完成匹配的配对：`'+json.dumps(audit['blocked_pairs'],ensure_ascii=False)+'`，不据此作配对数据效应结论。']
  diagnostics=[]
  for r in budgets:
   if r['method']=='barx':continue
@@ -63,7 +68,7 @@ def main():
   diagnostics.append([r['label'],history[-1]['metric'],f"{state['initial_validation']['value']:.6f}",f"{best['value']:.6f} @ {best['anchor_positions']}",f"{history[-1]['value']:.6f}"])
  lines+=['','固定验证曲线的只读诊断（不同loss不直接比较；未据此更换权重）：','']+table(['设置','指标','初始','历史最小值及anchor','选定末步值'],diagnostics)
  lines+=['','验证平台表示最近窗口未继续改善，不保证全局充分收敛；若末步较历史验证最小值恶化，也原样保留末步规则和历史checkpoint。训练CSV的learning_rate字段记录scheduler更新后的下一步LR；DP首个实际optimizer步骤LR为0，未回写原始CSV。','', '目标HDF每条ep_meta中的robot0_agentview_left与冻结评测barx_panda_agentview名称不同，但全部100条的基座相对位置、旋转、45°FOV及180×320分辨率均核对一致，见camera_calibration_audit.json；未用默认相机名称臆断视角不一致。']
- lines+=['','GPU秒是该模型单GPU占用的训练墙钟时间（包含数据等待和验证），不是CUDA kernel累计时间。验证每12k固定256 anchors，最终checkpoint来自预先冻结的验证延长/末步规则，未用最终测试挑选。预算到顶仍改善须标为BUDGET_LIMITED_NOT_CONVERGED；验证平台也不证明全局充分收敛。','', 'BARX source prior复用官方50k更新权重，不把其原始大规模预训练当作本轮训练。No Reps6k旧LoRA为3000更新/batch2、3068 target+2932 source；逐图像SHA回溯全部3068 target实际覆盖18条示范（95条eligible池）；2932 source样本完整回溯为19条三具身源示范。Joint96k旧LoRA为12000更新/batch8、48412 target+47588 source，实际100 target及115 source demos，source三具身均有。旧LoRA不是官方充分全参数适配。','', '## 同条件配对与稳定性','']
+ lines+=['','GPU秒为单卡训练循环墙钟时间：包含循环内数据等待和周期验证，不含模型构建/加载、初始验证、checkpoint保存和哈希，也不是CUDA kernel累计时间。验证每12k固定256 anchors，最终checkpoint来自预先冻结的验证延长/末步规则，未用最终测试挑选。预算到顶仍改善须标为BUDGET_LIMITED_NOT_CONVERGED；验证平台也不证明全局充分收敛。','', 'BARX source prior复用官方50k更新权重，不把其原始大规模预训练当作本轮训练。No Reps6k旧LoRA为3000更新/batch2、3068 target+2932 source；逐图像SHA回溯全部3068 target实际覆盖18条示范（95条eligible池）；2932 source样本完整回溯为19条三具身源示范。Joint96k旧LoRA为12000更新/batch8、48412 target+47588 source，实际100 target及115 source demos，source三具身均有。旧LoRA不是官方充分全参数适配。','', '## 同条件配对与稳定性','']
  pairs=s['paired_comparisons'];rows=[]
  for p in pairs:
   a,b=len(p['rescued']),len(p['regressed']);rows.append([p['candidate']+' vs '+p['baseline'],p['task'],a,b,p['net_success_change'],f'{paired_p(a,b):.4f}',p['interpretation']])
