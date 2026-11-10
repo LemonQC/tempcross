@@ -1,0 +1,20 @@
+{
+  "status": "NOT_IDENTIFIABLE_FROM_AVAILABLE_INTERVENTION_SUPPORT",
+  "new_policy_inference_calls": 0,
+  "max_authorized_calls": 100,
+  "new_physics_steps": 0,
+  "new_training_updates": 0,
+  "reviewed_original_decoded_frames": 12,
+  "intervened_images": 0,
+  "counterfactual_actions": 0,
+  "physical_success_rate_estimates_generated": 0,
+  "original_frame_and_action_index": "review_frames.json",
+  "reasons": [
+    "Saved video is lossy; original lossless network inputs and logits are unavailable.",
+    "No trusted dense robot/object/goal masks or occlusion ground truth were saved. Center-frustum labels do not protect object/goal pixels.",
+    "Robot wrist and task objects are adjacent in reviewed key frames. A small manually isolated distant arm patch would not isolate the full embodiment appearance mechanism.",
+    "Descriptive matched states do not control full history or true grasp feasibility.",
+    "Frozen BARX has not received Cloak-style masking training. Pixel ablation sensitivity would conflate lost task cues and out-of-distribution response; it cannot identify the cause sought here."
+  ],
+  "scope": "No claim that every possible mask is impossible, that masking cannot help, or that visual appearance is irrelevant. Optional inference was not necessary to establish the saved-output/interface boundary and cannot presently identify the upstream mechanism."
+}

@@ -1,0 +1,90 @@
+{
+  "checked_date": "2026-11-10",
+  "sources": [
+    {
+      "name": "Cloak",
+      "version": "arXiv:2606.22836v2, 2026-09-25",
+      "url": "https://arxiv.org/html/2606.22836v2",
+      "sections": [
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4"
+      ],
+      "project": "https://tml.stanford.edu/cloak/",
+      "code_url": "https://github.com/Stanford-TML/cloak",
+      "read_via": "primary paper HTML via web tool"
+    },
+    {
+      "name": "KITE",
+      "version": "arXiv:2606.22113v2, 2026-10-20",
+      "url": "https://arxiv.org/html/2606.22113v2",
+      "sections": [
+        "IV-A",
+        "IV-B",
+        "IV-C",
+        "IV-D",
+        "Appendix A"
+      ],
+      "cached_pdf": "/home/users/lemon/post-gate-audit-20261110/literature/kite-v2.pdf",
+      "cached_text": "/home/users/lemon/post-gate-audit-20261110/literature/kite-v2.txt",
+      "read_via": "primary paper HTML and existing original PDF/text",
+      "cached_pdf_sha256": "b1911f5bc28be3fd683a6194e5d2075f86dead3566098047f7f2f6d388f7a83e",
+      "cached_pdf_bytes": 39537952,
+      "cached_text_sha256": "11858ca2823a06204362320eac5fc97ba89b0bf7fad543b6e7e48a27ad778b5a",
+      "cached_text_bytes": 99837
+    },
+    {
+      "name": "Move-Then-Operate",
+      "version": "arXiv:2604.23620v4, 2026-10-21",
+      "url": "https://arxiv.org/html/2604.23620v4",
+      "sections": [
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4"
+      ],
+      "proceedings": "https://proceedings.mlr.press/v306/xu26aa.html",
+      "code_url": "https://github.com/healenrens/Move-then-Operate",
+      "read_via": "primary paper HTML via web tool"
+    },
+    {
+      "name": "CrossZero",
+      "version": "CVPR Workshops 2026, GigaBrainChallenge",
+      "url": "https://openaccess.thecvf.com/content/CVPR2026W/GigaBrainChallenge/papers/Ge_CrossZero_Zero-Shot_of_Unseen_Embodiment_Manipulation_via_Object-Centric_Hierarchical_Diffusion_CVPRW_2026_paper.pdf",
+      "sections": [
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4"
+      ],
+      "cached_pdf": "/home/users/lemon/post-gate-audit-20261110/literature/crosszero.pdf",
+      "cached_text": "/home/users/lemon/post-gate-audit-20261110/literature/crosszero.txt",
+      "read_via": "existing downloaded official original PDF/text; web refetch returned HTTP 403",
+      "cached_pdf_sha256": "fe6dbf0b0ff834b2a8654a585644fd601a828efe66985f4d949c7dacdf207432",
+      "cached_pdf_bytes": 1120385,
+      "cached_text_sha256": "56608f01539a0f557cfebbd51aa4a47312361a15f4608befd728aaae788ade3e",
+      "cached_text_bytes": 51600
+    },
+    {
+      "name": "Visual Servo Control Part I: Basic Approaches",
+      "version": "IEEE Robotics & Automation Magazine, December 2006",
+      "url": "https://www-cvr.ai.uiuc.edu/~seth/ResPages/pdfs/ChaHut06.pdf",
+      "sections": [
+        "Basic Components",
+        "Equations 1-5",
+        "IBVS",
+        "PBVS"
+      ],
+      "cached_pdf": "/home/users/lemon/post-gate-audit-20261110/literature/visual-servo-I.pdf",
+      "cached_text": "/home/users/lemon/post-gate-audit-20261110/literature/visual-servo-I.txt",
+      "read_via": "author-hosted primary PDF and existing original PDF/text",
+      "cached_pdf_sha256": "ecf10f1a73e421792e6e8bf574af41e1b3cf4d39bc4d749435ea5ccc0d2a99fd",
+      "cached_pdf_bytes": 723131,
+      "cached_text_sha256": "9393a8269a4036b02f6d769e06e691871a318c8838cf94eaaddd33746512a6ef",
+      "cached_text_bytes": 63522
+    }
+  ],
+  "implementation_or_success_replication_in_this_audit": false,
+  "repository_urls_are_source_locations_not_claims_of_full_code_audit": true
+}

@@ -1,0 +1,5 @@
+task,robot,episodes,raw_predicted_close,executed_close,reached_near8,near8_never_close,near8_never_close_dwell20,near8_never_close_center_in_frame_at_query,contact_after_close,stable_lift,success,median_minimum_distance_m,stage_counts
+pnp_counter_to_sink,ur5e,40,37,37,33,3,3,3,27,17,16,0.02380549272443635,"{""CONTACT_WITHOUT_STABLE_LIFT"": 10, ""CLOSE_WITHOUT_TWO_SIDED_CONTACT"": 10, ""NEAR_PROXY_BUT_NO_CLOSE"": 3, ""STABLE_LIFT"": 17}"
+pnp_counter_to_sink,panda,40,5,5,31,27,26,27,3,3,1,0.03392788094320838,"{""NO_CLOSE_OUTSIDE_NEAR_PROXY"": 8, ""NEAR_PROXY_BUT_NO_CLOSE"": 27, ""CLOSE_WITHOUT_TWO_SIDED_CONTACT"": 2, ""STABLE_LIFT"": 3}"
+pnp_sink_to_counter,ur5e,40,37,37,40,3,3,3,30,21,14,0.02054602959578214,"{""STABLE_LIFT"": 21, ""NEAR_PROXY_BUT_NO_CLOSE"": 3, ""CONTACT_WITHOUT_STABLE_LIFT"": 9, ""CLOSE_WITHOUT_TWO_SIDED_CONTACT"": 7}"
+pnp_sink_to_counter,panda,40,37,37,36,3,3,3,20,16,7,0.019510261617940616,"{""CONTACT_WITHOUT_STABLE_LIFT"": 4, ""CLOSE_WITHOUT_TWO_SIDED_CONTACT"": 17, ""STABLE_LIFT"": 16, ""NEAR_PROXY_BUT_NO_CLOSE"": 3}"

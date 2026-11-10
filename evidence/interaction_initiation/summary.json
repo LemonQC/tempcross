@@ -1,0 +1,123 @@
+{
+  "groups": [
+    {
+      "task": "pnp_counter_to_sink",
+      "robot": "ur5e",
+      "episodes": 40,
+      "raw_predicted_close": 37,
+      "executed_close": 37,
+      "reached_near8": 33,
+      "near8_never_close": 3,
+      "near8_never_close_dwell20": 3,
+      "near8_never_close_center_in_frame_at_query": 3,
+      "contact_after_close": 27,
+      "stable_lift": 17,
+      "success": 16,
+      "median_minimum_distance_m": 0.02380549272443635,
+      "stage_counts": {
+        "CONTACT_WITHOUT_STABLE_LIFT": 10,
+        "CLOSE_WITHOUT_TWO_SIDED_CONTACT": 10,
+        "NEAR_PROXY_BUT_NO_CLOSE": 3,
+        "STABLE_LIFT": 17
+      }
+    },
+    {
+      "task": "pnp_counter_to_sink",
+      "robot": "panda",
+      "episodes": 40,
+      "raw_predicted_close": 5,
+      "executed_close": 5,
+      "reached_near8": 31,
+      "near8_never_close": 27,
+      "near8_never_close_dwell20": 26,
+      "near8_never_close_center_in_frame_at_query": 27,
+      "contact_after_close": 3,
+      "stable_lift": 3,
+      "success": 1,
+      "median_minimum_distance_m": 0.03392788094320838,
+      "stage_counts": {
+        "NO_CLOSE_OUTSIDE_NEAR_PROXY": 8,
+        "NEAR_PROXY_BUT_NO_CLOSE": 27,
+        "CLOSE_WITHOUT_TWO_SIDED_CONTACT": 2,
+        "STABLE_LIFT": 3
+      }
+    },
+    {
+      "task": "pnp_sink_to_counter",
+      "robot": "ur5e",
+      "episodes": 40,
+      "raw_predicted_close": 37,
+      "executed_close": 37,
+      "reached_near8": 40,
+      "near8_never_close": 3,
+      "near8_never_close_dwell20": 3,
+      "near8_never_close_center_in_frame_at_query": 3,
+      "contact_after_close": 30,
+      "stable_lift": 21,
+      "success": 14,
+      "median_minimum_distance_m": 0.02054602959578214,
+      "stage_counts": {
+        "STABLE_LIFT": 21,
+        "NEAR_PROXY_BUT_NO_CLOSE": 3,
+        "CONTACT_WITHOUT_STABLE_LIFT": 9,
+        "CLOSE_WITHOUT_TWO_SIDED_CONTACT": 7
+      }
+    },
+    {
+      "task": "pnp_sink_to_counter",
+      "robot": "panda",
+      "episodes": 40,
+      "raw_predicted_close": 37,
+      "executed_close": 37,
+      "reached_near8": 36,
+      "near8_never_close": 3,
+      "near8_never_close_dwell20": 3,
+      "near8_never_close_center_in_frame_at_query": 3,
+      "contact_after_close": 20,
+      "stable_lift": 16,
+      "success": 7,
+      "median_minimum_distance_m": 0.019510261617940616,
+      "stage_counts": {
+        "CONTACT_WITHOUT_STABLE_LIFT": 4,
+        "CLOSE_WITHOUT_TWO_SIDED_CONTACT": 17,
+        "STABLE_LIFT": 16,
+        "NEAR_PROXY_BUT_NO_CLOSE": 3
+      }
+    }
+  ],
+  "episodes": 160,
+  "total_executed_actions": 93798,
+  "total_saved_network_queries": 11786,
+  "native_g_exactly_half_actions": 0,
+  "native_g_outside_unit_interval_actions": 15280,
+  "arm_actions_clipped": 257,
+  "unexecuted_tail_close_entries": 125,
+  "episodes_with_close_only_in_unexecuted_tail": 0,
+  "interface_mismatched_actions": 0,
+  "queue_mismatched_actions": 0,
+  "wrong_instructions": 0,
+  "new_policy_inference_calls": 0,
+  "new_physics_steps": 0,
+  "new_training_updates": 0,
+  "matching_by_task": [
+    {
+      "task": "pnp_counter_to_sink",
+      "source_initiation_queries": 37,
+      "source_risk_eligible": 33,
+      "spatial_support": 5,
+      "history_support": 2,
+      "spatial_target_not_closing": 3,
+      "history_target_not_closing": 1
+    },
+    {
+      "task": "pnp_sink_to_counter",
+      "source_initiation_queries": 37,
+      "source_risk_eligible": 31,
+      "spatial_support": 9,
+      "history_support": 4,
+      "spatial_target_not_closing": 5,
+      "history_target_not_closing": 1
+    }
+  ],
+  "metrics_are_descriptive_not_causal": true
+}

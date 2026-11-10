@@ -1,0 +1,27 @@
+{
+  "role": "POSTHOC_DESCRIPTIVE_AUDIT_NOT_NEW_BENCHMARK",
+  "control_freq": 20,
+  "chunk": 8,
+  "near_thresholds_m": [
+    0.04,
+    0.06,
+    0.08,
+    0.1,
+    0.12
+  ],
+  "primary_near_m": 0.08,
+  "primary_near_is_not_a_graspability_certificate": true,
+  "history_window_actions": 10,
+  "spatial_position_caliper_m": 0.02,
+  "spatial_rotation_caliper_degrees": 20,
+  "history_time_caliper_actions": 40,
+  "history_path_caliper_m": 0.1,
+  "history_radial_speed_caliper_m_s": 0.04,
+  "history_jaw_caliper_m": 0.01,
+  "history_near_dwell_caliper_actions": 8,
+  "matching": "Same task/index and source first initiation query. Both preinteraction risk sets. Prefer candidates passing spatial AND history calipers, then spatial-only, then unsupported nearest. One target per source condition; descriptive conditional-on-source-initiation coverage, never causal pairing.",
+  "native_gripper": "Stored post-decoding/unnormalization action, not token logits/probability. g<.5 -> close +1 via -sign(2g-1).",
+  "newly_executed_inference_calls": 0,
+  "new_physics_steps": 0,
+  "new_training_updates": 0
+}

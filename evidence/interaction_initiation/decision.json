@@ -1,0 +1,18 @@
+{
+  "base_commit": "b84bb7e9ad12f582e87d74bc267ef50da14e3c08",
+  "engineering_interface": "NO_RECORDED_POSTNETWORK_CONVERSION_OR_QUEUE_OR_INSTRUCTION_WIRING_ERROR_FOUND",
+  "policy_decision": "DIRECTION_DEPENDENT_NATIVE_POLICY_OUTPUT_MISMATCH_CONFIRMED",
+  "visual_embodiment_cause": "NOT_IDENTIFIED",
+  "task_progress_cause": "NOT_IDENTIFIED",
+  "true_grasp_readiness": "NOT_CERTIFIED_BY_DISTANCE_PROXY",
+  "classical_control_sufficiency": "NOT_ESTABLISHED_OR_EXCLUDED",
+  "standard_adaptation_sufficiency": "NOT_ESTABLISHED_OR_EXCLUDED",
+  "novel_mechanism": "NOT_IDENTIFIED",
+  "algorithm_design": null,
+  "recommendation": "暂不启动新的交互启动算法项目，按原始策略输出层失配已定位、上游视觉与任务进度原因尚不可识别归档。",
+  "new_training_updates": 0,
+  "new_physics_steps": 0,
+  "new_policy_inference_calls": 0,
+  "new_baselines": 0,
+  "controller_changes": 0
+}

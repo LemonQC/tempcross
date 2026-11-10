@@ -1,0 +1,37 @@
+{
+  "role": "SUPPLEMENTARY_STATIC_SOURCE_INSPECTION_NOT_NEW_INFERENCE",
+  "source_commit": "0f435089f48b1f16d225f868dbef855a5e75d1e0",
+  "files": [
+    {
+      "absolute_path": "/home/users/lemon/coft-p2/barx/policy/experiments/robot/openvla_utils.py",
+      "sha256": "c21b387a53e2498300a9cc9b4cbb8cc5790d1b096967b2da3808f9a9d4746738"
+    },
+    {
+      "absolute_path": "/home/users/lemon/coft-p2/barx/policy/prismatic/models/load.py",
+      "sha256": "ac923d083edaced8f8ecde0f7946c88d0acddbfaa9f0cd30147a2a82a5d32b0a"
+    },
+    {
+      "absolute_path": "/home/users/lemon/coft-p2/barx/policy/prismatic/models/vlms/prismatic.py",
+      "sha256": "707af70d4ad859689ecba669ee3139e6352dbae1cca8d8c70462ee87754603ab"
+    },
+    {
+      "absolute_path": "/home/users/lemon/coft-p2/barx/policy/experiments/robot/robocasa_x/utils.py",
+      "sha256": "5b5ee4c4a26756de57a1afbb89e6b54d75b674ea9efa01b33c88dcc8f133a7e8"
+    },
+    {
+      "absolute_path": "/home/users/lemon/coft-p2/barx/policy/prismatic/models/vlas/openvla.py",
+      "sha256": "f488690cbb4a9ee06383c4ecbe41c12f90a372850fad022cb98ff6015433decc"
+    }
+  ],
+  "findings": [
+    "get_prismatic_vla passes load_for_training=False; load_vla passes freeze_weights=True; inherited from_pretrained calls requires_grad_(False) and eval(). This is static call-path evidence, not a logged runtime training flag.",
+    "get_prismatic_vla_action converts the supplied image to RGB and conditionally applies center_crop; center_crop defaults false for the original checkpoint whose image_aug is false.",
+    "predict_action decodes tokens and applies stored q01/q99 normalization before returning output[action]. Native values are not logits/probabilities.",
+    "patch_model_for_generation only adds a transformers cache compatibility attribute.",
+    "Evaluator writes the pre-action RGB to MP4 before the environment action, without a second image flip; video encoding is lossy."
+  ],
+  "limits": [
+    "No claim that original runtime model.training, token IDs, generation configuration or all preprocessing pixels were saved and replay-verified.",
+    "No proof of physical arm response equivalence, equal graspability or causal equivalence of source/target image histories."
+  ]
+}

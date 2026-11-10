@@ -1,0 +1,16 @@
+{
+  "baseline_commit_unchanged": true,
+  "tracked_inputs_not_modified": true,
+  "full_audit_exit_code": 0,
+  "event_rows_checked": 532,
+  "bidirectional_pose_inverse_checks_passed": true,
+  "all_160_queue_and_interface_checks_passed": true,
+  "all_12_frame_and_source_video_hashes_checked": true,
+  "query_progress_rows_checked": 11786,
+  "new_policy_inference_calls": 0,
+  "new_physics_steps": 0,
+  "new_training_updates": 0,
+  "report_local_links_resolve": true,
+  "audit_log": "/tmp/interaction-initiation-audit.log",
+  "frame_extraction_log": "/tmp/interaction-frames.log"
+}

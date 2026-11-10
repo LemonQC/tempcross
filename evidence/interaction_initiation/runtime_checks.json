@@ -1,0 +1,23 @@
+{
+  "checkpoint_path": "/home/users/lemon/coft-p2/artifacts/runs/joint_reps/checkpoints/step-050000-epoch-15-loss=0.2577.pt",
+  "checkpoint_sha256": "ffce76802a8e75d4806b30dee43624accf2c4de4213c17059457e34a8243efce",
+  "checkpoint_rehashed_this_audit": true,
+  "training_config_safe_subset": {
+    "image_aug": false,
+    "normalize_data": true,
+    "seed": 7,
+    "image_sequence_len": 1,
+    "use_wrist_image": false,
+    "center_crop_default": false,
+    "act_horizon": 8,
+    "unnorm_key": "mg_pnp_lite"
+  },
+  "runtime_source_sha256": [
+    "f488690cbb4a9ee06383c4ecbe41c12f90a372850fad022cb98ff6015433decc"
+  ],
+  "same_condition_source_target_instructions_identical": true,
+  "full_training_config_deliberately_not_copied": true,
+  "native_values_are_postdecoded_unnormalized_not_logits": true,
+  "token_ids_and_network_input_lossless_pixels_not_saved": true,
+  "interface_verification_scope": "Exact recorded postnetwork query -> FIFO -> canonical gripper mapping -> clipping and padding -> recorded environment commands. Physical arm response, true grasp feasibility and unrecorded preprocessing internals are not certified."
+}
