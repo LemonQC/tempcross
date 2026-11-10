@@ -1,0 +1,9 @@
+condition,source_official_success,original_target_official_success,source_bilateral_states,source_legacy_pad_states,source_stable_lift,original_target_bilateral_states,original_target_stable_lift,corrected_prefix_stable,M1_final_official_success
+64,True,False,155,153,True,0,False,False,False
+68,True,False,166,166,True,0,False,True,True
+71,True,False,257,257,True,0,False,True,True
+72,True,False,258,258,True,0,False,True,True
+76,True,False,136,136,True,0,False,False,False
+88,True,False,265,265,True,0,False,True,False
+93,True,False,217,217,True,0,False,True,True
+94,True,False,183,0,True,0,False,False,False

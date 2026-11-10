@@ -1,0 +1,945 @@
+{
+  "review_base_commit": "576f4caee172c489f4507e87d55f097bf740833e",
+  "directive_commit": "a0e8dfb0a62d66cacdbb6ddabc57209590a66302",
+  "input_files": [
+    {
+      "absolute_path": "/home/users/lemon/CodexProject/tempcross/configs/mechanism_protocol.json",
+      "sha256": "cc184dae5b999d7873709022cd0c79e500c77ab4ff09657a2bf36f975ce5c3ec",
+      "bytes": 7106
+    },
+    {
+      "absolute_path": "/home/users/lemon/CodexProject/tempcross/docs/BASELINE_SCIENTIFIC_ASSESSMENT.md",
+      "sha256": "c0c6347c7adecff0b6851e10793b87f8874a291735f486529fac177d2cb52576",
+      "bytes": 5977
+    },
+    {
+      "absolute_path": "/home/users/lemon/CodexProject/tempcross/docs/MECHANISM_PRIOR_ART.md",
+      "sha256": "174dc7787b9d7a94365bacb5ce8557f6a21501002a19a2ed2b51d288899fdaea",
+      "bytes": 4290
+    },
+    {
+      "absolute_path": "/home/users/lemon/CodexProject/tempcross/docs/MECHANISM_PROTOCOL.md",
+      "sha256": "949b660d1c5bffbb716aa036f997b257c1a2b86126d222bcd81870474d3f761d",
+      "bytes": 6376
+    },
+    {
+      "absolute_path": "/home/users/lemon/CodexProject/tempcross/docs/MECHANISM_RESULTS.md",
+      "sha256": "9f9e518b99e8d5c9b086a81d90d0d7e597fa75c9ec5634f003079764246f7dbd",
+      "bytes": 11526
+    },
+    {
+      "absolute_path": "/home/users/lemon/CodexProject/tempcross/docs/P2_INTERVENTION_REPORT.md",
+      "sha256": "e76ca724bb723c33e83648886c74f62e88be681ecc3a9d5d228a5f7f416bea57",
+      "bytes": 6691
+    },
+    {
+      "absolute_path": "/home/users/lemon/CodexProject/tempcross/docs/P3_SPATIOTEMPORAL_CAUSAL_REPORT.md",
+      "sha256": "586ac2ce4ad5d708b12c52428ad3ffeaf2c6473a512b8eab8439e26242f1fa4d",
+      "bytes": 7201
+    },
+    {
+      "absolute_path": "/home/users/lemon/CodexProject/tempcross/docs/P3_STRONGER_ADAPTATION.md",
+      "sha256": "ddd3b2589f04b5b6a5d5b643bda9223ae2e014ff30aa0c08c3f2d3a165ebe62e",
+      "bytes": 4908
+    },
+    {
+      "absolute_path": "/home/users/lemon/CodexProject/tempcross/mechanism_validation/__init__.py",
+      "sha256": "5d13b585f3297f4ed417cbdd63f53a2f730cf7a1ba8e71d807288c3621be9be3",
+      "bytes": 81
+    },
+    {
+      "absolute_path": "/home/users/lemon/CodexProject/tempcross/mechanism_validation/collect.py",
+      "sha256": "e9f8c5f021e1e57f9233244b4fa0da71960f86cae11fc5c5845f65d62bb33175",
+      "bytes": 9348
+    },
+    {
+      "absolute_path": "/home/users/lemon/CodexProject/tempcross/mechanism_validation/common.py",
+      "sha256": "94f9fc765652fce77162e229009560d783be76074e147fcbf76c2a865ca83a21",
+      "bytes": 467
+    },
+    {
+      "absolute_path": "/home/users/lemon/CodexProject/tempcross/mechanism_validation/contact.py",
+      "sha256": "7f620dce0cc9f1dab3cc76c67f92eca894bb2f0a392dabd30e735faf07703ba8",
+      "bytes": 833
+    },
+    {
+      "absolute_path": "/home/users/lemon/CodexProject/tempcross/mechanism_validation/control.py",
+      "sha256": "ce55c2a5d03db0d42ba2221e73435b679e87bff63653b214c0cfa306f6f05949",
+      "bytes": 4754
+    },
+    {
+      "absolute_path": "/home/users/lemon/CodexProject/tempcross/mechanism_validation/extract.py",
+      "sha256": "fd73c75bcb702cbd026b94db4082660ecd6443a3c5afa893ae1b2f4aae6bc42f",
+      "bytes": 8746
+    },
+    {
+      "absolute_path": "/home/users/lemon/CodexProject/tempcross/mechanism_validation/freeze.py",
+      "sha256": "675112387c22d29db55046f23fc2827a79a46986b62c3c09f7da4257eda4a4d4",
+      "bytes": 5282
+    },
+    {
+      "absolute_path": "/home/users/lemon/CodexProject/tempcross/mechanism_validation/plot.py",
+      "sha256": "1d40a0f5ef4d4fbb48c5c82bb2e3213a8f409990c458f7091adee88f1e6917e7",
+      "bytes": 2485
+    },
+    {
+      "absolute_path": "/home/users/lemon/CodexProject/tempcross/mechanism_validation/recorded_diagnostics.py",
+      "sha256": "a2840c87b95bf903ec5c6ff0c9cb2af1f4c4ab0a602ba18c5321d6b644ce2b8e",
+      "bytes": 4280
+    },
+    {
+      "absolute_path": "/home/users/lemon/CodexProject/tempcross/mechanism_validation/run.py",
+      "sha256": "598c09366d8c5667a789d3b2e89fbf4437b0069f10e15937851609e45cf10db2",
+      "bytes": 15277
+    },
+    {
+      "absolute_path": "/home/users/lemon/CodexProject/tempcross/results/baselines/analysis.json",
+      "sha256": "392c7adaad8ac356cc50622e3ab929e2c862aea96a791f299b9f18dd9db7b673",
+      "bytes": 1813844
+    },
+    {
+      "absolute_path": "/home/users/lemon/CodexProject/tempcross/results/baselines/status.json",
+      "sha256": "db697c3f9519134b70c00331efb0f35834c9d39d6c01d2edf761cc27a931c666",
+      "bytes": 35085
+    },
+    {
+      "absolute_path": "/home/users/lemon/CodexProject/tempcross/results/mechanism/analysis.json",
+      "sha256": "7394055cbfbe8f456505e734f2ce29f1ac67c5f2ab6ab6df3c3c720dd449a347",
+      "bytes": 26900
+    },
+    {
+      "absolute_path": "/home/users/lemon/CodexProject/tempcross/results/mechanism/decision.json",
+      "sha256": "9d3bee76f769b7a6bb1c340c7044e41c72882508b36be259a77926f37c3b67ae",
+      "bytes": 349
+    },
+    {
+      "absolute_path": "/home/users/lemon/CodexProject/tempcross/results/mechanism/episodes.csv",
+      "sha256": "b332c4aa2114b95a5d97a4e4020b42075624deb7874ea78d37d5e7dd22b42c2c",
+      "bytes": 10342
+    },
+    {
+      "absolute_path": "/home/users/lemon/CodexProject/tempcross/results/mechanism/recorded_tracking_diagnostics.csv",
+      "sha256": "378d4362978ca5bfcf1be79193ce4d29e4596cb9de5e4b476325b03991a55b3d",
+      "bytes": 24098
+    },
+    {
+      "absolute_path": "/home/users/lemon/CodexProject/tempcross/results/mechanism/source_contact_bank.json",
+      "sha256": "856c17e935d275032dfacd8e28515018ab2b150a836d6726726b25a8cb07d67c",
+      "bytes": 48570
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/panda/telemetry/episode-000.h5",
+      "sha256": "97f01d807d8ca2f2982095d7cbfede826b610b769253b6f62bc5d10f576a3c07",
+      "bytes": 1925152
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/panda/telemetry/episode-001.h5",
+      "sha256": "0e57b49a7284712eddc80e2237145ff997c755b3028a4933741c70da8924fbe8",
+      "bytes": 2136104
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/panda/telemetry/episode-002.h5",
+      "sha256": "45cce05b23f833fadedcd60e9e963d8e125e3b4d910f60cba244c11249aa3553",
+      "bytes": 2065440
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/panda/telemetry/episode-003.h5",
+      "sha256": "905e653dba13059a3ac1d6d875496d826c94c71b5782a98b76ab94dd757d78b2",
+      "bytes": 2116596
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/panda/telemetry/episode-004.h5",
+      "sha256": "01bda3f6c8f745e2bce53103ff43c9b7aab10822c6bbdf7143a12c6c8430cd56",
+      "bytes": 1976542
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/panda/telemetry/episode-004.jsonl",
+      "sha256": "7efec2482d0ab769c8f796739badef0bf1dc217e3512892931e1ea72cb078ab7",
+      "bytes": 3316520
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/panda/telemetry/episode-005.h5",
+      "sha256": "c2ad7c80651bbd41ed3ad1b801061e16cb586037a1cebfe06f0d743fbe72ff55",
+      "bytes": 1965197
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/panda/telemetry/episode-006.h5",
+      "sha256": "83ea371d0a1c941bafb83812a213384e0ccaaf467b8bb7ec682c7f7ca5f55607",
+      "bytes": 1975016
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/panda/telemetry/episode-007.h5",
+      "sha256": "44841dbfb53477636a33c0905217000e6937ff0a72136781af33631bb8e54509",
+      "bytes": 2015798
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/panda/telemetry/episode-008.h5",
+      "sha256": "0bdf467109d58d683f99fae8aa483765f3318a55161a37dfda8128b9d28b6387",
+      "bytes": 2109872
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/panda/telemetry/episode-008.jsonl",
+      "sha256": "5c7d6549d7243d711f5649efe8f5118b37cf3d952c96c296896d8886c16eae3a",
+      "bytes": 8776346
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/panda/telemetry/episode-009.h5",
+      "sha256": "d2f362372b8b7f28c2a9645dd21946b034f163d7e25d8cc5a1dc24c24f52897b",
+      "bytes": 2060368
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/panda/telemetry/episode-010.h5",
+      "sha256": "9966a57c45ccb03fa722e6659bcf27218eb61fbdfaca7b069e45b0c24ab1b7ca",
+      "bytes": 2046193
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/panda/telemetry/episode-011.h5",
+      "sha256": "139573077d9b91da2e8902211e72e78aa44612b72d6bc565817a71fae34257df",
+      "bytes": 1953446
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/panda/telemetry/episode-011.jsonl",
+      "sha256": "a1cf633ccda7431bc876cd45bbbb14d39e8e9611f8aa15db4bec7821ef1de457",
+      "bytes": 1486377
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/panda/telemetry/episode-012.h5",
+      "sha256": "0a51465e3ebc818b765fd921485967960e2817ccf362aae88648417bb0d98d86",
+      "bytes": 2061473
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/panda/telemetry/episode-012.jsonl",
+      "sha256": "b10f46db93ffbe053ac4f967c7354fa2274f81b16290ea0a1abcc3468c9ec413",
+      "bytes": 1142319
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/panda/telemetry/episode-013.h5",
+      "sha256": "a97966143ff7f8eb3cae241f793d0c2b248fea3a94ad0b086d01e06577416bae",
+      "bytes": 1914832
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/panda/telemetry/episode-014.h5",
+      "sha256": "cfd224a344e73dace87cb912f7d9fcd3ede30b5255bd237ba2eb75ab3d42b5b4",
+      "bytes": 2031144
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/panda/telemetry/episode-015.h5",
+      "sha256": "610beea05b5032cc96442719e5ef53470416f3579d65cfdb11c6db5ca850d8c9",
+      "bytes": 2279188
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/panda/telemetry/episode-016.h5",
+      "sha256": "6334628e5cbcfcb585878bcbb0e9986161a10efc4c293605a047cbcc2d06313f",
+      "bytes": 2034114
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/panda/telemetry/episode-016.jsonl",
+      "sha256": "5febe7502c919c1eb66b12fc0f0e3f93cdfe31598ad12ed851b3a581b7e4e04c",
+      "bytes": 1256386
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/panda/telemetry/episode-017.h5",
+      "sha256": "7d52977a2b9221fbd28f2163172f1de802cf90f90e1aedbddfaf3859dfd57b92",
+      "bytes": 2070989
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/panda/telemetry/episode-018.h5",
+      "sha256": "9c354be2a662a0ee67c4bce23a9fb015c5207e9ae7859b9e6489a9cbb4dcc428",
+      "bytes": 2102203
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/panda/telemetry/episode-019.h5",
+      "sha256": "6045c901646f58432082590e4a23919e36fe1dd5577eb9d1af22a5376d2ca05c",
+      "bytes": 2099116
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/panda/telemetry/episode-020.h5",
+      "sha256": "969e4af9e06d52f208db6cc16108a963d8e9fa2a8796d80f87e64ee796a50dd6",
+      "bytes": 1991901
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/panda/telemetry/episode-021.h5",
+      "sha256": "711e83595ad9b40d0549070441054a91630a742bd70ae790c7a283fd60377a66",
+      "bytes": 2042663
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/panda/telemetry/episode-022.h5",
+      "sha256": "3e40abd46d7ffb9f348a06f711a3c54cbeac5ffeca56b3b1692d10317b15ac6b",
+      "bytes": 1942584
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/panda/telemetry/episode-023.h5",
+      "sha256": "f6e3bbd93e2d50d9e83fd9c7234feded9047f32fe65edefd07a3a2b2d37d66a9",
+      "bytes": 1987533
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/panda/telemetry/episode-024.h5",
+      "sha256": "6086c831815a2a2ce20c36c1a5e54104d6378dd763ae761e5cb8d0b003a7dc01",
+      "bytes": 1993374
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/panda/telemetry/episode-025.h5",
+      "sha256": "b23ab595d4a1c81c9f68ebed04f031565e44a4ff544dcf21ccc2f9c80ae483fe",
+      "bytes": 2055301
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/panda/telemetry/episode-026.h5",
+      "sha256": "c2d68f67468783f17e770c89d9fff29c3b2a53ebf3942c6351e47bca28c7280a",
+      "bytes": 1997511
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/panda/telemetry/episode-027.h5",
+      "sha256": "faffb09bc71be005eb54a99e23782f2502ee45e38e294b9b10445d4ddb558d33",
+      "bytes": 1991935
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/panda/telemetry/episode-028.h5",
+      "sha256": "f1565e2bf758beb21ad03d8a54d934abadf1b5992b18d871985776c60fcc2a76",
+      "bytes": 1997778
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/panda/telemetry/episode-028.jsonl",
+      "sha256": "4dadcbf1c206af1cb18d080d0244e2d873803bbc1e4cd4a327ac04cee0854ce7",
+      "bytes": 1974301
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/panda/telemetry/episode-029.h5",
+      "sha256": "658fefa97f9fab9e8596dfd9d2c3357e2f54b8e669ce231ba83f4fd5c76dbde1",
+      "bytes": 1885694
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/panda/telemetry/episode-030.h5",
+      "sha256": "286c29a47b401130e66fbb9886e4a2f3fbc48ec8549fb95e5e50b8f25201fce5",
+      "bytes": 2059130
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/panda/telemetry/episode-031.h5",
+      "sha256": "d391af7e02e232497ba31289b2f21c7d8135871b68d61390d9a01f391bf980ef",
+      "bytes": 2159531
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/panda/telemetry/episode-032.h5",
+      "sha256": "b577a33dfc7c3769e905a038d12b4668e5c9eb7472aae01a0aff31b6b40f4c17",
+      "bytes": 2046092
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/panda/telemetry/episode-033.h5",
+      "sha256": "97a74a6216099602703778b10438463c6fc67cca31a3904b17bc13553f52f9bf",
+      "bytes": 2094661
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/panda/telemetry/episode-033.jsonl",
+      "sha256": "391f65e3bc4655b3fc0e0a49ee728c6c40759e0615d6463f46e628558c205a6e",
+      "bytes": 3189101
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/panda/telemetry/episode-034.h5",
+      "sha256": "644b43505d79095bcbaf22e9b65a2c4bf27200932c6c835d99e26dcafcd286da",
+      "bytes": 1984327
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/panda/telemetry/episode-034.jsonl",
+      "sha256": "d168594b0627bce115cd226865bff62dccac10fc63c29faf7e147f03d21da917",
+      "bytes": 3188313
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/panda/telemetry/episode-035.h5",
+      "sha256": "a233c42809f460d78a505e5be02bae088e71d52780fce69a4ac83111be0bed5f",
+      "bytes": 1508601
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/panda/telemetry/episode-036.h5",
+      "sha256": "1472ed6e00a532d79a0181d40978347e914f1a4bddf54f3c65c297b7c0d4aee7",
+      "bytes": 2018093
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/panda/telemetry/episode-037.h5",
+      "sha256": "19f9abcc9838a2186d1d507cd993ebe92c2d19e6192f47bbce60359b25125ac6",
+      "bytes": 2002184
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/panda/telemetry/episode-038.h5",
+      "sha256": "a17fd4ad1279025ce35fe13081e58d551b4e78fc9504aa00e2dc8940c417e2ce",
+      "bytes": 1990134
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/panda/telemetry/episode-039.h5",
+      "sha256": "f3b59e320b4e0a0c66daae02e6cb309673fbe2179442a6a0a1baa7246e5b6086",
+      "bytes": 1972010
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/ur5e/telemetry/episode-000.h5",
+      "sha256": "c41e07d09ebc2c4988160cee212c11ab8ae33aa02acc4627f6ddea28bf0e3af5",
+      "bytes": 1875110
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/ur5e/telemetry/episode-001.h5",
+      "sha256": "0eea7932d25386fc6675dc3c276358d620ed5888c54ec49ef78d5e4c0d6723af",
+      "bytes": 2015379
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/ur5e/telemetry/episode-002.h5",
+      "sha256": "839e646f7e3a75a7b85f1cf8449a1507cb58db21e8b55fe814a9a910ce6ab21c",
+      "bytes": 1997043
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/ur5e/telemetry/episode-003.h5",
+      "sha256": "115c859c4c076cb59c49b0ddfd47975088547bc0ba405ce924f10618db7e1dfd",
+      "bytes": 2058137
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/ur5e/telemetry/episode-004.h5",
+      "sha256": "9118026a7c4af63196827a5dba090a9ec1fd8a048324f6ad66fad7157e6657f1",
+      "bytes": 1284394
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/ur5e/telemetry/episode-004.jsonl",
+      "sha256": "dc0dfcb82eb97c250aea92f1ef4669cedaf9aacb54eeb04bb9781f31b7fe25a3",
+      "bytes": 1946493
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/ur5e/telemetry/episode-005.h5",
+      "sha256": "096111669a630c85c0729b67ee6591a0f82e3e6f106399b50e526758b7ab431d",
+      "bytes": 1916824
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/ur5e/telemetry/episode-006.h5",
+      "sha256": "290cdadd31d098936f5602074e83b7d98dcd356f236e2043436f067368cd8de4",
+      "bytes": 1910202
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/ur5e/telemetry/episode-007.h5",
+      "sha256": "28e7801145ed5951a50b8055117c6b60fe9d18d10ae67b5f44a3986a842d3c48",
+      "bytes": 1879987
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/ur5e/telemetry/episode-008.h5",
+      "sha256": "a44061c0afb15a213599147b8568b634f1cfe59607cdde71200acb30b442e474",
+      "bytes": 1431656
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/ur5e/telemetry/episode-008.jsonl",
+      "sha256": "d3701e53bc2b92b7043799791c8dc88c2f466aaf9e743082758cec795d774018",
+      "bytes": 5594606
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/ur5e/telemetry/episode-009.h5",
+      "sha256": "857753e520d6c4598033c15dd8bccf526eb716efe11f2f4cbd051b689f4c6a89",
+      "bytes": 2017539
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/ur5e/telemetry/episode-010.h5",
+      "sha256": "b4f6e52a36cfeb372912c3c79b63578549b9f2a1c83f305b5027eb3b62c5a7f3",
+      "bytes": 1362971
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/ur5e/telemetry/episode-011.h5",
+      "sha256": "76195f769c6334fed221bf88cb600b3d25880910d33d317450fdbf0f1ae36561",
+      "bytes": 1583477
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/ur5e/telemetry/episode-011.jsonl",
+      "sha256": "cfa74f55e3768687592948edb6f75af1038692ced3ae07d18e4c0107aab4dc9f",
+      "bytes": 1151305
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/ur5e/telemetry/episode-012.h5",
+      "sha256": "45be01d09a56bfb7a79e0bc74cad4ef0ac044da06803356ac096945208be90ab",
+      "bytes": 1837570
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/ur5e/telemetry/episode-012.jsonl",
+      "sha256": "9a1ffd8b0a834b9d1e5a2ade87f5462e3d347028f6e7e6524426419e101678a8",
+      "bytes": 1068706
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/ur5e/telemetry/episode-013.h5",
+      "sha256": "a825a23711a4ff20bc654a08644cc638ec51a04b26cadd0ac4338b967f3c897c",
+      "bytes": 1179892
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/ur5e/telemetry/episode-014.h5",
+      "sha256": "1dc8260915abb0d2511805cf11e48bac002c0c9c9927ff83b6fce26b52f45cf5",
+      "bytes": 2020538
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/ur5e/telemetry/episode-015.h5",
+      "sha256": "113bfc6165d88667af5639ed46b10ca7b3d9fe914dcc4b9eb51f7ca995082389",
+      "bytes": 1508073
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/ur5e/telemetry/episode-016.h5",
+      "sha256": "825a4de6c4ddf9b42ce8b20f584ec4d25fff0489fd1a14f3a9c40ebeaa6cb7d9",
+      "bytes": 1305978
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/ur5e/telemetry/episode-016.jsonl",
+      "sha256": "59540086c5473287881d9c1e42350c063dea4f988b521a1885c5f55b288c63dd",
+      "bytes": 745136
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/ur5e/telemetry/episode-017.h5",
+      "sha256": "7bcf5506039b24c8dfb09697133e270fd499655efeb4202b806acdb6eef53027",
+      "bytes": 2046745
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/ur5e/telemetry/episode-018.h5",
+      "sha256": "5592d78de21b9c6004a74264aaf943a567a34bf58c89b3d115e44643fec87978",
+      "bytes": 2087999
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/ur5e/telemetry/episode-019.h5",
+      "sha256": "1326371108df2b5036e0b8d0044aa212ed51f04ae15fffad2fe0f6f7d304a78a",
+      "bytes": 2054869
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/ur5e/telemetry/episode-020.h5",
+      "sha256": "4cdab21c1486a0a572d510e65e2ef3a99e5db1f8a44bd1ddc1e71889f46f2a17",
+      "bytes": 1982016
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/ur5e/telemetry/episode-021.h5",
+      "sha256": "a43177626287d2bfdc4424d725656f8c35e79b4016301eee1e714f432c000f6b",
+      "bytes": 2003221
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/ur5e/telemetry/episode-022.h5",
+      "sha256": "71b46417e5fdf1592b0c2b0ec56d03591d3dfbbada61c11d37e71c1091eb7bda",
+      "bytes": 1612955
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/ur5e/telemetry/episode-023.h5",
+      "sha256": "4720d6d940f74df22a62389f734ff01f15090bc8b4e020aaa095f8474e8a4213",
+      "bytes": 1998038
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/ur5e/telemetry/episode-024.h5",
+      "sha256": "8d86c5c1e8ff908cd80fd60a9934a992716f6181879b784f9ba9895894c23bc6",
+      "bytes": 1888455
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/ur5e/telemetry/episode-025.h5",
+      "sha256": "2802852c76422c5f00dc531f4b0cfd25183b33f5ff8237e4cf7fae424578e2a7",
+      "bytes": 2019000
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/ur5e/telemetry/episode-026.h5",
+      "sha256": "50cde5c5df43ef3e0310292d5109218ee7178510d1319e683d60cb74042d78dc",
+      "bytes": 1934096
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/ur5e/telemetry/episode-027.h5",
+      "sha256": "19e2a0df68b2df03f365c8e1b105f7250d2cd3db33a5f8fe55f7f3e9dbd86a60",
+      "bytes": 1259797
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/ur5e/telemetry/episode-028.h5",
+      "sha256": "039bc4d18264750df7fa5bf10b235159d9bfce38bd527a1eb70a7ad7430df540",
+      "bytes": 1750380
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/ur5e/telemetry/episode-028.jsonl",
+      "sha256": "b5781c0ba98d9d8deddd38314c1980be0ac143ce5b44e5bd431514ba02cd297e",
+      "bytes": 1627294
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/ur5e/telemetry/episode-029.h5",
+      "sha256": "5ba70c175583c606493912f6f5ea8af29fb7f45b0b8e47309d44d96f0f838830",
+      "bytes": 1443127
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/ur5e/telemetry/episode-030.h5",
+      "sha256": "5d300a3d5a4a63cdc1de72407c669ed599cfb1e0d23d39033f0d22701ba83c02",
+      "bytes": 2017396
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/ur5e/telemetry/episode-031.h5",
+      "sha256": "61db090334e058d338cf2a59dad93bf2488bb0671b847006103adc1ec06710ad",
+      "bytes": 2117428
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/ur5e/telemetry/episode-032.h5",
+      "sha256": "b34ea935a9136fc36c8c19dfe6b81424e380fdd40b10ff6e49586604afca56fa",
+      "bytes": 2001128
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/ur5e/telemetry/episode-033.h5",
+      "sha256": "0ecd85aeb80691658b527d96c82e6e013e9cdffe367d2bd973712988d8c3a055",
+      "bytes": 1441238
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/ur5e/telemetry/episode-033.jsonl",
+      "sha256": "8693763ac860709cfb2a2833df794f3e2e9f07d7065d2aa82486ad8762eb9e55",
+      "bytes": 2111274
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/ur5e/telemetry/episode-034.h5",
+      "sha256": "62ca669325fa0526dbc07b52a038ef5e0611166fb8df1efc1a2071670b3cc5a7",
+      "bytes": 1295245
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/ur5e/telemetry/episode-034.jsonl",
+      "sha256": "b38690f3a91dda7e08ba7a7b0584f960a56c5421e5ac2a833d27028dce89bfda",
+      "bytes": 1800910
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/ur5e/telemetry/episode-035.h5",
+      "sha256": "a1f2b67405cba5eab1284cbc158aeb575dd065b0f81e1a278e94fd18bb47133a",
+      "bytes": 1968938
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/ur5e/telemetry/episode-036.h5",
+      "sha256": "78eb1b2b971b29a0c14726ce7d45303bf4e418bbca335d0d522667bd54c69279",
+      "bytes": 1973818
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/ur5e/telemetry/episode-037.h5",
+      "sha256": "79a2859b6a4458da4d5803a3ec60b076664d97684c3c75b5623eca5d190c1290",
+      "bytes": 1589821
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/ur5e/telemetry/episode-038.h5",
+      "sha256": "f80dcc1d051059155cf10e9df3ec0c436b40e8c28c311c55a894bcbcc5b4866e",
+      "bytes": 1954745
+    },
+    {
+      "absolute_path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/ur5e/telemetry/episode-039.h5",
+      "sha256": "bbb30bebdde190a34fa10afd40960f94c15553ae6c0cebf4848054009d79e3c1",
+      "bytes": 1648703
+    },
+    {
+      "absolute_path": "/home/users/lemon/mechanism-20261110/completion.json",
+      "sha256": "1d03b669115d3c57b97f2003de8c0aee876bf82813618dfc89cf794fce829fb5",
+      "bytes": 117
+    },
+    {
+      "absolute_path": "/home/users/lemon/mechanism-20261110/condition-064/M0/history.json",
+      "sha256": "309514f086f74fb72727057e0201780ee11c5995d07a7ae08bfadbd739e66f5c",
+      "bytes": 119979
+    },
+    {
+      "absolute_path": "/home/users/lemon/mechanism-20261110/condition-064/M0/telemetry/episode-000.h5",
+      "sha256": "66928481765a7d52577ba017d54075a6e32a05878dcb454e27a1bbd38060d2d6",
+      "bytes": 747563
+    },
+    {
+      "absolute_path": "/home/users/lemon/mechanism-20261110/condition-064/M1/history.json",
+      "sha256": "309514f086f74fb72727057e0201780ee11c5995d07a7ae08bfadbd739e66f5c",
+      "bytes": 119979
+    },
+    {
+      "absolute_path": "/home/users/lemon/mechanism-20261110/condition-064/M1/telemetry/episode-000.h5",
+      "sha256": "66928481765a7d52577ba017d54075a6e32a05878dcb454e27a1bbd38060d2d6",
+      "bytes": 747563
+    },
+    {
+      "absolute_path": "/home/users/lemon/mechanism-20261110/condition-064/M2/history.json",
+      "sha256": "309514f086f74fb72727057e0201780ee11c5995d07a7ae08bfadbd739e66f5c",
+      "bytes": 119979
+    },
+    {
+      "absolute_path": "/home/users/lemon/mechanism-20261110/condition-064/M2/telemetry/episode-000.h5",
+      "sha256": "66928481765a7d52577ba017d54075a6e32a05878dcb454e27a1bbd38060d2d6",
+      "bytes": 747563
+    },
+    {
+      "absolute_path": "/home/users/lemon/mechanism-20261110/condition-068/M0/handoff.npz",
+      "sha256": "0591f4e69a7a2a27c8fc1a75901d6bd9240358b059df50014c7d575ae47bbd48",
+      "bytes": 40022
+    },
+    {
+      "absolute_path": "/home/users/lemon/mechanism-20261110/condition-068/M0/history.json",
+      "sha256": "7cc0cd8a0c8ce0e7da808603728b64740c603972d60cf4576a33653f9668a68b",
+      "bytes": 315187
+    },
+    {
+      "absolute_path": "/home/users/lemon/mechanism-20261110/condition-068/M0/telemetry/episode-000.h5",
+      "sha256": "5b30384983d854aff43dd58750ba5b02f8f407ea88cb5f183c93fc6691640b0f",
+      "bytes": 1739236
+    },
+    {
+      "absolute_path": "/home/users/lemon/mechanism-20261110/condition-068/M1/handoff.npz",
+      "sha256": "0591f4e69a7a2a27c8fc1a75901d6bd9240358b059df50014c7d575ae47bbd48",
+      "bytes": 40022
+    },
+    {
+      "absolute_path": "/home/users/lemon/mechanism-20261110/condition-068/M1/history.json",
+      "sha256": "8a01d2d9f53d9e0f9b9beee35f44515c0b29f9407c10219ada8a9b68ec95c44f",
+      "bytes": 282729
+    },
+    {
+      "absolute_path": "/home/users/lemon/mechanism-20261110/condition-068/M1/telemetry/episode-000.h5",
+      "sha256": "75c8bc4eb20438b500411cfc098d3793fb213e7e5c6067bf9f057f2b5c718817",
+      "bytes": 1665897
+    },
+    {
+      "absolute_path": "/home/users/lemon/mechanism-20261110/condition-068/M2/handoff.npz",
+      "sha256": "0591f4e69a7a2a27c8fc1a75901d6bd9240358b059df50014c7d575ae47bbd48",
+      "bytes": 40022
+    },
+    {
+      "absolute_path": "/home/users/lemon/mechanism-20261110/condition-068/M2/history.json",
+      "sha256": "962566e33968b4075e8e8fc07adc3871f0f4a002bbe7c7338e77025f610a2b4a",
+      "bytes": 316361
+    },
+    {
+      "absolute_path": "/home/users/lemon/mechanism-20261110/condition-068/M2/telemetry/episode-000.h5",
+      "sha256": "a0c83f369c55cda77ac79e0785bf97a42fbc08570299b0ab75393eee845abbe3",
+      "bytes": 1770280
+    },
+    {
+      "absolute_path": "/home/users/lemon/mechanism-20261110/condition-071/M0/handoff.npz",
+      "sha256": "791510d5efb28f3f857d0fc95e75eae198f18c56a47c37c10b442963afdb2e88",
+      "bytes": 39550
+    },
+    {
+      "absolute_path": "/home/users/lemon/mechanism-20261110/condition-071/M0/history.json",
+      "sha256": "5b96c311f529ad03b25f0839fd7f8b21ad29b8121171116bd384f3a528084958",
+      "bytes": 234859
+    },
+    {
+      "absolute_path": "/home/users/lemon/mechanism-20261110/condition-071/M0/telemetry/episode-000.h5",
+      "sha256": "a5b031865ab5ceb2028757827ff61dde8ee86861a68a2358a8aaf3b43837fd03",
+      "bytes": 1273297
+    },
+    {
+      "absolute_path": "/home/users/lemon/mechanism-20261110/condition-071/M1/handoff.npz",
+      "sha256": "791510d5efb28f3f857d0fc95e75eae198f18c56a47c37c10b442963afdb2e88",
+      "bytes": 39550
+    },
+    {
+      "absolute_path": "/home/users/lemon/mechanism-20261110/condition-071/M1/history.json",
+      "sha256": "34bdcf48cd889a5a98e57e18262595adde19bf11360c85bebdebe1963c295e75",
+      "bytes": 368810
+    },
+    {
+      "absolute_path": "/home/users/lemon/mechanism-20261110/condition-071/M1/telemetry/episode-000.h5",
+      "sha256": "7b30e959d7bbc5ec30b7663a2b88094f537e354f005a1e611da328c401ee944e",
+      "bytes": 1928231
+    },
+    {
+      "absolute_path": "/home/users/lemon/mechanism-20261110/condition-071/M2/handoff.npz",
+      "sha256": "791510d5efb28f3f857d0fc95e75eae198f18c56a47c37c10b442963afdb2e88",
+      "bytes": 39550
+    },
+    {
+      "absolute_path": "/home/users/lemon/mechanism-20261110/condition-071/M2/history.json",
+      "sha256": "5c3aa5f4ce1359a263213c722dd85cf2f849a80d3504c5d5593a3bc4d4a41a49",
+      "bytes": 234844
+    },
+    {
+      "absolute_path": "/home/users/lemon/mechanism-20261110/condition-071/M2/telemetry/episode-000.h5",
+      "sha256": "e5a993ff7583edc8288285a032bc55780dfa43ed72e6595b220e38f6c427225c",
+      "bytes": 1295090
+    },
+    {
+      "absolute_path": "/home/users/lemon/mechanism-20261110/condition-072/M0/handoff.npz",
+      "sha256": "4fd3565b2b789df2590353d4d3a7521035a017a350c14dba163b9b2a024eb45a",
+      "bytes": 39318
+    },
+    {
+      "absolute_path": "/home/users/lemon/mechanism-20261110/condition-072/M0/history.json",
+      "sha256": "82218e0968b6ecd2779752c5ede0663f0c67db19fbe663d352ef7c7e4e01eb0e",
+      "bytes": 232005
+    },
+    {
+      "absolute_path": "/home/users/lemon/mechanism-20261110/condition-072/M0/telemetry/episode-000.h5",
+      "sha256": "4b8983b196d79db12221c8124af6da8390098b0faf40fed127c44db4fe3b2e5c",
+      "bytes": 1309510
+    },
+    {
+      "absolute_path": "/home/users/lemon/mechanism-20261110/condition-072/M1/handoff.npz",
+      "sha256": "4fd3565b2b789df2590353d4d3a7521035a017a350c14dba163b9b2a024eb45a",
+      "bytes": 39318
+    },
+    {
+      "absolute_path": "/home/users/lemon/mechanism-20261110/condition-072/M1/history.json",
+      "sha256": "702614ec8479f0195ecf3fdfdd71a54f417ef9646ae484f5f9e307525a95673f",
+      "bytes": 329173
+    },
+    {
+      "absolute_path": "/home/users/lemon/mechanism-20261110/condition-072/M1/telemetry/episode-000.h5",
+      "sha256": "12f4069a39253bf00cd6b1cf4d9b75b711349124b6577b2dff4aa04af60271ce",
+      "bytes": 1883425
+    },
+    {
+      "absolute_path": "/home/users/lemon/mechanism-20261110/condition-072/M2/handoff.npz",
+      "sha256": "4fd3565b2b789df2590353d4d3a7521035a017a350c14dba163b9b2a024eb45a",
+      "bytes": 39318
+    },
+    {
+      "absolute_path": "/home/users/lemon/mechanism-20261110/condition-072/M2/history.json",
+      "sha256": "7294cccd84949646ac8dd9a6dcb11e26ae53df9eb6e89770dc9c0a42a637a32e",
+      "bytes": 232008
+    },
+    {
+      "absolute_path": "/home/users/lemon/mechanism-20261110/condition-072/M2/telemetry/episode-000.h5",
+      "sha256": "a0fd47a49117889f88fb088784105067af06fb5b9cc20283ee6c45b08a817d31",
+      "bytes": 1336839
+    },
+    {
+      "absolute_path": "/home/users/lemon/mechanism-20261110/condition-076/M0/history.json",
+      "sha256": "95dc1045d5b88ecd03657cbf24674c651e7a8f2b4ef876d8d8791e0a0c714e9f",
+      "bytes": 119379
+    },
+    {
+      "absolute_path": "/home/users/lemon/mechanism-20261110/condition-076/M0/telemetry/episode-000.h5",
+      "sha256": "cc3ece727025c48047a9bc5627ed2a968ccab7a2d0ac422634b3a014bcb5b2f5",
+      "bytes": 772925
+    },
+    {
+      "absolute_path": "/home/users/lemon/mechanism-20261110/condition-076/M1/history.json",
+      "sha256": "95dc1045d5b88ecd03657cbf24674c651e7a8f2b4ef876d8d8791e0a0c714e9f",
+      "bytes": 119379
+    },
+    {
+      "absolute_path": "/home/users/lemon/mechanism-20261110/condition-076/M1/telemetry/episode-000.h5",
+      "sha256": "cc3ece727025c48047a9bc5627ed2a968ccab7a2d0ac422634b3a014bcb5b2f5",
+      "bytes": 772925
+    },
+    {
+      "absolute_path": "/home/users/lemon/mechanism-20261110/condition-076/M2/history.json",
+      "sha256": "95dc1045d5b88ecd03657cbf24674c651e7a8f2b4ef876d8d8791e0a0c714e9f",
+      "bytes": 119379
+    },
+    {
+      "absolute_path": "/home/users/lemon/mechanism-20261110/condition-076/M2/telemetry/episode-000.h5",
+      "sha256": "cc3ece727025c48047a9bc5627ed2a968ccab7a2d0ac422634b3a014bcb5b2f5",
+      "bytes": 772925
+    },
+    {
+      "absolute_path": "/home/users/lemon/mechanism-20261110/condition-088/M0/handoff.npz",
+      "sha256": "9a915e8d51e13b3a8d97b52f619d8a31b90e6efb935605a76d310cf1af9e0f0d",
+      "bytes": 39406
+    },
+    {
+      "absolute_path": "/home/users/lemon/mechanism-20261110/condition-088/M0/history.json",
+      "sha256": "896497474f5c1fe281430499b590dc8d7b203cbba2dfb8fa4747a57406d16916",
+      "bytes": 258123
+    },
+    {
+      "absolute_path": "/home/users/lemon/mechanism-20261110/condition-088/M0/telemetry/episode-000.h5",
+      "sha256": "44fb20623abc153a4bbb5c912aaaa6813e5f5b69b573d044a42a6361056d5692",
+      "bytes": 1373004
+    },
+    {
+      "absolute_path": "/home/users/lemon/mechanism-20261110/condition-088/M1/handoff.npz",
+      "sha256": "9a915e8d51e13b3a8d97b52f619d8a31b90e6efb935605a76d310cf1af9e0f0d",
+      "bytes": 39406
+    },
+    {
+      "absolute_path": "/home/users/lemon/mechanism-20261110/condition-088/M1/history.json",
+      "sha256": "6b8005a10973d104424a02560eee3d4d0a2b7f1a32d98215f59651aff353a476",
+      "bytes": 383457
+    },
+    {
+      "absolute_path": "/home/users/lemon/mechanism-20261110/condition-088/M1/telemetry/episode-000.h5",
+      "sha256": "ff7fab2e8cc9ca47aea42e3adbc11083e23ea784d0950d674b491503699ba0ae",
+      "bytes": 2034554
+    },
+    {
+      "absolute_path": "/home/users/lemon/mechanism-20261110/condition-088/M2/handoff.npz",
+      "sha256": "9a915e8d51e13b3a8d97b52f619d8a31b90e6efb935605a76d310cf1af9e0f0d",
+      "bytes": 39406
+    },
+    {
+      "absolute_path": "/home/users/lemon/mechanism-20261110/condition-088/M2/history.json",
+      "sha256": "a2fcdc91616e00c984a01df6ac301e98fd6aa947291f3100a42431561a16fb90",
+      "bytes": 258744
+    },
+    {
+      "absolute_path": "/home/users/lemon/mechanism-20261110/condition-088/M2/telemetry/episode-000.h5",
+      "sha256": "c4dad7e50e94d77d199e8b0fd083b8f1537a05c1605bdbff5469033865e86ace",
+      "bytes": 1408247
+    },
+    {
+      "absolute_path": "/home/users/lemon/mechanism-20261110/condition-093/M0/handoff.npz",
+      "sha256": "ae753e88c4ea437ef4a355330f4980ccfc3deab1cbf9c3ec62c4d5589c21947c",
+      "bytes": 39485
+    },
+    {
+      "absolute_path": "/home/users/lemon/mechanism-20261110/condition-093/M0/history.json",
+      "sha256": "7154aa9fdb916484d47e6dee7f11a433086d756dd2889187c4b647f66b265a75",
+      "bytes": 235743
+    },
+    {
+      "absolute_path": "/home/users/lemon/mechanism-20261110/condition-093/M0/telemetry/episode-000.h5",
+      "sha256": "a15d10239574e388b7caf4980cd2df6f0288f3682f59db6b6d71ab3ffefa4272",
+      "bytes": 1336522
+    },
+    {
+      "absolute_path": "/home/users/lemon/mechanism-20261110/condition-093/M1/handoff.npz",
+      "sha256": "ae753e88c4ea437ef4a355330f4980ccfc3deab1cbf9c3ec62c4d5589c21947c",
+      "bytes": 39485
+    },
+    {
+      "absolute_path": "/home/users/lemon/mechanism-20261110/condition-093/M1/history.json",
+      "sha256": "777f56b08a117afd50f5dda5c725b31700c24a36cfaf27c9131dec4ab808455d",
+      "bytes": 355034
+    },
+    {
+      "absolute_path": "/home/users/lemon/mechanism-20261110/condition-093/M1/telemetry/episode-000.h5",
+      "sha256": "b0751792044a82690c37d14d41cada5e33bafccdcff3d22263e2b440042c5ed7",
+      "bytes": 1951701
+    },
+    {
+      "absolute_path": "/home/users/lemon/mechanism-20261110/condition-093/M2/handoff.npz",
+      "sha256": "ae753e88c4ea437ef4a355330f4980ccfc3deab1cbf9c3ec62c4d5589c21947c",
+      "bytes": 39485
+    },
+    {
+      "absolute_path": "/home/users/lemon/mechanism-20261110/condition-093/M2/history.json",
+      "sha256": "bb822bba003af20fff486101c3660e66781def2e156e71c294c9f0c30f52a751",
+      "bytes": 235774
+    },
+    {
+      "absolute_path": "/home/users/lemon/mechanism-20261110/condition-093/M2/telemetry/episode-000.h5",
+      "sha256": "0fb7db59dd15cc0ccfca68c21062376d03142043e2af9f1242c1a3b9709980a9",
+      "bytes": 1346009
+    },
+    {
+      "absolute_path": "/home/users/lemon/mechanism-20261110/condition-094/M0/history.json",
+      "sha256": "10c05dec7b99c72a06899c0d664367230d9ccf84b31e4e6206359892d01c71cc",
+      "bytes": 193371
+    },
+    {
+      "absolute_path": "/home/users/lemon/mechanism-20261110/condition-094/M0/telemetry/episode-000.h5",
+      "sha256": "84b046055a01fbfd70bfa15da5f3adc45cef5a8bf84504ada24fd8f0444d6dcf",
+      "bytes": 1066379
+    },
+    {
+      "absolute_path": "/home/users/lemon/mechanism-20261110/condition-094/M1/history.json",
+      "sha256": "10c05dec7b99c72a06899c0d664367230d9ccf84b31e4e6206359892d01c71cc",
+      "bytes": 193371
+    },
+    {
+      "absolute_path": "/home/users/lemon/mechanism-20261110/condition-094/M1/telemetry/episode-000.h5",
+      "sha256": "84b046055a01fbfd70bfa15da5f3adc45cef5a8bf84504ada24fd8f0444d6dcf",
+      "bytes": 1066379
+    },
+    {
+      "absolute_path": "/home/users/lemon/mechanism-20261110/condition-094/M2/history.json",
+      "sha256": "10c05dec7b99c72a06899c0d664367230d9ccf84b31e4e6206359892d01c71cc",
+      "bytes": 193371
+    },
+    {
+      "absolute_path": "/home/users/lemon/mechanism-20261110/condition-094/M2/telemetry/episode-000.h5",
+      "sha256": "84b046055a01fbfd70bfa15da5f3adc45cef5a8bf84504ada24fd8f0444d6dcf",
+      "bytes": 1066379
+    },
+    {
+      "absolute_path": "/home/users/lemon/mechanism-20261110/physical_launches.jsonl",
+      "sha256": "ea402d8dd9d6c2d3b34c50adaae3368850558daecdd0a878c228e325b7839fad",
+      "bytes": 5280
+    }
+  ],
+  "input_hashes_unchanged": true,
+  "simulator_modules_imported": false,
+  "new_physics_steps": 0,
+  "new_training_updates": 0,
+  "controller_changes": 0,
+  "physical_launches_before": 24,
+  "physical_launches_after": 24,
+  "old_physical_gate": "NO_GO_PHYSICAL_GATE",
+  "counterfactual_continuation_inferred": false
+}

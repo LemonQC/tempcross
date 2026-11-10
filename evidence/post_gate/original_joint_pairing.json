@@ -1,0 +1,85 @@
+{
+  "source_success": 16,
+  "target_success": 1,
+  "episodes_per_robot": 40,
+  "paired_indices": {
+    "both_success": [],
+    "source_only_success": [
+      64,
+      68,
+      70,
+      71,
+      72,
+      73,
+      75,
+      76,
+      82,
+      87,
+      88,
+      89,
+      93,
+      94,
+      97,
+      99
+    ],
+    "target_only_success": [
+      95
+    ],
+    "both_failure": [
+      60,
+      61,
+      62,
+      63,
+      65,
+      66,
+      67,
+      69,
+      74,
+      77,
+      78,
+      79,
+      80,
+      81,
+      83,
+      84,
+      85,
+      86,
+      90,
+      91,
+      92,
+      96,
+      98
+    ]
+  },
+  "source_success_target_fail_observed_stages": {
+    "NO_CLOSE_COMMAND": 14,
+    "PLACEMENT_WITHOUT_RETREAT": 2
+  },
+  "all_target_failure_observed_stages": {
+    "NO_CLOSE_COMMAND": 35,
+    "CLOSE_WITHOUT_BILATERAL_CONTACT": 2,
+    "PLACEMENT_WITHOUT_RETREAT": 2
+  },
+  "source_success_target_fail_never_closed": [
+    64,
+    68,
+    71,
+    72,
+    73,
+    76,
+    82,
+    87,
+    88,
+    89,
+    93,
+    94,
+    97,
+    99
+  ],
+  "source_success_target_fail_placed_without_retreat": [
+    70,
+    75
+  ],
+  "all40_target_gripper_commands_verified_from_H5": true,
+  "stage_warning": "Historical pad-only proxies are descriptive; case94 source exposes a fingertip false negative. Not a visual/kinematic/decoder causal classifier."
+}

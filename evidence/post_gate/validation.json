@@ -1,0 +1,11 @@
+{
+  "status": "PASSED",
+  "protected_existing_files_unchanged_except_README": true,
+  "experiment_inputs_sha256_unchanged": 186,
+  "paper_PDF_and_text_hashes_verified": 14,
+  "physical_launches_unchanged": 24,
+  "old_gate_unchanged": true,
+  "local_report_links_valid": true,
+  "no_new_simulation_or_training": true,
+  "checks": "Read-only input hashing; budget/command arithmetic; source-target pairing; AST forbids simulator/training imports and step/reset/backward/predict_action calls. No physics or policy evaluation."
+}

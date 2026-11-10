@@ -1,5 +1,7 @@
 # tempcross：跨具身操作 Baseline Benchmark
 
+> **最终科学问题审查：`NO_NOVEL_ALGORITHMIC_GAP`。** 已只读复核原始40对和24次干预，深入审阅14份一手论文，并审查三个具体候选；未确认可与最强已有机制区分的原创算法，当前接触修正路线结案。原`NO_GO_PHYSICAL_GATE`不变，本轮新增训练/物理step均为0。见[因果审计](docs/POST_GATE_CAUSAL_AUDIT.md)、[创新性最终决定](docs/TRO_NOVELTY_GAP_DECISION.md)、[停止范围与保留资产](docs/TRO_NEXT_STEP.md)。
+
 > **最新24次机制干预已完成。** 固定困难开发条件上，M0/M1/M2官方完整任务分别2/8、4/8、2/8，共同稳定抓持5/8，未过预注册物理门槛；新算法开发NO-GO。本轮未训练、未重跑。抓取纠正后原始BARX在5个交接中完成4个，普通控制存在阶段预算限制，不能据此宣称硬件不可达或新算法必要。见[完整机制结论与限制](docs/MECHANISM_RESULTS.md)、[冻结协议](docs/MECHANISM_PROTOCOL.md)、[创新性对照](docs/MECHANISM_PRIOR_ART.md)、[实际逐条件结果](results/mechanism/analysis.json)。这是困难开发诊断集，不是独立测试。
 
 > **统一Baseline Benchmark已实际完成。** 4类BC/DP核心模型、8个新学习设置完成训练；复用4份BARX源先验/历史适配权重。官方独立60–99条件上完成32格、1280次正式物理评测（Panda960、UR5e320），全部轨迹/视频校验通过，47项测试通过。见[完整结果](docs/BASELINE_RESULTS.md)、[科研判断](docs/BASELINE_SCIENTIFIC_ASSESSMENT.md)、[复现命令](docs/BASELINE_REPRODUCTION.md)、[阶段诊断](docs/BASELINE_FAILURE_ANALYSIS.md)、[审查矩阵](docs/BASELINE_REPRODUCIBILITY_MATRIX.md)、[冻结协议](docs/BASELINE_PROTOCOL.md)和[机器状态](results/baselines/status.json)。仅输入RGB与任务指令，历史LoRA异预算单列；本轮未开发新网络。

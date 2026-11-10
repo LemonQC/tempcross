@@ -1,0 +1,14 @@
+{
+  "M1_transport_reached": "Hard-coded False outside scripted controllers; NOT an observation of failed transport",
+  "M1_tcp_position_error_m": "Post-action TCP vs pre-action TCP placeholder: single-step displacement, NOT task goal error",
+  "M1_tcp_rotation_error_rad": "Single-step rotation vs pre-action TCP, NOT task goal error",
+  "valid_cross_method_outcomes": [
+    "unchanged official task success",
+    "raw body-origin position/quaternion",
+    "physical bilateral contacts",
+    "same transport_10cm_in_contact diagnostic"
+  ],
+  "contact_label": "Raw geometry contact is not contact force, force closure, friction margin or learned RGB state estimation",
+  "fixed_vs_feedback": "M0 and M2 share object goals and gains but use different attachment updates AND arrival errors (fixed TCP vs actual object); closed-loop stage durations can differ",
+  "no_new_step": true
+}

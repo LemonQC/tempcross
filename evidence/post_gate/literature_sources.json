@@ -1,0 +1,224 @@
+{
+  "cutoff": "2026-11-10",
+  "review_kind": "Focused mechanism and information-budget review, not exhaustive systematic review",
+  "primary_papers": [
+    {
+      "name": "kite-v2",
+      "url": "https://arxiv.org/pdf/2606.22113v2",
+      "status": "FULL_TEXT_CACHED",
+      "absolute_path": "/home/users/lemon/post-gate-audit-20261110/literature/kite-v2.pdf",
+      "bytes": 39537952,
+      "sha256": "b1911f5bc28be3fd683a6194e5d2075f86dead3566098047f7f2f6d388f7a83e",
+      "utc": "2026-11-10T07:24:34.672285+00:00",
+      "reviewed_scope": "arXiv v2 2026-10-20; sectionsIII,IV-A-D,VI; appendicesA-B,A-C,A-D,B-A",
+      "extracted_text_path": "/home/users/lemon/post-gate-audit-20261110/literature/kite-v2.txt",
+      "extracted_text_sha256": "11858ca2823a06204362320eac5fc97ba89b0bf7fad543b6e7e48a27ad778b5a"
+    },
+    {
+      "name": "tract-v4",
+      "url": "https://arxiv.org/pdf/2608.24101v4",
+      "status": "FULL_TEXT_CACHED",
+      "absolute_path": "/home/users/lemon/post-gate-audit-20261110/literature/tract-v4.pdf",
+      "bytes": 38360619,
+      "sha256": "cc0fc6fda6770f6b6ea383a1d74c804665583fbc71d758021fadf3623a5fb0bb",
+      "utc": "2026-11-10T07:24:28.186610+00:00",
+      "reviewed_scope": "arXiv v4 2026-10-13; sections3.1-3.3,4.1; appendicesA-C",
+      "extracted_text_path": "/home/users/lemon/post-gate-audit-20261110/literature/tract-v4.txt",
+      "extracted_text_sha256": "78a4ec72059d7e27df49185ed276b12aee0757b074a40b7964ef325db2ddf885"
+    },
+    {
+      "name": "mimicgen",
+      "url": "https://proceedings.mlr.press/v229/mandlekar23a/mandlekar23a.pdf",
+      "status": "FULL_TEXT_CACHED",
+      "absolute_path": "/home/users/lemon/post-gate-audit-20261110/literature/mimicgen.pdf",
+      "bytes": 14032162,
+      "sha256": "5f65080fac4df7f9500ccd126dbca6071ca4289c566eb03704dad8b65426c509",
+      "utc": "2026-11-10T07:22:53.813186+00:00",
+      "reviewed_scope": "CoRL2023 proceedings, sections3 and4.1-4.2 (not every appendix)",
+      "extracted_text_path": "/home/users/lemon/post-gate-audit-20261110/literature/mimicgen.txt",
+      "extracted_text_sha256": "d8f549a16b2c9decb3cae937dd3198cb2700cd9988386762c076b6f53152fe5e"
+    },
+    {
+      "name": "track2act",
+      "url": "https://homangab.github.io/track2act/track2act.pdf",
+      "status": "FULL_TEXT_CACHED",
+      "absolute_path": "/home/users/lemon/post-gate-audit-20261110/literature/track2act.pdf",
+      "bytes": 1860364,
+      "sha256": "7e7327f51dbc1bab57b78e71b486b2e21d1e99a057caaf7700eba74997585854",
+      "utc": "2026-11-10T07:21:12.574917+00:00",
+      "reviewed_scope": "ECCV2024 author-hosted PDF; sections3.1-3.4,Algorithms1-2,section4. arXiv v2 dated2024-08-08; cached author PDF not asserted byte-identical to arXiv PDF",
+      "extracted_text_path": "/home/users/lemon/post-gate-audit-20261110/literature/track2act.txt",
+      "extracted_text_sha256": "fba2bd8705da82244283aa753af45c7372d00a75152194b7c57eb13d8db5e859"
+    },
+    {
+      "name": "crosszero",
+      "url": "https://openaccess.thecvf.com/content/CVPR2026W/GigaBrainChallenge/papers/Ge_CrossZero_Zero-Shot_of_Unseen_Embodiment_Manipulation_via_Object-Centric_Hierarchical_Diffusion_CVPRW_2026_paper.pdf",
+      "status": "FULL_TEXT_CACHED",
+      "absolute_path": "/home/users/lemon/post-gate-audit-20261110/literature/crosszero.pdf",
+      "bytes": 1120385,
+      "sha256": "fe6dbf0b0ff834b2a8654a585644fd601a828efe66985f4d949c7dacdf207432",
+      "utc": "2026-11-10T07:21:06.792848+00:00",
+      "reviewed_scope": "CVPRW2026,pp4446-4454; sections3.1-3.3.5,4; especially3.3.3 target rollout distinction",
+      "extracted_text_path": "/home/users/lemon/post-gate-audit-20261110/literature/crosszero.txt",
+      "extracted_text_sha256": "56608f01539a0f557cfebbd51aa4a47312361a15f4608befd728aaae788ade3e"
+    },
+    {
+      "name": "ec-flow",
+      "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Chen_EC-Flow_Enabling_Versatile_Robotic_Manipulation_from_Action-Unlabeled_Videos_via_Embodiment-Centric_ICCV_2025_paper.pdf",
+      "status": "FULL_TEXT_CACHED",
+      "absolute_path": "/home/users/lemon/post-gate-audit-20261110/literature/ec-flow.pdf",
+      "bytes": 6635384,
+      "sha256": "80849e1de84347825230717072eab9c96470af9b93379c09e6850731ae4f7819",
+      "utc": "2026-11-10T07:22:01.178869+00:00",
+      "reviewed_scope": "ICCV2025 pp11958-11968; sections3.2-3.3,Algorithm1,4.1; deployment depth requirement",
+      "extracted_text_path": "/home/users/lemon/post-gate-audit-20261110/literature/ec-flow.txt",
+      "extracted_text_sha256": "651f509e14ad85348034c36a41b652ace3d1618666baa72d182ecee1a64aa23a"
+    },
+    {
+      "name": "visual-servo-I",
+      "url": "https://www-cvr.ai.uiuc.edu/~seth/ResPages/pdfs/ChaHut06.pdf",
+      "status": "FULL_TEXT_CACHED",
+      "absolute_path": "/home/users/lemon/post-gate-audit-20261110/literature/visual-servo-I.pdf",
+      "bytes": 723131,
+      "sha256": "ecf10f1a73e421792e6e8bf574af41e1b3cf4d39bc4d749435ea5ccc0d2a99fd",
+      "utc": "2026-11-10T07:20:57.100115+00:00",
+      "reviewed_scope": "IEEE RAM2006 author PDF; basic IBVS/PBVS equations and assumptions",
+      "extracted_text_path": "/home/users/lemon/post-gate-audit-20261110/literature/visual-servo-I.txt",
+      "extracted_text_sha256": "9393a8269a4036b02f6d769e06e691871a318c8838cf94eaaddd33746512a6ef"
+    },
+    {
+      "name": "visual-foresight",
+      "url": "https://arxiv.org/pdf/1812.00568",
+      "status": "FULL_TEXT_CACHED",
+      "absolute_path": "/home/users/lemon/post-gate-audit-20261110/literature/visual-foresight.pdf",
+      "bytes": 9220141,
+      "sha256": "bd205c4e0d6fa9de5cfe9a1fda153973d98721fdea73da8ad33bfe063eb3edb6",
+      "utc": "2026-11-10T07:22:21.578191+00:00",
+      "reviewed_scope": "arXiv1812.00568; visual prediction, registration/tracking,planning costs and MPC sections",
+      "extracted_text_path": "/home/users/lemon/post-gate-audit-20261110/literature/visual-foresight.txt",
+      "extracted_text_sha256": "a5be85f4d2be515abadba32b21e998bac2360580fa6f4cb2a86b17c7db29c7bc"
+    },
+    {
+      "name": "cross-behavior-TRO2026",
+      "url": "https://eprints.whiterose.ac.uk/id/eprint/242108/1/26-0166_02_MS.pdf",
+      "status": "FULL_TEXT_CACHED",
+      "absolute_path": "/home/users/lemon/post-gate-audit-20261110/literature/cross-behavior-TRO2026.pdf",
+      "bytes": 3849214,
+      "sha256": "9cd1973a4857c9048a114e2f1ff89e029fc419c18b254b067ccbf3f9f178d720",
+      "reviewed_scope": "T-RO accepted author version, DOI10.1109/TRO.2026.3701576; published2026-06-08; sectionsIII,IV-A-C andVI",
+      "extracted_text_path": "/home/users/lemon/post-gate-audit-20261110/literature/cross-behavior-TRO2026.txt",
+      "extracted_text_sha256": "920678cfb6094ffb0be9d6f949b9e6d20afbca958453103d553ede12ab5a7859"
+    },
+    {
+      "name": "foresight-residual-v1",
+      "url": "https://arxiv.org/pdf/2607.16506v1",
+      "status": "FULL_TEXT_CACHED",
+      "absolute_path": "/home/users/lemon/post-gate-audit-20261110/literature/foresight-residual-v1.pdf",
+      "bytes": 2469150,
+      "sha256": "1d7a7a1e1bb487cd4006fa10fd320753efcc6ef9bd0c5310203f54a9cc97491a",
+      "reviewed_scope": "arXiv v1 2026-07-17; sectionsIII-V,Algorithms1-2,VI. IROS2026 acceptance is author-reported arXiv comment",
+      "extracted_text_path": "/home/users/lemon/post-gate-audit-20261110/literature/foresight-residual-v1.txt",
+      "extracted_text_sha256": "2837355881ea91883b056434d87eae9bc51827982bb741b60b0cebfbfc7bc605"
+    },
+    {
+      "name": "toppra-v2",
+      "url": "https://arxiv.org/pdf/1707.07239v2",
+      "status": "FULL_TEXT_CACHED",
+      "absolute_path": "/home/users/lemon/post-gate-audit-20261110/literature/toppra-v2.pdf",
+      "bytes": 723356,
+      "sha256": "d6042acfbd010cd6542f3951afc9ba3c4862bfb062b365bd82302ef72395be3a",
+      "reviewed_scope": "arXiv v2 2017-11-22; published T-RO2018; sectionsII-IV",
+      "extracted_text_path": "/home/users/lemon/post-gate-audit-20261110/literature/toppra-v2.txt",
+      "extracted_text_sha256": "451b1ea1045058891f650c8a2dbae8060c04fa5baa4cc4d76c54ae4e5ab8f568"
+    },
+    {
+      "name": "topp-tracking-v2",
+      "url": "https://arxiv.org/pdf/1709.05101v2",
+      "status": "FULL_TEXT_CACHED",
+      "absolute_path": "/home/users/lemon/post-gate-audit-20261110/literature/topp-tracking-v2.pdf",
+      "bytes": 530171,
+      "sha256": "65d5b1ac203b030403a2f6ef1657a4079138e4de2c23863add265af841a8ca9e",
+      "reviewed_scope": "arXiv v2 2018-03-17; ICRA2018; sectionsII-III",
+      "extracted_text_path": "/home/users/lemon/post-gate-audit-20261110/literature/topp-tracking-v2.txt",
+      "extracted_text_sha256": "5587961ef536dc2a8582c89d28d0683bd707f08e0537f7bb77bf111c58a12419"
+    },
+    {
+      "name": "belief-assembly-v1",
+      "url": "https://arxiv.org/pdf/1811.03904v1",
+      "status": "FULL_TEXT_CACHED",
+      "absolute_path": "/home/users/lemon/post-gate-audit-20261110/literature/belief-assembly-v1.pdf",
+      "bytes": 4106466,
+      "sha256": "d178d7478dc365b983ff432ef23ec5beb7099de4456fc670f83f70f4e8adeeed",
+      "reviewed_scope": "arXiv v1 2018-11-09; sectionsII-III, especially omission of measurement update",
+      "extracted_text_path": "/home/users/lemon/post-gate-audit-20261110/literature/belief-assembly-v1.txt",
+      "extracted_text_sha256": "ba3c584a148b44098afef71d4438b0c2bb3c1902ff06b81180ab9f5098545491"
+    },
+    {
+      "name": "seeing-believing",
+      "url": "https://www.khoury.northeastern.edu/home/lsw/papers/rss2025ws-bklva.pdf",
+      "status": "FULL_TEXT_CACHED",
+      "absolute_path": "/home/users/lemon/post-gate-audit-20261110/literature/seeing-believing.pdf",
+      "bytes": 4274871,
+      "sha256": "cb5dc2e47ab1825500c840bfe55ca447207f3962a192e7b83a71a485f6c0b5a1",
+      "reviewed_scope": "Author-hosted RSS2025 workshop manuscript; sectionsIII-A-D,IV,Algorithm1; perfect-observation/static-world assumptions",
+      "extracted_text_path": "/home/users/lemon/post-gate-audit-20261110/literature/seeing-believing.txt",
+      "extracted_text_sha256": "1262b0679ee5b69116d2ab8e4aceb7c900061292d25045def6141ba973c41d33"
+    }
+  ],
+  "code_heads_checked_via_GitHub_API": [
+    {
+      "repo": "NVlabs/mimicgen",
+      "head": "c0fbff22ba40060f05a917a80817f3f5c20731e7",
+      "url": "https://github.com/NVlabs/mimicgen/commit/c0fbff22ba40060f05a917a80817f3f5c20731e7",
+      "error": false
+    },
+    {
+      "repo": "helloqxwang/KITE",
+      "head": "136159544aea68f5e8b6cc64f17d221e825e3eee",
+      "url": "https://github.com/helloqxwang/KITE/commit/136159544aea68f5e8b6cc64f17d221e825e3eee",
+      "error": false
+    },
+    {
+      "repo": "homangab/Track-2-Act",
+      "head": "3e4ccd4ffb9aff39daf2c00d4732545bcd56f9cf",
+      "url": "https://github.com/homangab/Track-2-Act/commit/3e4ccd4ffb9aff39daf2c00d4732545bcd56f9cf",
+      "error": false
+    },
+    {
+      "repo": "YixiangChen515/EC-Flow",
+      "head": "7d0a6243fd8b92500b5f864d70b3b60d6b6c853a",
+      "url": "https://github.com/YixiangChen515/EC-Flow/commit/7d0a6243fd8b92500b5f864d70b3b60d6b6c853a",
+      "error": false
+    },
+    {
+      "repo": "hungpham2511/toppra",
+      "head": "8a2a9252e42089f1082d8d5d69b9852f32d0b338",
+      "url": "https://github.com/hungpham2511/toppra/commit/8a2a9252e42089f1082d8d5d69b9852f32d0b338",
+      "error": false
+    },
+    {
+      "repo": null,
+      "method": "CrossZero",
+      "status": "AUTHOR_IMPLEMENTATION_NOT_VERIFIED_FROM_PAPER_AND_PRIMARY_PAGE",
+      "scope": "No claim that code does not exist"
+    },
+    {
+      "repo": null,
+      "method": "TrAct",
+      "status": "AUTHOR_IMPLEMENTATION_NOT_VERIFIED; project URL inaccessible via web tool",
+      "scope": "No claim that method cannot be implemented"
+    },
+    {
+      "repo": null,
+      "method": "Cross-Behavior Object Flow",
+      "status": "AUTHOR_REPOSITORY_NOT_VERIFIED; accepted full text available"
+    },
+    {
+      "repo": null,
+      "method": "Foresight Residual RL",
+      "status": "AUTHOR_REPOSITORY_NOT_VERIFIED; paper-linked project404 during review"
+    }
+  ],
+  "no_paper_full_text_committed": true,
+  "no_algorithm_executed": true
+}
