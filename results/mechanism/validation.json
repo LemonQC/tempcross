@@ -1,0 +1,20 @@
+{
+  "status": "PASSED",
+  "new_physical_episodes": 24,
+  "total_environment_actions": 8775,
+  "technical_failures": 0,
+  "repeated_episodes": 0,
+  "training_updates": 0,
+  "raw_external_files_verified": 265,
+  "raw_external_bytes": 115431235,
+  "decoded_videos": 24,
+  "official_initial_state_hashes_verified": 24,
+  "prefix_and_handoff_maximum_error": 0.0,
+  "real_handoff_snapshots": 15,
+  "analytic_J_maximum_error": 2.3314683517128287e-15,
+  "nonphysical_control_tests_passed": 4,
+  "prototype_forward_backward": "NOT_TRIGGERED_A_GATE_FAILED",
+  "prototype_closed_loop_smoke": "NOT_TRIGGERED_A_GATE_FAILED",
+  "independent_test": false,
+  "protocol_sha256": "cc184dae5b999d7873709022cd0c79e500c77ab4ff09657a2bf36f975ce5c3ec"
+}

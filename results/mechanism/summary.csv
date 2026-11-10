@@ -1,0 +1,4 @@
+method,episodes,approach,pregrasp,bilateral_contact,stable_lift,handoff,transport,placement,official_success,failure_stages
+M0,8,8,6,6,5,5,5,2,2,"{""PREFIX_pregrasp_TIMEOUT"": 2, ""OFFICIAL_SUCCESS"": 2, ""POSTGRASP_transport_TIMEOUT"": 3, ""PREFIX_lift_TIMEOUT"": 1}"
+M1,8,8,6,6,5,5,5,4,4,"{""PREFIX_pregrasp_TIMEOUT"": 2, ""OFFICIAL_SUCCESS"": 4, ""GLOBAL_600_STEP_BUDGET_AT_barx_postgrasp"": 1, ""PREFIX_lift_TIMEOUT"": 1}"
+M2,8,8,6,6,5,5,5,2,2,"{""PREFIX_pregrasp_TIMEOUT"": 2, ""OFFICIAL_SUCCESS"": 2, ""POSTGRASP_transport_TIMEOUT"": 3, ""PREFIX_lift_TIMEOUT"": 1}"

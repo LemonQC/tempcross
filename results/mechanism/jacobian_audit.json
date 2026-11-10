@@ -1,0 +1,82 @@
+{
+  "new_physics_steps": 0,
+  "checks": [
+    {
+      "condition": 68,
+      "method": "M0",
+      "analytic_vs_saved_controller_J_max_error": 2.3314683517128287e-15
+    },
+    {
+      "condition": 68,
+      "method": "M1",
+      "analytic_vs_saved_controller_J_max_error": 2.3314683517128287e-15
+    },
+    {
+      "condition": 68,
+      "method": "M2",
+      "analytic_vs_saved_controller_J_max_error": 2.3314683517128287e-15
+    },
+    {
+      "condition": 71,
+      "method": "M0",
+      "analytic_vs_saved_controller_J_max_error": 1.887379141862766e-15
+    },
+    {
+      "condition": 71,
+      "method": "M1",
+      "analytic_vs_saved_controller_J_max_error": 1.887379141862766e-15
+    },
+    {
+      "condition": 71,
+      "method": "M2",
+      "analytic_vs_saved_controller_J_max_error": 1.887379141862766e-15
+    },
+    {
+      "condition": 72,
+      "method": "M0",
+      "analytic_vs_saved_controller_J_max_error": 1.2212453270876722e-15
+    },
+    {
+      "condition": 72,
+      "method": "M1",
+      "analytic_vs_saved_controller_J_max_error": 1.2212453270876722e-15
+    },
+    {
+      "condition": 72,
+      "method": "M2",
+      "analytic_vs_saved_controller_J_max_error": 1.2212453270876722e-15
+    },
+    {
+      "condition": 88,
+      "method": "M0",
+      "analytic_vs_saved_controller_J_max_error": 1.3322676295501878e-15
+    },
+    {
+      "condition": 88,
+      "method": "M1",
+      "analytic_vs_saved_controller_J_max_error": 1.3322676295501878e-15
+    },
+    {
+      "condition": 88,
+      "method": "M2",
+      "analytic_vs_saved_controller_J_max_error": 1.3322676295501878e-15
+    },
+    {
+      "condition": 93,
+      "method": "M0",
+      "analytic_vs_saved_controller_J_max_error": 9.992007221626409e-16
+    },
+    {
+      "condition": 93,
+      "method": "M1",
+      "analytic_vs_saved_controller_J_max_error": 9.992007221626409e-16
+    },
+    {
+      "condition": 93,
+      "method": "M2",
+      "analytic_vs_saved_controller_J_max_error": 9.992007221626409e-16
+    }
+  ],
+  "all_handoff_jacobians_verified": true,
+  "limitation": "Mixed translation/rotation units; local Jacobian conditioning and tracking plateaus do not prove global pose infeasibility or collision causality. No IK search or alternate controller was run."
+}

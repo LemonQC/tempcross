@@ -1,0 +1,8 @@
+{
+  "stable_lift": "Physical left/right pad OR fingertip contact at distance<=0 AND object body-origin z rise>=.03m for10 consecutive observed states",
+  "body_frame": "target/position is sim.data.body_xpos[obj_body_id], not an independently computed inertial center of mass; frozen protocol COM wording is interpreted according to this fixed implementation",
+  "transport": "Physical bilateral contact, body-origin rise>=.03m, horizontal displacement>=.10m from initial origin; diagnostic proxy only",
+  "official_success": "Unchanged task predicate object partially inside sink AND gripper-object distance>.1m",
+  "phase_goal_reached": "15mm/10deg dwell5; M0 uses fixed TCP reference, M2 actual object error; same source object goals and gains",
+  "official_success_distinct_from_all_proxies": true
+}

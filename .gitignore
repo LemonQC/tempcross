@@ -31,3 +31,4 @@ results/baselines/*
 !results/mechanism/**/*.json
 !results/mechanism/**/*.csv
 !results/mechanism/**/*.md
+!results/mechanism/**/*.svg

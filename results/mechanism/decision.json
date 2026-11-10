@@ -1,0 +1,11 @@
+{
+  "physical_recoverability": "NO_GO",
+  "common_prefix_stable_grasps": 5,
+  "ordinary_controller_best_official_success": 2,
+  "selected_direction": null,
+  "algorithm_development": "NO_GO_PHYSICAL_GATE",
+  "diagnostic_only": true,
+  "no_independent_generalization_claim": true,
+  "no_threshold_search": true,
+  "additional_physical_episodes": 0
+}
