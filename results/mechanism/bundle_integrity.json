@@ -1,0 +1,28 @@
+[
+  {
+    "robot": "ur5e",
+    "files": [
+      {
+        "path": "/home/users/lemon/coft-p2/barx/evaluation/conditions/pnp_counter_to_sink/ur5e.json",
+        "sha256": "b552beb503e66638a04897f39e899b4079357513ef80db11082cbba04e16bb69"
+      },
+      {
+        "path": "/home/users/lemon/coft-p2/barx/evaluation/conditions/pnp_counter_to_sink/ur5e.npz",
+        "sha256": "11d676690c1d348e7005afc823291a45a9f0207980ce3e6f8ca6b732f9a18dc5"
+      }
+    ]
+  },
+  {
+    "robot": "panda",
+    "files": [
+      {
+        "path": "/home/users/lemon/coft-p2/barx/evaluation/conditions/pnp_counter_to_sink/panda.json",
+        "sha256": "6cc73806cd2725a151c3e0347cf7ccd86da443f2e908eaef6297d89331925f86"
+      },
+      {
+        "path": "/home/users/lemon/coft-p2/barx/evaluation/conditions/pnp_counter_to_sink/panda.npz",
+        "sha256": "d2743178dfd03869488555f39bb4c03f58f3876639874b89c6db44c17789f88e"
+      }
+    ]
+  }
+]

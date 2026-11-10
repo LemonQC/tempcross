@@ -24,3 +24,10 @@ results/baselines/*
 !results/baselines/**/*.md
 !results/baselines/**/*.txt
 !results/baselines/**/*.svg
+
+# Small evidence for the final 24 mechanism diagnostics.
+!results/mechanism/
+!results/mechanism/**/
+!results/mechanism/**/*.json
+!results/mechanism/**/*.csv
+!results/mechanism/**/*.md
