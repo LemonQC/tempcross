@@ -1,0 +1,1814 @@
+{
+  "status": "COMPLETE",
+  "samples": 256,
+  "policy_calls": 0,
+  "all_samples_train_episodes": true,
+  "action_shape": [
+    8,
+    7
+  ],
+  "rgb_shape": [
+    1,
+    224,
+    224,
+    3
+  ],
+  "sample_weights": [
+    0.4974152450800468,
+    0.5025847549199532
+  ],
+  "records": [
+    {
+      "index": 0,
+      "dataset": "panda_pnp",
+      "episode_id": "647e24a2021554db6116ad1712351e9a5c77c255bf5f764ae6908dbbd9a75937",
+      "task": "pnp_sink_to_counter",
+      "frame": 390
+    },
+    {
+      "index": 1,
+      "dataset": "panda_pnp",
+      "episode_id": "706c72ac7e80115005256bcea33e7f276d77fa7fd196e482bb34a789bd9fe1b6",
+      "task": "pnp_counter_to_sink",
+      "frame": 121
+    },
+    {
+      "index": 2,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "d7229f8ddbea6eebcc54de1e19ab41bb84ae4809b6aa68d1e1dd5b0c66fa501c",
+      "task": "pnp_counter_to_sink",
+      "frame": 369
+    },
+    {
+      "index": 3,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "f8d3903e59f75940b669c2c30f6344b503e0af20f5564cff0a6cc8c60f0f5075",
+      "task": "pnp_sink_to_counter",
+      "frame": 291
+    },
+    {
+      "index": 4,
+      "dataset": "panda_pnp",
+      "episode_id": "d53f8d7b973e9cc13dc322c0d2745a37e441402531f307fc9866743a0937effd",
+      "task": "pnp_counter_to_sink",
+      "frame": 411
+    },
+    {
+      "index": 5,
+      "dataset": "panda_pnp",
+      "episode_id": "706c72ac7e80115005256bcea33e7f276d77fa7fd196e482bb34a789bd9fe1b6",
+      "task": "pnp_counter_to_sink",
+      "frame": 281
+    },
+    {
+      "index": 6,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "ada00af88e29cd1ebf7a4c51f4378f27e9891f01d92d88aa25c79591d48dfe8f",
+      "task": "pnp_sink_to_counter",
+      "frame": 53
+    },
+    {
+      "index": 7,
+      "dataset": "panda_pnp",
+      "episode_id": "14865c01e3ab6001731ac2b216f426fa38f6adc68713596722e235f20557a593",
+      "task": "pnp_sink_to_counter",
+      "frame": 319
+    },
+    {
+      "index": 8,
+      "dataset": "panda_pnp",
+      "episode_id": "9be513a873cfc28552084c3187f3803a0f420f6aef4f868cbb22e033f02ffcf4",
+      "task": "pnp_sink_to_counter",
+      "frame": 243
+    },
+    {
+      "index": 9,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "f48bc3fe9bf6c45133e8eec209cd0146f75c2df0bb73cecad6fdd6f0b0ae88e2",
+      "task": "pnp_sink_to_counter",
+      "frame": 375
+    },
+    {
+      "index": 10,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "f48bc3fe9bf6c45133e8eec209cd0146f75c2df0bb73cecad6fdd6f0b0ae88e2",
+      "task": "pnp_sink_to_counter",
+      "frame": 365
+    },
+    {
+      "index": 11,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "f8d3903e59f75940b669c2c30f6344b503e0af20f5564cff0a6cc8c60f0f5075",
+      "task": "pnp_sink_to_counter",
+      "frame": 364
+    },
+    {
+      "index": 12,
+      "dataset": "panda_pnp",
+      "episode_id": "9be513a873cfc28552084c3187f3803a0f420f6aef4f868cbb22e033f02ffcf4",
+      "task": "pnp_sink_to_counter",
+      "frame": 359
+    },
+    {
+      "index": 13,
+      "dataset": "panda_pnp",
+      "episode_id": "ed66a6d30cd3b069aa37e3329cd92609f5332cef9242aaff974f180f32794735",
+      "task": "pnp_sink_to_counter",
+      "frame": 284
+    },
+    {
+      "index": 14,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "f8d3903e59f75940b669c2c30f6344b503e0af20f5564cff0a6cc8c60f0f5075",
+      "task": "pnp_sink_to_counter",
+      "frame": 222
+    },
+    {
+      "index": 15,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "fd07b4dfd3031b440f4631ac1f3c03551632d1b94f9f3f3cbebd1b008b298168",
+      "task": "pnp_sink_to_counter",
+      "frame": 150
+    },
+    {
+      "index": 16,
+      "dataset": "panda_pnp",
+      "episode_id": "ce38a158ffd37f5c1c5c5fb74bf8fe778f2fa9ca5965b13a0fcf70692ccd12a9",
+      "task": "pnp_sink_to_counter",
+      "frame": 222
+    },
+    {
+      "index": 17,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "ae3ef92be4977a1944ca65fb532cc9d23359e5851beeebc2dcb2cf125f513618",
+      "task": "pnp_sink_to_counter",
+      "frame": 141
+    },
+    {
+      "index": 18,
+      "dataset": "panda_pnp",
+      "episode_id": "14865c01e3ab6001731ac2b216f426fa38f6adc68713596722e235f20557a593",
+      "task": "pnp_sink_to_counter",
+      "frame": 34
+    },
+    {
+      "index": 19,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "67315bc6905615f5eb3be060f370edd6694662afecbdfd06c55f508ed59adae6",
+      "task": "pnp_counter_to_sink",
+      "frame": 12
+    },
+    {
+      "index": 20,
+      "dataset": "panda_pnp",
+      "episode_id": "aafc900b8fe77279301188d85f45e22b26daa63a6a191ad0b489cac60d8a308a",
+      "task": "pnp_sink_to_counter",
+      "frame": 378
+    },
+    {
+      "index": 21,
+      "dataset": "panda_pnp",
+      "episode_id": "3913f7bc6f5352a468cebb626824142c973c68de53984578f81d254723809e19",
+      "task": "pnp_counter_to_sink",
+      "frame": 68
+    },
+    {
+      "index": 22,
+      "dataset": "panda_pnp",
+      "episode_id": "14865c01e3ab6001731ac2b216f426fa38f6adc68713596722e235f20557a593",
+      "task": "pnp_sink_to_counter",
+      "frame": 15
+    },
+    {
+      "index": 23,
+      "dataset": "panda_pnp",
+      "episode_id": "706c72ac7e80115005256bcea33e7f276d77fa7fd196e482bb34a789bd9fe1b6",
+      "task": "pnp_counter_to_sink",
+      "frame": 107
+    },
+    {
+      "index": 24,
+      "dataset": "panda_pnp",
+      "episode_id": "647e24a2021554db6116ad1712351e9a5c77c255bf5f764ae6908dbbd9a75937",
+      "task": "pnp_sink_to_counter",
+      "frame": 262
+    },
+    {
+      "index": 25,
+      "dataset": "panda_pnp",
+      "episode_id": "9c37736f9f70be8b3728786860b1ebd8cabc83fb2dd5dcb7363bc015f19c51bf",
+      "task": "pnp_counter_to_sink",
+      "frame": 360
+    },
+    {
+      "index": 26,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "d7229f8ddbea6eebcc54de1e19ab41bb84ae4809b6aa68d1e1dd5b0c66fa501c",
+      "task": "pnp_counter_to_sink",
+      "frame": 299
+    },
+    {
+      "index": 27,
+      "dataset": "panda_pnp",
+      "episode_id": "ed66a6d30cd3b069aa37e3329cd92609f5332cef9242aaff974f180f32794735",
+      "task": "pnp_sink_to_counter",
+      "frame": 209
+    },
+    {
+      "index": 28,
+      "dataset": "panda_pnp",
+      "episode_id": "27397e6bad8205fc4e799658d71a957f28dfc3a5a9224f892af8f878ade2ff81",
+      "task": "pnp_counter_to_sink",
+      "frame": 183
+    },
+    {
+      "index": 29,
+      "dataset": "panda_pnp",
+      "episode_id": "647e24a2021554db6116ad1712351e9a5c77c255bf5f764ae6908dbbd9a75937",
+      "task": "pnp_sink_to_counter",
+      "frame": 496
+    },
+    {
+      "index": 30,
+      "dataset": "panda_pnp",
+      "episode_id": "85346cfcfd5d330d06c50a77bdea60a1076c5ab261d95339750303134a1d20d5",
+      "task": "pnp_sink_to_counter",
+      "frame": 263
+    },
+    {
+      "index": 31,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "f8d3903e59f75940b669c2c30f6344b503e0af20f5564cff0a6cc8c60f0f5075",
+      "task": "pnp_sink_to_counter",
+      "frame": 127
+    },
+    {
+      "index": 32,
+      "dataset": "panda_pnp",
+      "episode_id": "9be513a873cfc28552084c3187f3803a0f420f6aef4f868cbb22e033f02ffcf4",
+      "task": "pnp_sink_to_counter",
+      "frame": 180
+    },
+    {
+      "index": 33,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "ea263845b53910192955917bcad0cbe03b7b3263efe5d56892ca8a5c3a004a36",
+      "task": "pnp_sink_to_counter",
+      "frame": 82
+    },
+    {
+      "index": 34,
+      "dataset": "panda_pnp",
+      "episode_id": "ce38a158ffd37f5c1c5c5fb74bf8fe778f2fa9ca5965b13a0fcf70692ccd12a9",
+      "task": "pnp_sink_to_counter",
+      "frame": 407
+    },
+    {
+      "index": 35,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "d7229f8ddbea6eebcc54de1e19ab41bb84ae4809b6aa68d1e1dd5b0c66fa501c",
+      "task": "pnp_counter_to_sink",
+      "frame": 91
+    },
+    {
+      "index": 36,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "f8d3903e59f75940b669c2c30f6344b503e0af20f5564cff0a6cc8c60f0f5075",
+      "task": "pnp_sink_to_counter",
+      "frame": 423
+    },
+    {
+      "index": 37,
+      "dataset": "panda_pnp",
+      "episode_id": "aafc900b8fe77279301188d85f45e22b26daa63a6a191ad0b489cac60d8a308a",
+      "task": "pnp_sink_to_counter",
+      "frame": 408
+    },
+    {
+      "index": 38,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "f48bc3fe9bf6c45133e8eec209cd0146f75c2df0bb73cecad6fdd6f0b0ae88e2",
+      "task": "pnp_sink_to_counter",
+      "frame": 306
+    },
+    {
+      "index": 39,
+      "dataset": "panda_pnp",
+      "episode_id": "706c72ac7e80115005256bcea33e7f276d77fa7fd196e482bb34a789bd9fe1b6",
+      "task": "pnp_counter_to_sink",
+      "frame": 391
+    },
+    {
+      "index": 40,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "ada00af88e29cd1ebf7a4c51f4378f27e9891f01d92d88aa25c79591d48dfe8f",
+      "task": "pnp_sink_to_counter",
+      "frame": 283
+    },
+    {
+      "index": 41,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "fd07b4dfd3031b440f4631ac1f3c03551632d1b94f9f3f3cbebd1b008b298168",
+      "task": "pnp_sink_to_counter",
+      "frame": 33
+    },
+    {
+      "index": 42,
+      "dataset": "panda_pnp",
+      "episode_id": "27397e6bad8205fc4e799658d71a957f28dfc3a5a9224f892af8f878ade2ff81",
+      "task": "pnp_counter_to_sink",
+      "frame": 165
+    },
+    {
+      "index": 43,
+      "dataset": "panda_pnp",
+      "episode_id": "d53f8d7b973e9cc13dc322c0d2745a37e441402531f307fc9866743a0937effd",
+      "task": "pnp_counter_to_sink",
+      "frame": 115
+    },
+    {
+      "index": 44,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "ae3ef92be4977a1944ca65fb532cc9d23359e5851beeebc2dcb2cf125f513618",
+      "task": "pnp_sink_to_counter",
+      "frame": 172
+    },
+    {
+      "index": 45,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "f48bc3fe9bf6c45133e8eec209cd0146f75c2df0bb73cecad6fdd6f0b0ae88e2",
+      "task": "pnp_sink_to_counter",
+      "frame": 422
+    },
+    {
+      "index": 46,
+      "dataset": "panda_pnp",
+      "episode_id": "27397e6bad8205fc4e799658d71a957f28dfc3a5a9224f892af8f878ade2ff81",
+      "task": "pnp_counter_to_sink",
+      "frame": 272
+    },
+    {
+      "index": 47,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "ada00af88e29cd1ebf7a4c51f4378f27e9891f01d92d88aa25c79591d48dfe8f",
+      "task": "pnp_sink_to_counter",
+      "frame": 24
+    },
+    {
+      "index": 48,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "ada00af88e29cd1ebf7a4c51f4378f27e9891f01d92d88aa25c79591d48dfe8f",
+      "task": "pnp_sink_to_counter",
+      "frame": 424
+    },
+    {
+      "index": 49,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "f48bc3fe9bf6c45133e8eec209cd0146f75c2df0bb73cecad6fdd6f0b0ae88e2",
+      "task": "pnp_sink_to_counter",
+      "frame": 236
+    },
+    {
+      "index": 50,
+      "dataset": "panda_pnp",
+      "episode_id": "27397e6bad8205fc4e799658d71a957f28dfc3a5a9224f892af8f878ade2ff81",
+      "task": "pnp_counter_to_sink",
+      "frame": 247
+    },
+    {
+      "index": 51,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "f48bc3fe9bf6c45133e8eec209cd0146f75c2df0bb73cecad6fdd6f0b0ae88e2",
+      "task": "pnp_sink_to_counter",
+      "frame": 200
+    },
+    {
+      "index": 52,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "ada00af88e29cd1ebf7a4c51f4378f27e9891f01d92d88aa25c79591d48dfe8f",
+      "task": "pnp_sink_to_counter",
+      "frame": 366
+    },
+    {
+      "index": 53,
+      "dataset": "panda_pnp",
+      "episode_id": "85346cfcfd5d330d06c50a77bdea60a1076c5ab261d95339750303134a1d20d5",
+      "task": "pnp_sink_to_counter",
+      "frame": 253
+    },
+    {
+      "index": 54,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "6d15b96ccda37827cd614a0bc8c22b4e6859824e6472b52b726fa033d27ad5ab",
+      "task": "pnp_counter_to_sink",
+      "frame": 350
+    },
+    {
+      "index": 55,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "fd07b4dfd3031b440f4631ac1f3c03551632d1b94f9f3f3cbebd1b008b298168",
+      "task": "pnp_sink_to_counter",
+      "frame": 257
+    },
+    {
+      "index": 56,
+      "dataset": "panda_pnp",
+      "episode_id": "706c72ac7e80115005256bcea33e7f276d77fa7fd196e482bb34a789bd9fe1b6",
+      "task": "pnp_counter_to_sink",
+      "frame": 265
+    },
+    {
+      "index": 57,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "ea263845b53910192955917bcad0cbe03b7b3263efe5d56892ca8a5c3a004a36",
+      "task": "pnp_sink_to_counter",
+      "frame": 110
+    },
+    {
+      "index": 58,
+      "dataset": "panda_pnp",
+      "episode_id": "aafc900b8fe77279301188d85f45e22b26daa63a6a191ad0b489cac60d8a308a",
+      "task": "pnp_sink_to_counter",
+      "frame": 67
+    },
+    {
+      "index": 59,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "52f8bdf821dc8795ac2f809a06bb23d58dab26b0f6311dfa5ed436afeb0fcd11",
+      "task": "pnp_counter_to_sink",
+      "frame": 76
+    },
+    {
+      "index": 60,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "ae3ef92be4977a1944ca65fb532cc9d23359e5851beeebc2dcb2cf125f513618",
+      "task": "pnp_sink_to_counter",
+      "frame": 214
+    },
+    {
+      "index": 61,
+      "dataset": "panda_pnp",
+      "episode_id": "14865c01e3ab6001731ac2b216f426fa38f6adc68713596722e235f20557a593",
+      "task": "pnp_sink_to_counter",
+      "frame": 272
+    },
+    {
+      "index": 62,
+      "dataset": "panda_pnp",
+      "episode_id": "14865c01e3ab6001731ac2b216f426fa38f6adc68713596722e235f20557a593",
+      "task": "pnp_sink_to_counter",
+      "frame": 42
+    },
+    {
+      "index": 63,
+      "dataset": "panda_pnp",
+      "episode_id": "ce38a158ffd37f5c1c5c5fb74bf8fe778f2fa9ca5965b13a0fcf70692ccd12a9",
+      "task": "pnp_sink_to_counter",
+      "frame": 203
+    },
+    {
+      "index": 64,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "f48bc3fe9bf6c45133e8eec209cd0146f75c2df0bb73cecad6fdd6f0b0ae88e2",
+      "task": "pnp_sink_to_counter",
+      "frame": 138
+    },
+    {
+      "index": 65,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "52f8bdf821dc8795ac2f809a06bb23d58dab26b0f6311dfa5ed436afeb0fcd11",
+      "task": "pnp_counter_to_sink",
+      "frame": 358
+    },
+    {
+      "index": 66,
+      "dataset": "panda_pnp",
+      "episode_id": "ce38a158ffd37f5c1c5c5fb74bf8fe778f2fa9ca5965b13a0fcf70692ccd12a9",
+      "task": "pnp_sink_to_counter",
+      "frame": 223
+    },
+    {
+      "index": 67,
+      "dataset": "panda_pnp",
+      "episode_id": "9be513a873cfc28552084c3187f3803a0f420f6aef4f868cbb22e033f02ffcf4",
+      "task": "pnp_sink_to_counter",
+      "frame": 259
+    },
+    {
+      "index": 68,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "fd07b4dfd3031b440f4631ac1f3c03551632d1b94f9f3f3cbebd1b008b298168",
+      "task": "pnp_sink_to_counter",
+      "frame": 232
+    },
+    {
+      "index": 69,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "f8d3903e59f75940b669c2c30f6344b503e0af20f5564cff0a6cc8c60f0f5075",
+      "task": "pnp_sink_to_counter",
+      "frame": 235
+    },
+    {
+      "index": 70,
+      "dataset": "panda_pnp",
+      "episode_id": "27397e6bad8205fc4e799658d71a957f28dfc3a5a9224f892af8f878ade2ff81",
+      "task": "pnp_counter_to_sink",
+      "frame": 313
+    },
+    {
+      "index": 71,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "ada00af88e29cd1ebf7a4c51f4378f27e9891f01d92d88aa25c79591d48dfe8f",
+      "task": "pnp_sink_to_counter",
+      "frame": 105
+    },
+    {
+      "index": 72,
+      "dataset": "panda_pnp",
+      "episode_id": "647e24a2021554db6116ad1712351e9a5c77c255bf5f764ae6908dbbd9a75937",
+      "task": "pnp_sink_to_counter",
+      "frame": 426
+    },
+    {
+      "index": 73,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "fd07b4dfd3031b440f4631ac1f3c03551632d1b94f9f3f3cbebd1b008b298168",
+      "task": "pnp_sink_to_counter",
+      "frame": 126
+    },
+    {
+      "index": 74,
+      "dataset": "panda_pnp",
+      "episode_id": "aafc900b8fe77279301188d85f45e22b26daa63a6a191ad0b489cac60d8a308a",
+      "task": "pnp_sink_to_counter",
+      "frame": 39
+    },
+    {
+      "index": 75,
+      "dataset": "panda_pnp",
+      "episode_id": "ed66a6d30cd3b069aa37e3329cd92609f5332cef9242aaff974f180f32794735",
+      "task": "pnp_sink_to_counter",
+      "frame": 212
+    },
+    {
+      "index": 76,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "ae3ef92be4977a1944ca65fb532cc9d23359e5851beeebc2dcb2cf125f513618",
+      "task": "pnp_sink_to_counter",
+      "frame": 178
+    },
+    {
+      "index": 77,
+      "dataset": "panda_pnp",
+      "episode_id": "aafc900b8fe77279301188d85f45e22b26daa63a6a191ad0b489cac60d8a308a",
+      "task": "pnp_sink_to_counter",
+      "frame": 34
+    },
+    {
+      "index": 78,
+      "dataset": "panda_pnp",
+      "episode_id": "ed66a6d30cd3b069aa37e3329cd92609f5332cef9242aaff974f180f32794735",
+      "task": "pnp_sink_to_counter",
+      "frame": 210
+    },
+    {
+      "index": 79,
+      "dataset": "panda_pnp",
+      "episode_id": "d53f8d7b973e9cc13dc322c0d2745a37e441402531f307fc9866743a0937effd",
+      "task": "pnp_counter_to_sink",
+      "frame": 145
+    },
+    {
+      "index": 80,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "d7229f8ddbea6eebcc54de1e19ab41bb84ae4809b6aa68d1e1dd5b0c66fa501c",
+      "task": "pnp_counter_to_sink",
+      "frame": 48
+    },
+    {
+      "index": 81,
+      "dataset": "panda_pnp",
+      "episode_id": "85346cfcfd5d330d06c50a77bdea60a1076c5ab261d95339750303134a1d20d5",
+      "task": "pnp_sink_to_counter",
+      "frame": 292
+    },
+    {
+      "index": 82,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "f48bc3fe9bf6c45133e8eec209cd0146f75c2df0bb73cecad6fdd6f0b0ae88e2",
+      "task": "pnp_sink_to_counter",
+      "frame": 68
+    },
+    {
+      "index": 83,
+      "dataset": "panda_pnp",
+      "episode_id": "85346cfcfd5d330d06c50a77bdea60a1076c5ab261d95339750303134a1d20d5",
+      "task": "pnp_sink_to_counter",
+      "frame": 243
+    },
+    {
+      "index": 84,
+      "dataset": "panda_pnp",
+      "episode_id": "aafc900b8fe77279301188d85f45e22b26daa63a6a191ad0b489cac60d8a308a",
+      "task": "pnp_sink_to_counter",
+      "frame": 243
+    },
+    {
+      "index": 85,
+      "dataset": "panda_pnp",
+      "episode_id": "d53f8d7b973e9cc13dc322c0d2745a37e441402531f307fc9866743a0937effd",
+      "task": "pnp_counter_to_sink",
+      "frame": 333
+    },
+    {
+      "index": 86,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "52f8bdf821dc8795ac2f809a06bb23d58dab26b0f6311dfa5ed436afeb0fcd11",
+      "task": "pnp_counter_to_sink",
+      "frame": 279
+    },
+    {
+      "index": 87,
+      "dataset": "panda_pnp",
+      "episode_id": "9be513a873cfc28552084c3187f3803a0f420f6aef4f868cbb22e033f02ffcf4",
+      "task": "pnp_sink_to_counter",
+      "frame": 264
+    },
+    {
+      "index": 88,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "f8d3903e59f75940b669c2c30f6344b503e0af20f5564cff0a6cc8c60f0f5075",
+      "task": "pnp_sink_to_counter",
+      "frame": 355
+    },
+    {
+      "index": 89,
+      "dataset": "panda_pnp",
+      "episode_id": "85346cfcfd5d330d06c50a77bdea60a1076c5ab261d95339750303134a1d20d5",
+      "task": "pnp_sink_to_counter",
+      "frame": 237
+    },
+    {
+      "index": 90,
+      "dataset": "panda_pnp",
+      "episode_id": "14865c01e3ab6001731ac2b216f426fa38f6adc68713596722e235f20557a593",
+      "task": "pnp_sink_to_counter",
+      "frame": 338
+    },
+    {
+      "index": 91,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "ea263845b53910192955917bcad0cbe03b7b3263efe5d56892ca8a5c3a004a36",
+      "task": "pnp_sink_to_counter",
+      "frame": 189
+    },
+    {
+      "index": 92,
+      "dataset": "panda_pnp",
+      "episode_id": "ed66a6d30cd3b069aa37e3329cd92609f5332cef9242aaff974f180f32794735",
+      "task": "pnp_sink_to_counter",
+      "frame": 36
+    },
+    {
+      "index": 93,
+      "dataset": "panda_pnp",
+      "episode_id": "aafc900b8fe77279301188d85f45e22b26daa63a6a191ad0b489cac60d8a308a",
+      "task": "pnp_sink_to_counter",
+      "frame": 6
+    },
+    {
+      "index": 94,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "6d15b96ccda37827cd614a0bc8c22b4e6859824e6472b52b726fa033d27ad5ab",
+      "task": "pnp_counter_to_sink",
+      "frame": 198
+    },
+    {
+      "index": 95,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "ae3ef92be4977a1944ca65fb532cc9d23359e5851beeebc2dcb2cf125f513618",
+      "task": "pnp_sink_to_counter",
+      "frame": 400
+    },
+    {
+      "index": 96,
+      "dataset": "panda_pnp",
+      "episode_id": "647e24a2021554db6116ad1712351e9a5c77c255bf5f764ae6908dbbd9a75937",
+      "task": "pnp_sink_to_counter",
+      "frame": 149
+    },
+    {
+      "index": 97,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "52f8bdf821dc8795ac2f809a06bb23d58dab26b0f6311dfa5ed436afeb0fcd11",
+      "task": "pnp_counter_to_sink",
+      "frame": 6
+    },
+    {
+      "index": 98,
+      "dataset": "panda_pnp",
+      "episode_id": "647e24a2021554db6116ad1712351e9a5c77c255bf5f764ae6908dbbd9a75937",
+      "task": "pnp_sink_to_counter",
+      "frame": 59
+    },
+    {
+      "index": 99,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "774a51c819a25f0f215f2eda754fbb17fe60eed3688c95dc000b701fb288c9fd",
+      "task": "pnp_sink_to_counter",
+      "frame": 147
+    },
+    {
+      "index": 100,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "ada00af88e29cd1ebf7a4c51f4378f27e9891f01d92d88aa25c79591d48dfe8f",
+      "task": "pnp_sink_to_counter",
+      "frame": 180
+    },
+    {
+      "index": 101,
+      "dataset": "panda_pnp",
+      "episode_id": "85346cfcfd5d330d06c50a77bdea60a1076c5ab261d95339750303134a1d20d5",
+      "task": "pnp_sink_to_counter",
+      "frame": 215
+    },
+    {
+      "index": 102,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "ada00af88e29cd1ebf7a4c51f4378f27e9891f01d92d88aa25c79591d48dfe8f",
+      "task": "pnp_sink_to_counter",
+      "frame": 460
+    },
+    {
+      "index": 103,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "ada00af88e29cd1ebf7a4c51f4378f27e9891f01d92d88aa25c79591d48dfe8f",
+      "task": "pnp_sink_to_counter",
+      "frame": 397
+    },
+    {
+      "index": 104,
+      "dataset": "panda_pnp",
+      "episode_id": "85346cfcfd5d330d06c50a77bdea60a1076c5ab261d95339750303134a1d20d5",
+      "task": "pnp_sink_to_counter",
+      "frame": 29
+    },
+    {
+      "index": 105,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "ada00af88e29cd1ebf7a4c51f4378f27e9891f01d92d88aa25c79591d48dfe8f",
+      "task": "pnp_sink_to_counter",
+      "frame": 233
+    },
+    {
+      "index": 106,
+      "dataset": "panda_pnp",
+      "episode_id": "27397e6bad8205fc4e799658d71a957f28dfc3a5a9224f892af8f878ade2ff81",
+      "task": "pnp_counter_to_sink",
+      "frame": 230
+    },
+    {
+      "index": 107,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "ada00af88e29cd1ebf7a4c51f4378f27e9891f01d92d88aa25c79591d48dfe8f",
+      "task": "pnp_sink_to_counter",
+      "frame": 117
+    },
+    {
+      "index": 108,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "52f8bdf821dc8795ac2f809a06bb23d58dab26b0f6311dfa5ed436afeb0fcd11",
+      "task": "pnp_counter_to_sink",
+      "frame": 70
+    },
+    {
+      "index": 109,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "f48bc3fe9bf6c45133e8eec209cd0146f75c2df0bb73cecad6fdd6f0b0ae88e2",
+      "task": "pnp_sink_to_counter",
+      "frame": 278
+    },
+    {
+      "index": 110,
+      "dataset": "panda_pnp",
+      "episode_id": "d53f8d7b973e9cc13dc322c0d2745a37e441402531f307fc9866743a0937effd",
+      "task": "pnp_counter_to_sink",
+      "frame": 302
+    },
+    {
+      "index": 111,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "774a51c819a25f0f215f2eda754fbb17fe60eed3688c95dc000b701fb288c9fd",
+      "task": "pnp_sink_to_counter",
+      "frame": 257
+    },
+    {
+      "index": 112,
+      "dataset": "panda_pnp",
+      "episode_id": "647e24a2021554db6116ad1712351e9a5c77c255bf5f764ae6908dbbd9a75937",
+      "task": "pnp_sink_to_counter",
+      "frame": 176
+    },
+    {
+      "index": 113,
+      "dataset": "panda_pnp",
+      "episode_id": "9c37736f9f70be8b3728786860b1ebd8cabc83fb2dd5dcb7363bc015f19c51bf",
+      "task": "pnp_counter_to_sink",
+      "frame": 180
+    },
+    {
+      "index": 114,
+      "dataset": "panda_pnp",
+      "episode_id": "aafc900b8fe77279301188d85f45e22b26daa63a6a191ad0b489cac60d8a308a",
+      "task": "pnp_sink_to_counter",
+      "frame": 85
+    },
+    {
+      "index": 115,
+      "dataset": "panda_pnp",
+      "episode_id": "9c37736f9f70be8b3728786860b1ebd8cabc83fb2dd5dcb7363bc015f19c51bf",
+      "task": "pnp_counter_to_sink",
+      "frame": 281
+    },
+    {
+      "index": 116,
+      "dataset": "panda_pnp",
+      "episode_id": "9be513a873cfc28552084c3187f3803a0f420f6aef4f868cbb22e033f02ffcf4",
+      "task": "pnp_sink_to_counter",
+      "frame": 423
+    },
+    {
+      "index": 117,
+      "dataset": "panda_pnp",
+      "episode_id": "85346cfcfd5d330d06c50a77bdea60a1076c5ab261d95339750303134a1d20d5",
+      "task": "pnp_sink_to_counter",
+      "frame": 74
+    },
+    {
+      "index": 118,
+      "dataset": "panda_pnp",
+      "episode_id": "85346cfcfd5d330d06c50a77bdea60a1076c5ab261d95339750303134a1d20d5",
+      "task": "pnp_sink_to_counter",
+      "frame": 333
+    },
+    {
+      "index": 119,
+      "dataset": "panda_pnp",
+      "episode_id": "ed66a6d30cd3b069aa37e3329cd92609f5332cef9242aaff974f180f32794735",
+      "task": "pnp_sink_to_counter",
+      "frame": 257
+    },
+    {
+      "index": 120,
+      "dataset": "panda_pnp",
+      "episode_id": "647e24a2021554db6116ad1712351e9a5c77c255bf5f764ae6908dbbd9a75937",
+      "task": "pnp_sink_to_counter",
+      "frame": 81
+    },
+    {
+      "index": 121,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "ae3ef92be4977a1944ca65fb532cc9d23359e5851beeebc2dcb2cf125f513618",
+      "task": "pnp_sink_to_counter",
+      "frame": 442
+    },
+    {
+      "index": 122,
+      "dataset": "panda_pnp",
+      "episode_id": "85346cfcfd5d330d06c50a77bdea60a1076c5ab261d95339750303134a1d20d5",
+      "task": "pnp_sink_to_counter",
+      "frame": 310
+    },
+    {
+      "index": 123,
+      "dataset": "panda_pnp",
+      "episode_id": "647e24a2021554db6116ad1712351e9a5c77c255bf5f764ae6908dbbd9a75937",
+      "task": "pnp_sink_to_counter",
+      "frame": 325
+    },
+    {
+      "index": 124,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "ae3ef92be4977a1944ca65fb532cc9d23359e5851beeebc2dcb2cf125f513618",
+      "task": "pnp_sink_to_counter",
+      "frame": 43
+    },
+    {
+      "index": 125,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "ea263845b53910192955917bcad0cbe03b7b3263efe5d56892ca8a5c3a004a36",
+      "task": "pnp_sink_to_counter",
+      "frame": 216
+    },
+    {
+      "index": 126,
+      "dataset": "panda_pnp",
+      "episode_id": "3913f7bc6f5352a468cebb626824142c973c68de53984578f81d254723809e19",
+      "task": "pnp_counter_to_sink",
+      "frame": 86
+    },
+    {
+      "index": 127,
+      "dataset": "panda_pnp",
+      "episode_id": "9be513a873cfc28552084c3187f3803a0f420f6aef4f868cbb22e033f02ffcf4",
+      "task": "pnp_sink_to_counter",
+      "frame": 84
+    },
+    {
+      "index": 128,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "774a51c819a25f0f215f2eda754fbb17fe60eed3688c95dc000b701fb288c9fd",
+      "task": "pnp_sink_to_counter",
+      "frame": 239
+    },
+    {
+      "index": 129,
+      "dataset": "panda_pnp",
+      "episode_id": "d53f8d7b973e9cc13dc322c0d2745a37e441402531f307fc9866743a0937effd",
+      "task": "pnp_counter_to_sink",
+      "frame": 98
+    },
+    {
+      "index": 130,
+      "dataset": "panda_pnp",
+      "episode_id": "aafc900b8fe77279301188d85f45e22b26daa63a6a191ad0b489cac60d8a308a",
+      "task": "pnp_sink_to_counter",
+      "frame": 376
+    },
+    {
+      "index": 131,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "6d15b96ccda37827cd614a0bc8c22b4e6859824e6472b52b726fa033d27ad5ab",
+      "task": "pnp_counter_to_sink",
+      "frame": 255
+    },
+    {
+      "index": 132,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "6d15b96ccda37827cd614a0bc8c22b4e6859824e6472b52b726fa033d27ad5ab",
+      "task": "pnp_counter_to_sink",
+      "frame": 4
+    },
+    {
+      "index": 133,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "fd07b4dfd3031b440f4631ac1f3c03551632d1b94f9f3f3cbebd1b008b298168",
+      "task": "pnp_sink_to_counter",
+      "frame": 388
+    },
+    {
+      "index": 134,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "ea263845b53910192955917bcad0cbe03b7b3263efe5d56892ca8a5c3a004a36",
+      "task": "pnp_sink_to_counter",
+      "frame": 236
+    },
+    {
+      "index": 135,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "52f8bdf821dc8795ac2f809a06bb23d58dab26b0f6311dfa5ed436afeb0fcd11",
+      "task": "pnp_counter_to_sink",
+      "frame": 21
+    },
+    {
+      "index": 136,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "f48bc3fe9bf6c45133e8eec209cd0146f75c2df0bb73cecad6fdd6f0b0ae88e2",
+      "task": "pnp_sink_to_counter",
+      "frame": 169
+    },
+    {
+      "index": 137,
+      "dataset": "panda_pnp",
+      "episode_id": "ce38a158ffd37f5c1c5c5fb74bf8fe778f2fa9ca5965b13a0fcf70692ccd12a9",
+      "task": "pnp_sink_to_counter",
+      "frame": 56
+    },
+    {
+      "index": 138,
+      "dataset": "panda_pnp",
+      "episode_id": "14865c01e3ab6001731ac2b216f426fa38f6adc68713596722e235f20557a593",
+      "task": "pnp_sink_to_counter",
+      "frame": 431
+    },
+    {
+      "index": 139,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "f8d3903e59f75940b669c2c30f6344b503e0af20f5564cff0a6cc8c60f0f5075",
+      "task": "pnp_sink_to_counter",
+      "frame": 97
+    },
+    {
+      "index": 140,
+      "dataset": "panda_pnp",
+      "episode_id": "d53f8d7b973e9cc13dc322c0d2745a37e441402531f307fc9866743a0937effd",
+      "task": "pnp_counter_to_sink",
+      "frame": 59
+    },
+    {
+      "index": 141,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "6d15b96ccda37827cd614a0bc8c22b4e6859824e6472b52b726fa033d27ad5ab",
+      "task": "pnp_counter_to_sink",
+      "frame": 51
+    },
+    {
+      "index": 142,
+      "dataset": "panda_pnp",
+      "episode_id": "647e24a2021554db6116ad1712351e9a5c77c255bf5f764ae6908dbbd9a75937",
+      "task": "pnp_sink_to_counter",
+      "frame": 363
+    },
+    {
+      "index": 143,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "f48bc3fe9bf6c45133e8eec209cd0146f75c2df0bb73cecad6fdd6f0b0ae88e2",
+      "task": "pnp_sink_to_counter",
+      "frame": 158
+    },
+    {
+      "index": 144,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "ea263845b53910192955917bcad0cbe03b7b3263efe5d56892ca8a5c3a004a36",
+      "task": "pnp_sink_to_counter",
+      "frame": 100
+    },
+    {
+      "index": 145,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "ada00af88e29cd1ebf7a4c51f4378f27e9891f01d92d88aa25c79591d48dfe8f",
+      "task": "pnp_sink_to_counter",
+      "frame": 213
+    },
+    {
+      "index": 146,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "f48bc3fe9bf6c45133e8eec209cd0146f75c2df0bb73cecad6fdd6f0b0ae88e2",
+      "task": "pnp_sink_to_counter",
+      "frame": 82
+    },
+    {
+      "index": 147,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "52f8bdf821dc8795ac2f809a06bb23d58dab26b0f6311dfa5ed436afeb0fcd11",
+      "task": "pnp_counter_to_sink",
+      "frame": 206
+    },
+    {
+      "index": 148,
+      "dataset": "panda_pnp",
+      "episode_id": "d53f8d7b973e9cc13dc322c0d2745a37e441402531f307fc9866743a0937effd",
+      "task": "pnp_counter_to_sink",
+      "frame": 413
+    },
+    {
+      "index": 149,
+      "dataset": "panda_pnp",
+      "episode_id": "85346cfcfd5d330d06c50a77bdea60a1076c5ab261d95339750303134a1d20d5",
+      "task": "pnp_sink_to_counter",
+      "frame": 1
+    },
+    {
+      "index": 150,
+      "dataset": "panda_pnp",
+      "episode_id": "647e24a2021554db6116ad1712351e9a5c77c255bf5f764ae6908dbbd9a75937",
+      "task": "pnp_sink_to_counter",
+      "frame": 335
+    },
+    {
+      "index": 151,
+      "dataset": "panda_pnp",
+      "episode_id": "ed66a6d30cd3b069aa37e3329cd92609f5332cef9242aaff974f180f32794735",
+      "task": "pnp_sink_to_counter",
+      "frame": 355
+    },
+    {
+      "index": 152,
+      "dataset": "panda_pnp",
+      "episode_id": "647e24a2021554db6116ad1712351e9a5c77c255bf5f764ae6908dbbd9a75937",
+      "task": "pnp_sink_to_counter",
+      "frame": 381
+    },
+    {
+      "index": 153,
+      "dataset": "panda_pnp",
+      "episode_id": "d53f8d7b973e9cc13dc322c0d2745a37e441402531f307fc9866743a0937effd",
+      "task": "pnp_counter_to_sink",
+      "frame": 6
+    },
+    {
+      "index": 154,
+      "dataset": "panda_pnp",
+      "episode_id": "aafc900b8fe77279301188d85f45e22b26daa63a6a191ad0b489cac60d8a308a",
+      "task": "pnp_sink_to_counter",
+      "frame": 103
+    },
+    {
+      "index": 155,
+      "dataset": "panda_pnp",
+      "episode_id": "27397e6bad8205fc4e799658d71a957f28dfc3a5a9224f892af8f878ade2ff81",
+      "task": "pnp_counter_to_sink",
+      "frame": 65
+    },
+    {
+      "index": 156,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "c18fefa303502107b31349fa95414bd4210877edacb9d6c79c28dec6c873acca",
+      "task": "pnp_counter_to_sink",
+      "frame": 220
+    },
+    {
+      "index": 157,
+      "dataset": "panda_pnp",
+      "episode_id": "27397e6bad8205fc4e799658d71a957f28dfc3a5a9224f892af8f878ade2ff81",
+      "task": "pnp_counter_to_sink",
+      "frame": 88
+    },
+    {
+      "index": 158,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "fd07b4dfd3031b440f4631ac1f3c03551632d1b94f9f3f3cbebd1b008b298168",
+      "task": "pnp_sink_to_counter",
+      "frame": 562
+    },
+    {
+      "index": 159,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "fd07b4dfd3031b440f4631ac1f3c03551632d1b94f9f3f3cbebd1b008b298168",
+      "task": "pnp_sink_to_counter",
+      "frame": 498
+    },
+    {
+      "index": 160,
+      "dataset": "panda_pnp",
+      "episode_id": "14865c01e3ab6001731ac2b216f426fa38f6adc68713596722e235f20557a593",
+      "task": "pnp_sink_to_counter",
+      "frame": 38
+    },
+    {
+      "index": 161,
+      "dataset": "panda_pnp",
+      "episode_id": "647e24a2021554db6116ad1712351e9a5c77c255bf5f764ae6908dbbd9a75937",
+      "task": "pnp_sink_to_counter",
+      "frame": 264
+    },
+    {
+      "index": 162,
+      "dataset": "panda_pnp",
+      "episode_id": "9be513a873cfc28552084c3187f3803a0f420f6aef4f868cbb22e033f02ffcf4",
+      "task": "pnp_sink_to_counter",
+      "frame": 42
+    },
+    {
+      "index": 163,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "6d15b96ccda37827cd614a0bc8c22b4e6859824e6472b52b726fa033d27ad5ab",
+      "task": "pnp_counter_to_sink",
+      "frame": 251
+    },
+    {
+      "index": 164,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "c18fefa303502107b31349fa95414bd4210877edacb9d6c79c28dec6c873acca",
+      "task": "pnp_counter_to_sink",
+      "frame": 162
+    },
+    {
+      "index": 165,
+      "dataset": "panda_pnp",
+      "episode_id": "647e24a2021554db6116ad1712351e9a5c77c255bf5f764ae6908dbbd9a75937",
+      "task": "pnp_sink_to_counter",
+      "frame": 191
+    },
+    {
+      "index": 166,
+      "dataset": "panda_pnp",
+      "episode_id": "706c72ac7e80115005256bcea33e7f276d77fa7fd196e482bb34a789bd9fe1b6",
+      "task": "pnp_counter_to_sink",
+      "frame": 340
+    },
+    {
+      "index": 167,
+      "dataset": "panda_pnp",
+      "episode_id": "647e24a2021554db6116ad1712351e9a5c77c255bf5f764ae6908dbbd9a75937",
+      "task": "pnp_sink_to_counter",
+      "frame": 401
+    },
+    {
+      "index": 168,
+      "dataset": "panda_pnp",
+      "episode_id": "647e24a2021554db6116ad1712351e9a5c77c255bf5f764ae6908dbbd9a75937",
+      "task": "pnp_sink_to_counter",
+      "frame": 156
+    },
+    {
+      "index": 169,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "f48bc3fe9bf6c45133e8eec209cd0146f75c2df0bb73cecad6fdd6f0b0ae88e2",
+      "task": "pnp_sink_to_counter",
+      "frame": 193
+    },
+    {
+      "index": 170,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "fd07b4dfd3031b440f4631ac1f3c03551632d1b94f9f3f3cbebd1b008b298168",
+      "task": "pnp_sink_to_counter",
+      "frame": 275
+    },
+    {
+      "index": 171,
+      "dataset": "panda_pnp",
+      "episode_id": "647e24a2021554db6116ad1712351e9a5c77c255bf5f764ae6908dbbd9a75937",
+      "task": "pnp_sink_to_counter",
+      "frame": 489
+    },
+    {
+      "index": 172,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "ada00af88e29cd1ebf7a4c51f4378f27e9891f01d92d88aa25c79591d48dfe8f",
+      "task": "pnp_sink_to_counter",
+      "frame": 367
+    },
+    {
+      "index": 173,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "67315bc6905615f5eb3be060f370edd6694662afecbdfd06c55f508ed59adae6",
+      "task": "pnp_counter_to_sink",
+      "frame": 45
+    },
+    {
+      "index": 174,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "d7229f8ddbea6eebcc54de1e19ab41bb84ae4809b6aa68d1e1dd5b0c66fa501c",
+      "task": "pnp_counter_to_sink",
+      "frame": 70
+    },
+    {
+      "index": 175,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "f48bc3fe9bf6c45133e8eec209cd0146f75c2df0bb73cecad6fdd6f0b0ae88e2",
+      "task": "pnp_sink_to_counter",
+      "frame": 428
+    },
+    {
+      "index": 176,
+      "dataset": "panda_pnp",
+      "episode_id": "9be513a873cfc28552084c3187f3803a0f420f6aef4f868cbb22e033f02ffcf4",
+      "task": "pnp_sink_to_counter",
+      "frame": 300
+    },
+    {
+      "index": 177,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "6d15b96ccda37827cd614a0bc8c22b4e6859824e6472b52b726fa033d27ad5ab",
+      "task": "pnp_counter_to_sink",
+      "frame": 276
+    },
+    {
+      "index": 178,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "fd07b4dfd3031b440f4631ac1f3c03551632d1b94f9f3f3cbebd1b008b298168",
+      "task": "pnp_sink_to_counter",
+      "frame": 289
+    },
+    {
+      "index": 179,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "fd07b4dfd3031b440f4631ac1f3c03551632d1b94f9f3f3cbebd1b008b298168",
+      "task": "pnp_sink_to_counter",
+      "frame": 86
+    },
+    {
+      "index": 180,
+      "dataset": "panda_pnp",
+      "episode_id": "14865c01e3ab6001731ac2b216f426fa38f6adc68713596722e235f20557a593",
+      "task": "pnp_sink_to_counter",
+      "frame": 285
+    },
+    {
+      "index": 181,
+      "dataset": "panda_pnp",
+      "episode_id": "14865c01e3ab6001731ac2b216f426fa38f6adc68713596722e235f20557a593",
+      "task": "pnp_sink_to_counter",
+      "frame": 246
+    },
+    {
+      "index": 182,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "ea263845b53910192955917bcad0cbe03b7b3263efe5d56892ca8a5c3a004a36",
+      "task": "pnp_sink_to_counter",
+      "frame": 276
+    },
+    {
+      "index": 183,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "d7229f8ddbea6eebcc54de1e19ab41bb84ae4809b6aa68d1e1dd5b0c66fa501c",
+      "task": "pnp_counter_to_sink",
+      "frame": 418
+    },
+    {
+      "index": 184,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "52f8bdf821dc8795ac2f809a06bb23d58dab26b0f6311dfa5ed436afeb0fcd11",
+      "task": "pnp_counter_to_sink",
+      "frame": 166
+    },
+    {
+      "index": 185,
+      "dataset": "panda_pnp",
+      "episode_id": "85346cfcfd5d330d06c50a77bdea60a1076c5ab261d95339750303134a1d20d5",
+      "task": "pnp_sink_to_counter",
+      "frame": 339
+    },
+    {
+      "index": 186,
+      "dataset": "panda_pnp",
+      "episode_id": "85346cfcfd5d330d06c50a77bdea60a1076c5ab261d95339750303134a1d20d5",
+      "task": "pnp_sink_to_counter",
+      "frame": 256
+    },
+    {
+      "index": 187,
+      "dataset": "panda_pnp",
+      "episode_id": "ce38a158ffd37f5c1c5c5fb74bf8fe778f2fa9ca5965b13a0fcf70692ccd12a9",
+      "task": "pnp_sink_to_counter",
+      "frame": 296
+    },
+    {
+      "index": 188,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "67315bc6905615f5eb3be060f370edd6694662afecbdfd06c55f508ed59adae6",
+      "task": "pnp_counter_to_sink",
+      "frame": 48
+    },
+    {
+      "index": 189,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "ada00af88e29cd1ebf7a4c51f4378f27e9891f01d92d88aa25c79591d48dfe8f",
+      "task": "pnp_sink_to_counter",
+      "frame": 421
+    },
+    {
+      "index": 190,
+      "dataset": "panda_pnp",
+      "episode_id": "706c72ac7e80115005256bcea33e7f276d77fa7fd196e482bb34a789bd9fe1b6",
+      "task": "pnp_counter_to_sink",
+      "frame": 70
+    },
+    {
+      "index": 191,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "774a51c819a25f0f215f2eda754fbb17fe60eed3688c95dc000b701fb288c9fd",
+      "task": "pnp_sink_to_counter",
+      "frame": 129
+    },
+    {
+      "index": 192,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "52f8bdf821dc8795ac2f809a06bb23d58dab26b0f6311dfa5ed436afeb0fcd11",
+      "task": "pnp_counter_to_sink",
+      "frame": 245
+    },
+    {
+      "index": 193,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "d7229f8ddbea6eebcc54de1e19ab41bb84ae4809b6aa68d1e1dd5b0c66fa501c",
+      "task": "pnp_counter_to_sink",
+      "frame": 195
+    },
+    {
+      "index": 194,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "ae3ef92be4977a1944ca65fb532cc9d23359e5851beeebc2dcb2cf125f513618",
+      "task": "pnp_sink_to_counter",
+      "frame": 411
+    },
+    {
+      "index": 195,
+      "dataset": "panda_pnp",
+      "episode_id": "706c72ac7e80115005256bcea33e7f276d77fa7fd196e482bb34a789bd9fe1b6",
+      "task": "pnp_counter_to_sink",
+      "frame": 355
+    },
+    {
+      "index": 196,
+      "dataset": "panda_pnp",
+      "episode_id": "85346cfcfd5d330d06c50a77bdea60a1076c5ab261d95339750303134a1d20d5",
+      "task": "pnp_sink_to_counter",
+      "frame": 300
+    },
+    {
+      "index": 197,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "6d15b96ccda37827cd614a0bc8c22b4e6859824e6472b52b726fa033d27ad5ab",
+      "task": "pnp_counter_to_sink",
+      "frame": 277
+    },
+    {
+      "index": 198,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "f8d3903e59f75940b669c2c30f6344b503e0af20f5564cff0a6cc8c60f0f5075",
+      "task": "pnp_sink_to_counter",
+      "frame": 84
+    },
+    {
+      "index": 199,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "ea263845b53910192955917bcad0cbe03b7b3263efe5d56892ca8a5c3a004a36",
+      "task": "pnp_sink_to_counter",
+      "frame": 404
+    },
+    {
+      "index": 200,
+      "dataset": "panda_pnp",
+      "episode_id": "647e24a2021554db6116ad1712351e9a5c77c255bf5f764ae6908dbbd9a75937",
+      "task": "pnp_sink_to_counter",
+      "frame": 145
+    },
+    {
+      "index": 201,
+      "dataset": "panda_pnp",
+      "episode_id": "27397e6bad8205fc4e799658d71a957f28dfc3a5a9224f892af8f878ade2ff81",
+      "task": "pnp_counter_to_sink",
+      "frame": 228
+    },
+    {
+      "index": 202,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "f8d3903e59f75940b669c2c30f6344b503e0af20f5564cff0a6cc8c60f0f5075",
+      "task": "pnp_sink_to_counter",
+      "frame": 118
+    },
+    {
+      "index": 203,
+      "dataset": "panda_pnp",
+      "episode_id": "d53f8d7b973e9cc13dc322c0d2745a37e441402531f307fc9866743a0937effd",
+      "task": "pnp_counter_to_sink",
+      "frame": 144
+    },
+    {
+      "index": 204,
+      "dataset": "panda_pnp",
+      "episode_id": "14865c01e3ab6001731ac2b216f426fa38f6adc68713596722e235f20557a593",
+      "task": "pnp_sink_to_counter",
+      "frame": 389
+    },
+    {
+      "index": 205,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "fd07b4dfd3031b440f4631ac1f3c03551632d1b94f9f3f3cbebd1b008b298168",
+      "task": "pnp_sink_to_counter",
+      "frame": 54
+    },
+    {
+      "index": 206,
+      "dataset": "panda_pnp",
+      "episode_id": "27397e6bad8205fc4e799658d71a957f28dfc3a5a9224f892af8f878ade2ff81",
+      "task": "pnp_counter_to_sink",
+      "frame": 312
+    },
+    {
+      "index": 207,
+      "dataset": "panda_pnp",
+      "episode_id": "d53f8d7b973e9cc13dc322c0d2745a37e441402531f307fc9866743a0937effd",
+      "task": "pnp_counter_to_sink",
+      "frame": 29
+    },
+    {
+      "index": 208,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "67315bc6905615f5eb3be060f370edd6694662afecbdfd06c55f508ed59adae6",
+      "task": "pnp_counter_to_sink",
+      "frame": 38
+    },
+    {
+      "index": 209,
+      "dataset": "panda_pnp",
+      "episode_id": "647e24a2021554db6116ad1712351e9a5c77c255bf5f764ae6908dbbd9a75937",
+      "task": "pnp_sink_to_counter",
+      "frame": 56
+    },
+    {
+      "index": 210,
+      "dataset": "panda_pnp",
+      "episode_id": "9be513a873cfc28552084c3187f3803a0f420f6aef4f868cbb22e033f02ffcf4",
+      "task": "pnp_sink_to_counter",
+      "frame": 394
+    },
+    {
+      "index": 211,
+      "dataset": "panda_pnp",
+      "episode_id": "9be513a873cfc28552084c3187f3803a0f420f6aef4f868cbb22e033f02ffcf4",
+      "task": "pnp_sink_to_counter",
+      "frame": 309
+    },
+    {
+      "index": 212,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "ea263845b53910192955917bcad0cbe03b7b3263efe5d56892ca8a5c3a004a36",
+      "task": "pnp_sink_to_counter",
+      "frame": 383
+    },
+    {
+      "index": 213,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "c18fefa303502107b31349fa95414bd4210877edacb9d6c79c28dec6c873acca",
+      "task": "pnp_counter_to_sink",
+      "frame": 309
+    },
+    {
+      "index": 214,
+      "dataset": "panda_pnp",
+      "episode_id": "14865c01e3ab6001731ac2b216f426fa38f6adc68713596722e235f20557a593",
+      "task": "pnp_sink_to_counter",
+      "frame": 137
+    },
+    {
+      "index": 215,
+      "dataset": "panda_pnp",
+      "episode_id": "ed66a6d30cd3b069aa37e3329cd92609f5332cef9242aaff974f180f32794735",
+      "task": "pnp_sink_to_counter",
+      "frame": 133
+    },
+    {
+      "index": 216,
+      "dataset": "panda_pnp",
+      "episode_id": "85346cfcfd5d330d06c50a77bdea60a1076c5ab261d95339750303134a1d20d5",
+      "task": "pnp_sink_to_counter",
+      "frame": 287
+    },
+    {
+      "index": 217,
+      "dataset": "panda_pnp",
+      "episode_id": "9be513a873cfc28552084c3187f3803a0f420f6aef4f868cbb22e033f02ffcf4",
+      "task": "pnp_sink_to_counter",
+      "frame": 402
+    },
+    {
+      "index": 218,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "f8d3903e59f75940b669c2c30f6344b503e0af20f5564cff0a6cc8c60f0f5075",
+      "task": "pnp_sink_to_counter",
+      "frame": 203
+    },
+    {
+      "index": 219,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "6d15b96ccda37827cd614a0bc8c22b4e6859824e6472b52b726fa033d27ad5ab",
+      "task": "pnp_counter_to_sink",
+      "frame": 186
+    },
+    {
+      "index": 220,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "6d15b96ccda37827cd614a0bc8c22b4e6859824e6472b52b726fa033d27ad5ab",
+      "task": "pnp_counter_to_sink",
+      "frame": 355
+    },
+    {
+      "index": 221,
+      "dataset": "panda_pnp",
+      "episode_id": "14865c01e3ab6001731ac2b216f426fa38f6adc68713596722e235f20557a593",
+      "task": "pnp_sink_to_counter",
+      "frame": 195
+    },
+    {
+      "index": 222,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "52f8bdf821dc8795ac2f809a06bb23d58dab26b0f6311dfa5ed436afeb0fcd11",
+      "task": "pnp_counter_to_sink",
+      "frame": 357
+    },
+    {
+      "index": 223,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "d7229f8ddbea6eebcc54de1e19ab41bb84ae4809b6aa68d1e1dd5b0c66fa501c",
+      "task": "pnp_counter_to_sink",
+      "frame": 187
+    },
+    {
+      "index": 224,
+      "dataset": "panda_pnp",
+      "episode_id": "9be513a873cfc28552084c3187f3803a0f420f6aef4f868cbb22e033f02ffcf4",
+      "task": "pnp_sink_to_counter",
+      "frame": 388
+    },
+    {
+      "index": 225,
+      "dataset": "panda_pnp",
+      "episode_id": "9be513a873cfc28552084c3187f3803a0f420f6aef4f868cbb22e033f02ffcf4",
+      "task": "pnp_sink_to_counter",
+      "frame": 254
+    },
+    {
+      "index": 226,
+      "dataset": "panda_pnp",
+      "episode_id": "9be513a873cfc28552084c3187f3803a0f420f6aef4f868cbb22e033f02ffcf4",
+      "task": "pnp_sink_to_counter",
+      "frame": 221
+    },
+    {
+      "index": 227,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "ada00af88e29cd1ebf7a4c51f4378f27e9891f01d92d88aa25c79591d48dfe8f",
+      "task": "pnp_sink_to_counter",
+      "frame": 453
+    },
+    {
+      "index": 228,
+      "dataset": "panda_pnp",
+      "episode_id": "ce38a158ffd37f5c1c5c5fb74bf8fe778f2fa9ca5965b13a0fcf70692ccd12a9",
+      "task": "pnp_sink_to_counter",
+      "frame": 195
+    },
+    {
+      "index": 229,
+      "dataset": "panda_pnp",
+      "episode_id": "aafc900b8fe77279301188d85f45e22b26daa63a6a191ad0b489cac60d8a308a",
+      "task": "pnp_sink_to_counter",
+      "frame": 365
+    },
+    {
+      "index": 230,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "ae3ef92be4977a1944ca65fb532cc9d23359e5851beeebc2dcb2cf125f513618",
+      "task": "pnp_sink_to_counter",
+      "frame": 124
+    },
+    {
+      "index": 231,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "774a51c819a25f0f215f2eda754fbb17fe60eed3688c95dc000b701fb288c9fd",
+      "task": "pnp_sink_to_counter",
+      "frame": 108
+    },
+    {
+      "index": 232,
+      "dataset": "panda_pnp",
+      "episode_id": "27397e6bad8205fc4e799658d71a957f28dfc3a5a9224f892af8f878ade2ff81",
+      "task": "pnp_counter_to_sink",
+      "frame": 294
+    },
+    {
+      "index": 233,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "52f8bdf821dc8795ac2f809a06bb23d58dab26b0f6311dfa5ed436afeb0fcd11",
+      "task": "pnp_counter_to_sink",
+      "frame": 98
+    },
+    {
+      "index": 234,
+      "dataset": "panda_pnp",
+      "episode_id": "d53f8d7b973e9cc13dc322c0d2745a37e441402531f307fc9866743a0937effd",
+      "task": "pnp_counter_to_sink",
+      "frame": 189
+    },
+    {
+      "index": 235,
+      "dataset": "panda_pnp",
+      "episode_id": "3913f7bc6f5352a468cebb626824142c973c68de53984578f81d254723809e19",
+      "task": "pnp_counter_to_sink",
+      "frame": 81
+    },
+    {
+      "index": 236,
+      "dataset": "panda_pnp",
+      "episode_id": "9c37736f9f70be8b3728786860b1ebd8cabc83fb2dd5dcb7363bc015f19c51bf",
+      "task": "pnp_counter_to_sink",
+      "frame": 206
+    },
+    {
+      "index": 237,
+      "dataset": "panda_pnp",
+      "episode_id": "ed66a6d30cd3b069aa37e3329cd92609f5332cef9242aaff974f180f32794735",
+      "task": "pnp_sink_to_counter",
+      "frame": 352
+    },
+    {
+      "index": 238,
+      "dataset": "panda_pnp",
+      "episode_id": "706c72ac7e80115005256bcea33e7f276d77fa7fd196e482bb34a789bd9fe1b6",
+      "task": "pnp_counter_to_sink",
+      "frame": 18
+    },
+    {
+      "index": 239,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "6d15b96ccda37827cd614a0bc8c22b4e6859824e6472b52b726fa033d27ad5ab",
+      "task": "pnp_counter_to_sink",
+      "frame": 253
+    },
+    {
+      "index": 240,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "fd07b4dfd3031b440f4631ac1f3c03551632d1b94f9f3f3cbebd1b008b298168",
+      "task": "pnp_sink_to_counter",
+      "frame": 446
+    },
+    {
+      "index": 241,
+      "dataset": "panda_pnp",
+      "episode_id": "aafc900b8fe77279301188d85f45e22b26daa63a6a191ad0b489cac60d8a308a",
+      "task": "pnp_sink_to_counter",
+      "frame": 288
+    },
+    {
+      "index": 242,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "774a51c819a25f0f215f2eda754fbb17fe60eed3688c95dc000b701fb288c9fd",
+      "task": "pnp_sink_to_counter",
+      "frame": 155
+    },
+    {
+      "index": 243,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "fd07b4dfd3031b440f4631ac1f3c03551632d1b94f9f3f3cbebd1b008b298168",
+      "task": "pnp_sink_to_counter",
+      "frame": 511
+    },
+    {
+      "index": 244,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "ae3ef92be4977a1944ca65fb532cc9d23359e5851beeebc2dcb2cf125f513618",
+      "task": "pnp_sink_to_counter",
+      "frame": 362
+    },
+    {
+      "index": 245,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "d7229f8ddbea6eebcc54de1e19ab41bb84ae4809b6aa68d1e1dd5b0c66fa501c",
+      "task": "pnp_counter_to_sink",
+      "frame": 100
+    },
+    {
+      "index": 246,
+      "dataset": "panda_pnp",
+      "episode_id": "706c72ac7e80115005256bcea33e7f276d77fa7fd196e482bb34a789bd9fe1b6",
+      "task": "pnp_counter_to_sink",
+      "frame": 62
+    },
+    {
+      "index": 247,
+      "dataset": "panda_pnp",
+      "episode_id": "3913f7bc6f5352a468cebb626824142c973c68de53984578f81d254723809e19",
+      "task": "pnp_counter_to_sink",
+      "frame": 155
+    },
+    {
+      "index": 248,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "f8d3903e59f75940b669c2c30f6344b503e0af20f5564cff0a6cc8c60f0f5075",
+      "task": "pnp_sink_to_counter",
+      "frame": 391
+    },
+    {
+      "index": 249,
+      "dataset": "panda_pnp",
+      "episode_id": "d53f8d7b973e9cc13dc322c0d2745a37e441402531f307fc9866743a0937effd",
+      "task": "pnp_counter_to_sink",
+      "frame": 324
+    },
+    {
+      "index": 250,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "ea263845b53910192955917bcad0cbe03b7b3263efe5d56892ca8a5c3a004a36",
+      "task": "pnp_sink_to_counter",
+      "frame": 260
+    },
+    {
+      "index": 251,
+      "dataset": "panda_pnp",
+      "episode_id": "647e24a2021554db6116ad1712351e9a5c77c255bf5f764ae6908dbbd9a75937",
+      "task": "pnp_sink_to_counter",
+      "frame": 39
+    },
+    {
+      "index": 252,
+      "dataset": "mg_pnp_lite",
+      "episode_id": "52f8bdf821dc8795ac2f809a06bb23d58dab26b0f6311dfa5ed436afeb0fcd11",
+      "task": "pnp_counter_to_sink",
+      "frame": 278
+    },
+    {
+      "index": 253,
+      "dataset": "panda_pnp",
+      "episode_id": "706c72ac7e80115005256bcea33e7f276d77fa7fd196e482bb34a789bd9fe1b6",
+      "task": "pnp_counter_to_sink",
+      "frame": 316
+    },
+    {
+      "index": 254,
+      "dataset": "panda_pnp",
+      "episode_id": "647e24a2021554db6116ad1712351e9a5c77c255bf5f764ae6908dbbd9a75937",
+      "task": "pnp_sink_to_counter",
+      "frame": 258
+    },
+    {
+      "index": 255,
+      "dataset": "panda_pnp",
+      "episode_id": "85346cfcfd5d330d06c50a77bdea60a1076c5ab261d95339750303134a1d20d5",
+      "task": "pnp_sink_to_counter",
+      "frame": 437
+    }
+  ]
+}

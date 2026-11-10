@@ -1,0 +1,252 @@
+{
+  "official_source_commit": "0f435089f48b1f16d225f868dbef855a5e75d1e0",
+  "official_source_clean": true,
+  "reviewed_files": [
+    {
+      "path": "/home/users/lemon/coft-p2/barx/docs/experiments.md",
+      "sha256": "849bb416ad6baab688a5baa038ae99627001167aff216889b3060489a4d9d3e8"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/barx/configs/experiments.toml",
+      "sha256": "6f70a41b18bc3b0277b8b68d3c01f07ab99550623002ad9ea3c67ca6e951028b"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/barx/scripts/train.py",
+      "sha256": "71e4e3cc0ede0fdae2fcc1558a6c271f93bc1948b03104605737e99ce8cf0d47"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/barx/policy/vla-scripts/train.py",
+      "sha256": "d1db533c7a6cbd4de4ec0531d79b386330997c640b8875aee160eed7b70e96e3"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/barx/policy/prismatic/training/materialize.py",
+      "sha256": "39baf805295dc7598a697169a17e61cd32c81f0a78989fbf6bff00c3d774281b"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/barx/policy/prismatic/training/strategies/lora_ddp.py",
+      "sha256": "ddf923c10b6f44581e551e028e175c5a4c7de9fded7135fd03a21c5a05668224"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/barx/policy/prismatic/training/strategies/fsdp.py",
+      "sha256": "0fd22ef9c60a63dd5168cc712de7f84c86fdf990fe8cc7c35761c714aa1216ef"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/barx/policy/prismatic/training/strategies/base_strategy.py",
+      "sha256": "48c7d007d2c108df7cebb142d6b557c5c5d39a048fd27866fc8c44c6ca9c359c"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/barx/policy/prismatic/vla/materialize.py",
+      "sha256": "21ddf11d118bd143f26162d74594fdf09cefc68c3e1e419e775d576c2b46ab3e"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/barx/policy/prismatic/vla/datasets/datasets.py",
+      "sha256": "f3093fa3cb56ab158a8aa6f956515769466cea8be2209f066a5654eda332ad1b"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/barx/policy/prismatic/vla/datasets/rlds/dataset.py",
+      "sha256": "308c0f4d1a0ddede0042b4d949148fbf7173967d48d3553777e6df9f7a76a3ff"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/barx/policy/prismatic/conf/vla.py",
+      "sha256": "50dd2f13b28a0928d6b4537246a721560ea015a1e675616611df126dcfa8bee8"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/barx/policy/prismatic/models/load.py",
+      "sha256": "ac923d083edaced8f8ecde0f7946c88d0acddbfaa9f0cd30147a2a82a5d32b0a"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/barx/policy/prismatic/models/vlas/openvla.py",
+      "sha256": "f488690cbb4a9ee06383c4ecbe41c12f90a372850fad022cb98ff6015433decc"
+    }
+  ],
+  "official_reference": {
+    "global_batch": 256,
+    "updates": 3000,
+    "sample_positions": 768000,
+    "full_parameter": true,
+    "lr": 2e-05,
+    "source_weight": 0.05,
+    "target_weight": 1.0,
+    "prior_normalization_and_vq": true
+  },
+  "upstream_vla_gradient_accumulation_supported": false,
+  "lora_factory": {
+    "rank": 32,
+    "alpha": 16,
+    "dropout": 0,
+    "targets": "Linear/Embedding/Conv2d/Conv1D across model",
+    "activation_checkpointing_actual": false,
+    "note": "LoRA constructor hardcodes enable_gradient_checkpointing=False even when old TrainConfig says True"
+  },
+  "old_recipes": [
+    {
+      "label": "p2_joint_6000",
+      "training_status": {
+        "status": "COMPLETE",
+        "method": "joint_reps",
+        "route": "lora",
+        "prescribed_steps": 3000,
+        "batch_size": 2,
+        "completed_optimizer_steps": 3000,
+        "sample_positions": 6000,
+        "sample_trace_sha256": "88b7af02fd345baa1765b702d09d69eadd025e0ffef0d904f36d70afe5b8a62c",
+        "dataset_counts_full_sequence": {
+          "panda_pnp": 3068,
+          "mg_pnp_lite": 2932
+        },
+        "gpu": "NVIDIA GeForce RTX 3090",
+        "original_checkpoint": "/home/users/lemon/coft-p2/artifacts/runs/joint_reps/checkpoints/step-050000-epoch-15-loss=0.2577.pt",
+        "official_source_unmodified": true,
+        "equivalence": "RESTRICTED_SINGLE_GPU_NOT_OFFICIAL_GLOBAL_BATCH_256",
+        "single_rank_fsdp": "NO_SHARD",
+        "elapsed_seconds": 704.3963109189644,
+        "peak_gpu_allocated_bytes": 7444677632,
+        "peak_gpu_reserved_bytes": 14321451008
+      },
+      "safe_config": {
+        "global_batch_size": 2,
+        "per_device_batch_size": 2,
+        "max_steps": 3000,
+        "learning_rate": 2e-05,
+        "weight_decay": 0.0,
+        "train_strategy": "ddp-lora",
+        "transform_types": "joint_reps",
+        "freeze_vision_backbone": false,
+        "freeze_llm_backbone": false,
+        "enable_gradient_checkpointing": true
+      },
+      "config_sha256": "7f00271e171bce0c556638dfa791018ff7f605d5997b2bbee3fc9181b3e9e32b",
+      "config_path": "/home/users/lemon/coft-p2/p2/physical-20261108/training/joint_reps-lora/runs/joint_reps--lora/config.json"
+    },
+    {
+      "label": "p2_no_reps_6000",
+      "training_status": {
+        "status": "COMPLETE",
+        "method": "no_reps",
+        "route": "lora",
+        "prescribed_steps": 3000,
+        "batch_size": 2,
+        "completed_optimizer_steps": 3000,
+        "sample_positions": 6000,
+        "sample_trace_sha256": "88b7af02fd345baa1765b702d09d69eadd025e0ffef0d904f36d70afe5b8a62c",
+        "dataset_counts_full_sequence": {
+          "panda_pnp": 3068,
+          "mg_pnp_lite": 2932
+        },
+        "gpu": "NVIDIA GeForce RTX 3090",
+        "original_checkpoint": "/home/users/lemon/coft-p2/artifacts/runs/no_reps/checkpoints/step-050000-epoch-15-loss=0.8424.pt",
+        "official_source_unmodified": true,
+        "equivalence": "RESTRICTED_SINGLE_GPU_NOT_OFFICIAL_GLOBAL_BATCH_256",
+        "single_rank_fsdp": "NO_SHARD",
+        "elapsed_seconds": 609.151706638746,
+        "peak_gpu_allocated_bytes": 6687184896,
+        "peak_gpu_reserved_bytes": 7337934848
+      },
+      "safe_config": {
+        "global_batch_size": 2,
+        "per_device_batch_size": 2,
+        "max_steps": 3000,
+        "learning_rate": 2e-05,
+        "weight_decay": 0.0,
+        "train_strategy": "ddp-lora",
+        "transform_types": "no_reps",
+        "freeze_vision_backbone": false,
+        "freeze_llm_backbone": false,
+        "enable_gradient_checkpointing": true
+      },
+      "config_sha256": "632a149a0dc4c87ef3c2065818651e1707bd32c4fd8c3e9d3b7dcae6e336c59a",
+      "config_path": "/home/users/lemon/coft-p2/p2/physical-20261108/training/no_reps-lora/runs/no_reps--lora/config.json"
+    },
+    {
+      "label": "p3_joint_96000",
+      "training_status": {
+        "status": "COMPLETE",
+        "method": "joint_reps",
+        "route": "lora",
+        "prescribed_steps": 12000,
+        "batch_size": 8,
+        "completed_optimizer_steps": 12000,
+        "sample_positions": 96000,
+        "sample_trace_sha256": "9edb3945712159549d52f3708f1d181f8305fe5ac29cf45eedc5cd731c57d1df",
+        "dataset_counts_full_sequence": {
+          "mg_pnp_lite": 47588,
+          "panda_pnp": 48412
+        },
+        "gpu": "NVIDIA GeForce RTX 3090",
+        "original_checkpoint": "/home/users/lemon/coft-p2/artifacts/runs/joint_reps/checkpoints/step-050000-epoch-15-loss=0.2577.pt",
+        "official_source_unmodified": true,
+        "equivalence": "RESTRICTED_SINGLE_GPU_NOT_OFFICIAL_GLOBAL_BATCH_256",
+        "single_rank_fsdp": "NO_SHARD",
+        "elapsed_seconds": 7622.77215749817,
+        "peak_gpu_allocated_bytes": 20086709760,
+        "peak_gpu_reserved_bytes": 23702011904
+      },
+      "safe_config": {
+        "global_batch_size": 8,
+        "per_device_batch_size": 8,
+        "max_steps": 12000,
+        "learning_rate": 2e-05,
+        "weight_decay": 0.0,
+        "train_strategy": "ddp-lora",
+        "transform_types": "joint_reps",
+        "freeze_vision_backbone": false,
+        "freeze_llm_backbone": false,
+        "enable_gradient_checkpointing": true
+      },
+      "config_sha256": "6be4b97e865a7649ec51c4c43449ef4e9f7baadbcdfb7376e6eab27dee2a02d1",
+      "config_path": "/home/users/lemon/coft-p3/p3-20261109/training/joint-reps-96000-b8/runs/joint_reps--lora/config.json"
+    }
+  ],
+  "old_6000_actual_target_validation_demonstrations_seen": 1,
+  "old_96000_actual_target_validation_demonstrations_seen": 10,
+  "new_target_validation_demonstrations": 10,
+  "fresh_single_microbatch_probe": {
+    "status": "COMPLETE",
+    "method": "joint_reps",
+    "route": "lora",
+    "prescribed_steps": 1,
+    "batch_size": 8,
+    "completed_optimizer_steps": 1,
+    "sample_positions": 8,
+    "sample_trace_sha256": "9edb3945712159549d52f3708f1d181f8305fe5ac29cf45eedc5cd731c57d1df",
+    "dataset_counts_full_sequence": {
+      "mg_pnp_lite": 47588,
+      "panda_pnp": 48412
+    },
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "original_checkpoint": "/home/users/lemon/coft-p2/artifacts/runs/joint_reps/checkpoints/step-050000-epoch-15-loss=0.2577.pt",
+    "official_source_unmodified": true,
+    "equivalence": "RESTRICTED_SINGLE_GPU_NOT_OFFICIAL_GLOBAL_BATCH_256",
+    "single_rank_fsdp": "NO_SHARD",
+    "elapsed_seconds": 11.230540188029408,
+    "peak_gpu_allocated_bytes": 19811245056,
+    "peak_gpu_reserved_bytes": 23699914752
+  },
+  "historical_full_parameter_oom": {
+    "status": "FAILED",
+    "method": "joint_reps",
+    "route": "full",
+    "prescribed_steps": 1,
+    "batch_size": 1,
+    "completed_optimizer_steps": 0,
+    "sample_positions": 0,
+    "sample_trace_sha256": "88b7af02fd345baa1765b702d09d69eadd025e0ffef0d904f36d70afe5b8a62c",
+    "dataset_counts_full_sequence": {
+      "panda_pnp": 3068,
+      "mg_pnp_lite": 2932
+    },
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "original_checkpoint": "/home/users/lemon/coft-p2/artifacts/runs/joint_reps/checkpoints/step-050000-epoch-15-loss=0.2577.pt",
+    "official_source_unmodified": true,
+    "equivalence": "RESTRICTED_SINGLE_GPU_NOT_OFFICIAL_GLOBAL_BATCH_256",
+    "single_rank_fsdp": "NO_SHARD",
+    "elapsed_seconds": 11.288568235002458,
+    "peak_gpu_allocated_bytes": 23224258560,
+    "peak_gpu_reserved_bytes": 24259854336,
+    "error": "OutOfMemoryError('CUDA out of memory. Tried to allocate 520.00 MiB. GPU 0 has a total capacity of 23.68 GiB of which 259.06 MiB is free. Including non-PyTorch memory, this process has 22.84 GiB memory in use. Of the allocated memory 21.63 GiB is allocated by PyTorch, and 767.62 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)')",
+    "is_cuda_oom": true
+  },
+  "checkpoint_path": "/home/users/lemon/coft-p2/artifacts/runs/joint_reps/checkpoints/step-050000-epoch-15-loss=0.2577.pt",
+  "checkpoint_sha256": "ffce76802a8e75d4806b30dee43624accf2c4de4213c17059457e34a8243efce",
+  "limitation": "Reference exposure LoRA is not paper full-parameter adaptation and cannot establish that sufficient full-parameter adaptation fails."
+}

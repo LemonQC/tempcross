@@ -1,0 +1,2569 @@
+{
+  "samples": 320,
+  "episodes": 10,
+  "frames_per_episode": 32,
+  "episode_disjoint_from_new_training": true,
+  "old_adapters_may_have_trained_on_these_episodes": true,
+  "frames": [
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/9e563f2d1096e72fe550150e658864f5260d51bfb98da4d59df56ff750827905-0000.pkl",
+      "sha256": "064382259d197ed540dddb533fa7237fa1faa35a91e437db1dda156c545552ba",
+      "episode_id": "9e563f2d1096e72fe550150e658864f5260d51bfb98da4d59df56ff750827905",
+      "frame": 0,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/9e563f2d1096e72fe550150e658864f5260d51bfb98da4d59df56ff750827905-0011.pkl",
+      "sha256": "688f83b7ce4226253bb21aca1dd36ed4e4b939908e577ee5ca040c141632c93c",
+      "episode_id": "9e563f2d1096e72fe550150e658864f5260d51bfb98da4d59df56ff750827905",
+      "frame": 11,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/9e563f2d1096e72fe550150e658864f5260d51bfb98da4d59df56ff750827905-0023.pkl",
+      "sha256": "366be6d670a0442df08242a909955f14323bdc00a15cc07e1649c3477184986b",
+      "episode_id": "9e563f2d1096e72fe550150e658864f5260d51bfb98da4d59df56ff750827905",
+      "frame": 23,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/9e563f2d1096e72fe550150e658864f5260d51bfb98da4d59df56ff750827905-0035.pkl",
+      "sha256": "2ab1d8894f6da495e898857d4c8b85f6d6606eb1562624d4e1a3c5675d6cd1dd",
+      "episode_id": "9e563f2d1096e72fe550150e658864f5260d51bfb98da4d59df56ff750827905",
+      "frame": 35,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/9e563f2d1096e72fe550150e658864f5260d51bfb98da4d59df56ff750827905-0047.pkl",
+      "sha256": "a737b380203cddea137543fa8f982d43df66c84cd629d42f82d985c9ab7b1c32",
+      "episode_id": "9e563f2d1096e72fe550150e658864f5260d51bfb98da4d59df56ff750827905",
+      "frame": 47,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/9e563f2d1096e72fe550150e658864f5260d51bfb98da4d59df56ff750827905-0059.pkl",
+      "sha256": "8af43625362ca03a9cf73555e7a72d2378b8c9cf0bb38af8782f288032a2d5aa",
+      "episode_id": "9e563f2d1096e72fe550150e658864f5260d51bfb98da4d59df56ff750827905",
+      "frame": 59,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/9e563f2d1096e72fe550150e658864f5260d51bfb98da4d59df56ff750827905-0071.pkl",
+      "sha256": "52a95037e0036d35490f2ca2d7efccaeaaf826ce12bee89e89b530c69ac6954c",
+      "episode_id": "9e563f2d1096e72fe550150e658864f5260d51bfb98da4d59df56ff750827905",
+      "frame": 71,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/9e563f2d1096e72fe550150e658864f5260d51bfb98da4d59df56ff750827905-0083.pkl",
+      "sha256": "92302e508e9f002d379dfbbc996635a66721e821db589b45a2c2a45d74c893e9",
+      "episode_id": "9e563f2d1096e72fe550150e658864f5260d51bfb98da4d59df56ff750827905",
+      "frame": 83,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/9e563f2d1096e72fe550150e658864f5260d51bfb98da4d59df56ff750827905-0095.pkl",
+      "sha256": "2b7864a462aa2f6f98da8373ec398eefadab865d0eb27cca099211fcee7b0b53",
+      "episode_id": "9e563f2d1096e72fe550150e658864f5260d51bfb98da4d59df56ff750827905",
+      "frame": 95,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/9e563f2d1096e72fe550150e658864f5260d51bfb98da4d59df56ff750827905-0107.pkl",
+      "sha256": "e6da1257e4d11ec78491ffb4425fcee4a25583293c84b65aca5915d8b49e4b25",
+      "episode_id": "9e563f2d1096e72fe550150e658864f5260d51bfb98da4d59df56ff750827905",
+      "frame": 107,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/9e563f2d1096e72fe550150e658864f5260d51bfb98da4d59df56ff750827905-0119.pkl",
+      "sha256": "92677db781b4d72e636613c2b1e8b28c9d8d20291513894c2ee63989f1c1961a",
+      "episode_id": "9e563f2d1096e72fe550150e658864f5260d51bfb98da4d59df56ff750827905",
+      "frame": 119,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/9e563f2d1096e72fe550150e658864f5260d51bfb98da4d59df56ff750827905-0131.pkl",
+      "sha256": "90a5a74358c43f9c30bf369627d76eb816d69ee9927b80e387f2761b45a63750",
+      "episode_id": "9e563f2d1096e72fe550150e658864f5260d51bfb98da4d59df56ff750827905",
+      "frame": 131,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/9e563f2d1096e72fe550150e658864f5260d51bfb98da4d59df56ff750827905-0143.pkl",
+      "sha256": "a575c119fb984d9ea5e4d38327f3afc130bec8c1ac2985b81c5e443abe747104",
+      "episode_id": "9e563f2d1096e72fe550150e658864f5260d51bfb98da4d59df56ff750827905",
+      "frame": 143,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/9e563f2d1096e72fe550150e658864f5260d51bfb98da4d59df56ff750827905-0155.pkl",
+      "sha256": "53c6d4226e3a74ac415023f391632a96a90e6eda71aab46290f64579344fcc58",
+      "episode_id": "9e563f2d1096e72fe550150e658864f5260d51bfb98da4d59df56ff750827905",
+      "frame": 155,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/9e563f2d1096e72fe550150e658864f5260d51bfb98da4d59df56ff750827905-0167.pkl",
+      "sha256": "da7bb83c46966c52f9600f835f3495c1ef63686c2276955860de03a9daec69ee",
+      "episode_id": "9e563f2d1096e72fe550150e658864f5260d51bfb98da4d59df56ff750827905",
+      "frame": 167,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/9e563f2d1096e72fe550150e658864f5260d51bfb98da4d59df56ff750827905-0179.pkl",
+      "sha256": "ce7f49387085957596497fd94ae8c8181d69163832acd595a358966450d72b8c",
+      "episode_id": "9e563f2d1096e72fe550150e658864f5260d51bfb98da4d59df56ff750827905",
+      "frame": 179,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/9e563f2d1096e72fe550150e658864f5260d51bfb98da4d59df56ff750827905-0190.pkl",
+      "sha256": "b13402d8112a554857e044feace63f78ed19dbcf4eb54b670c188f901a54a7ed",
+      "episode_id": "9e563f2d1096e72fe550150e658864f5260d51bfb98da4d59df56ff750827905",
+      "frame": 190,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/9e563f2d1096e72fe550150e658864f5260d51bfb98da4d59df56ff750827905-0202.pkl",
+      "sha256": "a0d4ba423dd173c8a9fb3ce13237430a75b6ddb3b4ffafffdf26cfb4fe07a6cd",
+      "episode_id": "9e563f2d1096e72fe550150e658864f5260d51bfb98da4d59df56ff750827905",
+      "frame": 202,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/9e563f2d1096e72fe550150e658864f5260d51bfb98da4d59df56ff750827905-0214.pkl",
+      "sha256": "e791145668cfa84143e87fbfe460fcba91eca839306f2b8f9bc409a73f4ac6ee",
+      "episode_id": "9e563f2d1096e72fe550150e658864f5260d51bfb98da4d59df56ff750827905",
+      "frame": 214,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/9e563f2d1096e72fe550150e658864f5260d51bfb98da4d59df56ff750827905-0226.pkl",
+      "sha256": "278c02ab18d2d0d9e2e7fc18a62888f8b0f17c2dc8cbcc3c55f4dddd122ca754",
+      "episode_id": "9e563f2d1096e72fe550150e658864f5260d51bfb98da4d59df56ff750827905",
+      "frame": 226,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/9e563f2d1096e72fe550150e658864f5260d51bfb98da4d59df56ff750827905-0238.pkl",
+      "sha256": "180547b0c41d4dca19c9dc094c3d5cab7a20fcefa2799ef977dba774859b9c15",
+      "episode_id": "9e563f2d1096e72fe550150e658864f5260d51bfb98da4d59df56ff750827905",
+      "frame": 238,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/9e563f2d1096e72fe550150e658864f5260d51bfb98da4d59df56ff750827905-0250.pkl",
+      "sha256": "d4d918b6ccc5588ba5430fb3b8a9028acc79e739b6b7a9a268af893665e28a2a",
+      "episode_id": "9e563f2d1096e72fe550150e658864f5260d51bfb98da4d59df56ff750827905",
+      "frame": 250,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/9e563f2d1096e72fe550150e658864f5260d51bfb98da4d59df56ff750827905-0262.pkl",
+      "sha256": "93faa04c754280f194de7d5f71a63d63d7f96dfc97b67ea67d56eae5b4da1fbf",
+      "episode_id": "9e563f2d1096e72fe550150e658864f5260d51bfb98da4d59df56ff750827905",
+      "frame": 262,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/9e563f2d1096e72fe550150e658864f5260d51bfb98da4d59df56ff750827905-0274.pkl",
+      "sha256": "0162f6966b16f07677cde0069481d3db8d945ffd9c8dbeea0f5d38bf8aee32d8",
+      "episode_id": "9e563f2d1096e72fe550150e658864f5260d51bfb98da4d59df56ff750827905",
+      "frame": 274,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/9e563f2d1096e72fe550150e658864f5260d51bfb98da4d59df56ff750827905-0286.pkl",
+      "sha256": "bea33a3f95c7f08e180e6f15bbbdf3722cb21e644bc50f4516d6ced0a13d8e9c",
+      "episode_id": "9e563f2d1096e72fe550150e658864f5260d51bfb98da4d59df56ff750827905",
+      "frame": 286,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/9e563f2d1096e72fe550150e658864f5260d51bfb98da4d59df56ff750827905-0298.pkl",
+      "sha256": "e7a9ce99d1f32b66b42db1491754580f65dcfff21e680492769f12086441a40c",
+      "episode_id": "9e563f2d1096e72fe550150e658864f5260d51bfb98da4d59df56ff750827905",
+      "frame": 298,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/9e563f2d1096e72fe550150e658864f5260d51bfb98da4d59df56ff750827905-0310.pkl",
+      "sha256": "e752fadfd4602b99eb30b1a1fbf16b78c8bf85552bb9937f4418bf1c1e09737a",
+      "episode_id": "9e563f2d1096e72fe550150e658864f5260d51bfb98da4d59df56ff750827905",
+      "frame": 310,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/9e563f2d1096e72fe550150e658864f5260d51bfb98da4d59df56ff750827905-0322.pkl",
+      "sha256": "4c4584123f9f04b9c887a45dc67d5283df68c58cff97e7754796206d9166a3b4",
+      "episode_id": "9e563f2d1096e72fe550150e658864f5260d51bfb98da4d59df56ff750827905",
+      "frame": 322,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/9e563f2d1096e72fe550150e658864f5260d51bfb98da4d59df56ff750827905-0334.pkl",
+      "sha256": "d53abf8161376a615e58764b717a94d2fb3ac532f8cf86ed2d80758a6e629d21",
+      "episode_id": "9e563f2d1096e72fe550150e658864f5260d51bfb98da4d59df56ff750827905",
+      "frame": 334,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/9e563f2d1096e72fe550150e658864f5260d51bfb98da4d59df56ff750827905-0346.pkl",
+      "sha256": "4de1f967745a32126efe35840867d05f3a6ed33b5be2252b3079dd71a128f019",
+      "episode_id": "9e563f2d1096e72fe550150e658864f5260d51bfb98da4d59df56ff750827905",
+      "frame": 346,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/9e563f2d1096e72fe550150e658864f5260d51bfb98da4d59df56ff750827905-0358.pkl",
+      "sha256": "614342fe6d20d8ba99f5f38b93083775ad4e44bf7bded3cd32b91a5672d335f6",
+      "episode_id": "9e563f2d1096e72fe550150e658864f5260d51bfb98da4d59df56ff750827905",
+      "frame": 358,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/9e563f2d1096e72fe550150e658864f5260d51bfb98da4d59df56ff750827905-0370.pkl",
+      "sha256": "b57e14fe74f3cc7c0905615f1668bb9b16b0289d297652627f31a2f90b94fc2a",
+      "episode_id": "9e563f2d1096e72fe550150e658864f5260d51bfb98da4d59df56ff750827905",
+      "frame": 370,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/dc40eb2c054e2a1e69a82c9951eede2fb65f90c98d743c03814ecd00feb254cf-0000.pkl",
+      "sha256": "dc5daff6ed9d3e7473b97eec7e5029031930ddeecc5b68d0e2b36c95293cd4f8",
+      "episode_id": "dc40eb2c054e2a1e69a82c9951eede2fb65f90c98d743c03814ecd00feb254cf",
+      "frame": 0,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/dc40eb2c054e2a1e69a82c9951eede2fb65f90c98d743c03814ecd00feb254cf-0014.pkl",
+      "sha256": "aa4da4667db08625f3aff44689b1cadb22c50ca6760cfd6ee32fdd1afc3fd321",
+      "episode_id": "dc40eb2c054e2a1e69a82c9951eede2fb65f90c98d743c03814ecd00feb254cf",
+      "frame": 14,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/dc40eb2c054e2a1e69a82c9951eede2fb65f90c98d743c03814ecd00feb254cf-0029.pkl",
+      "sha256": "955830ecaac693ba9870dfcf0333f4a56c604e6092284d8fc61e95e5c4de5f8b",
+      "episode_id": "dc40eb2c054e2a1e69a82c9951eede2fb65f90c98d743c03814ecd00feb254cf",
+      "frame": 29,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/dc40eb2c054e2a1e69a82c9951eede2fb65f90c98d743c03814ecd00feb254cf-0044.pkl",
+      "sha256": "758882c9ae23c7286810a80f9911e750a3f54e1a199df1854c32c15310744d32",
+      "episode_id": "dc40eb2c054e2a1e69a82c9951eede2fb65f90c98d743c03814ecd00feb254cf",
+      "frame": 44,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/dc40eb2c054e2a1e69a82c9951eede2fb65f90c98d743c03814ecd00feb254cf-0059.pkl",
+      "sha256": "e0deb25c509a7e8543f339f4f7d749c387744b6a1436c9680dc724bff098188c",
+      "episode_id": "dc40eb2c054e2a1e69a82c9951eede2fb65f90c98d743c03814ecd00feb254cf",
+      "frame": 59,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/dc40eb2c054e2a1e69a82c9951eede2fb65f90c98d743c03814ecd00feb254cf-0074.pkl",
+      "sha256": "2f3ce12029392a2884d05427e88f1791cae70a6c65454eca2591f42c2cb23bc7",
+      "episode_id": "dc40eb2c054e2a1e69a82c9951eede2fb65f90c98d743c03814ecd00feb254cf",
+      "frame": 74,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/dc40eb2c054e2a1e69a82c9951eede2fb65f90c98d743c03814ecd00feb254cf-0089.pkl",
+      "sha256": "aa8df249ae55f7d933c6347cea2354a974c08a8c9df677eed6f28f1334b7f53c",
+      "episode_id": "dc40eb2c054e2a1e69a82c9951eede2fb65f90c98d743c03814ecd00feb254cf",
+      "frame": 89,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/dc40eb2c054e2a1e69a82c9951eede2fb65f90c98d743c03814ecd00feb254cf-0104.pkl",
+      "sha256": "c568d15e2917be0215035655e19316cdc390bf14a1856c216e601ac4ff135fe7",
+      "episode_id": "dc40eb2c054e2a1e69a82c9951eede2fb65f90c98d743c03814ecd00feb254cf",
+      "frame": 104,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/dc40eb2c054e2a1e69a82c9951eede2fb65f90c98d743c03814ecd00feb254cf-0118.pkl",
+      "sha256": "2e3b21aa7ea6051d4888b7d643612c08b464f23c91be2e898b2facdb3c2b927a",
+      "episode_id": "dc40eb2c054e2a1e69a82c9951eede2fb65f90c98d743c03814ecd00feb254cf",
+      "frame": 118,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/dc40eb2c054e2a1e69a82c9951eede2fb65f90c98d743c03814ecd00feb254cf-0133.pkl",
+      "sha256": "0f4c6aab974be37f9bba95b69279d01e957ba141de8f1e5efbecbd4e1f3a331a",
+      "episode_id": "dc40eb2c054e2a1e69a82c9951eede2fb65f90c98d743c03814ecd00feb254cf",
+      "frame": 133,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/dc40eb2c054e2a1e69a82c9951eede2fb65f90c98d743c03814ecd00feb254cf-0148.pkl",
+      "sha256": "d195523f6bdbfb963d9ae1dd8ce7a3feda0f1a190fb83b8850cd77baa13809e5",
+      "episode_id": "dc40eb2c054e2a1e69a82c9951eede2fb65f90c98d743c03814ecd00feb254cf",
+      "frame": 148,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/dc40eb2c054e2a1e69a82c9951eede2fb65f90c98d743c03814ecd00feb254cf-0163.pkl",
+      "sha256": "d67465945fe814a28871db3e2dc887a01a40b8d68b7e935ca48e275c65d83ae8",
+      "episode_id": "dc40eb2c054e2a1e69a82c9951eede2fb65f90c98d743c03814ecd00feb254cf",
+      "frame": 163,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/dc40eb2c054e2a1e69a82c9951eede2fb65f90c98d743c03814ecd00feb254cf-0178.pkl",
+      "sha256": "67a6f400297fe439b7db143a63c1c9ed4c7403a97f66b12ac5306332a574a1d6",
+      "episode_id": "dc40eb2c054e2a1e69a82c9951eede2fb65f90c98d743c03814ecd00feb254cf",
+      "frame": 178,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/dc40eb2c054e2a1e69a82c9951eede2fb65f90c98d743c03814ecd00feb254cf-0193.pkl",
+      "sha256": "cc4dc64d745b8c011182d1787d9b391fb60058fdb1457ec674c307f3cb3192d5",
+      "episode_id": "dc40eb2c054e2a1e69a82c9951eede2fb65f90c98d743c03814ecd00feb254cf",
+      "frame": 193,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/dc40eb2c054e2a1e69a82c9951eede2fb65f90c98d743c03814ecd00feb254cf-0208.pkl",
+      "sha256": "8884b4460a42deade8baae0cf355417bd7d9b9379130aab0090cb7e2d1878d30",
+      "episode_id": "dc40eb2c054e2a1e69a82c9951eede2fb65f90c98d743c03814ecd00feb254cf",
+      "frame": 208,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/dc40eb2c054e2a1e69a82c9951eede2fb65f90c98d743c03814ecd00feb254cf-0223.pkl",
+      "sha256": "fc7da2705b57d83a616008769028f28d283f760569f7805c560b47748654c3e3",
+      "episode_id": "dc40eb2c054e2a1e69a82c9951eede2fb65f90c98d743c03814ecd00feb254cf",
+      "frame": 223,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/dc40eb2c054e2a1e69a82c9951eede2fb65f90c98d743c03814ecd00feb254cf-0237.pkl",
+      "sha256": "f23600ea02e820275907cd018a1f02dc6079223a3b633d8229443cb67f337982",
+      "episode_id": "dc40eb2c054e2a1e69a82c9951eede2fb65f90c98d743c03814ecd00feb254cf",
+      "frame": 237,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/dc40eb2c054e2a1e69a82c9951eede2fb65f90c98d743c03814ecd00feb254cf-0252.pkl",
+      "sha256": "7daf13f232592c0f93d27c68b31950ee6839a627fad72eddb49a275d71fbfb06",
+      "episode_id": "dc40eb2c054e2a1e69a82c9951eede2fb65f90c98d743c03814ecd00feb254cf",
+      "frame": 252,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/dc40eb2c054e2a1e69a82c9951eede2fb65f90c98d743c03814ecd00feb254cf-0267.pkl",
+      "sha256": "a640a66d254773a62b27e9e5e99c5f7b03af82130a06faee4db5ddce8bec588c",
+      "episode_id": "dc40eb2c054e2a1e69a82c9951eede2fb65f90c98d743c03814ecd00feb254cf",
+      "frame": 267,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/dc40eb2c054e2a1e69a82c9951eede2fb65f90c98d743c03814ecd00feb254cf-0282.pkl",
+      "sha256": "36da631bb5dd005e68f4583b6ad668c8377e1a7aeca5d388d92ebb92d38c9f72",
+      "episode_id": "dc40eb2c054e2a1e69a82c9951eede2fb65f90c98d743c03814ecd00feb254cf",
+      "frame": 282,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/dc40eb2c054e2a1e69a82c9951eede2fb65f90c98d743c03814ecd00feb254cf-0297.pkl",
+      "sha256": "556e91034ee61939d263ad0f1ed1cd8f730ba5c8a297aeef90ac426113dca8c9",
+      "episode_id": "dc40eb2c054e2a1e69a82c9951eede2fb65f90c98d743c03814ecd00feb254cf",
+      "frame": 297,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/dc40eb2c054e2a1e69a82c9951eede2fb65f90c98d743c03814ecd00feb254cf-0312.pkl",
+      "sha256": "1211af14d557cc9a4ab6940610e3be183883441c80efded26132475953964f49",
+      "episode_id": "dc40eb2c054e2a1e69a82c9951eede2fb65f90c98d743c03814ecd00feb254cf",
+      "frame": 312,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/dc40eb2c054e2a1e69a82c9951eede2fb65f90c98d743c03814ecd00feb254cf-0327.pkl",
+      "sha256": "8dfd48babe70450d5747c86e4721fd6c40e8722a3b17cec4b70bbdfe8f8c6edd",
+      "episode_id": "dc40eb2c054e2a1e69a82c9951eede2fb65f90c98d743c03814ecd00feb254cf",
+      "frame": 327,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/dc40eb2c054e2a1e69a82c9951eede2fb65f90c98d743c03814ecd00feb254cf-0342.pkl",
+      "sha256": "868bd2dfbd0c77b92ea60112e22b0ebd27a556dffc4cc16e2a128a46e591e18f",
+      "episode_id": "dc40eb2c054e2a1e69a82c9951eede2fb65f90c98d743c03814ecd00feb254cf",
+      "frame": 342,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/dc40eb2c054e2a1e69a82c9951eede2fb65f90c98d743c03814ecd00feb254cf-0356.pkl",
+      "sha256": "dacfe40cca932ebd0698ae6ab171311e750ed0b099798b1d45b884a44b365196",
+      "episode_id": "dc40eb2c054e2a1e69a82c9951eede2fb65f90c98d743c03814ecd00feb254cf",
+      "frame": 356,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/dc40eb2c054e2a1e69a82c9951eede2fb65f90c98d743c03814ecd00feb254cf-0371.pkl",
+      "sha256": "4fc79fe17e4e5a261af03ab5e3ebaaebf70c253442b818cf27e965ce4cc00b51",
+      "episode_id": "dc40eb2c054e2a1e69a82c9951eede2fb65f90c98d743c03814ecd00feb254cf",
+      "frame": 371,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/dc40eb2c054e2a1e69a82c9951eede2fb65f90c98d743c03814ecd00feb254cf-0386.pkl",
+      "sha256": "b81902f4c028187d1bd5edc4dab4d85f954129054aa2995cd661bc6da35f5296",
+      "episode_id": "dc40eb2c054e2a1e69a82c9951eede2fb65f90c98d743c03814ecd00feb254cf",
+      "frame": 386,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/dc40eb2c054e2a1e69a82c9951eede2fb65f90c98d743c03814ecd00feb254cf-0401.pkl",
+      "sha256": "e8e775141f99d7531325cffb921937d40bbe118610415380ca3be741156d1a21",
+      "episode_id": "dc40eb2c054e2a1e69a82c9951eede2fb65f90c98d743c03814ecd00feb254cf",
+      "frame": 401,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/dc40eb2c054e2a1e69a82c9951eede2fb65f90c98d743c03814ecd00feb254cf-0416.pkl",
+      "sha256": "3246e759caeef426f36ac1bf694e8212747d2f1916c1d14ad4042f7df6b9a509",
+      "episode_id": "dc40eb2c054e2a1e69a82c9951eede2fb65f90c98d743c03814ecd00feb254cf",
+      "frame": 416,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/dc40eb2c054e2a1e69a82c9951eede2fb65f90c98d743c03814ecd00feb254cf-0431.pkl",
+      "sha256": "7bd51b497bb27f2838bed91e81170c428d8f78738428b6a6e987e914de1b661b",
+      "episode_id": "dc40eb2c054e2a1e69a82c9951eede2fb65f90c98d743c03814ecd00feb254cf",
+      "frame": 431,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/dc40eb2c054e2a1e69a82c9951eede2fb65f90c98d743c03814ecd00feb254cf-0446.pkl",
+      "sha256": "b7459d430c2d1c7a2ad1b047ebf337876f0e5830bd098676cc717fb279c35dee",
+      "episode_id": "dc40eb2c054e2a1e69a82c9951eede2fb65f90c98d743c03814ecd00feb254cf",
+      "frame": 446,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/dc40eb2c054e2a1e69a82c9951eede2fb65f90c98d743c03814ecd00feb254cf-0461.pkl",
+      "sha256": "990d2698d857db56a4237d8c49fe9f4e0d6cb000a73abada7666565d5021206e",
+      "episode_id": "dc40eb2c054e2a1e69a82c9951eede2fb65f90c98d743c03814ecd00feb254cf",
+      "frame": 461,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/b53b3e562f5ffa67158529ce0eb8a98c9502171499b485f7b31018c1f63e5b4d-0000.pkl",
+      "sha256": "305a228669995df85160b6bd239601d08ef27aa5749652d8fc98c79101ce1ad2",
+      "episode_id": "b53b3e562f5ffa67158529ce0eb8a98c9502171499b485f7b31018c1f63e5b4d",
+      "frame": 0,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/b53b3e562f5ffa67158529ce0eb8a98c9502171499b485f7b31018c1f63e5b4d-0012.pkl",
+      "sha256": "47c2557837b7f7a58198073a62659111790c191a3b8586917e77c65d4c235ea9",
+      "episode_id": "b53b3e562f5ffa67158529ce0eb8a98c9502171499b485f7b31018c1f63e5b4d",
+      "frame": 12,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/b53b3e562f5ffa67158529ce0eb8a98c9502171499b485f7b31018c1f63e5b4d-0024.pkl",
+      "sha256": "2c2f4944cc414172a6b492a6930fde385151fb0f94353c7c94b5134b37608457",
+      "episode_id": "b53b3e562f5ffa67158529ce0eb8a98c9502171499b485f7b31018c1f63e5b4d",
+      "frame": 24,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/b53b3e562f5ffa67158529ce0eb8a98c9502171499b485f7b31018c1f63e5b4d-0036.pkl",
+      "sha256": "a3f677dc860cefa13e442c56bd70efa1fafd10cfe6d6075033c8fa1c45f4c50f",
+      "episode_id": "b53b3e562f5ffa67158529ce0eb8a98c9502171499b485f7b31018c1f63e5b4d",
+      "frame": 36,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/b53b3e562f5ffa67158529ce0eb8a98c9502171499b485f7b31018c1f63e5b4d-0048.pkl",
+      "sha256": "44c78083142aab49afd6b8ff3e4e8bf63c0f28dd5fab3866a47156bccfc1d556",
+      "episode_id": "b53b3e562f5ffa67158529ce0eb8a98c9502171499b485f7b31018c1f63e5b4d",
+      "frame": 48,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/b53b3e562f5ffa67158529ce0eb8a98c9502171499b485f7b31018c1f63e5b4d-0061.pkl",
+      "sha256": "e59f231f9d670a2f71fa7ca78882e32dd4f230b1e7a5c69baa57b1fe4a8bc5ec",
+      "episode_id": "b53b3e562f5ffa67158529ce0eb8a98c9502171499b485f7b31018c1f63e5b4d",
+      "frame": 61,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/b53b3e562f5ffa67158529ce0eb8a98c9502171499b485f7b31018c1f63e5b4d-0073.pkl",
+      "sha256": "0e72a6b4adf74e72b1fb96e57582d4aa527379d734ee6ef359681bfa147939d7",
+      "episode_id": "b53b3e562f5ffa67158529ce0eb8a98c9502171499b485f7b31018c1f63e5b4d",
+      "frame": 73,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/b53b3e562f5ffa67158529ce0eb8a98c9502171499b485f7b31018c1f63e5b4d-0085.pkl",
+      "sha256": "34eda981c4a7bef1db699058f925f31faa20b1c4a618e60e6bc1f34ca70f6bd0",
+      "episode_id": "b53b3e562f5ffa67158529ce0eb8a98c9502171499b485f7b31018c1f63e5b4d",
+      "frame": 85,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/b53b3e562f5ffa67158529ce0eb8a98c9502171499b485f7b31018c1f63e5b4d-0097.pkl",
+      "sha256": "7ce561dc2f5747441c9ef4a4977f94283beba8d17e8232d09ded6cc6c268b416",
+      "episode_id": "b53b3e562f5ffa67158529ce0eb8a98c9502171499b485f7b31018c1f63e5b4d",
+      "frame": 97,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/b53b3e562f5ffa67158529ce0eb8a98c9502171499b485f7b31018c1f63e5b4d-0110.pkl",
+      "sha256": "bfa1490737df7d9407efe92f8bec6aa5b99da148a750ce9a698148b203dd37ae",
+      "episode_id": "b53b3e562f5ffa67158529ce0eb8a98c9502171499b485f7b31018c1f63e5b4d",
+      "frame": 110,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/b53b3e562f5ffa67158529ce0eb8a98c9502171499b485f7b31018c1f63e5b4d-0122.pkl",
+      "sha256": "288d70489b2402270b98afd5568099c93ba12fb7e6ca4c3d6e1bb5c8859e242b",
+      "episode_id": "b53b3e562f5ffa67158529ce0eb8a98c9502171499b485f7b31018c1f63e5b4d",
+      "frame": 122,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/b53b3e562f5ffa67158529ce0eb8a98c9502171499b485f7b31018c1f63e5b4d-0134.pkl",
+      "sha256": "20e248e1d7616057d3504f3eac88d9bdeb7d62dd14a51ed92057e81891e81484",
+      "episode_id": "b53b3e562f5ffa67158529ce0eb8a98c9502171499b485f7b31018c1f63e5b4d",
+      "frame": 134,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/b53b3e562f5ffa67158529ce0eb8a98c9502171499b485f7b31018c1f63e5b4d-0146.pkl",
+      "sha256": "52bc08023147ec1446f0e3883b367cf0fd8122656757519f8a1baf4eb8dc997d",
+      "episode_id": "b53b3e562f5ffa67158529ce0eb8a98c9502171499b485f7b31018c1f63e5b4d",
+      "frame": 146,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/b53b3e562f5ffa67158529ce0eb8a98c9502171499b485f7b31018c1f63e5b4d-0158.pkl",
+      "sha256": "ae8e34ddd855aebc64fa467cada6c9db9bd747881d8a8002719214bc6b0a127a",
+      "episode_id": "b53b3e562f5ffa67158529ce0eb8a98c9502171499b485f7b31018c1f63e5b4d",
+      "frame": 158,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/b53b3e562f5ffa67158529ce0eb8a98c9502171499b485f7b31018c1f63e5b4d-0171.pkl",
+      "sha256": "e890fe9848e3270d7f0e30da024f4c0e66458ed38f56d3ed2b1ec9149a1ba3b5",
+      "episode_id": "b53b3e562f5ffa67158529ce0eb8a98c9502171499b485f7b31018c1f63e5b4d",
+      "frame": 171,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/b53b3e562f5ffa67158529ce0eb8a98c9502171499b485f7b31018c1f63e5b4d-0183.pkl",
+      "sha256": "b93aa0c8a0a48d3c0b9f5fb8f57b8230e364bcfa15310b582a9ea3dcdef5fdc1",
+      "episode_id": "b53b3e562f5ffa67158529ce0eb8a98c9502171499b485f7b31018c1f63e5b4d",
+      "frame": 183,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/b53b3e562f5ffa67158529ce0eb8a98c9502171499b485f7b31018c1f63e5b4d-0195.pkl",
+      "sha256": "7cc4ca9a7d0177459111d2563c0c7b90e7e752840b225d52e224796f2cc3fc7c",
+      "episode_id": "b53b3e562f5ffa67158529ce0eb8a98c9502171499b485f7b31018c1f63e5b4d",
+      "frame": 195,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/b53b3e562f5ffa67158529ce0eb8a98c9502171499b485f7b31018c1f63e5b4d-0207.pkl",
+      "sha256": "61f11814038ec6989166b0752e7fcd887abf0faf9e535e0a1556454aa74d850c",
+      "episode_id": "b53b3e562f5ffa67158529ce0eb8a98c9502171499b485f7b31018c1f63e5b4d",
+      "frame": 207,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/b53b3e562f5ffa67158529ce0eb8a98c9502171499b485f7b31018c1f63e5b4d-0220.pkl",
+      "sha256": "930ead4325accba98d83eaaf4cff28c8cb3fece84fee5ec4ff1e11dd93fb1e0d",
+      "episode_id": "b53b3e562f5ffa67158529ce0eb8a98c9502171499b485f7b31018c1f63e5b4d",
+      "frame": 220,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/b53b3e562f5ffa67158529ce0eb8a98c9502171499b485f7b31018c1f63e5b4d-0232.pkl",
+      "sha256": "8edc30558def19d6d98a35b290fae7eb76261d9f249cef941ee8677c997ef68d",
+      "episode_id": "b53b3e562f5ffa67158529ce0eb8a98c9502171499b485f7b31018c1f63e5b4d",
+      "frame": 232,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/b53b3e562f5ffa67158529ce0eb8a98c9502171499b485f7b31018c1f63e5b4d-0244.pkl",
+      "sha256": "0f42adc2b2a77c1f8b98611ffde67bbe6540d46597290b560c60e7703106e3f5",
+      "episode_id": "b53b3e562f5ffa67158529ce0eb8a98c9502171499b485f7b31018c1f63e5b4d",
+      "frame": 244,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/b53b3e562f5ffa67158529ce0eb8a98c9502171499b485f7b31018c1f63e5b4d-0256.pkl",
+      "sha256": "36d70ac95aff9675e2ded8a3ecc33d3242927cbbf6a77ecaf0b4100991d99afe",
+      "episode_id": "b53b3e562f5ffa67158529ce0eb8a98c9502171499b485f7b31018c1f63e5b4d",
+      "frame": 256,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/b53b3e562f5ffa67158529ce0eb8a98c9502171499b485f7b31018c1f63e5b4d-0268.pkl",
+      "sha256": "73f6f712ab212b2f8c51769d2afd19446538dbd999ae02785cada65d42ac7174",
+      "episode_id": "b53b3e562f5ffa67158529ce0eb8a98c9502171499b485f7b31018c1f63e5b4d",
+      "frame": 268,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/b53b3e562f5ffa67158529ce0eb8a98c9502171499b485f7b31018c1f63e5b4d-0281.pkl",
+      "sha256": "53cb2bb627e1dbfbffa51fbfbdfe2c1c925a589aeb498bd1918b5650d029942c",
+      "episode_id": "b53b3e562f5ffa67158529ce0eb8a98c9502171499b485f7b31018c1f63e5b4d",
+      "frame": 281,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/b53b3e562f5ffa67158529ce0eb8a98c9502171499b485f7b31018c1f63e5b4d-0293.pkl",
+      "sha256": "36c5f9409d02fe67970e2db3c0dba54273d3d30274f4424e93eab7869217d55a",
+      "episode_id": "b53b3e562f5ffa67158529ce0eb8a98c9502171499b485f7b31018c1f63e5b4d",
+      "frame": 293,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/b53b3e562f5ffa67158529ce0eb8a98c9502171499b485f7b31018c1f63e5b4d-0305.pkl",
+      "sha256": "afc2f7ec383b9eb612abe1db95dcdeef9e13f42e96b0bf3a591ea268c2d854eb",
+      "episode_id": "b53b3e562f5ffa67158529ce0eb8a98c9502171499b485f7b31018c1f63e5b4d",
+      "frame": 305,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/b53b3e562f5ffa67158529ce0eb8a98c9502171499b485f7b31018c1f63e5b4d-0317.pkl",
+      "sha256": "a73c43ae653213541c83d23d445240e7ec104c935b7dea5be3edf0674170d627",
+      "episode_id": "b53b3e562f5ffa67158529ce0eb8a98c9502171499b485f7b31018c1f63e5b4d",
+      "frame": 317,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/b53b3e562f5ffa67158529ce0eb8a98c9502171499b485f7b31018c1f63e5b4d-0330.pkl",
+      "sha256": "c6e9cb5475e6307a50bbe0f27c89073937bb9e5d4ae155f627e31981dd7d70a3",
+      "episode_id": "b53b3e562f5ffa67158529ce0eb8a98c9502171499b485f7b31018c1f63e5b4d",
+      "frame": 330,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/b53b3e562f5ffa67158529ce0eb8a98c9502171499b485f7b31018c1f63e5b4d-0342.pkl",
+      "sha256": "e5b4c8563b0aa09d033d6a8d3b3ae10528a443bd47dc079f2dc9fa8c17bb73b1",
+      "episode_id": "b53b3e562f5ffa67158529ce0eb8a98c9502171499b485f7b31018c1f63e5b4d",
+      "frame": 342,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/b53b3e562f5ffa67158529ce0eb8a98c9502171499b485f7b31018c1f63e5b4d-0354.pkl",
+      "sha256": "a4797aba634c3e276a8e2f59aa9e86f149adc9e2dfff656ca5a7fcbbaa039748",
+      "episode_id": "b53b3e562f5ffa67158529ce0eb8a98c9502171499b485f7b31018c1f63e5b4d",
+      "frame": 354,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/b53b3e562f5ffa67158529ce0eb8a98c9502171499b485f7b31018c1f63e5b4d-0366.pkl",
+      "sha256": "87a9aecad1403ed907f39da9ce83778fd793986c0ba44e7b3e7991e223a14ac5",
+      "episode_id": "b53b3e562f5ffa67158529ce0eb8a98c9502171499b485f7b31018c1f63e5b4d",
+      "frame": 366,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/b53b3e562f5ffa67158529ce0eb8a98c9502171499b485f7b31018c1f63e5b4d-0379.pkl",
+      "sha256": "407c06966c79e9e864002da55ce0e96e01f95b9b1bbb4009ef4d2e568339ac09",
+      "episode_id": "b53b3e562f5ffa67158529ce0eb8a98c9502171499b485f7b31018c1f63e5b4d",
+      "frame": 379,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/ad3b50890459c1e92c19a13fe0c36f54412349b8438ac589a3c2df54b8b0db75-0000.pkl",
+      "sha256": "f18efba96082f7a8268db95387d74d9608ca7d7f182245e0feb387939e870dff",
+      "episode_id": "ad3b50890459c1e92c19a13fe0c36f54412349b8438ac589a3c2df54b8b0db75",
+      "frame": 0,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/ad3b50890459c1e92c19a13fe0c36f54412349b8438ac589a3c2df54b8b0db75-0010.pkl",
+      "sha256": "7f7dbee3a913adb5e29b1a2466f2e5e52020938bed46a79dc4d7050086bdc6cc",
+      "episode_id": "ad3b50890459c1e92c19a13fe0c36f54412349b8438ac589a3c2df54b8b0db75",
+      "frame": 10,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/ad3b50890459c1e92c19a13fe0c36f54412349b8438ac589a3c2df54b8b0db75-0021.pkl",
+      "sha256": "4834a9e0656617555f6b9b06ca1a8b12363b1249fb25ab62847b5ff59519b78a",
+      "episode_id": "ad3b50890459c1e92c19a13fe0c36f54412349b8438ac589a3c2df54b8b0db75",
+      "frame": 21,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/ad3b50890459c1e92c19a13fe0c36f54412349b8438ac589a3c2df54b8b0db75-0032.pkl",
+      "sha256": "aea58da95e11c9e7ed381e5a9efba73c0e073e64ed79324ee852abb5b7330840",
+      "episode_id": "ad3b50890459c1e92c19a13fe0c36f54412349b8438ac589a3c2df54b8b0db75",
+      "frame": 32,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/ad3b50890459c1e92c19a13fe0c36f54412349b8438ac589a3c2df54b8b0db75-0043.pkl",
+      "sha256": "64dc007e95d7e91231bc2ebf897e7b0fb816121b2e42bed6f2a47c75f1fc9ec0",
+      "episode_id": "ad3b50890459c1e92c19a13fe0c36f54412349b8438ac589a3c2df54b8b0db75",
+      "frame": 43,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/ad3b50890459c1e92c19a13fe0c36f54412349b8438ac589a3c2df54b8b0db75-0054.pkl",
+      "sha256": "b921238aac9549ef227a526b346708ae35b9ea1116edea15438efa118a79474c",
+      "episode_id": "ad3b50890459c1e92c19a13fe0c36f54412349b8438ac589a3c2df54b8b0db75",
+      "frame": 54,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/ad3b50890459c1e92c19a13fe0c36f54412349b8438ac589a3c2df54b8b0db75-0065.pkl",
+      "sha256": "4e102e1b4d0f8c25e732a4bb4771e17dcf77e936239aaddb55d935db20e5aaba",
+      "episode_id": "ad3b50890459c1e92c19a13fe0c36f54412349b8438ac589a3c2df54b8b0db75",
+      "frame": 65,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/ad3b50890459c1e92c19a13fe0c36f54412349b8438ac589a3c2df54b8b0db75-0076.pkl",
+      "sha256": "bef71b025286eecafeafd2698de7f7995c596d1c66aa7ff3e6a71dfff3424aaf",
+      "episode_id": "ad3b50890459c1e92c19a13fe0c36f54412349b8438ac589a3c2df54b8b0db75",
+      "frame": 76,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/ad3b50890459c1e92c19a13fe0c36f54412349b8438ac589a3c2df54b8b0db75-0086.pkl",
+      "sha256": "1b9183cab684fda17ce292bb7b4b1cd1c45e7b28b84a2f053e802a447a656683",
+      "episode_id": "ad3b50890459c1e92c19a13fe0c36f54412349b8438ac589a3c2df54b8b0db75",
+      "frame": 86,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/ad3b50890459c1e92c19a13fe0c36f54412349b8438ac589a3c2df54b8b0db75-0097.pkl",
+      "sha256": "ccfe2c8f91700d77187adf922734edcc461dc321cb6bcf5fae78e01b376263f4",
+      "episode_id": "ad3b50890459c1e92c19a13fe0c36f54412349b8438ac589a3c2df54b8b0db75",
+      "frame": 97,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/ad3b50890459c1e92c19a13fe0c36f54412349b8438ac589a3c2df54b8b0db75-0108.pkl",
+      "sha256": "8dfe327ea5ec59d92aa916a4b4249b143638ef41a2047d284f81ccb208a9e1dc",
+      "episode_id": "ad3b50890459c1e92c19a13fe0c36f54412349b8438ac589a3c2df54b8b0db75",
+      "frame": 108,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/ad3b50890459c1e92c19a13fe0c36f54412349b8438ac589a3c2df54b8b0db75-0119.pkl",
+      "sha256": "b60ba24749b4cb3192aa22550bce2021740f4b07388496d1387fe5ad3ee7e54a",
+      "episode_id": "ad3b50890459c1e92c19a13fe0c36f54412349b8438ac589a3c2df54b8b0db75",
+      "frame": 119,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/ad3b50890459c1e92c19a13fe0c36f54412349b8438ac589a3c2df54b8b0db75-0130.pkl",
+      "sha256": "e3e7d1b14e7f124ad5b61065ab017053b77264674b6b04d73dffc10a5af3cfa2",
+      "episode_id": "ad3b50890459c1e92c19a13fe0c36f54412349b8438ac589a3c2df54b8b0db75",
+      "frame": 130,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/ad3b50890459c1e92c19a13fe0c36f54412349b8438ac589a3c2df54b8b0db75-0141.pkl",
+      "sha256": "45a7da26b7096dfa47776d7bedcfa08342688325b3282a23454d57a6785e557a",
+      "episode_id": "ad3b50890459c1e92c19a13fe0c36f54412349b8438ac589a3c2df54b8b0db75",
+      "frame": 141,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/ad3b50890459c1e92c19a13fe0c36f54412349b8438ac589a3c2df54b8b0db75-0152.pkl",
+      "sha256": "7189e746ade4225ed6168c114508e961662700c16122b9862e0dc4c3540854e7",
+      "episode_id": "ad3b50890459c1e92c19a13fe0c36f54412349b8438ac589a3c2df54b8b0db75",
+      "frame": 152,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/ad3b50890459c1e92c19a13fe0c36f54412349b8438ac589a3c2df54b8b0db75-0163.pkl",
+      "sha256": "7489fe6368bed774ae36042166659225e4bcb7d5d30566f5c3d4534516e7b71b",
+      "episode_id": "ad3b50890459c1e92c19a13fe0c36f54412349b8438ac589a3c2df54b8b0db75",
+      "frame": 163,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/ad3b50890459c1e92c19a13fe0c36f54412349b8438ac589a3c2df54b8b0db75-0173.pkl",
+      "sha256": "bd82bcf49bd6dc362e2fd6bcef1219adef44e319ef81574dd7d56ba03cf352d9",
+      "episode_id": "ad3b50890459c1e92c19a13fe0c36f54412349b8438ac589a3c2df54b8b0db75",
+      "frame": 173,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/ad3b50890459c1e92c19a13fe0c36f54412349b8438ac589a3c2df54b8b0db75-0184.pkl",
+      "sha256": "491844dbaf9b19370705acd77e2ea34ff4ea2939b10c0620d3593cdc5dcca6e9",
+      "episode_id": "ad3b50890459c1e92c19a13fe0c36f54412349b8438ac589a3c2df54b8b0db75",
+      "frame": 184,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/ad3b50890459c1e92c19a13fe0c36f54412349b8438ac589a3c2df54b8b0db75-0195.pkl",
+      "sha256": "1c317bc8bb87d49c0aabe1d4df969d778345b9faf198f428e1dc641cb141b501",
+      "episode_id": "ad3b50890459c1e92c19a13fe0c36f54412349b8438ac589a3c2df54b8b0db75",
+      "frame": 195,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/ad3b50890459c1e92c19a13fe0c36f54412349b8438ac589a3c2df54b8b0db75-0206.pkl",
+      "sha256": "e9890064cd3dbf7562feeb51f9cdce2c2dc31e72ca80a68fb382972f636572a3",
+      "episode_id": "ad3b50890459c1e92c19a13fe0c36f54412349b8438ac589a3c2df54b8b0db75",
+      "frame": 206,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/ad3b50890459c1e92c19a13fe0c36f54412349b8438ac589a3c2df54b8b0db75-0217.pkl",
+      "sha256": "b32e310e77b674727d823fa75f6b3a3c05f49f72bfec1af44ec596b6a1ff8e06",
+      "episode_id": "ad3b50890459c1e92c19a13fe0c36f54412349b8438ac589a3c2df54b8b0db75",
+      "frame": 217,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/ad3b50890459c1e92c19a13fe0c36f54412349b8438ac589a3c2df54b8b0db75-0228.pkl",
+      "sha256": "edd3e4127534fb050721653e3d116765af59e7272326e07b736287e859064818",
+      "episode_id": "ad3b50890459c1e92c19a13fe0c36f54412349b8438ac589a3c2df54b8b0db75",
+      "frame": 228,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/ad3b50890459c1e92c19a13fe0c36f54412349b8438ac589a3c2df54b8b0db75-0239.pkl",
+      "sha256": "10dde01a023a31717408f157f2377eefca740345c1f38c79c69301ba4ac6f74c",
+      "episode_id": "ad3b50890459c1e92c19a13fe0c36f54412349b8438ac589a3c2df54b8b0db75",
+      "frame": 239,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/ad3b50890459c1e92c19a13fe0c36f54412349b8438ac589a3c2df54b8b0db75-0250.pkl",
+      "sha256": "ab40f8b642a3df291770839e3be548999793236f57ea4798a3af06350a170991",
+      "episode_id": "ad3b50890459c1e92c19a13fe0c36f54412349b8438ac589a3c2df54b8b0db75",
+      "frame": 250,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/ad3b50890459c1e92c19a13fe0c36f54412349b8438ac589a3c2df54b8b0db75-0260.pkl",
+      "sha256": "003f674e92bacc4a3e256510bbedd03aafd6f3535e7b8fd02a4c4a33444b6575",
+      "episode_id": "ad3b50890459c1e92c19a13fe0c36f54412349b8438ac589a3c2df54b8b0db75",
+      "frame": 260,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/ad3b50890459c1e92c19a13fe0c36f54412349b8438ac589a3c2df54b8b0db75-0271.pkl",
+      "sha256": "3cc689fffaf86d8b7cf655f32865d0904985fedeb4fbbef0781a7c447ef6a3c0",
+      "episode_id": "ad3b50890459c1e92c19a13fe0c36f54412349b8438ac589a3c2df54b8b0db75",
+      "frame": 271,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/ad3b50890459c1e92c19a13fe0c36f54412349b8438ac589a3c2df54b8b0db75-0282.pkl",
+      "sha256": "774f2ef012f9069566d412478a9ef5d1b4a9ac057d9c2042581f335b7651262f",
+      "episode_id": "ad3b50890459c1e92c19a13fe0c36f54412349b8438ac589a3c2df54b8b0db75",
+      "frame": 282,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/ad3b50890459c1e92c19a13fe0c36f54412349b8438ac589a3c2df54b8b0db75-0293.pkl",
+      "sha256": "cb43507d1f0135692919c55245d2b8fb377be1cc96495efa2af0ccc0152dc185",
+      "episode_id": "ad3b50890459c1e92c19a13fe0c36f54412349b8438ac589a3c2df54b8b0db75",
+      "frame": 293,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/ad3b50890459c1e92c19a13fe0c36f54412349b8438ac589a3c2df54b8b0db75-0304.pkl",
+      "sha256": "b60c8c0e55fafa0792a0eec25d1a90b61ba9ac7223b0e53651447fd9f5148d15",
+      "episode_id": "ad3b50890459c1e92c19a13fe0c36f54412349b8438ac589a3c2df54b8b0db75",
+      "frame": 304,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/ad3b50890459c1e92c19a13fe0c36f54412349b8438ac589a3c2df54b8b0db75-0315.pkl",
+      "sha256": "8649f030c4554fe20989036eae645878cdda7e392a714fe3ba699f859278582d",
+      "episode_id": "ad3b50890459c1e92c19a13fe0c36f54412349b8438ac589a3c2df54b8b0db75",
+      "frame": 315,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/ad3b50890459c1e92c19a13fe0c36f54412349b8438ac589a3c2df54b8b0db75-0326.pkl",
+      "sha256": "c49bd3ea1b591a488409895730582db6aa4e205505ddd86c956a35d7b48430f5",
+      "episode_id": "ad3b50890459c1e92c19a13fe0c36f54412349b8438ac589a3c2df54b8b0db75",
+      "frame": 326,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/ad3b50890459c1e92c19a13fe0c36f54412349b8438ac589a3c2df54b8b0db75-0337.pkl",
+      "sha256": "4a91c12d9d8fbcae500884fb99bb094f480baac10912d3d46e00cf9197becdd4",
+      "episode_id": "ad3b50890459c1e92c19a13fe0c36f54412349b8438ac589a3c2df54b8b0db75",
+      "frame": 337,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/0112f7b72fc498dd263ccaeef427e51eb1f9e9b9aa4fafd749d99f95c544f119-0000.pkl",
+      "sha256": "5862c5bd7b54d294bbd141e0216b3396eb565d73d1a35bfdd3ab7c6351487626",
+      "episode_id": "0112f7b72fc498dd263ccaeef427e51eb1f9e9b9aa4fafd749d99f95c544f119",
+      "frame": 0,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/0112f7b72fc498dd263ccaeef427e51eb1f9e9b9aa4fafd749d99f95c544f119-0010.pkl",
+      "sha256": "61e6c226474fc5a04df9f9660a2bebbd8e5163a40d36d74045a63960fe606836",
+      "episode_id": "0112f7b72fc498dd263ccaeef427e51eb1f9e9b9aa4fafd749d99f95c544f119",
+      "frame": 10,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/0112f7b72fc498dd263ccaeef427e51eb1f9e9b9aa4fafd749d99f95c544f119-0021.pkl",
+      "sha256": "c778cd52844faca08749989d99b75ab6b0a8381065a0124da904d4364acaafd6",
+      "episode_id": "0112f7b72fc498dd263ccaeef427e51eb1f9e9b9aa4fafd749d99f95c544f119",
+      "frame": 21,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/0112f7b72fc498dd263ccaeef427e51eb1f9e9b9aa4fafd749d99f95c544f119-0032.pkl",
+      "sha256": "b4664f25cb50395376d598b9d9c31998fff31ec3cc8962192ccd45a2321bf87a",
+      "episode_id": "0112f7b72fc498dd263ccaeef427e51eb1f9e9b9aa4fafd749d99f95c544f119",
+      "frame": 32,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/0112f7b72fc498dd263ccaeef427e51eb1f9e9b9aa4fafd749d99f95c544f119-0043.pkl",
+      "sha256": "a036becfeb6afacff3b0b413f42a36735e3a96aa1dff28e24b779bcafb0ee91c",
+      "episode_id": "0112f7b72fc498dd263ccaeef427e51eb1f9e9b9aa4fafd749d99f95c544f119",
+      "frame": 43,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/0112f7b72fc498dd263ccaeef427e51eb1f9e9b9aa4fafd749d99f95c544f119-0054.pkl",
+      "sha256": "5cee2f881453c9697c78b6a01197b0454fedf79638aa458d627f5e54788965bd",
+      "episode_id": "0112f7b72fc498dd263ccaeef427e51eb1f9e9b9aa4fafd749d99f95c544f119",
+      "frame": 54,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/0112f7b72fc498dd263ccaeef427e51eb1f9e9b9aa4fafd749d99f95c544f119-0065.pkl",
+      "sha256": "7eb3eb5f64a193317f6cec0bedc23399b838ca556c275aa67188990809b8cf43",
+      "episode_id": "0112f7b72fc498dd263ccaeef427e51eb1f9e9b9aa4fafd749d99f95c544f119",
+      "frame": 65,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/0112f7b72fc498dd263ccaeef427e51eb1f9e9b9aa4fafd749d99f95c544f119-0076.pkl",
+      "sha256": "5bb940bde0c31441f3bf87976e1d74bcf7d38fa9db509916dee64e219004a0a4",
+      "episode_id": "0112f7b72fc498dd263ccaeef427e51eb1f9e9b9aa4fafd749d99f95c544f119",
+      "frame": 76,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/0112f7b72fc498dd263ccaeef427e51eb1f9e9b9aa4fafd749d99f95c544f119-0087.pkl",
+      "sha256": "86ee0a47a94697f16018c2626ec823a6f04d78696cdfb3c70ca75f7cffaed423",
+      "episode_id": "0112f7b72fc498dd263ccaeef427e51eb1f9e9b9aa4fafd749d99f95c544f119",
+      "frame": 87,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/0112f7b72fc498dd263ccaeef427e51eb1f9e9b9aa4fafd749d99f95c544f119-0098.pkl",
+      "sha256": "92258f73e0f61cac4f7b837cf0b0195f1b285612040ef21fb6ab2d2d6e901071",
+      "episode_id": "0112f7b72fc498dd263ccaeef427e51eb1f9e9b9aa4fafd749d99f95c544f119",
+      "frame": 98,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/0112f7b72fc498dd263ccaeef427e51eb1f9e9b9aa4fafd749d99f95c544f119-0109.pkl",
+      "sha256": "f9be549babc4b7fc0776b11c0e831379abe280e888d416c5d0039ed6b43cafd8",
+      "episode_id": "0112f7b72fc498dd263ccaeef427e51eb1f9e9b9aa4fafd749d99f95c544f119",
+      "frame": 109,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/0112f7b72fc498dd263ccaeef427e51eb1f9e9b9aa4fafd749d99f95c544f119-0120.pkl",
+      "sha256": "3280568c451fb0fa43e02cf443617caba93d59fb316a68bbe6c812624bb3e305",
+      "episode_id": "0112f7b72fc498dd263ccaeef427e51eb1f9e9b9aa4fafd749d99f95c544f119",
+      "frame": 120,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/0112f7b72fc498dd263ccaeef427e51eb1f9e9b9aa4fafd749d99f95c544f119-0131.pkl",
+      "sha256": "ebd4b716e98cd2e931cbe8fd59d11278c46f92eb9d1275ca0c28efdc2fe53ae7",
+      "episode_id": "0112f7b72fc498dd263ccaeef427e51eb1f9e9b9aa4fafd749d99f95c544f119",
+      "frame": 131,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/0112f7b72fc498dd263ccaeef427e51eb1f9e9b9aa4fafd749d99f95c544f119-0142.pkl",
+      "sha256": "ad480f6452ec26c118ecc6cc4fe96a276b62fd30a181f614a67fab50c482e62e",
+      "episode_id": "0112f7b72fc498dd263ccaeef427e51eb1f9e9b9aa4fafd749d99f95c544f119",
+      "frame": 142,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/0112f7b72fc498dd263ccaeef427e51eb1f9e9b9aa4fafd749d99f95c544f119-0153.pkl",
+      "sha256": "7ca64fdc9e1d201dbc1b99b28978a4f5ba2c598191b5d75b2a8814342557fa65",
+      "episode_id": "0112f7b72fc498dd263ccaeef427e51eb1f9e9b9aa4fafd749d99f95c544f119",
+      "frame": 153,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/0112f7b72fc498dd263ccaeef427e51eb1f9e9b9aa4fafd749d99f95c544f119-0164.pkl",
+      "sha256": "d1ec1123c89de894041404a471b77d8a1e13d1c6116f75fdf48c7f1a5c4a8864",
+      "episode_id": "0112f7b72fc498dd263ccaeef427e51eb1f9e9b9aa4fafd749d99f95c544f119",
+      "frame": 164,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/0112f7b72fc498dd263ccaeef427e51eb1f9e9b9aa4fafd749d99f95c544f119-0175.pkl",
+      "sha256": "eacabe8c9e44adfe917c6c5ad4aa646cd13fdf557427f45cbd52d7c56778aa0d",
+      "episode_id": "0112f7b72fc498dd263ccaeef427e51eb1f9e9b9aa4fafd749d99f95c544f119",
+      "frame": 175,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/0112f7b72fc498dd263ccaeef427e51eb1f9e9b9aa4fafd749d99f95c544f119-0186.pkl",
+      "sha256": "14bdb9a70e77c23bef686d8ebb8936c86ac5f1ef559df8a6d1309c2e961eae15",
+      "episode_id": "0112f7b72fc498dd263ccaeef427e51eb1f9e9b9aa4fafd749d99f95c544f119",
+      "frame": 186,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/0112f7b72fc498dd263ccaeef427e51eb1f9e9b9aa4fafd749d99f95c544f119-0197.pkl",
+      "sha256": "01dda08febe5a0e39089af1d7cc79859f5fcf3c42640b82b588743aacbe8a49e",
+      "episode_id": "0112f7b72fc498dd263ccaeef427e51eb1f9e9b9aa4fafd749d99f95c544f119",
+      "frame": 197,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/0112f7b72fc498dd263ccaeef427e51eb1f9e9b9aa4fafd749d99f95c544f119-0208.pkl",
+      "sha256": "e52b7a5c476068c2334979b6b6a6d8a16a053e8781320aad56bc28e641a484e6",
+      "episode_id": "0112f7b72fc498dd263ccaeef427e51eb1f9e9b9aa4fafd749d99f95c544f119",
+      "frame": 208,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/0112f7b72fc498dd263ccaeef427e51eb1f9e9b9aa4fafd749d99f95c544f119-0219.pkl",
+      "sha256": "c888abeab2e95a11fed4e49158891f0ef25861fa9a7f567053354943bd05a6e4",
+      "episode_id": "0112f7b72fc498dd263ccaeef427e51eb1f9e9b9aa4fafd749d99f95c544f119",
+      "frame": 219,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/0112f7b72fc498dd263ccaeef427e51eb1f9e9b9aa4fafd749d99f95c544f119-0230.pkl",
+      "sha256": "5b84f875eb9fb5b8b623674f18944f4c04fc2498a63d238078d84bb4dab57927",
+      "episode_id": "0112f7b72fc498dd263ccaeef427e51eb1f9e9b9aa4fafd749d99f95c544f119",
+      "frame": 230,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/0112f7b72fc498dd263ccaeef427e51eb1f9e9b9aa4fafd749d99f95c544f119-0241.pkl",
+      "sha256": "0ec649807694e2a4388a66db8b41267f47ccfbe883d5e914b62e85b19c5bf894",
+      "episode_id": "0112f7b72fc498dd263ccaeef427e51eb1f9e9b9aa4fafd749d99f95c544f119",
+      "frame": 241,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/0112f7b72fc498dd263ccaeef427e51eb1f9e9b9aa4fafd749d99f95c544f119-0252.pkl",
+      "sha256": "17512689cc494764735d231ad276f3ed38bc3ebf3d43e8714f3229e26b443ae9",
+      "episode_id": "0112f7b72fc498dd263ccaeef427e51eb1f9e9b9aa4fafd749d99f95c544f119",
+      "frame": 252,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/0112f7b72fc498dd263ccaeef427e51eb1f9e9b9aa4fafd749d99f95c544f119-0263.pkl",
+      "sha256": "67e3665f1c7419ffa6cfdeaf4ae91f7f4a3ce12de2111b4b19141d977d109749",
+      "episode_id": "0112f7b72fc498dd263ccaeef427e51eb1f9e9b9aa4fafd749d99f95c544f119",
+      "frame": 263,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/0112f7b72fc498dd263ccaeef427e51eb1f9e9b9aa4fafd749d99f95c544f119-0274.pkl",
+      "sha256": "29c298ede5fe811250d5cc4a070a2d6cfdee6279bb67729a211d1ec358ec2ee0",
+      "episode_id": "0112f7b72fc498dd263ccaeef427e51eb1f9e9b9aa4fafd749d99f95c544f119",
+      "frame": 274,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/0112f7b72fc498dd263ccaeef427e51eb1f9e9b9aa4fafd749d99f95c544f119-0285.pkl",
+      "sha256": "edf32d2489d5cf0959709fc642eb92a885cd1c5f5471874b4585d69f17404b4d",
+      "episode_id": "0112f7b72fc498dd263ccaeef427e51eb1f9e9b9aa4fafd749d99f95c544f119",
+      "frame": 285,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/0112f7b72fc498dd263ccaeef427e51eb1f9e9b9aa4fafd749d99f95c544f119-0296.pkl",
+      "sha256": "d10d89949ea03ab7986b6328d50fead4b2f783681ff60d47460b592a4a418996",
+      "episode_id": "0112f7b72fc498dd263ccaeef427e51eb1f9e9b9aa4fafd749d99f95c544f119",
+      "frame": 296,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/0112f7b72fc498dd263ccaeef427e51eb1f9e9b9aa4fafd749d99f95c544f119-0307.pkl",
+      "sha256": "b07a34370dfba8d386df59e87bc2824c46e32c394d112d70a4e5faaaa32b9a24",
+      "episode_id": "0112f7b72fc498dd263ccaeef427e51eb1f9e9b9aa4fafd749d99f95c544f119",
+      "frame": 307,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/0112f7b72fc498dd263ccaeef427e51eb1f9e9b9aa4fafd749d99f95c544f119-0318.pkl",
+      "sha256": "71f528b093c21f19e8edb386c05f0f1f71ba6cd79883ad31ebce5765c5323959",
+      "episode_id": "0112f7b72fc498dd263ccaeef427e51eb1f9e9b9aa4fafd749d99f95c544f119",
+      "frame": 318,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/0112f7b72fc498dd263ccaeef427e51eb1f9e9b9aa4fafd749d99f95c544f119-0329.pkl",
+      "sha256": "6fe0a530e0cdd417d01d1863f60d3b14e9d9a9961ada1a63a3353e39f2872221",
+      "episode_id": "0112f7b72fc498dd263ccaeef427e51eb1f9e9b9aa4fafd749d99f95c544f119",
+      "frame": 329,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/0112f7b72fc498dd263ccaeef427e51eb1f9e9b9aa4fafd749d99f95c544f119-0340.pkl",
+      "sha256": "2c321008e24b61b716bf3e693ec746669479df7c75ea90fc9dbb254619a9aa7d",
+      "episode_id": "0112f7b72fc498dd263ccaeef427e51eb1f9e9b9aa4fafd749d99f95c544f119",
+      "frame": 340,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/ad94fa28825c19fe6ba1fd143146109158e176ce2d5a1ee156df180cd662ba31-0000.pkl",
+      "sha256": "7a77d406f81ab45622fcdd9a78c2351e2251729f7e1fbed8176d45642cbfd63f",
+      "episode_id": "ad94fa28825c19fe6ba1fd143146109158e176ce2d5a1ee156df180cd662ba31",
+      "frame": 0,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/ad94fa28825c19fe6ba1fd143146109158e176ce2d5a1ee156df180cd662ba31-0011.pkl",
+      "sha256": "47f0aa75a09812f66dd4eeab8c96e0eaaa5f6d4e5e96ae037ffabd1c42b60665",
+      "episode_id": "ad94fa28825c19fe6ba1fd143146109158e176ce2d5a1ee156df180cd662ba31",
+      "frame": 11,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/ad94fa28825c19fe6ba1fd143146109158e176ce2d5a1ee156df180cd662ba31-0023.pkl",
+      "sha256": "49896310163b7d006ffae2e88d1b8eb84678983fc701568b4ec8823ebe77c337",
+      "episode_id": "ad94fa28825c19fe6ba1fd143146109158e176ce2d5a1ee156df180cd662ba31",
+      "frame": 23,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/ad94fa28825c19fe6ba1fd143146109158e176ce2d5a1ee156df180cd662ba31-0035.pkl",
+      "sha256": "6e7efa5b520088e81c66deea7f632961f44be83aeb3f78de40d03b3ab2d98212",
+      "episode_id": "ad94fa28825c19fe6ba1fd143146109158e176ce2d5a1ee156df180cd662ba31",
+      "frame": 35,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/ad94fa28825c19fe6ba1fd143146109158e176ce2d5a1ee156df180cd662ba31-0047.pkl",
+      "sha256": "9115f0420f3f661cbbc254086d0bab0ba80f09d1ac184f84ac5e70f4f70acb21",
+      "episode_id": "ad94fa28825c19fe6ba1fd143146109158e176ce2d5a1ee156df180cd662ba31",
+      "frame": 47,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/ad94fa28825c19fe6ba1fd143146109158e176ce2d5a1ee156df180cd662ba31-0059.pkl",
+      "sha256": "ab3593c7a94366e70dcc9de7d57724a606ae06941e66ae8aec2f6f62b83b2633",
+      "episode_id": "ad94fa28825c19fe6ba1fd143146109158e176ce2d5a1ee156df180cd662ba31",
+      "frame": 59,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/ad94fa28825c19fe6ba1fd143146109158e176ce2d5a1ee156df180cd662ba31-0071.pkl",
+      "sha256": "493cae1fcf5914240b4f7c06f7bff2c676ac1abb11bb70bf2b44402601fdd38b",
+      "episode_id": "ad94fa28825c19fe6ba1fd143146109158e176ce2d5a1ee156df180cd662ba31",
+      "frame": 71,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/ad94fa28825c19fe6ba1fd143146109158e176ce2d5a1ee156df180cd662ba31-0083.pkl",
+      "sha256": "57337c7d51d76ebce8a5c9783947683ab46c35257d88c85a717d61435aec646c",
+      "episode_id": "ad94fa28825c19fe6ba1fd143146109158e176ce2d5a1ee156df180cd662ba31",
+      "frame": 83,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/ad94fa28825c19fe6ba1fd143146109158e176ce2d5a1ee156df180cd662ba31-0095.pkl",
+      "sha256": "a8a19dcf35f8f3400405dea775f7a9d1818b35d4b55894ca1ec95832312366a4",
+      "episode_id": "ad94fa28825c19fe6ba1fd143146109158e176ce2d5a1ee156df180cd662ba31",
+      "frame": 95,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/ad94fa28825c19fe6ba1fd143146109158e176ce2d5a1ee156df180cd662ba31-0107.pkl",
+      "sha256": "addd4116a61c1e475e66e09aaaf825fdaa64ebcc3da9fc0aa1769d12a50a1b81",
+      "episode_id": "ad94fa28825c19fe6ba1fd143146109158e176ce2d5a1ee156df180cd662ba31",
+      "frame": 107,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/ad94fa28825c19fe6ba1fd143146109158e176ce2d5a1ee156df180cd662ba31-0119.pkl",
+      "sha256": "08017e4a8f734b93e0bc8c400c38f7741aa7c4146dab6bba708ca807125887e3",
+      "episode_id": "ad94fa28825c19fe6ba1fd143146109158e176ce2d5a1ee156df180cd662ba31",
+      "frame": 119,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/ad94fa28825c19fe6ba1fd143146109158e176ce2d5a1ee156df180cd662ba31-0130.pkl",
+      "sha256": "a5069133edfb588a1b25fde5ecafc1e57178f9734c42c830d7bb90bb2ca3f8bd",
+      "episode_id": "ad94fa28825c19fe6ba1fd143146109158e176ce2d5a1ee156df180cd662ba31",
+      "frame": 130,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/ad94fa28825c19fe6ba1fd143146109158e176ce2d5a1ee156df180cd662ba31-0142.pkl",
+      "sha256": "9d641526c708648ff4e6988c7ed62a166045dba4561496484224a991a7c190e9",
+      "episode_id": "ad94fa28825c19fe6ba1fd143146109158e176ce2d5a1ee156df180cd662ba31",
+      "frame": 142,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/ad94fa28825c19fe6ba1fd143146109158e176ce2d5a1ee156df180cd662ba31-0154.pkl",
+      "sha256": "2a70bc6b384c3f62c0948672c90284295382c157c4245fa3fde656ee906305f6",
+      "episode_id": "ad94fa28825c19fe6ba1fd143146109158e176ce2d5a1ee156df180cd662ba31",
+      "frame": 154,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/ad94fa28825c19fe6ba1fd143146109158e176ce2d5a1ee156df180cd662ba31-0166.pkl",
+      "sha256": "ed981c0b9df94847c29d921a91011e62a14ebdf08c377fd5c89bf5fdfa7aaf91",
+      "episode_id": "ad94fa28825c19fe6ba1fd143146109158e176ce2d5a1ee156df180cd662ba31",
+      "frame": 166,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/ad94fa28825c19fe6ba1fd143146109158e176ce2d5a1ee156df180cd662ba31-0178.pkl",
+      "sha256": "957679d86c057dc9c9fc3f244653b7bad40fb7bb9f151abf0f6726039d46d7ae",
+      "episode_id": "ad94fa28825c19fe6ba1fd143146109158e176ce2d5a1ee156df180cd662ba31",
+      "frame": 178,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/ad94fa28825c19fe6ba1fd143146109158e176ce2d5a1ee156df180cd662ba31-0190.pkl",
+      "sha256": "d5c99651e272affc8b86a39185f08d8755a6510c9484254f6b05db5c105e3cea",
+      "episode_id": "ad94fa28825c19fe6ba1fd143146109158e176ce2d5a1ee156df180cd662ba31",
+      "frame": 190,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/ad94fa28825c19fe6ba1fd143146109158e176ce2d5a1ee156df180cd662ba31-0202.pkl",
+      "sha256": "3c42ce2d5fd8317a60d23490f43c0da4cd97d4100864ca1925d3f74338474a96",
+      "episode_id": "ad94fa28825c19fe6ba1fd143146109158e176ce2d5a1ee156df180cd662ba31",
+      "frame": 202,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/ad94fa28825c19fe6ba1fd143146109158e176ce2d5a1ee156df180cd662ba31-0214.pkl",
+      "sha256": "380e9b2e1c4102b2ae3fb4475acd5ab451df80f282221a278942680b4490b5df",
+      "episode_id": "ad94fa28825c19fe6ba1fd143146109158e176ce2d5a1ee156df180cd662ba31",
+      "frame": 214,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/ad94fa28825c19fe6ba1fd143146109158e176ce2d5a1ee156df180cd662ba31-0226.pkl",
+      "sha256": "5fcc52b2f350339c19423868278c568f83fcd24d283659926138a69b0f3ca481",
+      "episode_id": "ad94fa28825c19fe6ba1fd143146109158e176ce2d5a1ee156df180cd662ba31",
+      "frame": 226,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/ad94fa28825c19fe6ba1fd143146109158e176ce2d5a1ee156df180cd662ba31-0238.pkl",
+      "sha256": "7d0d53effaaac23fe7718063a964218070831a8522122387b1101d0d9066b1ef",
+      "episode_id": "ad94fa28825c19fe6ba1fd143146109158e176ce2d5a1ee156df180cd662ba31",
+      "frame": 238,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/ad94fa28825c19fe6ba1fd143146109158e176ce2d5a1ee156df180cd662ba31-0249.pkl",
+      "sha256": "92909b4e1dc4dc54d1941e6ebe9f76faccaa508e8f303b695e155ffdc7fb5ba4",
+      "episode_id": "ad94fa28825c19fe6ba1fd143146109158e176ce2d5a1ee156df180cd662ba31",
+      "frame": 249,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/ad94fa28825c19fe6ba1fd143146109158e176ce2d5a1ee156df180cd662ba31-0261.pkl",
+      "sha256": "aa25da6b7fd6fd391b30bf7eb2701e7cf5d52949577aa860433ff80bb1a1c99f",
+      "episode_id": "ad94fa28825c19fe6ba1fd143146109158e176ce2d5a1ee156df180cd662ba31",
+      "frame": 261,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/ad94fa28825c19fe6ba1fd143146109158e176ce2d5a1ee156df180cd662ba31-0273.pkl",
+      "sha256": "7678cf4798d69752bcd9256a35d0c0f8b9998eb2c92e2c87a34a146170e80bbc",
+      "episode_id": "ad94fa28825c19fe6ba1fd143146109158e176ce2d5a1ee156df180cd662ba31",
+      "frame": 273,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/ad94fa28825c19fe6ba1fd143146109158e176ce2d5a1ee156df180cd662ba31-0285.pkl",
+      "sha256": "37cb2b1d6846b569cc5f80fbefb0d44123ea68ef0db436564077e06dc96e98de",
+      "episode_id": "ad94fa28825c19fe6ba1fd143146109158e176ce2d5a1ee156df180cd662ba31",
+      "frame": 285,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/ad94fa28825c19fe6ba1fd143146109158e176ce2d5a1ee156df180cd662ba31-0297.pkl",
+      "sha256": "c503d6023f29b980074844895028c1d1a462945c5e1989328435a8279b29f424",
+      "episode_id": "ad94fa28825c19fe6ba1fd143146109158e176ce2d5a1ee156df180cd662ba31",
+      "frame": 297,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/ad94fa28825c19fe6ba1fd143146109158e176ce2d5a1ee156df180cd662ba31-0309.pkl",
+      "sha256": "8c75218e821bdf7e334a1137ab3fb98e82ff3f1847fbb99d9f71a98397d6cb8c",
+      "episode_id": "ad94fa28825c19fe6ba1fd143146109158e176ce2d5a1ee156df180cd662ba31",
+      "frame": 309,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/ad94fa28825c19fe6ba1fd143146109158e176ce2d5a1ee156df180cd662ba31-0321.pkl",
+      "sha256": "f2d59a7a1bf4426ec002831499aef94362e4e3889e451dc29bccae0b228c5ce9",
+      "episode_id": "ad94fa28825c19fe6ba1fd143146109158e176ce2d5a1ee156df180cd662ba31",
+      "frame": 321,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/ad94fa28825c19fe6ba1fd143146109158e176ce2d5a1ee156df180cd662ba31-0333.pkl",
+      "sha256": "f835584721702b45949d05930f3a47afe6428c993ef020e35ff772df5194d1b3",
+      "episode_id": "ad94fa28825c19fe6ba1fd143146109158e176ce2d5a1ee156df180cd662ba31",
+      "frame": 333,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/ad94fa28825c19fe6ba1fd143146109158e176ce2d5a1ee156df180cd662ba31-0345.pkl",
+      "sha256": "18f67972b939fea96ba66465e5439cb4dda546914bd781363e5ed950eb7308d0",
+      "episode_id": "ad94fa28825c19fe6ba1fd143146109158e176ce2d5a1ee156df180cd662ba31",
+      "frame": 345,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/ad94fa28825c19fe6ba1fd143146109158e176ce2d5a1ee156df180cd662ba31-0357.pkl",
+      "sha256": "36784ef90e902f5ac95262eb3d7ca2f6f20984e6746d1d8e04f3ba5cec10ddb1",
+      "episode_id": "ad94fa28825c19fe6ba1fd143146109158e176ce2d5a1ee156df180cd662ba31",
+      "frame": 357,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/ad94fa28825c19fe6ba1fd143146109158e176ce2d5a1ee156df180cd662ba31-0369.pkl",
+      "sha256": "d472895b7ebaa03494600aa05846e3200defb8ada2dc814dca0ca750be089da4",
+      "episode_id": "ad94fa28825c19fe6ba1fd143146109158e176ce2d5a1ee156df180cd662ba31",
+      "frame": 369,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/9b508c7e26313a2b3208a922c23c94460e9e4f0e164106944c9f711b876c0657-0000.pkl",
+      "sha256": "03ece8324213b8116b811b75296a3046b09418a5fa5b91af8d6a6a92e4267bf5",
+      "episode_id": "9b508c7e26313a2b3208a922c23c94460e9e4f0e164106944c9f711b876c0657",
+      "frame": 0,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/9b508c7e26313a2b3208a922c23c94460e9e4f0e164106944c9f711b876c0657-0034.pkl",
+      "sha256": "de1d9bf25688400a4ea4ffa1a7c1854ee7ebf04c1812697ecac1b3214b4cf018",
+      "episode_id": "9b508c7e26313a2b3208a922c23c94460e9e4f0e164106944c9f711b876c0657",
+      "frame": 34,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/9b508c7e26313a2b3208a922c23c94460e9e4f0e164106944c9f711b876c0657-0068.pkl",
+      "sha256": "e199c0feebfdb930a913ff2ff46252c2f30fc79a610e0bbbb3bde68a4ab2ebcc",
+      "episode_id": "9b508c7e26313a2b3208a922c23c94460e9e4f0e164106944c9f711b876c0657",
+      "frame": 68,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/9b508c7e26313a2b3208a922c23c94460e9e4f0e164106944c9f711b876c0657-0102.pkl",
+      "sha256": "d1e1d50a02ae3ccee2f71fac00366dc66a0892f91e6b206535807bcc2a75f975",
+      "episode_id": "9b508c7e26313a2b3208a922c23c94460e9e4f0e164106944c9f711b876c0657",
+      "frame": 102,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/9b508c7e26313a2b3208a922c23c94460e9e4f0e164106944c9f711b876c0657-0136.pkl",
+      "sha256": "5b25bb4559ae776c3f6841dcd7542d1b4d7787b0d26c3dbd65a00704b8da9605",
+      "episode_id": "9b508c7e26313a2b3208a922c23c94460e9e4f0e164106944c9f711b876c0657",
+      "frame": 136,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/9b508c7e26313a2b3208a922c23c94460e9e4f0e164106944c9f711b876c0657-0170.pkl",
+      "sha256": "ecd4a28b1689e812711828273ec5f634a5b441f365cdbd5785d1ff390775f9b5",
+      "episode_id": "9b508c7e26313a2b3208a922c23c94460e9e4f0e164106944c9f711b876c0657",
+      "frame": 170,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/9b508c7e26313a2b3208a922c23c94460e9e4f0e164106944c9f711b876c0657-0204.pkl",
+      "sha256": "f61ced72df0391dbd4dc8230cf8b598db11586feac3a26491257cb04a255da7c",
+      "episode_id": "9b508c7e26313a2b3208a922c23c94460e9e4f0e164106944c9f711b876c0657",
+      "frame": 204,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/9b508c7e26313a2b3208a922c23c94460e9e4f0e164106944c9f711b876c0657-0238.pkl",
+      "sha256": "9ffbda90b5760f122ad414a6e096b9b18dc6c0f60bfd9fe7e922edcbea0ff9f4",
+      "episode_id": "9b508c7e26313a2b3208a922c23c94460e9e4f0e164106944c9f711b876c0657",
+      "frame": 238,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/9b508c7e26313a2b3208a922c23c94460e9e4f0e164106944c9f711b876c0657-0272.pkl",
+      "sha256": "34b201b97787c16c76b9d133b56619505daf322415bd4491c25992181986a6ea",
+      "episode_id": "9b508c7e26313a2b3208a922c23c94460e9e4f0e164106944c9f711b876c0657",
+      "frame": 272,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/9b508c7e26313a2b3208a922c23c94460e9e4f0e164106944c9f711b876c0657-0306.pkl",
+      "sha256": "26c632ef73633f582cf4c1ca6693ad2006d1b0a4b40f8238f3452cc188c39dd6",
+      "episode_id": "9b508c7e26313a2b3208a922c23c94460e9e4f0e164106944c9f711b876c0657",
+      "frame": 306,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/9b508c7e26313a2b3208a922c23c94460e9e4f0e164106944c9f711b876c0657-0340.pkl",
+      "sha256": "b7d42c99da60cae27ce7d64f977193606141cf12a55eae584644f4b2e9c871ca",
+      "episode_id": "9b508c7e26313a2b3208a922c23c94460e9e4f0e164106944c9f711b876c0657",
+      "frame": 340,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/9b508c7e26313a2b3208a922c23c94460e9e4f0e164106944c9f711b876c0657-0374.pkl",
+      "sha256": "f884278caff65bae9bbcc4ba06cae62ff4070be0d8434a197064327e5a2ed219",
+      "episode_id": "9b508c7e26313a2b3208a922c23c94460e9e4f0e164106944c9f711b876c0657",
+      "frame": 374,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/9b508c7e26313a2b3208a922c23c94460e9e4f0e164106944c9f711b876c0657-0408.pkl",
+      "sha256": "2b1efd46234ce152d6978d0ef3ab41510a33157f80806daf710fa2a45746e905",
+      "episode_id": "9b508c7e26313a2b3208a922c23c94460e9e4f0e164106944c9f711b876c0657",
+      "frame": 408,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/9b508c7e26313a2b3208a922c23c94460e9e4f0e164106944c9f711b876c0657-0442.pkl",
+      "sha256": "b7b1a6ea9a3d59b0cdb2a1093eae104846cc1e88e7b0e31554cfe31ef44b5ba6",
+      "episode_id": "9b508c7e26313a2b3208a922c23c94460e9e4f0e164106944c9f711b876c0657",
+      "frame": 442,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/9b508c7e26313a2b3208a922c23c94460e9e4f0e164106944c9f711b876c0657-0476.pkl",
+      "sha256": "2d5de3bd999ddfd74a0ab9f08d7e9bdda044a21d5951bf7f80086d310da031ee",
+      "episode_id": "9b508c7e26313a2b3208a922c23c94460e9e4f0e164106944c9f711b876c0657",
+      "frame": 476,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/9b508c7e26313a2b3208a922c23c94460e9e4f0e164106944c9f711b876c0657-0510.pkl",
+      "sha256": "607860964a5ae7f457e5825689a58e6e4336271d4fef6ad3b4a7773821577d9f",
+      "episode_id": "9b508c7e26313a2b3208a922c23c94460e9e4f0e164106944c9f711b876c0657",
+      "frame": 510,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/9b508c7e26313a2b3208a922c23c94460e9e4f0e164106944c9f711b876c0657-0545.pkl",
+      "sha256": "6b6d288f548be27548cbd583b40c9e691647388ae320f396aa160d34b074dbda",
+      "episode_id": "9b508c7e26313a2b3208a922c23c94460e9e4f0e164106944c9f711b876c0657",
+      "frame": 545,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/9b508c7e26313a2b3208a922c23c94460e9e4f0e164106944c9f711b876c0657-0579.pkl",
+      "sha256": "c534eeca8305bef3b274130cec4999c8077f96011463df4f982f77d98df88354",
+      "episode_id": "9b508c7e26313a2b3208a922c23c94460e9e4f0e164106944c9f711b876c0657",
+      "frame": 579,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/9b508c7e26313a2b3208a922c23c94460e9e4f0e164106944c9f711b876c0657-0613.pkl",
+      "sha256": "bc83d628f7284594cf18427ddeb1da6bfa2a1afd0507f79517e78b4bd9902408",
+      "episode_id": "9b508c7e26313a2b3208a922c23c94460e9e4f0e164106944c9f711b876c0657",
+      "frame": 613,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/9b508c7e26313a2b3208a922c23c94460e9e4f0e164106944c9f711b876c0657-0647.pkl",
+      "sha256": "a6f99cfd52593a79f6ddcde19bba8e1f13ee851f2d8a8619737af5b96450af43",
+      "episode_id": "9b508c7e26313a2b3208a922c23c94460e9e4f0e164106944c9f711b876c0657",
+      "frame": 647,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/9b508c7e26313a2b3208a922c23c94460e9e4f0e164106944c9f711b876c0657-0681.pkl",
+      "sha256": "b2f15f0f2b8471aeda61ad1f65858c58706c5b25ab76de6bbbe9a243a1ba045e",
+      "episode_id": "9b508c7e26313a2b3208a922c23c94460e9e4f0e164106944c9f711b876c0657",
+      "frame": 681,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/9b508c7e26313a2b3208a922c23c94460e9e4f0e164106944c9f711b876c0657-0715.pkl",
+      "sha256": "3c9b2b0bac585aa9ba9145921b75841414502fadd52ca0337b460e1be01017d1",
+      "episode_id": "9b508c7e26313a2b3208a922c23c94460e9e4f0e164106944c9f711b876c0657",
+      "frame": 715,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/9b508c7e26313a2b3208a922c23c94460e9e4f0e164106944c9f711b876c0657-0749.pkl",
+      "sha256": "34ea70649b09da7929d521dd169918160b5f2477a7c62f6c67d8ccbbd7a15d65",
+      "episode_id": "9b508c7e26313a2b3208a922c23c94460e9e4f0e164106944c9f711b876c0657",
+      "frame": 749,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/9b508c7e26313a2b3208a922c23c94460e9e4f0e164106944c9f711b876c0657-0783.pkl",
+      "sha256": "2649153bc6c3477617711b3cd6f2b39ba9738222f002004179d7e74b6230b01c",
+      "episode_id": "9b508c7e26313a2b3208a922c23c94460e9e4f0e164106944c9f711b876c0657",
+      "frame": 783,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/9b508c7e26313a2b3208a922c23c94460e9e4f0e164106944c9f711b876c0657-0817.pkl",
+      "sha256": "50ac95667d009a1eb6e64652464bd6e66ef42f9c8bc1f0a30e329bcc4e6671ed",
+      "episode_id": "9b508c7e26313a2b3208a922c23c94460e9e4f0e164106944c9f711b876c0657",
+      "frame": 817,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/9b508c7e26313a2b3208a922c23c94460e9e4f0e164106944c9f711b876c0657-0851.pkl",
+      "sha256": "02247c9c3b4f8c619757ef1323273ed483d830e0faedd8b0f49fe81ffaae0d63",
+      "episode_id": "9b508c7e26313a2b3208a922c23c94460e9e4f0e164106944c9f711b876c0657",
+      "frame": 851,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/9b508c7e26313a2b3208a922c23c94460e9e4f0e164106944c9f711b876c0657-0885.pkl",
+      "sha256": "473b089622221227fab045f30fc1999a1a211314d0aedba1eac6a6378937e9a4",
+      "episode_id": "9b508c7e26313a2b3208a922c23c94460e9e4f0e164106944c9f711b876c0657",
+      "frame": 885,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/9b508c7e26313a2b3208a922c23c94460e9e4f0e164106944c9f711b876c0657-0919.pkl",
+      "sha256": "4a3b1826b1130dab23225a89808ed99cb5ee93dd3e81fe49aede6d82cbdf0cf4",
+      "episode_id": "9b508c7e26313a2b3208a922c23c94460e9e4f0e164106944c9f711b876c0657",
+      "frame": 919,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/9b508c7e26313a2b3208a922c23c94460e9e4f0e164106944c9f711b876c0657-0953.pkl",
+      "sha256": "e2e0578e33b041df326ad3ed88a95c0aad3163b02a6a4dd6634e5c2516643894",
+      "episode_id": "9b508c7e26313a2b3208a922c23c94460e9e4f0e164106944c9f711b876c0657",
+      "frame": 953,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/9b508c7e26313a2b3208a922c23c94460e9e4f0e164106944c9f711b876c0657-0987.pkl",
+      "sha256": "15375857f5f5dd7b44d12f28c93439421514bb3f05800fbeae2fb9e22e741b94",
+      "episode_id": "9b508c7e26313a2b3208a922c23c94460e9e4f0e164106944c9f711b876c0657",
+      "frame": 987,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/9b508c7e26313a2b3208a922c23c94460e9e4f0e164106944c9f711b876c0657-1021.pkl",
+      "sha256": "28b87da24f90e66b2d5feda8d8216ae8356e2c541bb9d10e2784dc5c8fa59cc6",
+      "episode_id": "9b508c7e26313a2b3208a922c23c94460e9e4f0e164106944c9f711b876c0657",
+      "frame": 1021,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/9b508c7e26313a2b3208a922c23c94460e9e4f0e164106944c9f711b876c0657-1056.pkl",
+      "sha256": "9ed05d54eced7fce7872b2b8abb97521d21bdf9f390f2e88e329cd2f10764620",
+      "episode_id": "9b508c7e26313a2b3208a922c23c94460e9e4f0e164106944c9f711b876c0657",
+      "frame": 1056,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/a33a8791cc935192eeb4777865a52ee2b1ccb649544b30d86b43562184db4c9e-0000.pkl",
+      "sha256": "ede68b4ea9e40ce4f52a79a32cfdd562345e43f47426470edc6de092300fc150",
+      "episode_id": "a33a8791cc935192eeb4777865a52ee2b1ccb649544b30d86b43562184db4c9e",
+      "frame": 0,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/a33a8791cc935192eeb4777865a52ee2b1ccb649544b30d86b43562184db4c9e-0012.pkl",
+      "sha256": "75fd375ca8c2959d4596de61884ddd3bea6dee0749242d37d7187ef798be89b7",
+      "episode_id": "a33a8791cc935192eeb4777865a52ee2b1ccb649544b30d86b43562184db4c9e",
+      "frame": 12,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/a33a8791cc935192eeb4777865a52ee2b1ccb649544b30d86b43562184db4c9e-0024.pkl",
+      "sha256": "017c12f47537f0243ecf0beb504274f9cfaf0aeca02d09fbdef0f46e40753423",
+      "episode_id": "a33a8791cc935192eeb4777865a52ee2b1ccb649544b30d86b43562184db4c9e",
+      "frame": 24,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/a33a8791cc935192eeb4777865a52ee2b1ccb649544b30d86b43562184db4c9e-0036.pkl",
+      "sha256": "b32e004fa54c4f1c67986c542476a19e61414c747af4325e34817350fdcb4e6f",
+      "episode_id": "a33a8791cc935192eeb4777865a52ee2b1ccb649544b30d86b43562184db4c9e",
+      "frame": 36,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/a33a8791cc935192eeb4777865a52ee2b1ccb649544b30d86b43562184db4c9e-0048.pkl",
+      "sha256": "cf2a93aec7ffdfb27e0589247827934285313540810c251018c2d68940bc2fce",
+      "episode_id": "a33a8791cc935192eeb4777865a52ee2b1ccb649544b30d86b43562184db4c9e",
+      "frame": 48,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/a33a8791cc935192eeb4777865a52ee2b1ccb649544b30d86b43562184db4c9e-0060.pkl",
+      "sha256": "6273a759a4f1d9c1601ad5eedcafd697b82d28c79e60023bb252d121fd265b51",
+      "episode_id": "a33a8791cc935192eeb4777865a52ee2b1ccb649544b30d86b43562184db4c9e",
+      "frame": 60,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/a33a8791cc935192eeb4777865a52ee2b1ccb649544b30d86b43562184db4c9e-0072.pkl",
+      "sha256": "db53a51bfefa4953033210b5e52d54f1ac8fe3cecd44b43da4d9734d93895615",
+      "episode_id": "a33a8791cc935192eeb4777865a52ee2b1ccb649544b30d86b43562184db4c9e",
+      "frame": 72,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/a33a8791cc935192eeb4777865a52ee2b1ccb649544b30d86b43562184db4c9e-0084.pkl",
+      "sha256": "bd9b4cd322f98687eb9e79771e57bc89adfc012ece524dadd77bedca72fd1d62",
+      "episode_id": "a33a8791cc935192eeb4777865a52ee2b1ccb649544b30d86b43562184db4c9e",
+      "frame": 84,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/a33a8791cc935192eeb4777865a52ee2b1ccb649544b30d86b43562184db4c9e-0097.pkl",
+      "sha256": "8158101b1d40e14c8a3134a308fbb0629358eb5f9e4a75c8e77f123ca9b93418",
+      "episode_id": "a33a8791cc935192eeb4777865a52ee2b1ccb649544b30d86b43562184db4c9e",
+      "frame": 97,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/a33a8791cc935192eeb4777865a52ee2b1ccb649544b30d86b43562184db4c9e-0109.pkl",
+      "sha256": "8d81d03d7d524040096a92aa2844518294b0532af9ac71985efdf3d021b930e7",
+      "episode_id": "a33a8791cc935192eeb4777865a52ee2b1ccb649544b30d86b43562184db4c9e",
+      "frame": 109,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/a33a8791cc935192eeb4777865a52ee2b1ccb649544b30d86b43562184db4c9e-0121.pkl",
+      "sha256": "355dbf76b37506fcbc263b4e74bdf96d07018bcd65862f18c22771003eb4a2f6",
+      "episode_id": "a33a8791cc935192eeb4777865a52ee2b1ccb649544b30d86b43562184db4c9e",
+      "frame": 121,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/a33a8791cc935192eeb4777865a52ee2b1ccb649544b30d86b43562184db4c9e-0133.pkl",
+      "sha256": "ea674dd37fec4fbffcc634f881e5a95eb80403ab63133f1dcfaeab574b33dd51",
+      "episode_id": "a33a8791cc935192eeb4777865a52ee2b1ccb649544b30d86b43562184db4c9e",
+      "frame": 133,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/a33a8791cc935192eeb4777865a52ee2b1ccb649544b30d86b43562184db4c9e-0145.pkl",
+      "sha256": "04aaba51d06197729d4438ec0c5f85a55fcbdac685a3a7d6c824155dadf87ced",
+      "episode_id": "a33a8791cc935192eeb4777865a52ee2b1ccb649544b30d86b43562184db4c9e",
+      "frame": 145,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/a33a8791cc935192eeb4777865a52ee2b1ccb649544b30d86b43562184db4c9e-0157.pkl",
+      "sha256": "18b9126474cd5d2dd1b886b364e392bbac21a268351de01d34438578ff14811b",
+      "episode_id": "a33a8791cc935192eeb4777865a52ee2b1ccb649544b30d86b43562184db4c9e",
+      "frame": 157,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/a33a8791cc935192eeb4777865a52ee2b1ccb649544b30d86b43562184db4c9e-0169.pkl",
+      "sha256": "bc61e44cccf424cc444170e1eb5f27a8a6b634af3a44adf511c0cf0ef95add0d",
+      "episode_id": "a33a8791cc935192eeb4777865a52ee2b1ccb649544b30d86b43562184db4c9e",
+      "frame": 169,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/a33a8791cc935192eeb4777865a52ee2b1ccb649544b30d86b43562184db4c9e-0181.pkl",
+      "sha256": "1bfe43c2dea0bec1d3aa717e7f3dc39b2e807e4c9db19115737df93ec9bc283f",
+      "episode_id": "a33a8791cc935192eeb4777865a52ee2b1ccb649544b30d86b43562184db4c9e",
+      "frame": 181,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/a33a8791cc935192eeb4777865a52ee2b1ccb649544b30d86b43562184db4c9e-0194.pkl",
+      "sha256": "681c679a6919688b807f80f4c7821a07aaf9bfa1131e266702fd967053484c5b",
+      "episode_id": "a33a8791cc935192eeb4777865a52ee2b1ccb649544b30d86b43562184db4c9e",
+      "frame": 194,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/a33a8791cc935192eeb4777865a52ee2b1ccb649544b30d86b43562184db4c9e-0206.pkl",
+      "sha256": "7588780be4f3313d32e8710540d6af7bbff7fce086d29fb0449b39cad0cec754",
+      "episode_id": "a33a8791cc935192eeb4777865a52ee2b1ccb649544b30d86b43562184db4c9e",
+      "frame": 206,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/a33a8791cc935192eeb4777865a52ee2b1ccb649544b30d86b43562184db4c9e-0218.pkl",
+      "sha256": "d9a0133a8d90d675462050c07e18814ff9e14521bf9e8f431356a9a1096fe28e",
+      "episode_id": "a33a8791cc935192eeb4777865a52ee2b1ccb649544b30d86b43562184db4c9e",
+      "frame": 218,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/a33a8791cc935192eeb4777865a52ee2b1ccb649544b30d86b43562184db4c9e-0230.pkl",
+      "sha256": "bc98a4bf5c985e321c2f0c28f6d78160ec5f4dfb0e88dab4561dc0ef1a137b1f",
+      "episode_id": "a33a8791cc935192eeb4777865a52ee2b1ccb649544b30d86b43562184db4c9e",
+      "frame": 230,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/a33a8791cc935192eeb4777865a52ee2b1ccb649544b30d86b43562184db4c9e-0242.pkl",
+      "sha256": "cc49bdd05042559f334fc5fe5e1b507be2ea0442df828dde51dcec3b7c8affcd",
+      "episode_id": "a33a8791cc935192eeb4777865a52ee2b1ccb649544b30d86b43562184db4c9e",
+      "frame": 242,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/a33a8791cc935192eeb4777865a52ee2b1ccb649544b30d86b43562184db4c9e-0254.pkl",
+      "sha256": "c2cef1beaf38a92fb38e560f1a5c852979998ad1ba750b0311c529cbdcf361b6",
+      "episode_id": "a33a8791cc935192eeb4777865a52ee2b1ccb649544b30d86b43562184db4c9e",
+      "frame": 254,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/a33a8791cc935192eeb4777865a52ee2b1ccb649544b30d86b43562184db4c9e-0266.pkl",
+      "sha256": "53e56e45a86657220adf0e19d2301d994105fd760b40d4d9571e88099b3c38af",
+      "episode_id": "a33a8791cc935192eeb4777865a52ee2b1ccb649544b30d86b43562184db4c9e",
+      "frame": 266,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/a33a8791cc935192eeb4777865a52ee2b1ccb649544b30d86b43562184db4c9e-0278.pkl",
+      "sha256": "a3698cb87a49a49b46302d4d3f074b4ce5180c5502e735ce6e5a29795e0e960f",
+      "episode_id": "a33a8791cc935192eeb4777865a52ee2b1ccb649544b30d86b43562184db4c9e",
+      "frame": 278,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/a33a8791cc935192eeb4777865a52ee2b1ccb649544b30d86b43562184db4c9e-0291.pkl",
+      "sha256": "acbea1b7e6ef74ef59aa8b2caa76bfd0deb664585e5f085dd6ce7a2006bb33ea",
+      "episode_id": "a33a8791cc935192eeb4777865a52ee2b1ccb649544b30d86b43562184db4c9e",
+      "frame": 291,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/a33a8791cc935192eeb4777865a52ee2b1ccb649544b30d86b43562184db4c9e-0303.pkl",
+      "sha256": "9c02fc86beb02b5693abd7993c3a352adb11fbfd76951156925a7ccb618c1978",
+      "episode_id": "a33a8791cc935192eeb4777865a52ee2b1ccb649544b30d86b43562184db4c9e",
+      "frame": 303,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/a33a8791cc935192eeb4777865a52ee2b1ccb649544b30d86b43562184db4c9e-0315.pkl",
+      "sha256": "e2cd874c8cacd723a00ffdf51baa2aeffd9df284c2e85b630e47af1e4f9adec7",
+      "episode_id": "a33a8791cc935192eeb4777865a52ee2b1ccb649544b30d86b43562184db4c9e",
+      "frame": 315,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/a33a8791cc935192eeb4777865a52ee2b1ccb649544b30d86b43562184db4c9e-0327.pkl",
+      "sha256": "ed3f59b480fc6d5daed36c43761db51d32193d99f17e060a48fc16750192454a",
+      "episode_id": "a33a8791cc935192eeb4777865a52ee2b1ccb649544b30d86b43562184db4c9e",
+      "frame": 327,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/a33a8791cc935192eeb4777865a52ee2b1ccb649544b30d86b43562184db4c9e-0339.pkl",
+      "sha256": "63613f915ad159a1bea2dce6ff72940fd76a02bb34fa4f892549325f7d9d84b8",
+      "episode_id": "a33a8791cc935192eeb4777865a52ee2b1ccb649544b30d86b43562184db4c9e",
+      "frame": 339,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/a33a8791cc935192eeb4777865a52ee2b1ccb649544b30d86b43562184db4c9e-0351.pkl",
+      "sha256": "2b51abeef38c7d11aaf3eae1606910caa40a486b2a241c99030a17ee3d4248fd",
+      "episode_id": "a33a8791cc935192eeb4777865a52ee2b1ccb649544b30d86b43562184db4c9e",
+      "frame": 351,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/a33a8791cc935192eeb4777865a52ee2b1ccb649544b30d86b43562184db4c9e-0363.pkl",
+      "sha256": "e86c4c2182289aedc6714b9381530d581d2d650f67cc93c4167d98779ecf0563",
+      "episode_id": "a33a8791cc935192eeb4777865a52ee2b1ccb649544b30d86b43562184db4c9e",
+      "frame": 363,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/a33a8791cc935192eeb4777865a52ee2b1ccb649544b30d86b43562184db4c9e-0376.pkl",
+      "sha256": "5b1f6e0332b067ef657e17fae6e4ff9cf593d145e7118f51892bc86aa2afe1f9",
+      "episode_id": "a33a8791cc935192eeb4777865a52ee2b1ccb649544b30d86b43562184db4c9e",
+      "frame": 376,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/2ad4eac5de8c0d1f1d2e5467774c146625ada300e5fd5cbca35e67d3228ea3c1-0000.pkl",
+      "sha256": "46fd6e35ace7182a5c0fab6324e6cb0a13402f965302080f34da4f89a9cbd5ec",
+      "episode_id": "2ad4eac5de8c0d1f1d2e5467774c146625ada300e5fd5cbca35e67d3228ea3c1",
+      "frame": 0,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/2ad4eac5de8c0d1f1d2e5467774c146625ada300e5fd5cbca35e67d3228ea3c1-0011.pkl",
+      "sha256": "a2b5025b00e520283088385e49d0416cfec6f72925dff2e6f6fb0674f658d2ab",
+      "episode_id": "2ad4eac5de8c0d1f1d2e5467774c146625ada300e5fd5cbca35e67d3228ea3c1",
+      "frame": 11,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/2ad4eac5de8c0d1f1d2e5467774c146625ada300e5fd5cbca35e67d3228ea3c1-0023.pkl",
+      "sha256": "d8cc5aa41354e0d90b193c240fb5deeadd0004a41aed41ad1d6e7e425a28483c",
+      "episode_id": "2ad4eac5de8c0d1f1d2e5467774c146625ada300e5fd5cbca35e67d3228ea3c1",
+      "frame": 23,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/2ad4eac5de8c0d1f1d2e5467774c146625ada300e5fd5cbca35e67d3228ea3c1-0034.pkl",
+      "sha256": "3d84bc58decad755234e15150b004449fe8da0d5287a7406da43cec5c9bf423f",
+      "episode_id": "2ad4eac5de8c0d1f1d2e5467774c146625ada300e5fd5cbca35e67d3228ea3c1",
+      "frame": 34,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/2ad4eac5de8c0d1f1d2e5467774c146625ada300e5fd5cbca35e67d3228ea3c1-0046.pkl",
+      "sha256": "ace55530570aaf2e67252b12851431b4d3b7034adf08b3862f7c05818421658d",
+      "episode_id": "2ad4eac5de8c0d1f1d2e5467774c146625ada300e5fd5cbca35e67d3228ea3c1",
+      "frame": 46,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/2ad4eac5de8c0d1f1d2e5467774c146625ada300e5fd5cbca35e67d3228ea3c1-0057.pkl",
+      "sha256": "c752787178a254a0d9a70671418956f366d5ded64cebf1ad5ada33d182b780b1",
+      "episode_id": "2ad4eac5de8c0d1f1d2e5467774c146625ada300e5fd5cbca35e67d3228ea3c1",
+      "frame": 57,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/2ad4eac5de8c0d1f1d2e5467774c146625ada300e5fd5cbca35e67d3228ea3c1-0069.pkl",
+      "sha256": "6c1f6496a4153f7bf1ba99a1f88d9e1196aa814ca5a9c190da175c52266daaaf",
+      "episode_id": "2ad4eac5de8c0d1f1d2e5467774c146625ada300e5fd5cbca35e67d3228ea3c1",
+      "frame": 69,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/2ad4eac5de8c0d1f1d2e5467774c146625ada300e5fd5cbca35e67d3228ea3c1-0081.pkl",
+      "sha256": "7b9cd733e3a48b619792e67e8f3f62932c36c1ba88159bf6bf24358e524f8332",
+      "episode_id": "2ad4eac5de8c0d1f1d2e5467774c146625ada300e5fd5cbca35e67d3228ea3c1",
+      "frame": 81,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/2ad4eac5de8c0d1f1d2e5467774c146625ada300e5fd5cbca35e67d3228ea3c1-0092.pkl",
+      "sha256": "2868c992f99f50f55f491f60cf126f2f6f0f87a62b9633d7497543f581df9f38",
+      "episode_id": "2ad4eac5de8c0d1f1d2e5467774c146625ada300e5fd5cbca35e67d3228ea3c1",
+      "frame": 92,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/2ad4eac5de8c0d1f1d2e5467774c146625ada300e5fd5cbca35e67d3228ea3c1-0104.pkl",
+      "sha256": "2fab309ec607ee229149212aecae25ac63d4bbfdf5e696a4dba338c2e3839bd6",
+      "episode_id": "2ad4eac5de8c0d1f1d2e5467774c146625ada300e5fd5cbca35e67d3228ea3c1",
+      "frame": 104,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/2ad4eac5de8c0d1f1d2e5467774c146625ada300e5fd5cbca35e67d3228ea3c1-0115.pkl",
+      "sha256": "923192d9f82475b9434f7e8b4215f1cdf7103aee67d2818fc32ce950772c4f51",
+      "episode_id": "2ad4eac5de8c0d1f1d2e5467774c146625ada300e5fd5cbca35e67d3228ea3c1",
+      "frame": 115,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/2ad4eac5de8c0d1f1d2e5467774c146625ada300e5fd5cbca35e67d3228ea3c1-0127.pkl",
+      "sha256": "a8f9ff0af1434ed5708e9fe5325a57c43860973e9a9ed4246d5ebf3202106b14",
+      "episode_id": "2ad4eac5de8c0d1f1d2e5467774c146625ada300e5fd5cbca35e67d3228ea3c1",
+      "frame": 127,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/2ad4eac5de8c0d1f1d2e5467774c146625ada300e5fd5cbca35e67d3228ea3c1-0138.pkl",
+      "sha256": "fd98865be22ad078fd90567d8643a6ccb6e19394e444bfd943a159fdc461e8fd",
+      "episode_id": "2ad4eac5de8c0d1f1d2e5467774c146625ada300e5fd5cbca35e67d3228ea3c1",
+      "frame": 138,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/2ad4eac5de8c0d1f1d2e5467774c146625ada300e5fd5cbca35e67d3228ea3c1-0150.pkl",
+      "sha256": "556e1f7b9d60705e92230ab9a8318c4b571b5577f78ee5582ff377b1b57ab0ec",
+      "episode_id": "2ad4eac5de8c0d1f1d2e5467774c146625ada300e5fd5cbca35e67d3228ea3c1",
+      "frame": 150,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/2ad4eac5de8c0d1f1d2e5467774c146625ada300e5fd5cbca35e67d3228ea3c1-0162.pkl",
+      "sha256": "a36e38b866a429829a800339e53edce0ce79439d532e54fb88ddc629a39208c1",
+      "episode_id": "2ad4eac5de8c0d1f1d2e5467774c146625ada300e5fd5cbca35e67d3228ea3c1",
+      "frame": 162,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/2ad4eac5de8c0d1f1d2e5467774c146625ada300e5fd5cbca35e67d3228ea3c1-0173.pkl",
+      "sha256": "709e63c2ef895f176b88bec90933d6e9676312c3e12c44b7df24b3132c9753e1",
+      "episode_id": "2ad4eac5de8c0d1f1d2e5467774c146625ada300e5fd5cbca35e67d3228ea3c1",
+      "frame": 173,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/2ad4eac5de8c0d1f1d2e5467774c146625ada300e5fd5cbca35e67d3228ea3c1-0185.pkl",
+      "sha256": "1bde7742a84952f4fb563a5c9f20bac991424b74df7400ddf97970a25c000479",
+      "episode_id": "2ad4eac5de8c0d1f1d2e5467774c146625ada300e5fd5cbca35e67d3228ea3c1",
+      "frame": 185,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/2ad4eac5de8c0d1f1d2e5467774c146625ada300e5fd5cbca35e67d3228ea3c1-0196.pkl",
+      "sha256": "7705871148346358e7b3b664b9e04aaa047ed972cb5fe42b522a39a8c015018e",
+      "episode_id": "2ad4eac5de8c0d1f1d2e5467774c146625ada300e5fd5cbca35e67d3228ea3c1",
+      "frame": 196,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/2ad4eac5de8c0d1f1d2e5467774c146625ada300e5fd5cbca35e67d3228ea3c1-0208.pkl",
+      "sha256": "d1697cfa20417c5b5c7fe56f1a40db3399d5b8c0676cef10fdd68366d0ff2309",
+      "episode_id": "2ad4eac5de8c0d1f1d2e5467774c146625ada300e5fd5cbca35e67d3228ea3c1",
+      "frame": 208,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/2ad4eac5de8c0d1f1d2e5467774c146625ada300e5fd5cbca35e67d3228ea3c1-0220.pkl",
+      "sha256": "6288a4778f269da77db80518545c3c1bed265018fca49a6b8d6b2dc882cd8c74",
+      "episode_id": "2ad4eac5de8c0d1f1d2e5467774c146625ada300e5fd5cbca35e67d3228ea3c1",
+      "frame": 220,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/2ad4eac5de8c0d1f1d2e5467774c146625ada300e5fd5cbca35e67d3228ea3c1-0231.pkl",
+      "sha256": "f84cce91a9283696698af0b3f8539c6a80d5f44affcea6862ac59a968b22d503",
+      "episode_id": "2ad4eac5de8c0d1f1d2e5467774c146625ada300e5fd5cbca35e67d3228ea3c1",
+      "frame": 231,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/2ad4eac5de8c0d1f1d2e5467774c146625ada300e5fd5cbca35e67d3228ea3c1-0243.pkl",
+      "sha256": "71ca3c483680ce2d6fa79f9c05f2a6026ac9390b140d682eafeb79cf8e80894a",
+      "episode_id": "2ad4eac5de8c0d1f1d2e5467774c146625ada300e5fd5cbca35e67d3228ea3c1",
+      "frame": 243,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/2ad4eac5de8c0d1f1d2e5467774c146625ada300e5fd5cbca35e67d3228ea3c1-0254.pkl",
+      "sha256": "6820317554151f83b99f609fa10cd33703c016c3fcf320a26312c215fa370887",
+      "episode_id": "2ad4eac5de8c0d1f1d2e5467774c146625ada300e5fd5cbca35e67d3228ea3c1",
+      "frame": 254,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/2ad4eac5de8c0d1f1d2e5467774c146625ada300e5fd5cbca35e67d3228ea3c1-0266.pkl",
+      "sha256": "c2e46250bbd636e9a6b8f4a5c1d880ddb80b0f529b0e1a53fb4e7b69638d9369",
+      "episode_id": "2ad4eac5de8c0d1f1d2e5467774c146625ada300e5fd5cbca35e67d3228ea3c1",
+      "frame": 266,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/2ad4eac5de8c0d1f1d2e5467774c146625ada300e5fd5cbca35e67d3228ea3c1-0277.pkl",
+      "sha256": "00d950b833994a3e8dcfb457be87ae6091f354235d4b67e5a18e3f33f74c918f",
+      "episode_id": "2ad4eac5de8c0d1f1d2e5467774c146625ada300e5fd5cbca35e67d3228ea3c1",
+      "frame": 277,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/2ad4eac5de8c0d1f1d2e5467774c146625ada300e5fd5cbca35e67d3228ea3c1-0289.pkl",
+      "sha256": "cadee0d0416066e7c0e4839ca747dd668435bfb14ae387763f9e04b7a2094e03",
+      "episode_id": "2ad4eac5de8c0d1f1d2e5467774c146625ada300e5fd5cbca35e67d3228ea3c1",
+      "frame": 289,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/2ad4eac5de8c0d1f1d2e5467774c146625ada300e5fd5cbca35e67d3228ea3c1-0301.pkl",
+      "sha256": "cb3190e6d0bcb6c19515fd6bf9e77b84da7487154a94a45ee82f921188f962cc",
+      "episode_id": "2ad4eac5de8c0d1f1d2e5467774c146625ada300e5fd5cbca35e67d3228ea3c1",
+      "frame": 301,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/2ad4eac5de8c0d1f1d2e5467774c146625ada300e5fd5cbca35e67d3228ea3c1-0312.pkl",
+      "sha256": "adbcd101ecba068d8dfb9096569da50350ee07985f4b49fa1f314ba4ca079e60",
+      "episode_id": "2ad4eac5de8c0d1f1d2e5467774c146625ada300e5fd5cbca35e67d3228ea3c1",
+      "frame": 312,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/2ad4eac5de8c0d1f1d2e5467774c146625ada300e5fd5cbca35e67d3228ea3c1-0324.pkl",
+      "sha256": "ea091bf54977d14409bc79823652cb733a17c0df5c0fd4bb79fa662a5a033565",
+      "episode_id": "2ad4eac5de8c0d1f1d2e5467774c146625ada300e5fd5cbca35e67d3228ea3c1",
+      "frame": 324,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/2ad4eac5de8c0d1f1d2e5467774c146625ada300e5fd5cbca35e67d3228ea3c1-0335.pkl",
+      "sha256": "f14aecc0be932043fef06263f0428cd10b40e4ae9fe4718a5f52387e87b0e986",
+      "episode_id": "2ad4eac5de8c0d1f1d2e5467774c146625ada300e5fd5cbca35e67d3228ea3c1",
+      "frame": 335,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/2ad4eac5de8c0d1f1d2e5467774c146625ada300e5fd5cbca35e67d3228ea3c1-0347.pkl",
+      "sha256": "ada9087ac7d258fe093f7cf564d48786c18da80e5cbc831ef815a8dc3d8e4aa6",
+      "episode_id": "2ad4eac5de8c0d1f1d2e5467774c146625ada300e5fd5cbca35e67d3228ea3c1",
+      "frame": 347,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/2ad4eac5de8c0d1f1d2e5467774c146625ada300e5fd5cbca35e67d3228ea3c1-0359.pkl",
+      "sha256": "9c7bb0065fb4a3f7ecff781329a5bb317fab4b383b135a862e6d7ab927c2a22f",
+      "episode_id": "2ad4eac5de8c0d1f1d2e5467774c146625ada300e5fd5cbca35e67d3228ea3c1",
+      "frame": 359,
+      "task": "pnp_sink_to_counter",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/fdc37ac8d7c7198ecf1f2c899d923924e188517f289f90c27297982dfed5ee89-0000.pkl",
+      "sha256": "b5c817c0820b7f92fda2f7dd0c5ef417de6d5f6eb22276dc4e6df75caf7afdbe",
+      "episode_id": "fdc37ac8d7c7198ecf1f2c899d923924e188517f289f90c27297982dfed5ee89",
+      "frame": 0,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/fdc37ac8d7c7198ecf1f2c899d923924e188517f289f90c27297982dfed5ee89-0012.pkl",
+      "sha256": "9d6ec8211e510625e81270449aeea1754559d264fd7a9d6db7edd70215ce6905",
+      "episode_id": "fdc37ac8d7c7198ecf1f2c899d923924e188517f289f90c27297982dfed5ee89",
+      "frame": 12,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/fdc37ac8d7c7198ecf1f2c899d923924e188517f289f90c27297982dfed5ee89-0024.pkl",
+      "sha256": "077c286efaab570991efbca06b911739cc448b13c56b3c205043a6c8d721b65a",
+      "episode_id": "fdc37ac8d7c7198ecf1f2c899d923924e188517f289f90c27297982dfed5ee89",
+      "frame": 24,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/fdc37ac8d7c7198ecf1f2c899d923924e188517f289f90c27297982dfed5ee89-0036.pkl",
+      "sha256": "a6fba877336ea229df28f844c033413e00ceff2e791952d60749ba429f1847cc",
+      "episode_id": "fdc37ac8d7c7198ecf1f2c899d923924e188517f289f90c27297982dfed5ee89",
+      "frame": 36,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/fdc37ac8d7c7198ecf1f2c899d923924e188517f289f90c27297982dfed5ee89-0049.pkl",
+      "sha256": "9433519883defd5d092735216d107756db3d447a75aafb87cb3efedd3483dcdd",
+      "episode_id": "fdc37ac8d7c7198ecf1f2c899d923924e188517f289f90c27297982dfed5ee89",
+      "frame": 49,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/fdc37ac8d7c7198ecf1f2c899d923924e188517f289f90c27297982dfed5ee89-0061.pkl",
+      "sha256": "a738161b8f2b1dc032a0e7b92c79fdbb246f83e034667d3180caea521d0e48bf",
+      "episode_id": "fdc37ac8d7c7198ecf1f2c899d923924e188517f289f90c27297982dfed5ee89",
+      "frame": 61,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/fdc37ac8d7c7198ecf1f2c899d923924e188517f289f90c27297982dfed5ee89-0073.pkl",
+      "sha256": "1920d10738d9a8f4ad079139da4aee998c85a39af5e1173c2689a805cb9a2218",
+      "episode_id": "fdc37ac8d7c7198ecf1f2c899d923924e188517f289f90c27297982dfed5ee89",
+      "frame": 73,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/fdc37ac8d7c7198ecf1f2c899d923924e188517f289f90c27297982dfed5ee89-0085.pkl",
+      "sha256": "f2461e89f9498b55203f586ee814d235cdeb4442a3643e584a9fb5a6a2bdb4fc",
+      "episode_id": "fdc37ac8d7c7198ecf1f2c899d923924e188517f289f90c27297982dfed5ee89",
+      "frame": 85,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/fdc37ac8d7c7198ecf1f2c899d923924e188517f289f90c27297982dfed5ee89-0098.pkl",
+      "sha256": "7bb652b7ae29498e7b9f077fd5a2868fa58654bb439adcf7e3f809a287450556",
+      "episode_id": "fdc37ac8d7c7198ecf1f2c899d923924e188517f289f90c27297982dfed5ee89",
+      "frame": 98,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/fdc37ac8d7c7198ecf1f2c899d923924e188517f289f90c27297982dfed5ee89-0110.pkl",
+      "sha256": "40c6f3232723df2082f7f3a8bdaaf2740037f36fe41b99a62491b372d2a18735",
+      "episode_id": "fdc37ac8d7c7198ecf1f2c899d923924e188517f289f90c27297982dfed5ee89",
+      "frame": 110,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/fdc37ac8d7c7198ecf1f2c899d923924e188517f289f90c27297982dfed5ee89-0122.pkl",
+      "sha256": "2f02541e7726666ddc5d67321424536d473b57c7f19a9f7e02825624c488f562",
+      "episode_id": "fdc37ac8d7c7198ecf1f2c899d923924e188517f289f90c27297982dfed5ee89",
+      "frame": 122,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/fdc37ac8d7c7198ecf1f2c899d923924e188517f289f90c27297982dfed5ee89-0134.pkl",
+      "sha256": "6b874671da1632fd2d8cf5cd0cedbe9b9caa08ba2a3cf435eb893acba448b156",
+      "episode_id": "fdc37ac8d7c7198ecf1f2c899d923924e188517f289f90c27297982dfed5ee89",
+      "frame": 134,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/fdc37ac8d7c7198ecf1f2c899d923924e188517f289f90c27297982dfed5ee89-0147.pkl",
+      "sha256": "96678deaa012e5248a060d01cdc2f522dd646f0bceabd9b74e413c3187cc14c5",
+      "episode_id": "fdc37ac8d7c7198ecf1f2c899d923924e188517f289f90c27297982dfed5ee89",
+      "frame": 147,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/fdc37ac8d7c7198ecf1f2c899d923924e188517f289f90c27297982dfed5ee89-0159.pkl",
+      "sha256": "80cc02f15b6038252d4927265887c643d72836d018a0bacb48baba62863b6931",
+      "episode_id": "fdc37ac8d7c7198ecf1f2c899d923924e188517f289f90c27297982dfed5ee89",
+      "frame": 159,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/fdc37ac8d7c7198ecf1f2c899d923924e188517f289f90c27297982dfed5ee89-0171.pkl",
+      "sha256": "714695a31a4de631f51adf5ac902133b22e1314734c57be868306ec4d85499b5",
+      "episode_id": "fdc37ac8d7c7198ecf1f2c899d923924e188517f289f90c27297982dfed5ee89",
+      "frame": 171,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/fdc37ac8d7c7198ecf1f2c899d923924e188517f289f90c27297982dfed5ee89-0183.pkl",
+      "sha256": "f76bd2f68cc3572325c022341f0dd341d4b907ae53b00d0cc9285ed027a1f3ad",
+      "episode_id": "fdc37ac8d7c7198ecf1f2c899d923924e188517f289f90c27297982dfed5ee89",
+      "frame": 183,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/fdc37ac8d7c7198ecf1f2c899d923924e188517f289f90c27297982dfed5ee89-0196.pkl",
+      "sha256": "65319e9df4553cc177bbd082e0a3f32f1edad4d30d8956b273c922d2c3fc6bed",
+      "episode_id": "fdc37ac8d7c7198ecf1f2c899d923924e188517f289f90c27297982dfed5ee89",
+      "frame": 196,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/fdc37ac8d7c7198ecf1f2c899d923924e188517f289f90c27297982dfed5ee89-0208.pkl",
+      "sha256": "56b331bc5e82ab69b9618cfea09235ec925372b9578cdb1c1d14901295e65d1a",
+      "episode_id": "fdc37ac8d7c7198ecf1f2c899d923924e188517f289f90c27297982dfed5ee89",
+      "frame": 208,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/fdc37ac8d7c7198ecf1f2c899d923924e188517f289f90c27297982dfed5ee89-0220.pkl",
+      "sha256": "2ff2ce0e2a73384a77455ade7bee53fe6fabb53195d1a650d2889da6dc8aafc9",
+      "episode_id": "fdc37ac8d7c7198ecf1f2c899d923924e188517f289f90c27297982dfed5ee89",
+      "frame": 220,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/fdc37ac8d7c7198ecf1f2c899d923924e188517f289f90c27297982dfed5ee89-0232.pkl",
+      "sha256": "c0c8cbb279e7f9d514ce350618a1bc020492f4fb5daa38aa45f0d7290a77fc8f",
+      "episode_id": "fdc37ac8d7c7198ecf1f2c899d923924e188517f289f90c27297982dfed5ee89",
+      "frame": 232,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/fdc37ac8d7c7198ecf1f2c899d923924e188517f289f90c27297982dfed5ee89-0245.pkl",
+      "sha256": "f5fbda896480d5446b7ccc9f84d2f45b9ad696ac2ae6ef8b712c2a121718aafb",
+      "episode_id": "fdc37ac8d7c7198ecf1f2c899d923924e188517f289f90c27297982dfed5ee89",
+      "frame": 245,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/fdc37ac8d7c7198ecf1f2c899d923924e188517f289f90c27297982dfed5ee89-0257.pkl",
+      "sha256": "82eab2147e64e736ec0f8695d02f8d958904664124d075a9bb1eaee423f5b4fb",
+      "episode_id": "fdc37ac8d7c7198ecf1f2c899d923924e188517f289f90c27297982dfed5ee89",
+      "frame": 257,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/fdc37ac8d7c7198ecf1f2c899d923924e188517f289f90c27297982dfed5ee89-0269.pkl",
+      "sha256": "4d43e6380255c540e6783bd396a09300a627d01b4312eca23485b468e4a36547",
+      "episode_id": "fdc37ac8d7c7198ecf1f2c899d923924e188517f289f90c27297982dfed5ee89",
+      "frame": 269,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/fdc37ac8d7c7198ecf1f2c899d923924e188517f289f90c27297982dfed5ee89-0281.pkl",
+      "sha256": "5661de21fd66055471dc85f89398c9de3aad48b5463620d6732502c6d6815c37",
+      "episode_id": "fdc37ac8d7c7198ecf1f2c899d923924e188517f289f90c27297982dfed5ee89",
+      "frame": 281,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/fdc37ac8d7c7198ecf1f2c899d923924e188517f289f90c27297982dfed5ee89-0294.pkl",
+      "sha256": "e400dbbc417cae557be085981b51756bf264e28599ce8dcf43db8611b5f85461",
+      "episode_id": "fdc37ac8d7c7198ecf1f2c899d923924e188517f289f90c27297982dfed5ee89",
+      "frame": 294,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/fdc37ac8d7c7198ecf1f2c899d923924e188517f289f90c27297982dfed5ee89-0306.pkl",
+      "sha256": "41f3fe4d89c142312ea2741ac3733d9b846bf96a831d6412fbd9bd1b89e0d617",
+      "episode_id": "fdc37ac8d7c7198ecf1f2c899d923924e188517f289f90c27297982dfed5ee89",
+      "frame": 306,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/fdc37ac8d7c7198ecf1f2c899d923924e188517f289f90c27297982dfed5ee89-0318.pkl",
+      "sha256": "7207d2160451fb402b2db5eebb8b4f7737923f3e90aa3d7aa75571ad209566ab",
+      "episode_id": "fdc37ac8d7c7198ecf1f2c899d923924e188517f289f90c27297982dfed5ee89",
+      "frame": 318,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/fdc37ac8d7c7198ecf1f2c899d923924e188517f289f90c27297982dfed5ee89-0330.pkl",
+      "sha256": "625dca449f86d8ae0c73b74c2621f636af98a26a6d82ca6b5722ad2fd64d5eed",
+      "episode_id": "fdc37ac8d7c7198ecf1f2c899d923924e188517f289f90c27297982dfed5ee89",
+      "frame": 330,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/fdc37ac8d7c7198ecf1f2c899d923924e188517f289f90c27297982dfed5ee89-0343.pkl",
+      "sha256": "7fec8114acbcf088ed4e3e10a5f48cd7773fd31490836ef8c1716c6f621e7e4d",
+      "episode_id": "fdc37ac8d7c7198ecf1f2c899d923924e188517f289f90c27297982dfed5ee89",
+      "frame": 343,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/fdc37ac8d7c7198ecf1f2c899d923924e188517f289f90c27297982dfed5ee89-0355.pkl",
+      "sha256": "a970f70d542f92bd17ad0cfb756593dc5d404c9e6dd3b845f37870537c6b5a66",
+      "episode_id": "fdc37ac8d7c7198ecf1f2c899d923924e188517f289f90c27297982dfed5ee89",
+      "frame": 355,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/fdc37ac8d7c7198ecf1f2c899d923924e188517f289f90c27297982dfed5ee89-0367.pkl",
+      "sha256": "06401d77d8682dd16e8b810c861cdcf9395714cd6b675790396517cf7dc840a8",
+      "episode_id": "fdc37ac8d7c7198ecf1f2c899d923924e188517f289f90c27297982dfed5ee89",
+      "frame": 367,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/validation_target/fdc37ac8d7c7198ecf1f2c899d923924e188517f289f90c27297982dfed5ee89-0380.pkl",
+      "sha256": "3fdb88cb9ca35df4fb49576296ba58fefcb8fb469062b2dbd2547f9f28e4c54f",
+      "episode_id": "fdc37ac8d7c7198ecf1f2c899d923924e188517f289f90c27297982dfed5ee89",
+      "frame": 380,
+      "task": "pnp_counter_to_sink",
+      "role": "FIXED_OFFLINE_VALIDATION_NOT_PHYSICAL_TEST"
+    }
+  ]
+}

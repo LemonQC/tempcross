@@ -1,0 +1,7 @@
+{
+  "phase": "DISCARDED_ACCUMULATION_PROBE",
+  "formal_optimizer_updates": 0,
+  "error": "Bare PEFT forward received CPU images while base convolution was BF16 on CUDA; corrected explicit device transfer in the new wrapper. Original upstream batch8 resource probe had passed through DDP input transfer.",
+  "log": "/home/users/lemon/barx-target-adaptation-20261110/accumulation-probe.log",
+  "attempt_preserved": true
+}

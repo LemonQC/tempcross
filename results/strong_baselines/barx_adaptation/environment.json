@@ -1,0 +1,19 @@
+{
+  "gpu_snapshot": "NVIDIA GeForce RTX 3090, 24576 MiB, 601 MiB, 535.230.02",
+  "host_ram_snapshot": "              总计         已用        空闲      共享    缓冲/缓存    可用\n内存： 67183497216  9054756864 13126561792    18808832 45002178560 57362837504\n交换：  2147479552  2147475456        4096\n",
+  "resource_probe_completed": true,
+  "accumulation_probe_completed": true,
+  "training_data_probe_completed": true,
+  "old_offline_validation_cells": 6,
+  "formal_updates_at_freeze": 0,
+  "python": "3.10.22 (main, Oct  1 2026, 20:14:04) [GCC 14.3.0]",
+  "packages": {
+    "torch": "2.2.0+cu121",
+    "transformers": "4.40.1",
+    "peft": "0.11.1",
+    "tensorflow": "2.15.0",
+    "h5py": "3.13.0",
+    "timm": "0.9.10",
+    "safetensors": "0.5.3"
+  }
+}

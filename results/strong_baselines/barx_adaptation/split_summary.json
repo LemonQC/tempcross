@@ -1,0 +1,135 @@
+{
+  "split_rule": "Reuse unchanged frozen baseline episode split: SHA256(20261109:episode_id), per task/embodiment lowest 10% held out",
+  "no_frame_level_split": true,
+  "target_train": 90,
+  "target_validation": 10,
+  "source_train": 1620,
+  "source_validation": 180,
+  "source_prior_contains_existing_iiwa_kinova3_ur5e": true,
+  "target_validation_seen_by_old_P3_adapter": true,
+  "pretraining_source_validation_not_unseen_to_original_prior": true,
+  "counts": [
+    {
+      "domain": "source",
+      "robot": "iiwa",
+      "task": "pnp_counter_to_sink",
+      "split": "train",
+      "episodes": 270
+    },
+    {
+      "domain": "source",
+      "robot": "iiwa",
+      "task": "pnp_counter_to_sink",
+      "split": "validation",
+      "episodes": 30
+    },
+    {
+      "domain": "source",
+      "robot": "iiwa",
+      "task": "pnp_sink_to_counter",
+      "split": "train",
+      "episodes": 270
+    },
+    {
+      "domain": "source",
+      "robot": "iiwa",
+      "task": "pnp_sink_to_counter",
+      "split": "validation",
+      "episodes": 30
+    },
+    {
+      "domain": "source",
+      "robot": "kinova3",
+      "task": "pnp_counter_to_sink",
+      "split": "train",
+      "episodes": 270
+    },
+    {
+      "domain": "source",
+      "robot": "kinova3",
+      "task": "pnp_counter_to_sink",
+      "split": "validation",
+      "episodes": 30
+    },
+    {
+      "domain": "source",
+      "robot": "kinova3",
+      "task": "pnp_sink_to_counter",
+      "split": "train",
+      "episodes": 270
+    },
+    {
+      "domain": "source",
+      "robot": "kinova3",
+      "task": "pnp_sink_to_counter",
+      "split": "validation",
+      "episodes": 30
+    },
+    {
+      "domain": "source",
+      "robot": "ur5e",
+      "task": "pnp_counter_to_sink",
+      "split": "train",
+      "episodes": 270
+    },
+    {
+      "domain": "source",
+      "robot": "ur5e",
+      "task": "pnp_counter_to_sink",
+      "split": "validation",
+      "episodes": 30
+    },
+    {
+      "domain": "source",
+      "robot": "ur5e",
+      "task": "pnp_sink_to_counter",
+      "split": "train",
+      "episodes": 270
+    },
+    {
+      "domain": "source",
+      "robot": "ur5e",
+      "task": "pnp_sink_to_counter",
+      "split": "validation",
+      "episodes": 30
+    },
+    {
+      "domain": "target",
+      "robot": "panda",
+      "task": "pnp_counter_to_sink",
+      "split": "train",
+      "episodes": 45
+    },
+    {
+      "domain": "target",
+      "robot": "panda",
+      "task": "pnp_counter_to_sink",
+      "split": "validation",
+      "episodes": 5
+    },
+    {
+      "domain": "target",
+      "robot": "panda",
+      "task": "pnp_sink_to_counter",
+      "split": "train",
+      "episodes": 45
+    },
+    {
+      "domain": "target",
+      "robot": "panda",
+      "task": "pnp_sink_to_counter",
+      "split": "validation",
+      "episodes": 5
+    }
+  ],
+  "original_manifests": [
+    {
+      "path": "/home/users/lemon/CodexProject/tempcross/configs/datasets/baseline_source_manifest.json",
+      "sha256": "fa913dc702e85e4da7ac364609dc714c5cd901b1751480628a1f167efd244298"
+    },
+    {
+      "path": "/home/users/lemon/CodexProject/tempcross/configs/datasets/baseline_target_manifest.json",
+      "sha256": "ad8c4c7a878e0096a612266674507314c1385c1b0af25b1496df363e11ca4cb5"
+    }
+  ]
+}

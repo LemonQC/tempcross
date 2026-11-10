@@ -1,0 +1,152 @@
+[
+  {
+    "step": 0,
+    "tag": "validation_target",
+    "samples": 320,
+    "per_task": {
+      "pnp_counter_to_sink": {
+        "response_nll": 6.387327299697467,
+        "response_token_accuracy": 0.2972222222222222,
+        "supervised_tokens": 1440
+      },
+      "pnp_sink_to_counter": {
+        "response_nll": 6.586303589182595,
+        "response_token_accuracy": 0.3159722222222222,
+        "supervised_tokens": 1440
+      }
+    },
+    "macro_task_response_nll": 6.486815444440031,
+    "metric": "TEACHER_FORCED_ACTION_RESPONSE_INCLUDING_STOP_TOKENS_NOT_PHYSICAL_SUCCESS",
+    "episode_disjoint_from_new_training": true,
+    "model_label": "original_joint",
+    "checkpoint": "/home/users/lemon/coft-p2/artifacts/runs/joint_reps/checkpoints/step-050000-epoch-15-loss=0.2577.pt",
+    "checkpoint_sha256": "ffce76802a8e75d4806b30dee43624accf2c4de4213c17059457e34a8243efce",
+    "validation_index_sha256": "b55c0055fbaee4670764b9e2cedbd5083605113a7bf0709fad0f5715fb9aafaa",
+    "validation_exposure": "SEE_RECIPE_AUDIT_OLD_ADAPTERS_MAY_HAVE_SEEN_THESE_EPISODES"
+  },
+  {
+    "step": 0,
+    "tag": "validation_source_ur5e",
+    "samples": 240,
+    "per_task": {
+      "pnp_counter_to_sink": {
+        "response_nll": 0.29220603907791276,
+        "response_token_accuracy": 0.9296296296296296,
+        "supervised_tokens": 1080
+      },
+      "pnp_sink_to_counter": {
+        "response_nll": 0.26765161277208893,
+        "response_token_accuracy": 0.9333333333333333,
+        "supervised_tokens": 1080
+      }
+    },
+    "macro_task_response_nll": 0.27992882592500085,
+    "metric": "TEACHER_FORCED_ACTION_RESPONSE_INCLUDING_STOP_TOKENS_NOT_PHYSICAL_SUCCESS",
+    "episode_disjoint_from_new_training": true,
+    "model_label": "original_joint",
+    "checkpoint": "/home/users/lemon/coft-p2/artifacts/runs/joint_reps/checkpoints/step-050000-epoch-15-loss=0.2577.pt",
+    "checkpoint_sha256": "ffce76802a8e75d4806b30dee43624accf2c4de4213c17059457e34a8243efce",
+    "validation_index_sha256": "d8e448ebc82f9396457af0dadf1c34945599fcce73cc4687d1051120e474c4b7",
+    "validation_exposure": "SEE_RECIPE_AUDIT_OLD_ADAPTERS_MAY_HAVE_SEEN_THESE_EPISODES"
+  },
+  {
+    "step": 0,
+    "tag": "validation_target",
+    "samples": 320,
+    "per_task": {
+      "pnp_counter_to_sink": {
+        "response_nll": 3.569249609599097,
+        "response_token_accuracy": 0.33958333333333335,
+        "supervised_tokens": 1440
+      },
+      "pnp_sink_to_counter": {
+        "response_nll": 3.5628185007307263,
+        "response_token_accuracy": 0.35625,
+        "supervised_tokens": 1440
+      }
+    },
+    "macro_task_response_nll": 3.566034055164912,
+    "metric": "TEACHER_FORCED_ACTION_RESPONSE_INCLUDING_STOP_TOKENS_NOT_PHYSICAL_SUCCESS",
+    "episode_disjoint_from_new_training": true,
+    "model_label": "restricted_joint_6000",
+    "checkpoint": "/home/users/lemon/coft-p2/p2/physical-20261108/adapted-checkpoints/joint_reps/checkpoints/step-003000-epoch-00-loss=restricted.pt",
+    "checkpoint_sha256": "27a739ce465cde466f228c96f86e9a239ebd7ac095508ecf6e2f373b936fd6d8",
+    "validation_index_sha256": "b55c0055fbaee4670764b9e2cedbd5083605113a7bf0709fad0f5715fb9aafaa",
+    "validation_exposure": "SEE_RECIPE_AUDIT_OLD_ADAPTERS_MAY_HAVE_SEEN_THESE_EPISODES"
+  },
+  {
+    "step": 0,
+    "tag": "validation_source_ur5e",
+    "samples": 240,
+    "per_task": {
+      "pnp_counter_to_sink": {
+        "response_nll": 0.4357504389145308,
+        "response_token_accuracy": 0.8916666666666667,
+        "supervised_tokens": 1080
+      },
+      "pnp_sink_to_counter": {
+        "response_nll": 0.38661242743126223,
+        "response_token_accuracy": 0.8972222222222223,
+        "supervised_tokens": 1080
+      }
+    },
+    "macro_task_response_nll": 0.4111814331728965,
+    "metric": "TEACHER_FORCED_ACTION_RESPONSE_INCLUDING_STOP_TOKENS_NOT_PHYSICAL_SUCCESS",
+    "episode_disjoint_from_new_training": true,
+    "model_label": "restricted_joint_6000",
+    "checkpoint": "/home/users/lemon/coft-p2/p2/physical-20261108/adapted-checkpoints/joint_reps/checkpoints/step-003000-epoch-00-loss=restricted.pt",
+    "checkpoint_sha256": "27a739ce465cde466f228c96f86e9a239ebd7ac095508ecf6e2f373b936fd6d8",
+    "validation_index_sha256": "d8e448ebc82f9396457af0dadf1c34945599fcce73cc4687d1051120e474c4b7",
+    "validation_exposure": "SEE_RECIPE_AUDIT_OLD_ADAPTERS_MAY_HAVE_SEEN_THESE_EPISODES"
+  },
+  {
+    "step": 0,
+    "tag": "validation_target",
+    "samples": 320,
+    "per_task": {
+      "pnp_counter_to_sink": {
+        "response_nll": 2.751870973284046,
+        "response_token_accuracy": 0.41180555555555554,
+        "supervised_tokens": 1440
+      },
+      "pnp_sink_to_counter": {
+        "response_nll": 2.9760987594723702,
+        "response_token_accuracy": 0.3923611111111111,
+        "supervised_tokens": 1440
+      }
+    },
+    "macro_task_response_nll": 2.863984866378208,
+    "metric": "TEACHER_FORCED_ACTION_RESPONSE_INCLUDING_STOP_TOKENS_NOT_PHYSICAL_SUCCESS",
+    "episode_disjoint_from_new_training": true,
+    "model_label": "restricted_joint_96000",
+    "checkpoint": "/home/users/lemon/coft-p3/p3-20261109/adapted/checkpoints/step-012000-epoch-01-loss=restricted96000.pt",
+    "checkpoint_sha256": "c6fb093b9071886f93aac233f76bf3333cb98b09f959930fd5c3e469fd738b5c",
+    "validation_index_sha256": "b55c0055fbaee4670764b9e2cedbd5083605113a7bf0709fad0f5715fb9aafaa",
+    "validation_exposure": "SEE_RECIPE_AUDIT_OLD_ADAPTERS_MAY_HAVE_SEEN_THESE_EPISODES"
+  },
+  {
+    "step": 0,
+    "tag": "validation_source_ur5e",
+    "samples": 240,
+    "per_task": {
+      "pnp_counter_to_sink": {
+        "response_nll": 0.7424129624195673,
+        "response_token_accuracy": 0.8731481481481481,
+        "supervised_tokens": 1080
+      },
+      "pnp_sink_to_counter": {
+        "response_nll": 0.6981394038501161,
+        "response_token_accuracy": 0.8685185185185185,
+        "supervised_tokens": 1080
+      }
+    },
+    "macro_task_response_nll": 0.7202761831348417,
+    "metric": "TEACHER_FORCED_ACTION_RESPONSE_INCLUDING_STOP_TOKENS_NOT_PHYSICAL_SUCCESS",
+    "episode_disjoint_from_new_training": true,
+    "model_label": "restricted_joint_96000",
+    "checkpoint": "/home/users/lemon/coft-p3/p3-20261109/adapted/checkpoints/step-012000-epoch-01-loss=restricted96000.pt",
+    "checkpoint_sha256": "c6fb093b9071886f93aac233f76bf3333cb98b09f959930fd5c3e469fd738b5c",
+    "validation_index_sha256": "d8e448ebc82f9396457af0dadf1c34945599fcce73cc4687d1051120e474c4b7",
+    "validation_exposure": "SEE_RECIPE_AUDIT_OLD_ADAPTERS_MAY_HAVE_SEEN_THESE_EPISODES"
+  }
+]

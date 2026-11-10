@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "formal_updates": 0,
+  "code_ast_valid": true,
+  "training_episode_pool": 1710,
+  "heldout_target_frames": 320,
+  "heldout_source_frames": 240,
+  "all_validation_files_hashed": true,
+  "real_gpu_forward_backward_optimizer": true,
+  "real_accumulation_probe": true,
+  "real_filtered_training_input_probe": true,
+  "upstream_and_old_configuration_review": true,
+  "source_target_validation_overlap_with_new_training": 0
+}

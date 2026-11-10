@@ -1,0 +1,20 @@
+{
+  "status": "COMPLETE",
+  "role": "DISCARDED_RESOURCE_AND_ACCUMULATION_PROBE_NOT_FORMAL_TRAINING",
+  "full_batch8_loss": 0.9543426036834717,
+  "weighted_four_batch2_loss": 0.9593936226506163,
+  "relative_gradient_l2_error": 0.07126083420854246,
+  "gradient_relative_tolerance": 0.1,
+  "loss_relative_tolerance": 0.02,
+  "gradient_check_mode": "eval_to_disable_stochasticity_gradients_enabled",
+  "actual_accumulated_optimizer_updates": 1,
+  "actual_microbatch_backwards": 32,
+  "sample_positions": 256,
+  "changed_adapter_tensors": 371,
+  "update_seconds": 17.6183470482938,
+  "estimated_3000_update_hours": 14.681955873578167,
+  "peak_gpu_allocated_bytes": 19914651136,
+  "peak_gpu_reserved_bytes": 22550675456,
+  "loss": 1.0812985588662154,
+  "finite_gradients": true
+}
