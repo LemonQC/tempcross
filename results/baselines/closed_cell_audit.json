@@ -79,8 +79,88 @@
       "job": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_diffusion_policy/pnp_sink_to_counter/panda/job.json",
       "status": "VERIFIED",
       "episodes": 40
+    },
+    {
+      "job": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_no_reps/pnp_counter_to_sink/panda/job.json",
+      "status": "VERIFIED",
+      "episodes": 40
+    },
+    {
+      "job": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/panda/job.json",
+      "status": "VERIFIED",
+      "episodes": 40
+    },
+    {
+      "job": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_no_reps/pnp_sink_to_counter/panda/job.json",
+      "status": "VERIFIED",
+      "episodes": 40
+    },
+    {
+      "job": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_sink_to_counter/panda/job.json",
+      "status": "VERIFIED",
+      "episodes": 40
+    },
+    {
+      "job": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_no_reps_6000/pnp_counter_to_sink/panda/job.json",
+      "status": "VERIFIED",
+      "episodes": 40
+    },
+    {
+      "job": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/job.json",
+      "status": "VERIFIED",
+      "episodes": 40
+    },
+    {
+      "job": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_no_reps_6000/pnp_sink_to_counter/panda/job.json",
+      "status": "VERIFIED",
+      "episodes": 40
+    },
+    {
+      "job": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_sink_to_counter/panda/job.json",
+      "status": "VERIFIED",
+      "episodes": 40
+    },
+    {
+      "job": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_bc_transformer/pnp_counter_to_sink/ur5e/job.json",
+      "status": "VERIFIED",
+      "episodes": 40
+    },
+    {
+      "job": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_diffusion_policy/pnp_counter_to_sink/ur5e/job.json",
+      "status": "VERIFIED",
+      "episodes": 40
+    },
+    {
+      "job": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_bc_transformer/pnp_sink_to_counter/ur5e/job.json",
+      "status": "VERIFIED",
+      "episodes": 40
+    },
+    {
+      "job": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_diffusion_policy/pnp_sink_to_counter/ur5e/job.json",
+      "status": "VERIFIED",
+      "episodes": 40
+    },
+    {
+      "job": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_no_reps/pnp_counter_to_sink/ur5e/job.json",
+      "status": "VERIFIED",
+      "episodes": 40
+    },
+    {
+      "job": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/ur5e/job.json",
+      "status": "VERIFIED",
+      "episodes": 40
+    },
+    {
+      "job": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_no_reps/pnp_sink_to_counter/ur5e/job.json",
+      "status": "VERIFIED",
+      "episodes": 40
+    },
+    {
+      "job": "/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_sink_to_counter/ur5e/job.json",
+      "status": "VERIFIED",
+      "episodes": 40
     }
   ],
-  "verified_episodes": 640,
+  "verified_episodes": 1280,
   "read_only_physics": true
 }

@@ -4,10 +4,22 @@
 
 | 设置 | 任务 | 机器人 | 到达代理 | 闭爪命令 | 实测闭爪5mm | 双指接触 | 稳定抬升 | 搬运代理 | 官方放置 | 官方success |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| A_barx_joint | pnp_counter_to_sink | panda | 31/40 | 5/40 | 5/40 | 3/40 | 3/40 | 3/40 | 3/40 | 1/40 |
+| A_barx_joint | pnp_counter_to_sink | ur5e | 33/40 | 37/40 | 37/40 | 23/40 | 16/40 | 15/40 | 16/40 | 16/40 |
+| A_barx_joint | pnp_sink_to_counter | panda | 36/40 | 37/40 | 37/40 | 19/40 | 14/40 | 14/40 | 10/40 | 7/40 |
+| A_barx_joint | pnp_sink_to_counter | ur5e | 40/40 | 37/40 | 37/40 | 23/40 | 21/40 | 20/40 | 14/40 | 14/40 |
+| A_barx_no_reps | pnp_counter_to_sink | panda | 32/40 | 15/40 | 15/40 | 8/40 | 6/40 | 6/40 | 7/40 | 5/40 |
+| A_barx_no_reps | pnp_counter_to_sink | ur5e | 34/40 | 24/40 | 24/40 | 7/40 | 6/40 | 6/40 | 6/40 | 6/40 |
+| A_barx_no_reps | pnp_sink_to_counter | panda | 35/40 | 37/40 | 37/40 | 6/40 | 5/40 | 5/40 | 1/40 | 1/40 |
+| A_barx_no_reps | pnp_sink_to_counter | ur5e | 37/40 | 35/40 | 35/40 | 19/40 | 15/40 | 14/40 | 6/40 | 5/40 |
 | A_bc_transformer | pnp_counter_to_sink | panda | 7/40 | 40/40 | 40/40 | 0/40 | 0/40 | 0/40 | 0/40 | 0/40 |
+| A_bc_transformer | pnp_counter_to_sink | ur5e | 4/40 | 40/40 | 40/40 | 0/40 | 0/40 | 0/40 | 0/40 | 0/40 |
 | A_bc_transformer | pnp_sink_to_counter | panda | 2/40 | 40/40 | 40/40 | 0/40 | 0/40 | 0/40 | 0/40 | 0/40 |
+| A_bc_transformer | pnp_sink_to_counter | ur5e | 7/40 | 40/40 | 40/40 | 2/40 | 0/40 | 0/40 | 0/40 | 0/40 |
 | A_diffusion_policy | pnp_counter_to_sink | panda | 1/40 | 40/40 | 40/40 | 0/40 | 0/40 | 0/40 | 0/40 | 0/40 |
+| A_diffusion_policy | pnp_counter_to_sink | ur5e | 3/40 | 40/40 | 40/40 | 1/40 | 0/40 | 0/40 | 0/40 | 0/40 |
 | A_diffusion_policy | pnp_sink_to_counter | panda | 0/40 | 40/40 | 40/40 | 0/40 | 0/40 | 0/40 | 0/40 | 0/40 |
+| A_diffusion_policy | pnp_sink_to_counter | ur5e | 0/40 | 40/40 | 40/40 | 0/40 | 0/40 | 0/40 | 0/40 | 0/40 |
 | B_bc_gmm | pnp_counter_to_sink | panda | 14/40 | 40/40 | 40/40 | 3/40 | 0/40 | 0/40 | 0/40 | 0/40 |
 | B_bc_gmm | pnp_sink_to_counter | panda | 0/40 | 40/40 | 40/40 | 0/40 | 0/40 | 0/40 | 0/40 | 0/40 |
 | B_bc_rnn | pnp_counter_to_sink | panda | 7/40 | 40/40 | 40/40 | 0/40 | 0/40 | 0/40 | 0/40 | 0/40 |
@@ -16,12 +28,16 @@
 | B_bc_transformer | pnp_sink_to_counter | panda | 10/40 | 40/40 | 40/40 | 3/40 | 2/40 | 2/40 | 1/40 | 1/40 |
 | B_diffusion_policy | pnp_counter_to_sink | panda | 7/40 | 40/40 | 40/40 | 1/40 | 0/40 | 0/40 | 0/40 | 0/40 |
 | B_diffusion_policy | pnp_sink_to_counter | panda | 0/40 | 40/40 | 40/40 | 0/40 | 0/40 | 0/40 | 0/40 | 0/40 |
+| C_barx_joint_96000 | pnp_counter_to_sink | panda | 33/40 | 6/40 | 6/40 | 3/40 | 2/40 | 2/40 | 2/40 | 2/40 |
+| C_barx_joint_96000 | pnp_sink_to_counter | panda | 23/40 | 36/40 | 36/40 | 2/40 | 1/40 | 1/40 | 1/40 | 1/40 |
+| C_barx_no_reps_6000 | pnp_counter_to_sink | panda | 32/40 | 16/40 | 16/40 | 9/40 | 6/40 | 5/40 | 5/40 | 3/40 |
+| C_barx_no_reps_6000 | pnp_sink_to_counter | panda | 31/40 | 38/40 | 37/40 | 8/40 | 6/40 | 5/40 | 4/40 | 2/40 |
 | C_bc_transformer | pnp_counter_to_sink | panda | 20/40 | 40/40 | 40/40 | 7/40 | 5/40 | 4/40 | 4/40 | 4/40 |
 | C_bc_transformer | pnp_sink_to_counter | panda | 15/40 | 40/40 | 40/40 | 4/40 | 3/40 | 2/40 | 0/40 | 0/40 |
 | C_diffusion_policy | pnp_counter_to_sink | panda | 7/40 | 40/40 | 40/40 | 3/40 | 2/40 | 1/40 | 0/40 | 0/40 |
 | C_diffusion_policy | pnp_sink_to_counter | panda | 2/40 | 40/40 | 40/40 | 0/40 | 0/40 | 0/40 | 0/40 | 0/40 |
 
-Panda失败阶段计数：`{"CLOSE_WITHOUT_BILATERAL_CONTACT": 614, "CONTACT_WITHOUT_STABLE_LIFT": 12, "NO_CLOSE_COMMAND": 1, "TRANSPORT_WITHOUT_OFFICIAL_PLACEMENT": 4, "STABLE_LIFT_NO_10CM_TRANSPORT_PROXY": 3}`。这是观察到的断点分类，不能从单次轨迹直接认定视觉、时间建模、动作表征或迁移是根因。
+Panda失败阶段计数：`{"NO_CLOSE_COMMAND": 131, "CLOSE_WITHOUT_BILATERAL_CONTACT": 745, "PLACEMENT_WITHOUT_RETREAT": 11, "CONTACT_WITHOUT_STABLE_LIFT": 25, "TRANSPORT_WITHOUT_OFFICIAL_PLACEMENT": 14, "STABLE_LIFT_NO_10CM_TRANSPORT_PROXY": 5, "CLOSE_COMMAND_WITHOUT_5MM_JAW_REDUCTION": 1}`。这是观察到的断点分类，不能从单次轨迹直接认定视觉、时间建模、动作表征或迁移是根因。
 
 每episode的最大抬升、接触持续、阶段标志及视频路径见[失败索引](../results/baselines/failure_index.csv)，原始物理轨迹支持复查。闭爪命令与实测指垫中心距离减少≥5mm分别记录，后者只说明确有闭爪运动，不声称完全闭合或抓住物体。观察到的策略失败只有在完整合法rollout结束后才进入分母。
 

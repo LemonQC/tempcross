@@ -87,6 +87,7 @@ def main():
   with (OUT/'latency_summary.csv').open('w',newline='') as f:
    w=csv.DictWriter(f,fieldnames=list(latency[0]));w.writeheader();w.writerows(latency)
   lines+=['','独占GPU实测推理（ms）：','']+table(['设置','均值/控制步','p95/控制步','均值/新query','峰值GiB'],[[d['label'],f"{d['mean_step_ms']:.2f}",f"{d['p95_step_ms']:.2f}",f"{d['mean_fresh_query_ms']:.2f}",f"{d['peak_gpu_GiB']:.2f}"] for d in latency])
+  lines+=['','显存列采用PyTorch max_memory_allocated口径，不包含MuJoCo图形渲染和驱动分配；推理计时期间仅有一个基准策略进程，无并发训练或仿真。']
  write('BASELINE_RESULTS.md',lines)
  stages=['approached_center_8cm_proxy','issued_close','physical_jaw_closure_5mm','bilateral_contact','stable_contact_lift','transport_10cm_contact_proxy','placement_official_subpredicate','official_task_success']
  failure=['# Baseline阶段诊断与技术异常','', '官方任务success是唯一主成功判据。到达8cm、接触后抬升3cm持续10个状态、接触搬运10cm只是预先声明的诊断代理。阶段代理不构成严格递进链，物体中心距离也不等于抓取可达性；不以代理失败否定官方成功。放置及撤离子判据直接调用官方定义，不送入policy。','']
@@ -99,6 +100,6 @@ def main():
  write('BASELINE_FAILURE_ANALYSIS.md',failure)
  plots(cells,budgets)
  ready=complete and not s['formal_technical_cells'] and s['models_with_selected_checkpoints']==8 and s['formal_complete_cells']==32
- write_json(OUT/'platform_readiness.json',dict(engineering_benchmark_ready=ready,formal_cells=s['formal_complete_cells'],formal_episodes=s['formal_episodes'],single_training_seed=True,independent_training_seed_repeats=False,unlimited_convergence_not_demonstrated=True,can_append_method_without_changing_evaluator=ready,publication_claim='Runnable benchmark platform; T-RO scientific novelty, multiple-training-seed robustness and generalization beyond two tasks are not established by engineering completion'))
+ write_json(OUT/'platform_readiness.json',dict(engineering_benchmark_ready=ready,formal_cells=s['formal_complete_cells'],formal_episodes=s['formal_episodes'],single_training_seed=True,independent_training_seed_repeats=False,unlimited_convergence_not_demonstrated=True,evaluation_loop_reusable_for_new_policies=ready,new_policy_factory_registration_required=True,current_policy_kinds=['barx','robomimic'],publication_claim='Runnable benchmark platform with reusable evaluation loop; new policy implementations require factory/CLI registration. T-RO scientific novelty, multiple-training-seed robustness and generalization beyond two tasks are not established by engineering completion'))
  print(json.dumps(dict(reports_generated=True,formal_episodes=s['formal_episodes'],platform_ready=ready)))
 if __name__=='__main__':main()

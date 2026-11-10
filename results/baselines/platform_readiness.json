@@ -1,10 +1,15 @@
 {
-  "engineering_benchmark_ready": false,
-  "formal_cells": 16,
-  "formal_episodes": 640,
+  "engineering_benchmark_ready": true,
+  "formal_cells": 32,
+  "formal_episodes": 1280,
   "single_training_seed": true,
   "independent_training_seed_repeats": false,
   "unlimited_convergence_not_demonstrated": true,
-  "can_append_method_without_changing_evaluator": false,
-  "publication_claim": "Runnable benchmark platform; T-RO scientific novelty, multiple-training-seed robustness and generalization beyond two tasks are not established by engineering completion"
+  "evaluation_loop_reusable_for_new_policies": true,
+  "new_policy_factory_registration_required": true,
+  "current_policy_kinds": [
+    "barx",
+    "robomimic"
+  ],
+  "publication_claim": "Runnable benchmark platform with reusable evaluation loop; new policy implementations require factory/CLI registration. T-RO scientific novelty, multiple-training-seed robustness and generalization beyond two tasks are not established by engineering completion"
 }

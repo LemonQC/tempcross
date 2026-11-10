@@ -1,5 +1,0 @@
-label,task,robot,status,completed_episodes,technical_failure_phase,error,job_path
-A_barx_joint,pnp_counter_to_sink,panda,RUNNING,6,,,/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_counter_to_sink/panda/job.json
-A_barx_joint,pnp_sink_to_counter,panda,RUNNING,2,,,/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_joint/pnp_sink_to_counter/panda/job.json
-A_barx_no_reps,pnp_counter_to_sink,panda,RUNNING,12,,,/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_no_reps/pnp_counter_to_sink/panda/job.json
-A_barx_no_reps,pnp_sink_to_counter,panda,RUNNING,7,,,/home/users/lemon/baseline-benchmark/run-20261109/formal/A_barx_no_reps/pnp_sink_to_counter/panda/job.json

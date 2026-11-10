@@ -1,17 +1,15 @@
 # Baseline真实执行结果
 
-状态：**ACTUAL_BENCHMARK_RUNNING**。已关闭 16 个正式评测格、640 个episode。训练日志设置 8/8，选模完成 8/8。
+状态：**COMPLETE**。已关闭 32 个正式评测格、1280 个episode。训练日志设置 8/8，选模完成 8/8。
 
 只统计新冻结官方60–99条件；每任务每机器人每设置40次。旧P0–P3和开发smoke不加入成功率。技术错误另列，不填0%。原始小型结果见[逐episode结果](../results/baselines/episodes.csv)、[主表](../results/baselines/cells.csv)、[训练预算](../results/baselines/training_budgets.csv)、[checkpoint索引](../results/baselines/checkpoint_index.csv)。
-
-本文件是执行中的真实快照，不能作为完整Benchmark结论。
 
 ## Group A：零目标示范迁移
 
 | 设置 | Counter→Sink | Sink→Counter |
 | --- | --- | --- |
-| BARX No Reps source | 未完成（不填0%） | 未完成（不填0%） |
-| BARX Joint source | 未完成（不填0%） | 未完成（不填0%） |
+| BARX No Reps source | 5/40 (12.5%; 95%CI 5.5%–26.1%) | 1/40 (2.5%; 95%CI 0.4%–12.9%) |
+| BARX Joint source | 1/40 (2.5%; 95%CI 0.4%–12.9%) | 7/40 (17.5%; 95%CI 8.7%–31.9%) |
 | BC-Transformer source-only | 0/40 (0.0%; 95%CI 0.0%–8.8%) | 0/40 (0.0%; 95%CI 0.0%–8.8%) |
 | Diffusion Policy source-only | 0/40 (0.0%; 95%CI 0.0%–8.8%) | 0/40 (0.0%; 95%CI 0.0%–8.8%) |
 
@@ -30,8 +28,8 @@
 | --- | --- | --- |
 | BC-Transformer source+target | 4/40 (10.0%; 95%CI 4.0%–23.1%) | 0/40 (0.0%; 95%CI 0.0%–8.8%) |
 | Diffusion Policy source+target | 0/40 (0.0%; 95%CI 0.0%–8.8%) | 0/40 (0.0%; 95%CI 0.0%–8.8%) |
-| BARX No Reps legacy LoRA6k | 未完成（不填0%） | 未完成（不填0%） |
-| BARX Joint legacy LoRA96k | 未完成（不填0%） | 未完成（不填0%） |
+| BARX No Reps legacy LoRA6k | 3/40 (7.5%; 95%CI 2.6%–19.9%) | 2/40 (5.0%; 95%CI 1.4%–16.5%) |
+| BARX Joint legacy LoRA96k | 2/40 (5.0%; 95%CI 1.4%–16.5%) | 1/40 (2.5%; 95%CI 0.4%–12.9%) |
 
 Group C历史BARX使用原LoRA权重，其目标划分、初始化、分辨率、样本量与新BC/DP不同，不构成等预算排名。
 
@@ -39,10 +37,10 @@ Group C历史BARX使用原LoRA权重，其目标划分、初始化、分辨率�
 
 | Source-only设置 | Counter→Sink | Sink→Counter |
 | --- | --- | --- |
-| BARX No Reps source | 未完成（不填0%） | 未完成（不填0%） |
-| BARX Joint source | 未完成（不填0%） | 未完成（不填0%） |
-| BC-Transformer source-only | 未完成（不填0%） | 未完成（不填0%） |
-| Diffusion Policy source-only | 未完成（不填0%） | 未完成（不填0%） |
+| BARX No Reps source | 6/40 (15.0%; 95%CI 7.1%–29.1%) | 5/40 (12.5%; 95%CI 5.5%–26.1%) |
+| BARX Joint source | 16/40 (40.0%; 95%CI 26.3%–55.4%) | 14/40 (35.0%; 95%CI 22.1%–50.5%) |
+| BC-Transformer source-only | 0/40 (0.0%; 95%CI 0.0%–8.8%) | 0/40 (0.0%; 95%CI 0.0%–8.8%) |
+| Diffusion Policy source-only | 0/40 (0.0%; 95%CI 0.0%–8.8%) | 0/40 (0.0%; 95%CI 0.0%–8.8%) |
 
 ## 真实训练预算
 
@@ -88,15 +86,19 @@ BARX source prior复用官方50k更新权重，不把其原始大规模预训练
 | --- | --- | --- | --- | --- | --- | --- |
 | C_bc_transformer vs B_bc_transformer | pnp_counter_to_sink | 3 | 0 | 3 | 0.2500 | MATCHED_NEW_TARGET_SPLIT_AND_EXPOSURE |
 | C_diffusion_policy vs B_diffusion_policy | pnp_counter_to_sink | 0 | 0 | 0 | 1.0000 | MATCHED_NEW_TARGET_SPLIT_AND_EXPOSURE |
+| C_barx_joint_96000 vs A_barx_joint | pnp_counter_to_sink | 2 | 1 | 1 | 1.0000 | LEGACY_DIFFERENT_TRAINING_BUDGET_NOT_CONTROLLED_DATA_EFFECT |
+| C_barx_no_reps_6000 vs A_barx_no_reps | pnp_counter_to_sink | 2 | 4 | -2 | 0.6875 | LEGACY_DIFFERENT_TRAINING_BUDGET_NOT_CONTROLLED_DATA_EFFECT |
 | C_bc_transformer vs B_bc_transformer | pnp_sink_to_counter | 0 | 1 | -1 | 1.0000 | MATCHED_NEW_TARGET_SPLIT_AND_EXPOSURE |
 | C_diffusion_policy vs B_diffusion_policy | pnp_sink_to_counter | 0 | 0 | 0 | 1.0000 | MATCHED_NEW_TARGET_SPLIT_AND_EXPOSURE |
+| C_barx_joint_96000 vs A_barx_joint | pnp_sink_to_counter | 1 | 7 | -6 | 0.0703 | LEGACY_DIFFERENT_TRAINING_BUDGET_NOT_CONTROLLED_DATA_EFFECT |
+| C_barx_no_reps_6000 vs A_barx_no_reps | pnp_sink_to_counter | 2 | 1 | 1 | 1.0000 | LEGACY_DIFFERENT_TRAINING_BUDGET_NOT_CONTROLLED_DATA_EFFECT |
 
 新BC/DP每设置只有一个训练seed，40条件CI衡量本次测试集不确定性，不能据此宣称跨训练seed的稳定排序或跨场景泛化。配对检验为描述性、未做多重校正；加入source的结论只适用于该共享动作/观测、目标暴露匹配且C计算更多的设定。
 
 ## 本次观测到的最佳值
 
-- A / pnp_counter_to_sink：BC-Transformer source-only、Diffusion Policy source-only，0/40；仅本次观测最大值。
-- A / pnp_sink_to_counter：BC-Transformer source-only、Diffusion Policy source-only，0/40；仅本次观测最大值。
+- A / pnp_counter_to_sink：BARX No Reps source，5/40；仅本次观测最大值。
+- A / pnp_sink_to_counter：BARX Joint source，7/40；仅本次观测最大值。
 - B / pnp_counter_to_sink：BC-Transformer target-only，1/40；仅本次观测最大值。
 - B / pnp_sink_to_counter：BC-Transformer target-only，1/40；仅本次观测最大值。
 - C / pnp_counter_to_sink：BC-Transformer source+target，4/40；仅本次观测最大值。
@@ -130,3 +132,5 @@ BARX历史LoRA在C表单独保留，不能和新C模型忽略预算差异宣称�
 | C_barx_no_reps_6000 | 8.33 | 66.72 | 66.57 | 2.82 |
 | C_bc_transformer | 3.42 | 4.16 | 3.42 | 0.25 |
 | C_diffusion_policy | 3.91 | 29.28 | 29.17 | 0.90 |
+
+显存列采用PyTorch max_memory_allocated口径，不包含MuJoCo图形渲染和驱动分配；推理计时期间仅有一个基准策略进程，无并发训练或仿真。

@@ -1,0 +1,13 @@
+{
+  "status": "VERIFIED",
+  "formal_cells": 32,
+  "formal_episodes": 1280,
+  "official_successes": 69,
+  "unique_indexed_external_paths": 6195,
+  "all_indexed_paths_exist_and_sizes_match": true,
+  "video_paths_and_hashes_match_index": 1280,
+  "checkpoint_paths_and_hashes_match_index": 12,
+  "pretest_selected_checkpoint_hashes_unchanged": 8,
+  "packed_data_hashes_unchanged": true,
+  "full_formal_validation_records": 1280
+}

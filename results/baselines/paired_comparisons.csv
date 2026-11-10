@@ -1,5 +1,9 @@
 candidate,baseline,task,episodes,rescued,regressed,net_success_change,interpretation
 C_bc_transformer,B_bc_transformer,pnp_counter_to_sink,40,"[75, 77, 87]",[],3,MATCHED_NEW_TARGET_SPLIT_AND_EXPOSURE
 C_diffusion_policy,B_diffusion_policy,pnp_counter_to_sink,40,[],[],0,MATCHED_NEW_TARGET_SPLIT_AND_EXPOSURE
+C_barx_joint_96000,A_barx_joint,pnp_counter_to_sink,40,"[70, 75]",[95],1,LEGACY_DIFFERENT_TRAINING_BUDGET_NOT_CONTROLLED_DATA_EFFECT
+C_barx_no_reps_6000,A_barx_no_reps,pnp_counter_to_sink,40,"[73, 92]","[70, 80, 82, 89]",-2,LEGACY_DIFFERENT_TRAINING_BUDGET_NOT_CONTROLLED_DATA_EFFECT
 C_bc_transformer,B_bc_transformer,pnp_sink_to_counter,40,[],[64],-1,MATCHED_NEW_TARGET_SPLIT_AND_EXPOSURE
 C_diffusion_policy,B_diffusion_policy,pnp_sink_to_counter,40,[],[],0,MATCHED_NEW_TARGET_SPLIT_AND_EXPOSURE
+C_barx_joint_96000,A_barx_joint,pnp_sink_to_counter,40,[76],"[63, 66, 68, 79, 80, 81, 90]",-6,LEGACY_DIFFERENT_TRAINING_BUDGET_NOT_CONTROLLED_DATA_EFFECT
+C_barx_no_reps_6000,A_barx_no_reps,pnp_sink_to_counter,40,"[89, 96]",[68],1,LEGACY_DIFFERENT_TRAINING_BUDGET_NOT_CONTROLLED_DATA_EFFECT

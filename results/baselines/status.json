@@ -1,13 +1,13 @@
 {
-  "status": "ACTUAL_BENCHMARK_RUNNING",
+  "status": "COMPLETE",
   "directive": "202611091535.md",
   "core_learning_algorithms": 4,
   "new_learning_settings": 8,
   "models_with_training_logs": 8,
   "models_with_completed_tiers": 8,
   "models_with_selected_checkpoints": 8,
-  "formal_complete_cells": 16,
-  "formal_episodes": 640,
+  "formal_complete_cells": 32,
+  "formal_episodes": 1280,
   "formal_technical_cells": [],
   "training": [
     {
@@ -245,6 +245,166 @@
   ],
   "cells": [
     {
+      "label": "A_barx_joint",
+      "task": "pnp_counter_to_sink",
+      "robot": "panda",
+      "status": "COMPLETE",
+      "successes": 1,
+      "episodes": 40,
+      "success_rate": 0.025,
+      "wilson95": [
+        0.0044268315026814095,
+        0.1288136896347409
+      ],
+      "checkpoint": "/home/users/lemon/coft-p2/artifacts/runs/joint_reps/checkpoints/step-050000-epoch-15-loss=0.2577.pt",
+      "checkpoint_sha256": "ffce76802a8e75d4806b30dee43624accf2c4de4213c17059457e34a8243efce",
+      "group": "A",
+      "legacy_setting": true,
+      "model_kind": "barx",
+      "mean_policy_prediction_seconds": 0.01253808164769931,
+      "peak_gpu_allocated_bytes": 3023853056
+    },
+    {
+      "label": "A_barx_joint",
+      "task": "pnp_counter_to_sink",
+      "robot": "ur5e",
+      "status": "COMPLETE",
+      "successes": 16,
+      "episodes": 40,
+      "success_rate": 0.4,
+      "wilson95": [
+        0.2634832568429192,
+        0.5540410633965381
+      ],
+      "checkpoint": "/home/users/lemon/coft-p2/artifacts/runs/joint_reps/checkpoints/step-050000-epoch-15-loss=0.2577.pt",
+      "checkpoint_sha256": "ffce76802a8e75d4806b30dee43624accf2c4de4213c17059457e34a8243efce",
+      "group": "A",
+      "legacy_setting": true,
+      "model_kind": "barx",
+      "mean_policy_prediction_seconds": 0.012215797641059742,
+      "peak_gpu_allocated_bytes": 3023853056
+    },
+    {
+      "label": "A_barx_joint",
+      "task": "pnp_sink_to_counter",
+      "robot": "panda",
+      "status": "COMPLETE",
+      "successes": 7,
+      "episodes": 40,
+      "success_rate": 0.175,
+      "wilson95": [
+        0.0874541374603592,
+        0.31949990331787714
+      ],
+      "checkpoint": "/home/users/lemon/coft-p2/artifacts/runs/joint_reps/checkpoints/step-050000-epoch-15-loss=0.2577.pt",
+      "checkpoint_sha256": "ffce76802a8e75d4806b30dee43624accf2c4de4213c17059457e34a8243efce",
+      "group": "A",
+      "legacy_setting": true,
+      "model_kind": "barx",
+      "mean_policy_prediction_seconds": 0.012618099197858364,
+      "peak_gpu_allocated_bytes": 3028996096
+    },
+    {
+      "label": "A_barx_joint",
+      "task": "pnp_sink_to_counter",
+      "robot": "ur5e",
+      "status": "COMPLETE",
+      "successes": 14,
+      "episodes": 40,
+      "success_rate": 0.35,
+      "wilson95": [
+        0.2213452887317629,
+        0.5049411916274231
+      ],
+      "checkpoint": "/home/users/lemon/coft-p2/artifacts/runs/joint_reps/checkpoints/step-050000-epoch-15-loss=0.2577.pt",
+      "checkpoint_sha256": "ffce76802a8e75d4806b30dee43624accf2c4de4213c17059457e34a8243efce",
+      "group": "A",
+      "legacy_setting": true,
+      "model_kind": "barx",
+      "mean_policy_prediction_seconds": 0.01148422693811117,
+      "peak_gpu_allocated_bytes": 3028996096
+    },
+    {
+      "label": "A_barx_no_reps",
+      "task": "pnp_counter_to_sink",
+      "robot": "panda",
+      "status": "COMPLETE",
+      "successes": 5,
+      "episodes": 40,
+      "success_rate": 0.125,
+      "wilson95": [
+        0.05459500250945401,
+        0.261121198388511
+      ],
+      "checkpoint": "/home/users/lemon/coft-p2/artifacts/runs/no_reps/checkpoints/step-050000-epoch-15-loss=0.8424.pt",
+      "checkpoint_sha256": "ccbd2099903ba7c307b9c47586634754ce34b6269b8577e0040ca0a2f3ca8df3",
+      "group": "A",
+      "legacy_setting": true,
+      "model_kind": "barx",
+      "mean_policy_prediction_seconds": 0.012242132208644507,
+      "peak_gpu_allocated_bytes": 3023853056
+    },
+    {
+      "label": "A_barx_no_reps",
+      "task": "pnp_counter_to_sink",
+      "robot": "ur5e",
+      "status": "COMPLETE",
+      "successes": 6,
+      "episodes": 40,
+      "success_rate": 0.15,
+      "wilson95": [
+        0.07061187717320358,
+        0.2907232436648971
+      ],
+      "checkpoint": "/home/users/lemon/coft-p2/artifacts/runs/no_reps/checkpoints/step-050000-epoch-15-loss=0.8424.pt",
+      "checkpoint_sha256": "ccbd2099903ba7c307b9c47586634754ce34b6269b8577e0040ca0a2f3ca8df3",
+      "group": "A",
+      "legacy_setting": true,
+      "model_kind": "barx",
+      "mean_policy_prediction_seconds": 0.012077671689022204,
+      "peak_gpu_allocated_bytes": 3023853056
+    },
+    {
+      "label": "A_barx_no_reps",
+      "task": "pnp_sink_to_counter",
+      "robot": "panda",
+      "status": "COMPLETE",
+      "successes": 1,
+      "episodes": 40,
+      "success_rate": 0.025,
+      "wilson95": [
+        0.0044268315026814095,
+        0.1288136896347409
+      ],
+      "checkpoint": "/home/users/lemon/coft-p2/artifacts/runs/no_reps/checkpoints/step-050000-epoch-15-loss=0.8424.pt",
+      "checkpoint_sha256": "ccbd2099903ba7c307b9c47586634754ce34b6269b8577e0040ca0a2f3ca8df3",
+      "group": "A",
+      "legacy_setting": true,
+      "model_kind": "barx",
+      "mean_policy_prediction_seconds": 0.012545065214112777,
+      "peak_gpu_allocated_bytes": 3028996096
+    },
+    {
+      "label": "A_barx_no_reps",
+      "task": "pnp_sink_to_counter",
+      "robot": "ur5e",
+      "status": "COMPLETE",
+      "successes": 5,
+      "episodes": 40,
+      "success_rate": 0.125,
+      "wilson95": [
+        0.05459500250945401,
+        0.261121198388511
+      ],
+      "checkpoint": "/home/users/lemon/coft-p2/artifacts/runs/no_reps/checkpoints/step-050000-epoch-15-loss=0.8424.pt",
+      "checkpoint_sha256": "ccbd2099903ba7c307b9c47586634754ce34b6269b8577e0040ca0a2f3ca8df3",
+      "group": "A",
+      "legacy_setting": true,
+      "model_kind": "barx",
+      "mean_policy_prediction_seconds": 0.012144776883332044,
+      "peak_gpu_allocated_bytes": 3028996096
+    },
+    {
       "label": "A_bc_transformer",
       "task": "pnp_counter_to_sink",
       "robot": "panda",
@@ -266,6 +426,26 @@
     },
     {
       "label": "A_bc_transformer",
+      "task": "pnp_counter_to_sink",
+      "robot": "ur5e",
+      "status": "COMPLETE",
+      "successes": 0,
+      "episodes": 40,
+      "success_rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.08762160119728664
+      ],
+      "checkpoint": "/home/users/lemon/baseline-benchmark/run-20261109/training/A_bc_transformer/positions-192000.pt",
+      "checkpoint_sha256": "5f06a7224c9ffc43b0ce10c8c1089e402278879522fb224e0b0589b228fcb62f",
+      "group": "A",
+      "legacy_setting": false,
+      "model_kind": "robomimic",
+      "mean_policy_prediction_seconds": 0.007139043397891025,
+      "peak_gpu_allocated_bytes": 270588416
+    },
+    {
+      "label": "A_bc_transformer",
       "task": "pnp_sink_to_counter",
       "robot": "panda",
       "status": "COMPLETE",
@@ -282,6 +462,26 @@
       "legacy_setting": false,
       "model_kind": "robomimic",
       "mean_policy_prediction_seconds": 0.006621166812238069,
+      "peak_gpu_allocated_bytes": 270588416
+    },
+    {
+      "label": "A_bc_transformer",
+      "task": "pnp_sink_to_counter",
+      "robot": "ur5e",
+      "status": "COMPLETE",
+      "successes": 0,
+      "episodes": 40,
+      "success_rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.08762160119728664
+      ],
+      "checkpoint": "/home/users/lemon/baseline-benchmark/run-20261109/training/A_bc_transformer/positions-192000.pt",
+      "checkpoint_sha256": "5f06a7224c9ffc43b0ce10c8c1089e402278879522fb224e0b0589b228fcb62f",
+      "group": "A",
+      "legacy_setting": false,
+      "model_kind": "robomimic",
+      "mean_policy_prediction_seconds": 0.006690401038907182,
       "peak_gpu_allocated_bytes": 270588416
     },
     {
@@ -306,6 +506,26 @@
     },
     {
       "label": "A_diffusion_policy",
+      "task": "pnp_counter_to_sink",
+      "robot": "ur5e",
+      "status": "COMPLETE",
+      "successes": 0,
+      "episodes": 40,
+      "success_rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.08762160119728664
+      ],
+      "checkpoint": "/home/users/lemon/baseline-benchmark/run-20261109/training/A_diffusion_policy/positions-192000.pt",
+      "checkpoint_sha256": "250f26c86f1d98bdd41aaab450a881eebd315858ffbead0f272ccf4fc6c63ffa",
+      "group": "A",
+      "legacy_setting": false,
+      "model_kind": "robomimic",
+      "mean_policy_prediction_seconds": 0.005601618656772189,
+      "peak_gpu_allocated_bytes": 961122816
+    },
+    {
+      "label": "A_diffusion_policy",
       "task": "pnp_sink_to_counter",
       "robot": "panda",
       "status": "COMPLETE",
@@ -322,6 +542,26 @@
       "legacy_setting": false,
       "model_kind": "robomimic",
       "mean_policy_prediction_seconds": 0.005959382229054777,
+      "peak_gpu_allocated_bytes": 961122816
+    },
+    {
+      "label": "A_diffusion_policy",
+      "task": "pnp_sink_to_counter",
+      "robot": "ur5e",
+      "status": "COMPLETE",
+      "successes": 0,
+      "episodes": 40,
+      "success_rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.08762160119728664
+      ],
+      "checkpoint": "/home/users/lemon/baseline-benchmark/run-20261109/training/A_diffusion_policy/positions-192000.pt",
+      "checkpoint_sha256": "250f26c86f1d98bdd41aaab450a881eebd315858ffbead0f272ccf4fc6c63ffa",
+      "group": "A",
+      "legacy_setting": false,
+      "model_kind": "robomimic",
+      "mean_policy_prediction_seconds": 0.005983794839604973,
       "peak_gpu_allocated_bytes": 961122816
     },
     {
@@ -485,6 +725,86 @@
       "peak_gpu_allocated_bytes": 961122816
     },
     {
+      "label": "C_barx_joint_96000",
+      "task": "pnp_counter_to_sink",
+      "robot": "panda",
+      "status": "COMPLETE",
+      "successes": 2,
+      "episodes": 40,
+      "success_rate": 0.05,
+      "wilson95": [
+        0.013820667386148344,
+        0.16503877369140962
+      ],
+      "checkpoint": "/home/users/lemon/coft-p3/p3-20261109/adapted/checkpoints/step-012000-epoch-01-loss=restricted96000.pt",
+      "checkpoint_sha256": "c6fb093b9071886f93aac233f76bf3333cb98b09f959930fd5c3e469fd738b5c",
+      "group": "C",
+      "legacy_setting": true,
+      "model_kind": "barx",
+      "mean_policy_prediction_seconds": 0.012661923555252917,
+      "peak_gpu_allocated_bytes": 3023853056
+    },
+    {
+      "label": "C_barx_joint_96000",
+      "task": "pnp_sink_to_counter",
+      "robot": "panda",
+      "status": "COMPLETE",
+      "successes": 1,
+      "episodes": 40,
+      "success_rate": 0.025,
+      "wilson95": [
+        0.0044268315026814095,
+        0.1288136896347409
+      ],
+      "checkpoint": "/home/users/lemon/coft-p3/p3-20261109/adapted/checkpoints/step-012000-epoch-01-loss=restricted96000.pt",
+      "checkpoint_sha256": "c6fb093b9071886f93aac233f76bf3333cb98b09f959930fd5c3e469fd738b5c",
+      "group": "C",
+      "legacy_setting": true,
+      "model_kind": "barx",
+      "mean_policy_prediction_seconds": 0.012165482941659747,
+      "peak_gpu_allocated_bytes": 3028996096
+    },
+    {
+      "label": "C_barx_no_reps_6000",
+      "task": "pnp_counter_to_sink",
+      "robot": "panda",
+      "status": "COMPLETE",
+      "successes": 3,
+      "episodes": 40,
+      "success_rate": 0.075,
+      "wilson95": [
+        0.025836025774588198,
+        0.19864233524310543
+      ],
+      "checkpoint": "/home/users/lemon/coft-p2/p2/physical-20261108/adapted-checkpoints/no_reps/checkpoints/step-003000-epoch-00-loss=restricted.pt",
+      "checkpoint_sha256": "8504d71f02bc3c2ead775ae72508f355229ff35aeefdb4710eedddcd954a0bad",
+      "group": "C",
+      "legacy_setting": true,
+      "model_kind": "barx",
+      "mean_policy_prediction_seconds": 0.012575226200556094,
+      "peak_gpu_allocated_bytes": 3023853056
+    },
+    {
+      "label": "C_barx_no_reps_6000",
+      "task": "pnp_sink_to_counter",
+      "robot": "panda",
+      "status": "COMPLETE",
+      "successes": 2,
+      "episodes": 40,
+      "success_rate": 0.05,
+      "wilson95": [
+        0.013820667386148344,
+        0.16503877369140962
+      ],
+      "checkpoint": "/home/users/lemon/coft-p2/p2/physical-20261108/adapted-checkpoints/no_reps/checkpoints/step-003000-epoch-00-loss=restricted.pt",
+      "checkpoint_sha256": "8504d71f02bc3c2ead775ae72508f355229ff35aeefdb4710eedddcd954a0bad",
+      "group": "C",
+      "legacy_setting": true,
+      "model_kind": "barx",
+      "mean_policy_prediction_seconds": 0.012884644717591247,
+      "peak_gpu_allocated_bytes": 3028996096
+    },
+    {
       "label": "C_bc_transformer",
       "task": "pnp_counter_to_sink",
       "robot": "panda",
@@ -591,6 +911,39 @@
       "interpretation": "MATCHED_NEW_TARGET_SPLIT_AND_EXPOSURE"
     },
     {
+      "candidate": "C_barx_joint_96000",
+      "baseline": "A_barx_joint",
+      "task": "pnp_counter_to_sink",
+      "episodes": 40,
+      "rescued": [
+        70,
+        75
+      ],
+      "regressed": [
+        95
+      ],
+      "net_success_change": 1,
+      "interpretation": "LEGACY_DIFFERENT_TRAINING_BUDGET_NOT_CONTROLLED_DATA_EFFECT"
+    },
+    {
+      "candidate": "C_barx_no_reps_6000",
+      "baseline": "A_barx_no_reps",
+      "task": "pnp_counter_to_sink",
+      "episodes": 40,
+      "rescued": [
+        73,
+        92
+      ],
+      "regressed": [
+        70,
+        80,
+        82,
+        89
+      ],
+      "net_success_change": -2,
+      "interpretation": "LEGACY_DIFFERENT_TRAINING_BUDGET_NOT_CONTROLLED_DATA_EFFECT"
+    },
+    {
       "candidate": "C_bc_transformer",
       "baseline": "B_bc_transformer",
       "task": "pnp_sink_to_counter",
@@ -611,7 +964,43 @@
       "regressed": [],
       "net_success_change": 0,
       "interpretation": "MATCHED_NEW_TARGET_SPLIT_AND_EXPOSURE"
+    },
+    {
+      "candidate": "C_barx_joint_96000",
+      "baseline": "A_barx_joint",
+      "task": "pnp_sink_to_counter",
+      "episodes": 40,
+      "rescued": [
+        76
+      ],
+      "regressed": [
+        63,
+        66,
+        68,
+        79,
+        80,
+        81,
+        90
+      ],
+      "net_success_change": -6,
+      "interpretation": "LEGACY_DIFFERENT_TRAINING_BUDGET_NOT_CONTROLLED_DATA_EFFECT"
+    },
+    {
+      "candidate": "C_barx_no_reps_6000",
+      "baseline": "A_barx_no_reps",
+      "task": "pnp_sink_to_counter",
+      "episodes": 40,
+      "rescued": [
+        89,
+        96
+      ],
+      "regressed": [
+        68
+      ],
+      "net_success_change": 1,
+      "interpretation": "LEGACY_DIFFERENT_TRAINING_BUDGET_NOT_CONTROLLED_DATA_EFFECT"
     }
   ],
-  "execution_root": "/home/users/lemon/baseline-benchmark/run-20261109"
+  "execution_root": "/home/users/lemon/baseline-benchmark/run-20261109",
+  "blocked_methods_or_measurements": []
 }

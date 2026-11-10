@@ -1,0 +1,7 @@
+{
+  "status": "NO_NUMERICAL_OR_RUNTIME_ERROR_PATTERNS",
+  "logs_scanned": 32,
+  "patterns": "(Traceback|out of memory|illegal memory|Fatal|WARNING[^\\n]*(?:NaN|Inf|unstabl|badq)|mjWARN_BAD|EGL_BAD)",
+  "matches": [],
+  "role": "Read-only final stderr audit; routine macro/mink startup notices are not task failures"
+}

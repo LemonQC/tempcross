@@ -1,6 +1,8 @@
-# COFT SR5: Cross-Embodiment Executability × Observability Hypothesis Probe
+# tempcross：跨具身操作 Baseline Benchmark
 
-> **统一Baseline Benchmark正在实际执行。** 4类核心算法、8个新学习设置均已完成真实训练和选模，正式评测正在进行。见[当前结果](docs/BASELINE_RESULTS.md)、[复现命令](docs/BASELINE_REPRODUCTION.md)、[阶段诊断](docs/BASELINE_FAILURE_ANALYSIS.md)、[审查矩阵](docs/BASELINE_REPRODUCIBILITY_MATRIX.md)、[冻结协议](docs/BASELINE_PROTOCOL.md)和[执行状态](results/baselines/status.json)。正式完成数量以状态文件为准；P0–P3保持为历史证据。
+> **统一Baseline Benchmark已实际完成。** 4类BC/DP核心模型、8个新学习设置完成训练；复用4份BARX源先验/历史适配权重。官方独立60–99条件上完成32格、1280次正式物理评测（Panda960、UR5e320），全部轨迹/视频校验通过，47项测试通过。见[完整结果](docs/BASELINE_RESULTS.md)、[科研判断](docs/BASELINE_SCIENTIFIC_ASSESSMENT.md)、[复现命令](docs/BASELINE_REPRODUCTION.md)、[阶段诊断](docs/BASELINE_FAILURE_ANALYSIS.md)、[审查矩阵](docs/BASELINE_REPRODUCIBILITY_MATRIX.md)、[冻结协议](docs/BASELINE_PROTOCOL.md)和[机器状态](results/baselines/status.json)。仅输入RGB与任务指令，历史LoRA异预算单列；本轮未开发新网络。
+
+## P0–P3历史开发证据
 
 > **P3真实完成。** 24次开发物理干预，A3稳定抓持8/8、完整任务5/8；Joint LoRA完成12000次更新、96000样本位置；独立40–59五格100次评测全部完成，新模型2/20。未证明标准方法无法解决的缺口，停止当前COFT新网络分支。见 [因果报告](docs/P3_SPATIOTEMPORAL_CAUSAL_REPORT.md)、[实际适配](docs/P3_STRONGER_ADAPTATION.md)、[六问科研判断](docs/P3_SCIENTIFIC_DECISION.md)、[完整证据与大文件索引](evidence/p3/execution/README.md)。
 

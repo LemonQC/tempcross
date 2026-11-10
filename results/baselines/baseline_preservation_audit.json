@@ -1,0 +1,14 @@
+{
+  "status": "ALL_PRIOR_TRACKED_FILES_PRESERVED",
+  "ancestor_commits": {
+    "aa23600": "aa23600dc2e41d1ca3aab8e40c4caf66cb529fd9",
+    "bd0e2864eece26fe27b2b4ccb4fae889cbdf7c82": "bd0e2864eece26fe27b2b4ccb4fae889cbdf7c82"
+  },
+  "verified_prior_files": 544,
+  "intentional_documentation_exceptions": {
+    "README.md": "Updated entry point and preserved historical section",
+    ".gitignore": "Allow small new baseline evidence while keeping large binaries external"
+  },
+  "changed_prior_evidence_or_code_files": [],
+  "old_large_assets": "Existing checkpoint hashes cross-checked in final_consistency_audit.json; original evidence indices preserved"
+}
