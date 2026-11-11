@@ -1,0 +1,49 @@
+{
+  "selected_optimizer_updates": 2500,
+  "selected_sample_positions": 640000,
+  "total_run_optimizer_updates": 3000,
+  "total_run_sample_positions": 768000,
+  "selected_effective_batch": 256,
+  "selected_checkpoint_adapter": "/home/users/lemon/barx-target-adaptation-20261110/training/checkpoints/step-002500",
+  "selection_used_physical_success": false,
+  "no_validation_demonstrations_in_selected_prefix": true,
+  "dataset_task_positions": [
+    {
+      "dataset": "mg_pnp_lite",
+      "task": "pnp_counter_to_sink",
+      "positions": 148689
+    },
+    {
+      "dataset": "mg_pnp_lite",
+      "task": "pnp_sink_to_counter",
+      "positions": 169847
+    },
+    {
+      "dataset": "panda_pnp",
+      "task": "pnp_counter_to_sink",
+      "positions": 149583
+    },
+    {
+      "dataset": "panda_pnp",
+      "task": "pnp_sink_to_counter",
+      "positions": 171881
+    }
+  ],
+  "unique_demonstrations": {
+    "mg_pnp_lite": 723,
+    "panda_pnp": 90
+  },
+  "unique_frame_positions": 355164,
+  "joint_transform_index_counts": {
+    "2": 160393,
+    "3": 159970,
+    "0": 159955,
+    "1": 159682
+  },
+  "full_run_trace_path": "/home/users/lemon/barx-target-adaptation-20261110/training/consumed_samples.csv",
+  "full_run_trace_sha256": "b27011570265816eb5205f00ed42874e8c3dcc9f501261a121cfa0b6f30371e0",
+  "prefix_definition": "SHA256 of original CSV header plus exactly the first selected_sample_positions complete original CSV records",
+  "selected_trace_prefix_bytes": 111080686,
+  "selected_trace_prefix_sha256": "5c8a7c890108cc5718ad7544a7880c93821cc71edc5bb27d17ebe07e20dc247f",
+  "table_label_768000_denotes_total_run_budget_not_deployed_model_exposure": true
+}

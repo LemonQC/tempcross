@@ -1,0 +1,24 @@
+{
+  "status": "COMPLETE",
+  "completed_optimizer_updates": 3000,
+  "completed_backwards": 96000,
+  "sample_positions": 768000,
+  "prescribed_updates": 3000,
+  "effective_batch": 256,
+  "microbatch": 8,
+  "reference_loss_groups": "8 virtual ranks x 32 examples",
+  "seed": 7,
+  "original_checkpoint": "/home/users/lemon/coft-p2/artifacts/runs/joint_reps/checkpoints/step-050000-epoch-15-loss=0.2577.pt",
+  "original_checkpoint_sha256": "ffce76802a8e75d4806b30dee43624accf2c4de4213c17059457e34a8243efce",
+  "frozen_commit": "6a25f330270b5fc81ce2ff0705d12d442dfc3598",
+  "best_validation": {
+    "step": 2500,
+    "macro_task_response_nll": 2.920816511883297,
+    "adapter": "/home/users/lemon/barx-target-adaptation-20261110/training/checkpoints/step-002500"
+  },
+  "technical_failures_not_task_failures": true,
+  "elapsed_seconds": 56516.90503406385,
+  "peak_gpu_allocated_bytes": 20169629184,
+  "peak_gpu_reserved_bytes": 23955767296,
+  "last_loss": 0.43090377336791036
+}

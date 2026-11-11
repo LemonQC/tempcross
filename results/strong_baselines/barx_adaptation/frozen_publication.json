@@ -1,0 +1,42 @@
+{
+  "remote_commit": "6a25f330270b5fc81ce2ff0705d12d442dfc3598",
+  "github_readback_verified": true,
+  "remote_files_read_back": 24,
+  "protocol_sha256": "603ef5a71f2e1721407ed23fb590275dd832206f776c4dbe5b05fa0533e31221",
+  "code_sha256": {
+    "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/barx_adaptation/code/baseline_validation.py": "90c92adf886748df90f4ae4e7ffa3d89bf049627a30b80d0ff7cef42a66bd835",
+    "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/barx_adaptation/code/train.py": "26812b0d2ab70a87f906c81a41738e0dabc6f4d7619936bf7e85a5ac666639ea",
+    "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/barx_adaptation/code/review.py": "2d853437dd7cf8497fe2cf8093d993a3784bae114fd65385902298ed248bad9e",
+    "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/barx_adaptation/code/supervise.py": "ad1201ca48119ed1d3507214e3c2e65d44d223c4a7108a84acf4ebc8675dfeb6",
+    "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/barx_adaptation/code/merge.py": "3e0ef2a00fc73adeaca3f16e808b00bada2821705ff37712ec9c047e632ec0b0",
+    "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/barx_adaptation/code/data.py": "e16337c3db64481a917b1331d4fdb78bdd90d988034794a6855463a2d14d29b5",
+    "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/barx_adaptation/code/prepare.py": "78fdc939cd6977d34e9baa81cac0e598f039ab29335184cfe226e4cf2bf034e2",
+    "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/barx_adaptation/code/collect.py": "d2d4cd4de4c1118f95cab1fa175049dcde6f41df9cd9c8aad3613bdb79154bec",
+    "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/barx_adaptation/code/common.py": "03c6ebffcb08b0affba50acfd47f953330f8ed95a5c88cbd70787840687e5547",
+    "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/barx_adaptation/code/evaluate.py": "49007f05cb5cbb851f8e2cb3a2bc29f50e11d4ec17f32c02401e15ef35d9fa4b"
+  },
+  "data_sha256": {
+    "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/barx_adaptation/split_manifest.csv": "c7b0a919f949634469ec5c98b83320ade574bc936d4aa9d057e10ad198a974fd",
+    "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/barx_adaptation/validation_target_index.json": "b55c0055fbaee4670764b9e2cedbd5083605113a7bf0709fad0f5715fb9aafaa",
+    "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/barx_adaptation/validation_source_ur5e_index.json": "d8e448ebc82f9396457af0dadf1c34945599fcce73cc4687d1051120e474c4b7",
+    "/home/users/lemon/CodexProject/tempcross/configs/datasets/baseline_source_manifest.json": "fa913dc702e85e4da7ac364609dc714c5cd901b1751480628a1f167efd244298",
+    "/home/users/lemon/CodexProject/tempcross/configs/datasets/baseline_target_manifest.json": "ad8c4c7a878e0096a612266674507314c1385c1b0af25b1496df363e11ca4cb5",
+    "/home/users/lemon/coft-p3/matched-samples-96000/dataset_statistics.json": "1fe8eb967133c8e0a1c72ceb0eb0c0c6edc9e5f0428bf035b310631ba2e8427c",
+    "/home/users/lemon/coft-p2/artifacts/runs/joint_reps/checkpoints/step-050000-epoch-15-loss=0.2577.pt": "ffce76802a8e75d4806b30dee43624accf2c4de4213c17059457e34a8243efce",
+    "/home/users/lemon/coft-p2/barx/docs/experiments.md": "849bb416ad6baab688a5baa038ae99627001167aff216889b3060489a4d9d3e8",
+    "/home/users/lemon/coft-p2/barx/configs/experiments.toml": "6f70a41b18bc3b0277b8b68d3c01f07ab99550623002ad9ea3c67ca6e951028b",
+    "/home/users/lemon/coft-p2/barx/scripts/train.py": "71e4e3cc0ede0fdae2fcc1558a6c271f93bc1948b03104605737e99ce8cf0d47",
+    "/home/users/lemon/coft-p2/barx/policy/vla-scripts/train.py": "d1db533c7a6cbd4de4ec0531d79b386330997c640b8875aee160eed7b70e96e3",
+    "/home/users/lemon/coft-p2/barx/policy/prismatic/training/materialize.py": "39baf805295dc7598a697169a17e61cd32c81f0a78989fbf6bff00c3d774281b",
+    "/home/users/lemon/coft-p2/barx/policy/prismatic/training/strategies/lora_ddp.py": "ddf923c10b6f44581e551e028e175c5a4c7de9fded7135fd03a21c5a05668224",
+    "/home/users/lemon/coft-p2/barx/policy/prismatic/training/strategies/fsdp.py": "0fd22ef9c60a63dd5168cc712de7f84c86fdf990fe8cc7c35761c714aa1216ef",
+    "/home/users/lemon/coft-p2/barx/policy/prismatic/training/strategies/base_strategy.py": "48c7d007d2c108df7cebb142d6b557c5c5d39a048fd27866fc8c44c6ca9c359c",
+    "/home/users/lemon/coft-p2/barx/policy/prismatic/vla/materialize.py": "21ddf11d118bd143f26162d74594fdf09cefc68c3e1e419e775d576c2b46ab3e",
+    "/home/users/lemon/coft-p2/barx/policy/prismatic/vla/datasets/datasets.py": "f3093fa3cb56ab158a8aa6f956515769466cea8be2209f066a5654eda332ad1b",
+    "/home/users/lemon/coft-p2/barx/policy/prismatic/vla/datasets/rlds/dataset.py": "308c0f4d1a0ddede0042b4d949148fbf7173967d48d3553777e6df9f7a76a3ff",
+    "/home/users/lemon/coft-p2/barx/policy/prismatic/conf/vla.py": "50dd2f13b28a0928d6b4537246a721560ea015a1e675616611df126dcfa8bee8",
+    "/home/users/lemon/coft-p2/barx/policy/prismatic/models/load.py": "ac923d083edaced8f8ecde0f7946c88d0acddbfaa9f0cd30147a2a82a5d32b0a",
+    "/home/users/lemon/coft-p2/barx/policy/prismatic/models/vlas/openvla.py": "f488690cbb4a9ee06383c4ecbe41c12f90a372850fad022cb98ff6015433decc"
+  },
+  "formal_updates_before_freeze": 0
+}

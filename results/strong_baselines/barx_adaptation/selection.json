@@ -1,0 +1,10 @@
+{
+  "step": 2500,
+  "macro_task_response_nll": 2.920816511883297,
+  "adapter": "/home/users/lemon/barx-target-adaptation-20261110/training/checkpoints/step-002500",
+  "selection_rule": "lowest macro task teacher-forced Panda action-response NLL among trained steps 500,1000,1500,2000,2500,3000; ties choose earlier step; step 0 reference excluded",
+  "used_physical_success": false,
+  "training_completed_before_test": true,
+  "actual_optimizer_updates": 3000,
+  "actual_sample_positions": 768000
+}

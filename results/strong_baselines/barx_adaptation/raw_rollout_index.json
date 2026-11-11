@@ -1,0 +1,2882 @@
+[
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-000.h5",
+    "bytes": 1877425,
+    "sha256": "27ae08c869acb5cf90357faa62a6576532fdf7a366c75b03c79c36751ae37709"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-000.jsonl",
+    "bytes": 2055415,
+    "sha256": "bbcb532789c63fa77b8f85d25749f7c319e2b4607b6c07f2b895f2cce1c7a3d7"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/condition-060.mp4",
+    "bytes": 1238630,
+    "sha256": "0b5e8868a818772b6e41699ce007efcbfe062cd2251ae7936636cb74b566d422"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-001.h5",
+    "bytes": 2026417,
+    "sha256": "857957a5437ee9bc0ff20adba11d88f1e41db162b7a67629a8b76e0fb526900d"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-001.jsonl",
+    "bytes": 2084081,
+    "sha256": "b9e118675bbcf6ac8c83e20dca819c4aef8f4469986f563fbf2d5c1425095b88"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/condition-061.mp4",
+    "bytes": 1122898,
+    "sha256": "65126389f808993a4b596df11e8ad5fd301194a2aca852c7dfd53e9533eb27eb"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-002.h5",
+    "bytes": 1963359,
+    "sha256": "d16f16393d303ffee532405c72ee7a4a478c91c85048ead83cda29522d7b323e"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-002.jsonl",
+    "bytes": 2927710,
+    "sha256": "49a6f23c060d9170fb65989a3bf224bf160c9252e5a3390f8028b73c5521401a"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/condition-062.mp4",
+    "bytes": 1054259,
+    "sha256": "c4b4d6890db3b5226a4a84525aa2bca4bd0b2484ef47091eab67109cddb2e22c"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-003.h5",
+    "bytes": 2027995,
+    "sha256": "84107c0d4daba62e00407b64bc458846c0a9212b2c57841a8a9f45f7261355b3"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-003.jsonl",
+    "bytes": 1295053,
+    "sha256": "525e7fb3981c89701f5b02399746a1276e1ddf735a6e8859ca63a9d3afdafd8b"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/condition-063.mp4",
+    "bytes": 1129380,
+    "sha256": "f405bfb74584b99f07ebf57dfef73802898f3307232b44661af099c96fe31575"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-004.h5",
+    "bytes": 1912578,
+    "sha256": "0add70ac8a30a453a3e2e7384aee2ba727506a6a79562b8e1ca7275651f1c7b1"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-004.jsonl",
+    "bytes": 3199014,
+    "sha256": "80a34005e55552e4637e36cf841c5e1772bde33f7767fdebd78c6bd34631057b"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/condition-064.mp4",
+    "bytes": 1002735,
+    "sha256": "b910ed87b6527ebe7e5d4bf802d5fe0365e46a0cf238ca8969c3d81ed52a12fa"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-005.h5",
+    "bytes": 1869138,
+    "sha256": "9746dbee53be58cd72adb644e8158529fcaf24fd60e0c62cd09561f1812ac24d"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-005.jsonl",
+    "bytes": 3260819,
+    "sha256": "02a216afb3e354cd87f6515435a8ef7b05f538b1562ebccadd88887082727095"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/condition-065.mp4",
+    "bytes": 727944,
+    "sha256": "9c7a15a5a00d7536d7a02c0ad41b9f67811f4c27346fe8fa8d8a7ce394a028f9"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-006.h5",
+    "bytes": 1918940,
+    "sha256": "3b272860ec14efe9538d2a401367c5df0010e741df8f89156b7b307ec5dce486"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-006.jsonl",
+    "bytes": 1926034,
+    "sha256": "3fd452af17af647eb03506ff945db656e7244d4b54381a58a47e3e1946e8f9e8"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/condition-066.mp4",
+    "bytes": 895729,
+    "sha256": "c58c91b618cb3539c48e0c875571af4cd3f98d698af9afc8f33f8e209c6647a4"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-007.h5",
+    "bytes": 1974550,
+    "sha256": "eb7d3ba1527ba2ca6c1e1ffb80c9440dc600a131493607e7e9d57631f01baa62"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-007.jsonl",
+    "bytes": 2726890,
+    "sha256": "f7de07fe859cd52c8c6d1623bb94a56df8d198575e48703f27523419acb430a8"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/condition-067.mp4",
+    "bytes": 1033487,
+    "sha256": "576dae6372d29bbaf6c046df6fb62ad6b0f7d5926b6ebb7ffd081621c248b0d2"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-008.h5",
+    "bytes": 2157169,
+    "sha256": "0dc1cdced07228aed12730dd320c756db4496ee0fb1c2a9f57c19c17a21ec8a3"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-008.jsonl",
+    "bytes": 8735628,
+    "sha256": "930d79eb8c4f40a557c8c2e26145ae9b2cc419208084f976065a6eda620aa82a"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/condition-068.mp4",
+    "bytes": 966333,
+    "sha256": "81080acacb974875f599ef73d396bc632016485cefd7a9086531ae597093db91"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-009.h5",
+    "bytes": 2036358,
+    "sha256": "9b5573fc37fc541ccf8c3b2a9a998cc6a1e799ab0de3e31b15bcbe0a66a0274a"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-009.jsonl",
+    "bytes": 1311834,
+    "sha256": "e18f3f37f09c9116b82a68bf5f73a04941d54fd03eb62089a9bf27acc51176b4"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/condition-069.mp4",
+    "bytes": 1275344,
+    "sha256": "e514d7833e069d8e17f842cfb032d9a6a81d786b35986a7f6f6afcbc8313f2d9"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-010.h5",
+    "bytes": 1155739,
+    "sha256": "9d6be3d04b2ffe6336b51896abfa51fe3de61e9e93a4cda712208ca06a4d7ee8"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-010.jsonl",
+    "bytes": 1399959,
+    "sha256": "21ee624d0478d1b984f6401b483386a1edc1af381432c960c0c5260bc3b8f6a3"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/condition-070.mp4",
+    "bytes": 646745,
+    "sha256": "fbefb80464bb9345435e1e311b59be7096ad0016e94b2da34cd9e2996650596f"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-011.h5",
+    "bytes": 1925252,
+    "sha256": "e873b8445d5144aa5e9116da52fd6ec69ad8220d3563342d900c886617f6bd0a"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-011.jsonl",
+    "bytes": 1407832,
+    "sha256": "40dc56aef3e8a54648ef05d4dbb1f174b4b50fb657439b1902ade46be0bf96cb"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/condition-071.mp4",
+    "bytes": 1114920,
+    "sha256": "ec4158dc396140290756a152bc73e85f615f1b4c0f5ff173e051bbf0f9c1eb00"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-012.h5",
+    "bytes": 2022110,
+    "sha256": "5ddcaa1ecf681bd400d4ce274559bbb6adb7bea6aa9f98f704995cd749354917"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-012.jsonl",
+    "bytes": 1539101,
+    "sha256": "a57ce60b027e2a8b43d4c75e3bbb08d6a9c550fdd7537742b1142d50c80b641e"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/condition-072.mp4",
+    "bytes": 1087653,
+    "sha256": "4db9ea22d0c354b55b5add870ae33da8111b9acfb2fe4d0e169385d15293a81a"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-013.h5",
+    "bytes": 1888858,
+    "sha256": "203b2c94bcae584298fd096b1fe794aa766fff1a391aac17db460ba32c059f9a"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-013.jsonl",
+    "bytes": 1831732,
+    "sha256": "58eca4e3dc0668ad316c4dba4a9d95ffde94376f03fdb4de91e98067a644b8f0"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/condition-073.mp4",
+    "bytes": 1136577,
+    "sha256": "e3f9825a86978e38c17baaeed8e62dac683ad5e8e1c143aef70d00f9dd77bae1"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-014.h5",
+    "bytes": 1673357,
+    "sha256": "37e22bcb5843ef24c0fc37c5c0370ad3f620ba09987674398b86967f98a02505"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-014.jsonl",
+    "bytes": 976742,
+    "sha256": "821330ddd5cea62528dca2cea62f50d9a917e3a359f9308f9a1b7fa0224af07f"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/condition-074.mp4",
+    "bytes": 1077794,
+    "sha256": "050518642460919f7a38c15bfef22c3b039644c6cbb7902c457d526bd4658449"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-015.h5",
+    "bytes": 1305631,
+    "sha256": "de2e537a016781d991e4f880b349eb6f20239c23949e9b93235c67652cc16394"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-015.jsonl",
+    "bytes": 7005762,
+    "sha256": "d53dbc3a768961b068a5fc14a689a3b0f06a5b0f8f9505ed27e9296025fe96df"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/condition-075.mp4",
+    "bytes": 781939,
+    "sha256": "886dc67878eb385092504535520c4721e23f996811897bc3f5529272e9b39359"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-016.h5",
+    "bytes": 1957159,
+    "sha256": "6177ec02113e1af1b4979af5f48cff63dc685f15968fb6a070fc5a0ba3a7a12d"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-016.jsonl",
+    "bytes": 1194330,
+    "sha256": "10508c6055824e9f1e619b4e4e91a170cdb6de225d5cb4d30d7536d5ba6a186a"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/condition-076.mp4",
+    "bytes": 930646,
+    "sha256": "2fea6b8f3a1894b274915dbab66a070b68af283dc8d17238d0073b386b42caa8"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-017.h5",
+    "bytes": 2027925,
+    "sha256": "afbaedbd8dddd846381456ae91b6b25cc86a882ef9be7052fb9ba0a77ca0f5ba"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-017.jsonl",
+    "bytes": 1351760,
+    "sha256": "91d2f0ff4cf3b3e0cb17f60895e970f22a787fa0f143a5905f5d14ea56acb933"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/condition-077.mp4",
+    "bytes": 1112227,
+    "sha256": "f6e1327b9905317b27a119cd13fa171b25417f2d0a5db19ed8c014e708d89e9e"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-018.h5",
+    "bytes": 2050791,
+    "sha256": "b5fea254b4ea82baeae657ed360332b1a5259d1ba6b8b9d33448a8e8b5476022"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-018.jsonl",
+    "bytes": 1930762,
+    "sha256": "2bbe8866d99b9f0da854fd79e0664a0ad33ad3c9a7b7bdc1f0852f52ce0c63fb"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/condition-078.mp4",
+    "bytes": 864795,
+    "sha256": "ef74599711c123f408c7a7bf10db0b16b42cee323bd7893e6b0124004a30528c"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-019.h5",
+    "bytes": 2054972,
+    "sha256": "fe0f616754ae1a47f07ec095c05f9a8351e26e35a91c9c5970f5b57ef1b74ae3"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-019.jsonl",
+    "bytes": 3064830,
+    "sha256": "cdccfb3219e58c5d757a1292f36234ae5ea679d1daf2da0af66e8278a9be457d"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/condition-079.mp4",
+    "bytes": 1074099,
+    "sha256": "677f8cc591f1b204c400c3c0c58fcb94bd8b6e362c9d1035a7d343b951910976"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-020.h5",
+    "bytes": 1968187,
+    "sha256": "115f175668707fe48d6951518c3ebc1206ebacd54ae7714c39c260a1d05f2c67"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-020.jsonl",
+    "bytes": 1438917,
+    "sha256": "74e6fec243229eb1194c503d037f4b64f9b34a482d9a1b8bb99890aaabe97ea9"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/condition-080.mp4",
+    "bytes": 987272,
+    "sha256": "32a75019ff3ea089aa98f08c4c4d4541c802675e59d3cc4a2cdd9e0be2d35bfe"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-021.h5",
+    "bytes": 1947391,
+    "sha256": "25acaad7fbf04bdb46187f0aaccdcc3534f8ad0d5448165574719e3bc262f865"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-021.jsonl",
+    "bytes": 1404369,
+    "sha256": "33b42f987e17635635e1d75f4d909533f29f0df8cf0cd230c7f89d59c2a7ec23"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/condition-081.mp4",
+    "bytes": 1003573,
+    "sha256": "1d2362cb683b49e15935e07a5fd2f422b5590ff964676d72a3ff74e6a540668e"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-022.h5",
+    "bytes": 1876144,
+    "sha256": "b7058c8a3d5111f9dbbf5c01179f7ae940a9f1bfc1b7017be04a04efc23b79c1"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-022.jsonl",
+    "bytes": 1323199,
+    "sha256": "ae94a32128643fdab37971ab31fbc2224584e956c35c3b2960cab4a94f212f17"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/condition-082.mp4",
+    "bytes": 1008336,
+    "sha256": "990b2c1b5f1f5568aec8d328879639a9d84f40b701cd7a18d1911d2e28113522"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-023.h5",
+    "bytes": 2030403,
+    "sha256": "a9eb0ad644c7d78f1ab7f29d239ec94ceaafb19292d387a44a4af4c59461ff16"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-023.jsonl",
+    "bytes": 2445338,
+    "sha256": "c4ca1f38c2a5d41885af443f6f64adbdf15578b2e9013f0fced2c983c8a9e623"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/condition-083.mp4",
+    "bytes": 1425415,
+    "sha256": "0013699fd1f183426911c35bb838bd1c8cf81d4490fde7904e759cb781507468"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-024.h5",
+    "bytes": 1874900,
+    "sha256": "28b09bab37604c7b69ec508f32782528ebae26441291564b0fa6bc69f156ef61"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-024.jsonl",
+    "bytes": 4429516,
+    "sha256": "7e616d0ca35717b724f908d616afacdebacbe034421b9da2eef7ab8049592821"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/condition-084.mp4",
+    "bytes": 1247981,
+    "sha256": "f63468aec575310af8dd826dad1d3575110eea730e46dc2fa7a42737d9947c3a"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-025.h5",
+    "bytes": 1989565,
+    "sha256": "bc1cce22a97ad8fcdee50a6c3db391feac0e9c057470ef29a9f6f1c7f7c3d7fc"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-025.jsonl",
+    "bytes": 8634426,
+    "sha256": "fea1484e057db9daaf39f04d338edf7e2df2ccb3f77431439ae853aa598a9964"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/condition-085.mp4",
+    "bytes": 1109307,
+    "sha256": "fa5b0c5e7b8b78a57d7f4f46b9cfe23da6feb5fc567ba5305363fdac3812ac5d"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-026.h5",
+    "bytes": 1904987,
+    "sha256": "088c6a53cc51a3faf056733756046acc9221b36f9282309f8a5a8e36b55eb5f0"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-026.jsonl",
+    "bytes": 1202564,
+    "sha256": "52a5beec3cca32bbd48ad3ecc1ff0c1053a0b34b7edc3f44b0aabbf22308319a"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/condition-086.mp4",
+    "bytes": 1218661,
+    "sha256": "708318f3e67045a5450fd6e954a1a5748b34abb98fdd2be6f24361cd8db30c97"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-027.h5",
+    "bytes": 1924652,
+    "sha256": "3d17192b5d2a6a93c55f9522ccd93b5ecfc7bd6493f2049ac791919f048e2d75"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-027.jsonl",
+    "bytes": 1695555,
+    "sha256": "8cfd8d33c0ff3eab6e25fac968324c32f317eb6613937f5718df97001f5cb3ff"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/condition-087.mp4",
+    "bytes": 1402839,
+    "sha256": "1f9b0c8b2115b28bf294f82bb81abc67773a59816b3fb0dd28e9461d86f32e45"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-028.h5",
+    "bytes": 1961266,
+    "sha256": "04396518574f5177b26c4a80f1f964653d65d467b745ed0647211f13c8c3b9c9"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-028.jsonl",
+    "bytes": 1944819,
+    "sha256": "9319e5e4bba79e2045dae1a9bcdf03eb119a978dafbe06e93d476226946fc81d"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/condition-088.mp4",
+    "bytes": 1205319,
+    "sha256": "f77b46eb8fdcdf16dd4c86faa3e2ade4ba571315db7b7aa91bccd2bc879c08c9"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-029.h5",
+    "bytes": 1874378,
+    "sha256": "0edfc0885a4aa9837a78374c7611a542a6b6be98a0d9f53fe805c1b0d02d2dff"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-029.jsonl",
+    "bytes": 1583444,
+    "sha256": "c964ff0dc858c1412b6460da0a648278f2d6ab2ff819ce6722594208dcef266b"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/condition-089.mp4",
+    "bytes": 941986,
+    "sha256": "cf960c29d6e29bfbbcde45f2dd0d04e28dde19f0445927a5b21ebc87233ec4a8"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-030.h5",
+    "bytes": 2001264,
+    "sha256": "1feab541f39be2a4479549aed6869d7690d27b06394959e65736bb1fee1f3bd3"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-030.jsonl",
+    "bytes": 1187425,
+    "sha256": "14bb53cd979cd2e27ccdc6cf8d9d856380fbda677871555f04dfe397f7b4ce5b"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/condition-090.mp4",
+    "bytes": 1205393,
+    "sha256": "7dc25d324f3e6c67b17184f7b34c6ee7510b865e835e9f6951f86ad1b451722d"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-031.h5",
+    "bytes": 2068803,
+    "sha256": "d22a7fbd376f983ff8ed82b76b79fff190762ef475a959c1b44c0192b591860e"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-031.jsonl",
+    "bytes": 1507993,
+    "sha256": "a45a36319dc0f4a5bd716206c8138233e00e5e15988098f254c4e441df100446"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/condition-091.mp4",
+    "bytes": 1035906,
+    "sha256": "ce853fa66291b57c1b4f4ff0b659b019aa50e1e74dd4f7535ac0051e7ae1da0f"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-032.h5",
+    "bytes": 1423965,
+    "sha256": "5e296cb77dca3538b85c9172035f9d9f9fff8534e38e956e5d15997c4ac68cdf"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-032.jsonl",
+    "bytes": 875916,
+    "sha256": "e4fb43ef8737d1185b09bc3c41c252c7df35b9c4ff50dfba76b2ca752676e818"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/condition-092.mp4",
+    "bytes": 900181,
+    "sha256": "ebd91846a7de1078f2075c36c792534889a2bb5f0805adb39b1026e778e3605b"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-033.h5",
+    "bytes": 2055091,
+    "sha256": "1a9356925f0aa1781a7f27fc2b4966c96429dcbbbe9c8aebb5b855026bc49ba0"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-033.jsonl",
+    "bytes": 3254177,
+    "sha256": "13129b86c55ead382c14c7d2cde2ff09a1a39accb1596f3e70f11dedaa31a8f3"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/condition-093.mp4",
+    "bytes": 917314,
+    "sha256": "b67bfd2d8d78dcf0d724c4ecb046fb0aa6cfe4ed17bf7e289482424f13faf702"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-034.h5",
+    "bytes": 1984138,
+    "sha256": "d01e6bf7b7798acf13385d3834211b0553202aff93dd7faec394e2613aeda03c"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-034.jsonl",
+    "bytes": 3549101,
+    "sha256": "2e418e7ea5a017b2d8f0ccce2a8824d2bd3b48579c3535aa7d4107714b34c541"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/condition-094.mp4",
+    "bytes": 1128883,
+    "sha256": "d33d517e98c54fdef51da678886a091d94ef16475a378e3d4f2f5c33b3c5b39c"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-035.h5",
+    "bytes": 1949928,
+    "sha256": "c73476c3fe3652d3cddc174fb4a2536007fabfdd5eca1f695fb00188a83fd241"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-035.jsonl",
+    "bytes": 3269584,
+    "sha256": "9b1ca08adbb8123215bb258f83e4b40f6b9b7480257b1aa90805168105fba262"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/condition-095.mp4",
+    "bytes": 1063932,
+    "sha256": "d2d19b7d160805f8cc597264fa3058088693e4c08fa46ea61882e0a9d6ceb097"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-036.h5",
+    "bytes": 2012283,
+    "sha256": "ab798a55f29f62eaff2cffd931e01d9c5fbd9ac3db36f6ba8a7659e603ff68f8"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-036.jsonl",
+    "bytes": 3027146,
+    "sha256": "419f9af9f5df72e8e713405e5be2132edff113103087cff55ece5164f438ddc4"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/condition-096.mp4",
+    "bytes": 1126634,
+    "sha256": "a1b316f600b9cd7cb84883f7ea14780c7136fbdfba0ced34c4f35ba12775458d"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-037.h5",
+    "bytes": 1954101,
+    "sha256": "7bb03be8380b41f5f344c175468946926fb27f54d51fd18a7eb2919bdef54390"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-037.jsonl",
+    "bytes": 1414359,
+    "sha256": "2e0f7eb7aa23ee1e09d108bf30a629909e6371f651fa3d09bb5d5f4162cc28cb"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/condition-097.mp4",
+    "bytes": 1007215,
+    "sha256": "f2746dbc5d32fa8e44e48dec2ff7b8bcc471c04031522d81ec4d4a66a4e92d09"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-038.h5",
+    "bytes": 1173119,
+    "sha256": "acfa28c3a1802ac10539c3448c173e6c4b139a7ebceb2e7d50962b3819984cab"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-038.jsonl",
+    "bytes": 1745706,
+    "sha256": "e0a6830b37df83a157516d6d99c44215ff14079382185feaa9c12942ffae071a"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/condition-098.mp4",
+    "bytes": 775629,
+    "sha256": "a0b9c2ea4ca381c500e727c2fd3cc471b83c72c60e905dc549870d55f194765b"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-039.h5",
+    "bytes": 1938439,
+    "sha256": "32dbcc790430a6862e7ec69ef08fa5ffe44ff817208a1b7ebfc3f612893bff40"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/telemetry/episode-039.jsonl",
+    "bytes": 2148573,
+    "sha256": "ce00be9e5f2611f498d7918919b3115e0351a05d63406df318b4b6aa3c7b8df6"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/panda/condition-099.mp4",
+    "bytes": 1239390,
+    "sha256": "0d9a4b80f0cd7356cd3b04a24c6e248dd9991f09f295bccb34590468d970a055"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-000.h5",
+    "bytes": 1630966,
+    "sha256": "40d38b4dec44e4563a70ff72c27d30811aae02d0e4b4765ccac6e9c340f7c240"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-000.jsonl",
+    "bytes": 1697991,
+    "sha256": "a98d4781eaa31c0c6a5d0de2483771faed985c2a9e390b9e73da1b089833c841"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/condition-060.mp4",
+    "bytes": 1221342,
+    "sha256": "d7e4a98a882d973a77570a11c6cb691cd7ccded438dcef0148de007c0b210607"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-001.h5",
+    "bytes": 1972835,
+    "sha256": "1fc63dbda6b1fa958b17312043f19c1ce6633b95413b1f26706c8c307d53ef9d"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-001.jsonl",
+    "bytes": 1841885,
+    "sha256": "02aa02a99c3133e6aac3d14c480075d4ca411116313b7a1730e25b3e645870e5"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/condition-061.mp4",
+    "bytes": 1255696,
+    "sha256": "addf896c5a3ea1fec4a97533d4c170f3ca3e9eb264cb08fbbe7750563756e08e"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-002.h5",
+    "bytes": 1989119,
+    "sha256": "4948b36ea23d4673e1c5f308ed268dea12b9d520feece8a495885efd79a90344"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-002.jsonl",
+    "bytes": 2892385,
+    "sha256": "7411f2b9f7962a6f8125f41ced8407b24202fa015dcf83f32dcf617842804b94"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/condition-062.mp4",
+    "bytes": 1154332,
+    "sha256": "1f26a2450e6cfa000a583cfd79a2de6c1c6d80873149e2d2ec8c84072d151b19"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-003.h5",
+    "bytes": 2063624,
+    "sha256": "a51e3c8bb4bce71b6f2e1c73d4a522dbb332fe3b814887af7bfcd1a4cda473c1"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-003.jsonl",
+    "bytes": 1173275,
+    "sha256": "dced8273f4d01fe6808899d971f7de77df19a8363ad0df48cf515fd4b4c0aa86"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/condition-063.mp4",
+    "bytes": 1021420,
+    "sha256": "e96f345377909b80bf8decb810fc222801f999e314e0400ea8e4c0f8cca0d316"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-004.h5",
+    "bytes": 1845368,
+    "sha256": "14c1800cd6fa33c2adc5af3f35aa06f774867514453cc31ce3ef8f5ba4c812f7"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-004.jsonl",
+    "bytes": 3124272,
+    "sha256": "cd8f8336b3dacec37709d44b927e63f14e82d4c381bba292f57b86f2caf20e7b"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/condition-064.mp4",
+    "bytes": 1358949,
+    "sha256": "c4809c64582de75f6bcd6de9ade714df92bea3be7beac3e2d46e554e100c0958"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-005.h5",
+    "bytes": 1942160,
+    "sha256": "7617f9e890b38fedc2a11cc40e6641bacff2e94252845ddc4b5f84f47b8d14e0"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-005.jsonl",
+    "bytes": 3188001,
+    "sha256": "b2f6b207b081242837d2b6907b88af7e3b23fd85b10958e3f002c0ed3c4b0954"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/condition-065.mp4",
+    "bytes": 954015,
+    "sha256": "0bf1c054ea43da411ab31c73a18108a451742ff509dca19ca38fe28918941c5a"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-006.h5",
+    "bytes": 1911605,
+    "sha256": "60e57fbdde08f4b63ce4657a6b1bac676898db4d1b648fccc346c5c2f9882efd"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-006.jsonl",
+    "bytes": 1776558,
+    "sha256": "b497b7874f608380aa274b30828cdc5f8f3ed35cddadc5ab74bf26344906bc63"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/condition-066.mp4",
+    "bytes": 1136541,
+    "sha256": "9a30026592f545fd1c408e0765491c9f492d5b3c8a256aaf6251bbb683c150df"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-007.h5",
+    "bytes": 1965608,
+    "sha256": "ec0d0e4192f05415b3f7abd1ef33d0b3fa2e57ba77d1b88d30b87279314b72a9"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-007.jsonl",
+    "bytes": 2710807,
+    "sha256": "a775e5ea21de713ae60ecb8722f282c8d618c5f9c405e4e1b97c03b9abde3de0"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/condition-067.mp4",
+    "bytes": 1070034,
+    "sha256": "927f0c0b60b0e09965200a81d36204add83f0e8b2a505c6b553e105063629bfe"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-008.h5",
+    "bytes": 1344740,
+    "sha256": "08ffe5dedaa5d2626876fc0b8879f868d951b78ceaefb5816ca9bc3b559a2e19"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-008.jsonl",
+    "bytes": 5135785,
+    "sha256": "27c0f8c8fa804e925f298dc89b178df9390589ff79037c1cba30e62a9a98454a"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/condition-068.mp4",
+    "bytes": 810153,
+    "sha256": "e6d1c6517ade736ed1d75fec4a1d79087a561c5886ec99b7dae5e0c860769044"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-009.h5",
+    "bytes": 2013380,
+    "sha256": "8d6bf6e970fe35834568f77724c9fc1fd664442f1664e78bac2661b75516417e"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-009.jsonl",
+    "bytes": 1334265,
+    "sha256": "0375e034f7b3a0a54e3ff4e0f0309dd4f7f6fc1133b367c6c7e26959c27b6a82"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/condition-069.mp4",
+    "bytes": 1279080,
+    "sha256": "2e65cca1015c186bc4da4e10362e5278b65f6db93bde18c977675808d7fc82ed"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-010.h5",
+    "bytes": 1439554,
+    "sha256": "154d8a6df6377705b9e52ce04ce4f4dddbe3d72d7b47bac620e39a56f557c8a6"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-010.jsonl",
+    "bytes": 1712542,
+    "sha256": "aa6a48c15a3737bbefde7e9305c71b7129238e7878853d84f2135a473a337b9c"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/condition-070.mp4",
+    "bytes": 944169,
+    "sha256": "3bcee671e2655a0b9b534f9e63609d5d39e9745fda3171805e37c436c9d0b4de"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-011.h5",
+    "bytes": 1521360,
+    "sha256": "38931e31bd8d5fd12fcef57d5b12ca76c7666773a4e0f466faaac711a31536f1"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-011.jsonl",
+    "bytes": 1098141,
+    "sha256": "c2c62b7ed92498f98dc992cbe0932b5e2685e8f2b707e8a2f1bc5e18e14a1fe1"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/condition-071.mp4",
+    "bytes": 1092129,
+    "sha256": "6112f2f09017530d926ee070078c55e3869c9b09401a6003b3bd279d1a8d942b"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-012.h5",
+    "bytes": 1357135,
+    "sha256": "883864ced9748bcf994f6cae93a6e2434403709ee9f3d9aaa4d54039fb815ed2"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-012.jsonl",
+    "bytes": 632653,
+    "sha256": "84041a59b51a3f992a91d7538f874d47df5d63ea6c6f886df9b20c6e4bf9c69e"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/condition-072.mp4",
+    "bytes": 956495,
+    "sha256": "279d9b33d02f36c15282d208994e148595e87a179cadf4b2d02e4ab7f27848e2"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-013.h5",
+    "bytes": 1388866,
+    "sha256": "d4c4ed0a1fdc9dfe001b63269f3f75e642dd119eb4038bc2db905dc208d88dcd"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-013.jsonl",
+    "bytes": 1033275,
+    "sha256": "2d7915771686ac0f0c02237cb592488e7405952a7c217f9307463867db7f0efc"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/condition-073.mp4",
+    "bytes": 901499,
+    "sha256": "9eed4d91a00ffe6ce9c6be6db5e1f4c54715a4a34af6f801c6fe420eaa4ef1d0"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-014.h5",
+    "bytes": 1525502,
+    "sha256": "501223a488628e83187241ecc5333ba48e89fbac67f4649324149415124005ab"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-014.jsonl",
+    "bytes": 899231,
+    "sha256": "e2a425f96d9b97c350341a861f2e153e7755b3b7d5e7493e01503e8fa22816c5"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/condition-074.mp4",
+    "bytes": 928192,
+    "sha256": "4b5ce6dbb921dcc7cd2ef9bcf953b715606b339d14c91f2b99e2c374fb2cccf3"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-015.h5",
+    "bytes": 1526230,
+    "sha256": "5e4f772fac2d59f607ef8a324f0fd0120aa9720764889e8c08751b48f003a82b"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-015.jsonl",
+    "bytes": 8631779,
+    "sha256": "87b26638de3b024345c09b10d64b4bcf30966c48f54cec5e20a0ec0ad1e7cfe5"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/condition-075.mp4",
+    "bytes": 908016,
+    "sha256": "6c881bb37cc78bb08bd8d4f15aab27d114955cdaca89992763ca757c814182c5"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-016.h5",
+    "bytes": 1168650,
+    "sha256": "d85752be7a3d4cf883277c3a375e939fcbcc5037a22d6f2c0aca31e3684edb51"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-016.jsonl",
+    "bytes": 636747,
+    "sha256": "02f2470cffe3e8750b4490f731fd54d657768aafdd77e7f71d57e402df5cc556"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/condition-076.mp4",
+    "bytes": 647105,
+    "sha256": "7f3d1c116fe2aef706aabe426ceedc22772915b67be93705279d7a91b2960f54"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-017.h5",
+    "bytes": 2009130,
+    "sha256": "65cf7857ce16ad195797aee8f98cb26d7c3b3f5d2dac2d5007a862b87d08e46f"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-017.jsonl",
+    "bytes": 1191844,
+    "sha256": "ebde9eff7729fc6f4b2d3807924ed74f2593968f31c1ce30fa62011e024fca5f"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/condition-077.mp4",
+    "bytes": 977432,
+    "sha256": "b85c98700e263716162cb4f47fd7ab2a9d7492c4f735867e9bc9bde23831ea0b"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-018.h5",
+    "bytes": 2036426,
+    "sha256": "ad552f10f92e99f1c4ffe1e1a2af40197cc8dcc5eab84d12a09b82e3f42732be"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-018.jsonl",
+    "bytes": 1909486,
+    "sha256": "3df32d5f0e1bf7f8735d1a492008318af9a73a9bcad5ab7984a586f5213e331b"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/condition-078.mp4",
+    "bytes": 1116192,
+    "sha256": "dd3a62816c835432983b09b008b541d18cf8d377b9559749e16348730b5eb9f7"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-019.h5",
+    "bytes": 2070253,
+    "sha256": "512155b6b73f4b96d744eb59ca12bab41cd75a7fea2656a7108b2f72afa10be4"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-019.jsonl",
+    "bytes": 3012236,
+    "sha256": "bb91928c0bc4222e5039bbe654925e528025e041ddc905527a021e92e147a44a"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/condition-079.mp4",
+    "bytes": 1223388,
+    "sha256": "09a08c588c9774935d721210e127b2c415804652abaf782ccb639bb5a7481bd2"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-020.h5",
+    "bytes": 1991732,
+    "sha256": "0e019e98333fd7374dea57f3a20f37dcfcde17e38c68267f5368147ddb2bd4fe"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-020.jsonl",
+    "bytes": 1452112,
+    "sha256": "e5abb5e6faefe96423badc56b0f9358cff4fd4b09c40b2f8ebca175575234d34"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/condition-080.mp4",
+    "bytes": 1010670,
+    "sha256": "a89273f1227d53bae1d7aaba86ef5a28bea035798689d9916be982591843f3f0"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-021.h5",
+    "bytes": 1296659,
+    "sha256": "98e89d05650115b9b406b88f5b7e3452e0bdfd5819685e39f9c9afb45855825f"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-021.jsonl",
+    "bytes": 938838,
+    "sha256": "1c96b5600c8222c3fe7f28f7b81c5a9c0717abe9cdb09f6d9872b20604592213"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/condition-081.mp4",
+    "bytes": 835848,
+    "sha256": "37b9d85b0ce2a62c5648e090beb7b752f5cbc181e06ea9aae9d49b96b06b2ad7"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-022.h5",
+    "bytes": 1441999,
+    "sha256": "9d80697cc900c159b27dda6ad81c8faa0832b47670fdc13b77aad3adab1a51cd"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-022.jsonl",
+    "bytes": 1049189,
+    "sha256": "db17b78eed5237594dec7a06c7daadfcae0dbec374dad359f27d1b08780cd25d"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/condition-082.mp4",
+    "bytes": 956815,
+    "sha256": "09bfc4142dec4f5036afc4cacb3280f9ff71b468200179257315bd81218349c4"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-023.h5",
+    "bytes": 1231766,
+    "sha256": "5500021b973c94452600103cc5f17158d983ce88d928daeab45ed9a16d42270a"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-023.jsonl",
+    "bytes": 1216970,
+    "sha256": "ecb79f8170df72bb98d4036e97e40b7ce06dee00572d988f00a35fd3c40754dd"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/condition-083.mp4",
+    "bytes": 787032,
+    "sha256": "1a3aba7d48bc92de8de5c72c98355cda6461f3480cc2032cd296e8a3f7680fa8"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-024.h5",
+    "bytes": 1921192,
+    "sha256": "dff571268dd86b3f9f2be282d8cd376c49dcf1f96746f64df1f4d7c583b02835"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-024.jsonl",
+    "bytes": 3872941,
+    "sha256": "d802027df020d244426fa2543f0e3bca5556e187401959c119093fae5cce5437"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/condition-084.mp4",
+    "bytes": 1360302,
+    "sha256": "487bc945f484cba2d30dc9179f65d3ead6c1088ff57cdfc03cb103a714ca3119"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-025.h5",
+    "bytes": 1591327,
+    "sha256": "2c8774694ea3070c9473962e2229a8294dbc8150f3de2f54ac3f597ebc67a480"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-025.jsonl",
+    "bytes": 6242688,
+    "sha256": "5888c63b1408ec7465e41eae1ed1e54be379919c961d9502c5329bd7afc3cde8"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/condition-085.mp4",
+    "bytes": 937156,
+    "sha256": "27ed632e4643de1cdc1ac39fc327161af58c5c4c1717275e13e3374109e3ca30"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-026.h5",
+    "bytes": 1961695,
+    "sha256": "9ab76a7bc388ba0da13ebf0b4fa622e96ec234cc75bb8d78bbc85f37f8b65c8b"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-026.jsonl",
+    "bytes": 1156606,
+    "sha256": "fa7251eae88ae61ae2ba1714cd753f4f39daa6cc69b6d3036625b2ab96cc0313"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/condition-086.mp4",
+    "bytes": 1408331,
+    "sha256": "5bbdb11a4a0ecd50e656903a9e777a9e2eaaa6972691826600c82659ef3f57f9"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-027.h5",
+    "bytes": 1212020,
+    "sha256": "5008bbdeeb799df126d7210c6409ac7da8c0fc9492468253c1779f81dd1796dc"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-027.jsonl",
+    "bytes": 1012731,
+    "sha256": "bf53a0e8efe35d3ad0ae0f3f776512f69f4ba9952e2ca8c6fc49629245e83f3b"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/condition-087.mp4",
+    "bytes": 815669,
+    "sha256": "a19882fff3926976cc8fda2ce251421d5c7c009b684ffbb3ec0f29604a63c6f9"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-028.h5",
+    "bytes": 1909650,
+    "sha256": "98d07217761ef0c2c4439e9109a670343f1c28d1127bcdc084f36a6a4a37da7c"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-028.jsonl",
+    "bytes": 1788102,
+    "sha256": "976b391d25b4017f4ac7bedb18b35fd020af62782853cfbdfe86a279a54506e8"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/condition-088.mp4",
+    "bytes": 1468886,
+    "sha256": "e87ee614b185bc513850e8eec2b01a7c34875bf0ef188790fb86fc3cd8148ba1"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-029.h5",
+    "bytes": 1883471,
+    "sha256": "5298ce3594fb73728608debd9f9211944b235831c11340fad10e2c23c96e0348"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-029.jsonl",
+    "bytes": 1625704,
+    "sha256": "02ce188f0b07c15d2d36e6ea4358e3a2131e597b78a1085afa717aee678ce711"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/condition-089.mp4",
+    "bytes": 940476,
+    "sha256": "4a76147aa6c808349c447adeef185343c75294bbaf125d15f60485c206dd983b"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-030.h5",
+    "bytes": 1996981,
+    "sha256": "04fe0b73666500ff24effeea47b48f88e50e5b4afdd46a59351a025bc3dde821"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-030.jsonl",
+    "bytes": 1130687,
+    "sha256": "5be817796f382371bdf4f5a77d792d3092526c90f244ba812922a3b90ee75148"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/condition-090.mp4",
+    "bytes": 1237120,
+    "sha256": "368e0caca5ef396cd557d7c13ff8cfbdebcc499f26e2da62d0590f79c82b2d9d"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-031.h5",
+    "bytes": 2072921,
+    "sha256": "7f15b9095eaa7ad7d2bd37b6aafa8959347515acebea5108b4b84dd87fe02b40"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-031.jsonl",
+    "bytes": 1507066,
+    "sha256": "c6ea63b49139a6bd253234efa84b30cb5084b35a73f9f55f71ed17533c67cabd"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/condition-091.mp4",
+    "bytes": 1025574,
+    "sha256": "538a827082aa9b38044d4a58b92f52bdcd74c837fce9b754b8f35495aeb2fe34"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-032.h5",
+    "bytes": 1997094,
+    "sha256": "0c4b49b1e6222fe1be613834d43984b4c199c80812697f5f78f4cff6f0fa2262"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-032.jsonl",
+    "bytes": 979549,
+    "sha256": "4e4f8380f7f52183f16c0ea1973f891f52711656ae54e92f4ef68eedcfb52ee3"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/condition-092.mp4",
+    "bytes": 1365245,
+    "sha256": "b7951f197c882951e1719df4472187d32208da3316ad58cf5a5e61be6f14f0f5"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-033.h5",
+    "bytes": 1438749,
+    "sha256": "311194f20479cd66bdde65d36d2cd61a433386d441ca9b3293dda6cd976538be"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-033.jsonl",
+    "bytes": 2166471,
+    "sha256": "64acedb6664d4d3c0b2b1a0e727e128a50ac49c3568f67c5b7f7984c2f1d37be"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/condition-093.mp4",
+    "bytes": 939412,
+    "sha256": "412522babcaca1216c0de39a4cda0071a951a398a8c2494d42e87ac67de008a7"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-034.h5",
+    "bytes": 1586845,
+    "sha256": "c89c43bc47a4ccebbd21d2bfe790e7f5f01086b9ad31a1a092de71c7ff97503c"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-034.jsonl",
+    "bytes": 2380365,
+    "sha256": "57ffbfd77d685761ae52ac11730d459882c63a40faeb1495fdcad412e8f1f357"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/condition-094.mp4",
+    "bytes": 1158611,
+    "sha256": "03b261ac53f527bd155c1c83c97e288f9e4dc64bf343368b8b6f0b1a874dbb6f"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-035.h5",
+    "bytes": 1311065,
+    "sha256": "5c8620f644c13733d655bee8d92f41afbea4331a33a7e25829e495303ef38942"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-035.jsonl",
+    "bytes": 1792743,
+    "sha256": "b4ea510babea2bed463bc9dacdd1f9a1fa4c30dfea8e49117aed66358527fb96"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/condition-095.mp4",
+    "bytes": 838986,
+    "sha256": "cf577670110df8e907b12d648c129733181806303fd2d22f6960bf5badb04169"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-036.h5",
+    "bytes": 1948149,
+    "sha256": "1c6a6b946688952255df1322626972dc4092fcedde3f03d4534aa93d9a518a93"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-036.jsonl",
+    "bytes": 3239608,
+    "sha256": "66aa9b09b214a95f8b74d0ee39e1ddaa943226fc7c22a9a2c3ed65566dd3e499"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/condition-096.mp4",
+    "bytes": 1300422,
+    "sha256": "f96f40e9327a74b18ce326904746f254f305f06eb712650bea52210ebbd8aa6c"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-037.h5",
+    "bytes": 1988010,
+    "sha256": "cca96bf91dcefdccf61025c4f53fecd58865ab9081673b59a942b20da66c8228"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-037.jsonl",
+    "bytes": 1355017,
+    "sha256": "6695fc4fa3ba87ff1769d0301f5244d08f39cc2a6e4f5574e90c9a9c962b0021"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/condition-097.mp4",
+    "bytes": 1177841,
+    "sha256": "756e65723d250bea4503d2de66ae1fbdd273d8f97fc8a7f47da189dc8e68aa68"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-038.h5",
+    "bytes": 1933686,
+    "sha256": "3980073870f6832de2191a226d4a498effe153286af72a0c0e62e6c597279550"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-038.jsonl",
+    "bytes": 3004740,
+    "sha256": "101758d649fac7b3040995b6679a69741aa3f936d7504d919b9c30ab348fcec2"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/condition-098.mp4",
+    "bytes": 1383895,
+    "sha256": "90d0aeb96fda94430c78e2e9cc8b5fc172b5be1d51e9fb07df4f7444e8bd340a"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-039.h5",
+    "bytes": 1932721,
+    "sha256": "f8024dcb17525560356a30c670c583834d76f6033cd980ae2bdd13665e7f7676"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/telemetry/episode-039.jsonl",
+    "bytes": 2020251,
+    "sha256": "ea492677594aa722859de7e1b78ae867e149ce7b66f5ac4b258d59fc322e4b40"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_counter_to_sink/ur5e/condition-099.mp4",
+    "bytes": 1482570,
+    "sha256": "82dc12e85f0479fc504c6037f152722750eb6d22e82f85f71110c07a666c52ae"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-000.h5",
+    "bytes": 2127895,
+    "sha256": "5ceae5a1204add82a911b1e86b660c36fe8c8d62158d49c55398919ddf686bde"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-000.jsonl",
+    "bytes": 1334545,
+    "sha256": "099cbfe3c1a72bf375ab4b8cd62a508fb56d2cdc0f2e80cf34451ec306d649f2"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/condition-060.mp4",
+    "bytes": 1774914,
+    "sha256": "f0e020f665281b1360115ec6007da723db6ba55792bc6baa181eb0968b60fcba"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-001.h5",
+    "bytes": 2073617,
+    "sha256": "f1830ce166c2e5499f35a970e2fc750a7ccccbe4191672c14738600dd04254da"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-001.jsonl",
+    "bytes": 2224811,
+    "sha256": "ac693b1890bd31622393f64728d653a2e0be04bdc9823067a6bca3e64b06eef7"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/condition-061.mp4",
+    "bytes": 2090995,
+    "sha256": "3232236e49ceda4424e68de7e8df624ce21b63f5b47a944e9c9430f5fb01f735"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-002.h5",
+    "bytes": 2107025,
+    "sha256": "96ca2f350068de06e78d8265d54f6700d7d44307a84f913ee2d33f076b5c9119"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-002.jsonl",
+    "bytes": 1361960,
+    "sha256": "c87c295a79af7d518d536e1682817bb6fbe29864f63fbeec4d952e1a9b448053"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/condition-062.mp4",
+    "bytes": 2072736,
+    "sha256": "20b7c00da1faa59af78ebfcf7f6b39250594503fb09a4f70094ab40cba636d70"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-003.h5",
+    "bytes": 2206725,
+    "sha256": "242244930caa07fe527b5e4f6f44c20ffc0482b31de0dbe7e38fc423d1c93f49"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-003.jsonl",
+    "bytes": 9624626,
+    "sha256": "05b44031f81363eba93bf0cd3f3ec5468fd1be18126f98338532ae30c9e059ec"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/condition-063.mp4",
+    "bytes": 2222571,
+    "sha256": "a6731c07b564309908e00087e8d83fafd2bbe42ad30a3d150c9f9663dfc8d8d1"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-004.h5",
+    "bytes": 2262269,
+    "sha256": "2da78f6d888e69a3b30d18f2ed946e63fd77a20a15f7d2a31cd1cf509b310195"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-004.jsonl",
+    "bytes": 14731103,
+    "sha256": "a686d3cfd43fa62e70b757c3f5ca624a033b35ad100fade91bf0a55a51e4ef61"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/condition-064.mp4",
+    "bytes": 2392086,
+    "sha256": "8727c59d1096dffa8a1113fd361b0f2260d339710f5a64e185b309c14b251de6"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-005.h5",
+    "bytes": 2055021,
+    "sha256": "4f94c51d6ac3dbcabccb3ea18800ad4d6b21ead3af5b4fa2a5cb67ace07dc75c"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-005.jsonl",
+    "bytes": 2403578,
+    "sha256": "6407ff4258292c6a81492639f054c9480ae016ed571a2185cdbd67059414e3dc"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/condition-065.mp4",
+    "bytes": 1359730,
+    "sha256": "9d3b05a628ed836cd0bf727929348d5acdb6e7999a370128941a65ea998b5473"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-006.h5",
+    "bytes": 2064044,
+    "sha256": "a4c484b7bdfd68cc2fcb97de8b32a4fb1f43d93be4c8bdc19c25138d77279022"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-006.jsonl",
+    "bytes": 1641991,
+    "sha256": "d995282fbf385a69bc0ace45793ba9a7d1695e09e14e9f840d338c99df811ced"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/condition-066.mp4",
+    "bytes": 1766834,
+    "sha256": "3a18aaf720aeffeacb400363d2691cf51097425ba231a2a259a674b50ecd1d04"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-007.h5",
+    "bytes": 2236438,
+    "sha256": "cddfc0d512461894d42c92dde5c4ac39a80cc6260c71438219928b2c87d7342d"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-007.jsonl",
+    "bytes": 12294045,
+    "sha256": "21a25b20a8544475aa692344a047e286d1152234a6ceba2270affc5a97fe2cce"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/condition-067.mp4",
+    "bytes": 2244316,
+    "sha256": "6ecdca6ffa03d5ebfc904d6c5187ab1836f75d206e75b68537cfc708e6289250"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-008.h5",
+    "bytes": 2064284,
+    "sha256": "0b0d39c078fc004d440f864e936c4a44bda80f0979b9e3e7ddd1d11f37161901"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-008.jsonl",
+    "bytes": 1251641,
+    "sha256": "72324b55660ebb46f21c0e337124e7f96769aec3c3114f1547a319333e41f34d"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/condition-068.mp4",
+    "bytes": 1384549,
+    "sha256": "42a3cf211b1357960e70ba7b4438e90b65a42ccac8e05b4db5338eb337121c39"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-009.h5",
+    "bytes": 1920082,
+    "sha256": "877a4dd7762aeb4a59f1b3c711cb4d9a5284bbd82e6ff3d4f164edd09f2477e6"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-009.jsonl",
+    "bytes": 3641998,
+    "sha256": "c261646cae581eb58cedefb61276e02e6e01c1616207275cea2e160d6cdf1207"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/condition-069.mp4",
+    "bytes": 2035994,
+    "sha256": "357168a195cd12cf2d6af02b4134c06f28c3aa8b48acc17710cb5a2aa6f31e32"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-010.h5",
+    "bytes": 1994430,
+    "sha256": "ddbfe8e366c5b6f6c546fe3624fad99f71d1851708c98cbfefbc40220907760f"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-010.jsonl",
+    "bytes": 3425705,
+    "sha256": "55eeba7dd2e2cd539cd45c541bd0a3b040b4f1167e0d404a313ca0a42eda3775"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/condition-070.mp4",
+    "bytes": 2191826,
+    "sha256": "116844e61f32a72fc87118c744c58b14e9f88c0cf02e8a9b809f9c74e4138d7f"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-011.h5",
+    "bytes": 2069268,
+    "sha256": "eec82bb1f1dceb162647e60d305532cb722d91386f6f8d90a718f9920d6e0f0a"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-011.jsonl",
+    "bytes": 3433753,
+    "sha256": "fd2b21c0b914af4f5b55e000515c79c1e9749ba2ef225489e7b49e23ddd299c2"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/condition-071.mp4",
+    "bytes": 2151545,
+    "sha256": "9e6177f582696de42ce98f213d909e3a9db7a7ff5f92596fee1d7bd6dfb8b4fa"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-012.h5",
+    "bytes": 2182858,
+    "sha256": "49657ef44ae8a7bbd0f344e5de3261f5ed57649447ab071e7cb89eda0e5d73d1"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-012.jsonl",
+    "bytes": 1688377,
+    "sha256": "36c99f35059f0ac5c1ea7ea4a540753f1c222880fa0007b572411a4fecbc8b0e"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/condition-072.mp4",
+    "bytes": 1634453,
+    "sha256": "a971430bdee6ac588ad725fd37e6d8a595928a2b99eb3354e2836c66ac9d81d3"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-013.h5",
+    "bytes": 2168264,
+    "sha256": "547006bcd6f4b47c709aaabb1f485c69125bbe358a79ab6806de31d0e5685c97"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-013.jsonl",
+    "bytes": 1635885,
+    "sha256": "0ea04d68907696441d12585723e27699c58cbec9f49461f652c55f47d893e8d3"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/condition-073.mp4",
+    "bytes": 1555338,
+    "sha256": "5337e688c231f76f2523f08bb011e4360d8f9b0d1164beb16834e2d93d1e6de9"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-014.h5",
+    "bytes": 2029033,
+    "sha256": "5fe808299964f670a5d1e75b0a482fe8d694b3c58939ac89eb011cc194960b34"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-014.jsonl",
+    "bytes": 4193334,
+    "sha256": "f552664d1eea928aab4667bc168980a68855113a1649aa2f83b074f2ec2162e8"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/condition-074.mp4",
+    "bytes": 2117304,
+    "sha256": "266f0dc6bc26579a97238f08ffdb25244bfd1dc6ec5ecbf4f0de0f66326355f9"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-015.h5",
+    "bytes": 2149231,
+    "sha256": "cff6bcc8b414efce3efc7189559f8ff457ef0f645acfd174bea167378c29261b"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-015.jsonl",
+    "bytes": 1418010,
+    "sha256": "55699d0a0973ec7aa26e8e7a7a56d426707995ead5d2ce49f4bcf35b351016c5"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/condition-075.mp4",
+    "bytes": 1777205,
+    "sha256": "cf716fa397258b0cc37141495d9a1cd17e228ac8c57d3786cd983875927e5003"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-016.h5",
+    "bytes": 2213631,
+    "sha256": "68f973c8990b00b96ee73bbc7ff7d3702bd7130f6ff8e2fb0a972251b892dc90"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-016.jsonl",
+    "bytes": 10534126,
+    "sha256": "33b14d75fa6d9f00f2fbbb22ef236276fdca90280e2bdd3a4f956f1e35edc8f8"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/condition-076.mp4",
+    "bytes": 1697953,
+    "sha256": "7481c1935b3b356b1e30efa5fd2bb86427952525ae3d2abf04cbfb2c5947b2ba"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-017.h5",
+    "bytes": 2082493,
+    "sha256": "c4c65d2d9195dbcf36df36300b9c9c32cc8d6bf55a6d868b6af66ac023c02f9d"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-017.jsonl",
+    "bytes": 1519856,
+    "sha256": "bf106e5593a16fd5033933baaa74c471897d81336fb32e839954563260b0f340"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/condition-077.mp4",
+    "bytes": 2460505,
+    "sha256": "16bf2f62fe368126d1db8187ad46037194a093158fe28fb1767c31e53313aca4"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-018.h5",
+    "bytes": 2108398,
+    "sha256": "ec0a49012e6cab725ccf54aa32b8d2da845d2819b0cb2dee2a64bab99bc936a4"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-018.jsonl",
+    "bytes": 3150856,
+    "sha256": "9528ef8aec8bccf53b72b26a9c18cc90f64e7fd173bcea6e78f18542939b7478"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/condition-078.mp4",
+    "bytes": 2297819,
+    "sha256": "3b0e4f9e85bd3023cb68caf57857e5a754b6eefd4a3da61036975594a9b4613f"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-019.h5",
+    "bytes": 2299443,
+    "sha256": "a306fab39798d249029b49353f8e9d47e47f6796dccdbd782a324dbf51605003"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-019.jsonl",
+    "bytes": 11546981,
+    "sha256": "dd131391a0a258831a651f7092527163de53b048e5af137874d1688443928508"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/condition-079.mp4",
+    "bytes": 1742881,
+    "sha256": "42abe5fa2c9514e6a8fd076ff2bed3c65e2cb7c3d74024d849a0e31e31ad3bc8"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-020.h5",
+    "bytes": 2162960,
+    "sha256": "66ba228a01191a03a5bc18f421e83732ea6ac113520c5b6203fe1f8f683c87d4"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-020.jsonl",
+    "bytes": 3505153,
+    "sha256": "6ad814b3424af767416658866acce1554b370b20d28466e5a7b24fb76b9d8900"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/condition-080.mp4",
+    "bytes": 1428508,
+    "sha256": "4229e0f09c01891fa78a34bc8f66507450153662904dd7be3f59bf339490e3bb"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-021.h5",
+    "bytes": 2086629,
+    "sha256": "ee092ff58a09141ade2a56ef5db177932c68bc224c78236160e5694b178e2a75"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-021.jsonl",
+    "bytes": 2318107,
+    "sha256": "42a6d881d9e23b490c75639e945dcfce94596b45d7ecd13292851f7b4d367705"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/condition-081.mp4",
+    "bytes": 1980387,
+    "sha256": "7e52415549271a5c1abd14b39d8a67c9d08fbfa6529809de41ddbb93653cd434"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-022.h5",
+    "bytes": 2063902,
+    "sha256": "fe92da19114e2a6e165fd2872a859dddd38c21cf7c6601f3cbaad00b113ad593"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-022.jsonl",
+    "bytes": 3549797,
+    "sha256": "e8b751cd21a90b224f39e28527ff3e80a81392c3592a878a30f7d21bd0b70cb7"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/condition-082.mp4",
+    "bytes": 2282907,
+    "sha256": "c5fb952a988391658ea035d9cb73b78a9616189cd0be2960599b5d54fc6186b1"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-023.h5",
+    "bytes": 2056974,
+    "sha256": "05e0cc294cb4b9a42befac226042112437cca80e9ef7ff3cc6f9a36cc6aae195"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-023.jsonl",
+    "bytes": 4119796,
+    "sha256": "876ec727ae58503ec7333a7d80cd05c320715db318cf7a49b7368faede6a7f89"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/condition-083.mp4",
+    "bytes": 2064158,
+    "sha256": "421543cf024eb4737bbc8f4aff5ce7e792bd87e1d6dcc606ab9aea0b2a8ff697"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-024.h5",
+    "bytes": 2085953,
+    "sha256": "1f9888119245757bafbd56c223ab6700c22a5e83269bae8178b447ba9d002a23"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-024.jsonl",
+    "bytes": 2211132,
+    "sha256": "cf3d2ce5a1350c503f44062d7d499a67a66a8847fc0272c2f5257334b45c2dee"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/condition-084.mp4",
+    "bytes": 1543268,
+    "sha256": "2447a45fad04791dde5310ee1193dd3c61c6280db9eeecf6cffdcb8c74dba837"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-025.h5",
+    "bytes": 2090849,
+    "sha256": "abbc9a822ebf2733d8ed7b777a95310390b0634b56278a087557b870f7560ce5"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-025.jsonl",
+    "bytes": 3967143,
+    "sha256": "4b47d2c3c9e2af3af338dfc0b7389b8f2cb510a02579b3d9daddaf9ff468c3ae"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/condition-085.mp4",
+    "bytes": 1932932,
+    "sha256": "238c0578b9fd660d4f5c854b3a73ea16157005ad80ded0cd7f99e287c8ce7b9f"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-026.h5",
+    "bytes": 2047150,
+    "sha256": "3ed7f7af7d905b54ade8473571a3ee5c2ec951a9b19dc81e94ab4c8a786f43fb"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-026.jsonl",
+    "bytes": 1163315,
+    "sha256": "fff5b676166e03d3b60294956a643476681269df470bc7dc4e3db41c43c0e20f"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/condition-086.mp4",
+    "bytes": 2324306,
+    "sha256": "d24a8bac226388ccb826e9531070bba57aef07e240f4e4469b3a30ba376e1bf1"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-027.h5",
+    "bytes": 2262639,
+    "sha256": "bda07675ec88e0a756676f4911ae9c120aaa331d771c7e62bc8e89dec96a4871"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-027.jsonl",
+    "bytes": 11509644,
+    "sha256": "8206de31b8b193d0c6f79e799269357db5125f98541fcbf722de9e809ba18fe0"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/condition-087.mp4",
+    "bytes": 2288794,
+    "sha256": "97f36450668a7027a72860e499a1401e6088e8919b4c0fee9c4357e10f33558f"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-028.h5",
+    "bytes": 2416813,
+    "sha256": "e3a4f9c8ce8da1068ae505889d5470f1b0ee5298b0b2c6053ed52b78cfb2b98c"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-028.jsonl",
+    "bytes": 10661848,
+    "sha256": "d93a93e43156a7c0e9da1bce7e25b1efcef96065468d6e769396bfb5ce79db60"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/condition-088.mp4",
+    "bytes": 1709872,
+    "sha256": "40820a6dc85651b78bdbf443f17823ed63cd3fbbe4ab798d4fe993d1daa9d3bc"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-029.h5",
+    "bytes": 2201738,
+    "sha256": "7277dabecc1c263081b4b0ae41f20e146aa8a6aa3bfa02586157d068e3bb7a33"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-029.jsonl",
+    "bytes": 3488345,
+    "sha256": "02f1120bd7e4b839d7f1ac9db3ad622724288e50037ebcc5965ec38d3122cb8c"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/condition-089.mp4",
+    "bytes": 2000743,
+    "sha256": "9b3ddfbd38ecfa4a8057d12ce585d6eee1af935c6a70d2fdaf1f0f45ed44d073"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-030.h5",
+    "bytes": 1984126,
+    "sha256": "4bed23f14c31238c857ce4cbdfbcd2033d9202a0aef303b5ea021f5e80b097be"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-030.jsonl",
+    "bytes": 1602777,
+    "sha256": "ddf9c5762b1d81e0145d0360820b6ea6c62061ae4c520e714ae2e82c6e9c8061"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/condition-090.mp4",
+    "bytes": 1679904,
+    "sha256": "d6643cfc8b53298592c336dcad560e8f62da3a10931a7d6ae749c7db0af35534"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-031.h5",
+    "bytes": 2109617,
+    "sha256": "9211826cf74788d51569243bd921b6c00161a4dd860f57f923ffb4e9811e82bb"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-031.jsonl",
+    "bytes": 1326156,
+    "sha256": "6e61f7d8088737ae664f444424ff38c265fdf3cd280858eef9e76c815da3e34f"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/condition-091.mp4",
+    "bytes": 1426856,
+    "sha256": "e0c30d0a8cbedfb4ef1bb09151954188fd93ce6f85e177b4eb955f3c2d5dbeeb"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-032.h5",
+    "bytes": 2142911,
+    "sha256": "cba1c94ef033b7e520b2fcad8946dddfbb43fe0378fbe001d4b56855e8860929"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-032.jsonl",
+    "bytes": 1142655,
+    "sha256": "95eb10474c26314dc20fd9381e6856ff38f952a3682d8a036e03218ebab1d7fd"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/condition-092.mp4",
+    "bytes": 1969235,
+    "sha256": "5bed811eaf46cdc6c2c1ff9654f803e0f5c4ba37bfd411b40efca8b0f71ae1ec"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-033.h5",
+    "bytes": 2064962,
+    "sha256": "adaf07a87a5cbe0edd45390f2a50c26fac034f07a788cf67da5c7d22e7e8b9af"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-033.jsonl",
+    "bytes": 1300084,
+    "sha256": "9cc763ebd4402e92e83953cbcdec3fdc0c8c71cb548b888eb027566cf0aa7a1a"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/condition-093.mp4",
+    "bytes": 2316973,
+    "sha256": "5232d0f8127f3edf7ad78d6dc65654f2c121309d3e11f84d2229579b4ec42bcc"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-034.h5",
+    "bytes": 2296823,
+    "sha256": "6677bf2d00d3835137740b959cac9d053c78aa7a9a5d5db121b1899b4cbdcd79"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-034.jsonl",
+    "bytes": 14443132,
+    "sha256": "0ce31d7a18748889e4f3f56a8ebc5aa5e98ea0c88c5731e46269b792444c2cc4"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/condition-094.mp4",
+    "bytes": 2362254,
+    "sha256": "f0ac22f9c329485f91731386a8bc9f99a104d976b4befec9ab4239e8c473e085"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-035.h5",
+    "bytes": 1713131,
+    "sha256": "b114508d0479ba565177a2b4f8ecd95985765bdb50b91a2526a58047ece87666"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-035.jsonl",
+    "bytes": 1278017,
+    "sha256": "cbcd8ced93b11085adb98e0d2d970ed8618ce333d8e821dc0ffe9e5ffc2f1eab"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/condition-095.mp4",
+    "bytes": 1173904,
+    "sha256": "1f96213fd5a9ba799da654bf4b3af5f12a88b10a8e91added9e9fd22e5e44cb4"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-036.h5",
+    "bytes": 2020709,
+    "sha256": "e5baa61dee58369c35583d340f6e37218349ec616064b0c8d9458b7312498846"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-036.jsonl",
+    "bytes": 3586997,
+    "sha256": "34ba51dd2e3682fd671cdd239eddc15a0dfc19e18104d5dff32bddf56902998f"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/condition-096.mp4",
+    "bytes": 2078383,
+    "sha256": "8a2f60e0dfebb0cbbcd87c157cc8619b1b1cf8cedc7ddad181e5f6fab1d2169e"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-037.h5",
+    "bytes": 1916794,
+    "sha256": "597f03c0cfee165ccdbcd63e78b9693e12190ddba775cec34f75f8f93a116df7"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-037.jsonl",
+    "bytes": 1581929,
+    "sha256": "e60a152a8b717babd97404252885c5681a64c33362ed15684cd4ce14c41edf75"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/condition-097.mp4",
+    "bytes": 1314501,
+    "sha256": "57293a61fd88677aab113ee0b3df6d60867ec3aabf26757d1a7f2e4935034bd8"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-038.h5",
+    "bytes": 2069742,
+    "sha256": "25fd51ccf68cadbf54654be3bb5aa47ab1683311a96b242337b78a085a720d95"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-038.jsonl",
+    "bytes": 4179718,
+    "sha256": "9cd928ea7cfe0bf72e455588e89f8d30e3757443796ad80b552559ca3a924120"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/condition-098.mp4",
+    "bytes": 1924423,
+    "sha256": "c5ba4fdba07d249a57af3df4fc2a309162e9b0cc9de825a5cb2331c443bcd012"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-039.h5",
+    "bytes": 2229280,
+    "sha256": "77410d64b54370bc0070d6e0e3480f95a8367293fe362dba33e5eb3e9a9abcd7"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/telemetry/episode-039.jsonl",
+    "bytes": 1418234,
+    "sha256": "c690464b21e594b00b7817b70bc2addea25e5d4856cdb50682302840dd0c8880"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/panda/condition-099.mp4",
+    "bytes": 1825382,
+    "sha256": "475c426f42e9c2b1acc38e1f96c50c1dcf4ca5d0d32d3b2a34c734b0904b9ee3"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-000.h5",
+    "bytes": 2144953,
+    "sha256": "9bf67ff329e64935c7939c1024e37986eb41228fb205e7e4a579f73d080a1521"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-000.jsonl",
+    "bytes": 1589435,
+    "sha256": "25cc599c6682d1dd6f2269447633c4ce2a0c3ff0f44968ea0468b455bd2f642f"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/condition-060.mp4",
+    "bytes": 1479777,
+    "sha256": "6d1902b3dc4ef7eff96aca88b9eb8a8d45518f14b8a6cec20997ad982c03f58c"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-001.h5",
+    "bytes": 2088332,
+    "sha256": "77a6f9f4928daa02ac04d6061524566a4cf16845a1cda7c4458e7af66ea6bc41"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-001.jsonl",
+    "bytes": 2380367,
+    "sha256": "fd029f2572432d7ae52f2e81fc0d33c38d2bca84b3acb438c063914433a29bbd"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/condition-061.mp4",
+    "bytes": 1658794,
+    "sha256": "322197039118fdf3059852b3a0219052ed57846ad88cc7d0285a165c188c8029"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-002.h5",
+    "bytes": 2117728,
+    "sha256": "224e6cd0fdfb77d817e8aaa38014c7a7b127471e0618aa6bfcdfaba94e3ff8ca"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-002.jsonl",
+    "bytes": 1462166,
+    "sha256": "4ebe05d839faf232037a5d51566e729993bed15c408780738b2c0b2e83ff5538"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/condition-062.mp4",
+    "bytes": 1825572,
+    "sha256": "638bf351a9a38460ae8177ffc50d3df52815e44a86888de009cd4a0184ac5a7f"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-003.h5",
+    "bytes": 2234777,
+    "sha256": "0eb379360d91ff81a4865422072df8df3a39f1ca820d8acc1f0f31699271efad"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-003.jsonl",
+    "bytes": 9755273,
+    "sha256": "bfa88329196a881f4721acc15f9efd08ac5cfadf7e44ca46dff7fa3be4ba0141"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/condition-063.mp4",
+    "bytes": 1747280,
+    "sha256": "f475b6cd5fa3f73cd345eba8c638354f9893f541360e8a73564fdb7af957088b"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-004.h5",
+    "bytes": 2162802,
+    "sha256": "87cf7b28664a4d1356eb326513d793bd020aea09a512a0b333f1a1c369b892fb"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-004.jsonl",
+    "bytes": 13806853,
+    "sha256": "08258381ea869998a77659c6f60b4c2a8a4761b4a819ba1d87cd2a7e37b0104b"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/condition-064.mp4",
+    "bytes": 1760729,
+    "sha256": "4448a6c3f06cae2cff25ead49e52e821fb7b3845f0cb9ba41110584e6b85568a"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-005.h5",
+    "bytes": 2109787,
+    "sha256": "d7e6a5bdde6a9cea1c4a9a898862324a7d59524fbcaa6464062377db62121364"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-005.jsonl",
+    "bytes": 2491096,
+    "sha256": "600ea73e3867eee1d52382ee92e1a2116212a8ea825fc6e7c09f79e30b26ad59"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/condition-065.mp4",
+    "bytes": 1722179,
+    "sha256": "4b0906e0ad09be702393cb8eb75577b1a229a3a25ce831a78f0590fce65d8de3"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-006.h5",
+    "bytes": 1633394,
+    "sha256": "cbd2ab344e174976ab8793f00ce7a094eecdd151725c9b731e6e1f2fda48f06e"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-006.jsonl",
+    "bytes": 1339627,
+    "sha256": "5631dc9c4ca218dbf101e47e663f5b9b82339e7fd552fd83f19f58e48b217a6f"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/condition-066.mp4",
+    "bytes": 1263929,
+    "sha256": "8f97bfaa1cb0ce7840e6fa70ee20d3ddb0ecfe4cff694a47a70b5715f57520e4"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-007.h5",
+    "bytes": 2277031,
+    "sha256": "1d8014c1f9968005514dec185da09c2a300a7ecb9957e820c259253939580991"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-007.jsonl",
+    "bytes": 11480061,
+    "sha256": "9fd71c82fe0e96dafaf6913a2569b3eaa2e58484721104428d68c3fa7d775773"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/condition-067.mp4",
+    "bytes": 1577269,
+    "sha256": "e8d42afd96c1af6c2c6f2ce822b25e8ae014920a99469b742968fe03ffbc2b42"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-008.h5",
+    "bytes": 1642405,
+    "sha256": "e46150535c10ffaf56df6bacc3175a77d7f427fae1da16104ef55494db162c28"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-008.jsonl",
+    "bytes": 1027212,
+    "sha256": "21d092a54ce2f182f17e86004947197fe4a784f235676f67dd11ef084788f17a"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/condition-068.mp4",
+    "bytes": 1039137,
+    "sha256": "3334ea37f7e9f9fd3cb27e5fb3bd87372624eb28fca37529c74082292e964a97"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-009.h5",
+    "bytes": 1970105,
+    "sha256": "b898b9135bf007a201b25c71d573f93dddce76ddc33a128825646e0be73876b4"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-009.jsonl",
+    "bytes": 3555290,
+    "sha256": "ed611e74412a02cb9f52f69cc6b28158d6552d9a72a181a873df3512cbddf780"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/condition-069.mp4",
+    "bytes": 1752525,
+    "sha256": "cb1e6dacf0923c54c335c792b42bc9f5bd0c3974bff25c141a2242c679cc69e3"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-010.h5",
+    "bytes": 1635038,
+    "sha256": "62aef3833e2face23a35a267645bb2ad113f052d2181259e6444bbd9f8f91b23"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-010.jsonl",
+    "bytes": 2667792,
+    "sha256": "4481604232a2b48b82f69ffeded8dc0db00f7962d5c3c7bdc6a9c8e83d6a6b8d"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/condition-070.mp4",
+    "bytes": 1345683,
+    "sha256": "f50175bc3daed284000d6eb76168e555278ceb663fd416f10b1316de52ac8b7d"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-011.h5",
+    "bytes": 2072316,
+    "sha256": "af28893bbad21f095c34772ea314c13ec3176bcb0e66564ea748e42c103c754f"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-011.jsonl",
+    "bytes": 3854756,
+    "sha256": "fb4788c68f3426a446ac6c7d605ad6c725cb94e5cb845d3d48844c55cb0ad7c5"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/condition-071.mp4",
+    "bytes": 1864676,
+    "sha256": "0c9bed2da27875fa7915cafb9401cec5e07bd2cfef503075c36fecca5a24d34a"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-012.h5",
+    "bytes": 2142088,
+    "sha256": "4d157d50d030ab76dafd999b82e139648fd2ee52548bbd103ccec719d80177ba"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-012.jsonl",
+    "bytes": 1738154,
+    "sha256": "5b60ea05d55d825a15a8d7ac786697148f69866c6c0c9f0904ec65d8b9c84bc2"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/condition-072.mp4",
+    "bytes": 1287969,
+    "sha256": "67afc5c6e6e2b3f4683e8de4257bd9204e6d2997f28c8d79abfb27a1d84f2298"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-013.h5",
+    "bytes": 1446554,
+    "sha256": "22643b6fd7b5ad954aca19a7a5015927bd6551acf6ab88c76b0a729d9f9876d1"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-013.jsonl",
+    "bytes": 1153274,
+    "sha256": "a052e7f6ba16092d828f746c6b7d6a9cacb328fbb91a6de9225dc84d0f2f3346"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/condition-073.mp4",
+    "bytes": 928601,
+    "sha256": "9c3d53bd56adb5d08f5ea717a33926b2a380f4bf57c3e68e7331e61fbb30a79a"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-014.h5",
+    "bytes": 1809270,
+    "sha256": "bde1e85eaa743b8624123f650865961bb19941b12f57915c42ba598ea8baf02f"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-014.jsonl",
+    "bytes": 3778170,
+    "sha256": "8036ec386bb57d566839354d54e2469e833ba6f934e3305424b52b9e88d42919"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/condition-074.mp4",
+    "bytes": 1733281,
+    "sha256": "14aaef1c4084dd921d4074d58511aa768f8a6e23aef8d379a53180d3453a0fa1"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-015.h5",
+    "bytes": 1452205,
+    "sha256": "649293c0f8442c325e6e48b20bb4b0376305d79ead67c1186db9c23f4b76aceb"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-015.jsonl",
+    "bytes": 1067470,
+    "sha256": "84b17274a04ab59fb6ecca7c8680ff85ed35e944a362a37754f1acb5ae135d83"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/condition-075.mp4",
+    "bytes": 1025485,
+    "sha256": "48f057054857cdfd264059a90feb6ef78e80b4e4cd48f93d3d787659b9d68b6d"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-016.h5",
+    "bytes": 1704345,
+    "sha256": "446af8a146b31296dbcd5866b4806010c37316fbe4fe6cd30ed0f98909d329dd"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-016.jsonl",
+    "bytes": 7651506,
+    "sha256": "a06839776e10d35f5f2dd1bd09904e0d58c492128be2c748acbb39dcb83f537e"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/condition-076.mp4",
+    "bytes": 1188217,
+    "sha256": "429ad6a046b88f02aa9a703d4c5fe8f8f4d5c246801194da06d3ad949bb9e156"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-017.h5",
+    "bytes": 2095987,
+    "sha256": "3209c37b1ef627615a8884ffb5aeda3a0b917c7e3bba8acac490e59543f13ad5"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-017.jsonl",
+    "bytes": 1533445,
+    "sha256": "fa3d2c46c118a932e63c82d0aeb830da0cf5d39366b85ed423e6d363644b254a"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/condition-077.mp4",
+    "bytes": 1639292,
+    "sha256": "09539f44e05df72e8e68330c9a5f41ed0b1d003d56cd78ccc8bd690932e75d72"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-018.h5",
+    "bytes": 2118801,
+    "sha256": "7b5897d21ab03f737df8f317a10b19930edb57a4a3bb08e7a939aa109ca88c9c"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-018.jsonl",
+    "bytes": 3238476,
+    "sha256": "76c0d7f9ffd28f480dc66c1297e601c42a2259698fac52750d5d4c79877d278e"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/condition-078.mp4",
+    "bytes": 1571684,
+    "sha256": "4bb8ad83aee44488600604a662673319b3a669b1faae249940cc014d0c724691"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-019.h5",
+    "bytes": 2320726,
+    "sha256": "99d3fbff98d58995348831a59f1bf77e5822e638921af9074ae07a98c2b90893"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-019.jsonl",
+    "bytes": 11391131,
+    "sha256": "2527f01787f1982afcd2fb4e7fe65f508519b7251a9b56847fa85eceaf3f4dff"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/condition-079.mp4",
+    "bytes": 1575414,
+    "sha256": "d1225316596c06e2481259a0a02f41348ba7a894d059365b4b9bd744264e95df"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-020.h5",
+    "bytes": 2163072,
+    "sha256": "4b30803ed7c06511e20eb3f11d1d371e2ceabc44f6727afff4cc5a9c732eccaa"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-020.jsonl",
+    "bytes": 2378994,
+    "sha256": "628b0457286d3985a5b602d344520c44555c31d4a1d6be40f376cfc49771ba27"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/condition-080.mp4",
+    "bytes": 1267957,
+    "sha256": "d477a0d41294b18742c1b650e28c3ea6a6296f1c114f1e6c9e8de891e327e56a"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-021.h5",
+    "bytes": 1380862,
+    "sha256": "316da005c9dc55473eb4d08d1a068ab27bccc6416e7ce05bf861e7b449a224bc"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-021.jsonl",
+    "bytes": 1411402,
+    "sha256": "93778cde88d23db74ae39f1ea5c42dd532c13a3e22bc7b8f072c09c87fd672f3"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/condition-081.mp4",
+    "bytes": 1030255,
+    "sha256": "918c7f5536ae874c3cca7f6a848775d0e658e481b2ce07e4bef5096273cdcf77"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-022.h5",
+    "bytes": 2122472,
+    "sha256": "61b92f0fea880bcebfda42f09dd328c59ccc541a60a1daa69317ad57c0ea05e2"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-022.jsonl",
+    "bytes": 3630173,
+    "sha256": "4e4e9e2c911c8a0d09d8464523f8396cb6719a0130d2280a60be0a304b7fbe5f"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/condition-082.mp4",
+    "bytes": 2044756,
+    "sha256": "eb3d994b2cabc02b127ba932bec5fae50a4f064957cd0ed2cbb917c65f0dc990"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-023.h5",
+    "bytes": 1482940,
+    "sha256": "78f31c4e8fef74bd737a7370e323b93f83b04de9aeec91da90c8c83d34a26c1c"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-023.jsonl",
+    "bytes": 2778152,
+    "sha256": "195082fcdf5c74820d86fba807972473933a31ad6ae165c7159a50022d55473e"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/condition-083.mp4",
+    "bytes": 985428,
+    "sha256": "42dd833fe5ca41b5d4b730eadbcb6f0e844b867cb21d411102cb350e1d257e80"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-024.h5",
+    "bytes": 2063785,
+    "sha256": "ece52e5c8d12c108dceae7e155b37f067afda4f680fdcfd351fcfe9051f10f22"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-024.jsonl",
+    "bytes": 2220515,
+    "sha256": "59e61e7401cefc6fd85d8da90101196448e844c6d95135c522844c198f3f190d"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/condition-084.mp4",
+    "bytes": 1404844,
+    "sha256": "d784ba6a7028cb5bf196d2db5f863c9188f989a5f0bbbb567dabc4b4b0440f68"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-025.h5",
+    "bytes": 2095252,
+    "sha256": "456b8598699b4be8246b46d82472c2920b870d328d006a14ffba2ba0134451fc"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-025.jsonl",
+    "bytes": 3932061,
+    "sha256": "b84ce3579ab77bc9544646dc6f40ba2158b5ea85ad66952f502a9ff36a972970"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/condition-085.mp4",
+    "bytes": 1419178,
+    "sha256": "2bacc52d33211164a9cc3f5e35c7f5e495469ae93b179a9bdd2c7a6a9381d9eb"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-026.h5",
+    "bytes": 2014567,
+    "sha256": "17801c980db4adc3e476cde69ebc64de121bdb5e2e5dae3a472de3e5fd72e5ac"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-026.jsonl",
+    "bytes": 1197956,
+    "sha256": "0909ca34916b23fed6e3e86c72bbd7392399ab282ef862d4771bc853582759d7"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/condition-086.mp4",
+    "bytes": 1847679,
+    "sha256": "4bdbc75328cdd95723e162184c75427e4c767ba26dbc6c212f7292802a5d1a0d"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-027.h5",
+    "bytes": 2254740,
+    "sha256": "fc02b4ce70b485b673bc3baa497880473dee79b3df9e7e3d0655acc17e144050"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-027.jsonl",
+    "bytes": 11541927,
+    "sha256": "8e6a5c80592d2796a5dd52b4de50ea5256176b4a3b7d706db343d9b693c78cde"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/condition-087.mp4",
+    "bytes": 2154165,
+    "sha256": "daf70cb80bf6737fdaae0cbbc892e2555c5f5ab5d44c5b24fd48357e43d2c9bc"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-028.h5",
+    "bytes": 2304083,
+    "sha256": "014613816d597cdd57a6f9c9029cd41664b17428817682730e7758b31c497ae3"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-028.jsonl",
+    "bytes": 10634149,
+    "sha256": "93412aa3ee11486393a74e92cdac36c3a1dde70dd79787a57c5ee371a7058f8e"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/condition-088.mp4",
+    "bytes": 1521983,
+    "sha256": "c6747bf1c05b444a4b192e379d02661d3c8b870f7c287761a2be6606b09dd9f2"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-029.h5",
+    "bytes": 2205282,
+    "sha256": "a294d6c4c3a190a96265e217e8aa97050659a8eb910a1c37ad24a73929df7942"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-029.jsonl",
+    "bytes": 3586989,
+    "sha256": "a0c0106cefab6493d261b6491111956569b31e063e7ce0d1950eb6a45fde060b"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/condition-089.mp4",
+    "bytes": 1595356,
+    "sha256": "2b08329c4892964facb59bf383082720650e283cea74989d86c868e4a8e2b387"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-030.h5",
+    "bytes": 1760318,
+    "sha256": "91e6f0307ddf3c6775e2d1bc464284bb1cb06ddd9cc754e7911c379c40f1d18b"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-030.jsonl",
+    "bytes": 1429904,
+    "sha256": "e0df082f8145159cf9e0cc602db24165c902d4c6f72d79f657d3821325377c55"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/condition-090.mp4",
+    "bytes": 1341238,
+    "sha256": "08eb59447354b76aa5fe486c5769f726e80d6e401b52f920c276c8fbcefee1f8"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-031.h5",
+    "bytes": 2014471,
+    "sha256": "3c49b0ed66015db80cbf1a28d02080d47c39cf30561a56742de0bd326faa3484"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-031.jsonl",
+    "bytes": 1395005,
+    "sha256": "dc584f4fe8fddbffc595563b29eb373392262bbf6cd78e82b29b6cdec8048e44"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/condition-091.mp4",
+    "bytes": 1218071,
+    "sha256": "c1d7719aff2a3e7a44b7eabe3e7b576b432bdc41f8bad269210f6044ca318b25"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-032.h5",
+    "bytes": 2132605,
+    "sha256": "0c582e7297be28d028bd4aa3bd1a8d968b0f2af9258f4db3914f4525d2878abe"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-032.jsonl",
+    "bytes": 1267026,
+    "sha256": "2c2592685de1bb747e4d6e53cc7cff89009ef150f1bd3efee088c2ae478ffcf4"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/condition-092.mp4",
+    "bytes": 1442904,
+    "sha256": "b9af5895e2ed53f6196c4f1b7a891713d8602a32f60c6761ee84def8ebaf8151"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-033.h5",
+    "bytes": 2136090,
+    "sha256": "ef4280ea4a72ce64b44baaf726f9c3ed1cc86f7fe723059154c4f4579039bee6"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-033.jsonl",
+    "bytes": 2121825,
+    "sha256": "51f46cc487b77b7027bc3a140987c8a45a627ac647a9dad9fc722ec2b038dc0b"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/condition-093.mp4",
+    "bytes": 1894573,
+    "sha256": "d2e961c77dfeff006fbdb3266a5602d08f29d16cd47fd9ea43b6df7560489551"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-034.h5",
+    "bytes": 1881180,
+    "sha256": "110713802fa234dae9966f03531b53f04ae01234cd3f5e00f4fb050b61c6afb9"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-034.jsonl",
+    "bytes": 11206197,
+    "sha256": "fd360730b383aa5040087b947382d57ccf889d020bb356caae2c22e3c0e9683f"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/condition-094.mp4",
+    "bytes": 1603467,
+    "sha256": "cdcce7c8507a9a1ddfcc9af7c1b1a8cd0c24a622177d573aac91397b46d7177e"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-035.h5",
+    "bytes": 1331769,
+    "sha256": "08e2a9dc05f4be073288c85cc020195c63a1a3c0e9e9a4a28605c602b21a26a7"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-035.jsonl",
+    "bytes": 1030725,
+    "sha256": "37d0def820d7bc208dff8c7b2c3dd409259619cb19242806757dbcb4595f9a6c"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/condition-095.mp4",
+    "bytes": 984408,
+    "sha256": "f165fa97b8c831cd118b9c334698f220b1925b8aebd7f22410dd4c485febb552"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-036.h5",
+    "bytes": 1467342,
+    "sha256": "40b01f65999b811a34f92b973ec04a1e0c45d3e51333240e7735b7ba1f34d55c"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-036.jsonl",
+    "bytes": 2480946,
+    "sha256": "8be2abe4e960b9d0ee1a7be6ed82a7f4673fc7f6e2e8ce83d0f1a624d8d24802"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/condition-096.mp4",
+    "bytes": 1234792,
+    "sha256": "1f7fffff508c6cdd4357e4291597f0b1eb97691f0da249bfa00f24b67afeeffa"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-037.h5",
+    "bytes": 1740407,
+    "sha256": "606beedfd1681a4a7ae258bc6881605241e35bd20273063f270a81acbdd8e1b5"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-037.jsonl",
+    "bytes": 1322427,
+    "sha256": "115adbe83100e93aec34d567c9e42ec1e7305a779df23abb71d1a07f8881bfb9"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/condition-097.mp4",
+    "bytes": 1183366,
+    "sha256": "7ffb87932af268d6c9df6231f05a81b1bf66d2a4de62a2ffec8cd5d9863369f5"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-038.h5",
+    "bytes": 2078467,
+    "sha256": "12aa8817641d30afcf20616a1c6c0c22d56818c7a4324673eebaeb9f7f591c8e"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-038.jsonl",
+    "bytes": 4107636,
+    "sha256": "323262ae68196eada2e5585051b60cb06ae1174fafbe83437c747837dfb21fd8"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/condition-098.mp4",
+    "bytes": 1579078,
+    "sha256": "2b225cbf566d29ec85ce4253cc02a8b644a86dd2b7b7541bf49dcb930e592ae2"
+  },
+  {
+    "kind": "telemetry",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-039.h5",
+    "bytes": 2174603,
+    "sha256": "3ccd0af857536be1c092fd49375568ca5732a8aad910694e34a3ab29a90ab903"
+  },
+  {
+    "kind": "contact_log",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/telemetry/episode-039.jsonl",
+    "bytes": 1440552,
+    "sha256": "da1da7d3bf4bcfa1a47c9b7325a5b54b59459c2170e26635c64ec7959233af20"
+  },
+  {
+    "kind": "video",
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/formal/new_barx_joint_target_adaptation/pnp_sink_to_counter/ur5e/condition-099.mp4",
+    "bytes": 1566582,
+    "sha256": "0e9ead05466e54425de6344fb08defd75e7e180df443407fd306fa21a38e36b2"
+  }
+]

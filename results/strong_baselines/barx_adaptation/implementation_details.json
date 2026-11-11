@@ -1,0 +1,72 @@
+{
+  "role": "SUPPLEMENTARY_REPORTING_AUDIT_NO_TRAINING_CHANGE",
+  "frozen_execution_commit": "6a25f330270b5fc81ce2ff0705d12d442dfc3598",
+  "actual_shuffle_buffer_size": 10000,
+  "upstream_selected_configuration_default_shuffle_buffer_size": 256000,
+  "old_restricted_shuffle_buffers": [
+    {
+      "config_path": "/home/users/lemon/coft-p2/p2/physical-20261108/training/joint_reps-lora/runs/joint_reps--lora/config.json",
+      "shuffle_buffer_size": 10000
+    },
+    {
+      "config_path": "/home/users/lemon/coft-p3/p3-20261109/training/joint-reps-96000-b8/runs/joint_reps--lora/config.json",
+      "shuffle_buffer_size": 10000
+    }
+  ],
+  "buffer_was_already_fixed_in_pretraining_freeze_code": true,
+  "initial_protocol_json_did_not_list_buffer_separately": true,
+  "active_normalizer": "BOUNDS_Q99",
+  "published_statistics": {
+    "path": "/home/users/lemon/coft-p2/artifacts/runs/joint_reps/dataset_statistics.json",
+    "sha256": "be65b58c4be14e177c289b985c6f3fbf83fdb5a0fe243f33d5c2a3078a6f7eb4"
+  },
+  "used_statistics": {
+    "path": "/home/users/lemon/coft-p3/matched-samples-96000/dataset_statistics.json",
+    "sha256": "1fe8eb967133c8e0a1c72ceb0eb0c0c6edc9e5f0428bf035b310631ba2e8427c"
+  },
+  "action_statistics_comparison": {
+    "mean": {
+      "exact_equal": false,
+      "max_abs_diff": 3.2782554626464844e-07
+    },
+    "std": {
+      "exact_equal": false,
+      "max_abs_diff": 6.556510925292969e-06
+    },
+    "max": {
+      "exact_equal": true,
+      "max_abs_diff": 0.0
+    },
+    "min": {
+      "exact_equal": true,
+      "max_abs_diff": 0.0
+    },
+    "q01": {
+      "exact_equal": true,
+      "max_abs_diff": 0.0
+    },
+    "q99": {
+      "exact_equal": true,
+      "max_abs_diff": 0.0
+    },
+    "mask": {
+      "exact_equal": true,
+      "max_abs_diff": 0.0
+    }
+  },
+  "mean_std_not_used_by_this_normalizer": true,
+  "vq": {
+    "path": "/home/users/lemon/coft-p2/artifacts/vq/mg_pnp_lite/checkpoints/model.pt",
+    "bytes": 9519250,
+    "sha256": "cbf410959839f99ee131aa8c7d4c2dc2116d134f23ee9e88e90fa089270e7378",
+    "mtime": 1794060284.8681393,
+    "training_updates_to_vq": 0
+  },
+  "validation_packets": {
+    "frozen_before_formal_training": true,
+    "hash_checked_at_every_validation": true,
+    "separate_preparation_tensorflow_rng_state_saved": false,
+    "exact_replay_uses_preserved_pickles_and_sha_indexes": true
+  },
+  "execution_configuration_changed": false
+}

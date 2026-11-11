@@ -1,0 +1,13 @@
+{
+  "source_checkpoint": "/home/users/lemon/coft-p2/artifacts/runs/joint_reps/checkpoints/step-050000-epoch-15-loss=0.2577.pt",
+  "source_sha256": "ffce76802a8e75d4806b30dee43624accf2c4de4213c17059457e34a8243efce",
+  "adapter": "/home/users/lemon/barx-target-adaptation-20261110/training/checkpoints/step-002500",
+  "adapter_sha256": "2bf53be7da389ffa29e20733794998f99f9a14ae8671354cc86cb6f82b7a91a1",
+  "merged_checkpoint": "/home/users/lemon/barx-target-adaptation-20261110/adapted/checkpoints/step-002500-epoch-00-loss=validationselected.pt",
+  "merged_sha256": "8bfcc5cef31bea99df8c5128491dafe7329560acde1589e61526c57496108f25",
+  "merged_bytes": 5010418741,
+  "selected_step": 2500,
+  "actual_training_optimizer_updates": 3000,
+  "sample_positions": 768000,
+  "selection_used_physical_success": false
+}

@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "checked_new_rollouts": 160,
+  "checked_all_comparison_rows": 640,
+  "new_raw_files": 480,
+  "raw_bytes": 1043409455,
+  "official_scores_recomputed_from_saved_placement_and_retreat": true,
+  "exact_per_cell_conditions_60_to_99": true,
+  "cell_counts_and_failure_counts_match_per_episode_rows": true,
+  "after_close_flags_on_episodes_without_close": [],
+  "policy_calls": 0,
+  "physics_steps": 0
+}

@@ -1,0 +1,359 @@
+{
+  "status": "COMPLETE",
+  "new_training": {
+    "status": "COMPLETE",
+    "completed_optimizer_updates": 3000,
+    "completed_backwards": 96000,
+    "sample_positions": 768000,
+    "prescribed_updates": 3000,
+    "effective_batch": 256,
+    "microbatch": 8,
+    "reference_loss_groups": "8 virtual ranks x 32 examples",
+    "seed": 7,
+    "original_checkpoint": "/home/users/lemon/coft-p2/artifacts/runs/joint_reps/checkpoints/step-050000-epoch-15-loss=0.2577.pt",
+    "original_checkpoint_sha256": "ffce76802a8e75d4806b30dee43624accf2c4de4213c17059457e34a8243efce",
+    "frozen_commit": "6a25f330270b5fc81ce2ff0705d12d442dfc3598",
+    "best_validation": {
+      "step": 2500,
+      "macro_task_response_nll": 2.920816511883297,
+      "adapter": "/home/users/lemon/barx-target-adaptation-20261110/training/checkpoints/step-002500"
+    },
+    "technical_failures_not_task_failures": true,
+    "elapsed_seconds": 56516.90503406385,
+    "peak_gpu_allocated_bytes": 20169629184,
+    "peak_gpu_reserved_bytes": 23955767296,
+    "last_loss": 0.43090377336791036
+  },
+  "new_evaluation_episodes": 160,
+  "old_physical_evaluations_rerun": 0,
+  "independent_unseen_test": false,
+  "cells": [
+    {
+      "label": "A_barx_joint",
+      "task": "pnp_counter_to_sink",
+      "robot": "panda",
+      "episodes": 40,
+      "successes": 1,
+      "success_rate": 0.025,
+      "issued_close": 5,
+      "stable_lift": 3,
+      "failure_counts": {
+        "NO_CLOSE_COMMAND": 35,
+        "CLOSE_WITHOUT_BILATERAL_CONTACT": 2,
+        "PLACEMENT_WITHOUT_RETREAT": 2,
+        "SUCCESS": 1
+      },
+      "role": "HISTORICAL_EXPOSED_REFERENCE",
+      "new_physical_run": false
+    },
+    {
+      "label": "A_barx_joint",
+      "task": "pnp_counter_to_sink",
+      "robot": "ur5e",
+      "episodes": 40,
+      "successes": 16,
+      "success_rate": 0.4,
+      "issued_close": 37,
+      "stable_lift": 17,
+      "failure_counts": {
+        "CONTACT_WITHOUT_STABLE_LIFT": 10,
+        "CLOSE_WITHOUT_BILATERAL_CONTACT": 10,
+        "NO_CLOSE_COMMAND": 3,
+        "SUCCESS": 16,
+        "STABLE_LIFT_WITHOUT_OFFICIAL_PLACEMENT": 1
+      },
+      "role": "HISTORICAL_EXPOSED_REFERENCE",
+      "new_physical_run": false
+    },
+    {
+      "label": "A_barx_joint",
+      "task": "pnp_sink_to_counter",
+      "robot": "panda",
+      "episodes": 40,
+      "successes": 7,
+      "success_rate": 0.175,
+      "issued_close": 37,
+      "stable_lift": 16,
+      "failure_counts": {
+        "CONTACT_WITHOUT_STABLE_LIFT": 4,
+        "CLOSE_WITHOUT_BILATERAL_CONTACT": 17,
+        "SUCCESS": 7,
+        "STABLE_LIFT_WITHOUT_OFFICIAL_PLACEMENT": 6,
+        "PLACEMENT_WITHOUT_RETREAT": 3,
+        "NO_CLOSE_COMMAND": 3
+      },
+      "role": "HISTORICAL_EXPOSED_REFERENCE",
+      "new_physical_run": false
+    },
+    {
+      "label": "A_barx_joint",
+      "task": "pnp_sink_to_counter",
+      "robot": "ur5e",
+      "episodes": 40,
+      "successes": 14,
+      "success_rate": 0.35,
+      "issued_close": 37,
+      "stable_lift": 21,
+      "failure_counts": {
+        "STABLE_LIFT_WITHOUT_OFFICIAL_PLACEMENT": 7,
+        "NO_CLOSE_COMMAND": 3,
+        "SUCCESS": 14,
+        "CONTACT_WITHOUT_STABLE_LIFT": 9,
+        "CLOSE_WITHOUT_BILATERAL_CONTACT": 7
+      },
+      "role": "HISTORICAL_EXPOSED_REFERENCE",
+      "new_physical_run": false
+    },
+    {
+      "label": "A_barx_no_reps",
+      "task": "pnp_counter_to_sink",
+      "robot": "panda",
+      "episodes": 40,
+      "successes": 5,
+      "success_rate": 0.125,
+      "issued_close": 15,
+      "stable_lift": 6,
+      "failure_counts": {
+        "NO_CLOSE_COMMAND": 25,
+        "PLACEMENT_WITHOUT_RETREAT": 2,
+        "CLOSE_WITHOUT_BILATERAL_CONTACT": 6,
+        "SUCCESS": 5,
+        "CONTACT_WITHOUT_STABLE_LIFT": 2
+      },
+      "role": "HISTORICAL_EXPOSED_REFERENCE",
+      "new_physical_run": false
+    },
+    {
+      "label": "A_barx_no_reps",
+      "task": "pnp_counter_to_sink",
+      "robot": "ur5e",
+      "episodes": 40,
+      "successes": 6,
+      "success_rate": 0.15,
+      "issued_close": 24,
+      "stable_lift": 6,
+      "failure_counts": {
+        "NO_CLOSE_COMMAND": 16,
+        "CLOSE_WITHOUT_BILATERAL_CONTACT": 15,
+        "SUCCESS": 6,
+        "CONTACT_WITHOUT_STABLE_LIFT": 3
+      },
+      "role": "HISTORICAL_EXPOSED_REFERENCE",
+      "new_physical_run": false
+    },
+    {
+      "label": "A_barx_no_reps",
+      "task": "pnp_sink_to_counter",
+      "robot": "panda",
+      "episodes": 40,
+      "successes": 1,
+      "success_rate": 0.025,
+      "issued_close": 37,
+      "stable_lift": 6,
+      "failure_counts": {
+        "CONTACT_WITHOUT_STABLE_LIFT": 1,
+        "CLOSE_WITHOUT_BILATERAL_CONTACT": 30,
+        "SUCCESS": 1,
+        "STABLE_LIFT_WITHOUT_OFFICIAL_PLACEMENT": 5,
+        "NO_CLOSE_COMMAND": 3
+      },
+      "role": "HISTORICAL_EXPOSED_REFERENCE",
+      "new_physical_run": false
+    },
+    {
+      "label": "A_barx_no_reps",
+      "task": "pnp_sink_to_counter",
+      "robot": "ur5e",
+      "episodes": 40,
+      "successes": 5,
+      "success_rate": 0.125,
+      "issued_close": 35,
+      "stable_lift": 15,
+      "failure_counts": {
+        "CONTACT_WITHOUT_STABLE_LIFT": 6,
+        "STABLE_LIFT_WITHOUT_OFFICIAL_PLACEMENT": 9,
+        "NO_CLOSE_COMMAND": 5,
+        "CLOSE_WITHOUT_BILATERAL_CONTACT": 14,
+        "PLACEMENT_WITHOUT_RETREAT": 1,
+        "SUCCESS": 5
+      },
+      "role": "HISTORICAL_EXPOSED_REFERENCE",
+      "new_physical_run": false
+    },
+    {
+      "label": "C_barx_joint_96000",
+      "task": "pnp_counter_to_sink",
+      "robot": "panda",
+      "episodes": 40,
+      "successes": 2,
+      "success_rate": 0.05,
+      "issued_close": 6,
+      "stable_lift": 2,
+      "failure_counts": {
+        "NO_CLOSE_COMMAND": 34,
+        "SUCCESS": 2,
+        "CLOSE_WITHOUT_BILATERAL_CONTACT": 3,
+        "CONTACT_WITHOUT_STABLE_LIFT": 1
+      },
+      "role": "HISTORICAL_EXPOSED_REFERENCE",
+      "new_physical_run": false
+    },
+    {
+      "label": "C_barx_joint_96000",
+      "task": "pnp_sink_to_counter",
+      "robot": "panda",
+      "episodes": 40,
+      "successes": 1,
+      "success_rate": 0.025,
+      "issued_close": 36,
+      "stable_lift": 1,
+      "failure_counts": {
+        "CLOSE_WITHOUT_BILATERAL_CONTACT": 33,
+        "NO_CLOSE_COMMAND": 4,
+        "SUCCESS": 1,
+        "CONTACT_WITHOUT_STABLE_LIFT": 2
+      },
+      "role": "HISTORICAL_EXPOSED_REFERENCE",
+      "new_physical_run": false
+    },
+    {
+      "label": "C_barx_no_reps_6000",
+      "task": "pnp_counter_to_sink",
+      "robot": "panda",
+      "episodes": 40,
+      "successes": 3,
+      "success_rate": 0.075,
+      "issued_close": 16,
+      "stable_lift": 6,
+      "failure_counts": {
+        "CLOSE_WITHOUT_BILATERAL_CONTACT": 6,
+        "NO_CLOSE_COMMAND": 24,
+        "PLACEMENT_WITHOUT_RETREAT": 2,
+        "CONTACT_WITHOUT_STABLE_LIFT": 3,
+        "SUCCESS": 3,
+        "STABLE_LIFT_WITHOUT_OFFICIAL_PLACEMENT": 2
+      },
+      "role": "HISTORICAL_EXPOSED_REFERENCE",
+      "new_physical_run": false
+    },
+    {
+      "label": "C_barx_no_reps_6000",
+      "task": "pnp_sink_to_counter",
+      "robot": "panda",
+      "episodes": 40,
+      "successes": 2,
+      "success_rate": 0.05,
+      "issued_close": 38,
+      "stable_lift": 6,
+      "failure_counts": {
+        "CLOSE_WITHOUT_BILATERAL_CONTACT": 30,
+        "CONTACT_WITHOUT_STABLE_LIFT": 2,
+        "STABLE_LIFT_WITHOUT_OFFICIAL_PLACEMENT": 2,
+        "PLACEMENT_WITHOUT_RETREAT": 2,
+        "NO_CLOSE_COMMAND": 2,
+        "SUCCESS": 2
+      },
+      "role": "HISTORICAL_EXPOSED_REFERENCE",
+      "new_physical_run": false
+    },
+    {
+      "label": "new_joint_adaptation_768000",
+      "task": "pnp_counter_to_sink",
+      "robot": "panda",
+      "episodes": 40,
+      "successes": 5,
+      "success_rate": 0.125,
+      "issued_close": 11,
+      "stable_lift": 8,
+      "failure_counts": {
+        "NO_CLOSE_COMMAND": 29,
+        "CONTACT_WITHOUT_STABLE_LIFT": 3,
+        "SUCCESS": 5,
+        "STABLE_LIFT_WITHOUT_OFFICIAL_PLACEMENT": 3
+      },
+      "role": "EXPOSED_REFERENCE",
+      "new_physical_run": true
+    },
+    {
+      "label": "new_joint_adaptation_768000",
+      "task": "pnp_counter_to_sink",
+      "robot": "ur5e",
+      "episodes": 40,
+      "successes": 17,
+      "success_rate": 0.425,
+      "issued_close": 36,
+      "stable_lift": 19,
+      "failure_counts": {
+        "SUCCESS": 17,
+        "CLOSE_WITHOUT_BILATERAL_CONTACT": 9,
+        "NO_CLOSE_COMMAND": 4,
+        "CONTACT_WITHOUT_STABLE_LIFT": 8,
+        "STABLE_LIFT_WITHOUT_OFFICIAL_PLACEMENT": 2
+      },
+      "role": "EXPOSED_REFERENCE",
+      "new_physical_run": true
+    },
+    {
+      "label": "new_joint_adaptation_768000",
+      "task": "pnp_sink_to_counter",
+      "robot": "panda",
+      "episodes": 40,
+      "successes": 2,
+      "success_rate": 0.05,
+      "issued_close": 36,
+      "stable_lift": 3,
+      "failure_counts": {
+        "CLOSE_WITHOUT_BILATERAL_CONTACT": 33,
+        "NO_CLOSE_COMMAND": 4,
+        "STABLE_LIFT_WITHOUT_OFFICIAL_PLACEMENT": 1,
+        "SUCCESS": 2
+      },
+      "role": "EXPOSED_REFERENCE",
+      "new_physical_run": true
+    },
+    {
+      "label": "new_joint_adaptation_768000",
+      "task": "pnp_sink_to_counter",
+      "robot": "ur5e",
+      "episodes": 40,
+      "successes": 15,
+      "success_rate": 0.375,
+      "issued_close": 35,
+      "stable_lift": 26,
+      "failure_counts": {
+        "STABLE_LIFT_WITHOUT_OFFICIAL_PLACEMENT": 10,
+        "PLACEMENT_WITHOUT_RETREAT": 1,
+        "SUCCESS": 15,
+        "CONTACT_WITHOUT_STABLE_LIFT": 2,
+        "NO_CLOSE_COMMAND": 5,
+        "CLOSE_WITHOUT_BILATERAL_CONTACT": 7
+      },
+      "role": "EXPOSED_REFERENCE",
+      "new_physical_run": true
+    }
+  ],
+  "selected_model": {
+    "source_checkpoint": "/home/users/lemon/coft-p2/artifacts/runs/joint_reps/checkpoints/step-050000-epoch-15-loss=0.2577.pt",
+    "source_sha256": "ffce76802a8e75d4806b30dee43624accf2c4de4213c17059457e34a8243efce",
+    "adapter": "/home/users/lemon/barx-target-adaptation-20261110/training/checkpoints/step-002500",
+    "adapter_sha256": "2bf53be7da389ffa29e20733794998f99f9a14ae8671354cc86cb6f82b7a91a1",
+    "merged_checkpoint": "/home/users/lemon/barx-target-adaptation-20261110/adapted/checkpoints/step-002500-epoch-00-loss=validationselected.pt",
+    "merged_sha256": "8bfcc5cef31bea99df8c5128491dafe7329560acde1589e61526c57496108f25",
+    "merged_bytes": 5010418741,
+    "selected_step": 2500,
+    "actual_training_optimizer_updates": 3000,
+    "sample_positions": 768000,
+    "selection_used_physical_success": false
+  },
+  "old_joint_6000_context": {
+    "task": "pnp_counter_to_sink",
+    "robot": "panda",
+    "indices": [
+      20,
+      39
+    ],
+    "successes": 3,
+    "episodes": 20,
+    "role": "HISTORICAL_DIFFERENT_CONDITIONS_NOT_DIRECTLY_COMPARABLE"
+  }
+}

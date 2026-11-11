@@ -1,0 +1,282 @@
+[
+  {
+    "step": 0,
+    "tag": "validation_target",
+    "samples": 320,
+    "per_task": {
+      "pnp_counter_to_sink": {
+        "response_nll": 6.386870114999086,
+        "response_token_accuracy": 0.2972222222222222,
+        "supervised_tokens": 1440
+      },
+      "pnp_sink_to_counter": {
+        "response_nll": 6.58584227964489,
+        "response_token_accuracy": 0.31527777777777777,
+        "supervised_tokens": 1440
+      }
+    },
+    "macro_task_response_nll": 6.486356197321988,
+    "metric": "TEACHER_FORCED_ACTION_RESPONSE_INCLUDING_STOP_TOKENS_NOT_PHYSICAL_SUCCESS",
+    "episode_disjoint_from_new_training": true
+  },
+  {
+    "step": 0,
+    "tag": "validation_source_ur5e",
+    "samples": 240,
+    "per_task": {
+      "pnp_counter_to_sink": {
+        "response_nll": 0.29276077878592466,
+        "response_token_accuracy": 0.9305555555555556,
+        "supervised_tokens": 1080
+      },
+      "pnp_sink_to_counter": {
+        "response_nll": 0.26616722229971657,
+        "response_token_accuracy": 0.9305555555555556,
+        "supervised_tokens": 1080
+      }
+    },
+    "macro_task_response_nll": 0.2794640005428206,
+    "metric": "TEACHER_FORCED_ACTION_RESPONSE_INCLUDING_STOP_TOKENS_NOT_PHYSICAL_SUCCESS",
+    "episode_disjoint_from_new_training": true
+  },
+  {
+    "step": 500,
+    "tag": "validation_target",
+    "samples": 320,
+    "per_task": {
+      "pnp_counter_to_sink": {
+        "response_nll": 3.0883588759021627,
+        "response_token_accuracy": 0.36736111111111114,
+        "supervised_tokens": 1440
+      },
+      "pnp_sink_to_counter": {
+        "response_nll": 3.237674928870466,
+        "response_token_accuracy": 0.36736111111111114,
+        "supervised_tokens": 1440
+      }
+    },
+    "macro_task_response_nll": 3.1630169023863144,
+    "metric": "TEACHER_FORCED_ACTION_RESPONSE_INCLUDING_STOP_TOKENS_NOT_PHYSICAL_SUCCESS",
+    "episode_disjoint_from_new_training": true
+  },
+  {
+    "step": 500,
+    "tag": "validation_source_ur5e",
+    "samples": 240,
+    "per_task": {
+      "pnp_counter_to_sink": {
+        "response_nll": 0.345629479729191,
+        "response_token_accuracy": 0.924074074074074,
+        "supervised_tokens": 1080
+      },
+      "pnp_sink_to_counter": {
+        "response_nll": 0.33161438024016443,
+        "response_token_accuracy": 0.9231481481481482,
+        "supervised_tokens": 1080
+      }
+    },
+    "macro_task_response_nll": 0.3386219299846777,
+    "metric": "TEACHER_FORCED_ACTION_RESPONSE_INCLUDING_STOP_TOKENS_NOT_PHYSICAL_SUCCESS",
+    "episode_disjoint_from_new_training": true
+  },
+  {
+    "step": 1000,
+    "tag": "validation_target",
+    "samples": 320,
+    "per_task": {
+      "pnp_counter_to_sink": {
+        "response_nll": 2.8750057915225624,
+        "response_token_accuracy": 0.3902777777777778,
+        "supervised_tokens": 1440
+      },
+      "pnp_sink_to_counter": {
+        "response_nll": 3.047762576573425,
+        "response_token_accuracy": 0.3888888888888889,
+        "supervised_tokens": 1440
+      }
+    },
+    "macro_task_response_nll": 2.9613841840479935,
+    "metric": "TEACHER_FORCED_ACTION_RESPONSE_INCLUDING_STOP_TOKENS_NOT_PHYSICAL_SUCCESS",
+    "episode_disjoint_from_new_training": true
+  },
+  {
+    "step": 1000,
+    "tag": "validation_source_ur5e",
+    "samples": 240,
+    "per_task": {
+      "pnp_counter_to_sink": {
+        "response_nll": 0.5019338827028319,
+        "response_token_accuracy": 0.8953703703703704,
+        "supervised_tokens": 1080
+      },
+      "pnp_sink_to_counter": {
+        "response_nll": 0.4583793142120595,
+        "response_token_accuracy": 0.9083333333333333,
+        "supervised_tokens": 1080
+      }
+    },
+    "macro_task_response_nll": 0.48015659845744574,
+    "metric": "TEACHER_FORCED_ACTION_RESPONSE_INCLUDING_STOP_TOKENS_NOT_PHYSICAL_SUCCESS",
+    "episode_disjoint_from_new_training": true
+  },
+  {
+    "step": 1500,
+    "tag": "validation_target",
+    "samples": 320,
+    "per_task": {
+      "pnp_counter_to_sink": {
+        "response_nll": 2.8658104122176558,
+        "response_token_accuracy": 0.4041666666666667,
+        "supervised_tokens": 1440
+      },
+      "pnp_sink_to_counter": {
+        "response_nll": 3.1166965070697996,
+        "response_token_accuracy": 0.3958333333333333,
+        "supervised_tokens": 1440
+      }
+    },
+    "macro_task_response_nll": 2.991253459643728,
+    "metric": "TEACHER_FORCED_ACTION_RESPONSE_INCLUDING_STOP_TOKENS_NOT_PHYSICAL_SUCCESS",
+    "episode_disjoint_from_new_training": true
+  },
+  {
+    "step": 1500,
+    "tag": "validation_source_ur5e",
+    "samples": 240,
+    "per_task": {
+      "pnp_counter_to_sink": {
+        "response_nll": 0.31424037652711073,
+        "response_token_accuracy": 0.9222222222222223,
+        "supervised_tokens": 1080
+      },
+      "pnp_sink_to_counter": {
+        "response_nll": 0.29730549734258266,
+        "response_token_accuracy": 0.9222222222222223,
+        "supervised_tokens": 1080
+      }
+    },
+    "macro_task_response_nll": 0.3057729369348467,
+    "metric": "TEACHER_FORCED_ACTION_RESPONSE_INCLUDING_STOP_TOKENS_NOT_PHYSICAL_SUCCESS",
+    "episode_disjoint_from_new_training": true
+  },
+  {
+    "step": 2000,
+    "tag": "validation_target",
+    "samples": 320,
+    "per_task": {
+      "pnp_counter_to_sink": {
+        "response_nll": 2.8572078470140694,
+        "response_token_accuracy": 0.4083333333333333,
+        "supervised_tokens": 1440
+      },
+      "pnp_sink_to_counter": {
+        "response_nll": 3.111427710370885,
+        "response_token_accuracy": 0.40069444444444446,
+        "supervised_tokens": 1440
+      }
+    },
+    "macro_task_response_nll": 2.9843177786924775,
+    "metric": "TEACHER_FORCED_ACTION_RESPONSE_INCLUDING_STOP_TOKENS_NOT_PHYSICAL_SUCCESS",
+    "episode_disjoint_from_new_training": true
+  },
+  {
+    "step": 2000,
+    "tag": "validation_source_ur5e",
+    "samples": 240,
+    "per_task": {
+      "pnp_counter_to_sink": {
+        "response_nll": 0.3075800415628624,
+        "response_token_accuracy": 0.9148148148148149,
+        "supervised_tokens": 1080
+      },
+      "pnp_sink_to_counter": {
+        "response_nll": 0.28748454111800703,
+        "response_token_accuracy": 0.9259259259259259,
+        "supervised_tokens": 1080
+      }
+    },
+    "macro_task_response_nll": 0.2975322913404347,
+    "metric": "TEACHER_FORCED_ACTION_RESPONSE_INCLUDING_STOP_TOKENS_NOT_PHYSICAL_SUCCESS",
+    "episode_disjoint_from_new_training": true
+  },
+  {
+    "step": 2500,
+    "tag": "validation_target",
+    "samples": 320,
+    "per_task": {
+      "pnp_counter_to_sink": {
+        "response_nll": 2.795477748031004,
+        "response_token_accuracy": 0.4083333333333333,
+        "supervised_tokens": 1440
+      },
+      "pnp_sink_to_counter": {
+        "response_nll": 3.04615527573559,
+        "response_token_accuracy": 0.4027777777777778,
+        "supervised_tokens": 1440
+      }
+    },
+    "macro_task_response_nll": 2.920816511883297,
+    "metric": "TEACHER_FORCED_ACTION_RESPONSE_INCLUDING_STOP_TOKENS_NOT_PHYSICAL_SUCCESS",
+    "episode_disjoint_from_new_training": true
+  },
+  {
+    "step": 2500,
+    "tag": "validation_source_ur5e",
+    "samples": 240,
+    "per_task": {
+      "pnp_counter_to_sink": {
+        "response_nll": 0.32239312615969945,
+        "response_token_accuracy": 0.9185185185185185,
+        "supervised_tokens": 1080
+      },
+      "pnp_sink_to_counter": {
+        "response_nll": 0.2996285620697395,
+        "response_token_accuracy": 0.9194444444444444,
+        "supervised_tokens": 1080
+      }
+    },
+    "macro_task_response_nll": 0.31101084411471946,
+    "metric": "TEACHER_FORCED_ACTION_RESPONSE_INCLUDING_STOP_TOKENS_NOT_PHYSICAL_SUCCESS",
+    "episode_disjoint_from_new_training": true
+  },
+  {
+    "step": 3000,
+    "tag": "validation_target",
+    "samples": 320,
+    "per_task": {
+      "pnp_counter_to_sink": {
+        "response_nll": 2.87980553913965,
+        "response_token_accuracy": 0.40902777777777777,
+        "supervised_tokens": 1440
+      },
+      "pnp_sink_to_counter": {
+        "response_nll": 3.1636558218134776,
+        "response_token_accuracy": 0.39791666666666664,
+        "supervised_tokens": 1440
+      }
+    },
+    "macro_task_response_nll": 3.021730680476564,
+    "metric": "TEACHER_FORCED_ACTION_RESPONSE_INCLUDING_STOP_TOKENS_NOT_PHYSICAL_SUCCESS",
+    "episode_disjoint_from_new_training": true
+  },
+  {
+    "step": 3000,
+    "tag": "validation_source_ur5e",
+    "samples": 240,
+    "per_task": {
+      "pnp_counter_to_sink": {
+        "response_nll": 0.31318794474937023,
+        "response_token_accuracy": 0.9148148148148149,
+        "supervised_tokens": 1080
+      },
+      "pnp_sink_to_counter": {
+        "response_nll": 0.2895396717582588,
+        "response_token_accuracy": 0.9231481481481482,
+        "supervised_tokens": 1080
+      }
+    },
+    "macro_task_response_nll": 0.3013638082538145,
+    "metric": "TEACHER_FORCED_ACTION_RESPONSE_INCLUDING_STOP_TOKENS_NOT_PHYSICAL_SUCCESS",
+    "episode_disjoint_from_new_training": true
+  }
+]

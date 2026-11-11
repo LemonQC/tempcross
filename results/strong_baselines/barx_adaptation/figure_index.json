@@ -1,0 +1,26 @@
+[
+  {
+    "path": "figures/training_and_validation.svg",
+    "bytes": 122411,
+    "sha256": "2b6b7e1db6ba403dfdfdd3d2ce860a52205a56ce74a5265c86842b5d8a7679e8",
+    "inputs": [
+      "/home/users/lemon/barx-target-adaptation-20261110/training/updates.csv",
+      "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/barx_adaptation/validation_curve.json",
+      "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/barx_adaptation/selection.json",
+      "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/barx_adaptation/results.json"
+    ],
+    "new_model_or_physics_calls": 0
+  },
+  {
+    "path": "figures/exposed_reference_success.svg",
+    "bytes": 23311,
+    "sha256": "0ae8cc355a403ae98f1aadf9c6ff6e2f5bd8123d9f6933e6e63ba5984ec0b812",
+    "inputs": [
+      "/home/users/lemon/barx-target-adaptation-20261110/training/updates.csv",
+      "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/barx_adaptation/validation_curve.json",
+      "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/barx_adaptation/selection.json",
+      "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/barx_adaptation/results.json"
+    ],
+    "new_model_or_physics_calls": 0
+  }
+]

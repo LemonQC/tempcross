@@ -1,0 +1,71 @@
+{
+  "execution": {
+    "status": "COMPLETE",
+    "started": 1794314834.145298,
+    "stages": [
+      {
+        "name": "train",
+        "returncode": 0,
+        "log": "/home/users/lemon/barx-target-adaptation-20261110/train.log",
+        "log_sha256": "8431a5446bcba219cdf1436455faaad7f020e512dabe33bd4936908c95b996f7"
+      },
+      {
+        "name": "merge",
+        "returncode": 0,
+        "log": "/home/users/lemon/barx-target-adaptation-20261110/merge.log",
+        "log_sha256": "0b39c0ac416ce9226c53fafcd85ec86bce318d8febec01dde0669b6aba896c25"
+      },
+      {
+        "name": "physical_evaluation",
+        "returncode": 0,
+        "log": "/home/users/lemon/barx-target-adaptation-20261110/physical_evaluation.log",
+        "log_sha256": "b8e4a00e6fcc1296752de96289465423c2f6d012a7114f68ee4edca9ebef89b7"
+      },
+      {
+        "name": "old_offline_validation",
+        "returncode": 0,
+        "log": "/home/users/lemon/barx-target-adaptation-20261110/old_offline_validation.log",
+        "log_sha256": "8973961506a308cc6206032355533312f954cc0ff223afffc483631bb710705e"
+      },
+      {
+        "name": "collect",
+        "returncode": 0,
+        "log": "/home/users/lemon/barx-target-adaptation-20261110/collect.log",
+        "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ],
+    "protected_sha256": {
+      "/home/users/lemon/CodexProject/tempcross/results/baselines/analysis.json": "392c7adaad8ac356cc50622e3ab929e2c862aea96a791f299b9f18dd9db7b673",
+      "/home/users/lemon/baseline-benchmark/run-20261109/physical_launches.jsonl": "264b68966ce7b0db7243d334c5baa381dcca2e0c28e62d11fb9402f90cece768",
+      "/home/users/lemon/coft-p3/p3-20261109/physical_launches.jsonl": "8c400dc5e95a45c03a6ea6e7d7f157000b3c9a020b08b0610ef0b6b658d84cee"
+    },
+    "active_stage": "collect",
+    "ended": 1794377895.2397342,
+    "old_inputs_unchanged": true
+  },
+  "training": {
+    "status": "COMPLETE",
+    "completed_optimizer_updates": 3000,
+    "completed_backwards": 96000,
+    "sample_positions": 768000,
+    "prescribed_updates": 3000,
+    "effective_batch": 256,
+    "microbatch": 8,
+    "reference_loss_groups": "8 virtual ranks x 32 examples",
+    "seed": 7,
+    "original_checkpoint": "/home/users/lemon/coft-p2/artifacts/runs/joint_reps/checkpoints/step-050000-epoch-15-loss=0.2577.pt",
+    "original_checkpoint_sha256": "ffce76802a8e75d4806b30dee43624accf2c4de4213c17059457e34a8243efce",
+    "frozen_commit": "6a25f330270b5fc81ce2ff0705d12d442dfc3598",
+    "best_validation": {
+      "step": 2500,
+      "macro_task_response_nll": 2.920816511883297,
+      "adapter": "/home/users/lemon/barx-target-adaptation-20261110/training/checkpoints/step-002500"
+    },
+    "technical_failures_not_task_failures": true,
+    "elapsed_seconds": 56516.90503406385,
+    "peak_gpu_allocated_bytes": 20169629184,
+    "peak_gpu_reserved_bytes": 23955767296,
+    "last_loss": 0.43090377336791036
+  },
+  "terminal": true
+}

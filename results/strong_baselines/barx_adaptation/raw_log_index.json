@@ -1,0 +1,72 @@
+[
+  {
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/accumulation-probe-attempt02.log",
+    "bytes": 10280,
+    "sha256": "440654241a1c45b507825164f66f977ae536d7704f6a776c195f5ffc34dcdf65"
+  },
+  {
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/train-input-probe.log",
+    "bytes": 1043,
+    "sha256": "b15de526b485734334ddfae17d596e4517338a548eb4f24eebd59c64462a71d8"
+  },
+  {
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/baseline-validation.log",
+    "bytes": 16758,
+    "sha256": "958f06ffcecaf8ab1a334764f5de059aeb4842dcf3201bff49af92e1694ec69a"
+  },
+  {
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/collect.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/supervisor.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/train.log",
+    "bytes": 53142,
+    "sha256": "8431a5446bcba219cdf1436455faaad7f020e512dabe33bd4936908c95b996f7"
+  },
+  {
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/prepare-validation_source_ur5e.log",
+    "bytes": 68,
+    "sha256": "6c879ea9017190257a4937534e055c572fe2a29413f2daac0ca8fd08a5a84975"
+  },
+  {
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/probe-b8.log",
+    "bytes": 13884,
+    "sha256": "bac77ae870c9977ac9c54d357812c306190a80a242c018bf7ee6670d3a1637f7"
+  },
+  {
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/accumulation-probe.log",
+    "bytes": 16751,
+    "sha256": "00a878abf197e64acf61e176af9f2416f70eb2baf4a5e6374f0479eaa428aeec"
+  },
+  {
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/prepare-validation_target.log",
+    "bytes": 63,
+    "sha256": "d830379572050ffcaad96d9568b8ba53d06a4983b6c0c640d4fa8d91af03cde8"
+  },
+  {
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/merge.log",
+    "bytes": 5532,
+    "sha256": "0b39c0ac416ce9226c53fafcd85ec86bce318d8febec01dde0669b6aba896c25"
+  },
+  {
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/physical_evaluation.log",
+    "bytes": 123045,
+    "sha256": "b8e4a00e6fcc1296752de96289465423c2f6d012a7114f68ee4edca9ebef89b7"
+  },
+  {
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/old_offline_validation.log",
+    "bytes": 79,
+    "sha256": "8973961506a308cc6206032355533312f954cc0ff223afffc483631bb710705e"
+  },
+  {
+    "path": "/home/users/lemon/barx-target-adaptation-20261110/report_watcher.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+]

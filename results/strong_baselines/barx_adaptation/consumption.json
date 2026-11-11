@@ -1,0 +1,36 @@
+{
+  "actual_sample_positions": 768000,
+  "actual_optimizer_updates": 3000,
+  "actual_backwards": 96000,
+  "no_validation_demonstrations_consumed": true,
+  "counts": [
+    {
+      "dataset": "mg_pnp_lite",
+      "task": "pnp_counter_to_sink",
+      "positions": 175249
+    },
+    {
+      "dataset": "mg_pnp_lite",
+      "task": "pnp_sink_to_counter",
+      "positions": 207079
+    },
+    {
+      "dataset": "panda_pnp",
+      "task": "pnp_counter_to_sink",
+      "positions": 179108
+    },
+    {
+      "dataset": "panda_pnp",
+      "task": "pnp_sink_to_counter",
+      "positions": 206564
+    }
+  ],
+  "unique_demonstrations": {
+    "mg_pnp_lite": 867,
+    "panda_pnp": 90
+  },
+  "unique_frame_positions": 418956,
+  "trace_path": "/home/users/lemon/barx-target-adaptation-20261110/training/consumed_samples.csv",
+  "trace_sha256": "b27011570265816eb5205f00ed42874e8c3dcc9f501261a121cfa0b6f30371e0",
+  "trace_bytes": 133319118
+}
