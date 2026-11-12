@@ -3,7 +3,9 @@ from collections import Counter
 from baselines.strong.common import ROOT,TASKS,out,read,write,digest,now,resource
 
 def main():
-    folder=out('vqbet');stages=[];models=[];cells=[];indices=[];cfg=read(folder/'protocol.json')
+    folder=out('vqbet')
+    assert str(ROOT)==read(folder/'technical_repair.json')['corrected_server_root'],'Use corrected STRONG_BASELINE_RUN_ROOT; never overwrite indices from the original attempt'
+    stages=[];models=[];cells=[];indices=[];cfg=read(folder/'protocol.json')
     for group in ['target_only','source_target']:
         for stage in ['vqvae','bet']:
             p=ROOT/'vqbet/training'/group/stage/'status.json'
@@ -43,6 +45,9 @@ def main():
         f"已完成组件更新：{stage_updates}；已经闭合的物理episode：{len(closed)}；通过完整40条单元验收的评测：{result['formally_accepted_episodes']}条。",'',
         '| 设置 | 组件 | 实际更新 | 验证选择step | 验证损失 |','|---|---|---:|---:|---:|']
     for m in models:lines.append(f"| {m['group']} | {m['stage']} | {m['actual_stage_updates']} | {m['selected']['step']} | {m['selected']['loss']:.8f} |")
+    if cells:
+        lines+=['','| 设置 | 已验收任务 | 官方成功/实际次数 | 作用域 |','|---|---|---:|---|']
+        for c in cells:lines.append(f"| {c['group']} | {c['task']} | {c['successes']}/{c['episodes']} | EXPOSED_REFERENCE |")
     lines+=['','未完成或未验收的单元不填写0%成功率。checkpoint和原始训练日志的绝对路径及SHA见model_index.json及training_artifact_index.json。',
         '', '原TF32精度尝试和修复版探针分别归档，不计正式训练更新或正式成功率。已完成阶段复用，不重训。']
     (folder/'PARTIAL_RESULTS.md').write_text('\n'.join(lines)+'\n')

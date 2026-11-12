@@ -10,7 +10,8 @@
     "ipython": "8.39.0",
     "mujoco": "3.1.1",
     "robosuite": "1.5.1",
-    "robomimic": "0.3.0"
+    "robomimic": "0.3.0",
+    "einops": "0.8.1"
   },
   "backbone_weights": {
     "path": "/home/users/lemon/.cache/torch/hub/checkpoints/resnet18-f37072fd.pth",
@@ -114,5 +115,6 @@
   "evaluation_environment_unchanged": true,
   "tf32": false,
   "active_server_root": "/home/users/lemon/strong-baselines-20261112/vqbet_input_repair_01",
-  "technical_repair_number": 1
+  "technical_repair_number": 1,
+  "vendored_quantizer": "Pinned official vector_quantize_pytorch tree, not an installed substitute"
 }

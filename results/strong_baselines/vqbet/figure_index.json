@@ -1,0 +1,22 @@
+{
+  "figures": [
+    {
+      "path": "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/vqbet/figures/validation.svg",
+      "sha256": "76f9be482162942b43c55923d7ace731631f7b3866fef5b69848e67cb5e74dbe"
+    }
+  ],
+  "inputs": [
+    {
+      "path": "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/vqbet/training_target_only_vqvae.json",
+      "sha256": "a4866aae7dd8bd593c1c528656a6c7307496a2b90c4aec2e6e234ed320fb4623"
+    },
+    {
+      "path": "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/vqbet/training_target_only_bet.json",
+      "sha256": "46d89ffe892d1a16f9740a770cf6e4b0f2e7075c99dd0ab9e773f59398cb2c00"
+    }
+  ],
+  "only_completed_training_and_accepted_physics": true,
+  "missing_cells_not_plotted_as_zero": true,
+  "new_optimizer_updates": 0,
+  "new_physics_steps": 0
+}

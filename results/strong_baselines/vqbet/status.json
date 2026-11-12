@@ -2,7 +2,7 @@
   "status": "PARTIAL",
   "stage": "CORRECTED_PROBES_AND_INPUT_ACCEPTED",
   "actual_training_updates": 30000,
-  "physical_evaluation_episodes": 0,
+  "physical_evaluation_episodes": 40,
   "success_rate": null,
   "technical_repairs": 1,
   "prior_probe_stage_updates": 4,
@@ -11,7 +11,7 @@
   "probe_stage_updates": 4,
   "probe_optimizer_calls": 6,
   "physical_smoke_episodes": 4,
-  "phase": "FORMAL_EVALUATION_target_only_pnp_counter_to_sink",
+  "phase": "FORMAL_EVALUATION_target_only_pnp_sink_to_counter",
   "server_root": "/home/users/lemon/strong-baselines-20261112/vqbet_input_repair_01",
   "actual_optimizer_calls": 42000
 }

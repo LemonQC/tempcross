@@ -1,8 +1,21 @@
 {
   "status": "PARTIAL",
-  "snapshot_utc": "2026-11-12T17:38:40.044019+00:00",
+  "snapshot_utc": "2026-11-12T18:03:49.666011+00:00",
   "server_root": "/home/users/lemon/strong-baselines-20261112/vqbet_input_repair_01",
-  "cells": [],
+  "cells": [
+    {
+      "group": "target_only",
+      "task": "pnp_counter_to_sink",
+      "episodes": 40,
+      "successes": 0,
+      "success_rate": 0.0,
+      "role": "EXPOSED_REFERENCE",
+      "failure_counts": {
+        "CLOSE_WITHOUT_BILATERAL_CONTACT": 39,
+        "CONTACT_WITHOUT_STABLE_LIFT_PROXY": 1
+      }
+    }
+  ],
   "completed_training_components": [
     {
       "status": "COMPLETE",
@@ -552,8 +565,8 @@
   ],
   "completed_component_stage_updates": 30000,
   "completed_component_optimizer_calls": 42000,
-  "formally_accepted_episodes": 0,
-  "closed_physical_episodes_at_snapshot": 1,
+  "formally_accepted_episodes": 40,
+  "closed_physical_episodes_at_snapshot": 41,
   "in_progress_components": [],
   "independent_unseen_test": false,
   "role": "EXPOSED_REFERENCE",
