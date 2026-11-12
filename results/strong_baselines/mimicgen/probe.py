@@ -153,7 +153,7 @@ def run_episode(env, task, condition, role, key, generator=None, interface=None,
         f.attrs['role']=role
         if upstream_result is not None:
             f.attrs['upstream_success']=upstream_result['success']
-            f.attrs['source_demo_indices']=json.dumps(upstream_result['src_demo_inds'])
+            f.attrs['source_demo_indices']=json.dumps([int(i) for i in upstream_result['src_demo_inds']])
     record=dict(status='COMPLETE',id=key,role=role,task=task,condition=condition,
                 condition_id=entry['condition_id'],success=official_success,steps=len(a),
                 trajectory=str(directory/'trajectory.hdf5'),video=str(directory/'video.mp4'),

@@ -1,0 +1,22 @@
+{
+  "status": "COMPLETE",
+  "physical_probe_repair_attempt": 1,
+  "authorization": "202611121050.md: 首次探针失败可最多作一次有文档记录的实现修复",
+  "earlier_budget_error": "First protocol merged preflight repair and physical-probe repair into a single cap; original user instruction separately allows both.",
+  "change": "Cast upstream NumPy source-demo indices to Python int when writing JSON",
+  "raw_files_unchanged": true,
+  "raw_sha256": {
+    "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_counter_to_sink-gen-002/trajectory.hdf5": "1b3497c1e6be3378c2d8f2a6ecb14f6430dd14a59bd24faa34a07d7df3a6b18d",
+    "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_counter_to_sink-gen-002/video.mp4": "d3b3e7b20b5b33a0fd3ff446346697633a5a95b80db17f89f9460aa027fa9663",
+    "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_counter_to_sink-gen-002/telemetry/episode-000.h5": "4b7122f449fae81cbabca07a9d1231f88638e53fa1eed921702670d8f6d6aa0f",
+    "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_counter_to_sink-gen-002/telemetry/episode-000.jsonl": "464dadb385fc33169b279eb8ea67112f6a71db16fff2e30df573715c5d657517"
+  },
+  "recovered_id": "pnp_counter_to_sink-gen-002",
+  "physics_steps": 0,
+  "policy_calls": 0,
+  "old_trajectories_repeated": 0,
+  "seed": 7,
+  "resume_rng_limitation": "Original crash-time NumPy RNG state was not saved; skipped completed IDs do not consume RNG on restart. Remaining IDs restart the registered seed-7 process; not claimed bitwise identical to uninterrupted execution.",
+  "source_index_limitation": "Selected per-subtask IDs unavailable for recovered failed probe; source pool remains fixed and known. All probe trajectories excluded from any downstream training.",
+  "no_more_probe_repairs": true
+}
