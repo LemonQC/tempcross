@@ -1,0 +1,50 @@
+{
+  "phase": "FIRST_PHYSICS_GATE_ONLY",
+  "version": 1,
+  "seed": 7,
+  "source_human_seed_demos_per_task": 5,
+  "target_eligible_train_demos": 90,
+  "target_validation_demos": 10,
+  "source_choice": "lowest episode_id among existing whole-episode train split, per task",
+  "probe_conditions": {
+    "pnp_counter_to_sink": [
+      0,
+      1,
+      2
+    ],
+    "pnp_sink_to_counter": [
+      0,
+      1
+    ]
+  },
+  "probe_generation_attempts": 5,
+  "probe_action_replays": 5,
+  "total_physical_probe_cap": 10,
+  "minimum_successes_total": 6,
+  "additional_gate": "each task has at least one official success for generation and replay; all evidence verified",
+  "repair_attempt_cap": 1,
+  "repair_attempts_used": 1,
+  "generation_knobs": {
+    "select_src_per_subtask": true,
+    "transform_first_robot_pose": true,
+    "interpolate_from_last_target_pose": true,
+    "noise": 0.05,
+    "nn_k": 5
+  },
+  "controller_changes": false,
+  "collisions_disabled": false,
+  "success_definition_changed": false,
+  "official_task_max_steps": {
+    "pnp_counter_to_sink": 600,
+    "pnp_sink_to_counter": 650
+  },
+  "control_hz": 20,
+  "downstream_seed_if_gate_passes": 7,
+  "downstream_config_frozen": false,
+  "downstream_training_authorized_now": false,
+  "formal_evaluation_cap_after_next_freeze": 80,
+  "formal_conditions_role": "EXPOSED_REFERENCE",
+  "independent_unseen_test_available": false,
+  "code_error_or_engine_failure": "BLOCKED, no further repair or retry",
+  "old_evaluation_reruns": 0
+}

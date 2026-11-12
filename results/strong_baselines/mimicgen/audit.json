@@ -1,0 +1,270 @@
+{
+  "status": "ZERO_SIMULATION_AUDIT_COMPLETE_REPAIR_REQUIRED",
+  "official_commit": "0f435089f48b1f16d225f868dbef855a5e75d1e0",
+  "official_worktree_clean": true,
+  "module": "/home/users/lemon/coft-p2/barx/third_party/mimicgen/mimicgen/__init__.py",
+  "simulator_environments_created": 0,
+  "physics_steps": 0,
+  "source_seed_demonstrations": 10,
+  "target_train_pool": 90,
+  "target_validation_pool": 10,
+  "versions": {
+    "torch": "2.2.0+cu121",
+    "mujoco": "3.1.1",
+    "robosuite": "1.5.1",
+    "robomimic": "0.3.0",
+    "numpy": "1.23.5"
+  },
+  "source_files": [
+    {
+      "path": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "bytes": 564120784,
+      "sha256": "3afd1c433ae028c63fe99364ac951030f4a4f232c0102f42cf31c1a8dc1ab0d0"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "bytes": 716265939,
+      "sha256": "4874601734320497cc6effa4cb5d0bf64daa7ae517ce299a0130f108a033ca61"
+    }
+  ],
+  "reviewed_inputs": [
+    {
+      "path": "/home/users/lemon/coft-p2/barx/scripts/prepare_mimicgen_source.py",
+      "sha256": "12a46bf1867d638b2de3eb2593b1d0ed9ae819cbc3f2eb4f86f768dd32db8ede"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/barx/scripts/generate_mimicgen.py",
+      "sha256": "7a3230de918245ed392d404deb3c1659f3a66b919952dbbd843701dcf14ba885"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/barx/barx/mimicgen_release.py",
+      "sha256": "409866be4174c7b4fdb2612fbf2402b26bf9c4efbff6ff2ff98d0fdd7b486b92"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/barx/configs/mimicgen.json",
+      "sha256": "3e22b75dd5d65a68057cee4a7690f270b1ee567e71aa761bda3be89d83ad5b78"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/barx/third_party/mimicgen/mimicgen/scripts/prepare_src_dataset.py",
+      "sha256": "0d0ee8722372c4928db2edb06415662a23d1a15ae8fc5caa22755d1c1e53b474"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/barx/third_party/mimicgen/mimicgen/scripts/generate_dataset.py",
+      "sha256": "c28acc1734837729430cdc946ed673023b84ee0d4c7a65a5e046180529d39130"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/barx/third_party/mimicgen/mimicgen/datagen/data_generator.py",
+      "sha256": "4668d971b0fd3ff2f75cf4377893e91543a9957715225181417feefc5d37804e"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/barx/third_party/mimicgen/mimicgen/datagen/selection_strategy.py",
+      "sha256": "428bf72e8288caf7a1360ad35f5d243717ef44cffe577e21a4ff49a27c8f267b"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/barx/third_party/mimicgen/mimicgen/datagen/waypoint.py",
+      "sha256": "4fd0d6df7d0ca59ced361a3c391c3e095582cf6423d3ab582aa3a62c8557fc55"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/barx/third_party/mimicgen/mimicgen/env_interfaces/robosuite.py",
+      "sha256": "acd1fdfc8e30da804fa85a14c13c998ec827c0cbe657e7407db07cd6b471b0fe"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/barx/third_party/mimicgen/mimicgen/env_interfaces/robocasa/single_stage/mg_pnp.py",
+      "sha256": "f9408879eb017b8f3f0e86f7c4770127b7f26a9645bed59b5464ce68038d7963"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/barx/third_party/mimicgen/mimicgen/configs/robocasa/single_stage/config_pnp.py",
+      "sha256": "2b8132b901eb59431da88fad52171f26a1d670f4ef636097ea6833b99b48b5d7"
+    },
+    {
+      "path": "/home/users/lemon/CodexProject/tempcross/docs/BASELINE_PROTOCOL.md",
+      "sha256": "e33cac463c0cc9f2a704ca4967c3a467b6c7f9d16e8b8243ec8534fa3d22edf7"
+    },
+    {
+      "path": "/home/users/lemon/CodexProject/tempcross/docs/BASELINE_REPRODUCIBILITY_MATRIX.md",
+      "sha256": "a729a58fc32b7ea61c1ff7886edabd010896dfe45f39e35b39ab8ab118249ac4"
+    },
+    {
+      "path": "/home/users/lemon/CodexProject/tempcross/docs/BASELINE_RESULTS.md",
+      "sha256": "aed099026b21d5d3f78d1672101108cc26fe3d766c3ade6b8d620c0945467010"
+    },
+    {
+      "path": "/home/users/lemon/CodexProject/tempcross/docs/BARX_TARGET_ADAPTATION_RESULTS.md",
+      "sha256": "257e3720a5b319e844021e9ab4f2e77a6bd26bbf161c56968da2d46b0ea08352"
+    }
+  ],
+  "registered_task_configs": {
+    "PnPCounterToSink": {
+      "name": "PnPCounterToSink",
+      "type": "robosuite",
+      "experiment": {
+        "name": "demo",
+        "source": {
+          "dataset_path": null,
+          "filter_key": null,
+          "n": null,
+          "start": null
+        },
+        "generation": {
+          "path": null,
+          "guarantee": false,
+          "keep_failed": true,
+          "num_trials": 10,
+          "max_attempts": null,
+          "select_src_per_subtask": false,
+          "transform_first_robot_pose": false,
+          "interpolate_from_last_target_pose": true
+        },
+        "task": {
+          "name": null,
+          "robot": null,
+          "gripper": null,
+          "interface": null,
+          "interface_type": null
+        },
+        "max_num_failures": 50,
+        "render_video": true,
+        "num_demo_to_render": 50,
+        "num_fail_demo_to_render": 50,
+        "log_every_n_attempts": 50,
+        "seed": 1
+      },
+      "obs": {
+        "collect_obs": true,
+        "camera_names": [],
+        "camera_height": 84,
+        "camera_width": 84
+      },
+      "task": {
+        "task_spec": {
+          "stage_1": {
+            "object_ref": "obj",
+            "subtask_term_signal": "stage_contact_obj",
+            "subtask_term_offset_range": [
+              10,
+              20
+            ],
+            "action_noise": 0.05,
+            "num_interpolation_steps": 5,
+            "selection_strategy": "nearest_neighbor_interpolation",
+            "selection_strategy_kwargs": {
+              "nn_k": 5
+            }
+          },
+          "stage_2": {
+            "object_ref": "sink",
+            "subtask_term_signal": null,
+            "subtask_term_offset_range": null,
+            "action_noise": 0.05,
+            "num_interpolation_steps": 5,
+            "selection_strategy": "nearest_neighbor_interpolation",
+            "selection_strategy_kwargs": {
+              "nn_k": 5
+            }
+          }
+        }
+      }
+    },
+    "PnPSinkToCounter": {
+      "name": "PnPSinkToCounter",
+      "type": "robosuite",
+      "experiment": {
+        "name": "demo",
+        "source": {
+          "dataset_path": null,
+          "filter_key": null,
+          "n": null,
+          "start": null
+        },
+        "generation": {
+          "path": null,
+          "guarantee": false,
+          "keep_failed": true,
+          "num_trials": 10,
+          "max_attempts": null,
+          "select_src_per_subtask": false,
+          "transform_first_robot_pose": false,
+          "interpolate_from_last_target_pose": true
+        },
+        "task": {
+          "name": null,
+          "robot": null,
+          "gripper": null,
+          "interface": null,
+          "interface_type": null
+        },
+        "max_num_failures": 50,
+        "render_video": true,
+        "num_demo_to_render": 50,
+        "num_fail_demo_to_render": 50,
+        "log_every_n_attempts": 50,
+        "seed": 1
+      },
+      "obs": {
+        "collect_obs": true,
+        "camera_names": [],
+        "camera_height": 84,
+        "camera_width": 84
+      },
+      "task": {
+        "task_spec": {
+          "stage_1": {
+            "object_ref": "obj",
+            "subtask_term_signal": "stage_contact_obj",
+            "subtask_term_offset_range": [
+              20,
+              30
+            ],
+            "action_noise": 0.05,
+            "num_interpolation_steps": 5,
+            "selection_strategy": "nearest_neighbor_interpolation",
+            "selection_strategy_kwargs": {
+              "nn_k": 5
+            }
+          },
+          "stage_2": {
+            "object_ref": "container",
+            "subtask_term_signal": null,
+            "subtask_term_offset_range": null,
+            "action_noise": 0.05,
+            "selection_strategy": "nearest_neighbor_interpolation",
+            "selection_strategy_kwargs": {
+              "nn_k": 5
+            }
+          }
+        }
+      }
+    }
+  },
+  "action_frame_check": [
+    {
+      "base_yaw": 0.0,
+      "original_roundtrip_max_error": 2.121627330778364e-06,
+      "original_translation_error_m": 0.0,
+      "repaired_roundtrip_max_error": 2.121627330778364e-06
+    },
+    {
+      "base_yaw": 0.7,
+      "original_roundtrip_max_error": 0.24029682874679553,
+      "original_translation_error_m": 0.012363356270248068,
+      "repaired_roundtrip_max_error": 1.51067972183061e-06
+    },
+    {
+      "base_yaw": 1.57,
+      "original_roundtrip_max_error": 0.4998406795784831,
+      "original_translation_error_m": 0.025484944332645167,
+      "repaired_roundtrip_max_error": 1.682043075559858e-06
+    },
+    {
+      "base_yaw": -2.1,
+      "original_roundtrip_max_error": 0.6240957260131836,
+      "original_translation_error_m": 0.03127538917407596,
+      "repaired_roundtrip_max_error": 1.734197139738325e-06
+    }
+  ],
+  "compatibility_notes": [
+    "Task-local PYTHONPATH exposes bundled mimicgen; no package installation or dependency upgrades.",
+    "Original action_to_target_pose omits base-to-world conversion while its inverse encodes world-to-base; one isolated annotation repair required.",
+    "Initial inspection used unsupported config_factory(base_type=...); corrected diagnostic call to the actual config_type signature before creating any environment."
+  ]
+}
