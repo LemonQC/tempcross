@@ -1,0 +1,84 @@
+{
+  "status": "PASS",
+  "official_commit": "742c753c0d4a5d87076c8f69e5628c79a8cc5488",
+  "files": [
+    {
+      "path": "detr/main.py",
+      "unchanged": true,
+      "original_sha256": "c849042c949d4cfe9ff41b4b167a2af67dae4ba4a0e8b7d25a875d04231a4162",
+      "executed_port_sha256": "c849042c949d4cfe9ff41b4b167a2af67dae4ba4a0e8b7d25a875d04231a4162"
+    },
+    {
+      "path": "detr/models/__init__.py",
+      "unchanged": true,
+      "original_sha256": "7ed43d119c4bef1c46df821cc3b4f256153fbe59717a2e9f1825abc2d3b3e778",
+      "executed_port_sha256": "7ed43d119c4bef1c46df821cc3b4f256153fbe59717a2e9f1825abc2d3b3e778"
+    },
+    {
+      "path": "detr/models/backbone.py",
+      "unchanged": true,
+      "original_sha256": "dec9770e496e2deb56f694e622a15d01ea3bdea977c2446fb3c41bc18cf4ed55",
+      "executed_port_sha256": "dec9770e496e2deb56f694e622a15d01ea3bdea977c2446fb3c41bc18cf4ed55"
+    },
+    {
+      "path": "detr/models/detr_vae.py",
+      "unchanged": false,
+      "original_sha256": "499d968a3704156e5e29425a29691c3fa93421481d3609ed6b600b21801270f1",
+      "executed_port_sha256": "9ee83026f244bb00690eec2e508abdec526be5517428364f2a5e9c22ae2c7093"
+    },
+    {
+      "path": "detr/models/position_encoding.py",
+      "unchanged": true,
+      "original_sha256": "5a8f62c66fc7ec66e862bdfe96e122098b93a688fbed514460990c74fa307151",
+      "executed_port_sha256": "5a8f62c66fc7ec66e862bdfe96e122098b93a688fbed514460990c74fa307151"
+    },
+    {
+      "path": "detr/models/transformer.py",
+      "unchanged": true,
+      "original_sha256": "c6d2a1e7138e6ca62db7cc61bfc99857fb2a3a9375ba7b304310ca264f357ee2",
+      "executed_port_sha256": "c6d2a1e7138e6ca62db7cc61bfc99857fb2a3a9375ba7b304310ca264f357ee2"
+    },
+    {
+      "path": "detr/setup.py",
+      "unchanged": true,
+      "original_sha256": "96d9ab1a9911e640992121cf64a2d98c1894bf50e51589502388ecd08228f120",
+      "executed_port_sha256": "96d9ab1a9911e640992121cf64a2d98c1894bf50e51589502388ecd08228f120"
+    },
+    {
+      "path": "detr/util/__init__.py",
+      "unchanged": true,
+      "original_sha256": "9e535c45af09ac24ef8d5631a151f77febafe72a92ad6bfeb2d941f0c4a54e35",
+      "executed_port_sha256": "9e535c45af09ac24ef8d5631a151f77febafe72a92ad6bfeb2d941f0c4a54e35"
+    },
+    {
+      "path": "detr/util/box_ops.py",
+      "unchanged": true,
+      "original_sha256": "f0c1c3e27b0f69955e74b09b4ae1898e41e409d1af292c478ba8be71856112fc",
+      "executed_port_sha256": "f0c1c3e27b0f69955e74b09b4ae1898e41e409d1af292c478ba8be71856112fc"
+    },
+    {
+      "path": "detr/util/misc.py",
+      "unchanged": true,
+      "original_sha256": "b56dfabebf8eded2e7dbf359e167bd308d9c75ee0394f63a751cad9eee597f00",
+      "executed_port_sha256": "b56dfabebf8eded2e7dbf359e167bd308d9c75ee0394f63a751cad9eee597f00"
+    },
+    {
+      "path": "detr/util/plot_utils.py",
+      "unchanged": true,
+      "original_sha256": "45e371d165675185fce81142332da1408abc982585e24f7b084f6068fb51e529",
+      "executed_port_sha256": "45e371d165675185fce81142332da1408abc982585e24f7b084f6068fb51e529"
+    },
+    {
+      "path": "policy.py",
+      "unchanged": true,
+      "original_sha256": "352efca415ee0e31073a27ca91560195702d1e9b545e573a3a668a53f06dd127",
+      "executed_port_sha256": "352efca415ee0e31073a27ca91560195702d1e9b545e573a3a668a53f06dd127"
+    }
+  ],
+  "only_changed_core_file": "detr/models/detr_vae.py",
+  "exact_declared_dimensional_and_decoder_output_edits": true,
+  "official_policy_loss_unchanged": true,
+  "no_policy_inference": true,
+  "no_training": true,
+  "no_physics": true
+}

@@ -6,7 +6,7 @@
 
 | 方法 | 状态 | 已验证训练更新（不含探针） | 已验收正式物理评测 | 成功率 | 当前证据 |
 |---|---|---:|---:|---|---|
-| act | PARTIAL | 0 | 0 | N/A | [状态](../results/strong_baselines/act/status.json) |
+| act | PARTIAL | 24000 | 0 | N/A | [状态](../results/strong_baselines/act/status.json) |
 | vqbet | NOT_RUN | 0 | 0 | N/A | [状态](../results/strong_baselines/vqbet/status.json) |
 | mimicgen_v2 | NOT_RUN | 0 | 0 | N/A | [状态](../results/strong_baselines/mimicgen_v2/status.json) |
 | kite | NOT_RUN | 0 | 0 | N/A | [状态](../results/strong_baselines/kite/status.json) |
@@ -18,3 +18,28 @@
 执行顺序：ACT → VQ-BeT → MimicGen v2 → KITE → CrossZero → Object Flow。单卡每次只运行一个大型训练；每种算法完成或阻碍报告后单独提交。
 
 原始50+50生成示范门槛失败的MimicGen结论保持不变；mimicgen_v2为单独协议。不同观测、目标示范量及额外监督在各方法协议中分列，不作等信息或等数据暗示。
+
+## 按设置与任务分列的真实评测
+
+下表只读取已经存在的结果单元；未执行单元不填0%，不同设置不合并伪装成一个模型。
+
+| 方法 | 设置 | 任务 | 官方成功/总次数 | 成功率 | 结果作用域 |
+|---|---|---|---:|---:|---|
+| — | — | 尚无通过最终验收的新方法单元 | N/A | N/A | 训练与smoke不计正式结果 |
+
+## 数据和信息条件
+
+数据量、预训练、目标示范、原生传感器及额外监督必须随各方法分列；不默认等数据或等信息。
+
+| 方法 | 本轮源具身 | 部署观测（冻结协议） | Panda训练示范/任务 | 协议 |
+|---|---|---|---|---|
+| act | ["ur5e"] | ["128x128 RGB", "frozen CLIP instruction embedding"] | 45 | [冻结协议](../results/strong_baselines/act/protocol.json) |
+| vqbet | 尚未核对 | 尚未核对 | N/A | NOT_RUN |
+| mimicgen_v2 | 尚未核对 | 尚未核对 | N/A | NOT_RUN |
+| kite | 尚未核对 | 尚未核对 | N/A | NOT_RUN |
+| crosszero | 尚未核对 | 尚未核对 | N/A | NOT_RUN |
+| object_flow | 尚未核对 | 尚未核对 | N/A | NOT_RUN |
+
+旧BC/DP源池包含IIWA、Kinova3和UR5e。新增ACT依本轮UR5e/Panda设置仅取UR5e的600条源示范，保留原有身份划分；旧结果不重训、不覆盖，也不把跨源池比较称为等数据预算比较。BARX预训练/适配及MimicGen生成监督的来源仍以各自原协议为准。
+
+ACT唯一一次decoder输出修复及原版24000更新尝试另列归档，不能用原版训练量替代修复版的训练完成量。不同方法的技术尝试、探针和正式评测成本分别记账。

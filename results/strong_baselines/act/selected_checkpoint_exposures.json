@@ -1,0 +1,15 @@
+[
+  {
+    "group": "target_only",
+    "checkpoint": "/home/users/lemon/strong-baselines-20261112/act_decoder_repair_01/act/training/target_only/best.pt",
+    "sha256": "b1cff0e2705a419a0fc90a8ddb3960c09d36208081b53edcef214e12313fe5e3",
+    "selected_checkpoint_updates": 17000,
+    "selected_checkpoint_target_anchor_exposures": 272000,
+    "selected_checkpoint_source_anchor_exposures": 0,
+    "complete_training_run_updates": 24000,
+    "complete_training_run_target_anchor_exposures": 384000,
+    "complete_training_run_source_anchor_exposures": 0,
+    "verified_against_actual_checkpoint_metadata_and_consumption_log": true,
+    "physical_success_used_for_selection": false
+  }
+]

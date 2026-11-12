@@ -1,8 +1,8 @@
 {
   "status": "PARTIAL",
   "method": "act",
-  "phase": "FORMAL_TRAINING",
-  "actual_training_updates": 0,
+  "phase": "FORMAL_EVALUATION_target_only",
+  "actual_training_updates": 24000,
   "probe_optimizer_updates": 2,
   "physical_evaluation_episodes": 0,
   "success_rate": null,
@@ -10,5 +10,26 @@
   "physical_smoke_episodes": 4,
   "active_server_root": "/home/users/lemon/strong-baselines-20261112/act_decoder_repair_01",
   "original_attempt_preserved": true,
-  "corrected_actual_training_updates": 0
+  "corrected_actual_training_updates": 24000,
+  "corrected_target_anchor_exposures": 384000,
+  "corrected_source_anchor_exposures": 0,
+  "recorded_formal_episodes": 1,
+  "training_groups": {
+    "target_only": {
+      "status": "COMPLETE",
+      "actual_optimizer_updates": 24000,
+      "best_validation": {
+        "l1": 0.5158433523029089,
+        "kl": 0.0004788266960531473,
+        "loss": 0.5206316169351339,
+        "step": 17000
+      },
+      "server_status": "/home/users/lemon/strong-baselines-20261112/act_decoder_repair_01/act/training/target_only/status.json"
+    }
+  },
+  "last_verified_utc": "2026-11-12T13:57:44.153906+00:00",
+  "prior_technical_attempt_updates": 24000,
+  "total_executed_training_updates": 48000,
+  "total_probe_optimizer_updates": 4,
+  "completion_is_not_inferred_from_progress": true
 }

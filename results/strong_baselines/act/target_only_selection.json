@@ -1,6 +1,14 @@
 {
-  "status": "NOT_SELECTED",
-  "checkpoint": null,
-  "used_physical_success": false,
-  "server_root": "/home/users/lemon/strong-baselines-20261112/act_decoder_repair_01"
+  "checkpoint": "/home/users/lemon/strong-baselines-20261112/act_decoder_repair_01/act/training/target_only/best.pt",
+  "sha256": "b1cff0e2705a419a0fc90a8ddb3960c09d36208081b53edcef214e12313fe5e3",
+  "selected": {
+    "l1": 0.5158433523029089,
+    "kl": 0.0004788266960531473,
+    "loss": 0.5206316169351339,
+    "step": 17000
+  },
+  "actual_optimizer_updates": 24000,
+  "target_anchor_exposures": 384000,
+  "source_anchor_exposures": 0,
+  "used_physical_success": false
 }
