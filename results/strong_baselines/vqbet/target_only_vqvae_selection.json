@@ -1,0 +1,14 @@
+{
+  "checkpoint": "/home/users/lemon/strong-baselines-20261112/vqbet_input_repair_01/vqbet/training/target_only/vqvae/best.pt",
+  "sha256": "e7e746687f000132aaadc392b4a780588638e559a3223d7647202cae3a9f0b3f",
+  "selected": {
+    "loss": 0.021462136646732688,
+    "mse": 0.001218357472680509,
+    "step": 4000
+  },
+  "actual_stage_updates": 6000,
+  "actual_optimizer_calls": 6000,
+  "target_anchor_exposures": 384000,
+  "source_anchor_exposures": 0,
+  "used_physical_success": false
+}

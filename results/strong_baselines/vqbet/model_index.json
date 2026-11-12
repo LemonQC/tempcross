@@ -1,0 +1,50 @@
+[
+  {
+    "group": "target_only",
+    "stage": "vqvae",
+    "selected_checkpoint_target_anchor_exposures": 256000,
+    "selected_checkpoint_source_anchor_exposures": 0,
+    "action_labels_per_anchor": 1,
+    "checkpoint": "/home/users/lemon/strong-baselines-20261112/vqbet_input_repair_01/vqbet/training/target_only/vqvae/best.pt",
+    "sha256": "e7e746687f000132aaadc392b4a780588638e559a3223d7647202cae3a9f0b3f",
+    "selected": {
+      "loss": 0.021462136646732688,
+      "mse": 0.001218357472680509,
+      "step": 4000
+    },
+    "actual_stage_updates": 6000,
+    "actual_optimizer_calls": 6000,
+    "target_anchor_exposures": 384000,
+    "source_anchor_exposures": 0,
+    "used_physical_success": false
+  },
+  {
+    "group": "target_only",
+    "stage": "bet",
+    "selected_checkpoint_target_anchor_exposures": 16000,
+    "selected_checkpoint_source_anchor_exposures": 0,
+    "action_labels_per_anchor": 10,
+    "checkpoint": "/home/users/lemon/strong-baselines-20261112/vqbet_input_repair_01/vqbet/training/target_only/bet/best.pt",
+    "sha256": "96d07740d2d54edb636c73c6979d6ab27e5842b55c784a8d3fe63212bc0fd0ed",
+    "selected": {
+      "classification_loss": 6.367226421833038,
+      "offset_loss": 0.13289758283644915,
+      "total_loss": 19.6569846868515,
+      "equal_total_code_rate": 0.03476562595460564,
+      "equal_single_code_rate": 0.29843750409781933,
+      "equal_single_code_rate2": 0.09218750149011612,
+      "action_diff": 0.12048298073932528,
+      "action_diff_tot": 0.12048298073932528,
+      "action_diff_mean_res1": 0.1527527766302228,
+      "action_diff_mean_res2": 0.12880753353238106,
+      "action_diff_max": 1.950786218047142,
+      "loss": 19.6569846868515,
+      "step": 1000
+    },
+    "actual_stage_updates": 24000,
+    "actual_optimizer_calls": 36000,
+    "target_anchor_exposures": 384000,
+    "source_anchor_exposures": 0,
+    "used_physical_success": false
+  }
+]
