@@ -1,0 +1,134 @@
+{
+  "status": "PASS",
+  "generation_successes": 4,
+  "generation_attempts": 5,
+  "replay_successes": 4,
+  "replay_attempts": 5,
+  "combined_successes": 8,
+  "combined_physical_trajectories": 10,
+  "distinct_condition_pairs": 5,
+  "interpretation": "Feasibility gate only; generation/replay pairs are correlated, not ten independent task tests.",
+  "records": [
+    {
+      "id": "pnp_counter_to_sink-gen-000",
+      "success": true,
+      "steps": 337,
+      "decoded_video_frames": 337,
+      "contact_states": 338,
+      "actual_actions_match_telemetry": true
+    },
+    {
+      "id": "pnp_counter_to_sink-replay-000",
+      "success": true,
+      "steps": 337,
+      "decoded_video_frames": 337,
+      "contact_states": 338,
+      "actual_actions_match_telemetry": true
+    },
+    {
+      "id": "pnp_counter_to_sink-gen-001",
+      "success": true,
+      "steps": 377,
+      "decoded_video_frames": 377,
+      "contact_states": 378,
+      "actual_actions_match_telemetry": true
+    },
+    {
+      "id": "pnp_counter_to_sink-replay-001",
+      "success": true,
+      "steps": 377,
+      "decoded_video_frames": 377,
+      "contact_states": 378,
+      "actual_actions_match_telemetry": true
+    },
+    {
+      "id": "pnp_counter_to_sink-gen-002",
+      "success": false,
+      "steps": 403,
+      "decoded_video_frames": 403,
+      "contact_states": 404,
+      "actual_actions_match_telemetry": true
+    },
+    {
+      "id": "pnp_counter_to_sink-replay-002",
+      "success": false,
+      "steps": 403,
+      "decoded_video_frames": 403,
+      "contact_states": 404,
+      "actual_actions_match_telemetry": true
+    },
+    {
+      "id": "pnp_sink_to_counter-gen-000",
+      "success": true,
+      "steps": 487,
+      "decoded_video_frames": 487,
+      "contact_states": 488,
+      "actual_actions_match_telemetry": true
+    },
+    {
+      "id": "pnp_sink_to_counter-replay-000",
+      "success": true,
+      "steps": 487,
+      "decoded_video_frames": 487,
+      "contact_states": 488,
+      "actual_actions_match_telemetry": true
+    },
+    {
+      "id": "pnp_sink_to_counter-gen-001",
+      "success": true,
+      "steps": 417,
+      "decoded_video_frames": 417,
+      "contact_states": 418,
+      "actual_actions_match_telemetry": true
+    },
+    {
+      "id": "pnp_sink_to_counter-replay-001",
+      "success": true,
+      "steps": 417,
+      "decoded_video_frames": 417,
+      "contact_states": 418,
+      "actual_actions_match_telemetry": true
+    }
+  ],
+  "paired_checks": [
+    {
+      "generation": "pnp_counter_to_sink-gen-000",
+      "replay": "pnp_counter_to_sink-replay-000",
+      "same_initial_state": true,
+      "exact_action_prefix": true,
+      "max_abs_saved_state_difference": 0.0
+    },
+    {
+      "generation": "pnp_counter_to_sink-gen-001",
+      "replay": "pnp_counter_to_sink-replay-001",
+      "same_initial_state": true,
+      "exact_action_prefix": true,
+      "max_abs_saved_state_difference": 0.0
+    },
+    {
+      "generation": "pnp_counter_to_sink-gen-002",
+      "replay": "pnp_counter_to_sink-replay-002",
+      "same_initial_state": true,
+      "exact_action_prefix": true,
+      "max_abs_saved_state_difference": 0.0
+    },
+    {
+      "generation": "pnp_sink_to_counter-gen-000",
+      "replay": "pnp_sink_to_counter-replay-000",
+      "same_initial_state": true,
+      "exact_action_prefix": true,
+      "max_abs_saved_state_difference": 0.0
+    },
+    {
+      "generation": "pnp_sink_to_counter-gen-001",
+      "replay": "pnp_sink_to_counter-replay-001",
+      "same_initial_state": true,
+      "exact_action_prefix": true,
+      "max_abs_saved_state_difference": 0.0
+    }
+  ],
+  "old_inputs_and_source_files_unchanged": true,
+  "all_raw_artifacts_preserved": true,
+  "new_physics_steps": 0,
+  "new_policy_calls": 0
+}

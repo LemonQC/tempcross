@@ -55,3 +55,23 @@
 `recover_record.py`只读现有第三条数据，核对403步动作/404个状态/403帧视频、官方成功为False、文件SHA不变后恢复缺失的episode JSON。该轨迹不重新执行；其具体源片段索引因异常未写出，标为不可用，不反推造值。所有探针数据排除在后续训练之外。
 
 原进程未保存崩溃时的NumPy RNG状态。续跑沿用预注册seed7，跳过已有ID而不重演随机draw，不承诺未执行ID与无中断运行逐位相同。该差异在剩余轨迹前公开，不依据成功分数选择新seed或参数。恢复原已执行5条，剩余只执行第三条重放和Sink→Counter的两条生成/两条重放，总轨迹仍不超过10。
+
+## 探针通过后的唯一完整链条配置（第二阶段运行前冻结）
+
+真实探针为生成4/5、重放4/5，合计8/10；两任务均通过生成和重放，逐条视频解码、状态/动作、接触日志及相同初态/动作前缀检查通过，见`probe_validation.json`。五对轨迹相关，8/10不是十次独立泛化测试。现在才冻结以下下游方案，机器配置为`downstream_protocol.json`。
+
+额外生成：每方向目标50条官方成功示范，最多100次尝试，两任务合计最多200次；总生成墙时上限3小时。用固定旧开发条件`attempt % 20`，即0–19，源片段仍为已准备的5条Panda human train；生成种子预先定为`700000 + 1000*task_index + attempt`。保留每次成功和失败、成本、父示范ID、阶段选择和条件身份；达到50成功即停止该任务，不扩预算、不改噪声或控制。任一方向在上限内不足50则BLOCKED，不训练更弱的临时替代配置。探针10条全部排除在训练外。生成与重放使用原DataGenerator/同一已核查动作执行封装，不添加抓取触发器或规则轨迹。
+
+训练数据：原90条Panda human train＋新增100条生成train，共190条；原10条human validation不变。实际采样为任务均衡，再在该任务的95条train示范中均匀选demo和frame。父示范必须是原train；生成条件ID不得与60–99相同。生成分支共享物理条件或父示范的相关性公开，不将100条变体称为100个独立场景。保留原10条验证示范的256个固定验证anchor及顺序；不重拟合归一化，不混入探针或验证谱系。
+
+数据转换：人类128px包只读复用；生成RGB从同一个原外部相机320×180以OpenCV INTER_AREA缩到128×128。生成标签为每帧实际执行的canonical7D动作，包含末尾成功动作；人类标签继续保留历史RLDS末帧zero-arm规则，两者差异明确记录，不伪称相同末帧处理。部署仍仅RGB＋原文指令、原canonical→12D接口。特权物体/EE/接触只参与生成或审计，不送入学习策略。
+
+唯一训练：原固定版本官方robomimic BC-Transformer-GMM，512d/6层/8头/10帧/5成分、ResNet18＋SpatialSoftmax、116px CropRandomizer，冻结CLIP-L/14语言投影；不新增网络。AdamW1e-4 constant、wd0.01，batch16、seed7。固定48000次更新＝768000个anchor，无early stopping、无调参或自动降batch。沿用已有真实batch16资源证据；正式第一更新使用同一个配置，不另开训练搜索。每anchor载入10帧历史，实际只监督末帧1动作；消费trace区分human/generated实际暴露与重复帧。
+
+每12000 anchors计算固定human validation的expected-action MSE与NLL；只在96000、192000、288000、384000、480000、576000、672000、768000这8个位置保存候选。固定按验证MSE最低选权重，并列选更早；step0仅诊断。总训练仍完成768000 anchors，较早checkpoint自身暴露单列。训练墙时上限4小时、磁盘低于25GiB、非有限loss、OOM/代码或数据错误即BLOCKED，不追加修复或改变配置。
+
+对照：引用历史target-only BC-Transformer、source+target BC-Transformer及参考预算BARX LoRA的同条件结果，不重跑。新模型与历史B的总anchor/架构预算相同，但新模型含额外100条示范、特权数据生成成本、不同采样流、较少人类anchor占比及验证选模差异，**不能宣称等数据公平或单因素因果消融**。本预算是有界增强对照，不是MimicGen论文千级生成数据的完整复现。
+
+正式只评验证选出的一个checkpoint，两任务×40＝80条Panda，标EXPOSED_REFERENCE。复用原评估器、60–99完整保存初态和官方完整任务成功，逐条验证动作映射/队列、有限状态、视频和初态值。失败分类沿用阶段代理定义，不代替官方分数或作根因判定。单seed、已暴露条件，无独立未见泛化结论。
+
+第二阶段采用独立OS监督进程顺序执行augmentation→data preparation→training→evaluation→collection；每阶段落盘，训练每100更新刷新status，完整trace与checkpoint留服务器。进程仍活跃时续接只监控，绝不再次启动。任何技术异常保留日志、标BLOCKED并停止，没有第二套算法或新一轮试验。Codex额度恢复仍需外部续接，本任务不声称自动恢复会话。

@@ -1,9 +1,9 @@
 # MimicGen有界Baseline：实际进度
 
-状态：**IN_PROGRESS**。已完成两任务10条固定源示范的官方datagen_info提取。物理探针已执行5条：Counter→Sink生成2/3成功，对应已完成重放2/2成功；第三条生成403步后未成功，其重放及另一任务尚未执行。没有下游训练或正式评测。
+状态：**IN_PROGRESS**。首次探针完成：生成4/5、动作重放4/5，共8/10，两任务均有生成与重放成功；视频、接触、动作、物理状态、重放初态/动作前缀及旧输入哈希核查通过。实际10条探针，无重复轨迹。
 
-第三条生成的记录器出现NumPy int64 JSON序列化异常。原日志及异常状态保留；已只读核验并恢复其已有物理数据，不重跑任何轨迹。按原指令对物理探针单独允许的一次实现修复，修正索引序列化；本次修复及预检/探针预算勘误详见协议追加说明和`probe_logging_repair.json`。
+两阶段实现修复及记录器异常的恢复、NumPy RNG续跑差异见协议与原日志。探针数据均不用于下游训练。现仅完成下游方案冻结：每方向50条额外成功示范、最多100次尝试；唯一BC-Transformer配置、seed7、48000更新/768000 anchors、固定验证选模。
 
-探针总上限仍为10条、门槛仍为至少6条成功且两任务生成/重放均至少一次成功。剩余ID将在修复代码重新冻结后继续。所有探针轨迹不用于下游训练；无MimicGen下游策略成功率可报告。原1280＋160条实验未重跑。
+截至本提交：额外训练数据尚未生成、下游optimizer更新0、正式评测0。没有MimicGen下游成功率可填写。原1280＋160条物理实验未重跑。
 
-协议：[MIMICGEN_BASELINE_PROTOCOL.md](MIMICGEN_BASELINE_PROTOCOL.md)。实时状态：[status.json](../results/strong_baselines/mimicgen/status.json)。原始文件根：`/home/users/lemon/mimicgen-baseline-20261112/`。
+协议：[MIMICGEN_BASELINE_PROTOCOL.md](MIMICGEN_BASELINE_PROTOCOL.md)。状态：[status.json](../results/strong_baselines/mimicgen/status.json)。原始文件根：`/home/users/lemon/mimicgen-baseline-20261112/`。

@@ -5,11 +5,12 @@
   "instruction_path": "202611121050.md",
   "instruction_sha256": "2478d9b2318cf40a02e54ba8bef2f29248d8e74cea54273325a82b09972660d1",
   "server_root": "/home/users/lemon/mimicgen-baseline-20261112",
-  "phase": "REPAIR_COMPLETE_AWAITING_FROZEN_RESUME",
+  "phase": "DOWNSTREAM_FROZEN_NOT_STARTED",
   "completed_stages": [
     "repository_clean_and_environment_checked",
     "zero_simulation_source_and_interface_audit",
-    "source_preparation"
+    "source_preparation",
+    "probe_complete"
   ],
   "input_sha256": {
     "/home/users/lemon/CodexProject/tempcross/results/baselines/analysis.json": "392c7adaad8ac356cc50622e3ab929e2c862aea96a791f299b9f18dd9db7b673",
@@ -22,20 +23,26 @@
   "generated_episode_ids": [
     "pnp_counter_to_sink-gen-000",
     "pnp_counter_to_sink-gen-001",
-    "pnp_counter_to_sink-gen-002"
+    "pnp_counter_to_sink-gen-002",
+    "pnp_sink_to_counter-gen-000",
+    "pnp_sink_to_counter-gen-001"
   ],
   "successful_generation_episode_ids": [
     "pnp_counter_to_sink-gen-000",
-    "pnp_counter_to_sink-gen-001"
+    "pnp_counter_to_sink-gen-001",
+    "pnp_sink_to_counter-gen-000",
+    "pnp_sink_to_counter-gen-001"
   ],
   "replay_success_episode_ids": [
     "pnp_counter_to_sink-replay-000",
-    "pnp_counter_to_sink-replay-001"
+    "pnp_counter_to_sink-replay-001",
+    "pnp_sink_to_counter-replay-000",
+    "pnp_sink_to_counter-replay-001"
   ],
   "evaluated_episode_ids": [],
   "checkpoints": [],
-  "actual_generation_attempts": 3,
-  "actual_new_physical_rollouts": 5,
+  "actual_generation_attempts": 5,
+  "actual_new_physical_rollouts": 10,
   "actual_optimizer_updates": 0,
   "old_rollouts_rerun": 0,
   "repair_attempts": [
@@ -65,7 +72,10 @@
   "auto_resume_claimed": false,
   "replayed_episode_ids": [
     "pnp_counter_to_sink-replay-000",
-    "pnp_counter_to_sink-replay-001"
+    "pnp_counter_to_sink-replay-001",
+    "pnp_counter_to_sink-replay-002",
+    "pnp_sink_to_counter-replay-000",
+    "pnp_sink_to_counter-replay-001"
   ],
   "traceback": "Traceback (most recent call last):\n  File \"/home/users/lemon/CodexProject/tempcross/results/strong_baselines/mimicgen/probe.py\", line 240, in <module>\n    main()\n  File \"/home/users/lemon/CodexProject/tempcross/results/strong_baselines/mimicgen/probe.py\", line 212, in main\n    generated=run_episode(env,task,condition,'MIMICGEN_GENERATION',key,generator,interface)\n  File \"/home/users/lemon/CodexProject/tempcross/results/strong_baselines/mimicgen/probe.py\", line 156, in run_episode\n    f.attrs['source_demo_indices']=json.dumps(upstream_result['src_demo_inds'])\n  File \"/home/users/lemon/miniconda3/envs/skillcompose/lib/python3.10/json/__init__.py\", line 231, in dumps\n    return _default_encoder.encode(obj)\n  File \"/home/users/lemon/miniconda3/envs/skillcompose/lib/python3.10/json/encoder.py\", line 199, in encode\n    chunks = self.iterencode(o, _one_shot=True)\n  File \"/home/users/lemon/miniconda3/envs/skillcompose/lib/python3.10/json/encoder.py\", line 257, in iterencode\n    return _iterencode(o, 0)\n  File \"/home/users/lemon/miniconda3/envs/skillcompose/lib/python3.10/json/encoder.py\", line 179, in default\n    raise TypeError(f'Object of type {o.__class__.__name__} '\nTypeError: Object of type int64 is not JSON serializable\n",
   "reproduction_command": "/home/users/lemon/coft-p2/barx/.venv/bin/python /home/users/lemon/CodexProject/tempcross/results/strong_baselines/mimicgen/probe.py",
@@ -73,5 +83,7 @@
   "recovered_episode_ids": [
     "pnp_counter_to_sink-gen-002"
   ],
-  "previous_technical_error": "TypeError('Object of type int64 is not JSON serializable')"
+  "previous_technical_error": "TypeError('Object of type int64 is not JSON serializable')",
+  "training_status_path": "/home/users/lemon/mimicgen-baseline-20261112/downstream/training/status.json",
+  "downstream_protocol_path": "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/mimicgen/downstream_protocol.json"
 }

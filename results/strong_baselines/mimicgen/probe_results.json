@@ -1,0 +1,371 @@
+{
+  "status": "PASS",
+  "physical_rollouts": 10,
+  "successes": 8,
+  "records": [
+    {
+      "status": "COMPLETE",
+      "id": "pnp_counter_to_sink-gen-000",
+      "role": "MIMICGEN_GENERATION",
+      "task": "pnp_counter_to_sink",
+      "condition": 0,
+      "condition_id": "53beb94b5265a6a5",
+      "success": true,
+      "steps": 337,
+      "trajectory": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_counter_to_sink-gen-000/trajectory.hdf5",
+      "video": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_counter_to_sink-gen-000/video.mp4",
+      "telemetry": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_counter_to_sink-gen-000/telemetry/episode-000.h5",
+      "contact_log": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_counter_to_sink-gen-000/telemetry/episode-000.jsonl",
+      "artifacts": [
+        {
+          "path": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_counter_to_sink-gen-000/trajectory.hdf5",
+          "bytes": 12534038,
+          "sha256": "81c9b883ef47cc6bb11c2e3b6edbcee3d9c73f4f0cf55e3a20290ccf973dd36c"
+        },
+        {
+          "path": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_counter_to_sink-gen-000/video.mp4",
+          "bytes": 827585,
+          "sha256": "6284289539ccd7ddd661a330cb46dcb723aa82c3b59524188139ca37a90ef2f8"
+        },
+        {
+          "path": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_counter_to_sink-gen-000/telemetry/episode-000.h5",
+          "bytes": 1113262,
+          "sha256": "0b5190b1ddf53f73806b6b0592db1284385fe314b3ebe95415a9946f856b02f3"
+        },
+        {
+          "path": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_counter_to_sink-gen-000/telemetry/episode-000.jsonl",
+          "bytes": 1592534,
+          "sha256": "c1912241470da9e7c428048b7de3efb42008aa9a9521d886d506881c308114af"
+        }
+      ]
+    },
+    {
+      "status": "COMPLETE",
+      "id": "pnp_counter_to_sink-replay-000",
+      "role": "ACTION_REPLAY",
+      "task": "pnp_counter_to_sink",
+      "condition": 0,
+      "condition_id": "53beb94b5265a6a5",
+      "success": true,
+      "steps": 337,
+      "trajectory": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_counter_to_sink-replay-000/trajectory.hdf5",
+      "video": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_counter_to_sink-replay-000/video.mp4",
+      "telemetry": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_counter_to_sink-replay-000/telemetry/episode-000.h5",
+      "contact_log": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_counter_to_sink-replay-000/telemetry/episode-000.jsonl",
+      "artifacts": [
+        {
+          "path": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_counter_to_sink-replay-000/trajectory.hdf5",
+          "bytes": 12534038,
+          "sha256": "4cf9026fd21f196d9021b030d1cb3865debd2942444598781fc0dbd166517eed"
+        },
+        {
+          "path": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_counter_to_sink-replay-000/video.mp4",
+          "bytes": 827585,
+          "sha256": "6284289539ccd7ddd661a330cb46dcb723aa82c3b59524188139ca37a90ef2f8"
+        },
+        {
+          "path": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_counter_to_sink-replay-000/telemetry/episode-000.h5",
+          "bytes": 1122780,
+          "sha256": "4ddd86f09e56d86cc7d583022e5986e69be67787c485772b76c63083d92ecdfa"
+        },
+        {
+          "path": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_counter_to_sink-replay-000/telemetry/episode-000.jsonl",
+          "bytes": 1592534,
+          "sha256": "c1912241470da9e7c428048b7de3efb42008aa9a9521d886d506881c308114af"
+        }
+      ]
+    },
+    {
+      "status": "COMPLETE",
+      "id": "pnp_counter_to_sink-gen-001",
+      "role": "MIMICGEN_GENERATION",
+      "task": "pnp_counter_to_sink",
+      "condition": 1,
+      "condition_id": "6b445f47a914f45a",
+      "success": true,
+      "steps": 377,
+      "trajectory": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_counter_to_sink-gen-001/trajectory.hdf5",
+      "video": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_counter_to_sink-gen-001/video.mp4",
+      "telemetry": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_counter_to_sink-gen-001/telemetry/episode-000.h5",
+      "contact_log": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_counter_to_sink-gen-001/telemetry/episode-000.jsonl",
+      "artifacts": [
+        {
+          "path": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_counter_to_sink-gen-001/trajectory.hdf5",
+          "bytes": 10736854,
+          "sha256": "5195cf7cc37297916262483694c3001b33748d7f2572183182f247551d0f22f4"
+        },
+        {
+          "path": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_counter_to_sink-gen-001/video.mp4",
+          "bytes": 795188,
+          "sha256": "98b66e412f4da7b32f29eeceee9c011d99dfd97702eb6639555ce9c1e236981c"
+        },
+        {
+          "path": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_counter_to_sink-gen-001/telemetry/episode-000.h5",
+          "bytes": 1193365,
+          "sha256": "12853920ab78d3d6312d5aaadf3eccbc035fbb334556ff329b4196fff84cc735"
+        },
+        {
+          "path": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_counter_to_sink-gen-001/telemetry/episode-000.jsonl",
+          "bytes": 896483,
+          "sha256": "5f1b547846fe5272a9fd88b42528debad0c286b2223840db63bf733b7326735b"
+        }
+      ]
+    },
+    {
+      "status": "COMPLETE",
+      "id": "pnp_counter_to_sink-replay-001",
+      "role": "ACTION_REPLAY",
+      "task": "pnp_counter_to_sink",
+      "condition": 1,
+      "condition_id": "6b445f47a914f45a",
+      "success": true,
+      "steps": 377,
+      "trajectory": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_counter_to_sink-replay-001/trajectory.hdf5",
+      "video": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_counter_to_sink-replay-001/video.mp4",
+      "telemetry": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_counter_to_sink-replay-001/telemetry/episode-000.h5",
+      "contact_log": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_counter_to_sink-replay-001/telemetry/episode-000.jsonl",
+      "artifacts": [
+        {
+          "path": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_counter_to_sink-replay-001/trajectory.hdf5",
+          "bytes": 10736854,
+          "sha256": "df616c44718614e3e08573cc5663114247b33d7875426636e58dc85a6f14b4b0"
+        },
+        {
+          "path": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_counter_to_sink-replay-001/video.mp4",
+          "bytes": 795188,
+          "sha256": "98b66e412f4da7b32f29eeceee9c011d99dfd97702eb6639555ce9c1e236981c"
+        },
+        {
+          "path": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_counter_to_sink-replay-001/telemetry/episode-000.h5",
+          "bytes": 1201295,
+          "sha256": "64f047482ee23c4dae8a021fcf6251a502b081d101f088902bceec094e02e4af"
+        },
+        {
+          "path": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_counter_to_sink-replay-001/telemetry/episode-000.jsonl",
+          "bytes": 896483,
+          "sha256": "5f1b547846fe5272a9fd88b42528debad0c286b2223840db63bf733b7326735b"
+        }
+      ]
+    },
+    {
+      "status": "COMPLETE",
+      "id": "pnp_counter_to_sink-gen-002",
+      "role": "MIMICGEN_GENERATION",
+      "task": "pnp_counter_to_sink",
+      "condition": 2,
+      "condition_id": "81e214827819439e",
+      "success": false,
+      "steps": 403,
+      "trajectory": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_counter_to_sink-gen-002/trajectory.hdf5",
+      "video": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_counter_to_sink-gen-002/video.mp4",
+      "telemetry": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_counter_to_sink-gen-002/telemetry/episode-000.h5",
+      "contact_log": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_counter_to_sink-gen-002/telemetry/episode-000.jsonl",
+      "recovered_after_logging_error": true,
+      "source_demo_indices_available": false,
+      "source_demo_indices_unavailable_reason": "Failed JSON serialization; not inferred after process exit",
+      "artifacts": [
+        {
+          "path": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_counter_to_sink-gen-002/trajectory.hdf5",
+          "bytes": 16900500,
+          "sha256": "1b3497c1e6be3378c2d8f2a6ecb14f6430dd14a59bd24faa34a07d7df3a6b18d"
+        },
+        {
+          "path": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_counter_to_sink-gen-002/video.mp4",
+          "bytes": 1151353,
+          "sha256": "d3b3e7b20b5b33a0fd3ff446346697633a5a95b80db17f89f9460aa027fa9663"
+        },
+        {
+          "path": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_counter_to_sink-gen-002/telemetry/episode-000.h5",
+          "bytes": 1269764,
+          "sha256": "4b7122f449fae81cbabca07a9d1231f88638e53fa1eed921702670d8f6d6aa0f"
+        },
+        {
+          "path": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_counter_to_sink-gen-002/telemetry/episode-000.jsonl",
+          "bytes": 1089193,
+          "sha256": "464dadb385fc33169b279eb8ea67112f6a71db16fff2e30df573715c5d657517"
+        }
+      ]
+    },
+    {
+      "status": "COMPLETE",
+      "id": "pnp_counter_to_sink-replay-002",
+      "role": "ACTION_REPLAY",
+      "task": "pnp_counter_to_sink",
+      "condition": 2,
+      "condition_id": "81e214827819439e",
+      "success": false,
+      "steps": 403,
+      "trajectory": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_counter_to_sink-replay-002/trajectory.hdf5",
+      "video": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_counter_to_sink-replay-002/video.mp4",
+      "telemetry": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_counter_to_sink-replay-002/telemetry/episode-000.h5",
+      "contact_log": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_counter_to_sink-replay-002/telemetry/episode-000.jsonl",
+      "artifacts": [
+        {
+          "path": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_counter_to_sink-replay-002/trajectory.hdf5",
+          "bytes": 16900500,
+          "sha256": "972e4499e2700fe9daf8c7984960e41ed391474f182d2fd0ca3b6a4c243d9131"
+        },
+        {
+          "path": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_counter_to_sink-replay-002/video.mp4",
+          "bytes": 1151353,
+          "sha256": "d3b3e7b20b5b33a0fd3ff446346697633a5a95b80db17f89f9460aa027fa9663"
+        },
+        {
+          "path": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_counter_to_sink-replay-002/telemetry/episode-000.h5",
+          "bytes": 1268563,
+          "sha256": "de0c5bcaebfaf001284b637ae5299558b7cc4b11bd5ab1d0f786c0b2e615f8eb"
+        },
+        {
+          "path": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_counter_to_sink-replay-002/telemetry/episode-000.jsonl",
+          "bytes": 1089193,
+          "sha256": "464dadb385fc33169b279eb8ea67112f6a71db16fff2e30df573715c5d657517"
+        }
+      ]
+    },
+    {
+      "status": "COMPLETE",
+      "id": "pnp_sink_to_counter-gen-000",
+      "role": "MIMICGEN_GENERATION",
+      "task": "pnp_sink_to_counter",
+      "condition": 0,
+      "condition_id": "e8eacfff7a4460be",
+      "success": true,
+      "steps": 487,
+      "trajectory": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_sink_to_counter-gen-000/trajectory.hdf5",
+      "video": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_sink_to_counter-gen-000/video.mp4",
+      "telemetry": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_sink_to_counter-gen-000/telemetry/episode-000.h5",
+      "contact_log": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_sink_to_counter-gen-000/telemetry/episode-000.jsonl",
+      "artifacts": [
+        {
+          "path": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_sink_to_counter-gen-000/trajectory.hdf5",
+          "bytes": 16091117,
+          "sha256": "bb5dae99f591e73e2be7bc75ec59a442fd0fbaf28f87de4e1900aa6857cc1f45"
+        },
+        {
+          "path": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_sink_to_counter-gen-000/video.mp4",
+          "bytes": 1375511,
+          "sha256": "5bb1ad6c3f830f7c1c76052c9c8578a769a6eeec4398f80d9372f19e164b85ee"
+        },
+        {
+          "path": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_sink_to_counter-gen-000/telemetry/episode-000.h5",
+          "bytes": 1564192,
+          "sha256": "0c14ba90f614c17c8bbe2d688525f1b1a2934db9f3490f7668d764c2546c41e2"
+        },
+        {
+          "path": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_sink_to_counter-gen-000/telemetry/episode-000.jsonl",
+          "bytes": 2564920,
+          "sha256": "3f9490a23df67f6de58f83857537fb2e0013de9ea64585b74c92acab4cff6558"
+        }
+      ]
+    },
+    {
+      "status": "COMPLETE",
+      "id": "pnp_sink_to_counter-replay-000",
+      "role": "ACTION_REPLAY",
+      "task": "pnp_sink_to_counter",
+      "condition": 0,
+      "condition_id": "e8eacfff7a4460be",
+      "success": true,
+      "steps": 487,
+      "trajectory": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_sink_to_counter-replay-000/trajectory.hdf5",
+      "video": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_sink_to_counter-replay-000/video.mp4",
+      "telemetry": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_sink_to_counter-replay-000/telemetry/episode-000.h5",
+      "contact_log": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_sink_to_counter-replay-000/telemetry/episode-000.jsonl",
+      "artifacts": [
+        {
+          "path": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_sink_to_counter-replay-000/trajectory.hdf5",
+          "bytes": 16091117,
+          "sha256": "6f32c7527bb1e47361035220ccac5f864764b2e53047677072f9a485b9f0b627"
+        },
+        {
+          "path": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_sink_to_counter-replay-000/video.mp4",
+          "bytes": 1375511,
+          "sha256": "5bb1ad6c3f830f7c1c76052c9c8578a769a6eeec4398f80d9372f19e164b85ee"
+        },
+        {
+          "path": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_sink_to_counter-replay-000/telemetry/episode-000.h5",
+          "bytes": 1587800,
+          "sha256": "4f976fc2b5778c445bf59169ebe72bceb1526b572345e3ec3bfb9514b46864d5"
+        },
+        {
+          "path": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_sink_to_counter-replay-000/telemetry/episode-000.jsonl",
+          "bytes": 2564920,
+          "sha256": "3f9490a23df67f6de58f83857537fb2e0013de9ea64585b74c92acab4cff6558"
+        }
+      ]
+    },
+    {
+      "status": "COMPLETE",
+      "id": "pnp_sink_to_counter-gen-001",
+      "role": "MIMICGEN_GENERATION",
+      "task": "pnp_sink_to_counter",
+      "condition": 1,
+      "condition_id": "f11cc9f760f28329",
+      "success": true,
+      "steps": 417,
+      "trajectory": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_sink_to_counter-gen-001/trajectory.hdf5",
+      "video": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_sink_to_counter-gen-001/video.mp4",
+      "telemetry": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_sink_to_counter-gen-001/telemetry/episode-000.h5",
+      "contact_log": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_sink_to_counter-gen-001/telemetry/episode-000.jsonl",
+      "artifacts": [
+        {
+          "path": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_sink_to_counter-gen-001/trajectory.hdf5",
+          "bytes": 15099344,
+          "sha256": "6df1099346eafe5328833471e4762fa3ac2bf0645f3fbc8071d31f30ac823070"
+        },
+        {
+          "path": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_sink_to_counter-gen-001/video.mp4",
+          "bytes": 1340516,
+          "sha256": "140ae6a8fbd95f6e44ff04c396b0555d9a6c20646068a35c12ffc25297fecc42"
+        },
+        {
+          "path": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_sink_to_counter-gen-001/telemetry/episode-000.h5",
+          "bytes": 1315117,
+          "sha256": "12d26a60da7bc6281d462e7bcd3c0ba67e2e7728edba3057c80ee9d072b8a60a"
+        },
+        {
+          "path": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_sink_to_counter-gen-001/telemetry/episode-000.jsonl",
+          "bytes": 2301867,
+          "sha256": "19729b92129e027e9dd8c2efe434a47e3500313f4ff58f59b0f7bf61a2606726"
+        }
+      ]
+    },
+    {
+      "status": "COMPLETE",
+      "id": "pnp_sink_to_counter-replay-001",
+      "role": "ACTION_REPLAY",
+      "task": "pnp_sink_to_counter",
+      "condition": 1,
+      "condition_id": "f11cc9f760f28329",
+      "success": true,
+      "steps": 417,
+      "trajectory": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_sink_to_counter-replay-001/trajectory.hdf5",
+      "video": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_sink_to_counter-replay-001/video.mp4",
+      "telemetry": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_sink_to_counter-replay-001/telemetry/episode-000.h5",
+      "contact_log": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_sink_to_counter-replay-001/telemetry/episode-000.jsonl",
+      "artifacts": [
+        {
+          "path": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_sink_to_counter-replay-001/trajectory.hdf5",
+          "bytes": 15099344,
+          "sha256": "514a46e297e665076ee3f67811f69d78f7e15a571cdf90841a4a1d5ec30ac441"
+        },
+        {
+          "path": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_sink_to_counter-replay-001/video.mp4",
+          "bytes": 1340516,
+          "sha256": "140ae6a8fbd95f6e44ff04c396b0555d9a6c20646068a35c12ffc25297fecc42"
+        },
+        {
+          "path": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_sink_to_counter-replay-001/telemetry/episode-000.h5",
+          "bytes": 1309752,
+          "sha256": "d3a049cef0cf79c5393af090853815e558b5dcbd55a6b9dcfb50b987b45bdd23"
+        },
+        {
+          "path": "/home/users/lemon/mimicgen-baseline-20261112/probe/pnp_sink_to_counter-replay-001/telemetry/episode-000.jsonl",
+          "bytes": 2301867,
+          "sha256": "19729b92129e027e9dd8c2efe434a47e3500313f4ff58f59b0f7bf61a2606726"
+        }
+      ]
+    }
+  ],
+  "new_training_updates": 0
+}
