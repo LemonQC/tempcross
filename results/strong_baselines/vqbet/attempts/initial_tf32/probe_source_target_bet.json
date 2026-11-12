@@ -1,0 +1,23 @@
+{
+  "status": "COMPLETE",
+  "group": "source_target",
+  "stage": "bet",
+  "role": "DISCARDED_PROBE",
+  "actual_stage_updates": 1,
+  "actual_optimizer_calls": 2,
+  "started_utc": "2026-11-12T17:17:27.407218+00:00",
+  "target_anchor_exposures": 16,
+  "source_anchor_exposures": 16,
+  "best": null,
+  "validation_history": [],
+  "saved_elapsed_seconds": 0.5097260428592563,
+  "vqvae_checkpoint": "/home/users/lemon/strong-baselines-20261112/vqbet/probe/source_target/vqvae/latest.pt",
+  "vqvae_checkpoint_sha256": "8a6705a6cc3ad4bd3db970da15eb195d5a3c02aa62d307b96cba280a982c1403",
+  "elapsed_seconds": 0.5097260428592563,
+  "peak_gpu_allocated_bytes": 158864896,
+  "peak_gpu_reserved_bytes": 180355072,
+  "changed_parameter_tensors": 94,
+  "server_status": "/home/users/lemon/strong-baselines-20261112/vqbet/probe/source_target/bet/status.json",
+  "checkpoint": "/home/users/lemon/strong-baselines-20261112/vqbet/probe/source_target/bet/latest.pt",
+  "checkpoint_sha256": "5bd114042c7ae3068b5e763ff2082942c39089a40729c80f542f1079270ffc00"
+}

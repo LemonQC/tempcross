@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "tests_passed": 4,
+  "command": "STRONG_BASELINE_RUN_ROOT=/home/users/lemon/strong-baselines-20261112/vqbet_input_repair_01 /home/users/lemon/coft-p2/barx/.venv/bin/python -m pytest -q results/strong_baselines/vqbet/test_data.py",
+  "log": "/home/users/lemon/strong-baselines-20261112/vqbet_input_repair_01/vqbet-tests.log",
+  "test_code_sha256": "5816135734eaa71c5b03309bc02cc68a7b8d986bf003f537aa3983cd801a1a15",
+  "new_optimizer_updates": 0,
+  "new_physics_steps": 0,
+  "utc": "2026-11-12T17:25:51.047141+00:00"
+}

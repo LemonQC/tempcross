@@ -7,7 +7,7 @@
 | 方法 | 状态 | 已验证训练更新（不含探针） | 已验收正式物理评测 | 成功率 | 当前证据 |
 |---|---|---:|---:|---|---|
 | act | COMPLETE_FAITHFUL_PORT | 48000 | 160 | 分设置见下表 | [状态](../results/strong_baselines/act/status.json) |
-| vqbet | NOT_RUN | 0 | 0 | N/A | [状态](../results/strong_baselines/vqbet/status.json) |
+| vqbet | PARTIAL | 0 | 0 | N/A | [状态](../results/strong_baselines/vqbet/status.json) |
 | mimicgen_v2 | NOT_RUN | 0 | 0 | N/A | [状态](../results/strong_baselines/mimicgen_v2/status.json) |
 | kite | NOT_RUN | 0 | 0 | N/A | [状态](../results/strong_baselines/kite/status.json) |
 | crosszero | NOT_RUN | 0 | 0 | N/A | [状态](../results/strong_baselines/crosszero/status.json) |
@@ -37,12 +37,12 @@
 | 方法 | 本轮源具身 | 部署观测（冻结协议） | Panda训练示范/任务 | 协议 |
 |---|---|---|---|---|
 | act | ["ur5e"] | ["128x128 RGB", "frozen CLIP instruction embedding"] | 45 | [冻结协议](../results/strong_baselines/act/protocol.json) |
-| vqbet | 尚未核对 | 尚未核对 | N/A | NOT_RUN |
+| vqbet | ["ur5e"] | ["128x128 RGB, resized nearest to224 for native frozen ResNet18", "frozen CLIP-L instruction768, learned prefix projection"] | 45 | [冻结协议](../results/strong_baselines/vqbet/protocol.json) |
 | mimicgen_v2 | 尚未核对 | 尚未核对 | N/A | NOT_RUN |
 | kite | 尚未核对 | 尚未核对 | N/A | NOT_RUN |
 | crosszero | 尚未核对 | 尚未核对 | N/A | NOT_RUN |
 | object_flow | 尚未核对 | 尚未核对 | N/A | NOT_RUN |
 
-旧BC/DP源池包含IIWA、Kinova3和UR5e。新增ACT依本轮UR5e/Panda设置仅取UR5e的600条源示范，保留原有身份划分；旧结果不重训、不覆盖，也不把跨源池比较称为等数据预算比较。BARX预训练/适配及MimicGen生成监督的来源仍以各自原协议为准。
+旧BC/DP源池包含IIWA、Kinova3和UR5e。新增ACT及VQ-BeT依本轮UR5e/Panda设置仅取UR5e的600条源示范，保留原有身份划分；旧结果不重训、不覆盖，也不把跨源池比较称为等数据预算比较。BARX预训练/适配及MimicGen生成监督的来源仍以各自原协议为准。
 
-ACT唯一一次decoder输出修复及原版24000更新尝试另列归档，不能用原版训练量替代修复版的训练完成量。不同方法的技术尝试、探针和正式评测成本分别记账。
+ACT唯一一次decoder输出修复及原版24000更新尝试另列归档。VQ-BeT唯一一次TF32精度修复发生在正式训练前，原四次组件探针更新和四条smoke保留，修复版独立目录重新验收。不能用原技术尝试替代修复版训练完成量；技术尝试、探针和正式评测成本分别记账。

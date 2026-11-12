@@ -1,0 +1,21 @@
+{
+  "status": "COMPLETE",
+  "group": "target_only",
+  "stage": "vqvae",
+  "role": "DISCARDED_PROBE",
+  "actual_stage_updates": 1,
+  "actual_optimizer_calls": 1,
+  "started_utc": "2026-11-12T17:24:36.574706+00:00",
+  "target_anchor_exposures": 64,
+  "source_anchor_exposures": 0,
+  "best": null,
+  "validation_history": [],
+  "saved_elapsed_seconds": 0.2370882509276271,
+  "elapsed_seconds": 0.2370882509276271,
+  "peak_gpu_allocated_bytes": 20781056,
+  "peak_gpu_reserved_bytes": 25165824,
+  "changed_parameter_tensors": 6,
+  "server_status": "/home/users/lemon/strong-baselines-20261112/vqbet_input_repair_01/vqbet/probe/target_only/vqvae/status.json",
+  "checkpoint": "/home/users/lemon/strong-baselines-20261112/vqbet_input_repair_01/vqbet/probe/target_only/vqvae/latest.pt",
+  "checkpoint_sha256": "5d7516ace8263b0db1c9fdbc821396183c07fbebac94d51c5432b6424702d9ac"
+}

@@ -1,0 +1,89 @@
+{
+  "status": "COMPLETE",
+  "group": "source_target",
+  "stage": "bet",
+  "role": "DISCARDED_PROBE",
+  "actual_stage_updates": 1,
+  "actual_optimizer_calls": 2,
+  "started_utc": "2026-11-12T17:26:20.914163+00:00",
+  "target_anchor_exposures": 16,
+  "source_anchor_exposures": 16,
+  "best": null,
+  "validation_history": [],
+  "saved_elapsed_seconds": 0.5077912700362504,
+  "vqvae_checkpoint": "/home/users/lemon/strong-baselines-20261112/vqbet_input_repair_01/vqbet/probe/source_target/vqvae/latest.pt",
+  "vqvae_checkpoint_sha256": "1b46fc67b61951d4423ea9607e6160fd414fc072fa7669393ea6e0ab8122a0c5",
+  "actual_optimizer_groups": {
+    "optimizer1": [
+      {
+        "lr": 5.5e-05,
+        "weight_decay": 0.0002,
+        "betas": [
+          0.9,
+          0.999
+        ],
+        "parameter_tensors": 26,
+        "parameter_elements": 1190400
+      },
+      {
+        "lr": 5.5e-05,
+        "weight_decay": 0.0,
+        "betas": [
+          0.9,
+          0.999
+        ],
+        "parameter_tensors": 52,
+        "parameter_elements": 13320
+      },
+      {
+        "lr": 5.5e-05,
+        "weight_decay": 0.01,
+        "betas": [
+          0.9,
+          0.999
+        ],
+        "parameter_tensors": 6,
+        "parameter_elements": 1345568
+      },
+      {
+        "lr": 5.5e-05,
+        "weight_decay": 0.01,
+        "betas": [
+          0.9,
+          0.999
+        ],
+        "parameter_tensors": 2,
+        "parameter_elements": 525312
+      },
+      {
+        "lr": 5.5e-05,
+        "weight_decay": 0.01,
+        "betas": [
+          0.9,
+          0.999
+        ],
+        "parameter_tensors": 2,
+        "parameter_elements": 787456
+      }
+    ],
+    "optimizer2": [
+      {
+        "lr": 5.5e-05,
+        "weight_decay": 0.0002,
+        "betas": [
+          0.9,
+          0.999
+        ],
+        "parameter_tensors": 6,
+        "parameter_elements": 1542368
+      }
+    ]
+  },
+  "elapsed_seconds": 0.5077912700362504,
+  "peak_gpu_allocated_bytes": 158864896,
+  "peak_gpu_reserved_bytes": 180355072,
+  "changed_parameter_tensors": 94,
+  "server_status": "/home/users/lemon/strong-baselines-20261112/vqbet_input_repair_01/vqbet/probe/source_target/bet/status.json",
+  "checkpoint": "/home/users/lemon/strong-baselines-20261112/vqbet_input_repair_01/vqbet/probe/source_target/bet/latest.pt",
+  "checkpoint_sha256": "eed3990ab1a0cd48bca2521089b024ebfa6d9bd4e103eb2223b746645cf7c623"
+}

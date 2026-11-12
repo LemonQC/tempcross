@@ -1,0 +1,3992 @@
+[
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/bet_source.npy",
+    "bytes": 3072128,
+    "sha256": "4aa2b72249ede0a8a12896ca90780e591287b792cc872c7742b2ae27e324c219"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/bet_target.npy",
+    "bytes": 3072128,
+    "sha256": "599154dcb07f1d88e73d9932fc0c7f9c81496917e923c32ed75f701adba1cc8b"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/complete.json",
+    "bytes": 107020,
+    "sha256": "56b251f1931c764ba988106a47fff23a15050842a53f2cdf2417216323f309a6"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0000.npy",
+    "bytes": 831616,
+    "sha256": "6be6b68fd639daad24bb0d19f0924f223112d7ab1b7ed2a4aceeb520ad38b862"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0001.npy",
+    "bytes": 759936,
+    "sha256": "f5a883bb54196ebfcc75ad298a22251f0b38a45fdce19bb880c058a4701c9d40"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0002.npy",
+    "bytes": 819328,
+    "sha256": "7f6ffa5b43b34b44e5efc48f8b2f871d8a277b4c5cd168767b66df85bc3dd577"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0003.npy",
+    "bytes": 784512,
+    "sha256": "53b4d51db15a268a4b0db5a46f6956168934e8b578da3f591c7108d3ec44fb77"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0004.npy",
+    "bytes": 790656,
+    "sha256": "9eacab7a5e396d7d918960d897f673102b33e35abb15f98bb62fe90f499a9a98"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0005.npy",
+    "bytes": 768128,
+    "sha256": "8415ddb75da455f540bc5bdeea19d41d0bed93fdbfb74aed161f2533ff61a2dc"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0006.npy",
+    "bytes": 710784,
+    "sha256": "b0e5343feb4b0bd2468b90a059134f08fae3abda55879cbf14d2d319761d01d8"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0007.npy",
+    "bytes": 729216,
+    "sha256": "68c5eb9ee11b1832705d317c28cf3b5904b4f91131268dad02fe08bcc23bd9ea"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0008.npy",
+    "bytes": 886912,
+    "sha256": "ef151703e4f763830cfb29254675ebe0bc62e1468b118e74484b89c75c9a4e04"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0009.npy",
+    "bytes": 802944,
+    "sha256": "65e180a1507217c21dcc4d716d20245298b39ed9488041b81cf381a5ae25d623"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0010.npy",
+    "bytes": 843904,
+    "sha256": "48a3b073a96eda93939a3270cd07a4b58da86ba3bb7e94a9314a9c1ea6323031"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0011.npy",
+    "bytes": 917632,
+    "sha256": "ef74775a13e7573b2d84c403c430cd2487a7a6bb1a56d873f848aec3073f4fa9"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0012.npy",
+    "bytes": 753792,
+    "sha256": "6a09553c2a45eb76ef7f5c811b1f523dcc8472301df15add40971cc3142bea3b"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0013.npy",
+    "bytes": 739456,
+    "sha256": "7d3747eb44cefef5d3d4c1b01ab6b79d5c1870eb76ce85685d6231028f5b620d"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0014.npy",
+    "bytes": 747648,
+    "sha256": "25f5d3d6f2dc84c66d4f7a0eaa7c3b55342aefececdf09935ffe5d937a0c405e"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0015.npy",
+    "bytes": 876672,
+    "sha256": "8a22cd04afc97a299810443d8de21c706bdecf4cd0ac851495a325890e2b4498"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0016.npy",
+    "bytes": 909440,
+    "sha256": "0115a865c43617e8ff5e7c4a3108d1e46f114c3ddc05a349cbde5185bfcb85ee"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0017.npy",
+    "bytes": 780416,
+    "sha256": "5e3da48c6ade6b0be9e06c933e7cc9326a31d22aefafaf0c0db682c41307a0d5"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0018.npy",
+    "bytes": 946304,
+    "sha256": "12bc385105eb58797424209ea7d0ac5b71606b2acc481328521a445977537973"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0019.npy",
+    "bytes": 702592,
+    "sha256": "40cbf82607f55bf56fda81715e28eaa50021a4cbfd1ea77f421674c75c8d924c"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0020.npy",
+    "bytes": 690304,
+    "sha256": "bfd357664262e2689939abc018121da5f431de3197acd767ea5e2e4871a58800"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0021.npy",
+    "bytes": 837760,
+    "sha256": "2e47fca0453abdc138a442cae57e3ecccc17d560a7101b9a0767619ecde541e2"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0022.npy",
+    "bytes": 675968,
+    "sha256": "43511cf1bd6a8ee2bb0642eb9482404df59350b782e828a1bfc13cbcc62dcb0b"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0023.npy",
+    "bytes": 876672,
+    "sha256": "eaf3ce9fcf0c2e3f9e0f2dc60fe342f23eda7660b8ba51e62fb7b992255050ff"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0024.npy",
+    "bytes": 751744,
+    "sha256": "9daad9ae2f7630010f08b1bbbe22392bb648aca2334d15ab569476306d6bb167"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0025.npy",
+    "bytes": 770176,
+    "sha256": "895dfe5b43cbf3ff8c7347bc576f5bb629111619926dff3f948935913cc49f81"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0026.npy",
+    "bytes": 905344,
+    "sha256": "6852cb52c11ae60d0aaac21421546d5ea30c99d285c36289a4cfe34b922dca79"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0027.npy",
+    "bytes": 620672,
+    "sha256": "d61d4d971c3fc5d3c94e67dfb969226ad1a2bd81dc7dc81980f60b74493ce866"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0028.npy",
+    "bytes": 813184,
+    "sha256": "8501f7070509b7662ce7408d67917adb73044d27eb7b9a22e5dd4a9965ba778d"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0029.npy",
+    "bytes": 778368,
+    "sha256": "d62f5fdf71d0809d25cd5bcfb8530d1c1ab415817589c16e464071b9bd27b8e6"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0030.npy",
+    "bytes": 741504,
+    "sha256": "173e25411f2a10c86a8d7477a089d2d114e502c436fe7e0129725804704f466e"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0031.npy",
+    "bytes": 923776,
+    "sha256": "eb7707c4232275619ca0fac08531ecc63b80df6a592a68b4a8c7d162f00bb5ad"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0032.npy",
+    "bytes": 698496,
+    "sha256": "a1cc0615bfac37d1f83196d081566af8d0286edc773e329125a13db682236473"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0033.npy",
+    "bytes": 657536,
+    "sha256": "64a4037bc398b20fac2e8b904841a4c25333d2eee3f113a325c32beb9d496560"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0034.npy",
+    "bytes": 815232,
+    "sha256": "a8b54e51d186b74d09a443eb7bf0d6b3257bd799815483e2bacbddbc0cb23896"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0035.npy",
+    "bytes": 641152,
+    "sha256": "4cc9263c34d45f16e212bae9e48f8654f6d8be46e82b99cbde69bda0b8e90144"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0036.npy",
+    "bytes": 755840,
+    "sha256": "1cddf32906a97315d66678c8070f30ea53885cda146a51e9b695e817a1a08c69"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0037.npy",
+    "bytes": 581760,
+    "sha256": "93cfc921a598ac81843d89442344d73ddcdad1c73d50250fe92d52f268b9b02e"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0038.npy",
+    "bytes": 800896,
+    "sha256": "df963729f163a7b5f19d8302f8d6b25dc20fe668ca2fe14752e05629baadab48"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0039.npy",
+    "bytes": 817280,
+    "sha256": "225bbf33b37984facb278333f0c79b6599849f0a569d91cd73c022c48d05eefa"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0040.npy",
+    "bytes": 686208,
+    "sha256": "809e12ba92e5a20a19914eeb643f19ad6e8f6fd5ac44ba322e163a5b4186e955"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0041.npy",
+    "bytes": 745600,
+    "sha256": "abc2ffd7e4d2265ef8b708302ca1f890e47561c1d4da686c5c63b6fdc6664220"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0042.npy",
+    "bytes": 813184,
+    "sha256": "fe92a790857dd91ce93e768d99645da098cdfe149bddf3968d8a90a9c0421206"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0043.npy",
+    "bytes": 761984,
+    "sha256": "135051bb96aa2312784496b88aa078194d247e9c99fed04bdf2174739453c79b"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0044.npy",
+    "bytes": 737408,
+    "sha256": "ec4a4c6550c7c42c318e4247128e6fc8903c8ccf8b23eb2932c1fbbe65d16757"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0045.npy",
+    "bytes": 792704,
+    "sha256": "00ec4ed57bf93692aca78b4b7d8bfc292efae3e9653799543fbae97ea1f11d1c"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0046.npy",
+    "bytes": 573568,
+    "sha256": "ba8bf5d90c39d7934ae5d41fe8703db8ffed823836cd368f8cbc7eaabf1724d7"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0047.npy",
+    "bytes": 946304,
+    "sha256": "0f9092e7a635e2eed14300f29edfa0bc7f0f498968a17128d62bc190f6755e4c"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0048.npy",
+    "bytes": 780416,
+    "sha256": "c359c24f9773e76e02ebf31070ddd1d22f2880d84113fc734cd8c4786754ccc7"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0049.npy",
+    "bytes": 757888,
+    "sha256": "fac8761b47005d3e4e7ac5ad810f366c64ff13724bd8fec1d6f08b8c30849678"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0050.npy",
+    "bytes": 903296,
+    "sha256": "f4d776d0839d3bef401ae0e7890c3addcacf95631f1cec84eecfaa0a607515a7"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0051.npy",
+    "bytes": 2164864,
+    "sha256": "a97b670cce58ae5944729708902422a096e2dd38580d3fbc9a517b63ec4f1ac6"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0052.npy",
+    "bytes": 964736,
+    "sha256": "b9b8f7094d04a3f0880f34ea6050ddaaf02d64461f979846b1c46aa6094eecc5"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0053.npy",
+    "bytes": 895104,
+    "sha256": "320efe7ba19c5f0e446593de453e2b44ce11cbc94201c3aec2a839bc4d0a6424"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0054.npy",
+    "bytes": 753792,
+    "sha256": "ce9006e0c5a467b638af433f3ef50be134aed62a35d4b3c9ac5a44648de7e7b8"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0055.npy",
+    "bytes": 999552,
+    "sha256": "59c9107b44e2726f4d5dcb0ddaa71b227b00c464c7cb54a54acb29a948376163"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0056.npy",
+    "bytes": 692352,
+    "sha256": "d0019997452d979ec4f1f5908cd860706cbd209c7f14d7e8eea93d5c56872700"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0057.npy",
+    "bytes": 790656,
+    "sha256": "b05f1d73ad7398c73cbcbcbdbac32e5bb5ebab7fb21563ab38b39bb8a9de0291"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0058.npy",
+    "bytes": 950400,
+    "sha256": "b888365feefbf98244cbb605c9a3d0ac683a7a86b870db5c47d5a00cfb5ee35c"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0059.npy",
+    "bytes": 923776,
+    "sha256": "c6e170d4c37bca59d233485e0b29fec14c083064d753a027403b09d309bb4be1"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0060.npy",
+    "bytes": 888960,
+    "sha256": "dc7b3256e8a93d39183632442576cb13704cf1a04dd15d4d95bff377a8447d42"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0061.npy",
+    "bytes": 1038464,
+    "sha256": "e9e107a89b7035a56bf32c3200b777ea916fbe9447c86a0a430e1b4e99dc9b55"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0062.npy",
+    "bytes": 944256,
+    "sha256": "fab4b498b5ed7e0f89a532577b79a1d7663d2cd1822c700bccf893fbca62c357"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0063.npy",
+    "bytes": 946304,
+    "sha256": "78f6abc7115628443c25f3b1aa6e719f415a15c2553ce35caebf61901977c744"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0064.npy",
+    "bytes": 903296,
+    "sha256": "ea39127f4569e52a60b6bed2fefef130d07b7ba584a732fdeda08eea91f1ebff"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0065.npy",
+    "bytes": 737408,
+    "sha256": "475efe8ac6d8c0cab3a21d475567c3d13552bec6327c5367e491d606b4644d2f"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0066.npy",
+    "bytes": 680064,
+    "sha256": "ebb114c9472236bac9e3fc907f97d6acf451f075e28d9b09947dfabf34469095"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0067.npy",
+    "bytes": 872576,
+    "sha256": "8326d92eba9057543dd60910a85f05d8526a6c1857a19dc2acd2870aa947d06c"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0068.npy",
+    "bytes": 766080,
+    "sha256": "26bf253f0cf59f1e43aa5cd4925841c7536480ad5adefe5d90516f3e3df22379"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0069.npy",
+    "bytes": 759936,
+    "sha256": "fdc5a4c4f7e7ed0355314db8a3b3fba185d843098a795625da0286be87164714"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0070.npy",
+    "bytes": 772224,
+    "sha256": "a36cd19ce1e8c15787a338567e399e14206063e6d4b941b08bcc69abe868721c"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0071.npy",
+    "bytes": 751744,
+    "sha256": "12ef094adaf6054aafca69a965135d0d64c02047c587c3e0c3cd71567eaae0b6"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0072.npy",
+    "bytes": 884864,
+    "sha256": "701dcf23342c6294c2d599b038e45deb15cbb2a8ba5835f4167fdd58bdd9cd04"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0073.npy",
+    "bytes": 901248,
+    "sha256": "9119fb4d28968414c2789bcabaab5429348cdd738deed4561dc5e21e647f11cc"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0074.npy",
+    "bytes": 653440,
+    "sha256": "946c707ee0cf8a83b682d76eed0e074e5693f4a6afb0e9e59584aaa935e7cfd0"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0075.npy",
+    "bytes": 850048,
+    "sha256": "1324695a0f6b9a581ff62dae9e7d1472746559b38d9ac7007325fce48d84b293"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0076.npy",
+    "bytes": 868480,
+    "sha256": "c2bdf5f1deca93b31df44ba4dcd2e19ec918004c93619c7c5beaddd7e9f2748f"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0077.npy",
+    "bytes": 864384,
+    "sha256": "ebf71008e57227fcb232c3033647c8584b64ce8d5181e19697a4cabfd16a3d6a"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0078.npy",
+    "bytes": 839808,
+    "sha256": "5c3101d47ce9bc11f9e74fc9ef82a03281ef833c815dcee3e8f657470bc98012"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0079.npy",
+    "bytes": 772224,
+    "sha256": "d28a5f54f73a6e321646d7e51dba0307d3f2288d6c270d332cc96d781a8d274c"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0080.npy",
+    "bytes": 983168,
+    "sha256": "c849e2b90a7c4fd2fc90b96c1f0022bf46fa56708ebb35a3d3d48171e4f2cd0d"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0081.npy",
+    "bytes": 1153152,
+    "sha256": "0df19f81b8fa05181b8ea547d7fc6eaf494007462ce68c5baddc96ccb8552b0b"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0082.npy",
+    "bytes": 1101952,
+    "sha256": "963bd3da5c4115cbb9c8e0945f24a088f3e5330327384db03de6d16a1a02b058"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0083.npy",
+    "bytes": 757888,
+    "sha256": "785e288a0e9f783b1b11a0a930aeba8f5da9253f370cb63912fadc7c2898380d"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0084.npy",
+    "bytes": 956544,
+    "sha256": "5c7f1294e81128c70838af79adb03771969e09bbbfb86b7173eabbb1d3ae9c3c"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0085.npy",
+    "bytes": 936064,
+    "sha256": "0bc926c84d21de70f539281f43b8b07fdcfd4f76c33ceb8ec4a09a00517cecce"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0086.npy",
+    "bytes": 974976,
+    "sha256": "a1709865d61e8663402fb3c727a96850433c982c7bcbc51a967e0d5c306d7dd7"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0087.npy",
+    "bytes": 833664,
+    "sha256": "c60b746ae7bdb815c738fa880dc1c9b3ea904cbbc39f75133c720d3e74a9678c"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0088.npy",
+    "bytes": 843904,
+    "sha256": "0c0dc73bf952a3df51522923a3c6dbeafa75965f968e646e2301803b332f0129"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0089.npy",
+    "bytes": 888960,
+    "sha256": "fb09ee6acc704c4a3d471ed78ce7f045e5e3c5f7f8dc4c35e3354f617b4ae95d"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0090.npy",
+    "bytes": 1069184,
+    "sha256": "24f6f152c0a015a2c895bbcac4e4372ea407b7d132cb62451548f0e13a00cc95"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0091.npy",
+    "bytes": 696448,
+    "sha256": "16ebb30e75b374cb72229efe190f4870c7fed4145e3d43f004ca0b39bd14a29e"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0092.npy",
+    "bytes": 977024,
+    "sha256": "362ced7e7560ac54aca19512edbdab7855b1e5351615236d29507783fc42bae8"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0093.npy",
+    "bytes": 1050752,
+    "sha256": "100db5d536f2bef0d750fffbcdfbaa025d8a42d7d9515928346eb135b6f7e122"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0094.npy",
+    "bytes": 643200,
+    "sha256": "0c181f566870c85e4eab6f434a689ad6e7bcd802b6a97f90e79e1a45b99cbb42"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0095.npy",
+    "bytes": 839808,
+    "sha256": "b152774cab3820022bb95863c35efe2b3ac7c78fa4b8f2164271162b8d2b590c"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0096.npy",
+    "bytes": 848000,
+    "sha256": "271ea38c280e62efef266080249f05e0046aa5749cd26bf957fd6ab88940a9f0"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0097.npy",
+    "bytes": 839808,
+    "sha256": "1c6b1cb9853dc1a5ad09cbb1973c81fe42dd301940aeaa8601ccf72c8f8adcbf"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0098.npy",
+    "bytes": 960640,
+    "sha256": "86bf776beea6d2c5d9790b9d37b2bf960426a3fc2a74e8d95bcc2d6b538db051"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0099.npy",
+    "bytes": 1173632,
+    "sha256": "1f64d95629784ce2e9ddb2dfb79cfcaa9a378786eba1b3d8a738edc28bf80635"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0100.npy",
+    "bytes": 735360,
+    "sha256": "29994e3518ef56e9e73a9799b71a588dbf434d41ddec21b9dc9efa67ffb5f115"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0101.npy",
+    "bytes": 854144,
+    "sha256": "6bab765a068faf8b01a92df2c728fbec765528738eaebf61263c9257556361c3"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0102.npy",
+    "bytes": 1316992,
+    "sha256": "d3d963158d4c76312aaf9d579fff3897ab2ecc66f3d0785a8cb49c65d1c11c5b"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0103.npy",
+    "bytes": 1083520,
+    "sha256": "572ad5e4bcc2037dfa2f0eb77491d69c4af9d8b4230b5176718d6b868d9443b7"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0104.npy",
+    "bytes": 977024,
+    "sha256": "389802d41cd24d4f9b178379c895185d2e66ba0dd46b7dd51f51d2e669bc5761"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0105.npy",
+    "bytes": 1101952,
+    "sha256": "cc357b4724fc3a18b0daa96dd1fd1f0fa6502b3c1a4c689c529a8f7cca08ece0"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0106.npy",
+    "bytes": 827520,
+    "sha256": "4a875c75d21d873a42ce77701b01627a971a987177381a49f00c05fae0b1e5c4"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0107.npy",
+    "bytes": 1251456,
+    "sha256": "87ae201000d7137aafd4b81ac6f08aa48a612bdd2ce9b30729b0e0cb83de5be6"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0108.npy",
+    "bytes": 964736,
+    "sha256": "3b4f3ceb5830f887236bd3f04942f9b684b3b1e93da3d1403ec62125957264ac"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0109.npy",
+    "bytes": 735360,
+    "sha256": "3d33e7f181c09b4d51563153594e58d76226bf482d6312edab98fea615df11bd"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0110.npy",
+    "bytes": 729216,
+    "sha256": "8ec8fe45595408217556c3ea63c669e5f42f6f067e47a0d38b4060a113d502d8"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0111.npy",
+    "bytes": 665728,
+    "sha256": "7d5c7a5eab39686a8dde4492db8d4ff9c7182c62f9563e3ba924d6be7b162f99"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0112.npy",
+    "bytes": 983168,
+    "sha256": "e675d1197b372b07e2b49a777b2b032de2be3afa9957c1723db69e80ed85ee6a"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0113.npy",
+    "bytes": 741504,
+    "sha256": "a33d3d114c6369506df1016a8c96793f256376ec1fad282b8ed223a872dda905"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0114.npy",
+    "bytes": 784512,
+    "sha256": "5c58d95294b490c87d4bb729d5a7a7f6424bfb5ff7d5caeb26edfc5073fde52f"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0115.npy",
+    "bytes": 919680,
+    "sha256": "500098cbb857bb6e0955d490de4260c73f1ea515326bc649c4fea495d4036c29"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0116.npy",
+    "bytes": 1050752,
+    "sha256": "50e3a35c4026ec4365e2fb8c597dcdf05e30215ca46b5667b5fe93ed935dbe29"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0117.npy",
+    "bytes": 794752,
+    "sha256": "f9194f216be8045724543e88e63a709b5e9a4c999574661884b12b0c2b8c14dd"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0118.npy",
+    "bytes": 833664,
+    "sha256": "a9f7f57fd9471eb1953a06c3d644f30aa892526a64a22aa4b99a1ef4223f9341"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0119.npy",
+    "bytes": 1177728,
+    "sha256": "5c584f74eb74351857ab90d1dd3f6f30b22e2a718d50690d9a2267a5e292e632"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0120.npy",
+    "bytes": 1056896,
+    "sha256": "ead8121f8af1411c6005d806a6eec71a853f7eb27e4706d9c2f5557aa9bf5504"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0121.npy",
+    "bytes": 796800,
+    "sha256": "156d3e757ac20d24f2c0671b3e33132df56260058eddb9bddc43b357fccb5289"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0122.npy",
+    "bytes": 956544,
+    "sha256": "2dda9c9df4b1c8977230ffd0f653ba82c10cd65258ca8eb10f292ecd6f7cb98b"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0123.npy",
+    "bytes": 792704,
+    "sha256": "ebc1add0475baff8203e47fd9b16cbec2df7c691572e98211f7c0204c1bcdc23"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0124.npy",
+    "bytes": 860288,
+    "sha256": "290213c9bdd71368f19d4b7f5566c952c01bd2e0972cfeaf041cfed97952b9aa"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0125.npy",
+    "bytes": 680064,
+    "sha256": "4a3cc670aeed68942bd23ad6f1f08b7ecc982cd18cb77ba370542fdf0c8da013"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0126.npy",
+    "bytes": 956544,
+    "sha256": "7b80a10abe167db1fae50c4a2b1390555f3f8706a59fb1131ad3220e88225e8d"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0127.npy",
+    "bytes": 798848,
+    "sha256": "3ed41134832dbe6d9e5ca40d5d459b2c9617226a13ffb30c5f8a90c97069b276"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0128.npy",
+    "bytes": 1011840,
+    "sha256": "084f570ccfb523405795ea0c5352b802bd2be9d55b17cd120127c3e8a1d4bc26"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0129.npy",
+    "bytes": 882816,
+    "sha256": "f9d939e7cd944150034e6f7f9b8b0047c0d24b0b7560a1e8fefcf34be02b068b"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0130.npy",
+    "bytes": 729216,
+    "sha256": "7582373c623cfbdf011b68e81d16bb453759b8cadf238f7f115db23a420001d3"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0131.npy",
+    "bytes": 766080,
+    "sha256": "ef6788a3ba88c06a6fe0d829243568fdc72fb6e420f0158f95679baea8a2661d"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0132.npy",
+    "bytes": 1120384,
+    "sha256": "401942e192a06215a24631597192ed19ca15ee31528ec5a5e29aad10a081c02d"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0133.npy",
+    "bytes": 833664,
+    "sha256": "a6811be804bd8181a5886315425da3455e7c6802dadc8a9306671166fd9abb4a"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0134.npy",
+    "bytes": 680064,
+    "sha256": "d6143625febfcf084ff83c338de8c172d045980d9fffebbfa396a4e31a0de4f4"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0135.npy",
+    "bytes": 600192,
+    "sha256": "9c6836eace583b4dc8abefaf14e7de4622d5591f5a6926a1aa348069dffc49a8"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0136.npy",
+    "bytes": 1013888,
+    "sha256": "ffbc1a5a638a841c52abfa0f422f67bffafa145007416a8977d1d3cdc87d9a64"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0137.npy",
+    "bytes": 1104000,
+    "sha256": "7c3ed606f8a191b8217a827713cda41fc446618aada448a5c724499d1e979412"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0138.npy",
+    "bytes": 702592,
+    "sha256": "69f053b96a57c9a29a570f85417df8b742647833fd32c3a6ebd83558438c9ebe"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0139.npy",
+    "bytes": 1104000,
+    "sha256": "34d28e496609dba9503f94bf0c7a7102679b98170c36b731f9c37eafb26a221a"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0140.npy",
+    "bytes": 1290368,
+    "sha256": "d77b3b5bfaff3a2738c75e3109b9d6992bfe69250423ed2f1acde43155257f17"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0141.npy",
+    "bytes": 991360,
+    "sha256": "13c87e420ab871e90fb63b785c087df9c4a96bf573be84feb7e948d9b78ce89d"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0142.npy",
+    "bytes": 888960,
+    "sha256": "52535952d236ae44cc60c7afa590956060277d1a813c0b6c73cd6e2ac462af1c"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0143.npy",
+    "bytes": 1247360,
+    "sha256": "dbb9a1e39a62dd6785a5d1d5b40f79a149f4eb7c893eee33eeddb8abdf2659fa"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0144.npy",
+    "bytes": 800896,
+    "sha256": "38a46e1b2e2cfea9b7bf0f7aa61a4c6e1e34b6a5f0c40b3191b53cdec268f83e"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0145.npy",
+    "bytes": 835712,
+    "sha256": "81bf3e57615b6e64def464f61d011548a6c83c81063686106c5318238fb6761c"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0146.npy",
+    "bytes": 821376,
+    "sha256": "98438925e18242efd8528616b837f88b00125f4c23258475851f031be8cac491"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0147.npy",
+    "bytes": 1386624,
+    "sha256": "83ce9f25d74c727cae3e8e7ed50814a6ede43cca7bba99d8b6bef9b9c58779ef"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0148.npy",
+    "bytes": 1077376,
+    "sha256": "3d794a8d338ca3d45c9f7b007bc4a6473c9cbfd3941fba775247c2df8b2d64a2"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0149.npy",
+    "bytes": 901248,
+    "sha256": "efdbd07e0ca4afaf88bf14595575bceb7cf12d3bfcdf39f46f9e477a0d259703"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0150.npy",
+    "bytes": 1312896,
+    "sha256": "6e86605573e2c38aa6cd326c718fbe0b269fd1e5668ff2cd1ff066c6c095f815"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0151.npy",
+    "bytes": 1069184,
+    "sha256": "dd053f72405c6c1c3754212ab548b6e97f08977e1b10f03673ea734232e17484"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0152.npy",
+    "bytes": 809088,
+    "sha256": "562924ee7a670391d815ed3cb99eb9cc80d1cd59a428f02378e14a2d10769a47"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0153.npy",
+    "bytes": 948352,
+    "sha256": "2a6aa8f110fca241b21deba5ca4a27c2e91e1c0288022b3cd217d789705a2866"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0154.npy",
+    "bytes": 766080,
+    "sha256": "eb61ad034330a63e11eb86df198664298c5f960bbb64edbe89783a8483533e93"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0155.npy",
+    "bytes": 845952,
+    "sha256": "8888c09e07e133dd32c2c4eff14ede7efa565c1c0df2b3a918201a51dcf7a167"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0156.npy",
+    "bytes": 870528,
+    "sha256": "2e40bd7e6c8178899513f8d0ee5a545703aa4c4a855714607d30a6dea05dcad8"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0157.npy",
+    "bytes": 1001600,
+    "sha256": "ce3b07ce014a8b1857001bc4aa005ea88908d1d4adcd69f71b8c167200207fda"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0158.npy",
+    "bytes": 731264,
+    "sha256": "dbcb997ce1f711670a5c219ee51baf42abed5482bdfeb9e827e9af69da3da3ff"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0159.npy",
+    "bytes": 751744,
+    "sha256": "0fe25309804cd919fbc85ed8e6e4dd481d57da2379ba0bab354adbb1f0b11fe2"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0160.npy",
+    "bytes": 825472,
+    "sha256": "afc463f30ab688451bc103bd9718883e22805a7627668baefe2a25af3dbb140b"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0161.npy",
+    "bytes": 960640,
+    "sha256": "3ca8b750e8e9ccfc3513567594c48167bc47582490a58c77b9405160a15c8c31"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0162.npy",
+    "bytes": 800896,
+    "sha256": "8f87959e595c6209d3a8419d32dba7201a2273a4896e9ee88f1785813ebf8997"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0163.npy",
+    "bytes": 845952,
+    "sha256": "1d79b418526edceedeaea45e6f570d042e9362b788b1a77ced9434fa7333440f"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0164.npy",
+    "bytes": 766080,
+    "sha256": "7b5b4e9afc33074580cf03f154d90c2829da4f4aa08a06c0ce61c6f85198af2a"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0165.npy",
+    "bytes": 972928,
+    "sha256": "d91a7700fbb48584db4938b6732352f820a5d841993cecbb0125498cddcebe32"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0166.npy",
+    "bytes": 979072,
+    "sha256": "305c589df5306ce64b87da08cfad8a0da216ca8b8382db97ef779b22f0bb8e3c"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0167.npy",
+    "bytes": 1286272,
+    "sha256": "deb20345319c73c2d47899ee1cf208fd155e2190d26a242d402d116d3644e289"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0168.npy",
+    "bytes": 800896,
+    "sha256": "68ab4c5c4dcd1bd7cf863e72cb4c3d4042946ddd2fd1ee10b9de58f6913c3567"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0169.npy",
+    "bytes": 823424,
+    "sha256": "8c7dd5aedca29b1e4f598c82f40123bece10343af5326bf184f5a15f4b5fff7b"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0170.npy",
+    "bytes": 1278080,
+    "sha256": "ad5499eaaaf0e727bb204ccc90533599de352401c7dae97cef5407b6af473ef1"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0171.npy",
+    "bytes": 997504,
+    "sha256": "5853b95d22422d0dadd354e2f01b5ecf2e6e40103b1fd3d683d4cfa85d3faeea"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0172.npy",
+    "bytes": 1147008,
+    "sha256": "5f985df48306baddd88bc4180d35949a5176811891550478ef7e07f18b40d925"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0173.npy",
+    "bytes": 925824,
+    "sha256": "9809ba60a063f56dc78e5d093b4885313edabb84cfa79481b5a92b006f3546cd"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0174.npy",
+    "bytes": 884864,
+    "sha256": "f4f7bcbb583483dfcd4cdfa8ae6a460cac52131fcf90ba9cd8984edcafc83aa0"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0175.npy",
+    "bytes": 884864,
+    "sha256": "97e0b450622e99763ebd85ded1a936586fa0222536b1048c05837f92d4ac9b35"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0176.npy",
+    "bytes": 1128576,
+    "sha256": "aaca27d6cd884eab02216379e5fe899a7ea398451283d8dfe4c32b952bbf5793"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0177.npy",
+    "bytes": 776320,
+    "sha256": "ce93614c488639c6d69946e30acd5b727bbee19fb9e429fc6e2b55e7fbfbee32"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0178.npy",
+    "bytes": 815232,
+    "sha256": "4cd2110ce3fe224f218b6d4a1b774833e5bc64c7ee96ce5d906a0239b6077739"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0179.npy",
+    "bytes": 1112192,
+    "sha256": "4287b1f7ebc3f57455f1e94cdfd786d75fe8a1ac394d2fc4ca2540af901d20e9"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0180.npy",
+    "bytes": 745600,
+    "sha256": "5f64fbda3c9e45e9dcedbf78bac77f1e7eb4e3f7e872b3077624fb58e49d10db"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0181.npy",
+    "bytes": 901248,
+    "sha256": "a1af7d2327f4b82bd7ad83105d03fb119133cbc89023ae67cad9a6fed1f41059"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0182.npy",
+    "bytes": 729216,
+    "sha256": "8546d537d443bc78e0449be032b2a471c3ae43a2c28eb69b8928a2d587b74e6b"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0183.npy",
+    "bytes": 827520,
+    "sha256": "980b4ea0dc38284d6c78c3239972fb3c7e0f743ee37ce125f9fb7f6bb9240c7c"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0184.npy",
+    "bytes": 772224,
+    "sha256": "e1f8ad9bbf977382c4f2512c1592f12745bef6ea058c08b45c62974caf90fb4a"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0185.npy",
+    "bytes": 841856,
+    "sha256": "d2de4486801dbc54b8bd37e94893c54827b045eda0f35af30275bf4025dc0999"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0186.npy",
+    "bytes": 737408,
+    "sha256": "91588f6de1a2f7d6a6a6421aa260c931176b9d4aeae8a8a1a3ddef014fe4611b"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0187.npy",
+    "bytes": 800896,
+    "sha256": "d886f9625ec153e9138ab32cfd9ba484be888e2fb388186ceae510e8bbbb4862"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0188.npy",
+    "bytes": 1083520,
+    "sha256": "7920fead51b7c4cc34855aa572261673b0c763570d70fe5c65c10bdff806f078"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0189.npy",
+    "bytes": 839808,
+    "sha256": "ebd4a2060eb29b3814260306dad5b4301e72f4d66213dcdbfe7f139da91d537f"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0190.npy",
+    "bytes": 964736,
+    "sha256": "6461d3176377d4007c26245ae802b7b55fa2d0766f409b68e1fc1f8c2fbbf481"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0191.npy",
+    "bytes": 1142912,
+    "sha256": "2954e0cc949a3f1c991dc9cb6299a030c3f9479fdc7f479f816426e10b6d12ce"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0192.npy",
+    "bytes": 1044608,
+    "sha256": "a50c69f1218a39645ddc550ac2d60a2f1e3cb316c4962f367fd6070f02820e0f"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0193.npy",
+    "bytes": 819328,
+    "sha256": "70a47439c4fc980340bc80eec1ee55b74283d443ed7d0fdf43c4ed40abf871eb"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0194.npy",
+    "bytes": 807040,
+    "sha256": "65486df5503ae3ebf85783cfbea9e82b1894ea6da8beca81efbad603706de802"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0195.npy",
+    "bytes": 927872,
+    "sha256": "42aa893168780eeab96336e45b8f740213dab7dce91401b23bf2c44fcdf70805"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0196.npy",
+    "bytes": 804992,
+    "sha256": "4dce6be3d31499f2ba63fbae5a175faffbe846b5b6ad4e736aaa02330e804000"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0197.npy",
+    "bytes": 1007744,
+    "sha256": "f85d035bc6cd5d7816efd7f2bc5d00fed2166a7e2b702aaae49e1fab6a502ec5"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0198.npy",
+    "bytes": 751744,
+    "sha256": "5767e421dd081477a851803cdfdf59f0fb4306b66b7891a1007c30da970da895"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0199.npy",
+    "bytes": 796800,
+    "sha256": "03e084bbd850f0b8e73d4a3d71c77966af813d475bc4f6d20cffb15c2e25acd2"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0200.npy",
+    "bytes": 772224,
+    "sha256": "d461740df33017f1f01a2c0e19f2d638ec66d7a414becf67aa4cf6fa45d30363"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0201.npy",
+    "bytes": 800896,
+    "sha256": "feec54b3f70a0a7de1f15d53819ea1820678e6ba6991578fdd60ef4e106f138f"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0202.npy",
+    "bytes": 753792,
+    "sha256": "740b1a8ca3635354eb51fbfcbeb956c92c953dd2636ee3b7018156a23e152b86"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0203.npy",
+    "bytes": 940160,
+    "sha256": "f8cdcbf0742a431586ea89a8e8ece25d7acc1541811180ecdbcb1c7daa6be6a3"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0204.npy",
+    "bytes": 761984,
+    "sha256": "e4473807c3271635e499d4dbee338540a014fe0af75efdc3f7b00850e6b55eca"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0205.npy",
+    "bytes": 1077376,
+    "sha256": "e7e77ba61747ef4e825c31f1ce3771ce680123b2f67319e5b77f6cf33e595006"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0206.npy",
+    "bytes": 841856,
+    "sha256": "414e184d0dd266e77974828d84b5e8fad25b16a3baa8960322f39055fe6dd501"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0207.npy",
+    "bytes": 721024,
+    "sha256": "50dc3c20c83ac09ac6d89785700b47e089045091e00d9ce2f881fe7ec8105b20"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0208.npy",
+    "bytes": 915584,
+    "sha256": "7e99d0d456304686bdf3160618dadc085a19c267970da5f620820f6064eb0af3"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0209.npy",
+    "bytes": 979072,
+    "sha256": "0c7d52f62ad907731e7613baacb0902ad7fa9c95bb1e1c6d46da46481ecab995"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0210.npy",
+    "bytes": 829568,
+    "sha256": "7fc8f2f911668035aea2f7444675eb9fc1bc8c4df7f6c17fdde7e2e13b90ad72"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0211.npy",
+    "bytes": 839808,
+    "sha256": "f357bc3acd55c7b12a456810691b8aaf02aae64204ab608bc06ebefba598757b"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0212.npy",
+    "bytes": 862336,
+    "sha256": "bdfdeb61b33c50aff584f05711d3d7b1bba005dea54180551c6aeb1681720c55"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0213.npy",
+    "bytes": 868480,
+    "sha256": "11678e33275252082eaad1a08fe06a88233d65b434043d1c0e4cc7fda5449f81"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0214.npy",
+    "bytes": 739456,
+    "sha256": "b5ae49e7cf680093da1934c7821af37ea47d23854abde168b8e36b2a6dd4e42a"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0215.npy",
+    "bytes": 800896,
+    "sha256": "3ac7fbe26184f1a92a4958f1e0859db8f03d1632eeb3113ffc519c406bf57630"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0216.npy",
+    "bytes": 1075328,
+    "sha256": "e4cbcd57a8630ed68c191d13ee45bd2bc5b9bfd44250216dcc070847361eafd1"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0217.npy",
+    "bytes": 817280,
+    "sha256": "b3fe0b22311e4c2428253b0c7ee2a5f84c5af28d6f7fefad91b749adf99956fd"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0218.npy",
+    "bytes": 983168,
+    "sha256": "3fa016c5a6fa6f67b6eaf86462b1f74b9a4ebf8c389bbe13dc9dd84c73315440"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0219.npy",
+    "bytes": 929920,
+    "sha256": "f13a15ec2e332771a8f681c0b4a22788503e7bfcd347481be26f0f34e265b9d3"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0220.npy",
+    "bytes": 893056,
+    "sha256": "c5cb2bcb59b8397e9240f220db98b47b148fde8623e443174f9fe3f4c3d7b923"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0221.npy",
+    "bytes": 960640,
+    "sha256": "2f3f29a2a2bb3ff563d9fa4982f0cc373cd5608c180f3fa1a5313bde16e720fe"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0222.npy",
+    "bytes": 1038464,
+    "sha256": "98d2406f1b75230ea7f0e429e3d7d7852a44d6e5d0d4908d632d6f8177e4d676"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0223.npy",
+    "bytes": 860288,
+    "sha256": "a4010dd26e1f122c62e91805f8c993a4eafa300777d803897ce29e4bd4a318cf"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0224.npy",
+    "bytes": 897152,
+    "sha256": "949263b7568a11e7223830638444920c1515851e224cbaf9f58dbf517f44d0f0"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0225.npy",
+    "bytes": 1091712,
+    "sha256": "2ea1ea23b29935ae590cdb52f533264158cdd7ab9433d8b6ceccbfb6f3e0b9f3"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0226.npy",
+    "bytes": 931968,
+    "sha256": "1714feabb6270e710d32670f18debdbb7ebab5810e93e7df4a148a0df063b122"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0227.npy",
+    "bytes": 903296,
+    "sha256": "ea279d82e8a909900d1315f413110dfbb435a78e169de4d0cc9fe9e7be784b96"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0228.npy",
+    "bytes": 993408,
+    "sha256": "312cddb920a864ef448cb4ab069a9f8133676b7e46d1995205822a7ab6e67296"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0229.npy",
+    "bytes": 880768,
+    "sha256": "18da8d186f055f3c9074a169143898d9c45193d705258e80d2dd27c29657f81f"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0230.npy",
+    "bytes": 913536,
+    "sha256": "3f216cc5c78868abe27424f306a7e27111d92c80e1e0ca1f57d3fdd6932a64d8"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0231.npy",
+    "bytes": 993408,
+    "sha256": "399ec6eaa3ff03792f0e5684017cbf86fb4a2fe473aa8d0b2b34e381e59897aa"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0232.npy",
+    "bytes": 911488,
+    "sha256": "a9c617d0554a1faf5612c7647817a0252640c061b636cc5bab51039f407db477"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0233.npy",
+    "bytes": 1245312,
+    "sha256": "b8191b8918a604607b194c6595f1eb0b25ae27fbe0f8c0152e66754375edd249"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0234.npy",
+    "bytes": 1085568,
+    "sha256": "c8fc2b9b42ea24e04432c49adfc2f77d055c5c17d8e604afa68ab1166bb134a6"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0235.npy",
+    "bytes": 1181824,
+    "sha256": "0355eb47782b2da7f8e16e0fbda0708269178ce5339afc5d23012820b2d88606"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0236.npy",
+    "bytes": 1048704,
+    "sha256": "9c3c63f404b1b2061e503d52bf27783d523f02ed3dc2b731fccfe809e5ec8d61"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0237.npy",
+    "bytes": 940160,
+    "sha256": "4d9a680f0f35940cf5cd307e363a4a834e753a85a392ed6823f96502e3e769a2"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0238.npy",
+    "bytes": 817280,
+    "sha256": "a9a89ba967829d93defdd619dfc2b88810efd84ef24c262512ac504ceb292d8d"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0239.npy",
+    "bytes": 823424,
+    "sha256": "5d5fe282787fb96b93e0f2f6ec68303ea9ed5e65b05b0217fa0df8b190a3b5ff"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0240.npy",
+    "bytes": 866432,
+    "sha256": "810ba73c99c2de800acd83e7eb0166d9749b96b30f4a454472a9b51c79056d42"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0241.npy",
+    "bytes": 1081472,
+    "sha256": "b67a57a841ab0542971ab8170a2fc522e2349e54cfed76ebfe02d0900036fd27"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0242.npy",
+    "bytes": 1194112,
+    "sha256": "25b7c259170d1fa0e7858686b209fd4c55d6580561d6a7d65cb18ea36da4c493"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0243.npy",
+    "bytes": 825472,
+    "sha256": "d9b43e928d5a96968ce6a892075eb674fa44088e764f1d77d7f55a02555d8d14"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0244.npy",
+    "bytes": 1255552,
+    "sha256": "b40d0a0c4fda96bbf4c2f461d232830a850f8f1d6199b9b73e5688b67c65bc9f"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0245.npy",
+    "bytes": 1015936,
+    "sha256": "e16ccc51d543cefd00c92091dba016a2d7ed6b03dee179308717c8e139ad80d2"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0246.npy",
+    "bytes": 680064,
+    "sha256": "03a8ea06bf5e60484e4e1df385c6de232cbdb076e6ba7c183e12f4455ae59efe"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0247.npy",
+    "bytes": 911488,
+    "sha256": "e5b21535f47c3c3fb98e3aca0b415813ef776abf4f50aa2cc8c02dbf7c268e14"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0248.npy",
+    "bytes": 991360,
+    "sha256": "4e97a19913c98f9d03d3a3885a7dbd28669a874402057f93c13bc79da30c0dee"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0249.npy",
+    "bytes": 850048,
+    "sha256": "77222cbc6af543525a84e0883f2babb5b4bc0199cf3c915c6563e36f9a26ba00"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0250.npy",
+    "bytes": 733312,
+    "sha256": "a93e204caa2fcb0cf1d5c93a4256ad62b0cbb784fa72bdf251ebf59190236757"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0251.npy",
+    "bytes": 723072,
+    "sha256": "db10f2788386c68fbf7a7ae340201b435eb52e2c3e492eef664f47306d9d1e17"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0252.npy",
+    "bytes": 960640,
+    "sha256": "67be65a61d1ad611def8c9ea0ce314521dc82ba1e41ec361826b05c0e0e812fc"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0253.npy",
+    "bytes": 712832,
+    "sha256": "404c0bd62249beb81bbee7d4def97d50be62983c11fe2c6bdca39e2453441ec2"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0254.npy",
+    "bytes": 1144960,
+    "sha256": "88db05a78335c2dfe82e2f47d50ff41c99cd91baf8833e77cb31524a18361bb1"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0255.npy",
+    "bytes": 735360,
+    "sha256": "bfdbce307504ab98342203c21f07a9bb63354204d73524bf6918bd27b9a5c538"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0256.npy",
+    "bytes": 813184,
+    "sha256": "f22d7293835be00ba54dfedfb5b48404075d7caaf3e9357e1f2131960376174a"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0257.npy",
+    "bytes": 854144,
+    "sha256": "8ee27f23ad99ed2a3e410c59df7ed99cd5c31d967fbfa13db65db9e65383d00a"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0258.npy",
+    "bytes": 798848,
+    "sha256": "ea4b77fb7281b0842d64c95d13eae7b2595a6662c6e9141a2b10f2f7c6d8cbdc"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0259.npy",
+    "bytes": 966784,
+    "sha256": "67bc2f526eb312bcea714b033b9be8809ee0c78c8c44bdf25ac0fba8e398ee58"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0260.npy",
+    "bytes": 895104,
+    "sha256": "b2ef091f8156672af042ef2cf1b9aca6e93c36dbdb651f3dbd4bea81792bc567"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0261.npy",
+    "bytes": 798848,
+    "sha256": "f0511069ecde86ff442cfe12ff3aa13f9f84a7b7ee3f402ee96b0e8df6fef8d5"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0262.npy",
+    "bytes": 702592,
+    "sha256": "50e7f65763d761205dc3535afcaefc5d007f7a0b2ef157255fd3941c3caee8a1"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0263.npy",
+    "bytes": 1337472,
+    "sha256": "1b3c31c10482f1af28763ccb17fb896111d811f203a33e842efbedb40501fa99"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0264.npy",
+    "bytes": 940160,
+    "sha256": "4b15bc7e01e0a6ff2725d97c2b8b356e1f7b69aca0dd73158e2ee5973a0253be"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0265.npy",
+    "bytes": 766080,
+    "sha256": "747d9243140e661362f38a976c42038d511086236b4bca2da0eeb5b4ec9d0985"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0266.npy",
+    "bytes": 1454208,
+    "sha256": "68f6b0a414cfa240d40c79d0aeb2c2e2b4b42133445b931597ba6a00edc1534a"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0267.npy",
+    "bytes": 821376,
+    "sha256": "0b19d89fb6a97b483937299abf720f37a0b070510d109d2fffaa2c01ae7dc161"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0268.npy",
+    "bytes": 919680,
+    "sha256": "d1652383d68d510fb3790db37ef304c6d288c173d20acc4aa38d884fe9135330"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0269.npy",
+    "bytes": 862336,
+    "sha256": "120443cc1cc35b8180701fed5e0717895454aded0294fdcd2a3b5525881f3393"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0270.npy",
+    "bytes": 757888,
+    "sha256": "8bacfc6ead29467519a21f17a348b1ce26c0b8797df74405ec83778598045816"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0271.npy",
+    "bytes": 794752,
+    "sha256": "05989ffc0093664dfd8cc35a290dff30b027449797f305aefd51dbe71774d27c"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0272.npy",
+    "bytes": 841856,
+    "sha256": "8076a7e9c0a70ec7d5043d174ca07c4e9020a4754377f03d2c849ad7e9838e54"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0273.npy",
+    "bytes": 1067136,
+    "sha256": "216b09f1aac2b736956148c01d6d4c1b3123b0639689984280e6fcffa63f7418"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0274.npy",
+    "bytes": 1015936,
+    "sha256": "e95b6447c1ac87e41933fc844a9ef8257eb1db11f51817033e5504ab87293745"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0275.npy",
+    "bytes": 796800,
+    "sha256": "0d7a118ac9e1621b340456dc8965e0bcc74fa3dd9ce57a3655a1d7b7de480318"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0276.npy",
+    "bytes": 1144960,
+    "sha256": "45e451ab8b6580a8c18a490a449b7c6b0eaed0c5bb04d4da4ee77d476005bb65"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0277.npy",
+    "bytes": 643200,
+    "sha256": "a1e36f8da3d635782bf5d98524437a62765c1760fc3663823942a9962b6c0a57"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0278.npy",
+    "bytes": 882816,
+    "sha256": "154fcf6d21429020a18bf3e21ff9bce434a71cee90ccbcd63a245c67419b7418"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0279.npy",
+    "bytes": 753792,
+    "sha256": "a8da069718cdff6033cf23fecc82706063cbb9eec0adac1f8c0599c6cd5d6306"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0280.npy",
+    "bytes": 1122432,
+    "sha256": "24543a430d0756d3ab657f09d72ea14777a92d384f7cd79542442f1572c1aa4d"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0281.npy",
+    "bytes": 1038464,
+    "sha256": "e0b2b4258b7c65447f785492f5654a435a33a67e2b027459b9a06d43739652ed"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0282.npy",
+    "bytes": 835712,
+    "sha256": "2a7edf151c5ddf2c948af356ca7ece60eaf32b884d351db3a8b54649db6069e6"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0283.npy",
+    "bytes": 776320,
+    "sha256": "79a43f577c8e3e979bd3f13e7a2d13aa7c07212f86ba4bdbab653ea9b264e146"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0284.npy",
+    "bytes": 1067136,
+    "sha256": "3c904a9cc9023c3116545774a13708a0a995bf337991c9a7cbe848611806c59b"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0285.npy",
+    "bytes": 1394816,
+    "sha256": "e9e0c9cc09c8d3e55cc18fd338550e2454d6328babf246b4a10583f52974911c"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0286.npy",
+    "bytes": 815232,
+    "sha256": "31db0976b2fa09534af4fa61396d584cd790c04fdd8becec855ffa94c25c0438"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0287.npy",
+    "bytes": 936064,
+    "sha256": "201ec3b5d5fb8af3c04431ed1b35e28cf4c5a2a4c8b389bce30801c38b583390"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0288.npy",
+    "bytes": 680064,
+    "sha256": "14d9603d4bb6aae846e25b2f32fe6f07fe9d48dbe294a66286aebe04f24e7da4"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0289.npy",
+    "bytes": 1052800,
+    "sha256": "30261afd0198f3a9dd8eba1498cf65ac4b1b7efbe33117b8ed5ca8c2b5b77d1e"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0290.npy",
+    "bytes": 1183872,
+    "sha256": "7cf03d6b45c27873023b838423976df5d5b68ad2d53c719ceeb2d1a574bfce35"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0291.npy",
+    "bytes": 915584,
+    "sha256": "52c4180d2213231395569ac161e29c2bfac585aabca985b21e0e564b96f95000"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0292.npy",
+    "bytes": 784512,
+    "sha256": "284e88cf0e7c3e51183e0bc7b9f3e3b75b07560e0ec09d37a88c9b6964ad5b73"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0293.npy",
+    "bytes": 809088,
+    "sha256": "3bcc6295d753bb068fd8c23bff1be7eb39fa35eaa3f889b52dc71204f76232e0"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0294.npy",
+    "bytes": 888960,
+    "sha256": "ca6d32ec3ff1d295181be75fe765ce772a51f37458edeb984dd9f43ddcfa345d"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0295.npy",
+    "bytes": 913536,
+    "sha256": "bd105e59e59770bbc2c9f38e8ac2c851aec5600dc1a34a643ce2abb8e3f83600"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0296.npy",
+    "bytes": 895104,
+    "sha256": "bea71616a379dbd1c90782c5751bc998366a329a52cff4682c520ad46e91acf9"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0297.npy",
+    "bytes": 735360,
+    "sha256": "bace6f8f202f5e659b75a958e69e591111777382d9dd4bd943a570d0d3df582a"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0298.npy",
+    "bytes": 1022080,
+    "sha256": "04fe6120f429b4d0686ce1302d3ea271c0df9fb8d38c25429dd92cafeb8dfe3d"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0299.npy",
+    "bytes": 991360,
+    "sha256": "96e0de8476a14e2933eac4cbf0569a1ac9aa93acc5a879e21dc6e38a1effd6bf"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0300.npy",
+    "bytes": 802944,
+    "sha256": "a95c42b12304e969cb1b3656a17b47ba9054c0b73cb178ed93722988d066cbd5"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0301.npy",
+    "bytes": 1007744,
+    "sha256": "604f77dc361153072c5b62cf323291f3abbf2744362e1570b47f2f128506a5bb"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0302.npy",
+    "bytes": 790656,
+    "sha256": "d561a73330fe1ce6a76226049044264c04a3e57222500eb222054f82d1733cb1"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0303.npy",
+    "bytes": 790656,
+    "sha256": "cf17d71b36e1137af9c3e45f602663c3ab9124720fd6a44b52d336207ac51ee5"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0304.npy",
+    "bytes": 718976,
+    "sha256": "5797aa3508c383bc62b135db6cfb45c6ea9ee160eb861024d789068d264c547a"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0305.npy",
+    "bytes": 901248,
+    "sha256": "bdf755471f2e0ca8bc6e1d5c044f2919c2eed5672e71efcddc82281088455ca8"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0306.npy",
+    "bytes": 1194112,
+    "sha256": "7fd74197456f6ab69705c196f15d8c27245850c4973c40a65510c7b9fa3300eb"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0307.npy",
+    "bytes": 936064,
+    "sha256": "1160419a660c007d7357b4ec4b3f1cde3ab318adac325690e0a8cfdac67d8533"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0308.npy",
+    "bytes": 1101952,
+    "sha256": "abe7e5f32918b8666b1f0fdc223f87068b94ded34a1ff479604bbed5414c33a1"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0309.npy",
+    "bytes": 919680,
+    "sha256": "439a28e3928320454aa2ad079f4d777212d22cca47a4dae15c1c6736fcd63a2d"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0310.npy",
+    "bytes": 921728,
+    "sha256": "740e2b7e12269b95ce5c1ab20ab3b0342661d1a8274472a9c184198d05e31e2f"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0311.npy",
+    "bytes": 901248,
+    "sha256": "601fdc5c388822f8945add121a4be2d7bf0287ea13e3a9b56e56b40f3d0fd1a4"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0312.npy",
+    "bytes": 874624,
+    "sha256": "2e7dbb5bc2ffa076fc04e485fc2a1bb8c337ee2c5651cf44045de337baec5d68"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0313.npy",
+    "bytes": 759936,
+    "sha256": "e7440a4bb5c786e953e9763e74b21175b339a2c4bbaeaecebc55435193cc1c9f"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0314.npy",
+    "bytes": 864384,
+    "sha256": "958ace1477525331787cdbb36d1aa4555b9b7a925e643b8137cd6efe1d1993f8"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0315.npy",
+    "bytes": 796800,
+    "sha256": "dc2f0ccf78077f24d4edf84cc8088966eb9a5f0eb0830713d252477da39a7977"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0316.npy",
+    "bytes": 708736,
+    "sha256": "c0d553c852616f5eef32a8ef9a6db6f05289659b9dfb78000a562448a6856d87"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0317.npy",
+    "bytes": 968832,
+    "sha256": "4a72499b811e2db59d1d9afd64fa74483f3cc36f83e6dd9b990aa0d1695ab2a9"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0318.npy",
+    "bytes": 1167488,
+    "sha256": "d3d4df4a1b76cfe9349c43e7b79150ed40cbff30b7dd611dd63035b199b59199"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0319.npy",
+    "bytes": 848000,
+    "sha256": "b1ee20f59f1761c0ab975bb4b46f6a818594906b7e084072cfafe6975ba3f7bd"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0320.npy",
+    "bytes": 893056,
+    "sha256": "6e5ee410b17bf5a27c133163d688c0d87d821f75e344d73ea9c0f6cfb2102a06"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0321.npy",
+    "bytes": 708736,
+    "sha256": "b6836d02324652299e037a13793c97ec15f1de7537752d011d03e173821e027e"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0322.npy",
+    "bytes": 858240,
+    "sha256": "88709435e0625b88cd1241aa9afa07702450a92ed616612e32cda497415a49f2"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0323.npy",
+    "bytes": 792704,
+    "sha256": "129e85da62f8016aab3cbcc5c0ae4beaec1ac1c09a0876f85dcc4fcc8cb7a015"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0324.npy",
+    "bytes": 1142912,
+    "sha256": "329cb553254bb4c3acdf2b7fd916c8adbffa9bc093a4ea734054e6ac3a2c25c9"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0325.npy",
+    "bytes": 868480,
+    "sha256": "1f58eb6382c4269068b56ecb62cd51156dbbb087abc1e6e748fc1816f0883e7e"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0326.npy",
+    "bytes": 968832,
+    "sha256": "da90d972baa5c5e6387d4568b49273d791d7fe608a2f522ec9f92be08ccb38a4"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0327.npy",
+    "bytes": 895104,
+    "sha256": "9f816fec7d2479a9e99b2725b92436ac6da7996e5f71a6a6a0caa81e65d9afc4"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0328.npy",
+    "bytes": 993408,
+    "sha256": "835100b6b72a49e7f299c917d0d0dcfedca1d9775b1d0a0aaeaebc62c1051902"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0329.npy",
+    "bytes": 843904,
+    "sha256": "1c0487b27b68fd90c7b4332445988bcbc42d6d35d7d5fd0b66846c9cb20d281e"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0330.npy",
+    "bytes": 989312,
+    "sha256": "289e95f8a9528b02444048c95270142fddde700d9f5b170af731d89e5d3a5e34"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0331.npy",
+    "bytes": 913536,
+    "sha256": "029513fb40edd95ac2e5875219e19055140bf1af6c1378bcbd7bf160ac1563cd"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0332.npy",
+    "bytes": 743552,
+    "sha256": "8533eb27b6001d9fde000b6457a3ae913f588d34676132c00d87d7042e72cd38"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0333.npy",
+    "bytes": 925824,
+    "sha256": "9f10288c36f8236588fed618dca85f6ce629bf8e5cfeff72af1bcd4d2c3da353"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0334.npy",
+    "bytes": 1093760,
+    "sha256": "1ed1d719c21971d094d3ce5200155d141b55e078f50dd2e22cc46f297e690ab5"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0335.npy",
+    "bytes": 995456,
+    "sha256": "ac65b174e3ce66c5b925eb57ede971d2ac3cdc1b59a6cf67b358b7ca7f93664f"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0336.npy",
+    "bytes": 866432,
+    "sha256": "7cf9b69907229537e54a028b7ea50cfa320ab9adc174610a4844ffd31fba8133"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0337.npy",
+    "bytes": 1159296,
+    "sha256": "3e599e90bbb403e889c5d66d4fe8e601b9e3f34f5eb45ae9101b3324ad29c118"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0338.npy",
+    "bytes": 811136,
+    "sha256": "2538ba3b0383b1685a1061c840cb848182a6417b9252c7e00726a299b16e7f11"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0339.npy",
+    "bytes": 845952,
+    "sha256": "545612d34af263c6b56028ae560d9317b4382bd4b93a35e9e1037d3fcc7caa34"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0340.npy",
+    "bytes": 884864,
+    "sha256": "33f9e69276257e36488fda10cb3124f9ee2359581ec527cd32b38ab4c902cd9f"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0341.npy",
+    "bytes": 819328,
+    "sha256": "f4ad3660e71d380546e69978c9a31172f01f42805d6ba082f70e90452198d4fb"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0342.npy",
+    "bytes": 1058944,
+    "sha256": "77f797aa4bae04cf7d4cd48c4bd6b297065dcccde88b80a47a5b38a1b0335d9d"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0343.npy",
+    "bytes": 753792,
+    "sha256": "3ef2d2335aa86f940f35f97b5b81a83e2b2827ebbd00c6d6c2d07301e24b16ea"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0344.npy",
+    "bytes": 929920,
+    "sha256": "0954f65894f29aa69f4ffef15e34d45b4ecd8c7bddda625e3628e112748d082a"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0345.npy",
+    "bytes": 884864,
+    "sha256": "ffc94c9733273fd5d6d4b450507521968ab0ffb335a62a3696d37f1c7334b09d"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0346.npy",
+    "bytes": 823424,
+    "sha256": "1ac57db1390ddbaa004e8112808bf890d18786e624285d09ccaa57c3d67c5eb5"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0347.npy",
+    "bytes": 757888,
+    "sha256": "7803fbc8a692dc71dd03ff11414d11fe4709923fa974f081cf863573f33e856b"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0348.npy",
+    "bytes": 1042560,
+    "sha256": "9889fff89bbdfb9e04f454c9cd3b120b1d45fcf46de16d6319642fc55fcd56cb"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0349.npy",
+    "bytes": 1091712,
+    "sha256": "3c46f5dae0684161636ad6011346cf3225190456b3fb542ee4405789c86b0e2a"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0350.npy",
+    "bytes": 993408,
+    "sha256": "584ac59e9484910315732c3a8522006fc1ac73ba4a964665543937e64e259f62"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0351.npy",
+    "bytes": 874624,
+    "sha256": "9693093ef2c6050b890a58c99199272d262c61cd4a849c4690a07276ba85cf08"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0352.npy",
+    "bytes": 1030272,
+    "sha256": "7d8a358b6a53b66cf325359368ab9c277ce4b9cad8d041682e2cbcdf0f9a7c34"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0353.npy",
+    "bytes": 1173632,
+    "sha256": "dcd8b93ce9c5a50322d074f3d7cf787189145a2eec0f08b4284a98a6baf7f807"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0354.npy",
+    "bytes": 759936,
+    "sha256": "c17e9ea2bc1814dad07231de8729454a291a51becf9ed5c7e87f7fc74a793491"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0355.npy",
+    "bytes": 1206400,
+    "sha256": "4483c46493d6f2107a01b00a197263e178d9d84be8c6230864293ff41ab8712d"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0356.npy",
+    "bytes": 819328,
+    "sha256": "59eea3bf51dfb02028b80c9830f31f3b9342b1925abdc67b40d4ff4266c8625f"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0357.npy",
+    "bytes": 772224,
+    "sha256": "af5704c3f31fb0060441548920c664d20b32dfea5f52d852b3c650a9acfa1ca9"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0358.npy",
+    "bytes": 1079424,
+    "sha256": "0105fa56e9b63b30de8a112094af68f6506a909cf87016d1e4ed91443a5f63a3"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0359.npy",
+    "bytes": 841856,
+    "sha256": "1308c3d1fe86a0b45541ef155ddaafb70d8f590678b7aa17086150e228554177"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0360.npy",
+    "bytes": 1085568,
+    "sha256": "4f6664c8cee85eb5d5ddd2cd51d2119cdb7e4aed3fc5897677285b68976430b5"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0361.npy",
+    "bytes": 809088,
+    "sha256": "82f3a126f846b52d000614ea66722c68f2e015801d3da66ead74e42306684440"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0362.npy",
+    "bytes": 884864,
+    "sha256": "ae3c04c149bd149a2d45923dafe8a36f2cd07da85f8e6228b74577036c079782"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0363.npy",
+    "bytes": 905344,
+    "sha256": "50f6775309f99f8c271c542cd5d52ff5e479fd51b03fe6d4b8a109e3f2b4cb56"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0364.npy",
+    "bytes": 735360,
+    "sha256": "7c7ab0391926acc424fb765bf35b22600601ed2de17acb88164aa9c831175ca1"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0365.npy",
+    "bytes": 1144960,
+    "sha256": "0af982653bb41382f6d1091d2b91007d38aecc0de846c3b7ca6c510b0b199021"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0366.npy",
+    "bytes": 1116288,
+    "sha256": "df7a2633969915de1c34e9ca87166b7b8513cfc9cbd2d05006cf3e310469368b"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0367.npy",
+    "bytes": 794752,
+    "sha256": "4f730776412d713ef3796b85f99e955998a91a196bac0cbc4fcc95185a03a15c"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0368.npy",
+    "bytes": 712832,
+    "sha256": "91d5e359cfff494d4a436ae0bd6dc996b000c55403949cb8cdb65f5a18538dcc"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0369.npy",
+    "bytes": 839808,
+    "sha256": "49bc99c7eb4163094892a56f974e250ca6e9a567b94d5896399d69fd5812488c"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0370.npy",
+    "bytes": 936064,
+    "sha256": "ecb0cba4cf76a7f2487ec369778d65cda59105055ecc2c34ec532e4d70f52c8b"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0371.npy",
+    "bytes": 911488,
+    "sha256": "afda5d08f6de66198d6ef49f4a24fe8c7dd480ce4e588ff71fdade15621a0534"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0372.npy",
+    "bytes": 936064,
+    "sha256": "fcbf7085b80ba88bafe3bb411c98eaa0d41a4b64328d2945738523d8874916a8"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0373.npy",
+    "bytes": 825472,
+    "sha256": "b07c1a906b838ded85373738421a5ae89cbb2fde9117d5c235e057c9782dc545"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0374.npy",
+    "bytes": 753792,
+    "sha256": "5483ca0909fbb80fa393fb92cacd026f9efebacfc0877dc2283b83b69249712f"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0375.npy",
+    "bytes": 1081472,
+    "sha256": "5f75a4ffd0646a180a8711a5b9b76b8377604bda5ba1b9a93eb7378564e523e7"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0376.npy",
+    "bytes": 669824,
+    "sha256": "cc86e81712c62fc2770af0d423ebf28711ca65da4ed8c72326b4ff70cef9e488"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0377.npy",
+    "bytes": 723072,
+    "sha256": "1a16f37818bc25f544cb171e8995e025e476a38d0310a83a06ebf8e609aa2027"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0378.npy",
+    "bytes": 1079424,
+    "sha256": "8def3aacc689ee61d459f789f31b9eea77ef7247cd2336d06673a92844c4a344"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0379.npy",
+    "bytes": 862336,
+    "sha256": "35e7268cbc2145e9306845c1af718723c3dd59574be590289935540a93763d4c"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0380.npy",
+    "bytes": 716928,
+    "sha256": "f0aab2d2f1ab6a57ce874fd05d2e508cc470d8a16f19fda16ed19075861eca9b"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0381.npy",
+    "bytes": 839808,
+    "sha256": "07bc0cc20e9dbcc2e7c54f7b4f3eb7b0cef906cdc7a745beee47b6eba34195a9"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0382.npy",
+    "bytes": 880768,
+    "sha256": "04c741d469b120ac2c92a22f0e0c874479c23298a3e09e158d3b2b4f3334057b"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0383.npy",
+    "bytes": 1013888,
+    "sha256": "aa89564191e2a34816849d74d8a60d4686f9cb6824894040021932d2bf798b04"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0384.npy",
+    "bytes": 1009792,
+    "sha256": "54f1bfe6d15a6256048da4fc89dd5d6964067a39977cbf9e9f275e2cd18b2b7e"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0385.npy",
+    "bytes": 1138816,
+    "sha256": "e2d8d302f3c5452fbb47f6792ad300e93465b04ff83dfa2ba585ef7a753451bb"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0386.npy",
+    "bytes": 637056,
+    "sha256": "8bf46ccfb5116dc9924c16c93b966bfeb0e23589a40a46d1deeb831522d291e1"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0387.npy",
+    "bytes": 993408,
+    "sha256": "426787afeb49578f211a348f0f1ef5edcc9bfc9d91937d7d890c8d5cda72b4cc"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0388.npy",
+    "bytes": 970880,
+    "sha256": "24b1d66c360c7a6c533c550afc97fd7fe68bcfd787796aba4159ee6aab74d169"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0389.npy",
+    "bytes": 938112,
+    "sha256": "b63fba1d47c63533611706652e83b03550669046e9d94cceb437b531382dbb68"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0390.npy",
+    "bytes": 778368,
+    "sha256": "62c4edd7da51869edea8b403cddb0cfebc4bdff14fcc8ff1e317569cde468027"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0391.npy",
+    "bytes": 897152,
+    "sha256": "e0efe451639f4c481773784ac4ac4908f35b71f392dec221de9c13064b385b12"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0392.npy",
+    "bytes": 780416,
+    "sha256": "1653a84a92c18dcd0c9c581d96d966413ca1760e69b3d6114e36906c63468ef3"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0393.npy",
+    "bytes": 839808,
+    "sha256": "5c5d934b5ffa71576a1bd18ed44100485b51dfe38e54594f81ccdd663f49f82a"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0394.npy",
+    "bytes": 813184,
+    "sha256": "491cb75603e70a2ace5ce1647f855d54071878dfe82eef6e5599eaf5c60bfa77"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0395.npy",
+    "bytes": 952448,
+    "sha256": "df4dedc84e0180499a7a5176d59b577499463fcc20d208e27493170f4062dce3"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0396.npy",
+    "bytes": 925824,
+    "sha256": "64f367df15d651e0692f03962e47b4b1d56592065cee861de43f7e0f614fe927"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0397.npy",
+    "bytes": 1034368,
+    "sha256": "39190df207e0cf535b55329e432ed810c764c5f8280a4b11e17c27b6e2baea85"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0398.npy",
+    "bytes": 893056,
+    "sha256": "c068dffba41b23a20a5d9623cc40201c213a9c2615257259be3089c7cbf6148f"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0399.npy",
+    "bytes": 731264,
+    "sha256": "6947b4f7b538408d44170913f1f6e53c96d804e15ea5377d4fa79e219ca748fd"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0400.npy",
+    "bytes": 807040,
+    "sha256": "a7c362cae0dbb78816881487333ad6f9be9689d5aae03c077ba1433b5d99f56b"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0401.npy",
+    "bytes": 735360,
+    "sha256": "5b11b2444c24d0cc9d0aa89a7a370a22b1f73227e3edfb7c3665a4b23ffdc5e9"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0402.npy",
+    "bytes": 929920,
+    "sha256": "2369668857b9a5ef12f2275b6267b83007aef4c1e5d7b5a0b8fd23e8e3364f60"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0403.npy",
+    "bytes": 1060992,
+    "sha256": "6c2674e7f302a4764548033ad778f0a2f3ecb521ac30fa99aed2a8fa6f222005"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0404.npy",
+    "bytes": 962688,
+    "sha256": "eaa26808c513d36531203120c3dc4fcba67899dc5bd97e665973d30a81cab68f"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0405.npy",
+    "bytes": 755840,
+    "sha256": "d48a244c598a204f60e65c5d0652f7a58d9cb3d6e115cf225bd8ef7fb541d323"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0406.npy",
+    "bytes": 1089664,
+    "sha256": "d050f45777c577498038e6aae8b14e830bfceda51e95608fb1308716bc808492"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0407.npy",
+    "bytes": 598144,
+    "sha256": "cc1d42eb1eb1f531e763cad113e5143335b70417d7a672a69bd06310eede1031"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0408.npy",
+    "bytes": 1013888,
+    "sha256": "30520036dac6027cc361c5010c40ecc13038f13c249f8812043026d87c4221ed"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0409.npy",
+    "bytes": 1009792,
+    "sha256": "fcb9d544e79a93ed0663ee0b3cd5af875dc648c1ba9b176b6b5a444cff2a5bd4"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0410.npy",
+    "bytes": 1042560,
+    "sha256": "dea4325f92201361000fed30f7d439c47276910864d31b2782966bea91ebfbd6"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0411.npy",
+    "bytes": 1087616,
+    "sha256": "6bdfd7c71ad7e3b94ea9c7b60a4c0572f1423918adc8a6e7e50ff04f7754b58f"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0412.npy",
+    "bytes": 944256,
+    "sha256": "05a4577bb4c7029bc30f387394b1bc029a6934e9c4edcec068b2108178e891e2"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0413.npy",
+    "bytes": 880768,
+    "sha256": "a0699f7494eda69e3bc46f8507fc2b41674cb7077927249a822090bbe9105cdb"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0414.npy",
+    "bytes": 804992,
+    "sha256": "6b5bd8288987e7d9919d037ec3215d55ae598df7a20afd55d710ef0a98f29d89"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0415.npy",
+    "bytes": 1005696,
+    "sha256": "81fb9de2a8816fe0c7bcfe23b5bf6bd998dd16915c3b9b77715f7e1f2080ff37"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0416.npy",
+    "bytes": 866432,
+    "sha256": "b35c93b5646a1f3870b9530ccd635caa320dab4a3a88703425596ef25edb0d8e"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0417.npy",
+    "bytes": 931968,
+    "sha256": "3a3f7869368e65516e95c4c81e152b033a7cd972388f73d9bd6294dc0e667e62"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0418.npy",
+    "bytes": 714880,
+    "sha256": "36a63cac22aa6c38cf63129928b9e8ed9179ff18e8aa2dc4d369f3b065dc7d4e"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0419.npy",
+    "bytes": 1130624,
+    "sha256": "775a05a4a10b4740c7c05c9baf5c022f80d6cd6cc67a4543c2bc3f102d9e0d90"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0420.npy",
+    "bytes": 1046656,
+    "sha256": "f6bffb0350220d66d0fdede6b32c04635ac8eb956abb1162ee92e2cbd78e0c39"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0421.npy",
+    "bytes": 804992,
+    "sha256": "8ecd1f4c2a98435b20a7701da4933d42443a0380531e139ff26d5796f527fa17"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0422.npy",
+    "bytes": 688256,
+    "sha256": "80783124625aff45450a7cccccadf7d2d8731e1799930772bb99b617a7defa06"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0423.npy",
+    "bytes": 958592,
+    "sha256": "93010c679ed14eac5bbef81cf463791498356c8269f6709f026cd7e6c66dec35"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0424.npy",
+    "bytes": 905344,
+    "sha256": "0fbc65e60e263ac93300ae4aee17dcfa3508ded26462c84b24a28570fc725663"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0425.npy",
+    "bytes": 1126528,
+    "sha256": "15c19bb7738e64c538bc645c03baf8edf305a4fac4862169625170b4bdfcf217"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0426.npy",
+    "bytes": 968832,
+    "sha256": "0a7f5e6b3362ee094f773277aa0a311b944a3135a4934ee1dd8a4b9d55855c71"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0427.npy",
+    "bytes": 825472,
+    "sha256": "51c6e9f0694cdcdd4c30ae270b40441e6d8b7fdfb86ff0eca332bc0a603ba60f"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0428.npy",
+    "bytes": 880768,
+    "sha256": "c24351a38277bc152ea0ba831b8ff7586a1d145617135bff51d35bccd43d285e"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0429.npy",
+    "bytes": 626816,
+    "sha256": "e357dafb7134ea0a11c85ef2371d16d68da38b77cf2766fdb9338987dfecdfcd"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0430.npy",
+    "bytes": 665728,
+    "sha256": "52d1907b91b42ba04c56c40c2dd4a39a19523c5cfe06b15e9c77dcbfbb556fd5"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0431.npy",
+    "bytes": 780416,
+    "sha256": "85e8281f37b78d61e3495b579d295221298abda74d5bffbe0153f46249503286"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0432.npy",
+    "bytes": 804992,
+    "sha256": "03c2838f898a7213c6dc8d75dd73e1b46dab9cfdf6dd9b0669c7334abd8b3f4a"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0433.npy",
+    "bytes": 884864,
+    "sha256": "9a043da76236edde49ef0c29ef93800de895049d6b79d80a38d4031e59f23e16"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0434.npy",
+    "bytes": 1038464,
+    "sha256": "941dd5a0812c784749636604349a4f000e4b99fd615663d3bb1dc3deebe0d65d"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0435.npy",
+    "bytes": 548992,
+    "sha256": "18542a148e0796ee0a80c763f6286859b36ec8ae742b5d89e13ac639af2f7395"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0436.npy",
+    "bytes": 780416,
+    "sha256": "ce1cec151e555369d8642d1004d8dd19b56185e3439c961187ec3e4490cf8b41"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0437.npy",
+    "bytes": 852096,
+    "sha256": "48352e3cab3cdd6d432498b3fe5a1407e109b567bd8b632cd7b41bb88230f999"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0438.npy",
+    "bytes": 972928,
+    "sha256": "d6b88469420238b3e0653f3df2323458639f1ae13f63a7c3a2a5a4b9a4b3f0d2"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0439.npy",
+    "bytes": 905344,
+    "sha256": "3b989053ed4c4d4746fb6d31bb69599611afe6070885c3f3c5cf7c446d57ae59"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0440.npy",
+    "bytes": 1011840,
+    "sha256": "fd8e7986ed20e58806a2c32f5b50b62628e5bd34bb62050b9af525e1cfa54ce2"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0441.npy",
+    "bytes": 929920,
+    "sha256": "4d7f059c272680bacc4721a61615196b45fd9e219ba233356b0d6f46a81be7fc"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0442.npy",
+    "bytes": 751744,
+    "sha256": "d32d045cbc66f78bb645818fa90b1756ec26aa005eba2d24c39ef9e9bb966f22"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0443.npy",
+    "bytes": 1011840,
+    "sha256": "7ca254c6f4c8f52018c145ee76ab5785caccea1597ef42fe8a09881fdeb5203b"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0444.npy",
+    "bytes": 1009792,
+    "sha256": "275a3eef92736bb927438bd9cb777aadbbf1f7496b1fafbae97ea8b4de40b839"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0445.npy",
+    "bytes": 856192,
+    "sha256": "3eb7e9630b7a0aec120f2449e3c30c8e318ebc0dc227c7070f817aea220748c1"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0446.npy",
+    "bytes": 802944,
+    "sha256": "480ff343442ecb54f7d06e7959273ad9c1abc193f78dce3acb05f31b512cd408"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0447.npy",
+    "bytes": 817280,
+    "sha256": "768b585340abf5e9d3d319ce306ac1802b019835aa7b24e5aca14f969488d4c8"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0448.npy",
+    "bytes": 850048,
+    "sha256": "8b514cd390db5bec285a627ce57f698549116ce8c0c9cb3917bc9aeb84db4468"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0449.npy",
+    "bytes": 786560,
+    "sha256": "a363d53ce1780bdd7d44593045852d545c3f31a896e1e030fe618ce121314ddb"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0450.npy",
+    "bytes": 911488,
+    "sha256": "7a3d136c0e4e29858af793c3402afca05a27ebccf3b8c1092cbe288845a88a16"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0451.npy",
+    "bytes": 1044608,
+    "sha256": "894d94969117b32c69008da1d19b01031a1641eac8ff28b9b501aceee03d6d59"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0452.npy",
+    "bytes": 921728,
+    "sha256": "1ec9ae4f02bcce18269e9d831ab96ec5e0a9026f401c853013475068dce55254"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0453.npy",
+    "bytes": 1259648,
+    "sha256": "18c38b6a5f288b9e4aff9b6df6c41844b20fef0b381c98d7e2323a0be6394779"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0454.npy",
+    "bytes": 944256,
+    "sha256": "fc200c6049b4c41e63df2eb7275a19bea41e579644d86ee9460bc993f182dfd9"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0455.npy",
+    "bytes": 977024,
+    "sha256": "d15e0e60bbde6859d54423272cc94d36e2de89bbc64534cbed19e53d038abd5d"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0456.npy",
+    "bytes": 876672,
+    "sha256": "64a841d8c90d8bc39c87afcb3536561ed25bf4ca567da5a5996843c9bdf30a73"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0457.npy",
+    "bytes": 802944,
+    "sha256": "06090b7ff7ce8760a3882834b81d5da7a7a487ac1a5e73c5913098466bb9e643"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0458.npy",
+    "bytes": 809088,
+    "sha256": "c99e9dce9fc60a506ce0c1d739d916bd1405842e0a52f0d257aa23b4b977db6e"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0459.npy",
+    "bytes": 895104,
+    "sha256": "057fba1eca2c76a4dc6831b2074d62cf9359387938de866f03d8850bd0b32d52"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0460.npy",
+    "bytes": 882816,
+    "sha256": "c3f7ea05f409a6a3361647475030ae7b1a8b48959ca3880d1bcf4264b1fb6c10"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0461.npy",
+    "bytes": 669824,
+    "sha256": "fc25c33ece4643e8375be80bc8aa8d92d44ba5c66eadc53e38866f6f295e1d25"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0462.npy",
+    "bytes": 979072,
+    "sha256": "d64dd7c4c3c2383732e89489ba873ebde411ac0a6d3c56407a612bdbc2fb1f83"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0463.npy",
+    "bytes": 807040,
+    "sha256": "a4ce6b5146cabae4f5da346644f5009cf75b712e73dc9976aea7bdc681ea1b27"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0464.npy",
+    "bytes": 1124480,
+    "sha256": "1f2363abb7d7ddf201930e90c81689aa8f6559a61503460b61fcc66b01a7daaf"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0465.npy",
+    "bytes": 966784,
+    "sha256": "a970d5ff0c847fbb0fc1b6b9111e1021be194ce6b11102e5b48544df080d1bb9"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0466.npy",
+    "bytes": 731264,
+    "sha256": "450a7c1684cc126a6dcdf8d081081f7d86a93403cc97fd945a5c74043499b346"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0467.npy",
+    "bytes": 1265792,
+    "sha256": "ffc20dadfba38e2b8fc57a8c77283b090fd19ce0c14c1119dbe1c2f7b84e7d92"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0468.npy",
+    "bytes": 1005696,
+    "sha256": "51b4c9de3ca65d8d2126ec96110baa5c5ee896d7921418bdeb62f3201369eee3"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0469.npy",
+    "bytes": 860288,
+    "sha256": "7e3b85fec7cf7f4fd42f138f55164e59452e26b16911172edaaa20f44e4c065c"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0470.npy",
+    "bytes": 1011840,
+    "sha256": "48fe8e1578d2ff66efc9b42d8bdea1136951166ed35aebf018487fb57f958998"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0471.npy",
+    "bytes": 1177728,
+    "sha256": "af93d7acbd171310b6e3a9403ecf3bb53fca6c7cca227cb1fe317c3c26de424f"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0472.npy",
+    "bytes": 936064,
+    "sha256": "d6191e923431ed596af12721ac2a0178e37a7b26733e42b9953a71fa4d5c65bb"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0473.npy",
+    "bytes": 774272,
+    "sha256": "952bd71424e85f557e98a750e3cc74112808fb6f59a9edafb1fee0775fc1af90"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0474.npy",
+    "bytes": 841856,
+    "sha256": "5d1403aaeb2004e439610353167b148d922b843f7eca02db332434633946a687"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0475.npy",
+    "bytes": 843904,
+    "sha256": "d49aa4f86b3ab22a58f843bd5d7805ade36ab7e153a4570b95d9ca87c631e1b7"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0476.npy",
+    "bytes": 1091712,
+    "sha256": "ec90fdd1ca1231d8ae6db843000abe7c7a1ba28003eadd86f3989310a52169a8"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0477.npy",
+    "bytes": 788608,
+    "sha256": "141577b51d484f409b2bd06ae8fd72e03a080aa18637a6af42a293bec71e9e00"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0478.npy",
+    "bytes": 872576,
+    "sha256": "9ca3b81ac1ea609e0ec7dacbb1dc7b3782987c81a76cf749ded69793d0279518"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0479.npy",
+    "bytes": 866432,
+    "sha256": "edea9e93d5a78412913333d5e3c4934287d9a6d35752e28bd94214a30e45bd10"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0480.npy",
+    "bytes": 1140864,
+    "sha256": "c78876bcc8c54fba51088e0f6d5c9e63da62871ecb8b949f51084fd58948ed0b"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0481.npy",
+    "bytes": 1304704,
+    "sha256": "a99f2aaf82364df3b067160f1bf323850658f3af6797b54487bfed4b55709df7"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0482.npy",
+    "bytes": 827520,
+    "sha256": "4796c2cd6a0e5a12b884a5f907571e7fc3dcfdc8dba9717285411102121da2c0"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0483.npy",
+    "bytes": 1065088,
+    "sha256": "976958f3fc20f14ff725e838c20d79843521b02a5bf4617ceaa6eb8133a48f98"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0484.npy",
+    "bytes": 731264,
+    "sha256": "fd9c43929db0ca88f99782078d9fee320cd2ec39f162724f87e8b8ef8dddb187"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0485.npy",
+    "bytes": 796800,
+    "sha256": "cac5c8caa09724eace485ee3d4a2e4203ab160342383c9df4a6927a912175348"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0486.npy",
+    "bytes": 1017984,
+    "sha256": "f90c7b371526c7cf2fb2acc4f72dd1f0331fb88264925d9e3193adc618f43ac0"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0487.npy",
+    "bytes": 809088,
+    "sha256": "23ccdb84dba2aa58f6d0e26e47b21334f1a2de2c8a94e1b424e8b9720086e186"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0488.npy",
+    "bytes": 798848,
+    "sha256": "2f1081b28578ef276d1d61580a12b72115db60c7daa2184562dcdf0bd9172ffa"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0489.npy",
+    "bytes": 792704,
+    "sha256": "076eb7d74172eebdbd6265eb44ec148377690c5c3724ccc98e7141c4dac4afb1"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0490.npy",
+    "bytes": 1007744,
+    "sha256": "7806587e27e390074665d7a14fd6ad14dfa10711ddf311dd96e5e7902da29cde"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0491.npy",
+    "bytes": 901248,
+    "sha256": "47a31f96c5d2f32e3cdd5846f10b5bd35c97ed0fa354ecf7888859c62eff8ce1"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0492.npy",
+    "bytes": 1106048,
+    "sha256": "2959368f24b57522e62666fd337809c45d0c6d9cfa8b01149de33a9c7d2e3150"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0493.npy",
+    "bytes": 792704,
+    "sha256": "99f0c3cb98ee85742a1db4dbb59143f64147c87963ea370bc767773b66d61903"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0494.npy",
+    "bytes": 1101952,
+    "sha256": "bd9a85772725a2ff9daaa0e4959b743f39a50db05882b84bbc2d719cc2956227"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0495.npy",
+    "bytes": 780416,
+    "sha256": "f5083d570fab16c489131ee0f6ee50db42abb7a485f29f04cb6aba206e2bb9d4"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0496.npy",
+    "bytes": 997504,
+    "sha256": "a6a0de10c6c72d66d23652cb5e23243398e8d49b9b96ee6b210a5eb6627c3006"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0497.npy",
+    "bytes": 729216,
+    "sha256": "1ba023dc0df8f2b5a81fcb18d92ef7d3c0c9dda8509a96c23d05f79e1361c50d"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0498.npy",
+    "bytes": 708736,
+    "sha256": "f6284daafd6b714f5029247b1a5409406437271d916f082d7305af15c04bafbd"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0499.npy",
+    "bytes": 884864,
+    "sha256": "24fed73b689c929eb84b74e6910a07e2139fcd4a7d965d4f536c72134ab43825"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0500.npy",
+    "bytes": 1013888,
+    "sha256": "a6610d9803ae7bd1a8caaf95355516f1e2069bcc3d657f11aa997db7dd2ea007"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0501.npy",
+    "bytes": 964736,
+    "sha256": "afede4cdb43bf26116014afde2fc6cab418d719b6ce0abaa37d419102fcbc768"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0502.npy",
+    "bytes": 1056896,
+    "sha256": "38efcf22909017531ab24717368d929013643b322e26d69f4b4ccea3056a488a"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0503.npy",
+    "bytes": 909440,
+    "sha256": "bb4fcf9298493f3c771d554a42e7d98bab031a6392198ec90138f48beec21e5b"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0504.npy",
+    "bytes": 714880,
+    "sha256": "814ade06666bebe5b913cdcb45df5292ed8ab460e1858f96e349ec9075694e89"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0505.npy",
+    "bytes": 1077376,
+    "sha256": "ca34ddc007c04d7d44162abf970b21fcb4c5595b58304ef9fc46e33ccf299386"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0506.npy",
+    "bytes": 761984,
+    "sha256": "acbfc06132fb9b25a868b2d346f60e459a36e7d1bf313c548768a5c8d5a154f0"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0507.npy",
+    "bytes": 864384,
+    "sha256": "1449514da0120f06534923df63925914c6ce6f9ffe31793beb5a90871695e7fe"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0508.npy",
+    "bytes": 1142912,
+    "sha256": "0f1aacc05c7f97bcf43e9876f9057b47e68cc3780039b44337182b644d9f8408"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0509.npy",
+    "bytes": 915584,
+    "sha256": "189c9bd7a114222b6867a9f94d68ffa70b92f54c79af2c3bb97b644658128225"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0510.npy",
+    "bytes": 1015936,
+    "sha256": "4b00009d02ae7a6b071c36afe4077c84e7e0ea390f9586fcdfbd494b12b82d04"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0511.npy",
+    "bytes": 788608,
+    "sha256": "c33a2be7b08b7cddc1d52b6122e720efd2a9b98c87ad8e8abc4b9006950fb75e"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0512.npy",
+    "bytes": 852096,
+    "sha256": "da7104c2ca267fec99f63dda59786aa96df930abc109ddc2cc0db662309b341f"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0513.npy",
+    "bytes": 1159296,
+    "sha256": "e9a3a4b1641a5ed9f7e014b4bb84f224cd2d5cb43c56d34ec8caa1c7c7b0dc3b"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0514.npy",
+    "bytes": 915584,
+    "sha256": "b6d5b97d42427a7f3a6fe7fd101b2746308a10f655ce5dbc5e2499a91902f5ce"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0515.npy",
+    "bytes": 1104000,
+    "sha256": "3ba90ddfa788a5383fc49f8e503b1e6316f82777475c818c28f8d84ea6d83d47"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0516.npy",
+    "bytes": 1112192,
+    "sha256": "877f01465096399a18f0b5d4a40d23e8f3562e8b89e4d0d7b2b2c2a47bc07b41"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0517.npy",
+    "bytes": 614528,
+    "sha256": "48be7c75e361b94fa099267bb0ad00fea1fc2dd25f42005b455afd67ce06c382"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0518.npy",
+    "bytes": 977024,
+    "sha256": "30787845f0d4dc331ef30f8d6755554a1558748ae4d29aa8c22224e81902e6e5"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0519.npy",
+    "bytes": 1286272,
+    "sha256": "830886c8625ae423ef86645bf6577cc2f53fa3155d3d2be36898bd92bdc543b8"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0520.npy",
+    "bytes": 716928,
+    "sha256": "c2cf7a45b6d500c8b5ba726ee5a9bb1bd77efb6bbf1a0bcd52e036cd8ec78127"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0521.npy",
+    "bytes": 1177728,
+    "sha256": "c16bff99f42a6c29b78da0faf832c5b07f7b870f243b6950aa9837294befacfe"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0522.npy",
+    "bytes": 1101952,
+    "sha256": "1646a9579afcbe78bd0ed8d5cd9988c103f69ec8b5d976728fa78e4c5c211244"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0523.npy",
+    "bytes": 1042560,
+    "sha256": "cb376cf62089cc14c66f0987155c0a1575dbd1e924217cfbb303cd7e455d0974"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0524.npy",
+    "bytes": 1046656,
+    "sha256": "84787c7eecc77c54b072e7b4a7f659d01b4e52a2113a15daba28670672e58aea"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0525.npy",
+    "bytes": 868480,
+    "sha256": "cb581fb366228def541213229df8da2a159f0a7e4968d23ca4ed35cdd34f6b79"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0526.npy",
+    "bytes": 923776,
+    "sha256": "9ddef9ae8fab4d141da3c1d2d703755197b754585e8f0667abfedee6cec7dcc0"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0527.npy",
+    "bytes": 929920,
+    "sha256": "cfc90ff514c2d0a7b62719bdd7c620a2722b5da5ce60a253c5bf71efa6f4e36c"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0528.npy",
+    "bytes": 1163392,
+    "sha256": "f74645dbe51f76f970fc3d5af18054763a74a9a09a4e55193319b5a5c603cb2b"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0529.npy",
+    "bytes": 1099904,
+    "sha256": "49785f9edf498377454087deef8a0bcff8113b638e451bd94445582f733e17ff"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0530.npy",
+    "bytes": 1038464,
+    "sha256": "40f6fb39affaab390cddb8de0b0e5e5c99c4b38ebc27234b67af2443c845fa3e"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0531.npy",
+    "bytes": 1151104,
+    "sha256": "24529435906c50c8250813d936a9087970863b0857bd248670157c4729d4a907"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0532.npy",
+    "bytes": 909440,
+    "sha256": "9dcaae0a73fea856e580aa57451777ab7ce3798192ac727c0118e6e3cee5d0b4"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0533.npy",
+    "bytes": 809088,
+    "sha256": "3604816ddb901cb1b363680f3698f8b779dce3f74f1c52956ff60641de2e2eeb"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0534.npy",
+    "bytes": 919680,
+    "sha256": "712579c3dc27e8e7f316fa0dc0db00798022257b7833d0cda01a831a855827f8"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0535.npy",
+    "bytes": 927872,
+    "sha256": "88945b84e29a0ba5b1077df84b9d9b9429daccc1b76036d38f9da5afdaf46d5e"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0536.npy",
+    "bytes": 897152,
+    "sha256": "5b675f2c040b5e2b786d14826ba6936692bfb7572e19a7e9498b76309a29aa0d"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0537.npy",
+    "bytes": 1093760,
+    "sha256": "719a046b4e7a67bb03984e3045b2db72db0c9cf3de3e648581e1e913afda1212"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0538.npy",
+    "bytes": 784512,
+    "sha256": "ccd9b0b423fa4391f05f619bb77bbc6c9ec85af70bf723b4a163464bfdb5b417"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0539.npy",
+    "bytes": 1030272,
+    "sha256": "4963267a1af8c84418d614cbc8383d5fcccfe5b6b62f9369e60ada2c015517cd"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0540.npy",
+    "bytes": 702592,
+    "sha256": "37d13ff33ea4ab97f67e28455bc2cb2ad2ecfbbd706319ba02fa831d713d9b74"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0541.npy",
+    "bytes": 884864,
+    "sha256": "92dfda256df3bfadd7e94276b9eade99a51d11fe270f4765be84f3b3ae6980db"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0542.npy",
+    "bytes": 905344,
+    "sha256": "cd3ef59205c274b8e518c731eb3c813b653d9595ac7507bbbd2eb80834ec3922"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0543.npy",
+    "bytes": 755840,
+    "sha256": "7640d8d400b38ed4be09374fd3a651f956643dc621e1973d6c7b4d354941d3cb"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0544.npy",
+    "bytes": 1034368,
+    "sha256": "21227731b836c85e9e07f09fae9b285df1f146c430eb574d9f42f11a84729f91"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0545.npy",
+    "bytes": 866432,
+    "sha256": "d6f4626c02628aeeac96c9039dbec3a8e88f62a5365f5790590be05304f0fbcd"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0546.npy",
+    "bytes": 837760,
+    "sha256": "d2568f0667663f5aeaad3454435b302137bca8b541f99d1cf9bb2aba7825876b"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0547.npy",
+    "bytes": 860288,
+    "sha256": "cb312a62d0a523d9de4aee9d722173f83c01dc6bc567fc87969fd2795795c76a"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0548.npy",
+    "bytes": 690304,
+    "sha256": "d933596a894554d9916f77a5f244f6fd43e8aa8bf33bdc1b70d8981a69d05b9a"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0549.npy",
+    "bytes": 936064,
+    "sha256": "74ea57edffec558b4fc559d47086566c1e8d29bc77ab14402b542f226a60a92f"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0550.npy",
+    "bytes": 1079424,
+    "sha256": "e0bf2d82a296e8f94d04cb350835b81fa8668c1f7e9f0f12a5683f7754dab286"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0551.npy",
+    "bytes": 790656,
+    "sha256": "bfefcc0917e9cb11bb27e6784d4b71e112215e503c96c9181ea76b7251ce7a0f"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0552.npy",
+    "bytes": 1024128,
+    "sha256": "4e53ab155ff98c247787cc07f5688886d79140785da2cad2043efbf2436106de"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0553.npy",
+    "bytes": 872576,
+    "sha256": "189d522757a8a6e80e2407df1d844b32c606bc040a6c1e7e3e32f5b52de8ebbc"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0554.npy",
+    "bytes": 792704,
+    "sha256": "cc586270fd75e473e26777371153180f3da20106f27e2bdd4920d12bc6b3524e"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0555.npy",
+    "bytes": 888960,
+    "sha256": "f28978893b1c73a96d5017fa98e0714ef6c4a867bddb238db951ef638d053910"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0556.npy",
+    "bytes": 749696,
+    "sha256": "fa507b528adc174091a41b725ee6a86e93f16e76ee4929cf5ff21a72cd3e3a9a"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0557.npy",
+    "bytes": 919680,
+    "sha256": "c73dc293c56f9b1f0b511c7b01355355f70c4337cf8fd2ec162410fb1d751ea0"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0558.npy",
+    "bytes": 850048,
+    "sha256": "4fe072ebbe58b87b3b4ce95ac6a7f25a0afcc6e50a99ce8ea55130fb71447b83"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0559.npy",
+    "bytes": 723072,
+    "sha256": "bd521a875b6d13407c6ab689072684bed39da887ba0fb45ce0b092984f170c9b"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0560.npy",
+    "bytes": 690304,
+    "sha256": "f61cb4232445a6cb237c02fa58c08b783a0e0a0f29496238301994b2f1a3a8f1"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0561.npy",
+    "bytes": 761984,
+    "sha256": "3660ed142fd42e925abf71883041e1f600cc3d8a96888f3ff044bfa65d2eab09"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0562.npy",
+    "bytes": 1091712,
+    "sha256": "1876b872ce6c0e4c0d9ee15ea4320f7ec8e7d7b1a6a49adf2ae0d94e2d1ba14b"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0563.npy",
+    "bytes": 796800,
+    "sha256": "183a7a3ba11e19735b6913861ef8ddcdcfb3ac7b320e71702cf327e4f17d7631"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0564.npy",
+    "bytes": 819328,
+    "sha256": "e8c398cbeb78ec0b35c054f908161d446f028e5b91a8aeadec99fb5698a36c53"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0565.npy",
+    "bytes": 1040512,
+    "sha256": "fa971b89196116b726ba624fb5faf923b6e2204612890def608395d234024209"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0566.npy",
+    "bytes": 798848,
+    "sha256": "c8de4dbf76a87b2c02f56d8489f927c4d4d2749be5f1186190f11cd7872e0faa"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0567.npy",
+    "bytes": 1046656,
+    "sha256": "ca868516ee36f79fa8aa522d0d635ab33d767a342fcec6e8b87b36f9c733181b"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0568.npy",
+    "bytes": 1316992,
+    "sha256": "0b4cd0c9274f359fa1e400730f075de5f824fa944a3266ad52343c8b5d6f5640"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0569.npy",
+    "bytes": 1112192,
+    "sha256": "90a0220968590814200bc7eec02206b48a0ccb856f70e7f554cb8d2a9d649265"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0570.npy",
+    "bytes": 1134720,
+    "sha256": "07cc3620c4653ffe325efdee731b566fdbd9d9482f5fcc3d50535ae19f9ca7f4"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0571.npy",
+    "bytes": 673920,
+    "sha256": "33ec3ae1ce0981ad8320e1626dbf0cf086e2c2146db778e89c30fba9b72c3758"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0572.npy",
+    "bytes": 1321088,
+    "sha256": "a73f0b22c8696f3130bb65d392775873b1d0359568541e519ae87dc873796f6c"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0573.npy",
+    "bytes": 929920,
+    "sha256": "ac19118befbce09e9e88ab6f1a0d64b6cf40b2ee80e185f1fa1ff1c2d1b541c5"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0574.npy",
+    "bytes": 1181824,
+    "sha256": "b81cbe7b85023514097f09d1b942707eb45351e89323f479abf046d8045fdaf3"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0575.npy",
+    "bytes": 723072,
+    "sha256": "53f4c4612339784cbe480272b2a81ec1234663519703ea408f92c07ae3526993"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0576.npy",
+    "bytes": 940160,
+    "sha256": "b4f8f4fb8aafbc3d5c11fac5b42467b3549f8a89e1f608ca939639c986fe4750"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0577.npy",
+    "bytes": 950400,
+    "sha256": "d35ac063cbaaf357d55c8385245c85eb9f4737326f021859418ae4adf8935db8"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0578.npy",
+    "bytes": 800896,
+    "sha256": "159eac4be976c061ec1c23c9c7bdfe0761e8e3fda525b740e265c2c3c8a2c10e"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0579.npy",
+    "bytes": 964736,
+    "sha256": "823b0129b3e4a1e42fbb32f0c8665bebe92d7c27caad8da8902564e33a069383"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0580.npy",
+    "bytes": 884864,
+    "sha256": "59a8b3591bbb958e8bfd3d27900cdeab570e93aff045e86523c180c4f779aa91"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0581.npy",
+    "bytes": 897152,
+    "sha256": "d4d3142b3db0e238584c0464dac15d5abe6541e6afc6a38ee3c547681b7e54dd"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0582.npy",
+    "bytes": 882816,
+    "sha256": "e25dcc6cc5c2183110c0ac05a89366151d3a8c29c2bba4a3fa7dbee11df83112"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0583.npy",
+    "bytes": 876672,
+    "sha256": "11d4005731a2bac7f85ae06417834cd0ae9b3464353ffdd5f204a00073675cb3"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0584.npy",
+    "bytes": 1007744,
+    "sha256": "967d6251460834a73aa5019a88ca9badc33d7b7a970b080ddc66b5058d9b893c"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0585.npy",
+    "bytes": 794752,
+    "sha256": "daa8b36716ac8210dae1f9bdc28c92505101eb28653699758321d52926975db0"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0586.npy",
+    "bytes": 1026176,
+    "sha256": "cf76faae3fbf4cdcb30644b6956d12dc04fb78ae04df6e6c4ec83768af499af6"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0587.npy",
+    "bytes": 835712,
+    "sha256": "39e50efc56bf58b287e82f16b5b00e8bdd3e90404b8f5ab346a419d4af458f3e"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0588.npy",
+    "bytes": 919680,
+    "sha256": "00c4bc56ad9afe6cee4349c680c7ee70af438a1bce51a97bddca0da1f5bc2e9f"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0589.npy",
+    "bytes": 626816,
+    "sha256": "61ed67493a2679f283af6c105ed22b582b0c534c4523c39d1051f14cde831044"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0590.npy",
+    "bytes": 743552,
+    "sha256": "785d2cf7aefe6d70b36e22faad8680abf7d73c439ea4c9dcbcb476b4393ad8d7"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0591.npy",
+    "bytes": 872576,
+    "sha256": "49b6102f65dc4cdddaca7a8df41c687f71f580977544fafdbdccdf0a0a84fcbd"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0592.npy",
+    "bytes": 770176,
+    "sha256": "1afeeb3d8feb4c749d4224dcc5fefeb88cf6996a77796c9545e5ffc3a5d8dcc3"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0593.npy",
+    "bytes": 854144,
+    "sha256": "8a2d87ead2c218522f346676c1e6012fcb7008a55e9e8d94ae51535f977eab57"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0594.npy",
+    "bytes": 960640,
+    "sha256": "f8991a5578e34f127973d77222d14f0b72f192dbff40851757434f66c1bc9f78"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0595.npy",
+    "bytes": 1079424,
+    "sha256": "991493045ca3f8f000685e57749ed2d73901cccda04a6b8d6979057dc055de99"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0596.npy",
+    "bytes": 884864,
+    "sha256": "5327780afa7133f78a58bb25e92f490bf276a9b73918694f23b115c28d821bb6"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0597.npy",
+    "bytes": 1020032,
+    "sha256": "15a760b4575dcd79b51e042311ec0710d670e4465eba9e2cd4b3af7ad4d88731"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0598.npy",
+    "bytes": 934016,
+    "sha256": "b99c18d51314ed833663fa058ba0d4d370aabd93f4276561d0a90a440c28ccb1"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0599.npy",
+    "bytes": 850048,
+    "sha256": "a88e6351fb20d590594f262cd52b3882248b0abf7ce323190ad4c01c9677bfef"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0600.npy",
+    "bytes": 1069184,
+    "sha256": "981b443bb320708e12bf2f384785a5d95d0b7f5e33651d1982164aef03bcd01e"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0601.npy",
+    "bytes": 800896,
+    "sha256": "068b663bd50bc140574d17f1c7d218df2207d1523911865c9a0057c5c856c568"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0602.npy",
+    "bytes": 1112192,
+    "sha256": "3e6877ffee9535166210505ea3b96455b3949a22d7255fa8fa8e5a989ca314f3"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0603.npy",
+    "bytes": 909440,
+    "sha256": "1d4a7d6032c0f58fe06537f68ba04408462dfa2177d8b4c21f879a159b77f2ae"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0604.npy",
+    "bytes": 913536,
+    "sha256": "cd5cdacd9ab40075f2ec8fcb27775a8e544fe331827755c7a6e355ee305a2aaf"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0605.npy",
+    "bytes": 825472,
+    "sha256": "a3425747e010bc300759d80fde0f8e388515b3fb85641b7487a3b88c49e3b6dc"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0606.npy",
+    "bytes": 755840,
+    "sha256": "0cbe68bb33a9e733c3c21888eb5a1081593b91ba83a825c7beea9341c7cbfec1"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0607.npy",
+    "bytes": 811136,
+    "sha256": "1e455b88d0fa40cb2baf9b71ec7746b8b4fb7e1ccc5067f29636a428778bd8f4"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0608.npy",
+    "bytes": 921728,
+    "sha256": "c7e9fa98de272a36eec3a13d695b3e61a96dae7f17e4cadc8ea4821589e39c50"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0609.npy",
+    "bytes": 876672,
+    "sha256": "cdf271b41b5f2496c43e43c9949384027bf2903a08028a46784f80057e6a79fd"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0610.npy",
+    "bytes": 956544,
+    "sha256": "ba35b3a4df7aaf8e04c3d234057e93cb83eb8025d0124e1eab49e030acab9d63"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0611.npy",
+    "bytes": 647296,
+    "sha256": "177242e5e01ae16e6596d28d9c44dd81a53e0a546c883728af2360d2b2f4f3f2"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0612.npy",
+    "bytes": 823424,
+    "sha256": "a33c5bea76bbf48d47b5f43a9b04f6bae13589fec57226f7994a4f2bfb4f52dd"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0613.npy",
+    "bytes": 981120,
+    "sha256": "1b86cbf4fdea387027e7f1015e7d4da7ca2e4bcbcdd0dd368cf3f827b961652a"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0614.npy",
+    "bytes": 909440,
+    "sha256": "4c87e3e9c2161a0dbb04cc9d0b304362fcd444b7bacf5f88253fe0317a4e5a24"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0615.npy",
+    "bytes": 1122432,
+    "sha256": "f40f936991efd39ec82c8b009a6ce4ba3f8958ec66ceb77bb463ea5cec9ffb99"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0616.npy",
+    "bytes": 1042560,
+    "sha256": "5a606a4a84c6f4c5caed072bb1213a92ec337351aa946cfa13f84cb602962a8f"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0617.npy",
+    "bytes": 815232,
+    "sha256": "3d567736e74872ae96a3c64822fb10312a4e1221b4c425606dee93a33c74c8d5"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0618.npy",
+    "bytes": 784512,
+    "sha256": "d7f10c9a3a96d071725cf49305ed5cb5db35472f019780563da01087348bc046"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0619.npy",
+    "bytes": 663680,
+    "sha256": "8616708905510d95a502b77dad83a0897695ccb47d75b34c644cead769cd18a1"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0620.npy",
+    "bytes": 860288,
+    "sha256": "37dd5aed19946cf4e59b9bce9cecc2c8b1aa5f66d76b60ffa54a0fae8e5f1a42"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0621.npy",
+    "bytes": 1028224,
+    "sha256": "857712b87a169e17ec6ca79eca53032b79c57fe54da80f902675dd758de26851"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0622.npy",
+    "bytes": 1044608,
+    "sha256": "563cc66a0568ec0fc47c352400617e0affeb7817f2bb77a5b1d56c6ec3c0986c"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0623.npy",
+    "bytes": 770176,
+    "sha256": "63e3aca8ca5f580442d1b2d80af69b81c995ec3f7e1f5bae8b65423f7aaf5741"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0624.npy",
+    "bytes": 675968,
+    "sha256": "34bf089ba520c41479129f5e18b251a5affb0569ae21a3b477c2ef1345df6e6f"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0625.npy",
+    "bytes": 1071232,
+    "sha256": "474d5ae49cf6f596502f848f104835d815b3edbf65500c57fc7013bd0cc02a98"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0626.npy",
+    "bytes": 983168,
+    "sha256": "13605edbec115f51b6b03212f6693c7628167cccff002241e498e8214fbf6eee"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0627.npy",
+    "bytes": 1136768,
+    "sha256": "1f4858697a8e81503cdf34161f6e27d728cefc605cfc2ad3c268e96c9e4ce77f"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0628.npy",
+    "bytes": 680064,
+    "sha256": "8b192db042dc956d6ce077220c8e7b1be264efde5dd3140b5cf079584f008abc"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0629.npy",
+    "bytes": 819328,
+    "sha256": "e6fb5de29fe5a415d813ddaa3cab3f39355b15733484b55a2ef6ad043524760d"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0630.npy",
+    "bytes": 1005696,
+    "sha256": "d58fe6a1f9f51ab121130adc39cec0cfb4b54166416216463eeb79ddbeee564b"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0631.npy",
+    "bytes": 686208,
+    "sha256": "8c6d0786a32b248f077e103f6f306f77658e2029d8f9784cce357759af7bc378"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0632.npy",
+    "bytes": 800896,
+    "sha256": "354ff548d09700e4e7821dcd864ceb3eef6016121bf42d02e984c97644b5e8f6"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0633.npy",
+    "bytes": 1036416,
+    "sha256": "41949f65886ab07c18b081472b995be31bcf7760a28d33af21f9c3c5f28552f8"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0634.npy",
+    "bytes": 755840,
+    "sha256": "c10889582152d298a628f003b6aaafc752d7432d1b43f50638725820a17ef9a3"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0635.npy",
+    "bytes": 757888,
+    "sha256": "6be7eeda818bd4b09fbf2554fee4e285b8dcd3e12be6459b0c4c7748dec4c2a0"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0636.npy",
+    "bytes": 1005696,
+    "sha256": "308b0e91cd1e592d44501acbc0138488aa3e41faec9121d2c5e367af846a1c03"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0637.npy",
+    "bytes": 723072,
+    "sha256": "0ce9c6e869dc267aa43ad2efdbc6779898f3dc00232c3ef529c3d5857a7db735"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0638.npy",
+    "bytes": 862336,
+    "sha256": "6bd09cde8dc4aa60858fed54426e2754d4e09e0d285c00cd8f6d2353d12d59b8"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0639.npy",
+    "bytes": 895104,
+    "sha256": "5736875e967ab1d6742ff3d06a60f3175a4870045a3cc3d4ee7512e90897af55"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0640.npy",
+    "bytes": 655488,
+    "sha256": "711ad5058508fe24a4d0d9e178bd722927c14d634da6e75c9de2b0af37a2fc9a"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0641.npy",
+    "bytes": 985216,
+    "sha256": "578c53591c0166b3b96bcf93d900b29a4532b4db3c3bf092fddb75a2d87c81ed"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0642.npy",
+    "bytes": 1063040,
+    "sha256": "4cc980d9256fa895f54fe38afb68ff852320de2b08846e2d69b66fad4e2ff18a"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0643.npy",
+    "bytes": 817280,
+    "sha256": "e820a71f46c125a162ca753567713de410816e5b6c8e729342626feaec9bbe1e"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0644.npy",
+    "bytes": 1013888,
+    "sha256": "0578fcb976e8864637cdc15fe9297f2354e16685721a56df0ee3a91bc92eab29"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0645.npy",
+    "bytes": 772224,
+    "sha256": "64bb972d4a512d25033d52e2ef753e811a8e53724fbd9940904828b6bf3b0ba4"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0646.npy",
+    "bytes": 1020032,
+    "sha256": "57077249e091dfb1670094ba4a2736e70145e7e54c6f959e9cde6804214b9ff8"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0647.npy",
+    "bytes": 888960,
+    "sha256": "504cdd2dc80c02aa237dfda48a3fbeac3ee05a8f2a11be88616a186975bb23ec"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0648.npy",
+    "bytes": 981120,
+    "sha256": "352fc005a219ef69d99b9fbbce8c59a6d1b7e6b755a55304cd9db5a823287dfb"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0649.npy",
+    "bytes": 929920,
+    "sha256": "1d472bff5109cd2b85d2d7dddad8556abf2c8a452821c0dab41ee1e5222c9732"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0650.npy",
+    "bytes": 690304,
+    "sha256": "acca15fcc2c32ff32ebe7e42f33e696ab67530a61097c46e26dde38ef40d5a14"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0651.npy",
+    "bytes": 993408,
+    "sha256": "4ebffa198033a3ec6862dbd0d1adfb7f4db903df3a302db4fddaa3ab21ddb5db"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0652.npy",
+    "bytes": 1110144,
+    "sha256": "b0c2fa80f4da807d89bb7a0fb8bb7818aa282a690515c97095f796b071515cff"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0653.npy",
+    "bytes": 925824,
+    "sha256": "7c22d5d091b95cf3849becf44f3e6cb4b98e1c6d3e8763326601d78ffc800596"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0654.npy",
+    "bytes": 764032,
+    "sha256": "c57397ba6d3e7f0982e00b3bebb14768eedee454c012cfcc3a23a27655e7a022"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0655.npy",
+    "bytes": 874624,
+    "sha256": "ba8c222fa890cc0f8deafe4b501cbc6abf44b97be692f0a7a6e412977da34fa7"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0656.npy",
+    "bytes": 958592,
+    "sha256": "c74716724d6ca5102a019bf2336d6f4da14524adb1d7ede5d79ca2ea481adf39"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0657.npy",
+    "bytes": 843904,
+    "sha256": "ab7f022df28d679886564421d0a9d6a654e4c5b6af79989d56e89a521a1d1d04"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0658.npy",
+    "bytes": 1044608,
+    "sha256": "ffab766de906094297ed87d1778ea0177f2c21b8b864eec0c78247e2f2891d87"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0659.npy",
+    "bytes": 979072,
+    "sha256": "54ca529956805496a88e8ac959424c366fcc0bc3e8b8d87af512251f46a65f65"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0660.npy",
+    "bytes": 845952,
+    "sha256": "ebc7fa10106e652f78ba7b5224da4f8fd165607f3139442d06a2dd7b48b3375f"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0661.npy",
+    "bytes": 839808,
+    "sha256": "58f2b46e9811471d88d30d53222d33870aabf6bb70bd464fd631eab74fe32c86"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0662.npy",
+    "bytes": 876672,
+    "sha256": "924d7ba63cac0f43ae3571067b66b608ec741dae7312fc5f5f688ad4eaab7deb"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0663.npy",
+    "bytes": 815232,
+    "sha256": "585875a8fd67e307652c30ab4d259099d6ecdd6aaefd25d99197858d7da477f3"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0664.npy",
+    "bytes": 753792,
+    "sha256": "674276de30f99dee6733961211064c39385c29798e18c84536d9a8f58b052610"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0665.npy",
+    "bytes": 997504,
+    "sha256": "3e541786a46259cced9561c8ad621f4f050a366633ab24788186a695a2233ad6"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0666.npy",
+    "bytes": 815232,
+    "sha256": "c9f1a0ebf0c3e0e21402a05e37dcba9b8bdf29b995ce41ec4074a67e39c40277"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0667.npy",
+    "bytes": 968832,
+    "sha256": "7c03611111c6a491449c7257c8ed2df17c3e0d5bb9f97704f66ea4052e6736d4"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0668.npy",
+    "bytes": 1007744,
+    "sha256": "0ffd7a3d7101f1786c41820281976b3bdf150bd40b86b1076d194b42ee616e10"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0669.npy",
+    "bytes": 970880,
+    "sha256": "33600f2388b6bac9cfb8bd68d116dd3855a5ca3b5887816eadcbda39f03da7b6"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0670.npy",
+    "bytes": 739456,
+    "sha256": "9988235d640bbe515133720ee07ed496b27e09204216f03c9349bd68b90cb0fb"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0671.npy",
+    "bytes": 804992,
+    "sha256": "b7142f58813080c4a28ab2c7dacb29737cb2e553b8004f3ce5d2b981b66076ec"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0672.npy",
+    "bytes": 741504,
+    "sha256": "5d49b7db5143bb5bfc102492772cc3cd58093c840f8ab40f41f95acdde05cc36"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0673.npy",
+    "bytes": 1253504,
+    "sha256": "d9f05fa87948a1b27762a99bbf29c0d48387f0008fe4afd9b8341c93a07d830e"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0674.npy",
+    "bytes": 1104000,
+    "sha256": "79d95f92d12edd8f7dab3aa94fb723b5dd8092410ec1d3b93d455c7b8cf7cf3a"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0675.npy",
+    "bytes": 1040512,
+    "sha256": "6cc003899e17ba08e54d9fc81611cb58b2a9a121abcc422862129ad99249e696"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0676.npy",
+    "bytes": 745600,
+    "sha256": "b986438aff60a289147003294638e6370cff7fc869bfba86eccdb2480ce4f8a4"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0677.npy",
+    "bytes": 1040512,
+    "sha256": "bf68a7f5e0f8a9ca7e5c6f2d8d33ec7685659c00e1c060b471e78b99edd64f54"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0678.npy",
+    "bytes": 817280,
+    "sha256": "7aacaa683f156ca6ffaad65ffb92e4354c817deab8abe24bca9f48b475fd6164"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0679.npy",
+    "bytes": 804992,
+    "sha256": "f24b301c3eca3488dcc2b9c3794c8c78c2e68696d9dbe7f437bc452cd24fb717"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0680.npy",
+    "bytes": 1249408,
+    "sha256": "1f2452b462407c830923c29407538cafeb1b61fd393cb62249b2613438f1bece"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0681.npy",
+    "bytes": 1169536,
+    "sha256": "cd96dfc332d60e903caaaafa66fff8775b170567b904b9f545a94033530cc82c"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0682.npy",
+    "bytes": 1003648,
+    "sha256": "27bea9963f28c7cd7f307c28b2a27b82646254abfc7921394d50c5e64e1a0972"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0683.npy",
+    "bytes": 835712,
+    "sha256": "cae817315ceab4421511104cc3ad8d77cf0126bc09abd9c6eed61a4defb38cb3"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0684.npy",
+    "bytes": 835712,
+    "sha256": "578f3ca7345563a97727c976c6224639bc4b05d22312b1de223d8209a119a1c7"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0685.npy",
+    "bytes": 1099904,
+    "sha256": "003ac3f0b88c99e12e9b2c445ee145234770c9823d3520acc7be1904376591c1"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0686.npy",
+    "bytes": 938112,
+    "sha256": "2858e4aad21b1df266c3c625fed4b43a4e254823416040b0ad912d44e59464ff"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0687.npy",
+    "bytes": 1048704,
+    "sha256": "86ab22d06dba2b49f1d82cf6d451035721cef6e9a099a146343492f13c4c063e"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0688.npy",
+    "bytes": 987264,
+    "sha256": "f3901950afea9c5729e890d68969fab01a234a28f0c40a4db81a2fe4e9f0d8cb"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0689.npy",
+    "bytes": 1273984,
+    "sha256": "f19348c219932c2955a70a83ca10c0d67d142cf1c7faaf70d459430673410380"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0690.npy",
+    "bytes": 837760,
+    "sha256": "82dabf36d2a362d84d2343123870fb473ed34468d01620edafa20673b22e81cd"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0691.npy",
+    "bytes": 790656,
+    "sha256": "b34d8b169b21003fca71027ab14272733da6e536ca5b013deb6692ff5f6e2022"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0692.npy",
+    "bytes": 868480,
+    "sha256": "9eb126c4ff3dbabedb413cbc81625733406a26d366a6eb1fd6d83b2ca3ff0e9d"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0693.npy",
+    "bytes": 895104,
+    "sha256": "82aabea3d8d2b8b2aa9e13334aa713bda8567c9d58003d89b54439e85dd7b435"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0694.npy",
+    "bytes": 1116288,
+    "sha256": "56d998c91a458f8067a7068822d646c124b7c913e935910b28c9aefd212a23f3"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0695.npy",
+    "bytes": 727168,
+    "sha256": "265c81dd7b5d4f29836f8da766b2ce76e9c7fcac0d5e16e92b38c4409c59dda8"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0696.npy",
+    "bytes": 731264,
+    "sha256": "bd81aa354136d31943bd09a7dcd326b066abe6778e7af17970c498acf99e710b"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0697.npy",
+    "bytes": 1110144,
+    "sha256": "425f77fe48d14226ecaa865bc3b8d0e6d10ea4c7e2d4e3367188fa037814d14c"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0698.npy",
+    "bytes": 968832,
+    "sha256": "cb067abf8949b588c805b61a145aaed41c919db66cd89faf2e9433ee73968c08"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/features/0699.npy",
+    "bytes": 790656,
+    "sha256": "ddf3a28f510c6d8c99b00fe2908a1b64efb56c4e31f6cc7b8da308e3294e7c8a"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/language.json",
+    "bytes": 308989,
+    "sha256": "b0c2b8905ad3267937fe2dac2e463cd0396fe8f8dd5605319d3dca4b67a7f2ab"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/manifest.json",
+    "bytes": 441865,
+    "sha256": "d8afad228b0fac6534cae3e44c7590af1a2e9cd0edd43618aca19f1370a81c6c"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/shared_complete.json",
+    "bytes": 2319,
+    "sha256": "e45cab1c41229254f3368ddb17b3a29baa2de8742315f79c2b2bc51540cc6e33"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/source_target_stats.json",
+    "bytes": 449,
+    "sha256": "316d4634e5405a5d89b89662e976df9a8711502e97401c1eeeee3b30256f2fb5"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/source_train.npy",
+    "bytes": 3072128,
+    "sha256": "f1c3d8cc5a2c16c7333904254062a93c344a81154d0e5afb7781b41ccc021870"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/target_only_stats.json",
+    "bytes": 448,
+    "sha256": "75b493d82c5eb071c7d23555a48c50170c4496fb48e042282499c0cd3ce111a2"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/target_train.npy",
+    "bytes": 3072128,
+    "sha256": "d9bd55f71d1a4c59fd86fb54eea652207df3123047a28beb0fc6589eba62fa07"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/validation.npy",
+    "bytes": 2176,
+    "sha256": "c85aeec35a90b1ac75363c06a36be64c36ad7b5a2678d04bb368de20817eb80b"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/vq_validation.npy",
+    "bytes": 2176,
+    "sha256": "94445652379e81b3a10030129f73debf5eb33a563ed76bd7c0613b9347b9e646"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/vqvae_source.npy",
+    "bytes": 3072128,
+    "sha256": "48b088d0f50885c8cfcf9dafa7be0c4f9a2860a6c949cb18b2b16013871caa80"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/data/vqvae_target.npy",
+    "bytes": 3072128,
+    "sha256": "b65d46a2000ed878ee8c39f65de0917ea031a8f73b7b52368be47549a9994919"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/physical/physical_launches.jsonl",
+    "bytes": 920,
+    "sha256": "1d80c2ea66fae8b588c3e58ebd15c7c8b1aa1256592f4b851093a86b30618d26"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/physical/smoke/source_target/pnp_counter_to_sink/acceptance.json",
+    "bytes": 1887,
+    "sha256": "e60f7306d40d664a76658730962b34a3268dc4c6b442d1ba1916d03a67b04e06"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/physical/smoke/source_target/pnp_counter_to_sink/condition-000/acceptance.json",
+    "bytes": 1571,
+    "sha256": "90b04f00a2f8897c21986b9fff6cfafd0882a201fd98675e4102fcfa9c42fbdd"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/physical/smoke/source_target/pnp_counter_to_sink/condition-000/episode.json",
+    "bytes": 920,
+    "sha256": "f17594c1c3b70f3c901f41244c0ac1ecbe127a0fad98f06150a4797233c8ce0d"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/physical/smoke/source_target/pnp_counter_to_sink/condition-000/launch.json",
+    "bytes": 266,
+    "sha256": "310663c7fd52914dc37a21eee69f55c2844a6753cc8a38c4708ecbd8177fe630"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/physical/smoke/source_target/pnp_counter_to_sink/condition-000/rollout.mp4",
+    "bytes": 1537452,
+    "sha256": "2c5c3efd097a6e8c639518f01a9f121170c5a9e1dfaf1858c53ee882831e9e01"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/physical/smoke/source_target/pnp_counter_to_sink/condition-000/telemetry/episode-000.h5",
+    "bytes": 1962651,
+    "sha256": "abbc28374772fb31b7d561ff83c53b107317ca29dd95a0762f46fb396897ff1e"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/physical/smoke/source_target/pnp_counter_to_sink/condition-000/telemetry/episode-000.jsonl",
+    "bytes": 3298974,
+    "sha256": "f0e23d12355073c73c18cf6a337ad77ea858e068610b4c87dffcbaaaf8764ec8"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/physical/smoke/source_target/pnp_counter_to_sink/job.json",
+    "bytes": 1211,
+    "sha256": "f945a4ae9385efc46615a241fbd6ca30c44ee3ee1c666741b6812c74de19a0df"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/physical/smoke/source_target/pnp_sink_to_counter/acceptance.json",
+    "bytes": 1887,
+    "sha256": "83396cf75145aea30ecbaa983c1525482640ba217127083716b1fb2e810b01ca"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/physical/smoke/source_target/pnp_sink_to_counter/condition-000/acceptance.json",
+    "bytes": 1571,
+    "sha256": "c41b638da221566a65c6cdb40b4bd11ed29978704d0c22e61e905fbdbe518f85"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/physical/smoke/source_target/pnp_sink_to_counter/condition-000/episode.json",
+    "bytes": 920,
+    "sha256": "584a4de0cf76a0f6529a331b9b69428bbbb9e77a172eec31f1a90d43e9201527"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/physical/smoke/source_target/pnp_sink_to_counter/condition-000/launch.json",
+    "bytes": 266,
+    "sha256": "fdec516b72f946d0cba9fe7cf876a7eb0df84a30a69f01980bd65c7ed424e833"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/physical/smoke/source_target/pnp_sink_to_counter/condition-000/rollout.mp4",
+    "bytes": 1798845,
+    "sha256": "2555bb048e901d45bd72a62af7daa2bb0b63aca4fd5801e9ff733bb712de5a93"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/physical/smoke/source_target/pnp_sink_to_counter/condition-000/telemetry/episode-000.h5",
+    "bytes": 2141781,
+    "sha256": "e62d66ee0185ab0d5dc0c192dadad02bb696eb6fc2e71194e9436fefe05e0f3a"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/physical/smoke/source_target/pnp_sink_to_counter/condition-000/telemetry/episode-000.jsonl",
+    "bytes": 3408862,
+    "sha256": "c497fae8ad0803db806c1ef0be47ea5ccea595a52dbd7bffbcafcf3b4d7a7351"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/physical/smoke/source_target/pnp_sink_to_counter/job.json",
+    "bytes": 1211,
+    "sha256": "05e3da5aabfc213e8fa897c3b46b584f048e635cd5c20785e10a2c6bd9489ca1"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/physical/smoke/target_only/pnp_counter_to_sink/acceptance.json",
+    "bytes": 1878,
+    "sha256": "9d27d842d7cfa3063db23ac13c2cff0665f4d3a07b0f6e5baacfd4f226e015e1"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/physical/smoke/target_only/pnp_counter_to_sink/condition-000/acceptance.json",
+    "bytes": 1564,
+    "sha256": "028f7fee391ff526f4f5a633b63dc90119b8a4018e2b76297a4f473268261a20"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/physical/smoke/target_only/pnp_counter_to_sink/condition-000/episode.json",
+    "bytes": 913,
+    "sha256": "4bb6cc79a30d5a1db17aa462bc0fb1c151edef83614c919017f82eb64c7aa18b"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/physical/smoke/target_only/pnp_counter_to_sink/condition-000/launch.json",
+    "bytes": 264,
+    "sha256": "e9b3c0a479312500f0d64bcd8d26fa0b796e18889dacdedaabcbe4f047861389"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/physical/smoke/target_only/pnp_counter_to_sink/condition-000/rollout.mp4",
+    "bytes": 1808519,
+    "sha256": "a595be83ecfed81423b5639098738b749e173480911b490ddfb7526633c27b27"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/physical/smoke/target_only/pnp_counter_to_sink/condition-000/telemetry/episode-000.h5",
+    "bytes": 1956410,
+    "sha256": "159ec9ece5b6fd286f8474a9209cba797e851a8c93d9eaf8059e3aa2f9d0b937"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/physical/smoke/target_only/pnp_counter_to_sink/condition-000/telemetry/episode-000.jsonl",
+    "bytes": 2818721,
+    "sha256": "1e4aaa1046093eeefc7db3b14b47ebde41d361eaa6370ec1970d86d6048bb2de"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/physical/smoke/target_only/pnp_counter_to_sink/job.json",
+    "bytes": 1206,
+    "sha256": "7456c176131fda1b53d298ee8259e07432dba27cda03125b972718caccff243a"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/physical/smoke/target_only/pnp_sink_to_counter/acceptance.json",
+    "bytes": 1878,
+    "sha256": "8cffc8b7b5114cd7f0edf755b9aafc5e4a07b91b952156594b0ee65c5ef4f7f7"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/physical/smoke/target_only/pnp_sink_to_counter/condition-000/acceptance.json",
+    "bytes": 1564,
+    "sha256": "ebe16fa6c3abdf6dfac69b04cb7921921eac2636e8600958002ac7963b5553e8"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/physical/smoke/target_only/pnp_sink_to_counter/condition-000/episode.json",
+    "bytes": 913,
+    "sha256": "b8fcc0959189fc334c80daa901636cd3ddcfe1c32e4dde5d25b800164dc42576"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/physical/smoke/target_only/pnp_sink_to_counter/condition-000/launch.json",
+    "bytes": 264,
+    "sha256": "d5ffb234c09ad2e5bb0a92a04ac1fb393873200780b9dd0d24ea2fbe33da43ee"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/physical/smoke/target_only/pnp_sink_to_counter/condition-000/rollout.mp4",
+    "bytes": 1656555,
+    "sha256": "507821c964fea88a24451607f0e2742e01fc1617c2f6da5c02e97347c282db72"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/physical/smoke/target_only/pnp_sink_to_counter/condition-000/telemetry/episode-000.h5",
+    "bytes": 2136055,
+    "sha256": "5b673d4cf42a33537a70ecdffb7164e5207ef944792716ed47fc30cf085eebef"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/physical/smoke/target_only/pnp_sink_to_counter/condition-000/telemetry/episode-000.jsonl",
+    "bytes": 3495766,
+    "sha256": "369da267daf2a19224cf21ea662cf43126c1bdab72ffc6789ee3c0bc80dda6b7"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/physical/smoke/target_only/pnp_sink_to_counter/job.json",
+    "bytes": 1205,
+    "sha256": "2e6487a8e3bc9a16b52c1d356533987a2c85b353d3b7d76c25e22c6a05e2f4fc"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/probe/source_target/bet/consumed_anchors.csv",
+    "bytes": 2523,
+    "sha256": "b0150231b348e9293e0b1fd7ee14854f054f24f118b28e3ff7499136a6d2555c"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/probe/source_target/bet/latest.pt",
+    "bytes": 111927582,
+    "sha256": "5bd114042c7ae3068b5e763ff2082942c39089a40729c80f542f1079270ffc00"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/probe/source_target/bet/parameter_changes.json",
+    "bytes": 4380,
+    "sha256": "0bcfe7a84f4f14cbb91e6796d94d1cd4077a6fbf98f7c74c3a0658fefed73f1e"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/probe/source_target/bet/resource_start.json",
+    "bytes": 145,
+    "sha256": "f09ae46c830e6d5816561af8a2542fcd164428f4d1987ddea35bf426a96d479f"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/probe/source_target/bet/status.json",
+    "bytes": 737,
+    "sha256": "0efc783506d6552bd46b19485ea6f8f034bee01bca252db7dcd1acaa860ddf6d"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/probe/source_target/bet/updates.csv",
+    "bytes": 90,
+    "sha256": "3817f5c9e2710b2b28e3ff964986fdb2ccff6afe91b0aaae960134bdd28a9574"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/probe/source_target/vqvae/consumed_anchors.csv",
+    "bytes": 9993,
+    "sha256": "87ca2ae5d57c7a9877f7d62042fd2ecc4b8e4fe5507fc7540e261dc209d3f329"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/probe/source_target/vqvae/latest.pt",
+    "bytes": 2156266,
+    "sha256": "8a6705a6cc3ad4bd3db970da15eb195d5a3c02aa62d307b96cba280a982c1403"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/probe/source_target/vqvae/parameter_changes.json",
+    "bytes": 146,
+    "sha256": "8d09de263db30bc72a44a4bd67f733e9f9fba842e03adc8e71f4ddebabd99827"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/probe/source_target/vqvae/resource_start.json",
+    "bytes": 144,
+    "sha256": "f5e3b72dd454e1c22cff2f15edfa081863f665f388d86a5dd1510a0fe73f042d"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/probe/source_target/vqvae/status.json",
+    "bytes": 530,
+    "sha256": "d4575782bce253776da8a921c00acb1378a26b056cf2accddd8464ad7f7b7c2e"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/probe/source_target/vqvae/updates.csv",
+    "bytes": 100,
+    "sha256": "d5316f36730ddb02387c7acee2db918cc96fcab28fc2c805a32ac3a03675e478"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/probe/target_only/bet/consumed_anchors.csv",
+    "bytes": 1279,
+    "sha256": "2c958da248858582b4c818c4be1d15cb4521abc123177195eb0cf4ef7dcd80f8"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/probe/target_only/bet/latest.pt",
+    "bytes": 111927582,
+    "sha256": "05e1abcc01dd45f9ce4ce6e6a15736b8c32ed46f6ffd50e8b4ac858d959ce56d"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/probe/target_only/bet/parameter_changes.json",
+    "bytes": 4380,
+    "sha256": "0bcfe7a84f4f14cbb91e6796d94d1cd4077a6fbf98f7c74c3a0658fefed73f1e"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/probe/target_only/bet/resource_start.json",
+    "bytes": 145,
+    "sha256": "a7c8a6bdcdfcf6eddcd7652dd8a60b8af90a9a676f298a35c363e4e67e65db11"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/probe/target_only/bet/status.json",
+    "bytes": 716,
+    "sha256": "3bc444723f5247fceee1584ff342d5a59cad74a0b3c450db462710fafc9ea4ff"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/probe/target_only/bet/updates.csv",
+    "bytes": 90,
+    "sha256": "5e00937f824f707afb10fdeeb1aa6124bea53fd7fc7d52fc1577b3ea39089bcd"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/probe/target_only/vqvae/consumed_anchors.csv",
+    "bytes": 5013,
+    "sha256": "a1bdc9a55158a5de4bd7976cb7f45c9f6c0a7ead5aeeb4e4a0223b806e357078"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/probe/target_only/vqvae/latest.pt",
+    "bytes": 2156266,
+    "sha256": "d8c23b8bd14bf51183252e62043fff79435d1d4cd5162b0df584c6ce752d0e15"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/probe/target_only/vqvae/parameter_changes.json",
+    "bytes": 146,
+    "sha256": "8d09de263db30bc72a44a4bd67f733e9f9fba842e03adc8e71f4ddebabd99827"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/probe/target_only/vqvae/resource_start.json",
+    "bytes": 144,
+    "sha256": "44cee0cdffd6a8b4f5604fa8c9cd802683ab6a7d238997ff36854470e2bafc1c"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/probe/target_only/vqvae/status.json",
+    "bytes": 511,
+    "sha256": "513a352c9197474a7f729048e35f6f65af5774a0e5ed97d17d5621c7d5f799be"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet/probe/target_only/vqvae/updates.csv",
+    "bytes": 98,
+    "sha256": "e0088b8d313333c8c1816959f026c274c2aabe15e114d6a4308643dfef3c1eea"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet_input_code_attempt0/PROTOCOL.md",
+    "bytes": 3652,
+    "sha256": "b568c4414506dd63090be603ae954733dcfd87f315c35ba1973d75081d82fa78"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet_input_code_attempt0/README.md",
+    "bytes": 598,
+    "sha256": "380838b9cf2bdb09aa2abe69c1efe86869bc4bde04dcdcf453f3817fac8ca627"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet_input_code_attempt0/accept_inputs.py",
+    "bytes": 1998,
+    "sha256": "bc6f10233f3a8dbcee071879a269288c6b49f0b504477235c2af1d5c9b8685fc"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet_input_code_attempt0/candidate_protocol.json",
+    "bytes": 3634,
+    "sha256": "45e818a566081f5e867db4f98b08c0d9cdae8bae7abcd9c417cd18bb090af305"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet_input_code_attempt0/data.py",
+    "bytes": 2183,
+    "sha256": "ae6ad54cd6db5ebaff59b2262655e2f1328de1648b418d173bc9f6050e66c8b0"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet_input_code_attempt0/data_inventory.json",
+    "bytes": 107020,
+    "sha256": "56b251f1931c764ba988106a47fff23a15050842a53f2cdf2417216323f309a6"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet_input_code_attempt0/environment.json",
+    "bytes": 4843,
+    "sha256": "0c168b7ba71c5c271d1dfac0512af02cc4cb33c846c1ebd69c2048d575db0bc6"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet_input_code_attempt0/input_numeric_diagnosis.json",
+    "bytes": 2247,
+    "sha256": "a79be1f7306b8df82311443e6ade62a2e0c706b8ef08a1ea1b0b303a63b363d6"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet_input_code_attempt0/model.py",
+    "bytes": 2811,
+    "sha256": "c650c4c884e8bff43969d233aa465612ea7fc7ae33b3454b5b24b54963ab6ed1"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet_input_code_attempt0/official_io.patch",
+    "bytes": 1220,
+    "sha256": "7d121ae17cbd23bbfc8e48a2a7891db6a273e81edfcd3ca1107fc1f50cfca2b0"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet_input_code_attempt0/official_source.json",
+    "bytes": 3826,
+    "sha256": "6b1f1a9704f23ae79081932a810694a5a76583b5e331e67a7e5a76600d3f3317"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet_input_code_attempt0/preflight_resources.json",
+    "bytes": 145,
+    "sha256": "8810095399cf02691a7820b04d3cacb57219947110b282d7a10e55dad7f2141b"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet_input_code_attempt0/prepare.py",
+    "bytes": 10387,
+    "sha256": "4a92843bdb3aa2bae97c4acd73cd460f96b5769229a0ac3429db790ef93945ea"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet_input_code_attempt0/probe_acceptance.json",
+    "bytes": 192,
+    "sha256": "5d9165dfafb7134dcfb67b5948313536ae6e1cd30e8556b8a14f5fbce515128d"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet_input_code_attempt0/probe_source_target_bet.json",
+    "bytes": 1039,
+    "sha256": "3f959430260497773110107293c18946f565ef3c6c101b5a8dd3459fbecad872"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet_input_code_attempt0/probe_source_target_vqvae.json",
+    "bytes": 836,
+    "sha256": "a31e44dc83fae009e470e4837c617f708bb40e2bd98178678ed9ce641827f704"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet_input_code_attempt0/probe_target_only_bet.json",
+    "bytes": 1014,
+    "sha256": "a478c5a3ff98193be3d4f8891277bea37c822df3f5c6e0fd461a2bca3b8dd30e"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet_input_code_attempt0/probe_target_only_vqvae.json",
+    "bytes": 813,
+    "sha256": "4a8c7ed722650acc58105e98294b0005ce525c9b810484bab98d945bb91f3ea8"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet_input_code_attempt0/report.py",
+    "bytes": 7086,
+    "sha256": "359e51838b631c359ee86c550159e9e560955ee89dde5f7f53f793125bba4620"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet_input_code_attempt0/run.py",
+    "bytes": 3260,
+    "sha256": "0fa8c99a5ef11e88447c0b9ab0d9a452e86224e0ad5e6b64b32eea7e202c1b47"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet_input_code_attempt0/smoke_source_target_pnp_counter_to_sink.json",
+    "bytes": 1887,
+    "sha256": "e60f7306d40d664a76658730962b34a3268dc4c6b442d1ba1916d03a67b04e06"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet_input_code_attempt0/smoke_source_target_pnp_sink_to_counter.json",
+    "bytes": 1887,
+    "sha256": "83396cf75145aea30ecbaa983c1525482640ba217127083716b1fb2e810b01ca"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet_input_code_attempt0/smoke_target_only_pnp_counter_to_sink.json",
+    "bytes": 1878,
+    "sha256": "9d27d842d7cfa3063db23ac13c2cff0665f4d3a07b0f6e5baacfd4f226e015e1"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet_input_code_attempt0/smoke_target_only_pnp_sink_to_counter.json",
+    "bytes": 1878,
+    "sha256": "8cffc8b7b5114cd7f0edf755b9aafc5e4a07b91b952156594b0ee65c5ef4f7f7"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet_input_code_attempt0/status.json",
+    "bytes": 196,
+    "sha256": "1ae299bbd53c1d9a63607c8f1540d979f7d98ff56fafe15cae9adbfc1ff8e4ad"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet_input_code_attempt0/test_data.py",
+    "bytes": 1470,
+    "sha256": "23cb34cc90fa79bcdb0ec09fccf65b4fc5fd02fb964b1f4279ef91d37095c817"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet_input_code_attempt0/train.py",
+    "bytes": 11870,
+    "sha256": "979c5d4868d38ac32385c392f21872ed6d1d0097957008f60050869d831ed5b8"
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "method": "vqbet",
+  "group": "target_only",
+  "task": "pnp_sink_to_counter",
+  "role": "DEVELOPMENT_SMOKE",
+  "episodes": 1,
+  "successes": 0,
+  "rows": [
+    {
+      "status": "PASS",
+      "episode": {
+        "method": "vqbet",
+        "group": "target_only",
+        "task": "pnp_sink_to_counter",
+        "robot": "panda",
+        "role": "DEVELOPMENT_SMOKE",
+        "official_condition_index": 0,
+        "condition_id": "e8eacfff7a4460be",
+        "seed": 1000,
+        "success": false,
+        "steps": 650,
+        "checkpoint_sha256": "05e1abcc01dd45f9ce4ce6e6a15736b8c32ed46f6ffd50e8b4ac858d959ce56d",
+        "policy_calls": 650,
+        "mean_prediction_seconds": 0.0037428410100535706,
+        "clipped_dimensions": 4268,
+        "video_path": "/home/users/lemon/strong-baselines-20261112/vqbet/physical/smoke/target_only/pnp_sink_to_counter/condition-000/rollout.mp4",
+        "telemetry_path": "/home/users/lemon/strong-baselines-20261112/vqbet/physical/smoke/target_only/pnp_sink_to_counter/condition-000/telemetry/episode-000.h5",
+        "contact_log": "/home/users/lemon/strong-baselines-20261112/vqbet/physical/smoke/target_only/pnp_sink_to_counter/condition-000/telemetry/episode-000.jsonl"
+      },
+      "decoded_frames": 650,
+      "video_sha256": "507821c964fea88a24451607f0e2742e01fc1617c2f6da5c02e97347c282db72",
+      "telemetry_sha256": "5b673d4cf42a33537a70ecdffb7164e5207ef944792716ed47fc30cf085eebef",
+      "contact_sha256": "369da267daf2a19224cf21ea662cf43126c1bdab72ffc6789ee3c0bc80dda6b7",
+      "exact_action_conversion": true,
+      "official_goal_verified": true,
+      "original_frozen_state_verified": false,
+      "query_audit": "all emitted action queues match saved native chunks",
+      "failure_stage": "CLOSE_WITHOUT_BILATERAL_CONTACT",
+      "failure_stage_is_descriptive_not_causal": true
+    }
+  ]
+}

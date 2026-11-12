@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "episode_id": "b53b3e562f5ffa67158529ce0eb8a98c9502171499b485f7b31018c1f63e5b4d",
+  "frame": 9,
+  "split": "validation",
+  "checkpoint_sha256": "de93e0136b85af75c9d39cfc6a3543b77bf48a3682b09152fc696dede211900c",
+  "max_feature_absolute_difference": 1.1682510375976562e-05,
+  "max_native_action_absolute_difference": 1.52587890625e-05,
+  "same_rgb_and_language": true,
+  "same_code_sampling_seed": true,
+  "causal_window_only": true,
+  "new_optimizer_updates": 0,
+  "new_physics_steps": 0,
+  "raw_image_path": "unmodified official RGB ResNet path",
+  "cache_dtype": "float32"
+}

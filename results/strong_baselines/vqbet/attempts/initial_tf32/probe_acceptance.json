@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "real_stage_updates": 4,
+  "real_optimizer_calls": 6,
+  "physical_smoke_episodes": 4,
+  "probe_weights_discarded_for_formal": true,
+  "success_threshold_used": false
+}

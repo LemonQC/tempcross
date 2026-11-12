@@ -1,0 +1,95 @@
+{
+  "pretrained_weights_exactly_equal": true,
+  "comparisons": {
+    "True_channels_last_10": {
+      "cache_max_abs": 0.0065386295318603516,
+      "cache_relative_l2": 0.0010015026200562716,
+      "strides": [
+        49152,
+        1,
+        384,
+        3
+      ],
+      "precise_reference_max_abs": 0.005610466003417969
+    },
+    "True_channels_last_128": {
+      "cache_max_abs": 0.007315397262573242,
+      "cache_relative_l2": 0.0010152828181162477,
+      "strides": [
+        49152,
+        1,
+        384,
+        3
+      ],
+      "precise_reference_max_abs": 0.0066182613372802734
+    },
+    "True_contiguous_10": {
+      "cache_max_abs": 0.0008463859558105469,
+      "cache_relative_l2": 0.00012922141468152404,
+      "strides": [
+        49152,
+        16384,
+        128,
+        1
+      ],
+      "precise_reference_max_abs": 0.003209352493286133
+    },
+    "True_contiguous_128": {
+      "cache_max_abs": 0.0,
+      "cache_relative_l2": 0.0,
+      "strides": [
+        49152,
+        16384,
+        128,
+        1
+      ],
+      "precise_reference_max_abs": 0.003022909164428711
+    },
+    "False_channels_last_10": {
+      "cache_max_abs": 0.0030193328857421875,
+      "cache_relative_l2": 0.0005615199916064739,
+      "strides": [
+        49152,
+        1,
+        384,
+        3
+      ],
+      "precise_reference_max_abs": 7.3909759521484375e-06
+    },
+    "False_channels_last_128": {
+      "cache_max_abs": 0.0030193328857421875,
+      "cache_relative_l2": 0.0005615199916064739,
+      "strides": [
+        49152,
+        1,
+        384,
+        3
+      ],
+      "precise_reference_max_abs": 7.3909759521484375e-06
+    },
+    "False_contiguous_10": {
+      "cache_max_abs": 0.003022909164428711,
+      "cache_relative_l2": 0.0005615474656224251,
+      "strides": [
+        49152,
+        16384,
+        128,
+        1
+      ],
+      "precise_reference_max_abs": 0.0
+    },
+    "False_contiguous_128": {
+      "cache_max_abs": 0.0030215978622436523,
+      "cache_relative_l2": 0.000561525346711278,
+      "strides": [
+        49152,
+        16384,
+        128,
+        1
+      ],
+      "precise_reference_max_abs": 1.430511474609375e-05
+    }
+  },
+  "new_optimizer_updates": 0,
+  "new_physics_steps": 0
+}

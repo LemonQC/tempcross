@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "actual_probe_stage_updates": 4,
+  "actual_probe_optimizer_calls": 6,
+  "corrected_smoke_episodes": 4,
+  "prior_smoke_episodes": 4,
+  "formal_training_updates": 0,
+  "formal_physical_episodes": 0,
+  "formal_success_rate": null,
+  "resources": {
+    "utc": "2026-11-12T17:29:37.812681+00:00",
+    "gpu": "NVIDIA GeForce RTX 3090, 24576 MiB, 581 MiB, 35 %",
+    "disk_free_bytes": 170789138432
+  },
+  "data": "PASS",
+  "inputs": "PASS",
+  "tests": "PASS",
+  "old_baseline_hashes_unchanged": true
+}

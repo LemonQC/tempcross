@@ -1,0 +1,27 @@
+--- official/vq_behavior_transformer/bet.py
++++ port/vq_behavior_transformer/bet.py
+@@ -85,6 +85,7 @@
+                 in_channels=512,
+                 hidden_channels=[1024],
+             )
++        self._language_header = nn.Linear(768, 1024)  # RGB-language I/O port
+         self._collected_actions = []
+         self._have_fit_kmeans = False
+         self._offset_loss_multiplier = offset_loss_multiplier
+@@ -153,7 +154,7 @@
+                 goal_seq = goal_seq.cuda()
+                 if goal_seq.ndim == 3:
+                     goal_seq = goal_seq.clone().detach()
+-                    goal_seq = self._resnet_header(goal_seq)
++                    goal_seq = self._language_header(goal_seq)  # frozen CLIP language input
+                 else:
+                     if goal_seq.shape[-1] == 3:
+                         goal_seq = (
+@@ -430,6 +431,7 @@
+             )
+         if self.visual_input:
+             optimizer1.add_param_group({"params": self._resnet_header.parameters()})
++        optimizer1.add_param_group({"params": self._language_header.parameters()})
+         self.optimizer1 = optimizer1
+         self.optimizer2 = optimizer2
+         return {"optimizer1": optimizer1, "optimizer2": optimizer2}

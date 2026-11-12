@@ -1,0 +1,87 @@
+{
+  "repository": "https://github.com/jayLEE0301/vq_bet_official",
+  "commit": "09d4851288ca5deaaa1ab367a208e520f8ee9a84",
+  "license": "MIT",
+  "upstream_path": "/home/users/lemon/strong-baselines-20261112/vqbet_input_repair_01/vendor/vq_bet_official",
+  "port_path": "/home/users/lemon/strong-baselines-20261112/vqbet_input_repair_01/vendor/vq_bet_port",
+  "files": {
+    "vq_behavior_transformer/__init__.py": {
+      "upstream_sha256": "b27e31a023226e69d02ef26b348c0cbd62b5dca8081f17e845900b05c1791817",
+      "port_sha256": "b27e31a023226e69d02ef26b348c0cbd62b5dca8081f17e845900b05c1791817",
+      "identical": true
+    },
+    "vq_behavior_transformer/bet.py": {
+      "upstream_sha256": "b311638f0f0536e6c201405c28e0e4300e592b9253656b0fe5e238c2a500fb25",
+      "port_sha256": "0a13b84a29b5c5a851c10f94a86a4cdffbc17447c8e3ccba54eb1f6095a7eeef",
+      "identical": false
+    },
+    "vq_behavior_transformer/gpt.py": {
+      "upstream_sha256": "cc677b362e6eab4bafc1798299cbd62c62ede32ae765cb1499d5801f08896c41",
+      "port_sha256": "cc677b362e6eab4bafc1798299cbd62c62ede32ae765cb1499d5801f08896c41",
+      "identical": true
+    },
+    "vq_behavior_transformer/utils.py": {
+      "upstream_sha256": "39325312cb2608fbe101aea36c261aafea25d974b7734c5206cbcfb09cda6fc9",
+      "port_sha256": "39325312cb2608fbe101aea36c261aafea25d974b7734c5206cbcfb09cda6fc9",
+      "identical": true
+    },
+    "vqvae/__init__.py": {
+      "upstream_sha256": "476030437500cf9a3cd734ae5a8c56e245f5f4d23b6ac6dfe73b873dca84729a",
+      "port_sha256": "476030437500cf9a3cd734ae5a8c56e245f5f4d23b6ac6dfe73b873dca84729a",
+      "identical": true
+    },
+    "vqvae/vqvae.py": {
+      "upstream_sha256": "568aac61aa9cd5e9f8bc67221169aa0b512ddb7e48dee274e61a7df4e8518510",
+      "port_sha256": "568aac61aa9cd5e9f8bc67221169aa0b512ddb7e48dee274e61a7df4e8518510",
+      "identical": true
+    },
+    "vqvae/vqvae_utils.py": {
+      "upstream_sha256": "5dd2a88cf49ec0370d8b012b9e1c9fad27abd70643f02539a4ce77cc018b87aa",
+      "port_sha256": "5dd2a88cf49ec0370d8b012b9e1c9fad27abd70643f02539a4ce77cc018b87aa",
+      "identical": true
+    },
+    "vector_quantize_pytorch/__init__.py": {
+      "upstream_sha256": "a3e42ca771c55b09537f617a5f41cd914a1f8df81a6082333ff1a5e52d14a56f",
+      "port_sha256": "a3e42ca771c55b09537f617a5f41cd914a1f8df81a6082333ff1a5e52d14a56f",
+      "identical": true
+    },
+    "vector_quantize_pytorch/residual_vq.py": {
+      "upstream_sha256": "17d6a1e581d49d487ea35493b1bdb813c739b034b78bd16b4cb22ed6d7b6f4ee",
+      "port_sha256": "17d6a1e581d49d487ea35493b1bdb813c739b034b78bd16b4cb22ed6d7b6f4ee",
+      "identical": true
+    },
+    "vector_quantize_pytorch/vector_quantize_pytorch.py": {
+      "upstream_sha256": "415d7eebb6316deb58179b55087216f92b1b72c3b7177874378c61d2b8133e59",
+      "port_sha256": "415d7eebb6316deb58179b55087216f92b1b72c3b7177874378c61d2b8133e59",
+      "identical": true
+    }
+  },
+  "core_changes": false,
+  "io_changes": [
+    "768-dimensional frozen CLIP language replaces future-goal image/state with a learned 768→1024 prefix projection; registered in official optimizer1",
+    "canonical OSC 7-dimensional actions through native act_dim parameter",
+    "released frozen ResNet18 visual-feature mode"
+  ],
+  "native_preserved": [
+    "residual VQ-VAE with EMA codebooks",
+    "six-layer causal GPT",
+    "native focal code loss and sampled code selection",
+    "native continuous offset loss",
+    "first half both optimizers, second half offset optimizer only"
+  ],
+  "native_preprocessing": {
+    "resize_224": "nearest",
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.255
+    ],
+    "note": "Official blue-channel std .255 deliberately retained"
+  },
+  "not_claimed": "Native UR3 environment, future-goal-image conditioning, paper-scale compute or fine-tuned visual encoder"
+}

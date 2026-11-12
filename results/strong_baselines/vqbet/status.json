@@ -1,8 +1,14 @@
 {
-  "status": "NOT_RUN",
-  "method": "vqbet",
+  "status": "PARTIAL",
+  "stage": "CORRECTED_PROBES_AND_INPUT_ACCEPTED",
   "actual_training_updates": 0,
   "physical_evaluation_episodes": 0,
   "success_rate": null,
-  "technical_repairs": 0
+  "technical_repairs": 1,
+  "prior_probe_stage_updates": 4,
+  "prior_probe_optimizer_calls": 6,
+  "prior_smoke_episodes": 4,
+  "probe_stage_updates": 4,
+  "probe_optimizer_calls": 6,
+  "physical_smoke_episodes": 4
 }
