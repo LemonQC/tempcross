@@ -20,23 +20,23 @@
         "seed": 1000,
         "success": false,
         "steps": 650,
-        "checkpoint_sha256": "b03dfbd846d5e74e91a8fa9c4399764f42558cec757740646e5f444085a555ca",
+        "checkpoint_sha256": "5320ba82f9551e09f8fc4b6f5b856549d936db54ee6efa9ea34b1307b6a524de",
         "policy_calls": 650,
-        "mean_prediction_seconds": 0.00576240321334738,
+        "mean_prediction_seconds": 0.005863749526011256,
         "clipped_dimensions": 0,
-        "video_path": "/home/users/lemon/strong-baselines-20261112/act/physical/smoke/target_only/pnp_sink_to_counter/condition-000/rollout.mp4",
-        "telemetry_path": "/home/users/lemon/strong-baselines-20261112/act/physical/smoke/target_only/pnp_sink_to_counter/condition-000/telemetry/episode-000.h5",
-        "contact_log": "/home/users/lemon/strong-baselines-20261112/act/physical/smoke/target_only/pnp_sink_to_counter/condition-000/telemetry/episode-000.jsonl"
+        "video_path": "/home/users/lemon/strong-baselines-20261112/act_decoder_repair_01/act/physical/smoke/target_only/pnp_sink_to_counter/condition-000/rollout.mp4",
+        "telemetry_path": "/home/users/lemon/strong-baselines-20261112/act_decoder_repair_01/act/physical/smoke/target_only/pnp_sink_to_counter/condition-000/telemetry/episode-000.h5",
+        "contact_log": "/home/users/lemon/strong-baselines-20261112/act_decoder_repair_01/act/physical/smoke/target_only/pnp_sink_to_counter/condition-000/telemetry/episode-000.jsonl"
       },
       "decoded_frames": 650,
-      "video_sha256": "12e4aa28589f1a0e788e54588d28048cb6bf5a1195bc1390c7c0e796c1075a98",
-      "telemetry_sha256": "52c3e338e9574d4d38cd508de79f9396be9378f0275c49e8f8a675d96a674c4b",
-      "contact_sha256": "36dd06bd871c06d603ebfc15a72b33321e9e4a2896bb8ddd3efe075e036b6905",
+      "video_sha256": "6de102d7ca9cada465c471c424dbdfc618e33ee0d639ee8f0fb924f1c13a1560",
+      "telemetry_sha256": "c2e667eee9b80c16a2797853b00fa75931edbd4f8f4b3efc864fbb199607fad0",
+      "contact_sha256": "624dc39f11081c848d441062045db8b512faed3f798fb87c66e92cfcfce934db",
       "exact_action_conversion": true,
       "official_goal_verified": true,
       "original_frozen_state_verified": false,
       "query_audit": "all forecasts and exponential aggregation independently reconstructed",
-      "failure_stage": "NO_CLOSE_COMMAND",
+      "failure_stage": "CLOSE_WITHOUT_BILATERAL_CONTACT",
       "failure_stage_is_descriptive_not_causal": true
     }
   ]

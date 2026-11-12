@@ -1,21 +1,25 @@
 {
-  "utc": "2026-11-12T12:42:14.776257+00:00",
-  "protocol_sha256": "f3650860090ddedf6e2bbfc57c65edb97a3f3d976c904f5d452343bd8f74a3c6",
+  "utc": "2026-11-12T13:21:08.998528+00:00",
+  "server_root": "/home/users/lemon/strong-baselines-20261112/act_decoder_repair_01",
+  "technical_repair_number": 1,
+  "protocol_sha256": "f9343b3642c941cb6106a1ec6f61a2bbc681eab883c4ea795b9b3e2e126fafd5",
   "code_sha256": {
     "baselines/strong/__init__.py": "9b0c0b3dada24abc2952cbd2bd564a0c06b801e7b33279f00aa8489e3f1db92c",
     "baselines/strong/audit.py": "80b9d98b75ad021d731024f84493eea1f0699d020f1a4d463f8c223dfafdce65",
-    "baselines/strong/common.py": "dfbd337882ceb44006959997943f6acafbc40c27a3d5e7c425911e3d41160e0a",
+    "baselines/strong/common.py": "a2e2037051a8135e758bb9f4a463514a0ad4427e951628e7a78dacce75f9faa0",
+    "baselines/strong/consumption.py": "e3956b893c3e10b52252e8ddba3801b00961077a4426a84eee82e42c291001a7",
     "baselines/strong/data.py": "ec216b1b0ae241ec51b37f713e6888eab8d5ce13669b5e997405312872505a50",
     "baselines/strong/evaluate.py": "6d823ea65b156af25b70c08b27ad560740aeee33eb277838ba0b556e401e2856",
     "baselines/strong/matrix.py": "8705c3a2be036c97c2cb8671bc0211f2bd224f1d06e8b37de7ec9535b8444321",
-    "baselines/strong/publication_manifest.py": "4c2d36a3dc158fae461d6ab8485027c9da9825f870f681fa0f7b3dae77bb9550",
+    "baselines/strong/publication_manifest.py": "897235789512c50a5bb6ea0da941357c331d05ce0db5ad8c8351cfd1cb80f7ab",
     "results/strong_baselines/act/finish_probes.py": "31d58b0924311685e33272615ce418976056dfcaa73e10d71df095370658e4a6",
-    "results/strong_baselines/act/freeze.py": "9c6c97b858c492d1c7f4ea1e2650a7115aac75cfe539f3b37c46f6b6d788d635",
-    "results/strong_baselines/act/model.py": "6cbf408c2edaf8867dd514fd3d377dfd96f8f00738e337f0a4240d227f2ef13a",
-    "results/strong_baselines/act/prepare.py": "d233c2c1441ca63d57db53f6c4697644d8ef00b9dfcd2c5f8e867ed7fb3aa9eb",
-    "results/strong_baselines/act/report.py": "fd39055f73de6dacaf9a4a9589bcd143800703f7e1f588702b88cd6002e71ec9",
+    "results/strong_baselines/act/freeze.py": "5ff816ea56a26c0647683edd91a6772c73f15c7f51002ec067ba7a38e8ad2dea",
+    "results/strong_baselines/act/model.py": "6765990cc37e5fa57063f8a231a59f7085c3c1bd1731c43e54bba2c767e17885",
+    "results/strong_baselines/act/prepare.py": "98d9dc43190a72ebf3974f68b85ab6530ff69889976d1b9e32b126b04b8151e2",
+    "results/strong_baselines/act/repair_and_run.py": "60ca9c86f1a41a3f9fc05d769bbe125d5b9b53ef397683f1fb6660918519bb03",
+    "results/strong_baselines/act/report.py": "a0019577a977dcd7515097df80f5f1700c853624afdf8230b19917ee7111c9a0",
     "results/strong_baselines/act/run.py": "2cfe29fa491829226486ceb2c763e544d935a5b09e39f7de22a68c12b965f8af",
-    "results/strong_baselines/act/train.py": "13615c6774a9130aa5103ef8a0f3cbd9a7c8a02b72425fc628eb60cdffe87325",
+    "results/strong_baselines/act/train.py": "8581f53b4b78fc97f7b4fe5bf159775288b360dcd7ee05737f9cb147678ba1f5",
     "tests/test_strong_baseline_data.py": "1a257ccb7a83a88c2e7fc563d03fd8b3bd9d9dfb6cf1d7bbe1e4fea2c3b3ccb9"
   },
   "data_freeze": {
@@ -89,9 +93,9 @@
   },
   "probe_acceptance_sha256": "685ef5b29c729b59e00436391863657c082f82bb79f4c66882f1ddb49f9f4951",
   "resources": {
-    "utc": "2026-11-12T12:42:14.804448+00:00",
-    "gpu": "NVIDIA GeForce RTX 3090, 24576 MiB, 585 MiB, 36 %",
-    "disk_free_bytes": 180580151296
+    "utc": "2026-11-12T13:21:09.048274+00:00",
+    "gpu": "NVIDIA GeForce RTX 3090, 24576 MiB, 581 MiB, 19 %",
+    "disk_free_bytes": 177115213824
   },
   "success_based_tuning": false,
   "formal_reference_role": "EXPOSED_REFERENCE"

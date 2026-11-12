@@ -20,23 +20,23 @@
         "seed": 1000,
         "success": false,
         "steps": 600,
-        "checkpoint_sha256": "5796cda7a94d3d6dad7cc64ffdd23daccbde7e0bb751703334969e5a7615e41d",
+        "checkpoint_sha256": "7381ea60835d955b1c7785f54056cbdaa5eb304cb7749b1b924046ca7618ada9",
         "policy_calls": 600,
-        "mean_prediction_seconds": 0.005739356174599379,
-        "clipped_dimensions": 65,
-        "video_path": "/home/users/lemon/strong-baselines-20261112/act/physical/smoke/source_target/pnp_counter_to_sink/condition-000/rollout.mp4",
-        "telemetry_path": "/home/users/lemon/strong-baselines-20261112/act/physical/smoke/source_target/pnp_counter_to_sink/condition-000/telemetry/episode-000.h5",
-        "contact_log": "/home/users/lemon/strong-baselines-20261112/act/physical/smoke/source_target/pnp_counter_to_sink/condition-000/telemetry/episode-000.jsonl"
+        "mean_prediction_seconds": 0.005809478820301592,
+        "clipped_dimensions": 0,
+        "video_path": "/home/users/lemon/strong-baselines-20261112/act_decoder_repair_01/act/physical/smoke/source_target/pnp_counter_to_sink/condition-000/rollout.mp4",
+        "telemetry_path": "/home/users/lemon/strong-baselines-20261112/act_decoder_repair_01/act/physical/smoke/source_target/pnp_counter_to_sink/condition-000/telemetry/episode-000.h5",
+        "contact_log": "/home/users/lemon/strong-baselines-20261112/act_decoder_repair_01/act/physical/smoke/source_target/pnp_counter_to_sink/condition-000/telemetry/episode-000.jsonl"
       },
       "decoded_frames": 600,
-      "video_sha256": "cd6234d9429b44e5475043b3a002b7e0e1254b42b17f98a6b4c51418351bcf3e",
-      "telemetry_sha256": "7611d98c26a8598f96ad1afdc7eecc06e0345f3cc35dd9c2f2a5444cf6ef3e18",
-      "contact_sha256": "28a40984d92a33ccd6ed2e083d11faffc3e789f2c231376781d7f593b2aac387",
+      "video_sha256": "ab454fb93bee4c3c6d1c88bd7290f9ca3495debeddb386a4740633cc974ca5d0",
+      "telemetry_sha256": "236960d6b2866b5ef25c1f95a372b29c855132da3a6d68bd21732ad113b0760f",
+      "contact_sha256": "f3e486fc3a365831a115f48d3860f3c7a98b3da377bda513dc9746e884d1bf76",
       "exact_action_conversion": true,
       "official_goal_verified": true,
       "original_frozen_state_verified": false,
       "query_audit": "all forecasts and exponential aggregation independently reconstructed",
-      "failure_stage": "NO_CLOSE_COMMAND",
+      "failure_stage": "CLOSE_WITHOUT_BILATERAL_CONTACT",
       "failure_stage_is_descriptive_not_causal": true
     }
   ]

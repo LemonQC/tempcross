@@ -5,14 +5,14 @@
   "actual_optimizer_updates": 1,
   "target_anchor_exposures": 16,
   "source_anchor_exposures": 16,
-  "started_utc": "2026-11-12T12:39:27.283025+00:00",
+  "started_utc": "2026-11-12T13:19:12.526852+00:00",
   "validation_history": [],
   "best": null,
-  "elapsed_seconds": 1.2610834361985326,
+  "elapsed_seconds": 1.31750255683437,
   "peak_gpu_allocated_bytes": 2999394304,
   "peak_gpu_reserved_bytes": 3376414720,
-  "changed_parameter_tensors": 150,
-  "server_status": "/home/users/lemon/strong-baselines-20261112/act/probe/source_target/status.json",
-  "checkpoint": "/home/users/lemon/strong-baselines-20261112/act/probe/source_target/latest.pt",
-  "checkpoint_sha256": "5796cda7a94d3d6dad7cc64ffdd23daccbde7e0bb751703334969e5a7615e41d"
+  "changed_parameter_tensors": 258,
+  "server_status": "/home/users/lemon/strong-baselines-20261112/act_decoder_repair_01/act/probe/source_target/status.json",
+  "checkpoint": "/home/users/lemon/strong-baselines-20261112/act_decoder_repair_01/act/probe/source_target/latest.pt",
+  "checkpoint_sha256": "7381ea60835d955b1c7785f54056cbdaa5eb304cb7749b1b924046ca7618ada9"
 }

@@ -1,5 +1,5 @@
---- /home/users/lemon/strong-baselines-20261112/vendor/act/detr/models/detr_vae.py	2026-11-12 07:29:50.893431763 -0500
-+++ /home/users/lemon/strong-baselines-20261112/vendor/act_port/detr/models/detr_vae.py	2026-11-12 07:33:44.723182568 -0500
+--- /home/users/lemon/strong-baselines-20261112/act_decoder_repair_01/vendor/act/detr/models/detr_vae.py	2026-11-12 07:29:50.893431763 -0500
++++ /home/users/lemon/strong-baselines-20261112/act_decoder_repair_01/vendor/act_port/detr/models/detr_vae.py	2026-11-12 08:09:20.276645545 -0500
 @@ -55,10 +55,10 @@
          if backbones is not None:
              self.input_proj = nn.Conv2d(backbones[0].num_channels, hidden_dim, kernel_size=1)
@@ -24,6 +24,15 @@
          self.latent_proj = nn.Linear(hidden_dim, self.latent_dim*2) # project hidden state to latent std, var
          self.register_buffer('pos_table', get_sinusoid_encoding_table(1+1+num_queries, hidden_dim)) # [CLS], qpos, a_seq
  
+@@ -128,7 +128,7 @@
+             # fold camera dimension into width dimension
+             src = torch.cat(all_cam_features, axis=3)
+             pos = torch.cat(all_cam_pos, axis=3)
+-            hs = self.transformer(src, None, self.query_embed.weight, pos, latent_input, proprio_input, self.additional_pos_embed.weight)[0]
++            hs = self.transformer(src, None, self.query_embed.weight, pos, latent_input, proprio_input, self.additional_pos_embed.weight)[-1]
+         else:
+             qpos = self.input_proj_robot_state(qpos)
+             env_state = self.input_proj_env_state(env_state)
 @@ -227,7 +227,7 @@
  
  

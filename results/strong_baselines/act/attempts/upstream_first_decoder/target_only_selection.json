@@ -1,0 +1,14 @@
+{
+  "checkpoint": "/home/users/lemon/strong-baselines-20261112/act/training/target_only/best.pt",
+  "sha256": "66762ae3c931d81fa733842fb3252a928baeee29c514625c7c1c2f99b0f694e2",
+  "selected": {
+    "l1": 0.5271338690072298,
+    "kl": 0.00026940437965095043,
+    "loss": 0.5298279151320457,
+    "step": 21000
+  },
+  "actual_optimizer_updates": 24000,
+  "target_anchor_exposures": 384000,
+  "source_anchor_exposures": 0,
+  "used_physical_success": false
+}

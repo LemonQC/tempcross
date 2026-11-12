@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "all_seven_decoder_layers_updated_in_both_real_probes": true,
+  "repaired_probe_updates": 2,
+  "repaired_full_physical_smoke_episodes": 4,
+  "reference_evaluations_used_for_repair": 0,
+  "technical_repairs_used": 1
+}

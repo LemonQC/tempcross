@@ -1,0 +1,18 @@
+{
+  "repair_number": 1,
+  "issue": "Official decoder returns every intermediate layer, but DETRVAE takes [0], so deeper decoder layers receive no action-loss gradient.",
+  "evidence": {
+    "official_commit": "742c753c0d4a5d87076c8f69e5628c79a8cc5488",
+    "transformer_blob": "f38afd0eb2211b45a980278294a426b3fa82c96f",
+    "detr_vae_blob": "bccfca75e48e3e9aa179554710ee67536d2436a7",
+    "probe_changed_decoder_parameter_tensors": 17
+  },
+  "correction": "Select the final decoder layer with [-1]; keep all other learning, data, action and benchmark settings.",
+  "old_server_root": "/home/users/lemon/strong-baselines-20261112",
+  "old_attempt_archive": "/home/users/lemon/strong-baselines-20261112/act_upstream_decoder_attempt0",
+  "corrected_server_root": "/home/users/lemon/strong-baselines-20261112/act_decoder_repair_01",
+  "old_attempt_disposition": "Current target-only child finishes its frozen 24000-update stage; orchestrator paused before any reference evaluation. Preserve all original weights/logs/probes. No old formal test exists.",
+  "repeated_due_to_technical_repair_not_session_interruption": true,
+  "reference_evaluations_before_repair": 0,
+  "remaining_technical_repairs": 0
+}

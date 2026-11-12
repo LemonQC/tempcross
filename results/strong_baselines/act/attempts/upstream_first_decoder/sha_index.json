@@ -1,0 +1,542 @@
+[
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act/data/complete.json",
+    "bytes": 2305,
+    "sha256": "ccfa62cbcc19e68ee611869aa70b0451e3c9e4d7b26c0633f595b6f2da500341"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act/data/language.json",
+    "bytes": 308989,
+    "sha256": "b0c2b8905ad3267937fe2dac2e463cd0396fe8f8dd5605319d3dca4b67a7f2ab"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act/data/manifest.json",
+    "bytes": 441865,
+    "sha256": "d8afad228b0fac6534cae3e44c7590af1a2e9cd0edd43618aca19f1370a81c6c"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act/data/source_target_stats.json",
+    "bytes": 449,
+    "sha256": "316d4634e5405a5d89b89662e976df9a8711502e97401c1eeeee3b30256f2fb5"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act/data/source_train.npy",
+    "bytes": 3072128,
+    "sha256": "f1c3d8cc5a2c16c7333904254062a93c344a81154d0e5afb7781b41ccc021870"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act/data/target_only_stats.json",
+    "bytes": 448,
+    "sha256": "75b493d82c5eb071c7d23555a48c50170c4496fb48e042282499c0cd3ce111a2"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act/data/target_train.npy",
+    "bytes": 3072128,
+    "sha256": "d9bd55f71d1a4c59fd86fb54eea652207df3123047a28beb0fc6589eba62fa07"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act/data/validation.npy",
+    "bytes": 2176,
+    "sha256": "c85aeec35a90b1ac75363c06a36be64c36ad7b5a2678d04bb368de20817eb80b"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act/physical/physical_launches.jsonl",
+    "bytes": 920,
+    "sha256": "47b181af3f71d9400dd7db17e24136283640f434c1b069944e8e2652ed13fd44"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act/physical/smoke/source_target/pnp_counter_to_sink/acceptance.json",
+    "bytes": 1878,
+    "sha256": "03d613c91f96e386d4ddfa23ff1d4d9de0f5d4d4c10bad0c7e6c0b1356e90188"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act/physical/smoke/source_target/pnp_counter_to_sink/condition-000/acceptance.json",
+    "bytes": 1564,
+    "sha256": "46a8240d090eeab11c3a0ee9a961604ad13c3afd6b202e7d896a4a75671e52b2"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act/physical/smoke/source_target/pnp_counter_to_sink/condition-000/episode.json",
+    "bytes": 910,
+    "sha256": "3927516d1b7d32b775f341934e5d9e89311134dd75d8c3f09370324b306ed863"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act/physical/smoke/source_target/pnp_counter_to_sink/condition-000/launch.json",
+    "bytes": 264,
+    "sha256": "2511f49b03cb28735ce551c369e7443990b6d05b1090a70871bedf4f8f64ca81"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act/physical/smoke/source_target/pnp_counter_to_sink/condition-000/rollout.mp4",
+    "bytes": 1243017,
+    "sha256": "cd6234d9429b44e5475043b3a002b7e0e1254b42b17f98a6b4c51418351bcf3e"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act/physical/smoke/source_target/pnp_counter_to_sink/condition-000/telemetry/episode-000.h5",
+    "bytes": 5046940,
+    "sha256": "7611d98c26a8598f96ad1afdc7eecc06e0345f3cc35dd9c2f2a5444cf6ef3e18"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act/physical/smoke/source_target/pnp_counter_to_sink/condition-000/telemetry/episode-000.jsonl",
+    "bytes": 2864175,
+    "sha256": "28a40984d92a33ccd6ed2e083d11faffc3e789f2c231376781d7f593b2aac387"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act/physical/smoke/source_target/pnp_counter_to_sink/job.json",
+    "bytes": 1070,
+    "sha256": "47d79bd529a8ca1be8a2a0ec13e4507aeb34321f457e06725cf3cc101101bf93"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act/physical/smoke/source_target/pnp_sink_to_counter/acceptance.json",
+    "bytes": 1876,
+    "sha256": "9ae5758c492f927451841d277fa41cbd054c368ad686ed1bfbbc166acfaae841"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act/physical/smoke/source_target/pnp_sink_to_counter/condition-000/acceptance.json",
+    "bytes": 1562,
+    "sha256": "5975aa34093d47d5da2f27c812b4ab7622e4467ff5dc85b35f36aa81a5320376"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act/physical/smoke/source_target/pnp_sink_to_counter/condition-000/episode.json",
+    "bytes": 908,
+    "sha256": "40446f22e99f68b2142303437624401b47f2bf720d46dc9d703b12918e98c8e1"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act/physical/smoke/source_target/pnp_sink_to_counter/condition-000/launch.json",
+    "bytes": 264,
+    "sha256": "721c372424cf4f1fd47ddbdba43dcb64eefe295379198b8473d2bc59f9ac2666"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act/physical/smoke/source_target/pnp_sink_to_counter/condition-000/rollout.mp4",
+    "bytes": 1125438,
+    "sha256": "31ced1a53771d33aa9cdc7048de3c1765e46c98de6b65298760588b5dc8fca96"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act/physical/smoke/source_target/pnp_sink_to_counter/condition-000/telemetry/episode-000.h5",
+    "bytes": 5361141,
+    "sha256": "fdf63537a67a59f059ccc4458391c7240d177d676975dd27b3a68d31ea109be3"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act/physical/smoke/source_target/pnp_sink_to_counter/condition-000/telemetry/episode-000.jsonl",
+    "bytes": 3526030,
+    "sha256": "f81ce5034c5f8a5c284507734b907f724b368885cb0a647e88b551d6b74c9cdf"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act/physical/smoke/source_target/pnp_sink_to_counter/job.json",
+    "bytes": 1069,
+    "sha256": "91c1927ded0a41d0c0825329c3480b65a57f5eb20bb13d8d7c1d9b209e19b3ec"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act/physical/smoke/target_only/pnp_counter_to_sink/acceptance.json",
+    "bytes": 1869,
+    "sha256": "c48a791549a5b0e144fdb230df3b2d12107df0788131085b0db40b9984196eeb"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act/physical/smoke/target_only/pnp_counter_to_sink/condition-000/acceptance.json",
+    "bytes": 1557,
+    "sha256": "5aaee1ce345c635de88253b7754ac00ee81bafd3b175e3648238504b6b5a5858"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act/physical/smoke/target_only/pnp_counter_to_sink/condition-000/episode.json",
+    "bytes": 903,
+    "sha256": "cd1d334b95e45af12f7d156c76bafc6e229026965840841b2513ecb941be7a0a"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act/physical/smoke/target_only/pnp_counter_to_sink/condition-000/launch.json",
+    "bytes": 262,
+    "sha256": "71c71e91d475cc79930eabcbb3e1c03a234ee28f0757fa24daa6020d93096b2a"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act/physical/smoke/target_only/pnp_counter_to_sink/condition-000/rollout.mp4",
+    "bytes": 1167635,
+    "sha256": "f3c985748c892fee11ef728080d8c3928f93a79aa6ca59ddd434a7afdbace032"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act/physical/smoke/target_only/pnp_counter_to_sink/condition-000/telemetry/episode-000.h5",
+    "bytes": 5077216,
+    "sha256": "87b15506c29cb4f210e92b7ee3f69520f52d226deda2e710b640e6d77beea4a0"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act/physical/smoke/target_only/pnp_counter_to_sink/condition-000/telemetry/episode-000.jsonl",
+    "bytes": 2917350,
+    "sha256": "78414600962ce441dccb4c58ead20c014cde8037d117a1ee7786c1d25a899de3"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act/physical/smoke/target_only/pnp_counter_to_sink/job.json",
+    "bytes": 1066,
+    "sha256": "7c7e7083290fb1520144ac7f8f73ea9dbc3309c31459005767e8efe9bfb38401"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act/physical/smoke/target_only/pnp_sink_to_counter/acceptance.json",
+    "bytes": 1866,
+    "sha256": "81f80e32f5f8d58980a1420c0983fc6389811c1fc835c8527edb54a092f0e4f5"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act/physical/smoke/target_only/pnp_sink_to_counter/condition-000/acceptance.json",
+    "bytes": 1554,
+    "sha256": "abc2d90dd68a9fed3db22bf8914e6351266f8f9be4da4ac9f2fc2dae76665ea9"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act/physical/smoke/target_only/pnp_sink_to_counter/condition-000/episode.json",
+    "bytes": 900,
+    "sha256": "1e2f34c08e945bee122c6850dd56bed22a68a3b62a88b40e7a0a6e821a88c157"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act/physical/smoke/target_only/pnp_sink_to_counter/condition-000/launch.json",
+    "bytes": 262,
+    "sha256": "161c575d6a3029a8fbdc10a461bed1edca8337635ea8cee0cfd5d0bd5e661fae"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act/physical/smoke/target_only/pnp_sink_to_counter/condition-000/rollout.mp4",
+    "bytes": 1090400,
+    "sha256": "12e4aa28589f1a0e788e54588d28048cb6bf5a1195bc1390c7c0e796c1075a98"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act/physical/smoke/target_only/pnp_sink_to_counter/condition-000/telemetry/episode-000.h5",
+    "bytes": 5378679,
+    "sha256": "52c3e338e9574d4d38cd508de79f9396be9378f0275c49e8f8a675d96a674c4b"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act/physical/smoke/target_only/pnp_sink_to_counter/condition-000/telemetry/episode-000.jsonl",
+    "bytes": 3409763,
+    "sha256": "36dd06bd871c06d603ebfc15a72b33321e9e4a2896bb8ddd3efe075e036b6905"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act/physical/smoke/target_only/pnp_sink_to_counter/job.json",
+    "bytes": 1066,
+    "sha256": "32db14828edd41a007d8d5140bea004ab71790da5247b752afb787a7fe76a9ea"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act/probe/source_target/consumed_anchors.csv",
+    "bytes": 2514,
+    "sha256": "d98ae5489d814b67c4f2527f642a42fbc2d6231c4e0fee052dfdcb6131e42e06"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act/probe/source_target/latest.pt",
+    "bytes": 1016895284,
+    "sha256": "5796cda7a94d3d6dad7cc64ffdd23daccbde7e0bb751703334969e5a7615e41d"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act/probe/source_target/parameter_changes.json",
+    "bytes": 7820,
+    "sha256": "1c627f2a373e230d337ce3864fc06cb905de8224f7c7d9e93fac37a6dfc87d43"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act/probe/source_target/resource_start.json",
+    "bytes": 146,
+    "sha256": "9a7ce3a1f3ee835478c7a696b5874941a685f86702e4b13d79ccffa8bfc831bc"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act/probe/source_target/status.json",
+    "bytes": 440,
+    "sha256": "eced1dd14098fc04c5d64e84d80e5231d3cdac01131f34de910e73d5893f708e"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act/probe/source_target/updates.csv",
+    "bytes": 103,
+    "sha256": "9a12899fd8d4097cf4345549ad75f6175093e702d524d76a28cecb5c78770710"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act/probe/target_only/consumed_anchors.csv",
+    "bytes": 1273,
+    "sha256": "cff0a2cc3a22c58d9b17fe9c2f9086b4e470da0dee2bb2df74f7541d435387a4"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act/probe/target_only/latest.pt",
+    "bytes": 1016895284,
+    "sha256": "b03dfbd846d5e74e91a8fa9c4399764f42558cec757740646e5f444085a555ca"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act/probe/target_only/parameter_changes.json",
+    "bytes": 7820,
+    "sha256": "1c627f2a373e230d337ce3864fc06cb905de8224f7c7d9e93fac37a6dfc87d43"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act/probe/target_only/resource_start.json",
+    "bytes": 146,
+    "sha256": "fb2bd24537ec907666c555832f80cd882729b91f0681d68de2da41113d64e21a"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act/probe/target_only/status.json",
+    "bytes": 437,
+    "sha256": "f649dee2de3f3d03eda501fac4df8f26092bd8457934babd06d0dbfb89d11d70"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act/probe/target_only/updates.csv",
+    "bytes": 100,
+    "sha256": "40a12e6861f8fcf1e77c9af72df952b77cc942b1adfb13b53f7de83d7a50fcbe"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act/training/target_only/best.pt",
+    "bytes": 339147950,
+    "sha256": "66762ae3c931d81fa733842fb3252a928baeee29c514625c7c1c2f99b0f694e2"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act/training/target_only/consumed_anchors.csv",
+    "bytes": 31204530,
+    "sha256": "a30f6854631cb63ae151659a65c6673d1f90e689ab4ab4616a23db3a883837c7"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act/training/target_only/latest.pt",
+    "bytes": 1016896628,
+    "sha256": "ce8b2a37d8ae37f9fe8fb237789b81599c610bd8318260ac7335054652ba7617"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act/training/target_only/resource_start.json",
+    "bytes": 146,
+    "sha256": "2b80b0fcd76d5ab16242999f737876877e932bf20d3fafdd787af4baf49ceba9"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act/training/target_only/status.json",
+    "bytes": 3733,
+    "sha256": "34e0cf943698971ff5bdecfb6d09bdc1118625a82f9925aab22611b334ccc130"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act/training/target_only/updates.csv",
+    "bytes": 2051203,
+    "sha256": "142841559f671c38ca525e511496ceb4bdc0248cb85a08be6393131a9d9f9108"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act-data-tests.log",
+    "bytes": 416,
+    "sha256": "95aca5126685b38dff6757035cae0e20a7905c1f616ae3a11dcf9c21547a440b"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act-prepare.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act-probe-source_target.log",
+    "bytes": 758,
+    "sha256": "ab7debc56afff62660570a075d08fea05b20a889b21c88ebd54106a2087fbc0c"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act-probe-target.log",
+    "bytes": 14298,
+    "sha256": "e4da5b24f5e328a6c61c5491f3fce0758394ea4318c228ed0843188d465cd95a"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act-probe-target_only.log",
+    "bytes": 90,
+    "sha256": "de019244522cb0c21f66c8e110f0d3361b392ea50d5007942b37c50aed763a05"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act-probes-all.log",
+    "bytes": 102,
+    "sha256": "cab5cf18c2c8609872c85cc7765d16e0246f5a5d9ae27f5b1de94c51f31f59bb"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act-run.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act-smoke-source_target-pnp_counter_to_sink.log",
+    "bytes": 2892,
+    "sha256": "ae87bdbf87042a721967e87117f9f3ff30c1103c2ab21b3d516a4f20ad615f1c"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act-smoke-source_target-pnp_sink_to_counter.log",
+    "bytes": 2890,
+    "sha256": "685059104bd4d46327950eaba01c085afb0723bdfa4968f09fa966e971da1599"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act-smoke-target-counter.log",
+    "bytes": 2885,
+    "sha256": "6b163a259f8e3f2dfd5eb47299ac2cba9129144504c19581b2ca088591888dfc"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act-smoke-target_only-pnp_counter_to_sink.log",
+    "bytes": 872,
+    "sha256": "82cc44baa8eef05533c96422d488c6e10e6171114780026f01ec1d4251f1ee7c"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act-smoke-target_only-pnp_sink_to_counter.log",
+    "bytes": 2882,
+    "sha256": "95deb19c73fcb0be141b85f13a25b2aba29bba3ae50af852d9a988e464848534"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act-training-target_only.log",
+    "bytes": 7694,
+    "sha256": "450f6c4511d1888e3f6e7f22f234d0e58f6a786bb346e53dd9a9c72df52f358c"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act_upstream_decoder_attempt0/completed_training_summary.json",
+    "bytes": 4864,
+    "sha256": "259118c38b4381c522e48b5a60d6e5eb13fae7bb3f8162119db58b7af5529965"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act_upstream_decoder_attempt0/repo_act_snapshot/PROTOCOL.md",
+    "bytes": 4791,
+    "sha256": "9d4535bb13245aa6753127bde0c9eb2ec8a80b112d8f93182129182af092c6d3"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act_upstream_decoder_attempt0/repo_act_snapshot/RESUME.md",
+    "bytes": 2209,
+    "sha256": "ec0d9c58f1042858b938c206ff5b9583eef913badc203381fe43af6b4923338e"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act_upstream_decoder_attempt0/repo_act_snapshot/actual_exposure_reconciliation.json",
+    "bytes": 598,
+    "sha256": "59a6ec1f0ba387a82e0d57f959673d43da7cb2e9657d3f5df832e5cd70b711dd"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act_upstream_decoder_attempt0/repo_act_snapshot/candidate_protocol.json",
+    "bytes": 2412,
+    "sha256": "f3650860090ddedf6e2bbfc57c65edb97a3f3d976c904f5d452343bd8f74a3c6"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act_upstream_decoder_attempt0/repo_act_snapshot/data_acceptance.json",
+    "bytes": 1844,
+    "sha256": "402c007e556174b78612856fa0a0534a238959aa7ddd896b59c74ced6104d3d9"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act_upstream_decoder_attempt0/repo_act_snapshot/data_inventory.json",
+    "bytes": 2305,
+    "sha256": "ccfa62cbcc19e68ee611869aa70b0451e3c9e4d7b26c0633f595b6f2da500341"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act_upstream_decoder_attempt0/repo_act_snapshot/environment.json",
+    "bytes": 1952,
+    "sha256": "923cc8eaaf35941fc174265e40dab63bcf6e27f9158116fa712a81989af5f1d1"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act_upstream_decoder_attempt0/repo_act_snapshot/finish_probes.py",
+    "bytes": 1222,
+    "sha256": "31d58b0924311685e33272615ce418976056dfcaa73e10d71df095370658e4a6"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act_upstream_decoder_attempt0/repo_act_snapshot/freeze.json",
+    "bytes": 4606,
+    "sha256": "72390e2285d8701a95934778541c639962e77d071facc0575461dc4a0f315fd9"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act_upstream_decoder_attempt0/repo_act_snapshot/freeze.py",
+    "bytes": 1245,
+    "sha256": "9c6c97b858c492d1c7f4ea1e2650a7115aac75cfe539f3b37c46f6b6d788d635"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act_upstream_decoder_attempt0/repo_act_snapshot/model.py",
+    "bytes": 2191,
+    "sha256": "6cbf408c2edaf8867dd514fd3d377dfd96f8f00738e337f0a4240d227f2ef13a"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act_upstream_decoder_attempt0/repo_act_snapshot/official_io.patch",
+    "bytes": 1979,
+    "sha256": "158469e92163ad536f6557b699985bffc7bfba2b9d0abe406808eeef4e7b50f9"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act_upstream_decoder_attempt0/repo_act_snapshot/official_source.json",
+    "bytes": 1211,
+    "sha256": "a2c17d931c31b5d222428dafdc0dd71b649a7e0803e134c5144888e40f7ee4fa"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act_upstream_decoder_attempt0/repo_act_snapshot/preflight_resources.json",
+    "bytes": 145,
+    "sha256": "60fdd47b76a7a851cef1755b8ac94233be0c559703b2dbff251431d3c7aa57ad"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act_upstream_decoder_attempt0/repo_act_snapshot/prepare.py",
+    "bytes": 2962,
+    "sha256": "d233c2c1441ca63d57db53f6c4697644d8ef00b9dfcd2c5f8e867ed7fb3aa9eb"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act_upstream_decoder_attempt0/repo_act_snapshot/probe_acceptance.json",
+    "bytes": 209,
+    "sha256": "685ef5b29c729b59e00436391863657c082f82bb79f4c66882f1ddb49f9f4951"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act_upstream_decoder_attempt0/repo_act_snapshot/probe_source_target.json",
+    "bytes": 730,
+    "sha256": "8f821405750149d22def57bb57fdedf8067e2542010483865fef26d8c5a6b6a5"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act_upstream_decoder_attempt0/repo_act_snapshot/probe_target_only.json",
+    "bytes": 723,
+    "sha256": "2983f2d122d14f5ee9e50fa2bef3a8369143b36cefcece4cb2987a2a593440cc"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act_upstream_decoder_attempt0/repo_act_snapshot/protocol.json",
+    "bytes": 2412,
+    "sha256": "f3650860090ddedf6e2bbfc57c65edb97a3f3d976c904f5d452343bd8f74a3c6"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act_upstream_decoder_attempt0/repo_act_snapshot/report.py",
+    "bytes": 4873,
+    "sha256": "fd39055f73de6dacaf9a4a9589bcd143800703f7e1f588702b88cd6002e71ec9"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act_upstream_decoder_attempt0/repo_act_snapshot/run.py",
+    "bytes": 1764,
+    "sha256": "2cfe29fa491829226486ceb2c763e544d935a5b09e39f7de22a68c12b965f8af"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act_upstream_decoder_attempt0/repo_act_snapshot/smoke_source_target_pnp_counter_to_sink.json",
+    "bytes": 1878,
+    "sha256": "03d613c91f96e386d4ddfa23ff1d4d9de0f5d4d4c10bad0c7e6c0b1356e90188"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act_upstream_decoder_attempt0/repo_act_snapshot/smoke_source_target_pnp_sink_to_counter.json",
+    "bytes": 1876,
+    "sha256": "9ae5758c492f927451841d277fa41cbd054c368ad686ed1bfbbc166acfaae841"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act_upstream_decoder_attempt0/repo_act_snapshot/smoke_target_only_pnp_counter_to_sink.json",
+    "bytes": 1869,
+    "sha256": "c48a791549a5b0e144fdb230df3b2d12107df0788131085b0db40b9984196eeb"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act_upstream_decoder_attempt0/repo_act_snapshot/smoke_target_only_pnp_sink_to_counter.json",
+    "bytes": 1866,
+    "sha256": "81f80e32f5f8d58980a1420c0983fc6389811c1fc835c8527edb54a092f0e4f5"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act_upstream_decoder_attempt0/repo_act_snapshot/status.json",
+    "bytes": 258,
+    "sha256": "545ee23a909c2ad9f018c38174593cd7506bbcd291b9a898018703240a6b8fa1"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act_upstream_decoder_attempt0/repo_act_snapshot/train.py",
+    "bytes": 7890,
+    "sha256": "13615c6774a9130aa5103ef8a0f3cbd9a7c8a02b72425fc628eb60cdffe87325"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act_upstream_decoder_attempt0/shared_code_snapshot/__init__.py",
+    "bytes": 77,
+    "sha256": "9b0c0b3dada24abc2952cbd2bd564a0c06b801e7b33279f00aa8489e3f1db92c"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act_upstream_decoder_attempt0/shared_code_snapshot/audit.py",
+    "bytes": 5669,
+    "sha256": "80b9d98b75ad021d731024f84493eea1f0699d020f1a4d463f8c223dfafdce65"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act_upstream_decoder_attempt0/shared_code_snapshot/common.py",
+    "bytes": 2664,
+    "sha256": "dfbd337882ceb44006959997943f6acafbc40c27a3d5e7c425911e3d41160e0a"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act_upstream_decoder_attempt0/shared_code_snapshot/consumption.py",
+    "bytes": 2641,
+    "sha256": "e3956b893c3e10b52252e8ddba3801b00961077a4426a84eee82e42c291001a7"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act_upstream_decoder_attempt0/shared_code_snapshot/data.py",
+    "bytes": 5220,
+    "sha256": "ec216b1b0ae241ec51b37f713e6888eab8d5ce13669b5e997405312872505a50"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act_upstream_decoder_attempt0/shared_code_snapshot/evaluate.py",
+    "bytes": 8808,
+    "sha256": "6d823ea65b156af25b70c08b27ad560740aeee33eb277838ba0b556e401e2856"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act_upstream_decoder_attempt0/shared_code_snapshot/matrix.py",
+    "bytes": 2089,
+    "sha256": "8705c3a2be036c97c2cb8671bc0211f2bd224f1d06e8b37de7ec9535b8444321"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/act_upstream_decoder_attempt0/shared_code_snapshot/publication_manifest.py",
+    "bytes": 2499,
+    "sha256": "4c2d36a3dc158fae461d6ab8485027c9da9825f870f681fa0f7b3dae77bb9550"
+  }
+]

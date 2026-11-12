@@ -1,0 +1,14 @@
+{
+  "status": "RUNNING",
+  "group": "target_only",
+  "role": "FROZEN_FORMAL_TRAINING",
+  "actual_optimizer_updates": 0,
+  "target_anchor_exposures": 0,
+  "source_anchor_exposures": 0,
+  "started_utc": "2026-11-12T13:21:09.708176+00:00",
+  "validation_history": [],
+  "best": null,
+  "server_status": "/home/users/lemon/strong-baselines-20261112/act_decoder_repair_01/act/training/target_only/status.json",
+  "server_root": "/home/users/lemon/strong-baselines-20261112/act_decoder_repair_01",
+  "technical_repair_number": 1
+}

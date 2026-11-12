@@ -6,6 +6,9 @@
   "probe_optimizer_updates": 2,
   "physical_evaluation_episodes": 0,
   "success_rate": null,
-  "technical_repairs": 0,
-  "physical_smoke_episodes": 4
+  "technical_repairs": 1,
+  "physical_smoke_episodes": 4,
+  "active_server_root": "/home/users/lemon/strong-baselines-20261112/act_decoder_repair_01",
+  "original_attempt_preserved": true,
+  "corrected_actual_training_updates": 0
 }

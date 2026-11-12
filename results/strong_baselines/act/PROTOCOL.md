@@ -1,5 +1,7 @@
 # ACT: RGB/language/canonical-OSC faithful port
 
+**Technical repair 1 (before any reference evaluation):** the pinned official transformer returns all intermediate decoder outputs, while its caller selects `[0]`. The original probe showed gradients in only the first decoder layer despite seven configured layers. The active port selects `[-1]`, so the full configured decoder receives the action loss. This is an explicit implementation difference, not a silent claim of exact official execution. Original protocol/code/probes and the first target-only training attempt remain under the archive listed in `technical_repair.json`; none supplies the corrected model's formal result. No further technical repair is permitted for ACT.
+
 This is an adaptation of the [official ACT implementation](https://github.com/tonyzhaozh/act/tree/742c753c0d4a5d87076c8f69e5628c79a8cc5488), MIT license. The candidate configuration is `candidate_protocol.json`; it becomes the immutable `protocol.json` only after both real-update probes and all four full-horizon physical smoke runs pass acceptance. The native ALOHA setup is not claimed reproduced.
 
 ## Preserved core and declared differences

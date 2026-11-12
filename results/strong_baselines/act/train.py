@@ -36,6 +36,8 @@ def main():
     if state_path.exists() and not resume.exists():raise RuntimeError('An incomplete non-resumable attempt must be preserved and reviewed')
     target_batch=cfg['target_batch'];budget=1 if a.probe else cfg['optimizer_updates_per_group']
     state=dict(status='RUNNING',group=a.group,role='DISCARDED_PROBE' if a.probe else 'FROZEN_FORMAL_TRAINING',actual_optimizer_updates=0,target_anchor_exposures=0,source_anchor_exposures=0,started_utc=now(),validation_history=[],best=None)
+    if not a.probe:
+        write(out('act')/('training_'+a.group+'.json'),dict(state,server_status=str(state_path),server_root=str(ROOT),technical_repair_number=1))
     model=make();optimizer=model.configure_optimizers();stats=read(ROOT/'act/data'/(a.group+'_stats.json'))
     if resume.exists():
         saved=torch.load(resume,map_location='cpu',weights_only=False)

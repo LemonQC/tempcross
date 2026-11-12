@@ -34,7 +34,7 @@ def main():
         trees.append(dict(path=path,sha=git('rev-parse',ref),entries=entries))
     # Root is always last, including when one top-level path has depth zero.
     trees.sort(key=lambda r:(r['path']=='',-len(Path(r['path']).parts),r['path']))
-    manifest=dict(repository='LemonQC/tempcross',branch='main',base=base,local_commit=commit,tree=git('rev-parse','HEAD^{tree}'),files=files,trees=trees)
+    manifest=dict(repository='LemonQC/tempcross',branch='main',base=base,local_commit=commit,message=git('log','-1','--format=%s'),tree=git('rev-parse','HEAD^{tree}'),files=files,trees=trees)
     dest=ROOT/'publications'/commit/'manifest.json';write(dest,manifest)
     print(json.dumps(dict(path=str(dest),base=base,commit=commit,files=len(files),trees=len(trees))))
 

@@ -1,8 +1,10 @@
 """Official ACTPolicy with the recorded dimensional I/O patch."""
 import sys
-from baselines.strong.common import ROOT,read
+from baselines.strong.common import ROOT,read,out
 
 def make():
+    repair=read(out('act')/'technical_repair.json')
+    assert str(ROOT)==repair['corrected_server_root'],'Set STRONG_BASELINE_RUN_ROOT to the corrected ACT root; original attempt remains separate.'
     sys.path[:0]=[str(ROOT/'vendor/act_port'),str(ROOT/'vendor/act_port/detr')]
     from policy import ACTPolicy
     previous=sys.argv
@@ -18,7 +20,8 @@ class Policy:
         self.model=make();saved=torch.load(checkpoint,map_location='cpu',weights_only=False)
         self.model.load_state_dict(saved['model']);self.model.eval();self.model.requires_grad_(False)
         self.language=read(ROOT/'act/data/language.json');self.stats=saved['stats'];self.mean=np.asarray(self.stats['mean']);self.std=np.asarray(self.stats['std'])
-        self.reset();self.runtime_metadata=dict(model='official_ACTPolicy_IO_port',temporal_aggregation=True,queries=100,k=.01,information=['RGB','frozen CLIP instruction'])
+        self.reset();self.runtime_metadata=dict(model='ACTPolicy_IO_port_with_declared_final_decoder_repair',
+            decoder_output='last_of_7',technical_repair_number=1,temporal_aggregation=True,queries=100,k=.01,information=['RGB','frozen CLIP instruction'])
     def reset(self):self.forecasts=[];self.t=0
     def predict_action(self,obs):
         import cv2,numpy as np,torch

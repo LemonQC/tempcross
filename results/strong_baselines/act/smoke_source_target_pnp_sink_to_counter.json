@@ -20,23 +20,23 @@
         "seed": 1000,
         "success": false,
         "steps": 650,
-        "checkpoint_sha256": "5796cda7a94d3d6dad7cc64ffdd23daccbde7e0bb751703334969e5a7615e41d",
+        "checkpoint_sha256": "7381ea60835d955b1c7785f54056cbdaa5eb304cb7749b1b924046ca7618ada9",
         "policy_calls": 650,
-        "mean_prediction_seconds": 0.00573312227256023,
+        "mean_prediction_seconds": 0.00580962510421299,
         "clipped_dimensions": 0,
-        "video_path": "/home/users/lemon/strong-baselines-20261112/act/physical/smoke/source_target/pnp_sink_to_counter/condition-000/rollout.mp4",
-        "telemetry_path": "/home/users/lemon/strong-baselines-20261112/act/physical/smoke/source_target/pnp_sink_to_counter/condition-000/telemetry/episode-000.h5",
-        "contact_log": "/home/users/lemon/strong-baselines-20261112/act/physical/smoke/source_target/pnp_sink_to_counter/condition-000/telemetry/episode-000.jsonl"
+        "video_path": "/home/users/lemon/strong-baselines-20261112/act_decoder_repair_01/act/physical/smoke/source_target/pnp_sink_to_counter/condition-000/rollout.mp4",
+        "telemetry_path": "/home/users/lemon/strong-baselines-20261112/act_decoder_repair_01/act/physical/smoke/source_target/pnp_sink_to_counter/condition-000/telemetry/episode-000.h5",
+        "contact_log": "/home/users/lemon/strong-baselines-20261112/act_decoder_repair_01/act/physical/smoke/source_target/pnp_sink_to_counter/condition-000/telemetry/episode-000.jsonl"
       },
       "decoded_frames": 650,
-      "video_sha256": "31ced1a53771d33aa9cdc7048de3c1765e46c98de6b65298760588b5dc8fca96",
-      "telemetry_sha256": "fdf63537a67a59f059ccc4458391c7240d177d676975dd27b3a68d31ea109be3",
-      "contact_sha256": "f81ce5034c5f8a5c284507734b907f724b368885cb0a647e88b551d6b74c9cdf",
+      "video_sha256": "5a1690f1eb552458d755c13c31c83864750e750262cca7058f09bf9f4906c73c",
+      "telemetry_sha256": "bb3b2498d5a904d0b43b11f31d4972b2fffd8f2c9d669f56678eb2b12e08f593",
+      "contact_sha256": "a781ebf82c01dca7d9179eec70bfc2917b78d2f9b93d52dbb1369bce9585666d",
       "exact_action_conversion": true,
       "official_goal_verified": true,
       "original_frozen_state_verified": false,
       "query_audit": "all forecasts and exponential aggregation independently reconstructed",
-      "failure_stage": "NO_CLOSE_COMMAND",
+      "failure_stage": "CLOSE_WITHOUT_BILATERAL_CONTACT",
       "failure_stage_is_descriptive_not_causal": true
     }
   ]

@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "episodes_checked": 700,
+  "canonical_actions_finite_and_bounded": true,
+  "rgb_and_action_lengths_match": true,
+  "raw_pack_hash_reference": "Existing immutable pack-completion manifests; not claiming a new full RGB byte scan.",
+  "pack_references": {
+    "target": {
+      "status": "COMPLETE",
+      "demonstrations": 100,
+      "train": 90,
+      "validation": 10,
+      "packed_file": "/home/users/lemon/baseline-benchmark/run-20261109/data/target.h5",
+      "bytes": 1306650604,
+      "sha256": "f26b2fb01808b5be41648b854d40aefe1060e5d05128e8336af185e33c648bba",
+      "image_resolution": [
+        128,
+        128
+      ],
+      "terminal_action_rule": "official RLDS: repeat previous gripper; final arm delta zero",
+      "policy_observations": [
+        "rgb",
+        "verbatim language instruction"
+      ]
+    },
+    "source": {
+      "status": "COMPLETE",
+      "demonstrations": 1800,
+      "train": 1620,
+      "validation": 180,
+      "counts": {
+        "('IIWA', 'pnp_counter_to_sink')": 300,
+        "('Kinova3', 'pnp_counter_to_sink')": 300,
+        "('UR5e', 'pnp_counter_to_sink')": 300,
+        "('UR5e', 'pnp_sink_to_counter')": 300,
+        "('Kinova3', 'pnp_sink_to_counter')": 300,
+        "('IIWA', 'pnp_sink_to_counter')": 300
+      },
+      "packed_file": "/home/users/lemon/baseline-benchmark/run-20261109/data/source.h5",
+      "bytes": 29016448897,
+      "sha256": "28051d1ae35c264e5c895912eb6465e32f16bb472055f23bb832bce9b57270bf",
+      "canonical_gripper": "raw TFDS [-1,+1]; no inverse of pretraining-normalized labels"
+    }
+  },
+  "identity_manifest_sha256": {
+    "target": "ad8c4c7a878e0096a612266674507314c1385c1b0af25b1496df363e11ca4cb5",
+    "source": "fa913dc702e85e4da7ac364609dc714c5cd901b1751480628a1f167efd244298"
+  },
+  "new_model_calls": 0,
+  "new_physics_steps": 0
+}

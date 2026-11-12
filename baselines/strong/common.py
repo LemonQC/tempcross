@@ -6,7 +6,7 @@ from pathlib import Path
 import subprocess
 
 PROJECT=Path(__file__).resolve().parents[2]
-ROOT=Path('/home/users/lemon/strong-baselines-20261112')
+ROOT=Path(os.environ.get('STRONG_BASELINE_RUN_ROOT','/home/users/lemon/strong-baselines-20261112'))
 OLD=Path('/home/users/lemon/baseline-benchmark/run-20261109')
 SOURCE=Path('/home/users/lemon/coft-p2/barx')
 PYTHON=SOURCE/'.venv/bin/python'
