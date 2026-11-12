@@ -1,0 +1,61 @@
+{
+  "status": "COMPLETE_EVIDENCE_NEGATIVE_METHOD_GATE",
+  "candidate": "TOCAT_v0",
+  "primary_factual_episodes": 1617,
+  "demonstrations": 1900,
+  "coverage": [
+    {
+      "corpus": "barx_adaptation_160",
+      "episodes": 160,
+      "official_successes": 39,
+      "bilateral_contact_anchors": 69,
+      "contact_then_success": 39,
+      "contact_then_not_complete": 30,
+      "early_stop_before_benchmark": 0,
+      "certified_intrinsic_infeasibility_labels": 0
+    },
+    {
+      "corpus": "baseline_1280",
+      "episodes": 1280,
+      "official_successes": 69,
+      "bilateral_contact_anchors": 187,
+      "contact_then_success": 69,
+      "contact_then_not_complete": 118,
+      "early_stop_before_benchmark": 0,
+      "certified_intrinsic_infeasibility_labels": 0
+    },
+    {
+      "corpus": "mimicgen_augmentation_177",
+      "episodes": 177,
+      "official_successes": 63,
+      "bilateral_contact_anchors": 136,
+      "contact_then_success": 63,
+      "contact_then_not_complete": 73,
+      "early_stop_before_benchmark": 114,
+      "certified_intrinsic_infeasibility_labels": 0
+    }
+  ],
+  "matched_handoff_groups": 5,
+  "matched_groups_with_opposite_outcomes": 4,
+  "failed_suffixes_at_physically_witnessed_feasible_handoffs": 7,
+  "source_target_policy_outcome_disagreements": 30,
+  "cross_embodiment_intrinsic_capability_differences_identified": false,
+  "graph_queries": 1622,
+  "supported_positive_queries": 176,
+  "unknown_feasibility_queries": 1446,
+  "all_budget_planner_comparisons": 925754,
+  "meaningfully_different_same_information_decisions": 0,
+  "certified_physical_infeasibility_labels": 0,
+  "symbolic_nonidentifiability": {
+    "two_models_fit_identical_observations": true,
+    "unobserved_option_feasibility_differs": true,
+    "type": "LOGICAL_PROOF_NOT_ROBOT_COUNTERFACTUAL_SUPERVISION"
+  },
+  "learned_policy_or_new_mechanism_implemented": false,
+  "training_updates": 0,
+  "new_physics_steps": 0,
+  "old_baseline_reruns": 0,
+  "decision": "NO_GO_LEARNED_METHOD_IDENTIFIABILITY_AND_NOVELTY_NOT_ESTABLISHED",
+  "stage_b_scope": "factual label extraction, candidate specification checking and planner equivalence; no neural method implemented after gate failure",
+  "independent_unseen_test": false
+}

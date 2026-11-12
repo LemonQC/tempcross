@@ -1,0 +1,4 @@
+corpus,episodes,official_successes,bilateral_contact_anchors,contact_then_success,contact_then_not_complete,early_stop_before_benchmark,certified_intrinsic_infeasibility_labels
+barx_adaptation_160,160,39,69,39,30,0,0
+baseline_1280,1280,69,187,69,118,0,0
+mimicgen_augmentation_177,177,63,136,63,73,114,0

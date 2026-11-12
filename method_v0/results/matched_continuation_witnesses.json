@@ -1,0 +1,302 @@
+[
+  {
+    "condition": 68,
+    "task": "pnp_counter_to_sink",
+    "robot": "panda",
+    "anchor_state_index": 240,
+    "numeric_fields_compared": 149,
+    "max_numeric_error": 0.0,
+    "prefix_actions_and_states_exact": true,
+    "recorded_rng_checks": {
+      "python_rng": true,
+      "numpy_rng": true,
+      "torch_rng": true,
+      "cuda_rng": true,
+      "policy_queue": true,
+      "model_training": true
+    },
+    "model_xml_sha256": "2b5797d0d0ac979476bce27a585e5334d60c9fded7d12cc17044c1f06bb27b41",
+    "snapshot_sha256": {
+      "M0": "0591f4e69a7a2a27c8fc1a75901d6bd9240358b059df50014c7d575ae47bbd48",
+      "M1": "0591f4e69a7a2a27c8fc1a75901d6bd9240358b059df50014c7d575ae47bbd48",
+      "M2": "0591f4e69a7a2a27c8fc1a75901d6bd9240358b059df50014c7d575ae47bbd48"
+    },
+    "suffixes": [
+      {
+        "method": "M0",
+        "success": true,
+        "total_steps": 498,
+        "suffix_steps": 258,
+        "remaining_benchmark_steps": 360,
+        "failure_stage": "OFFICIAL_SUCCESS",
+        "early_stop_censored_for_benchmark": false,
+        "history_path": "/home/users/lemon/mechanism-20261110/condition-068/M0/history.json",
+        "telemetry_path": "/home/users/lemon/mechanism-20261110/condition-068/M0/telemetry/episode-000.h5"
+      },
+      {
+        "method": "M1",
+        "success": true,
+        "total_steps": 444,
+        "suffix_steps": 204,
+        "remaining_benchmark_steps": 360,
+        "failure_stage": "OFFICIAL_SUCCESS",
+        "early_stop_censored_for_benchmark": false,
+        "history_path": "/home/users/lemon/mechanism-20261110/condition-068/M1/history.json",
+        "telemetry_path": "/home/users/lemon/mechanism-20261110/condition-068/M1/telemetry/episode-000.h5"
+      },
+      {
+        "method": "M2",
+        "success": true,
+        "total_steps": 500,
+        "suffix_steps": 260,
+        "remaining_benchmark_steps": 360,
+        "failure_stage": "OFFICIAL_SUCCESS",
+        "early_stop_censored_for_benchmark": false,
+        "history_path": "/home/users/lemon/mechanism-20261110/condition-068/M2/history.json",
+        "telemetry_path": "/home/users/lemon/mechanism-20261110/condition-068/M2/telemetry/episode-000.h5"
+      }
+    ],
+    "opposite_factual_outcomes": false,
+    "role": "EXISTING_OUTCOME_SELECTED_DIAGNOSTIC_ONLY_NOT_A_TRAIN_OR_TEST_SET"
+  },
+  {
+    "condition": 71,
+    "task": "pnp_counter_to_sink",
+    "robot": "panda",
+    "anchor_state_index": 240,
+    "numeric_fields_compared": 149,
+    "max_numeric_error": 0.0,
+    "prefix_actions_and_states_exact": true,
+    "recorded_rng_checks": {
+      "python_rng": true,
+      "numpy_rng": true,
+      "torch_rng": true,
+      "cuda_rng": true,
+      "policy_queue": true,
+      "model_training": true
+    },
+    "model_xml_sha256": "b53a2150de74682ff5661c540e386f2a3eb26271a6f94f166fd33abfe6597280",
+    "snapshot_sha256": {
+      "M0": "791510d5efb28f3f857d0fc95e75eae198f18c56a47c37c10b442963afdb2e88",
+      "M1": "791510d5efb28f3f857d0fc95e75eae198f18c56a47c37c10b442963afdb2e88",
+      "M2": "791510d5efb28f3f857d0fc95e75eae198f18c56a47c37c10b442963afdb2e88"
+    },
+    "suffixes": [
+      {
+        "method": "M0",
+        "success": false,
+        "total_steps": 370,
+        "suffix_steps": 130,
+        "remaining_benchmark_steps": 360,
+        "failure_stage": "POSTGRASP_transport_TIMEOUT",
+        "early_stop_censored_for_benchmark": true,
+        "history_path": "/home/users/lemon/mechanism-20261110/condition-071/M0/history.json",
+        "telemetry_path": "/home/users/lemon/mechanism-20261110/condition-071/M0/telemetry/episode-000.h5"
+      },
+      {
+        "method": "M1",
+        "success": true,
+        "total_steps": 579,
+        "suffix_steps": 339,
+        "remaining_benchmark_steps": 360,
+        "failure_stage": "OFFICIAL_SUCCESS",
+        "early_stop_censored_for_benchmark": false,
+        "history_path": "/home/users/lemon/mechanism-20261110/condition-071/M1/history.json",
+        "telemetry_path": "/home/users/lemon/mechanism-20261110/condition-071/M1/telemetry/episode-000.h5"
+      },
+      {
+        "method": "M2",
+        "success": false,
+        "total_steps": 370,
+        "suffix_steps": 130,
+        "remaining_benchmark_steps": 360,
+        "failure_stage": "POSTGRASP_transport_TIMEOUT",
+        "early_stop_censored_for_benchmark": true,
+        "history_path": "/home/users/lemon/mechanism-20261110/condition-071/M2/history.json",
+        "telemetry_path": "/home/users/lemon/mechanism-20261110/condition-071/M2/telemetry/episode-000.h5"
+      }
+    ],
+    "opposite_factual_outcomes": true,
+    "role": "EXISTING_OUTCOME_SELECTED_DIAGNOSTIC_ONLY_NOT_A_TRAIN_OR_TEST_SET"
+  },
+  {
+    "condition": 72,
+    "task": "pnp_counter_to_sink",
+    "robot": "panda",
+    "anchor_state_index": 236,
+    "numeric_fields_compared": 149,
+    "max_numeric_error": 0.0,
+    "prefix_actions_and_states_exact": true,
+    "recorded_rng_checks": {
+      "python_rng": true,
+      "numpy_rng": true,
+      "torch_rng": true,
+      "cuda_rng": true,
+      "policy_queue": true,
+      "model_training": true
+    },
+    "model_xml_sha256": "f526fd406813a68d122f61d453af3d7dabde852921a5cb51a388601052620f83",
+    "snapshot_sha256": {
+      "M0": "4fd3565b2b789df2590353d4d3a7521035a017a350c14dba163b9b2a024eb45a",
+      "M1": "4fd3565b2b789df2590353d4d3a7521035a017a350c14dba163b9b2a024eb45a",
+      "M2": "4fd3565b2b789df2590353d4d3a7521035a017a350c14dba163b9b2a024eb45a"
+    },
+    "suffixes": [
+      {
+        "method": "M0",
+        "success": false,
+        "total_steps": 366,
+        "suffix_steps": 130,
+        "remaining_benchmark_steps": 364,
+        "failure_stage": "POSTGRASP_transport_TIMEOUT",
+        "early_stop_censored_for_benchmark": true,
+        "history_path": "/home/users/lemon/mechanism-20261110/condition-072/M0/history.json",
+        "telemetry_path": "/home/users/lemon/mechanism-20261110/condition-072/M0/telemetry/episode-000.h5"
+      },
+      {
+        "method": "M1",
+        "success": true,
+        "total_steps": 517,
+        "suffix_steps": 281,
+        "remaining_benchmark_steps": 364,
+        "failure_stage": "OFFICIAL_SUCCESS",
+        "early_stop_censored_for_benchmark": false,
+        "history_path": "/home/users/lemon/mechanism-20261110/condition-072/M1/history.json",
+        "telemetry_path": "/home/users/lemon/mechanism-20261110/condition-072/M1/telemetry/episode-000.h5"
+      },
+      {
+        "method": "M2",
+        "success": false,
+        "total_steps": 366,
+        "suffix_steps": 130,
+        "remaining_benchmark_steps": 364,
+        "failure_stage": "POSTGRASP_transport_TIMEOUT",
+        "early_stop_censored_for_benchmark": true,
+        "history_path": "/home/users/lemon/mechanism-20261110/condition-072/M2/history.json",
+        "telemetry_path": "/home/users/lemon/mechanism-20261110/condition-072/M2/telemetry/episode-000.h5"
+      }
+    ],
+    "opposite_factual_outcomes": true,
+    "role": "EXISTING_OUTCOME_SELECTED_DIAGNOSTIC_ONLY_NOT_A_TRAIN_OR_TEST_SET"
+  },
+  {
+    "condition": 88,
+    "task": "pnp_counter_to_sink",
+    "robot": "panda",
+    "anchor_state_index": 246,
+    "numeric_fields_compared": 149,
+    "max_numeric_error": 0.0,
+    "prefix_actions_and_states_exact": true,
+    "recorded_rng_checks": {
+      "python_rng": true,
+      "numpy_rng": true,
+      "torch_rng": true,
+      "cuda_rng": true,
+      "policy_queue": true,
+      "model_training": true
+    },
+    "model_xml_sha256": "f0cfb69f870c9b4c00846c50549df1571e408932bf0d1b5ceb1ecc1f63e3beb4",
+    "snapshot_sha256": {
+      "M0": "9a915e8d51e13b3a8d97b52f619d8a31b90e6efb935605a76d310cf1af9e0f0d",
+      "M1": "9a915e8d51e13b3a8d97b52f619d8a31b90e6efb935605a76d310cf1af9e0f0d",
+      "M2": "9a915e8d51e13b3a8d97b52f619d8a31b90e6efb935605a76d310cf1af9e0f0d"
+    },
+    "suffixes": [
+      {
+        "method": "M0",
+        "success": true,
+        "total_steps": 408,
+        "suffix_steps": 162,
+        "remaining_benchmark_steps": 354,
+        "failure_stage": "OFFICIAL_SUCCESS",
+        "early_stop_censored_for_benchmark": false,
+        "history_path": "/home/users/lemon/mechanism-20261110/condition-088/M0/history.json",
+        "telemetry_path": "/home/users/lemon/mechanism-20261110/condition-088/M0/telemetry/episode-000.h5"
+      },
+      {
+        "method": "M1",
+        "success": false,
+        "total_steps": 600,
+        "suffix_steps": 354,
+        "remaining_benchmark_steps": 354,
+        "failure_stage": "GLOBAL_600_STEP_BUDGET_AT_barx_postgrasp",
+        "early_stop_censored_for_benchmark": false,
+        "history_path": "/home/users/lemon/mechanism-20261110/condition-088/M1/history.json",
+        "telemetry_path": "/home/users/lemon/mechanism-20261110/condition-088/M1/telemetry/episode-000.h5"
+      },
+      {
+        "method": "M2",
+        "success": true,
+        "total_steps": 409,
+        "suffix_steps": 163,
+        "remaining_benchmark_steps": 354,
+        "failure_stage": "OFFICIAL_SUCCESS",
+        "early_stop_censored_for_benchmark": false,
+        "history_path": "/home/users/lemon/mechanism-20261110/condition-088/M2/history.json",
+        "telemetry_path": "/home/users/lemon/mechanism-20261110/condition-088/M2/telemetry/episode-000.h5"
+      }
+    ],
+    "opposite_factual_outcomes": true,
+    "role": "EXISTING_OUTCOME_SELECTED_DIAGNOSTIC_ONLY_NOT_A_TRAIN_OR_TEST_SET"
+  },
+  {
+    "condition": 93,
+    "task": "pnp_counter_to_sink",
+    "robot": "panda",
+    "anchor_state_index": 242,
+    "numeric_fields_compared": 149,
+    "max_numeric_error": 0.0,
+    "prefix_actions_and_states_exact": true,
+    "recorded_rng_checks": {
+      "python_rng": true,
+      "numpy_rng": true,
+      "torch_rng": true,
+      "cuda_rng": true,
+      "policy_queue": true,
+      "model_training": true
+    },
+    "model_xml_sha256": "7f149370c88ade098b33c8c91206968108a6165091f4801f81bfdcab9c4c04dd",
+    "snapshot_sha256": {
+      "M0": "ae753e88c4ea437ef4a355330f4980ccfc3deab1cbf9c3ec62c4d5589c21947c",
+      "M1": "ae753e88c4ea437ef4a355330f4980ccfc3deab1cbf9c3ec62c4d5589c21947c",
+      "M2": "ae753e88c4ea437ef4a355330f4980ccfc3deab1cbf9c3ec62c4d5589c21947c"
+    },
+    "suffixes": [
+      {
+        "method": "M0",
+        "success": false,
+        "total_steps": 372,
+        "suffix_steps": 130,
+        "remaining_benchmark_steps": 358,
+        "failure_stage": "POSTGRASP_transport_TIMEOUT",
+        "early_stop_censored_for_benchmark": true,
+        "history_path": "/home/users/lemon/mechanism-20261110/condition-093/M0/history.json",
+        "telemetry_path": "/home/users/lemon/mechanism-20261110/condition-093/M0/telemetry/episode-000.h5"
+      },
+      {
+        "method": "M1",
+        "success": true,
+        "total_steps": 558,
+        "suffix_steps": 316,
+        "remaining_benchmark_steps": 358,
+        "failure_stage": "OFFICIAL_SUCCESS",
+        "early_stop_censored_for_benchmark": false,
+        "history_path": "/home/users/lemon/mechanism-20261110/condition-093/M1/history.json",
+        "telemetry_path": "/home/users/lemon/mechanism-20261110/condition-093/M1/telemetry/episode-000.h5"
+      },
+      {
+        "method": "M2",
+        "success": false,
+        "total_steps": 372,
+        "suffix_steps": 130,
+        "remaining_benchmark_steps": 358,
+        "failure_stage": "POSTGRASP_transport_TIMEOUT",
+        "early_stop_censored_for_benchmark": true,
+        "history_path": "/home/users/lemon/mechanism-20261110/condition-093/M2/history.json",
+        "telemetry_path": "/home/users/lemon/mechanism-20261110/condition-093/M2/telemetry/episode-000.h5"
+      }
+    ],
+    "opposite_factual_outcomes": true,
+    "role": "EXISTING_OUTCOME_SELECTED_DIAGNOSTIC_ONLY_NOT_A_TRAIN_OR_TEST_SET"
+  }
+]

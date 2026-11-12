@@ -1,0 +1,52 @@
+{
+  "records": 3234,
+  "parts": [
+    {
+      "path": "input_index/part-000.json",
+      "records": 400,
+      "sha256": "22113ca8ef23b150f94d89ecc99783c759507bcbd68f8c9c5e71ec90a6bdf852"
+    },
+    {
+      "path": "input_index/part-001.json",
+      "records": 400,
+      "sha256": "7d5fae32d6ac44f1585fb88b4e572ef1a98a3de03152208019830dde60a3b8d9"
+    },
+    {
+      "path": "input_index/part-002.json",
+      "records": 400,
+      "sha256": "b67a6b437d9bd330c088eab3bac87c8039c42ba2feae36adb8e0672cf5d895de"
+    },
+    {
+      "path": "input_index/part-003.json",
+      "records": 400,
+      "sha256": "f93a486dda031a54cfce1fbbe896cf47a7e09d55784e9c5c6d229f2a62bf1ada"
+    },
+    {
+      "path": "input_index/part-004.json",
+      "records": 400,
+      "sha256": "35ec79a272f818b9f1d5d6823b10c57debb272f6aaf624741124054861cdcdd1"
+    },
+    {
+      "path": "input_index/part-005.json",
+      "records": 400,
+      "sha256": "26f18e2e962d91303a472f591e7ae6a4b8bbc14be8a86299b34036295621926b"
+    },
+    {
+      "path": "input_index/part-006.json",
+      "records": 400,
+      "sha256": "4f47f7b0d9351f4ba6cf14a8b77b7fe8232a21f034807c1177ea4f500373f419"
+    },
+    {
+      "path": "input_index/part-007.json",
+      "records": 400,
+      "sha256": "f628d017fceb9aac7077d4e6b92eb14e40b91f3deb2499157cf838f40c05f801"
+    },
+    {
+      "path": "input_index/part-008.json",
+      "records": 34,
+      "sha256": "8217edab835931b9d4164a0af5cf541d29552008a41fad6aa99c53d5d2aff7c2"
+    }
+  ],
+  "full_file": "/home/users/lemon/method-v0-tocat-20261112/input_index.json",
+  "full_file_sha256": "054f859cee5ca59cbba3060ad974b18f305b92cc098f8996e5e6c629ac1c76af"
+}

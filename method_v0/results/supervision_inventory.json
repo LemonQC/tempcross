@@ -1,0 +1,1267 @@
+{
+  "source_demonstrations": 1800,
+  "panda_demonstrations": 100,
+  "split_counts": [
+    {
+      "domain": "source",
+      "robot": "iiwa",
+      "task": "pnp_counter_to_sink",
+      "split": "train",
+      "episodes": 270
+    },
+    {
+      "domain": "source",
+      "robot": "iiwa",
+      "task": "pnp_counter_to_sink",
+      "split": "validation",
+      "episodes": 30
+    },
+    {
+      "domain": "source",
+      "robot": "iiwa",
+      "task": "pnp_sink_to_counter",
+      "split": "train",
+      "episodes": 270
+    },
+    {
+      "domain": "source",
+      "robot": "iiwa",
+      "task": "pnp_sink_to_counter",
+      "split": "validation",
+      "episodes": 30
+    },
+    {
+      "domain": "source",
+      "robot": "kinova3",
+      "task": "pnp_counter_to_sink",
+      "split": "train",
+      "episodes": 270
+    },
+    {
+      "domain": "source",
+      "robot": "kinova3",
+      "task": "pnp_counter_to_sink",
+      "split": "validation",
+      "episodes": 30
+    },
+    {
+      "domain": "source",
+      "robot": "kinova3",
+      "task": "pnp_sink_to_counter",
+      "split": "train",
+      "episodes": 270
+    },
+    {
+      "domain": "source",
+      "robot": "kinova3",
+      "task": "pnp_sink_to_counter",
+      "split": "validation",
+      "episodes": 30
+    },
+    {
+      "domain": "source",
+      "robot": "ur5e",
+      "task": "pnp_counter_to_sink",
+      "split": "train",
+      "episodes": 270
+    },
+    {
+      "domain": "source",
+      "robot": "ur5e",
+      "task": "pnp_counter_to_sink",
+      "split": "validation",
+      "episodes": 30
+    },
+    {
+      "domain": "source",
+      "robot": "ur5e",
+      "task": "pnp_sink_to_counter",
+      "split": "train",
+      "episodes": 270
+    },
+    {
+      "domain": "source",
+      "robot": "ur5e",
+      "task": "pnp_sink_to_counter",
+      "split": "validation",
+      "episodes": 30
+    },
+    {
+      "domain": "target",
+      "robot": "panda",
+      "task": "pnp_counter_to_sink",
+      "split": "train",
+      "episodes": 45
+    },
+    {
+      "domain": "target",
+      "robot": "panda",
+      "task": "pnp_counter_to_sink",
+      "split": "validation",
+      "episodes": 5
+    },
+    {
+      "domain": "target",
+      "robot": "panda",
+      "task": "pnp_sink_to_counter",
+      "split": "train",
+      "episodes": 45
+    },
+    {
+      "domain": "target",
+      "robot": "panda",
+      "task": "pnp_sink_to_counter",
+      "split": "validation",
+      "episodes": 5
+    }
+  ],
+  "source_pack_keys": [
+    "actions",
+    "rgb"
+  ],
+  "source_rlds_step_keys": [
+    "action",
+    "discount",
+    "ee_pose_2D",
+    "is_first",
+    "is_last",
+    "is_terminal",
+    "language_instruction",
+    "language_motions",
+    "language_motions_future",
+    "obj_bbox_names",
+    "obj_bboxes",
+    "observation",
+    "reward"
+  ],
+  "source_rlds_observation_keys": [
+    "image",
+    "state"
+  ],
+  "source_state_description": "Robot EEF state (6D pose, 2D gripper).",
+  "source_state_dimensions": {
+    "dimensions": [
+      "8"
+    ]
+  },
+  "source_reward_description": "Reward if provided, 1 on final step for demos.",
+  "human_hdf5": [
+    {
+      "path": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "sha256": "3afd1c433ae028c63fe99364ac951030f4a4f232c0102f42cf31c1a8dc1ab0d0",
+      "episodes": [
+        {
+          "demo": "demo_1",
+          "frames": 406,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_10",
+          "frames": 371,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_11",
+          "frames": 400,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_12",
+          "frames": 383,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_13",
+          "frames": 386,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_14",
+          "frames": 375,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 12,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_15",
+          "frames": 347,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_16",
+          "frames": 356,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 12,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_17",
+          "frames": 433,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_18",
+          "frames": 392,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_19",
+          "frames": 412,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_2",
+          "frames": 448,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_20",
+          "frames": 368,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 12,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_21",
+          "frames": 361,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_22",
+          "frames": 365,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_23",
+          "frames": 428,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_24",
+          "frames": 444,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_25",
+          "frames": 381,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_26",
+          "frames": 462,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_27",
+          "frames": 343,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_28",
+          "frames": 337,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_29",
+          "frames": 409,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_3",
+          "frames": 330,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_30",
+          "frames": 428,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_31",
+          "frames": 367,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_32",
+          "frames": 376,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_33",
+          "frames": 442,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_34",
+          "frames": 303,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_35",
+          "frames": 397,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_36",
+          "frames": 380,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_37",
+          "frames": 362,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 12,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_38",
+          "frames": 451,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_39",
+          "frames": 341,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_4",
+          "frames": 321,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_40",
+          "frames": 398,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_41",
+          "frames": 313,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_42",
+          "frames": 369,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_43",
+          "frames": 284,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_44",
+          "frames": 391,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_45",
+          "frames": 399,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_46",
+          "frames": 335,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_47",
+          "frames": 364,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_48",
+          "frames": 397,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_49",
+          "frames": 372,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_5",
+          "frames": 360,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_50",
+          "frames": 387,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_6",
+          "frames": 280,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_7",
+          "frames": 462,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_8",
+          "frames": 381,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_9",
+          "frames": 370,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        }
+      ]
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "sha256": "4874601734320497cc6effa4cb5d0bf64daa7ae517ce299a0130f108a033ca61",
+      "episodes": [
+        {
+          "demo": "demo_1",
+          "frames": 441,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_10",
+          "frames": 1057,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_11",
+          "frames": 471,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_12",
+          "frames": 437,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_13",
+          "frames": 368,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_14",
+          "frames": 488,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 12,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_15",
+          "frames": 338,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_16",
+          "frames": 386,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_17",
+          "frames": 464,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_18",
+          "frames": 451,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_19",
+          "frames": 434,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_2",
+          "frames": 507,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_20",
+          "frames": 461,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_21",
+          "frames": 462,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_22",
+          "frames": 441,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_23",
+          "frames": 360,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_24",
+          "frames": 332,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_25",
+          "frames": 426,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_26",
+          "frames": 374,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_27",
+          "frames": 371,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_28",
+          "frames": 377,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_29",
+          "frames": 367,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_3",
+          "frames": 432,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_30",
+          "frames": 440,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_31",
+          "frames": 319,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_32",
+          "frames": 415,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_33",
+          "frames": 424,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_34",
+          "frames": 422,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 17,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_35",
+          "frames": 410,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_36",
+          "frames": 377,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_37",
+          "frames": 480,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_38",
+          "frames": 563,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_39",
+          "frames": 538,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_4",
+          "frames": 370,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 16,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_40",
+          "frames": 467,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 12,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_41",
+          "frames": 457,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_42",
+          "frames": 476,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_43",
+          "frames": 407,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_44",
+          "frames": 412,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_45",
+          "frames": 434,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_46",
+          "frames": 522,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_47",
+          "frames": 340,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_48",
+          "frames": 477,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_49",
+          "frames": 513,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_5",
+          "frames": 314,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_50",
+          "frames": 410,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_6",
+          "frames": 414,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_7",
+          "frames": 410,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_8",
+          "frames": 469,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 11,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        },
+        {
+          "demo": "demo_9",
+          "frames": 573,
+          "reward_unique": [
+            0
+          ],
+          "done_positive_states": 19,
+          "states_available": true,
+          "object_pose_dataset_available": false,
+          "directly_recorded_contact_normals_available": false
+        }
+      ]
+    }
+  ],
+  "exact_source_contact_labels_in_rlds": false,
+  "certified_alternative_continuation_outcomes_in_demonstrations": false,
+  "source_effect_labels": "2D object bboxes / language motion labels; not a contact wrench or full physical state",
+  "deployment_joint_state_assumed": false,
+  "new_model_or_physics_calls": 0
+}

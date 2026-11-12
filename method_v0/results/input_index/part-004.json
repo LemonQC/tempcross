@@ -1,0 +1,2002 @@
+[
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-000.h5",
+    "bytes": 1888444,
+    "sha256": "c79cc8e77acdd0fff1f86a5c9de36089092100b2fa8f97d1dde8d09449336568"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-000.jsonl",
+    "bytes": 1683359,
+    "sha256": "5fdba09b4321c299e302847bc568aba0b8f8cbc0b93eef50ac55bc9ef066b482"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-001.h5",
+    "bytes": 1982657,
+    "sha256": "0f0f995aa6a52f5fe80e42bbec3dfcdd9fef2db909b199f440ed47824b9d6ee9"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-001.jsonl",
+    "bytes": 1594772,
+    "sha256": "56c8c8f5bb3577658236ceb5bb0467b41eb2b934415169e0499b2722020e21a0"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-002.h5",
+    "bytes": 1984593,
+    "sha256": "07762e0c434bba47820ff65255907dc172f6577fcfcb0b1abfddf941fe6d86f9"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-002.jsonl",
+    "bytes": 2851268,
+    "sha256": "e5a453c86188e053288f4d682b136865711c31a6522532d79a8aafb13025dfbe"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-003.h5",
+    "bytes": 2056373,
+    "sha256": "d9359c4609e442bcfe5d802c9bfd1667c7d9691323c5b2294b92b360453629c0"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-003.jsonl",
+    "bytes": 1152310,
+    "sha256": "02ffed39ccd2d42d2d4910c5679d89c98a79dbaaf1ae77adce3d812224acb71b"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-004.h5",
+    "bytes": 1822214,
+    "sha256": "acb619769b7d6aac0e1d8035aea6e8895cd039764a21d084e126b07ef738d8ed"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-004.jsonl",
+    "bytes": 3211893,
+    "sha256": "a1e482f1848070f89582506eaa1674998b42b919e6710384a02be304deda423d"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-005.h5",
+    "bytes": 1894200,
+    "sha256": "09ea77c97280871f740c830b351c96a6a4347a2d5104ae3162e79d139b0bf29e"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-005.jsonl",
+    "bytes": 3762364,
+    "sha256": "58d69cb9bf54d2a9f955f22b15d9367b3c89229214f616190eb56b507a1b06f7"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-006.h5",
+    "bytes": 1903840,
+    "sha256": "a52040520a2d6524828d2936d49a53ea15cd6220d888194ecddfc6b0091edafc"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-006.jsonl",
+    "bytes": 2091207,
+    "sha256": "3c98505147f7e003cab658deb85ccb9e490c8a0029e335a452625307d920919a"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-007.h5",
+    "bytes": 1910774,
+    "sha256": "99eefeaa389c415f22de59090af5de183fd9c60ba5d8440353f0cc61289e3540"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-007.jsonl",
+    "bytes": 2917849,
+    "sha256": "d126f9aaef9afd1629252577419d68eeec37b2c70bded5b6d5ff26cd0641ad4c"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-008.h5",
+    "bytes": 2077248,
+    "sha256": "033cfe290ba6a43067b27caecef9953d190f657b2311de68a058e45eb7d7b656"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-008.jsonl",
+    "bytes": 9187477,
+    "sha256": "bf90f6fc1c2c95341a34542d6f776e3299f2482298504c18f52c62837422242f"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-009.h5",
+    "bytes": 1997448,
+    "sha256": "6b0883e24da6bed9d8707df6d48cb81d5418b45da5b3615d25f888a28768f8de"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-009.jsonl",
+    "bytes": 1500198,
+    "sha256": "f92a58cdc67ac89a34d5b8ef33124e25e4c58dffa209bc65f7e23942dfab2793"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-010.h5",
+    "bytes": 1758803,
+    "sha256": "9d36c318989475511d59755948a9bc7611b8ff82d0530b9128901676ff4909c8"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-010.jsonl",
+    "bytes": 1850721,
+    "sha256": "79f00be60d67ed1dcddf76be75c4ef7045a341502aaee42d0fc33c842b57c528"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-011.h5",
+    "bytes": 1940150,
+    "sha256": "7d54f38c842bbac62c6a7551491e8c160bbbcf356b957b8049026339cec2fb94"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-011.jsonl",
+    "bytes": 1546338,
+    "sha256": "45573c262e301a956780da0cacece2ad1a9520ae935c2c203676f8fcee94e0a7"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-012.h5",
+    "bytes": 1969909,
+    "sha256": "becacbf812ba1b7059ec654a0465073100855b7ae85bc295268fc1189335d8b4"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-012.jsonl",
+    "bytes": 1211399,
+    "sha256": "98136ec8f81d49e2d97b1dc0170422189e33287b6befe00f6a093fa27578f281"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-013.h5",
+    "bytes": 1870033,
+    "sha256": "51b3249ca793484c0ffaa51053ad29434760de0dca1709502f5844e3aaf604e1"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-013.jsonl",
+    "bytes": 1649226,
+    "sha256": "1b5e596929c51fd11079b1b418883dc473412395510f707dfdca6d8d5b933db3"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-014.h5",
+    "bytes": 1912509,
+    "sha256": "10b01cb6341b00a137801400df96100ad85b3cca2198953a5fea65ea2dc238fe"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-014.jsonl",
+    "bytes": 1049843,
+    "sha256": "5ad27ddf7dd256f6bfbb4e87ef92a175ab982b0b0e8ccd19290516d743f66e33"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-015.h5",
+    "bytes": 2194600,
+    "sha256": "f11cff66d24dd797e0f9cd1c04876140536010198fb62724e8a9fa71661fa83e"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-015.jsonl",
+    "bytes": 13686290,
+    "sha256": "c918e7fda68a587a9cf5e372b85b97b21394cbe2a52edd6ec851a6d04d22168c"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-016.h5",
+    "bytes": 1912895,
+    "sha256": "05555077e0f8ab37927bf157e51e881560155c37f7bc29cf17c39eee87fb6d21"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-016.jsonl",
+    "bytes": 1374665,
+    "sha256": "8452540176497436a3652f58c5168917be54637319ea5a3684642a4e7e8acc6d"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-017.h5",
+    "bytes": 2002065,
+    "sha256": "910e339f833dc01c864ae0288969fb8998fe015307286d993c31186aec6afe6c"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-017.jsonl",
+    "bytes": 1240921,
+    "sha256": "5a55f74250b283f6ddc342231adb91144adad50e59e0aa9abb1d1efd27a53be0"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-018.h5",
+    "bytes": 2060832,
+    "sha256": "686c0f333c22e914448f30c9584b66ffba1984983ab1e10ebe4ca23ecff20c37"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-018.jsonl",
+    "bytes": 1864867,
+    "sha256": "555311d7d4edc7472a6a66f9a2f18006c09d2850595b4adffb3a062cfb29d48e"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-019.h5",
+    "bytes": 2052523,
+    "sha256": "a646620915668e7e750acb888e5f3fc0c779f038812fc4f0e002cffe6cc4b1e0"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-019.jsonl",
+    "bytes": 3018422,
+    "sha256": "f5b4e09260f1f65a633847c594d53e997a524f655a416b8f78b81af0f850b5ee"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-020.h5",
+    "bytes": 1941735,
+    "sha256": "135d7cbecdb7ebc73971a2a7b1610c18a9ef3e323ff92e505f5c0815c1f541e9"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-020.jsonl",
+    "bytes": 1413934,
+    "sha256": "d168ab03a8787ac1405193ea6c752f25125b377cee349e08ddfb08e8643e1a03"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-021.h5",
+    "bytes": 1945975,
+    "sha256": "599aa8aadf6542b63436a0b4e0bbb6f48086072f48d01914ea44759a14aab133"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-021.jsonl",
+    "bytes": 1417451,
+    "sha256": "8052202244e12c065991b39d9c91bfc1c8e6df7b8fa4bd380e31a511e5d9b027"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-022.h5",
+    "bytes": 1889642,
+    "sha256": "d8b8048929a696f05318a1deab0e7e4b62e22d5afe56e57ee57d4300d8303c5a"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-022.jsonl",
+    "bytes": 1233301,
+    "sha256": "5e37d1c33b89feb6b24d7d175f11ff072c7a04f395f611a1c79f5fa83a8b6216"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-023.h5",
+    "bytes": 1905844,
+    "sha256": "3cb5746d2a1eae03910273ba9d878c9442e6a1fb2fd1b7a828c88735d59e566d"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-023.jsonl",
+    "bytes": 1999899,
+    "sha256": "2804c2efe7dc6da5e26a4a13833b4009110c4dba8ffe4ab9a1bfd44e39ac1e2a"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-024.h5",
+    "bytes": 1901179,
+    "sha256": "93b6cba7730773e11ada40b8e9630471deb235c25a3005167d1bc9c9c2c822a1"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-024.jsonl",
+    "bytes": 4127209,
+    "sha256": "d95e278de1b59bd5b5a5f671dba440b27fef50f8281c2296dc4910d282892377"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-025.h5",
+    "bytes": 1986880,
+    "sha256": "636dc4a8f98ea8b17dff686b852989955c89353779d232ed701cd60e71ace13a"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-025.jsonl",
+    "bytes": 8567597,
+    "sha256": "0628472303d9c029d6917b455f30a10390be39374e93d798c9abb5e1f94b50ec"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-026.h5",
+    "bytes": 1885021,
+    "sha256": "06657ccd57809b71a0d24d48838446ee1eb1b6888efbcf03fd7f21246c507fca"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-026.jsonl",
+    "bytes": 1283486,
+    "sha256": "961b6564c4796e52bdee149fe5b6c53305b30dd498316ee093b0f63e7bbafa92"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-027.h5",
+    "bytes": 1932243,
+    "sha256": "ac7a2875af56af77cbb06d3febf846c67cb55297f5787996af080b57d19254c2"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-027.jsonl",
+    "bytes": 1642483,
+    "sha256": "4033aa30d62d76242d6ca5444a7624dfd88d7fd180bf3a2e197b4955192a79e5"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-028.h5",
+    "bytes": 1862744,
+    "sha256": "a6cd04c5ab59b8e666c09c43e92792dffb42587c0b15f85c5ce16cb204e81401"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-028.jsonl",
+    "bytes": 1948814,
+    "sha256": "3cdaaf4c21a6a28f5ec289842514d2d4b4717534cae8a403f91c661bbbd5509a"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-029.h5",
+    "bytes": 1876473,
+    "sha256": "d19db602f11ae96d1af45a96f99e863cf0f132d7a43d5a0006b7c10437534620"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-029.jsonl",
+    "bytes": 1509932,
+    "sha256": "56354d6880b709ad741ba967452f7f76bf227861568144fa08fbfed8967e93a6"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-030.h5",
+    "bytes": 1988083,
+    "sha256": "4bcf7996f49bf51060bf8e8846414240a75c78f20d963ca2b394c6b91ae49766"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-030.jsonl",
+    "bytes": 1567314,
+    "sha256": "e5504fc989b5443ff89353f9c16809e8d94db6f7340503fa5b63bc46ecca792a"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-031.h5",
+    "bytes": 2062430,
+    "sha256": "505b50ef008390d588e1fe0c54d630652e0769b5302c8d16efbdd5a1aaa182b9"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-031.jsonl",
+    "bytes": 1400676,
+    "sha256": "c3df39e37028639c6fc93d76607d74c8c5d62711b9438c6645b51dbc8a149dbb"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-032.h5",
+    "bytes": 1973974,
+    "sha256": "cfbc7f77f2e2c66b2433773f303a03ae28685399b534661801b621b33c2a177f"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-032.jsonl",
+    "bytes": 1446265,
+    "sha256": "4daa25b9ff28018340d516379c78a43da38878894fab1609cbab21f4f088a1dc"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-033.h5",
+    "bytes": 2029980,
+    "sha256": "39c642385d770ef6b4fdce8c9e78326b63597b86f9592088c4493956ba83e84e"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-033.jsonl",
+    "bytes": 3218073,
+    "sha256": "2a3f7386562ca6d81debec198d792cd35d2d6b301a81848c6d8cc124c0fb6b53"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-034.h5",
+    "bytes": 1854982,
+    "sha256": "fef17e561587a706d807831db73f9b1583d482cda7a5b57020c970624dc9e8b3"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-034.jsonl",
+    "bytes": 3122372,
+    "sha256": "c02e31ef8813945d6bd5e4463d2c6bd7db256456a8403a77650d61a204937e86"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-035.h5",
+    "bytes": 1979483,
+    "sha256": "fda6ce781a4cf8cee64ff2c105000463a977aff9951f9a9d3df5993d616534e3"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-035.jsonl",
+    "bytes": 2640202,
+    "sha256": "629063cd4fb69a3ea57dbd901ff9cab7637152370579bf69a8e5e731ad8b5e4a"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-036.h5",
+    "bytes": 1965716,
+    "sha256": "420fbe4a54bc355fca52f21357b5824e4eec859d37e10c810f5dd619b9aff764"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-036.jsonl",
+    "bytes": 3146861,
+    "sha256": "39ec1afeec50324e382c4ee15a2b6a20b39285ff44850bb8c54c9fccd60e91e4"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-037.h5",
+    "bytes": 1926525,
+    "sha256": "9d26e0d324c6179d349de340a1beb76f75cfe543f234f053c596ebc60c7ed46b"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-037.jsonl",
+    "bytes": 1587309,
+    "sha256": "1af668b61768773de7cc70a6a31421c5f67d6d2297a0c4c74486f35494f18546"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-038.h5",
+    "bytes": 1954019,
+    "sha256": "0591d115c76f1e30d9ee7c45169ef9c419f90e37a2caed0d50c4da5a4db0dc6c"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-038.jsonl",
+    "bytes": 3433156,
+    "sha256": "74b4993bde9702fc530537753a59460700dd52f0e14134353c4e226e3d2aa382"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-039.h5",
+    "bytes": 1910733,
+    "sha256": "64b2eb18dbaa99b3e3beae7cefe78f41bac4ee01f971ec81fdd861a45ccd4b36"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_counter_to_sink/panda/telemetry/episode-039.jsonl",
+    "bytes": 2079408,
+    "sha256": "7fc43cc32a6253f69ff0a2478fea70bf28bd596d20cb96b41da51094a10bc538"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-000.h5",
+    "bytes": 2062743,
+    "sha256": "bc6f949c53572f45876aa5057017d4e776b353684da1117f0235d6348f66bf09"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-000.jsonl",
+    "bytes": 1317357,
+    "sha256": "53e15fa7427df42c2ba68078f215539bdabe3616701ee01c0bd8ef72603a1028"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-001.h5",
+    "bytes": 2072145,
+    "sha256": "8d33310eec4de315f48b7f0897b6f96a57d89813991fc4162dfb2f2f9a405532"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-001.jsonl",
+    "bytes": 2218656,
+    "sha256": "04141e68b6fb48f3468e093b7f421b9eff891872f235fe0be205e39a2f88841a"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-002.h5",
+    "bytes": 2101069,
+    "sha256": "d27713b4f20cf830d58d6c249367db6a4da8d0bf2fcaad87e2958b7342f71e35"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-002.jsonl",
+    "bytes": 1353713,
+    "sha256": "36796846bb2ada72154b103498ac0acd36a6d498e353f898a7a4c1c73def437b"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-003.h5",
+    "bytes": 2172221,
+    "sha256": "a7e6571073070a597e35240fc8f149a167182dadcefc06fd19bfa8627cc9d7fa"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-003.jsonl",
+    "bytes": 9571461,
+    "sha256": "25c53f536f5262b3fcf87e12a3b7295e93e14b17745eb44ac4a418d53905a907"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-004.h5",
+    "bytes": 1607774,
+    "sha256": "c21a5024296c67cc409d344c0804f3fc164d80580753957b7f76d425d18ef6b2"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-004.jsonl",
+    "bytes": 9700705,
+    "sha256": "fcbd3682865d20edaf3eb0101183cadfb09e70d6d402fecdb97c129b806808ed"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-005.h5",
+    "bytes": 2077711,
+    "sha256": "704abe7a8e5b16c9c79059b8eb3a5c13f0ec3ca8d8f681797c6ade3ed9568dce"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-005.jsonl",
+    "bytes": 2403916,
+    "sha256": "4a2ad54d68e5e9d660285e839f704bb4258cf9859aeeed67f202915bc06ff771"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-006.h5",
+    "bytes": 2094702,
+    "sha256": "9abe8862621da512bc07dbe97d0f0cc674fcec219bf5c4dc6b38a18d7d06bdad"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-006.jsonl",
+    "bytes": 1635642,
+    "sha256": "8b4e5b7405cfffc65b896c539e0c7da889fcb60e5c76dea186c0788c7ddebd8f"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-007.h5",
+    "bytes": 2249756,
+    "sha256": "34ef588b921a591f4e7e251ae30edd8121f20e6daa2cb4bdbf936a4aff67f887"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-007.jsonl",
+    "bytes": 12264844,
+    "sha256": "d7d459e013713ce72ad539ca9d34461a5d7346cf56809f631f323702bea9c3a0"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-008.h5",
+    "bytes": 2050785,
+    "sha256": "97b1336748f951c0b9f4e1406a2510ae97814a75debe55902bd6756d2bfa7831"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-008.jsonl",
+    "bytes": 1251570,
+    "sha256": "c45e45165d1e164e13e410b011cd17723abbd5d7416300fb45e4c572fdc96ad9"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-009.h5",
+    "bytes": 2009430,
+    "sha256": "fc504b87dcc3c008869ac1d87a88bd7c68df217b58ac6989dee416fa536126df"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-009.jsonl",
+    "bytes": 4143612,
+    "sha256": "01071e99a29ac6f16481dfb59c700859d68020a0f4cd18ecbf00b039ad86af4f"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-010.h5",
+    "bytes": 1951621,
+    "sha256": "a6cdb5e3303e5b1963404c5948a5c89ddde6aa68d71ac09a25b7a3b97a2e5393"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-010.jsonl",
+    "bytes": 3374640,
+    "sha256": "f3c9f34fea453c971b481224b25b7fa2326d754c1518e58985cbac0e63eaa5ab"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-011.h5",
+    "bytes": 2029753,
+    "sha256": "8bd5000a478e6eba9b9c93f83588870bcb01270f2af30c98ff4fb1e169c8f7ef"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-011.jsonl",
+    "bytes": 3426589,
+    "sha256": "f3a2052c0a10332e16a6ca3402841a286c290623f47009224b46c24919ddd1a3"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-012.h5",
+    "bytes": 2175698,
+    "sha256": "d0a5b16a8eea81c2ada4dce20148f4213ce1dd08ae237fa1b9f81026c48dab21"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-012.jsonl",
+    "bytes": 1668466,
+    "sha256": "0175c3b2243519174c410618aa4ac72dec874d2965193b47afecc2b55bb0bfd9"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-013.h5",
+    "bytes": 2142598,
+    "sha256": "68fa828f4c4295dec0e412076a1bab8058584402fc02172d0f24fbeec63b6fa9"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-013.jsonl",
+    "bytes": 1635755,
+    "sha256": "3820803ac19e6b8a6bc9faab92658090024efa396d616cfbbb616d9c384f89a0"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-014.h5",
+    "bytes": 2036262,
+    "sha256": "9df1872c862a7165cef6d95706001d0945a6fb2365bfae688cd221aa7d91600a"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-014.jsonl",
+    "bytes": 4180984,
+    "sha256": "bdbc4408192f0cafdae75da29011a17005a65d3ba1db6095e83e1c0ea8dfbe16"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-015.h5",
+    "bytes": 2140946,
+    "sha256": "63f6a80417d133a86aadba396e93e3a3ddc4a29e4c6cd6afffb4c12802989093"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-015.jsonl",
+    "bytes": 1388024,
+    "sha256": "82912bf7788a217ac739bc80c45f3b6ef3de89978d941c6727d89f79de9ce97e"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-016.h5",
+    "bytes": 2187761,
+    "sha256": "187294751ef5146f2c4ec76c9a97a5bed6ef81f849ebea8d6af5c35e57b49e81"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-016.jsonl",
+    "bytes": 10532467,
+    "sha256": "2087df116fb8eb1ac8f15e13010978dc1b0148efc37adfb45fbfdfcc8c1b861b"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-017.h5",
+    "bytes": 2062056,
+    "sha256": "68a477193c0444efbea011b53bdc7e2d90d116a2e882598e2558e664b4138992"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-017.jsonl",
+    "bytes": 1453109,
+    "sha256": "eab3889a88edb73c97d52054e90e57e93267831ef258ecb2e95aa07132cf193f"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-018.h5",
+    "bytes": 2103197,
+    "sha256": "934ad528393ef42dc6cabae1c0969f93252b4d0385caa9370b747e44e6eb3218"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-018.jsonl",
+    "bytes": 3153178,
+    "sha256": "8a45d7033bb1bc5c02bfa990b08c3346ef17fd84553ae792e1258ef3e0d3a8f1"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-019.h5",
+    "bytes": 2249900,
+    "sha256": "afbe508f8971e7abe2f4a03900b3150a73b91827d090bc0c229c159eb801e115"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-019.jsonl",
+    "bytes": 11459526,
+    "sha256": "d2e5ddefb7b7205691b0a2656849d6cac1ecf875df067d9456b157be42cdc5a5"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-020.h5",
+    "bytes": 2127585,
+    "sha256": "e45b1d44c240ec67f0b549b23ab8903bb37d85bbee84bde8c4f3b811e2da195d"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-020.jsonl",
+    "bytes": 3537307,
+    "sha256": "1076941cdff2247e9d3f9b2e255ccedfdbf98f8aa45ccd86ea3e27a6d5ad40f9"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-021.h5",
+    "bytes": 2076956,
+    "sha256": "ad5400e0009daf5288a5802e9a62a1e4324ea08d60a973fb8bd64e4951c480dc"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-021.jsonl",
+    "bytes": 2138464,
+    "sha256": "e20898e9d047780548a69f017522cc7d4377dc258f9b8a25923389f0669ea2dd"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-022.h5",
+    "bytes": 2106755,
+    "sha256": "b0528450417b7c3b206d46010cf8cb2bbcb38d4f6883d54ff4ba21e376fbf5bd"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-022.jsonl",
+    "bytes": 3563690,
+    "sha256": "f9704d660221c2eb7a0d71941476969f82679194f417071d565af8de3a4620e0"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-023.h5",
+    "bytes": 2105906,
+    "sha256": "e6ed9628ccddbd200f3cb72ec1a3dc65fe1df36d08b88d06cb1d9a6c71ad352a"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-023.jsonl",
+    "bytes": 4064237,
+    "sha256": "a5d4ba48e39b45a8e562915fa978a521ab6b064aa9fa5b7a05a413ddf081dc81"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-024.h5",
+    "bytes": 2080065,
+    "sha256": "254d2c281ea7bb338e0d512b212a9759f4e800cf86abad789030c0134df3844b"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-024.jsonl",
+    "bytes": 2271521,
+    "sha256": "124530b0c07e83b075bc064eb8968d9739c38ece864469cf6b9be1de6b5f5b42"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-025.h5",
+    "bytes": 2029354,
+    "sha256": "693324523ae660d73586b3baee9317f97227aff854f446cf0d3713c769a80655"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-025.jsonl",
+    "bytes": 3991242,
+    "sha256": "0d608d7fa9cfab58888064df39251b696fe76f37825147c7060ed6365379f4d0"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-026.h5",
+    "bytes": 2010432,
+    "sha256": "52122949b70067332ea7b49040b53b62c7ee6a66557e059a98909d1cdb73c8dc"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-026.jsonl",
+    "bytes": 1149207,
+    "sha256": "8a63e93109a1f408a3f1455ff7506135bd4feb0edad7ae855d75bd4e2479f9f6"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-027.h5",
+    "bytes": 2250535,
+    "sha256": "083a3a6b83e23183388cfbef40a593211c07b6797a03c2a593eb65bbc256e906"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-027.jsonl",
+    "bytes": 11562277,
+    "sha256": "14e973be92fd69ab86c1a6dd202de63c483a13328cdf36d826939a6741209987"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-028.h5",
+    "bytes": 2396364,
+    "sha256": "099c777cb05d8f47d887e40cb4228c767d1765cb2f1de159cfa3b77c8c1d7b69"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-028.jsonl",
+    "bytes": 10748762,
+    "sha256": "56dbd5fe24c9ac486caef9cf1e8560849714a2d48f442a79418dd08af44b6062"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-029.h5",
+    "bytes": 2197147,
+    "sha256": "78b7bdd5a40332b7c3cfca8f4f1057fa1db02236e994a38f5ba4ecacd855bf7a"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-029.jsonl",
+    "bytes": 3428565,
+    "sha256": "9e03b920af04828746e70fe50661d151dc3b64e2d3395f1a4cbec6278db14050"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-030.h5",
+    "bytes": 1980512,
+    "sha256": "1f3986b8a37876df5c41c86850d116eee7c49eb5b661c01c25368480362dc35d"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-030.jsonl",
+    "bytes": 1499274,
+    "sha256": "1b4e0961e73883b9ab200c0107af9981f874eae408db6065d70cc5c9f5b7bb48"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-031.h5",
+    "bytes": 2021590,
+    "sha256": "d4a5693cfd3a313c0203a57cf5972c583ca7c056482555acbfd5c4ee9ad24d24"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-031.jsonl",
+    "bytes": 1381754,
+    "sha256": "81149b4ce63f74c1801e29439a586033f3b08844a02a18d379ed107023b3c12d"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-032.h5",
+    "bytes": 2156781,
+    "sha256": "55e2c013803bbdf71056dc39dfc6c1d56ae834f6d8e44b7d1bbee8f19db71c44"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-032.jsonl",
+    "bytes": 1188471,
+    "sha256": "f16dea804adfc6cda779d6fa964a51dfeed5ad5e23802259c41638234a77ea99"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-033.h5",
+    "bytes": 2064545,
+    "sha256": "933418438426aa45b79cefc762379926274c1d372f422e6ea1fe193c9b1afa9d"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-033.jsonl",
+    "bytes": 1294832,
+    "sha256": "362263667ab96db9a4e5acdc0c3833bc8cfbeebb6ef9e571e2397d9a17672d3b"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-034.h5",
+    "bytes": 2265963,
+    "sha256": "e2005990f9ef41ad8a03821fd3442a57c747aad20196d91870711fe7db6185b1"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-034.jsonl",
+    "bytes": 14533431,
+    "sha256": "e421346dc9c44c8cddfce7f9d5fb0513934ef6ae3d36df87d7483a3731eea26a"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-035.h5",
+    "bytes": 2101743,
+    "sha256": "2e79dc316c03714314882860c5328ae7c0b6c1d79797aceddadc45e35864f3af"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-035.jsonl",
+    "bytes": 1616033,
+    "sha256": "d58c8ee658c398d5fb958650a82fad4011d06c0b0bbc20ff04be0d3ecd53f8cf"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-036.h5",
+    "bytes": 1993448,
+    "sha256": "12d1d62c1e8301786da3c2d0f4e9bba8812c146ea22bc189ba83936758af2bb1"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-036.jsonl",
+    "bytes": 3562486,
+    "sha256": "e214364b951039b9d18cbb4cb810ac56e20423f63d4837647e6adcc0678b480c"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-037.h5",
+    "bytes": 2183351,
+    "sha256": "7abf8afa31390724f4724e1e08d675df5e2854e9cf6b2c89f4cdcef1ce6ef878"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-037.jsonl",
+    "bytes": 1732154,
+    "sha256": "c7498270c99874f82f55c9bf756e1bd56d690aa48cb85ab1eb6cd1edd7cf250d"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-038.h5",
+    "bytes": 2046448,
+    "sha256": "f8b5c66b6b35881a79bf7c8ff862f398f38dc83beab18a8bfb2edf7bc868cf04"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-038.jsonl",
+    "bytes": 4145974,
+    "sha256": "29ae7c86194442c792b75e9e25c22bba7bc90d90f3bf92bc51e903aefe0e6e35"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-039.h5",
+    "bytes": 2205801,
+    "sha256": "4bc8910bf70c553533ebaa608703724330e2b407ab62c0c168945accc6959d0a"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_bc_transformer/pnp_sink_to_counter/panda/telemetry/episode-039.jsonl",
+    "bytes": 1468336,
+    "sha256": "725f3d522d0e0aeafc3d6ce087a97dec0a6280cc5d5707474e25081916a508e9"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-000.h5",
+    "bytes": 1878118,
+    "sha256": "955d4133bf15dedb5e9284455d4742d41b4ccd493273b6a4e8ebac369d6776eb"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-000.jsonl",
+    "bytes": 1577713,
+    "sha256": "838599c544c91204a6e11c38b561a1bd1506a5b9f53acb2ed966ad45fbd56eda"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-001.h5",
+    "bytes": 1981003,
+    "sha256": "e16c72a3a27be87e77dcc08706691f9034101fbc283e3e77dd840f459eed28b3"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-001.jsonl",
+    "bytes": 2079866,
+    "sha256": "3680f81cbf3c0fd9ad398f94d77ae9199d2332abdb84f97b40a2d8dfe4f5a0b0"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-002.h5",
+    "bytes": 2051967,
+    "sha256": "77c5e312a73ed5a6d3c33dec170273f48b2d7c1634b2c3580f5b99ba3a48d157"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-002.jsonl",
+    "bytes": 2731627,
+    "sha256": "4cce05c2c5e58febb69c888f0cea6dccaa0583a2594f05d0d8b5db8a807fd715"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-003.h5",
+    "bytes": 2101865,
+    "sha256": "30c6fafc21d8397c0648c26e82cc880053b11cba9a9cf6cdbe42f249f8eea016"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-003.jsonl",
+    "bytes": 1328656,
+    "sha256": "ceb6b6c0af7f1253ce2df4102d26c8da28ec867ff793ee8ec70bcebb76e93975"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-004.h5",
+    "bytes": 1871285,
+    "sha256": "1ab48ac58427d112d50d7f7ffc3351b5a10400afb612f49f60e470c1c32aef95"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-004.jsonl",
+    "bytes": 3164943,
+    "sha256": "2cd42eb91a52eee6ba991268066a46b4c8648f21bcc2dd5d0e574a9c8af330da"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-005.h5",
+    "bytes": 1918706,
+    "sha256": "7ee72b5017c73951378f306f328c945ef6a15a177a549d256aa480ab5cbac313"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-005.jsonl",
+    "bytes": 3752861,
+    "sha256": "350f3e6997dd4faa9fcce37992174cd380f8fad81e8731e925c9bffef8f4e401"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-006.h5",
+    "bytes": 1950700,
+    "sha256": "5faa543c9f616a85817a9bc7c19ff20567d06b05fbffa87acfa804391245d3c5"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-006.jsonl",
+    "bytes": 1834237,
+    "sha256": "1e7677fd99db9f2110025b809ea58a782c956a79437eb71f0d08e7a3d181bc3e"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-007.h5",
+    "bytes": 1941770,
+    "sha256": "c01ec17e4aeb225d53ff9985aea637ab38b8b504e5494106abdafad11322a51d"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-007.jsonl",
+    "bytes": 2545608,
+    "sha256": "cff85ee780563825ce01e90eacdda5f9fc3de6d663663fd352424e18b9c041f5"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-008.h5",
+    "bytes": 2034139,
+    "sha256": "60da5b1503436bfaa15490ab2801260257e1207cd8779fed50694c3048d2b569"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-008.jsonl",
+    "bytes": 8640878,
+    "sha256": "e46ed3de3607cf9066aac76810aaf8f1338b6a6d49535a00d920b799d57b2588"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-009.h5",
+    "bytes": 2025640,
+    "sha256": "d0ab392c171aabc330d2573e1801fe8b19550bca41cbc29e62de9cf6a0c27cfa"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-009.jsonl",
+    "bytes": 1238063,
+    "sha256": "0a713350beba54ca69afffa69cdcb2398feaad122437869b5beefd732ce74a59"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-010.h5",
+    "bytes": 2027610,
+    "sha256": "8eaf937a183b6ee67b87e3712031425466d6822abe4aaeb05200b6b1ddc76a98"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-010.jsonl",
+    "bytes": 2010073,
+    "sha256": "3d5cadb03220a2bdc10a0d1f56f636817eeb7b320359c0896c48c0e7a291f50e"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-011.h5",
+    "bytes": 1936708,
+    "sha256": "e596ac06f337944da4ca9dc185a4820713d246aede73b0ddb16b98a6f2e81152"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-011.jsonl",
+    "bytes": 1371330,
+    "sha256": "2f171540da6f27a0d32391a07e138dd09db76c58bef9308af2ff2a89bc2d129d"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-012.h5",
+    "bytes": 1984009,
+    "sha256": "4de12e020b3bbc8b53182f96b6a31702b0937f03fd2fe3539d5fad86f9f228b5"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-012.jsonl",
+    "bytes": 1097237,
+    "sha256": "4f16da1b8a2387961c10cbcb7980396145475059728d648bde89f7b02ba90078"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-013.h5",
+    "bytes": 1875208,
+    "sha256": "46f1bc2f4647351acddecfc295e24488188dbde496db9123c4849c6d6ee6aef1"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-013.jsonl",
+    "bytes": 1487867,
+    "sha256": "d6dca7b261e81760b883418d03debb08ac46ecac73572a111ca51c577b77d909"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-014.h5",
+    "bytes": 2052932,
+    "sha256": "e69fae6b64681cfc3f9ae3c61cfe043b184d2013f5a600bee9df91276bf563f5"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-014.jsonl",
+    "bytes": 1076730,
+    "sha256": "8831959a10ece87b951035169c2cc3cba15910eaad996157314383a89d2f0122"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-015.h5",
+    "bytes": 2154051,
+    "sha256": "3f5bd6437ddaddd5213f6622d3d76f490c76d8d1dff76fc9009d31880983408e"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-015.jsonl",
+    "bytes": 13275637,
+    "sha256": "f6f0e48694ddee92b0fcd41e202b8d8faa1dc9cb98c6e4e4f068e49d042680a2"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-016.h5",
+    "bytes": 1921962,
+    "sha256": "756aaaa0215ce5919b46dac8e8b9b47ea7050ebaf2942af16db4325931dc8abf"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-016.jsonl",
+    "bytes": 1050120,
+    "sha256": "7ceff804ac71636e5e1cb46d3c6174da98a2b6770c75ed7b19cdf27a596b1c2c"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-017.h5",
+    "bytes": 2043525,
+    "sha256": "58b194f9f59de47e107c7cee5635cc5c7a4db8691d79e5cd85bb8b6bea77949e"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-017.jsonl",
+    "bytes": 1102698,
+    "sha256": "b010412d859bb6890cb5e7894315d041a51cc6add53fea62a473cb9447564069"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-018.h5",
+    "bytes": 2118962,
+    "sha256": "44942127517c51227ae79f6d6636de0940fb1c30699a809b5dcf59617cec5210"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-018.jsonl",
+    "bytes": 1527935,
+    "sha256": "fb73fa5ab49d3541314ae9d5c67c5750e537e3033cf45659b63b6b129a77949b"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-019.h5",
+    "bytes": 2077088,
+    "sha256": "af48c6972c2951cc49fc485527ad05de298a39b21c8ce37e995e9f7be35a97c4"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-019.jsonl",
+    "bytes": 2958552,
+    "sha256": "dac334efc7a91c55f7e124a0f3654ee281582875bfd6219227b4fb4b84ddfdac"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-020.h5",
+    "bytes": 1991511,
+    "sha256": "740537a0833647f02f23ffa90d1ac937202144be88c71ef31c511b074f801491"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-020.jsonl",
+    "bytes": 1288289,
+    "sha256": "33c173464b5a38d820573cd63e744be0ced100c7431fc72f51cc663ff2063bf0"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-021.h5",
+    "bytes": 1956924,
+    "sha256": "6d089cce5dd02f088932867877cb6d123f1417577aa9793556068f6f3f99df23"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-021.jsonl",
+    "bytes": 1399986,
+    "sha256": "9de6006bff4e01aec6892b3492412b2fa6f8ff13dbafbd46c4058ed6813c6b63"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-022.h5",
+    "bytes": 1891666,
+    "sha256": "8e10b8b4d33b32121c41d119fb7e073a030e32ae947d72e230065c7da0d61faf"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-022.jsonl",
+    "bytes": 1227589,
+    "sha256": "81ea95b2ebb516ec0bb54aacc45b600bec3f429b29432ad37627a53b762e7a80"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-023.h5",
+    "bytes": 1943143,
+    "sha256": "7d3925a56085d7ca2f2269fc114bc85b536c98327dc455d3431f524011ba6a07"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-023.jsonl",
+    "bytes": 1875723,
+    "sha256": "b8dc2bf7489c61ea3e16333c34d9578d222e49fb63c4ed909ee32cd2943b6f72"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-024.h5",
+    "bytes": 1903383,
+    "sha256": "45456fd06accd7ed0dca4708cd1a09a546d761dd9824e0745daa290f57fb1dd6"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-024.jsonl",
+    "bytes": 4140135,
+    "sha256": "7491f7f94697dbff4945425d9d544b0e64daf46df638bf6352573e39c9d0a7c3"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-025.h5",
+    "bytes": 2011672,
+    "sha256": "314be01b81c4e4521bfee1c1ca2330840650541372d009c2de204b0fae14e348"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-025.jsonl",
+    "bytes": 8499219,
+    "sha256": "d307a321b4f08aab4fd66d5677f39f033136c6049a4c37eddc6bff200bcd6650"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-026.h5",
+    "bytes": 1921788,
+    "sha256": "28acbe9c8bf0746a66d0d87c8b8e6112f8ada455d664f48d5b4e76f6e95063ca"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-026.jsonl",
+    "bytes": 1104571,
+    "sha256": "e9822af8c1533df5e10c348bdf81d5ff5056af68152746a92cd6b554708909a1"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-027.h5",
+    "bytes": 2018954,
+    "sha256": "61121ae342e0c7473fe10dac3c9a7cd887819b22ffa23e017da925e85af9b028"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-027.jsonl",
+    "bytes": 1435548,
+    "sha256": "320962e640ab5f4b9a6eff31982c01fc178cf89c7f2f1f56d309a1d5c181d9c9"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-028.h5",
+    "bytes": 1922588,
+    "sha256": "0898e01a0cc2b9e46f8525ee528e826a71513e3bff3f7dbe66a5c31d7d411928"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-028.jsonl",
+    "bytes": 1959544,
+    "sha256": "5fd776ead48a5cd587142832e05405af91acfd8bab3584c1206a0e29505eb0ca"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-029.h5",
+    "bytes": 1860135,
+    "sha256": "f16ea4df23650b94e38ed3b50b6b196f546a86cab2661c7a36ac79f2e6e0e839"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-029.jsonl",
+    "bytes": 1652026,
+    "sha256": "b1a9cddf54b3b9556e2e9a4339f41bf7242f6b1ad7a69ca74b6c8a194ffe0f91"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-030.h5",
+    "bytes": 2026805,
+    "sha256": "70a00e630d81ed4ead06cee4380de641fce16fa3b2b77fca2721f5ff0ce636ad"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-030.jsonl",
+    "bytes": 1171853,
+    "sha256": "1670253b770e5ae794663299b61a1e9c24ca8efea48e52776cd3ac0dab55ee43"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-031.h5",
+    "bytes": 2114681,
+    "sha256": "c9287fdd33b72b6834295fef1b8fbdbdb5a755f1a05a0c1053836fae1ea6085f"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-031.jsonl",
+    "bytes": 1409695,
+    "sha256": "42dd57e6e2b6b049edcfd7a410732280ff1af138c3dd949d23d2ffac28755eb8"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-032.h5",
+    "bytes": 2005522,
+    "sha256": "1a72130d605e259041dc28029e68a3660b4f344ada08b9b699fe3106e51ca600"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-032.jsonl",
+    "bytes": 1007054,
+    "sha256": "0f720c3f3620a0fc0b2be4b426100fba31e799c60b66f07bf3c436d5263d5493"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-033.h5",
+    "bytes": 2035619,
+    "sha256": "f3b67b816c71a9239e40c686f2740d866dd22890a9e8f06ec8966c7426fe9198"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-033.jsonl",
+    "bytes": 3244042,
+    "sha256": "51ffb37e21e801461082f1b952e11d37cfdd4b1ca1e4610e3788aa8ca20ff83e"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-034.h5",
+    "bytes": 1903845,
+    "sha256": "97c3bccc58aaf4e1471046c567c53ba46dd11629e715ca1c4711c008ac8372da"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-034.jsonl",
+    "bytes": 3014958,
+    "sha256": "69220c83182ffd466768dca389c2bd7d15717296fd1a8593fa26ec7f6d14d08f"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-035.h5",
+    "bytes": 1970978,
+    "sha256": "d5b630c1832c2b1b7f53efbce51820d35364ae4a9d487a300632e29f5dccad07"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-035.jsonl",
+    "bytes": 3286179,
+    "sha256": "f798fe9200648968d26a323a62fae8c19e72a69e107c8afbbce884733bf02722"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-036.h5",
+    "bytes": 1974527,
+    "sha256": "2d04fb3c87075aeea6da0afc10f317116afcf06f9611efc206a844040a118a8a"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-036.jsonl",
+    "bytes": 3128633,
+    "sha256": "b09ba514e76361595c37656c4b34a7a4adb695d2d816299d467772f6f4f856b0"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-037.h5",
+    "bytes": 2047245,
+    "sha256": "de7b536b4fff1ba795a860078601c349b97a65d7c4b44adeca2914ef922d74ba"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-037.jsonl",
+    "bytes": 1284704,
+    "sha256": "00af04dfbc5912aa0d6ae73c5ff2ab5afc7daf02e1d5f4f82734def01e2302bc"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-038.h5",
+    "bytes": 2031905,
+    "sha256": "e4bf52735d935413d5e2f58f1d3e35c526fef8c662be55dedc4807be3d99d9eb"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-038.jsonl",
+    "bytes": 2910308,
+    "sha256": "0fee436c7aed850bfc94224920fcb72c3eb5597a44794dc7ddf980c08891b50c"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-039.h5",
+    "bytes": 1924510,
+    "sha256": "4b1a91318a84e97e02a8833cf68b5c24564d7256173393d5ef29b8808528bf31"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_counter_to_sink/panda/telemetry/episode-039.jsonl",
+    "bytes": 1962871,
+    "sha256": "a938558b4615add9c1ac700060aa549d426032b748e80d9ef387dff12968104c"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-000.h5",
+    "bytes": 2111549,
+    "sha256": "db4b6d183519fd6b470a22c98fe8c5747ec9eda84c2afb0f0e11426600629765"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-000.jsonl",
+    "bytes": 1325414,
+    "sha256": "4f47b7d2319fd80bd556302f10d3721842099909d56f16afba03ae01cc14cc85"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-001.h5",
+    "bytes": 2075227,
+    "sha256": "359d8140cf257ba26f1530e273992beb3cd149a054605b0c68f782e943f9c3d8"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-001.jsonl",
+    "bytes": 2230675,
+    "sha256": "bc04444fae468e4bdf216303437f096587ab22feb779ef637b7c61df8edae439"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-002.h5",
+    "bytes": 2121491,
+    "sha256": "0cf15e2ba923f9a7e04f50be9409b49419c79e96d0c1e2262924259416cbb0f3"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-002.jsonl",
+    "bytes": 1354237,
+    "sha256": "a143dd2a64e5f2d15e3b51a42dbf7350f90042c2910214f8fcda8f316b40e32b"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-003.h5",
+    "bytes": 2177816,
+    "sha256": "c10b91d23da03ecac28c1d5a2d64deac23fdbe1baaa0f7901950bb65a7157c4a"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-003.jsonl",
+    "bytes": 9565838,
+    "sha256": "dd329726e3355ff7c6d3960341f787d903ce5b89083110cce2c36311c3647d01"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-004.h5",
+    "bytes": 2270416,
+    "sha256": "bf2fdff25eb98c6869f77918946ad28ffbf63f3513628b4ab154283b02182509"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-004.jsonl",
+    "bytes": 14671855,
+    "sha256": "22e0ca0887c94eebbbb846870ae237718160088cc26f4e1c5d2864f37b46f08e"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-005.h5",
+    "bytes": 2103782,
+    "sha256": "4d3fe89076450c85e9df5a4c12dc153c3a6ee9786d7ec7383ecd89e73e45a715"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-005.jsonl",
+    "bytes": 2404872,
+    "sha256": "80add05d7f444bffa5b5f94771f56f5b1ff4949172a740d8a6c54e0764338624"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-006.h5",
+    "bytes": 2060612,
+    "sha256": "3aadd5bd613d2ca13650efc13bab449c7378e0323fcc1c9d7a30f6e58a952197"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-006.jsonl",
+    "bytes": 1606288,
+    "sha256": "d60395c79d1d6b68cb4aad280fee54b36b1bd7b898afce8ad11d0d326257ca57"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-007.h5",
+    "bytes": 2245277,
+    "sha256": "6bcbc94101add94d83261e263d92fed4838d634049541f664a5eac8a752884b8"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-007.jsonl",
+    "bytes": 12271477,
+    "sha256": "6eef9d96034c8434eb86c20c11d5b9b58bdd20061eb064bacac4bb536ccb6986"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-008.h5",
+    "bytes": 2062193,
+    "sha256": "e6061db1494e5ef661d73a9382ed54beb212bc01e37dfb174474c2d2626b7792"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-008.jsonl",
+    "bytes": 1251239,
+    "sha256": "b84c7832862395c32be409a8324d2fed22f94239b4fb3fd79cd1c7a67bb489b7"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-009.h5",
+    "bytes": 1909055,
+    "sha256": "bd53393f81638eb511a3b6f2b1cc980559cd13ee11b98169d97f74efc87110ef"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-009.jsonl",
+    "bytes": 3471898,
+    "sha256": "883a3e3d54e6960b1072b194c0e73e71688928ef75e3404e87af9af137d76132"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-010.h5",
+    "bytes": 1959310,
+    "sha256": "a5985349d19ff8b9158d6f622dbcf8cadae339c2fac6d6200b82beb3f17851a3"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-010.jsonl",
+    "bytes": 3385554,
+    "sha256": "3974cfb42be0123bf5572a4230a8fb5a1eb4f10d833affc87435445bf3decbf4"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-011.h5",
+    "bytes": 2049047,
+    "sha256": "4eb3feb9643ecc4d7e635b3146d988c77df46f04e89aa7d883f04c7577f1dfcc"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-011.jsonl",
+    "bytes": 3441286,
+    "sha256": "672a80bd5b2aa2617b678afab48af027b9598c4893cacea3f452e4896e8f4c69"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-012.h5",
+    "bytes": 2170102,
+    "sha256": "81faacded32e5e6766466e0dd02ef5cd1fffba9d82eb18cc1798e445205a2262"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-012.jsonl",
+    "bytes": 1657308,
+    "sha256": "c38e3a84132709cff86d77c02bfd33c95ec83cfe47642db66d5804b7d15d4b8f"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-013.h5",
+    "bytes": 2168935,
+    "sha256": "0bbd1eca68539320af51149f0c9ac97a0f46f9956897c1a1f127d1062c8d074e"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-013.jsonl",
+    "bytes": 1635614,
+    "sha256": "0a2ba53fa84cbc785fd81f33ec945def5a167f0e2cfec7fff9c916a260ab7bc2"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-014.h5",
+    "bytes": 2051138,
+    "sha256": "c2f0a6d99a1f9726ee77d0529c46e69ead8f35a83b3bf4196ad6a185ee4e8683"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-014.jsonl",
+    "bytes": 4194702,
+    "sha256": "4a3feda6a0dd9b7d873aa0729cbfda19eab6478e405143d40f317dbd081bec89"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-015.h5",
+    "bytes": 2166991,
+    "sha256": "4159769ebee445076cce5a0cbe2cb80c4608fe385894d68d0b04ece45bf30e75"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-015.jsonl",
+    "bytes": 1398210,
+    "sha256": "129b95a04de5a52b6c8cc0fd3001f2dd5a0eb05f71eda3d996368a814b9f8da9"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-016.h5",
+    "bytes": 2213396,
+    "sha256": "ddc04375fe30e751f958103b06a3a4dd94ae8d75cd8fc5d6e9d6bb91af2cd263"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-016.jsonl",
+    "bytes": 10533281,
+    "sha256": "67a43b4ca139498a88950982836f99674c05086bfac9e00444d9476904690d9f"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-017.h5",
+    "bytes": 2094734,
+    "sha256": "8f82d7c19a38a867e68bcd8c3ea849a77a8c2944128600b378c6deabb73ba1d2"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-017.jsonl",
+    "bytes": 1513283,
+    "sha256": "33d41cc74b0ea44405d27a7bbe80c19f5e3e26ef1ac8388568c3b4f4d59d535d"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-018.h5",
+    "bytes": 2133555,
+    "sha256": "1fbde29970589898b90df636d621c7291f130ce797f889a88cff263dd32da3f0"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-018.jsonl",
+    "bytes": 3129815,
+    "sha256": "4b93154fd2a8e364dd962b1f792453ad98947bdc8238ca402e124015ac6c2d34"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-019.h5",
+    "bytes": 2275388,
+    "sha256": "1527a3fcd846616861876230da38e12c0318ec425d92b704647200e6c8b967b8"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-019.jsonl",
+    "bytes": 11423547,
+    "sha256": "d90b52c22c233da27c9661518e85b93501cd167260e48a0a8e6a5ec2f93aa24c"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-020.h5",
+    "bytes": 2150619,
+    "sha256": "a696d2b0d76146222991ad685492ad182bd33dd3d17142c3264128d6dc15d83d"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-020.jsonl",
+    "bytes": 3450841,
+    "sha256": "47c0249e71f8a7f2fdac89867d136a614be4662c3fc7fd8584899f5d37575044"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-021.h5",
+    "bytes": 2079718,
+    "sha256": "dfeaae3d92b53073a3c74f1b3485ee679816595eb52c43a02b1a4e58df87f6ea"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-021.jsonl",
+    "bytes": 2114501,
+    "sha256": "0de1ad24d905b7168e8e0e18166d35558806af9de882d07fbb05a9c8c922ed60"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-022.h5",
+    "bytes": 2125817,
+    "sha256": "a056461dcb14d6411489dd8797c7a23aa13f962db4a81ee23f72be08aa800816"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-022.jsonl",
+    "bytes": 3578506,
+    "sha256": "5c3c95bb602479b124e58a94fa86f0ad10a5802f73d07275ed93fd7a13d1f920"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-023.h5",
+    "bytes": 2117143,
+    "sha256": "e2b9d4fd2563aadb4ec9b930682f1badd91bb3432cd66cf35629652782930fcc"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-023.jsonl",
+    "bytes": 4068476,
+    "sha256": "8f2004da1937f143749b7e525ff9d6d5f8bbf7dabbc6bee6ace276e42c982f19"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-024.h5",
+    "bytes": 2079588,
+    "sha256": "ce22cbe027f452b303a99ec79f3204c1552eaa1bf231247a7a91dc8b2ad5c3f9"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-024.jsonl",
+    "bytes": 2209662,
+    "sha256": "83c9a4bcf68d1c3b39e1d97f3d0a2dab8ff85ab1011aef893d439ebd428fabea"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-025.h5",
+    "bytes": 2016717,
+    "sha256": "0ed803604d12d74a65a0c9b805a8c8f55cf8548548ce59c5ecb18111297c08d5"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-025.jsonl",
+    "bytes": 3987399,
+    "sha256": "6e0592ddc5ce4ff166822e728f04d2c6feaae2a3a47a186da57c26908b9d0063"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-026.h5",
+    "bytes": 2024708,
+    "sha256": "c38c0eaefe418d73d83e5592c0c7b6219651de6625652dc6ddeeff6e4a64350e"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-026.jsonl",
+    "bytes": 1148230,
+    "sha256": "ff1eb3ce12cec75d2800150dc460ccdb5e7de2102038172461098f68ca2f6e5e"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-027.h5",
+    "bytes": 2271205,
+    "sha256": "4bd6329f621449e649716c4d98f117a8a7647dbcdd2821be0c6bcf09b9e70053"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-027.jsonl",
+    "bytes": 11421735,
+    "sha256": "daf0a7ffede535a306b63820802a1f0fa7f3d5183ff26113b8a1057e0dd6d17a"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-028.h5",
+    "bytes": 2400389,
+    "sha256": "7a5ce74a6a2451c2165c032303b3c1ce94f6814c2978c1a55cd18d77e988439e"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-028.jsonl",
+    "bytes": 10717152,
+    "sha256": "e3a758373a510f75078c879447e45ca93a4fca7cebbc366c3b2d24cd69c8eb3c"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-029.h5",
+    "bytes": 2192616,
+    "sha256": "eaa571e367359ca90e6cffa7c49b80596f66d15f408b6640fc9e81e0f4537597"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-029.jsonl",
+    "bytes": 3469854,
+    "sha256": "5eb1b0f6e97ce1e9488410147d86ef14babfa9cf9a48e6ddae426c94990b98a3"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-030.h5",
+    "bytes": 2005390,
+    "sha256": "d18ce5282688d264906eb8170ac62b2badfa7a8b14a47455af551d80740b63e1"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-030.jsonl",
+    "bytes": 1528849,
+    "sha256": "c72d8361c70f77cdd3260ae26901ec2170411886d5a535b2cf45549149ec3ad6"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-031.h5",
+    "bytes": 2045514,
+    "sha256": "4f28757038c2467a7fe9e863f8e0d2edf99b438c7bb2eac3b70ccdad9279c571"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-031.jsonl",
+    "bytes": 1350119,
+    "sha256": "ce0e614e60a34931069b35c77966ea724541e5edc638b5f43b39e5aa22432dcb"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-032.h5",
+    "bytes": 2143169,
+    "sha256": "11e47083018fa57d53cd5f3079ab5a5d93977cbb4897a39c6c68ce3a7d712faa"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-032.jsonl",
+    "bytes": 1136196,
+    "sha256": "0b42d36c036a62c547ec67fb6b0a60932df7a3cfa4a64022545aeee9c22e973e"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-033.h5",
+    "bytes": 2098269,
+    "sha256": "a1ef8d0da957178005b5aab772e9e2e4affa3bd9f6cdbbe1748fa692bd2629ca"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-033.jsonl",
+    "bytes": 1304327,
+    "sha256": "e30cc1ccae2fdea03e624d8ba7b74c504032c33f27f2aa063a5a562dfe142f8c"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-034.h5",
+    "bytes": 2293692,
+    "sha256": "b20b44a682f0d63e1bc5681dcef0c494b4d4f47ebf987772b58271a12db747a1"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-034.jsonl",
+    "bytes": 14397356,
+    "sha256": "2c689533b88c367d2641a8148cf957f97b821c20151602ec3006c16473481fae"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-035.h5",
+    "bytes": 2117488,
+    "sha256": "f9e61e0481decd817308436768f52750cd38e154323dd1f7f8ae2a168ea3abd4"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-035.jsonl",
+    "bytes": 1605579,
+    "sha256": "b2e635598cb9047d470a8d69aecc32129f95f12c043aa422a71ec16fbb8bc9fc"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-036.h5",
+    "bytes": 2002941,
+    "sha256": "22b9dcb5bfc2164678c8b8f005954d4224e6f0ccfdd264a31bc90f5bdc7b1cf4"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-036.jsonl",
+    "bytes": 3566840,
+    "sha256": "0074e5dd44b781f1cf0789096072e3f0db9725c01ad250b1e941c4c60b41c9ad"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-037.h5",
+    "bytes": 2194373,
+    "sha256": "111a8fc56ae6fa050f49e68808e6d735485c77a933009bf981bfe82101a8b99f"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-037.jsonl",
+    "bytes": 1732051,
+    "sha256": "3110fd572f4c8417debda6f836ae4ac723c5a0cd42300ffa68d6dcf62fe12746"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-038.h5",
+    "bytes": 2060869,
+    "sha256": "49e5ee645d094b5212331c432aae7489af18b3cb96f44dc78f74bbb2a2381e3f"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-038.jsonl",
+    "bytes": 4144941,
+    "sha256": "908d9c851542cb73c7180979e53b9e7884aa41fc9e83ab9690e90c807b285459"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-039.h5",
+    "bytes": 2181025,
+    "sha256": "ee0ea0e239068e1d716c3124e37dc3e9987c53b8767d8bd5d45cc997bffd8c8e"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/B_diffusion_policy/pnp_sink_to_counter/panda/telemetry/episode-039.jsonl",
+    "bytes": 1401392,
+    "sha256": "7dc4d6475e9853b513ed4423f57ad51ebb2ebcb4797986be0f60036cd0e193c4"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-000.h5",
+    "bytes": 1868561,
+    "sha256": "50862fb8eff2ed4d5d0fa23830e6359a023388e5a7191e438040b919a0482cab"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-000.jsonl",
+    "bytes": 2071918,
+    "sha256": "abfeea385ab66bd627092bad08cebf5575c4b033bb2f41b84bc90ab1536b224d"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-001.h5",
+    "bytes": 1920814,
+    "sha256": "5bc35ca17ac23b1ac8cd45432fe581ac2d6a770bc6c03d5e0108126a8d373ff5"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-001.jsonl",
+    "bytes": 1834838,
+    "sha256": "d94580cfb9c1feaf77464515de7fb0d90d2fdc847287c582378a3ac404e1c072"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-002.h5",
+    "bytes": 1976320,
+    "sha256": "65a9b59027f34a67c70a972fc3a834422751bd3e8309a82cfda8cbf9eb952289"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-002.jsonl",
+    "bytes": 2994679,
+    "sha256": "3c231c8ccaf7d782af90e0d50dfec86a297c19f65ebfce6e8c5e3da16ec5e327"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-003.h5",
+    "bytes": 1999938,
+    "sha256": "49eb36d9a60f0fc4408813f5746b41df9490688350c883550ee07b6d4691316b"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-003.jsonl",
+    "bytes": 1181551,
+    "sha256": "d12b778eae9882e7ea6a72688a4032c5c102608a4e05226485b4bb90200d6477"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-004.h5",
+    "bytes": 1862893,
+    "sha256": "05df4760e5b30514190490658a0690086755b104fe4463df5016061e78e2ccae"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-004.jsonl",
+    "bytes": 3271193,
+    "sha256": "9c0faa24f39ef131a0a989f8ff814b6a3e8a67737944a1f8f571514c8e5354dc"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-005.h5",
+    "bytes": 1862135,
+    "sha256": "a4fc2163a1c4d23c6da523000967f41a4a8a68c90a9208b0865733ed031c02de"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-005.jsonl",
+    "bytes": 3333634,
+    "sha256": "dc3df5f809c788948f3f41fc4d506de65537f5cfa33ae43c90fc8b19cb9d83fa"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-006.h5",
+    "bytes": 1939976,
+    "sha256": "ce563ed96c0d977ea11b6df71bc04e40bbd406e23edf65ec69bff42e5a204d44"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-006.jsonl",
+    "bytes": 1852299,
+    "sha256": "d7d0957cccf4ff8bb40d98db268389b09d793aba8e800dbeb450fb6422d74d71"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-007.h5",
+    "bytes": 1948205,
+    "sha256": "b2c26c8fc6c48caae1d470893f9e4b8da32eb43996663e27cc89909c8f07744a"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-007.jsonl",
+    "bytes": 2546628,
+    "sha256": "d3ca8fbd397835164daef1ce713bb9caab1c05dbdb3e7deb66c1bd9d456abde3"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-008.h5",
+    "bytes": 2023530,
+    "sha256": "c9a1564fdabae8064abba81ab4e02bff7dd3bc8c0d48b4a57ef1d3a338860a79"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-008.jsonl",
+    "bytes": 8772842,
+    "sha256": "28027253552ba9b7f1b105421d8e44d38d524f30980e4668e8d11ab370812ffe"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-009.h5",
+    "bytes": 1993394,
+    "sha256": "add35c176b6463ba2faac4afc5201706f5528cee3c9962887265d0eb80f498e3"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-009.jsonl",
+    "bytes": 1517926,
+    "sha256": "81c60524b5afdb783726360a2463014bad25a578b28d8271e2ae9fa0cdefc896"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-010.h5",
+    "bytes": 1275850,
+    "sha256": "44eea124e886d613757e3d957a77aa9969a9c9d4d282ffa71a78b8f11234c289"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-010.jsonl",
+    "bytes": 1577223,
+    "sha256": "58be4c6a7904098a54d8a6cdcfb9a066ea0f2a8ce912cde217d5bb93396a5cd1"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-011.h5",
+    "bytes": 1891407,
+    "sha256": "90b0ab6b0c4f2f09c87b3db6078ac64033f86dfcfdfdbde5d43892c00c98cd4e"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-011.jsonl",
+    "bytes": 1470932,
+    "sha256": "b0afe38c8b1205297207780494a910e1e502a3ceb4c55d604a8b8fb56cdd9ba6"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-012.h5",
+    "bytes": 1978107,
+    "sha256": "d8157d5fc8e29f9b56555bd44482995a51421ddd576a981aaade41aa0e60d169"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-012.jsonl",
+    "bytes": 1057744,
+    "sha256": "8b75d5b1df0e44449fe407cad568140e6e75f3ea3fc2b56e5ebc3ef93db4cdc8"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-013.h5",
+    "bytes": 1806621,
+    "sha256": "613f53e66503cc17f9fa1dc9ba9614ed1b934cf230a326f8b262df948e7fa546"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-013.jsonl",
+    "bytes": 1441032,
+    "sha256": "82143eaa8dad342a1471017f52cc2c06af6560357bdae8f6c0a98d5f839ca7ee"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-014.h5",
+    "bytes": 1998705,
+    "sha256": "49310791d19c838cb04aa587d559298d9893b2c5ac3d8a52b81083c653d4d556"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-014.jsonl",
+    "bytes": 1516179,
+    "sha256": "b1664b4e9a156146077ecfbc534c135114219c9db7a021a6bc04b2d7336eb0b2"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-015.h5",
+    "bytes": 1403799,
+    "sha256": "9504ecfd3f7dad0f4cbee5a1e1ced4934c516a54f5fb3966b79d29b1d9c6964d"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-015.jsonl",
+    "bytes": 7772711,
+    "sha256": "3f0986b1b2967b5f67b480c4cfa4794b15d722f434478179cebfccad48a4a4c8"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-016.h5",
+    "bytes": 2001041,
+    "sha256": "554d69f4f85ac8c976d0f862fbb74881af501159361121ffbaa3df794888741c"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-016.jsonl",
+    "bytes": 1433543,
+    "sha256": "939bc800d4529455a955aeeb61e0357abeda4001ac31073249d33b58d92b7f96"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-017.h5",
+    "bytes": 2030225,
+    "sha256": "bf947cc604369f4918cb54f3c8d9e6da1c6576bf428befe368591754cf2c2ba6"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-017.jsonl",
+    "bytes": 1253713,
+    "sha256": "41fea190c4d14f6816d4700563d4303465336e5195a045a2b6699168bbbe00a8"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-018.h5",
+    "bytes": 2074486,
+    "sha256": "1167a0a833373a61b341a2925b9a55ed63e43d4f45e563f97955f519a92222f2"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-018.jsonl",
+    "bytes": 2120790,
+    "sha256": "3dc80bf1d333ae5b5ff59781bb5dc7180ce16dadf2350ef80c2bbc7e0cbe623b"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-019.h5",
+    "bytes": 2069225,
+    "sha256": "b8efafdb946d94840ac69dd1ea86d01636957377a863ac0db0be3feee86f4c9a"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-019.jsonl",
+    "bytes": 3025615,
+    "sha256": "83e55d07d32ec327f567d8f30fa85e736ef540a0a7cdc6bed84e00420d960002"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-020.h5",
+    "bytes": 1965451,
+    "sha256": "7b2b3280c5e4b976e5eafacf8a315db95e53f4ba5733ec190d54dc7cbf990301"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-020.jsonl",
+    "bytes": 1472964,
+    "sha256": "cbbfc5c27906f55669957611916922c9f42eeda7b9f230690ffc224736e6307f"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-021.h5",
+    "bytes": 1952712,
+    "sha256": "57e448222c577f7438cd967ce557b54821d228d6919b38ea38dee21c5c938670"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-021.jsonl",
+    "bytes": 1337541,
+    "sha256": "503d13fe8158fb03696ced9a1726af5d1dca89d601aef740bc3a6fa5d1042a2c"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-022.h5",
+    "bytes": 1892983,
+    "sha256": "5d39229da058d4ec4f4a2a7f9fb4e0f1317ad2be95104b03dafcb38710774e95"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-022.jsonl",
+    "bytes": 1417884,
+    "sha256": "4616619cfb615726f1d26aae87b304bbdf2fa0ffe4ac698c58046b2c5cbaf6dd"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-023.h5",
+    "bytes": 1919250,
+    "sha256": "78e76c072e8cd730b5091d8ab00d91f1da9f094a2644e1370dc08d8e536786cf"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-023.jsonl",
+    "bytes": 2122250,
+    "sha256": "8413fcb94c805b285ac78633e0a832ffbae2a1163ae9e20629da0fe916b68e4c"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-024.h5",
+    "bytes": 1862531,
+    "sha256": "6f79d9c72660db17bae77f3ae7d5e7ede171638d636e639c9a0a42a92eb440f1"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-024.jsonl",
+    "bytes": 4402196,
+    "sha256": "9b784c79511ee05d068cf7a61d1ed0e915d160c4e47c9eeaed39f3cfcd7e2065"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-025.h5",
+    "bytes": 1958716,
+    "sha256": "e074ede65f2b1b4841b96b931d0d988a7ab6db86b614e9b8979f62e8500f31ff"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-025.jsonl",
+    "bytes": 8547218,
+    "sha256": "fc8262f3c9def23511670f4eb41240b70a0160f55348c3689583563dd9fa53c9"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-026.h5",
+    "bytes": 1893394,
+    "sha256": "7829f26c868a0b6206ac437a7f0011181a2cb162a1be91ea8cab1f75c6a58640"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-026.jsonl",
+    "bytes": 1099896,
+    "sha256": "3ea9d5165a36b672eecec624d4a04dab0380240b0c8eb4b47ea8622a937e8c8a"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-027.h5",
+    "bytes": 1915530,
+    "sha256": "a7fa5b339168ce6f3293ea748c16a4c373912268465a2dd2649d1fc103e568e9"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-027.jsonl",
+    "bytes": 1523880,
+    "sha256": "ea40b7bc73fd55eaeec4cf31ed4442814d81e9c3c52e471a4cb01cb97e2cc35d"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-028.h5",
+    "bytes": 1896420,
+    "sha256": "3b871514df67bd81e12cef1b19063a04cfbf3cd07c2cd5cb9e2db4c1b16728b6"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-028.jsonl",
+    "bytes": 1953588,
+    "sha256": "7c25b99f43a22963896f7d123f7eed950a11c52d2e2362f6450d545bbc732c5e"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-029.h5",
+    "bytes": 1864344,
+    "sha256": "097b599a1abdb1b150ecf6a785cd825f29bf31bb6eec655d23ba1156dcefc3ae"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-029.jsonl",
+    "bytes": 1537622,
+    "sha256": "c15537415685541fefd2fa9571fc778a5e84410e4049db66a096bafd0801f4ef"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-030.h5",
+    "bytes": 2048433,
+    "sha256": "d8f305516e934787ec0b34e46fdc1ea78fa3a66f830b4c6ffb27d3b65d2a6ca2"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-030.jsonl",
+    "bytes": 1332297,
+    "sha256": "c452fa71ae5af5ffd0e6d9d25d633e13fb264de39c17b4e4c6c608bd35ffc8e2"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-031.h5",
+    "bytes": 2072274,
+    "sha256": "39a5e531fe7470367ea729eef56f841e0c3663118cbb9637edfc5eb967879573"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-031.jsonl",
+    "bytes": 1530046,
+    "sha256": "89f630928fa07b721ae6a41fdf9b724dc14a9007f51186ba3bd065ad9f39eaaa"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-032.h5",
+    "bytes": 2035027,
+    "sha256": "96818f04104f731020dd2dfc71b31bf2d22bd463f6776e3c028479402d9c8d75"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-032.jsonl",
+    "bytes": 1207761,
+    "sha256": "82a20d00d2905e4d471a3b890d89f6d512faf9a4219a274dd6847e05d7be112c"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-033.h5",
+    "bytes": 2048026,
+    "sha256": "4a37aaa7eafb0ed896d015ba4fdd466fec27b6d1b068b0cd92d6827cc6e50192"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-033.jsonl",
+    "bytes": 3159507,
+    "sha256": "ce04fc76589498de18eb39d5a7e9bc27496bdb7c254c01bd0f710541d9d83357"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-034.h5",
+    "bytes": 1970263,
+    "sha256": "cb396d282fb0c3c67594222739e0d3a8574ae75bfc3c121f9bf41b8f32787784"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-034.jsonl",
+    "bytes": 3063213,
+    "sha256": "d9ce9a4a06eff5a24f3e389fc729e959330b81f3f0415fea759ea59a2f9c6bec"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-035.h5",
+    "bytes": 1920584,
+    "sha256": "50f333200e7c9458b4b1db3bc6c7cf769b1229beb85e6b169be51f4543c89ffc"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-035.jsonl",
+    "bytes": 3321175,
+    "sha256": "2f130f2f8d694b1b627498e8991ff686c9dc9092745476723f4d5d533907e213"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-036.h5",
+    "bytes": 1973686,
+    "sha256": "c79b44f36b7cf286a4a2d24fe28df72abd4417b88e1c4c324eab381201ef47e9"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-036.jsonl",
+    "bytes": 3221948,
+    "sha256": "b4c6819579845b7176585e053eedb8e95973d57e5c54ddec916a429653ad0315"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-037.h5",
+    "bytes": 1986255,
+    "sha256": "0e748f0999c7b4900f914673c69bced84dbf56b7710f86739d5706dd5db9b7d5"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-037.jsonl",
+    "bytes": 1302222,
+    "sha256": "f13132dee15cf797b0a85ad8063256606f38dbb787d2d624481c2c8ae54488a4"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-038.h5",
+    "bytes": 1962048,
+    "sha256": "889cdbc72b400def50820d2dd9120f8b19fb50e6feb0071eced0a7205bfd348d"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-038.jsonl",
+    "bytes": 3150114,
+    "sha256": "f1ff52be49b43907f5433ea2bdcbc9aeca746eab697dec284f08221e46ee4419"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-039.h5",
+    "bytes": 1938668,
+    "sha256": "694ce2dcaebfeef1f6e00401f43c3ac83aac2bf73a04f714d91d528ab322a720"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/run-20261109/formal/C_barx_joint_96000/pnp_counter_to_sink/panda/telemetry/episode-039.jsonl",
+    "bytes": 2175809,
+    "sha256": "c97ab9ec75af6308c5a2c17846491fe8372dd718f9789144d02a4b198df6ef3c"
+  }
+]

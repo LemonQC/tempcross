@@ -1,0 +1,530 @@
+{
+  "files": [
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-068/M0/handoff.npz",
+      "bytes": 40022,
+      "sha256": "0591f4e69a7a2a27c8fc1a75901d6bd9240358b059df50014c7d575ae47bbd48"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-068/M0/prefix.npz",
+      "bytes": 209682,
+      "sha256": "0b4e1c72c292def33b75f6573b33587a7585fcba446c091f15df51b840ee6186"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-068/M0/handoff_runtime.pkl",
+      "bytes": 14548,
+      "sha256": "3629128702f52bd1a47acc02d8b19f0aa0b6c93f8da7834f76f97e0bcbf27e20"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-068/M0/initial.json",
+      "bytes": 29865,
+      "sha256": "bfbce555e64c8ca4b401c00aef372934f75f5a37b66cc24830bb7ac63a59a1aa"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-068/M0/history.json",
+      "bytes": 315187,
+      "sha256": "7cc0cd8a0c8ce0e7da808603728b64740c603972d60cf4576a33653f9668a68b"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-068/M0/telemetry/episode-000.h5",
+      "bytes": 1739236,
+      "sha256": "5b30384983d854aff43dd58750ba5b02f8f407ea88cb5f183c93fc6691640b0f"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-068/M0/telemetry/episode-000.jsonl",
+      "bytes": 7384310,
+      "sha256": "0f614d293962601174972bb48464a84af4c8bf9d5f74ce855834bf2bb8481adc"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-068/M1/handoff.npz",
+      "bytes": 40022,
+      "sha256": "0591f4e69a7a2a27c8fc1a75901d6bd9240358b059df50014c7d575ae47bbd48"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-068/M1/prefix.npz",
+      "bytes": 209682,
+      "sha256": "0b4e1c72c292def33b75f6573b33587a7585fcba446c091f15df51b840ee6186"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-068/M1/handoff_runtime.pkl",
+      "bytes": 14548,
+      "sha256": "cb55a8a1e09a36fe8be053f83db6619263aa630818f5e4167a145060e3909645"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-068/M1/initial.json",
+      "bytes": 29865,
+      "sha256": "bfbce555e64c8ca4b401c00aef372934f75f5a37b66cc24830bb7ac63a59a1aa"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-068/M1/history.json",
+      "bytes": 282729,
+      "sha256": "8a01d2d9f53d9e0f9b9beee35f44515c0b29f9407c10219ada8a9b68ec95c44f"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-068/M1/telemetry/episode-000.h5",
+      "bytes": 1665897,
+      "sha256": "75c8bc4eb20438b500411cfc098d3793fb213e7e5c6067bf9f057f2b5c718817"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-068/M1/telemetry/episode-000.jsonl",
+      "bytes": 6562393,
+      "sha256": "45338edf57f5a00287759960e95eac245f6dc559a3f6d5404244ab6f3a37111d"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-068/M2/handoff.npz",
+      "bytes": 40022,
+      "sha256": "0591f4e69a7a2a27c8fc1a75901d6bd9240358b059df50014c7d575ae47bbd48"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-068/M2/prefix.npz",
+      "bytes": 209682,
+      "sha256": "0b4e1c72c292def33b75f6573b33587a7585fcba446c091f15df51b840ee6186"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-068/M2/handoff_runtime.pkl",
+      "bytes": 14548,
+      "sha256": "feb6dd31e093f82900eb5f4a8e1c7d2e563316ba5ddb0fb3e355a2cfde135b6b"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-068/M2/initial.json",
+      "bytes": 29865,
+      "sha256": "bfbce555e64c8ca4b401c00aef372934f75f5a37b66cc24830bb7ac63a59a1aa"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-068/M2/history.json",
+      "bytes": 316361,
+      "sha256": "962566e33968b4075e8e8fc07adc3871f0f4a002bbe7c7338e77025f610a2b4a"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-068/M2/telemetry/episode-000.h5",
+      "bytes": 1770280,
+      "sha256": "a0c83f369c55cda77ac79e0785bf97a42fbc08570299b0ab75393eee845abbe3"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-068/M2/telemetry/episode-000.jsonl",
+      "bytes": 7414503,
+      "sha256": "039c2c020076f64360f3b5cb08282f72794da1087b43e3165c3487796c02e3c3"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-071/M0/handoff.npz",
+      "bytes": 39550,
+      "sha256": "791510d5efb28f3f857d0fc95e75eae198f18c56a47c37c10b442963afdb2e88"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-071/M0/prefix.npz",
+      "bytes": 163090,
+      "sha256": "7d1f869cc4ea056d0876796ee8a35449859a885d134d36c17d25d3f0537b71b1"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-071/M0/handoff_runtime.pkl",
+      "bytes": 14548,
+      "sha256": "9aee6e57de40508ed82dfb2d0860a4ab085e369af491c21fb5f35b45f547a4a4"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-071/M0/initial.json",
+      "bytes": 28352,
+      "sha256": "ca99d495727d704c0efb1e675a98824845b1e8a637a4ce8be795ae90ef8bb802"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-071/M0/history.json",
+      "bytes": 234859,
+      "sha256": "5b96c311f529ad03b25f0839fd7f8b21ad29b8121171116bd384f3a528084958"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-071/M0/telemetry/episode-000.h5",
+      "bytes": 1273297,
+      "sha256": "a5b031865ab5ceb2028757827ff61dde8ee86861a68a2358a8aaf3b43837fd03"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-071/M0/telemetry/episode-000.jsonl",
+      "bytes": 926904,
+      "sha256": "f2a0785e578204c569d4bf1b5ff991aaf964eb2e6d36d4b8241fc9aa048a8617"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-071/M1/handoff.npz",
+      "bytes": 39550,
+      "sha256": "791510d5efb28f3f857d0fc95e75eae198f18c56a47c37c10b442963afdb2e88"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-071/M1/prefix.npz",
+      "bytes": 163090,
+      "sha256": "7d1f869cc4ea056d0876796ee8a35449859a885d134d36c17d25d3f0537b71b1"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-071/M1/handoff_runtime.pkl",
+      "bytes": 14548,
+      "sha256": "bc313888e5032622746b2c55b61f1ade513da0618b27c0deea2df908995a5f55"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-071/M1/initial.json",
+      "bytes": 28352,
+      "sha256": "ca99d495727d704c0efb1e675a98824845b1e8a637a4ce8be795ae90ef8bb802"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-071/M1/history.json",
+      "bytes": 368810,
+      "sha256": "34bdcf48cd889a5a98e57e18262595adde19bf11360c85bebdebe1963c295e75"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-071/M1/telemetry/episode-000.h5",
+      "bytes": 1928231,
+      "sha256": "7b30e959d7bbc5ec30b7663a2b88094f537e354f005a1e611da328c401ee944e"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-071/M1/telemetry/episode-000.jsonl",
+      "bytes": 1497083,
+      "sha256": "a28a69a0e22f58cc997377f2dc4986b37716c2e17181cbb94f704cb56d40928c"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-071/M2/handoff.npz",
+      "bytes": 39550,
+      "sha256": "791510d5efb28f3f857d0fc95e75eae198f18c56a47c37c10b442963afdb2e88"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-071/M2/prefix.npz",
+      "bytes": 163090,
+      "sha256": "7d1f869cc4ea056d0876796ee8a35449859a885d134d36c17d25d3f0537b71b1"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-071/M2/handoff_runtime.pkl",
+      "bytes": 14548,
+      "sha256": "02f705014e3ad564f9cde1c5b9cc9c999f5bef70cd24a7129279f348e9f7d8a3"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-071/M2/initial.json",
+      "bytes": 28352,
+      "sha256": "ca99d495727d704c0efb1e675a98824845b1e8a637a4ce8be795ae90ef8bb802"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-071/M2/history.json",
+      "bytes": 234844,
+      "sha256": "5c3aa5f4ce1359a263213c722dd85cf2f849a80d3504c5d5593a3bc4d4a41a49"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-071/M2/telemetry/episode-000.h5",
+      "bytes": 1295090,
+      "sha256": "e5a993ff7583edc8288285a032bc55780dfa43ed72e6595b220e38f6c427225c"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-071/M2/telemetry/episode-000.jsonl",
+      "bytes": 927249,
+      "sha256": "bc7a1a1c9a03c87283fff912477918106cf5ed45e38605acb3ce14e00e53ae7e"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-072/M0/handoff.npz",
+      "bytes": 39318,
+      "sha256": "4fd3565b2b789df2590353d4d3a7521035a017a350c14dba163b9b2a024eb45a"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-072/M0/prefix.npz",
+      "bytes": 157541,
+      "sha256": "e6f51b4cf6b85691437824904064a19d8c295024e3c540c9e6c66c34cfc50ba5"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-072/M0/handoff_runtime.pkl",
+      "bytes": 14548,
+      "sha256": "7c89b5f2dc5ea5beb1361cbe47b2752272419a68ef09a70c71415e1c83a188ff"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-072/M0/initial.json",
+      "bytes": 32263,
+      "sha256": "fe51de139eac4d61e4cd312761b22a08e1359375afe6af7453d0905096605cdc"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-072/M0/history.json",
+      "bytes": 232005,
+      "sha256": "82218e0968b6ecd2779752c5ede0663f0c67db19fbe663d352ef7c7e4e01eb0e"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-072/M0/telemetry/episode-000.h5",
+      "bytes": 1309510,
+      "sha256": "4b8983b196d79db12221c8124af6da8390098b0faf40fed127c44db4fe3b2e5c"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-072/M0/telemetry/episode-000.jsonl",
+      "bytes": 744426,
+      "sha256": "be539fcc30f099fb5b8465e1354dd8fd0b66ae8c469f2650382baf1b77c4544a"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-072/M1/handoff.npz",
+      "bytes": 39318,
+      "sha256": "4fd3565b2b789df2590353d4d3a7521035a017a350c14dba163b9b2a024eb45a"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-072/M1/prefix.npz",
+      "bytes": 157541,
+      "sha256": "e6f51b4cf6b85691437824904064a19d8c295024e3c540c9e6c66c34cfc50ba5"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-072/M1/handoff_runtime.pkl",
+      "bytes": 14548,
+      "sha256": "9cafdd79100052fbac5cf1c3f24607a4bfe9ae84cff6c0474976a023c0275322"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-072/M1/initial.json",
+      "bytes": 32263,
+      "sha256": "fe51de139eac4d61e4cd312761b22a08e1359375afe6af7453d0905096605cdc"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-072/M1/history.json",
+      "bytes": 329173,
+      "sha256": "702614ec8479f0195ecf3fdfdd71a54f417ef9646ae484f5f9e307525a95673f"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-072/M1/telemetry/episode-000.h5",
+      "bytes": 1883425,
+      "sha256": "12f4069a39253bf00cd6b1cf4d9b75b711349124b6577b2dff4aa04af60271ce"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-072/M1/telemetry/episode-000.jsonl",
+      "bytes": 1088756,
+      "sha256": "f79ad0224332bca360b500ac1b0a8486e492421558c54d78d451712d04ecd04f"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-072/M2/handoff.npz",
+      "bytes": 39318,
+      "sha256": "4fd3565b2b789df2590353d4d3a7521035a017a350c14dba163b9b2a024eb45a"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-072/M2/prefix.npz",
+      "bytes": 157541,
+      "sha256": "e6f51b4cf6b85691437824904064a19d8c295024e3c540c9e6c66c34cfc50ba5"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-072/M2/handoff_runtime.pkl",
+      "bytes": 14548,
+      "sha256": "dc2da44d9c03a42cbe31de21913c539501cf4437868a4c2d772f65d9ecfe873b"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-072/M2/initial.json",
+      "bytes": 32263,
+      "sha256": "fe51de139eac4d61e4cd312761b22a08e1359375afe6af7453d0905096605cdc"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-072/M2/history.json",
+      "bytes": 232008,
+      "sha256": "7294cccd84949646ac8dd9a6dcb11e26ae53df9eb6e89770dc9c0a42a637a32e"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-072/M2/telemetry/episode-000.h5",
+      "bytes": 1336839,
+      "sha256": "a0fd47a49117889f88fb088784105067af06fb5b9cc20283ee6c45b08a817d31"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-072/M2/telemetry/episode-000.jsonl",
+      "bytes": 744037,
+      "sha256": "5e520e4bea415f5c52eb83a2b12be19fb26bfca6a8ac0f5148452e8751b2ef44"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-088/M0/handoff.npz",
+      "bytes": 39406,
+      "sha256": "9a915e8d51e13b3a8d97b52f619d8a31b90e6efb935605a76d310cf1af9e0f0d"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-088/M0/prefix.npz",
+      "bytes": 157195,
+      "sha256": "fc56d6b7894804c0293a1f27c191edc492c500d8a3e63351d120a8b78763fd43"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-088/M0/handoff_runtime.pkl",
+      "bytes": 14548,
+      "sha256": "16158732aa2c3b11b7e584de5762118a0ffde5c99ed81bd5ec0dec7b5e08c83e"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-088/M0/initial.json",
+      "bytes": 32177,
+      "sha256": "b6644cca1eee442c5c9f7e1390089c448984dbbfc34f868c066cc5583e6ca59a"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-088/M0/history.json",
+      "bytes": 258123,
+      "sha256": "896497474f5c1fe281430499b590dc8d7b203cbba2dfb8fa4747a57406d16916"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-088/M0/telemetry/episode-000.h5",
+      "bytes": 1373004,
+      "sha256": "44fb20623abc153a4bbb5c912aaaa6813e5f5b69b573d044a42a6361056d5692"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-088/M0/telemetry/episode-000.jsonl",
+      "bytes": 1294062,
+      "sha256": "89a6de6171f9a8fc20eb06e692e30232b9bf3ae5bc7839e5606b96ffe18e5831"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-088/M1/handoff.npz",
+      "bytes": 39406,
+      "sha256": "9a915e8d51e13b3a8d97b52f619d8a31b90e6efb935605a76d310cf1af9e0f0d"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-088/M1/prefix.npz",
+      "bytes": 157195,
+      "sha256": "fc56d6b7894804c0293a1f27c191edc492c500d8a3e63351d120a8b78763fd43"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-088/M1/handoff_runtime.pkl",
+      "bytes": 14548,
+      "sha256": "04e45f03cf396741cc36960fb36f528067b9631b9ef09dcca58bd0babc1cdaf6"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-088/M1/initial.json",
+      "bytes": 32177,
+      "sha256": "b6644cca1eee442c5c9f7e1390089c448984dbbfc34f868c066cc5583e6ca59a"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-088/M1/history.json",
+      "bytes": 383457,
+      "sha256": "6b8005a10973d104424a02560eee3d4d0a2b7f1a32d98215f59651aff353a476"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-088/M1/telemetry/episode-000.h5",
+      "bytes": 2034554,
+      "sha256": "ff7fab2e8cc9ca47aea42e3adbc11083e23ea784d0950d674b491503699ba0ae"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-088/M1/telemetry/episode-000.jsonl",
+      "bytes": 2007177,
+      "sha256": "f5392e44136718f2143a9824dec2122252e8ab6a3a069663814aec26cfad58fb"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-088/M2/handoff.npz",
+      "bytes": 39406,
+      "sha256": "9a915e8d51e13b3a8d97b52f619d8a31b90e6efb935605a76d310cf1af9e0f0d"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-088/M2/prefix.npz",
+      "bytes": 157195,
+      "sha256": "fc56d6b7894804c0293a1f27c191edc492c500d8a3e63351d120a8b78763fd43"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-088/M2/handoff_runtime.pkl",
+      "bytes": 14548,
+      "sha256": "3316e6f2892e15023ef6ebefb35d42dbb403645de048a5527b894cc03e416823"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-088/M2/initial.json",
+      "bytes": 32177,
+      "sha256": "b6644cca1eee442c5c9f7e1390089c448984dbbfc34f868c066cc5583e6ca59a"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-088/M2/history.json",
+      "bytes": 258744,
+      "sha256": "a2fcdc91616e00c984a01df6ac301e98fd6aa947291f3100a42431561a16fb90"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-088/M2/telemetry/episode-000.h5",
+      "bytes": 1408247,
+      "sha256": "c4dad7e50e94d77d199e8b0fd083b8f1537a05c1605bdbff5469033865e86ace"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-088/M2/telemetry/episode-000.jsonl",
+      "bytes": 1296256,
+      "sha256": "30cf9107d3fffe5167506fe09c200ebf76ce1c3729a3f55e10c768968218b130"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-093/M0/handoff.npz",
+      "bytes": 39485,
+      "sha256": "ae753e88c4ea437ef4a355330f4980ccfc3deab1cbf9c3ec62c4d5589c21947c"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-093/M0/prefix.npz",
+      "bytes": 178080,
+      "sha256": "e5b204339d38d988b86bb50de732e99a2e43ee5c8cf8ec589379b7748c583f7a"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-093/M0/handoff_runtime.pkl",
+      "bytes": 14548,
+      "sha256": "5de8288b717d42cc4f39e709fc77802296caee47a071c7fc610f8a1598f6cf87"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-093/M0/initial.json",
+      "bytes": 28424,
+      "sha256": "6f8f0212713b80a4f7a78f16e9c1d0ce1f3ec9be362c9514004f7f9cb31f0c50"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-093/M0/history.json",
+      "bytes": 235743,
+      "sha256": "7154aa9fdb916484d47e6dee7f11a433086d756dd2889187c4b647f66b265a75"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-093/M0/telemetry/episode-000.h5",
+      "bytes": 1336522,
+      "sha256": "a15d10239574e388b7caf4980cd2df6f0288f3682f59db6b6d71ab3ffefa4272"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-093/M0/telemetry/episode-000.jsonl",
+      "bytes": 1995087,
+      "sha256": "10e41c25522e63c5532ec081a6f417c10676c65acafd8087bcdb3d77a9794152"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-093/M1/handoff.npz",
+      "bytes": 39485,
+      "sha256": "ae753e88c4ea437ef4a355330f4980ccfc3deab1cbf9c3ec62c4d5589c21947c"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-093/M1/prefix.npz",
+      "bytes": 178080,
+      "sha256": "e5b204339d38d988b86bb50de732e99a2e43ee5c8cf8ec589379b7748c583f7a"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-093/M1/handoff_runtime.pkl",
+      "bytes": 14548,
+      "sha256": "f44bd0cca6fe1808993ffbcf83f771e537b61b2b6483c41420068663575270cc"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-093/M1/initial.json",
+      "bytes": 28424,
+      "sha256": "6f8f0212713b80a4f7a78f16e9c1d0ce1f3ec9be362c9514004f7f9cb31f0c50"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-093/M1/history.json",
+      "bytes": 355034,
+      "sha256": "777f56b08a117afd50f5dda5c725b31700c24a36cfaf27c9131dec4ab808455d"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-093/M1/telemetry/episode-000.h5",
+      "bytes": 1951701,
+      "sha256": "b0751792044a82690c37d14d41cada5e33bafccdcff3d22263e2b440042c5ed7"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-093/M1/telemetry/episode-000.jsonl",
+      "bytes": 3004029,
+      "sha256": "78368333227aaee2e91990d25721be92c96e6c715f5b7e9c77648e59b276ba34"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-093/M2/handoff.npz",
+      "bytes": 39485,
+      "sha256": "ae753e88c4ea437ef4a355330f4980ccfc3deab1cbf9c3ec62c4d5589c21947c"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-093/M2/prefix.npz",
+      "bytes": 178080,
+      "sha256": "e5b204339d38d988b86bb50de732e99a2e43ee5c8cf8ec589379b7748c583f7a"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-093/M2/handoff_runtime.pkl",
+      "bytes": 14548,
+      "sha256": "35e8f52fadfa7cdd8e6873e198dc1483690865417e0ffc8a896798dec917a2cc"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-093/M2/initial.json",
+      "bytes": 28424,
+      "sha256": "6f8f0212713b80a4f7a78f16e9c1d0ce1f3ec9be362c9514004f7f9cb31f0c50"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-093/M2/history.json",
+      "bytes": 235774,
+      "sha256": "bb822bba003af20fff486101c3660e66781def2e156e71c294c9f0c30f52a751"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-093/M2/telemetry/episode-000.h5",
+      "bytes": 1346009,
+      "sha256": "0fb7db59dd15cc0ccfca68c21062376d03142043e2af9f1242c1a3b9709980a9"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/condition-093/M2/telemetry/episode-000.jsonl",
+      "bytes": 1995067,
+      "sha256": "2154f924329a31eead45714fed89e6a0ce51ee052d7f01572b138eb96b0418d9"
+    }
+  ],
+  "runtime_pickle_scope": "Only declared RNG/queue/mode keys compared; no private policy configuration exported."
+}

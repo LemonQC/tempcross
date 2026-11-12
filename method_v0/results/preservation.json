@@ -1,0 +1,122 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "path": "/home/users/lemon/CodexProject/tempcross/docs/TRO_NOVELTY_GAP_DECISION.md",
+      "bytes": 21059,
+      "sha256": "3aac87586ca5d3fc06be5a6f95b090c0aca5beac2d5fba57c71e8abf6415c75c",
+      "reference": "pre_extraction_freeze"
+    },
+    {
+      "path": "/home/users/lemon/CodexProject/tempcross/docs/MECHANISM_RESULTS.md",
+      "bytes": 11526,
+      "sha256": "9f9e518b99e8d5c9b086a81d90d0d7e597fa75c9ec5634f003079764246f7dbd",
+      "reference": "pre_extraction_freeze"
+    },
+    {
+      "path": "/home/users/lemon/CodexProject/tempcross/docs/BASELINE_RESULTS.md",
+      "bytes": 11005,
+      "sha256": "aed099026b21d5d3f78d1672101108cc26fe3d766c3ade6b8d620c0945467010",
+      "reference": "pre_extraction_freeze"
+    },
+    {
+      "path": "/home/users/lemon/CodexProject/tempcross/docs/BARX_TARGET_ADAPTATION_RESULTS.md",
+      "bytes": 8996,
+      "sha256": "257e3720a5b319e844021e9ab4f2e77a6bd26bbf161c56968da2d46b0ea08352",
+      "reference": "pre_extraction_freeze"
+    },
+    {
+      "path": "/home/users/lemon/CodexProject/tempcross/docs/MIMICGEN_BASELINE_RESULTS.md",
+      "bytes": 4929,
+      "sha256": "c7dd459811b5c80da50f53c57e6440e201bc93e325bda7e5e1c3cec95f2c0107",
+      "reference": "pre_extraction_freeze"
+    },
+    {
+      "path": "/home/users/lemon/CodexProject/tempcross/results/baselines/analysis.json",
+      "bytes": 1813844,
+      "sha256": "392c7adaad8ac356cc50622e3ab929e2c862aea96a791f299b9f18dd9db7b673",
+      "reference": "pre_extraction_freeze"
+    },
+    {
+      "path": "/home/users/lemon/CodexProject/tempcross/results/mechanism/analysis.json",
+      "bytes": 26900,
+      "sha256": "7394055cbfbe8f456505e734f2ce29f1ac67c5f2ab6ab6df3c3c720dd449a347",
+      "reference": "pre_extraction_freeze"
+    },
+    {
+      "path": "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/barx_adaptation/results.json",
+      "bytes": 10778,
+      "sha256": "b71345152b3ce9dc3ea8d64eec759b5de6ffae0dd9d88f9d2d8e8656b20db999",
+      "reference": "pre_extraction_freeze"
+    },
+    {
+      "path": "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/mimicgen/status.json",
+      "bytes": 14491,
+      "sha256": "fdda2a8b14d18ad58ad12b4fba55f8ea863f6aa3348a6866ec594a27cfec8bef",
+      "reference": "pre_extraction_freeze"
+    },
+    {
+      "path": "/home/users/lemon/CodexProject/tempcross/method_v0/protocol.json",
+      "bytes": 2633,
+      "sha256": "472742878d03da1e2b60981ce7f39162739a03a26ad0a1f33a9a341a6e46bed1",
+      "reference": "pre_extraction_freeze"
+    },
+    {
+      "path": "/home/users/lemon/CodexProject/tempcross/results/baselines/analysis.json",
+      "bytes": 1813844,
+      "sha256": "392c7adaad8ac356cc50622e3ab929e2c862aea96a791f299b9f18dd9db7b673",
+      "reference": "existing_mimicgen_input_freeze"
+    },
+    {
+      "path": "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/barx_adaptation/results.json",
+      "bytes": 10778,
+      "sha256": "b71345152b3ce9dc3ea8d64eec759b5de6ffae0dd9d88f9d2d8e8656b20db999",
+      "reference": "existing_mimicgen_input_freeze"
+    },
+    {
+      "path": "/home/users/lemon/baseline-benchmark/run-20261109/physical_launches.jsonl",
+      "bytes": 23880,
+      "sha256": "264b68966ce7b0db7243d334c5baa381dcca2e0c28e62d11fb9402f90cece768",
+      "reference": "existing_mimicgen_input_freeze"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/physical_launches.jsonl",
+      "bytes": 1734,
+      "sha256": "94310539dbb785bf575d918f27940581e5230ec24b8a430138d2c1d8bb6f369e",
+      "reference": "existing_mimicgen_input_freeze"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "bytes": 564120784,
+      "sha256": "3afd1c433ae028c63fe99364ac951030f4a4f232c0102f42cf31c1a8dc1ab0d0",
+      "reference": "existing_mimicgen_input_freeze"
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "bytes": 716265939,
+      "sha256": "4874601734320497cc6effa4cb5d0bf64daa7ae517ce299a0130f108a033ca61",
+      "reference": "existing_mimicgen_input_freeze"
+    },
+    {
+      "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/physical_launches.jsonl",
+      "bytes": 35310,
+      "sha256": "3ed420b144b606ab32f9de73679a9022c3f3afecca55ad9c0bf7b5468ec17bb1",
+      "reference": "existing_mimicgen_external_index"
+    },
+    {
+      "path": "/home/users/lemon/mimicgen-baseline-20261112/physical_launches.jsonl",
+      "bytes": 1975,
+      "sha256": "f0704c7e946e1413028ed37fd41a9c529547759e51af91cf70ff7a4e4d73ab61",
+      "reference": "existing_mimicgen_external_index"
+    },
+    {
+      "path": "/home/users/lemon/mechanism-20261110/physical_launches.jsonl",
+      "bytes": 5280,
+      "sha256": "ea402d8dd9d6c2d3b34c50adaae3368850558daecdd0a878c228e325b7839fad",
+      "reference": "existing_mechanism_external_index"
+    }
+  ],
+  "distinct_unchanged_physical_launch_ledgers": 5,
+  "new_physics_steps": 0,
+  "scope": "Frozen project inputs, raw Panda HDF5 and five historical launch ledgers; read-only extraction code and import guard provide additional evidence."
+}

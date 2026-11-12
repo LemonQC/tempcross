@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "tests": 12,
+  "python": "3.10.22 (main, Oct  1 2026, 20:14:04) [GCC 14.3.0]",
+  "log": {
+    "path": "/home/users/lemon/method-v0-tocat-20261112/tests.log",
+    "bytes": 1202,
+    "sha256": "a5cb80b9dc5ed8da83b44c9670666387996c9704580a21758d909585e6e4f0b0"
+  },
+  "command": "python -m unittest discover -s method_v0/tests -v",
+  "new_training_updates": 0,
+  "new_physics_steps": 0
+}
