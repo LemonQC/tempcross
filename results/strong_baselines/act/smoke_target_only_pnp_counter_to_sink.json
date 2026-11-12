@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "method": "act",
+  "group": "target_only",
+  "task": "pnp_counter_to_sink",
+  "role": "DEVELOPMENT_SMOKE",
+  "episodes": 1,
+  "successes": 0,
+  "rows": [
+    {
+      "status": "PASS",
+      "episode": {
+        "method": "act",
+        "group": "target_only",
+        "task": "pnp_counter_to_sink",
+        "robot": "panda",
+        "role": "DEVELOPMENT_SMOKE",
+        "official_condition_index": 0,
+        "condition_id": "53beb94b5265a6a5",
+        "seed": 1000,
+        "success": false,
+        "steps": 600,
+        "checkpoint_sha256": "b03dfbd846d5e74e91a8fa9c4399764f42558cec757740646e5f444085a555ca",
+        "policy_calls": 600,
+        "mean_prediction_seconds": 0.005798561840783804,
+        "clipped_dimensions": 300,
+        "video_path": "/home/users/lemon/strong-baselines-20261112/act/physical/smoke/target_only/pnp_counter_to_sink/condition-000/rollout.mp4",
+        "telemetry_path": "/home/users/lemon/strong-baselines-20261112/act/physical/smoke/target_only/pnp_counter_to_sink/condition-000/telemetry/episode-000.h5",
+        "contact_log": "/home/users/lemon/strong-baselines-20261112/act/physical/smoke/target_only/pnp_counter_to_sink/condition-000/telemetry/episode-000.jsonl"
+      },
+      "decoded_frames": 600,
+      "video_sha256": "f3c985748c892fee11ef728080d8c3928f93a79aa6ca59ddd434a7afdbace032",
+      "telemetry_sha256": "87b15506c29cb4f210e92b7ee3f69520f52d226deda2e710b640e6d77beea4a0",
+      "contact_sha256": "78414600962ce441dccb4c58ead20c014cde8037d117a1ee7786c1d25a899de3",
+      "exact_action_conversion": true,
+      "official_goal_verified": true,
+      "original_frozen_state_verified": false,
+      "query_audit": "all forecasts and exponential aggregation independently reconstructed",
+      "failure_stage": "NO_CLOSE_COMMAND",
+      "failure_stage_is_descriptive_not_causal": true
+    }
+  ]
+}

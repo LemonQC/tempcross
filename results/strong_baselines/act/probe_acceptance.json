@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "real_optimizer_updates": 2,
+  "smoke_episodes": 4,
+  "smoke_is_not_formal_evaluation": true,
+  "probe_weights_discarded_for_formal_training": true,
+  "success_threshold_used": false
+}

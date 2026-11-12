@@ -1,0 +1,98 @@
+{
+  "utc": "2026-11-12T12:42:14.776257+00:00",
+  "protocol_sha256": "f3650860090ddedf6e2bbfc57c65edb97a3f3d976c904f5d452343bd8f74a3c6",
+  "code_sha256": {
+    "baselines/strong/__init__.py": "9b0c0b3dada24abc2952cbd2bd564a0c06b801e7b33279f00aa8489e3f1db92c",
+    "baselines/strong/audit.py": "80b9d98b75ad021d731024f84493eea1f0699d020f1a4d463f8c223dfafdce65",
+    "baselines/strong/common.py": "dfbd337882ceb44006959997943f6acafbc40c27a3d5e7c425911e3d41160e0a",
+    "baselines/strong/data.py": "ec216b1b0ae241ec51b37f713e6888eab8d5ce13669b5e997405312872505a50",
+    "baselines/strong/evaluate.py": "6d823ea65b156af25b70c08b27ad560740aeee33eb277838ba0b556e401e2856",
+    "baselines/strong/matrix.py": "8705c3a2be036c97c2cb8671bc0211f2bd224f1d06e8b37de7ec9535b8444321",
+    "baselines/strong/publication_manifest.py": "4c2d36a3dc158fae461d6ab8485027c9da9825f870f681fa0f7b3dae77bb9550",
+    "results/strong_baselines/act/finish_probes.py": "31d58b0924311685e33272615ce418976056dfcaa73e10d71df095370658e4a6",
+    "results/strong_baselines/act/freeze.py": "9c6c97b858c492d1c7f4ea1e2650a7115aac75cfe539f3b37c46f6b6d788d635",
+    "results/strong_baselines/act/model.py": "6cbf408c2edaf8867dd514fd3d377dfd96f8f00738e337f0a4240d227f2ef13a",
+    "results/strong_baselines/act/prepare.py": "d233c2c1441ca63d57db53f6c4697644d8ef00b9dfcd2c5f8e867ed7fb3aa9eb",
+    "results/strong_baselines/act/report.py": "fd39055f73de6dacaf9a4a9589bcd143800703f7e1f588702b88cd6002e71ec9",
+    "results/strong_baselines/act/run.py": "2cfe29fa491829226486ceb2c763e544d935a5b09e39f7de22a68c12b965f8af",
+    "results/strong_baselines/act/train.py": "13615c6774a9130aa5103ef8a0f3cbd9a7c8a02b72425fc628eb60cdffe87325",
+    "tests/test_strong_baseline_data.py": "1a257ccb7a83a88c2e7fc563d03fd8b3bd9d9dfb6cf1d7bbe1e4fea2c3b3ccb9"
+  },
+  "data_freeze": {
+    "status": "COMPLETE",
+    "source_robot": "ur5e",
+    "target_robot": "panda",
+    "target_train_per_task": 45,
+    "target_validation_per_task": 5,
+    "source_train_per_task": 270,
+    "source_validation_per_task": 30,
+    "counts": [
+      {
+        "domain": "source",
+        "task": "pnp_counter_to_sink",
+        "split": "train",
+        "episodes": 270
+      },
+      {
+        "domain": "source",
+        "task": "pnp_counter_to_sink",
+        "split": "validation",
+        "episodes": 30
+      },
+      {
+        "domain": "source",
+        "task": "pnp_sink_to_counter",
+        "split": "train",
+        "episodes": 270
+      },
+      {
+        "domain": "source",
+        "task": "pnp_sink_to_counter",
+        "split": "validation",
+        "episodes": 30
+      },
+      {
+        "domain": "target",
+        "task": "pnp_counter_to_sink",
+        "split": "train",
+        "episodes": 45
+      },
+      {
+        "domain": "target",
+        "task": "pnp_counter_to_sink",
+        "split": "validation",
+        "episodes": 5
+      },
+      {
+        "domain": "target",
+        "task": "pnp_sink_to_counter",
+        "split": "train",
+        "episodes": 45
+      },
+      {
+        "domain": "target",
+        "task": "pnp_sink_to_counter",
+        "split": "validation",
+        "episodes": 5
+      }
+    ],
+    "sha256": {
+      "/home/users/lemon/strong-baselines-20261112/act/data/validation.npy": "c85aeec35a90b1ac75363c06a36be64c36ad7b5a2678d04bb368de20817eb80b",
+      "/home/users/lemon/strong-baselines-20261112/act/data/language.json": "b0c2b8905ad3267937fe2dac2e463cd0396fe8f8dd5605319d3dca4b67a7f2ab",
+      "/home/users/lemon/strong-baselines-20261112/act/data/target_only_stats.json": "75b493d82c5eb071c7d23555a48c50170c4496fb48e042282499c0cd3ce111a2",
+      "/home/users/lemon/strong-baselines-20261112/act/data/source_train.npy": "f1c3d8cc5a2c16c7333904254062a93c344a81154d0e5afb7781b41ccc021870",
+      "/home/users/lemon/strong-baselines-20261112/act/data/source_target_stats.json": "316d4634e5405a5d89b89662e976df9a8711502e97401c1eeeee3b30256f2fb5",
+      "/home/users/lemon/strong-baselines-20261112/act/data/target_train.npy": "d9bd55f71d1a4c59fd86fb54eea652207df3123047a28beb0fc6589eba62fa07",
+      "/home/users/lemon/strong-baselines-20261112/act/data/manifest.json": "d8afad228b0fac6534cae3e44c7590af1a2e9cd0edd43618aca19f1370a81c6c"
+    },
+    "additional_privileged_supervision": false
+  },
+  "probe_acceptance_sha256": "685ef5b29c729b59e00436391863657c082f82bb79f4c66882f1ddb49f9f4951",
+  "resources": {
+    "utc": "2026-11-12T12:42:14.804448+00:00",
+    "gpu": "NVIDIA GeForce RTX 3090, 24576 MiB, 585 MiB, 36 %",
+    "disk_free_bytes": 180580151296
+  },
+  "success_based_tuning": false,
+  "formal_reference_role": "EXPOSED_REFERENCE"
+}

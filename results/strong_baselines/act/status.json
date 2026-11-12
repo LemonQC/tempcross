@@ -1,0 +1,11 @@
+{
+  "status": "PARTIAL",
+  "method": "act",
+  "phase": "FORMAL_TRAINING",
+  "actual_training_updates": 0,
+  "probe_optimizer_updates": 2,
+  "physical_evaluation_episodes": 0,
+  "success_rate": null,
+  "technical_repairs": 0,
+  "physical_smoke_episodes": 4
+}

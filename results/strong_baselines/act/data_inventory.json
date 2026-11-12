@@ -1,0 +1,69 @@
+{
+  "status": "COMPLETE",
+  "source_robot": "ur5e",
+  "target_robot": "panda",
+  "target_train_per_task": 45,
+  "target_validation_per_task": 5,
+  "source_train_per_task": 270,
+  "source_validation_per_task": 30,
+  "counts": [
+    {
+      "domain": "source",
+      "task": "pnp_counter_to_sink",
+      "split": "train",
+      "episodes": 270
+    },
+    {
+      "domain": "source",
+      "task": "pnp_counter_to_sink",
+      "split": "validation",
+      "episodes": 30
+    },
+    {
+      "domain": "source",
+      "task": "pnp_sink_to_counter",
+      "split": "train",
+      "episodes": 270
+    },
+    {
+      "domain": "source",
+      "task": "pnp_sink_to_counter",
+      "split": "validation",
+      "episodes": 30
+    },
+    {
+      "domain": "target",
+      "task": "pnp_counter_to_sink",
+      "split": "train",
+      "episodes": 45
+    },
+    {
+      "domain": "target",
+      "task": "pnp_counter_to_sink",
+      "split": "validation",
+      "episodes": 5
+    },
+    {
+      "domain": "target",
+      "task": "pnp_sink_to_counter",
+      "split": "train",
+      "episodes": 45
+    },
+    {
+      "domain": "target",
+      "task": "pnp_sink_to_counter",
+      "split": "validation",
+      "episodes": 5
+    }
+  ],
+  "sha256": {
+    "/home/users/lemon/strong-baselines-20261112/act/data/validation.npy": "c85aeec35a90b1ac75363c06a36be64c36ad7b5a2678d04bb368de20817eb80b",
+    "/home/users/lemon/strong-baselines-20261112/act/data/language.json": "b0c2b8905ad3267937fe2dac2e463cd0396fe8f8dd5605319d3dca4b67a7f2ab",
+    "/home/users/lemon/strong-baselines-20261112/act/data/target_only_stats.json": "75b493d82c5eb071c7d23555a48c50170c4496fb48e042282499c0cd3ce111a2",
+    "/home/users/lemon/strong-baselines-20261112/act/data/source_train.npy": "f1c3d8cc5a2c16c7333904254062a93c344a81154d0e5afb7781b41ccc021870",
+    "/home/users/lemon/strong-baselines-20261112/act/data/source_target_stats.json": "316d4634e5405a5d89b89662e976df9a8711502e97401c1eeeee3b30256f2fb5",
+    "/home/users/lemon/strong-baselines-20261112/act/data/target_train.npy": "d9bd55f71d1a4c59fd86fb54eea652207df3123047a28beb0fc6589eba62fa07",
+    "/home/users/lemon/strong-baselines-20261112/act/data/manifest.json": "d8afad228b0fac6534cae3e44c7590af1a2e9cd0edd43618aca19f1370a81c6c"
+  },
+  "additional_privileged_supervision": false
+}

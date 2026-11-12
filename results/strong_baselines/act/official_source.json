@@ -1,0 +1,25 @@
+{
+  "url": "https://github.com/tonyzhaozh/act",
+  "commit": "742c753c0d4a5d87076c8f69e5628c79a8cc5488",
+  "license": "MIT (ACT), upstream DETR notices retained",
+  "original": "/home/users/lemon/strong-baselines-20261112/vendor/act",
+  "port": "/home/users/lemon/strong-baselines-20261112/vendor/act_port",
+  "original_clean": true,
+  "differences": [
+    "robot-state conditioning slot takes frozen CLIP instruction embedding, not measured qpos",
+    "14D joint actions replaced by 7D canonical OSC; action encoder input and action output adapted",
+    "single 128x128 camera from frozen existing pack",
+    "training anchors and whole-demonstration splits inherited; update budget instead of epoch budget",
+    "explicit valid forecast mask instead of treating an exactly-zero action as absent"
+  ],
+  "core_preserved": [
+    "official ResNet18+DETR CVAE",
+    "latent dimension 32",
+    "posterior action encoder",
+    "L1+10*KL loss",
+    "zero latent inference",
+    "exponential temporal aggregation k=0.01"
+  ],
+  "patched_source_sha256": "3227cd89cb90c316cbe4d1d0f0919b67a4887a4cd8d497c1ba890578dc14b044",
+  "official_policy_sha256": "352efca415ee0e31073a27ca91560195702d1e9b545e573a3a668a53f06dd127"
+}
