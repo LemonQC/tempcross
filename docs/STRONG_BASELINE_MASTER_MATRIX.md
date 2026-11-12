@@ -6,7 +6,7 @@
 
 | 方法 | 状态 | 已验证训练更新（不含探针） | 已验收正式物理评测 | 成功率 | 当前证据 |
 |---|---|---:|---:|---|---|
-| act | PARTIAL | 48000 | 80 | N/A | [状态](../results/strong_baselines/act/status.json) |
+| act | COMPLETE_FAITHFUL_PORT | 48000 | 160 | 分设置见下表 | [状态](../results/strong_baselines/act/status.json) |
 | vqbet | NOT_RUN | 0 | 0 | N/A | [状态](../results/strong_baselines/vqbet/status.json) |
 | mimicgen_v2 | NOT_RUN | 0 | 0 | N/A | [状态](../results/strong_baselines/mimicgen_v2/status.json) |
 | kite | NOT_RUN | 0 | 0 | N/A | [状态](../results/strong_baselines/kite/status.json) |
@@ -25,8 +25,10 @@
 
 | 方法 | 设置 | 任务 | 官方成功/总次数 | 成功率 | 结果作用域 |
 |---|---|---|---:|---:|---|
-| act | target_only | pnp_counter_to_sink | 5/40 | 12.5% | PARTIAL / EXPOSED_REFERENCE |
-| act | target_only | pnp_sink_to_counter | 4/40 | 10.0% | PARTIAL / EXPOSED_REFERENCE |
+| act | target_only | pnp_counter_to_sink | 5/40 | 12.5% | COMPLETE_FAITHFUL_PORT / EXPOSED_REFERENCE |
+| act | target_only | pnp_sink_to_counter | 4/40 | 10.0% | COMPLETE_FAITHFUL_PORT / EXPOSED_REFERENCE |
+| act | source_target | pnp_counter_to_sink | 8/40 | 20.0% | COMPLETE_FAITHFUL_PORT / EXPOSED_REFERENCE |
+| act | source_target | pnp_sink_to_counter | 2/40 | 5.0% | COMPLETE_FAITHFUL_PORT / EXPOSED_REFERENCE |
 
 ## 数据和信息条件
 

@@ -2,6 +2,24 @@
   "status": "PASS",
   "data_boundary_tests": 3,
   "attempt_root_boundary_tests": 1,
-  "data_test_log": "/home/users/lemon/strong-baselines-20261112/act_decoder_repair_01/act-data-tests.log",
-  "attempt_test_log": "/home/users/lemon/strong-baselines-20261112/act_decoder_repair_01/act-attempt-boundary-tests.log"
+  "logs": [
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/act_decoder_repair_01/act-data-tests.log",
+      "bytes": 416,
+      "sha256": "1f94f44d5f0ad914cefd3ab32ee665315201d1627d80a85360000fe6e79748f4"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/act_decoder_repair_01/act-attempt-boundary-tests.log",
+      "bytes": 241,
+      "sha256": "63af14c62883baa0d1046115e13bcd324e6e96d717e6d552c5580f9affc77ead"
+    }
+  ],
+  "actual_seven_layer_gradient_and_physical_probe_receipt": {
+    "status": "PASS",
+    "all_seven_decoder_layers_updated_in_both_real_probes": true,
+    "repaired_probe_updates": 2,
+    "repaired_full_physical_smoke_episodes": 4,
+    "reference_evaluations_used_for_repair": 0,
+    "technical_repairs_used": 1
+  }
 }

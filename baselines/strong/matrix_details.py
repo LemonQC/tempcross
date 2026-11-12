@@ -5,6 +5,18 @@ from baselines.strong.matrix import main as basic
 
 def main():
     basic();path=PROJECT/'docs/STRONG_BASELINE_MASTER_MATRIX.md';text=path.read_text()
+    # Multiple trained settings are separate models, not one pooled success rate.
+    multiple=set()
+    for method in METHODS:
+        p=out(method)/'results.json'
+        if p.exists() and len({c['group'] for c in read(p).get('cells',[])})>1:multiple.add(method)
+    revised=[]
+    for line in text.splitlines():
+        fields=line.split('|')
+        if len(fields)>=8 and fields[1].strip() in multiple:
+            fields[5]=' 分设置见下表 ';line='|'.join(fields)
+        revised.append(line)
+    text='\n'.join(revised)+'\n'
     lines=['','## 按设置与任务分列的真实评测','',
            '下表只读取已经存在的结果单元；未执行单元不填0%，不同设置不合并伪装成一个模型。', '',
            '| 方法 | 设置 | 任务 | 官方成功/总次数 | 成功率 | 结果作用域 |',

@@ -27,6 +27,14 @@ def main():
     assert all(not s['used_physical_success'] and digest(s['checkpoint'])==s['sha256'] for s in models.values())
     write(folder/'model_index.json',dict(status='COMPLETE_FAITHFUL_PORT',models=models,
         role='EXPOSED_REFERENCE',physical_success_used_for_selection=False,weights_on_server_only=True))
+    jobs=[read(p) for p in (ROOT/'act/physical/formal').glob('*/*/job.json')]
+    assert len(jobs)==4 and all(j['status']=='COMPLETE' and j['episodes']==40 for j in jobs)
+    resources=read(folder/'resources.json')
+    resources.update(formal_physical_job_wall_seconds=sum(j['duration_seconds'] for j in jobs),
+        formal_physical_control_steps=sum(read(p)['steps'] for p in (ROOT/'act/physical/formal').glob('*/*/condition-*/episode.json')),
+        formal_physical_jobs=[{k:j[k] for k in ['group','task','episodes','successes','duration_seconds','peak_gpu_allocated_bytes','peak_gpu_reserved_bytes']} for j in jobs],
+        timing_scope='Measured training and physical-job wall time; not a claim of GPU-active compute time.')
+    write(folder/'resources.json',resources)
     test_logs=[ROOT/'act-data-tests.log',ROOT/'act-attempt-boundary-tests.log']
     for p in test_logs:assert p.read_text().rstrip().endswith('OK')
     write(folder/'test_status.json',dict(status='PASS',data_boundary_tests=3,attempt_root_boundary_tests=1,

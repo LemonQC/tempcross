@@ -1,6 +1,5 @@
 {
-  "status": "PARTIAL",
-  "training_complete_for_both_settings": true,
+  "status": "COMPLETE_FAITHFUL_PORT",
   "models": {
     "target_only": {
       "checkpoint": "/home/users/lemon/strong-baselines-20261112/act_decoder_repair_01/act/training/target_only/best.pt",
@@ -31,9 +30,6 @@
       "used_physical_success": false
     }
   },
-  "formal_evaluation_completed_settings": [
-    "target_only"
-  ],
   "role": "EXPOSED_REFERENCE",
   "physical_success_used_for_selection": false,
   "weights_on_server_only": true

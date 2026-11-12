@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "method_status": "COMPLETE_FAITHFUL_PORT",
+  "accepted_formal_episodes": 160,
+  "roles": [
+    "EXPOSED_REFERENCE"
+  ],
+  "independent_unseen_test": false,
+  "completed_optimizer_updates_per_setting": 24000,
+  "formal_run_updates_total": 48000,
+  "preserved_upstream_technical_attempt_updates": 24000,
+  "total_optimizer_calls_including_probes": 72004,
+  "physical_smoke_episodes_total": 8,
+  "technical_repairs_used": 1,
+  "old_baseline_reruns": 0,
+  "frozen_protocol_and_executable_hashes_verified": true,
+  "consumed_identities_and_checkpoints_verified": true,
+  "source_fidelity": "Exact declared dimensions and final-decoder-output repair; other upstream core files unchanged",
+  "results_sha256": "e6a473dd7ca33a1d46906a5acd28e48d4c4bfe6ca5514d3e7d7ba817f2b25971",
+  "weights_videos_and_raw_logs_on_server_only": true
+}

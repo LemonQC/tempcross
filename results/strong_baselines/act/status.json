@@ -1,46 +1,21 @@
 {
-  "status": "PARTIAL",
+  "status": "COMPLETE_FAITHFUL_PORT",
   "method": "act",
-  "phase": "FORMAL_EVALUATION_source_target:pnp_counter_to_sink",
   "actual_training_updates": 48000,
+  "updates_per_group": [
+    24000,
+    24000
+  ],
   "probe_optimizer_updates": 2,
-  "physical_evaluation_episodes": 80,
-  "success_rate": null,
-  "technical_repairs": 1,
   "physical_smoke_episodes": 4,
-  "active_server_root": "/home/users/lemon/strong-baselines-20261112/act_decoder_repair_01",
-  "original_attempt_preserved": true,
-  "corrected_actual_training_updates": 48000,
-  "corrected_target_anchor_exposures": 768000,
-  "corrected_source_anchor_exposures": 384000,
-  "recorded_formal_episodes": 81,
-  "training_groups": {
-    "target_only": {
-      "status": "COMPLETE",
-      "actual_optimizer_updates": 24000,
-      "best_validation": {
-        "l1": 0.5158433523029089,
-        "kl": 0.0004788266960531473,
-        "loss": 0.5206316169351339,
-        "step": 17000
-      },
-      "server_status": "/home/users/lemon/strong-baselines-20261112/act_decoder_repair_01/act/training/target_only/status.json"
-    },
-    "source_target": {
-      "status": "COMPLETE",
-      "actual_optimizer_updates": 24000,
-      "best_validation": {
-        "l1": 0.2559117069467902,
-        "kl": 0.00043376965913921595,
-        "loss": 0.26024940609931946,
-        "step": 11000
-      },
-      "server_status": "/home/users/lemon/strong-baselines-20261112/act_decoder_repair_01/act/training/source_target/status.json"
-    }
-  },
-  "last_verified_utc": "2026-11-12T15:53:49.426799+00:00",
+  "physical_evaluation_episodes": 160,
+  "success_rate": 0.11875,
+  "technical_repairs": 1,
   "prior_technical_attempt_updates": 24000,
   "total_executed_training_updates": 72000,
-  "total_probe_optimizer_updates": 4,
-  "completion_is_not_inferred_from_progress": true
+  "prior_probe_optimizer_updates": 2,
+  "prior_physical_smoke_episodes": 4,
+  "role": "EXPOSED_REFERENCE",
+  "all_trajectories_and_videos_accepted": true,
+  "old_baseline_reruns": 0
 }
