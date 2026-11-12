@@ -6,7 +6,7 @@
 
 | 方法 | 状态 | 已验证训练更新（不含探针） | 已验收正式物理评测 | 成功率 | 当前证据 |
 |---|---|---:|---:|---|---|
-| act | PARTIAL | 24500 | 80 | N/A | [状态](../results/strong_baselines/act/status.json) |
+| act | PARTIAL | 48000 | 80 | N/A | [状态](../results/strong_baselines/act/status.json) |
 | vqbet | NOT_RUN | 0 | 0 | N/A | [状态](../results/strong_baselines/vqbet/status.json) |
 | mimicgen_v2 | NOT_RUN | 0 | 0 | N/A | [状态](../results/strong_baselines/mimicgen_v2/status.json) |
 | kite | NOT_RUN | 0 | 0 | N/A | [状态](../results/strong_baselines/kite/status.json) |

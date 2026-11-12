@@ -17,5 +17,25 @@
     "all_consumed_identities_in_original_training_split": true,
     "all_update_and_anchor_counts_reconciled": true,
     "actual_new_training_examples_not_independent_samples": true
+  },
+  {
+    "status": "PASS",
+    "training_status": "COMPLETE",
+    "group": "source_target",
+    "atomically_saved_optimizer_updates": 24000,
+    "target_anchor_exposures": 384000,
+    "source_anchor_exposures": 384000,
+    "rgb_frame_exposures": 768000,
+    "valid_future_action_label_exposures": {
+      "target": 33644973,
+      "source": 34024867
+    },
+    "distinct_training_demonstrations": {
+      "target": 90,
+      "source": 540
+    },
+    "all_consumed_identities_in_original_training_split": true,
+    "all_update_and_anchor_counts_reconciled": true,
+    "actual_new_training_examples_not_independent_samples": true
   }
 ]
