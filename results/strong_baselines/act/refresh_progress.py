@@ -22,6 +22,12 @@ def main():
         prior_technical_attempt_updates=24000,total_executed_training_updates=24000+total,
         total_probe_optimizer_updates=4,technical_repairs=1,active_server_root=str(ROOT),
         completion_is_not_inferred_from_progress=True)
+    if status['status']=='PARTIAL':
+        for group,s in groups.items():
+            if s['status']=='RUNNING':status['phase']='FORMAL_TRAINING_'+group
+        for p in physical.glob('*/*/job.json'):
+            j=read(p)
+            if j['status']=='RUNNING':status['phase']='FORMAL_EVALUATION_'+j['group']+':'+j['task']
     write(folder/'status.json',status)
     from baselines.strong.matrix_details import main as matrix
     matrix()

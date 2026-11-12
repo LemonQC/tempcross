@@ -12,6 +12,7 @@ def main():
     any_cells=False
     for method in METHODS:
         p=out(method)/'results.json'
+        if not p.exists():p=out(method)/'partial_results.json'
         if not p.exists():continue
         result=read(p)
         for c in result.get('cells',[]):

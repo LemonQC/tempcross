@@ -1,0 +1,42 @@
+{
+  "status": "PARTIAL",
+  "scope": "Accepted cells only; neither remaining cells nor the complete method are claimed completed.",
+  "utc": "2026-11-12T14:57:23.521881+00:00",
+  "cells": [
+    {
+      "group": "target_only",
+      "task": "pnp_counter_to_sink",
+      "episodes": 40,
+      "successes": 5,
+      "success_rate": 0.125,
+      "role": "EXPOSED_REFERENCE",
+      "checkpoint_sha256": "b1cff0e2705a419a0fc90a8ddb3960c09d36208081b53edcef214e12313fe5e3",
+      "selected_step": 17000,
+      "failure_counts": {
+        "CLOSE_WITHOUT_BILATERAL_CONTACT": 30,
+        "CONTACT_WITHOUT_STABLE_LIFT_PROXY": 5,
+        "SUCCESS": 5
+      },
+      "all_trajectories_and_videos_accepted": true
+    },
+    {
+      "group": "target_only",
+      "task": "pnp_sink_to_counter",
+      "episodes": 40,
+      "successes": 4,
+      "success_rate": 0.1,
+      "role": "EXPOSED_REFERENCE",
+      "checkpoint_sha256": "b1cff0e2705a419a0fc90a8ddb3960c09d36208081b53edcef214e12313fe5e3",
+      "selected_step": 17000,
+      "failure_counts": {
+        "CLOSE_WITHOUT_BILATERAL_CONTACT": 34,
+        "STABLE_LIFT_WITHOUT_OFFICIAL_PLACEMENT": 1,
+        "SUCCESS": 4,
+        "CONTACT_WITHOUT_STABLE_LIFT_PROXY": 1
+      },
+      "all_trajectories_and_videos_accepted": true
+    }
+  ],
+  "accepted_formal_episodes": 80,
+  "independent_unseen_test": false
+}
