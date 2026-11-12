@@ -1,0 +1,58 @@
+{
+  "status": "BLOCKED",
+  "reason": "RuntimeError('augmentation failed with return code 1; no automatic repair/retry')",
+  "probe_generation_successes": 4,
+  "probe_generation_attempts": 5,
+  "probe_replay_successes": 4,
+  "probe_replay_attempts": 5,
+  "augmentation_completed_attempts": 177,
+  "augmentation_official_successes": 63,
+  "per_task": [
+    {
+      "task": "pnp_counter_to_sink",
+      "attempts": 77,
+      "successes": 50,
+      "physical_steps": 27895,
+      "failure_counts": {
+        "CONTACT_WITHOUT_STABLE_LIFT": 17,
+        "SUCCESS": 50,
+        "CLOSE_WITHOUT_BILATERAL_CONTACT": 4,
+        "STABLE_LIFT_WITHOUT_OFFICIAL_PLACEMENT": 6
+      },
+      "distinct_frozen_conditions": 20,
+      "unique_source_parent_ids": [
+        "011f3dad6473ef08872a29801790632fbd812aade9f54b2a00660d349ad12f5f",
+        "03e779dde763de12f3d771b8020b75ddefe4a0292951dfd1311e9978088995e9",
+        "0ec8390de20e0da9f668c06eb7a09cfb4193cf0b02830c6bc63f467700226d18",
+        "21de8c14f5c74783317b566424951f544f7912ede98fabdf56d89d2271766e65",
+        "27397e6bad8205fc4e799658d71a957f28dfc3a5a9224f892af8f878ade2ff81"
+      ]
+    },
+    {
+      "task": "pnp_sink_to_counter",
+      "attempts": 100,
+      "successes": 13,
+      "physical_steps": 48933,
+      "failure_counts": {
+        "CONTACT_WITHOUT_STABLE_LIFT": 27,
+        "STABLE_LIFT_WITHOUT_OFFICIAL_PLACEMENT": 23,
+        "CLOSE_WITHOUT_BILATERAL_CONTACT": 37,
+        "SUCCESS": 13
+      },
+      "distinct_frozen_conditions": 20,
+      "unique_source_parent_ids": [
+        "05158554af9e02ca04d35b1033fed6ae914a1498a7c5beb6c98ccb99425c877e",
+        "0b9dcd4972bd7fd737107976903d94cf18da25974bd08d47a5401c944432fd55",
+        "101d18b70e3582397ee4ca6dc599c1118a9b8db08c1a9fbad66fb1492dfac2ab",
+        "14865c01e3ab6001731ac2b216f426fa38f6adc68713596722e235f20557a593",
+        "1dc182f22d11dbd6533147d88dd9cc0bec218aab62c6a08be30459012114874a"
+      ]
+    }
+  ],
+  "actual_optimizer_updates": 0,
+  "selected_checkpoint": null,
+  "formal_policy_evaluation_episodes": 0,
+  "formal_policy_success_rate": null,
+  "old_1280_plus_160_not_rerun": true,
+  "no_claim_of_algorithm_infeasibility": true
+}

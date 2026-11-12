@@ -1,0 +1,14 @@
+{
+  "status": "BLOCKED",
+  "old_1280_plus_160_not_rerun": true,
+  "old_input_hashes_unchanged": true,
+  "frozen_execution_inputs_unchanged": true,
+  "source_checkout_clean": true,
+  "actual_probe_completed": 10,
+  "actual_augmentation_completed": 177,
+  "actual_augmentation_successes": 63,
+  "actual_optimizer_updates": 0,
+  "new_policy_or_physics_calls_in_finalizer": 0,
+  "unique_physical_ids": true,
+  "all_launched_generation_and_replay_ids_have_completed_saved_records": true
+}

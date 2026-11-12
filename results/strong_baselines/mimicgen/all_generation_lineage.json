@@ -1,0 +1,3896 @@
+[
+  {
+    "id": "aug-pnp_counter_to_sink-000",
+    "task": "pnp_counter_to_sink",
+    "seed": 700000,
+    "condition": 0,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-000.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_11",
+        "episode_id": "27397e6bad8205fc4e799658d71a957f28dfc3a5a9224f892af8f878ade2ff81",
+        "source_index": 4
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_40",
+        "episode_id": "011f3dad6473ef08872a29801790632fbd812aade9f54b2a00660d349ad12f5f",
+        "source_index": 0
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-001",
+    "task": "pnp_counter_to_sink",
+    "seed": 700001,
+    "condition": 1,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-001.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_11",
+        "episode_id": "27397e6bad8205fc4e799658d71a957f28dfc3a5a9224f892af8f878ade2ff81",
+        "source_index": 4
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_40",
+        "episode_id": "011f3dad6473ef08872a29801790632fbd812aade9f54b2a00660d349ad12f5f",
+        "source_index": 0
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-002",
+    "task": "pnp_counter_to_sink",
+    "seed": 700002,
+    "condition": 2,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-002.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_18",
+        "episode_id": "21de8c14f5c74783317b566424951f544f7912ede98fabdf56d89d2271766e65",
+        "source_index": 3
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_40",
+        "episode_id": "011f3dad6473ef08872a29801790632fbd812aade9f54b2a00660d349ad12f5f",
+        "source_index": 0
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-003",
+    "task": "pnp_counter_to_sink",
+    "seed": 700003,
+    "condition": 3,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-003.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_28",
+        "episode_id": "03e779dde763de12f3d771b8020b75ddefe4a0292951dfd1311e9978088995e9",
+        "source_index": 1
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_18",
+        "episode_id": "21de8c14f5c74783317b566424951f544f7912ede98fabdf56d89d2271766e65",
+        "source_index": 3
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-004",
+    "task": "pnp_counter_to_sink",
+    "seed": 700004,
+    "condition": 4,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-004.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_18",
+        "episode_id": "21de8c14f5c74783317b566424951f544f7912ede98fabdf56d89d2271766e65",
+        "source_index": 3
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_40",
+        "episode_id": "011f3dad6473ef08872a29801790632fbd812aade9f54b2a00660d349ad12f5f",
+        "source_index": 0
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-005",
+    "task": "pnp_counter_to_sink",
+    "seed": 700005,
+    "condition": 5,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-005.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_6",
+        "episode_id": "0ec8390de20e0da9f668c06eb7a09cfb4193cf0b02830c6bc63f467700226d18",
+        "source_index": 2
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_40",
+        "episode_id": "011f3dad6473ef08872a29801790632fbd812aade9f54b2a00660d349ad12f5f",
+        "source_index": 0
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-006",
+    "task": "pnp_counter_to_sink",
+    "seed": 700006,
+    "condition": 6,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-006.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_18",
+        "episode_id": "21de8c14f5c74783317b566424951f544f7912ede98fabdf56d89d2271766e65",
+        "source_index": 3
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_6",
+        "episode_id": "0ec8390de20e0da9f668c06eb7a09cfb4193cf0b02830c6bc63f467700226d18",
+        "source_index": 2
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-007",
+    "task": "pnp_counter_to_sink",
+    "seed": 700007,
+    "condition": 7,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-007.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_28",
+        "episode_id": "03e779dde763de12f3d771b8020b75ddefe4a0292951dfd1311e9978088995e9",
+        "source_index": 1
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_28",
+        "episode_id": "03e779dde763de12f3d771b8020b75ddefe4a0292951dfd1311e9978088995e9",
+        "source_index": 1
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-008",
+    "task": "pnp_counter_to_sink",
+    "seed": 700008,
+    "condition": 8,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-008.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_6",
+        "episode_id": "0ec8390de20e0da9f668c06eb7a09cfb4193cf0b02830c6bc63f467700226d18",
+        "source_index": 2
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_40",
+        "episode_id": "011f3dad6473ef08872a29801790632fbd812aade9f54b2a00660d349ad12f5f",
+        "source_index": 0
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-009",
+    "task": "pnp_counter_to_sink",
+    "seed": 700009,
+    "condition": 9,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-009.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_40",
+        "episode_id": "011f3dad6473ef08872a29801790632fbd812aade9f54b2a00660d349ad12f5f",
+        "source_index": 0
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_40",
+        "episode_id": "011f3dad6473ef08872a29801790632fbd812aade9f54b2a00660d349ad12f5f",
+        "source_index": 0
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-010",
+    "task": "pnp_counter_to_sink",
+    "seed": 700010,
+    "condition": 10,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-010.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_40",
+        "episode_id": "011f3dad6473ef08872a29801790632fbd812aade9f54b2a00660d349ad12f5f",
+        "source_index": 0
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_40",
+        "episode_id": "011f3dad6473ef08872a29801790632fbd812aade9f54b2a00660d349ad12f5f",
+        "source_index": 0
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-011",
+    "task": "pnp_counter_to_sink",
+    "seed": 700011,
+    "condition": 11,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-011.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_11",
+        "episode_id": "27397e6bad8205fc4e799658d71a957f28dfc3a5a9224f892af8f878ade2ff81",
+        "source_index": 4
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_28",
+        "episode_id": "03e779dde763de12f3d771b8020b75ddefe4a0292951dfd1311e9978088995e9",
+        "source_index": 1
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-012",
+    "task": "pnp_counter_to_sink",
+    "seed": 700012,
+    "condition": 12,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-012.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_11",
+        "episode_id": "27397e6bad8205fc4e799658d71a957f28dfc3a5a9224f892af8f878ade2ff81",
+        "source_index": 4
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_6",
+        "episode_id": "0ec8390de20e0da9f668c06eb7a09cfb4193cf0b02830c6bc63f467700226d18",
+        "source_index": 2
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-013",
+    "task": "pnp_counter_to_sink",
+    "seed": 700013,
+    "condition": 13,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-013.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_28",
+        "episode_id": "03e779dde763de12f3d771b8020b75ddefe4a0292951dfd1311e9978088995e9",
+        "source_index": 1
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_6",
+        "episode_id": "0ec8390de20e0da9f668c06eb7a09cfb4193cf0b02830c6bc63f467700226d18",
+        "source_index": 2
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-014",
+    "task": "pnp_counter_to_sink",
+    "seed": 700014,
+    "condition": 14,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-014.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_11",
+        "episode_id": "27397e6bad8205fc4e799658d71a957f28dfc3a5a9224f892af8f878ade2ff81",
+        "source_index": 4
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_6",
+        "episode_id": "0ec8390de20e0da9f668c06eb7a09cfb4193cf0b02830c6bc63f467700226d18",
+        "source_index": 2
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-015",
+    "task": "pnp_counter_to_sink",
+    "seed": 700015,
+    "condition": 15,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-015.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_6",
+        "episode_id": "0ec8390de20e0da9f668c06eb7a09cfb4193cf0b02830c6bc63f467700226d18",
+        "source_index": 2
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_28",
+        "episode_id": "03e779dde763de12f3d771b8020b75ddefe4a0292951dfd1311e9978088995e9",
+        "source_index": 1
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-016",
+    "task": "pnp_counter_to_sink",
+    "seed": 700016,
+    "condition": 16,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-016.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_28",
+        "episode_id": "03e779dde763de12f3d771b8020b75ddefe4a0292951dfd1311e9978088995e9",
+        "source_index": 1
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_40",
+        "episode_id": "011f3dad6473ef08872a29801790632fbd812aade9f54b2a00660d349ad12f5f",
+        "source_index": 0
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-017",
+    "task": "pnp_counter_to_sink",
+    "seed": 700017,
+    "condition": 17,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-017.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_40",
+        "episode_id": "011f3dad6473ef08872a29801790632fbd812aade9f54b2a00660d349ad12f5f",
+        "source_index": 0
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_40",
+        "episode_id": "011f3dad6473ef08872a29801790632fbd812aade9f54b2a00660d349ad12f5f",
+        "source_index": 0
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-018",
+    "task": "pnp_counter_to_sink",
+    "seed": 700018,
+    "condition": 18,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-018.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_18",
+        "episode_id": "21de8c14f5c74783317b566424951f544f7912ede98fabdf56d89d2271766e65",
+        "source_index": 3
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_6",
+        "episode_id": "0ec8390de20e0da9f668c06eb7a09cfb4193cf0b02830c6bc63f467700226d18",
+        "source_index": 2
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-019",
+    "task": "pnp_counter_to_sink",
+    "seed": 700019,
+    "condition": 19,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-019.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_11",
+        "episode_id": "27397e6bad8205fc4e799658d71a957f28dfc3a5a9224f892af8f878ade2ff81",
+        "source_index": 4
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_18",
+        "episode_id": "21de8c14f5c74783317b566424951f544f7912ede98fabdf56d89d2271766e65",
+        "source_index": 3
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-020",
+    "task": "pnp_counter_to_sink",
+    "seed": 700020,
+    "condition": 0,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-020.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_11",
+        "episode_id": "27397e6bad8205fc4e799658d71a957f28dfc3a5a9224f892af8f878ade2ff81",
+        "source_index": 4
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_28",
+        "episode_id": "03e779dde763de12f3d771b8020b75ddefe4a0292951dfd1311e9978088995e9",
+        "source_index": 1
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-021",
+    "task": "pnp_counter_to_sink",
+    "seed": 700021,
+    "condition": 1,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-021.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_18",
+        "episode_id": "21de8c14f5c74783317b566424951f544f7912ede98fabdf56d89d2271766e65",
+        "source_index": 3
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_18",
+        "episode_id": "21de8c14f5c74783317b566424951f544f7912ede98fabdf56d89d2271766e65",
+        "source_index": 3
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-022",
+    "task": "pnp_counter_to_sink",
+    "seed": 700022,
+    "condition": 2,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-022.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_40",
+        "episode_id": "011f3dad6473ef08872a29801790632fbd812aade9f54b2a00660d349ad12f5f",
+        "source_index": 0
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_28",
+        "episode_id": "03e779dde763de12f3d771b8020b75ddefe4a0292951dfd1311e9978088995e9",
+        "source_index": 1
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-023",
+    "task": "pnp_counter_to_sink",
+    "seed": 700023,
+    "condition": 3,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-023.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_28",
+        "episode_id": "03e779dde763de12f3d771b8020b75ddefe4a0292951dfd1311e9978088995e9",
+        "source_index": 1
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_40",
+        "episode_id": "011f3dad6473ef08872a29801790632fbd812aade9f54b2a00660d349ad12f5f",
+        "source_index": 0
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-024",
+    "task": "pnp_counter_to_sink",
+    "seed": 700024,
+    "condition": 4,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-024.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_40",
+        "episode_id": "011f3dad6473ef08872a29801790632fbd812aade9f54b2a00660d349ad12f5f",
+        "source_index": 0
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_28",
+        "episode_id": "03e779dde763de12f3d771b8020b75ddefe4a0292951dfd1311e9978088995e9",
+        "source_index": 1
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-025",
+    "task": "pnp_counter_to_sink",
+    "seed": 700025,
+    "condition": 5,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-025.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_6",
+        "episode_id": "0ec8390de20e0da9f668c06eb7a09cfb4193cf0b02830c6bc63f467700226d18",
+        "source_index": 2
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_40",
+        "episode_id": "011f3dad6473ef08872a29801790632fbd812aade9f54b2a00660d349ad12f5f",
+        "source_index": 0
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-026",
+    "task": "pnp_counter_to_sink",
+    "seed": 700026,
+    "condition": 6,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-026.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_6",
+        "episode_id": "0ec8390de20e0da9f668c06eb7a09cfb4193cf0b02830c6bc63f467700226d18",
+        "source_index": 2
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_11",
+        "episode_id": "27397e6bad8205fc4e799658d71a957f28dfc3a5a9224f892af8f878ade2ff81",
+        "source_index": 4
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-027",
+    "task": "pnp_counter_to_sink",
+    "seed": 700027,
+    "condition": 7,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-027.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_18",
+        "episode_id": "21de8c14f5c74783317b566424951f544f7912ede98fabdf56d89d2271766e65",
+        "source_index": 3
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_6",
+        "episode_id": "0ec8390de20e0da9f668c06eb7a09cfb4193cf0b02830c6bc63f467700226d18",
+        "source_index": 2
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-028",
+    "task": "pnp_counter_to_sink",
+    "seed": 700028,
+    "condition": 8,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-028.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_28",
+        "episode_id": "03e779dde763de12f3d771b8020b75ddefe4a0292951dfd1311e9978088995e9",
+        "source_index": 1
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_28",
+        "episode_id": "03e779dde763de12f3d771b8020b75ddefe4a0292951dfd1311e9978088995e9",
+        "source_index": 1
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-029",
+    "task": "pnp_counter_to_sink",
+    "seed": 700029,
+    "condition": 9,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-029.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_40",
+        "episode_id": "011f3dad6473ef08872a29801790632fbd812aade9f54b2a00660d349ad12f5f",
+        "source_index": 0
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_18",
+        "episode_id": "21de8c14f5c74783317b566424951f544f7912ede98fabdf56d89d2271766e65",
+        "source_index": 3
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-030",
+    "task": "pnp_counter_to_sink",
+    "seed": 700030,
+    "condition": 10,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-030.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_28",
+        "episode_id": "03e779dde763de12f3d771b8020b75ddefe4a0292951dfd1311e9978088995e9",
+        "source_index": 1
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_18",
+        "episode_id": "21de8c14f5c74783317b566424951f544f7912ede98fabdf56d89d2271766e65",
+        "source_index": 3
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-031",
+    "task": "pnp_counter_to_sink",
+    "seed": 700031,
+    "condition": 11,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-031.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_40",
+        "episode_id": "011f3dad6473ef08872a29801790632fbd812aade9f54b2a00660d349ad12f5f",
+        "source_index": 0
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_18",
+        "episode_id": "21de8c14f5c74783317b566424951f544f7912ede98fabdf56d89d2271766e65",
+        "source_index": 3
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-032",
+    "task": "pnp_counter_to_sink",
+    "seed": 700032,
+    "condition": 12,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-032.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_28",
+        "episode_id": "03e779dde763de12f3d771b8020b75ddefe4a0292951dfd1311e9978088995e9",
+        "source_index": 1
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_6",
+        "episode_id": "0ec8390de20e0da9f668c06eb7a09cfb4193cf0b02830c6bc63f467700226d18",
+        "source_index": 2
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-033",
+    "task": "pnp_counter_to_sink",
+    "seed": 700033,
+    "condition": 13,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-033.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_28",
+        "episode_id": "03e779dde763de12f3d771b8020b75ddefe4a0292951dfd1311e9978088995e9",
+        "source_index": 1
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_18",
+        "episode_id": "21de8c14f5c74783317b566424951f544f7912ede98fabdf56d89d2271766e65",
+        "source_index": 3
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-034",
+    "task": "pnp_counter_to_sink",
+    "seed": 700034,
+    "condition": 14,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-034.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_28",
+        "episode_id": "03e779dde763de12f3d771b8020b75ddefe4a0292951dfd1311e9978088995e9",
+        "source_index": 1
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_28",
+        "episode_id": "03e779dde763de12f3d771b8020b75ddefe4a0292951dfd1311e9978088995e9",
+        "source_index": 1
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-035",
+    "task": "pnp_counter_to_sink",
+    "seed": 700035,
+    "condition": 15,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-035.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_40",
+        "episode_id": "011f3dad6473ef08872a29801790632fbd812aade9f54b2a00660d349ad12f5f",
+        "source_index": 0
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_18",
+        "episode_id": "21de8c14f5c74783317b566424951f544f7912ede98fabdf56d89d2271766e65",
+        "source_index": 3
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-036",
+    "task": "pnp_counter_to_sink",
+    "seed": 700036,
+    "condition": 16,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-036.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_11",
+        "episode_id": "27397e6bad8205fc4e799658d71a957f28dfc3a5a9224f892af8f878ade2ff81",
+        "source_index": 4
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_11",
+        "episode_id": "27397e6bad8205fc4e799658d71a957f28dfc3a5a9224f892af8f878ade2ff81",
+        "source_index": 4
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-037",
+    "task": "pnp_counter_to_sink",
+    "seed": 700037,
+    "condition": 17,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-037.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_11",
+        "episode_id": "27397e6bad8205fc4e799658d71a957f28dfc3a5a9224f892af8f878ade2ff81",
+        "source_index": 4
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_11",
+        "episode_id": "27397e6bad8205fc4e799658d71a957f28dfc3a5a9224f892af8f878ade2ff81",
+        "source_index": 4
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-038",
+    "task": "pnp_counter_to_sink",
+    "seed": 700038,
+    "condition": 18,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-038.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_28",
+        "episode_id": "03e779dde763de12f3d771b8020b75ddefe4a0292951dfd1311e9978088995e9",
+        "source_index": 1
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_28",
+        "episode_id": "03e779dde763de12f3d771b8020b75ddefe4a0292951dfd1311e9978088995e9",
+        "source_index": 1
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-039",
+    "task": "pnp_counter_to_sink",
+    "seed": 700039,
+    "condition": 19,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-039.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_6",
+        "episode_id": "0ec8390de20e0da9f668c06eb7a09cfb4193cf0b02830c6bc63f467700226d18",
+        "source_index": 2
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_11",
+        "episode_id": "27397e6bad8205fc4e799658d71a957f28dfc3a5a9224f892af8f878ade2ff81",
+        "source_index": 4
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-040",
+    "task": "pnp_counter_to_sink",
+    "seed": 700040,
+    "condition": 0,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-040.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_28",
+        "episode_id": "03e779dde763de12f3d771b8020b75ddefe4a0292951dfd1311e9978088995e9",
+        "source_index": 1
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_28",
+        "episode_id": "03e779dde763de12f3d771b8020b75ddefe4a0292951dfd1311e9978088995e9",
+        "source_index": 1
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-041",
+    "task": "pnp_counter_to_sink",
+    "seed": 700041,
+    "condition": 1,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-041.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_18",
+        "episode_id": "21de8c14f5c74783317b566424951f544f7912ede98fabdf56d89d2271766e65",
+        "source_index": 3
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_40",
+        "episode_id": "011f3dad6473ef08872a29801790632fbd812aade9f54b2a00660d349ad12f5f",
+        "source_index": 0
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-042",
+    "task": "pnp_counter_to_sink",
+    "seed": 700042,
+    "condition": 2,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-042.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_11",
+        "episode_id": "27397e6bad8205fc4e799658d71a957f28dfc3a5a9224f892af8f878ade2ff81",
+        "source_index": 4
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_11",
+        "episode_id": "27397e6bad8205fc4e799658d71a957f28dfc3a5a9224f892af8f878ade2ff81",
+        "source_index": 4
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-043",
+    "task": "pnp_counter_to_sink",
+    "seed": 700043,
+    "condition": 3,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-043.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_6",
+        "episode_id": "0ec8390de20e0da9f668c06eb7a09cfb4193cf0b02830c6bc63f467700226d18",
+        "source_index": 2
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_18",
+        "episode_id": "21de8c14f5c74783317b566424951f544f7912ede98fabdf56d89d2271766e65",
+        "source_index": 3
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-044",
+    "task": "pnp_counter_to_sink",
+    "seed": 700044,
+    "condition": 4,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-044.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_40",
+        "episode_id": "011f3dad6473ef08872a29801790632fbd812aade9f54b2a00660d349ad12f5f",
+        "source_index": 0
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_40",
+        "episode_id": "011f3dad6473ef08872a29801790632fbd812aade9f54b2a00660d349ad12f5f",
+        "source_index": 0
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-045",
+    "task": "pnp_counter_to_sink",
+    "seed": 700045,
+    "condition": 5,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-045.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_40",
+        "episode_id": "011f3dad6473ef08872a29801790632fbd812aade9f54b2a00660d349ad12f5f",
+        "source_index": 0
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_11",
+        "episode_id": "27397e6bad8205fc4e799658d71a957f28dfc3a5a9224f892af8f878ade2ff81",
+        "source_index": 4
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-046",
+    "task": "pnp_counter_to_sink",
+    "seed": 700046,
+    "condition": 6,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-046.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_6",
+        "episode_id": "0ec8390de20e0da9f668c06eb7a09cfb4193cf0b02830c6bc63f467700226d18",
+        "source_index": 2
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_6",
+        "episode_id": "0ec8390de20e0da9f668c06eb7a09cfb4193cf0b02830c6bc63f467700226d18",
+        "source_index": 2
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-047",
+    "task": "pnp_counter_to_sink",
+    "seed": 700047,
+    "condition": 7,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-047.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_28",
+        "episode_id": "03e779dde763de12f3d771b8020b75ddefe4a0292951dfd1311e9978088995e9",
+        "source_index": 1
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_28",
+        "episode_id": "03e779dde763de12f3d771b8020b75ddefe4a0292951dfd1311e9978088995e9",
+        "source_index": 1
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-048",
+    "task": "pnp_counter_to_sink",
+    "seed": 700048,
+    "condition": 8,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-048.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_18",
+        "episode_id": "21de8c14f5c74783317b566424951f544f7912ede98fabdf56d89d2271766e65",
+        "source_index": 3
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_11",
+        "episode_id": "27397e6bad8205fc4e799658d71a957f28dfc3a5a9224f892af8f878ade2ff81",
+        "source_index": 4
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-049",
+    "task": "pnp_counter_to_sink",
+    "seed": 700049,
+    "condition": 9,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-049.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_40",
+        "episode_id": "011f3dad6473ef08872a29801790632fbd812aade9f54b2a00660d349ad12f5f",
+        "source_index": 0
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_6",
+        "episode_id": "0ec8390de20e0da9f668c06eb7a09cfb4193cf0b02830c6bc63f467700226d18",
+        "source_index": 2
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-050",
+    "task": "pnp_counter_to_sink",
+    "seed": 700050,
+    "condition": 10,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-050.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_40",
+        "episode_id": "011f3dad6473ef08872a29801790632fbd812aade9f54b2a00660d349ad12f5f",
+        "source_index": 0
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_6",
+        "episode_id": "0ec8390de20e0da9f668c06eb7a09cfb4193cf0b02830c6bc63f467700226d18",
+        "source_index": 2
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-051",
+    "task": "pnp_counter_to_sink",
+    "seed": 700051,
+    "condition": 11,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-051.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_28",
+        "episode_id": "03e779dde763de12f3d771b8020b75ddefe4a0292951dfd1311e9978088995e9",
+        "source_index": 1
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_18",
+        "episode_id": "21de8c14f5c74783317b566424951f544f7912ede98fabdf56d89d2271766e65",
+        "source_index": 3
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-052",
+    "task": "pnp_counter_to_sink",
+    "seed": 700052,
+    "condition": 12,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-052.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_18",
+        "episode_id": "21de8c14f5c74783317b566424951f544f7912ede98fabdf56d89d2271766e65",
+        "source_index": 3
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_6",
+        "episode_id": "0ec8390de20e0da9f668c06eb7a09cfb4193cf0b02830c6bc63f467700226d18",
+        "source_index": 2
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-053",
+    "task": "pnp_counter_to_sink",
+    "seed": 700053,
+    "condition": 13,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-053.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_18",
+        "episode_id": "21de8c14f5c74783317b566424951f544f7912ede98fabdf56d89d2271766e65",
+        "source_index": 3
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_28",
+        "episode_id": "03e779dde763de12f3d771b8020b75ddefe4a0292951dfd1311e9978088995e9",
+        "source_index": 1
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-054",
+    "task": "pnp_counter_to_sink",
+    "seed": 700054,
+    "condition": 14,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-054.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_40",
+        "episode_id": "011f3dad6473ef08872a29801790632fbd812aade9f54b2a00660d349ad12f5f",
+        "source_index": 0
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_40",
+        "episode_id": "011f3dad6473ef08872a29801790632fbd812aade9f54b2a00660d349ad12f5f",
+        "source_index": 0
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-055",
+    "task": "pnp_counter_to_sink",
+    "seed": 700055,
+    "condition": 15,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-055.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_18",
+        "episode_id": "21de8c14f5c74783317b566424951f544f7912ede98fabdf56d89d2271766e65",
+        "source_index": 3
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_11",
+        "episode_id": "27397e6bad8205fc4e799658d71a957f28dfc3a5a9224f892af8f878ade2ff81",
+        "source_index": 4
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-056",
+    "task": "pnp_counter_to_sink",
+    "seed": 700056,
+    "condition": 16,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-056.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_18",
+        "episode_id": "21de8c14f5c74783317b566424951f544f7912ede98fabdf56d89d2271766e65",
+        "source_index": 3
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_40",
+        "episode_id": "011f3dad6473ef08872a29801790632fbd812aade9f54b2a00660d349ad12f5f",
+        "source_index": 0
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-057",
+    "task": "pnp_counter_to_sink",
+    "seed": 700057,
+    "condition": 17,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-057.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_28",
+        "episode_id": "03e779dde763de12f3d771b8020b75ddefe4a0292951dfd1311e9978088995e9",
+        "source_index": 1
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_28",
+        "episode_id": "03e779dde763de12f3d771b8020b75ddefe4a0292951dfd1311e9978088995e9",
+        "source_index": 1
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-058",
+    "task": "pnp_counter_to_sink",
+    "seed": 700058,
+    "condition": 18,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-058.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_40",
+        "episode_id": "011f3dad6473ef08872a29801790632fbd812aade9f54b2a00660d349ad12f5f",
+        "source_index": 0
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_40",
+        "episode_id": "011f3dad6473ef08872a29801790632fbd812aade9f54b2a00660d349ad12f5f",
+        "source_index": 0
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-059",
+    "task": "pnp_counter_to_sink",
+    "seed": 700059,
+    "condition": 19,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-059.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_40",
+        "episode_id": "011f3dad6473ef08872a29801790632fbd812aade9f54b2a00660d349ad12f5f",
+        "source_index": 0
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_18",
+        "episode_id": "21de8c14f5c74783317b566424951f544f7912ede98fabdf56d89d2271766e65",
+        "source_index": 3
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-060",
+    "task": "pnp_counter_to_sink",
+    "seed": 700060,
+    "condition": 0,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-060.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_6",
+        "episode_id": "0ec8390de20e0da9f668c06eb7a09cfb4193cf0b02830c6bc63f467700226d18",
+        "source_index": 2
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_28",
+        "episode_id": "03e779dde763de12f3d771b8020b75ddefe4a0292951dfd1311e9978088995e9",
+        "source_index": 1
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-061",
+    "task": "pnp_counter_to_sink",
+    "seed": 700061,
+    "condition": 1,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-061.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_6",
+        "episode_id": "0ec8390de20e0da9f668c06eb7a09cfb4193cf0b02830c6bc63f467700226d18",
+        "source_index": 2
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_6",
+        "episode_id": "0ec8390de20e0da9f668c06eb7a09cfb4193cf0b02830c6bc63f467700226d18",
+        "source_index": 2
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-062",
+    "task": "pnp_counter_to_sink",
+    "seed": 700062,
+    "condition": 2,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-062.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_40",
+        "episode_id": "011f3dad6473ef08872a29801790632fbd812aade9f54b2a00660d349ad12f5f",
+        "source_index": 0
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_28",
+        "episode_id": "03e779dde763de12f3d771b8020b75ddefe4a0292951dfd1311e9978088995e9",
+        "source_index": 1
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-063",
+    "task": "pnp_counter_to_sink",
+    "seed": 700063,
+    "condition": 3,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-063.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_28",
+        "episode_id": "03e779dde763de12f3d771b8020b75ddefe4a0292951dfd1311e9978088995e9",
+        "source_index": 1
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_28",
+        "episode_id": "03e779dde763de12f3d771b8020b75ddefe4a0292951dfd1311e9978088995e9",
+        "source_index": 1
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-064",
+    "task": "pnp_counter_to_sink",
+    "seed": 700064,
+    "condition": 4,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-064.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_28",
+        "episode_id": "03e779dde763de12f3d771b8020b75ddefe4a0292951dfd1311e9978088995e9",
+        "source_index": 1
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_11",
+        "episode_id": "27397e6bad8205fc4e799658d71a957f28dfc3a5a9224f892af8f878ade2ff81",
+        "source_index": 4
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-065",
+    "task": "pnp_counter_to_sink",
+    "seed": 700065,
+    "condition": 5,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-065.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_28",
+        "episode_id": "03e779dde763de12f3d771b8020b75ddefe4a0292951dfd1311e9978088995e9",
+        "source_index": 1
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_18",
+        "episode_id": "21de8c14f5c74783317b566424951f544f7912ede98fabdf56d89d2271766e65",
+        "source_index": 3
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-066",
+    "task": "pnp_counter_to_sink",
+    "seed": 700066,
+    "condition": 6,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-066.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_6",
+        "episode_id": "0ec8390de20e0da9f668c06eb7a09cfb4193cf0b02830c6bc63f467700226d18",
+        "source_index": 2
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_11",
+        "episode_id": "27397e6bad8205fc4e799658d71a957f28dfc3a5a9224f892af8f878ade2ff81",
+        "source_index": 4
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-067",
+    "task": "pnp_counter_to_sink",
+    "seed": 700067,
+    "condition": 7,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-067.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_18",
+        "episode_id": "21de8c14f5c74783317b566424951f544f7912ede98fabdf56d89d2271766e65",
+        "source_index": 3
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_40",
+        "episode_id": "011f3dad6473ef08872a29801790632fbd812aade9f54b2a00660d349ad12f5f",
+        "source_index": 0
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-068",
+    "task": "pnp_counter_to_sink",
+    "seed": 700068,
+    "condition": 8,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-068.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_28",
+        "episode_id": "03e779dde763de12f3d771b8020b75ddefe4a0292951dfd1311e9978088995e9",
+        "source_index": 1
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_18",
+        "episode_id": "21de8c14f5c74783317b566424951f544f7912ede98fabdf56d89d2271766e65",
+        "source_index": 3
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-069",
+    "task": "pnp_counter_to_sink",
+    "seed": 700069,
+    "condition": 9,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-069.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_40",
+        "episode_id": "011f3dad6473ef08872a29801790632fbd812aade9f54b2a00660d349ad12f5f",
+        "source_index": 0
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_6",
+        "episode_id": "0ec8390de20e0da9f668c06eb7a09cfb4193cf0b02830c6bc63f467700226d18",
+        "source_index": 2
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-070",
+    "task": "pnp_counter_to_sink",
+    "seed": 700070,
+    "condition": 10,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-070.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_28",
+        "episode_id": "03e779dde763de12f3d771b8020b75ddefe4a0292951dfd1311e9978088995e9",
+        "source_index": 1
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_18",
+        "episode_id": "21de8c14f5c74783317b566424951f544f7912ede98fabdf56d89d2271766e65",
+        "source_index": 3
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-071",
+    "task": "pnp_counter_to_sink",
+    "seed": 700071,
+    "condition": 11,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-071.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_18",
+        "episode_id": "21de8c14f5c74783317b566424951f544f7912ede98fabdf56d89d2271766e65",
+        "source_index": 3
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_18",
+        "episode_id": "21de8c14f5c74783317b566424951f544f7912ede98fabdf56d89d2271766e65",
+        "source_index": 3
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-072",
+    "task": "pnp_counter_to_sink",
+    "seed": 700072,
+    "condition": 12,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-072.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_6",
+        "episode_id": "0ec8390de20e0da9f668c06eb7a09cfb4193cf0b02830c6bc63f467700226d18",
+        "source_index": 2
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_11",
+        "episode_id": "27397e6bad8205fc4e799658d71a957f28dfc3a5a9224f892af8f878ade2ff81",
+        "source_index": 4
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-073",
+    "task": "pnp_counter_to_sink",
+    "seed": 700073,
+    "condition": 13,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-073.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_18",
+        "episode_id": "21de8c14f5c74783317b566424951f544f7912ede98fabdf56d89d2271766e65",
+        "source_index": 3
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_6",
+        "episode_id": "0ec8390de20e0da9f668c06eb7a09cfb4193cf0b02830c6bc63f467700226d18",
+        "source_index": 2
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-074",
+    "task": "pnp_counter_to_sink",
+    "seed": 700074,
+    "condition": 14,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-074.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_18",
+        "episode_id": "21de8c14f5c74783317b566424951f544f7912ede98fabdf56d89d2271766e65",
+        "source_index": 3
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_11",
+        "episode_id": "27397e6bad8205fc4e799658d71a957f28dfc3a5a9224f892af8f878ade2ff81",
+        "source_index": 4
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-075",
+    "task": "pnp_counter_to_sink",
+    "seed": 700075,
+    "condition": 15,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-075.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_40",
+        "episode_id": "011f3dad6473ef08872a29801790632fbd812aade9f54b2a00660d349ad12f5f",
+        "source_index": 0
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_28",
+        "episode_id": "03e779dde763de12f3d771b8020b75ddefe4a0292951dfd1311e9978088995e9",
+        "source_index": 1
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_counter_to_sink-076",
+    "task": "pnp_counter_to_sink",
+    "seed": 700076,
+    "condition": 16,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_counter_to_sink-076.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_11",
+        "episode_id": "27397e6bad8205fc4e799658d71a957f28dfc3a5a9224f892af8f878ade2ff81",
+        "source_index": 4
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_40",
+        "episode_id": "011f3dad6473ef08872a29801790632fbd812aade9f54b2a00660d349ad12f5f",
+        "source_index": 0
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-000",
+    "task": "pnp_sink_to_counter",
+    "seed": 701000,
+    "condition": 0,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-000.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_34",
+        "episode_id": "05158554af9e02ca04d35b1033fed6ae914a1498a7c5beb6c98ccb99425c877e",
+        "source_index": 0
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_37",
+        "episode_id": "14865c01e3ab6001731ac2b216f426fa38f6adc68713596722e235f20557a593",
+        "source_index": 3
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-001",
+    "task": "pnp_sink_to_counter",
+    "seed": 701001,
+    "condition": 1,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-001.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_34",
+        "episode_id": "05158554af9e02ca04d35b1033fed6ae914a1498a7c5beb6c98ccb99425c877e",
+        "source_index": 0
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_9",
+        "episode_id": "101d18b70e3582397ee4ca6dc599c1118a9b8db08c1a9fbad66fb1492dfac2ab",
+        "source_index": 2
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-002",
+    "task": "pnp_sink_to_counter",
+    "seed": 701002,
+    "condition": 2,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-002.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_12",
+        "episode_id": "0b9dcd4972bd7fd737107976903d94cf18da25974bd08d47a5401c944432fd55",
+        "source_index": 1
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_8",
+        "episode_id": "1dc182f22d11dbd6533147d88dd9cc0bec218aab62c6a08be30459012114874a",
+        "source_index": 4
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-003",
+    "task": "pnp_sink_to_counter",
+    "seed": 701003,
+    "condition": 3,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-003.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_8",
+        "episode_id": "1dc182f22d11dbd6533147d88dd9cc0bec218aab62c6a08be30459012114874a",
+        "source_index": 4
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_37",
+        "episode_id": "14865c01e3ab6001731ac2b216f426fa38f6adc68713596722e235f20557a593",
+        "source_index": 3
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-004",
+    "task": "pnp_sink_to_counter",
+    "seed": 701004,
+    "condition": 4,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-004.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_34",
+        "episode_id": "05158554af9e02ca04d35b1033fed6ae914a1498a7c5beb6c98ccb99425c877e",
+        "source_index": 0
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_37",
+        "episode_id": "14865c01e3ab6001731ac2b216f426fa38f6adc68713596722e235f20557a593",
+        "source_index": 3
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-005",
+    "task": "pnp_sink_to_counter",
+    "seed": 701005,
+    "condition": 5,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-005.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_34",
+        "episode_id": "05158554af9e02ca04d35b1033fed6ae914a1498a7c5beb6c98ccb99425c877e",
+        "source_index": 0
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_8",
+        "episode_id": "1dc182f22d11dbd6533147d88dd9cc0bec218aab62c6a08be30459012114874a",
+        "source_index": 4
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-006",
+    "task": "pnp_sink_to_counter",
+    "seed": 701006,
+    "condition": 6,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-006.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_9",
+        "episode_id": "101d18b70e3582397ee4ca6dc599c1118a9b8db08c1a9fbad66fb1492dfac2ab",
+        "source_index": 2
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_9",
+        "episode_id": "101d18b70e3582397ee4ca6dc599c1118a9b8db08c1a9fbad66fb1492dfac2ab",
+        "source_index": 2
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-007",
+    "task": "pnp_sink_to_counter",
+    "seed": 701007,
+    "condition": 7,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-007.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_37",
+        "episode_id": "14865c01e3ab6001731ac2b216f426fa38f6adc68713596722e235f20557a593",
+        "source_index": 3
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_34",
+        "episode_id": "05158554af9e02ca04d35b1033fed6ae914a1498a7c5beb6c98ccb99425c877e",
+        "source_index": 0
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-008",
+    "task": "pnp_sink_to_counter",
+    "seed": 701008,
+    "condition": 8,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-008.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_9",
+        "episode_id": "101d18b70e3582397ee4ca6dc599c1118a9b8db08c1a9fbad66fb1492dfac2ab",
+        "source_index": 2
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_37",
+        "episode_id": "14865c01e3ab6001731ac2b216f426fa38f6adc68713596722e235f20557a593",
+        "source_index": 3
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-009",
+    "task": "pnp_sink_to_counter",
+    "seed": 701009,
+    "condition": 9,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-009.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_34",
+        "episode_id": "05158554af9e02ca04d35b1033fed6ae914a1498a7c5beb6c98ccb99425c877e",
+        "source_index": 0
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_37",
+        "episode_id": "14865c01e3ab6001731ac2b216f426fa38f6adc68713596722e235f20557a593",
+        "source_index": 3
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-010",
+    "task": "pnp_sink_to_counter",
+    "seed": 701010,
+    "condition": 10,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-010.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_34",
+        "episode_id": "05158554af9e02ca04d35b1033fed6ae914a1498a7c5beb6c98ccb99425c877e",
+        "source_index": 0
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_34",
+        "episode_id": "05158554af9e02ca04d35b1033fed6ae914a1498a7c5beb6c98ccb99425c877e",
+        "source_index": 0
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-011",
+    "task": "pnp_sink_to_counter",
+    "seed": 701011,
+    "condition": 11,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-011.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_8",
+        "episode_id": "1dc182f22d11dbd6533147d88dd9cc0bec218aab62c6a08be30459012114874a",
+        "source_index": 4
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_12",
+        "episode_id": "0b9dcd4972bd7fd737107976903d94cf18da25974bd08d47a5401c944432fd55",
+        "source_index": 1
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-012",
+    "task": "pnp_sink_to_counter",
+    "seed": 701012,
+    "condition": 12,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-012.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_12",
+        "episode_id": "0b9dcd4972bd7fd737107976903d94cf18da25974bd08d47a5401c944432fd55",
+        "source_index": 1
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_12",
+        "episode_id": "0b9dcd4972bd7fd737107976903d94cf18da25974bd08d47a5401c944432fd55",
+        "source_index": 1
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-013",
+    "task": "pnp_sink_to_counter",
+    "seed": 701013,
+    "condition": 13,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-013.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_8",
+        "episode_id": "1dc182f22d11dbd6533147d88dd9cc0bec218aab62c6a08be30459012114874a",
+        "source_index": 4
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_8",
+        "episode_id": "1dc182f22d11dbd6533147d88dd9cc0bec218aab62c6a08be30459012114874a",
+        "source_index": 4
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-014",
+    "task": "pnp_sink_to_counter",
+    "seed": 701014,
+    "condition": 14,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-014.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_9",
+        "episode_id": "101d18b70e3582397ee4ca6dc599c1118a9b8db08c1a9fbad66fb1492dfac2ab",
+        "source_index": 2
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_8",
+        "episode_id": "1dc182f22d11dbd6533147d88dd9cc0bec218aab62c6a08be30459012114874a",
+        "source_index": 4
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-015",
+    "task": "pnp_sink_to_counter",
+    "seed": 701015,
+    "condition": 15,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-015.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_12",
+        "episode_id": "0b9dcd4972bd7fd737107976903d94cf18da25974bd08d47a5401c944432fd55",
+        "source_index": 1
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_37",
+        "episode_id": "14865c01e3ab6001731ac2b216f426fa38f6adc68713596722e235f20557a593",
+        "source_index": 3
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-016",
+    "task": "pnp_sink_to_counter",
+    "seed": 701016,
+    "condition": 16,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-016.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_8",
+        "episode_id": "1dc182f22d11dbd6533147d88dd9cc0bec218aab62c6a08be30459012114874a",
+        "source_index": 4
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_37",
+        "episode_id": "14865c01e3ab6001731ac2b216f426fa38f6adc68713596722e235f20557a593",
+        "source_index": 3
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-017",
+    "task": "pnp_sink_to_counter",
+    "seed": 701017,
+    "condition": 17,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-017.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_37",
+        "episode_id": "14865c01e3ab6001731ac2b216f426fa38f6adc68713596722e235f20557a593",
+        "source_index": 3
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_9",
+        "episode_id": "101d18b70e3582397ee4ca6dc599c1118a9b8db08c1a9fbad66fb1492dfac2ab",
+        "source_index": 2
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-018",
+    "task": "pnp_sink_to_counter",
+    "seed": 701018,
+    "condition": 18,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-018.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_9",
+        "episode_id": "101d18b70e3582397ee4ca6dc599c1118a9b8db08c1a9fbad66fb1492dfac2ab",
+        "source_index": 2
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_9",
+        "episode_id": "101d18b70e3582397ee4ca6dc599c1118a9b8db08c1a9fbad66fb1492dfac2ab",
+        "source_index": 2
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-019",
+    "task": "pnp_sink_to_counter",
+    "seed": 701019,
+    "condition": 19,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-019.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_9",
+        "episode_id": "101d18b70e3582397ee4ca6dc599c1118a9b8db08c1a9fbad66fb1492dfac2ab",
+        "source_index": 2
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_8",
+        "episode_id": "1dc182f22d11dbd6533147d88dd9cc0bec218aab62c6a08be30459012114874a",
+        "source_index": 4
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-020",
+    "task": "pnp_sink_to_counter",
+    "seed": 701020,
+    "condition": 0,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-020.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_12",
+        "episode_id": "0b9dcd4972bd7fd737107976903d94cf18da25974bd08d47a5401c944432fd55",
+        "source_index": 1
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_9",
+        "episode_id": "101d18b70e3582397ee4ca6dc599c1118a9b8db08c1a9fbad66fb1492dfac2ab",
+        "source_index": 2
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-021",
+    "task": "pnp_sink_to_counter",
+    "seed": 701021,
+    "condition": 1,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-021.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_37",
+        "episode_id": "14865c01e3ab6001731ac2b216f426fa38f6adc68713596722e235f20557a593",
+        "source_index": 3
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_12",
+        "episode_id": "0b9dcd4972bd7fd737107976903d94cf18da25974bd08d47a5401c944432fd55",
+        "source_index": 1
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-022",
+    "task": "pnp_sink_to_counter",
+    "seed": 701022,
+    "condition": 2,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-022.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_12",
+        "episode_id": "0b9dcd4972bd7fd737107976903d94cf18da25974bd08d47a5401c944432fd55",
+        "source_index": 1
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_12",
+        "episode_id": "0b9dcd4972bd7fd737107976903d94cf18da25974bd08d47a5401c944432fd55",
+        "source_index": 1
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-023",
+    "task": "pnp_sink_to_counter",
+    "seed": 701023,
+    "condition": 3,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-023.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_12",
+        "episode_id": "0b9dcd4972bd7fd737107976903d94cf18da25974bd08d47a5401c944432fd55",
+        "source_index": 1
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_37",
+        "episode_id": "14865c01e3ab6001731ac2b216f426fa38f6adc68713596722e235f20557a593",
+        "source_index": 3
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-024",
+    "task": "pnp_sink_to_counter",
+    "seed": 701024,
+    "condition": 4,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-024.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_34",
+        "episode_id": "05158554af9e02ca04d35b1033fed6ae914a1498a7c5beb6c98ccb99425c877e",
+        "source_index": 0
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_9",
+        "episode_id": "101d18b70e3582397ee4ca6dc599c1118a9b8db08c1a9fbad66fb1492dfac2ab",
+        "source_index": 2
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-025",
+    "task": "pnp_sink_to_counter",
+    "seed": 701025,
+    "condition": 5,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-025.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_8",
+        "episode_id": "1dc182f22d11dbd6533147d88dd9cc0bec218aab62c6a08be30459012114874a",
+        "source_index": 4
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_9",
+        "episode_id": "101d18b70e3582397ee4ca6dc599c1118a9b8db08c1a9fbad66fb1492dfac2ab",
+        "source_index": 2
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-026",
+    "task": "pnp_sink_to_counter",
+    "seed": 701026,
+    "condition": 6,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-026.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_37",
+        "episode_id": "14865c01e3ab6001731ac2b216f426fa38f6adc68713596722e235f20557a593",
+        "source_index": 3
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_8",
+        "episode_id": "1dc182f22d11dbd6533147d88dd9cc0bec218aab62c6a08be30459012114874a",
+        "source_index": 4
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-027",
+    "task": "pnp_sink_to_counter",
+    "seed": 701027,
+    "condition": 7,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-027.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_12",
+        "episode_id": "0b9dcd4972bd7fd737107976903d94cf18da25974bd08d47a5401c944432fd55",
+        "source_index": 1
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_12",
+        "episode_id": "0b9dcd4972bd7fd737107976903d94cf18da25974bd08d47a5401c944432fd55",
+        "source_index": 1
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-028",
+    "task": "pnp_sink_to_counter",
+    "seed": 701028,
+    "condition": 8,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-028.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_12",
+        "episode_id": "0b9dcd4972bd7fd737107976903d94cf18da25974bd08d47a5401c944432fd55",
+        "source_index": 1
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_37",
+        "episode_id": "14865c01e3ab6001731ac2b216f426fa38f6adc68713596722e235f20557a593",
+        "source_index": 3
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-029",
+    "task": "pnp_sink_to_counter",
+    "seed": 701029,
+    "condition": 9,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-029.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_12",
+        "episode_id": "0b9dcd4972bd7fd737107976903d94cf18da25974bd08d47a5401c944432fd55",
+        "source_index": 1
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_8",
+        "episode_id": "1dc182f22d11dbd6533147d88dd9cc0bec218aab62c6a08be30459012114874a",
+        "source_index": 4
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-030",
+    "task": "pnp_sink_to_counter",
+    "seed": 701030,
+    "condition": 10,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-030.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_34",
+        "episode_id": "05158554af9e02ca04d35b1033fed6ae914a1498a7c5beb6c98ccb99425c877e",
+        "source_index": 0
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_37",
+        "episode_id": "14865c01e3ab6001731ac2b216f426fa38f6adc68713596722e235f20557a593",
+        "source_index": 3
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-031",
+    "task": "pnp_sink_to_counter",
+    "seed": 701031,
+    "condition": 11,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-031.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_9",
+        "episode_id": "101d18b70e3582397ee4ca6dc599c1118a9b8db08c1a9fbad66fb1492dfac2ab",
+        "source_index": 2
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_8",
+        "episode_id": "1dc182f22d11dbd6533147d88dd9cc0bec218aab62c6a08be30459012114874a",
+        "source_index": 4
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-032",
+    "task": "pnp_sink_to_counter",
+    "seed": 701032,
+    "condition": 12,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-032.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_9",
+        "episode_id": "101d18b70e3582397ee4ca6dc599c1118a9b8db08c1a9fbad66fb1492dfac2ab",
+        "source_index": 2
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_12",
+        "episode_id": "0b9dcd4972bd7fd737107976903d94cf18da25974bd08d47a5401c944432fd55",
+        "source_index": 1
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-033",
+    "task": "pnp_sink_to_counter",
+    "seed": 701033,
+    "condition": 13,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-033.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_9",
+        "episode_id": "101d18b70e3582397ee4ca6dc599c1118a9b8db08c1a9fbad66fb1492dfac2ab",
+        "source_index": 2
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_8",
+        "episode_id": "1dc182f22d11dbd6533147d88dd9cc0bec218aab62c6a08be30459012114874a",
+        "source_index": 4
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-034",
+    "task": "pnp_sink_to_counter",
+    "seed": 701034,
+    "condition": 14,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-034.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_12",
+        "episode_id": "0b9dcd4972bd7fd737107976903d94cf18da25974bd08d47a5401c944432fd55",
+        "source_index": 1
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_37",
+        "episode_id": "14865c01e3ab6001731ac2b216f426fa38f6adc68713596722e235f20557a593",
+        "source_index": 3
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-035",
+    "task": "pnp_sink_to_counter",
+    "seed": 701035,
+    "condition": 15,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-035.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_12",
+        "episode_id": "0b9dcd4972bd7fd737107976903d94cf18da25974bd08d47a5401c944432fd55",
+        "source_index": 1
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_12",
+        "episode_id": "0b9dcd4972bd7fd737107976903d94cf18da25974bd08d47a5401c944432fd55",
+        "source_index": 1
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-036",
+    "task": "pnp_sink_to_counter",
+    "seed": 701036,
+    "condition": 16,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-036.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_8",
+        "episode_id": "1dc182f22d11dbd6533147d88dd9cc0bec218aab62c6a08be30459012114874a",
+        "source_index": 4
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_37",
+        "episode_id": "14865c01e3ab6001731ac2b216f426fa38f6adc68713596722e235f20557a593",
+        "source_index": 3
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-037",
+    "task": "pnp_sink_to_counter",
+    "seed": 701037,
+    "condition": 17,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-037.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_8",
+        "episode_id": "1dc182f22d11dbd6533147d88dd9cc0bec218aab62c6a08be30459012114874a",
+        "source_index": 4
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_9",
+        "episode_id": "101d18b70e3582397ee4ca6dc599c1118a9b8db08c1a9fbad66fb1492dfac2ab",
+        "source_index": 2
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-038",
+    "task": "pnp_sink_to_counter",
+    "seed": 701038,
+    "condition": 18,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-038.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_37",
+        "episode_id": "14865c01e3ab6001731ac2b216f426fa38f6adc68713596722e235f20557a593",
+        "source_index": 3
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_9",
+        "episode_id": "101d18b70e3582397ee4ca6dc599c1118a9b8db08c1a9fbad66fb1492dfac2ab",
+        "source_index": 2
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-039",
+    "task": "pnp_sink_to_counter",
+    "seed": 701039,
+    "condition": 19,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-039.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_34",
+        "episode_id": "05158554af9e02ca04d35b1033fed6ae914a1498a7c5beb6c98ccb99425c877e",
+        "source_index": 0
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_12",
+        "episode_id": "0b9dcd4972bd7fd737107976903d94cf18da25974bd08d47a5401c944432fd55",
+        "source_index": 1
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-040",
+    "task": "pnp_sink_to_counter",
+    "seed": 701040,
+    "condition": 0,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-040.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_37",
+        "episode_id": "14865c01e3ab6001731ac2b216f426fa38f6adc68713596722e235f20557a593",
+        "source_index": 3
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_9",
+        "episode_id": "101d18b70e3582397ee4ca6dc599c1118a9b8db08c1a9fbad66fb1492dfac2ab",
+        "source_index": 2
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-041",
+    "task": "pnp_sink_to_counter",
+    "seed": 701041,
+    "condition": 1,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-041.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_34",
+        "episode_id": "05158554af9e02ca04d35b1033fed6ae914a1498a7c5beb6c98ccb99425c877e",
+        "source_index": 0
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_12",
+        "episode_id": "0b9dcd4972bd7fd737107976903d94cf18da25974bd08d47a5401c944432fd55",
+        "source_index": 1
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-042",
+    "task": "pnp_sink_to_counter",
+    "seed": 701042,
+    "condition": 2,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-042.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_37",
+        "episode_id": "14865c01e3ab6001731ac2b216f426fa38f6adc68713596722e235f20557a593",
+        "source_index": 3
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_34",
+        "episode_id": "05158554af9e02ca04d35b1033fed6ae914a1498a7c5beb6c98ccb99425c877e",
+        "source_index": 0
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-043",
+    "task": "pnp_sink_to_counter",
+    "seed": 701043,
+    "condition": 3,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-043.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_34",
+        "episode_id": "05158554af9e02ca04d35b1033fed6ae914a1498a7c5beb6c98ccb99425c877e",
+        "source_index": 0
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_37",
+        "episode_id": "14865c01e3ab6001731ac2b216f426fa38f6adc68713596722e235f20557a593",
+        "source_index": 3
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-044",
+    "task": "pnp_sink_to_counter",
+    "seed": 701044,
+    "condition": 4,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-044.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_12",
+        "episode_id": "0b9dcd4972bd7fd737107976903d94cf18da25974bd08d47a5401c944432fd55",
+        "source_index": 1
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_34",
+        "episode_id": "05158554af9e02ca04d35b1033fed6ae914a1498a7c5beb6c98ccb99425c877e",
+        "source_index": 0
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-045",
+    "task": "pnp_sink_to_counter",
+    "seed": 701045,
+    "condition": 5,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-045.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_12",
+        "episode_id": "0b9dcd4972bd7fd737107976903d94cf18da25974bd08d47a5401c944432fd55",
+        "source_index": 1
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_34",
+        "episode_id": "05158554af9e02ca04d35b1033fed6ae914a1498a7c5beb6c98ccb99425c877e",
+        "source_index": 0
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-046",
+    "task": "pnp_sink_to_counter",
+    "seed": 701046,
+    "condition": 6,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-046.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_34",
+        "episode_id": "05158554af9e02ca04d35b1033fed6ae914a1498a7c5beb6c98ccb99425c877e",
+        "source_index": 0
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_34",
+        "episode_id": "05158554af9e02ca04d35b1033fed6ae914a1498a7c5beb6c98ccb99425c877e",
+        "source_index": 0
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-047",
+    "task": "pnp_sink_to_counter",
+    "seed": 701047,
+    "condition": 7,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-047.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_34",
+        "episode_id": "05158554af9e02ca04d35b1033fed6ae914a1498a7c5beb6c98ccb99425c877e",
+        "source_index": 0
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_9",
+        "episode_id": "101d18b70e3582397ee4ca6dc599c1118a9b8db08c1a9fbad66fb1492dfac2ab",
+        "source_index": 2
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-048",
+    "task": "pnp_sink_to_counter",
+    "seed": 701048,
+    "condition": 8,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-048.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_34",
+        "episode_id": "05158554af9e02ca04d35b1033fed6ae914a1498a7c5beb6c98ccb99425c877e",
+        "source_index": 0
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_8",
+        "episode_id": "1dc182f22d11dbd6533147d88dd9cc0bec218aab62c6a08be30459012114874a",
+        "source_index": 4
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-049",
+    "task": "pnp_sink_to_counter",
+    "seed": 701049,
+    "condition": 9,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-049.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_37",
+        "episode_id": "14865c01e3ab6001731ac2b216f426fa38f6adc68713596722e235f20557a593",
+        "source_index": 3
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_34",
+        "episode_id": "05158554af9e02ca04d35b1033fed6ae914a1498a7c5beb6c98ccb99425c877e",
+        "source_index": 0
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-050",
+    "task": "pnp_sink_to_counter",
+    "seed": 701050,
+    "condition": 10,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-050.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_12",
+        "episode_id": "0b9dcd4972bd7fd737107976903d94cf18da25974bd08d47a5401c944432fd55",
+        "source_index": 1
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_12",
+        "episode_id": "0b9dcd4972bd7fd737107976903d94cf18da25974bd08d47a5401c944432fd55",
+        "source_index": 1
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-051",
+    "task": "pnp_sink_to_counter",
+    "seed": 701051,
+    "condition": 11,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-051.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_12",
+        "episode_id": "0b9dcd4972bd7fd737107976903d94cf18da25974bd08d47a5401c944432fd55",
+        "source_index": 1
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_8",
+        "episode_id": "1dc182f22d11dbd6533147d88dd9cc0bec218aab62c6a08be30459012114874a",
+        "source_index": 4
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-052",
+    "task": "pnp_sink_to_counter",
+    "seed": 701052,
+    "condition": 12,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-052.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_37",
+        "episode_id": "14865c01e3ab6001731ac2b216f426fa38f6adc68713596722e235f20557a593",
+        "source_index": 3
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_34",
+        "episode_id": "05158554af9e02ca04d35b1033fed6ae914a1498a7c5beb6c98ccb99425c877e",
+        "source_index": 0
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-053",
+    "task": "pnp_sink_to_counter",
+    "seed": 701053,
+    "condition": 13,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-053.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_12",
+        "episode_id": "0b9dcd4972bd7fd737107976903d94cf18da25974bd08d47a5401c944432fd55",
+        "source_index": 1
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_34",
+        "episode_id": "05158554af9e02ca04d35b1033fed6ae914a1498a7c5beb6c98ccb99425c877e",
+        "source_index": 0
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-054",
+    "task": "pnp_sink_to_counter",
+    "seed": 701054,
+    "condition": 14,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-054.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_9",
+        "episode_id": "101d18b70e3582397ee4ca6dc599c1118a9b8db08c1a9fbad66fb1492dfac2ab",
+        "source_index": 2
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_12",
+        "episode_id": "0b9dcd4972bd7fd737107976903d94cf18da25974bd08d47a5401c944432fd55",
+        "source_index": 1
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-055",
+    "task": "pnp_sink_to_counter",
+    "seed": 701055,
+    "condition": 15,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-055.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_12",
+        "episode_id": "0b9dcd4972bd7fd737107976903d94cf18da25974bd08d47a5401c944432fd55",
+        "source_index": 1
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_8",
+        "episode_id": "1dc182f22d11dbd6533147d88dd9cc0bec218aab62c6a08be30459012114874a",
+        "source_index": 4
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-056",
+    "task": "pnp_sink_to_counter",
+    "seed": 701056,
+    "condition": 16,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-056.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_34",
+        "episode_id": "05158554af9e02ca04d35b1033fed6ae914a1498a7c5beb6c98ccb99425c877e",
+        "source_index": 0
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_12",
+        "episode_id": "0b9dcd4972bd7fd737107976903d94cf18da25974bd08d47a5401c944432fd55",
+        "source_index": 1
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-057",
+    "task": "pnp_sink_to_counter",
+    "seed": 701057,
+    "condition": 17,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-057.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_37",
+        "episode_id": "14865c01e3ab6001731ac2b216f426fa38f6adc68713596722e235f20557a593",
+        "source_index": 3
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_34",
+        "episode_id": "05158554af9e02ca04d35b1033fed6ae914a1498a7c5beb6c98ccb99425c877e",
+        "source_index": 0
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-058",
+    "task": "pnp_sink_to_counter",
+    "seed": 701058,
+    "condition": 18,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-058.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_8",
+        "episode_id": "1dc182f22d11dbd6533147d88dd9cc0bec218aab62c6a08be30459012114874a",
+        "source_index": 4
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_37",
+        "episode_id": "14865c01e3ab6001731ac2b216f426fa38f6adc68713596722e235f20557a593",
+        "source_index": 3
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-059",
+    "task": "pnp_sink_to_counter",
+    "seed": 701059,
+    "condition": 19,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-059.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_12",
+        "episode_id": "0b9dcd4972bd7fd737107976903d94cf18da25974bd08d47a5401c944432fd55",
+        "source_index": 1
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_34",
+        "episode_id": "05158554af9e02ca04d35b1033fed6ae914a1498a7c5beb6c98ccb99425c877e",
+        "source_index": 0
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-060",
+    "task": "pnp_sink_to_counter",
+    "seed": 701060,
+    "condition": 0,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-060.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_12",
+        "episode_id": "0b9dcd4972bd7fd737107976903d94cf18da25974bd08d47a5401c944432fd55",
+        "source_index": 1
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_34",
+        "episode_id": "05158554af9e02ca04d35b1033fed6ae914a1498a7c5beb6c98ccb99425c877e",
+        "source_index": 0
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-061",
+    "task": "pnp_sink_to_counter",
+    "seed": 701061,
+    "condition": 1,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-061.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_12",
+        "episode_id": "0b9dcd4972bd7fd737107976903d94cf18da25974bd08d47a5401c944432fd55",
+        "source_index": 1
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_9",
+        "episode_id": "101d18b70e3582397ee4ca6dc599c1118a9b8db08c1a9fbad66fb1492dfac2ab",
+        "source_index": 2
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-062",
+    "task": "pnp_sink_to_counter",
+    "seed": 701062,
+    "condition": 2,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-062.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_9",
+        "episode_id": "101d18b70e3582397ee4ca6dc599c1118a9b8db08c1a9fbad66fb1492dfac2ab",
+        "source_index": 2
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_12",
+        "episode_id": "0b9dcd4972bd7fd737107976903d94cf18da25974bd08d47a5401c944432fd55",
+        "source_index": 1
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-063",
+    "task": "pnp_sink_to_counter",
+    "seed": 701063,
+    "condition": 3,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-063.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_37",
+        "episode_id": "14865c01e3ab6001731ac2b216f426fa38f6adc68713596722e235f20557a593",
+        "source_index": 3
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_37",
+        "episode_id": "14865c01e3ab6001731ac2b216f426fa38f6adc68713596722e235f20557a593",
+        "source_index": 3
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-064",
+    "task": "pnp_sink_to_counter",
+    "seed": 701064,
+    "condition": 4,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-064.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_12",
+        "episode_id": "0b9dcd4972bd7fd737107976903d94cf18da25974bd08d47a5401c944432fd55",
+        "source_index": 1
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_8",
+        "episode_id": "1dc182f22d11dbd6533147d88dd9cc0bec218aab62c6a08be30459012114874a",
+        "source_index": 4
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-065",
+    "task": "pnp_sink_to_counter",
+    "seed": 701065,
+    "condition": 5,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-065.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_37",
+        "episode_id": "14865c01e3ab6001731ac2b216f426fa38f6adc68713596722e235f20557a593",
+        "source_index": 3
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_12",
+        "episode_id": "0b9dcd4972bd7fd737107976903d94cf18da25974bd08d47a5401c944432fd55",
+        "source_index": 1
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-066",
+    "task": "pnp_sink_to_counter",
+    "seed": 701066,
+    "condition": 6,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-066.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_9",
+        "episode_id": "101d18b70e3582397ee4ca6dc599c1118a9b8db08c1a9fbad66fb1492dfac2ab",
+        "source_index": 2
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_37",
+        "episode_id": "14865c01e3ab6001731ac2b216f426fa38f6adc68713596722e235f20557a593",
+        "source_index": 3
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-067",
+    "task": "pnp_sink_to_counter",
+    "seed": 701067,
+    "condition": 7,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-067.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_9",
+        "episode_id": "101d18b70e3582397ee4ca6dc599c1118a9b8db08c1a9fbad66fb1492dfac2ab",
+        "source_index": 2
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_9",
+        "episode_id": "101d18b70e3582397ee4ca6dc599c1118a9b8db08c1a9fbad66fb1492dfac2ab",
+        "source_index": 2
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-068",
+    "task": "pnp_sink_to_counter",
+    "seed": 701068,
+    "condition": 8,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-068.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_34",
+        "episode_id": "05158554af9e02ca04d35b1033fed6ae914a1498a7c5beb6c98ccb99425c877e",
+        "source_index": 0
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_34",
+        "episode_id": "05158554af9e02ca04d35b1033fed6ae914a1498a7c5beb6c98ccb99425c877e",
+        "source_index": 0
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-069",
+    "task": "pnp_sink_to_counter",
+    "seed": 701069,
+    "condition": 9,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-069.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_12",
+        "episode_id": "0b9dcd4972bd7fd737107976903d94cf18da25974bd08d47a5401c944432fd55",
+        "source_index": 1
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_9",
+        "episode_id": "101d18b70e3582397ee4ca6dc599c1118a9b8db08c1a9fbad66fb1492dfac2ab",
+        "source_index": 2
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-070",
+    "task": "pnp_sink_to_counter",
+    "seed": 701070,
+    "condition": 10,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-070.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_9",
+        "episode_id": "101d18b70e3582397ee4ca6dc599c1118a9b8db08c1a9fbad66fb1492dfac2ab",
+        "source_index": 2
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_8",
+        "episode_id": "1dc182f22d11dbd6533147d88dd9cc0bec218aab62c6a08be30459012114874a",
+        "source_index": 4
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-071",
+    "task": "pnp_sink_to_counter",
+    "seed": 701071,
+    "condition": 11,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-071.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_9",
+        "episode_id": "101d18b70e3582397ee4ca6dc599c1118a9b8db08c1a9fbad66fb1492dfac2ab",
+        "source_index": 2
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_9",
+        "episode_id": "101d18b70e3582397ee4ca6dc599c1118a9b8db08c1a9fbad66fb1492dfac2ab",
+        "source_index": 2
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-072",
+    "task": "pnp_sink_to_counter",
+    "seed": 701072,
+    "condition": 12,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-072.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_9",
+        "episode_id": "101d18b70e3582397ee4ca6dc599c1118a9b8db08c1a9fbad66fb1492dfac2ab",
+        "source_index": 2
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_9",
+        "episode_id": "101d18b70e3582397ee4ca6dc599c1118a9b8db08c1a9fbad66fb1492dfac2ab",
+        "source_index": 2
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-073",
+    "task": "pnp_sink_to_counter",
+    "seed": 701073,
+    "condition": 13,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-073.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_8",
+        "episode_id": "1dc182f22d11dbd6533147d88dd9cc0bec218aab62c6a08be30459012114874a",
+        "source_index": 4
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_37",
+        "episode_id": "14865c01e3ab6001731ac2b216f426fa38f6adc68713596722e235f20557a593",
+        "source_index": 3
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-074",
+    "task": "pnp_sink_to_counter",
+    "seed": 701074,
+    "condition": 14,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-074.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_34",
+        "episode_id": "05158554af9e02ca04d35b1033fed6ae914a1498a7c5beb6c98ccb99425c877e",
+        "source_index": 0
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_37",
+        "episode_id": "14865c01e3ab6001731ac2b216f426fa38f6adc68713596722e235f20557a593",
+        "source_index": 3
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-075",
+    "task": "pnp_sink_to_counter",
+    "seed": 701075,
+    "condition": 15,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-075.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_34",
+        "episode_id": "05158554af9e02ca04d35b1033fed6ae914a1498a7c5beb6c98ccb99425c877e",
+        "source_index": 0
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_37",
+        "episode_id": "14865c01e3ab6001731ac2b216f426fa38f6adc68713596722e235f20557a593",
+        "source_index": 3
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-076",
+    "task": "pnp_sink_to_counter",
+    "seed": 701076,
+    "condition": 16,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-076.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_37",
+        "episode_id": "14865c01e3ab6001731ac2b216f426fa38f6adc68713596722e235f20557a593",
+        "source_index": 3
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_34",
+        "episode_id": "05158554af9e02ca04d35b1033fed6ae914a1498a7c5beb6c98ccb99425c877e",
+        "source_index": 0
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-077",
+    "task": "pnp_sink_to_counter",
+    "seed": 701077,
+    "condition": 17,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-077.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_37",
+        "episode_id": "14865c01e3ab6001731ac2b216f426fa38f6adc68713596722e235f20557a593",
+        "source_index": 3
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_37",
+        "episode_id": "14865c01e3ab6001731ac2b216f426fa38f6adc68713596722e235f20557a593",
+        "source_index": 3
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-078",
+    "task": "pnp_sink_to_counter",
+    "seed": 701078,
+    "condition": 18,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-078.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_34",
+        "episode_id": "05158554af9e02ca04d35b1033fed6ae914a1498a7c5beb6c98ccb99425c877e",
+        "source_index": 0
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_9",
+        "episode_id": "101d18b70e3582397ee4ca6dc599c1118a9b8db08c1a9fbad66fb1492dfac2ab",
+        "source_index": 2
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-079",
+    "task": "pnp_sink_to_counter",
+    "seed": 701079,
+    "condition": 19,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-079.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_9",
+        "episode_id": "101d18b70e3582397ee4ca6dc599c1118a9b8db08c1a9fbad66fb1492dfac2ab",
+        "source_index": 2
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_37",
+        "episode_id": "14865c01e3ab6001731ac2b216f426fa38f6adc68713596722e235f20557a593",
+        "source_index": 3
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-080",
+    "task": "pnp_sink_to_counter",
+    "seed": 701080,
+    "condition": 0,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-080.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_9",
+        "episode_id": "101d18b70e3582397ee4ca6dc599c1118a9b8db08c1a9fbad66fb1492dfac2ab",
+        "source_index": 2
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_8",
+        "episode_id": "1dc182f22d11dbd6533147d88dd9cc0bec218aab62c6a08be30459012114874a",
+        "source_index": 4
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-081",
+    "task": "pnp_sink_to_counter",
+    "seed": 701081,
+    "condition": 1,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-081.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_37",
+        "episode_id": "14865c01e3ab6001731ac2b216f426fa38f6adc68713596722e235f20557a593",
+        "source_index": 3
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_12",
+        "episode_id": "0b9dcd4972bd7fd737107976903d94cf18da25974bd08d47a5401c944432fd55",
+        "source_index": 1
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-082",
+    "task": "pnp_sink_to_counter",
+    "seed": 701082,
+    "condition": 2,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-082.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_12",
+        "episode_id": "0b9dcd4972bd7fd737107976903d94cf18da25974bd08d47a5401c944432fd55",
+        "source_index": 1
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_8",
+        "episode_id": "1dc182f22d11dbd6533147d88dd9cc0bec218aab62c6a08be30459012114874a",
+        "source_index": 4
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-083",
+    "task": "pnp_sink_to_counter",
+    "seed": 701083,
+    "condition": 3,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-083.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_9",
+        "episode_id": "101d18b70e3582397ee4ca6dc599c1118a9b8db08c1a9fbad66fb1492dfac2ab",
+        "source_index": 2
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_37",
+        "episode_id": "14865c01e3ab6001731ac2b216f426fa38f6adc68713596722e235f20557a593",
+        "source_index": 3
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-084",
+    "task": "pnp_sink_to_counter",
+    "seed": 701084,
+    "condition": 4,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-084.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_12",
+        "episode_id": "0b9dcd4972bd7fd737107976903d94cf18da25974bd08d47a5401c944432fd55",
+        "source_index": 1
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_9",
+        "episode_id": "101d18b70e3582397ee4ca6dc599c1118a9b8db08c1a9fbad66fb1492dfac2ab",
+        "source_index": 2
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-085",
+    "task": "pnp_sink_to_counter",
+    "seed": 701085,
+    "condition": 5,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-085.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_9",
+        "episode_id": "101d18b70e3582397ee4ca6dc599c1118a9b8db08c1a9fbad66fb1492dfac2ab",
+        "source_index": 2
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_34",
+        "episode_id": "05158554af9e02ca04d35b1033fed6ae914a1498a7c5beb6c98ccb99425c877e",
+        "source_index": 0
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-086",
+    "task": "pnp_sink_to_counter",
+    "seed": 701086,
+    "condition": 6,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-086.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_8",
+        "episode_id": "1dc182f22d11dbd6533147d88dd9cc0bec218aab62c6a08be30459012114874a",
+        "source_index": 4
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_34",
+        "episode_id": "05158554af9e02ca04d35b1033fed6ae914a1498a7c5beb6c98ccb99425c877e",
+        "source_index": 0
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-087",
+    "task": "pnp_sink_to_counter",
+    "seed": 701087,
+    "condition": 7,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-087.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_8",
+        "episode_id": "1dc182f22d11dbd6533147d88dd9cc0bec218aab62c6a08be30459012114874a",
+        "source_index": 4
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_37",
+        "episode_id": "14865c01e3ab6001731ac2b216f426fa38f6adc68713596722e235f20557a593",
+        "source_index": 3
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-088",
+    "task": "pnp_sink_to_counter",
+    "seed": 701088,
+    "condition": 8,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-088.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_12",
+        "episode_id": "0b9dcd4972bd7fd737107976903d94cf18da25974bd08d47a5401c944432fd55",
+        "source_index": 1
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_9",
+        "episode_id": "101d18b70e3582397ee4ca6dc599c1118a9b8db08c1a9fbad66fb1492dfac2ab",
+        "source_index": 2
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-089",
+    "task": "pnp_sink_to_counter",
+    "seed": 701089,
+    "condition": 9,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-089.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_37",
+        "episode_id": "14865c01e3ab6001731ac2b216f426fa38f6adc68713596722e235f20557a593",
+        "source_index": 3
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_9",
+        "episode_id": "101d18b70e3582397ee4ca6dc599c1118a9b8db08c1a9fbad66fb1492dfac2ab",
+        "source_index": 2
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-090",
+    "task": "pnp_sink_to_counter",
+    "seed": 701090,
+    "condition": 10,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-090.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_37",
+        "episode_id": "14865c01e3ab6001731ac2b216f426fa38f6adc68713596722e235f20557a593",
+        "source_index": 3
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_37",
+        "episode_id": "14865c01e3ab6001731ac2b216f426fa38f6adc68713596722e235f20557a593",
+        "source_index": 3
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-091",
+    "task": "pnp_sink_to_counter",
+    "seed": 701091,
+    "condition": 11,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-091.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_8",
+        "episode_id": "1dc182f22d11dbd6533147d88dd9cc0bec218aab62c6a08be30459012114874a",
+        "source_index": 4
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_8",
+        "episode_id": "1dc182f22d11dbd6533147d88dd9cc0bec218aab62c6a08be30459012114874a",
+        "source_index": 4
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-092",
+    "task": "pnp_sink_to_counter",
+    "seed": 701092,
+    "condition": 12,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-092.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_37",
+        "episode_id": "14865c01e3ab6001731ac2b216f426fa38f6adc68713596722e235f20557a593",
+        "source_index": 3
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_9",
+        "episode_id": "101d18b70e3582397ee4ca6dc599c1118a9b8db08c1a9fbad66fb1492dfac2ab",
+        "source_index": 2
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-093",
+    "task": "pnp_sink_to_counter",
+    "seed": 701093,
+    "condition": 13,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-093.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_8",
+        "episode_id": "1dc182f22d11dbd6533147d88dd9cc0bec218aab62c6a08be30459012114874a",
+        "source_index": 4
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_37",
+        "episode_id": "14865c01e3ab6001731ac2b216f426fa38f6adc68713596722e235f20557a593",
+        "source_index": 3
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-094",
+    "task": "pnp_sink_to_counter",
+    "seed": 701094,
+    "condition": 14,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-094.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_34",
+        "episode_id": "05158554af9e02ca04d35b1033fed6ae914a1498a7c5beb6c98ccb99425c877e",
+        "source_index": 0
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_9",
+        "episode_id": "101d18b70e3582397ee4ca6dc599c1118a9b8db08c1a9fbad66fb1492dfac2ab",
+        "source_index": 2
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-095",
+    "task": "pnp_sink_to_counter",
+    "seed": 701095,
+    "condition": 15,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-095.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_8",
+        "episode_id": "1dc182f22d11dbd6533147d88dd9cc0bec218aab62c6a08be30459012114874a",
+        "source_index": 4
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_8",
+        "episode_id": "1dc182f22d11dbd6533147d88dd9cc0bec218aab62c6a08be30459012114874a",
+        "source_index": 4
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-096",
+    "task": "pnp_sink_to_counter",
+    "seed": 701096,
+    "condition": 16,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-096.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_8",
+        "episode_id": "1dc182f22d11dbd6533147d88dd9cc0bec218aab62c6a08be30459012114874a",
+        "source_index": 4
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_8",
+        "episode_id": "1dc182f22d11dbd6533147d88dd9cc0bec218aab62c6a08be30459012114874a",
+        "source_index": 4
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-097",
+    "task": "pnp_sink_to_counter",
+    "seed": 701097,
+    "condition": 17,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-097.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_12",
+        "episode_id": "0b9dcd4972bd7fd737107976903d94cf18da25974bd08d47a5401c944432fd55",
+        "source_index": 1
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_8",
+        "episode_id": "1dc182f22d11dbd6533147d88dd9cc0bec218aab62c6a08be30459012114874a",
+        "source_index": 4
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-098",
+    "task": "pnp_sink_to_counter",
+    "seed": 701098,
+    "condition": 18,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-098.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_37",
+        "episode_id": "14865c01e3ab6001731ac2b216f426fa38f6adc68713596722e235f20557a593",
+        "source_index": 3
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_8",
+        "episode_id": "1dc182f22d11dbd6533147d88dd9cc0bec218aab62c6a08be30459012114874a",
+        "source_index": 4
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  },
+  {
+    "id": "aug-pnp_sink_to_counter-099",
+    "task": "pnp_sink_to_counter",
+    "seed": 701099,
+    "condition": 19,
+    "path": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/lineage/aug-pnp_sink_to_counter-099.json",
+    "selected_sources": [
+      {
+        "subtask": 0,
+        "source_demo": "demo_34",
+        "episode_id": "05158554af9e02ca04d35b1033fed6ae914a1498a7c5beb6c98ccb99425c877e",
+        "source_index": 0
+      },
+      {
+        "subtask": 1,
+        "source_demo": "demo_12",
+        "episode_id": "0b9dcd4972bd7fd737107976903d94cf18da25974bd08d47a5401c944432fd55",
+        "source_index": 1
+      }
+    ],
+    "stage": "MIMICGEN_AUGMENTATION"
+  }
+]

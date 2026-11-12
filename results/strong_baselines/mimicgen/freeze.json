@@ -1,0 +1,16 @@
+{
+  "remote_commit": "9ab5053d001d888c250d9629c49325ea0a54752b",
+  "github_readback_verified": true,
+  "previous_freeze": "737eac31116cdd7723f30d3de7ef5b9247372ba5",
+  "sha256": {
+    "/home/users/lemon/CodexProject/tempcross/docs/MIMICGEN_BASELINE_PROTOCOL.md": "7c8ea1ed7801a713d33fcc9e0b82881694b98b08d2046f3c31e3f117efc9c9b6",
+    "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/mimicgen/protocol.json": "0fe72ffd60ed6d40136934bde402abca7efa18d929c569498b80a4899e762c95",
+    "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/mimicgen/source_seed_manifest.json": "f2d8d0caf82547fd44d5066f094ef0f6531596f227d67c56ab273d2dc68dbb00",
+    "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/mimicgen/audit.json": "8d36acb79fb8c556c3a3aff071716d8c5328945db0f909fdb4c809d179f99d61",
+    "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/mimicgen/probe_logging_repair.json": "b54ee5ec28f928c00e8445178802b880fdeaf16c873d10adab199f3a30a79c2a",
+    "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/mimicgen/audit.py": "bfd9d9eee8f314c12feb91ecad79d38e8986a5c445f439e9ff9c2fc4fcbdaa02",
+    "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/mimicgen/probe.py": "864b60a22c2fa25cb9d6c85b4d73e8221db388a0e36bd96f2af0c8a5fdaed1f6",
+    "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/mimicgen/recover_record.py": "2b90f29fc2d5d447e558926dabb093f6d8270e42c85341800640354670912427",
+    "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/mimicgen/common.py": "488bd13093b8207aada8b83f2fdef9116aaf8d0a733cebb1f651f017684841c0"
+  }
+}

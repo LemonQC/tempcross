@@ -1,0 +1,18 @@
+{
+  "status": "BLOCKED",
+  "pid": 645699,
+  "stages": [
+    {
+      "stage": "augmentation",
+      "returncode": 1,
+      "log": "/home/users/lemon/mimicgen-baseline-20261112/augmentation.log",
+      "sha256": "f35f13ab11eefa844524d06b7535ff6f6a6cdf4bc0cf628ee98c9fd453b6ebcb"
+    }
+  ],
+  "started_utc": "2026-11-12T03:32:41.810589+00:00",
+  "freeze_commit": "2d0ca666e34c66937dea3a23712e22821d6bdac4",
+  "active_stage": "augmentation",
+  "error": "RuntimeError('augmentation failed with return code 1; no automatic repair/retry')",
+  "traceback": "Traceback (most recent call last):\n  File \"/home/users/lemon/CodexProject/tempcross/results/strong_baselines/mimicgen/phase2.py\", line 44, in main\n    if result.returncode:raise RuntimeError(f'{name} failed with return code {result.returncode}; no automatic repair/retry')\nRuntimeError: augmentation failed with return code 1; no automatic repair/retry\n",
+  "ended_utc": "2026-11-12T05:25:16.153412+00:00"
+}

@@ -1,0 +1,724 @@
+{
+  "mimicgen": null,
+  "robocasa": "/home/users/lemon/coft-p2/barx/robocasa_x/robocasa/__init__.py",
+  "robosuite": "/home/users/lemon/coft-p2/barx/.venv/lib/python3.10/site-packages/robosuite/__init__.py",
+  "robomimic": "/home/users/lemon/coft-p2/barx/.venv/lib/python3.10/site-packages/robomimic/__init__.py",
+  "mujoco": "/home/users/lemon/coft-p2/barx/.venv/lib/python3.10/site-packages/mujoco/__init__.py",
+  "h5py": "/home/users/lemon/coft-p2/barx/.venv/lib/python3.10/site-packages/h5py/__init__.py",
+  "imageio": "/home/users/lemon/coft-p2/barx/.venv/lib/python3.10/site-packages/imageio/__init__.py",
+  "cv2": "/home/users/lemon/coft-p2/barx/.venv/lib/python3.10/site-packages/cv2/__init__.py",
+  "torch": "/home/users/lemon/coft-p2/barx/.venv/lib/python3.10/site-packages/torch/__init__.py",
+  "scipy": "/home/users/lemon/coft-p2/barx/.venv/lib/python3.10/site-packages/scipy/__init__.py",
+  "versions": {
+    "torch": "2.2.0+cu121",
+    "mujoco": "3.1.1",
+    "robosuite": "1.5.1",
+    "robomimic": "0.3.0",
+    "h5py": "3.13.0",
+    "numpy": "1.23.5"
+  },
+  "source_files": [
+    {
+      "path": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "bytes": 564120784,
+      "demos": 50,
+      "demo_names": [
+        "demo_1",
+        "demo_2",
+        "demo_3",
+        "demo_4",
+        "demo_5",
+        "demo_6",
+        "demo_7",
+        "demo_8",
+        "demo_9",
+        "demo_10",
+        "demo_11",
+        "demo_12",
+        "demo_13",
+        "demo_14",
+        "demo_15",
+        "demo_16",
+        "demo_17",
+        "demo_18",
+        "demo_19",
+        "demo_20",
+        "demo_21",
+        "demo_22",
+        "demo_23",
+        "demo_24",
+        "demo_25",
+        "demo_26",
+        "demo_27",
+        "demo_28",
+        "demo_29",
+        "demo_30",
+        "demo_31",
+        "demo_32",
+        "demo_33",
+        "demo_34",
+        "demo_35",
+        "demo_36",
+        "demo_37",
+        "demo_38",
+        "demo_39",
+        "demo_40",
+        "demo_41",
+        "demo_42",
+        "demo_43",
+        "demo_44",
+        "demo_45",
+        "demo_46",
+        "demo_47",
+        "demo_48",
+        "demo_49",
+        "demo_50"
+      ],
+      "env_meta": {
+        "env_kwargs": {
+          "camera_depths": false,
+          "camera_heights": 180,
+          "camera_names": [
+            "robot0_agentview_left"
+          ],
+          "camera_widths": 320,
+          "controller_configs": {
+            "body_parts": {
+              "base": {
+                "interpolation": "null",
+                "type": "JOINT_VELOCITY"
+              },
+              "right": {
+                "damping_ratio": 1,
+                "damping_ratio_limits": [
+                  0,
+                  10
+                ],
+                "gripper": {
+                  "type": "GRIP"
+                },
+                "impedance_mode": "fixed",
+                "input_max": 1,
+                "input_min": -1,
+                "input_ref_frame": "base",
+                "input_type": "delta",
+                "interpolation": null,
+                "kp": 150,
+                "kp_limits": [
+                  0,
+                  300
+                ],
+                "orientation_limits": null,
+                "output_max": [
+                  0.05,
+                  0.05,
+                  0.05,
+                  0.5,
+                  0.5,
+                  0.5
+                ],
+                "output_min": [
+                  -0.05,
+                  -0.05,
+                  -0.05,
+                  -0.5,
+                  -0.5,
+                  -0.5
+                ],
+                "position_limits": null,
+                "ramp_ratio": 0.2,
+                "type": "OSC_POSE",
+                "uncouple_pos_ori": true
+              },
+              "torso": {
+                "interpolation": "null",
+                "kp": 2000,
+                "type": "JOINT_POSITION"
+              }
+            },
+            "composite_controller_specific_configs": {
+              "body_part_ordering": [
+                "right",
+                "right_gripper",
+                "base",
+                "torso"
+              ]
+            },
+            "type": "HYBRID_MOBILE_BASE"
+          },
+          "generative_textures": "100p",
+          "gripper_types": "Robotiq85Gripper",
+          "has_offscreen_renderer": true,
+          "has_renderer": false,
+          "ignore_done": true,
+          "layout_and_style_ids": [
+            [
+              4,
+              0
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              4,
+              8
+            ],
+            [
+              4,
+              9
+            ],
+            [
+              4,
+              10
+            ],
+            [
+              4,
+              11
+            ],
+            [
+              7,
+              0
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              7,
+              2
+            ],
+            [
+              7,
+              3
+            ],
+            [
+              7,
+              4
+            ],
+            [
+              7,
+              5
+            ],
+            [
+              7,
+              6
+            ],
+            [
+              7,
+              7
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              7,
+              9
+            ],
+            [
+              7,
+              10
+            ],
+            [
+              7,
+              11
+            ],
+            [
+              8,
+              0
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              8,
+              2
+            ],
+            [
+              8,
+              4
+            ],
+            [
+              8,
+              5
+            ],
+            [
+              8,
+              6
+            ],
+            [
+              8,
+              7
+            ],
+            [
+              8,
+              8
+            ],
+            [
+              8,
+              9
+            ],
+            [
+              8,
+              10
+            ],
+            [
+              8,
+              11
+            ]
+          ],
+          "obj_groups": [
+            "obj_set1"
+          ],
+          "obj_init_range": null,
+          "obj_instance_split": "A",
+          "reward_shaping": false,
+          "robots": [
+            "PandaOmron"
+          ],
+          "translucent_robot": false,
+          "use_camera_obs": true,
+          "use_distractors": true,
+          "use_object_obs": true
+        },
+        "env_name": "XPnPCounterToSink",
+        "env_version": "1.5.1",
+        "type": 1
+      },
+      "demo0_keys": [
+        "action_dict",
+        "actions",
+        "aux_info",
+        "dones",
+        "obs",
+        "rewards",
+        "states"
+      ],
+      "demo0_shapes": {
+        "actions": [
+          406,
+          12
+        ],
+        "dones": [
+          406
+        ],
+        "rewards": [
+          406
+        ],
+        "states": [
+          406,
+          184
+        ]
+      },
+      "demo0_attr_keys": [
+        "ep_meta",
+        "num_samples"
+      ],
+      "demo0_action_min": [
+        -0.42589285714285713,
+        -0.15535714285714286,
+        -0.31875000000000003,
+        -0.03214285714285715,
+        -0.016071428571428573,
+        -0.018214285714285714,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "demo0_action_max": [
+        0.3294642857142857,
+        0.375,
+        0.6723214285714286,
+        0.018214285714285714,
+        0.04821428571428571,
+        0.009642857142857144,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "path": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "bytes": 716265939,
+      "demos": 50,
+      "demo_names": [
+        "demo_1",
+        "demo_2",
+        "demo_3",
+        "demo_4",
+        "demo_5",
+        "demo_6",
+        "demo_7",
+        "demo_8",
+        "demo_9",
+        "demo_10",
+        "demo_11",
+        "demo_12",
+        "demo_13",
+        "demo_14",
+        "demo_15",
+        "demo_16",
+        "demo_17",
+        "demo_18",
+        "demo_19",
+        "demo_20",
+        "demo_21",
+        "demo_22",
+        "demo_23",
+        "demo_24",
+        "demo_25",
+        "demo_26",
+        "demo_27",
+        "demo_28",
+        "demo_29",
+        "demo_30",
+        "demo_31",
+        "demo_32",
+        "demo_33",
+        "demo_34",
+        "demo_35",
+        "demo_36",
+        "demo_37",
+        "demo_38",
+        "demo_39",
+        "demo_40",
+        "demo_41",
+        "demo_42",
+        "demo_43",
+        "demo_44",
+        "demo_45",
+        "demo_46",
+        "demo_47",
+        "demo_48",
+        "demo_49",
+        "demo_50"
+      ],
+      "env_meta": {
+        "env_kwargs": {
+          "camera_depths": false,
+          "camera_heights": 180,
+          "camera_names": [
+            "robot0_agentview_left"
+          ],
+          "camera_widths": 320,
+          "controller_configs": {
+            "body_parts": {
+              "base": {
+                "interpolation": "null",
+                "type": "JOINT_VELOCITY"
+              },
+              "right": {
+                "damping_ratio": 1,
+                "damping_ratio_limits": [
+                  0,
+                  10
+                ],
+                "gripper": {
+                  "type": "GRIP"
+                },
+                "impedance_mode": "fixed",
+                "input_max": 1,
+                "input_min": -1,
+                "input_ref_frame": "base",
+                "input_type": "delta",
+                "interpolation": null,
+                "kp": 150,
+                "kp_limits": [
+                  0,
+                  300
+                ],
+                "orientation_limits": null,
+                "output_max": [
+                  0.05,
+                  0.05,
+                  0.05,
+                  0.5,
+                  0.5,
+                  0.5
+                ],
+                "output_min": [
+                  -0.05,
+                  -0.05,
+                  -0.05,
+                  -0.5,
+                  -0.5,
+                  -0.5
+                ],
+                "position_limits": null,
+                "ramp_ratio": 0.2,
+                "type": "OSC_POSE",
+                "uncouple_pos_ori": true
+              },
+              "torso": {
+                "interpolation": "null",
+                "kp": 2000,
+                "type": "JOINT_POSITION"
+              }
+            },
+            "composite_controller_specific_configs": {
+              "body_part_ordering": [
+                "right",
+                "right_gripper",
+                "base",
+                "torso"
+              ]
+            },
+            "type": "HYBRID_MOBILE_BASE"
+          },
+          "generative_textures": "100p",
+          "gripper_types": "Robotiq85Gripper",
+          "has_offscreen_renderer": true,
+          "has_renderer": false,
+          "ignore_done": true,
+          "layout_and_style_ids": [
+            [
+              4,
+              0
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              4,
+              8
+            ],
+            [
+              4,
+              9
+            ],
+            [
+              4,
+              10
+            ],
+            [
+              4,
+              11
+            ],
+            [
+              7,
+              0
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              7,
+              2
+            ],
+            [
+              7,
+              3
+            ],
+            [
+              7,
+              4
+            ],
+            [
+              7,
+              5
+            ],
+            [
+              7,
+              6
+            ],
+            [
+              7,
+              7
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              7,
+              9
+            ],
+            [
+              7,
+              10
+            ],
+            [
+              7,
+              11
+            ],
+            [
+              8,
+              0
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              8,
+              2
+            ],
+            [
+              8,
+              4
+            ],
+            [
+              8,
+              5
+            ],
+            [
+              8,
+              6
+            ],
+            [
+              8,
+              7
+            ],
+            [
+              8,
+              8
+            ],
+            [
+              8,
+              9
+            ],
+            [
+              8,
+              10
+            ],
+            [
+              8,
+              11
+            ]
+          ],
+          "obj_groups": [
+            "obj_set1"
+          ],
+          "obj_init_range": null,
+          "obj_instance_split": "A",
+          "reward_shaping": false,
+          "robots": [
+            "PandaOmron"
+          ],
+          "translucent_robot": false,
+          "use_camera_obs": true,
+          "use_distractors": true,
+          "use_object_obs": true
+        },
+        "env_name": "XPnPSinkToCounter",
+        "env_version": "1.5.1",
+        "type": 1
+      },
+      "demo0_keys": [
+        "action_dict",
+        "actions",
+        "aux_info",
+        "dones",
+        "obs",
+        "rewards",
+        "states"
+      ],
+      "demo0_shapes": {
+        "actions": [
+          441,
+          12
+        ],
+        "dones": [
+          441
+        ],
+        "rewards": [
+          441
+        ],
+        "states": [
+          441,
+          158
+        ]
+      },
+      "demo0_attr_keys": [
+        "ep_meta",
+        "num_samples"
+      ],
+      "demo0_action_min": [
+        -0.5116071428571428,
+        -0.6375000000000001,
+        -0.23839285714285713,
+        -0.055714285714285716,
+        -0.0825,
+        -0.09750000000000002,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "demo0_action_max": [
+        0.2598214285714286,
+        0.31607142857142856,
+        0.7580357142857144,
+        0.1392857142857143,
+        0.017142857142857144,
+        0.02035714285714286,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ]
+    }
+  ]
+}
