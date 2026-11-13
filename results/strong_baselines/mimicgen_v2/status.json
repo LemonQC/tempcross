@@ -2,12 +2,13 @@
   "status": "PARTIAL",
   "phase": "FORMAL_EVALUATION",
   "actual_training_updates": 48000,
-  "physical_evaluation_episodes": 0,
+  "physical_evaluation_episodes": 40,
   "success_rate": null,
   "technical_repairs": 0,
   "new_generation_attempts": 0,
   "original_full_mimicgen_status": "BLOCKED",
   "scope": "MIMICGEN_V2_UNEQUAL_PANDA_AUGMENTATION_BC_TRANSFORMER_COMPONENT",
   "probe_optimizer_updates": 1,
-  "physical_smoke_episodes": 2
+  "physical_smoke_episodes": 2,
+  "closed_formal_episodes": 41
 }

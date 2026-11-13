@@ -14,6 +14,8 @@ def main():
     closed=len(list((ROOT/'mimicgen_v2/physical/formal').glob('*/*/condition-*/episode.json')))
     final=folder/'results.json';complete=final.exists() and read(final).get('component_status')=='BOUNDED_DOWNSTREAM_CONTROL_COMPLETE'
     if not complete:
+        status=read(folder/'status.json');status.update(physical_evaluation_episodes=sum(c['episodes'] for c in cells),closed_formal_episodes=closed)
+        write(folder/'status.json',status)
         result=dict(status='PARTIAL',scope=cfg['method'],snapshot_utc=now(),cells=cells,actual_saved_training_updates=state['actual_optimizer_updates'],
             completed_training=state['status']=='COMPLETE',closed_formal_episodes=closed,accepted_formal_episodes=sum(c['episodes'] for c in cells),
             human_anchor_exposures=state['human_anchor_exposures'],generated_anchor_exposures=state['generated_anchor_exposures'],
