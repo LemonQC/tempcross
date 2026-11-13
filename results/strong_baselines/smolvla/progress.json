@@ -1,0 +1,34 @@
+{
+  "status": "PARTIAL",
+  "phase": "FORMAL_TRAINING",
+  "as_of_utc": "2026-11-13T15:04:55.764838+00:00",
+  "verified_persisted_training_updates": 1000,
+  "resumable_saved_update": 1000,
+  "frozen_training_budget": 16000,
+  "completed_official_episodes": 0,
+  "episodes": [],
+  "role": "EXPOSED_REFERENCE",
+  "success_rate": null,
+  "latest_training_record": {
+    "update": 1000,
+    "metrics": {
+      "loss": 0.11970940977334976,
+      "grad_norm": 0.2977927029132843,
+      "learning_rate": 9.90632824196575e-05
+    },
+    "anchors_consumed": 32000,
+    "elapsed_seconds": 808.4785257838666,
+    "utc": "2026-11-13T15:04:04.683224+00:00"
+  },
+  "validation_history": [
+    {
+      "update": 1000,
+      "validation": {
+        "real7_valid_flow_mse": 0.2666456658667736,
+        "native_full32_masked_mean": 0.062311029732227324
+      },
+      "utc": "2026-11-13T15:04:10.472530+00:00"
+    }
+  ],
+  "formal_budget_changed": false
+}

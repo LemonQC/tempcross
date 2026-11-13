@@ -13,7 +13,7 @@ async function publishManifest(m) {
   const save = async state => {
     await shell("python -c 'import pathlib,sys;pathlib.Path(sys.argv[1]).write_text(sys.argv[2])' " + quote(statePath) + " " + quote(JSON.stringify(state)));
   };
-  const initial = JSON.parse(await shell("python -c 'import pathlib,sys; p=pathlib.Path(sys.argv[1]); print(p.read_text() if p.exists() else \"{}\")' " + quote(statePath)));
+  const initial = JSON.parse(await shell("python -c 'import pathlib,sys; p=pathlib.Path(sys.argv[1]); print(p.read_text() if p.exists() else \"{}\")' " + quote(statePath),100000));
   const state = {blobs:[], ...initial};
   const head = async () => {
     const r = await tools.mcp__codex_apps__github_fetch_commit({repo_full_name:repo,commit_sha:"main"});

@@ -1,4 +1,4 @@
-# SmolVLA round only: frozen gates passed, formal run pending
+# SmolVLA round only: frozen formal pipeline active
 
 Repository base39ecc90acf671bff9fefbf9fe4fe50575c8311e0. Octo and all earlier
 baseline code/results/weights remain frozen. This round stops after SmolVLA
@@ -15,7 +15,7 @@ probe updates (6before padding-flag fix,3corrected),122 tensors changed with fro
 VLM unchanged; native queue50 and byte/list RPC; two certified successful-demo
 read-only references; fixed validation/RNG restoration. Exactly2 development
 smokes ran600/650steps, task successfalse; full state/action/video/goal acceptance
-passed. No additional smoke is permitted. No formal training/evaluation yet.
+passed. No additional smoke is permitted. Formal pipeline launched after GitHub readback at commit89968fd877e89223c77fff8f41bb3a10742ec9cc; PID2325348. Inspect live logs/state before acting. No formal evaluation at launch.
 
 Official LeRobot v0.4.4@8fff0fde7c79f23a93d845d1a50e985de01f8b8a, Apache2.0.
 Weights lerobot/smolvla_base@5e8d12a6e2975b0e5e5fce7c8caf47c371d257b6,

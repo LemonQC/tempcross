@@ -1,9 +1,9 @@
 {
   "status": "PARTIAL",
   "method": "smolvla",
-  "phase": "FROZEN_READY_TO_TRAIN",
+  "phase": "FORMAL_TRAINING",
   "information_tier": "RGB_PLUS_NATIVE_PROPRIOCEPTION",
-  "actual_training_updates": 0,
+  "actual_training_updates": 1000,
   "discarded_probe_optimizer_updates": 9,
   "physical_evaluation_episodes": 0,
   "physical_smoke_episodes": 2,
