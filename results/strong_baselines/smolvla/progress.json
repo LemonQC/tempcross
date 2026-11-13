@@ -1,24 +1,24 @@
 {
   "status": "PARTIAL",
   "phase": "FORMAL_TRAINING",
-  "as_of_utc": "2026-11-13T15:46:46.322617+00:00",
-  "verified_persisted_training_updates": 4100,
-  "resumable_saved_update": 4000,
+  "as_of_utc": "2026-11-13T16:41:15.106031+00:00",
+  "verified_persisted_training_updates": 8000,
+  "resumable_saved_update": 8000,
   "frozen_training_budget": 16000,
   "completed_official_episodes": 0,
   "episodes": [],
   "role": "EXPOSED_REFERENCE",
   "success_rate": null,
   "latest_training_record": {
-    "update": 4100,
+    "update": 8000,
     "metrics": {
-      "loss": 0.11080695688724518,
-      "grad_norm": 0.3895252048969269,
-      "learning_rate": 8.503800892409975e-05
+      "loss": 0.09884246438741684,
+      "grad_norm": 0.19742731750011444,
+      "learning_rate": 5.125e-05
     },
-    "anchors_consumed": 131200,
-    "elapsed_seconds": 3366.6499837492593,
-    "utc": "2026-11-13T15:46:43.222138+00:00"
+    "anchors_consumed": 256000,
+    "elapsed_seconds": 6567.061709585134,
+    "utc": "2026-11-13T16:40:03.938038+00:00"
   },
   "validation_history": [
     {
@@ -52,6 +52,38 @@
         "native_full32_masked_mean": 0.05733505129814148
       },
       "utc": "2026-11-13T15:45:20.288288+00:00"
+    },
+    {
+      "update": 5000,
+      "validation": {
+        "real7_valid_flow_mse": 0.26004769399687416,
+        "native_full32_masked_mean": 0.05734126925468445
+      },
+      "utc": "2026-11-13T15:59:03.198638+00:00"
+    },
+    {
+      "update": 6000,
+      "validation": {
+        "real7_valid_flow_mse": 0.243996498641187,
+        "native_full32_masked_mean": 0.053364746272563934
+      },
+      "utc": "2026-11-13T16:12:47.271191+00:00"
+    },
+    {
+      "update": 7000,
+      "validation": {
+        "real7_valid_flow_mse": 0.2653162517093363,
+        "native_full32_masked_mean": 0.057583984732627866
+      },
+      "utc": "2026-11-13T16:26:29.564560+00:00"
+    },
+    {
+      "update": 8000,
+      "validation": {
+        "real7_valid_flow_mse": 0.2657903985327165,
+        "native_full32_masked_mean": 0.05749905079603195
+      },
+      "utc": "2026-11-13T16:40:09.673389+00:00"
     }
   ],
   "formal_budget_changed": false

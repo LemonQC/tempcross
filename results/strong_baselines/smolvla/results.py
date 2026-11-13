@@ -54,6 +54,8 @@ def main():
         actual_training_updates=train['actual_training_updates'],discarded_probe_updates=9,total_optimizer_calls=train['actual_training_updates']+9,
         actual_anchors=train['anchors_consumed'],actual_sample_exposure=samples,
         checkpoint=train['checkpoint'],checkpoint_sha256=train['checkpoint_sha256'],selected_update=train['best_step'],
+        selected_checkpoint_training_updates=train['best_step'],
+        selected_checkpoint_anchors_consumed=train['best_step']*protocol['batch_size'],
         selected_target_validation_real7_flow_mse=train['best_validation'],native_training_loss_changed=False,
         core_network_changed=False,extra_real_cameras=False,robot_state_used=True,object_state_used=False,
         official_full_task_episodes=80,development_smoke_episodes=2,official_control_steps=sum(a['episode']['steps'] for a in accepted_rows),
@@ -78,6 +80,7 @@ def main():
     lines += [f"| {c['task']} | {c['successes']}/40 |" for c in cells]
     lines += ['',f"Actual formal updates:{train['actual_training_updates']}; actual discarded probe updates:9; anchors:{train['anchors_consumed']}.",
         f"Selected update:{train['best_step']}; fixed target-validation real7 flow MSE:{train['best_validation']:.8f}. No test-based model selection.",
+        f"The selected checkpoint has seen{train['best_step']*protocol['batch_size']}anchors; the full training run consumed{train['anchors_consumed']}. These are different budgets when selection precedes the last update.",
         f"Checkpoint:`{train['checkpoint']}`; SHA256:`{train['checkpoint_sha256']}`.",
         '', 'The official network,50-step native queue,10-step flow generation,32-dimensional training loss, native optimizer and frozen VLM are retained. Declared data, processor, validation and finite-budget differences are in PROTOCOL.md.',
         'Both development smokes failed task success but completed600/650 steps and passed interface/state/video acceptance; they are excluded from the80 formal episodes.',
