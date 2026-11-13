@@ -15,7 +15,7 @@ CrossZero与Cross-Behavior Object Flow移出必须复现名单；历史BLOCKED�
 | kite | 候选暂缓；旧报告保留 | BLOCKED | 0 | 0 | [证据](../results/strong_baselines/kite/RESULTS.md) |
 | crosszero | 归档，无新增复现预算 | BLOCKED | 0 | 0 | [证据](../results/strong_baselines/crosszero/RESULTS.md) |
 | object_flow | 归档，无新增复现预算 | BLOCKED | 0 | 0 | [证据](../results/strong_baselines/object_flow/RESULTS.md) |
-| octo_small | 当前优先候选 | PARTIAL | 0 | 0 | [证据](../results/strong_baselines/octo_small/status.json) |
+| octo_small | 当前优先候选 | PARTIAL | 300 | 0 | [证据](../results/strong_baselines/octo_small/status.json) |
 | smolvla | 后续候选 | NOT_RUN | 0 | 0 | [证据](../results/strong_baselines/smolvla/status.json) |
 | flow_matching_policy | 后续候选 | NOT_RUN | 0 | 0 | [证据](../results/strong_baselines/flow_matching_policy/status.json) |
 

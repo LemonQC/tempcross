@@ -1,0 +1,32 @@
+{
+  "as_of_utc": "2026-11-13T06:53:03.684525+00:00",
+  "status": "PARTIAL",
+  "phase": "FORMAL_TRAINING",
+  "verified_persisted_training_updates": 300,
+  "resumable_saved_update": 0,
+  "frozen_training_budget": 24000,
+  "completed_official_episodes": 0,
+  "episodes": [],
+  "success_rate": null,
+  "formal_role": "EXPOSED_REFERENCE",
+  "last_training_log": {
+    "update": 300,
+    "metrics": {
+      "grad_norm": 15.943178176879883,
+      "learning_rate": 4.4849992264062166e-05,
+      "loss": 1.5309228897094727,
+      "mse": 1.5309228897094727
+    },
+    "anchors_consumed": 9600,
+    "elapsed_seconds": 157.47746901074424,
+    "utc": "2026-11-13T06:52:47.233269+00:00"
+  },
+  "validation_history": [],
+  "pipeline_process": {
+    "pid": 1944947,
+    "utc": "2026-11-13T06:50:01.482789+00:00",
+    "script": "results.strong_baselines.octo_small.run_frozen",
+    "single_gpu_only": true
+  },
+  "formal_budget_changed": false
+}
