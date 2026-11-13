@@ -16,7 +16,7 @@ CrossZero与Cross-Behavior Object Flow移出必须复现名单；历史BLOCKED�
 | crosszero | 归档，无新增复现预算 | BLOCKED | 0 | 0 | [证据](../results/strong_baselines/crosszero/RESULTS.md) |
 | object_flow | 归档，无新增复现预算 | BLOCKED | 0 | 0 | [证据](../results/strong_baselines/object_flow/RESULTS.md) |
 | octo_small | 联合设置已验收，禁止重跑 | COMPLETE_FAITHFUL_PORT | 24000 | 80 | [证据](../results/strong_baselines/octo_small/RESULTS.md) |
-| smolvla | 本轮唯一执行候选 | PARTIAL | 1000 | 0 | [证据](../results/strong_baselines/smolvla/status.json) |
+| smolvla | 本轮唯一执行候选 | PARTIAL | 4100 | 0 | [证据](../results/strong_baselines/smolvla/status.json) |
 | flow_matching_policy | 后续候选 | NOT_RUN | 0 | 0 | [证据](../results/strong_baselines/flow_matching_policy/status.json) |
 
 COMPLETE_OFFICIAL、COMPLETE_FAITHFUL_PORT、COMPLETE_REIMPLEMENTATION只用于完成训练和正式完整任务评测的对应范围。PARTIAL/BLOCKED/NOT_RUN不是完整Baseline。

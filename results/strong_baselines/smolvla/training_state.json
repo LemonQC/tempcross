@@ -1,0 +1,23 @@
+{
+  "status": "RUNNING",
+  "actual_training_updates": 4000,
+  "saved_step": 4000,
+  "protocol_sha256": "92433d9e7dc381c009ae42ffb590148156f98f2843bfbbf632a2be4ed54421aa",
+  "source": "official SmolVLAPolicy.forward/native AdamW/native scheduler",
+  "initial_pretrained_sha256": "7cd549ac2351fb069c0ddb3c34ad2d09cfc92b56a15dccdfc2e41467aaca01eb",
+  "best_validation": 0.23551705992571065,
+  "best_step": 2000,
+  "elapsed_seconds": 3285.047891560942,
+  "start_resources": {
+    "utc": "2026-11-13T14:50:36.152124+00:00",
+    "gpu": "NVIDIA GeForce RTX 3090, 24576 MiB, 2018 MiB, 8 %",
+    "disk_free_bytes": 55258038272
+  },
+  "peak_allocated_bytes": 6059237888,
+  "peak_reserved_bytes": 6639583232,
+  "resources": {
+    "utc": "2026-11-13T15:45:21.620003+00:00",
+    "gpu": "NVIDIA GeForce RTX 3090, 24576 MiB, 7242 MiB, 7 %",
+    "disk_free_bytes": 52448739328
+  }
+}

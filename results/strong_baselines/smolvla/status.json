@@ -3,7 +3,7 @@
   "method": "smolvla",
   "phase": "FORMAL_TRAINING",
   "information_tier": "RGB_PLUS_NATIVE_PROPRIOCEPTION",
-  "actual_training_updates": 1000,
+  "actual_training_updates": 4100,
   "discarded_probe_optimizer_updates": 9,
   "physical_evaluation_episodes": 0,
   "physical_smoke_episodes": 2,

@@ -1,24 +1,24 @@
 {
   "status": "PARTIAL",
   "phase": "FORMAL_TRAINING",
-  "as_of_utc": "2026-11-13T15:04:55.764838+00:00",
-  "verified_persisted_training_updates": 1000,
-  "resumable_saved_update": 1000,
+  "as_of_utc": "2026-11-13T15:46:46.322617+00:00",
+  "verified_persisted_training_updates": 4100,
+  "resumable_saved_update": 4000,
   "frozen_training_budget": 16000,
   "completed_official_episodes": 0,
   "episodes": [],
   "role": "EXPOSED_REFERENCE",
   "success_rate": null,
   "latest_training_record": {
-    "update": 1000,
+    "update": 4100,
     "metrics": {
-      "loss": 0.11970940977334976,
-      "grad_norm": 0.2977927029132843,
-      "learning_rate": 9.90632824196575e-05
+      "loss": 0.11080695688724518,
+      "grad_norm": 0.3895252048969269,
+      "learning_rate": 8.503800892409975e-05
     },
-    "anchors_consumed": 32000,
-    "elapsed_seconds": 808.4785257838666,
-    "utc": "2026-11-13T15:04:04.683224+00:00"
+    "anchors_consumed": 131200,
+    "elapsed_seconds": 3366.6499837492593,
+    "utc": "2026-11-13T15:46:43.222138+00:00"
   },
   "validation_history": [
     {
@@ -28,6 +28,30 @@
         "native_full32_masked_mean": 0.062311029732227324
       },
       "utc": "2026-11-13T15:04:10.472530+00:00"
+    },
+    {
+      "update": 2000,
+      "validation": {
+        "real7_valid_flow_mse": 0.23551705992571065,
+        "native_full32_masked_mean": 0.05490526854991913
+      },
+      "utc": "2026-11-13T15:17:52.236279+00:00"
+    },
+    {
+      "update": 3000,
+      "validation": {
+        "real7_valid_flow_mse": 0.2395899984302773,
+        "native_full32_masked_mean": 0.054724836349487306
+      },
+      "utc": "2026-11-13T15:31:36.910621+00:00"
+    },
+    {
+      "update": 4000,
+      "validation": {
+        "real7_valid_flow_mse": 0.25223523762613625,
+        "native_full32_masked_mean": 0.05733505129814148
+      },
+      "utc": "2026-11-13T15:45:20.288288+00:00"
     }
   ],
   "formal_budget_changed": false
