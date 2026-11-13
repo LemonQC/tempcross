@@ -1,0 +1,21 @@
+{
+  "actual_training_updates": 0,
+  "learned_policy_inferences": 0,
+  "formal_evaluation_episodes": 0,
+  "full_physical_smoke_episodes": 0,
+  "new_generated_demonstrations": 0,
+  "original_failed_attempt_environment_constructed": false,
+  "repaired_attempt_environment_constructed": true,
+  "repaired_explicit_reset_calls": 1,
+  "repaired_explicit_saved_state_restorations_reached": 2,
+  "observed_mj_step_calls": 0,
+  "total_mj_step1_step2_bootstrap_integration_count": null,
+  "bootstrap_settling_occurred": true,
+  "zero_total_physics_steps_claim": false,
+  "counter_limitation": "Initialization executes10*int(control_timestep/model_timestep) step1/step2 pairs per reset in kitchen.py; total calls not fully instrumented.",
+  "final_resource_snapshot": {
+    "utc": "2026-11-13T05:14:08.066501+00:00",
+    "gpu": "NVIDIA GeForce RTX 3090, 24576 MiB, 597 MiB, 36 %",
+    "disk_free_bytes": 139593621504
+  }
+}

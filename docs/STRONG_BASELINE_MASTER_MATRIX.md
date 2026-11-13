@@ -11,7 +11,7 @@
 | mimicgen_v2 | PARTIAL | 48000 | 80 | 0.025 | [状态](../results/strong_baselines/mimicgen_v2/status.json) |
 | kite | BLOCKED | 0 | 0 | N/A | [状态](../results/strong_baselines/kite/status.json) |
 | crosszero | BLOCKED | 0 | 0 | N/A | [状态](../results/strong_baselines/crosszero/status.json) |
-| object_flow | NOT_RUN | 0 | 0 | N/A | [状态](../results/strong_baselines/object_flow/status.json) |
+| object_flow | BLOCKED | 0 | 0 | N/A | [状态](../results/strong_baselines/object_flow/status.json) |
 
 状态含义：COMPLETE_OFFICIAL 为核心与原生设置完整复现；COMPLETE_FAITHFUL_PORT 为核心保留、已声明平台/接口适配并完成训练及官方完整任务评测；COMPLETE_REIMPLEMENTATION 为已声明的忠实重实现；PARTIAL 为尚未闭环；BLOCKED 为具体阻碍已记录；NOT_RUN 为尚未执行。
 
@@ -47,8 +47,22 @@
 | mimicgen_v2 | ["panda_seed_demonstrations_for_generation"] | ["128x128 RGB", "frozen CLIP-L instruction"] | 45 | [冻结协议](../results/strong_baselines/mimicgen_v2/protocol.json) |
 | kite | ["ur5e"] | 未部署；原生需求为object-only点云、上一intent、实测configuration及运动学模型；不同于RGB-only信息条件 | 0 | [未冻结边界](../results/strong_baselines/kite/protocol.json) |
 | crosszero | ["ur5e"] | 未部署；原生robot-masked XYZRGB点云、EE状态、关节状态；训练另需物体功能位姿监督 | 0 | [未冻结边界](../results/strong_baselines/crosszero/protocol.json) |
-| object_flow | 尚未核对 | 尚未核对 | N/A | NOT_RUN |
+| object_flow | ["ur5e"] | 未部署；论文原生agent/hand RGB、EE/gripper状态、指令；流只可由学习预测器产生 | 0 | [未冻结边界](../results/strong_baselines/object_flow/protocol.json) |
 
 旧BC/DP源池包含IIWA、Kinova3和UR5e。新增ACT及VQ-BeT依本轮UR5e/Panda设置仅取UR5e的600条源示范，保留原有身份划分；旧结果不重训、不覆盖，也不把跨源池比较称为等数据预算比较。BARX预训练/适配及MimicGen生成监督的来源仍以各自原协议为准。
 
 ACT唯一一次decoder输出修复及原版24000更新尝试另列归档。VQ-BeT唯一一次TF32精度修复发生在正式训练前，原四次组件探针更新和四条smoke保留，修复版独立目录重新验收。不能用原技术尝试替代修复版训练完成量；技术尝试、探针和正式评测成本分别记账。
+
+## 完整性边界
+
+六项中完整Baseline为2/6；PARTIAL为1项；BLOCKED为3项。只要未达到6/6，就不能称六项Baseline已补齐。
+
+MimicGen v2的有界下游组件完成仍保持PARTIAL；其新策略总成功数2/80，与复用旧人类BC的2/80相同，不能用单一任务的计数变化声称总体增益。
+
+VQ-BeT表中的60000为两阶段训练迭代数，对应84000次正式optimizer调用；探针和废弃技术尝试在各自资源账本另列，不混成相同计算预算。
+
+| 未完成方法 | 已记录阻碍 | 结论边界 |
+|---|---|---|
+| kite | 原生扩展已可用；一次修复后，数据检查器的导入路径错误使目标几何/解码部署未闭环 | [BLOCKED报告](../results/strong_baselines/kite/RESULTS.md)；N/A成功率，不是算法失败 |
+| crosszero | 未核实作者实现/权重；固定OSC下的原生joint-IK部署桥接未建立 | [BLOCKED报告](../results/strong_baselines/crosszero/RESULTS.md)；N/A成功率，不是算法失败 |
+| object_flow | 一次启动修复后遇到保存相机名与重建模型不一致；尚无认证流标签、学习预测器或动作连接 | [BLOCKED报告](../results/strong_baselines/object_flow/RESULTS.md)；N/A成功率，不是算法失败 |

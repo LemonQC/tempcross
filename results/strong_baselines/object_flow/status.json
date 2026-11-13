@@ -1,8 +1,13 @@
 {
-  "status": "NOT_RUN",
+  "status": "BLOCKED",
   "method": "object_flow",
+  "reason_code": "CAMERA_LABEL_CORRESPONDENCE_AFTER_ONE_REPAIR",
+  "intended_scope": "METHOD_PORT_SAME_BEHAVIOR",
+  "component_completed": false,
+  "full_baseline_completed": false,
   "actual_training_updates": 0,
   "physical_evaluation_episodes": 0,
   "success_rate": null,
-  "technical_repairs": 0
+  "technical_repairs": 1,
+  "utc": "2026-11-13T05:14:08.072188+00:00"
 }

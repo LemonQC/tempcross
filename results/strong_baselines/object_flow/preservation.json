@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "old_baseline_reruns": 0,
+  "files": [
+    {
+      "path": "/home/users/lemon/CodexProject/tempcross/results/baselines/analysis.json",
+      "sha256": "392c7adaad8ac356cc50622e3ab929e2c862aea96a791f299b9f18dd9db7b673"
+    },
+    {
+      "path": "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/barx_adaptation/results.json",
+      "sha256": "b71345152b3ce9dc3ea8d64eec759b5de6ffae0dd9d88f9d2d8e8656b20db999"
+    },
+    {
+      "path": "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/mimicgen/status.json",
+      "sha256": "fdda2a8b14d18ad58ad12b4fba55f8ea863f6aa3348a6866ec594a27cfec8bef"
+    },
+    {
+      "path": "/home/users/lemon/baseline-benchmark/run-20261109/physical_launches.jsonl",
+      "sha256": "264b68966ce7b0db7243d334c5baa381dcca2e0c28e62d11fb9402f90cece768"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/physical_launches.jsonl",
+      "sha256": "94310539dbb785bf575d918f27940581e5230ec24b8a430138d2c1d8bb6f369e"
+    },
+    {
+      "path": "/home/users/lemon/CodexProject/tempcross/configs/datasets/baseline_source_manifest.json",
+      "sha256": "fa913dc702e85e4da7ac364609dc714c5cd901b1751480628a1f167efd244298"
+    },
+    {
+      "path": "/home/users/lemon/CodexProject/tempcross/configs/datasets/baseline_target_manifest.json",
+      "sha256": "ad8c4c7a878e0096a612266674507314c1385c1b0af25b1496df363e11ca4cb5"
+    },
+    {
+      "path": "/home/users/lemon/CodexProject/tempcross/configs/evaluation/baseline_conditions_60_99.json",
+      "sha256": "e131670770227d0a1a983750a4f3caa650f058ed1cbd1436fcf6a6783b13a2cf"
+    }
+  ]
+}

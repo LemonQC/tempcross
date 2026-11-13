@@ -1,0 +1,11 @@
+{
+  "author_paper": "VERIFIED_ACCEPTED_VERSION",
+  "author_source_code": "NOT_VERIFIED",
+  "raw_source_action_identity": "PASS_ALL600_FROM_PRIOR_SHARED_AUDIT",
+  "numeric_restore": "PASSED_BEFORE_FIRST_RENDER",
+  "semantic_camera_and_mask_correspondence": "FAILED_BEFORE_LABEL_CREATION",
+  "learned_flow_prediction": "NOT_IMPLEMENTED",
+  "learned_flow_to_action_connection": "NOT_IMPLEMENTED",
+  "real_training_update": "NOT_RUN",
+  "full_physical_smoke": "NOT_RUN"
+}

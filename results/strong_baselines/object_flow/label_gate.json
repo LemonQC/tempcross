@@ -1,0 +1,47 @@
+{
+  "status": "FAILED_CAMERA_NAME_CORRESPONDENCE",
+  "first_attempt": {
+    "error": "TypeError(\"robocasa.utils.robomimic.robomimic_env_wrapper.EnvRobocasa() got multiple values for keyword argument 'postprocess_visual_obs'\")",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/users/lemon/CodexProject/tempcross/results/strong_baselines/object_flow/label_probe.py\", line 61, in main\n    mujoco.mj_step=initialization;env=create_env(**kwargs)\n  File \"/home/users/lemon/coft-p2/barx/robocasa_x/robocasa/utils/robomimic/robomimic_env_utils.py\", line 167, in create_env\n    env = env_class(\nTypeError: robocasa.utils.robomimic.robomimic_env_wrapper.EnvRobocasa() got multiple values for keyword argument 'postprocess_visual_obs'\n",
+    "counters": {
+      "initialization_physics_steps": 0,
+      "extraction_physics_steps": 0,
+      "policy_calls": 0
+    },
+    "row": {
+      "domain": "source",
+      "robot": "ur5e",
+      "task": "pnp_counter_to_sink",
+      "episode_id": "d8c5f9df89c84057066e5fdb2a4107d66229c42d6a1af0c1385b620108c8f2c9",
+      "raw_file": "/home/users/lemon/strong-baselines-20261112/raw_source_ur5e/mg/UR5eOmron/PnPCounterToSink/100demos_seed0/demo_gentex_im320_randcams.hdf5",
+      "raw_demo": "demo_0"
+    }
+  },
+  "repaired_attempt": {
+    "error": "ValueError('No \"camera\" with name ur5e_agentview_left exists. Available \"camera\" names = (\\'robot0_robotview\\', \\'robot0_agentview_center\\', \\'robot0_agentview_left\\', \\'robot0_agentview_right\\', \\'robot0_frontview\\', \\'barx_panda_agentview\\', \\'barx_jaco_agentview\\', \\'barx_kinova3_agentview\\', \\'barx_ur5e_agentview\\', \\'barx_iiwa_agentview\\', \\'robot0_eye_in_hand\\').')",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/users/lemon/CodexProject/tempcross/results/strong_baselines/object_flow/label_probe.py\", line 82, in main\n    image=sim.render(width=320,height=180,camera_name=camera)\n  File \"/home/users/lemon/coft-p2/barx/.venv/lib/python3.10/site-packages/robosuite/utils/binding_utils.py\", line 1133, in render\n    camera_id = self.model.camera_name2id(camera_name)\n  File \"/home/users/lemon/coft-p2/barx/.venv/lib/python3.10/site-packages/robosuite/utils/binding_utils.py\", line 431, in camera_name2id\n    raise ValueError(\nValueError: No \"camera\" with name ur5e_agentview_left exists. Available \"camera\" names = ('robot0_robotview', 'robot0_agentview_center', 'robot0_agentview_left', 'robot0_agentview_right', 'robot0_frontview', 'barx_panda_agentview', 'barx_jaco_agentview', 'barx_kinova3_agentview', 'barx_ur5e_agentview', 'barx_iiwa_agentview', 'robot0_eye_in_hand').\n",
+    "counters": {
+      "initialization_physics_steps": 0,
+      "extraction_physics_steps": 0,
+      "policy_calls": 0
+    },
+    "row": {
+      "domain": "source",
+      "robot": "ur5e",
+      "task": "pnp_counter_to_sink",
+      "episode_id": "d8c5f9df89c84057066e5fdb2a4107d66229c42d6a1af0c1385b620108c8f2c9",
+      "raw_file": "/home/users/lemon/strong-baselines-20261112/raw_source_ur5e/mg/UR5eOmron/PnPCounterToSink/100demos_seed0/demo_gentex_im320_randcams.hdf5",
+      "raw_demo": "demo_0"
+    }
+  },
+  "numeric_state_roundtrip_passed_before_render": true,
+  "numeric_roundtrip_is_not_semantic_geometry_validation": true,
+  "rendered_rgb_alignment_test_completed": false,
+  "valid_segmentation_frames": 0,
+  "object_flow_labels": 0,
+  "camera_alias_mapping_validated": false,
+  "hand_view_raw_dataset_present": false,
+  "source_model_has_eye_in_hand_camera_in_error_listing": true,
+  "known_raw_states_available": true,
+  "absence_of_supervision_is_not_proved": true
+}

@@ -1,0 +1,12 @@
+{
+  "id": 1,
+  "utc": "2026-11-13T05:06:18.402998+00:00",
+  "stage": "RAW_STATE_LABEL_PREFLIGHT",
+  "failure": "create_env wrapper already passes postprocess_visual_obs; duplicate keyword prevented environment construction",
+  "fix": "Remove redundant wrapper keyword; preserve fixed rows and RGB/state gates; separate repaired artifacts",
+  "original_source": "/home/users/lemon/strong-baselines-20261112/object_flow/attempt_00/label_probe.py",
+  "original_source_sha256": "4b628fae3c86941bdc51c829f275d3285dd2bea4d2f2e8115d6b4baf18014a72",
+  "original_error": "/home/users/lemon/strong-baselines-20261112/object_flow/label_probe/source-pnp_counter_to_sink/error.json",
+  "new_policy_rollouts_before_repair": 0,
+  "further_technical_repairs_permitted": false
+}

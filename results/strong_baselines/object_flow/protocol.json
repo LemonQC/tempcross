@@ -1,0 +1,107 @@
+{
+  "status": "NOT_FROZEN_LABEL_CORRESPONDENCE_GATE",
+  "method": "Cross-Behavior Object Flow",
+  "intended_component_scope": "METHOD_PORT_SAME_BEHAVIOR",
+  "component_completed": false,
+  "cross_behavior_claim": false,
+  "training_budget_frozen": false,
+  "source_robots": [
+    "ur5e"
+  ],
+  "train_target_demonstrations_per_task": 0,
+  "intended_target_training_demonstrations_per_task": 45,
+  "actual_target_demonstrations_used": 0,
+  "observation": "未部署；论文原生agent/hand RGB、EE/gripper状态、指令；流只可由学习预测器产生",
+  "source_pool": {
+    "total": 600,
+    "train": 540,
+    "validation": 60
+  },
+  "target_pool": {
+    "total": 100,
+    "train": 90,
+    "validation": 10
+  },
+  "split": "Existing complete-demonstration identity split unchanged",
+  "label_gate": {
+    "only_training_ids": true,
+    "frames": "0,middle,last",
+    "exact_numeric_state_roundtrip": true,
+    "raw_rgb_normalized_mae_max": 0.03,
+    "task_object_roles": [
+      "obj",
+      "container if present"
+    ],
+    "privileged_training_annotation": "Proposed rendered visible instance masks, not certified or produced",
+    "actual_valid_label_frames": 0
+  },
+  "original_core_requirements": [
+    "Future binary object masks",
+    "Learned mask-flow predictor",
+    "Frame and frame-union dice/focal supervision",
+    "Learned flow-CNN conditioning of action diffusion policy"
+  ],
+  "actual_core_implementation": {
+    "flow_predictor": "NOT_IMPLEMENTED",
+    "flow_conditioned_policy": "NOT_IMPLEMENTED"
+  },
+  "formal_training_updates": null,
+  "checkpoint_selection": null,
+  "intended_evaluation": {
+    "robot": "Panda",
+    "two_finger": true,
+    "tasks": [
+      "pnp_counter_to_sink",
+      "pnp_sink_to_counter"
+    ],
+    "conditions": [
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99
+    ],
+    "role": "EXPOSED_REFERENCE",
+    "control_hz": 20,
+    "action_interface": "Existing canonical OSC7 to12",
+    "success": "Official placement AND retreat"
+  },
+  "repair_ceiling": 1,
+  "repairs_used": 1,
+  "stop_on_new_substantive_gate_failure": true
+}

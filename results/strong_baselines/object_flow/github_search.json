@@ -1,0 +1,44 @@
+{
+  "utc": "2026-11-13 05:10:07 UTC",
+  "provider": "Connected GitHub plugin",
+  "official_repository_verified": false,
+  "bounded_search_not_nonexistence_proof": true,
+  "queries": [
+    {
+      "query": "\"Cross-Behavior Learning\" \"Object\"",
+      "repositories": [],
+      "limit": 20
+    },
+    {
+      "query": "\"object flow\" robot Dogar",
+      "repositories": [],
+      "limit": 20
+    },
+    {
+      "query": "Cross-Behavior Learning Object Flow Prediction",
+      "code_files": [
+        "https://github.com/DerekDLP/Arxiv-Daily-Storage/blob/62961c4c93f8b86396a85d6bb0687e08e06b0f74/mds/[Transfer Learning]Transfer Learning-2023-03-12(1).md",
+        "https://github.com/zhaoyang97/Paper-Notes-en/blob/148a16dd45b148e890b4428db21133e5a1589b77/docs/ICLR2026/interpretability/learning_to_interpret_weight_differences_in_language_models.md",
+        "https://github.com/Doragd/Algorithm-Practice-in-Industry/blob/6b231136dc2960ff24b8d950cd7c6eb9e43e3a41/paperBotV2/conf_summary/data/papers/recsys/recsys2025.md",
+        "https://github.com/Doragd/Algorithm-Practice-in-Industry/blob/6b231136dc2960ff24b8d950cd7c6eb9e43e3a41/paperBotV2/arxiv_daily/data/20260710.json",
+        "https://github.com/memgrafter/research-digests/blob/491d1e597ee1384396057fbe72e2bdec9f11c2c6/ml_research_analysis_2026/2601.07294_towards-multi-behavior-multi-task-recommendation-via-behavior-informed-graph-embedding-learning_20260209_082956.md",
+        "https://github.com/ceo21ckim/Awesome-Recsys/blob/f802cc098afeaa7a15e0864c9937b1468353b318/papers/RecSys.md",
+        "https://github.com/zhaoyang97/Paper-Notes-en/blob/148a16dd45b148e890b4428db21133e5a1589b77/docs/ICML2026/index.md",
+        "https://github.com/CSQianDong/Awesome-arXiv-Daily-Reporter/blob/af458a2d49537b232063fac907f8879a6f7040a7/23-Jun-2025/IR/README.md",
+        "https://github.com/CSQianDong/Awesome-arXiv-Daily-Reporter/blob/af458a2d49537b232063fac907f8879a6f7040a7/10-Jul-2026/NLP/README.md",
+        "https://github.com/CSQianDong/Awesome-arXiv-Daily-Reporter/blob/af458a2d49537b232063fac907f8879a6f7040a7/10-Jul-2026/AI/README.md"
+      ],
+      "limit": 20
+    },
+    {
+      "query": "object-flow robotic manipulation",
+      "repositories": [],
+      "limit": 20
+    },
+    {
+      "query": "Longrui Chen object",
+      "repositories": [],
+      "limit": 20
+    }
+  ]
+}

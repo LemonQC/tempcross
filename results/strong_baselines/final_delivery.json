@@ -1,0 +1,352 @@
+{
+  "status": "BOUNDED_PASS_CLOSED_FULL_BASELINE_TARGET_NOT_ACHIEVED",
+  "utc": "2026-11-13T05:18:41.856383+00:00",
+  "complete_methods": 2,
+  "partial_methods": 1,
+  "blocked_methods": 3,
+  "six_full_baselines_completed": false,
+  "completed_method_acceptances": [
+    {
+      "method": "act",
+      "path": "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/act/delivery_acceptance.json",
+      "sha256": "80e5f52ddfd2709fbe34c6e074fbdfe9c87ebc4f5aa1b87c58aaf64a3c4d305f",
+      "status": "PASS"
+    },
+    {
+      "method": "vqbet",
+      "path": "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/vqbet/delivery_acceptance.json",
+      "sha256": "bb5605fb584fcf7de2d5f83a9d70f924503ff501356d6eedaa31d7e137bd24fc",
+      "status": "PASS"
+    }
+  ],
+  "statuses": {
+    "act": {
+      "status": "COMPLETE_FAITHFUL_PORT",
+      "method": "act",
+      "actual_training_updates": 48000,
+      "updates_per_group": [
+        24000,
+        24000
+      ],
+      "probe_optimizer_updates": 2,
+      "physical_smoke_episodes": 4,
+      "physical_evaluation_episodes": 160,
+      "success_rate": 0.11875,
+      "technical_repairs": 1,
+      "prior_technical_attempt_updates": 24000,
+      "total_executed_training_updates": 72000,
+      "prior_probe_optimizer_updates": 2,
+      "prior_physical_smoke_episodes": 4,
+      "role": "EXPOSED_REFERENCE",
+      "all_trajectories_and_videos_accepted": true,
+      "old_baseline_reruns": 0
+    },
+    "vqbet": {
+      "status": "COMPLETE_FAITHFUL_PORT",
+      "method": "vqbet",
+      "actual_training_updates": 60000,
+      "actual_optimizer_calls": 84000,
+      "probe_stage_updates": 4,
+      "probe_optimizer_calls": 6,
+      "physical_smoke_episodes": 4,
+      "physical_evaluation_episodes": 160,
+      "success_rate": 0.0,
+      "technical_repairs": 1,
+      "role": "EXPOSED_REFERENCE",
+      "all_trajectories_and_videos_accepted": true,
+      "old_baseline_reruns": 0,
+      "prior_probe_stage_updates": 4,
+      "prior_probe_optimizer_calls": 6,
+      "prior_physical_smoke_episodes": 4,
+      "total_physical_smoke_episodes": 8
+    },
+    "mimicgen_v2": {
+      "status": "PARTIAL",
+      "component_status": "BOUNDED_DOWNSTREAM_CONTROL_COMPLETE",
+      "method": "mimicgen_v2",
+      "actual_training_updates": 48000,
+      "probe_optimizer_updates": 1,
+      "physical_smoke_episodes": 2,
+      "physical_evaluation_episodes": 80,
+      "success_rate": 0.025,
+      "technical_repairs": 0,
+      "new_generation_attempts": 0,
+      "full_original_mimicgen_status": "BLOCKED_PRESERVED",
+      "cross_embodiment_generation": false,
+      "role": "EXPOSED_REFERENCE",
+      "all_new_trajectories_accepted": true,
+      "old_baseline_reruns": 0
+    },
+    "kite": {
+      "status": "BLOCKED",
+      "method": "kite",
+      "reason_code": "BOUNDED_PORT_INTEGRATION_FAILURE_AFTER_ONE_REPAIR",
+      "actual_training_updates": 0,
+      "physical_evaluation_episodes": 0,
+      "success_rate": null,
+      "technical_repairs": 1,
+      "source_states_available": true,
+      "native_runtime_available": true,
+      "target_decoder_and_deployment_validated": false,
+      "full_baseline_completed": false,
+      "scientific_infeasibility_claim": false,
+      "utc": "2026-11-13T04:48:02.417257+00:00"
+    },
+    "crosszero": {
+      "status": "BLOCKED",
+      "method": "crosszero",
+      "actual_training_updates": 0,
+      "physical_evaluation_episodes": 0,
+      "success_rate": null,
+      "technical_repairs": 0,
+      "reason_code": "REFERENCE_IMPLEMENTATION_AND_FAITHFUL_JOINT_DEPLOYMENT_UNVERIFIED",
+      "full_baseline_completed": false,
+      "utc": "2026-11-13T04:57:36.673061+00:00"
+    },
+    "object_flow": {
+      "status": "BLOCKED",
+      "method": "object_flow",
+      "reason_code": "CAMERA_LABEL_CORRESPONDENCE_AFTER_ONE_REPAIR",
+      "intended_scope": "METHOD_PORT_SAME_BEHAVIOR",
+      "component_completed": false,
+      "full_baseline_completed": false,
+      "actual_training_updates": 0,
+      "physical_evaluation_episodes": 0,
+      "success_rate": null,
+      "technical_repairs": 1,
+      "utc": "2026-11-13T05:14:08.072188+00:00"
+    }
+  },
+  "new_accepted_formal_episodes": 400,
+  "new_smoke_episodes_including_prior_technical_attempts": 18,
+  "formal_control_steps": 244865,
+  "all_executed_optimizer_calls_including_probes_and_discarded_attempt": 204017,
+  "reference_role": "EXPOSED_REFERENCE",
+  "independent_unseen_test_claim": false,
+  "old_baseline_reruns": 0,
+  "old1280_and_barx160_protection": "PASS",
+  "original_full_mimicgen_gate": "BLOCKED_PRESERVED",
+  "new_mimicgen_generation_attempts": 0,
+  "tocat_branch_merged": false,
+  "new_method_developed": false,
+  "object_flow_bootstrap_physics": "Occurred; native step1/step2 total not instrumented; not included as a policy episode or claimed zero",
+  "active_training_or_evaluation_processes": [],
+  "resource_snapshot": {
+    "utc": "2026-11-13T05:18:41.888473+00:00",
+    "gpu": "NVIDIA GeForce RTX 3090, 24576 MiB, 589 MiB, 32 %",
+    "disk_free_bytes": 139592355840
+  },
+  "earlier_completed_method_trees_unchanged_since_verified_publications": {
+    "act": "8a7265114c8a01a9ff7a83cb6239bde3ee285a4e",
+    "vqbet": "a817d714a312f7392de4762722ebc798ebe97a26",
+    "mimicgen_v2": "983ee8d344c0abe654561c6d4809a4166cf79e32"
+  },
+  "cells": [
+    {
+      "method": "act",
+      "group": "target_only",
+      "task": "pnp_counter_to_sink",
+      "episodes": 40,
+      "successes": 5,
+      "success_rate": 0.125,
+      "checkpoint": "/home/users/lemon/strong-baselines-20261112/act_decoder_repair_01/act/training/target_only/best.pt",
+      "checkpoint_sha256": "b1cff0e2705a419a0fc90a8ddb3960c09d36208081b53edcef214e12313fe5e3",
+      "selected_step": 17000,
+      "role": "EXPOSED_REFERENCE",
+      "failure_counts": {
+        "CLOSE_WITHOUT_BILATERAL_CONTACT": 30,
+        "CONTACT_WITHOUT_STABLE_LIFT_PROXY": 5,
+        "SUCCESS": 5
+      }
+    },
+    {
+      "method": "act",
+      "group": "target_only",
+      "task": "pnp_sink_to_counter",
+      "episodes": 40,
+      "successes": 4,
+      "success_rate": 0.1,
+      "checkpoint": "/home/users/lemon/strong-baselines-20261112/act_decoder_repair_01/act/training/target_only/best.pt",
+      "checkpoint_sha256": "b1cff0e2705a419a0fc90a8ddb3960c09d36208081b53edcef214e12313fe5e3",
+      "selected_step": 17000,
+      "role": "EXPOSED_REFERENCE",
+      "failure_counts": {
+        "CLOSE_WITHOUT_BILATERAL_CONTACT": 34,
+        "STABLE_LIFT_WITHOUT_OFFICIAL_PLACEMENT": 1,
+        "SUCCESS": 4,
+        "CONTACT_WITHOUT_STABLE_LIFT_PROXY": 1
+      }
+    },
+    {
+      "method": "act",
+      "group": "source_target",
+      "task": "pnp_counter_to_sink",
+      "episodes": 40,
+      "successes": 8,
+      "success_rate": 0.2,
+      "checkpoint": "/home/users/lemon/strong-baselines-20261112/act_decoder_repair_01/act/training/source_target/best.pt",
+      "checkpoint_sha256": "ee0b8a0c71bb87f85aa73a7d6f8c03bdeff0adca4eba205fa30d141059b83ada",
+      "selected_step": 11000,
+      "role": "EXPOSED_REFERENCE",
+      "failure_counts": {
+        "CLOSE_WITHOUT_BILATERAL_CONTACT": 27,
+        "CONTACT_WITHOUT_STABLE_LIFT_PROXY": 4,
+        "SUCCESS": 8,
+        "STABLE_LIFT_WITHOUT_OFFICIAL_PLACEMENT": 1
+      }
+    },
+    {
+      "method": "act",
+      "group": "source_target",
+      "task": "pnp_sink_to_counter",
+      "episodes": 40,
+      "successes": 2,
+      "success_rate": 0.05,
+      "checkpoint": "/home/users/lemon/strong-baselines-20261112/act_decoder_repair_01/act/training/source_target/best.pt",
+      "checkpoint_sha256": "ee0b8a0c71bb87f85aa73a7d6f8c03bdeff0adca4eba205fa30d141059b83ada",
+      "selected_step": 11000,
+      "role": "EXPOSED_REFERENCE",
+      "failure_counts": {
+        "CLOSE_WITHOUT_BILATERAL_CONTACT": 31,
+        "STABLE_LIFT_WITHOUT_OFFICIAL_PLACEMENT": 4,
+        "CONTACT_WITHOUT_STABLE_LIFT_PROXY": 3,
+        "SUCCESS": 2
+      }
+    },
+    {
+      "method": "vqbet",
+      "group": "target_only",
+      "task": "pnp_counter_to_sink",
+      "episodes": 40,
+      "successes": 0,
+      "success_rate": 0.0,
+      "checkpoint": "/home/users/lemon/strong-baselines-20261112/vqbet_input_repair_01/vqbet/training/target_only/bet/best.pt",
+      "checkpoint_sha256": "96d07740d2d54edb636c73c6979d6ab27e5842b55c784a8d3fe63212bc0fd0ed",
+      "selected_step": 1000,
+      "role": "EXPOSED_REFERENCE",
+      "failure_counts": {
+        "CLOSE_WITHOUT_BILATERAL_CONTACT": 39,
+        "CONTACT_WITHOUT_STABLE_LIFT_PROXY": 1
+      }
+    },
+    {
+      "method": "vqbet",
+      "group": "target_only",
+      "task": "pnp_sink_to_counter",
+      "episodes": 40,
+      "successes": 0,
+      "success_rate": 0.0,
+      "checkpoint": "/home/users/lemon/strong-baselines-20261112/vqbet_input_repair_01/vqbet/training/target_only/bet/best.pt",
+      "checkpoint_sha256": "96d07740d2d54edb636c73c6979d6ab27e5842b55c784a8d3fe63212bc0fd0ed",
+      "selected_step": 1000,
+      "role": "EXPOSED_REFERENCE",
+      "failure_counts": {
+        "CLOSE_WITHOUT_BILATERAL_CONTACT": 40
+      }
+    },
+    {
+      "method": "vqbet",
+      "group": "source_target",
+      "task": "pnp_counter_to_sink",
+      "episodes": 40,
+      "successes": 0,
+      "success_rate": 0.0,
+      "checkpoint": "/home/users/lemon/strong-baselines-20261112/vqbet_input_repair_01/vqbet/training/source_target/bet/best.pt",
+      "checkpoint_sha256": "8809680ef2aa1360255c27750fcebcdcda6e31e01880a7c8847368202f3c8a72",
+      "selected_step": 6000,
+      "role": "EXPOSED_REFERENCE",
+      "failure_counts": {
+        "CLOSE_WITHOUT_BILATERAL_CONTACT": 34,
+        "NO_CLOSE_COMMAND": 5,
+        "CONTACT_WITHOUT_STABLE_LIFT_PROXY": 1
+      }
+    },
+    {
+      "method": "vqbet",
+      "group": "source_target",
+      "task": "pnp_sink_to_counter",
+      "episodes": 40,
+      "successes": 0,
+      "success_rate": 0.0,
+      "checkpoint": "/home/users/lemon/strong-baselines-20261112/vqbet_input_repair_01/vqbet/training/source_target/bet/best.pt",
+      "checkpoint_sha256": "8809680ef2aa1360255c27750fcebcdcda6e31e01880a7c8847368202f3c8a72",
+      "selected_step": 6000,
+      "role": "EXPOSED_REFERENCE",
+      "failure_counts": {
+        "CLOSE_WITHOUT_BILATERAL_CONTACT": 35,
+        "STABLE_LIFT_WITHOUT_OFFICIAL_PLACEMENT": 3,
+        "CONTACT_WITHOUT_STABLE_LIFT_PROXY": 1,
+        "NO_CLOSE_COMMAND": 1
+      }
+    },
+    {
+      "method": "mimicgen_v2",
+      "group": "human_plus_generated",
+      "task": "pnp_counter_to_sink",
+      "episodes": 40,
+      "successes": 2,
+      "success_rate": 0.05,
+      "role": "EXPOSED_REFERENCE",
+      "failure_counts": {
+        "CLOSE_WITHOUT_BILATERAL_CONTACT": 33,
+        "STABLE_LIFT_WITHOUT_OFFICIAL_PLACEMENT": 1,
+        "CONTACT_WITHOUT_STABLE_LIFT_PROXY": 3,
+        "NO_CLOSE_COMMAND": 1,
+        "SUCCESS": 2
+      },
+      "checkpoint": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/training/final.pt",
+      "checkpoint_sha256": "2e7d97bcc436d890ce2af9067984f3af93d868b118dbca78815dbf8d15055c09"
+    },
+    {
+      "method": "mimicgen_v2",
+      "group": "human_plus_generated",
+      "task": "pnp_sink_to_counter",
+      "episodes": 40,
+      "successes": 0,
+      "success_rate": 0.0,
+      "role": "EXPOSED_REFERENCE",
+      "failure_counts": {
+        "CLOSE_WITHOUT_BILATERAL_CONTACT": 37,
+        "STABLE_LIFT_WITHOUT_OFFICIAL_PLACEMENT": 2,
+        "CONTACT_WITHOUT_STABLE_LIFT_PROXY": 1
+      },
+      "checkpoint": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/training/final.pt",
+      "checkpoint_sha256": "2e7d97bcc436d890ce2af9067984f3af93d868b118dbca78815dbf8d15055c09"
+    }
+  ],
+  "unrun_methods_never_filled_as_zero_success": true,
+  "protected_files": [
+    {
+      "path": "/home/users/lemon/CodexProject/tempcross/results/baselines/analysis.json",
+      "sha256": "392c7adaad8ac356cc50622e3ab929e2c862aea96a791f299b9f18dd9db7b673"
+    },
+    {
+      "path": "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/barx_adaptation/results.json",
+      "sha256": "b71345152b3ce9dc3ea8d64eec759b5de6ffae0dd9d88f9d2d8e8656b20db999"
+    },
+    {
+      "path": "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/mimicgen/status.json",
+      "sha256": "fdda2a8b14d18ad58ad12b4fba55f8ea863f6aa3348a6866ec594a27cfec8bef"
+    },
+    {
+      "path": "/home/users/lemon/baseline-benchmark/run-20261109/physical_launches.jsonl",
+      "sha256": "264b68966ce7b0db7243d334c5baa381dcca2e0c28e62d11fb9402f90cece768"
+    },
+    {
+      "path": "/home/users/lemon/barx-target-adaptation-20261110/physical/physical_launches.jsonl",
+      "sha256": "94310539dbb785bf575d918f27940581e5230ec24b8a430138d2c1d8bb6f369e"
+    },
+    {
+      "path": "/home/users/lemon/CodexProject/tempcross/configs/datasets/baseline_source_manifest.json",
+      "sha256": "fa913dc702e85e4da7ac364609dc714c5cd901b1751480628a1f167efd244298"
+    },
+    {
+      "path": "/home/users/lemon/CodexProject/tempcross/configs/datasets/baseline_target_manifest.json",
+      "sha256": "ad8c4c7a878e0096a612266674507314c1385c1b0af25b1496df363e11ca4cb5"
+    },
+    {
+      "path": "/home/users/lemon/CodexProject/tempcross/configs/evaluation/baseline_conditions_60_99.json",
+      "sha256": "e131670770227d0a1a983750a4f3caa650f058ed1cbd1436fcf6a6783b13a2cf"
+    }
+  ]
+}

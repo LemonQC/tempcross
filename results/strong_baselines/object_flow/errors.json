@@ -1,0 +1,12 @@
+{
+  "technical_repairs": 1,
+  "further_technical_repairs_permitted": false,
+  "first_failure": "Agent passed a duplicate factory keyword; no environment constructed",
+  "repair": "Removed duplicate keyword once; preserved original source/log/error and separate repaired root",
+  "final_failure": "Raw saved camera name is absent in current reconstructed model; RGB/mask correspondence not certified",
+  "interpretation": "Engineering/data-interface blocker, not object-flow algorithm failure or proof existing states cannot supply labels",
+  "no_alias_patch_or_relaunch_after_final_failure": true,
+  "no_bbox_or_static_mask_substitution": true,
+  "no_invented_supervision": true,
+  "counter_warning": "The preserved probe hooks only mj_step. Kitchen initialization uses mj_step1/2; zero counter values do NOT mean zero total physics."
+}
