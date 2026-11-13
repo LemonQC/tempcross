@@ -1,24 +1,24 @@
 {
   "status": "PARTIAL",
   "phase": "FORMAL_TRAINING",
-  "as_of_utc": "2026-11-13T16:41:15.106031+00:00",
-  "verified_persisted_training_updates": 8000,
-  "resumable_saved_update": 8000,
+  "as_of_utc": "2026-11-13T17:35:42.905017+00:00",
+  "verified_persisted_training_updates": 12000,
+  "resumable_saved_update": 12000,
   "frozen_training_budget": 16000,
   "completed_official_episodes": 0,
   "episodes": [],
   "role": "EXPOSED_REFERENCE",
   "success_rate": null,
   "latest_training_record": {
-    "update": 8000,
+    "update": 12000,
     "metrics": {
-      "loss": 0.09884246438741684,
-      "grad_norm": 0.19742731750011444,
-      "learning_rate": 5.125e-05
+      "loss": 0.09226956963539124,
+      "grad_norm": 0.25359630584716797,
+      "learning_rate": 1.677854441715581e-05
     },
-    "anchors_consumed": 256000,
-    "elapsed_seconds": 6567.061709585134,
-    "utc": "2026-11-13T16:40:03.938038+00:00"
+    "anchors_consumed": 384000,
+    "elapsed_seconds": 9848.188898065593,
+    "utc": "2026-11-13T17:34:45.386564+00:00"
   },
   "validation_history": [
     {
@@ -84,6 +84,38 @@
         "native_full32_masked_mean": 0.05749905079603195
       },
       "utc": "2026-11-13T16:40:09.673389+00:00"
+    },
+    {
+      "update": 9000,
+      "validation": {
+        "real7_valid_flow_mse": 0.27789665636736854,
+        "native_full32_masked_mean": 0.05933431982994079
+      },
+      "utc": "2026-11-13T16:53:49.562649+00:00"
+    },
+    {
+      "update": 10000,
+      "validation": {
+        "real7_valid_flow_mse": 0.30250766571952775,
+        "native_full32_masked_mean": 0.0641497540473938
+      },
+      "utc": "2026-11-13T17:07:29.597805+00:00"
+    },
+    {
+      "update": 11000,
+      "validation": {
+        "real7_valid_flow_mse": 0.3068461799055765,
+        "native_full32_masked_mean": 0.06495260775089264
+      },
+      "utc": "2026-11-13T17:21:10.746916+00:00"
+    },
+    {
+      "update": 12000,
+      "validation": {
+        "real7_valid_flow_mse": 0.3136776730380747,
+        "native_full32_masked_mean": 0.0661823183298111
+      },
+      "utc": "2026-11-13T17:34:51.129106+00:00"
     }
   ],
   "formal_budget_changed": false
