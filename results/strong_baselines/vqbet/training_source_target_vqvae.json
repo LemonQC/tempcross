@@ -1,0 +1,86 @@
+{
+  "status": "COMPLETE",
+  "group": "source_target",
+  "stage": "vqvae",
+  "role": "FROZEN_FORMAL_TRAINING",
+  "actual_stage_updates": 6000,
+  "actual_optimizer_calls": 6000,
+  "started_utc": "2026-11-12T18:30:43.483756+00:00",
+  "target_anchor_exposures": 384000,
+  "source_anchor_exposures": 384000,
+  "best": {
+    "loss": 0.0241756389150396,
+    "mse": 0.0013864188549632672,
+    "step": 5000
+  },
+  "validation_history": [
+    {
+      "loss": 0.047475451370701194,
+      "mse": 0.0045034117210889235,
+      "step": 500
+    },
+    {
+      "loss": 0.03947091498412192,
+      "mse": 0.0034028051886707544,
+      "step": 1000
+    },
+    {
+      "loss": 0.032948474399745464,
+      "mse": 0.002297068713232875,
+      "step": 1500
+    },
+    {
+      "loss": 0.02842341281939298,
+      "mse": 0.0017669172666501254,
+      "step": 2000
+    },
+    {
+      "loss": 0.034186135861091316,
+      "mse": 0.0023558839748147875,
+      "step": 2500
+    },
+    {
+      "loss": 0.027699472731910646,
+      "mse": 0.001673676713835448,
+      "step": 3000
+    },
+    {
+      "loss": 0.02771338785532862,
+      "mse": 0.0016022020136006176,
+      "step": 3500
+    },
+    {
+      "loss": 0.025583522976376116,
+      "mse": 0.0015853432960284408,
+      "step": 4000
+    },
+    {
+      "loss": 0.025474786874838173,
+      "mse": 0.0014797214862483088,
+      "step": 4500
+    },
+    {
+      "loss": 0.0241756389150396,
+      "mse": 0.0013864188549632672,
+      "step": 5000
+    },
+    {
+      "loss": 0.024853883543983102,
+      "mse": 0.0014957855200918857,
+      "step": 5500
+    },
+    {
+      "loss": 0.025028893258422613,
+      "mse": 0.0014986206188041251,
+      "step": 6000
+    }
+  ],
+  "saved_elapsed_seconds": 19.4461013590917,
+  "update_log_loss_definition": "native reconstruction L1 +5*commitment; auxiliary=commitment",
+  "elapsed_seconds": 19.4461013590917,
+  "peak_gpu_allocated_bytes": 22623744,
+  "peak_gpu_reserved_bytes": 27262976,
+  "server_status": "/home/users/lemon/strong-baselines-20261112/vqbet_input_repair_01/vqbet/training/source_target/vqvae/status.json",
+  "checkpoint": "/home/users/lemon/strong-baselines-20261112/vqbet_input_repair_01/vqbet/training/source_target/vqvae/latest.pt",
+  "checkpoint_sha256": "94862fa03f94d799436b049e6d3bad4b5ed9756bbea4e81763079a2b1205b58f"
+}

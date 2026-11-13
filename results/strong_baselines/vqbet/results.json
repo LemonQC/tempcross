@@ -1,0 +1,73 @@
+{
+  "status": "COMPLETE_FAITHFUL_PORT",
+  "cells": [
+    {
+      "group": "target_only",
+      "task": "pnp_counter_to_sink",
+      "episodes": 40,
+      "successes": 0,
+      "success_rate": 0.0,
+      "checkpoint": "/home/users/lemon/strong-baselines-20261112/vqbet_input_repair_01/vqbet/training/target_only/bet/best.pt",
+      "checkpoint_sha256": "96d07740d2d54edb636c73c6979d6ab27e5842b55c784a8d3fe63212bc0fd0ed",
+      "selected_step": 1000,
+      "role": "EXPOSED_REFERENCE",
+      "failure_counts": {
+        "CLOSE_WITHOUT_BILATERAL_CONTACT": 39,
+        "CONTACT_WITHOUT_STABLE_LIFT_PROXY": 1
+      }
+    },
+    {
+      "group": "target_only",
+      "task": "pnp_sink_to_counter",
+      "episodes": 40,
+      "successes": 0,
+      "success_rate": 0.0,
+      "checkpoint": "/home/users/lemon/strong-baselines-20261112/vqbet_input_repair_01/vqbet/training/target_only/bet/best.pt",
+      "checkpoint_sha256": "96d07740d2d54edb636c73c6979d6ab27e5842b55c784a8d3fe63212bc0fd0ed",
+      "selected_step": 1000,
+      "role": "EXPOSED_REFERENCE",
+      "failure_counts": {
+        "CLOSE_WITHOUT_BILATERAL_CONTACT": 40
+      }
+    },
+    {
+      "group": "source_target",
+      "task": "pnp_counter_to_sink",
+      "episodes": 40,
+      "successes": 0,
+      "success_rate": 0.0,
+      "checkpoint": "/home/users/lemon/strong-baselines-20261112/vqbet_input_repair_01/vqbet/training/source_target/bet/best.pt",
+      "checkpoint_sha256": "8809680ef2aa1360255c27750fcebcdcda6e31e01880a7c8847368202f3c8a72",
+      "selected_step": 6000,
+      "role": "EXPOSED_REFERENCE",
+      "failure_counts": {
+        "CLOSE_WITHOUT_BILATERAL_CONTACT": 34,
+        "NO_CLOSE_COMMAND": 5,
+        "CONTACT_WITHOUT_STABLE_LIFT_PROXY": 1
+      }
+    },
+    {
+      "group": "source_target",
+      "task": "pnp_sink_to_counter",
+      "episodes": 40,
+      "successes": 0,
+      "success_rate": 0.0,
+      "checkpoint": "/home/users/lemon/strong-baselines-20261112/vqbet_input_repair_01/vqbet/training/source_target/bet/best.pt",
+      "checkpoint_sha256": "8809680ef2aa1360255c27750fcebcdcda6e31e01880a7c8847368202f3c8a72",
+      "selected_step": 6000,
+      "role": "EXPOSED_REFERENCE",
+      "failure_counts": {
+        "CLOSE_WITHOUT_BILATERAL_CONTACT": 35,
+        "STABLE_LIFT_WITHOUT_OFFICIAL_PLACEMENT": 3,
+        "CONTACT_WITHOUT_STABLE_LIFT_PROXY": 1,
+        "NO_CLOSE_COMMAND": 1
+      }
+    }
+  ],
+  "formal_episodes": 160,
+  "successes": 0,
+  "independent_unseen_test": false,
+  "role": "EXPOSED_REFERENCE",
+  "old_baseline_reruns": 0,
+  "probe_episodes_excluded": 4
+}

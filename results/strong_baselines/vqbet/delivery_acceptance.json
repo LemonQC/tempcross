@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "utc": "2026-11-13T01:52:16.623239+00:00",
+  "formal_episodes": 160,
+  "accepted_cells": 4,
+  "full_official_goal": true,
+  "frozen_core_code_unchanged": true,
+  "trained_residual_quantizer_and_native_optimizer_counters": true,
+  "original_1280_plus_160_hashes_unchanged": true,
+  "old_baseline_reruns": 0,
+  "prior_smoke_episodes": 4,
+  "corrected_smoke_episodes": 4,
+  "total_executed_stage_updates": 60008,
+  "total_executed_optimizer_calls": 84012,
+  "reference_role": "EXPOSED_REFERENCE",
+  "independent_unseen_test": false,
+  "final_model_components": 4,
+  "all_large_files_remain_on_server": true,
+  "final_resources": {
+    "utc": "2026-11-13T01:52:16.634163+00:00",
+    "gpu": "NVIDIA GeForce RTX 3090, 24576 MiB, 585 MiB, 40 %",
+    "disk_free_bytes": 169016115200
+  }
+}

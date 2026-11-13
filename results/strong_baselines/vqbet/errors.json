@@ -1,0 +1,126 @@
+{
+  "technical_repairs": 1,
+  "repair": {
+    "number": 1,
+    "utc": "2026-11-12T17:21:26.094028+00:00",
+    "remaining_repairs": 0,
+    "stage": "pre-formal input acceptance",
+    "issue": "Official frozen ResNet uses cuDNN TF32 by default; cached NCHW batch128 versus native NHWC batch10 yields max feature difference0.0065386",
+    "diagnosis": {
+      "pretrained_weights_exactly_equal": true,
+      "comparisons": {
+        "True_channels_last_10": {
+          "cache_max_abs": 0.0065386295318603516,
+          "cache_relative_l2": 0.0010015026200562716,
+          "strides": [
+            49152,
+            1,
+            384,
+            3
+          ],
+          "precise_reference_max_abs": 0.005610466003417969
+        },
+        "True_channels_last_128": {
+          "cache_max_abs": 0.007315397262573242,
+          "cache_relative_l2": 0.0010152828181162477,
+          "strides": [
+            49152,
+            1,
+            384,
+            3
+          ],
+          "precise_reference_max_abs": 0.0066182613372802734
+        },
+        "True_contiguous_10": {
+          "cache_max_abs": 0.0008463859558105469,
+          "cache_relative_l2": 0.00012922141468152404,
+          "strides": [
+            49152,
+            16384,
+            128,
+            1
+          ],
+          "precise_reference_max_abs": 0.003209352493286133
+        },
+        "True_contiguous_128": {
+          "cache_max_abs": 0.0,
+          "cache_relative_l2": 0.0,
+          "strides": [
+            49152,
+            16384,
+            128,
+            1
+          ],
+          "precise_reference_max_abs": 0.003022909164428711
+        },
+        "False_channels_last_10": {
+          "cache_max_abs": 0.0030193328857421875,
+          "cache_relative_l2": 0.0005615199916064739,
+          "strides": [
+            49152,
+            1,
+            384,
+            3
+          ],
+          "precise_reference_max_abs": 7.3909759521484375e-06
+        },
+        "False_channels_last_128": {
+          "cache_max_abs": 0.0030193328857421875,
+          "cache_relative_l2": 0.0005615199916064739,
+          "strides": [
+            49152,
+            1,
+            384,
+            3
+          ],
+          "precise_reference_max_abs": 7.3909759521484375e-06
+        },
+        "False_contiguous_10": {
+          "cache_max_abs": 0.003022909164428711,
+          "cache_relative_l2": 0.0005615474656224251,
+          "strides": [
+            49152,
+            16384,
+            128,
+            1
+          ],
+          "precise_reference_max_abs": 0.0
+        },
+        "False_contiguous_128": {
+          "cache_max_abs": 0.0030215978622436523,
+          "cache_relative_l2": 0.000561525346711278,
+          "strides": [
+            49152,
+            16384,
+            128,
+            1
+          ],
+          "precise_reference_max_abs": 1.430511474609375e-05
+        }
+      },
+      "original_cudnn_tf32": true,
+      "native_action_difference": 0.0001220703125
+    },
+    "fix": "Disable cuDNN and matmul TF32 consistently in cache creation and all VQ-BeT processes, rebuild features, discard prior probes and rerun four separate smoke episodes",
+    "official_core_modified": false,
+    "algorithm_hyperparameters_changed": false,
+    "used_reference_success": false,
+    "prior_attempt": "/home/users/lemon/strong-baselines-20261112/vqbet",
+    "prior_smoke_episodes": 4,
+    "prior_stage_updates": 4,
+    "prior_optimizer_calls": 6,
+    "formal_updates_before_fix": 0,
+    "corrected_server_root": "/home/users/lemon/strong-baselines-20261112/vqbet_input_repair_01"
+  },
+  "preflight_coding_corrections": [
+    {
+      "stage": "before_data_preparation_or_optimizer",
+      "issue": "Patch guard matched cached and raw visual goal branches",
+      "fix": "Restrict match to detached three-dimensional cached goal branch",
+      "training_updates_at_issue": 0,
+      "physical_steps_at_issue": 0
+    }
+  ],
+  "core_algorithm_repairs": [],
+  "task_failure_scope": "Descriptive stages only; no causal claim"
+}

@@ -58,5 +58,65 @@
     "path": "/home/users/lemon/strong-baselines-20261112/vqbet_input_repair_01/vqbet/training/target_only/bet/resource_start.json",
     "bytes": 145,
     "sha256": "af7e778ff23fd9298ff79877f933d2c8e737c9657874e2f6425646d0f6606fdf"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet_input_repair_01/vqbet/training/source_target/vqvae/status.json",
+    "bytes": 1933,
+    "sha256": "fc90783db9462a8f7a6e1e22a5252482720e2e70b1c035faebf5af7945df431d"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet_input_repair_01/vqbet/training/source_target/vqvae/updates.csv",
+    "bytes": 406765,
+    "sha256": "321ff3bbfc5018b3ea391c63584a2b997b791c15a6ac6765aa09d45e6e07d714"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet_input_repair_01/vqbet/training/source_target/vqvae/consumed_anchors.csv",
+    "bytes": 61892686,
+    "sha256": "c09b5b253acbf3971b3dc702048041c387919eb16c66b60dc538a6f5deaca992"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet_input_repair_01/vqbet/training/source_target/vqvae/best.pt",
+    "bytes": 2156654,
+    "sha256": "44b8f1930f3ae4a62b67b49143e4eb27ecbd8890d452706ff97c0f37e02e0501"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet_input_repair_01/vqbet/training/source_target/vqvae/latest.pt",
+    "bytes": 2156842,
+    "sha256": "94862fa03f94d799436b049e6d3bad4b5ed9756bbea4e81763079a2b1205b58f"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet_input_repair_01/vqbet/training/source_target/vqvae/resource_start.json",
+    "bytes": 144,
+    "sha256": "ac55fcce3d0e52b7aab58aa2c2f19a7372c7f88216c60c33645a698f1478e68c"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet_input_repair_01/vqbet/training/source_target/bet/status.json",
+    "bytes": 16856,
+    "sha256": "1c1ea03864e7c1852263a2fb0c2bd943c60b23a5dc383f50b0970ebbc2122be3"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet_input_repair_01/vqbet/training/source_target/bet/updates.csv",
+    "bytes": 1559308,
+    "sha256": "df82c6ca87a5069317c02c283cc4df768c78907a002cd36f1ae878e66c5ad7d4"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet_input_repair_01/vqbet/training/source_target/bet/consumed_anchors.csv",
+    "bytes": 62446679,
+    "sha256": "21e67af899ffc4efa76c6b9fc2b361f2b779b6b63f6c604066dc97eb537b9dcf"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet_input_repair_01/vqbet/training/source_target/bet/best.pt",
+    "bytes": 111913334,
+    "sha256": "8809680ef2aa1360255c27750fcebcdcda6e31e01880a7c8847368202f3c8a72"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet_input_repair_01/vqbet/training/source_target/bet/latest.pt",
+    "bytes": 111932958,
+    "sha256": "71e42061e6ee834a415a6fdcdef9f966a582bdda4cbf680230ed8bfa59538233"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/vqbet_input_repair_01/vqbet/training/source_target/bet/resource_start.json",
+    "bytes": 145,
+    "sha256": "10a76b86dbf9e2753550c8b396b4c931d3e02a4026919d95585b298f0968e9f6"
   }
 ]

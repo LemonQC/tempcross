@@ -1,0 +1,24 @@
+{
+  "checkpoint": "/home/users/lemon/strong-baselines-20261112/vqbet_input_repair_01/vqbet/training/source_target/bet/best.pt",
+  "sha256": "8809680ef2aa1360255c27750fcebcdcda6e31e01880a7c8847368202f3c8a72",
+  "selected": {
+    "classification_loss": 5.64937524497509,
+    "offset_loss": 0.11291559087112546,
+    "total_loss": 16.94093418121338,
+    "equal_total_code_rate": 0.06093750090803951,
+    "equal_single_code_rate": 0.34960938431322575,
+    "equal_single_code_rate2": 0.14531250158324838,
+    "action_diff": 0.12390077265445143,
+    "action_diff_tot": 0.12390077265445143,
+    "action_diff_mean_res1": 0.14490628289058805,
+    "action_diff_mean_res2": 0.11683910572901368,
+    "action_diff_max": 1.94751488417387,
+    "loss": 16.94093418121338,
+    "step": 6000
+  },
+  "actual_stage_updates": 24000,
+  "actual_optimizer_calls": 36000,
+  "target_anchor_exposures": 384000,
+  "source_anchor_exposures": 384000,
+  "used_physical_success": false
+}

@@ -1,0 +1,70 @@
+{
+  "status": "PASS",
+  "stages": [
+    {
+      "group": "target_only",
+      "stage": "vqvae",
+      "status": "PASS",
+      "actual_updates": 6000,
+      "anchor_exposures": {
+        "target": 384000
+      },
+      "unique_training_demo_ids": {
+        "target": 90,
+        "source": 0
+      },
+      "anchor_trace": "/home/users/lemon/strong-baselines-20261112/vqbet_input_repair_01/vqbet/training/target_only/vqvae/consumed_anchors.csv",
+      "trace_sha256": "122eec88995a582ff6222fe46640c97d6eb5f46a4a376485f13051f6dea16115"
+    },
+    {
+      "group": "target_only",
+      "stage": "bet",
+      "status": "PASS",
+      "actual_updates": 24000,
+      "anchor_exposures": {
+        "target": 384000
+      },
+      "unique_training_demo_ids": {
+        "target": 90,
+        "source": 0
+      },
+      "anchor_trace": "/home/users/lemon/strong-baselines-20261112/vqbet_input_repair_01/vqbet/training/target_only/bet/consumed_anchors.csv",
+      "trace_sha256": "f90db223a422835de0b8f55b41950498445aa40619bc465c1d139fa8f555efdd"
+    },
+    {
+      "group": "source_target",
+      "stage": "vqvae",
+      "status": "PASS",
+      "actual_updates": 6000,
+      "anchor_exposures": {
+        "target": 384000,
+        "source": 384000
+      },
+      "unique_training_demo_ids": {
+        "target": 90,
+        "source": 540
+      },
+      "anchor_trace": "/home/users/lemon/strong-baselines-20261112/vqbet_input_repair_01/vqbet/training/source_target/vqvae/consumed_anchors.csv",
+      "trace_sha256": "c09b5b253acbf3971b3dc702048041c387919eb16c66b60dc538a6f5deaca992"
+    },
+    {
+      "group": "source_target",
+      "stage": "bet",
+      "status": "PASS",
+      "actual_updates": 24000,
+      "anchor_exposures": {
+        "target": 384000,
+        "source": 384000
+      },
+      "unique_training_demo_ids": {
+        "target": 90,
+        "source": 540
+      },
+      "anchor_trace": "/home/users/lemon/strong-baselines-20261112/vqbet_input_repair_01/vqbet/training/source_target/bet/consumed_anchors.csv",
+      "trace_sha256": "21e67af899ffc4efa76c6b9fc2b361f2b779b6b63f6c604066dc97eb537b9dcf"
+    }
+  ],
+  "bet_action_labels_per_anchor": 10,
+  "vqvae_action_labels_per_anchor": 1,
+  "raw_canonical_actions_not_standardized": true
+}

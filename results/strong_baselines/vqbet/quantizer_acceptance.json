@@ -1,5 +1,5 @@
 {
-  "status": "PARTIAL",
+  "status": "PASS",
   "accepted_groups": [
     {
       "group": "target_only",
@@ -47,6 +47,53 @@
       },
       "vqvae_checkpoint_sha256": "e7e746687f000132aaadc392b4a780588638e559a3223d7647202cae3a9f0b3f",
       "bet_checkpoint_sha256": "96d07740d2d54edb636c73c6979d6ab27e5842b55c784a8d3fe63212bc0fd0ed"
+    },
+    {
+      "group": "source_target",
+      "status": "PASS",
+      "vqvae_selected_step": 5000,
+      "bet_selected_step": 6000,
+      "quantizer_exactly_unchanged_during_bet": true,
+      "two_trained_ema_codebooks": [
+        {
+          "key": "layers.0._codebook.cluster_size",
+          "shape": [
+            1,
+            16
+          ],
+          "positive_entries": 13,
+          "ema_mass_sum": 128.0,
+          "note": "EMA mass, not cumulative sample count"
+        },
+        {
+          "key": "layers.1._codebook.cluster_size",
+          "shape": [
+            1,
+            16
+          ],
+          "positive_entries": 16,
+          "ema_mass_sum": 128.0,
+          "note": "EMA mass, not cumulative sample count"
+        }
+      ],
+      "selected_optimizer_step_counters": {
+        "optimizer1": [
+          6000
+        ],
+        "optimizer2": [
+          6000
+        ]
+      },
+      "final_optimizer_step_counters": {
+        "optimizer1": [
+          12000
+        ],
+        "optimizer2": [
+          24000
+        ]
+      },
+      "vqvae_checkpoint_sha256": "44b8f1930f3ae4a62b67b49143e4eb27ecbd8890d452706ff97c0f37e02e0501",
+      "bet_checkpoint_sha256": "8809680ef2aa1360255c27750fcebcdcda6e31e01880a7c8847368202f3c8a72"
     }
   ],
   "scope": "Actual saved optimizer counters and frozen RVQ tensor equality; not a physics success claim",

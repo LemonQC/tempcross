@@ -1,5 +1,11 @@
 # VQ-BeT
 
-当前状态以status.json为准；未产生正式评测前，不报告成功率。已获取官方源码并实现必要的语言/canonical动作接口，核心保留和预算见[PROTOCOL.md](PROTOCOL.md)。
+**COMPLETE_FAITHFUL_PORT**：两设置均完成原生RVQ及BeT训练和两个任务各40条正式物理评测。
 
-候选协议：candidate_protocol.json。正式训练须先完成两设置真实双阶段训练探针和四条完整物理smoke，再冻结protocol.json/freeze.json。唯一精度修复及原探针归档见technical_repair.json。修复版大文件服务器目录为 `/home/users/lemon/strong-baselines-20261112/vqbet_input_repair_01/vqbet/`，运行须把STRONG_BASELINE_RUN_ROOT设为其父目录；原尝试保留。完成后结果见RESULTS.md、results.json和episodes.csv，权重、视频及原始轨迹绝对路径和SHA见sha_index.json。
+结果：[RESULTS.md](RESULTS.md)；协议：[PROTOCOL.md](PROTOCOL.md)；论文/发布代码差异：[PAPER_CODE_DIFFERENCES.md](PAPER_CODE_DIFFERENCES.md)。
+
+原始逐episode结果：episodes.csv。权重/训练日志：model_index.json、training_artifact_index.json；选中checkpoint样本暴露：selected_checkpoint_exposures.json。全部大文件在服务器，路径与SHA见sha_index.json；原TF32尝试见attempts/initial_tf32/。
+
+formal训练两组件合计60000次阶段更新、84000次优化器调用；加两轮探针合计60008次阶段更新、84012次优化器调用。八条smoke与160条正式评测严格分列。
+
+仅使用EXPOSED_REFERENCE条件60–99，不称独立未见测试；未用物理成功率选模。数据/输入/真实参数更新/码本冻结/优化器计数/物理视频动作和原始基准保护均已验收，见delivery_acceptance.json。历史PARTIAL文件保留为当时快照，不代替最终结果。
