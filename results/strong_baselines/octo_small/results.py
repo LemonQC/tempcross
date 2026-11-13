@@ -12,10 +12,10 @@ RUN=ROOT/'octo_small'
 
 def key(a):return np.asarray(a,np.float32).tobytes()
 
-def native_actions(cells):
+def native_actions(cells,smoke=False):
     stats=read(DIRECTORY/'action_statistics.json');expected=collections.Counter();paths=set()
     for cell in cells:
-        job=read(RUN/'physical/formal/source_target'/cell['task']/'job.json')
+        job=read(RUN/'physical'/('smoke' if smoke else 'formal')/'source_target'/cell['task']/'job.json')
         paths.add(Path(job['runtime']['raw_action_ledger']))
         for row in cell['rows']:
             with h5py.File(row['episode']['telemetry_path'],'r') as f:

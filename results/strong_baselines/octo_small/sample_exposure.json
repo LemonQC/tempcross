@@ -1,32 +1,32 @@
 {
   "status": "PARTIAL_SAVED_SNAPSHOT",
-  "actual_native_updates": 2000,
-  "actual_sampled_anchors": 64000,
-  "unique_demo_frame_anchors": 51226,
+  "actual_native_updates": 6500,
+  "actual_sampled_anchors": 208000,
+  "unique_demo_frame_anchors": 118282,
   "whole_demonstrations_seen": 630,
   "groups": [
     {
       "domain": "source",
       "task": "pnp_counter_to_sink",
-      "sampled_anchors": 16000
+      "sampled_anchors": 52000
     },
     {
       "domain": "source",
       "task": "pnp_sink_to_counter",
-      "sampled_anchors": 16000
+      "sampled_anchors": 52000
     },
     {
       "domain": "target",
       "task": "pnp_counter_to_sink",
-      "sampled_anchors": 16000
+      "sampled_anchors": 52000
     },
     {
       "domain": "target",
       "task": "pnp_sink_to_counter",
-      "sampled_anchors": 16000
+      "sampled_anchors": 52000
     }
   ],
-  "consumed_anchor_prefix_sha256": "64eab3d780157594794eb9e7803e53787a15a20776e2d2ca838dd18dd7c73987",
+  "consumed_anchor_prefix_sha256": "0823054849a72f1f74e4aaafccd1089edbca5b6894de2ae659f3443f9faa304e",
   "full_anchor_file": {
     "path": "/home/users/lemon/strong-baselines-20261112/octo_small/data/train.npy",
     "sha256": "a868931a38ea5feb4098cb8a4c927654808b8a6a4bc77c80100eb55e2154b5ce"

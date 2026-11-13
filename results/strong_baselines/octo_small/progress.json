@@ -1,25 +1,25 @@
 {
-  "as_of_utc": "2026-11-13T07:07:00.678355+00:00",
+  "as_of_utc": "2026-11-13T07:41:10.337061+00:00",
   "status": "PARTIAL",
   "phase": "FORMAL_TRAINING",
-  "verified_persisted_training_updates": 2200,
-  "resumable_saved_update": 2000,
+  "verified_persisted_training_updates": 6800,
+  "resumable_saved_update": 6500,
   "frozen_training_budget": 24000,
   "completed_official_episodes": 0,
   "episodes": [],
   "success_rate": null,
   "formal_role": "EXPOSED_REFERENCE",
   "last_training_log": {
-    "update": 2200,
+    "update": 6800,
     "metrics": {
-      "grad_norm": 16.31417465209961,
-      "learning_rate": 0.00029993944917805493,
-      "loss": 1.5546947717666626,
-      "mse": 1.5546947717666626
+      "grad_norm": 7.886078357696533,
+      "learning_rate": 0.0002661348262336105,
+      "loss": 1.513649582862854,
+      "mse": 1.513649582862854
     },
-    "anchors_consumed": 70400,
-    "elapsed_seconds": 1010.4263317757286,
-    "utc": "2026-11-13T07:07:00.182138+00:00"
+    "anchors_consumed": 217600,
+    "elapsed_seconds": 3038.143278364092,
+    "utc": "2026-11-13T07:40:47.899107+00:00"
   },
   "validation_history": [
     {
@@ -31,6 +31,26 @@
       "update": 2000,
       "validation_ddpm_loss": 0.8846400305628777,
       "utc": "2026-11-13T07:05:31.092008+00:00"
+    },
+    {
+      "update": 3000,
+      "validation_ddpm_loss": 0.8901122435927391,
+      "utc": "2026-11-13T07:12:55.439778+00:00"
+    },
+    {
+      "update": 4000,
+      "validation_ddpm_loss": 0.8490449264645576,
+      "utc": "2026-11-13T07:20:13.695821+00:00"
+    },
+    {
+      "update": 5000,
+      "validation_ddpm_loss": 0.80254727602005,
+      "utc": "2026-11-13T07:27:31.442099+00:00"
+    },
+    {
+      "update": 6000,
+      "validation_ddpm_loss": 0.8015436232089996,
+      "utc": "2026-11-13T07:34:53.811838+00:00"
     }
   ],
   "pipeline_process": {
