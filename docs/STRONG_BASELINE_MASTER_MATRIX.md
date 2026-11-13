@@ -8,7 +8,7 @@
 |---|---|---:|---:|---|---|
 | act | COMPLETE_FAITHFUL_PORT | 48000 | 160 | 分设置见下表 | [状态](../results/strong_baselines/act/status.json) |
 | vqbet | COMPLETE_FAITHFUL_PORT | 60000 | 160 | 分设置见下表 | [状态](../results/strong_baselines/vqbet/status.json) |
-| mimicgen_v2 | NOT_RUN | 0 | 0 | N/A | [状态](../results/strong_baselines/mimicgen_v2/status.json) |
+| mimicgen_v2 | PARTIAL | 0 | 0 | N/A | [状态](../results/strong_baselines/mimicgen_v2/status.json) |
 | kite | NOT_RUN | 0 | 0 | N/A | [状态](../results/strong_baselines/kite/status.json) |
 | crosszero | NOT_RUN | 0 | 0 | N/A | [状态](../results/strong_baselines/crosszero/status.json) |
 | object_flow | NOT_RUN | 0 | 0 | N/A | [状态](../results/strong_baselines/object_flow/status.json) |
@@ -42,7 +42,7 @@
 |---|---|---|---|---|
 | act | ["ur5e"] | ["128x128 RGB", "frozen CLIP instruction embedding"] | 45 | [冻结协议](../results/strong_baselines/act/protocol.json) |
 | vqbet | ["ur5e"] | ["128x128 RGB, resized nearest to224 for native frozen ResNet18", "frozen CLIP-L instruction768, learned prefix projection"] | 45 | [冻结协议](../results/strong_baselines/vqbet/protocol.json) |
-| mimicgen_v2 | 尚未核对 | 尚未核对 | N/A | NOT_RUN |
+| mimicgen_v2 | ["panda_seed_demonstrations_for_generation"] | ["128x128 RGB", "frozen CLIP-L instruction"] | 45 | [冻结协议](../results/strong_baselines/mimicgen_v2/protocol.json) |
 | kite | 尚未核对 | 尚未核对 | N/A | NOT_RUN |
 | crosszero | 尚未核对 | 尚未核对 | N/A | NOT_RUN |
 | object_flow | 尚未核对 | 尚未核对 | N/A | NOT_RUN |

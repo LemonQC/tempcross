@@ -1,0 +1,57 @@
+{
+  "status": "REUSED_HISTORICAL_NO_RERUN",
+  "role": "EXPOSED_REFERENCE",
+  "cells": [
+    {
+      "label": "B_bc_transformer",
+      "task": "pnp_counter_to_sink",
+      "robot": "panda",
+      "status": "COMPLETE",
+      "successes": 1,
+      "episodes": 40,
+      "success_rate": 0.025,
+      "wilson95": [
+        0.0044268315026814095,
+        0.1288136896347409
+      ],
+      "checkpoint": "/home/users/lemon/baseline-benchmark/run-20261109/training/B_bc_transformer/positions-768000.pt",
+      "checkpoint_sha256": "f1511ba7871161b32edd17e6019fe8e7f2d81192d938f540572499a14a936486",
+      "group": "B",
+      "legacy_setting": false,
+      "model_kind": "robomimic",
+      "mean_policy_prediction_seconds": 0.0066517851978354055,
+      "peak_gpu_allocated_bytes": 270588416
+    },
+    {
+      "label": "B_bc_transformer",
+      "task": "pnp_sink_to_counter",
+      "robot": "panda",
+      "status": "COMPLETE",
+      "successes": 1,
+      "episodes": 40,
+      "success_rate": 0.025,
+      "wilson95": [
+        0.0044268315026814095,
+        0.1288136896347409
+      ],
+      "checkpoint": "/home/users/lemon/baseline-benchmark/run-20261109/training/B_bc_transformer/positions-768000.pt",
+      "checkpoint_sha256": "f1511ba7871161b32edd17e6019fe8e7f2d81192d938f540572499a14a936486",
+      "group": "B",
+      "legacy_setting": false,
+      "model_kind": "robomimic",
+      "mean_policy_prediction_seconds": 0.0068705314019262675,
+      "peak_gpu_allocated_bytes": 270588416
+    }
+  ],
+  "training_updates": 48000,
+  "anchor_exposures": 768000,
+  "checkpoint": "/home/users/lemon/baseline-benchmark/run-20261109/training/B_bc_transformer/positions-768000.pt",
+  "checkpoint_sha256": "f1511ba7871161b32edd17e6019fe8e7f2d81192d938f540572499a14a936486",
+  "initial_weights": "/home/users/lemon/baseline-benchmark/run-20261109/training/B_bc_transformer/initial_trainable.pt",
+  "initial_weights_sha256": "b231067b8b96d3ad78e9af9947178db1090e4bdaad0660458e9c0063aae4d7e8",
+  "config": "/home/users/lemon/baseline-benchmark/run-20261109/training/B_bc_transformer/config.json",
+  "config_sha256": "7cb4e05624967682cfb8a07569e207776d2c70402c3cb6f5af4d88ede49eb83c",
+  "original_selection": "validation-only tier stop, final48000 update checkpoint; new run uses same final budget, not an identical adaptive stopping experiment",
+  "new_control_updates": 0,
+  "new_control_physical_episodes": 0
+}

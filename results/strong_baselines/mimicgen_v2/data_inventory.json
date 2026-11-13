@@ -1,0 +1,21 @@
+{
+  "status": "COMPLETE",
+  "human_train": 90,
+  "human_validation": 10,
+  "generated_train": 63,
+  "generated_counts": {
+    "pnp_counter_to_sink": 50,
+    "pnp_sink_to_counter": 13
+  },
+  "canonical_actions_unmodified": true,
+  "generated_terminal_actions": "preserve actual final successful action",
+  "human_terminal_actions": "unchanged historical RLDS convention",
+  "original_validation_anchors_exact": true,
+  "sha256": {
+    "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/data/validation.npy": "c85aeec35a90b1ac75363c06a36be64c36ad7b5a2678d04bb368de20817eb80b",
+    "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/data/language.json": "b0c2b8905ad3267937fe2dac2e463cd0396fe8f8dd5605319d3dca4b67a7f2ab",
+    "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/data/train.npy": "8d58c30a487f8fb05b6b84583f652040929fc796040d2ff64f501af8310160da",
+    "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/data/generated.h5": "332184a2935ac1267d707a2613b418ba0d16db831da4df99393bce8a8c03ad6a",
+    "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/data/manifest.json": "e7c896e2a8e5b0af81e74108354667569c547825e73143592274c702a1e0b4f2"
+  }
+}

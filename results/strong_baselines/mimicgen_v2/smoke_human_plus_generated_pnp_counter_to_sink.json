@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "method": "mimicgen_v2",
+  "group": "human_plus_generated",
+  "task": "pnp_counter_to_sink",
+  "role": "DEVELOPMENT_SMOKE",
+  "episodes": 1,
+  "successes": 0,
+  "rows": [
+    {
+      "status": "PASS",
+      "episode": {
+        "method": "mimicgen_v2",
+        "group": "human_plus_generated",
+        "task": "pnp_counter_to_sink",
+        "robot": "panda",
+        "role": "DEVELOPMENT_SMOKE",
+        "official_condition_index": 0,
+        "condition_id": "53beb94b5265a6a5",
+        "seed": 1000,
+        "success": false,
+        "steps": 600,
+        "checkpoint_sha256": "9e41c91ffbfece28254957c3fcb8b7ecbd3800b5c2803507126c51df6c465539",
+        "policy_calls": 600,
+        "mean_prediction_seconds": 0.004915035699959844,
+        "clipped_dimensions": 0,
+        "video_path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/smoke/human_plus_generated/pnp_counter_to_sink/condition-000/rollout.mp4",
+        "telemetry_path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/smoke/human_plus_generated/pnp_counter_to_sink/condition-000/telemetry/episode-000.h5",
+        "contact_log": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/smoke/human_plus_generated/pnp_counter_to_sink/condition-000/telemetry/episode-000.jsonl"
+      },
+      "decoded_frames": 600,
+      "video_sha256": "40994a57ddd0a098d36d7d4378520b02ac9f2afebea824dc67d90da7f9ae1830",
+      "telemetry_sha256": "63f9779a52ebb96f6fd10bf830d3c21afc65c7dd37e51481c4c4052a4997d21b",
+      "contact_sha256": "45a24a6124626e497622e6010122ea6e5b6dbd072e3c02352052a9f6fffa187d",
+      "exact_action_conversion": true,
+      "official_goal_verified": true,
+      "original_frozen_state_verified": false,
+      "query_audit": "all emitted action queues match saved native chunks",
+      "failure_stage": "CLOSE_WITHOUT_BILATERAL_CONTACT",
+      "failure_stage_is_descriptive_not_causal": true
+    }
+  ]
+}

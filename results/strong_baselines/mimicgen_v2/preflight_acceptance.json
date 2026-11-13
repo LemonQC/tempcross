@@ -1,0 +1,16 @@
+{
+  "status": "PASS_BOUNDED_COMPONENT_ONLY",
+  "data_audit": "PASS",
+  "tests": "PASS",
+  "actual_probe_optimizer_updates": 1,
+  "physical_smoke_episodes": 2,
+  "new_formal_training_updates": 0,
+  "new_formal_episodes": 0,
+  "new_generation_attempts": 0,
+  "old_baseline_hashes_unchanged": true,
+  "resources": {
+    "utc": "2026-11-13T02:37:56.672017+00:00",
+    "gpu": "NVIDIA GeForce RTX 3090, 24576 MiB, 585 MiB, 36 %",
+    "disk_free_bytes": 167858180096
+  }
+}

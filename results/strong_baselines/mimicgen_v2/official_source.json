@@ -1,0 +1,52 @@
+{
+  "official_repository": "https://github.com/NVlabs/mimicgen",
+  "official_commit": "c0fbff22ba40060f05a917a80817f3f5c20731e7",
+  "used_distribution": "BARX bundled MimicGen1.0.1+barx.1",
+  "used_repository": "https://github.com/ajaysridhar0/barx",
+  "used_commit": "0f435089f48b1f16d225f868dbef855a5e75d1e0",
+  "generator_license": "NVIDIA Source Code License, research/evaluation use",
+  "policy_repository": "https://github.com/ARISE-Initiative/robomimic",
+  "policy_commit": "ae5799f0fae05c4559ee1f9645b0f77eb5251929",
+  "policy_license": "MIT",
+  "source_selection_function_ast_identical": false,
+  "source_selection_numerical_equivalence_check": {
+    "status": "PASS",
+    "matched_cases": 120,
+    "source_counts": [
+      3,
+      5,
+      8
+    ],
+    "nn_k": 5,
+    "no_simulator_created": true
+  },
+  "object_frame_pose_transform_ast_identical": true,
+  "reproduction_differences": [
+    "BARX RoboCasa-X interfaces and canonical12-action padding",
+    "BARX nearest_neighbor_interpolation differs in variable names and an unused nn_k=None branch; same object-frame distance/top-k rule,120 controlled numerical cases match upstream nearest_neighbor_robot_distance",
+    "Bundled valid-demo filtering and optional stuck detector; generated records used default end_if_stuck=False",
+    "Historical local base/world annotation repair retained; no new generation in v2",
+    "BC-Transformer-GMM downstream matches existing baseline, not original paper BC-RNN",
+    "Panda seeds only; no UR5e-to-Panda generation demonstrated",
+    "Existing50+13 successes, not original50+50 target"
+  ],
+  "sha256": {
+    "/home/users/lemon/coft-p2/barx/third_party/mimicgen/mimicgen/datagen/data_generator.py": "4668d971b0fd3ff2f75cf4377893e91543a9957715225181417feefc5d37804e",
+    "/home/users/lemon/coft-p2/barx/third_party/mimicgen/mimicgen/datagen/selection_strategy.py": "428bf72e8288caf7a1360ad35f5d243717ef44cffe577e21a4ff49a27c8f267b",
+    "/home/users/lemon/coft-p2/barx/third_party/mimicgen/mimicgen/datagen/waypoint.py": "4fd0d6df7d0ca59ced361a3c391c3e095582cf6423d3ab582aa3a62c8557fc55",
+    "/home/users/lemon/coft-p2/barx/third_party/mimicgen/mimicgen/utils/pose_utils.py": "a923742beea5c19dc55cdd02770858e45ddc8519a53cc9e5254a130f539b812b",
+    "/home/users/lemon/coft-p2/barx/third_party/mimicgen/mimicgen/env_interfaces/robosuite.py": "acd1fdfc8e30da804fa85a14c13c998ec827c0cbe657e7407db07cd6b471b0fe",
+    "/home/users/lemon/coft-p2/barx/third_party/mimicgen/mimicgen/env_interfaces/robocasa/single_stage/mg_pnp.py": "f9408879eb017b8f3f0e86f7c4770127b7f26a9645bed59b5464ce68038d7963",
+    "/home/users/lemon/coft-p2/barx/third_party/mimicgen/LICENSE": "6a1b7eadc585f117fd7a3774a37900e11b0ec075f0f239ff9fd0eb93f0545ceb",
+    "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/mimicgen/common.py": "488bd13093b8207aada8b83f2fdef9116aaf8d0a733cebb1f651f017684841c0",
+    "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/mimicgen/probe.py": "864b60a22c2fa25cb9d6c85b4d73e8221db388a0e36bd96f2af0c8a5fdaed1f6",
+    "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/mimicgen/augment.py": "e4e57d5d8be19c2631f013f6012a32fa8febcfd6be9cd446980d2755c356ecc0",
+    "/home/users/lemon/CodexProject/tempcross/baselines/common/model_factory.py": "96a836aa74ebc3c74fe015dc815008ce96dc2dd9e274c30a8c20fa45dfea21e6",
+    "/home/users/lemon/CodexProject/tempcross/baselines/common/policies.py": "54e4b91828b97098fd39dadaa7c29b32cc8c9065032ac0b1459d87d173e04117",
+    "/home/users/lemon/CodexProject/tempcross/baselines/common/train.py": "f7f64dedcdf083cc0766a7d2b73eaa5810df5bee93569036e0e0bf2936d2c1d3",
+    "/home/users/lemon/baseline-benchmark/vendor/robomimic/robomimic/algo/bc.py": "97e4388314760c42456a647a11a4a8d270746500687d012fe25357dc1c31873a",
+    "/home/users/lemon/baseline-benchmark/vendor/robomimic/robomimic/models/policy_nets.py": "8b74798ed8651ba19208dd8aed6250d03d78a5e28837254d57642be9ce944892",
+    "/home/users/lemon/baseline-benchmark/vendor/robomimic/robomimic/models/obs_core.py": "f33747a9bdc6c96656aa7230d99916d1b27f080c0c9d1d6796a511cd36ec6075",
+    "/home/users/lemon/baseline-benchmark/vendor/robomimic/LICENSE": "7cdbfab482b23a4d925d59ff169ab0bc5f8c97ceb0db79f9fd5bf46ef8aa1556"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "utc": "2026-11-13T02:36:29.141741+00:00",
+  "protocol_sha256": "5bdae214163529edf856ddcc49a8445adeddb7348a88eed1cb3e7dc3176d4042",
+  "server_root": "/home/users/lemon/strong-baselines-20261112",
+  "code_sha256": {
+    "baselines/strong/audit.py": "80b9d98b75ad021d731024f84493eea1f0699d020f1a4d463f8c223dfafdce65",
+    "baselines/strong/common.py": "a2e2037051a8135e758bb9f4a463514a0ad4427e951628e7a78dacce75f9faa0",
+    "baselines/strong/evaluate.py": "6d823ea65b156af25b70c08b27ad560740aeee33eb277838ba0b556e401e2856",
+    "results/strong_baselines/mimicgen_v2/audit_inventory.py": "b05f8a670220f3389c48a974d0c6598c5f81b151a023390e700955be2ff0e2bc",
+    "results/strong_baselines/mimicgen_v2/data.py": "df4b93b238309222d6b3e42f948706f6977eb43260fb06c58ef2fea95415b18d",
+    "results/strong_baselines/mimicgen_v2/evaluate.py": "fbf1df32a3f81e18fe71222b0ef333e5d069795b0d083ad2fede72f708e2a1a1",
+    "results/strong_baselines/mimicgen_v2/model.py": "ae3e312d5847efe483874a26c6de83d8cb77e8514a65ba9af2c63fafa12fef2d",
+    "results/strong_baselines/mimicgen_v2/prepare.py": "18d9848700914d8e689df8185554f2e7c16c43d278fd7b7c57bf37d3ca7009cf",
+    "results/strong_baselines/mimicgen_v2/report.py": "2c7cb651b40751038f4f6a578d7f8128c43fac5da9a21eb331e34279f7e8bea2",
+    "results/strong_baselines/mimicgen_v2/run.py": "bfd42cbf274cd1f7ab0de1cf737e81926d5e0f835b68b2791a039b9dfe18efaf",
+    "results/strong_baselines/mimicgen_v2/test_data.py": "5883e7d9a70c1da9f8a5fcf8e0aa5b706a940b7b3094c0900994a5de9e63fb22",
+    "results/strong_baselines/mimicgen_v2/train.py": "b3a76590f7c57bfdd4ece867b32c68e03a747272e9d074e468d669398bba19ee"
+  },
+  "data_freeze": {
+    "status": "COMPLETE",
+    "human_train": 90,
+    "human_validation": 10,
+    "generated_train": 63,
+    "generated_counts": {
+      "pnp_counter_to_sink": 50,
+      "pnp_sink_to_counter": 13
+    },
+    "canonical_actions_unmodified": true,
+    "generated_terminal_actions": "preserve actual final successful action",
+    "human_terminal_actions": "unchanged historical RLDS convention",
+    "original_validation_anchors_exact": true,
+    "sha256": {
+      "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/data/validation.npy": "c85aeec35a90b1ac75363c06a36be64c36ad7b5a2678d04bb368de20817eb80b",
+      "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/data/language.json": "b0c2b8905ad3267937fe2dac2e463cd0396fe8f8dd5605319d3dca4b67a7f2ab",
+      "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/data/train.npy": "8d58c30a487f8fb05b6b84583f652040929fc796040d2ff64f501af8310160da",
+      "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/data/generated.h5": "332184a2935ac1267d707a2613b418ba0d16db831da4df99393bce8a8c03ad6a",
+      "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/data/manifest.json": "e7c896e2a8e5b0af81e74108354667569c547825e73143592274c702a1e0b4f2"
+    }
+  },
+  "original_mimicgen_status_sha256": "fdda2a8b14d18ad58ad12b4fba55f8ea863f6aa3348a6866ec594a27cfec8bef",
+  "resources": {
+    "utc": "2026-11-13T02:36:29.192566+00:00",
+    "gpu": "NVIDIA GeForce RTX 3090, 24576 MiB, 581 MiB, 33 %",
+    "disk_free_bytes": 167858454528
+  },
+  "physical_success_used_for_selection": false
+}

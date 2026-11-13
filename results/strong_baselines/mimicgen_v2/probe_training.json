@@ -1,0 +1,18 @@
+{
+  "status": "COMPLETE",
+  "role": "DISCARDED_PROBE",
+  "actual_optimizer_updates": 1,
+  "anchor_exposures": 16,
+  "human_anchor_exposures": 6,
+  "generated_anchor_exposures": 10,
+  "validation_history": [],
+  "saved_elapsed_seconds": 0.7740156697109342,
+  "started_utc": "2026-11-13T02:25:39.458858+00:00",
+  "elapsed_seconds": 0.7740156697109342,
+  "peak_gpu_allocated_bytes": 1388145152,
+  "peak_gpu_reserved_bytes": 1979711488,
+  "changed_parameter_tensors": 143,
+  "server_status": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/probe/status.json",
+  "checkpoint": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/probe/latest.pt",
+  "checkpoint_sha256": "9e41c91ffbfece28254957c3fcb8b7ecbd3800b5c2803507126c51df6c465539"
+}
