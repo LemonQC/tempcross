@@ -35,6 +35,12 @@
       "stage": "worker shutdown",
       "issue": "Completed evaluator closes socket during interpreter cleanup, causing child EOF traceback",
       "fix": "Worker treats EOF as normal shutdown; no policy/action change; first smoke completed and audited"
+    },
+    {
+      "stage": "acceptance artifact indexing",
+      "issue": "Already-running driver keeps resource monitor alive until acceptance subprocess returns",
+      "fix": "Acceptance code hashes an immutable complete-line resource CSV snapshot; no train/model/control change",
+      "training_restarted": false
     }
   ]
 }

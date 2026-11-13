@@ -37,6 +37,11 @@ def main():
     train=read(RUN/'training/source_target/state.json');protocol=read(out('octo_small')/'protocol.json')
     assert train['status']=='COMPLETE' and train['actual_training_updates']==protocol['training_updates']
     assert digest(train['checkpoint'])==train['checkpoint_sha256']
+    from .exposure import main as exposure
+    exposure()
+    rows=[json.loads(line) for line in (RUN/'training/source_target/training.jsonl').read_text().splitlines()]
+    write(out('octo_small')/'training_metrics.json',dict(source_path=str(RUN/'training/source_target/training.jsonl'),
+        sha256=digest(RUN/'training/source_target/training.jsonl'),records=rows))
     cells=[validate_job('octo_small','source_target',task) for task in TASKS]
     assert all(c['episodes']==40 and c['role']=='EXPOSED_REFERENCE' for c in cells)
     native=native_actions(cells);write(out('octo_small')/'native_action_audit.json',native)
@@ -65,7 +70,14 @@ def main():
     (out('octo_small')/'episodes.csv').write_text('\n'.join(csv)+'\n')
     write(out('octo_small')/'training_state.json',train)
     files += [Path(f['path']) for f in native['files']]
-    files += [p for p in [RUN/'training_resources.csv',RUN/'formal-training.log',RUN/'formal-counter.log',RUN/'formal-sink.log'] if p.exists()]
+    # The already-running pipeline may still append its monitor CSV until this
+    # subprocess exits. Index an immutable, complete-line snapshot instead.
+    samples=RUN/'training_resources.csv'
+    if samples.exists():
+        snapshot=RUN/'resources_at_acceptance.csv'
+        snapshot.write_text(''.join(line for line in samples.read_text().splitlines(keepends=True) if line.endswith('\n')))
+        files.append(snapshot)
+    files += [p for p in [RUN/'formal-training.log',RUN/'formal-counter.log',RUN/'formal-sink.log'] if p.exists()]
     write(out('octo_small')/'artifact_index.json',dict(files=[dict(path=str(p),bytes=p.stat().st_size,sha256=digest(p))
         for p in sorted(set(files))],large_files_stay_on_server=True))
     status=dict(status='COMPLETE_FAITHFUL_PORT',method='octo_small',phase='ACCEPTED',actual_training_updates=train['actual_training_updates'],
@@ -73,6 +85,9 @@ def main():
         successes=sum(c['successes'] for c in cells),success_rate=sum(c['successes'] for c in cells)/80,
         role='EXPOSED_REFERENCE',checkpoint_sha256=train['checkpoint_sha256'],ordinary_repairs_allowed=True)
     write(out('octo_small')/'status.json',status)
+    write(out('octo_small')/'progress.json',dict(status,as_of_utc=now(),
+        verified_persisted_training_updates=train['actual_training_updates'],resumable_saved_update=train['saved_step'],
+        completed_official_episodes=80,validation_history=[r for r in rows if 'validation_ddpm_loss' in r]))
     lines=['# Octo-Small source+target results','',
         'COMPLETE_FAITHFUL_PORT for one joint UR5e+Panda setting. Target-only was not run.',
         'Original conditions60–99 are EXPOSED_REFERENCE, not independent unseen test. Official placement AND retreat is unchanged.','',

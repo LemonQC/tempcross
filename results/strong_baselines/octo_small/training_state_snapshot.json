@@ -1,0 +1,36 @@
+{
+  "status": "RUNNING",
+  "protocol_sha256": "29a5411d1a219f297d6815f18c3cc3c2b4ce9701868ebd99311ce2ecef8b26bf",
+  "actual_training_updates": 2000,
+  "saved_step": 2000,
+  "optimizer": {
+    "clip_gradient": 1.0,
+    "frozen_keys": [
+      "*hf_model*"
+    ],
+    "grad_accumulation_steps": null,
+    "learning_rate": {
+      "decay_steps": 24000,
+      "end_value": 0.0,
+      "init_value": 0.0,
+      "name": "cosine",
+      "peak_value": 0.0003,
+      "warmup_steps": 2000
+    },
+    "weight_decay": 0.01
+  },
+  "initial_pretrained_sha256": "644b2d8102f6d2a3145243223a7f0cc77165486ff9da087af590d8f814152c50",
+  "start_resources": {
+    "utc": "2026-11-13T06:50:09.755753+00:00",
+    "gpu": "NVIDIA GeForce RTX 3090, 24576 MiB, 1110 MiB, 8 %",
+    "disk_free_bytes": 90947145728
+  },
+  "best_validation": 0.8085526004433632,
+  "best_step": 1000,
+  "elapsed_seconds": 922.4528067675419,
+  "resources": {
+    "utc": "2026-11-13T07:05:32.208576+00:00",
+    "gpu": "NVIDIA GeForce RTX 3090, 24576 MiB, 19222 MiB, 7 %",
+    "disk_free_bytes": 89684631552
+  }
+}

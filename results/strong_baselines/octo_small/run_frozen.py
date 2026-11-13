@@ -41,12 +41,14 @@ def main():
             command([str(RUN/'env/bin/python'),'-u','-m','results.strong_baselines.octo_small.launch','train'],RUN/'formal-training.log')
             train=read(RUN/'training/source_target/state.json')
             assert train['status']=='COMPLETE' and train['actual_training_updates']==protocol['training_updates']
+            command([str(RUN/'env/bin/python'),'-u','-m','results.strong_baselines.octo_small.audit_resume'],RUN/'final-optimizer-audit.log')
             progress.update(phase='OCTO_FORMAL_EVALUATION',actual_formal_updates=train['actual_training_updates'])
             write(ROOT/'session_resume.json',progress)
             write(out('octo_small')/'status.json',dict(current,phase='FORMAL_EVALUATION',actual_training_updates=train['actual_training_updates']))
             for task,label in zip(TASKS,['counter','sink']):
                 command([str(PYTHON),'-u','-m','baselines.strong.evaluate','--method','octo_small','--group','source_target',
                     '--checkpoint',train['checkpoint'],'--task',task],RUN/f'formal-{label}.log')
+            stopped.set();thread.join(timeout=10)
             command([str(PYTHON),'-u','-m','results.strong_baselines.octo_small.results'],RUN/'acceptance.log')
             progress.update(phase='OCTO_ACCEPTED_AWAITING_GITHUB_PUBLICATION',formal_episodes=80,next='Review actual results and publish current small files; do not start another model automatically')
             write(ROOT/'session_resume.json',progress)
