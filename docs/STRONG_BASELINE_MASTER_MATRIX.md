@@ -8,7 +8,7 @@
 |---|---|---:|---:|---|---|
 | act | COMPLETE_FAITHFUL_PORT | 48000 | 160 | 分设置见下表 | [状态](../results/strong_baselines/act/status.json) |
 | vqbet | COMPLETE_FAITHFUL_PORT | 60000 | 160 | 分设置见下表 | [状态](../results/strong_baselines/vqbet/status.json) |
-| mimicgen_v2 | PARTIAL | 0 | 0 | N/A | [状态](../results/strong_baselines/mimicgen_v2/status.json) |
+| mimicgen_v2 | PARTIAL | 48000 | 0 | N/A | [状态](../results/strong_baselines/mimicgen_v2/status.json) |
 | kite | NOT_RUN | 0 | 0 | N/A | [状态](../results/strong_baselines/kite/status.json) |
 | crosszero | NOT_RUN | 0 | 0 | N/A | [状态](../results/strong_baselines/crosszero/status.json) |
 | object_flow | NOT_RUN | 0 | 0 | N/A | [状态](../results/strong_baselines/object_flow/status.json) |

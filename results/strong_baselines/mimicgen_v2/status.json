@@ -1,7 +1,7 @@
 {
   "status": "PARTIAL",
-  "phase": "FROZEN_PROBE_ACCEPTED",
-  "actual_training_updates": 0,
+  "phase": "FORMAL_EVALUATION",
+  "actual_training_updates": 48000,
   "physical_evaluation_episodes": 0,
   "success_rate": null,
   "technical_repairs": 0,

@@ -1,0 +1,466 @@
+{
+  "status": "COMPLETE",
+  "role": "FROZEN_FORMAL_TRAINING",
+  "actual_optimizer_updates": 48000,
+  "anchor_exposures": 768000,
+  "human_anchor_exposures": 479469,
+  "generated_anchor_exposures": 288531,
+  "validation_history": [
+    {
+      "metric": "expected_action_mse",
+      "value": 0.162142563611269,
+      "nll": -12.482509136199951,
+      "batches": 16,
+      "step": 750
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.1577573213726282,
+      "nll": -13.430070698261261,
+      "batches": 16,
+      "step": 1500
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.14645679807290435,
+      "nll": -13.672121167182922,
+      "batches": 16,
+      "step": 2250
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.1372139947488904,
+      "nll": -15.661977291107178,
+      "batches": 16,
+      "step": 3000
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.11521778209134936,
+      "nll": -14.950515866279602,
+      "batches": 16,
+      "step": 3750
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.11147017474286258,
+      "nll": -16.234329104423523,
+      "batches": 16,
+      "step": 4500
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.0932719821576029,
+      "nll": -16.175914764404297,
+      "batches": 16,
+      "step": 5250
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.11871589859947562,
+      "nll": -16.116540729999542,
+      "batches": 16,
+      "step": 6000
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.1015518696513027,
+      "nll": -15.964995503425598,
+      "batches": 16,
+      "step": 6750
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.09357571485452354,
+      "nll": -15.580657005310059,
+      "batches": 16,
+      "step": 7500
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.07987251435406506,
+      "nll": -15.569476306438446,
+      "batches": 16,
+      "step": 8250
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.10440607671625912,
+      "nll": -14.26805967092514,
+      "batches": 16,
+      "step": 9000
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.10032685194164515,
+      "nll": -15.393113017082214,
+      "batches": 16,
+      "step": 9750
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.0783295666333288,
+      "nll": -15.877021789550781,
+      "batches": 16,
+      "step": 10500
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.08171587390825152,
+      "nll": -15.370841801166534,
+      "batches": 16,
+      "step": 11250
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.08046645298600197,
+      "nll": -15.431173920631409,
+      "batches": 16,
+      "step": 12000
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.10410669364500791,
+      "nll": -13.070569396018982,
+      "batches": 16,
+      "step": 12750
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.07537290442269295,
+      "nll": -13.636229872703552,
+      "batches": 16,
+      "step": 13500
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.07579782628454268,
+      "nll": -14.374332129955292,
+      "batches": 16,
+      "step": 14250
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.08699964371044189,
+      "nll": -13.180481791496277,
+      "batches": 16,
+      "step": 15000
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.09312842355575413,
+      "nll": -14.02372533082962,
+      "batches": 16,
+      "step": 15750
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.07669294689549133,
+      "nll": -13.101300477981567,
+      "batches": 16,
+      "step": 16500
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.08349970052950084,
+      "nll": -12.910528838634491,
+      "batches": 16,
+      "step": 17250
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.07588236371520907,
+      "nll": -11.636235475540161,
+      "batches": 16,
+      "step": 18000
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.09001342207193375,
+      "nll": -12.776894211769104,
+      "batches": 16,
+      "step": 18750
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.09055765648372471,
+      "nll": -12.45016810297966,
+      "batches": 16,
+      "step": 19500
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.0772812677314505,
+      "nll": -12.877479016780853,
+      "batches": 16,
+      "step": 20250
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.09049448883160949,
+      "nll": -11.717689335346222,
+      "batches": 16,
+      "step": 21000
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.09581935009919107,
+      "nll": -11.95302528142929,
+      "batches": 16,
+      "step": 21750
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.0746837358456105,
+      "nll": -11.39221477508545,
+      "batches": 16,
+      "step": 22500
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.07450456020887941,
+      "nll": -12.47541218996048,
+      "batches": 16,
+      "step": 23250
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.09501608740538359,
+      "nll": -11.723697483539581,
+      "batches": 16,
+      "step": 24000
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.09036950865993276,
+      "nll": -13.554329872131348,
+      "batches": 16,
+      "step": 24750
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.09125859930645674,
+      "nll": -11.534102320671082,
+      "batches": 16,
+      "step": 25500
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.08577229850925505,
+      "nll": -11.389598399400711,
+      "batches": 16,
+      "step": 26250
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.09287313488312066,
+      "nll": -11.46849125623703,
+      "batches": 16,
+      "step": 27000
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.07778585236519575,
+      "nll": -11.219124019145966,
+      "batches": 16,
+      "step": 27750
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.08307642803993076,
+      "nll": -12.000916302204132,
+      "batches": 16,
+      "step": 28500
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.08778512134449556,
+      "nll": -10.812030732631683,
+      "batches": 16,
+      "step": 29250
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.08484414481790736,
+      "nll": -11.348152130842209,
+      "batches": 16,
+      "step": 30000
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.08836825110483915,
+      "nll": -11.095775425434113,
+      "batches": 16,
+      "step": 30750
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.08528985711745918,
+      "nll": -12.33308744430542,
+      "batches": 16,
+      "step": 31500
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.09176465147174895,
+      "nll": -10.625391066074371,
+      "batches": 16,
+      "step": 32250
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.07385914749465883,
+      "nll": -11.674545884132385,
+      "batches": 16,
+      "step": 33000
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.09097247128374875,
+      "nll": -10.539278388023376,
+      "batches": 16,
+      "step": 33750
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.08609167975373566,
+      "nll": -11.031083941459656,
+      "batches": 16,
+      "step": 34500
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.07893377752043307,
+      "nll": -11.209372580051422,
+      "batches": 16,
+      "step": 35250
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.08152891462668777,
+      "nll": -11.54529458284378,
+      "batches": 16,
+      "step": 36000
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.07875407137908041,
+      "nll": -10.507363498210907,
+      "batches": 16,
+      "step": 36750
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.08359594258945435,
+      "nll": -9.888907462358475,
+      "batches": 16,
+      "step": 37500
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.08633353799814358,
+      "nll": -10.701445519924164,
+      "batches": 16,
+      "step": 38250
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.0912084054434672,
+      "nll": -10.21339300274849,
+      "batches": 16,
+      "step": 39000
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.07840297918301076,
+      "nll": -10.416733264923096,
+      "batches": 16,
+      "step": 39750
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.08599147910717875,
+      "nll": -9.939563512802124,
+      "batches": 16,
+      "step": 40500
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.10520445695146918,
+      "nll": -11.60497772693634,
+      "batches": 16,
+      "step": 41250
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.09707657457329333,
+      "nll": -11.03219485282898,
+      "batches": 16,
+      "step": 42000
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.09575456456514075,
+      "nll": -10.537327587604523,
+      "batches": 16,
+      "step": 42750
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.08085418457631022,
+      "nll": -10.508534371852875,
+      "batches": 16,
+      "step": 43500
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.08182137343101203,
+      "nll": -10.231357753276825,
+      "batches": 16,
+      "step": 44250
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.08644180977717042,
+      "nll": -10.479545086622238,
+      "batches": 16,
+      "step": 45000
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.07794418701087125,
+      "nll": -10.531708836555481,
+      "batches": 16,
+      "step": 45750
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.08450123440707102,
+      "nll": -9.867101311683655,
+      "batches": 16,
+      "step": 46500
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.08252889313735068,
+      "nll": -10.363669157028198,
+      "batches": 16,
+      "step": 47250
+    },
+    {
+      "metric": "expected_action_mse",
+      "value": 0.08402059128275141,
+      "nll": -10.524123013019562,
+      "batches": 16,
+      "step": 48000
+    }
+  ],
+  "saved_elapsed_seconds": 2697.5420742388815,
+  "started_utc": "2026-11-13T02:46:40.234615+00:00",
+  "elapsed_seconds": 2697.5420742388815,
+  "peak_gpu_allocated_bytes": 1677609984,
+  "peak_gpu_reserved_bytes": 1990197248,
+  "server_status": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/training/status.json",
+  "checkpoint": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/training/latest.pt",
+  "checkpoint_sha256": "2e7d97bcc436d890ce2af9067984f3af93d868b118dbca78815dbf8d15055c09"
+}

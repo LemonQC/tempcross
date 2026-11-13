@@ -1,0 +1,15 @@
+{
+  "status": "PARTIAL",
+  "scope": "MIMICGEN_V2_UNEQUAL_PANDA_AUGMENTATION_BC_TRANSFORMER_COMPONENT",
+  "snapshot_utc": "2026-11-13T03:33:19.979762+00:00",
+  "cells": [],
+  "actual_saved_training_updates": 48000,
+  "completed_training": true,
+  "closed_formal_episodes": 2,
+  "accepted_formal_episodes": 0,
+  "human_anchor_exposures": 479469,
+  "generated_anchor_exposures": 288531,
+  "role": "EXPOSED_REFERENCE",
+  "independent_unseen_test": false,
+  "full_original_mimicgen_reproduced": false
+}

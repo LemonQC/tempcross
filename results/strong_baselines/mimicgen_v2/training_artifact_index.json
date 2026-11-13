@@ -1,0 +1,37 @@
+[
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/training/config.json",
+    "bytes": 5618,
+    "sha256": "7cb4e05624967682cfb8a07569e207776d2c70402c3cb6f5af4d88ede49eb83c"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/training/consumed_anchors.csv",
+    "bytes": 78329264,
+    "sha256": "a0da5711b793ba2e06b882908c993e4cff5d85bdfcf05b9ce360fdb5a431e595"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/training/final.pt",
+    "bytes": 367183461,
+    "sha256": "2e7d97bcc436d890ce2af9067984f3af93d868b118dbca78815dbf8d15055c09"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/training/latest.pt",
+    "bytes": 367183461,
+    "sha256": "2e7d97bcc436d890ce2af9067984f3af93d868b118dbca78815dbf8d15055c09"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/training/resource_start.json",
+    "bytes": 145,
+    "sha256": "8781a5e0c0f29e3fdd8e9201579107268dcf358b7d2eed306d0a9860d006459e"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/training/status.json",
+    "bytes": 10853,
+    "sha256": "738a2586717daecf6ccf4d506603309a53547d2c8160232fcc4076147e7e9851"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/training/updates.csv",
+    "bytes": 2832128,
+    "sha256": "95bd6d478936d00c5b83f69e3c9a72b1a38702b8242ae5c671979b24bdfaad47"
+  }
+]

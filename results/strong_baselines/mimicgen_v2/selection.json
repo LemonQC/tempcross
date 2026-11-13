@@ -1,0 +1,11 @@
+{
+  "checkpoint": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/training/final.pt",
+  "sha256": "2e7d97bcc436d890ce2af9067984f3af93d868b118dbca78815dbf8d15055c09",
+  "selected_step": 48000,
+  "actual_optimizer_updates": 48000,
+  "total_anchor_exposures": 768000,
+  "human_anchor_exposures": 479469,
+  "generated_anchor_exposures": 288531,
+  "selection": "fixed final48000 matched to old human control; not chosen by validation or reference success",
+  "used_physical_success": false
+}

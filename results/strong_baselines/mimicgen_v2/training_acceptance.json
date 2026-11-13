@@ -1,0 +1,16 @@
+{
+  "status": "PASS_TRAINING_ONLY",
+  "saved_native_optimizer_counters": [
+    48000
+  ],
+  "changed_parameter_tensors": 143,
+  "fixed_final_checkpoint_sha256": "2e7d97bcc436d890ce2af9067984f3af93d868b118dbca78815dbf8d15055c09",
+  "architecture_matches_reused_control": true,
+  "human_anchor_exposures": 479469,
+  "generated_anchor_exposures": 288531,
+  "actual_formal_updates": 48000,
+  "probe_updates": 1,
+  "new_updates_by_this_audit": 0,
+  "new_physics_steps_by_this_audit": 0,
+  "formal_policy_success_rate_not_claimed": true
+}
