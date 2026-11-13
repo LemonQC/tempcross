@@ -22,7 +22,7 @@ class Policy:
         environment.update(XLA_PYTHON_CLIENT_PREALLOCATE='false',TOKENIZERS_PARALLELISM='false',
             HF_HOME=str(RUN/'huggingface'),HF_HUB_OFFLINE='1',TRANSFORMERS_OFFLINE='1')
         self.process=subprocess.Popen([str(RUN/'env/bin/python'),'-u','-m',
-            'results.strong_baselines.octo_small.runtime','--serve',self.socket,
+            'results.strong_baselines.octo_small.launch','runtime','--serve',self.socket,
             '--checkpoint',str(checkpoint),'--ledger',str(ledger)],cwd=PROJECT,env=environment,
             stdout=self.log,stderr=subprocess.STDOUT)
         deadline=time.monotonic()+300

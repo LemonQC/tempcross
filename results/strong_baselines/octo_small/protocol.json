@@ -1,0 +1,182 @@
+{
+  "method": "octo_small",
+  "setting": "source_target",
+  "algorithm": "official Octo-Small1.5 full finetuning",
+  "official_source": "241fb3514b7c40957a86d869fecb7c7fc353f540",
+  "weights_revision": "dc9aa3019f764726c770814b27e4ab0fc6e32a58",
+  "native_recipe": "scripts/configs/finetune_config.py:full,language_conditioned",
+  "core_architecture_modified": false,
+  "pretrained_weights": "/home/users/lemon/strong-baselines-20261112/octo_small/pretrained/300000/default/checkpoint",
+  "real_update_gate": "PASS",
+  "full_task_smoke_gate": "PASS",
+  "native_data_gate": "PASS",
+  "official_default_batch_size": 256,
+  "official_default_training_updates": 50000,
+  "batch_size": 32,
+  "training_updates": 24000,
+  "anchors_consumed": 768000,
+  "seed": 20261113,
+  "source_train_demonstrations": 540,
+  "source_validation_demonstrations": 60,
+  "target_train_demonstrations": 90,
+  "target_validation_demonstrations": 10,
+  "target_train_per_task": 45,
+  "domain_and_task_sampling": "equal four groups, uniform full-demo ID then uniform frame",
+  "information": [
+    "primary RGB256",
+    "original instruction, official T5-base max16 tokens"
+  ],
+  "extra_robot_state": false,
+  "real_wrist_camera": false,
+  "goal_image": false,
+  "missing_modalities": "zero padding, false native masks",
+  "history": 2,
+  "action_horizon": 4,
+  "execute_actions": 4,
+  "action_dimensions": 7,
+  "canonical_interface": "original OSC7->12;20Hz;0.05m/0.5rad controller limits;positive-close canonical gripper",
+  "native_action": "base-frame metre/radian delta and0..1 openness; arm Gaussian normalized with train-only stats",
+  "optimizer": {
+    "name": "native AdamW",
+    "learning_rate": "native warmup cosine",
+    "peak": 0.0003,
+    "warmup_updates": 2000,
+    "end": 0.0,
+    "weight_decay": 0.01,
+    "clip_gradient": 1.0,
+    "mu_dtype": "bfloat16",
+    "frozen_keys": [
+      "*hf_model*"
+    ]
+  },
+  "log_interval": 100,
+  "save_interval": 500,
+  "validation_interval": 1000,
+  "validation_anchors": 256,
+  "validation_rng": "PRNGKey(17000+batch_offset)",
+  "checkpoint_selection": "minimum native DDPM validation loss at1000..24000; earliest tie",
+  "stopping_rule": "fixed24000 updates; no performance-dependent extension; halt on nonfinite/error/disk/wall cap",
+  "minimum_free_bytes": 26843545600,
+  "maximum_training_seconds": 14400,
+  "formal_evaluation_role": "EXPOSED_REFERENCE",
+  "formal_conditions": [
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99
+  ],
+  "formal_episodes_per_task": 40,
+  "formal_success": "official placement AND retreat",
+  "diffusion_seed_each_episode": 7,
+  "smoke_used_for_model_selection": false,
+  "exposed_reference_used_for_model_selection": false,
+  "discarded_probe_optimizer_updates": 6,
+  "discarded_probe_anchors": 120,
+  "data_files": [
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/data/manifest.json",
+      "sha256": "091467ae9ae11b84f180b915aaf3c7d34fb800ae01f4ac473bfc1fcb319ce862"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/data/action_statistics.json",
+      "sha256": "2f273998338b10366219fd291dccae89c35a6b6351d2ea421149095d06719759"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/data/train.npy",
+      "sha256": "a868931a38ea5feb4098cb8a4c927654808b8a6a4bc77c80100eb55e2154b5ce"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/data/validation.npy",
+      "sha256": "c85aeec35a90b1ac75363c06a36be64c36ad7b5a2678d04bb368de20817eb80b"
+    }
+  ],
+  "code_files": [
+    {
+      "path": "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/octo_small/data.py",
+      "sha256": "abb3e77cd9f67219b0cd8fad862d1fdcf8e7be09ca0873ba422009e7191d3773"
+    },
+    {
+      "path": "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/octo_small/model.py",
+      "sha256": "de8fb51af27379b1435f99b4abb1ebbbaa50cce31af54f73934c24e0f65a76de"
+    },
+    {
+      "path": "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/octo_small/runtime.py",
+      "sha256": "15011d3eaf9040ddc32cc8f837d03e37ebbe0354a567c499b5e57a69fe9dcc35"
+    },
+    {
+      "path": "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/octo_small/train.py",
+      "sha256": "d42570637783022f8d255639a5d53c49e34ad6f3f7254b5c30e97f5962d25bef"
+    },
+    {
+      "path": "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/octo_small/launch.py",
+      "sha256": "c9b9369d1239777d2a1357e387c9251286fe22cfc3a65604d7cbca5f72420089"
+    },
+    {
+      "path": "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/octo_small/pack.py",
+      "sha256": "306a3e88a45385b2e4fc01224a2cd2b65a9c68ea70ea34a0ca9c2fceec529254"
+    }
+  ],
+  "official_core_files": [
+    {
+      "path": "/home/users/lemon/baseline-benchmark/vendor/octo/octo/model/octo_model.py",
+      "sha256": "93d96015bc43ee92910127421e17697d372f0bbc1a4d3589a0addb22efb819e0"
+    },
+    {
+      "path": "/home/users/lemon/baseline-benchmark/vendor/octo/octo/model/octo_module.py",
+      "sha256": "e458062721fd1e72fad00f7833b749e82d0df60aa7927557362bdf6463299fbf"
+    },
+    {
+      "path": "/home/users/lemon/baseline-benchmark/vendor/octo/octo/model/components/action_heads.py",
+      "sha256": "480f374788571db11f1e3ca2922beaec52f752001ae5ac6d284e0f1dfec40d11"
+    },
+    {
+      "path": "/home/users/lemon/baseline-benchmark/vendor/octo/octo/utils/train_utils.py",
+      "sha256": "177d187db6a9341bb8bfe4f98e5156bb654f61cf3def2e7f2d9b699f1be6e674"
+    },
+    {
+      "path": "/home/users/lemon/baseline-benchmark/vendor/octo/octo/data/traj_transforms.py",
+      "sha256": "a9b8c9e9d4dfa89f8a180a43bbf127c798da5a66d7246c89f818358810cdd2ac"
+    },
+    {
+      "path": "/home/users/lemon/baseline-benchmark/vendor/octo/octo/data/obs_transforms.py",
+      "sha256": "b23601254b29ba79c599bea4e5c11ca867f0f7d80908f13a25cbd548e27b0e5e"
+    }
+  ],
+  "pack_gate_before_training": "PASS640 original training/target-validation native RGB caches; no new simulation"
+}

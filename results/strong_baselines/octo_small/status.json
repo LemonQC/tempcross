@@ -1,9 +1,12 @@
 {
   "status": "PARTIAL",
   "method": "octo_small",
-  "phase": "PREFLIGHT",
+  "phase": "FROZEN_WAITING_LOSSLESS_CACHE",
   "actual_training_updates": 0,
+  "discarded_probe_optimizer_updates": 6,
   "physical_evaluation_episodes": 0,
+  "physical_smoke_episodes": 2,
   "success_rate": null,
-  "ordinary_repairs_allowed": true
+  "ordinary_repairs_allowed": true,
+  "formal_budget_frozen": true
 }

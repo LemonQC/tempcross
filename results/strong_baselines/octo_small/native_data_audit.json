@@ -1,0 +1,543 @@
+{
+  "status": "PASS",
+  "boundary_windows_checked": 16,
+  "traces": [
+    {
+      "episode_id": "38184253b1415518c8deb83c010480978867327592bed262272cafe6469f2288",
+      "domain": "target",
+      "task": "pnp_counter_to_sink",
+      "frame": 0,
+      "split": "train"
+    },
+    {
+      "episode_id": "38184253b1415518c8deb83c010480978867327592bed262272cafe6469f2288",
+      "domain": "target",
+      "task": "pnp_counter_to_sink",
+      "frame": 1,
+      "split": "train"
+    },
+    {
+      "episode_id": "38184253b1415518c8deb83c010480978867327592bed262272cafe6469f2288",
+      "domain": "target",
+      "task": "pnp_counter_to_sink",
+      "frame": 404,
+      "split": "train"
+    },
+    {
+      "episode_id": "38184253b1415518c8deb83c010480978867327592bed262272cafe6469f2288",
+      "domain": "target",
+      "task": "pnp_counter_to_sink",
+      "frame": 405,
+      "split": "train"
+    },
+    {
+      "episode_id": "db7472577e5974eb259f7b04008e0a051ac1ada23164d5904901ac04949503e9",
+      "domain": "target",
+      "task": "pnp_sink_to_counter",
+      "frame": 0,
+      "split": "train"
+    },
+    {
+      "episode_id": "db7472577e5974eb259f7b04008e0a051ac1ada23164d5904901ac04949503e9",
+      "domain": "target",
+      "task": "pnp_sink_to_counter",
+      "frame": 1,
+      "split": "train"
+    },
+    {
+      "episode_id": "db7472577e5974eb259f7b04008e0a051ac1ada23164d5904901ac04949503e9",
+      "domain": "target",
+      "task": "pnp_sink_to_counter",
+      "frame": 439,
+      "split": "train"
+    },
+    {
+      "episode_id": "db7472577e5974eb259f7b04008e0a051ac1ada23164d5904901ac04949503e9",
+      "domain": "target",
+      "task": "pnp_sink_to_counter",
+      "frame": 440,
+      "split": "train"
+    },
+    {
+      "episode_id": "8f4a3a752a0dda76b2c5b5bb76b652b2a8ea5ea6626161e5690b723d7a651e86",
+      "domain": "source",
+      "task": "pnp_sink_to_counter",
+      "frame": 0,
+      "split": "train"
+    },
+    {
+      "episode_id": "8f4a3a752a0dda76b2c5b5bb76b652b2a8ea5ea6626161e5690b723d7a651e86",
+      "domain": "source",
+      "task": "pnp_sink_to_counter",
+      "frame": 1,
+      "split": "train"
+    },
+    {
+      "episode_id": "8f4a3a752a0dda76b2c5b5bb76b652b2a8ea5ea6626161e5690b723d7a651e86",
+      "domain": "source",
+      "task": "pnp_sink_to_counter",
+      "frame": 415,
+      "split": "train"
+    },
+    {
+      "episode_id": "8f4a3a752a0dda76b2c5b5bb76b652b2a8ea5ea6626161e5690b723d7a651e86",
+      "domain": "source",
+      "task": "pnp_sink_to_counter",
+      "frame": 416,
+      "split": "train"
+    },
+    {
+      "episode_id": "f483ee5a208587558384f33a7cd9c24dbbc3daa7f8427797b931c67e6dd43890",
+      "domain": "source",
+      "task": "pnp_counter_to_sink",
+      "frame": 0,
+      "split": "train"
+    },
+    {
+      "episode_id": "f483ee5a208587558384f33a7cd9c24dbbc3daa7f8427797b931c67e6dd43890",
+      "domain": "source",
+      "task": "pnp_counter_to_sink",
+      "frame": 1,
+      "split": "train"
+    },
+    {
+      "episode_id": "f483ee5a208587558384f33a7cd9c24dbbc3daa7f8427797b931c67e6dd43890",
+      "domain": "source",
+      "task": "pnp_counter_to_sink",
+      "frame": 402,
+      "split": "train"
+    },
+    {
+      "episode_id": "f483ee5a208587558384f33a7cd9c24dbbc3daa7f8427797b931c67e6dd43890",
+      "domain": "source",
+      "task": "pnp_counter_to_sink",
+      "frame": 403,
+      "split": "train"
+    }
+  ],
+  "native_chunk_labels_equal": true,
+  "history_padding_checked": true,
+  "source_and_target_both_tasks_checked": true,
+  "tokenizer_native_max_length": 16,
+  "tokenizer_distinct_instructions": 16,
+  "cross_task_token_collisions": 0,
+  "languages": [
+    {
+      "instruction": "pick the apple from the counter and place it in the sink",
+      "tasks": [
+        "pnp_counter_to_sink"
+      ],
+      "tokens": [
+        1432,
+        8,
+        8947,
+        45,
+        8,
+        3485,
+        11,
+        286,
+        34,
+        16,
+        8,
+        5067,
+        1,
+        0,
+        0,
+        0
+      ],
+      "untruncated_length": 13,
+      "truncated": false
+    },
+    {
+      "instruction": "pick the apple from the sink and place it on the plate located on the counter",
+      "tasks": [
+        "pnp_sink_to_counter"
+      ],
+      "tokens": [
+        1432,
+        8,
+        8947,
+        45,
+        8,
+        5067,
+        11,
+        286,
+        34,
+        30,
+        8,
+        3829,
+        1069,
+        30,
+        8,
+        1
+      ],
+      "untruncated_length": 17,
+      "truncated": true
+    },
+    {
+      "instruction": "pick the banana from the counter and place it in the sink",
+      "tasks": [
+        "pnp_counter_to_sink"
+      ],
+      "tokens": [
+        1432,
+        8,
+        13634,
+        45,
+        8,
+        3485,
+        11,
+        286,
+        34,
+        16,
+        8,
+        5067,
+        1,
+        0,
+        0,
+        0
+      ],
+      "untruncated_length": 13,
+      "truncated": false
+    },
+    {
+      "instruction": "pick the banana from the sink and place it on the plate located on the counter",
+      "tasks": [
+        "pnp_sink_to_counter"
+      ],
+      "tokens": [
+        1432,
+        8,
+        13634,
+        45,
+        8,
+        5067,
+        11,
+        286,
+        34,
+        30,
+        8,
+        3829,
+        1069,
+        30,
+        8,
+        1
+      ],
+      "untruncated_length": 17,
+      "truncated": true
+    },
+    {
+      "instruction": "pick the can from the counter and place it in the sink",
+      "tasks": [
+        "pnp_counter_to_sink"
+      ],
+      "tokens": [
+        1432,
+        8,
+        54,
+        45,
+        8,
+        3485,
+        11,
+        286,
+        34,
+        16,
+        8,
+        5067,
+        1,
+        0,
+        0,
+        0
+      ],
+      "untruncated_length": 13,
+      "truncated": false
+    },
+    {
+      "instruction": "pick the can from the sink and place it on the plate located on the counter",
+      "tasks": [
+        "pnp_sink_to_counter"
+      ],
+      "tokens": [
+        1432,
+        8,
+        54,
+        45,
+        8,
+        5067,
+        11,
+        286,
+        34,
+        30,
+        8,
+        3829,
+        1069,
+        30,
+        8,
+        1
+      ],
+      "untruncated_length": 17,
+      "truncated": true
+    },
+    {
+      "instruction": "pick the carrot from the counter and place it in the sink",
+      "tasks": [
+        "pnp_counter_to_sink"
+      ],
+      "tokens": [
+        1432,
+        8,
+        15578,
+        45,
+        8,
+        3485,
+        11,
+        286,
+        34,
+        16,
+        8,
+        5067,
+        1,
+        0,
+        0,
+        0
+      ],
+      "untruncated_length": 13,
+      "truncated": false
+    },
+    {
+      "instruction": "pick the carrot from the sink and place it on the plate located on the counter",
+      "tasks": [
+        "pnp_sink_to_counter"
+      ],
+      "tokens": [
+        1432,
+        8,
+        15578,
+        45,
+        8,
+        5067,
+        11,
+        286,
+        34,
+        30,
+        8,
+        3829,
+        1069,
+        30,
+        8,
+        1
+      ],
+      "untruncated_length": 17,
+      "truncated": true
+    },
+    {
+      "instruction": "pick the cucumber from the counter and place it in the sink",
+      "tasks": [
+        "pnp_counter_to_sink"
+      ],
+      "tokens": [
+        1432,
+        8,
+        24395,
+        45,
+        8,
+        3485,
+        11,
+        286,
+        34,
+        16,
+        8,
+        5067,
+        1,
+        0,
+        0,
+        0
+      ],
+      "untruncated_length": 13,
+      "truncated": false
+    },
+    {
+      "instruction": "pick the cucumber from the sink and place it on the plate located on the counter",
+      "tasks": [
+        "pnp_sink_to_counter"
+      ],
+      "tokens": [
+        1432,
+        8,
+        24395,
+        45,
+        8,
+        5067,
+        11,
+        286,
+        34,
+        30,
+        8,
+        3829,
+        1069,
+        30,
+        8,
+        1
+      ],
+      "untruncated_length": 17,
+      "truncated": true
+    },
+    {
+      "instruction": "pick the lemon from the counter and place it in the sink",
+      "tasks": [
+        "pnp_counter_to_sink"
+      ],
+      "tokens": [
+        1432,
+        8,
+        7490,
+        45,
+        8,
+        3485,
+        11,
+        286,
+        34,
+        16,
+        8,
+        5067,
+        1,
+        0,
+        0,
+        0
+      ],
+      "untruncated_length": 13,
+      "truncated": false
+    },
+    {
+      "instruction": "pick the lemon from the sink and place it on the plate located on the counter",
+      "tasks": [
+        "pnp_sink_to_counter"
+      ],
+      "tokens": [
+        1432,
+        8,
+        7490,
+        45,
+        8,
+        5067,
+        11,
+        286,
+        34,
+        30,
+        8,
+        3829,
+        1069,
+        30,
+        8,
+        1
+      ],
+      "untruncated_length": 17,
+      "truncated": true
+    },
+    {
+      "instruction": "pick the orange from the counter and place it in the sink",
+      "tasks": [
+        "pnp_counter_to_sink"
+      ],
+      "tokens": [
+        1432,
+        8,
+        5470,
+        45,
+        8,
+        3485,
+        11,
+        286,
+        34,
+        16,
+        8,
+        5067,
+        1,
+        0,
+        0,
+        0
+      ],
+      "untruncated_length": 13,
+      "truncated": false
+    },
+    {
+      "instruction": "pick the orange from the sink and place it on the plate located on the counter",
+      "tasks": [
+        "pnp_sink_to_counter"
+      ],
+      "tokens": [
+        1432,
+        8,
+        5470,
+        45,
+        8,
+        5067,
+        11,
+        286,
+        34,
+        30,
+        8,
+        3829,
+        1069,
+        30,
+        8,
+        1
+      ],
+      "untruncated_length": 17,
+      "truncated": true
+    },
+    {
+      "instruction": "pick the sponge from the counter and place it in the sink",
+      "tasks": [
+        "pnp_counter_to_sink"
+      ],
+      "tokens": [
+        1432,
+        8,
+        23216,
+        45,
+        8,
+        3485,
+        11,
+        286,
+        34,
+        16,
+        8,
+        5067,
+        1,
+        0,
+        0,
+        0
+      ],
+      "untruncated_length": 13,
+      "truncated": false
+    },
+    {
+      "instruction": "pick the sponge from the sink and place it on the plate located on the counter",
+      "tasks": [
+        "pnp_sink_to_counter"
+      ],
+      "tokens": [
+        1432,
+        8,
+        23216,
+        45,
+        8,
+        5067,
+        11,
+        286,
+        34,
+        30,
+        8,
+        3829,
+        1069,
+        30,
+        8,
+        1
+      ],
+      "untruncated_length": 17,
+      "truncated": true
+    }
+  ],
+  "new_simulator_steps": 0
+}

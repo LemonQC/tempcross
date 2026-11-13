@@ -1,0 +1,21 @@
+{
+  "utc": "2026-11-13T06:42:59.148982+00:00",
+  "protocol_sha256": "29a5411d1a219f297d6815f18c3cc3c2b4ce9701868ebd99311ce2ecef8b26bf",
+  "resources": {
+    "utc": "2026-11-13T06:42:59.204040+00:00",
+    "gpu": "NVIDIA GeForce RTX 3090, 24576 MiB, 587 MiB, 37 %",
+    "disk_free_bytes": 107431682048
+  },
+  "real_probe_sha256": "82ed948a4c18ccea85e94f6487f541d21f7b58e693572f3fb48958337e748c44",
+  "native_data_audit_sha256": "afe8a4542503124fc556d3a1f872dadcfe8832ab692aebbbc1e545cf29636af2",
+  "smoke_acceptances": [
+    {
+      "path": "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/octo_small/smoke_source_target_pnp_counter_to_sink.json",
+      "sha256": "6563cc23936746200eef073a0893f60fafdeee30b7c5e0a6b29ad96b7e14498c"
+    },
+    {
+      "path": "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/octo_small/smoke_source_target_pnp_sink_to_counter.json",
+      "sha256": "e9d88fbb74da94c8b8f02f08ee0103000693c2f84580116697d75a4b82847158"
+    }
+  ]
+}

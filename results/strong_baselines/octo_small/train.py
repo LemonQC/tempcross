@@ -28,6 +28,8 @@ def main():
     protocol=read(out('octo_small')/'protocol.json');freeze=read(out('octo_small')/'freeze.json')
     assert freeze['protocol_sha256']==digest(out('octo_small')/'protocol.json')
     assert protocol['real_update_gate']=='PASS' and protocol['full_task_smoke_gate']=='PASS'
+    for record in protocol['data_files']+protocol['code_files']+protocol['official_core_files']:
+        assert digest(record['path'])==record['sha256'],record['path']
     pack=read(DIRECTORY/'pack_index.json');assert pack['status']=='PASS' and pack['completed']==640
     for f in read(RUN.parent/'preservation_freeze.json')['files']:assert digest(f['path'])==f['sha256']
     batch_size=protocol['batch_size'];budget=protocol['training_updates']

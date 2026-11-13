@@ -16,6 +16,25 @@
       "stage": "transport_helper",
       "issue": "NVIDIA publishes multiple manylinux retags; selector asserted uniqueness",
       "fix": "Explicit compatible2014 retag priority; published hash preserved"
+    },
+    {
+      "stage": "native GPU initialization",
+      "issue": "TensorFlow imported system CUDA11.3 cuSOLVER11102 before JAX, which requires11401",
+      "fix": "Isolated CUDA11 wheel library directories and CUDA11.8 ptxas prepended before process start; GPU assertion now passes",
+      "failed_probe_updates": 0,
+      "evidence": "/home/users/lemon/strong-baselines-20261112/octo_small/probe/batch-8-runtime-failure-01/result.json"
+    },
+    {
+      "stage": "diagnostic optimizer wrapper",
+      "issue": "Official create_optimizer scalar constant-LR branch closes over overwritten kwargs, returning a function",
+      "fix": "Use its native schedule dictionary path with flat3e-5 for diagnostic only; formal original cosine dictionary unchanged",
+      "failed_probe_updates": 0,
+      "evidence": "/home/users/lemon/strong-baselines-20261112/octo_small/probe/batch-8-schedule-failure-02/result.json"
+    },
+    {
+      "stage": "worker shutdown",
+      "issue": "Completed evaluator closes socket during interpreter cleanup, causing child EOF traceback",
+      "fix": "Worker treats EOF as normal shutdown; no policy/action change; first smoke completed and audited"
     }
   ]
 }

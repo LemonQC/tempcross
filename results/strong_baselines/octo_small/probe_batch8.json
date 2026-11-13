@@ -1,0 +1,122 @@
+{
+  "status": "PASS",
+  "batch_size": 8,
+  "actual_training_updates": 3,
+  "start": {
+    "utc": "2026-11-13T06:36:12.208592+00:00",
+    "gpu": "NVIDIA GeForce RTX 3090, 24576 MiB, 583 MiB, 39 %",
+    "disk_free_bytes": 125222621184
+  },
+  "utc": "2026-11-13T06:36:12.208625+00:00",
+  "durations_seconds": [
+    23.258321151137352,
+    0.10914511093869805,
+    0.0907687097787857
+  ],
+  "metrics": [
+    {
+      "grad_norm": 132.6212921142578,
+      "learning_rate": 2.9999999242136255e-05,
+      "loss": 2.1018147468566895,
+      "mse": 2.1018147468566895
+    },
+    {
+      "grad_norm": 50.797210693359375,
+      "learning_rate": 2.9999999242136255e-05,
+      "loss": 1.1110996007919312,
+      "mse": 1.1110996007919312
+    },
+    {
+      "grad_norm": 47.49919128417969,
+      "learning_rate": 2.9999999242136255e-05,
+      "loss": 1.883815050125122,
+      "mse": 1.883815050125122
+    }
+  ],
+  "warm_update_seconds": 0.09995691035874188,
+  "parameters_total": 136670604,
+  "parameters_language_frozen": 109628544,
+  "changed_tensors": 252,
+  "frozen_language_changed_tensors": 0,
+  "optimizer": {
+    "clip_gradient": 1.0,
+    "frozen_keys": [
+      "*hf_model*"
+    ],
+    "grad_accumulation_steps": null,
+    "learning_rate": {
+      "name": "cosine",
+      "init_value": 3e-05,
+      "peak_value": 3e-05,
+      "warmup_steps": 1,
+      "decay_steps": 100,
+      "end_value": 3e-05
+    },
+    "weight_decay": 0.01
+  },
+  "training_traces": [
+    {
+      "episode_id": "84dd541933e0539acaa1bf754935fc0083fc9eaed9e9354fe254f112f4d43a4f",
+      "domain": "source",
+      "task": "pnp_counter_to_sink",
+      "frame": 75,
+      "split": "train"
+    },
+    {
+      "episode_id": "7b9d5a99990aa94260020627e0c656cdc28e0fe72f6c19a860c7b5b922fbce60",
+      "domain": "source",
+      "task": "pnp_sink_to_counter",
+      "frame": 347,
+      "split": "train"
+    },
+    {
+      "episode_id": "b5388a3f5b153c1fb263c089477d13f69b8b8d5be643b528411ed91f43bfaf51",
+      "domain": "target",
+      "task": "pnp_counter_to_sink",
+      "frame": 82,
+      "split": "train"
+    },
+    {
+      "episode_id": "df20a2f0fe746301101de1cc9238ecc0708d1fd00de79e5579f7265979ab44ce",
+      "domain": "target",
+      "task": "pnp_sink_to_counter",
+      "frame": 80,
+      "split": "train"
+    },
+    {
+      "episode_id": "b605cd00bba9f50c5d95d93eb09664668010a7c83b11fb23b379adee1aaedda4",
+      "domain": "source",
+      "task": "pnp_counter_to_sink",
+      "frame": 211,
+      "split": "train"
+    },
+    {
+      "episode_id": "ccb4f68c585d5a6272f892ad92229ced3a0261c2075988d7e2e5d7b61c575a83",
+      "domain": "source",
+      "task": "pnp_sink_to_counter",
+      "frame": 409,
+      "split": "train"
+    },
+    {
+      "episode_id": "871f444eb6297e85d2667d59660346f6cd2a350a2ab85db99749b6b3812f31cd",
+      "domain": "target",
+      "task": "pnp_counter_to_sink",
+      "frame": 179,
+      "split": "train"
+    },
+    {
+      "episode_id": "ce38a158ffd37f5c1c5c5fb74bf8fe778f2fa9ca5965b13a0fcf70692ccd12a9",
+      "domain": "target",
+      "task": "pnp_sink_to_counter",
+      "frame": 19,
+      "split": "train"
+    }
+  ],
+  "checkpoint": "/home/users/lemon/strong-baselines-20261112/octo_small/probe/batch-8/native/3/default/checkpoint",
+  "checkpoint_sha256": "506efcf8e59ba6776a2dc941cee292f9804b2a53adb94c64e8eb095f4d9ab261",
+  "end": {
+    "utc": "2026-11-13T06:36:47.916348+00:00",
+    "gpu": "NVIDIA GeForce RTX 3090, 24576 MiB, 7138 MiB, 9 %",
+    "disk_free_bytes": 123119751168
+  }
+}

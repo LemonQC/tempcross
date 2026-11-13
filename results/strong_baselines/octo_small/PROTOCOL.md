@@ -1,8 +1,9 @@
-# Octo-Small: official-runtime preflight
+# Octo-Small: frozen official-runtime finetuning protocol
 
-Status: **PARTIAL / PREFLIGHT**. Formal budget, checkpoint selection and stopping
-rules will be frozen only after an actual parameter-changing update and complete
-task smoke. No training or performance result is implied by this document.
+Status at freeze: **PARTIAL / FROZEN_WAITING_LOSSLESS_CACHE**. Real updates,
+native-data checks and both complete task smoke runs passed before the formal
+budget was frozen in [protocol.json](protocol.json) and [freeze.json](freeze.json).
+Formal training and evaluation must be distinguished from these discarded probes.
 
 Use [official Octo](https://github.com/octo-models/octo) commit
 `241fb3514b7c40957a86d869fecb7c7fc353f540` (MIT), native JAX/Flax transformer,
@@ -34,7 +35,7 @@ Native `chunk_act_obs`, image resize/augmentation, model, diffusion loss and
 `create_optimizer` are reused directly. Use full finetuning with official frozen
 T5 keys; do not replace the action head or language encoder. The small diagnostic
 update uses constant3e-5 to verify changed parameters; it is discarded before
-formal training, whose optimizer recipe and budget are frozen later. Ordinary
+formal training, whose optimizer recipe and budget are now frozen below. Ordinary
 engineering errors are recorded and repaired; they do not by themselves prove
 RTX3090 infeasibility.
 
@@ -48,3 +49,36 @@ Formal evaluation, if gates pass: original Panda conditions60–99,40 per task,
 official success criterion. Preserve every episode/video/telemetry and SHA on
 the server; publish code, actual update counts, validation, metrics and indexes.
 No old baseline is rerun. No other large model trains while Octo is active.
+
+## Frozen budget and model selection
+
+One joint source_target model: batch32,24000 updates,768000 sampled anchors
+(384000source/384000target; each task half). Reset to original pretrained weights;
+discard the6 diagnostic optimizer updates (batch8 and32,3each). Native AdamW,
+peak3e-4,2000 warmup updates, cosine to zero at24000, decay0.01, clip1.0,
+bfloat16 first moment and frozen `*hf_model*` keys. No validation-driven extension.
+
+Validate at1000..24000 on the original256 held-out target anchors, using fixed
+diffusion keys `17000+batch_offset`. Select minimum native DDPM noise-prediction
+loss, earliest tie. Save complete optimizer/model/RNG state every500 updates;
+retain one best native checkpoint plus the resume state. Fixed update budget;
+halt on nonfinite/error, free disk below25GiB, or14400 training seconds. Never
+choose a checkpoint using smoke or EXPOSED_REFERENCE success.
+
+Differences from official generic Bridge finetuning example: batch32 vs256,
+24000 vs50000 updates, history2 (released checkpoint's native history) vs example1,
+custom existing HDF5 identities and balanced UR5e/Panda sampling, fixed validation
+anchors, unchanged RoboCasa-X action interface. Model/loss/augmentation/optimizer
+implementations and all pretrained core weights remain official. This is a
+declared faithful task port with a bounded GPU budget, not the default full budget.
+
+Actual gates: both batch8 and32 performed3 updates;252 tensors changed, T5 unchanged.
+136670604 total parameters =109628544 frozen T5 +27042060 remaining parameters.
+Batch32 hot updates averaged0.4201s; final snapshot19198MiB (~18.7GiB, including
+desktop), not a measured exact peak. Both smoke episodes finished600/650steps,
+official success false, and passed state/action/queue/video/goal acceptance.
+These2 smoke trials are development data, not80 formal trials or a success estimate.
+
+Native T5 max16 tokens truncates the17-token Sink→Counter strings by one token;
+the16 original instructions still have zero cross-task token collisions.
+Keep this native preprocessing limitation explicit; no task string is rewritten.

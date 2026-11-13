@@ -44,7 +44,11 @@ def load_model(checkpoint=None):
 def optimizer(model,num_steps,probe=False):
     kwargs=get_config('full,language_conditioned').optimizer.to_dict()
     kwargs['frozen_keys']=model.config['optimizer']['frozen_keys']
-    if probe:kwargs['learning_rate']=3e-5  # probe-only: avoid the zero-LR first warmup step
+    if probe:
+        # Keep the official schedule-dict code path. Its constant-scalar branch
+        # closes over a subsequently overwritten kwargs entry in this revision.
+        kwargs['learning_rate']=dict(name='cosine',init_value=3e-5,peak_value=3e-5,
+            warmup_steps=1,decay_steps=100,end_value=3e-5)
     else:kwargs['learning_rate']['decay_steps']=num_steps
     tx,lr,_=create_optimizer(model.params,**kwargs)
     return tx,lr,kwargs
@@ -88,7 +92,8 @@ def serve(socket,checkpoint,ledger):
         with listener.accept() as connection:
             connection.send(metadata)
             while True:
-                request=connection.recv()
+                try:request=connection.recv()
+                except EOFError:break  # evaluator process exited after its completed job
                 if request['command']=='close':break
                 if request['command']=='reset':
                     # Original evaluator seeds every episode alike. Reset both

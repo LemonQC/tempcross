@@ -14,17 +14,24 @@ Native JAX0.4.20/Flax0.7.5 run in a separate prefix:
 `/home/users/lemon/strong-baselines-20261112/octo_small/env`.
 Raw large files, checkpoints and videos stay in the server method directory.
 
-Current gate:official source and checkpoint acquisition plus isolated runtime
-setup. No real training update or task smoke has passed yet. No formal budget
-is frozen. Do not claim a completed baseline or start formal training prematurely.
+Current gate:all preflight gates PASS; formal protocol frozen.6 actual discarded
+probe updates,252 tensors changed with frozen T5 unchanged. Both complete task
+smoke episodes accepted (600/650steps, success false). No formal result yet.
+Finish the640 lossless native RGB caches and verify `data/pack_index.json` PASS,
+then launch formal training with the frozen budget. Do not retrain passed probes.
 Native model supports single primary RGB256,language,T5 frozen encoder,2-frame
 history and4-step diffusion actions. Wrist inputs can be absent by the original
 mask contract. Initial main setting is UR5e+Panda full finetuning, retaining
 native transformer/diffusion/T5 and original540/60 source,90/10 target identity
 split. Saved raw RGB is available directly; no camera re-rendering is needed.
 Original canonical OSC7→12 and full placement AND retreat are unchanged.
-Model/resource/update probe and full smoke precede final configuration/budget
-freeze. All reference60–99 trials are EXPOSED_REFERENCE, never independent test.
+Use `env/bin/python -m results.strong_baselines.octo_small.launch train` from
+the scientific repository. This launcher must set isolated CUDA11 library search
+paths BEFORE importing TensorFlow, preventing its system cuSOLVER from polluting
+JAX. `train.py` checks protocol/code/data hashes and resumes optimizer+RNG.
+Frozen batch32×24000,768000 anchors, native full finetuning, validation every1000,
+minimum fixed256-anchor DDPM loss, checkpoint/resume every500,14400s wall cap.
+All reference60–99 trials are EXPOSED_REFERENCE, never independent test.
 
 The prior six-method delivery is historical, not the active stopping condition.
 Read `results/strong_baselines/research_scope.json` and current server
