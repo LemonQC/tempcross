@@ -1,13 +1,13 @@
 {
-  "status": "RUNNING",
-  "actual_training_updates": 12000,
-  "saved_step": 12000,
+  "status": "COMPLETE",
+  "actual_training_updates": 16000,
+  "saved_step": 16000,
   "protocol_sha256": "92433d9e7dc381c009ae42ffb590148156f98f2843bfbbf632a2be4ed54421aa",
   "source": "official SmolVLAPolicy.forward/native AdamW/native scheduler",
   "initial_pretrained_sha256": "7cd549ac2351fb069c0ddb3c34ad2d09cfc92b56a15dccdfc2e41467aaca01eb",
   "best_validation": 0.23551705992571065,
   "best_step": 2000,
-  "elapsed_seconds": 9855.199218543712,
+  "elapsed_seconds": 13137.537867909763,
   "start_resources": {
     "utc": "2026-11-13T14:50:36.152124+00:00",
     "gpu": "NVIDIA GeForce RTX 3090, 24576 MiB, 2018 MiB, 8 %",
@@ -16,8 +16,16 @@
   "peak_allocated_bytes": 6059237888,
   "peak_reserved_bytes": 6639583232,
   "resources": {
-    "utc": "2026-11-13T17:34:52.449644+00:00",
-    "gpu": "NVIDIA GeForce RTX 3090, 24576 MiB, 7254 MiB, 8 %",
-    "disk_free_bytes": 52446003200
-  }
+    "utc": "2026-11-13T18:29:34.532321+00:00",
+    "gpu": "NVIDIA GeForce RTX 3090, 24576 MiB, 7266 MiB, 7 %",
+    "disk_free_bytes": 52440694784
+  },
+  "optimizer_step_counters": [
+    16000
+  ],
+  "scheduler_last_epoch": 16000,
+  "anchors_consumed": 512000,
+  "checkpoint": "/home/users/lemon/strong-baselines-20261112/smolvla/training/source_target_state/best.pt",
+  "checkpoint_sha256": "364b9c5dfc17996df412f8e64dfc7b7c1df710a1b35f9acadbd62776d3fd5bc8",
+  "model_selection": "minimum fixed target-validation real7 valid-frame flow MSE; earliest tie"
 }

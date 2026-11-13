@@ -1,24 +1,31 @@
 {
   "status": "PARTIAL",
-  "phase": "FORMAL_TRAINING",
-  "as_of_utc": "2026-11-13T17:35:42.905017+00:00",
-  "verified_persisted_training_updates": 12000,
-  "resumable_saved_update": 12000,
+  "phase": "FORMAL_EVALUATION",
+  "as_of_utc": "2026-11-13T18:30:50.333648+00:00",
+  "verified_persisted_training_updates": 16000,
+  "resumable_saved_update": 16000,
   "frozen_training_budget": 16000,
-  "completed_official_episodes": 0,
-  "episodes": [],
+  "completed_official_episodes": 1,
+  "episodes": [
+    {
+      "task": "pnp_counter_to_sink",
+      "index": 60,
+      "success": false,
+      "steps": 600
+    }
+  ],
   "role": "EXPOSED_REFERENCE",
-  "success_rate": null,
+  "success_rate": 0.0,
   "latest_training_record": {
-    "update": 12000,
+    "update": 16000,
     "metrics": {
-      "loss": 0.09226956963539124,
-      "grad_norm": 0.25359630584716797,
-      "learning_rate": 1.677854441715581e-05
+      "loss": 0.07928268611431122,
+      "grad_norm": 0.2035294473171234,
+      "learning_rate": 2.5e-06
     },
-    "anchors_consumed": 384000,
-    "elapsed_seconds": 9848.188898065593,
-    "utc": "2026-11-13T17:34:45.386564+00:00"
+    "anchors_consumed": 512000,
+    "elapsed_seconds": 13129.981034771074,
+    "utc": "2026-11-13T18:29:27.516017+00:00"
   },
   "validation_history": [
     {
@@ -116,6 +123,38 @@
         "native_full32_masked_mean": 0.0661823183298111
       },
       "utc": "2026-11-13T17:34:51.129106+00:00"
+    },
+    {
+      "update": 13000,
+      "validation": {
+        "real7_valid_flow_mse": 0.3189139320077856,
+        "native_full32_masked_mean": 0.06709214568138122
+      },
+      "utc": "2026-11-13T17:48:33.064856+00:00"
+    },
+    {
+      "update": 14000,
+      "validation": {
+        "real7_valid_flow_mse": 0.3198399340102175,
+        "native_full32_masked_mean": 0.0672599869966507
+      },
+      "utc": "2026-11-13T18:02:14.406616+00:00"
+    },
+    {
+      "update": 15000,
+      "validation": {
+        "real7_valid_flow_mse": 0.32412179414508796,
+        "native_full32_masked_mean": 0.06811754882335663
+      },
+      "utc": "2026-11-13T18:15:53.995210+00:00"
+    },
+    {
+      "update": 16000,
+      "validation": {
+        "real7_valid_flow_mse": 0.3219572824614741,
+        "native_full32_masked_mean": 0.0676349812746048
+      },
+      "utc": "2026-11-13T18:29:33.209781+00:00"
     }
   ],
   "formal_budget_changed": false

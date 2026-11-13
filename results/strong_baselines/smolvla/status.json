@@ -1,13 +1,13 @@
 {
   "status": "PARTIAL",
   "method": "smolvla",
-  "phase": "FORMAL_TRAINING",
+  "phase": "FORMAL_EVALUATION",
   "information_tier": "RGB_PLUS_NATIVE_PROPRIOCEPTION",
-  "actual_training_updates": 12000,
+  "actual_training_updates": 16000,
   "discarded_probe_optimizer_updates": 9,
-  "physical_evaluation_episodes": 0,
+  "physical_evaluation_episodes": 1,
   "physical_smoke_episodes": 2,
-  "success_rate": null,
+  "success_rate": 0.0,
   "ordinary_repairs_allowed": true,
   "formal_budget_frozen": true
 }
