@@ -10,7 +10,7 @@
 | vqbet | COMPLETE_FAITHFUL_PORT | 60000 | 160 | 分设置见下表 | [状态](../results/strong_baselines/vqbet/status.json) |
 | mimicgen_v2 | PARTIAL | 48000 | 80 | 0.025 | [状态](../results/strong_baselines/mimicgen_v2/status.json) |
 | kite | BLOCKED | 0 | 0 | N/A | [状态](../results/strong_baselines/kite/status.json) |
-| crosszero | NOT_RUN | 0 | 0 | N/A | [状态](../results/strong_baselines/crosszero/status.json) |
+| crosszero | BLOCKED | 0 | 0 | N/A | [状态](../results/strong_baselines/crosszero/status.json) |
 | object_flow | NOT_RUN | 0 | 0 | N/A | [状态](../results/strong_baselines/object_flow/status.json) |
 
 状态含义：COMPLETE_OFFICIAL 为核心与原生设置完整复现；COMPLETE_FAITHFUL_PORT 为核心保留、已声明平台/接口适配并完成训练及官方完整任务评测；COMPLETE_REIMPLEMENTATION 为已声明的忠实重实现；PARTIAL 为尚未闭环；BLOCKED 为具体阻碍已记录；NOT_RUN 为尚未执行。
@@ -46,7 +46,7 @@
 | vqbet | ["ur5e"] | ["128x128 RGB, resized nearest to224 for native frozen ResNet18", "frozen CLIP-L instruction768, learned prefix projection"] | 45 | [冻结协议](../results/strong_baselines/vqbet/protocol.json) |
 | mimicgen_v2 | ["panda_seed_demonstrations_for_generation"] | ["128x128 RGB", "frozen CLIP-L instruction"] | 45 | [冻结协议](../results/strong_baselines/mimicgen_v2/protocol.json) |
 | kite | ["ur5e"] | 未部署；原生需求为object-only点云、上一intent、实测configuration及运动学模型；不同于RGB-only信息条件 | 0 | [未冻结边界](../results/strong_baselines/kite/protocol.json) |
-| crosszero | 尚未核对 | 尚未核对 | N/A | NOT_RUN |
+| crosszero | ["ur5e"] | 未部署；原生robot-masked XYZRGB点云、EE状态、关节状态；训练另需物体功能位姿监督 | 0 | [未冻结边界](../results/strong_baselines/crosszero/protocol.json) |
 | object_flow | 尚未核对 | 尚未核对 | N/A | NOT_RUN |
 
 旧BC/DP源池包含IIWA、Kinova3和UR5e。新增ACT及VQ-BeT依本轮UR5e/Panda设置仅取UR5e的600条源示范，保留原有身份划分；旧结果不重训、不覆盖，也不把跨源池比较称为等数据预算比较。BARX预训练/适配及MimicGen生成监督的来源仍以各自原协议为准。

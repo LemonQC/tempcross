@@ -1,0 +1,14 @@
+{
+  "actual_training_updates": 0,
+  "policy_inferences": 0,
+  "new_physics_steps": 0,
+  "formal_episodes": 0,
+  "teacher_rollout_episodes": 0,
+  "full_physical_smoke_episodes": 0,
+  "resource_snapshot": {
+    "utc": "2026-11-13T04:57:36.672908+00:00",
+    "gpu": "NVIDIA GeForce RTX 3090, 24576 MiB, 589 MiB, 40 %",
+    "disk_free_bytes": 139592998912
+  },
+  "large_artifacts": "No new weights/videos; cached paper remains server-side"
+}

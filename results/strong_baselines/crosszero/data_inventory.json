@@ -1,0 +1,118 @@
+{
+  "source_original_raw_identity_summary": {
+    "status": "PASS_RAW_IDENTITY_AND_FIELD_AVAILABILITY",
+    "utc": "2026-11-13T04:19:44.013203+00:00",
+    "demonstrations": 600,
+    "train": 540,
+    "validation": 60,
+    "actions_matched_all_frames": true,
+    "new_demonstrations": 0,
+    "new_training_updates": 0,
+    "new_policy_rollouts": 0,
+    "source_manifest_sha256": "fa913dc702e85e4da7ac364609dc714c5cd901b1751480628a1f167efd244298",
+    "acquisition": {
+      "utc": "2026-11-13T04:19:25.838101+00:00",
+      "status": "COMPLETE",
+      "release": {
+        "repo_id": "ajaysri/barx-raw-hdf5",
+        "repo_type": "dataset",
+        "revision": "c8b3aba2dfbbfbafa67fa82466320945d560208f",
+        "tag": "v1.0.0",
+        "collection": "ajaysri/barx-raw-hdf5-data-6a61b2d60e2a7ca90b75fb68"
+      },
+      "manifest_sha256": "067d488c6f606f79591345bf50c9af0b3f6943a362c3aebe780e83c72983beca",
+      "verified": [
+        {
+          "release_group": "cross-embodiment prior",
+          "paper_sets": "XP-3K;XP-900",
+          "embodiment": "UR5e",
+          "task": "PnP Counter to Sink",
+          "demonstrations": "100",
+          "seed": "0",
+          "bytes": "1316175117",
+          "sha256": "809d2df7698f64c645a499a0d05ac6d4b0dc857913049f2110d6fded1615d938",
+          "relative_path": "mg/UR5eOmron/PnPCounterToSink/100demos_seed0/demo_gentex_im320_randcams.hdf5",
+          "absolute_path": "/home/users/lemon/strong-baselines-20261112/raw_source_ur5e/mg/UR5eOmron/PnPCounterToSink/100demos_seed0/demo_gentex_im320_randcams.hdf5"
+        },
+        {
+          "release_group": "cross-embodiment prior",
+          "paper_sets": "XP-3K;XP-900",
+          "embodiment": "UR5e",
+          "task": "PnP Counter to Sink",
+          "demonstrations": "100",
+          "seed": "1",
+          "bytes": "1322198857",
+          "sha256": "8dbf66425a24c5d360c3158b6aae229f5e97a3940e44d5f71479c10a9f2ea914",
+          "relative_path": "mg/UR5eOmron/PnPCounterToSink/100demos_seed1/demo_gentex_im320_randcams.hdf5",
+          "absolute_path": "/home/users/lemon/strong-baselines-20261112/raw_source_ur5e/mg/UR5eOmron/PnPCounterToSink/100demos_seed1/demo_gentex_im320_randcams.hdf5"
+        },
+        {
+          "release_group": "cross-embodiment prior",
+          "paper_sets": "XP-3K;XP-900",
+          "embodiment": "UR5e",
+          "task": "PnP Counter to Sink",
+          "demonstrations": "100",
+          "seed": "2",
+          "bytes": "1266208095",
+          "sha256": "1141c84301152e25f1aa480e8c77f7b450d4a41a55f8bb7dbca5b237cf4a6038",
+          "relative_path": "mg/UR5eOmron/PnPCounterToSink/100demos_seed2/demo_gentex_im320_randcams.hdf5",
+          "absolute_path": "/home/users/lemon/strong-baselines-20261112/raw_source_ur5e/mg/UR5eOmron/PnPCounterToSink/100demos_seed2/demo_gentex_im320_randcams.hdf5"
+        },
+        {
+          "release_group": "cross-embodiment prior",
+          "paper_sets": "XP-3K;XP-900",
+          "embodiment": "UR5e",
+          "task": "PnP Sink to Counter",
+          "demonstrations": "100",
+          "seed": "0",
+          "bytes": "1542598534",
+          "sha256": "4da925ca3c6dcc92b0d31df981fbac576d1db5b871bad421451e56ac36543efd",
+          "relative_path": "mg/UR5eOmron/PnPSinkToCounter/100demos_seed0/demo_gentex_im320_randcams.hdf5",
+          "absolute_path": "/home/users/lemon/strong-baselines-20261112/raw_source_ur5e/mg/UR5eOmron/PnPSinkToCounter/100demos_seed0/demo_gentex_im320_randcams.hdf5"
+        },
+        {
+          "release_group": "cross-embodiment prior",
+          "paper_sets": "XP-3K;XP-900",
+          "embodiment": "UR5e",
+          "task": "PnP Sink to Counter",
+          "demonstrations": "100",
+          "seed": "1",
+          "bytes": "1510615977",
+          "sha256": "361d791d7c3536e3883e6a7a9840ea695ac8a5ad4d216ea006befce692525c5e",
+          "relative_path": "mg/UR5eOmron/PnPSinkToCounter/100demos_seed1/demo_gentex_im320_randcams.hdf5",
+          "absolute_path": "/home/users/lemon/strong-baselines-20261112/raw_source_ur5e/mg/UR5eOmron/PnPSinkToCounter/100demos_seed1/demo_gentex_im320_randcams.hdf5"
+        },
+        {
+          "release_group": "cross-embodiment prior",
+          "paper_sets": "XP-3K;XP-900",
+          "embodiment": "UR5e",
+          "task": "PnP Sink to Counter",
+          "demonstrations": "100",
+          "seed": "2",
+          "bytes": "1491350951",
+          "sha256": "830a6e5542739d374b29ae8198ee7afdac65b2688210ec63765d6fe9ec9d1ee7",
+          "relative_path": "mg/UR5eOmron/PnPSinkToCounter/100demos_seed2/demo_gentex_im320_randcams.hdf5",
+          "absolute_path": "/home/users/lemon/strong-baselines-20261112/raw_source_ur5e/mg/UR5eOmron/PnPSinkToCounter/100demos_seed2/demo_gentex_im320_randcams.hdf5"
+        }
+      ],
+      "transport": "direct_public_mirror_ranges",
+      "new_demonstrations": 0,
+      "new_physics_steps": 0,
+      "new_training_updates": 0,
+      "note": "Original XP900 UR5e data only; identity mapping still must be verified before training."
+    },
+    "depth_present_episodes": 0,
+    "contacts_extracted": false,
+    "geometry_reconstruction_validated": false,
+    "limitation": "Saved state and camera metadata availability do not certify contact or depth reconstruction."
+  },
+  "target_original_demos": 100,
+  "target_joint_fields_present": true,
+  "target_demos_used_for_learning": 0,
+  "source_joint_fields_present": true,
+  "depth_present_in_raw_files": false,
+  "calibrated_robot_masked_cloud_reconstruction_validated": false,
+  "functional_pose_supervision_certified": false,
+  "out_of_domain_crosszero_policy_teacher_rollouts_available": 0,
+  "inference": "States and geometry may support reconstruction; no fabricated contact, pose or IK label has been generated"
+}

@@ -1,8 +1,11 @@
 {
-  "status": "NOT_RUN",
+  "status": "BLOCKED",
   "method": "crosszero",
   "actual_training_updates": 0,
   "physical_evaluation_episodes": 0,
   "success_rate": null,
-  "technical_repairs": 0
+  "technical_repairs": 0,
+  "reason_code": "REFERENCE_IMPLEMENTATION_AND_FAITHFUL_JOINT_DEPLOYMENT_UNVERIFIED",
+  "full_baseline_completed": false,
+  "utc": "2026-11-13T04:57:36.673061+00:00"
 }

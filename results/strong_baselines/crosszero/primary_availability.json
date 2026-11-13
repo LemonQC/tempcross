@@ -1,0 +1,21 @@
+{
+  "checks": [
+    {
+      "kind": "publisher_page",
+      "url": "https://openaccess.thecvf.com/content/CVPR2026W/GigaBrainChallenge/html/Ge_CrossZero_Zero-Shot_of_Unseen_Embodiment_Manipulation_via_Object-Centric_Hierarchical_Diffusion_CVPRW_2026_paper.html",
+      "utc": "2026-11-13T04:55:48.413848+00:00",
+      "http_status": 200,
+      "github_links": []
+    },
+    {
+      "kind": "huggingface_models",
+      "url": "https://huggingface.co/api/models?search=CrossZero&limit=30",
+      "utc": "2026-11-13T04:55:48.414116+00:00",
+      "http_status": 200,
+      "returned_model_ids": []
+    }
+  ],
+  "prior_direct_huggingface_request": "ConnectTimeout, recorded separately; no model absence inferred",
+  "official_weights_verified": false,
+  "search_is_bounded": true
+}

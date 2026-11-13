@@ -1,0 +1,10 @@
+{
+  "official_source_gate": "NOT_VERIFIED",
+  "native_module_definitions": "REVIEWED_IN_PAPER",
+  "raw_joint_state_availability": "PASS_FIELD_AND_SOURCE_IDENTITY_AUDIT",
+  "fixed_action_boundary": "PASS_AUDIT_NOT_A_PORT",
+  "functional_pose_labels": "NOT_CERTIFIED",
+  "faithful_target_ik_deployment": "NOT_ESTABLISHED",
+  "real_training_update": "NOT_RUN",
+  "physical_smoke": "NOT_RUN"
+}

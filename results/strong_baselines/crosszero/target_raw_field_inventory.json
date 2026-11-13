@@ -1,0 +1,1321 @@
+{
+  "scope": "FIELD_AVAILABILITY_ONLY_NOT_USED_FOR_LEARNING",
+  "tasks": [
+    {
+      "task": "PnPCounterToSink",
+      "path": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "demonstrations": 50,
+      "rows": [
+        {
+          "raw_demo": "demo_1",
+          "frames": 406,
+          "joint_states": [
+            406,
+            7
+          ],
+          "states": [
+            406,
+            184
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_10",
+          "frames": 371,
+          "joint_states": [
+            371,
+            7
+          ],
+          "states": [
+            371,
+            158
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_11",
+          "frames": 400,
+          "joint_states": [
+            400,
+            7
+          ],
+          "states": [
+            400,
+            158
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_12",
+          "frames": 383,
+          "joint_states": [
+            383,
+            7
+          ],
+          "states": [
+            383,
+            182
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_13",
+          "frames": 386,
+          "joint_states": [
+            386,
+            7
+          ],
+          "states": [
+            386,
+            172
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_14",
+          "frames": 375,
+          "joint_states": [
+            375,
+            7
+          ],
+          "states": [
+            375,
+            172
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_15",
+          "frames": 347,
+          "joint_states": [
+            347,
+            7
+          ],
+          "states": [
+            347,
+            158
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_16",
+          "frames": 356,
+          "joint_states": [
+            356,
+            7
+          ],
+          "states": [
+            356,
+            180
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_17",
+          "frames": 433,
+          "joint_states": [
+            433,
+            7
+          ],
+          "states": [
+            433,
+            172
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_18",
+          "frames": 392,
+          "joint_states": [
+            392,
+            7
+          ],
+          "states": [
+            392,
+            172
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_19",
+          "frames": 412,
+          "joint_states": [
+            412,
+            7
+          ],
+          "states": [
+            412,
+            172
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_2",
+          "frames": 448,
+          "joint_states": [
+            448,
+            7
+          ],
+          "states": [
+            448,
+            158
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_20",
+          "frames": 368,
+          "joint_states": [
+            368,
+            7
+          ],
+          "states": [
+            368,
+            182
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_21",
+          "frames": 361,
+          "joint_states": [
+            361,
+            7
+          ],
+          "states": [
+            361,
+            180
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_22",
+          "frames": 365,
+          "joint_states": [
+            365,
+            7
+          ],
+          "states": [
+            365,
+            158
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_23",
+          "frames": 428,
+          "joint_states": [
+            428,
+            7
+          ],
+          "states": [
+            428,
+            184
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_24",
+          "frames": 444,
+          "joint_states": [
+            444,
+            7
+          ],
+          "states": [
+            444,
+            158
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_25",
+          "frames": 381,
+          "joint_states": [
+            381,
+            7
+          ],
+          "states": [
+            381,
+            172
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_26",
+          "frames": 462,
+          "joint_states": [
+            462,
+            7
+          ],
+          "states": [
+            462,
+            172
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_27",
+          "frames": 343,
+          "joint_states": [
+            343,
+            7
+          ],
+          "states": [
+            343,
+            172
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_28",
+          "frames": 337,
+          "joint_states": [
+            337,
+            7
+          ],
+          "states": [
+            337,
+            158
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_29",
+          "frames": 409,
+          "joint_states": [
+            409,
+            7
+          ],
+          "states": [
+            409,
+            158
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_3",
+          "frames": 330,
+          "joint_states": [
+            330,
+            7
+          ],
+          "states": [
+            330,
+            182
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_30",
+          "frames": 428,
+          "joint_states": [
+            428,
+            7
+          ],
+          "states": [
+            428,
+            158
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_31",
+          "frames": 367,
+          "joint_states": [
+            367,
+            7
+          ],
+          "states": [
+            367,
+            184
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_32",
+          "frames": 376,
+          "joint_states": [
+            376,
+            7
+          ],
+          "states": [
+            376,
+            158
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_33",
+          "frames": 442,
+          "joint_states": [
+            442,
+            7
+          ],
+          "states": [
+            442,
+            182
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_34",
+          "frames": 303,
+          "joint_states": [
+            303,
+            7
+          ],
+          "states": [
+            303,
+            180
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_35",
+          "frames": 397,
+          "joint_states": [
+            397,
+            7
+          ],
+          "states": [
+            397,
+            172
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_36",
+          "frames": 380,
+          "joint_states": [
+            380,
+            7
+          ],
+          "states": [
+            380,
+            184
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_37",
+          "frames": 362,
+          "joint_states": [
+            362,
+            7
+          ],
+          "states": [
+            362,
+            172
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_38",
+          "frames": 451,
+          "joint_states": [
+            451,
+            7
+          ],
+          "states": [
+            451,
+            158
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_39",
+          "frames": 341,
+          "joint_states": [
+            341,
+            7
+          ],
+          "states": [
+            341,
+            180
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_4",
+          "frames": 321,
+          "joint_states": [
+            321,
+            7
+          ],
+          "states": [
+            321,
+            180
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_40",
+          "frames": 398,
+          "joint_states": [
+            398,
+            7
+          ],
+          "states": [
+            398,
+            180
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_41",
+          "frames": 313,
+          "joint_states": [
+            313,
+            7
+          ],
+          "states": [
+            313,
+            172
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_42",
+          "frames": 369,
+          "joint_states": [
+            369,
+            7
+          ],
+          "states": [
+            369,
+            158
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_43",
+          "frames": 284,
+          "joint_states": [
+            284,
+            7
+          ],
+          "states": [
+            284,
+            182
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_44",
+          "frames": 391,
+          "joint_states": [
+            391,
+            7
+          ],
+          "states": [
+            391,
+            172
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_45",
+          "frames": 399,
+          "joint_states": [
+            399,
+            7
+          ],
+          "states": [
+            399,
+            184
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_46",
+          "frames": 335,
+          "joint_states": [
+            335,
+            7
+          ],
+          "states": [
+            335,
+            182
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_47",
+          "frames": 364,
+          "joint_states": [
+            364,
+            7
+          ],
+          "states": [
+            364,
+            158
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_48",
+          "frames": 397,
+          "joint_states": [
+            397,
+            7
+          ],
+          "states": [
+            397,
+            182
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_49",
+          "frames": 372,
+          "joint_states": [
+            372,
+            7
+          ],
+          "states": [
+            372,
+            180
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_5",
+          "frames": 360,
+          "joint_states": [
+            360,
+            7
+          ],
+          "states": [
+            360,
+            158
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_50",
+          "frames": 387,
+          "joint_states": [
+            387,
+            7
+          ],
+          "states": [
+            387,
+            180
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_6",
+          "frames": 280,
+          "joint_states": [
+            280,
+            7
+          ],
+          "states": [
+            280,
+            180
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_7",
+          "frames": 462,
+          "joint_states": [
+            462,
+            7
+          ],
+          "states": [
+            462,
+            158
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_8",
+          "frames": 381,
+          "joint_states": [
+            381,
+            7
+          ],
+          "states": [
+            381,
+            180
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_9",
+          "frames": 370,
+          "joint_states": [
+            370,
+            7
+          ],
+          "states": [
+            370,
+            158
+          ],
+          "depth_dataset_present": false
+        }
+      ]
+    },
+    {
+      "task": "PnPSinkToCounter",
+      "path": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "demonstrations": 50,
+      "rows": [
+        {
+          "raw_demo": "demo_1",
+          "frames": 441,
+          "joint_states": [
+            441,
+            7
+          ],
+          "states": [
+            441,
+            158
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_10",
+          "frames": 1057,
+          "joint_states": [
+            1057,
+            7
+          ],
+          "states": [
+            1057,
+            158
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_11",
+          "frames": 471,
+          "joint_states": [
+            471,
+            7
+          ],
+          "states": [
+            471,
+            158
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_12",
+          "frames": 437,
+          "joint_states": [
+            437,
+            7
+          ],
+          "states": [
+            437,
+            180
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_13",
+          "frames": 368,
+          "joint_states": [
+            368,
+            7
+          ],
+          "states": [
+            368,
+            184
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_14",
+          "frames": 488,
+          "joint_states": [
+            488,
+            7
+          ],
+          "states": [
+            488,
+            158
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_15",
+          "frames": 338,
+          "joint_states": [
+            338,
+            7
+          ],
+          "states": [
+            338,
+            184
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_16",
+          "frames": 386,
+          "joint_states": [
+            386,
+            7
+          ],
+          "states": [
+            386,
+            180
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_17",
+          "frames": 464,
+          "joint_states": [
+            464,
+            7
+          ],
+          "states": [
+            464,
+            180
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_18",
+          "frames": 451,
+          "joint_states": [
+            451,
+            7
+          ],
+          "states": [
+            451,
+            180
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_19",
+          "frames": 434,
+          "joint_states": [
+            434,
+            7
+          ],
+          "states": [
+            434,
+            172
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_2",
+          "frames": 507,
+          "joint_states": [
+            507,
+            7
+          ],
+          "states": [
+            507,
+            172
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_20",
+          "frames": 461,
+          "joint_states": [
+            461,
+            7
+          ],
+          "states": [
+            461,
+            180
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_21",
+          "frames": 462,
+          "joint_states": [
+            462,
+            7
+          ],
+          "states": [
+            462,
+            172
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_22",
+          "frames": 441,
+          "joint_states": [
+            441,
+            7
+          ],
+          "states": [
+            441,
+            172
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_23",
+          "frames": 360,
+          "joint_states": [
+            360,
+            7
+          ],
+          "states": [
+            360,
+            184
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_24",
+          "frames": 332,
+          "joint_states": [
+            332,
+            7
+          ],
+          "states": [
+            332,
+            158
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_25",
+          "frames": 426,
+          "joint_states": [
+            426,
+            7
+          ],
+          "states": [
+            426,
+            158
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_26",
+          "frames": 374,
+          "joint_states": [
+            374,
+            7
+          ],
+          "states": [
+            374,
+            158
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_27",
+          "frames": 371,
+          "joint_states": [
+            371,
+            7
+          ],
+          "states": [
+            371,
+            172
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_28",
+          "frames": 377,
+          "joint_states": [
+            377,
+            7
+          ],
+          "states": [
+            377,
+            172
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_29",
+          "frames": 367,
+          "joint_states": [
+            367,
+            7
+          ],
+          "states": [
+            367,
+            180
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_3",
+          "frames": 432,
+          "joint_states": [
+            432,
+            7
+          ],
+          "states": [
+            432,
+            158
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_30",
+          "frames": 440,
+          "joint_states": [
+            440,
+            7
+          ],
+          "states": [
+            440,
+            182
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_31",
+          "frames": 319,
+          "joint_states": [
+            319,
+            7
+          ],
+          "states": [
+            319,
+            182
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_32",
+          "frames": 415,
+          "joint_states": [
+            415,
+            7
+          ],
+          "states": [
+            415,
+            158
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_33",
+          "frames": 424,
+          "joint_states": [
+            424,
+            7
+          ],
+          "states": [
+            424,
+            180
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_34",
+          "frames": 422,
+          "joint_states": [
+            422,
+            7
+          ],
+          "states": [
+            422,
+            180
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_35",
+          "frames": 410,
+          "joint_states": [
+            410,
+            7
+          ],
+          "states": [
+            410,
+            172
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_36",
+          "frames": 377,
+          "joint_states": [
+            377,
+            7
+          ],
+          "states": [
+            377,
+            158
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_37",
+          "frames": 480,
+          "joint_states": [
+            480,
+            7
+          ],
+          "states": [
+            480,
+            158
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_38",
+          "frames": 563,
+          "joint_states": [
+            563,
+            7
+          ],
+          "states": [
+            563,
+            182
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_39",
+          "frames": 538,
+          "joint_states": [
+            538,
+            7
+          ],
+          "states": [
+            538,
+            172
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_4",
+          "frames": 370,
+          "joint_states": [
+            370,
+            7
+          ],
+          "states": [
+            370,
+            158
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_40",
+          "frames": 467,
+          "joint_states": [
+            467,
+            7
+          ],
+          "states": [
+            467,
+            172
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_41",
+          "frames": 457,
+          "joint_states": [
+            457,
+            7
+          ],
+          "states": [
+            457,
+            184
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_42",
+          "frames": 476,
+          "joint_states": [
+            476,
+            7
+          ],
+          "states": [
+            476,
+            180
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_43",
+          "frames": 407,
+          "joint_states": [
+            407,
+            7
+          ],
+          "states": [
+            407,
+            182
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_44",
+          "frames": 412,
+          "joint_states": [
+            412,
+            7
+          ],
+          "states": [
+            412,
+            172
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_45",
+          "frames": 434,
+          "joint_states": [
+            434,
+            7
+          ],
+          "states": [
+            434,
+            184
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_46",
+          "frames": 522,
+          "joint_states": [
+            522,
+            7
+          ],
+          "states": [
+            522,
+            158
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_47",
+          "frames": 340,
+          "joint_states": [
+            340,
+            7
+          ],
+          "states": [
+            340,
+            158
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_48",
+          "frames": 477,
+          "joint_states": [
+            477,
+            7
+          ],
+          "states": [
+            477,
+            180
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_49",
+          "frames": 513,
+          "joint_states": [
+            513,
+            7
+          ],
+          "states": [
+            513,
+            158
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_5",
+          "frames": 314,
+          "joint_states": [
+            314,
+            7
+          ],
+          "states": [
+            314,
+            158
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_50",
+          "frames": 410,
+          "joint_states": [
+            410,
+            7
+          ],
+          "states": [
+            410,
+            172
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_6",
+          "frames": 414,
+          "joint_states": [
+            414,
+            7
+          ],
+          "states": [
+            414,
+            184
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_7",
+          "frames": 410,
+          "joint_states": [
+            410,
+            7
+          ],
+          "states": [
+            410,
+            158
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_8",
+          "frames": 469,
+          "joint_states": [
+            469,
+            7
+          ],
+          "states": [
+            469,
+            184
+          ],
+          "depth_dataset_present": false
+        },
+        {
+          "raw_demo": "demo_9",
+          "frames": 573,
+          "joint_states": [
+            573,
+            7
+          ],
+          "states": [
+            573,
+            182
+          ],
+          "depth_dataset_present": false
+        }
+      ]
+    }
+  ],
+  "new_training_updates": 0,
+  "new_physics_steps": 0
+}

@@ -1,0 +1,14 @@
+{
+  "technical_repairs": 0,
+  "reason_code": "REFERENCE_IMPLEMENTATION_AND_FAITHFUL_JOINT_DEPLOYMENT_UNVERIFIED",
+  "source_gate": "No author-verified source/checkpoint/reference output established",
+  "reconstruction_gate": "Paper core and many hyperparameters are available; native functional-pose/16D action conventions and checkpoint-merging details remain uncertified",
+  "interface_gate": "Native learned qpos sequences have no direct channel in fixed Cartesian OSC; a FK projection loses redundant posture intent",
+  "limits": "Neither negative search nor channel counting proves scientific impossibility. A faithful implementation/bridge has not been established in this setting.",
+  "acquisition_errors": [
+    "One direct Hugging Face request timed out; subsequent primary-site request succeeded",
+    "Web open of publisher returned403; recorded requests retrieval succeeded200"
+  ],
+  "method_failures_observed": 0,
+  "full_baseline_completed": false
+}

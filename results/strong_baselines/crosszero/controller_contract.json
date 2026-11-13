@@ -1,0 +1,18 @@
+{
+  "status": "PASS_INTERFACE_INSPECTION_ONLY",
+  "source_path": "/home/users/lemon/coft-p2/barx/.venv/lib/python3.10/site-packages/robosuite/controllers/parts/arm/osc.py",
+  "source_sha256": "bcc238dbe7a95fe64f48469ef4d6a4f3ed3869992c8805452e0c881ae457873b",
+  "arm_command_semantics": "6 Cartesian OSC dimensions",
+  "gripper_command_dimensions": 1,
+  "environment_dimensions": 12,
+  "panda_joint_position_plus_gripper_dimensions": 8,
+  "direct_joint_target8_rejected": true,
+  "goal_setter_assigns_joint_nullspace_target": false,
+  "nullspace_posture_reference": "controller.initial_joint",
+  "conclusion": "Direct native joint-target deployment is absent. FK-to-OSC would discard redundant joint posture; no faithful bridge established.",
+  "limitation": "This does not prove arbitrary history-dependent control under OSC is impossible. It does not test physical task success.",
+  "test_vectors_are_policy_predictions": false,
+  "new_training_updates": 0,
+  "new_policy_inferences": 0,
+  "new_physics_steps": 0
+}
