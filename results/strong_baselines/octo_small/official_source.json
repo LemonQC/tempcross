@@ -1,0 +1,22 @@
+{
+  "repository": "https://github.com/octo-models/octo",
+  "commit": "241fb3514b7c40957a86d869fecb7c7fc353f540",
+  "license": "MIT",
+  "license_path": "/home/users/lemon/baseline-benchmark/vendor/octo/LICENSE",
+  "license_sha256": "8c891a7dd06fdaa873aa011ff0b2773a3ccfe6d123f6b9a9fc589db718aec1d1",
+  "weights_repository": "https://huggingface.co/rail-berkeley/octo-small-1.5",
+  "weights_revision": "dc9aa3019f764726c770814b27e4ab0fc6e32a58",
+  "official_architecture_modified": false,
+  "official_core_source_modified": false,
+  "port": [
+    "HDF5 RGB and canonical action adapter",
+    "whole-demonstration training split and domain/task-balanced sampler",
+    "isolated official JAX runtime to existing simulator evaluator"
+  ],
+  "native_recipe": "scripts/configs/finetune_config.py:full,language_conditioned",
+  "native_default_budget": {
+    "batch_size": 256,
+    "updates": 50000
+  },
+  "our_formal_budget": null
+}

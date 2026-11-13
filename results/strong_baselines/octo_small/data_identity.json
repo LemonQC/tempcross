@@ -1,0 +1,34 @@
+{
+  "status": "PASS_IDENTITIES_AND_TRAIN_ONLY_STATS",
+  "demonstrations": 700,
+  "train": 630,
+  "validation": 70,
+  "target_train_per_task": 45,
+  "source_train_per_task": 270,
+  "stats_use_validation": false,
+  "generated_demonstrations_used": 0,
+  "rgb_resolution": "raw180x320, native256 resize",
+  "input_fields": [
+    "image_primary",
+    "language_instruction"
+  ],
+  "action_convention": "base-frame metres/radians plus0..1 openness; reversible into original OSC7",
+  "files": [
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/data/validation.npy",
+      "sha256": "c85aeec35a90b1ac75363c06a36be64c36ad7b5a2678d04bb368de20817eb80b"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/data/train.npy",
+      "sha256": "a868931a38ea5feb4098cb8a4c927654808b8a6a4bc77c80100eb55e2154b5ce"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/data/action_statistics.json",
+      "sha256": "2f273998338b10366219fd291dccae89c35a6b6351d2ea421149095d06719759"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/data/manifest.json",
+      "sha256": "091467ae9ae11b84f180b915aaf3c7d34fb800ae01f4ac473bfc1fcb319ce862"
+    }
+  ]
+}

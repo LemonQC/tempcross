@@ -1,0 +1,37 @@
+# Core versions declared by octo-models/octo@241fb351.
+# Additional transitive pins keep the2023 JAX/Flax API reproducible.
+numpy==1.24.3
+ml-dtypes==0.2.0
+jax==0.4.20
+# jax[cuda11_pip] has an unbounded >= cuDNN dependency; 9.x breaks
+# the released cudnn86 wheel's major-version ABI. Keep CUDA11/cuDNN8.
+nvidia-cudnn-cu11==8.9.6.50
+flax==0.7.5
+optax==0.1.5
+chex==0.1.85
+distrax==0.1.5
+tensorflow==2.15.0
+tensorflow-probability==0.23.0
+tensorflow-text==2.15.0
+tensorflow-hub==0.15.0
+tensorflow-datasets==4.9.2
+tensorflow-metadata==1.14.0
+tensorflow-graphics==2021.12.3
+orbax-checkpoint==0.4.4
+tensorstore==0.1.45
+scipy==1.11.4
+transformers==4.34.1
+protobuf==3.20.3
+wandb==0.16.6
+ml-collections==0.1.1
+gym==0.26.2
+einops==0.6.1
+h5py==3.10.0
+opencv-python-headless==4.8.1.78
+imageio==2.31.6
+matplotlib==3.7.5
+sentencepiece==0.1.99
+tqdm
+absl-py
+plotly
+dlimp @ git+https://github.com/kvablack/dlimp@5edaa4691567873d495633f2708982b42edf1972

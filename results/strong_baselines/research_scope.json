@@ -1,0 +1,18 @@
+{
+  "revision": "20261113_official_open_candidates",
+  "base_commit": "8b274c9a014dccab2f8ddc364b64f10667cc8e2d",
+  "active_method": "octo_small",
+  "ordered_candidates": ["octo_small", "smolvla", "flow_matching_policy"],
+  "candidate_deferred": ["kite"],
+  "archived_no_reproduction_budget": ["crosszero", "object_flow"],
+  "preserve_without_rerun": ["bc", "dp", "barx", "barx_adaptation", "act", "vqbet", "mimicgen_v2"],
+  "mimicgen_v2_preserved_updates": 48000,
+  "mimicgen_v2_preserved_formal_episodes": 80,
+  "ordinary_engineering_repairs_allowed": true,
+  "permanent_block_after_one_python_error": false,
+  "algorithm_or_success_criterion_changes_allowed": false,
+  "single_gpu_sequential_large_training": true,
+  "budget_freeze_after_real_update_and_complete_smoke": true,
+  "reference_conditions": "60–99 EXPOSED_REFERENCE",
+  "new_method_development": false
+}

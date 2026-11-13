@@ -1,0 +1,21 @@
+{
+  "permanent_blocked": false,
+  "core_algorithm_changed": false,
+  "repairs": [
+    {
+      "stage": "dependency_resolution",
+      "issue": "Legacy JAX cuda11 extras accepted incompatible cuDNN9 major ABI",
+      "fix": "Pin author cuDNN8.9.6.50; resolve from PyPI; retain isolated old JAX wheel"
+    },
+    {
+      "stage": "artifact_transport",
+      "issue": "Large single-stream dependency downloads slow; stopped before installation",
+      "fix": "Published hashes and resumable bounded24-range transport"
+    },
+    {
+      "stage": "transport_helper",
+      "issue": "NVIDIA publishes multiple manylinux retags; selector asserted uniqueness",
+      "fix": "Explicit compatible2014 retag priority; published hash preserved"
+    }
+  ]
+}

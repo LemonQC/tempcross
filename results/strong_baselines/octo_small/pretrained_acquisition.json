@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "revision": "dc9aa3019f764726c770814b27e4ab0fc6e32a58",
+  "files": [
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/pretrained/300000/default/checkpoint",
+      "bytes": 546696551,
+      "sha256": "644b2d8102f6d2a3145243223a7f0cc77165486ff9da087af590d8f814152c50"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/pretrained/README.md",
+      "bytes": 3748,
+      "sha256": "a52f08517cc7eabb57874519e9ad3abc9652e41fea6cc0542b1fdd3ca37607d4"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/pretrained/config.json",
+      "bytes": 15062,
+      "sha256": "c273a73ab851a2055172b816684509ab9c9d9f1126eaf20d1bb997765698ed45"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/pretrained/dataset_statistics.json",
+      "bytes": 17259,
+      "sha256": "0d56ca231034a376fb26bc696268af138f503e54b7fe01d7db0644bb019347b5"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/pretrained/example_batch.msgpack",
+      "bytes": 738353,
+      "sha256": "705a7a4edc67acaa2c0fffd24b6e8ba7f49f0b73676496a19e2ce73f57bb828e"
+    }
+  ]
+}

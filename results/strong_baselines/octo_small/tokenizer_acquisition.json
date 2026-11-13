@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "revision": "a9723ea7f1b39c1eae772870f3b547bf6ef7e6c1",
+  "additional_model_weights_downloaded": false,
+  "files": [
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/huggingface/hub/models--t5-base/snapshots/a9723ea7f1b39c1eae772870f3b547bf6ef7e6c1/config.json",
+      "bytes": 1208,
+      "sha256": "46dd7cb62d29c81fb551e0ef1ea274c24a46ba441eeb948897706252933df033",
+      "published_metadata": {
+        "type": "file",
+        "oid": "c360f5f4046ca9d7f2ea7d098126ecabc596fbe5",
+        "size": 1208,
+        "path": "config.json"
+      }
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/huggingface/hub/models--t5-base/snapshots/a9723ea7f1b39c1eae772870f3b547bf6ef7e6c1/tokenizer.json",
+      "bytes": 1389353,
+      "sha256": "d2acde0d8d71dd30a711834b07781b9c89feaac33fd332f60507699282740066",
+      "published_metadata": {
+        "type": "file",
+        "oid": "41911369be79611d82d152725113e66206bd7b79",
+        "size": 1389353,
+        "path": "tokenizer.json"
+      }
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/huggingface/hub/models--t5-base/snapshots/a9723ea7f1b39c1eae772870f3b547bf6ef7e6c1/spiece.model",
+      "bytes": 791656,
+      "sha256": "d60acb128cf7b7f2536e8f38a5b18a05535c9e14c7a355904270e15b0945ea86",
+      "published_metadata": {
+        "type": "file",
+        "oid": "4e28ff6ebdf584f5372d9de68867399142435d9a",
+        "size": 791656,
+        "path": "spiece.model"
+      }
+    }
+  ]
+}
