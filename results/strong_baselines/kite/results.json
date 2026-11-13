@@ -1,0 +1,16 @@
+{
+  "status": "BLOCKED",
+  "method": "kite",
+  "reason_code": "BOUNDED_PORT_INTEGRATION_FAILURE_AFTER_ONE_REPAIR",
+  "actual_training_updates": 0,
+  "physical_evaluation_episodes": 0,
+  "success_rate": null,
+  "technical_repairs": 1,
+  "source_states_available": true,
+  "native_runtime_available": true,
+  "target_decoder_and_deployment_validated": false,
+  "full_baseline_completed": false,
+  "scientific_infeasibility_claim": false,
+  "utc": "2026-11-13T04:48:02.417257+00:00",
+  "cells": []
+}

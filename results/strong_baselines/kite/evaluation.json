@@ -1,0 +1,24 @@
+{
+  "status": "NOT_RUN",
+  "episodes": 0,
+  "successes": null,
+  "success_rate": null,
+  "role": "EXPOSED_REFERENCE",
+  "cells": [
+    {
+      "task": "pnp_counter_to_sink",
+      "episodes": 0,
+      "successes": null,
+      "success_rate": null
+    },
+    {
+      "task": "pnp_sink_to_counter",
+      "episodes": 0,
+      "successes": null,
+      "success_rate": null
+    }
+  ],
+  "failure_trajectories": [],
+  "videos": [],
+  "failure_classification": "N/A: no task trajectory exists"
+}

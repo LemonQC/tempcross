@@ -1,0 +1,172 @@
+[
+  {
+    "path": "/home/users/lemon/CodexProject/tempcross/baselines/strong/acquire_source_states.py",
+    "bytes": 2934,
+    "sha256": "32edd608a573bed9f89c66f7d086fc759035c2a61e958235abc5dfb0ac81b903"
+  },
+  {
+    "path": "/home/users/lemon/CodexProject/tempcross/baselines/strong/kite_report.py",
+    "bytes": 13444,
+    "sha256": "4c5de593b3de60e541b47d190fce8e66a8b2df7583a2a668491457561bb4c665"
+  },
+  {
+    "path": "/home/users/lemon/CodexProject/tempcross/baselines/strong/raw_geometry_inventory.py",
+    "bytes": 4141,
+    "sha256": "889342b04cd775c7a726221d1a010cb641156f426be537b41bbdc9dec8019338"
+  },
+  {
+    "path": "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/kite/geometry_probe.py",
+    "bytes": 10320,
+    "sha256": "04fb65a940a097936e9c6752d6f2c189cd1ee1d1fdf3569913b44745216853bd"
+  },
+  {
+    "path": "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/kite/runtime_audit.py",
+    "bytes": 3153,
+    "sha256": "a7717c89bf1b99350ce19398d9c418aa59b9e49d5762095c29cf3fd0915bd9fe"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/vendor/KITE/checkpoints/decoder/dataset_meta.pt",
+    "bytes": 14505,
+    "sha256": "6f85c30e3650e1a65f158198d6f3d2fb32b18ee3312cbacbfb78bfbac8babb52"
+  },
+  {
+    "path": "/home/users/lemon/baseline-benchmark/vendor/KITE/checkpoints/decoder/release.pt",
+    "bytes": 263871838,
+    "sha256": "a8c7deb740681863d06a5e7d112298b8cb05f933a988089202e8933b94af454d"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/kite/asset_verification.log",
+    "bytes": 116,
+    "sha256": "d5cec4fbf25679f0c0583c39a1b13b33e4b7db7cfaeb4d8eb7b561f9b05e9307"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/kite/cuda_explicit.txt",
+    "bytes": 3619,
+    "sha256": "9250842cdc94a7ba87ecaf17cde6cc13fb7d6ff50b99ea4f5a9d872b5e6c3649"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/kite/cuda_toolchain_install.log",
+    "bytes": 924,
+    "sha256": "b75030f9a07a3f3e886945d4dc363f2405b101bf3c74f08b37169da3cd365639"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/kite/cuda_toolchain_install_gcc11.log",
+    "bytes": 113107,
+    "sha256": "5d02500c319e0ac4cf0837b4e58ff53593591b16f4223422bfaa1de5d9794971"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/kite/cuda_toolchain_install_with_runtime.log",
+    "bytes": 3399,
+    "sha256": "c729e7dc9468f81653c45fdfc3308b4de8b6c0978942a3f533d5d13d2955990f"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/kite/download_assets.log",
+    "bytes": 41913,
+    "sha256": "e15f79e815753beb48b7fe1c661de64cdbd88ec006dbf9303bd04f73891a309b"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/kite/download_dependencies.log",
+    "bytes": 69,
+    "sha256": "2ce17d07d4fd92b7969fd1763e7aa938907c582c41aaf1752b4be6c93bbec54e"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/kite/download_dependencies_base.log",
+    "bytes": 3329,
+    "sha256": "9d9309b90d91b975fee6d8f4fc8a2c197d7db08b70cb8d3b874c049a9237f11e"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/kite/gcc_available.json",
+    "bytes": 40280,
+    "sha256": "858a6f20ba2ce0a0723d5c2d94c148ab2a7c77e2e09fd5277163d3f13060ee8b"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/kite/geometry_probe.log",
+    "bytes": 1576,
+    "sha256": "097ceb657b5dc1456db35673eed4df581fc80d469ebca137d63f192a0d465b53"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/kite/installed_requirements.txt",
+    "bytes": 2252,
+    "sha256": "a868578092df146a9551cbd8516df437d9ebcadb29e643173b0ac11a5b49bf36"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/kite/pytorch3d_build.log",
+    "bytes": 40257,
+    "sha256": "72204dbbe8cb6e5d20857bfa20fb14a8fc302048b3edba171e0e965febe42696"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/kite/pytorch3d_build_process.json",
+    "bytes": 3843,
+    "sha256": "39e14cb2d99cad0e331f87082df8bf9f59cad9a8223e2f8463c5bef7fdf6e375"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/kite/pytorch3d_build_repair_01.log",
+    "bytes": 483,
+    "sha256": "0d3004eed9e13ae91efadfa137361c2a086488db3a1e81b491d405c8a28d5296"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/kite/runtime_audit.json",
+    "bytes": 8651,
+    "sha256": "7f6d38c6b3dd629978a956c8eb7d456b0aa25f6d4cbaa0eb2e16ca4ba1929d7d"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/kite/runtime_audit.log",
+    "bytes": 800,
+    "sha256": "67edc4fc25d911bf52ceee6081a1227ce27be46e0946dcbc864fa57e58b04ac4"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/kite/runtime_dependencies.log",
+    "bytes": 1623,
+    "sha256": "55fcc0da2150e16bbfcbda9bcaac214a76e7b733ae84ef9585c20dea576c7b82"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/kite/runtime_dependencies_direct.log",
+    "bytes": 4672,
+    "sha256": "e1004196ff8a9051f5bf9126a1c281005cc95529eb4ec94b9f17ca00d3d79607"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/kite/runtime_dependencies_pypi.log",
+    "bytes": 1540,
+    "sha256": "71e208fd04af7b4721a89d854b3d1348a075acb281426f60f39f09bbddc0f308"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/kite/technical_repair_01.json",
+    "bytes": 3825,
+    "sha256": "e12217dec9d452f4dccfb69b64315e7106b0343c2e2cbd7a13e05400af58b666"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/raw_source_ur5e/mg/UR5eOmron/PnPCounterToSink/100demos_seed0/demo_gentex_im320_randcams.hdf5",
+    "bytes": 1316175117,
+    "sha256": "809d2df7698f64c645a499a0d05ac6d4b0dc857913049f2110d6fded1615d938"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/raw_source_ur5e/mg/UR5eOmron/PnPCounterToSink/100demos_seed1/demo_gentex_im320_randcams.hdf5",
+    "bytes": 1322198857,
+    "sha256": "8dbf66425a24c5d360c3158b6aae229f5e97a3940e44d5f71479c10a9f2ea914"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/raw_source_ur5e/mg/UR5eOmron/PnPCounterToSink/100demos_seed2/demo_gentex_im320_randcams.hdf5",
+    "bytes": 1266208095,
+    "sha256": "1141c84301152e25f1aa480e8c77f7b450d4a41a55f8bb7dbca5b237cf4a6038"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/raw_source_ur5e/mg/UR5eOmron/PnPSinkToCounter/100demos_seed0/demo_gentex_im320_randcams.hdf5",
+    "bytes": 1542598534,
+    "sha256": "4da925ca3c6dcc92b0d31df981fbac576d1db5b871bad421451e56ac36543efd"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/raw_source_ur5e/mg/UR5eOmron/PnPSinkToCounter/100demos_seed1/demo_gentex_im320_randcams.hdf5",
+    "bytes": 1510615977,
+    "sha256": "361d791d7c3536e3883e6a7a9840ea695ac8a5ad4d216ea006befce692525c5e"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/raw_source_ur5e/mg/UR5eOmron/PnPSinkToCounter/100demos_seed2/demo_gentex_im320_randcams.hdf5",
+    "bytes": 1491350951,
+    "sha256": "830a6e5542739d374b29ae8198ee7afdac65b2688210ec63765d6fe9ec9d1ee7"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/shared_geometry/ur5e_raw_identity.json",
+    "bytes": 765243,
+    "sha256": "c321062e82ecd4d0548641920046c3f84b8e2f9eb93b81fdda17a1ce6c2b276d"
+  }
+]

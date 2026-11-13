@@ -1,0 +1,10 @@
+{
+  "status": "NOT_RUN",
+  "actual_optimizer_updates": 0,
+  "actual_task_sample_exposures": 0,
+  "actual_kinematic_training_updates": 0,
+  "selected_checkpoint": null,
+  "selection_basis": null,
+  "validation_metrics": null,
+  "frozen_upstream_encoder_probe_only": true
+}

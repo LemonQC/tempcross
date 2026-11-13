@@ -35,7 +35,7 @@ def main():
     if not any_cells:lines.append('| — | — | 尚无通过最终验收的新方法单元 | N/A | N/A | 训练与smoke不计正式结果 |')
     lines+=['','## 数据和信息条件','',
         '数据量、预训练、目标示范、原生传感器及额外监督必须随各方法分列；不默认等数据或等信息。', '',
-        '| 方法 | 本轮源具身 | 部署观测（冻结协议） | Panda训练示范/任务 | 协议 |',
+        '| 方法 | 本轮源具身 | 部署观测（未完成者仅列原生需求） | Panda训练示范/任务 | 协议 |',
         '|---|---|---|---|---|']
     for method in METHODS:
         p=out(method)/'protocol.json'
@@ -46,7 +46,8 @@ def main():
         obs=cfg.get('observation',cfg.get('deployment_observation','见协议'))
         number=cfg.get('train_target_demonstrations_per_task',cfg.get('target_demonstrations','见协议'))
         render=lambda value:json.dumps(value,ensure_ascii=False) if isinstance(value,(list,dict)) else str(value)
-        lines.append(f"| {method} | {render(source)} | {render(obs)} | {render(number)} | [冻结协议](../results/strong_baselines/{method}/protocol.json) |")
+        label='未冻结边界' if cfg.get('training_budget_frozen') is False or cfg.get('status','').startswith('NOT_FROZEN') else '冻结协议'
+        lines.append(f"| {method} | {render(source)} | {render(obs)} | {render(number)} | [{label}](../results/strong_baselines/{method}/protocol.json) |")
     lines+=['',
         '旧BC/DP源池包含IIWA、Kinova3和UR5e。新增ACT及VQ-BeT依本轮UR5e/Panda设置仅取UR5e的600条源示范，保留原有身份划分；旧结果不重训、不覆盖，也不把跨源池比较称为等数据预算比较。BARX预训练/适配及MimicGen生成监督的来源仍以各自原协议为准。',
         '', 'ACT唯一一次decoder输出修复及原版24000更新尝试另列归档。VQ-BeT唯一一次TF32精度修复发生在正式训练前，原四次组件探针更新和四条smoke保留，修复版独立目录重新验收。不能用原技术尝试替代修复版训练完成量；技术尝试、探针和正式评测成本分别记账。']

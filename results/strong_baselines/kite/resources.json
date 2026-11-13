@@ -1,0 +1,16 @@
+{
+  "actual_training_updates": 0,
+  "task_physical_episodes": 0,
+  "task_smoke_episodes": 0,
+  "pretrained_encoder_forward_calls": 1,
+  "native_cuda_fps_calls": 1,
+  "raw_original_files_bytes": 8449147531,
+  "source_states_acquired_not_new_demonstrations": true,
+  "final_snapshot": {
+    "utc": "2026-11-13T04:48:02.417017+00:00",
+    "gpu": "NVIDIA GeForce RTX 3090, 24576 MiB, 589 MiB, 35 %",
+    "disk_free_bytes": 139600121856
+  },
+  "native_extension_repair_build_seconds": 294,
+  "large_artifacts_server_only": true
+}

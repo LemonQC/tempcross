@@ -9,7 +9,7 @@
 | act | COMPLETE_FAITHFUL_PORT | 48000 | 160 | 分设置见下表 | [状态](../results/strong_baselines/act/status.json) |
 | vqbet | COMPLETE_FAITHFUL_PORT | 60000 | 160 | 分设置见下表 | [状态](../results/strong_baselines/vqbet/status.json) |
 | mimicgen_v2 | PARTIAL | 48000 | 80 | 0.025 | [状态](../results/strong_baselines/mimicgen_v2/status.json) |
-| kite | NOT_RUN | 0 | 0 | N/A | [状态](../results/strong_baselines/kite/status.json) |
+| kite | BLOCKED | 0 | 0 | N/A | [状态](../results/strong_baselines/kite/status.json) |
 | crosszero | NOT_RUN | 0 | 0 | N/A | [状态](../results/strong_baselines/crosszero/status.json) |
 | object_flow | NOT_RUN | 0 | 0 | N/A | [状态](../results/strong_baselines/object_flow/status.json) |
 
@@ -40,12 +40,12 @@
 
 数据量、预训练、目标示范、原生传感器及额外监督必须随各方法分列；不默认等数据或等信息。
 
-| 方法 | 本轮源具身 | 部署观测（冻结协议） | Panda训练示范/任务 | 协议 |
+| 方法 | 本轮源具身 | 部署观测（未完成者仅列原生需求） | Panda训练示范/任务 | 协议 |
 |---|---|---|---|---|
 | act | ["ur5e"] | ["128x128 RGB", "frozen CLIP instruction embedding"] | 45 | [冻结协议](../results/strong_baselines/act/protocol.json) |
 | vqbet | ["ur5e"] | ["128x128 RGB, resized nearest to224 for native frozen ResNet18", "frozen CLIP-L instruction768, learned prefix projection"] | 45 | [冻结协议](../results/strong_baselines/vqbet/protocol.json) |
 | mimicgen_v2 | ["panda_seed_demonstrations_for_generation"] | ["128x128 RGB", "frozen CLIP-L instruction"] | 45 | [冻结协议](../results/strong_baselines/mimicgen_v2/protocol.json) |
-| kite | 尚未核对 | 尚未核对 | N/A | NOT_RUN |
+| kite | ["ur5e"] | 未部署；原生需求为object-only点云、上一intent、实测configuration及运动学模型；不同于RGB-only信息条件 | 0 | [未冻结边界](../results/strong_baselines/kite/protocol.json) |
 | crosszero | 尚未核对 | 尚未核对 | N/A | NOT_RUN |
 | object_flow | 尚未核对 | 尚未核对 | N/A | NOT_RUN |
 

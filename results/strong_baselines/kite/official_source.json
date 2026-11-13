@@ -1,0 +1,73 @@
+{
+  "repository": "https://github.com/helloqxwang/KITE",
+  "commit": "136159544aea68f5e8b6cc64f17d221e825e3eee",
+  "paper": "https://arxiv.org/html/2606.22113v2",
+  "root_license": "NO_TOP_LEVEL_LICENSE_FOUND",
+  "vendored_licenses": {
+    "pytorch3d": "BSD-3-Clause",
+    "idp3": "MIT"
+  },
+  "upstream_source_redistributed": false,
+  "source": [
+    {
+      "path": "/home/users/lemon/baseline-benchmark/vendor/KITE/README.md",
+      "sha256": "9999ccb32f4d37cfe96f77ec3817f6c0b127c62bfe1dcab40d9d6a4cc1de8f12"
+    },
+    {
+      "path": "/home/users/lemon/baseline-benchmark/vendor/KITE/conf/kite.yaml",
+      "sha256": "83292f5a3bd750ebea72bbd7ca5eaf0b4acafb6cf16c2bd2e9f378251998cb4c"
+    },
+    {
+      "path": "/home/users/lemon/baseline-benchmark/vendor/KITE/asset_downloads.json",
+      "sha256": "3280448cdfa0ca276d21bedf8af24188ce0afb7dec2bd8404a4c9ee84b5bc3e6"
+    },
+    {
+      "path": "/home/users/lemon/baseline-benchmark/vendor/KITE/train_kinematic_decoder.py",
+      "sha256": "4eba12726ab6f5c3fdc9414f3c1520d0e4164268cd1e091317fa7fb062c99411"
+    },
+    {
+      "path": "/home/users/lemon/baseline-benchmark/vendor/KITE/experiment/encode_contacts.py",
+      "sha256": "cf44c469edd347ffe75b21f222c3453f0d1295d1b0441ae9093ae04c6d22bcd3"
+    },
+    {
+      "path": "/home/users/lemon/baseline-benchmark/vendor/KITE/experiment/high_level_policy/contact_encoding.py",
+      "sha256": "da4cfbb58c44a7ab955e710bc395d4cc10c97853dae195ff96d0b6aa572d6da6"
+    },
+    {
+      "path": "/home/users/lemon/baseline-benchmark/vendor/KITE/experiment/manipulation/sparse_contact_extraction.py",
+      "sha256": "aa4c05ff00dfd2b6207dcd25813b2793c73706ef0252581f27e9a355e64da1d7"
+    },
+    {
+      "path": "/home/users/lemon/baseline-benchmark/vendor/KITE/robot_model/robot_model.py",
+      "sha256": "87020c901c1be8a3ec4aaec7c447ecf0eec9f81724cd24c940721cbdf40b85e4"
+    },
+    {
+      "path": "/home/users/lemon/baseline-benchmark/vendor/KITE/robot_model/composite_gripper_stick_model.py",
+      "sha256": "c59575d6178ddd7e4aaedb4e4066421a6930f980fed4e714c02e5441bf2ede45"
+    },
+    {
+      "path": "/home/users/lemon/baseline-benchmark/vendor/KITE/experiment/high_level_policy/policy.py",
+      "sha256": "1fe1b81291c664fffe78155a9ab8ad265464d99bc1b2acab96f5eb706710bd75"
+    },
+    {
+      "path": "/home/users/lemon/baseline-benchmark/vendor/KITE/experiment/pipeline_high_low_policy.py",
+      "sha256": "bb4cbfa110fa9f1d80ebdecca541f757a252c638dfe9207490d4b30c4679b3e4"
+    },
+    {
+      "path": "/home/users/lemon/baseline-benchmark/vendor/KITE/experiment/conf/train_policy/object_suite_paper2400.yaml",
+      "sha256": "a9b8bf1b78e1693ff0ceb18edb4a00e9c0b150bb9ee885c263743f1912d63408"
+    },
+    {
+      "path": "/home/users/lemon/baseline-benchmark/vendor/KITE/experiment/conf/train_policy/object_suite.yaml",
+      "sha256": "c59b86b55bf77922612c540eae3d81b2b5362f6cebe7b4fcccf2714ca240de72"
+    },
+    {
+      "path": "/home/users/lemon/baseline-benchmark/vendor/KITE/third_party/pytorch3d/LICENSE",
+      "sha256": "6da05663049417a91409fa349bfad5778ed56c9ef68226dde28dffd541481579"
+    },
+    {
+      "path": "/home/users/lemon/baseline-benchmark/vendor/KITE/third_party/Improved-3D-Diffusion-Policy/LICENSE",
+      "sha256": "d62cd477abcbf7329c15d3e740c9466d07dc39ef3a212e4c9b237675c8bc7a7d"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "release": "v1-20261026",
+  "verification": "ALL_SELECTED_FILE_SHA256_PASS",
+  "bundles": [
+    {
+      "name": "decoder",
+      "archive": "kite-decoder-v1-20261026.tar.gz",
+      "drive_file_id": "1kz2ZvzuZMJGxyg1gM3yYu0W0cK00b-uY",
+      "size": 243760182,
+      "sha256": "5a83161e6fcf815f8ec841a563d0cbd6437ad4e8201ad6584e43e44870bff419",
+      "verified_files": 2
+    },
+    {
+      "name": "runtime",
+      "archive": "kite-runtime-v1-20261026.tar.gz",
+      "drive_file_id": "1ZrtEm5YmNNcSWvkK7vn2otbcjYQ94t1B",
+      "size": 132102320,
+      "sha256": "ea9dcac646df034d78e8819511be2cfb9cbd1db3bbf66c980aef97132ced814b",
+      "verified_files": 1343
+    }
+  ],
+  "manifest_path": "/home/users/lemon/baseline-benchmark/vendor/KITE/asset_downloads.json",
+  "manifest_sha256": "3280448cdfa0ca276d21bedf8af24188ce0afb7dec2bd8404a4c9ee84b5bc3e6",
+  "target_policy_checkpoint": null
+}

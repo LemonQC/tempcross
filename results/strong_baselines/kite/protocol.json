@@ -1,0 +1,91 @@
+{
+  "status": "NOT_FROZEN_BEFORE_BLOCKER",
+  "method": "KITE",
+  "official_recipe_followed_to": "Verified original source, released assets, native CUDA extension and frozen intent encoder",
+  "source_data": {
+    "embodiment": "UR5e",
+    "identities": 600,
+    "train": 540,
+    "validation": 60,
+    "split": "Original complete-demonstration identity split"
+  },
+  "target_task_demonstrations_planned": 0,
+  "target_task_demonstrations_used": 0,
+  "zero_shot_task_training_completed": false,
+  "source_robots": [
+    "ur5e"
+  ],
+  "train_target_demonstrations_per_task": 0,
+  "observation": "未部署；原生需求为object-only点云、上一intent、实测configuration及运动学模型；不同于RGB-only信息条件",
+  "synthetic_target_kinematic_learning": "Required by method for unsupported target head; not executed",
+  "native_information": [
+    "object-only calibrated world-frame point cloud",
+    "previous latent intent",
+    "measured current configuration",
+    "kinematic model"
+  ],
+  "tier": "NATIVE_3D_STATE_REQUIRED_NOT_RGB_ONLY",
+  "training_budget_frozen": false,
+  "formal_updates": null,
+  "checkpoint_rule": null,
+  "intended_evaluation": {
+    "robot": "Panda",
+    "tasks": [
+      "pnp_counter_to_sink",
+      "pnp_sink_to_counter"
+    ],
+    "conditions": [
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99
+    ],
+    "role": "EXPOSED_REFERENCE",
+    "control_hz": 20,
+    "canonical_to_environment": "OSC7 to existing canonical12",
+    "success": "official placement AND retreat",
+    "actual_episodes": 0
+  },
+  "stop_rule": "One documented technical repair; stop on a new integration failure",
+  "actual_differences": [
+    "RoboCasa-X raw HDF5 is not the native franka_robotiq unified payload",
+    "Released bank lacks the bare Robotiq85/Panda target decoder; composite13 is not interchangeable with bare gripper",
+    "Source intents, target kinematic decoder and OSC deployment bridge are not validated or trained"
+  ]
+}

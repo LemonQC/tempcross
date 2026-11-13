@@ -1,0 +1,67 @@
+{
+  "technical_repairs": 1,
+  "further_repairs_permitted": false,
+  "repaired_failure": {
+    "stage": "NATIVE_EXTENSION_BUILD",
+    "error": "cusparse.h missing from compiler-only prefix",
+    "repair_record": {
+      "id": 1,
+      "utc": "2026-11-13T04:35:07.799564+00:00",
+      "stage": "NATIVE_EXTENSION_BUILD",
+      "failure": "Missing cusparse.h with compiler-only CUDA prefix",
+      "repair": "Expose include directories from already installed official pinned NVIDIA wheel libraries; no PyTorch3D or KITE source changes",
+      "include_paths": [
+        "/home/users/lemon/strong-baselines-20261112/kite/env/lib/python3.10/site-packages/nvidia/cublas/include",
+        "/home/users/lemon/strong-baselines-20261112/kite/env/lib/python3.10/site-packages/nvidia/cuda_cupti/include",
+        "/home/users/lemon/strong-baselines-20261112/kite/env/lib/python3.10/site-packages/nvidia/cuda_nvrtc/include",
+        "/home/users/lemon/strong-baselines-20261112/kite/env/lib/python3.10/site-packages/nvidia/cuda_runtime/include",
+        "/home/users/lemon/strong-baselines-20261112/kite/env/lib/python3.10/site-packages/nvidia/cudnn/include",
+        "/home/users/lemon/strong-baselines-20261112/kite/env/lib/python3.10/site-packages/nvidia/cufft/include",
+        "/home/users/lemon/strong-baselines-20261112/kite/env/lib/python3.10/site-packages/nvidia/cufile/include",
+        "/home/users/lemon/strong-baselines-20261112/kite/env/lib/python3.10/site-packages/nvidia/curand/include",
+        "/home/users/lemon/strong-baselines-20261112/kite/env/lib/python3.10/site-packages/nvidia/cusolver/include",
+        "/home/users/lemon/strong-baselines-20261112/kite/env/lib/python3.10/site-packages/nvidia/cusparse/include",
+        "/home/users/lemon/strong-baselines-20261112/kite/env/lib/python3.10/site-packages/nvidia/cusparselt/include",
+        "/home/users/lemon/strong-baselines-20261112/kite/env/lib/python3.10/site-packages/nvidia/nccl/include",
+        "/home/users/lemon/strong-baselines-20261112/kite/env/lib/python3.10/site-packages/nvidia/nvjitlink/include",
+        "/home/users/lemon/strong-baselines-20261112/kite/env/lib/python3.10/site-packages/nvidia/nvshmem/include",
+        "/home/users/lemon/strong-baselines-20261112/kite/env/lib/python3.10/site-packages/nvidia/nvtx/include"
+      ],
+      "library_paths": [
+        "/home/users/lemon/strong-baselines-20261112/kite/env/lib/python3.10/site-packages/nvidia/cublas/lib",
+        "/home/users/lemon/strong-baselines-20261112/kite/env/lib/python3.10/site-packages/nvidia/cuda_cupti/lib",
+        "/home/users/lemon/strong-baselines-20261112/kite/env/lib/python3.10/site-packages/nvidia/cuda_nvrtc/lib",
+        "/home/users/lemon/strong-baselines-20261112/kite/env/lib/python3.10/site-packages/nvidia/cuda_runtime/lib",
+        "/home/users/lemon/strong-baselines-20261112/kite/env/lib/python3.10/site-packages/nvidia/cudnn/lib",
+        "/home/users/lemon/strong-baselines-20261112/kite/env/lib/python3.10/site-packages/nvidia/cufft/lib",
+        "/home/users/lemon/strong-baselines-20261112/kite/env/lib/python3.10/site-packages/nvidia/cufile/lib",
+        "/home/users/lemon/strong-baselines-20261112/kite/env/lib/python3.10/site-packages/nvidia/curand/lib",
+        "/home/users/lemon/strong-baselines-20261112/kite/env/lib/python3.10/site-packages/nvidia/cusolver/lib",
+        "/home/users/lemon/strong-baselines-20261112/kite/env/lib/python3.10/site-packages/nvidia/cusparse/lib",
+        "/home/users/lemon/strong-baselines-20261112/kite/env/lib/python3.10/site-packages/nvidia/cusparselt/lib",
+        "/home/users/lemon/strong-baselines-20261112/kite/env/lib/python3.10/site-packages/nvidia/nccl/lib",
+        "/home/users/lemon/strong-baselines-20261112/kite/env/lib/python3.10/site-packages/nvidia/nvjitlink/lib",
+        "/home/users/lemon/strong-baselines-20261112/kite/env/lib/python3.10/site-packages/nvidia/nvshmem/lib",
+        "/home/users/lemon/strong-baselines-20261112/kite/env/lib/python3.10/site-packages/nvidia/nvtx/lib"
+      ],
+      "source_changes": [],
+      "further_technical_repairs_permitted": false,
+      "original_log": "/home/users/lemon/strong-baselines-20261112/kite/pytorch3d_build.log"
+    },
+    "result": "PASS: native CUDA FPS and frozen encoder tested"
+  },
+  "final_failure": {
+    "stage": "SOURCE_GEOMETRY_PREFLIGHT_IMPORT",
+    "error": "ModuleNotFoundError: No module named 'mimicgen'",
+    "agent_implementation_error": true,
+    "cause": "Checker launcher omitted the already available BARX third_party/mimicgen path",
+    "module_exists": "/home/users/lemon/coft-p2/barx/third_party/mimicgen/mimicgen/scripts/prepare_src_dataset.py",
+    "module_sha256": "0d0ee8722372c4928db2edb06415662a23d1a15ae8fc5caa22755d1c1e53b474",
+    "before_simulator_construction": true,
+    "new_physics_steps": 0,
+    "new_policy_episodes": 0,
+    "no_remediation_or_relaunch_after_error": true
+  },
+  "interpretation": "Bounded port stopped, not evidence of KITE scientific infeasibility or policy failure",
+  "acquisition_logs": "All index/network/Conda resolution attempts retained in absolute-path SHA index; not training updates"
+}
