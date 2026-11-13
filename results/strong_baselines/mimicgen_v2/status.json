@@ -1,14 +1,17 @@
 {
   "status": "PARTIAL",
-  "phase": "FORMAL_EVALUATION",
+  "component_status": "BOUNDED_DOWNSTREAM_CONTROL_COMPLETE",
+  "method": "mimicgen_v2",
   "actual_training_updates": 48000,
-  "physical_evaluation_episodes": 40,
-  "success_rate": null,
-  "technical_repairs": 0,
-  "new_generation_attempts": 0,
-  "original_full_mimicgen_status": "BLOCKED",
-  "scope": "MIMICGEN_V2_UNEQUAL_PANDA_AUGMENTATION_BC_TRANSFORMER_COMPONENT",
   "probe_optimizer_updates": 1,
   "physical_smoke_episodes": 2,
-  "closed_formal_episodes": 41
+  "physical_evaluation_episodes": 80,
+  "success_rate": 0.025,
+  "technical_repairs": 0,
+  "new_generation_attempts": 0,
+  "full_original_mimicgen_status": "BLOCKED_PRESERVED",
+  "cross_embodiment_generation": false,
+  "role": "EXPOSED_REFERENCE",
+  "all_new_trajectories_accepted": true,
+  "old_baseline_reruns": 0
 }

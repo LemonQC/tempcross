@@ -1,0 +1,28 @@
+{
+  "new_technical_repairs": 0,
+  "source_review_findings": [
+    "AST identity rejected because variable names/unused None branch differ;120 numerical cases match, no generator or algorithm modified"
+  ],
+  "legacy_generation_repairs": [
+    {
+      "id": 1,
+      "stage": "PRE_PHYSICS_INTEGRATION",
+      "scope": "task-local vendored import path and base-to-world source annotation inverse",
+      "evidence": "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/mimicgen/audit.json",
+      "controller_unchanged": true,
+      "repair_code": "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/mimicgen/common.py",
+      "sha256": "488bd13093b8207aada8b83f2fdef9116aaf8d0a733cebb1f651f017684841c0",
+      "physical_episodes_repeated": 0,
+      "further_repairs_permitted": false
+    },
+    {
+      "id": 2,
+      "stage": "PHYSICAL_PROBE_LOGGING",
+      "stage_attempt": 1,
+      "evidence": "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/mimicgen/probe_logging_repair.json",
+      "physical_episodes_repeated": 0,
+      "further_repairs_permitted": false
+    }
+  ],
+  "full_original_generation_failure": "RuntimeError('augmentation failed with return code 1; no automatic repair/retry')"
+}

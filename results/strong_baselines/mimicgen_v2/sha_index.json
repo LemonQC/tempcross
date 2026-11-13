@@ -1,0 +1,2692 @@
+[
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/all_records.json",
+    "bytes": 463862,
+    "sha256": "3536b54f15aa0d74116956f46b095e8886b41e90b3bca34a60e83bf9fa63722a"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/data/complete.json",
+    "bytes": 1181,
+    "sha256": "deaaea7fb5782380ce93cc8e66875b7ac025424ea7ddfb0eb2a1ba0200883c7e"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/data/generated.h5",
+    "bytes": 712283888,
+    "sha256": "332184a2935ac1267d707a2613b418ba0d16db831da4df99393bce8a8c03ad6a"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/data/language.json",
+    "bytes": 308989,
+    "sha256": "b0c2b8905ad3267937fe2dac2e463cd0396fe8f8dd5605319d3dca4b67a7f2ab"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/data/manifest.json",
+    "bytes": 126657,
+    "sha256": "e7c896e2a8e5b0af81e74108354667569c547825e73143592274c702a1e0b4f2"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/data/train.npy",
+    "bytes": 6144128,
+    "sha256": "8d58c30a487f8fb05b6b84583f652040929fc796040d2ff64f501af8310160da"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/data/validation.npy",
+    "bytes": 2176,
+    "sha256": "c85aeec35a90b1ac75363c06a36be64c36ad7b5a2678d04bb368de20817eb80b"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/acceptance.json",
+    "bytes": 70307,
+    "sha256": "d85964adb257fe37297c2a58c57426d0ee3f007592a48e67061b8ef2ea314903"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-060/acceptance.json",
+    "bytes": 1625,
+    "sha256": "7cce8a1843227bfd1bb7757ea11f9090d597ceb738ee3f1837f87c5aab434d4b"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-060/episode.json",
+    "bytes": 975,
+    "sha256": "9d450868dd5e8d588392cfd6d94bfd4c1af13bddba9a05ed7526ddb6719fb850"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-060/launch.json",
+    "bytes": 280,
+    "sha256": "eeda9897a7f80d28cf9c8a69a0ab0ab2c31992930f570cad1aedffd23b9a5511"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-060/rollout.mp4",
+    "bytes": 1420651,
+    "sha256": "6433c7d9be437101421fd0175e903234ed65d55e463a10f1332b3c98c47db32f"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-060/telemetry/episode-000.h5",
+    "bytes": 1846725,
+    "sha256": "1e1232c10179857beacea985322fa236c9fd9f33f668b9ff6b88f11dd6f0b17c"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-060/telemetry/episode-000.jsonl",
+    "bytes": 2376053,
+    "sha256": "3162df7a6b6a4e3bcea521fa6a3dad03a6db554e6fd1409768d25c8f15266a08"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-061/acceptance.json",
+    "bytes": 1625,
+    "sha256": "44352377677da89081620fe44d39e2789131a3025a0f0ea15c1d5e0bc521bdaf"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-061/episode.json",
+    "bytes": 975,
+    "sha256": "582af485d1a55a3988e7dc15a586d9492e2327221cff953efc057a4b7f83e892"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-061/launch.json",
+    "bytes": 280,
+    "sha256": "9e68c226f31e2669928487b435308886ec74042c2d1cf7522543525626a0bea8"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-061/rollout.mp4",
+    "bytes": 1286256,
+    "sha256": "0e73fcfc8318f6529f29388938cdc44d89d89996d5425a08828ea39f5737fd51"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-061/telemetry/episode-000.h5",
+    "bytes": 1949764,
+    "sha256": "79d9662edca1ebf8f29c880dfebe28c038e8da3ab58a04ab3f9f8005ad3c1993"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-061/telemetry/episode-000.jsonl",
+    "bytes": 1828871,
+    "sha256": "e9500ca896ef1ed4ae959439f92ff215e3fc7fdc754386bfcf0cc7e2265b46cc"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-062/acceptance.json",
+    "bytes": 1624,
+    "sha256": "168a712c2c3f3a1e2a212edc7271f42d82eb40d7a453e24391e43d68b7b60956"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-062/episode.json",
+    "bytes": 974,
+    "sha256": "d4789bd562579b8ea638d4c9fc491be5f13a5963fe6589512ce138bf58187926"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-062/launch.json",
+    "bytes": 280,
+    "sha256": "b78fea2ef4ccecdbabda9d660791d81ba67688fac394b582b7333619eca36e58"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-062/rollout.mp4",
+    "bytes": 1376186,
+    "sha256": "7532774dccb5dd55ae64c96ef3ae8b44cadbd0e9188350e4891fb3cea5cf6bf4"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-062/telemetry/episode-000.h5",
+    "bytes": 2025850,
+    "sha256": "7a49f5939946047e4996236d1b235a647963708315e200c9cae4e02216104c12"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-062/telemetry/episode-000.jsonl",
+    "bytes": 3010036,
+    "sha256": "f8c13db7f798f4afb2b187ca77925f8caae77ef92b946da5fdb18d48b091bf1a"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-063/acceptance.json",
+    "bytes": 1625,
+    "sha256": "15784d6121ba7ca073391d7e6877675e9708c726809bc652803abf6e6dc1fa6c"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-063/episode.json",
+    "bytes": 975,
+    "sha256": "2fd6e65bc03dac80148595f1fe55cfbf0730dd10aa185603d2b6f4452012feb0"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-063/launch.json",
+    "bytes": 280,
+    "sha256": "c03915269be6b5cfcca3c18ddd3413bf5e94cfd29f011f455804817341655a6a"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-063/rollout.mp4",
+    "bytes": 1325158,
+    "sha256": "cf04b9ebe3cb21107f68ec0f96d0fa2335641cc67350fe80a301dc5d4180f259"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-063/telemetry/episode-000.h5",
+    "bytes": 2052029,
+    "sha256": "08740b207224d92eb7e1712793a4c798ceba51bda97d7c94036ccdc1fd578d81"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-063/telemetry/episode-000.jsonl",
+    "bytes": 1077706,
+    "sha256": "7d3dcebe7d60465d585d551e1b5221129c41d279f33057adccaf96af174f6a3b"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-064/acceptance.json",
+    "bytes": 1625,
+    "sha256": "14d56baec82c75d55df9e926de45608aadd4f89be19aaf13ff505a9f79a7b62f"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-064/episode.json",
+    "bytes": 975,
+    "sha256": "ddf396d1640c4008ebd8603ca3f7245a2ee9d8407414c70cb93018380d31486b"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-064/launch.json",
+    "bytes": 280,
+    "sha256": "d2675db25a7c0cbb63bf43a4dd8a07797ea78c0237aa59f8f66bbadf8d6c44ec"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-064/rollout.mp4",
+    "bytes": 896879,
+    "sha256": "258afd107f6cba7d466a92fa0852159c61715e34cf5dbcea828c245f3b4da0ac"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-064/telemetry/episode-000.h5",
+    "bytes": 1840518,
+    "sha256": "f5f664224cc6875ada6cb05ed1e60ea94507dc152a8487d64de3abd7c7f2a271"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-064/telemetry/episode-000.jsonl",
+    "bytes": 3237918,
+    "sha256": "3aba8f81fd27b976fb1f9512ac6c53627147bbee0baf101721735a6b0a7b866c"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-065/acceptance.json",
+    "bytes": 1625,
+    "sha256": "31d0cc2c5b2d89760db3c0255af8d9a726398a9ebed1b8422b325d0c00ec674b"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-065/episode.json",
+    "bytes": 975,
+    "sha256": "2044fa18e89afa31a85b87d326d81dad3b7c4930012eb21ec22ca3d5db7520ee"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-065/launch.json",
+    "bytes": 280,
+    "sha256": "fbb28aa7b69f1e7281f71e0c177ea1d5b319be5411daeee97280d3a493e20786"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-065/rollout.mp4",
+    "bytes": 887552,
+    "sha256": "cbc6f1a4a476a56e96a884c6c28501bef662075b54182bccac78cad9f495003e"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-065/telemetry/episode-000.h5",
+    "bytes": 1947945,
+    "sha256": "c918a4383f9c0106c46c1758279adbb9558fbdd245fcbdba2aa56d3e1e8eaeba"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-065/telemetry/episode-000.jsonl",
+    "bytes": 3351384,
+    "sha256": "8cfea6b0ba356e32a0830ef5e974c52e119ec3f6e7328550bcdb7f01eb0e2e36"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-066/acceptance.json",
+    "bytes": 1625,
+    "sha256": "3fa2b14679d400053552146a749bccbe741cb0ef25d378d69cddbb1171559c54"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-066/episode.json",
+    "bytes": 975,
+    "sha256": "53cd5b6856fdd0b4795db0c0f5dd274ea5222ec6310005114664282fd661cace"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-066/launch.json",
+    "bytes": 280,
+    "sha256": "e00d236bccfbc09f887caf374481a29a893d4d1b93d684ef61948e5f2d7142bb"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-066/rollout.mp4",
+    "bytes": 1044265,
+    "sha256": "c0f6fca2b434b95e46191ea3c01e6cdb74dbf1ddc47cb36888e0693e76b8d3ee"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-066/telemetry/episode-000.h5",
+    "bytes": 1896834,
+    "sha256": "bdbdcb2c9e6a59eb0ea7e853f5189051d08d4b5c8ce39649eede073bb67b3b0c"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-066/telemetry/episode-000.jsonl",
+    "bytes": 1896787,
+    "sha256": "5925bfe849484f29db32c6ffd0c21f36f6e36bf65f98656d8f63b063edf742e3"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-067/acceptance.json",
+    "bytes": 1625,
+    "sha256": "be516d3829bf750be7f37eaecfc5929a3055f52946ad40152aa6f93363149390"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-067/episode.json",
+    "bytes": 975,
+    "sha256": "630c96ac54f9c48406676098781c2c230b88ecaef43e1ce1f54bad1dc8866bd6"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-067/launch.json",
+    "bytes": 280,
+    "sha256": "9983d0c889e8946be6364a9d4264b9dbbf9201c49ccc7722d2d739be130d66e3"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-067/rollout.mp4",
+    "bytes": 1374896,
+    "sha256": "c3879f23a5df90357a14202c8970c7835a92f089153577ddf3bbe7de19607c39"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-067/telemetry/episode-000.h5",
+    "bytes": 1920181,
+    "sha256": "89630129ecaff40a0f35938d645efcc0da847f9fb6b5e1c328e8102c47428cfd"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-067/telemetry/episode-000.jsonl",
+    "bytes": 2915038,
+    "sha256": "9accdb3a370dd1b817532217d8999f95de2effd85b04283ddb9e51c2811c1833"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-068/acceptance.json",
+    "bytes": 1626,
+    "sha256": "f4ea78afc4b771b4e95a997f3390394e3398e2b51faf45bc11f3643d7a833e5f"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-068/episode.json",
+    "bytes": 976,
+    "sha256": "240f22c68ebcb6f0cc076bd578d74724007b59eb43831ab538101c1e65865641"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-068/launch.json",
+    "bytes": 280,
+    "sha256": "dcab220d9bc96b94bd11277715307955a3fd45053329f4397cb8fb3eef8168cd"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-068/rollout.mp4",
+    "bytes": 1382445,
+    "sha256": "dad4c0f45ea831f124132254a2944bb4e799c3baed6881508102691f276226bc"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-068/telemetry/episode-000.h5",
+    "bytes": 2032730,
+    "sha256": "f4199e1e8e42935674f779d1c1aff1d991ae37dae1ebcce6257c5abac092f16a"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-068/telemetry/episode-000.jsonl",
+    "bytes": 8634888,
+    "sha256": "f5b032c45701d30d83c0c8e4c4206241c9836948a8c4f8e0ee58f9de5c2b9f29"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-069/acceptance.json",
+    "bytes": 1624,
+    "sha256": "af71dbf1ef7bb37c082199f3bcc190912aa55b902cb531fab521a730bc2c010a"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-069/episode.json",
+    "bytes": 974,
+    "sha256": "d2f4dd99d1762ba09436965435049eac3ee860ed914a2c339f84910023c0822d"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-069/launch.json",
+    "bytes": 280,
+    "sha256": "84495de725338cb09a67493d6cf8a69c1082994f8b55216006c76b22c0484897"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-069/rollout.mp4",
+    "bytes": 1426143,
+    "sha256": "d79c738650b1df4a8b3c883f67ab5e8f67ec105131eed882bf0415dd48e69c97"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-069/telemetry/episode-000.h5",
+    "bytes": 1993008,
+    "sha256": "a09ab467d86d8c2183b7ab43a58f0f5fb69d0f53fbc28d8b6f2548b1642fbc99"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-069/telemetry/episode-000.jsonl",
+    "bytes": 1317365,
+    "sha256": "1482d981843d9d633ad512b2973315e5c0abf9499dd6b965696a0563a646de13"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-070/acceptance.json",
+    "bytes": 1625,
+    "sha256": "a40ada4cdcf4773da9df3eda74f5dd2bdff022634f468fb8af7a01d3f51dd477"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-070/episode.json",
+    "bytes": 975,
+    "sha256": "a53958aec0d96d705f21618b2e028ebe05452048ccc891dce3ea1b8201ee80af"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-070/launch.json",
+    "bytes": 280,
+    "sha256": "73c7109dff5ab2592cdfcd272c7d241051b5903494b695babf57db7c9249bb2b"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-070/rollout.mp4",
+    "bytes": 1642285,
+    "sha256": "ac1ff8d7f965385b89375eaed3b2fa4ad8506129fc146b7ef1e677faad574057"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-070/telemetry/episode-000.h5",
+    "bytes": 1990204,
+    "sha256": "04926b4604339fa28ade918c2f9ea35d7c5f690a678314fdb790bafff59ab70c"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-070/telemetry/episode-000.jsonl",
+    "bytes": 2039219,
+    "sha256": "78493fb37ba8f220c79c2fccee8894cdac2f6f5ad3f9c8b6f620fbb141546397"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-071/acceptance.json",
+    "bytes": 1625,
+    "sha256": "0b2fcd59b2d8e07b5cdda8ec369ef3dd499e82b25f1083887cff8cc242476178"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-071/episode.json",
+    "bytes": 975,
+    "sha256": "e63af5a52de0e96b62d5f15297b7942794ae7fd54c558f23ba12948452b365e6"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-071/launch.json",
+    "bytes": 280,
+    "sha256": "12df6f1e977103611bb1f5a282c58a37cbcca0b9e01b18a3f403e1d49e0571e3"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-071/rollout.mp4",
+    "bytes": 1459020,
+    "sha256": "2238e4b640df421577e06c634a619e3df1324aa4c1b14c9a45be6c103fb6aec5"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-071/telemetry/episode-000.h5",
+    "bytes": 1940506,
+    "sha256": "057987c46789bb5815b24bec64477edd4bb28d228f8a5800c6e5cef97e8e6488"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-071/telemetry/episode-000.jsonl",
+    "bytes": 1434406,
+    "sha256": "165b1a8cee624730aa22e51e89ce70ae613581f830d83f2e47b42ba3a637f0c0"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-072/acceptance.json",
+    "bytes": 1631,
+    "sha256": "c4ce05d0d0c4ccb5b2cc8d69783a5e3618e05d4447b82b4e1f5196e6cfddaaf1"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-072/episode.json",
+    "bytes": 974,
+    "sha256": "6fe14cc20c766bcb2bb6f20ec5597c61d2dd1208f7351d6d0cbd12f862f37faa"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-072/launch.json",
+    "bytes": 280,
+    "sha256": "0b271fc0abff25dca2f56841f7f11c9dbf4b8c52f54dba0301b38b760b2eea6f"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-072/rollout.mp4",
+    "bytes": 1543377,
+    "sha256": "b333317aa7a9a8ade0507b91d7bbf22a5f4c9015b93e147c8723209fc627a756"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-072/telemetry/episode-000.h5",
+    "bytes": 2050249,
+    "sha256": "aa4d93491e507eff5364ca9227243e904c7bbe4c2c8ef105b006b4d6b5bd3fa8"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-072/telemetry/episode-000.jsonl",
+    "bytes": 1020069,
+    "sha256": "98ee72755efd4afd6ad72ddef81c7c1f8d499bb33006ec6c1c5de25c7d9e6f3a"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-073/acceptance.json",
+    "bytes": 1626,
+    "sha256": "8a750f9d8355db8980bc0fc7bfb64bd1730f3436e2f7c914c39cc3e5d70a8c18"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-073/episode.json",
+    "bytes": 976,
+    "sha256": "5512f25f1f928f98b1f8bea13c629d26487e7dc0a7bf74a5c8f73dd9dfef8daf"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-073/launch.json",
+    "bytes": 280,
+    "sha256": "12c069a51706a575118835943e1c99d5bb5bc3896c142ddca3a796f3a94053b2"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-073/rollout.mp4",
+    "bytes": 1085877,
+    "sha256": "d358189c8ad8b68ec7b9921a9c981ed50744e39f85e598d1823882ceca1c36e7"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-073/telemetry/episode-000.h5",
+    "bytes": 1842221,
+    "sha256": "ab95190501192298fcbc42bd14869baea7c24760b45cd11ad1e6e7a2650e401f"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-073/telemetry/episode-000.jsonl",
+    "bytes": 1486678,
+    "sha256": "a66b499055505b24fe5af0c69a652bf7db778080273a6710124556399fa09baf"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-074/acceptance.json",
+    "bytes": 1625,
+    "sha256": "02fbfe56247589a1bbe959fcb58bee2ca5e2027042c32f979efe5d1f6b0934bd"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-074/episode.json",
+    "bytes": 975,
+    "sha256": "39e8a4402b97b60c2193aefb48898386ad1e5569579c42dc1fe291f485272d79"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-074/launch.json",
+    "bytes": 280,
+    "sha256": "a2ab679944424c244889e760a50d878363ec00d28ee13ffc06cba44f7d4f69f7"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-074/rollout.mp4",
+    "bytes": 1836346,
+    "sha256": "5dfb054330e228a199b9567b756cd014111cb96dcd80d8f2e9743a349cf4852e"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-074/telemetry/episode-000.h5",
+    "bytes": 2077193,
+    "sha256": "5f0264e91a9afe289f41154f3e220d825b82d948e474dc08dca1c830b4add805"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-074/telemetry/episode-000.jsonl",
+    "bytes": 1121441,
+    "sha256": "748dddd9f1a02a844c26f80453512d5c269ab1933c919a32c27527a652bcc04c"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-075/acceptance.json",
+    "bytes": 1627,
+    "sha256": "53294e84c323f4b9fa0dc923b22c8dca157699421261f7c27633bff40d3bae13"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-075/episode.json",
+    "bytes": 975,
+    "sha256": "3c7ebd563f5c9d665f304e393fd6845e9c69d9c4b4801ed12480f0203ac15697"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-075/launch.json",
+    "bytes": 280,
+    "sha256": "db5953e5c78fadccebf38cd7ea6a8c4eff16007f5991bf1e234c771d207ecd66"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-075/rollout.mp4",
+    "bytes": 1151155,
+    "sha256": "b5ec7a1cf292973cd930dbc6df11405fe74bf0017b97277505feeeb083fc6955"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-075/telemetry/episode-000.h5",
+    "bytes": 2142535,
+    "sha256": "ed86ebc2cee84598c2c3239ec914a0b0c5e57d818e7a42a53e5f1f4af49d5399"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-075/telemetry/episode-000.jsonl",
+    "bytes": 13528841,
+    "sha256": "169803d4da4b4b3d946fbadea63d183a1264c4a1c3a6bc1633a92aad2b887f11"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-076/acceptance.json",
+    "bytes": 1624,
+    "sha256": "e3cfbe73dc43f8bbaa615d42a027ea21c92a8b5a75ef12883b9ec50991bcbb69"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-076/episode.json",
+    "bytes": 974,
+    "sha256": "8684dbfd0e459bb44e47a0f73d78b95e55954ef84c31ffc538910f955e412eb0"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-076/launch.json",
+    "bytes": 280,
+    "sha256": "1e9259ebebea45b2d95820ff7e630ed5913aba4de81ed8f78ffefa7ef2e8f4a7"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-076/rollout.mp4",
+    "bytes": 1229918,
+    "sha256": "197e717739ca409f7270450049db27e7600307a78877ee1060db8647358a9d30"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-076/telemetry/episode-000.h5",
+    "bytes": 1925490,
+    "sha256": "4125bda604c3daf6f4ed2cd11299beb1aa3697b6db30a7df7bf5bb30cad9fff0"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-076/telemetry/episode-000.jsonl",
+    "bytes": 1052084,
+    "sha256": "5d6a05e2af3ff0eacc8b46a5f317f74d10e1bc0f1a3bb3014031d8121f56f706"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-077/acceptance.json",
+    "bytes": 1625,
+    "sha256": "6b34c7becc3d4548f98c7966c50af8206fda768aa4c4121f40f75ee26c60a51d"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-077/episode.json",
+    "bytes": 975,
+    "sha256": "0a00bf224c9de87efec59ef2e6b901b5960cfd9366ba14d2373d3234daa3a693"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-077/launch.json",
+    "bytes": 280,
+    "sha256": "3666e7907b8256cf808bcd841eedb7db05013ba5764685a11ea6af4edb579be0"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-077/rollout.mp4",
+    "bytes": 1355988,
+    "sha256": "894861189bdb00a26a60194a50695d47b8455d0f347a86d79a338f55146637ca"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-077/telemetry/episode-000.h5",
+    "bytes": 2040802,
+    "sha256": "2b0ba2316972c4de94d692f57d1ea99fd7df2250040b426256fe01576c701ab7"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-077/telemetry/episode-000.jsonl",
+    "bytes": 1141757,
+    "sha256": "3dad2b282966fefcdd69a6b49ef297b150d4c384f3fdee1e4f052bc7f0d11b4e"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-078/acceptance.json",
+    "bytes": 1625,
+    "sha256": "78cbabf5da63387e4b64068c6009e7d92a59cd5a67fcaf4ea1b4c57a841f2c08"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-078/episode.json",
+    "bytes": 975,
+    "sha256": "be3e8d66f7b2c27b54b3f198fe693e965a663ceaa8ab509efe252b4abe624b6d"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-078/launch.json",
+    "bytes": 280,
+    "sha256": "552079c12fbc12e40a6044b45fbb7f161631a6d1e35af796edcc4bd3f437e32f"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-078/rollout.mp4",
+    "bytes": 1591074,
+    "sha256": "831d4beb270100569684c7e26c6eee086c5ddd35fc36aa7b110eb43fd903c61e"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-078/telemetry/episode-000.h5",
+    "bytes": 2075691,
+    "sha256": "126b8e97d379f2d7902d8c98c5926b4a434bcedbad16b0f784b0bc792f8ed1f7"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-078/telemetry/episode-000.jsonl",
+    "bytes": 1854195,
+    "sha256": "ddf38d7e7fd442a6eba5355028a9b7a95f83f60abfd6f815bffbfefb0447259e"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-079/acceptance.json",
+    "bytes": 1625,
+    "sha256": "8ef99d04f0a2eac1d6d46941bf496d37fdd7fb5e891ec9553a59c07542cf1aa9"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-079/episode.json",
+    "bytes": 975,
+    "sha256": "4bbfd820be293633e3a6c30bb443da18572ef5a555cb232f23c167a06def369b"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-079/launch.json",
+    "bytes": 280,
+    "sha256": "c3cfbbbea2eb60824c8423cc9349710dbb553e370f8728532f6f08d1ad9b4c5c"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-079/rollout.mp4",
+    "bytes": 1138334,
+    "sha256": "57435be19a4eebc7f1cc3d37ae5eb57ffb73c0ff8f59ec88cbb6e41a2406bfc2"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-079/telemetry/episode-000.h5",
+    "bytes": 2045343,
+    "sha256": "30cd853e4ac03f6557ab9e7da22514dcfc697a0bd255e6a9aa98dacea94f2eb6"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-079/telemetry/episode-000.jsonl",
+    "bytes": 2953607,
+    "sha256": "839c13407bd2629cca28b866cdefa24313732ff054cc27369dbdc5500e6385f9"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-080/acceptance.json",
+    "bytes": 1624,
+    "sha256": "1cc3b5a234aa08b305509058a66e05ede0243023b80120638a1d0d97fd2df9e0"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-080/episode.json",
+    "bytes": 974,
+    "sha256": "98d4232bf02a3c494f558d463a19877712bce2352e1d92ebb1f112424636853b"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-080/launch.json",
+    "bytes": 280,
+    "sha256": "9c157180785e3f13b29f952c4095df11891269ad4d04b789403b6fc2911e4d53"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-080/rollout.mp4",
+    "bytes": 1181664,
+    "sha256": "dcacef42270e77d6aaa5209d69006d18daf2e6cf0eb39593f3362c9267d565b4"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-080/telemetry/episode-000.h5",
+    "bytes": 1924582,
+    "sha256": "c7bbcfa7ef0989ba6f8dc5ed14f955b237af6594590055726b141ead1c99c56e"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-080/telemetry/episode-000.jsonl",
+    "bytes": 1407749,
+    "sha256": "09aaba316b030e810695cfac536cf8bf7564abdf0faf6164d1e16de9356d7bd3"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-081/acceptance.json",
+    "bytes": 1628,
+    "sha256": "a2f25ae2f744dab868e8d15776cee93ba9927b556a9bd42e98c0ada82edee1ba"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-081/episode.json",
+    "bytes": 976,
+    "sha256": "bfbcd6e255046ed232d7676683a027b7cf18cfed3489b7e22eb5a804cae8e757"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-081/launch.json",
+    "bytes": 280,
+    "sha256": "9108585b923bfad7055f14eb5304b8b1ec563f982ded909e71297d8524cbf048"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-081/rollout.mp4",
+    "bytes": 1186006,
+    "sha256": "3493517886d9a15767c8b3add99b0b95233487ca95fe2e68a1722fe3d3eb0cfd"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-081/telemetry/episode-000.h5",
+    "bytes": 1920899,
+    "sha256": "e1bb575f2ed1c5ed4443e06e08bcca4c5a40403531d23c85f75e896785e6422c"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-081/telemetry/episode-000.jsonl",
+    "bytes": 1327592,
+    "sha256": "7e9b83cbdc0c34f4ce4be07566bf33ee121221c3260e5b6409f673f7170c1b02"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-082/acceptance.json",
+    "bytes": 1626,
+    "sha256": "a4fee461eda8ed2f908ccac951582c7371dd128e4f2dbf505caed8201635adcb"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-082/episode.json",
+    "bytes": 976,
+    "sha256": "136d9fd03b2dd7d4d3d65aa45d4b5e2d1e5ad59cfe2339cd085beaa92720d7d2"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-082/launch.json",
+    "bytes": 280,
+    "sha256": "bd85ff8e982a4011e97605a19d1ead63dc86b15fa7271f1825ebfd7fb9ee38b6"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-082/rollout.mp4",
+    "bytes": 1065002,
+    "sha256": "bb5d37feb736ce4962c8e520007b6aea5f23bef5a69c5d8e4db33a6a30758020"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-082/telemetry/episode-000.h5",
+    "bytes": 1881618,
+    "sha256": "62185485302d52e751be3d9d575c9f154655f4dec952ab6fd28e3196f0fcef75"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-082/telemetry/episode-000.jsonl",
+    "bytes": 1360185,
+    "sha256": "cc90e947278d2b8b4906b49f460abdc29af5eae11fdc7a413561e5792c49c637"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-083/acceptance.json",
+    "bytes": 1625,
+    "sha256": "1338e9fdde1a4fce19233e835bb64e183477abc29af14cd956198ca7c87ee4dd"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-083/episode.json",
+    "bytes": 975,
+    "sha256": "15fbd03ffcfc8305d0811d37ccc96ca88f9ce892097e34ff5886231c00871b57"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-083/launch.json",
+    "bytes": 280,
+    "sha256": "854a1be163033df57f5aec27a102973c755ce0d423338dbd6a7d8e5c8af3377c"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-083/rollout.mp4",
+    "bytes": 1881451,
+    "sha256": "dd8214e0ced31c67b0d2e98167057dbc9148f035b4212ce94012e044b2007b99"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-083/telemetry/episode-000.h5",
+    "bytes": 1908929,
+    "sha256": "1fcb592be40216932c522fbff1926e39f37ea1df64110eb8c4318fd9f40ed352"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-083/telemetry/episode-000.jsonl",
+    "bytes": 2032349,
+    "sha256": "9662e5a2f73057687ad96f8aa2c99d6e27888ffe67355fd987870de2ceb0fa3d"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-084/acceptance.json",
+    "bytes": 1625,
+    "sha256": "479509aa54ade7ca5f12d765b5ca4c27679f86ffab004f9e59b203cdbaf4469b"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-084/episode.json",
+    "bytes": 975,
+    "sha256": "b36fa0d88b44ffb3fa11d52792d2b29fb16f26c9af5d831a0a3d7fc9973f0efe"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-084/launch.json",
+    "bytes": 280,
+    "sha256": "2bdaebb457a4e3c38d0082b499346ab31e1797fb8dafcddcc8f94a18bef98488"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-084/rollout.mp4",
+    "bytes": 1901939,
+    "sha256": "1736639249e98c2279ee230a63b8b7eb5a9af004d72eda9e0719c0029c44ebde"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-084/telemetry/episode-000.h5",
+    "bytes": 1867707,
+    "sha256": "94d5f7363468f2c99f65dbb00b2239be2f670fc62d813171cd1a58d2c59a27e2"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-084/telemetry/episode-000.jsonl",
+    "bytes": 4320548,
+    "sha256": "4f1b5241766f67837ff1460704dd713fe17ccc0542190ca16667157ea57fd711"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-085/acceptance.json",
+    "bytes": 1625,
+    "sha256": "6af210e3511974c3df3eb1cdde1b16f9822d4f408baa39ff10ea39c89e578bef"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-085/episode.json",
+    "bytes": 975,
+    "sha256": "3548d23b64f29523a549d5da25840b7cb56df458b7789e6ffdffd2086f1e7902"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-085/launch.json",
+    "bytes": 280,
+    "sha256": "74ff3c49c3deab487c1ce9170162ad3d209b21017d7d394efd6a540ae30ee8c8"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-085/rollout.mp4",
+    "bytes": 854836,
+    "sha256": "88f6bc4da6ba73734fded89796ead8dc30789918a9e20da256f197df59c38d5f"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-085/telemetry/episode-000.h5",
+    "bytes": 1972054,
+    "sha256": "59c757fd91568ec8a2634325c807009c249b8956e0b0d24564dab1aa67255080"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-085/telemetry/episode-000.jsonl",
+    "bytes": 8532524,
+    "sha256": "6f25ec8e5d6e17e07982c9c1c93d2e677b44e6b6c255532c935922b0924fb6ae"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-086/acceptance.json",
+    "bytes": 1626,
+    "sha256": "975f1644ee51ce03a583ca93d569e208df8ebe6455a399104acec4c531a7bb79"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-086/episode.json",
+    "bytes": 976,
+    "sha256": "d5840a5c9062c3eb58174d1e59a3c6b8c41935265d963b81411e3a8abc36cce5"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-086/launch.json",
+    "bytes": 280,
+    "sha256": "814219ef11e5e5552f2749bb1db82d977c4e6c7205f2249e2e89bba55d004a0f"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-086/rollout.mp4",
+    "bytes": 1583349,
+    "sha256": "870653c13be3400a570ae2177881cabd76a287861b74361c275054598fff583a"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-086/telemetry/episode-000.h5",
+    "bytes": 1906795,
+    "sha256": "a681a8e1482a3016b73d8fb1540d3c2a69720aaee1b7b8824050b77272e159cd"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-086/telemetry/episode-000.jsonl",
+    "bytes": 1090821,
+    "sha256": "3bc55acce9d9bbe476cc9533b898d5a36f636a29d987c8fed586d20db4b93ea2"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-087/acceptance.json",
+    "bytes": 1625,
+    "sha256": "1d7e45e7e7e7bbacd864e281a0753a84463e516514b1f6d449844c5f146f9b38"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-087/episode.json",
+    "bytes": 975,
+    "sha256": "0d2f877cd8d0959fe8008f7b36445e4641ac6c46042f6f9824fc4df7ada63731"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-087/launch.json",
+    "bytes": 280,
+    "sha256": "81dbc5607e6598de8ba0108a3dc24d58ef811782e563080e7e71ffab9b301795"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-087/rollout.mp4",
+    "bytes": 1033079,
+    "sha256": "dffec61a415c6e2ec266fdfae28b69823d3a360322d23e0fe3eb01d2aebe90e9"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-087/telemetry/episode-000.h5",
+    "bytes": 1919581,
+    "sha256": "af8b9c9d5697b0f118c0318fe8cc6d98ea56769a427d5083ab3f6ca47110fa63"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-087/telemetry/episode-000.jsonl",
+    "bytes": 1583336,
+    "sha256": "c68f359d9c3a362a0a8babcc574a5c077fd7cee522fc04f20ee1210409ff310a"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-088/acceptance.json",
+    "bytes": 1625,
+    "sha256": "26a540102aada4e9ca00d8de379c252c655c1910b72f1c1972db3d13f2bc8d9c"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-088/episode.json",
+    "bytes": 975,
+    "sha256": "45273797fd7ab77f1dd71fe5a2d2139452a0755c44b1e619fdad2783b8930ef5"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-088/launch.json",
+    "bytes": 280,
+    "sha256": "bb7e39440705b047ee9c444eb79c22773ed8c8154e7f5aa62f959e20aa820b74"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-088/rollout.mp4",
+    "bytes": 1081597,
+    "sha256": "c18ba35765ad7ce5490c0d02df6f843382ad5898bb3b6c58c4d7cf18300630c5"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-088/telemetry/episode-000.h5",
+    "bytes": 1905819,
+    "sha256": "de4ef2140e69d7bd57598d60123bac2631ddab99ea72fe00594d212fd86cc251"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-088/telemetry/episode-000.jsonl",
+    "bytes": 1873456,
+    "sha256": "beb4949531408354c174685aba24f1caabf27053b67fb9fd43503f2c10de62b5"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-089/acceptance.json",
+    "bytes": 1625,
+    "sha256": "d20f85798ec11a2029d82b9d83d0d2e2795226698648f312567f2de5797811dd"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-089/episode.json",
+    "bytes": 975,
+    "sha256": "f8304b603a729353aab6080d3dc5fba3a99b65e667ef75fa7e95abf8cdf4caad"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-089/launch.json",
+    "bytes": 280,
+    "sha256": "9d75e48c083fbe9e948df600502fef1a99f3409d8026f75972f47adeef124139"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-089/rollout.mp4",
+    "bytes": 834305,
+    "sha256": "fe9e2d3070ee8bff196761fb5a9abc5da564ee59a6de4167b5572bbba3d8b49f"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-089/telemetry/episode-000.h5",
+    "bytes": 1810148,
+    "sha256": "e9ba77d7dfcb245d2e95116aa5edb69a6151da4bfc2e3520fe96891ea7859254"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-089/telemetry/episode-000.jsonl",
+    "bytes": 1764436,
+    "sha256": "b17b5cad73405bd6b99ceecf57d65f120fedfc0ce16b775cfca00e1f31ef59a6"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-090/acceptance.json",
+    "bytes": 1625,
+    "sha256": "d6cc60a7fcb92f63ab9154cc844aed533be3efefc3b10467a93ed73494579a2c"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-090/episode.json",
+    "bytes": 975,
+    "sha256": "f53cf35697a410535a1bbd83e6e48eb4137fd0ede7d9c5a8b32fd970d9151e81"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-090/launch.json",
+    "bytes": 280,
+    "sha256": "91d6be2ae28677778c9f2205d62839753b6df819b84f76cc54d952cd62d4a915"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-090/rollout.mp4",
+    "bytes": 1225864,
+    "sha256": "9218b0587bc3a8c0703a7605845d6155daca82e3b71fef5b491f77064d85fd66"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-090/telemetry/episode-000.h5",
+    "bytes": 1995048,
+    "sha256": "3c3c6fb4bd02d8eef07605e302d5c543ee585dcc7ec2ed1b2fb00c8fd0fa98fa"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-090/telemetry/episode-000.jsonl",
+    "bytes": 1192636,
+    "sha256": "43bbf6b66bbb8fa5b6b6429af3c7c38f71495b3f3dd3178ae2d094fe3a59f3e7"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-091/acceptance.json",
+    "bytes": 1610,
+    "sha256": "52ee87de41d1c4653fb71ceb9f89c9a6cedd17867c883883701f4ddf968f54ef"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-091/episode.json",
+    "bytes": 975,
+    "sha256": "36ab3520644a00f0507fb5c9a4e630020bc6b82326767ec731e8c6b231e1135f"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-091/launch.json",
+    "bytes": 280,
+    "sha256": "88e9f916d8da456f92469e82d3d07ebf3c57f1b1bf9eb8009060e138a5e6de2a"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-091/rollout.mp4",
+    "bytes": 985982,
+    "sha256": "3e4d4703b64303d857a9c8251a109c6eb7792e5fab03289d8f9500e0b12386d9"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-091/telemetry/episode-000.h5",
+    "bytes": 2082620,
+    "sha256": "8074a1523584dc0dc29f1786c9d3f2a584ee8678c27d19fac4cac225b99f7e92"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-091/telemetry/episode-000.jsonl",
+    "bytes": 1400754,
+    "sha256": "b95d9042e49ff82fa36be0a48c937f47c122eece5ec8476270640673465e3f7b"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-092/acceptance.json",
+    "bytes": 1627,
+    "sha256": "cf38331d1beea7866a170474fd8f815a5ff95cc90278cb80b298d502cb392d7a"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-092/episode.json",
+    "bytes": 975,
+    "sha256": "0b6536c240872b931d9098862cdefd2bff110912414297ac2ff41c25fcb9ce76"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-092/launch.json",
+    "bytes": 280,
+    "sha256": "c0b192657c910e4ce39df97cac8460ad20089519a80f702af5d5fe73958e4088"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-092/rollout.mp4",
+    "bytes": 1082013,
+    "sha256": "df5aa85d0c6a352e22807ebb9fad58ab4c385fc7392ff0e973903e0fc7148ae1"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-092/telemetry/episode-000.h5",
+    "bytes": 1989850,
+    "sha256": "84c8d2a99b38a36f0033ad078ec75108c4197e9daf36a539ae5c795c56b872fc"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-092/telemetry/episode-000.jsonl",
+    "bytes": 1171624,
+    "sha256": "f9891200a3619ab112494be32190c58ce346bf5dd90f7ffe6e298af1072a72cd"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-093/acceptance.json",
+    "bytes": 1625,
+    "sha256": "734bb78cc4921d309b728c269ec5914fdd797f6f1f6c9da5870a7b2bb70ae501"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-093/episode.json",
+    "bytes": 975,
+    "sha256": "c76c4c91dcaade3c8f61e1579f83d5b6f7c09c3276c6546a82b8a948572294b1"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-093/launch.json",
+    "bytes": 280,
+    "sha256": "44f3d2053f3df1ecb8e0504b34fd905db7d78729662d45789a5b0d4266090e23"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-093/rollout.mp4",
+    "bytes": 1359431,
+    "sha256": "ee19d129ebbba17c45aec3c14b8ac4fc31afeae7c5bcb9b1785179160dc24763"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-093/telemetry/episode-000.h5",
+    "bytes": 2051723,
+    "sha256": "24fccba8bb6502ee892f9171039d4d78e3e5e6b3a7344b28492ed975bb4833dc"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-093/telemetry/episode-000.jsonl",
+    "bytes": 3151959,
+    "sha256": "075e29c46e9ee737e2aab2be47f5d3427c6f1de328ba04ec7addc6e7b3a11742"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-094/acceptance.json",
+    "bytes": 1625,
+    "sha256": "adf5467a7fd78944df7c63ed1c35f7b98f974f5fb3e1f71ab589e3bbf35ff88e"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-094/episode.json",
+    "bytes": 975,
+    "sha256": "876a3072afe81a186f77e4fc00b6bc5a5599bbdfe2d1ca85153614a399c8e1b0"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-094/launch.json",
+    "bytes": 280,
+    "sha256": "a78c23f51b528f54d306aeab3fca24a67fb430b5fce8b61b8525889f9acc6af8"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-094/rollout.mp4",
+    "bytes": 1509717,
+    "sha256": "aa746c9526411c3c937e53a7ed05326883e3b55fba26fb5efc3bb27f8acd3db4"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-094/telemetry/episode-000.h5",
+    "bytes": 1894787,
+    "sha256": "7c095fce6093ceac469d558ff71a085e7f0ab19982e7e130e338ccfd803540c7"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-094/telemetry/episode-000.jsonl",
+    "bytes": 3074447,
+    "sha256": "523d892fe5d556b4706472104c9885acf5ab2b282ce817ae194edb8eb1a76907"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-095/acceptance.json",
+    "bytes": 1624,
+    "sha256": "787832a5cc2a5870e0c398d7e9e822f31b9b47e680ded0e7d2127f685e6d1b71"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-095/episode.json",
+    "bytes": 974,
+    "sha256": "d53f6e620e1c4ff049a031bd7e36bf38ce054363695e26d181a43f3e3cd7f199"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-095/launch.json",
+    "bytes": 280,
+    "sha256": "6de500c698a6785e9744c0cd75da42c2bba28890885d6d3451610210496b8580"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-095/rollout.mp4",
+    "bytes": 1072030,
+    "sha256": "7373eab83e0a4217c83ab03f905fdabfbb711fac39abf6e8c1d9f72541fa05d2"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-095/telemetry/episode-000.h5",
+    "bytes": 1936924,
+    "sha256": "7879d0c9002a41c151345759db3b53937e74cd0c47b502361d4b37c1b5bf2e8d"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-095/telemetry/episode-000.jsonl",
+    "bytes": 3213176,
+    "sha256": "ce2c7462034ca0176cffebb60408d86e5d9d163c82ac737f64bbc021b5f74727"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-096/acceptance.json",
+    "bytes": 1625,
+    "sha256": "e8dbb9312b77d64f6a393f7eea45c8a9146bd7eec4075a2e79765759aa11888b"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-096/episode.json",
+    "bytes": 975,
+    "sha256": "b0969c89d60e4b5bbc3846fa16362b36a167403d8e2899e4b1bcfc1d6db64ae1"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-096/launch.json",
+    "bytes": 280,
+    "sha256": "d444227a4949c23e283933fab4b610703e8de70c6c9fea5db355159e552aee90"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-096/rollout.mp4",
+    "bytes": 1180333,
+    "sha256": "d8426f59cf656241d602fd09f34a8e6d39bf813352142ee5f5ef3f1fbd7b0534"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-096/telemetry/episode-000.h5",
+    "bytes": 1945281,
+    "sha256": "beda57b8b76d324f3912cc0f81b1eec92ffc463f2f50622b44dd2ad5d70853a8"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-096/telemetry/episode-000.jsonl",
+    "bytes": 3228670,
+    "sha256": "892092c5e780435e1e7b29586f8d7e1e1e8ed60b1fe9edef0585f1e6e73b3a8c"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-097/acceptance.json",
+    "bytes": 1625,
+    "sha256": "7188d79581f93bbc23de665e5933ccacb282edaa43d74fa14c32a23c7351ab4e"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-097/episode.json",
+    "bytes": 975,
+    "sha256": "2e70c1c40ba30959ef6bad9190af3e622fcf5f6d972e024000b6272d14777016"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-097/launch.json",
+    "bytes": 280,
+    "sha256": "82fb93c4ec5036b005a3773b79328d3ea23021e21690c1e0ddb551543498972c"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-097/rollout.mp4",
+    "bytes": 1094806,
+    "sha256": "c1bef3e8545cf3799c82281908093e88ec4a18e64648d9f594a365129455c140"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-097/telemetry/episode-000.h5",
+    "bytes": 2009504,
+    "sha256": "bb351381d024d707997e99ba7d938599491871686ccd7c05feeb9107e13e33b3"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-097/telemetry/episode-000.jsonl",
+    "bytes": 1357143,
+    "sha256": "73cc879462c83e25ad3907df22da5e2f4795e7a55972fb5155895ca0f8263cf2"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-098/acceptance.json",
+    "bytes": 1599,
+    "sha256": "600b843f9d2e2da082c73bf5e27d58c63022b08a74b120a92feba92098ee4680"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-098/episode.json",
+    "bytes": 973,
+    "sha256": "ea75b25079e5959c04f5bbebd02f71d6ca090584be213f285085f069a87081c4"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-098/launch.json",
+    "bytes": 280,
+    "sha256": "eca2e3f3f12b8c4fef1cd788b15eee31506c6e89dd338309f463f25926e176e4"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-098/rollout.mp4",
+    "bytes": 768069,
+    "sha256": "35552ddfd4a1f653de4e569b68b8a245b79d31c414dc4f7504eb087d5d098388"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-098/telemetry/episode-000.h5",
+    "bytes": 1098972,
+    "sha256": "414df5accba9fa5bb674ee993021f108a84558104262bde811133b50cff91d8a"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-098/telemetry/episode-000.jsonl",
+    "bytes": 1530695,
+    "sha256": "5c16b50fda08e8ce3cde2df7cef4b38595d509a622793c0c533ac4f4aa1f0f5f"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-099/acceptance.json",
+    "bytes": 1600,
+    "sha256": "0a176e8899bf98c4c7de027247996abf141a3c49bd9f2cd01c07f2fd8f8fa060"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-099/episode.json",
+    "bytes": 974,
+    "sha256": "8df64e33223ce52b7fce9e428e157254acef8855db35d704fb729bd6174f4a26"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-099/launch.json",
+    "bytes": 280,
+    "sha256": "b08271dd0a6551a82e1c6ea7196d9053d9552ed75b9b02df36fed3c886fa1ade"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-099/rollout.mp4",
+    "bytes": 1234930,
+    "sha256": "7200c79cd5f5ceb1564490b658f8056f09be11274bf3dd03ae7d841ed8d9d38f"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-099/telemetry/episode-000.h5",
+    "bytes": 1645876,
+    "sha256": "8c2ca5ca3c5c1bb3e88878788aa6a1064bf48714006d3f8a921ba5d5a6d10579"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/condition-099/telemetry/episode-000.jsonl",
+    "bytes": 1703628,
+    "sha256": "302bbd0ebc5f78c058df8e99347fd0205e6387ea34e33192d41cbd2b79f059c2"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_counter_to_sink/job.json",
+    "bytes": 1629,
+    "sha256": "1ba7d7473a49ef724f6be850047745c3062a48f4d5b2b575cf516e568c239795"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/acceptance.json",
+    "bytes": 70373,
+    "sha256": "a90b71b2b4d561014983355136904fc004e594d58d3a04f4a00b253d38e36dce"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-060/acceptance.json",
+    "bytes": 1625,
+    "sha256": "77faffd0f8b6467890a144026a25f00f3764e5507d4009273b79f3d487fb6b7d"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-060/episode.json",
+    "bytes": 975,
+    "sha256": "6f0060970f226fce4aa05e851c3b5d0f6341059e0be3a56304832f8fd1577302"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-060/launch.json",
+    "bytes": 280,
+    "sha256": "18a95a74e97d6e0e81ea27bc5bfca8179655e461d8c1abf690c537b9b8cc65e8"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-060/rollout.mp4",
+    "bytes": 1197200,
+    "sha256": "dc7c97f815a12292e4ed9ea1827f01fab6ad96d5bb3b11f780b85c9b05432c56"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-060/telemetry/episode-000.h5",
+    "bytes": 2071338,
+    "sha256": "25eac1c8cf65ce63ac606dfc82cb03051bc5e25aedea0c5890ad293bc461f50c"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-060/telemetry/episode-000.jsonl",
+    "bytes": 1322341,
+    "sha256": "d3af1bba021c1b19d447c6e065b5466885ff925f9208527fbdd529d4b04e5f97"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-061/acceptance.json",
+    "bytes": 1624,
+    "sha256": "39da4ae216f32f3fbddd147eeb18663feaadb43d1bc722527aebfa189498fb28"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-061/episode.json",
+    "bytes": 974,
+    "sha256": "0d3ac852019dc2579396adadb4f692dce952d8e07cd2edbffe0012279b4d3214"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-061/launch.json",
+    "bytes": 280,
+    "sha256": "523ec44aca787453b1522b3d3f447b5b8927e343f1f0f4dad8b11e7ca476c0fd"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-061/rollout.mp4",
+    "bytes": 1221557,
+    "sha256": "c3971c850fecf1a2f5180a9bd14361815b32a823805bb2059f8f51fc1d064bfd"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-061/telemetry/episode-000.h5",
+    "bytes": 2103196,
+    "sha256": "51871a8fc2930f5a2cf5e194a852cf86af3f89caab6365f83d40c181c3afac98"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-061/telemetry/episode-000.jsonl",
+    "bytes": 2278698,
+    "sha256": "6b5e91709b7c4fe87e95039068d271abf4a0827f48858e8ab5dbc300fdcfeb93"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-062/acceptance.json",
+    "bytes": 1624,
+    "sha256": "d44ea4e15c60991ba0dcc0ca895571518fc4a0b5b12859a7bcd42c43760f5cc5"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-062/episode.json",
+    "bytes": 974,
+    "sha256": "a1705617ccb84e207c68824f807095533d48590ceef4020e9aa42b4979c47e57"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-062/launch.json",
+    "bytes": 280,
+    "sha256": "b8d58fac5c37ba56fe76d4ad897c6bea5285c51348cfb0c98ca046ee8155ac2f"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-062/rollout.mp4",
+    "bytes": 1891811,
+    "sha256": "6477980b129530ace5c578604157e92ba5a207ce068c1d4497df8ad0a1e63203"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-062/telemetry/episode-000.h5",
+    "bytes": 2152216,
+    "sha256": "e0c695783bc6f7b156d2d235d6a2d8bf919fc2e811dc720b003f76b18405f038"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-062/telemetry/episode-000.jsonl",
+    "bytes": 1383504,
+    "sha256": "424154773302927cf14b512411a802b7291dafea9838742baea47f39a606b532"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-063/acceptance.json",
+    "bytes": 1625,
+    "sha256": "8399eee7078f3988612abd14e2a96a55ff656db9fccde826272f6d9a54207534"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-063/episode.json",
+    "bytes": 975,
+    "sha256": "0bf789b9a6057a67907aebc3727671fcf8d0485ce08581fb5eaeae83c149a684"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-063/launch.json",
+    "bytes": 280,
+    "sha256": "53fb512a651c034c4319cad27ad1489f0167046cf426700c71ad7e8c42da9374"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-063/rollout.mp4",
+    "bytes": 2138958,
+    "sha256": "4ab1a2bf7c3fbcd33a9a4ec4c705d44ad7f1c5cab09aa970aea7b10a2136ccc6"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-063/telemetry/episode-000.h5",
+    "bytes": 2170191,
+    "sha256": "e54e19508cb36ddbc8cac546ca1da042cf293ce2daa9c0931f820caf8e200942"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-063/telemetry/episode-000.jsonl",
+    "bytes": 9569644,
+    "sha256": "1b145fd80f8419dcc34a183acb42dcdc8739030a63626a90a18541fabc3758d6"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-064/acceptance.json",
+    "bytes": 1631,
+    "sha256": "4f8835ab1976d554e1eb74838b28e588bb12a7b8c8a18fcb9b34165a6c1d6f12"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-064/episode.json",
+    "bytes": 974,
+    "sha256": "adb447ab828cee381b832e2bd9897ffc543d7abdde2e4726af104f91450cc7bd"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-064/launch.json",
+    "bytes": 280,
+    "sha256": "bba01b9468c434ca528a90cac688a7ba299125707fbc6e98b6a4cdd4da71e766"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-064/rollout.mp4",
+    "bytes": 2046038,
+    "sha256": "698e27188fac4dc52c99c6c8dd4224198e9a4cbb52df8ae9ddba6c50da5aa9b0"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-064/telemetry/episode-000.h5",
+    "bytes": 2209100,
+    "sha256": "d4668083b5e1c9e74d678672a30065f65acfe89123f8e14aef73b8569030e418"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-064/telemetry/episode-000.jsonl",
+    "bytes": 14744676,
+    "sha256": "8bd225d4d612d7e30cb9241614f935a55c9052a0b133c80bbf9bfdc425715149"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-065/acceptance.json",
+    "bytes": 1625,
+    "sha256": "db16d2f4bf0dc3d80af1c57e9f32cf2ba04946b181bf1d28f33869840c92c1c6"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-065/episode.json",
+    "bytes": 975,
+    "sha256": "7fea2d3ef61d6e66e46dc6102e6e1ebcc3c41e65b9d79b66c8263c30dcdb2e16"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-065/launch.json",
+    "bytes": 280,
+    "sha256": "4bb36807b3074cbe699ea2c68d82527e401bf99779040bb7944d5ea7d4e88950"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-065/rollout.mp4",
+    "bytes": 1607171,
+    "sha256": "7aa420bb2b71cbb6ce57264efb134023dd4ff58c9dfb6d559010cc22a0e19b22"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-065/telemetry/episode-000.h5",
+    "bytes": 2072891,
+    "sha256": "17b3922abb176c5e68b86e4e15910af6dfd27f9e6f3a843a87f657803a094103"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-065/telemetry/episode-000.jsonl",
+    "bytes": 2409683,
+    "sha256": "b594e7ff5f0b309f066a1773016b0f9f03cb365b665d414e6d4aa2cd865abb53"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-066/acceptance.json",
+    "bytes": 1625,
+    "sha256": "a05be478c38ca298d9bfb4d29bded2861108f1d416adafc12fb23c4d838bc1dd"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-066/episode.json",
+    "bytes": 975,
+    "sha256": "14496d996b4f97acb7abc1652843f07c28d4ed21da045d6ef83fd7c53bdcc225"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-066/launch.json",
+    "bytes": 280,
+    "sha256": "cd52e6f280e24f4633e1bfad0c7e0c223d4aafa4e39e716ebcb0998a112607e5"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-066/rollout.mp4",
+    "bytes": 1834862,
+    "sha256": "2ec71da8d62cba9e5a8c5fca379be2a4650a874000e486587160c4e1a89e7722"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-066/telemetry/episode-000.h5",
+    "bytes": 2060069,
+    "sha256": "71c38ff5bf7a4e22601e59810d38bdb8319854c150ad1ccd82c009814324be14"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-066/telemetry/episode-000.jsonl",
+    "bytes": 1606062,
+    "sha256": "ad493318e085d06baa4f695101b995c1443d9a36cb3e35ce61f3667fd051e90e"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-067/acceptance.json",
+    "bytes": 1625,
+    "sha256": "c774bb3570782c6c4555e2e226559e622a2b4fe090c7a29d30f4c92dfc57fc32"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-067/episode.json",
+    "bytes": 975,
+    "sha256": "0411e87193d78b7c1049af663cf944f721aed0036ab93f3a27b8ef2fc6ac7244"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-067/launch.json",
+    "bytes": 280,
+    "sha256": "041bb2a3edee16531857642ad9c8046bd11ddd34b9a0d3cc5ab3ac395201f9dd"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-067/rollout.mp4",
+    "bytes": 2020691,
+    "sha256": "19bdb55408ff18613a2b7a6e2134ba5d0ac7bea6a77c54fd770f075511b0f842"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-067/telemetry/episode-000.h5",
+    "bytes": 2245516,
+    "sha256": "ca5605eb93f1cd8a68569310b4e40bdb8066d15aa50236927512218fcf4825ff"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-067/telemetry/episode-000.jsonl",
+    "bytes": 12265803,
+    "sha256": "b32b1a46efa57a94cbb8df562e767234acb9ae9ace4cd3976ee969116e2ddc08"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-068/acceptance.json",
+    "bytes": 1625,
+    "sha256": "4cd4483aa754bb828ea2006a4dbb96632caaaeaa2c1fbe608a1aa6ec2b263ea1"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-068/episode.json",
+    "bytes": 975,
+    "sha256": "75e54d9be386415122b9ae53f2492d96dde66c28009974cd3a2c1451a649b44a"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-068/launch.json",
+    "bytes": 280,
+    "sha256": "3903b01bbb893e444a726d3fdf5c29f52fe5e61e6e2853e65ab36daa066a604e"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-068/rollout.mp4",
+    "bytes": 1710783,
+    "sha256": "e5f23857ec5c9454157ada3218985fd05b3094773f987d7ad38ce17201aa69e4"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-068/telemetry/episode-000.h5",
+    "bytes": 2034647,
+    "sha256": "89d5c490b7bdbe3932d32219d20d11457fac5aa9ab133bfb1453ef318705b567"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-068/telemetry/episode-000.jsonl",
+    "bytes": 1433350,
+    "sha256": "fc365536cd28629a40b940f4ba8c51cd4914258c5aac39419396d6e0350beb99"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-069/acceptance.json",
+    "bytes": 1625,
+    "sha256": "6785477390702cd042e1b29f61a965cceea8d096cca7e8c613660cef7e76be8b"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-069/episode.json",
+    "bytes": 975,
+    "sha256": "c47459e02f6ea53b02acda965b9b4c53ef2e6aba5f4e2062035f2340b1dbf755"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-069/launch.json",
+    "bytes": 280,
+    "sha256": "13472410143051fd280dd881e6016c233b3f88c1cdc05aef02e389450e84a5fd"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-069/rollout.mp4",
+    "bytes": 2015604,
+    "sha256": "7f8bfe8c802c4e545d91bed3fdd3fbc2ff2af716598569526855fec8d875a058"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-069/telemetry/episode-000.h5",
+    "bytes": 1902959,
+    "sha256": "b2a4c27713b97023f63fcc43c636f6f69ba7e893517bec54cce9e50f860d1969"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-069/telemetry/episode-000.jsonl",
+    "bytes": 3473282,
+    "sha256": "5dc9b21f546f7c2dc56f01206ab3a59d8babdd05e012954834da7e15ff09c41e"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-070/acceptance.json",
+    "bytes": 1625,
+    "sha256": "68354e38d5ca9af4600bb4069f56c4e150802a9b0ed545717a9c5944b9e7b82d"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-070/episode.json",
+    "bytes": 975,
+    "sha256": "5c80ef4493d37e995915c6a26fb7fb51339756081f27154711dec94e4eb3e767"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-070/launch.json",
+    "bytes": 280,
+    "sha256": "c4827035170e72bc90e8d0b5bf52d78ca5e2c7119f9135591b96ddcca044f8bf"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-070/rollout.mp4",
+    "bytes": 2182504,
+    "sha256": "f84aa859891623f34eac5d38d667f61839c9bd9dc67a9d9aafb4796fa099d589"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-070/telemetry/episode-000.h5",
+    "bytes": 1950935,
+    "sha256": "ed5637257259cdcb6c373ed8e3e61e9a6a32849dd3ba01101906807cdafa0d08"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-070/telemetry/episode-000.jsonl",
+    "bytes": 3374626,
+    "sha256": "b3528916405ed01cfe416114dba0d64161bc269b867dd37c4d30e2c118e37a80"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-071/acceptance.json",
+    "bytes": 1625,
+    "sha256": "7bad2c774ba46d73269e67b9fb2c697514937cd2774b9221034919e04a668c3b"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-071/episode.json",
+    "bytes": 975,
+    "sha256": "adfe704558e0016ceb23496bea8104cd5b3306d683bc551029a7dae6bf4991ef"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-071/launch.json",
+    "bytes": 280,
+    "sha256": "d90cbcc53119ff7790062143d81d79b2a340ce9d9705ad273361451706ede36a"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-071/rollout.mp4",
+    "bytes": 2058533,
+    "sha256": "9ed9d2181cd1ea94157e1aef795b1226836f40e4a698d8314cbe0a4e8cc66522"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-071/telemetry/episode-000.h5",
+    "bytes": 2034028,
+    "sha256": "4ffbeeb49cbcedd7041eae2119ca19d63594edfea1c4c0eafa8383ee6a08bdac"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-071/telemetry/episode-000.jsonl",
+    "bytes": 3426727,
+    "sha256": "96bdad9ec4eb62e478bff945213b1190ea36d9d42d176902ff276e04ca60a156"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-072/acceptance.json",
+    "bytes": 1625,
+    "sha256": "0d852a6ef26cefe900f57abf42f5dbdaade2b62ef3229679a04b767db712ce2e"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-072/episode.json",
+    "bytes": 975,
+    "sha256": "4ac9e5b1e0e44977b5da1e07e2724c268aa8ed544b5e9ee61f6f5479ed541cbf"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-072/launch.json",
+    "bytes": 280,
+    "sha256": "8a442a232b2f5e3931c5cd0720bc55715c4c239b7fad9e95dfbf398fb3660dfb"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-072/rollout.mp4",
+    "bytes": 1612100,
+    "sha256": "b8dbc12f92f2ffeb4a1fb91ffad099cf87bd08c908e8bacba596acaa7801a850"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-072/telemetry/episode-000.h5",
+    "bytes": 2150654,
+    "sha256": "e676eb15a6b7e77f36b8aeaaf689ae553ad430220c778629994d6b5858bda11e"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-072/telemetry/episode-000.jsonl",
+    "bytes": 1657796,
+    "sha256": "485f206970bb80b27feff08e046708efe4bdb5114391edf373e6715efb05bfdc"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-073/acceptance.json",
+    "bytes": 1625,
+    "sha256": "8b539cea6bcba34fd12ec245ca4d102bbb64fe366f0ac807f1431b05911b9789"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-073/episode.json",
+    "bytes": 975,
+    "sha256": "b5de6fc1f3c059e750276794ebaca990b99ddd46c5c5887d58a393f462fde85b"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-073/launch.json",
+    "bytes": 280,
+    "sha256": "d64fe1cbc5448b953e94223a9c36951fd5918abe24fdcfceffb3c15dc9ed4b00"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-073/rollout.mp4",
+    "bytes": 1712021,
+    "sha256": "1b54eb6e601fa967559215609923410d06814d825cbe709f33b39aea18995b1b"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-073/telemetry/episode-000.h5",
+    "bytes": 2154189,
+    "sha256": "36f8b9f57a6c6a902114f0915f0d1e2b04062bc1cb66446095f00593b1693e86"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-073/telemetry/episode-000.jsonl",
+    "bytes": 1635626,
+    "sha256": "0a08a0fbcddeae1b8dec56e0d94b73a0b4967d7c0a55920f78aa4c6a86a262f9"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-074/acceptance.json",
+    "bytes": 1627,
+    "sha256": "3f5cc40b83517544a9e9cefb823486fe2fcd46aa112e231c4036ddfeb8c2775c"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-074/episode.json",
+    "bytes": 975,
+    "sha256": "f3206e7e7ad5c980d2c3650484425326f6c0484621507094234183cab014e7c0"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-074/launch.json",
+    "bytes": 280,
+    "sha256": "4b34d35a76f8bb1f2d839d926fa463d3aeb108293b319b4af432c0c887140e15"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-074/rollout.mp4",
+    "bytes": 2304179,
+    "sha256": "8833be5704eedf4b5162ee8c2bb8468a9d9e908fd7906d199e6401a5d6a02950"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-074/telemetry/episode-000.h5",
+    "bytes": 2065134,
+    "sha256": "147dc78b71c9fa3a237f57ab2b1760541d7dea85c1a882433a885d36866b2581"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-074/telemetry/episode-000.jsonl",
+    "bytes": 4376430,
+    "sha256": "960a87f76821e06d61ef5e094cf4b065d78d32dcc9feb010b79b2a177771a4f5"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-075/acceptance.json",
+    "bytes": 1626,
+    "sha256": "a410d42b82441f9102423b0f16adbbe35c75a8417c993e5055ff17e4359cc964"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-075/episode.json",
+    "bytes": 976,
+    "sha256": "342a80de5d2eada2c72c216a1b51a6f3f27cce0125a0649d58a56c3b85d65408"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-075/launch.json",
+    "bytes": 280,
+    "sha256": "9b27699d77add3c3478a8bbc925761b43fd7063d383f97a27e15fc522efe379b"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-075/rollout.mp4",
+    "bytes": 1814781,
+    "sha256": "98cd626aa9bd1449c6134127e46a76b87fc3021a4b03ba9481347d6b81ce09a7"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-075/telemetry/episode-000.h5",
+    "bytes": 2141742,
+    "sha256": "a3a2d0977ea8c6eea70571f9654947e80f5b27099feaa2303d2d473e6626fb65"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-075/telemetry/episode-000.jsonl",
+    "bytes": 1398199,
+    "sha256": "84ff3b7be97b632cb57096e80d8ece45d7db9348982e4dec432cab796b45c249"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-076/acceptance.json",
+    "bytes": 1625,
+    "sha256": "baeddd08ca9b32b558449a6a9eb44c67c92409dd4b166ba5c8469a36546234cf"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-076/episode.json",
+    "bytes": 975,
+    "sha256": "52e0f0b5c0421261a144a1986e2cd5dc06d13751171d73f74f297c5701c234a0"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-076/launch.json",
+    "bytes": 280,
+    "sha256": "ce8504f78f431a1da8c690250ca2ec566608fa82d2d2e89ae4efc5562fd6a959"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-076/rollout.mp4",
+    "bytes": 1664313,
+    "sha256": "0513ed5983427e56bc1cb83acbd674150ff0efddb5e214b2c17398a70aa02478"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-076/telemetry/episode-000.h5",
+    "bytes": 2186005,
+    "sha256": "eed7894cc6011a939ce6488869168092b524b9a70c6ffc77b4e5719c9d08753c"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-076/telemetry/episode-000.jsonl",
+    "bytes": 10532617,
+    "sha256": "8170eb17d70fb92ae626c1d368767b17a7fdd08cbf2e04ac90baa70740d53125"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-077/acceptance.json",
+    "bytes": 1625,
+    "sha256": "e6a95b37f42f86c545c6f1d300d37136517b91f0e1c444e5c945085c2f39db21"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-077/episode.json",
+    "bytes": 975,
+    "sha256": "a091fc53cc8f40f12a334949ec1728aa33cffba789505aca57a001b237dd86f7"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-077/launch.json",
+    "bytes": 280,
+    "sha256": "37c26f052a88b797d2b3cfeaed5ddbfe24ec6d9efdb1a6acedb25feabd5513f5"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-077/rollout.mp4",
+    "bytes": 2384738,
+    "sha256": "76c16d8c9518d6e3f911c99281da94d8720431cd7c447dae9f645cc4b13b56ee"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-077/telemetry/episode-000.h5",
+    "bytes": 2099361,
+    "sha256": "9da15a66342166411ea9b5a961cfc33ee2ae1e3b43533ce51ac6953688e2c2b1"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-077/telemetry/episode-000.jsonl",
+    "bytes": 1539861,
+    "sha256": "1a1f3a062507ed869bfe5dda1e723fd6b18b92e02d37d876594323c7c2769558"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-078/acceptance.json",
+    "bytes": 1625,
+    "sha256": "2c4e854a916fe9d68942d83472b1c7afb3751f51b31ed93168272c7466d6d445"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-078/episode.json",
+    "bytes": 975,
+    "sha256": "2efefa5b18372964c1e4e562d55e16a1effd82434eab1a9722220bc8286cb079"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-078/launch.json",
+    "bytes": 280,
+    "sha256": "98bf098bd4d51459ef65171011cf339a4e2671e908a2836e1e97857c8eff8077"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-078/rollout.mp4",
+    "bytes": 1768563,
+    "sha256": "0f5f3d49059bdcb458e7af3a4f2db19c6153aba47da5dc89c4cb5f540e8fdcfe"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-078/telemetry/episode-000.h5",
+    "bytes": 2110878,
+    "sha256": "f5cd3ac8bb0cdb99a9a47d33201a674dc2e7641648c93cd1a2f4647444f301a4"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-078/telemetry/episode-000.jsonl",
+    "bytes": 3130003,
+    "sha256": "e896716493445ccf0988f2cf0c27017a99a8b632fa73192139a1f94c173754d2"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-079/acceptance.json",
+    "bytes": 1625,
+    "sha256": "37bac8e55b32532657494865d75aafc55df349f4dbb7f59fde6dac9c499ada45"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-079/episode.json",
+    "bytes": 975,
+    "sha256": "7e75c90aa88677df147efafcf1abe9a8a1de211fb7c6a94b4a8feb55e3e2dcb4"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-079/launch.json",
+    "bytes": 280,
+    "sha256": "515668554d24949b91b20f1b4d76ab02f20b6430dd6b2d6d4a361c1ba96580e6"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-079/rollout.mp4",
+    "bytes": 1876696,
+    "sha256": "fa25fe9c2b376cb5a63db3e44caa3ba761e8af2ede1d2788cfb6e43c97d12b6a"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-079/telemetry/episode-000.h5",
+    "bytes": 2269800,
+    "sha256": "03e40ffe03844dd7aa18a795b36798ccc082f04d62bcf18837d7ec65c8a54898"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-079/telemetry/episode-000.jsonl",
+    "bytes": 11423790,
+    "sha256": "c2ba8aa04522af4ccb1f89d5802fbce5c0aa5bced0044ea3806ec9f35a0e37f1"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-080/acceptance.json",
+    "bytes": 1625,
+    "sha256": "a7312fa123765796cad6e228aef1291662708c4182097607fcf4ab80247cc724"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-080/episode.json",
+    "bytes": 975,
+    "sha256": "7fec85c693374ece35de7fc0d3c09a8ea4cfb4d71257cb89d025a04127f4b219"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-080/launch.json",
+    "bytes": 280,
+    "sha256": "20117c4e8f10111b2bec8e34b8328008a24ea5eb430e6c3a6d95cfb108ce3301"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-080/rollout.mp4",
+    "bytes": 1860402,
+    "sha256": "423eb944709b040778e8f8c98fd6a14e1aeed0cca094960c11b6689faaa986c8"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-080/telemetry/episode-000.h5",
+    "bytes": 2144363,
+    "sha256": "907bf149b4e1d438fa5654ec9096f5070e809aed9f417d1b627a96f16171244a"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-080/telemetry/episode-000.jsonl",
+    "bytes": 3509781,
+    "sha256": "e74ba2ea98de88ef6203c9d1cdd0fa97570e7068bd6eed1be5210e4a13a93363"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-081/acceptance.json",
+    "bytes": 1625,
+    "sha256": "eec8e480147da16c187eafed89a3629e7469ff59b10011827a5c9db4ff3ba991"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-081/episode.json",
+    "bytes": 975,
+    "sha256": "23011d448c157c518570fbb752ac638dde70f437d1dc26a62356f5cef9629324"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-081/launch.json",
+    "bytes": 280,
+    "sha256": "952e15a005d4c290a66a7df552fb22267c43c8ad0dd09e0dd65749623c0dd785"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-081/rollout.mp4",
+    "bytes": 1735665,
+    "sha256": "7e872644601bde75eae67e43ec32b9cbb4db07e8bb046e5de564d2e8b295e615"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-081/telemetry/episode-000.h5",
+    "bytes": 2045043,
+    "sha256": "abd737dbc7fde979c7f07d0649902157eb03e4f5584726eb68b708a2bc42c472"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-081/telemetry/episode-000.jsonl",
+    "bytes": 2107971,
+    "sha256": "05f46efcecb30b4954a26a472630bbce4a30e1e838b9c3ead40553e1e8294fbe"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-082/acceptance.json",
+    "bytes": 1625,
+    "sha256": "981a897d8f794577438774af7aefb982fbc5c75ea0dd95cd8500bbe194be08ba"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-082/episode.json",
+    "bytes": 975,
+    "sha256": "c01bc5479c4c35d251954d5170d884affca6e836825ab4079f248e9b04918e77"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-082/launch.json",
+    "bytes": 280,
+    "sha256": "4a55b40a686850d02ad97d947d97ad01c7ccaf1bac6559e44b8c1d2ef8a404f7"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-082/rollout.mp4",
+    "bytes": 2034706,
+    "sha256": "022877b95c09a261a4b59379d694aa507f5c099b7e06962ae26c5bff45c279fc"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-082/telemetry/episode-000.h5",
+    "bytes": 2113175,
+    "sha256": "2a2c8c52900080be0c0161abbbe8960cd003d1a1c246dd0a79061aa0949c20f5"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-082/telemetry/episode-000.jsonl",
+    "bytes": 3567480,
+    "sha256": "ce014544920570bd5eb72c2b7ed36c02f682439a40c5b3b9b3acf282eafa56a2"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-083/acceptance.json",
+    "bytes": 1625,
+    "sha256": "838b0863c9667661752f57783cfbc6e50278f7ce233f9915c7133ceab655dec6"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-083/episode.json",
+    "bytes": 975,
+    "sha256": "4b6fe794226bae079223b8208b7d2266a17113b6e8a777b2edb4b2ce5c44169f"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-083/launch.json",
+    "bytes": 280,
+    "sha256": "abc72804346d5c31e5602e2a91d4c3b802661f649f9b3099f209e23a136c6839"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-083/rollout.mp4",
+    "bytes": 1502432,
+    "sha256": "53203549a99d708a7786143e24acf7e8ce7f95b74e0a53c393093ff2a9f745f4"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-083/telemetry/episode-000.h5",
+    "bytes": 2086988,
+    "sha256": "de4a276425bb0809b8a0adddcb9c14b3c0aa14d5ffe6c24a13163ce2b1f380e8"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-083/telemetry/episode-000.jsonl",
+    "bytes": 4053950,
+    "sha256": "57a182945de628898d84afa5bce0702ecc4b0f211ee88705661d8ca45b611ed5"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-084/acceptance.json",
+    "bytes": 1626,
+    "sha256": "78a613aaea6742438f827c3672ad33be362ac2c15ecd6f4641681e4d1be79e26"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-084/episode.json",
+    "bytes": 976,
+    "sha256": "ef576640dde1a98a232f87b347243c21eafc83b296bd38cb1af25c31885e056d"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-084/launch.json",
+    "bytes": 280,
+    "sha256": "0708ad6144d22373b93f764eb5a5c245a05ae3b04bd3e67dfe87d4bb108f2ec2"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-084/rollout.mp4",
+    "bytes": 1797031,
+    "sha256": "db8d025a56f57fdaf85578d02b513d7294bf19a34173205e44bf25cb9c3c1d6b"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-084/telemetry/episode-000.h5",
+    "bytes": 2065809,
+    "sha256": "666d2a68fd9850aff4bf502bb469dd20c29799bbe3b531d1c5af2ec93e1bb184"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-084/telemetry/episode-000.jsonl",
+    "bytes": 2212545,
+    "sha256": "ba73501a3f369eb454fa1eea12872de72262c4d5629167b64aeac2d213a62b3f"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-085/acceptance.json",
+    "bytes": 1632,
+    "sha256": "7029492a85639230ca9bfe0312cdf3f8e779f9aef41a3c453e1ac11469e42a01"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-085/episode.json",
+    "bytes": 975,
+    "sha256": "d8b915616ad0bf0d2326bfe4b25cf6b2b62750e069bcdc0840f26dc1fe6c4b93"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-085/launch.json",
+    "bytes": 280,
+    "sha256": "d2ab03c1f4b551b982555a96d0dd3d045556a8e534e684292287b656c27af340"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-085/rollout.mp4",
+    "bytes": 1595409,
+    "sha256": "397c4e97af76c60401bc7180997589d8f61a138d6dc4bb8675a39393cfd8ff4e"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-085/telemetry/episode-000.h5",
+    "bytes": 2061579,
+    "sha256": "221d0cfa82b9a7db096860f28a1cc700117292b17c21c7546947b281aeac17e5"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-085/telemetry/episode-000.jsonl",
+    "bytes": 4138337,
+    "sha256": "c172d6379196748112431f2e7616523570233e1652bcf6e3d007a576458534af"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-086/acceptance.json",
+    "bytes": 1625,
+    "sha256": "7e0f3f8671cb031cbc65b1a1ec95080b20b0c0d5c3d32e5c00181d204dc3e986"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-086/episode.json",
+    "bytes": 975,
+    "sha256": "84155a41be7ba85dfdba41f73a58457150a334064f9c6770cae04746272fa57e"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-086/launch.json",
+    "bytes": 280,
+    "sha256": "ca45db8910783f5fddd0c0549bad19c2bca407c36cb512db9406d8811dca1b23"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-086/rollout.mp4",
+    "bytes": 1427992,
+    "sha256": "1dd19edcd8704ad57dac7e30c55d4ed070d6282583706761274e129a1078ee2d"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-086/telemetry/episode-000.h5",
+    "bytes": 2005844,
+    "sha256": "49b207ed09a235cb8b7856faec3a8e4d27b43d3eebc30ee704b74d129fab75be"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-086/telemetry/episode-000.jsonl",
+    "bytes": 1219871,
+    "sha256": "5b7bba113b5dc3adc6f27042a9b9eacb7e39bcc8c0c7fd1862a79cc286d944bb"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-087/acceptance.json",
+    "bytes": 1625,
+    "sha256": "1396a781a2204744aab2ac88ca412bc860cfc2a16e6c672799b61f160c941f11"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-087/episode.json",
+    "bytes": 975,
+    "sha256": "2d92a55a91dbb55c0372a02d6503b8bdb2e490fc4721a51c073f1daefae0a54a"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-087/launch.json",
+    "bytes": 280,
+    "sha256": "40ab7652a9a91bb9c7ca05e30e51dba4c4a1d273f3080472112d5611cf2c1e91"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-087/rollout.mp4",
+    "bytes": 2075548,
+    "sha256": "5baf2f53f0be36ffe6578ca425ccd501a8e24643869181ff395da61ea1814673"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-087/telemetry/episode-000.h5",
+    "bytes": 2238564,
+    "sha256": "06ccfbec00d69ad125a638973cdc50f164efafee2ecd18d86ff7c9becd623ae0"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-087/telemetry/episode-000.jsonl",
+    "bytes": 11553483,
+    "sha256": "de2506bcb9378de7691e0b6633461b930f2ed9e0cc02e6375bff07c33e618f3e"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-088/acceptance.json",
+    "bytes": 1624,
+    "sha256": "966b1ee61124132d03c5775adc0b4ad78359b388d35a90cb8b50db7466e27ee2"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-088/episode.json",
+    "bytes": 974,
+    "sha256": "ace7a8eff7f3f6c029a6acd005f159f5857ff17e5483ecc244acfe1600b0412f"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-088/launch.json",
+    "bytes": 280,
+    "sha256": "603d78531916c8989b6e61bd39d0f09ca9a7ae3ccfb22271e224da5765d04847"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-088/rollout.mp4",
+    "bytes": 1605544,
+    "sha256": "cd6e7149c499d046866d49c0f4d52bfbbaf19ae6ec13431d783f02af958ab1c3"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-088/telemetry/episode-000.h5",
+    "bytes": 2383835,
+    "sha256": "bcf1f21dc8195dd619fbb6d91c101086dcce9518ae0592c654c27eac295f01bc"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-088/telemetry/episode-000.jsonl",
+    "bytes": 10718629,
+    "sha256": "6853757079d2194030d4d8c735f53beaa153a7e036133be03662cef0e3425a30"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-089/acceptance.json",
+    "bytes": 1625,
+    "sha256": "478304c0b6fef3a79e0b8dc158fd125a35a889571a543f7ac1ed1fa8de4477cc"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-089/episode.json",
+    "bytes": 975,
+    "sha256": "790e9ac5b875736c176e51d93032455cc3e2d7657890bca1b3f2983e1391d719"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-089/launch.json",
+    "bytes": 280,
+    "sha256": "9b4b3fa1627c056d5b4bbed7340a588c758253896ba68d51062a642d4498c828"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-089/rollout.mp4",
+    "bytes": 1456300,
+    "sha256": "82c89e004b0a3077653a843add79d772ac19903a5a42a315a014c2a77f708ad6"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-089/telemetry/episode-000.h5",
+    "bytes": 2189542,
+    "sha256": "7b776b52a3306b05e0994e7646f85db769a08a45987ec7f448b8c6c66c8b2270"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-089/telemetry/episode-000.jsonl",
+    "bytes": 3486394,
+    "sha256": "5f6b6d2dce6eaa207ad824a7bdd2d1e0d301a0361fadca0420e57a2c96eebbb6"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-090/acceptance.json",
+    "bytes": 1624,
+    "sha256": "e5a7303787fa8fd49a6604ad55caa934d9e81ed7284116def3bf6393c62a07b1"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-090/episode.json",
+    "bytes": 974,
+    "sha256": "bea34f0ba10084df16447e3ff32fd48873e1812daa87e3a5176fe11cf2cfcc91"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-090/launch.json",
+    "bytes": 280,
+    "sha256": "cfcc0a9e5027a65ad9a41ab7ecb7c080e2cfa49bba285e64d8f19a05df1254d6"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-090/rollout.mp4",
+    "bytes": 1737336,
+    "sha256": "f4a180dd8a97da51bb2a30d5ed24c77dfba26c20a3719ca203729de4c1b834c1"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-090/telemetry/episode-000.h5",
+    "bytes": 2080825,
+    "sha256": "b2f3b33baf372fbd7a85d22706a060831cc5b71a0649963e4a188faa726a27bf"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-090/telemetry/episode-000.jsonl",
+    "bytes": 1547243,
+    "sha256": "d42b934d9f3b1928f4860eff482d81c5a1597c0eb91c1a8b6892c47106e39889"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-091/acceptance.json",
+    "bytes": 1625,
+    "sha256": "e1380962104ba46eb47ddaeb0bf8bd53c8df6af99091965f610dfbc59d0def95"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-091/episode.json",
+    "bytes": 975,
+    "sha256": "a48ee0e639c426c08a644076c5d97929a012cee0a202022f5d6b9bbb0c33506e"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-091/launch.json",
+    "bytes": 280,
+    "sha256": "d68e8faf27b9e32a21489580b2a7b72abb7e4cedf3183569e2a08449eede459c"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-091/rollout.mp4",
+    "bytes": 2014443,
+    "sha256": "b0a1393bad159dfb7e986881163689ed38ccdfbc7062c4544c47a2f3d2f1f596"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-091/telemetry/episode-000.h5",
+    "bytes": 2035154,
+    "sha256": "c973f7718be8e9e07c90bbbf1d383895dd0490dec4792eb1933ba21644cb2719"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-091/telemetry/episode-000.jsonl",
+    "bytes": 1356483,
+    "sha256": "9b8485a9322a974c68c2e277d546923a7d2e6fc4e9ab201d365b0456b636d845"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-092/acceptance.json",
+    "bytes": 1625,
+    "sha256": "3b0a81334bfc2c1b0c5ca7bad5dc6e2d4ac29c79ad430d282ea80743a442fc4d"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-092/episode.json",
+    "bytes": 975,
+    "sha256": "7a81a14830b9250daf019479a466163ef9170613969bc7665330afd4d36dc3e1"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-092/launch.json",
+    "bytes": 280,
+    "sha256": "645c7e5679e709b35ac13511e033eefde6d35ff593e16e5edd81823e78ad5d96"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-092/rollout.mp4",
+    "bytes": 1221626,
+    "sha256": "dc67f9cbe9227a1babe2b30e2253d72a7eccde4a2db906ca3abd7dd1971cfacb"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-092/telemetry/episode-000.h5",
+    "bytes": 2150945,
+    "sha256": "264559f549a8063295d72f6709f08eb22504aac419dacf7655b1b3dc4c124cd8"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-092/telemetry/episode-000.jsonl",
+    "bytes": 1140485,
+    "sha256": "07c5ecda4344801e72917cc1c170185c373c105b48fcd7e80dff1f8733ca5cf9"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-093/acceptance.json",
+    "bytes": 1625,
+    "sha256": "9374269ad35c115e3bb754118cf6b45f76422239a209b62c8621184a020ae18e"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-093/episode.json",
+    "bytes": 975,
+    "sha256": "82ec0546a8fedba5e58e77432d953ab90c3814e30ceefe293cbef171629bb031"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-093/launch.json",
+    "bytes": 280,
+    "sha256": "367ba5f618042ca28b1a822de02d083c8dfe428e797e6f10c41b5547ff68d654"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-093/rollout.mp4",
+    "bytes": 1951104,
+    "sha256": "cfc9c10d6652c0dd0354deb9c55f45d165654c07d7eab9b9dc8362e95a739c6b"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-093/telemetry/episode-000.h5",
+    "bytes": 2067302,
+    "sha256": "e89204b27cca62b07f438da09e4ea2d0c1010522df78461b47783606c0d02c88"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-093/telemetry/episode-000.jsonl",
+    "bytes": 1291946,
+    "sha256": "d61037a66f6b289f2219959092d6ac8f36fff00c630a4d0fcbce7884a080f19f"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-094/acceptance.json",
+    "bytes": 1625,
+    "sha256": "9a5ad525d09b37259b9e5a03d193c5f22c4e895205ff5348b218ae7b3a42ce69"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-094/episode.json",
+    "bytes": 975,
+    "sha256": "d215a0317da5ccb811e18d78d0f66decdfa94b0165d4391d933de38c401b7fc3"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-094/launch.json",
+    "bytes": 280,
+    "sha256": "20677e584d22836bd22a54ceccd4f606ea68890b8e5d5efbba276d53cb9a9fc3"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-094/rollout.mp4",
+    "bytes": 2076131,
+    "sha256": "f923e0c69665cfd95d77d6312c7ba7f44c3dd4d6802460fd1ebd16ecaf92cc2a"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-094/telemetry/episode-000.h5",
+    "bytes": 2292317,
+    "sha256": "d93f28c8ddc97d0f11e7e7986cbbf9239ef066611cf10984d803ed57000d8cff"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-094/telemetry/episode-000.jsonl",
+    "bytes": 14534965,
+    "sha256": "b5b6c6690c29059cb0648a4495f60cb900b419c8391fdb0a27ecd67d8ceafbd1"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-095/acceptance.json",
+    "bytes": 1625,
+    "sha256": "64d43866020122ab60509917cf10dfcc0fcf0d8d185af04c2103426098c44b15"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-095/episode.json",
+    "bytes": 975,
+    "sha256": "1560601cd779b67fe81022d4493844e02d6afd4958ff1cb7c483cea8b76da7c6"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-095/launch.json",
+    "bytes": 280,
+    "sha256": "efe1f74eb8fc96ecc3ef27ed8d9c5642a8b8b4969af6b076484de82cfb8815ff"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-095/rollout.mp4",
+    "bytes": 1831077,
+    "sha256": "cbbf14c897a8c06f73b24e8ec298208da0d2f2b30ebe9aed581d106f8ec7da0a"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-095/telemetry/episode-000.h5",
+    "bytes": 2110199,
+    "sha256": "0e0a96d4aaa0c2cdc83c918d19156227d16b85ae03ea0c424eb4f15f9ed981d6"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-095/telemetry/episode-000.jsonl",
+    "bytes": 1600777,
+    "sha256": "3dfbaa3de5578c21931f2c1bddf705348aaebec7263510e7ce30bb85d9d69558"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-096/acceptance.json",
+    "bytes": 1625,
+    "sha256": "de4bb34d1abd8a358a8ce0334a072c077b0c02db0222e2e8966f57573e289098"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-096/episode.json",
+    "bytes": 975,
+    "sha256": "2c7e7f32d7b3f4ddd33cbde1e036b4a145c40cfa5d579eb5c9487357f53308c8"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-096/launch.json",
+    "bytes": 280,
+    "sha256": "a436f29f5434eddf9ef26acc9e05c4f5fb4f51fedec512c512847e12bfdfc670"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-096/rollout.mp4",
+    "bytes": 1931197,
+    "sha256": "b8424450890618373d8f10bd4a9b4f007d7d01d6c62e1884687c123584b2d320"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-096/telemetry/episode-000.h5",
+    "bytes": 1986177,
+    "sha256": "1e53beda89a68cc87159f16a9b4969097029d241ee8d67cac718eb6132668764"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-096/telemetry/episode-000.jsonl",
+    "bytes": 3553910,
+    "sha256": "ea59ba9e52fd07be762a46fa55d474437b5b528c9b03acec3717da56451d04d2"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-097/acceptance.json",
+    "bytes": 1625,
+    "sha256": "db133a81abeeb05548a6dcd8962f9310e94ac0433ce667d79db63ee5cbdef896"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-097/episode.json",
+    "bytes": 975,
+    "sha256": "f9cb6476f0a9f5fed1f8bdbc1fabc5bd01f056ee89144cf2768024345b353785"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-097/launch.json",
+    "bytes": 280,
+    "sha256": "5789138cd63bc2717794ce25f9176d103850a93a8f73b03a2e1cf89a5e919bd5"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-097/rollout.mp4",
+    "bytes": 1693229,
+    "sha256": "3ecc07f3a1bcc4901d784ed9888cf2556dd7d968f233ee32cbb6187ce9131da4"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-097/telemetry/episode-000.h5",
+    "bytes": 2189899,
+    "sha256": "f3cc762c92c8f5bb501d0378abdeff3f21b613cc5237302e7b28ba47eae8b34f"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-097/telemetry/episode-000.jsonl",
+    "bytes": 1732439,
+    "sha256": "deb8397a1a12b7d01c45ea1b16c95b939fdb7903accadbc3e993845c66a12837"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-098/acceptance.json",
+    "bytes": 1624,
+    "sha256": "1379aabf06817a338729a9626368cf0531c608bbe6ea7e3030e4d423325728d7"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-098/episode.json",
+    "bytes": 974,
+    "sha256": "0b29f6434d7391e91af808dd360aaf58c79e429c9269750c1fcdfdf598b795c8"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-098/launch.json",
+    "bytes": 280,
+    "sha256": "da5f6817385c417070fc4870a9f81d83cb40af2281204a1160d7b794cf8714e2"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-098/rollout.mp4",
+    "bytes": 1953689,
+    "sha256": "c4f11598b961dbfb501989d6f466a46bec79521e9ca4fb4cbd29cc86e5aa9580"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-098/telemetry/episode-000.h5",
+    "bytes": 2077022,
+    "sha256": "cf0a33454be068188fb72c375ed3b68c607828949808af3f83f82f4107acd4ac"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-098/telemetry/episode-000.jsonl",
+    "bytes": 4160416,
+    "sha256": "d3c5188016077f2721c88e6b95faa5bf925a262890fd86cf9ee9e6e4ab5f0141"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-099/acceptance.json",
+    "bytes": 1625,
+    "sha256": "3dec36242916bb47eb8c1d906e90ca857dfdc586f19cd52e38aacc6810aa84fe"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-099/episode.json",
+    "bytes": 975,
+    "sha256": "b44104d2cb12c5176a26f4300241af3cdedca6aac638b5395aa883daf714034d"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-099/launch.json",
+    "bytes": 280,
+    "sha256": "ce3016cc261531cf793b51510945bf246dd50505018d2e39217476946abdd055"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-099/rollout.mp4",
+    "bytes": 1870550,
+    "sha256": "dc3f2fa64a54c00a4cac3b0760bb4de8c1a72be5015cfeaedf02ba8e01b2515e"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-099/telemetry/episode-000.h5",
+    "bytes": 2181484,
+    "sha256": "06a3e43b6aca63bcc8f76e376aa29a4ffc89c20e7b292e8709bf9b3e786cee0d"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/condition-099/telemetry/episode-000.jsonl",
+    "bytes": 1442405,
+    "sha256": "134e05101a5acb8221c1894e84a479d22ddd71225472ce1ff00f3319a47754a8"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/formal/human_plus_generated/pnp_sink_to_counter/job.json",
+    "bytes": 1631,
+    "sha256": "64571dbe4ad3433f34c3dd1297b8cd754681b6f1ef70b1c72a6c45d8dba60803"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/physical_launches.jsonl",
+    "bytes": 19596,
+    "sha256": "fd3223ad1265e7bcdc9ddc534f408c83e3b25778bbb61cbafa94899b3ffb9198"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/smoke/human_plus_generated/pnp_counter_to_sink/acceptance.json",
+    "bytes": 1949,
+    "sha256": "be227ef31a0bdcfbb5a0a185d2df2ff766303383d14891654ca52ba21e4e9d0a"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/smoke/human_plus_generated/pnp_counter_to_sink/condition-000/acceptance.json",
+    "bytes": 1620,
+    "sha256": "29d6a235eb59736be172720980a36d00500f06b47943ae10b9433ef5dde2f08f"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/smoke/human_plus_generated/pnp_counter_to_sink/condition-000/episode.json",
+    "bytes": 969,
+    "sha256": "6ef0dd2dd6036e5d6e1d836895ba9e4ea3d9f4fddd704befc348a4424b446ed0"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/smoke/human_plus_generated/pnp_counter_to_sink/condition-000/launch.json",
+    "bytes": 279,
+    "sha256": "e4165fce1889717672372b0c5794dd328124503cc616cecdd7d988de2c88d028"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/smoke/human_plus_generated/pnp_counter_to_sink/condition-000/rollout.mp4",
+    "bytes": 1707818,
+    "sha256": "40994a57ddd0a098d36d7d4378520b02ac9f2afebea824dc67d90da7f9ae1830"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/smoke/human_plus_generated/pnp_counter_to_sink/condition-000/telemetry/episode-000.h5",
+    "bytes": 1979208,
+    "sha256": "63f9779a52ebb96f6fd10bf830d3c21afc65c7dd37e51481c4c4052a4997d21b"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/smoke/human_plus_generated/pnp_counter_to_sink/condition-000/telemetry/episode-000.jsonl",
+    "bytes": 2829416,
+    "sha256": "45a24a6124626e497622e6010122ea6e5b6dbd072e3c02352052a9f6fffa187d"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/smoke/human_plus_generated/pnp_counter_to_sink/job.json",
+    "bytes": 1312,
+    "sha256": "b6f67141bfe9a21ecbb63434f77d87147ac1cfaf824d5118abe1f8a1efdec756"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/smoke/human_plus_generated/pnp_sink_to_counter/acceptance.json",
+    "bytes": 1949,
+    "sha256": "b36390369980efb86d6f290ccd665fe53aa7d556358011aa8f4db87a4bba4866"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/smoke/human_plus_generated/pnp_sink_to_counter/condition-000/acceptance.json",
+    "bytes": 1620,
+    "sha256": "f78dc26bd8bb0f7a540c7c6e672d359b691f9d8c96f93fbc1aa9f3561bac738b"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/smoke/human_plus_generated/pnp_sink_to_counter/condition-000/episode.json",
+    "bytes": 969,
+    "sha256": "7536d8e2dcb0ed1707733dc99b72713d3fb56986d7ec39e414c3544b594a7bfb"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/smoke/human_plus_generated/pnp_sink_to_counter/condition-000/launch.json",
+    "bytes": 279,
+    "sha256": "4ffdb4dc9d292b47b8d1ff2c6a74799f93d6e162e273b9e18ae0dee642c13147"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/smoke/human_plus_generated/pnp_sink_to_counter/condition-000/rollout.mp4",
+    "bytes": 1258594,
+    "sha256": "0a2aa61d96651bdb2614c9da17446c8f7aedb116dff58f95b5c3ed65eb6ea1d5"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/smoke/human_plus_generated/pnp_sink_to_counter/condition-000/telemetry/episode-000.h5",
+    "bytes": 2141849,
+    "sha256": "e208012e6c7abf371b056a154459529d91139634385c71461985db17e3c45e88"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/smoke/human_plus_generated/pnp_sink_to_counter/condition-000/telemetry/episode-000.jsonl",
+    "bytes": 3491711,
+    "sha256": "4cf4fc037844f61840eb695359a9a2eb91d7982a6bdb7600a8f4d466a614175c"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/physical/smoke/human_plus_generated/pnp_sink_to_counter/job.json",
+    "bytes": 1313,
+    "sha256": "7c6878689f42c63cc342d410324b4a4ce7406a7e73ad06757420936fa5bda013"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/probe/config.json",
+    "bytes": 5618,
+    "sha256": "7cb4e05624967682cfb8a07569e207776d2c70402c3cb6f5af4d88ede49eb83c"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/probe/consumed_anchors.csv",
+    "bytes": 1620,
+    "sha256": "b1fb457fc71b53a45c5c39aa8673cc7e7886501d8cfb2d5fbb8092ca7abf0f7d"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/probe/latest.pt",
+    "bytes": 367179493,
+    "sha256": "9e41c91ffbfece28254957c3fcb8b7ecbd3800b5c2803507126c51df6c465539"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/probe/parameter_changes.json",
+    "bytes": 10290,
+    "sha256": "7304ccd3087e27c4382f005b61a35ba41585ae6d94ae83ddfdaec3b755c3740f"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/probe/resource_start.json",
+    "bytes": 145,
+    "sha256": "7a6e80e30950a8a644ac1b47f977d5921b43ee25db02235d2b737cf9b80a0712"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/probe/status.json",
+    "bytes": 470,
+    "sha256": "4cfc3f2fa4064e18347b6be49070717d4811020012d3290a8dff2081b28d4e7a"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/probe/updates.csv",
+    "bytes": 116,
+    "sha256": "be291d714ed17f2cd6853cff6a064abd5813747cfbb6f42b65ffc636b4ae0993"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/training/config.json",
+    "bytes": 5618,
+    "sha256": "7cb4e05624967682cfb8a07569e207776d2c70402c3cb6f5af4d88ede49eb83c"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/training/consumed_anchors.csv",
+    "bytes": 78329264,
+    "sha256": "a0da5711b793ba2e06b882908c993e4cff5d85bdfcf05b9ce360fdb5a431e595"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/training/final.pt",
+    "bytes": 367183461,
+    "sha256": "2e7d97bcc436d890ce2af9067984f3af93d868b118dbca78815dbf8d15055c09"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/training/latest.pt",
+    "bytes": 367183461,
+    "sha256": "2e7d97bcc436d890ce2af9067984f3af93d868b118dbca78815dbf8d15055c09"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/training/resource_start.json",
+    "bytes": 145,
+    "sha256": "8781a5e0c0f29e3fdd8e9201579107268dcf358b7d2eed306d0a9860d006459e"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/training/status.json",
+    "bytes": 10853,
+    "sha256": "738a2586717daecf6ccf4d506603309a53547d2c8160232fcc4076147e7e9851"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/training/updates.csv",
+    "bytes": 2832128,
+    "sha256": "95bd6d478936d00c5b83f69e3c9a72b1a38702b8242ae5c671979b24bdfaad47"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen-v2-acceptance-pnp_counter_to_sink.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen-v2-acceptance-pnp_sink_to_counter.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen-v2-evaluation-pnp_counter_to_sink.log",
+    "bytes": 39386,
+    "sha256": "295b4d03ba84f643e38c809997f656410a4128133b758af4116d59464d240605"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen-v2-evaluation-pnp_sink_to_counter.log",
+    "bytes": 39386,
+    "sha256": "f20812992819a27c40c2813c76972a3690d36bac2ab35460b213eb79bf7b0996"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen-v2-inventory.log",
+    "bytes": 191,
+    "sha256": "70c45abb4a09437140fc1f736bf80d9e8453db739a42c2a4175e5ddd222e0661"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen-v2-prepare.log",
+    "bytes": 577,
+    "sha256": "9d812b9a79697b36989c2217a92dae6ef923eaf36c57c964edc25997205ae9ee"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen-v2-probe.log",
+    "bytes": 556,
+    "sha256": "4c3ea90f6c566a7bb32fe0f553412cfaeaa30db44b5f8ecb4cdc0a6d0f186b43"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen-v2-probes-controller.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen-v2-report.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen-v2-run.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen-v2-smoke-acceptance-pnp_counter_to_sink.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen-v2-smoke-acceptance-pnp_sink_to_counter.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen-v2-smoke-pnp_counter_to_sink.log",
+    "bytes": 2763,
+    "sha256": "eff256a19a36c5c75ee011e25e5c5e36d89cec406a9ef6219af76edc9e6400de"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen-v2-smoke-pnp_sink_to_counter.log",
+    "bytes": 2763,
+    "sha256": "3c770d56669b8257d063b27a4a26d9aea7930f339e7a7f84a4c6bb603ce6e55d"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen-v2-tests.log",
+    "bytes": 98,
+    "sha256": "566b533769efda184c621fadcbb3499a3de7b732897627c27b430e8565082bbb"
+  },
+  {
+    "path": "/home/users/lemon/strong-baselines-20261112/mimicgen-v2-training.log",
+    "bytes": 14113,
+    "sha256": "4ba2518242b563f0082c84c27e2954ce9c8883884d05feea42687e18bfcb694a"
+  }
+]

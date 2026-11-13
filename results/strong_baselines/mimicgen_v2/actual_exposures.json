@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "actual_updates": 48000,
+  "total_anchors": 768000,
+  "supervised_action_labels": 768000,
+  "input_history_positions": 7680000,
+  "unique_training_demo_ids": 153,
+  "by_origin_and_task": [
+    {
+      "origin": "generated",
+      "task": "pnp_counter_to_sink",
+      "anchors": 202523
+    },
+    {
+      "origin": "generated",
+      "task": "pnp_sink_to_counter",
+      "anchors": 86008
+    },
+    {
+      "origin": "human",
+      "task": "pnp_counter_to_sink",
+      "anchors": 181477
+    },
+    {
+      "origin": "human",
+      "task": "pnp_sink_to_counter",
+      "anchors": 297992
+    }
+  ],
+  "trace": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/training/consumed_anchors.csv",
+  "trace_sha256": "a0da5711b793ba2e06b882908c993e4cff5d85bdfcf05b9ce360fdb5a431e595"
+}

@@ -1,0 +1,14 @@
+{
+  "status": "PASS_BOUNDED_COMPONENT_ONLY",
+  "utc": "2026-11-13T04:25:02.468778+00:00",
+  "actual_new_training_updates": 48001,
+  "new_formal_episodes": 80,
+  "new_smoke_episodes": 2,
+  "optimizer_counters_verified": true,
+  "all_consumed_anchors_verified": true,
+  "old_baseline_hashes_unchanged": true,
+  "original_full_gate_preserved": true,
+  "full_baseline_claim": false,
+  "new_generation_attempts": 0,
+  "never_test_selected": true
+}

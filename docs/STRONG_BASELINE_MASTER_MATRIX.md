@@ -8,7 +8,7 @@
 |---|---|---:|---:|---|---|
 | act | COMPLETE_FAITHFUL_PORT | 48000 | 160 | 分设置见下表 | [状态](../results/strong_baselines/act/status.json) |
 | vqbet | COMPLETE_FAITHFUL_PORT | 60000 | 160 | 分设置见下表 | [状态](../results/strong_baselines/vqbet/status.json) |
-| mimicgen_v2 | PARTIAL | 48000 | 40 | N/A | [状态](../results/strong_baselines/mimicgen_v2/status.json) |
+| mimicgen_v2 | PARTIAL | 48000 | 80 | 0.025 | [状态](../results/strong_baselines/mimicgen_v2/status.json) |
 | kite | NOT_RUN | 0 | 0 | N/A | [状态](../results/strong_baselines/kite/status.json) |
 | crosszero | NOT_RUN | 0 | 0 | N/A | [状态](../results/strong_baselines/crosszero/status.json) |
 | object_flow | NOT_RUN | 0 | 0 | N/A | [状态](../results/strong_baselines/object_flow/status.json) |
@@ -34,6 +34,7 @@
 | vqbet | source_target | pnp_counter_to_sink | 0/40 | 0.0% | COMPLETE_FAITHFUL_PORT / EXPOSED_REFERENCE |
 | vqbet | source_target | pnp_sink_to_counter | 0/40 | 0.0% | COMPLETE_FAITHFUL_PORT / EXPOSED_REFERENCE |
 | mimicgen_v2 | human_plus_generated | pnp_counter_to_sink | 2/40 | 5.0% | PARTIAL / EXPOSED_REFERENCE |
+| mimicgen_v2 | human_plus_generated | pnp_sink_to_counter | 0/40 | 0.0% | PARTIAL / EXPOSED_REFERENCE |
 
 ## 数据和信息条件
 

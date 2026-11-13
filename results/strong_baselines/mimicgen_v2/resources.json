@@ -1,0 +1,19 @@
+{
+  "training_seconds": 2697.5420742388815,
+  "peak_training_gpu_allocated_bytes": 1677609984,
+  "peak_training_gpu_reserved_bytes": 1990197248,
+  "formal_job_wall_seconds": 3187.5365688260645,
+  "formal_control_steps": 49568,
+  "dedicated_allocated_bytes_counting_hardlinks_once": 2110582784,
+  "formal_optimizer_updates": 48000,
+  "probe_optimizer_updates": 1,
+  "total_new_optimizer_updates": 48001,
+  "new_formal_episodes": 80,
+  "new_smoke_episodes": 2,
+  "new_generation_attempts": 0,
+  "final_snapshot": {
+    "utc": "2026-11-13T04:25:02.468391+00:00",
+    "gpu": "NVIDIA GeForce RTX 3090, 24576 MiB, 581 MiB, 38 %",
+    "disk_free_bytes": 139972022272
+  }
+}

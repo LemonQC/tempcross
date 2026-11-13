@@ -1,0 +1,95 @@
+{
+  "status": "PARTIAL",
+  "component_status": "BOUNDED_DOWNSTREAM_CONTROL_COMPLETE",
+  "scope": "MIMICGEN_V2_UNEQUAL_PANDA_AUGMENTATION_BC_TRANSFORMER_COMPONENT",
+  "cells": [
+    {
+      "group": "human_plus_generated",
+      "task": "pnp_counter_to_sink",
+      "episodes": 40,
+      "successes": 2,
+      "success_rate": 0.05,
+      "role": "EXPOSED_REFERENCE",
+      "failure_counts": {
+        "CLOSE_WITHOUT_BILATERAL_CONTACT": 33,
+        "STABLE_LIFT_WITHOUT_OFFICIAL_PLACEMENT": 1,
+        "CONTACT_WITHOUT_STABLE_LIFT_PROXY": 3,
+        "NO_CLOSE_COMMAND": 1,
+        "SUCCESS": 2
+      },
+      "checkpoint": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/training/final.pt",
+      "checkpoint_sha256": "2e7d97bcc436d890ce2af9067984f3af93d868b118dbca78815dbf8d15055c09"
+    },
+    {
+      "group": "human_plus_generated",
+      "task": "pnp_sink_to_counter",
+      "episodes": 40,
+      "successes": 0,
+      "success_rate": 0.0,
+      "role": "EXPOSED_REFERENCE",
+      "failure_counts": {
+        "CLOSE_WITHOUT_BILATERAL_CONTACT": 37,
+        "STABLE_LIFT_WITHOUT_OFFICIAL_PLACEMENT": 2,
+        "CONTACT_WITHOUT_STABLE_LIFT_PROXY": 1
+      },
+      "checkpoint": "/home/users/lemon/strong-baselines-20261112/mimicgen_v2/training/final.pt",
+      "checkpoint_sha256": "2e7d97bcc436d890ce2af9067984f3af93d868b118dbca78815dbf8d15055c09"
+    }
+  ],
+  "formal_episodes": 80,
+  "new_policy_successes": 2,
+  "reused_control_cells": [
+    {
+      "label": "B_bc_transformer",
+      "task": "pnp_counter_to_sink",
+      "robot": "panda",
+      "status": "COMPLETE",
+      "successes": 1,
+      "episodes": 40,
+      "success_rate": 0.025,
+      "wilson95": [
+        0.0044268315026814095,
+        0.1288136896347409
+      ],
+      "checkpoint": "/home/users/lemon/baseline-benchmark/run-20261109/training/B_bc_transformer/positions-768000.pt",
+      "checkpoint_sha256": "f1511ba7871161b32edd17e6019fe8e7f2d81192d938f540572499a14a936486",
+      "group": "B",
+      "legacy_setting": false,
+      "model_kind": "robomimic",
+      "mean_policy_prediction_seconds": 0.0066517851978354055,
+      "peak_gpu_allocated_bytes": 270588416
+    },
+    {
+      "label": "B_bc_transformer",
+      "task": "pnp_sink_to_counter",
+      "robot": "panda",
+      "status": "COMPLETE",
+      "successes": 1,
+      "episodes": 40,
+      "success_rate": 0.025,
+      "wilson95": [
+        0.0044268315026814095,
+        0.1288136896347409
+      ],
+      "checkpoint": "/home/users/lemon/baseline-benchmark/run-20261109/training/B_bc_transformer/positions-768000.pt",
+      "checkpoint_sha256": "f1511ba7871161b32edd17e6019fe8e7f2d81192d938f540572499a14a936486",
+      "group": "B",
+      "legacy_setting": false,
+      "model_kind": "robomimic",
+      "mean_policy_prediction_seconds": 0.0068705314019262675,
+      "peak_gpu_allocated_bytes": 270588416
+    }
+  ],
+  "reused_control_episodes": 80,
+  "new_control_episodes": 0,
+  "new_control_training_updates": 0,
+  "generated_train_counts": {
+    "pnp_counter_to_sink": 50,
+    "pnp_sink_to_counter": 13
+  },
+  "full_original_mimicgen_reproduced": false,
+  "cross_embodiment_generation": false,
+  "independent_unseen_test": false,
+  "role": "EXPOSED_REFERENCE",
+  "old_baseline_reruns": 0
+}

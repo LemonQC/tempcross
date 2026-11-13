@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "actual_native_optimizer_step_counters": [
+    48000
+  ],
+  "changed_parameter_tensors": 143,
+  "exact_control_architecture": true,
+  "random_initial_weights_sha256": "b231067b8b96d3ad78e9af9947178db1090e4bdaad0660458e9c0063aae4d7e8",
+  "trained_checkpoint_sha256": "2e7d97bcc436d890ce2af9067984f3af93d868b118dbca78815dbf8d15055c09"
+}
