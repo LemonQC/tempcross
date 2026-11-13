@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "native_queries": 12520,
+  "normalized_and_physical_and_canonical_verified": true,
+  "recorded_telemetry_query_multiset_exact": true,
+  "files": [
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/inference/1794563251206208934-2084255.jsonl",
+      "sha256": "25b844f30dd737f2db2f71b460a3ab9ec154f0553d4772d2a6e814d78b2a1fdb"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/inference/1794565007169061544-2108177.jsonl",
+      "sha256": "4da949520eed0a0e3f30b80db48df3138dea9e4632fa049f4989c966ee7479eb"
+    }
+  ]
+}

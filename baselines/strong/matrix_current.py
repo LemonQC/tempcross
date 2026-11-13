@@ -18,6 +18,7 @@ def main():
         '|---|---|---|---:|---:|---|']
     for m in methods:
         s=read(out(m)/'status.json');link='RESULTS.md' if (out(m)/'RESULTS.md').exists() else 'status.json'
+        if m=='octo_small' and s['status']=='COMPLETE_FAITHFUL_PORT':roles[m]='联合设置已验收，禁止重跑'
         lines.append(f"| {m} | {roles[m]} | {s['status']} | {s.get('actual_training_updates',0)} | {s.get('physical_evaluation_episodes',0)} | [证据](../results/strong_baselines/{m}/{link}) |")
     lines += ['', 'COMPLETE_OFFICIAL、COMPLETE_FAITHFUL_PORT、COMPLETE_REIMPLEMENTATION只用于完成训练和正式完整任务评测的对应范围。PARTIAL/BLOCKED/NOT_RUN不是完整Baseline。',
         'KITE旧BLOCKED是历史尝试状态，不代表当前候选已被永久否定。归档方法不计入新的必须凑齐数量。', '',
@@ -33,6 +34,7 @@ def main():
         '每方法保留官方版本/许可证、预训练、目标示范数量、额外观测监督、训练样本暴露与checkpoint选择记录。不得把多相机/机器人状态输入称为RGB-only等输入比较。',
         'Octo-Small当前主设置为UR5e+Panda联合微调，使用原540/60源、90/10目标完整示范划分。主RGB256和语言是原生支持的输入子集；缺失腕部相机按官方padding mask处理，未引入额外机器人状态。其输入分辨率与T5/Octo预训练区别于旧RGB128模型。',
         '模型真实更新和完整任务smoke通过后才冻结正式训练预算与验证选模规则。当前阶段不得把安装成功或仅forward称为完整Baseline。',
+        'Octo-Small联合设置已完成24000正式更新、80正式评测：两任务均0/40。另有6次丢弃探针更新和2条smoke；target-only未运行。零成功率来自实际完整任务评测。',
         'MimicGen v2仍为PARTIAL有界组件：两任务新结果2/40与0/40，复用旧人类BC各1/40，总数均2/80。',
         'VQ-BeT的60000阶段迭代对应84000次正式optimizer调用，探针/旧技术尝试成本另列。', '',
         '[上一轮完整性审计（历史）](https://github.com/LemonQC/tempcross/blob/8b274c9a014dccab2f8ddc364b64f10667cc8e2d/docs/STRONG_BASELINE_MASTER_MATRIX.md)；[当前范围](../results/strong_baselines/research_scope.json)。']

@@ -1,0 +1,13 @@
+{
+  "training_seconds": 10638.948588586412,
+  "sampling_interval_seconds": 5,
+  "observed_max_gpu_memory_MiB": 19254.0,
+  "observed_training_max_gpu_memory_MiB": 19254.0,
+  "mean_sampled_training_power_W": 298.41532227488153,
+  "total_sample_count": 2834,
+  "training_sample_count": 2110,
+  "snapshot_path": "/home/users/lemon/strong-baselines-20261112/octo_small/resources_at_acceptance.csv",
+  "snapshot_sha256": "c5ea4956ba3f51f3141d751fce5a57f9e4d47a4db403d6b42b91fad3ca3f3844",
+  "note": "nvidia-smi whole-device samples include desktop overhead; observed maximum is not an exact allocator peak",
+  "current_disk_free_bytes": 89111916544
+}

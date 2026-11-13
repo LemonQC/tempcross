@@ -1,0 +1,65 @@
+{
+  "status": "COMPLETE_FAITHFUL_PORT",
+  "scope": "one joint UR5e+Panda full-finetuned Octo-Small baseline",
+  "role": "EXPOSED_REFERENCE",
+  "cells": [
+    {
+      "group": "source_target",
+      "task": "pnp_counter_to_sink",
+      "episodes": 40,
+      "successes": 0,
+      "success_rate": 0.0,
+      "role": "EXPOSED_REFERENCE",
+      "failure_counts": {
+        "CLOSE_WITHOUT_BILATERAL_CONTACT": 40
+      }
+    },
+    {
+      "group": "source_target",
+      "task": "pnp_sink_to_counter",
+      "episodes": 40,
+      "successes": 0,
+      "success_rate": 0.0,
+      "role": "EXPOSED_REFERENCE",
+      "failure_counts": {
+        "CLOSE_WITHOUT_BILATERAL_CONTACT": 40
+      }
+    }
+  ],
+  "actual_training_updates": 24000,
+  "discarded_probe_updates": 6,
+  "total_optimizer_calls": 24006,
+  "anchors_consumed": 768000,
+  "checkpoint": "/home/users/lemon/strong-baselines-20261112/octo_small/training/source_target/selected/11000/default/checkpoint",
+  "checkpoint_sha256": "628073b9e6439a2e800293e980dde908cf45bf92d3b3772571e0f4f9d6f99188",
+  "selected_validation_ddpm_loss": 0.7085606306791306,
+  "selected_update": 11000,
+  "official_full_task_episodes": 80,
+  "smoke_episodes": 2,
+  "prior_baselines_rerun": false,
+  "preservation_freeze_all_passed": true,
+  "native_action_audit": {
+    "status": "PASS",
+    "native_queries": 12520,
+    "normalized_and_physical_and_canonical_verified": true,
+    "recorded_telemetry_query_multiset_exact": true,
+    "files": [
+      {
+        "path": "/home/users/lemon/strong-baselines-20261112/octo_small/inference/1794563251206208934-2084255.jsonl",
+        "sha256": "25b844f30dd737f2db2f71b460a3ab9ec154f0553d4772d2a6e814d78b2a1fdb"
+      },
+      {
+        "path": "/home/users/lemon/strong-baselines-20261112/octo_small/inference/1794565007169061544-2108177.jsonl",
+        "sha256": "4da949520eed0a0e3f30b80db48df3138dea9e4632fa049f4989c966ee7479eb"
+      }
+    ]
+  },
+  "information_condition": "RGB256+native T5 instruction; no extra state",
+  "elapsed_training_seconds": 10638.948588586412,
+  "target_only_setting_run": false,
+  "utc": "2026-11-13T10:48:13.624414+00:00",
+  "optimizer_resume_audit": "optimizer_resume_audit.json",
+  "sample_exposure": "sample_exposure.json",
+  "resource_usage": "resource_usage.json",
+  "formal_control_steps": 50000
+}

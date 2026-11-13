@@ -1,0 +1,40 @@
+{
+  "status": "COMPLETE",
+  "protocol_sha256": "29a5411d1a219f297d6815f18c3cc3c2b4ce9701868ebd99311ce2ecef8b26bf",
+  "actual_training_updates": 24000,
+  "saved_step": 24000,
+  "optimizer": {
+    "clip_gradient": 1.0,
+    "frozen_keys": [
+      "*hf_model*"
+    ],
+    "grad_accumulation_steps": null,
+    "learning_rate": {
+      "decay_steps": 24000,
+      "end_value": 0.0,
+      "init_value": 0.0,
+      "name": "cosine",
+      "peak_value": 0.0003,
+      "warmup_steps": 2000
+    },
+    "weight_decay": 0.01
+  },
+  "initial_pretrained_sha256": "644b2d8102f6d2a3145243223a7f0cc77165486ff9da087af590d8f814152c50",
+  "start_resources": {
+    "utc": "2026-11-13T06:50:09.755753+00:00",
+    "gpu": "NVIDIA GeForce RTX 3090, 24576 MiB, 1110 MiB, 8 %",
+    "disk_free_bytes": 90947145728
+  },
+  "best_validation": 0.7085606306791306,
+  "best_step": 11000,
+  "elapsed_seconds": 10638.948588586412,
+  "resources": {
+    "utc": "2026-11-13T09:47:28.704448+00:00",
+    "gpu": "NVIDIA GeForce RTX 3090, 24576 MiB, 19230 MiB, 6 %",
+    "disk_free_bytes": 89688727552
+  },
+  "checkpoint": "/home/users/lemon/strong-baselines-20261112/octo_small/training/source_target/selected/11000/default/checkpoint",
+  "checkpoint_sha256": "628073b9e6439a2e800293e980dde908cf45bf92d3b3772571e0f4f9d6f99188",
+  "model_selection": "minimum fixed validation DDPM loss; earliest tie",
+  "anchors_consumed": 768000
+}

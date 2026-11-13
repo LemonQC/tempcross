@@ -1,0 +1,1260 @@
+{
+  "files": [
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/data/pack_index.json",
+      "bytes": 300464,
+      "sha256": "4ad014ff7f37d8fbe44f3bd1f5b4f077b0066bfc99d957a145af68b62e9243ae"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/formal-counter.log",
+      "bytes": 37609,
+      "sha256": "8c9383669504f923baab5ea629fe84192cd24eadbba57aa13a73632e62a95856"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/formal-sink.log",
+      "bytes": 37605,
+      "sha256": "4c18f4b196b6f5799f64e7cac311d92357cf283fa4c13481c17453f51f0823c1"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/formal-training.log",
+      "bytes": 66805,
+      "sha256": "19cb4be5debe20f1c715c12663d69583119c55464bcd198d3a2178f75b15778a"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/inference/1794563251206208934-2084255.jsonl",
+      "bytes": 12024114,
+      "sha256": "25b844f30dd737f2db2f71b460a3ab9ec154f0553d4772d2a6e814d78b2a1fdb"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/inference/1794565007169061544-2108177.jsonl",
+      "bytes": 13206829,
+      "sha256": "4da949520eed0a0e3f30b80db48df3138dea9e4632fa049f4989c966ee7479eb"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-060/rollout.mp4",
+      "bytes": 963664,
+      "sha256": "a23ef04c6ffbc01fc446558539380c8e8b3dc2993c1d3bb167bbd735f949fb97"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-060/telemetry/episode-000.h5",
+      "bytes": 1870090,
+      "sha256": "a042faad39758d12c85513d180d3f03ad93683461ac7d4759fb90d892b841b28"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-060/telemetry/episode-000.jsonl",
+      "bytes": 1921760,
+      "sha256": "562a9192c3e00d74ec878a6d830e5e9a341529c14cf8cd0d5b258fa52a0feae1"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-061/rollout.mp4",
+      "bytes": 1469933,
+      "sha256": "a3dd3f96523106175daad63a86e22ab4c8f2e50fd1ee5b84ee986e6efdbe208b"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-061/telemetry/episode-000.h5",
+      "bytes": 1991030,
+      "sha256": "e23932ddfdb624edafbd7f2f96777eaf2d4285a7680d69f592152d780dabe628"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-061/telemetry/episode-000.jsonl",
+      "bytes": 1822390,
+      "sha256": "91f33de06de9e57e5720d060c89857d26caa17405abfd817ba010ef921aec336"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-062/rollout.mp4",
+      "bytes": 1480905,
+      "sha256": "d9ccb1247b479be523e5d34b842e3c2dccccd49ecef4e2900a59c4ddea6217b4"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-062/telemetry/episode-000.h5",
+      "bytes": 2047829,
+      "sha256": "b61183931bce92423b0c9895879704bd36372e3b2ee8e7159d80afe51ec1fa48"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-062/telemetry/episode-000.jsonl",
+      "bytes": 2700279,
+      "sha256": "970d8426faac98e02dcca938711783baa62eb731fce923fe11141454643a44cd"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-063/rollout.mp4",
+      "bytes": 2377262,
+      "sha256": "5754b1a355a7c5645a66af7e6032e55d9dcb81a51879f9ed6db1f7965014a5e2"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-063/telemetry/episode-000.h5",
+      "bytes": 2113868,
+      "sha256": "d860eeed1f5448b25e85dba24f9fcd0c420afc633cbe3d2d8bde5c9f08f6c1d9"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-063/telemetry/episode-000.jsonl",
+      "bytes": 1324870,
+      "sha256": "d8370db2539cca2b9df2a382cd752bd1c5f18ce6c8a76c53d3bdb107215be9ad"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-064/rollout.mp4",
+      "bytes": 1835995,
+      "sha256": "13f6244732d65b934abd9f43c7452e1794fd3b47c3ed5ebc7b011f8be4e35d31"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-064/telemetry/episode-000.h5",
+      "bytes": 1914352,
+      "sha256": "253b09a2005c2e4e9facb5706fbe9f8382b8e918fd83531e208d86b27ae3c495"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-064/telemetry/episode-000.jsonl",
+      "bytes": 3184881,
+      "sha256": "89e7c5a6c15893aaad59fe41c72b0fdd844c076399ad634fa0f4e3934027bf17"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-065/rollout.mp4",
+      "bytes": 938940,
+      "sha256": "1e29aecf163fac26f51c6a5949bd9a96d650cb384d96884292d934fb075b8753"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-065/telemetry/episode-000.h5",
+      "bytes": 1943161,
+      "sha256": "e1b3aa14be549a768413309999d4fa91ed592d2a0742f2f911b35e8f67a49d7a"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-065/telemetry/episode-000.jsonl",
+      "bytes": 3711433,
+      "sha256": "ef48d829d0dd981615601bb798d6c1f308b39ed7f9e874ca5957e961676df7cd"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-066/rollout.mp4",
+      "bytes": 1457462,
+      "sha256": "d8000343d40ed902588f14b7e4e5731f633c904f4b2c10f3930b7868cefa10d7"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-066/telemetry/episode-000.h5",
+      "bytes": 1929157,
+      "sha256": "1979da6c80d764f6e1edbf8228335cc581b672283062ca9066c878ef5ecd98c4"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-066/telemetry/episode-000.jsonl",
+      "bytes": 1778636,
+      "sha256": "5eabc52ab03c803c6f54e25f12f0fbee9a8217bade33753480bb20d86a46b0be"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-067/rollout.mp4",
+      "bytes": 1763934,
+      "sha256": "331dc0124a7afd0c84bbe4a55ee141e1c34be5d3102febc1b0a479d1250c4318"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-067/telemetry/episode-000.h5",
+      "bytes": 1974527,
+      "sha256": "db1f6cc582016ea72c35b3673a810f02a43c2b3f68f487c362665d7120e082c9"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-067/telemetry/episode-000.jsonl",
+      "bytes": 2787222,
+      "sha256": "406de242a5e1ef92e9e675811f6c779107382b5381af3993cebbfcfdd5b717f3"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-068/rollout.mp4",
+      "bytes": 1536502,
+      "sha256": "ae039faab36a91490dddfdc90f5e09f68e70166dbb9c70b00cf250a9f72cf98b"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-068/telemetry/episode-000.h5",
+      "bytes": 2066421,
+      "sha256": "f653eb10ae695e0188263888a321370903030b43b0d540be1ecf921ff117af7d"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-068/telemetry/episode-000.jsonl",
+      "bytes": 8633383,
+      "sha256": "e632b9eb382428c89820d66c40ab71a3a0fbf19661c0de7b9b6358d321da2969"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-069/rollout.mp4",
+      "bytes": 1887096,
+      "sha256": "881994578023b7a7763ea892f543edffc8ac4ff515fd83638bddd0a9c35c31b8"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-069/telemetry/episode-000.h5",
+      "bytes": 2061193,
+      "sha256": "59049465dc05f116eda8ce53a6b5449b10c2e77dfd0bf3ab72782fc28b754d8f"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-069/telemetry/episode-000.jsonl",
+      "bytes": 1225921,
+      "sha256": "9d010f77fce9cc0a9acb7e1b8ec100dd09954ae70e19c9061b90a9f42a40c026"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-070/rollout.mp4",
+      "bytes": 1634040,
+      "sha256": "803dab46736fb353424fca2a04571ad465751ace82890b4c7103dc4f66344948"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-070/telemetry/episode-000.h5",
+      "bytes": 2005532,
+      "sha256": "6dece03e35b1fadf74f72e87de457c281dbce378d036ca98bcabecb7ebae3b0c"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-070/telemetry/episode-000.jsonl",
+      "bytes": 2045651,
+      "sha256": "80c52ebafd929ce5460049e97b69d7eda167fe8b0e594431982ac1e2d40af2bb"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-071/rollout.mp4",
+      "bytes": 1719992,
+      "sha256": "0ce30a6afd6c28e8c8552b6908aa328c66542b0113f3850645626ea5adfbfaca"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-071/telemetry/episode-000.h5",
+      "bytes": 1934263,
+      "sha256": "cfa1f593670269bb681c64defead9856db96e535171dfccb99966cfc31b727cf"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-071/telemetry/episode-000.jsonl",
+      "bytes": 1350234,
+      "sha256": "c3c43641041e2739999fc2f7f0abe2baeadfac72ebad10b69ee8ba371cc72a75"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-072/rollout.mp4",
+      "bytes": 2546327,
+      "sha256": "38b48df6dca311881efede788d700da2453e79bd4b68fa38b5dda08cbe967d10"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-072/telemetry/episode-000.h5",
+      "bytes": 2013367,
+      "sha256": "30db80a806dae43e66579f710a093ca2378ea61ba37a671e38aba2314c90f785"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-072/telemetry/episode-000.jsonl",
+      "bytes": 1097743,
+      "sha256": "ee33a962312c1e99b5063751983a2f4464dd2a3a0af86fc1a3d52320e30acb4e"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-073/rollout.mp4",
+      "bytes": 2072114,
+      "sha256": "621cdc97129cb745ee8ba5fbaea17d9efcd7e77fae97d1e158f0bb161f8722cf"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-073/telemetry/episode-000.h5",
+      "bytes": 1900338,
+      "sha256": "e59c844862b086003416fb1f320fdde7c0968643b693c86c39dc55e92d1bc039"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-073/telemetry/episode-000.jsonl",
+      "bytes": 1472680,
+      "sha256": "27946fb4aa0592da9b48651703a8f2fe4ff83cbcba8cabaccae0fb62c9edbeaf"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-074/rollout.mp4",
+      "bytes": 1880387,
+      "sha256": "0956aa510e693ccfeed14c91c537f25721d1b100a81cd4fac5c41e14100794f5"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-074/telemetry/episode-000.h5",
+      "bytes": 2055812,
+      "sha256": "1fda1ca8fc78c89b4f86b73826903ffdb74bfb5dc63579ca247f4f9b2629fd9c"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-074/telemetry/episode-000.jsonl",
+      "bytes": 1207867,
+      "sha256": "77d4a8fa7a0a192c696cd0b0a44e76e11c9725c9aec3cc9ce2eeb7af2d5bf532"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-075/rollout.mp4",
+      "bytes": 2363935,
+      "sha256": "492d6b208edadee1e5e281649e33e9efaaa380f214a73523d5192e09e2c08d6b"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-075/telemetry/episode-000.h5",
+      "bytes": 2172552,
+      "sha256": "ccdadbb862778a5478b9b43d53f921f7547b034f4514a5c674794a85c4a21604"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-075/telemetry/episode-000.jsonl",
+      "bytes": 13293180,
+      "sha256": "0a70e1ac4f32731d2aa944bfdf3b61a86086b9eca638b8bc69857d80e678a8d9"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-076/rollout.mp4",
+      "bytes": 1534999,
+      "sha256": "5315f4f682448c2677dc32fbfbb926e175637968601ca73d3c3ec35bed5b1487"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-076/telemetry/episode-000.h5",
+      "bytes": 1946041,
+      "sha256": "f4dd502712ec01d7bf99a494e95a6a198f7f2ec0416ec473b47bf8e6bd64b961"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-076/telemetry/episode-000.jsonl",
+      "bytes": 990921,
+      "sha256": "ddd5b9f61e9861d9db18e99e3412658b2773d4f92d3548a24bb4ffdcde1445c0"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-077/rollout.mp4",
+      "bytes": 1607500,
+      "sha256": "89c470e7cb2f7ea3d6b74e173962540d8a558c23dbb2c339a61e82c28f3116ed"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-077/telemetry/episode-000.h5",
+      "bytes": 2047836,
+      "sha256": "80c0bd77dfc6401f530eefd132e091bca1edd170cdf0629843d04184466da9c9"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-077/telemetry/episode-000.jsonl",
+      "bytes": 1113888,
+      "sha256": "b67cdffc35f0d88ec1c53b14592fdbc1c439597cb816af323b39f07d49a9de3b"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-078/rollout.mp4",
+      "bytes": 1880822,
+      "sha256": "4bee59f46f18d96d49f6c1774f7e106886a292c51a12f8f16470a91b0c9f5d4d"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-078/telemetry/episode-000.h5",
+      "bytes": 2030473,
+      "sha256": "923c7f73be134e750d4a161259a507a63357da95aaec6e8b09d1c06f54138868"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-078/telemetry/episode-000.jsonl",
+      "bytes": 1855832,
+      "sha256": "0eec2e51878d50d49da9f4500e8f1a790b6a3c2ff248f18fbdef7e036dd07d4d"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-079/rollout.mp4",
+      "bytes": 1611831,
+      "sha256": "7458fbeaa116dc996c1c02eac0e1a54317776de94488368d120caec84b66b163"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-079/telemetry/episode-000.h5",
+      "bytes": 2107599,
+      "sha256": "de3923caaf91a5dc68b3677fce72c25f342986b3fe6654b20d407aad5382eb62"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-079/telemetry/episode-000.jsonl",
+      "bytes": 2942321,
+      "sha256": "9c1266c6d11c05049b6ca34518d2752bde99b736bc3c33a309c3c20c6aff7887"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-080/rollout.mp4",
+      "bytes": 1538394,
+      "sha256": "da3a6be46440c2552414b54caad0644ea7d987a8a7250bfc15281589ae82af05"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-080/telemetry/episode-000.h5",
+      "bytes": 1994047,
+      "sha256": "55a604b74b0b80ebda897cbc26c68f9f46f218b1a035503502aface4beaa65bf"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-080/telemetry/episode-000.jsonl",
+      "bytes": 1352882,
+      "sha256": "6291d6214961a2ad021d37d87135c6e3ffdd5e7ba70ade914977cb110269b37f"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-081/rollout.mp4",
+      "bytes": 1567257,
+      "sha256": "7bff54e9f543bd7b9ed658f7cd7d6049da7e36a9315a1447e2837a9f5252d7ef"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-081/telemetry/episode-000.h5",
+      "bytes": 1961524,
+      "sha256": "f6226a1a7b63dd35ebda45e3fa0e63f4c9654dbdf4952b40a85bb44e8ed9e737"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-081/telemetry/episode-000.jsonl",
+      "bytes": 1328369,
+      "sha256": "9f56ad9769d336dc7cea69951f1bcab9dc561aa566e2a71c5d8cae95bb30b1f2"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-082/rollout.mp4",
+      "bytes": 1743576,
+      "sha256": "5b9871080bd1398e05c7ad6094d7f8c015daea6ff207f35f4123bdb80c7dcca1"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-082/telemetry/episode-000.h5",
+      "bytes": 1916754,
+      "sha256": "56f646c14bbbfcda024c192ca493cd360b633e27a95b097c9939431fa00c9039"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-082/telemetry/episode-000.jsonl",
+      "bytes": 1233750,
+      "sha256": "04da09a93baab62f7b8133ed8d30601dc248af6e14d4d4999a061169e8e2a8f0"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-083/rollout.mp4",
+      "bytes": 2089050,
+      "sha256": "17bd46cead0a2406ea26783c744b54012e45783064ba6279763cc000e0f7f305"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-083/telemetry/episode-000.h5",
+      "bytes": 1993076,
+      "sha256": "7c48d18a0c7ac85dbf8dddf8093507084d8e75dd2bfeb78f8fe68794d03d29f3"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-083/telemetry/episode-000.jsonl",
+      "bytes": 1864090,
+      "sha256": "e053511b6bbad6737715a2762d4332b9f6dd4f3a62236a4be282d558ef39b0f6"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-084/rollout.mp4",
+      "bytes": 1937852,
+      "sha256": "75044241af0c91f2826488aad6ce1809845d1c199fff63e43bdbc677c82b4dfd"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-084/telemetry/episode-000.h5",
+      "bytes": 1929738,
+      "sha256": "f8147332e23499ae6825257fae9ea76b951f2872469dfbcbb2d58dec611e5abf"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-084/telemetry/episode-000.jsonl",
+      "bytes": 4324773,
+      "sha256": "c8e03c3d937adf075491931a42a9682f79364b8ed6b6e79a83308480cf4d817f"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-085/rollout.mp4",
+      "bytes": 1719162,
+      "sha256": "8129c6f7215a3daa2e434a9c8038d1fe37df9cfa5cd70fbd84594861abdd926f"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-085/telemetry/episode-000.h5",
+      "bytes": 2062980,
+      "sha256": "7a1c509b6a00005131c31a3821dd49b8dd0a0e343123dc596c9512e252ac5e67"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-085/telemetry/episode-000.jsonl",
+      "bytes": 8541099,
+      "sha256": "7869c49e27d4077cb4ae6eb662305fc7f5b2bae407632e3a4f66df6481f0d57f"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-086/rollout.mp4",
+      "bytes": 1805015,
+      "sha256": "c51ed1998503d3e74c380a82297e8bff2c6962b3261ea091d06ac67e51e3a689"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-086/telemetry/episode-000.h5",
+      "bytes": 1939258,
+      "sha256": "4db08b356e7980cd0000c430c58cd83bcdf79491902246f6cd7ef6bffd02a7e9"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-086/telemetry/episode-000.jsonl",
+      "bytes": 1094346,
+      "sha256": "924ac36b7b026d615eedd302446a45554af2064ab76c793fcb1f3729c07de971"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-087/rollout.mp4",
+      "bytes": 1503308,
+      "sha256": "568b318c253e4375ab9a88a2f9177c4aeb2460e9e45606af381fa61d57d1050d"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-087/telemetry/episode-000.h5",
+      "bytes": 1987020,
+      "sha256": "4f2190499337a8ad8b42fe14c46218a020bc33516ec07c0054f0855d5beeb85b"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-087/telemetry/episode-000.jsonl",
+      "bytes": 1456011,
+      "sha256": "5e9c34b37c13fe18bab450d17a1ba858d2180a3940d1afc0f7a2b15a7b4fb94e"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-088/rollout.mp4",
+      "bytes": 2027256,
+      "sha256": "672223c3b5b82ea489bd3ec1a28054897d6230dc77d74bbd674d34ac1e1f2b0c"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-088/telemetry/episode-000.h5",
+      "bytes": 1971764,
+      "sha256": "9ab27fc5196e762e68f9c0f9b599e89e9943c33abb77890ca9db3ea3dc7129f0"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-088/telemetry/episode-000.jsonl",
+      "bytes": 1886131,
+      "sha256": "372b307c54f37285a9c080c431dc7f08a2b917169232ff64f7e9b4dcdb540810"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-089/rollout.mp4",
+      "bytes": 1470426,
+      "sha256": "f1fd39a7041e8e75fe561c2280a708a79b65b7b7264c3f824b7e082865f017d5"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-089/telemetry/episode-000.h5",
+      "bytes": 1863009,
+      "sha256": "33ad3c68a5aaccfd452625e0168b658267bb024fd46b0c36d02006b9ef8e1eda"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-089/telemetry/episode-000.jsonl",
+      "bytes": 1499389,
+      "sha256": "d9fdc73fd4310451f01a51b35d92152ab66223e0e15425ecfa3fe10be5f938bd"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-090/rollout.mp4",
+      "bytes": 1773278,
+      "sha256": "949203c36cc4e11c4f796324ac7dd49c9a7b2570533a7e644d71467cd7856ae9"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-090/telemetry/episode-000.h5",
+      "bytes": 2025431,
+      "sha256": "95a1ad5d349f3b17fc89851e9d6240d6369294969f9401c7ad305caebf421a8f"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-090/telemetry/episode-000.jsonl",
+      "bytes": 1212542,
+      "sha256": "6b9d833d9d694147315706bd9d88d584f880187d41949cda1be4ddb88b107153"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-091/rollout.mp4",
+      "bytes": 1501452,
+      "sha256": "59191a0c42755aa6e879f2ecd63a91dd5c044bc08206eaa2f966a3fd478e465e"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-091/telemetry/episode-000.h5",
+      "bytes": 2134612,
+      "sha256": "8864de71ea5dbe81420865385dae6ce3a1b36c6141b7e16ea715050192b84a27"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-091/telemetry/episode-000.jsonl",
+      "bytes": 1371720,
+      "sha256": "ab4f0da3331b65bfbcbb35803c74e89c515fbb18411757f2430a7914a28788eb"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-092/rollout.mp4",
+      "bytes": 1778126,
+      "sha256": "5475d4c1bbd136d29d5913ba3160fa07427832a54fb68493c9b61a8f01fcf985"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-092/telemetry/episode-000.h5",
+      "bytes": 2033476,
+      "sha256": "fdf0043a5d742c86d0d331fc624c5cb32dec8ee30c60bf29d6adb04499da42b2"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-092/telemetry/episode-000.jsonl",
+      "bytes": 961461,
+      "sha256": "5c767b4c34e60a1bdf7e56cd818952df14a045a2ca62f1c619e51c4d86cae3f6"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-093/rollout.mp4",
+      "bytes": 1845304,
+      "sha256": "53315b030dd7e44dbb93063ff09ea471e797ed194e5d6b95471f014b9d15c8ff"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-093/telemetry/episode-000.h5",
+      "bytes": 2059295,
+      "sha256": "d74837a6d275e309da91fb860311b89c7884b7e55d11b60a5c2233a449ed3131"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-093/telemetry/episode-000.jsonl",
+      "bytes": 3194014,
+      "sha256": "af1a236329ede44a7dcebdf5f29eb0e56b181a2ee9ddb5f293acb6697163ea7d"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-094/rollout.mp4",
+      "bytes": 1909959,
+      "sha256": "ed17b1f4f97ff1bcd1534e349ba6220efe5ebe36c189f2ebcf8cb33f12fbc0c4"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-094/telemetry/episode-000.h5",
+      "bytes": 1917596,
+      "sha256": "fb041e58b2a3cac6be441b4b784733ac526b75da8ddd7687bc9769677f417844"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-094/telemetry/episode-000.jsonl",
+      "bytes": 3029310,
+      "sha256": "b5fa7d9c18189034589c440e46c056706500bb5588fe97a33288a217a96f2579"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-095/rollout.mp4",
+      "bytes": 1835770,
+      "sha256": "a2dd5708dd3c2048b7dafd88c76a841217f882180f9435f252096ab9e2aaee1d"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-095/telemetry/episode-000.h5",
+      "bytes": 1987472,
+      "sha256": "8576d117e280d95912f5e4518fda3e3edfb924fedefcfadd071b1b3fa0ccb251"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-095/telemetry/episode-000.jsonl",
+      "bytes": 3231697,
+      "sha256": "d101b3232f85670248ae3478151861f0b737ff487a6ba1433f66d36beb1c65af"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-096/rollout.mp4",
+      "bytes": 1731986,
+      "sha256": "d69bb9957057ce88e5c51fe4b6d06b10382af0095a6d4e4afda9ff97e44f1427"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-096/telemetry/episode-000.h5",
+      "bytes": 1977335,
+      "sha256": "07682571a6a1178ffd908f305a2af8ed85cb37ac55df917701a5bb97222b7d5b"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-096/telemetry/episode-000.jsonl",
+      "bytes": 3248568,
+      "sha256": "c9afb1b334febadd42a4176dce0aa2ce087cfabfdee33931b19c1deb81d1ff56"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-097/rollout.mp4",
+      "bytes": 1813859,
+      "sha256": "3c8ca7ff459a5249555c6ec20d42ef49d5537a7e6ebc7b9d644db02959eed477"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-097/telemetry/episode-000.h5",
+      "bytes": 2071721,
+      "sha256": "8b563ce5a03aef25966414fadb7525c2d27f081ec95692318815747f377ee18d"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-097/telemetry/episode-000.jsonl",
+      "bytes": 1275515,
+      "sha256": "d355bb8596213f0ccdb28868fc05baf5c9d147d4a3872cd36d72b229667939d3"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-098/rollout.mp4",
+      "bytes": 1536673,
+      "sha256": "95d4c5a83fba108f7b7028ed597bebebf8b3365790fccc7446b419a6862aa684"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-098/telemetry/episode-000.h5",
+      "bytes": 1984802,
+      "sha256": "4142c9fe3a6c23629492ff3e7d4487ca9d41dc8a1a947b00c7dd56442933df63"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-098/telemetry/episode-000.jsonl",
+      "bytes": 3021188,
+      "sha256": "0cf0d235256553bbb8e471e8f38de179316f63f1fb38cd596d15a111fef72626"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-099/rollout.mp4",
+      "bytes": 2222758,
+      "sha256": "9eedffee1bcaddaa62adcc618a9f7ca797ceedb84451a3f3eea7fc1990404efe"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-099/telemetry/episode-000.h5",
+      "bytes": 1920069,
+      "sha256": "25ba266bab936e00c0a50fed697a86b658f93fc95bf083c87ccf4bb2530235aa"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_counter_to_sink/condition-099/telemetry/episode-000.jsonl",
+      "bytes": 2001340,
+      "sha256": "0cc9b0c929af37f7860e322624e348b7abff3def0c22d8704f71ba5f2f3f209e"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-060/rollout.mp4",
+      "bytes": 1462174,
+      "sha256": "964aa5ad77a7eb985cf4e92f7034083998ebaf38f710d2a9369ff3252a2d0b62"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-060/telemetry/episode-000.h5",
+      "bytes": 2103550,
+      "sha256": "6141e3aad7f041c3f8ab9ec94e1cd152d089585bea9f4c055ac2d578acf81818"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-060/telemetry/episode-000.jsonl",
+      "bytes": 1317398,
+      "sha256": "9dd72ae66dd621756d5782f5ccf057840c2ad74ae54119fc014a6ed6ba12a093"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-061/rollout.mp4",
+      "bytes": 1302655,
+      "sha256": "ff1b7657a7d4bf69f89b3582abcd041d438d8f19fd4548fa17b96d34fe0bdb16"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-061/telemetry/episode-000.h5",
+      "bytes": 2136990,
+      "sha256": "a6be3dd72209ad0f8412ac093393a09247046d7647b3b0d807f4f6b6774a3552"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-061/telemetry/episode-000.jsonl",
+      "bytes": 2373621,
+      "sha256": "74c13afd2cd1a43c3f256c0a2b8d98046b286871ae379e8c3c443fecfcb4aa1f"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-062/rollout.mp4",
+      "bytes": 1983687,
+      "sha256": "f7065c82746b70bba8633957d0bc7f6ff7d16b794c159d03c53943ba53c6a462"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-062/telemetry/episode-000.h5",
+      "bytes": 2137012,
+      "sha256": "4971b3bbead67c576746f78661186153b822b1c4642b0a6d2abcd90c1d770767"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-062/telemetry/episode-000.jsonl",
+      "bytes": 1371572,
+      "sha256": "c713119067e9e85adda365f55b39163cb3cca1350d6cd4fdd03c900b1c9a6602"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-063/rollout.mp4",
+      "bytes": 1205986,
+      "sha256": "e8870cccbd083e7d71f8a926e88ec01324a747466df17f77cea4630fda2cc569"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-063/telemetry/episode-000.h5",
+      "bytes": 2189390,
+      "sha256": "cab6746a94c0ed51a7a669c47f1ba061340c22174dfc95daf97d444904ffb0af"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-063/telemetry/episode-000.jsonl",
+      "bytes": 9566503,
+      "sha256": "9dd98be5af1ffcb1a3194ed1b839c32771be7a512f0ab65a664107231239cb4c"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-064/rollout.mp4",
+      "bytes": 1353857,
+      "sha256": "15703b6c823587a3b7f592bef92e2679a8e7361c250af033ac47333bbb277391"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-064/telemetry/episode-000.h5",
+      "bytes": 2291845,
+      "sha256": "6ddc628da273814d2e81ef84cdc3b301a7f8192a78b08609c527aa3885b1839d"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-064/telemetry/episode-000.jsonl",
+      "bytes": 14666164,
+      "sha256": "2977c23d8cfb7ba15bd7edd3ab8afd6d9a3088559ab60a7c2f4f5039653d0b6c"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-065/rollout.mp4",
+      "bytes": 2520160,
+      "sha256": "2d5402916cf2a37615b5c454a11cf4b8868d0a765b5fe3d892c7cbde229f3eeb"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-065/telemetry/episode-000.h5",
+      "bytes": 2118946,
+      "sha256": "db133378f48773b07140487c8c9fe1f17ff1916c240c40187a67fe801d2de3f1"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-065/telemetry/episode-000.jsonl",
+      "bytes": 2404627,
+      "sha256": "439f5c13068e0e08385114593c7a136a30dbcf6436817ba77b862340d462b3e3"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-066/rollout.mp4",
+      "bytes": 1582007,
+      "sha256": "3884139f6cada4e2337d91749a47db6f21e9315deb93eea2c082fea3852e03f7"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-066/telemetry/episode-000.h5",
+      "bytes": 2089810,
+      "sha256": "dcb9ddea7a2f8908aad3910855a07d19c9e2db3cc035d70d7e8c005f2234e423"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-066/telemetry/episode-000.jsonl",
+      "bytes": 1614009,
+      "sha256": "4f14eb092a1570216d1fe746f37eb523a034339e97e2653f9eaf1ae90910680e"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-067/rollout.mp4",
+      "bytes": 1878792,
+      "sha256": "7bf59f73ba93eb8d8273d10339ed15daff964716713ad3b7a3d6a6b7a7025116"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-067/telemetry/episode-000.h5",
+      "bytes": 2263195,
+      "sha256": "e177b80da40d6bc8d684ee10c4ff5bbc365358a2397be6c6c352e6818922bac9"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-067/telemetry/episode-000.jsonl",
+      "bytes": 12254199,
+      "sha256": "0d3ad817c6f662b9b8337e11f0bd1634e81b414aae6da15b17cd2f42f268db25"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-068/rollout.mp4",
+      "bytes": 1957928,
+      "sha256": "bfc1854b7736d7e3df2fe465c0aec8281d0e03a75f3972c1031fe4ba78689b88"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-068/telemetry/episode-000.h5",
+      "bytes": 2077445,
+      "sha256": "8d56275188a20e2ce4faebd0b2e1bd7a1b515a1c111162a63a36eff5ef1e854f"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-068/telemetry/episode-000.jsonl",
+      "bytes": 1269453,
+      "sha256": "bb4eb4be83d67df29f91cff879a0611cd239d43eec8963e22b72b696340b052e"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-069/rollout.mp4",
+      "bytes": 1978162,
+      "sha256": "08e48d4e8cf838fa1779939c553b0b449160baf4153894973c6521dc3cd50cc8"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-069/telemetry/episode-000.h5",
+      "bytes": 1946400,
+      "sha256": "64dbfe806625d2db1ee9c7bfa39eccfacb61aa91899865a66f5d9b5f324108d3"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-069/telemetry/episode-000.jsonl",
+      "bytes": 3498345,
+      "sha256": "7ff857e9ffe7683923ac983621afdaa4f30eea1e3a0bb58e2c67ab5c5c9b54ec"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-070/rollout.mp4",
+      "bytes": 1367926,
+      "sha256": "d6876f50f125ad1a313be547b3e678b2c9c15c7f6afcdad17515fd43202a299d"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-070/telemetry/episode-000.h5",
+      "bytes": 1980275,
+      "sha256": "5edc86aea078a38c9334e4812b4199c6bdcde0e6d6acc9731f911dfa20f79749"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-070/telemetry/episode-000.jsonl",
+      "bytes": 3374432,
+      "sha256": "2857d5a8ba7d53860462c62c2bfccd487989d6ef8907dc0ddb98e55328ff8509"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-071/rollout.mp4",
+      "bytes": 2130334,
+      "sha256": "2cb1ea499cbddd80d1360d8c30ed76b4ed640bd8506c5368cb7d7a22feb6e90c"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-071/telemetry/episode-000.h5",
+      "bytes": 2085906,
+      "sha256": "ba05ef6b1599fc09a29bff5c070cfb13536fd9edb041bcb60ba5b5bb5a63b52c"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-071/telemetry/episode-000.jsonl",
+      "bytes": 3451448,
+      "sha256": "abc9e6c414ab00d60d47c62f3e8d46e2b6f5b92e190d23b40e35abe093f63cfb"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-072/rollout.mp4",
+      "bytes": 2075480,
+      "sha256": "24de1f2ec306a9360356ad80d4d1bb073fe323e2cda7795e805350e64f4cbb61"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-072/telemetry/episode-000.h5",
+      "bytes": 2193436,
+      "sha256": "f8569dad68389241bf1685332b5b2c157499141bd9ea3b3b930f42c839a8b89e"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-072/telemetry/episode-000.jsonl",
+      "bytes": 1682939,
+      "sha256": "5734451bbb7284b2fc068d4a3dde61fb1136aaca020292241cd678202574472f"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-073/rollout.mp4",
+      "bytes": 1841241,
+      "sha256": "200621ecedcb2a2cef2f03a13d5a3c86e805bd1e02b5efb039a84592dff3bda2"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-073/telemetry/episode-000.h5",
+      "bytes": 2201935,
+      "sha256": "4335888d733323e579b4a0f25fd88a55aa84d4fd611bb0ae2cce47d17e272716"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-073/telemetry/episode-000.jsonl",
+      "bytes": 1708256,
+      "sha256": "2b00e2f0abc3928c511c0a52f2ef9222f3614d86320c654a58b7fd1054f15abc"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-074/rollout.mp4",
+      "bytes": 1892360,
+      "sha256": "63fae809eab97f76e74f6ae74e0e69063b2dae046d2846a7e4c836a259c79a80"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-074/telemetry/episode-000.h5",
+      "bytes": 2101733,
+      "sha256": "5851fb6380049a37dd4b13e1c52ad8dda8d4d14351ca92de04677728c61e9d0e"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-074/telemetry/episode-000.jsonl",
+      "bytes": 4291994,
+      "sha256": "b8571cf4b59cbb94fbde09d1a313ecb46d10aa368b7e2e9c63f7478042a93c52"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-075/rollout.mp4",
+      "bytes": 2663253,
+      "sha256": "9e29a0a13f00f72799155ace1ded3f6c4ba25c250bd66578886838cc8541de0d"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-075/telemetry/episode-000.h5",
+      "bytes": 2177155,
+      "sha256": "476fc3bd2101f34db4eabbb1124963c9a975fbe67322173216034e66355fb244"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-075/telemetry/episode-000.jsonl",
+      "bytes": 1591030,
+      "sha256": "ea52e3bf6aeb741380f0d03f450e972468ee4a0b81b27014947a263e7bcf6ec6"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-076/rollout.mp4",
+      "bytes": 2075953,
+      "sha256": "6f6ee9b1ae16bd9fdd0761d7423023b215716b7a250460dda94949b520ca04af"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-076/telemetry/episode-000.h5",
+      "bytes": 2238125,
+      "sha256": "e51ea14a786beba6c7cdd28e6da8070caa5687fb007100760cbc8325b0812d9e"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-076/telemetry/episode-000.jsonl",
+      "bytes": 10561205,
+      "sha256": "2e98579221fdfa9f604ef7e2be4d91b37f254234232d661cae6da7587ac5f0c1"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-077/rollout.mp4",
+      "bytes": 2175570,
+      "sha256": "beae07ad081b8eb9357689556e1a110bc6605b02eaa5a8d7f550ab06bd2068fc"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-077/telemetry/episode-000.h5",
+      "bytes": 2105387,
+      "sha256": "516085677f8018aa34311d4debb39baa9b71c969121c55bce9eb78bd9eb42931"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-077/telemetry/episode-000.jsonl",
+      "bytes": 1537681,
+      "sha256": "6bcaf05f7e593208badc69a5b50ba69f6278069463a579ca227e984b456cb4ff"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-078/rollout.mp4",
+      "bytes": 1849200,
+      "sha256": "6090756475eb912e44920325c2eba64bbd5b863293d91286cb9b61976088d097"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-078/telemetry/episode-000.h5",
+      "bytes": 2144660,
+      "sha256": "6b2042b626453f37b1ce5292a2f5b56684737e14005038b216aecdacc08ec38f"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-078/telemetry/episode-000.jsonl",
+      "bytes": 3134813,
+      "sha256": "2104dccd700524a452c47c4fde7ce70fde7d2ddf63855d7c0df341de8f8ad1f1"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-079/rollout.mp4",
+      "bytes": 1087970,
+      "sha256": "00f3c81a320642ee9944a207ee40c9566889810c8394c0873aec75f614d2b1c3"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-079/telemetry/episode-000.h5",
+      "bytes": 2290608,
+      "sha256": "2d337e92ef386edf541268326ed5d733b47f15ac2cca9f28e03ace1fc9a59975"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-079/telemetry/episode-000.jsonl",
+      "bytes": 11427810,
+      "sha256": "0dfcebf9dd6a3369bffd1d5ae27e33393f642bf0b3c2e7e19a679fb1c0490f87"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-080/rollout.mp4",
+      "bytes": 1572752,
+      "sha256": "4c11754f9ffbbefdddc545f6e4234af5ad2c6cad067b57c3b24b64c1de9bf90f"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-080/telemetry/episode-000.h5",
+      "bytes": 2168670,
+      "sha256": "92127157916dee05826d2cc089e83e3ae16c4bc90226fbd238df78704c3fc96e"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-080/telemetry/episode-000.jsonl",
+      "bytes": 3511082,
+      "sha256": "d6e77375aa87807e668e90c6501126e6456845383a88d16d1cc437af5a335b83"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-081/rollout.mp4",
+      "bytes": 1840572,
+      "sha256": "8cfd259668dc2faa9dffb86451ad9764450bb82d8f713ff17d349cd74d623103"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-081/telemetry/episode-000.h5",
+      "bytes": 2082302,
+      "sha256": "dd7dab54627a1194c159cbc7fc9b9449058c35d232598930f8885b18db10409c"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-081/telemetry/episode-000.jsonl",
+      "bytes": 2131829,
+      "sha256": "949b2499136dd889e14e2ed79232d8c3f354ba3b4b2338f4367350bd361e289f"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-082/rollout.mp4",
+      "bytes": 1816752,
+      "sha256": "3d9e2bc8068697f094daace772385d3e0171faaaa79e7b99bde2deca0bd6f390"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-082/telemetry/episode-000.h5",
+      "bytes": 2133229,
+      "sha256": "912191f1230d7d92990f65d1807d0ca02363880050179d1b49b880678e34a890"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-082/telemetry/episode-000.jsonl",
+      "bytes": 3565455,
+      "sha256": "acaf6244fdc7cdfc891ddbdead9d09b0857e7645cc1fce3cdd9f105b36a42973"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-083/rollout.mp4",
+      "bytes": 1337944,
+      "sha256": "e57c32babf6f698f94d8d7d81c90ea8f7ebe3821bd953f87fc3e0364ae8ecd7a"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-083/telemetry/episode-000.h5",
+      "bytes": 2142450,
+      "sha256": "50621331512ee2cd234129034a4abb5a98709ae16c0e098b0c91b1aabd09a487"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-083/telemetry/episode-000.jsonl",
+      "bytes": 4169847,
+      "sha256": "f6e4a55ddfeb11697f73bea5d52f50146c0bc030aa8c3a3df6a23e2cd13d7aea"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-084/rollout.mp4",
+      "bytes": 2113655,
+      "sha256": "54a7670c8e2a070d78544fa164f963f55597e8b7d7c47f498d155985bbcd24fa"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-084/telemetry/episode-000.h5",
+      "bytes": 2104162,
+      "sha256": "2981ae9af1b4af2fb2e8d24307f653fcf1011814c49a376bdfdec42b28902946"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-084/telemetry/episode-000.jsonl",
+      "bytes": 2226876,
+      "sha256": "bc51cf5157b2cd52da9916069096485367dc12a19ca2aa305891d7bfd1af63c6"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-085/rollout.mp4",
+      "bytes": 1657954,
+      "sha256": "d454f70818d52457f6cd227b82635fbba30e5d06bbdd91a17045cefe1e5e337e"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-085/telemetry/episode-000.h5",
+      "bytes": 2049327,
+      "sha256": "0373e8b0881f5ae0af70c17cc0e6adf24c278a70143d26f521f71d277af0a331"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-085/telemetry/episode-000.jsonl",
+      "bytes": 4027232,
+      "sha256": "d19ac63527c9bd770757c9834230996b5a66bb41675b2b63985748fe77b7942a"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-086/rollout.mp4",
+      "bytes": 1865942,
+      "sha256": "3f13612b94ba23b588f1892d95a1fd480c4df4a69c69423c92c5b188d07d5176"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-086/telemetry/episode-000.h5",
+      "bytes": 2065065,
+      "sha256": "4560151c5f344ed8b41c2216e175ee59998ca448bd534079b7b52b0729e6911a"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-086/telemetry/episode-000.jsonl",
+      "bytes": 1201396,
+      "sha256": "6cdc8e1eddbb89b068d6736c62f804da63010392823b7b1642468aead9ad3cba"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-087/rollout.mp4",
+      "bytes": 1950962,
+      "sha256": "543a51d6b70adad89004aeb41c2bb5713c4e4c2266cf12e3bb4b9808d2fae36d"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-087/telemetry/episode-000.h5",
+      "bytes": 2254988,
+      "sha256": "8e1ec1803a8eabb6b8ec83f86aa0ff7fef22f2c5e31c4ff5d3967b8a5f0bd819"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-087/telemetry/episode-000.jsonl",
+      "bytes": 11466699,
+      "sha256": "569d53744d7905ddf41bfbe5f8f4a88627f8e929de31fd62cdbfd3aeaa999fd6"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-088/rollout.mp4",
+      "bytes": 2334681,
+      "sha256": "31394be02d79ee5c42eed2819fe54ed5d14f11abd6b6264212ed023efb6f64a5"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-088/telemetry/episode-000.h5",
+      "bytes": 2427152,
+      "sha256": "3f05880b8e45141d1af8961c59193c3bf16b3fc89c5ce9c5f95493c6e10b6a3f"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-088/telemetry/episode-000.jsonl",
+      "bytes": 10734581,
+      "sha256": "c1624b2de6897134fd606fe3620f01ff151d1fe26e6bcc6c1ab0a9be169a7724"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-089/rollout.mp4",
+      "bytes": 2265037,
+      "sha256": "79eedab5e4440f3dd20c554a762069b6c8caafba1192f4e45523af6e08a95d60"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-089/telemetry/episode-000.h5",
+      "bytes": 2218853,
+      "sha256": "9c068ca66aea71c60a69f5414edfd854449adc4632433f5767964d93c600a81c"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-089/telemetry/episode-000.jsonl",
+      "bytes": 3489989,
+      "sha256": "e33e64aaa24f68a415a4574e1be332a9503c852b7e85a174c5007b18a4648ba0"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-090/rollout.mp4",
+      "bytes": 1832550,
+      "sha256": "379f489e1796a1c54dd6bad0d24e42a589e4ed0167eafa52a6072e7ff1a532fc"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-090/telemetry/episode-000.h5",
+      "bytes": 2023094,
+      "sha256": "86d321a8daf4a474752e8239c23a2cc5d36a8f0fde1b5b7694d8424c480e725f"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-090/telemetry/episode-000.jsonl",
+      "bytes": 1517642,
+      "sha256": "8332a1b10259715bc2753b1c045fe027e8bce748cf5dc1300e7a79dba4cda443"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-091/rollout.mp4",
+      "bytes": 2384922,
+      "sha256": "58e18416fcda12e6be7218ea5367e89652a38b9837d5ffecfea9c48b8579ffa8"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-091/telemetry/episode-000.h5",
+      "bytes": 2065000,
+      "sha256": "05c35713fbc345ab4b9e3c56ec04c09fafe4c4572325e2187ab79aa141d74ff7"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-091/telemetry/episode-000.jsonl",
+      "bytes": 1390446,
+      "sha256": "423387746a467ee90d26eeaf85a409e9e51aaa58fd0d936343127eed3a7715dc"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-092/rollout.mp4",
+      "bytes": 1809972,
+      "sha256": "05ed1bd9378b2b2dc16fd1d8d502912ae34604cdcd40a87bb6bd88f955abca51"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-092/telemetry/episode-000.h5",
+      "bytes": 2178728,
+      "sha256": "8551cdaf78b06084b0d7fd55f7d82842b73d3585c49f63e06adef44b3c69c1de"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-092/telemetry/episode-000.jsonl",
+      "bytes": 1143300,
+      "sha256": "2bbcf5fee5001e178ba32fb8e60dc0ed9ea62e1f1a7db9fc071b1911820410df"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-093/rollout.mp4",
+      "bytes": 1709375,
+      "sha256": "ebbbfcfe3f7ab7d38d1343118872c3f822bc35aea01c33638857f32d015e7df8"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-093/telemetry/episode-000.h5",
+      "bytes": 2095527,
+      "sha256": "ac4386c711fd7819ae5e28acedc1ce85e09f4354ffcb82c5b753e61744f58177"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-093/telemetry/episode-000.jsonl",
+      "bytes": 1295240,
+      "sha256": "1949acc121125c8f3157767d46f6cd2be3a50288a83fa914a56d7a5982aeb417"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-094/rollout.mp4",
+      "bytes": 2117142,
+      "sha256": "a5dbb0d8241310728f93450f0e58a8f263b8003fad5118f838fa5dfd258be7d3"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-094/telemetry/episode-000.h5",
+      "bytes": 2315516,
+      "sha256": "ab10d3b7234a12df12221adbde5935d9f8626fc862aa507ebb497c9be4176b0a"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-094/telemetry/episode-000.jsonl",
+      "bytes": 14399643,
+      "sha256": "032500040938976c5c486239d95cfeccceff158a269aa610a0b462a4e0add4e4"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-095/rollout.mp4",
+      "bytes": 2062727,
+      "sha256": "ed317487be31672a3ed9df4d7d286d83fb8cb5b84152a8253659529b87ce1123"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-095/telemetry/episode-000.h5",
+      "bytes": 2133709,
+      "sha256": "b2e9401e4ae3d92a7c37c1c4d4705ad08f6501d085eb5f6826e69f02389b792f"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-095/telemetry/episode-000.jsonl",
+      "bytes": 1606099,
+      "sha256": "db6208bb197160898a4a8d32cc7d56e3f548dc48a3df01372928f621c07af37e"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-096/rollout.mp4",
+      "bytes": 1689451,
+      "sha256": "2989aa85213b1d5d4e24f44529a0065f8805a731253d2a671414972790e70f1c"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-096/telemetry/episode-000.h5",
+      "bytes": 2026788,
+      "sha256": "a70a0c13bdf55e73aec629838aa35d275f504365070893ebac4b442d3675e82c"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-096/telemetry/episode-000.jsonl",
+      "bytes": 3575280,
+      "sha256": "2edd0153a16b4e6316f9336df80967e5d5152ff7c717c1f2687d01783c2e938d"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-097/rollout.mp4",
+      "bytes": 2090744,
+      "sha256": "10477a983adb6b44064e48dc73003a6aec739e35595af048328d8ebbe67bcf0e"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-097/telemetry/episode-000.h5",
+      "bytes": 2198005,
+      "sha256": "7783af67d888696b063442a399f4b607224feddecc90248cdac12c9ae476490b"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-097/telemetry/episode-000.jsonl",
+      "bytes": 1739586,
+      "sha256": "e781ff62cbbb59b0cd48ce4ab952c4ce1cbdabd5c40f769b04550870f98c64ad"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-098/rollout.mp4",
+      "bytes": 1739917,
+      "sha256": "eddb35fe21daef32cb30a728a467081fcb34aa7f029c6afff252e30144bba438"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-098/telemetry/episode-000.h5",
+      "bytes": 2095936,
+      "sha256": "dd0006afcd57e9cac72f46e4037947d36b05d63b8862dd0c2c2fa04345d0d0e8"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-098/telemetry/episode-000.jsonl",
+      "bytes": 4230514,
+      "sha256": "104d6397a3a94c18bfab50e0b84a253e718631ec11c179c663e35878838ea781"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-099/rollout.mp4",
+      "bytes": 1852732,
+      "sha256": "dc8f059e63796f6c104a9690807ca1a2453ae45b4311a1b02384041e8ef43f64"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-099/telemetry/episode-000.h5",
+      "bytes": 2200550,
+      "sha256": "cfb69937c4a2217ec15fd416f124cf25380b42823050f15ed4e448ec38f8f008"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/physical/formal/source_target/pnp_sink_to_counter/condition-099/telemetry/episode-000.jsonl",
+      "bytes": 2090515,
+      "sha256": "6f967972f26cc161e1ed3dbeb54fa3932b2258a6032aeb5fcaac929a274f611e"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/resources_at_acceptance.csv",
+      "bytes": 144778,
+      "sha256": "c5ea4956ba3f51f3141d751fce5a57f9e4d47a4db403d6b42b91fad3ca3f3844"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/training/source_target/resume.msgpack",
+      "bytes": 709711652,
+      "sha256": "f236b8f194a149aeede5b107a38f7fd7dc0596969ddd0c1ed7b4af88b8aea214"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/training/source_target/selected/11000/default/checkpoint",
+      "bytes": 546696551,
+      "sha256": "628073b9e6439a2e800293e980dde908cf45bf92d3b3772571e0f4f9d6f99188"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/training/source_target/state.json",
+      "bytes": 1389,
+      "sha256": "cf5cf30df2f24f8dbd2d5fc99f445df7ef317c2b027d5fda400c5e08c15b70b6"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/octo_small/training/source_target/training.jsonl",
+      "bytes": 66742,
+      "sha256": "0404b52335aaee75a67fd8767296448eac938029ebc0ece23b74f8c5a597849e"
+    }
+  ],
+  "large_files_stay_on_server": true
+}

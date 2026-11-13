@@ -6,6 +6,12 @@
     "whole_demonstration_identity_and_validation_isolation",
     "training_only_statistics"
   ],
-  "native_gpu_update_passed": false,
-  "full_task_smoke_passed": false
+  "native_gpu_update_passed": true,
+  "full_task_smoke_passed": true,
+  "native_boundary_windows_passed": 16,
+  "final_optimizer_counter": 24000,
+  "final_t5_changed_tensors": 0,
+  "formal_physical_episodes_accepted": 80,
+  "formal_action_queries_verified": 12520,
+  "artifact_index_files_verified": 251
 }

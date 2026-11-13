@@ -1,24 +1,24 @@
 {
   "status": "PASS",
-  "saved_update": 500,
+  "saved_update": 24000,
   "optimizer_counters": [
     {
       "path": "inner_states.trainable.inner_state.1.0.count",
-      "value": 500
+      "value": 24000
     },
     {
       "path": "inner_states.trainable.inner_state.1.2.count",
-      "value": 500
+      "value": 24000
     }
   ],
   "changed_parameter_tensors": 252,
   "frozen_t5_changed_tensors": 0,
-  "resume_state_sha256": "2b5435e200ae5d44507ab0c4f00ca53623f907f652b9d6b6c45e62d09a909c48",
+  "resume_state_sha256": "f236b8f194a149aeede5b107a38f7fd7dc0596969ddd0c1ed7b4af88b8aea214",
   "rng": [
-    3513529342,
-    957767895
+    130863471,
+    3998650326
   ],
   "whole_pretrained_parameter_tree_retained": true,
   "no_gpu_forward_or_training": true,
-  "utc": "2026-11-13T06:55:36.611259+00:00"
+  "utc": "2026-11-13T11:28:08.030500+00:00"
 }

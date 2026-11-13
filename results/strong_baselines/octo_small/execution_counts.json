@@ -1,0 +1,13 @@
+{
+  "formal_episodes": 80,
+  "formal_control_steps": 50000,
+  "smoke_episodes": 2,
+  "smoke_control_steps": 1250,
+  "physical_launch_rows": 82,
+  "training_updates": 24000,
+  "discarded_probe_updates": 6,
+  "total_optimizer_calls": 24006,
+  "generated_demonstrations_added": 0,
+  "prior_baseline_reruns": 0,
+  "other_candidate_training_runs": 0
+}

@@ -1,12 +1,14 @@
 {
-  "status": "PARTIAL",
+  "status": "COMPLETE_FAITHFUL_PORT",
   "method": "octo_small",
-  "phase": "FORMAL_TRAINING",
-  "actual_training_updates": 6800,
+  "phase": "ACCEPTED",
+  "actual_training_updates": 24000,
   "discarded_probe_optimizer_updates": 6,
-  "physical_evaluation_episodes": 0,
+  "physical_evaluation_episodes": 80,
   "physical_smoke_episodes": 2,
-  "success_rate": null,
-  "ordinary_repairs_allowed": true,
-  "formal_budget_frozen": true
+  "successes": 0,
+  "success_rate": 0.0,
+  "role": "EXPOSED_REFERENCE",
+  "checkpoint_sha256": "628073b9e6439a2e800293e980dde908cf45bf92d3b3772571e0f4f9d6f99188",
+  "ordinary_repairs_allowed": true
 }

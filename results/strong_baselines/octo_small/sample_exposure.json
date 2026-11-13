@@ -1,32 +1,32 @@
 {
-  "status": "PARTIAL_SAVED_SNAPSHOT",
-  "actual_native_updates": 6500,
-  "actual_sampled_anchors": 208000,
-  "unique_demo_frame_anchors": 118282,
+  "status": "FINAL",
+  "actual_native_updates": 24000,
+  "actual_sampled_anchors": 768000,
+  "unique_demo_frame_anchors": 226829,
   "whole_demonstrations_seen": 630,
   "groups": [
     {
       "domain": "source",
       "task": "pnp_counter_to_sink",
-      "sampled_anchors": 52000
+      "sampled_anchors": 192000
     },
     {
       "domain": "source",
       "task": "pnp_sink_to_counter",
-      "sampled_anchors": 52000
+      "sampled_anchors": 192000
     },
     {
       "domain": "target",
       "task": "pnp_counter_to_sink",
-      "sampled_anchors": 52000
+      "sampled_anchors": 192000
     },
     {
       "domain": "target",
       "task": "pnp_sink_to_counter",
-      "sampled_anchors": 52000
+      "sampled_anchors": 192000
     }
   ],
-  "consumed_anchor_prefix_sha256": "0823054849a72f1f74e4aaafccd1089edbca5b6894de2ae659f3443f9faa304e",
+  "consumed_anchor_prefix_sha256": "68181a0cda36cb5c849b5d8d784be121904bc12139ae58c9b43f23804fadba4d",
   "full_anchor_file": {
     "path": "/home/users/lemon/strong-baselines-20261112/octo_small/data/train.npy",
     "sha256": "a868931a38ea5feb4098cb8a4c927654808b8a6a4bc77c80100eb55e2154b5ce"

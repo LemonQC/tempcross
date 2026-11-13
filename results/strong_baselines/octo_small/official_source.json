@@ -18,5 +18,11 @@
     "batch_size": 256,
     "updates": 50000
   },
-  "our_formal_budget": null
+  "our_formal_budget": {
+    "batch_size": 32,
+    "updates": 24000,
+    "sampled_anchors": 768000,
+    "protocol": "protocol.json"
+  },
+  "weights_license": "MIT"
 }
