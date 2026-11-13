@@ -1,0 +1,101 @@
+{
+  "status": "COMPLETE_FAITHFUL_PORT",
+  "scope": "one joint UR5e+Panda source_target_state setting; target-only not run",
+  "information_tier": "RGB_PLUS_NATIVE_PROPRIOCEPTION",
+  "role": "EXPOSED_REFERENCE",
+  "cells": [
+    {
+      "group": "source_target_state",
+      "task": "pnp_counter_to_sink",
+      "episodes": 40,
+      "successes": 1,
+      "success_rate": 0.025,
+      "role": "EXPOSED_REFERENCE",
+      "failure_counts": {
+        "CLOSE_WITHOUT_BILATERAL_CONTACT": 36,
+        "CONTACT_WITHOUT_STABLE_LIFT_PROXY": 3,
+        "SUCCESS": 1
+      }
+    },
+    {
+      "group": "source_target_state",
+      "task": "pnp_sink_to_counter",
+      "episodes": 40,
+      "successes": 2,
+      "success_rate": 0.05,
+      "role": "EXPOSED_REFERENCE",
+      "failure_counts": {
+        "CONTACT_WITHOUT_STABLE_LIFT_PROXY": 2,
+        "CLOSE_WITHOUT_BILATERAL_CONTACT": 33,
+        "STABLE_LIFT_WITHOUT_OFFICIAL_PLACEMENT": 3,
+        "SUCCESS": 2
+      }
+    }
+  ],
+  "actual_training_updates": 16000,
+  "discarded_probe_updates": 9,
+  "total_optimizer_calls": 16009,
+  "actual_anchors": 512000,
+  "actual_sample_exposure": {
+    "status": "FINAL",
+    "actual_native_updates": 16000,
+    "actual_anchors": 512000,
+    "whole_training_demonstrations_seen": 630,
+    "unique_demo_frame_anchors": 192788,
+    "real_supervised_future_vectors": 24085141,
+    "total_future_slots_including_padding": 25600000,
+    "core_native_loss_dimensions": 32,
+    "real_action_dimensions": 7,
+    "groups": [
+      {
+        "domain": "source",
+        "task": "pnp_counter_to_sink",
+        "anchors": 128000
+      },
+      {
+        "domain": "source",
+        "task": "pnp_sink_to_counter",
+        "anchors": 128000
+      },
+      {
+        "domain": "target",
+        "task": "pnp_counter_to_sink",
+        "anchors": 128000
+      },
+      {
+        "domain": "target",
+        "task": "pnp_sink_to_counter",
+        "anchors": 128000
+      }
+    ],
+    "consumed_prefix_sha256": "ee125b7e31919ebf5e9981c11baa17ce11f055f43b1649dbfbd072acab01230e",
+    "manifest_path": "/home/users/lemon/strong-baselines-20261112/smolvla/data/manifest.json",
+    "manifest_sha256": "c86221d8ff5ebeec4a80c8fbe453080c144fe99faa53419a3e01f95ecd28fe43",
+    "anchor_path": "/home/users/lemon/strong-baselines-20261112/smolvla/data/train.npy",
+    "anchor_sha256": "a868931a38ea5feb4098cb8a4c927654808b8a6a4bc77c80100eb55e2154b5ce",
+    "reference_rollout_files_used_for_training": 0,
+    "generated_reference_demos_used_for_training": 0
+  },
+  "checkpoint": "/home/users/lemon/strong-baselines-20261112/smolvla/training/source_target_state/best.pt",
+  "checkpoint_sha256": "364b9c5dfc17996df412f8e64dfc7b7c1df710a1b35f9acadbd62776d3fd5bc8",
+  "selected_update": 2000,
+  "selected_checkpoint_training_updates": 2000,
+  "selected_checkpoint_anchors_consumed": 64000,
+  "selected_target_validation_real7_flow_mse": 0.23551705992571065,
+  "native_training_loss_changed": false,
+  "core_network_changed": false,
+  "extra_real_cameras": false,
+  "robot_state_used": true,
+  "object_state_used": false,
+  "official_full_task_episodes": 80,
+  "development_smoke_episodes": 2,
+  "official_control_steps": 49263,
+  "native_queries": 987,
+  "native_actions_and_qpos_verified": true,
+  "old_baseline_reruns": 0,
+  "new_demonstrations": 0,
+  "standalone_flow_matching_policy_runs": 0,
+  "training_seconds": 13137.537867909763,
+  "peak_training_allocated_bytes": 6059237888,
+  "utc": "2026-11-13T19:26:49.130038+00:00"
+}

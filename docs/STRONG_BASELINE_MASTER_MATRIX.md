@@ -1,6 +1,6 @@
 # T-RO Strong Baseline Master Matrix
 
-当前安排：Octo-Small → SmolVLA → Flow Matching Policy，单卡顺序执行。只对当前方法推进训练。
+当前轮仅执行smolvla，完成或确认实质阻碍后停止；不自动启动后续候选。Octo-Small及已完成结果保持冻结。
 CrossZero与Cross-Behavior Object Flow移出必须复现名单；历史BLOCKED代码/报告不变。KITE保留候选，暂缓其运动学解码器。
 允许必要的普通工程修复；一次Python错误不再触发永久BLOCKED。不得更换核心算法、放宽成功判据或无限扩大GPU预算。
 
@@ -16,7 +16,7 @@ CrossZero与Cross-Behavior Object Flow移出必须复现名单；历史BLOCKED�
 | crosszero | 归档，无新增复现预算 | BLOCKED | 0 | 0 | [证据](../results/strong_baselines/crosszero/RESULTS.md) |
 | object_flow | 归档，无新增复现预算 | BLOCKED | 0 | 0 | [证据](../results/strong_baselines/object_flow/RESULTS.md) |
 | octo_small | 联合设置已验收，禁止重跑 | COMPLETE_FAITHFUL_PORT | 24000 | 80 | [证据](../results/strong_baselines/octo_small/RESULTS.md) |
-| smolvla | 本轮唯一执行候选 | PARTIAL | 16000 | 1 | [证据](../results/strong_baselines/smolvla/status.json) |
+| smolvla | 本轮已验收，禁止重跑 | COMPLETE_FAITHFUL_PORT | 16000 | 80 | [证据](../results/strong_baselines/smolvla/RESULTS.md) |
 | flow_matching_policy | 后续候选 | NOT_RUN | 0 | 0 | [证据](../results/strong_baselines/flow_matching_policy/status.json) |
 
 COMPLETE_OFFICIAL、COMPLETE_FAITHFUL_PORT、COMPLETE_REIMPLEMENTATION只用于完成训练和正式完整任务评测的对应范围。PARTIAL/BLOCKED/NOT_RUN不是完整Baseline。
@@ -38,6 +38,8 @@ KITE旧BLOCKED是历史尝试状态，不代表当前候选已被永久否定。
 | mimicgen_v2/human_plus_generated | pnp_sink_to_counter | 0/40 | PARTIAL/EXPOSED_REFERENCE |
 | octo_small/source_target | pnp_counter_to_sink | 0/40 | COMPLETE_FAITHFUL_PORT/EXPOSED_REFERENCE |
 | octo_small/source_target | pnp_sink_to_counter | 0/40 | COMPLETE_FAITHFUL_PORT/EXPOSED_REFERENCE |
+| smolvla/source_target_state | pnp_counter_to_sink | 1/40 | COMPLETE_FAITHFUL_PORT/EXPOSED_REFERENCE |
+| smolvla/source_target_state | pnp_sink_to_counter | 2/40 | COMPLETE_FAITHFUL_PORT/EXPOSED_REFERENCE |
 
 ## 信息和计算边界
 

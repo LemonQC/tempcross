@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "base_commit": "39ecc90acf671bff9fefbf9fe4fe50575c8311e0",
+  "trees": [
+    {
+      "method": "act",
+      "path": "results/strong_baselines/act",
+      "tree": "50d767c67ce0a90870c69d9da99927fb7bbfedb1"
+    },
+    {
+      "method": "vqbet",
+      "path": "results/strong_baselines/vqbet",
+      "tree": "e11beef5afd23e857a2087eef96183ca394a3274"
+    },
+    {
+      "method": "mimicgen_v2",
+      "path": "results/strong_baselines/mimicgen_v2",
+      "tree": "b524cc995659af9895167f667810d4989acd812d"
+    },
+    {
+      "method": "kite",
+      "path": "results/strong_baselines/kite",
+      "tree": "a7b88ab7a2e9bc453303f69e755edee9ec8ea24c"
+    },
+    {
+      "method": "crosszero",
+      "path": "results/strong_baselines/crosszero",
+      "tree": "f5ba6c96c66e89b30f590e26ab0259b748c40d84"
+    },
+    {
+      "method": "object_flow",
+      "path": "results/strong_baselines/object_flow",
+      "tree": "d51d7bcc33f16656a69fd6540f8eab63cae1b6ae"
+    },
+    {
+      "method": "octo_small",
+      "path": "results/strong_baselines/octo_small",
+      "tree": "aae25c0c9f7bf31b68e2b1e4baf9ad1cf8d1386c"
+    }
+  ],
+  "protected_old_files_verified": 8,
+  "octo_artifact_files_verified": 251,
+  "utc": "2026-11-13T19:26:42.225911+00:00"
+}

@@ -1,32 +1,17 @@
 {
-  "status": "PARTIAL",
-  "phase": "FORMAL_EVALUATION",
-  "as_of_utc": "2026-11-13T18:30:50.333648+00:00",
-  "verified_persisted_training_updates": 16000,
-  "resumable_saved_update": 16000,
-  "frozen_training_budget": 16000,
-  "completed_official_episodes": 1,
-  "episodes": [
-    {
-      "task": "pnp_counter_to_sink",
-      "index": 60,
-      "success": false,
-      "steps": 600
-    }
-  ],
+  "status": "COMPLETE_FAITHFUL_PORT",
+  "method": "smolvla",
+  "phase": "ACCEPTED",
+  "information_tier": "RGB_PLUS_NATIVE_PROPRIOCEPTION",
+  "actual_training_updates": 16000,
+  "discarded_probe_optimizer_updates": 9,
+  "physical_evaluation_episodes": 80,
+  "physical_smoke_episodes": 2,
+  "successes": 3,
+  "success_rate": 0.0375,
   "role": "EXPOSED_REFERENCE",
-  "success_rate": 0.0,
-  "latest_training_record": {
-    "update": 16000,
-    "metrics": {
-      "loss": 0.07928268611431122,
-      "grad_norm": 0.2035294473171234,
-      "learning_rate": 2.5e-06
-    },
-    "anchors_consumed": 512000,
-    "elapsed_seconds": 13129.981034771074,
-    "utc": "2026-11-13T18:29:27.516017+00:00"
-  },
+  "ordinary_repairs_allowed": true,
+  "as_of_utc": "2026-11-13T19:26:50.787023+00:00",
   "validation_history": [
     {
       "update": 1000,
@@ -156,6 +141,5 @@
       },
       "utc": "2026-11-13T18:29:33.209781+00:00"
     }
-  ],
-  "formal_budget_changed": false
+  ]
 }

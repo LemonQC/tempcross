@@ -1,0 +1,40 @@
+{
+  "status": "FINAL",
+  "actual_native_updates": 16000,
+  "actual_anchors": 512000,
+  "whole_training_demonstrations_seen": 630,
+  "unique_demo_frame_anchors": 192788,
+  "real_supervised_future_vectors": 24085141,
+  "total_future_slots_including_padding": 25600000,
+  "core_native_loss_dimensions": 32,
+  "real_action_dimensions": 7,
+  "groups": [
+    {
+      "domain": "source",
+      "task": "pnp_counter_to_sink",
+      "anchors": 128000
+    },
+    {
+      "domain": "source",
+      "task": "pnp_sink_to_counter",
+      "anchors": 128000
+    },
+    {
+      "domain": "target",
+      "task": "pnp_counter_to_sink",
+      "anchors": 128000
+    },
+    {
+      "domain": "target",
+      "task": "pnp_sink_to_counter",
+      "anchors": 128000
+    }
+  ],
+  "consumed_prefix_sha256": "ee125b7e31919ebf5e9981c11baa17ce11f055f43b1649dbfbd072acab01230e",
+  "manifest_path": "/home/users/lemon/strong-baselines-20261112/smolvla/data/manifest.json",
+  "manifest_sha256": "c86221d8ff5ebeec4a80c8fbe453080c144fe99faa53419a3e01f95ecd28fe43",
+  "anchor_path": "/home/users/lemon/strong-baselines-20261112/smolvla/data/train.npy",
+  "anchor_sha256": "a868931a38ea5feb4098cb8a4c927654808b8a6a4bc77c80100eb55e2154b5ce",
+  "reference_rollout_files_used_for_training": 0,
+  "generated_reference_demos_used_for_training": 0
+}

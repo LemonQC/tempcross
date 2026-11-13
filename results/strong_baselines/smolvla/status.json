@@ -1,13 +1,14 @@
 {
-  "status": "PARTIAL",
+  "status": "COMPLETE_FAITHFUL_PORT",
   "method": "smolvla",
-  "phase": "FORMAL_EVALUATION",
+  "phase": "ACCEPTED",
   "information_tier": "RGB_PLUS_NATIVE_PROPRIOCEPTION",
   "actual_training_updates": 16000,
   "discarded_probe_optimizer_updates": 9,
-  "physical_evaluation_episodes": 1,
+  "physical_evaluation_episodes": 80,
   "physical_smoke_episodes": 2,
-  "success_rate": 0.0,
-  "ordinary_repairs_allowed": true,
-  "formal_budget_frozen": true
+  "successes": 3,
+  "success_rate": 0.0375,
+  "role": "EXPOSED_REFERENCE",
+  "ordinary_repairs_allowed": true
 }

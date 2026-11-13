@@ -9,6 +9,25 @@ from .exposure import main as exposure
 
 RUN=ROOT/'smolvla'
 
+def append_detail_tables(directory,result):
+    """Render existing accepted statistics only; no training or physics."""
+    path=directory/'RESULTS.md';marker='\n## Failure classification and frozen reference\n'
+    lines=['', '## Failure classification and frozen reference','',
+        'These are descriptive telemetry categories; contact/lift proxies do not establish failure causes.','',
+        '| Task | Closed without bilateral contact | Contact without stable-lift proxy | Stable lift without official placement | Official success |',
+        '|---|---:|---:|---:|---:|']
+    for cell in result['cells']:
+        f=cell['failure_counts']
+        lines.append(f"| {cell['task']} | {f.get('CLOSE_WITHOUT_BILATERAL_CONTACT',0)} | {f.get('CONTACT_WITHOUT_STABLE_LIFT_PROXY',0)} | {f.get('STABLE_LIFT_WITHOUT_OFFICIAL_PLACEMENT',0)} | {f.get('SUCCESS',0)} |")
+    prior=read(out('octo_small')/'results.json')
+    lines += ['', '| Frozen/new joint baseline | Information | Counter to Sink | Sink to Counter |',
+        '|---|---|---:|---:|',
+        '| Octo-Small (frozen, no rerun) | RGB256 + language | '+ ' | '.join(f"{c['successes']}/{c['episodes']}" for c in prior['cells'])+' |',
+        '| SmolVLA | RGB512 + language + real joint/gripper qpos9 | '+ ' | '.join(f"{c['successes']}/{c['episodes']}" for c in result['cells'])+' |',
+        '', 'Both use EXPOSED_REFERENCE60–99. Input information, pretraining and budgets differ; this table does not establish an equal-input improvement. SmolVLA is a completed bounded faithful port, not the full official batch64/20000-update example recipe.',
+        'This round ends here. No extra training, physics, next baseline or new Method is authorized by these results.']
+    path.write_text(path.read_text().split(marker)[0]+'\n'.join(lines)+'\n')
+
 def main():
     directory=out('smolvla');train=read(RUN/'training/source_target_state/state.json')
     protocol=read(directory/'protocol.json')
@@ -48,6 +67,7 @@ def main():
         e=a['episode'];csv.append(','.join(map(str,[e['task'],e['official_condition_index'],int(e['success']),e['steps'],
             a['failure_stage'],e['checkpoint_sha256'],e['telemetry_path'],e['video_path']])))
         files.extend(Path(e[k]) for k in ['telemetry_path','video_path','contact_log'])
+        files.append(Path(e['telemetry_path']).parent.parent/'episode.json')
     for r in state_action:files.append(Path(r['action_ledger']))
     result=dict(status='COMPLETE_FAITHFUL_PORT',scope='one joint UR5e+Panda source_target_state setting; target-only not run',
         information_tier='RGB_PLUS_NATIVE_PROPRIOCEPTION',role='EXPOSED_REFERENCE',cells=cells,
@@ -88,6 +108,7 @@ def main():
         'Failure stages are descriptive sampled-contact/placement proxies, not causal explanations. No old baseline was retrained or evaluated. No new Method or next baseline started.',
         '', 'Code/config/provenance: official_source.json, protocol.json, freeze.json, errors.json. Evidence: training_state.json, training_metrics.json, optimizer_audit.json, sample_exposure.json, episodes.csv, per-task acceptance files, artifact_index.json. Large artifacts stay on the server.']
     (directory/'RESULTS.md').write_text('\n'.join(lines)+'\n')
+    append_detail_tables(directory,result)
     from baselines.strong.matrix_current import main as matrix
     matrix();print(status,flush=True)
 

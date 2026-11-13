@@ -9,7 +9,7 @@ def main():
         'kite':'候选暂缓；旧报告保留','crosszero':'归档，无新增复现预算','object_flow':'归档，无新增复现预算',
         'octo_small':'当前优先候选','smolvla':'后续候选','flow_matching_policy':'后续候选'}
     lines=['# T-RO Strong Baseline Master Matrix','',
-        '当前安排：Octo-Small → SmolVLA → Flow Matching Policy，单卡顺序执行。只对当前方法推进训练。',
+        f"当前轮仅执行{scope.get('current_round_only',scope['active_method'])}，完成或确认实质阻碍后停止；不自动启动后续候选。Octo-Small及已完成结果保持冻结。",
         'CrossZero与Cross-Behavior Object Flow移出必须复现名单；历史BLOCKED代码/报告不变。KITE保留候选，暂缓其运动学解码器。',
         '允许必要的普通工程修复；一次Python错误不再触发永久BLOCKED。不得更换核心算法、放宽成功判据或无限扩大GPU预算。','',
         '既有BC/DP/BARX1280、BARX适配160、ACT/VQ-BeT及MimicGen v2均不重跑。MimicGen v2保留48000更新和80条评测。',
