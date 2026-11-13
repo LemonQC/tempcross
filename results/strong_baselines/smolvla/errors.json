@@ -1,0 +1,35 @@
+{
+  "core_algorithm_modified": false,
+  "permanent_blocked": false,
+  "ordinary_repairs": [
+    {
+      "stage": "dependency transport",
+      "issue": "Single-stream medium wheel downloads slow",
+      "fix": "Pinned public PyPI wheels via bounded range transfer and published hashes; isolated cached CUDA runtime reused"
+    },
+    {
+      "stage": "config loader",
+      "issue": "Calling subclass SmolVLAConfig.from_pretrained rejects choice field type",
+      "fix": "Use official PreTrainedConfig.from_pretrained factory, returning registered SmolVLAConfig",
+      "optimizer_updates": 0,
+      "physical_episodes": 0
+    },
+    {
+      "stage": "raw robot state",
+      "issue": "joint_states are velocities, not positions",
+      "fix": "Audit all700 saved states, derivative/velocity consistency and exact gripper qpos; use true saved positions and named live positions"
+    },
+    {
+      "stage": "readonly reward assumption",
+      "issue": "Raw released rewards allzero, not reliable success labels",
+      "fix": "Use2 existing accepted successful generated references for read-only command checks; exclude them from training; keep4 raw demos as interface checks"
+    },
+    {
+      "stage": "padding flag propagation",
+      "issue": "Native processor drops actions_id_pad; initial queue audit caught missing key before inference",
+      "fix": "Carry genuine boundary mask to unchanged native forward; rerun3 corrected training updates and full queue/RPC audit before2smokes",
+      "pre_correction_optimizer_updates": 6,
+      "corrected_optimizer_updates": 3
+    }
+  ]
+}

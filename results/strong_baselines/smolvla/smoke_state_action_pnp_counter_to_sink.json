@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "task": "pnp_counter_to_sink",
+  "role": "DEVELOPMENT_SMOKE",
+  "episodes": 1,
+  "successes": 0,
+  "native_queries": 12,
+  "raw32_to7_crop_and_unnormalization_verified": true,
+  "native_queue_matches_all_executed_actions": true,
+  "proprioception_rows_verified": 600,
+  "recorded_state_equals_pre_action_named_joint_qpos": true,
+  "object_state_is_not_policy_input": true,
+  "action_ledger": "/home/users/lemon/strong-baselines-20261112/smolvla/inference/1794578698813619589-2289065.jsonl",
+  "action_ledger_sha256": "2333aa0d7c31ca53aa15b5684d806be8b75a828c046bbe6f73c0c52b7c5d5a1f",
+  "new_physics_steps": 0
+}

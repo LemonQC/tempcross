@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "data_tests": 4,
+  "whole_demo_identities_checked": 700,
+  "native_gpu_update_probe_passed": true,
+  "actual_discarded_probe_updates": 9,
+  "accepted_corrected_probe_updates": 3,
+  "fixed_validation_and_rng_restore": true,
+  "readonly_success_references": 2,
+  "native_queue_and_rpc_verified": true,
+  "full_development_smokes": 2,
+  "smoke_control_steps": 1250,
+  "smoke_successes": 0,
+  "state_and_raw_action_chain_verified": true
+}

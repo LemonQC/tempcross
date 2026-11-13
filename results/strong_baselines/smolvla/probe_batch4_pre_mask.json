@@ -1,0 +1,74 @@
+{
+  "status": "PASS",
+  "actual_training_updates": 3,
+  "batch_size": 4,
+  "start": {
+    "utc": "2026-11-13T13:51:02.772166+00:00",
+    "gpu": "NVIDIA GeForce RTX 3090, 24576 MiB, 581 MiB, 39 %",
+    "disk_free_bytes": 58879877120
+  },
+  "utc": "2026-11-13T13:51:02.772201+00:00",
+  "optimizer_step_counters": [
+    3
+  ],
+  "changed_tensors": 122,
+  "frozen_tensors_changed": 0,
+  "total_parameters": 450046176,
+  "trainable_parameters": 99880992,
+  "checkpoint": "/home/users/lemon/strong-baselines-20261112/smolvla/probe/batch-4/updated.pt",
+  "checkpoint_sha256": "21d7bc1cd42fbb8d2beff7d23c70c645b302785cfdc811179f0820a804d1a7bb",
+  "metrics": [
+    {
+      "loss": 0.3704335391521454,
+      "grad_norm": 4.3788042068481445
+    },
+    {
+      "loss": 0.6532132625579834,
+      "grad_norm": 6.718706130981445
+    },
+    {
+      "loss": 0.3695986866950989,
+      "grad_norm": 3.9536099433898926
+    }
+  ],
+  "update_seconds": [
+    0.6001015421934426,
+    0.11788720544427633,
+    0.11584953684359789
+  ],
+  "warm_update_seconds": 0.11686837114393711,
+  "peak_allocated_bytes": 2236350464,
+  "peak_reserved_bytes": 2346713088,
+  "source": "official SmolVLAPolicy.forward/native flow matching/official optimizer preset",
+  "traces": [
+    {
+      "episode_id": "84dd541933e0539acaa1bf754935fc0083fc9eaed9e9354fe254f112f4d43a4f",
+      "frame": 75,
+      "domain": "source",
+      "task": "pnp_counter_to_sink"
+    },
+    {
+      "episode_id": "7b9d5a99990aa94260020627e0c656cdc28e0fe72f6c19a860c7b5b922fbce60",
+      "frame": 347,
+      "domain": "source",
+      "task": "pnp_sink_to_counter"
+    },
+    {
+      "episode_id": "b5388a3f5b153c1fb263c089477d13f69b8b8d5be643b528411ed91f43bfaf51",
+      "frame": 82,
+      "domain": "target",
+      "task": "pnp_counter_to_sink"
+    },
+    {
+      "episode_id": "df20a2f0fe746301101de1cc9238ecc0708d1fd00de79e5579f7265979ab44ce",
+      "frame": 80,
+      "domain": "target",
+      "task": "pnp_sink_to_counter"
+    }
+  ],
+  "end": {
+    "utc": "2026-11-13T13:51:16.747968+00:00",
+    "gpu": "NVIDIA GeForce RTX 3090, 24576 MiB, 3152 MiB, 8 %",
+    "disk_free_bytes": 57681059840
+  }
+}

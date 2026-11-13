@@ -1,0 +1,54 @@
+--- baselines/strong/evaluate.py@39ecc90
++++ results/strong_baselines/smolvla/evaluate.py
+@@ -1,4 +1,4 @@
+-"""Episode-resumable evaluation, unchanged frozen states/OSC/official task goal."""
++"""State-conditioned port of frozen evaluator; same physics, states, goal and OSC."""
+ import argparse
+ import importlib
+ import json
+@@ -8,6 +8,8 @@
+ from baselines.strong.common import ROOT,PROJECT,SOURCE,TASKS,out,read,write,digest,setup,resource,now
+ 
+ def evaluate(method,group,checkpoint,task,smoke=False):
++    assert method=="smolvla"
++    from results.strong_baselines.smolvla.data import live_robot_state,PANDA_STATE_JOINTS
+     setup()
+     import torch,numpy as np,cv2
+     torch.set_num_threads(4);torch.manual_seed(7);np.random.seed(7);torch.cuda.reset_peak_memory_stats()
+@@ -27,12 +29,16 @@
+     checkpoint=Path(checkpoint);sha=digest(checkpoint);ledger=directory/'job.json'
+     if ledger.exists() and read(ledger)['status']=='COMPLETE':
+         previous=read(ledger);assert previous['checkpoint_sha256']==sha and previous['indices']==indices;return previous
++    if smoke:
++        launches=ROOT/method/'physical/physical_launches.jsonl'
++        previous=[json.loads(x) for x in launches.read_text().splitlines()] if launches.exists() else []
++        assert sum(x['role']=='DEVELOPMENT_SMOKE' for x in previous)<2, 'Frozen maximum two development smoke launches'
+     job=dict(status='LOADING',method=method,group=group,task=task,robot='panda',role=role,indices=indices,
+-             checkpoint=str(checkpoint),checkpoint_sha256=sha,completed_episodes=0,policy_information=['RGB','instruction'],
++             checkpoint=str(checkpoint),checkpoint_sha256=sha,completed_episodes=0,policy_information=['RGB','instruction','arm_joint_qpos7','Robotiq_joint_qpos2'],
+              original_benchmark_commit='0f435089f48b1f16d225f868dbef855a5e75d1e0',start_resources=resource())
+     write(ledger,job);env=None;rec=None;writer=None;phase='MODEL_LOAD';records=[];start=time.monotonic()
+     try:
+-        policy=importlib.import_module('results.strong_baselines.'+method+'.model').Policy(checkpoint)
++        policy=importlib.import_module('results.strong_baselines.'+method+'.model').Policy(checkpoint,role=role)
+         job['runtime']=policy.runtime_metadata
+         payload,states,models=load_bundle(SOURCE/'evaluation/conditions',task=task,embodiment='panda')
+         validate_condition_bundle_for_evaluation(payload,states,models,task=task,camera_name=EMBODIMENTS['panda'].camera,image_width=320,image_height=180,count=100)
+@@ -55,6 +61,7 @@
+             phase='CONDITION_RESTORE';policy.reset();obs,metadata=restore_frozen_condition(env,payload['episodes'][i],states[i],models[i])
+             rec=Recorder(episode_dir/'telemetry');rec.start(payload['episodes'][i],env,obs,metadata)
+             raw=env.env;initial=raw.sim.get_state().flatten();rec.append('baseline/restored_initial_state',initial)
++            rec.append('baseline/robot_state_qpos_addresses',np.array([raw.sim.model.jnt_qposadr[raw.sim.model.joint_name2id(name)] for name in PANDA_STATE_JOINTS],np.int32))
+             if not smoke:
+                 expected=next(x for x in frozen if x['task']==task and x['robot']=='panda' and x['official_index']==i)
+                 assert np.array_equal(initial,np.asarray(expected['initial_state'],np.float64))
+@@ -65,7 +72,8 @@
+             for step in range(specs[task].max_steps):
+                 rgb=(255*np.transpose(obs[EMBODIMENTS['panda'].camera+'_image'],(1,2,0))).astype(np.uint8)
+                 phase='POLICY_INFERENCE';torch.cuda.synchronize();t=time.perf_counter()
+-                prediction=policy.predict_action(dict(rgb=rgb,instruction=metadata['lang']));torch.cuda.synchronize();times.append(time.perf_counter()-t)
++                state_vector=live_robot_state(raw);rec.append('baseline/robot_state',state_vector)
++                prediction=policy.predict_action(dict(rgb=rgb,state=state_vector,instruction=metadata['lang']));torch.cuda.synchronize();times.append(time.perf_counter()-t)
+                 action,conversion=canonical_action(prediction['action'],prediction['representation']);clipped+=conversion['clipped_dimensions']
+                 rec.append('baseline/native_action',prediction['action']);rec.append('baseline/canonical_before_clip',conversion['preclip_canonical'])
+                 rec.append('baseline/prediction_seconds',times[-1])

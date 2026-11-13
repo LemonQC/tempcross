@@ -1,0 +1,14 @@
+{
+  "utc": "2026-11-13T14:21:28.188409+00:00",
+  "protocol_sha256": "92433d9e7dc381c009ae42ffb590148156f98f2843bfbbf632a2be4ed54421aa",
+  "resources": {
+    "utc": "2026-11-13T14:21:28.240344+00:00",
+    "gpu": "NVIDIA GeForce RTX 3090, 24576 MiB, 585 MiB, 36 %",
+    "disk_free_bytes": 55266349056
+  },
+  "accepted_probe_sha256": "9c533efbb5580658ebc647751f530aab961ea97a5c4254c72b2488210967d7bd",
+  "queue_sha256": "3f2da7ef990d0e1c7ae93cb31f6f1754a9b98089ea504251d35ffe56aa7d0bf6",
+  "readonly_replay_sha256": "74ba7bc37c6be19520032b71a1e2a3e87368dd011d4231c2b6b1c06574c7487b",
+  "validation_probe_sha256": "b8c272fa8ec4be13f7a094ac61344a200d6d6cf889ff9006c5b55f099cf2108b",
+  "smoke_source_state_and_action_verified": true
+}

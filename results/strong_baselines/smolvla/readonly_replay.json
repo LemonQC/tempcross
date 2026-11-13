@@ -1,0 +1,199 @@
+{
+  "status": "PASS_READ_ONLY_COMMANDS_AND_CERTIFIED_SUCCESS_REFERENCES",
+  "selection": "first original train ID per domain/task; first existing accepted generated reference per task; no model/test-success selection",
+  "original_demos": [
+    {
+      "episode_id": "f483ee5a208587558384f33a7cd9c24dbbc3daa7f8427797b931c67e6dd43890",
+      "domain": "source",
+      "task": "pnp_counter_to_sink",
+      "raw_file": "/home/users/lemon/strong-baselines-20261112/raw_source_ur5e/mg/UR5eOmron/PnPCounterToSink/100demos_seed2/demo_gentex_im320_randcams.hdf5",
+      "raw_demo": "demo_84",
+      "frames": 404,
+      "raw_rewards_are_zero": true,
+      "saved_done": true,
+      "success_certification": "raw rewards are not informative; these rows certify interface only",
+      "all_original_transition_actions_match_OSC12": true,
+      "terminal": "original RLDS virtual terminal arm0/repeated gripper, not a new transition",
+      "gripper_positive_is_close": true,
+      "measured_driver_qpos_median": {
+        "open": -0.027536444332940557,
+        "close": 0.3850442111945746
+      },
+      "state_shape": [
+        404,
+        9
+      ],
+      "checked_chunks": [
+        {
+          "anchor": 0,
+          "actual_frames": 50,
+          "padded_frames": 0
+        },
+        {
+          "anchor": 379,
+          "actual_frames": 25,
+          "padded_frames": 25
+        },
+        {
+          "anchor": 403,
+          "actual_frames": 1,
+          "padded_frames": 49
+        }
+      ],
+      "physics_step_calls": 0,
+      "new_policy_episodes": 0
+    },
+    {
+      "episode_id": "8f4a3a752a0dda76b2c5b5bb76b652b2a8ea5ea6626161e5690b723d7a651e86",
+      "domain": "source",
+      "task": "pnp_sink_to_counter",
+      "raw_file": "/home/users/lemon/strong-baselines-20261112/raw_source_ur5e/mg/UR5eOmron/PnPSinkToCounter/100demos_seed1/demo_gentex_im320_randcams.hdf5",
+      "raw_demo": "demo_91",
+      "frames": 417,
+      "raw_rewards_are_zero": true,
+      "saved_done": true,
+      "success_certification": "raw rewards are not informative; these rows certify interface only",
+      "all_original_transition_actions_match_OSC12": true,
+      "terminal": "original RLDS virtual terminal arm0/repeated gripper, not a new transition",
+      "gripper_positive_is_close": true,
+      "measured_driver_qpos_median": {
+        "open": -0.027548914463522745,
+        "close": 0.4150580456166605
+      },
+      "state_shape": [
+        417,
+        9
+      ],
+      "checked_chunks": [
+        {
+          "anchor": 0,
+          "actual_frames": 50,
+          "padded_frames": 0
+        },
+        {
+          "anchor": 392,
+          "actual_frames": 25,
+          "padded_frames": 25
+        },
+        {
+          "anchor": 416,
+          "actual_frames": 1,
+          "padded_frames": 49
+        }
+      ],
+      "physics_step_calls": 0,
+      "new_policy_episodes": 0
+    },
+    {
+      "episode_id": "38184253b1415518c8deb83c010480978867327592bed262272cafe6469f2288",
+      "domain": "target",
+      "task": "pnp_counter_to_sink",
+      "raw_file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPCounterToSink/demo_gentex_im320.hdf5",
+      "raw_demo": "demo_1",
+      "frames": 406,
+      "raw_rewards_are_zero": true,
+      "saved_done": true,
+      "success_certification": "raw rewards are not informative; these rows certify interface only",
+      "all_original_transition_actions_match_OSC12": true,
+      "terminal": "original RLDS virtual terminal arm0/repeated gripper, not a new transition",
+      "gripper_positive_is_close": true,
+      "measured_driver_qpos_median": {
+        "open": -0.02770427797710366,
+        "close": 0.33431624982643926
+      },
+      "state_shape": [
+        406,
+        9
+      ],
+      "checked_chunks": [
+        {
+          "anchor": 0,
+          "actual_frames": 50,
+          "padded_frames": 0
+        },
+        {
+          "anchor": 381,
+          "actual_frames": 25,
+          "padded_frames": 25
+        },
+        {
+          "anchor": 405,
+          "actual_frames": 1,
+          "padded_frames": 49
+        }
+      ],
+      "physics_step_calls": 0,
+      "new_policy_episodes": 0
+    },
+    {
+      "episode_id": "db7472577e5974eb259f7b04008e0a051ac1ada23164d5904901ac04949503e9",
+      "domain": "target",
+      "task": "pnp_sink_to_counter",
+      "raw_file": "/home/users/lemon/coft-p2/p2/data/raw_target/human/PandaOmron/PnPSinkToCounter/demo_gentex_im320.hdf5",
+      "raw_demo": "demo_1",
+      "frames": 441,
+      "raw_rewards_are_zero": true,
+      "saved_done": true,
+      "success_certification": "raw rewards are not informative; these rows certify interface only",
+      "all_original_transition_actions_match_OSC12": true,
+      "terminal": "original RLDS virtual terminal arm0/repeated gripper, not a new transition",
+      "gripper_positive_is_close": true,
+      "measured_driver_qpos_median": {
+        "open": -0.027705807845713956,
+        "close": 0.3518315621888074
+      },
+      "state_shape": [
+        441,
+        9
+      ],
+      "checked_chunks": [
+        {
+          "anchor": 0,
+          "actual_frames": 50,
+          "padded_frames": 0
+        },
+        {
+          "anchor": 416,
+          "actual_frames": 25,
+          "padded_frames": 25
+        },
+        {
+          "anchor": 440,
+          "actual_frames": 1,
+          "padded_frames": 49
+        }
+      ],
+      "physics_step_calls": 0,
+      "new_policy_episodes": 0
+    }
+  ],
+  "certified_success_references": [
+    {
+      "id": "aug-pnp_counter_to_sink-001",
+      "task": "pnp_counter_to_sink",
+      "trajectory": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/probe/aug-pnp_counter_to_sink-001/trajectory.hdf5",
+      "sha256": "e28adba3baa445cdf173c1fd1e4d1f78171606bee05e20ce2c45ada64dd073ec",
+      "official_goal_verified": true,
+      "frames": 393,
+      "all_OSC12_actions_exact": true,
+      "included_in_smolvla_training": false,
+      "new_generation": false
+    },
+    {
+      "id": "aug-pnp_sink_to_counter-007",
+      "task": "pnp_sink_to_counter",
+      "trajectory": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/probe/aug-pnp_sink_to_counter-007/trajectory.hdf5",
+      "sha256": "f1e350418993ac7ce27fece504db076fd35bb5d7ba1a93f342b544e2b2820ff4",
+      "official_goal_verified": true,
+      "frames": 445,
+      "all_OSC12_actions_exact": true,
+      "included_in_smolvla_training": false,
+      "new_generation": false
+    }
+  ],
+  "physics_step_calls": 0,
+  "new_policy_episodes": 0,
+  "core_control_interface_changed": false,
+  "raw_robot_state_audit": "/home/users/lemon/strong-baselines-20261112/smolvla/data/state_audit_rows.json",
+  "raw_robot_state_audit_sha256": "744086d239adb83daf8f9e73d1fce407aa787f2ffcebd5a5ede43862137c3e6e"
+}

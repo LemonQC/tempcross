@@ -1,0 +1,32 @@
+{
+  "status": "PASS_NATIVE_RPC_AND_QUEUE50",
+  "input_training_episode": "38184253b1415518c8deb83c010480978867327592bed262272cafe6469f2288",
+  "calls": 51,
+  "network_queries": 2,
+  "query_steps": [
+    0,
+    50
+  ],
+  "physics_step_calls": 0,
+  "new_policy_episodes": 0,
+  "new_training_updates": 0,
+  "runtime": {
+    "model": "official SmolVLAPolicy.select_action",
+    "official_source": "8fff0fde7c79f23a93d845d1a50e985de01f8b8a",
+    "checkpoint": "/home/users/lemon/strong-baselines-20261112/smolvla/probe/batch-32-padmask-correction/updated.pt",
+    "checkpoint_sha256": "5d7e33cd951276594b9e634d927fa296967f67923e6ef4019119c88472481c9c",
+    "information": [
+      "RGB180x320->native512",
+      "instruction",
+      "arm_qpos7",
+      "Robotiq_qpos2"
+    ],
+    "action_generation": "native flow matching,10 steps,chunk50,execute50",
+    "raw_action_ledger": "/home/users/lemon/strong-baselines-20261112/smolvla/inference/1794578556712823851-2287133.jsonl",
+    "role": "OFFLINE_INTERFACE_DRY_RUN",
+    "torch": "2.9.1+cu128",
+    "device": "NVIDIA GeForce RTX 3090",
+    "state_fields": 9,
+    "extra_real_cameras": 0
+  }
+}

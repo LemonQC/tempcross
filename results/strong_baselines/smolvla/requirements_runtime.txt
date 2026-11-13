@@ -1,0 +1,35 @@
+# Official LeRobot v0.4.4 compatible pins; isolated from all old baselines.
+torch @ https://download.pytorch.org/whl/cu128/torch-2.9.1%2Bcu128-cp310-cp310-manylinux_2_28_x86_64.whl
+torchvision @ https://download.pytorch.org/whl/cu128/torchvision-0.24.1%2Bcu128-cp310-cp310-manylinux_2_28_x86_64.whl
+transformers==4.57.1
+accelerate==1.11.0
+huggingface-hub==0.35.3
+safetensors==0.8.0
+numpy==2.2.6
+h5py==3.14.0
+num2words==0.5.14
+draccus==0.10.0
+gymnasium==1.1.1
+einops==0.8.1
+datasets==4.4.1
+pyarrow==21.0.0
+pandas==2.3.3
+diffusers==0.35.2
+packaging==25.0
+deepdiff==8.6.1
+termcolor==3.2.0
+opencv-python-headless==4.12.0.88
+Pillow==11.3.0
+tqdm==4.67.1
+wandb==0.24.0
+imageio==2.37.0
+av==15.1.0
+jsonlines==4.0.0
+pyserial==3.5
+pynput==1.8.1
+rerun-sdk==0.26.2
+matplotlib==3.10.7
+sentencepiece==0.2.1
+torchcodec==0.8.1
+setuptools==80.9.0
+cmake==4.1.3

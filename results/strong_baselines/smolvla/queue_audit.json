@@ -1,0 +1,23 @@
+{
+  "status": "PASS_NATIVE_QUEUE_AND_NORMALIZATION",
+  "checkpoint": "/home/users/lemon/strong-baselines-20261112/smolvla/probe/batch-32-padmask-correction/updated.pt",
+  "checkpoint_sha256": "5d7e33cd951276594b9e634d927fa296967f67923e6ef4019119c88472481c9c",
+  "native_generation_calls": 2,
+  "selected_actions": 50,
+  "native_chunk_size": 50,
+  "denoising_steps": 10,
+  "raw_action_dimensions": 32,
+  "used_action_dimensions": 7,
+  "native_queue_exactly_matches_full_chunk": true,
+  "action_normalization_roundtrip": true,
+  "native_padding_and_crop_preserved": true,
+  "original_training_anchor": {
+    "episode_id": "38184253b1415518c8deb83c010480978867327592bed262272cafe6469f2288",
+    "frame": 0,
+    "domain": "target",
+    "task": "pnp_counter_to_sink"
+  },
+  "physics_step_calls": 0,
+  "new_policy_episodes": 0,
+  "new_training_updates": 0
+}

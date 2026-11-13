@@ -1,0 +1,20 @@
+{
+  "repository": "https://github.com/huggingface/lerobot",
+  "tag": "v0.4.4",
+  "commit": "8fff0fde7c79f23a93d845d1a50e985de01f8b8a",
+  "license": "Apache-2.0",
+  "license_sha256": "0583375a0ec642ec79c447781f34322b0cfa66baff31258214d040f1f6d86d7c",
+  "weights_repository": "lerobot/smolvla_base",
+  "weights_revision": "5e8d12a6e2975b0e5e5fce7c8caf47c371d257b6",
+  "weights_sha256": "7cd549ac2351fb069c0ddb3c34ad2d09cfc92b56a15dccdfc2e41467aaca01eb",
+  "core_network_modified": false,
+  "core_flow_matching_modified": false,
+  "version_choice": "Official stable release with external processors matching public checkpoint format; avoids adapting legacy0.3.3 normalization buffers to modern model",
+  "formal_budget": {
+    "batch_size": 32,
+    "updates": 16000,
+    "anchors": 512000,
+    "maximum_training_seconds": 14400
+  },
+  "strict_load_succeeded": true
+}

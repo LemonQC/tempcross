@@ -1,0 +1,16 @@
+{
+  "status": "PASS_FIXED_VALIDATION_AND_RNG_RESTORE",
+  "anchors": 256,
+  "metrics": {
+    "real7_valid_flow_mse": 0.8934028693022743,
+    "native_full32_masked_mean": 0.2564479637145996
+  },
+  "repeat_metrics": {
+    "real7_valid_flow_mse": 0.8934028693022743,
+    "native_full32_masked_mean": 0.2564479637145996
+  },
+  "validation_selects_real7_only": true,
+  "training_loss_is_native_full32": true,
+  "physics_step_calls": 0,
+  "new_training_updates": 0
+}

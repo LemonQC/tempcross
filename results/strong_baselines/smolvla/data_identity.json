@@ -1,0 +1,49 @@
+{
+  "status": "PASS_IDENTITIES_AND_REAL_ROBOT_STATE",
+  "demonstrations": 700,
+  "source_train": 540,
+  "source_validation": 60,
+  "target_train": 90,
+  "target_validation": 10,
+  "state_features": [
+    "arm_q1",
+    "arm_q2",
+    "arm_q3",
+    "arm_q4",
+    "arm_q5",
+    "arm_q6",
+    "arm_q7_or_zero_UR5e",
+    "gripper_q0",
+    "gripper_q1"
+  ],
+  "state_units": "arm and Robotiq joint radians; UR5e seventh-arm slot zero padding",
+  "original_joint_states_are_velocities": true,
+  "object_state_passed_to_policy": false,
+  "preserved_non_20Hz_intervals": 100,
+  "time_handling": "original frame order and action identities preserved; no resampling or interpolated labels",
+  "raw_state_schema": "time,base3,torso1,arm6or7,gripper6,...; deployment uses named joint qpos, not this old flat offset",
+  "interface": "canonical OSC7,positive close; unchanged OSC7->12",
+  "new_physics_steps": 0,
+  "files": [
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/smolvla/data/manifest.json",
+      "sha256": "c86221d8ff5ebeec4a80c8fbe453080c144fe99faa53419a3e01f95ecd28fe43"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/smolvla/data/statistics.json",
+      "sha256": "182e6c9e04e6ea068591f0e9311ad31c016def13647279ffc0edad10d61bce37"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/smolvla/data/train.npy",
+      "sha256": "a868931a38ea5feb4098cb8a4c927654808b8a6a4bc77c80100eb55e2154b5ce"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/smolvla/data/validation.npy",
+      "sha256": "c85aeec35a90b1ac75363c06a36be64c36ad7b5a2678d04bb368de20817eb80b"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/smolvla/data/state_audit_rows.json",
+      "sha256": "744086d239adb83daf8f9e73d1fce407aa787f2ffcebd5a5ede43862137c3e6e"
+    }
+  ]
+}

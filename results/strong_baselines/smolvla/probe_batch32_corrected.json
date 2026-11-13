@@ -1,0 +1,243 @@
+{
+  "status": "PASS",
+  "actual_training_updates": 3,
+  "batch_size": 32,
+  "start": {
+    "utc": "2026-11-13T13:58:08.511838+00:00",
+    "gpu": "NVIDIA GeForce RTX 3090, 24576 MiB, 593 MiB, 37 %",
+    "disk_free_bytes": 56485011456
+  },
+  "utc": "2026-11-13T13:58:08.511873+00:00",
+  "optimizer_step_counters": [
+    3
+  ],
+  "changed_tensors": 122,
+  "frozen_tensors_changed": 0,
+  "total_parameters": 450046176,
+  "trainable_parameters": 99880992,
+  "checkpoint": "/home/users/lemon/strong-baselines-20261112/smolvla/probe/batch-32-padmask-correction/updated.pt",
+  "checkpoint_sha256": "5d7e33cd951276594b9e634d927fa296967f67923e6ef4019119c88472481c9c",
+  "metrics": [
+    {
+      "loss": 0.4766896963119507,
+      "grad_norm": 2.960526466369629
+    },
+    {
+      "loss": 0.7762647271156311,
+      "grad_norm": 7.104517936706543
+    },
+    {
+      "loss": 0.3280642330646515,
+      "grad_norm": 1.3107256889343262
+    }
+  ],
+  "update_seconds": [
+    1.057186132762581,
+    0.7201320179738104,
+    0.7165986830368638
+  ],
+  "warm_update_seconds": 0.7183653505053371,
+  "peak_allocated_bytes": 6159437312,
+  "peak_reserved_bytes": 6337593344,
+  "source": "official SmolVLAPolicy.forward/native flow matching/official optimizer preset",
+  "native_future_padding_mask_preserved": true,
+  "traces": [
+    {
+      "episode_id": "84dd541933e0539acaa1bf754935fc0083fc9eaed9e9354fe254f112f4d43a4f",
+      "frame": 75,
+      "domain": "source",
+      "task": "pnp_counter_to_sink"
+    },
+    {
+      "episode_id": "7b9d5a99990aa94260020627e0c656cdc28e0fe72f6c19a860c7b5b922fbce60",
+      "frame": 347,
+      "domain": "source",
+      "task": "pnp_sink_to_counter"
+    },
+    {
+      "episode_id": "b5388a3f5b153c1fb263c089477d13f69b8b8d5be643b528411ed91f43bfaf51",
+      "frame": 82,
+      "domain": "target",
+      "task": "pnp_counter_to_sink"
+    },
+    {
+      "episode_id": "df20a2f0fe746301101de1cc9238ecc0708d1fd00de79e5579f7265979ab44ce",
+      "frame": 80,
+      "domain": "target",
+      "task": "pnp_sink_to_counter"
+    },
+    {
+      "episode_id": "b605cd00bba9f50c5d95d93eb09664668010a7c83b11fb23b379adee1aaedda4",
+      "frame": 211,
+      "domain": "source",
+      "task": "pnp_counter_to_sink"
+    },
+    {
+      "episode_id": "ccb4f68c585d5a6272f892ad92229ced3a0261c2075988d7e2e5d7b61c575a83",
+      "frame": 409,
+      "domain": "source",
+      "task": "pnp_sink_to_counter"
+    },
+    {
+      "episode_id": "871f444eb6297e85d2667d59660346f6cd2a350a2ab85db99749b6b3812f31cd",
+      "frame": 179,
+      "domain": "target",
+      "task": "pnp_counter_to_sink"
+    },
+    {
+      "episode_id": "ce38a158ffd37f5c1c5c5fb74bf8fe778f2fa9ca5965b13a0fcf70692ccd12a9",
+      "frame": 19,
+      "domain": "target",
+      "task": "pnp_sink_to_counter"
+    },
+    {
+      "episode_id": "53b90d04a0e9d96a321085982209629409ca7745976b42270d868dff8b6e3635",
+      "frame": 118,
+      "domain": "source",
+      "task": "pnp_counter_to_sink"
+    },
+    {
+      "episode_id": "dd6d38b34db5db0e537d9d944a085f12e8b7582a9d82594a00a35ae6c5a58cae",
+      "frame": 109,
+      "domain": "source",
+      "task": "pnp_sink_to_counter"
+    },
+    {
+      "episode_id": "b2f65c249b85f10bc93e0f016524f8a9c15968c1410c5296922db67a5a3b1240",
+      "frame": 296,
+      "domain": "target",
+      "task": "pnp_counter_to_sink"
+    },
+    {
+      "episode_id": "8dc3eb5b57ed003b83f1919c909da6a9b40f81ba7e18e7fdb41667d0a88e17ab",
+      "frame": 94,
+      "domain": "target",
+      "task": "pnp_sink_to_counter"
+    },
+    {
+      "episode_id": "df7941ac09b02df415700ca39d58c98f5b59ac1ae929d391f156919f35eac934",
+      "frame": 6,
+      "domain": "source",
+      "task": "pnp_counter_to_sink"
+    },
+    {
+      "episode_id": "0b5031d71f3d2329d2c0bb904cb6b2e0298808674739e3826ddf991717fc5b02",
+      "frame": 351,
+      "domain": "source",
+      "task": "pnp_sink_to_counter"
+    },
+    {
+      "episode_id": "5106a9382cf9f1ebe8705a95beea5182e8d490926410d1458246309aa663c1c1",
+      "frame": 285,
+      "domain": "target",
+      "task": "pnp_counter_to_sink"
+    },
+    {
+      "episode_id": "31cecee8312e4d43d16a456c4b98074e3bd438ffa5dbb9246ce731241c7f13b1",
+      "frame": 180,
+      "domain": "target",
+      "task": "pnp_sink_to_counter"
+    },
+    {
+      "episode_id": "e0fb721bb3725964750e3810fcc2fa7f980a211d4fb6a43e28c3e15971c8e526",
+      "frame": 385,
+      "domain": "source",
+      "task": "pnp_counter_to_sink"
+    },
+    {
+      "episode_id": "1cf016c0ec41379eadba800264f4ddf338d750aa98e442294749a55b2c06ebf0",
+      "frame": 453,
+      "domain": "source",
+      "task": "pnp_sink_to_counter"
+    },
+    {
+      "episode_id": "b5388a3f5b153c1fb263c089477d13f69b8b8d5be643b528411ed91f43bfaf51",
+      "frame": 230,
+      "domain": "target",
+      "task": "pnp_counter_to_sink"
+    },
+    {
+      "episode_id": "d79c1cf91d53c73276970f6eecef5fc553f3cb1e4e3d4eb121c0abdb5cf71d1a",
+      "frame": 374,
+      "domain": "target",
+      "task": "pnp_sink_to_counter"
+    },
+    {
+      "episode_id": "e25a8770a5e861ceeed675cce5a757ebe9320b9bded71237f971f7e9cd0ab239",
+      "frame": 61,
+      "domain": "source",
+      "task": "pnp_counter_to_sink"
+    },
+    {
+      "episode_id": "f264b9175d7caa1391cbaf5b1b118bd73a7a3debfca6f767d2566e490b89245a",
+      "frame": 155,
+      "domain": "source",
+      "task": "pnp_sink_to_counter"
+    },
+    {
+      "episode_id": "9cd118dcea541e277a185ea83e8a0ef4de5c2e7da652152ceb250a8f9e39fe1e",
+      "frame": 337,
+      "domain": "target",
+      "task": "pnp_counter_to_sink"
+    },
+    {
+      "episode_id": "0b9dcd4972bd7fd737107976903d94cf18da25974bd08d47a5401c944432fd55",
+      "frame": 78,
+      "domain": "target",
+      "task": "pnp_sink_to_counter"
+    },
+    {
+      "episode_id": "a72f0965a8a4c0b4ff80bdefa6a1258cd3b8c542152d0f1dec5e542fc21d0c17",
+      "frame": 90,
+      "domain": "source",
+      "task": "pnp_counter_to_sink"
+    },
+    {
+      "episode_id": "3238a5776896d013001ad459075ecd1b5f025181925e3179780a50d1b9de54a1",
+      "frame": 270,
+      "domain": "source",
+      "task": "pnp_sink_to_counter"
+    },
+    {
+      "episode_id": "b49e6dfd6ad0216ccc5ba4d0675f500e764c10291a7fb9bd368bdd605dfbb301",
+      "frame": 249,
+      "domain": "target",
+      "task": "pnp_counter_to_sink"
+    },
+    {
+      "episode_id": "984bd5330cfe345c9bae52879a70b1938b97b0eb84923babdf6515d25d10f203",
+      "frame": 306,
+      "domain": "target",
+      "task": "pnp_sink_to_counter"
+    },
+    {
+      "episode_id": "d043e562b0091796069b884ffb748968b69ef775ef41337618b0d1833095f707",
+      "frame": 265,
+      "domain": "source",
+      "task": "pnp_counter_to_sink"
+    },
+    {
+      "episode_id": "e18d177582d45228e133fd9fc92a2dcd236fa98d07563742c5157448c54b63ec",
+      "frame": 356,
+      "domain": "source",
+      "task": "pnp_sink_to_counter"
+    },
+    {
+      "episode_id": "b3b9c9fae70b3b9c315806934adb10a1586426ca938e9ff0411887446b504492",
+      "frame": 159,
+      "domain": "target",
+      "task": "pnp_counter_to_sink"
+    },
+    {
+      "episode_id": "9a3a056897b9f3a59a203ce6f01c85fd2f324439ff7bcc7e81649e1f9c52bcb6",
+      "frame": 199,
+      "domain": "target",
+      "task": "pnp_sink_to_counter"
+    }
+  ],
+  "end": {
+    "utc": "2026-11-13T13:58:23.883787+00:00",
+    "gpu": "NVIDIA GeForce RTX 3090, 24576 MiB, 6962 MiB, 6 %",
+    "disk_free_bytes": 55286775808
+  }
+}

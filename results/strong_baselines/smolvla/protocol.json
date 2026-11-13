@@ -1,0 +1,235 @@
+{
+  "method": "smolvla",
+  "setting": "source_target_state",
+  "information_tier": "RGB_PLUS_NATIVE_PROPRIOCEPTION",
+  "official_source": "8fff0fde7c79f23a93d845d1a50e985de01f8b8a",
+  "official_tag": "v0.4.4",
+  "license": "Apache-2.0",
+  "pretrained_revision": "5e8d12a6e2975b0e5e5fce7c8caf47c371d257b6",
+  "pretrained_sha256": "7cd549ac2351fb069c0ddb3c34ad2d09cfc92b56a15dccdfc2e41467aaca01eb",
+  "backbone_metadata_revision": "4cde9d208e19519c36917aa170fffc7e381aa0ad",
+  "core_network_modified": false,
+  "core_flow_matching_modified": false,
+  "strict_entire_checkpoint_loading": true,
+  "redundant_base_weight_download_skipped": true,
+  "real_update_gate": "PASS",
+  "full_task_smoke_gate": "PASS",
+  "readonly_replay_gate": "PASS",
+  "native_queue_gate": "PASS",
+  "dataset_source_train": 540,
+  "dataset_source_validation": 60,
+  "dataset_target_train": 90,
+  "dataset_target_validation": 10,
+  "target_train_per_task": 45,
+  "training_data_added": 0,
+  "generated_reference_data_used_for_training": 0,
+  "input_fields": [
+    "one primary raw RGB180x320",
+    "original language, native48 tokens",
+    "arm joint qpos6/7",
+    "two Robotiq joint qpos"
+  ],
+  "state_feature_dimension": 9,
+  "source_padding": "UR5e seventh arm slot zero before native normalization",
+  "state_source": "verified qpos from original saved full state; misnamed joint_states qvel never substituted",
+  "deployment_state": "named simulator joint qpos, verified against every saved pre-action qpos row",
+  "privileged_object_state_input": false,
+  "extra_real_cameras": false,
+  "image_processing": "native aspect-preserving512 resize/pad and[-1,1] normalization",
+  "optional_dataset_image_augmentation": false,
+  "normalization": "native mean/std from original630 train demos only",
+  "action": "original canonical OSC7; positive grip close; native Gaussian normalize all7",
+  "action_interface": "unchanged OSC7->12,20Hz,original controller limits/gains",
+  "n_obs_steps": 1,
+  "chunk_size": 50,
+  "n_action_steps": 50,
+  "physical_chunk_seconds": 2.5,
+  "max_action_dim": 32,
+  "max_state_dim": 32,
+  "flow_integration_steps": 10,
+  "rtc_enabled": false,
+  "train_expert_only": true,
+  "freeze_vlm": true,
+  "train_state_proj": true,
+  "actual_total_parameters": 450046176,
+  "actual_trainable_parameters": 99880992,
+  "batch_size": 32,
+  "training_updates": 16000,
+  "anchors_consumed": 512000,
+  "seed": 20261113,
+  "sampler": "immutable original balanced source/target x two-task anchors; uniform demo then frame",
+  "optimizer": "native get_optimizer_preset().build",
+  "learning_rate_peak": 0.0001,
+  "betas": [
+    0.9,
+    0.95
+  ],
+  "epsilon": 1e-08,
+  "weight_decay": 1e-10,
+  "gradient_clip_norm": 10,
+  "use_amp": false,
+  "scheduler": "native get_scheduler_preset().build(num_training_steps=16000)",
+  "preset_warmup_updates": 1000,
+  "preset_decay_updates": 30000,
+  "effective_native_scaled_warmup_updates": 533,
+  "decay_learning_rate": 2.5e-06,
+  "training_loss": "unchanged native forward,32 dimensions including native padded dimensions",
+  "padding_flag_adapter": "preserve real actions_id_pad across native processor transition conversion",
+  "validation_anchors": 256,
+  "validation_interval": 1000,
+  "validation_rng": "fork/restore Torch CPU+CUDA; seed17000+batch_offset",
+  "checkpoint_selection": "minimum native flow MSE on real7 dimensions and nonpadded heldout target frames; earliest tie",
+  "validation_native_full32_loss_also_reported": true,
+  "save_interval": 500,
+  "log_interval": 100,
+  "minimum_free_bytes": 26843545600,
+  "maximum_training_seconds": 14400,
+  "stopping_rule": "fixed16000 updates, halt on nonfinite/resource/error; no automatic extension or test-driven tuning",
+  "maximum_development_smoke_episodes": 2,
+  "development_smoke_episodes_used": 2,
+  "physical_reference_episodes_per_task": 40,
+  "physical_reference_indices": [
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99
+  ],
+  "physical_reference_role": "EXPOSED_REFERENCE",
+  "physical_success": "official placement AND retreat",
+  "inference_seed_each_episode": 7,
+  "smoke_success_used_for_selection": false,
+  "reference_success_used_for_selection": false,
+  "discarded_probe_optimizer_updates": 9,
+  "discarded_probe_anchors": 204,
+  "probe_history": "3batch4+3batch32 hardware probes;3batch32 after padding propagation correction; all discarded",
+  "code_files": [
+    {
+      "path": "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/smolvla/data.py",
+      "sha256": "f84cb55a76f612b16a3972922db79cbe3c1e3d38bb233ab2275c0390d3091d01"
+    },
+    {
+      "path": "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/smolvla/runtime.py",
+      "sha256": "f903ea9d6480d4655dd4859d2fcb811a4fe7b9adf341c8e82478f7f485ddd8ba"
+    },
+    {
+      "path": "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/smolvla/model.py",
+      "sha256": "3af886bb6e147b19fb49874985f2522affc7bb28b414832ee92e39a597494cdc"
+    },
+    {
+      "path": "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/smolvla/worker.py",
+      "sha256": "867c4148f6c24be1472c4f7d140d020452148ac7b7bd78d640fdfb22edbdf329"
+    },
+    {
+      "path": "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/smolvla/evaluate.py",
+      "sha256": "0e501f6bc2c00fe8591e84b80581487202f974598a2fe78817e82bf07c06dc45"
+    },
+    {
+      "path": "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/smolvla/train.py",
+      "sha256": "b93ca0c0f02048d399e40ec17cd5db305c879928e632d2addb9c79b872534c9c"
+    },
+    {
+      "path": "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/smolvla/audit.py",
+      "sha256": "b45e343e80365ab25fa3f1d174b4def05e18f02f87181067c36bb01ab32ea912"
+    }
+  ],
+  "native_files": [
+    {
+      "path": "/home/users/lemon/baseline-benchmark/vendor/lerobot-smolvla/src/lerobot/policies/smolvla/modeling_smolvla.py",
+      "sha256": "3bdbaeecbd0dd3908d08507c13ed3517e63d2a653555322e2428066efb77b5f4"
+    },
+    {
+      "path": "/home/users/lemon/baseline-benchmark/vendor/lerobot-smolvla/src/lerobot/policies/smolvla/smolvlm_with_expert.py",
+      "sha256": "b70356145870c7da1e92a2195ee4626f7e9f9387576c6bed5ba2bfefae2a38d9"
+    },
+    {
+      "path": "/home/users/lemon/baseline-benchmark/vendor/lerobot-smolvla/src/lerobot/policies/smolvla/configuration_smolvla.py",
+      "sha256": "6c55f3dea30a3c9571ecaa3dccf599dab9240a6eaa658b3fbc507273778b49aa"
+    },
+    {
+      "path": "/home/users/lemon/baseline-benchmark/vendor/lerobot-smolvla/src/lerobot/policies/smolvla/processor_smolvla.py",
+      "sha256": "eeb3714ca4b926d7f4d72c63ce5877497705108736eaf53cdc7362d8dfef2644"
+    },
+    {
+      "path": "/home/users/lemon/baseline-benchmark/vendor/lerobot-smolvla/src/lerobot/processor/normalize_processor.py",
+      "sha256": "5b610f5be7d3bcf371d52e3ccca433846c9ef49adca84ba5ef3c54ad8809338e"
+    },
+    {
+      "path": "/home/users/lemon/baseline-benchmark/vendor/lerobot-smolvla/src/lerobot/processor/converters.py",
+      "sha256": "2b97131f34c4881e93e7b864091637fac8ce1642a6620ed9330e84372e113640"
+    },
+    {
+      "path": "/home/users/lemon/baseline-benchmark/vendor/lerobot-smolvla/src/lerobot/policies/pretrained.py",
+      "sha256": "db9188fba4368234c231e84d4733de36e044391ef72592dd1e3a70b6e370a045"
+    },
+    {
+      "path": "/home/users/lemon/baseline-benchmark/vendor/lerobot-smolvla/src/lerobot/optim/optimizers.py",
+      "sha256": "9bce2b9e5651b9a4f72aecbb8f54ef3a1143021217d261972bd505126e94f97b"
+    },
+    {
+      "path": "/home/users/lemon/baseline-benchmark/vendor/lerobot-smolvla/src/lerobot/optim/schedulers.py",
+      "sha256": "47af5671a9d9c79ecdb5101e92e6b9f127331127549497047f691258f10b1020"
+    }
+  ],
+  "data_files": [
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/smolvla/data/manifest.json",
+      "sha256": "c86221d8ff5ebeec4a80c8fbe453080c144fe99faa53419a3e01f95ecd28fe43"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/smolvla/data/statistics.json",
+      "sha256": "182e6c9e04e6ea068591f0e9311ad31c016def13647279ffc0edad10d61bce37"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/smolvla/data/train.npy",
+      "sha256": "a868931a38ea5feb4098cb8a4c927654808b8a6a4bc77c80100eb55e2154b5ce"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/smolvla/data/validation.npy",
+      "sha256": "c85aeec35a90b1ac75363c06a36be64c36ad7b5a2678d04bb368de20817eb80b"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/smolvla/data/state_audit_rows.json",
+      "sha256": "744086d239adb83daf8f9e73d1fce407aa787f2ffcebd5a5ede43862137c3e6e"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/smolvla/data/pack_index.json",
+      "sha256": "d60ae776bce9eef7ea3cacdac7e9f69d467ea63144819925713f609f59cf46b0"
+    }
+  ]
+}

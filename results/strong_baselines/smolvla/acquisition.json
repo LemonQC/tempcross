@@ -1,0 +1,98 @@
+{
+  "status": "PASS",
+  "policy_revision": "5e8d12a6e2975b0e5e5fce7c8caf47c371d257b6",
+  "backbone_revision": "4cde9d208e19519c36917aa170fffc7e381aa0ad",
+  "files": [
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/smolvla/pretrained/config.json",
+      "bytes": 2299,
+      "sha256": "650584b56c104720f7a3c91d1ec6bec9e8de8ac11e60c92ba2fa82d93eda147d"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/smolvla/pretrained/README.md",
+      "bytes": 4680,
+      "sha256": "1c4eab155e159a5fd3fd6c4d5f770c43f056665d73e11c0584e47f8b824d3c98"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/smolvla/pretrained/policy_preprocessor.json",
+      "bytes": 1872,
+      "sha256": "7683d648280a72f0d51e869fb8dd1596beed90b7f84849330cf1bc26634a4bd6"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/smolvla/pretrained/policy_postprocessor.json",
+      "bytes": 660,
+      "sha256": "2b78bb742065288df2ec63b0ee35f97a1f6950171cf2272f7e34b1fe3873b17b"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/smolvla/pretrained/policy_preprocessor_step_5_normalizer_processor.safetensors",
+      "bytes": 640,
+      "sha256": "490ab239d96e263687c0b2e386a0afbc235a2eceb9857c36ed32f2f162a3e7c8"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/smolvla/pretrained/policy_postprocessor_step_0_unnormalizer_processor.safetensors",
+      "bytes": 640,
+      "sha256": "490ab239d96e263687c0b2e386a0afbc235a2eceb9857c36ed32f2f162a3e7c8"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/smolvla/huggingface/hub/models--HuggingFaceTB--SmolVLM2-500M-Video-Instruct/snapshots/4cde9d208e19519c36917aa170fffc7e381aa0ad/added_tokens.json",
+      "bytes": 4739,
+      "sha256": "74135b8664b56088c0006f1c8e848d79a8eba003411f72ebf1dc2ee96227be3a"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/smolvla/huggingface/hub/models--HuggingFaceTB--SmolVLM2-500M-Video-Instruct/snapshots/4cde9d208e19519c36917aa170fffc7e381aa0ad/chat_template.json",
+      "bytes": 517,
+      "sha256": "9bc4f36b8d064f824368648472a4a09268c4bbf9bf930f04fae47f1f596dae92"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/smolvla/huggingface/hub/models--HuggingFaceTB--SmolVLM2-500M-Video-Instruct/snapshots/4cde9d208e19519c36917aa170fffc7e381aa0ad/config.json",
+      "bytes": 3767,
+      "sha256": "ea6bc1237e96247f6258de3e202e2e62b93d6f386dc47e7b36b5588bf3a15e17"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/smolvla/huggingface/hub/models--HuggingFaceTB--SmolVLM2-500M-Video-Instruct/snapshots/4cde9d208e19519c36917aa170fffc7e381aa0ad/generation_config.json",
+      "bytes": 136,
+      "sha256": "34835060c9f0f74d1acb456cc72ca32746d3843d9eb5f578f9cbffac1d2eb840"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/smolvla/huggingface/hub/models--HuggingFaceTB--SmolVLM2-500M-Video-Instruct/snapshots/4cde9d208e19519c36917aa170fffc7e381aa0ad/merges.txt",
+      "bytes": 466391,
+      "sha256": "0b54e8aa4e53d5383e2e4bc635a56b43f9647f7b13832d5d9ecd8f82dac4f510"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/smolvla/huggingface/hub/models--HuggingFaceTB--SmolVLM2-500M-Video-Instruct/snapshots/4cde9d208e19519c36917aa170fffc7e381aa0ad/preprocessor_config.json",
+      "bytes": 599,
+      "sha256": "149e315d9410368e5491455bb06e0f763426e9e56cca731c13b24404a29b6374"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/smolvla/huggingface/hub/models--HuggingFaceTB--SmolVLM2-500M-Video-Instruct/snapshots/4cde9d208e19519c36917aa170fffc7e381aa0ad/processor_config.json",
+      "bytes": 67,
+      "sha256": "f3ad45028447b3562b4752be0d5916d6806c1ef589091a469608dcf0faa1737c"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/smolvla/huggingface/hub/models--HuggingFaceTB--SmolVLM2-500M-Video-Instruct/snapshots/4cde9d208e19519c36917aa170fffc7e381aa0ad/special_tokens_map.json",
+      "bytes": 868,
+      "sha256": "2dfea2a426162316ff1567c82bc6d36d9690cd9f90455f075c77daca78b45c60"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/smolvla/huggingface/hub/models--HuggingFaceTB--SmolVLM2-500M-Video-Instruct/snapshots/4cde9d208e19519c36917aa170fffc7e381aa0ad/tokenizer.json",
+      "bytes": 3548256,
+      "sha256": "5ece781dc8d2b2f3e2f289ca0ae50b17cfc27dd27bfe7971bb8241e0b964331a"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/smolvla/huggingface/hub/models--HuggingFaceTB--SmolVLM2-500M-Video-Instruct/snapshots/4cde9d208e19519c36917aa170fffc7e381aa0ad/tokenizer_config.json",
+      "bytes": 28713,
+      "sha256": "8b262ec2acb7773caac7b1e59edf921671cdb4c7c815a9c714242540d3fcb531"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/smolvla/huggingface/hub/models--HuggingFaceTB--SmolVLM2-500M-Video-Instruct/snapshots/4cde9d208e19519c36917aa170fffc7e381aa0ad/vocab.json",
+      "bytes": 800662,
+      "sha256": "82b84012e3add4d01d12ba14442026e49b8cbbaead1f79ecf3d919784f82dc79"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/smolvla/pretrained/model.safetensors",
+      "bytes": 906712520,
+      "sha256": "7cd549ac2351fb069c0ddb3c34ad2d09cfc92b56a15dccdfc2e41467aaca01eb"
+    }
+  ],
+  "additional_base_weights_downloaded": false
+}

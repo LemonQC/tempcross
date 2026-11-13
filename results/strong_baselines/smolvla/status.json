@@ -1,9 +1,13 @@
 {
-  "status": "NOT_RUN",
+  "status": "PARTIAL",
   "method": "smolvla",
-  "phase": "QUEUED",
+  "phase": "FROZEN_READY_TO_TRAIN",
+  "information_tier": "RGB_PLUS_NATIVE_PROPRIOCEPTION",
   "actual_training_updates": 0,
+  "discarded_probe_optimizer_updates": 9,
   "physical_evaluation_episodes": 0,
+  "physical_smoke_episodes": 2,
   "success_rate": null,
-  "ordinary_repairs_allowed": true
+  "ordinary_repairs_allowed": true,
+  "formal_budget_frozen": true
 }
