@@ -24,14 +24,15 @@ def main():
         lines.append(f"| {m} | {roles[m]} | {s['status']} | {s.get('actual_training_updates',0)} | {s.get('physical_evaluation_episodes',0)} | [证据](../results/strong_baselines/{m}/{link}) |")
     lines += ['', 'COMPLETE_OFFICIAL、COMPLETE_FAITHFUL_PORT、COMPLETE_REIMPLEMENTATION只用于完成训练和正式完整任务评测的对应范围。PARTIAL/BLOCKED/NOT_RUN不是完整Baseline。',
         'KITE旧BLOCKED是历史尝试状态，不代表当前候选已被永久否定。归档方法不计入新的必须凑齐数量。', '',
-        '## 真实正式评测','', '| 方法/设置 | 任务 | 官方成功/总数 | 范围 |','|---|---|---:|---|']
+        '## 真实正式评测','', '| 方法/设置 | 信息条件 | 任务 | 官方成功/总数 | 范围 |','|---|---|---|---:|---|']
     for m in methods:
         p=out(m)/'results.json'
         if not p.exists():continue
         r=read(p)
         for c in r.get('cells',[]):
             assert c['episodes']>0 and c.get('role','EXPOSED_REFERENCE')=='EXPOSED_REFERENCE'
-            lines.append(f"| {m}/{c['group']} | {c['task']} | {c['successes']}/{c['episodes']} | {r['status']}/EXPOSED_REFERENCE |")
+            information={'octo_small':'RGB256+语言','smolvla':'RGB512+语言+qpos9','flow_matching_policy':'RGB96+CLIP768+qpos9'}.get(m,'见已冻结协议')
+            lines.append(f"| {m}/{c['group']} | {information} | {c['task']} | {c['successes']}/{c['episodes']} | {r['status']}/EXPOSED_REFERENCE |")
     lines += ['', '## 信息和计算边界','',
         '每方法保留官方版本/许可证、预训练、目标示范数量、额外观测监督、训练样本暴露与checkpoint选择记录。不得把多相机/机器人状态输入称为RGB-only等输入比较。',
         'Octo-Small当前主设置为UR5e+Panda联合微调，使用原540/60源、90/10目标完整示范划分。主RGB256和语言是原生支持的输入子集；缺失腕部相机按官方padding mask处理，未引入额外机器人状态。其输入分辨率与T5/Octo预训练区别于旧RGB128模型。',

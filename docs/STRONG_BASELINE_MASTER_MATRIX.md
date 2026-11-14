@@ -17,29 +17,31 @@ CrossZero与Cross-Behavior Object Flow移出必须复现名单；历史BLOCKED�
 | object_flow | 归档，无新增复现预算 | BLOCKED | 0 | 0 | [证据](../results/strong_baselines/object_flow/RESULTS.md) |
 | octo_small | 联合设置已验收，禁止重跑 | COMPLETE_FAITHFUL_PORT | 24000 | 80 | [证据](../results/strong_baselines/octo_small/RESULTS.md) |
 | smolvla | 联合设置已验收，禁止重跑 | COMPLETE_FAITHFUL_PORT | 16000 | 80 | [证据](../results/strong_baselines/smolvla/RESULTS.md) |
-| flow_matching_policy | 本轮唯一执行候选 | PARTIAL | 24000 | 1 | [证据](../results/strong_baselines/flow_matching_policy/status.json) |
+| flow_matching_policy | 本轮已验收，禁止重跑 | COMPLETE_FAITHFUL_PORT | 24000 | 80 | [证据](../results/strong_baselines/flow_matching_policy/RESULTS.md) |
 
 COMPLETE_OFFICIAL、COMPLETE_FAITHFUL_PORT、COMPLETE_REIMPLEMENTATION只用于完成训练和正式完整任务评测的对应范围。PARTIAL/BLOCKED/NOT_RUN不是完整Baseline。
 KITE旧BLOCKED是历史尝试状态，不代表当前候选已被永久否定。归档方法不计入新的必须凑齐数量。
 
 ## 真实正式评测
 
-| 方法/设置 | 任务 | 官方成功/总数 | 范围 |
-|---|---|---:|---|
-| act/target_only | pnp_counter_to_sink | 5/40 | COMPLETE_FAITHFUL_PORT/EXPOSED_REFERENCE |
-| act/target_only | pnp_sink_to_counter | 4/40 | COMPLETE_FAITHFUL_PORT/EXPOSED_REFERENCE |
-| act/source_target | pnp_counter_to_sink | 8/40 | COMPLETE_FAITHFUL_PORT/EXPOSED_REFERENCE |
-| act/source_target | pnp_sink_to_counter | 2/40 | COMPLETE_FAITHFUL_PORT/EXPOSED_REFERENCE |
-| vqbet/target_only | pnp_counter_to_sink | 0/40 | COMPLETE_FAITHFUL_PORT/EXPOSED_REFERENCE |
-| vqbet/target_only | pnp_sink_to_counter | 0/40 | COMPLETE_FAITHFUL_PORT/EXPOSED_REFERENCE |
-| vqbet/source_target | pnp_counter_to_sink | 0/40 | COMPLETE_FAITHFUL_PORT/EXPOSED_REFERENCE |
-| vqbet/source_target | pnp_sink_to_counter | 0/40 | COMPLETE_FAITHFUL_PORT/EXPOSED_REFERENCE |
-| mimicgen_v2/human_plus_generated | pnp_counter_to_sink | 2/40 | PARTIAL/EXPOSED_REFERENCE |
-| mimicgen_v2/human_plus_generated | pnp_sink_to_counter | 0/40 | PARTIAL/EXPOSED_REFERENCE |
-| octo_small/source_target | pnp_counter_to_sink | 0/40 | COMPLETE_FAITHFUL_PORT/EXPOSED_REFERENCE |
-| octo_small/source_target | pnp_sink_to_counter | 0/40 | COMPLETE_FAITHFUL_PORT/EXPOSED_REFERENCE |
-| smolvla/source_target_state | pnp_counter_to_sink | 1/40 | COMPLETE_FAITHFUL_PORT/EXPOSED_REFERENCE |
-| smolvla/source_target_state | pnp_sink_to_counter | 2/40 | COMPLETE_FAITHFUL_PORT/EXPOSED_REFERENCE |
+| 方法/设置 | 信息条件 | 任务 | 官方成功/总数 | 范围 |
+|---|---|---|---:|---|
+| act/target_only | 见已冻结协议 | pnp_counter_to_sink | 5/40 | COMPLETE_FAITHFUL_PORT/EXPOSED_REFERENCE |
+| act/target_only | 见已冻结协议 | pnp_sink_to_counter | 4/40 | COMPLETE_FAITHFUL_PORT/EXPOSED_REFERENCE |
+| act/source_target | 见已冻结协议 | pnp_counter_to_sink | 8/40 | COMPLETE_FAITHFUL_PORT/EXPOSED_REFERENCE |
+| act/source_target | 见已冻结协议 | pnp_sink_to_counter | 2/40 | COMPLETE_FAITHFUL_PORT/EXPOSED_REFERENCE |
+| vqbet/target_only | 见已冻结协议 | pnp_counter_to_sink | 0/40 | COMPLETE_FAITHFUL_PORT/EXPOSED_REFERENCE |
+| vqbet/target_only | 见已冻结协议 | pnp_sink_to_counter | 0/40 | COMPLETE_FAITHFUL_PORT/EXPOSED_REFERENCE |
+| vqbet/source_target | 见已冻结协议 | pnp_counter_to_sink | 0/40 | COMPLETE_FAITHFUL_PORT/EXPOSED_REFERENCE |
+| vqbet/source_target | 见已冻结协议 | pnp_sink_to_counter | 0/40 | COMPLETE_FAITHFUL_PORT/EXPOSED_REFERENCE |
+| mimicgen_v2/human_plus_generated | 见已冻结协议 | pnp_counter_to_sink | 2/40 | PARTIAL/EXPOSED_REFERENCE |
+| mimicgen_v2/human_plus_generated | 见已冻结协议 | pnp_sink_to_counter | 0/40 | PARTIAL/EXPOSED_REFERENCE |
+| octo_small/source_target | RGB256+语言 | pnp_counter_to_sink | 0/40 | COMPLETE_FAITHFUL_PORT/EXPOSED_REFERENCE |
+| octo_small/source_target | RGB256+语言 | pnp_sink_to_counter | 0/40 | COMPLETE_FAITHFUL_PORT/EXPOSED_REFERENCE |
+| smolvla/source_target_state | RGB512+语言+qpos9 | pnp_counter_to_sink | 1/40 | COMPLETE_FAITHFUL_PORT/EXPOSED_REFERENCE |
+| smolvla/source_target_state | RGB512+语言+qpos9 | pnp_sink_to_counter | 2/40 | COMPLETE_FAITHFUL_PORT/EXPOSED_REFERENCE |
+| flow_matching_policy/source_target_visual | RGB96+CLIP768+qpos9 | pnp_counter_to_sink | 0/40 | COMPLETE_FAITHFUL_PORT/EXPOSED_REFERENCE |
+| flow_matching_policy/source_target_visual | RGB96+CLIP768+qpos9 | pnp_sink_to_counter | 0/40 | COMPLETE_FAITHFUL_PORT/EXPOSED_REFERENCE |
 
 ## 信息和计算边界
 

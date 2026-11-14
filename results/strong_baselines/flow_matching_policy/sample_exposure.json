@@ -1,0 +1,38 @@
+{
+  "actual_optimizer_calls": 24000,
+  "actual_anchors": 768000,
+  "unique_demonstrations": 630,
+  "unique_demo_frame_anchors": 226829,
+  "real_future_action_vectors": 12066360,
+  "total_future_slots": 12288000,
+  "repeated_boundary_slots": 221640,
+  "loss_masks_used": false,
+  "selected_checkpoint_anchors": 512000,
+  "groups": [
+    {
+      "domain": "source",
+      "task": "pnp_counter_to_sink",
+      "anchors": 192000
+    },
+    {
+      "domain": "source",
+      "task": "pnp_sink_to_counter",
+      "anchors": 192000
+    },
+    {
+      "domain": "target",
+      "task": "pnp_counter_to_sink",
+      "anchors": 192000
+    },
+    {
+      "domain": "target",
+      "task": "pnp_sink_to_counter",
+      "anchors": 192000
+    }
+  ],
+  "consumed_prefix_sha256": "68181a0cda36cb5c849b5d8d784be121904bc12139ae58c9b43f23804fadba4d",
+  "train_anchor_path": "/home/users/lemon/strong-baselines-20261112/flow_matching_policy/data/train.npy",
+  "train_anchor_sha256": "a868931a38ea5feb4098cb8a4c927654808b8a6a4bc77c80100eb55e2154b5ce",
+  "new_demonstrations": 0,
+  "reference_rollouts_used_for_training": 0
+}

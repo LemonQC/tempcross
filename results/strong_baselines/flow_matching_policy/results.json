@@ -1,0 +1,102 @@
+{
+  "status": "COMPLETE_FAITHFUL_PORT",
+  "scope": "one joint official VISUAL flow-component port; target-only not run",
+  "original_robomimic_lowdim_recipe_reproduced": false,
+  "full_affordance_prompt_pipeline_reproduced": false,
+  "information_tier": "RGB96_PLUS_REAL_QPOS9_PLUS_FROZEN_CLIP768",
+  "role": "EXPOSED_REFERENCE",
+  "cells": [
+    {
+      "group": "source_target_visual",
+      "task": "pnp_counter_to_sink",
+      "episodes": 40,
+      "successes": 0,
+      "success_rate": 0.0,
+      "role": "EXPOSED_REFERENCE",
+      "failure_counts": {
+        "CLOSE_WITHOUT_BILATERAL_CONTACT": 26,
+        "CONTACT_WITHOUT_STABLE_LIFT_PROXY": 2,
+        "NO_CLOSE_COMMAND": 11,
+        "STABLE_LIFT_WITHOUT_OFFICIAL_PLACEMENT": 1
+      }
+    },
+    {
+      "group": "source_target_visual",
+      "task": "pnp_sink_to_counter",
+      "episodes": 40,
+      "successes": 0,
+      "success_rate": 0.0,
+      "role": "EXPOSED_REFERENCE",
+      "failure_counts": {
+        "CLOSE_WITHOUT_BILATERAL_CONTACT": 23,
+        "NO_CLOSE_COMMAND": 17
+      }
+    }
+  ],
+  "actual_training_updates": 24000,
+  "discarded_probe_optimizer_calls": 1,
+  "total_optimizer_calls": 24001,
+  "anchors_consumed": 768000,
+  "selected_update": 16000,
+  "selected_checkpoint_optimizer_calls": 16000,
+  "selected_checkpoint_anchors_consumed": 512000,
+  "selected_validation_EMA_velocity_mse": 0.041013081558048725,
+  "checkpoint": "/home/users/lemon/strong-baselines-20261112/flow_matching_policy/training/source_target_visual/best.pt",
+  "checkpoint_sha256": "e3e3af29cf2feb659d2da937ab60ed5e0575ab4b5b951c88aff64833551afece",
+  "actual_sample_exposure": {
+    "actual_optimizer_calls": 24000,
+    "actual_anchors": 768000,
+    "unique_demonstrations": 630,
+    "unique_demo_frame_anchors": 226829,
+    "real_future_action_vectors": 12066360,
+    "total_future_slots": 12288000,
+    "repeated_boundary_slots": 221640,
+    "loss_masks_used": false,
+    "selected_checkpoint_anchors": 512000,
+    "groups": [
+      {
+        "domain": "source",
+        "task": "pnp_counter_to_sink",
+        "anchors": 192000
+      },
+      {
+        "domain": "source",
+        "task": "pnp_sink_to_counter",
+        "anchors": 192000
+      },
+      {
+        "domain": "target",
+        "task": "pnp_counter_to_sink",
+        "anchors": 192000
+      },
+      {
+        "domain": "target",
+        "task": "pnp_sink_to_counter",
+        "anchors": 192000
+      }
+    ],
+    "consumed_prefix_sha256": "68181a0cda36cb5c849b5d8d784be121904bc12139ae58c9b43f23804fadba4d",
+    "train_anchor_path": "/home/users/lemon/strong-baselines-20261112/flow_matching_policy/data/train.npy",
+    "train_anchor_sha256": "a868931a38ea5feb4098cb8a4c927654808b8a6a4bc77c80100eb55e2154b5ce",
+    "new_demonstrations": 0,
+    "reference_rollouts_used_for_training": 0
+  },
+  "native_queries": 6280,
+  "official_control_steps": 50000,
+  "formal_physical_episodes": 80,
+  "development_smoke_episodes": 2,
+  "original_network_topology_unchanged": true,
+  "interface_dimensions_changed": true,
+  "native_CFM_sigma0_and_velocity_loss_unchanged": true,
+  "native_uniform_single_Euler_generation_retained": true,
+  "Gaussian_training_uniform_deployment_mismatch_retained": true,
+  "official_goal": "placement AND retreat",
+  "control_frequency_Hz": 20,
+  "object_state_not_policy_input": true,
+  "prior_baseline_reruns": 0,
+  "new_Method_runs": 0,
+  "new_demonstrations": 0,
+  "training_seconds": 1053.8165322430432,
+  "peak_training_allocated_bytes": 2344726016,
+  "utc": "2026-11-14T04:39:32.068848+00:00"
+}

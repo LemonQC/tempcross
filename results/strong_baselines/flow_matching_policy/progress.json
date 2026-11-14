@@ -1,21 +1,21 @@
 {
-  "status": "PARTIAL",
-  "phase": "FORMAL_EVALUATION",
-  "as_of_utc": "2026-11-14T03:49:00.237802+00:00",
-  "actual_logged_optimizer_calls": 24000,
+  "status": "COMPLETE_FAITHFUL_PORT",
+  "method": "flow_matching_policy",
+  "phase": "ACCEPTED",
+  "actual_training_updates": 24000,
+  "physical_evaluation_episodes": 80,
+  "physical_smoke_episodes": 2,
+  "discarded_probe_updates": 1,
+  "successes": 0,
+  "success_rate": 0.0,
+  "information_tier": "RGB96_PLUS_REAL_QPOS9_PLUS_FROZEN_CLIP768",
+  "role": "EXPOSED_REFERENCE",
+  "stop_this_round": true,
+  "as_of_utc": "2026-11-14T04:39:33.482033+00:00",
+  "completed_formal_episodes": 80,
   "resumable_saved_step": 24000,
-  "frozen_optimizer_budget": 24000,
   "selected_step": 16000,
   "selected_anchors": 512000,
-  "latest_training_record": {
-    "update": 24000,
-    "loss": 0.06310798227787018,
-    "gradient_norm": 0.6756015419960022,
-    "learning_rate": 0.0,
-    "anchors_consumed": 768000,
-    "elapsed_seconds": 1051.7242943192832,
-    "utc": "2026-11-14T03:47:30.483971+00:00"
-  },
   "validation_history": [
     {
       "update": 1000,
@@ -186,8 +186,5 @@
       "utc": "2026-11-14T03:47:30.755375+00:00"
     }
   ],
-  "completed_formal_episodes": 1,
-  "role": "EXPOSED_REFERENCE",
-  "partial_success_rate": 0.0,
   "formal_budget_changed": false
 }

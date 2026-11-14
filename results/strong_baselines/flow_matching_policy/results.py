@@ -58,7 +58,7 @@ def main():
         information_tier='RGB96_PLUS_REAL_QPOS9_PLUS_FROZEN_CLIP768',role='EXPOSED_REFERENCE',cells=cells,
         actual_training_updates=train['actual_training_updates'],discarded_probe_optimizer_calls=1,total_optimizer_calls=train['actual_training_updates']+1,
         anchors_consumed=train['anchors_consumed'],selected_update=train['best_step'],
-        selected_checkpoint_effective_optimizer_calls=train['best_step'],selected_checkpoint_anchors_consumed=train['selected_checkpoint_anchors_consumed'],
+        selected_checkpoint_optimizer_calls=train['best_step'],selected_checkpoint_anchors_consumed=train['selected_checkpoint_anchors_consumed'],
         selected_validation_EMA_velocity_mse=train['best_validation'],checkpoint=train['checkpoint'],checkpoint_sha256=train['checkpoint_sha256'],
         actual_sample_exposure=exposure(train),native_queries=sum(r['native_queries'] for r in audits),
         official_control_steps=sum(r['episode']['steps'] for r in rows),formal_physical_episodes=80,development_smoke_episodes=2,
@@ -85,10 +85,19 @@ def main():
             files.append(Path(read(RUN/'physical'/kind/GROUP/task/'job.json')['runtime']['raw_action_ledger']))
     write(directory/'artifact_index.json',dict(large_files_remain_on_server=True,
         files=[dict(path=str(p),bytes=p.stat().st_size,sha256=digest(p)) for p in sorted(set(files))]))
+    write(directory/'resource_usage.json',dict(single_GPU='RTX3090',training_seconds=train['elapsed_seconds'],
+        peak_training_allocated_bytes=train['peak_allocated_bytes'],peak_training_reserved_bytes=train['peak_reserved_bytes'],
+        formal_evaluation_seconds=sum(read(RUN/'physical/formal'/GROUP/t/'job.json')['duration_seconds'] for t in TASKS),
+        smoke_seconds=sum(read(RUN/'physical/smoke'/GROUP/t/'job.json')['duration_seconds'] for t in TASKS),
+        native_parameters=94874439,formal_optimizer_calls=train['actual_training_updates'],discarded_probe_optimizer_calls=1,
+        resource_trace=str(RUN/'resource_samples.csv'),resource_trace_sha256=digest(RUN/'resource_samples.csv')))
     write(directory/'status.json',dict(status='COMPLETE_FAITHFUL_PORT',method='flow_matching_policy',phase='ACCEPTED',
         actual_training_updates=train['actual_training_updates'],physical_evaluation_episodes=80,physical_smoke_episodes=2,
         discarded_probe_updates=1,successes=sum(c['successes'] for c in cells),success_rate=sum(c['successes'] for c in cells)/80,
         information_tier=result['information_tier'],role='EXPOSED_REFERENCE',stop_this_round=True))
+    write(directory/'progress.json',dict(read(directory/'status.json'),as_of_utc=now(),
+        completed_formal_episodes=80,resumable_saved_step=train['saved_step'],selected_step=train['best_step'],
+        selected_anchors=train['selected_checkpoint_anchors_consumed'],validation_history=vals,formal_budget_changed=False))
     lines=['# Official visual Flow Matching Policy port','',
         'COMPLETE_FAITHFUL_PORT for one source+target visual/state/language setting. This is the official visual flow-component port, not the original Robomimic object-state/absolute-action recipe or the full affordance-prompt framework.','',
         '| Task | Official successes/episodes |','|---|---:|']

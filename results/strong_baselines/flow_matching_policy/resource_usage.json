@@ -1,0 +1,13 @@
+{
+  "single_GPU": "RTX3090",
+  "training_seconds": 1053.8165322430432,
+  "peak_training_allocated_bytes": 2344726016,
+  "peak_training_reserved_bytes": 2418016256,
+  "formal_evaluation_seconds": 3103.7496330798604,
+  "smoke_seconds": 100.1669767294079,
+  "native_parameters": 94874439,
+  "formal_optimizer_calls": 24000,
+  "discarded_probe_optimizer_calls": 1,
+  "resource_trace": "/home/users/lemon/strong-baselines-20261112/flow_matching_policy/resource_samples.csv",
+  "resource_trace_sha256": "21acddce9f9bb0c6850dab7e004c7b7490ccfa7d583dd56ad4136c37442fe3c3"
+}

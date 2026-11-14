@@ -1,14 +1,14 @@
 {
-  "status": "PARTIAL",
+  "status": "COMPLETE_FAITHFUL_PORT",
   "method": "flow_matching_policy",
-  "phase": "FORMAL_EVALUATION",
+  "phase": "ACCEPTED",
   "actual_training_updates": 24000,
-  "physical_evaluation_episodes": 1,
+  "physical_evaluation_episodes": 80,
   "physical_smoke_episodes": 2,
-  "success_rate": null,
-  "ordinary_repairs_allowed": true,
-  "formal_budget_frozen": true,
-  "actual_discarded_probe_updates": 1,
-  "discarded_probe_optimizer_calls": 1,
-  "information_tier": "RGB96_PLUS_REAL_QPOS9_PLUS_FROZEN_CLIP768"
+  "discarded_probe_updates": 1,
+  "successes": 0,
+  "success_rate": 0.0,
+  "information_tier": "RGB96_PLUS_REAL_QPOS9_PLUS_FROZEN_CLIP768",
+  "role": "EXPOSED_REFERENCE",
+  "stop_this_round": true
 }

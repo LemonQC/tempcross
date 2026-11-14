@@ -1,5 +1,4 @@
 {
-  "status": "TRAINING_COMPLETE_REFERENCE_EVALUATION_RUNNING",
   "records": [
     {
       "update": 1,
@@ -2340,6 +2339,5 @@
     }
   ],
   "source_path": "/home/users/lemon/strong-baselines-20261112/flow_matching_policy/training/source_target_visual/training.jsonl",
-  "source_sha256": "fd3a346f91322b68379053d3ecb7714666c90f1a0d046a0b7ab7fbf5c2accd14",
-  "utc": "2026-11-14T03:49:00.261720+00:00"
+  "source_sha256": "fd3a346f91322b68379053d3ecb7714666c90f1a0d046a0b7ab7fbf5c2accd14"
 }
