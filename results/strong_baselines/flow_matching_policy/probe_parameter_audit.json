@@ -1,0 +1,3416 @@
+{
+  "before": {
+    "vision_encoder.conv1.weight": {
+      "shape": [
+        64,
+        3,
+        7,
+        7
+      ],
+      "parameters": 9408,
+      "sha256": "9f4eeba7e2016dc74ca19aa220f3d98dbb9773a206ffee05aca5ae1871b21424"
+    },
+    "vision_encoder.bn1.weight": {
+      "shape": [
+        64
+      ],
+      "parameters": 64,
+      "sha256": "2f20cd03c9cd392a406c56232b0ff93a15f6d6d7da79086bfa14f55d4a4031b0"
+    },
+    "vision_encoder.bn1.bias": {
+      "shape": [
+        64
+      ],
+      "parameters": 64,
+      "sha256": "5341e6b2646979a70e57653007a1f310169421ec9bdd9f1a5648f75ade005af1"
+    },
+    "vision_encoder.layer1.0.conv1.weight": {
+      "shape": [
+        64,
+        64,
+        3,
+        3
+      ],
+      "parameters": 36864,
+      "sha256": "0fb92b9886d3fe567c07a482646a69e5a45121ed62406b7c92a30107c24ac700"
+    },
+    "vision_encoder.layer1.0.bn1.weight": {
+      "shape": [
+        64
+      ],
+      "parameters": 64,
+      "sha256": "2f20cd03c9cd392a406c56232b0ff93a15f6d6d7da79086bfa14f55d4a4031b0"
+    },
+    "vision_encoder.layer1.0.bn1.bias": {
+      "shape": [
+        64
+      ],
+      "parameters": 64,
+      "sha256": "5341e6b2646979a70e57653007a1f310169421ec9bdd9f1a5648f75ade005af1"
+    },
+    "vision_encoder.layer1.0.conv2.weight": {
+      "shape": [
+        64,
+        64,
+        3,
+        3
+      ],
+      "parameters": 36864,
+      "sha256": "e698a8933b62fa824e9a562a307bbc9fc2729b7edb67b7aea54b2cc144948c23"
+    },
+    "vision_encoder.layer1.0.bn2.weight": {
+      "shape": [
+        64
+      ],
+      "parameters": 64,
+      "sha256": "2f20cd03c9cd392a406c56232b0ff93a15f6d6d7da79086bfa14f55d4a4031b0"
+    },
+    "vision_encoder.layer1.0.bn2.bias": {
+      "shape": [
+        64
+      ],
+      "parameters": 64,
+      "sha256": "5341e6b2646979a70e57653007a1f310169421ec9bdd9f1a5648f75ade005af1"
+    },
+    "vision_encoder.layer1.1.conv1.weight": {
+      "shape": [
+        64,
+        64,
+        3,
+        3
+      ],
+      "parameters": 36864,
+      "sha256": "c95b95a59bdc3f1339ea88b1e3aceb9c9b1a787c20edcbc832b9f90c2faa3f72"
+    },
+    "vision_encoder.layer1.1.bn1.weight": {
+      "shape": [
+        64
+      ],
+      "parameters": 64,
+      "sha256": "2f20cd03c9cd392a406c56232b0ff93a15f6d6d7da79086bfa14f55d4a4031b0"
+    },
+    "vision_encoder.layer1.1.bn1.bias": {
+      "shape": [
+        64
+      ],
+      "parameters": 64,
+      "sha256": "5341e6b2646979a70e57653007a1f310169421ec9bdd9f1a5648f75ade005af1"
+    },
+    "vision_encoder.layer1.1.conv2.weight": {
+      "shape": [
+        64,
+        64,
+        3,
+        3
+      ],
+      "parameters": 36864,
+      "sha256": "d1698693f8bd1a154df9dd59f22571c9d133a51ccc9c07074094900509d9a139"
+    },
+    "vision_encoder.layer1.1.bn2.weight": {
+      "shape": [
+        64
+      ],
+      "parameters": 64,
+      "sha256": "2f20cd03c9cd392a406c56232b0ff93a15f6d6d7da79086bfa14f55d4a4031b0"
+    },
+    "vision_encoder.layer1.1.bn2.bias": {
+      "shape": [
+        64
+      ],
+      "parameters": 64,
+      "sha256": "5341e6b2646979a70e57653007a1f310169421ec9bdd9f1a5648f75ade005af1"
+    },
+    "vision_encoder.layer2.0.conv1.weight": {
+      "shape": [
+        128,
+        64,
+        3,
+        3
+      ],
+      "parameters": 73728,
+      "sha256": "71c188023ca7cecdde47a5b522b7435a179d8d5a59fe5625a52fd4aeaf3f28a8"
+    },
+    "vision_encoder.layer2.0.bn1.weight": {
+      "shape": [
+        128
+      ],
+      "parameters": 128,
+      "sha256": "02722f124d0f1736a9dd7c4ddcd05630dcf16ee1ce3454e9a876005ce005d4ac"
+    },
+    "vision_encoder.layer2.0.bn1.bias": {
+      "shape": [
+        128
+      ],
+      "parameters": 128,
+      "sha256": "076a27c79e5ace2a3d47f9dd2e83e4ff6ea8872b3c2218f66c92b89b55f36560"
+    },
+    "vision_encoder.layer2.0.conv2.weight": {
+      "shape": [
+        128,
+        128,
+        3,
+        3
+      ],
+      "parameters": 147456,
+      "sha256": "090b977d6a55bbabdc37466fdbb45960ef3740e897a04252813fdfd9d64af75b"
+    },
+    "vision_encoder.layer2.0.bn2.weight": {
+      "shape": [
+        128
+      ],
+      "parameters": 128,
+      "sha256": "02722f124d0f1736a9dd7c4ddcd05630dcf16ee1ce3454e9a876005ce005d4ac"
+    },
+    "vision_encoder.layer2.0.bn2.bias": {
+      "shape": [
+        128
+      ],
+      "parameters": 128,
+      "sha256": "076a27c79e5ace2a3d47f9dd2e83e4ff6ea8872b3c2218f66c92b89b55f36560"
+    },
+    "vision_encoder.layer2.0.downsample.0.weight": {
+      "shape": [
+        128,
+        64,
+        1,
+        1
+      ],
+      "parameters": 8192,
+      "sha256": "11b9deeaf07ca0930a46a8f38128e777a25e2cc0aa3da0790eba140d6594147a"
+    },
+    "vision_encoder.layer2.0.downsample.1.weight": {
+      "shape": [
+        128
+      ],
+      "parameters": 128,
+      "sha256": "02722f124d0f1736a9dd7c4ddcd05630dcf16ee1ce3454e9a876005ce005d4ac"
+    },
+    "vision_encoder.layer2.0.downsample.1.bias": {
+      "shape": [
+        128
+      ],
+      "parameters": 128,
+      "sha256": "076a27c79e5ace2a3d47f9dd2e83e4ff6ea8872b3c2218f66c92b89b55f36560"
+    },
+    "vision_encoder.layer2.1.conv1.weight": {
+      "shape": [
+        128,
+        128,
+        3,
+        3
+      ],
+      "parameters": 147456,
+      "sha256": "47b7331e50d9e20256b0805b64611e43999176ab24a85a90edf5cf4a9a03fcb3"
+    },
+    "vision_encoder.layer2.1.bn1.weight": {
+      "shape": [
+        128
+      ],
+      "parameters": 128,
+      "sha256": "02722f124d0f1736a9dd7c4ddcd05630dcf16ee1ce3454e9a876005ce005d4ac"
+    },
+    "vision_encoder.layer2.1.bn1.bias": {
+      "shape": [
+        128
+      ],
+      "parameters": 128,
+      "sha256": "076a27c79e5ace2a3d47f9dd2e83e4ff6ea8872b3c2218f66c92b89b55f36560"
+    },
+    "vision_encoder.layer2.1.conv2.weight": {
+      "shape": [
+        128,
+        128,
+        3,
+        3
+      ],
+      "parameters": 147456,
+      "sha256": "67cb2406d4300b09626d1a19ef9887e556281e4b10b38eee6afdaa8e47983a3b"
+    },
+    "vision_encoder.layer2.1.bn2.weight": {
+      "shape": [
+        128
+      ],
+      "parameters": 128,
+      "sha256": "02722f124d0f1736a9dd7c4ddcd05630dcf16ee1ce3454e9a876005ce005d4ac"
+    },
+    "vision_encoder.layer2.1.bn2.bias": {
+      "shape": [
+        128
+      ],
+      "parameters": 128,
+      "sha256": "076a27c79e5ace2a3d47f9dd2e83e4ff6ea8872b3c2218f66c92b89b55f36560"
+    },
+    "vision_encoder.layer3.0.conv1.weight": {
+      "shape": [
+        256,
+        128,
+        3,
+        3
+      ],
+      "parameters": 294912,
+      "sha256": "c4f8c3e36752d215b9d43c7f4530938b389abc06180201d38772c9426a54c5d2"
+    },
+    "vision_encoder.layer3.0.bn1.weight": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "893a106828fbdb9521e1d868c985aab7ad2ae2f606edc55329265a5e7676006c"
+    },
+    "vision_encoder.layer3.0.bn1.bias": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef"
+    },
+    "vision_encoder.layer3.0.conv2.weight": {
+      "shape": [
+        256,
+        256,
+        3,
+        3
+      ],
+      "parameters": 589824,
+      "sha256": "32fb92a03887cc050abc77414828a93f4657cf4d9f92b8a0a96350084d319e59"
+    },
+    "vision_encoder.layer3.0.bn2.weight": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "893a106828fbdb9521e1d868c985aab7ad2ae2f606edc55329265a5e7676006c"
+    },
+    "vision_encoder.layer3.0.bn2.bias": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef"
+    },
+    "vision_encoder.layer3.0.downsample.0.weight": {
+      "shape": [
+        256,
+        128,
+        1,
+        1
+      ],
+      "parameters": 32768,
+      "sha256": "8d18fb9c48e16d7cba72f102b8cd85f788ab285e0d21194ab7cf5b97e0b2a7a4"
+    },
+    "vision_encoder.layer3.0.downsample.1.weight": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "893a106828fbdb9521e1d868c985aab7ad2ae2f606edc55329265a5e7676006c"
+    },
+    "vision_encoder.layer3.0.downsample.1.bias": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef"
+    },
+    "vision_encoder.layer3.1.conv1.weight": {
+      "shape": [
+        256,
+        256,
+        3,
+        3
+      ],
+      "parameters": 589824,
+      "sha256": "ba73add9cfd6811473446fc328dbfb735c846ee31ea17ac84f6b8547585c516f"
+    },
+    "vision_encoder.layer3.1.bn1.weight": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "893a106828fbdb9521e1d868c985aab7ad2ae2f606edc55329265a5e7676006c"
+    },
+    "vision_encoder.layer3.1.bn1.bias": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef"
+    },
+    "vision_encoder.layer3.1.conv2.weight": {
+      "shape": [
+        256,
+        256,
+        3,
+        3
+      ],
+      "parameters": 589824,
+      "sha256": "026eb790deb2afaf231d76eb547bc12a8ee7d70b6e5eaefcbc464b446abc5477"
+    },
+    "vision_encoder.layer3.1.bn2.weight": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "893a106828fbdb9521e1d868c985aab7ad2ae2f606edc55329265a5e7676006c"
+    },
+    "vision_encoder.layer3.1.bn2.bias": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef"
+    },
+    "vision_encoder.layer4.0.conv1.weight": {
+      "shape": [
+        512,
+        256,
+        3,
+        3
+      ],
+      "parameters": 1179648,
+      "sha256": "60bbe26881c7839d5370ebbf771210bdfa04ebda22f4f4e78c7d0c0d40687139"
+    },
+    "vision_encoder.layer4.0.bn1.weight": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "fef951e6c76ad6a01b208af650ca6d95769bec840e009981c5ae1316a42c90b1"
+    },
+    "vision_encoder.layer4.0.bn1.bias": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "e5a00aa9991ac8a5ee3109844d84a55583bd20572ad3ffcd42792f3c36b183ad"
+    },
+    "vision_encoder.layer4.0.conv2.weight": {
+      "shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "parameters": 2359296,
+      "sha256": "6209b171b110ad9c589bea9bef1aae1340f2d275df1a9987ac433cf0306036c5"
+    },
+    "vision_encoder.layer4.0.bn2.weight": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "fef951e6c76ad6a01b208af650ca6d95769bec840e009981c5ae1316a42c90b1"
+    },
+    "vision_encoder.layer4.0.bn2.bias": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "e5a00aa9991ac8a5ee3109844d84a55583bd20572ad3ffcd42792f3c36b183ad"
+    },
+    "vision_encoder.layer4.0.downsample.0.weight": {
+      "shape": [
+        512,
+        256,
+        1,
+        1
+      ],
+      "parameters": 131072,
+      "sha256": "3fee3350306e69828599f1ad76db92a1a62646de575359b4680488b6f76972ea"
+    },
+    "vision_encoder.layer4.0.downsample.1.weight": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "fef951e6c76ad6a01b208af650ca6d95769bec840e009981c5ae1316a42c90b1"
+    },
+    "vision_encoder.layer4.0.downsample.1.bias": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "e5a00aa9991ac8a5ee3109844d84a55583bd20572ad3ffcd42792f3c36b183ad"
+    },
+    "vision_encoder.layer4.1.conv1.weight": {
+      "shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "parameters": 2359296,
+      "sha256": "6c89dfe8c60920065ae4edd651339a5a8e2e86cce76649b2627296d8d034df3c"
+    },
+    "vision_encoder.layer4.1.bn1.weight": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "fef951e6c76ad6a01b208af650ca6d95769bec840e009981c5ae1316a42c90b1"
+    },
+    "vision_encoder.layer4.1.bn1.bias": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "e5a00aa9991ac8a5ee3109844d84a55583bd20572ad3ffcd42792f3c36b183ad"
+    },
+    "vision_encoder.layer4.1.conv2.weight": {
+      "shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "parameters": 2359296,
+      "sha256": "e7e180b9a8cb456ed724e9e5ab5c9acef0337551a852e1cc018a533cb46742c1"
+    },
+    "vision_encoder.layer4.1.bn2.weight": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "fef951e6c76ad6a01b208af650ca6d95769bec840e009981c5ae1316a42c90b1"
+    },
+    "vision_encoder.layer4.1.bn2.bias": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "e5a00aa9991ac8a5ee3109844d84a55583bd20572ad3ffcd42792f3c36b183ad"
+    },
+    "noise_pred_net.mid_modules.0.blocks.0.block.0.weight": {
+      "shape": [
+        1024,
+        1024,
+        5
+      ],
+      "parameters": 5242880,
+      "sha256": "a0f970f71f50056030e0c378fe80d1b362ffa5387d9245eac4056232ef0e3fa9"
+    },
+    "noise_pred_net.mid_modules.0.blocks.0.block.0.bias": {
+      "shape": [
+        1024
+      ],
+      "parameters": 1024,
+      "sha256": "897c0fdd83e0e269060779b9832b4419639fb76cc16ab134ecee54e34588397b"
+    },
+    "noise_pred_net.mid_modules.0.blocks.0.block.1.weight": {
+      "shape": [
+        1024
+      ],
+      "parameters": 1024,
+      "sha256": "e9bac255f4adc7cb4ada9298e193a5ff66b434d15afabd458505325f29c398c7"
+    },
+    "noise_pred_net.mid_modules.0.blocks.0.block.1.bias": {
+      "shape": [
+        1024
+      ],
+      "parameters": 1024,
+      "sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    "noise_pred_net.mid_modules.0.blocks.1.block.0.weight": {
+      "shape": [
+        1024,
+        1024,
+        5
+      ],
+      "parameters": 5242880,
+      "sha256": "e8151fba831cf7f4704c1077cb41c6df8c12c93a116383da96296598c90e5b4a"
+    },
+    "noise_pred_net.mid_modules.0.blocks.1.block.0.bias": {
+      "shape": [
+        1024
+      ],
+      "parameters": 1024,
+      "sha256": "4488642eee0d2c65723ba66331b462fe4f01fc09c0d68c6396815b052e360d9f"
+    },
+    "noise_pred_net.mid_modules.0.blocks.1.block.1.weight": {
+      "shape": [
+        1024
+      ],
+      "parameters": 1024,
+      "sha256": "e9bac255f4adc7cb4ada9298e193a5ff66b434d15afabd458505325f29c398c7"
+    },
+    "noise_pred_net.mid_modules.0.blocks.1.block.1.bias": {
+      "shape": [
+        1024
+      ],
+      "parameters": 1024,
+      "sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    "noise_pred_net.mid_modules.0.cond_encoder.1.weight": {
+      "shape": [
+        2048,
+        1545
+      ],
+      "parameters": 3164160,
+      "sha256": "5918dd085f6721f49c172fd652510b2ae77b7cb58173de57561f33fe99fa86fd"
+    },
+    "noise_pred_net.mid_modules.0.cond_encoder.1.bias": {
+      "shape": [
+        2048
+      ],
+      "parameters": 2048,
+      "sha256": "ae217151718710b25c6dcec15aaa6994e856dc6cdafb99382e849f45296584c4"
+    },
+    "noise_pred_net.mid_modules.1.blocks.0.block.0.weight": {
+      "shape": [
+        1024,
+        1024,
+        5
+      ],
+      "parameters": 5242880,
+      "sha256": "ca48942464cedf6ec0bd35161e35d53aabc5ebcdde4a141abac4e5d392aa9848"
+    },
+    "noise_pred_net.mid_modules.1.blocks.0.block.0.bias": {
+      "shape": [
+        1024
+      ],
+      "parameters": 1024,
+      "sha256": "68546f371894fa3633934e8e660f905d88689397d3204f7bf20a2c717199e48f"
+    },
+    "noise_pred_net.mid_modules.1.blocks.0.block.1.weight": {
+      "shape": [
+        1024
+      ],
+      "parameters": 1024,
+      "sha256": "e9bac255f4adc7cb4ada9298e193a5ff66b434d15afabd458505325f29c398c7"
+    },
+    "noise_pred_net.mid_modules.1.blocks.0.block.1.bias": {
+      "shape": [
+        1024
+      ],
+      "parameters": 1024,
+      "sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    "noise_pred_net.mid_modules.1.blocks.1.block.0.weight": {
+      "shape": [
+        1024,
+        1024,
+        5
+      ],
+      "parameters": 5242880,
+      "sha256": "bc4b00e4ece02ebc02c27a73641f45256cf9b6ebc85660d077b9f06aefd317dc"
+    },
+    "noise_pred_net.mid_modules.1.blocks.1.block.0.bias": {
+      "shape": [
+        1024
+      ],
+      "parameters": 1024,
+      "sha256": "b77a1c0a2a14958ab7e996f420bd81bc86dd4877e4a59e0c8cba9591cbdf6368"
+    },
+    "noise_pred_net.mid_modules.1.blocks.1.block.1.weight": {
+      "shape": [
+        1024
+      ],
+      "parameters": 1024,
+      "sha256": "e9bac255f4adc7cb4ada9298e193a5ff66b434d15afabd458505325f29c398c7"
+    },
+    "noise_pred_net.mid_modules.1.blocks.1.block.1.bias": {
+      "shape": [
+        1024
+      ],
+      "parameters": 1024,
+      "sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    "noise_pred_net.mid_modules.1.cond_encoder.1.weight": {
+      "shape": [
+        2048,
+        1545
+      ],
+      "parameters": 3164160,
+      "sha256": "89670e6ea1d770a92e72fd031833c8095d81e4a30085cb94089de170fa0a0cc0"
+    },
+    "noise_pred_net.mid_modules.1.cond_encoder.1.bias": {
+      "shape": [
+        2048
+      ],
+      "parameters": 2048,
+      "sha256": "2f59a4f6d6a43f7ccb7219dffdeb60c726a5e85a00a5d45e727499906a1eb70d"
+    },
+    "noise_pred_net.diffusion_step_encoder.1.weight": {
+      "shape": [
+        1024,
+        256
+      ],
+      "parameters": 262144,
+      "sha256": "b736c712ddcdcecb14025bc1661d01e270022048bb73048e0050b0ecda350fca"
+    },
+    "noise_pred_net.diffusion_step_encoder.1.bias": {
+      "shape": [
+        1024
+      ],
+      "parameters": 1024,
+      "sha256": "54dcb04a51ef4e5ccec495582752f16705d54bf87ce6ffc696f1caaf946622c0"
+    },
+    "noise_pred_net.diffusion_step_encoder.3.weight": {
+      "shape": [
+        256,
+        1024
+      ],
+      "parameters": 262144,
+      "sha256": "008e1d6be31d3404c83ad60b7b45ae8dbf05b746e98b9a34ffa62807299cb643"
+    },
+    "noise_pred_net.diffusion_step_encoder.3.bias": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "1bae1da6feb569f6ddd0e393ac5d13e60a92f7882350f8f2ceed149af3d3cf0a"
+    },
+    "noise_pred_net.up_modules.0.0.blocks.0.block.0.weight": {
+      "shape": [
+        512,
+        2048,
+        5
+      ],
+      "parameters": 5242880,
+      "sha256": "068204152f7d230268ca13bb81eecd5796e6842da2a247747f9da311b96c4b8c"
+    },
+    "noise_pred_net.up_modules.0.0.blocks.0.block.0.bias": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "d1ae1af94f3f0a72f5c302f4069a8cd9149980b89df837031cfa9cfb59011ff7"
+    },
+    "noise_pred_net.up_modules.0.0.blocks.0.block.1.weight": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "fef951e6c76ad6a01b208af650ca6d95769bec840e009981c5ae1316a42c90b1"
+    },
+    "noise_pred_net.up_modules.0.0.blocks.0.block.1.bias": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "e5a00aa9991ac8a5ee3109844d84a55583bd20572ad3ffcd42792f3c36b183ad"
+    },
+    "noise_pred_net.up_modules.0.0.blocks.1.block.0.weight": {
+      "shape": [
+        512,
+        512,
+        5
+      ],
+      "parameters": 1310720,
+      "sha256": "f221bba887408f0ecef4578a90a1df575633cb133fba6b94903462602beeaa63"
+    },
+    "noise_pred_net.up_modules.0.0.blocks.1.block.0.bias": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "da8d8854445985ca62802c66cc9e8e5cf39744c467c62fb6deb40a1149815967"
+    },
+    "noise_pred_net.up_modules.0.0.blocks.1.block.1.weight": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "fef951e6c76ad6a01b208af650ca6d95769bec840e009981c5ae1316a42c90b1"
+    },
+    "noise_pred_net.up_modules.0.0.blocks.1.block.1.bias": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "e5a00aa9991ac8a5ee3109844d84a55583bd20572ad3ffcd42792f3c36b183ad"
+    },
+    "noise_pred_net.up_modules.0.0.cond_encoder.1.weight": {
+      "shape": [
+        1024,
+        1545
+      ],
+      "parameters": 1582080,
+      "sha256": "8f5897fc48ddba2b1047931a97d14d2b87aa0f110351df0e6db7a69db5091206"
+    },
+    "noise_pred_net.up_modules.0.0.cond_encoder.1.bias": {
+      "shape": [
+        1024
+      ],
+      "parameters": 1024,
+      "sha256": "b3da8f7555e9225bd635b5bf868f274a0b0f4faee67e1c64bbe969bb3c60e189"
+    },
+    "noise_pred_net.up_modules.0.0.residual_conv.weight": {
+      "shape": [
+        512,
+        2048,
+        1
+      ],
+      "parameters": 1048576,
+      "sha256": "cd0833d45f8bce367e3fe743728333b46a548765a62dd95b228167cbfceeb392"
+    },
+    "noise_pred_net.up_modules.0.0.residual_conv.bias": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "48d9029d33b2176d5d3be6f926e4c10c9eb53fabd78325491baeba83186921da"
+    },
+    "noise_pred_net.up_modules.0.1.blocks.0.block.0.weight": {
+      "shape": [
+        512,
+        512,
+        5
+      ],
+      "parameters": 1310720,
+      "sha256": "c94cd354d70f35f11717fa1644a28197930057821d0e5a51859f98fd3a46d92c"
+    },
+    "noise_pred_net.up_modules.0.1.blocks.0.block.0.bias": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "df27c05c91098a19d87542d365677b7c78c014727c5fdb93c4f0e53178224d63"
+    },
+    "noise_pred_net.up_modules.0.1.blocks.0.block.1.weight": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "fef951e6c76ad6a01b208af650ca6d95769bec840e009981c5ae1316a42c90b1"
+    },
+    "noise_pred_net.up_modules.0.1.blocks.0.block.1.bias": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "e5a00aa9991ac8a5ee3109844d84a55583bd20572ad3ffcd42792f3c36b183ad"
+    },
+    "noise_pred_net.up_modules.0.1.blocks.1.block.0.weight": {
+      "shape": [
+        512,
+        512,
+        5
+      ],
+      "parameters": 1310720,
+      "sha256": "d56c11bc750a8e91fe6a2659ee751d70e7ff94e2ed7db1f1a54710f292c5a990"
+    },
+    "noise_pred_net.up_modules.0.1.blocks.1.block.0.bias": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "edb421029bc1ee9947b4f837d6de157bddd0982071e64025ea6096df79bfe7f6"
+    },
+    "noise_pred_net.up_modules.0.1.blocks.1.block.1.weight": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "fef951e6c76ad6a01b208af650ca6d95769bec840e009981c5ae1316a42c90b1"
+    },
+    "noise_pred_net.up_modules.0.1.blocks.1.block.1.bias": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "e5a00aa9991ac8a5ee3109844d84a55583bd20572ad3ffcd42792f3c36b183ad"
+    },
+    "noise_pred_net.up_modules.0.1.cond_encoder.1.weight": {
+      "shape": [
+        1024,
+        1545
+      ],
+      "parameters": 1582080,
+      "sha256": "825253e3d2775d4dff5e1db7b27f90b23029214dfc622fce1056bdaa54920c6c"
+    },
+    "noise_pred_net.up_modules.0.1.cond_encoder.1.bias": {
+      "shape": [
+        1024
+      ],
+      "parameters": 1024,
+      "sha256": "20af915b428eb40b98321857c939d2c6de04511ebf3732dba2e8304b2ba49add"
+    },
+    "noise_pred_net.up_modules.0.2.conv.weight": {
+      "shape": [
+        512,
+        512,
+        4
+      ],
+      "parameters": 1048576,
+      "sha256": "056be7a16ec4e5a9a1988ec54128b99f9e8f63b585ce31055b4e82d3f38d4317"
+    },
+    "noise_pred_net.up_modules.0.2.conv.bias": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "ace2d65dd02926ec947beaba97c1a45dbe55800789f86af2f9a512107706f152"
+    },
+    "noise_pred_net.up_modules.1.0.blocks.0.block.0.weight": {
+      "shape": [
+        256,
+        1024,
+        5
+      ],
+      "parameters": 1310720,
+      "sha256": "715f896b0c0a0b785ac6a09ce5a275f01b0e70101e59765194070c1dec889918"
+    },
+    "noise_pred_net.up_modules.1.0.blocks.0.block.0.bias": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "9c06ee2d54def0b322b2cf17e98b5614ad0dfd8bc78abb30f3a0e76928ac8b65"
+    },
+    "noise_pred_net.up_modules.1.0.blocks.0.block.1.weight": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "893a106828fbdb9521e1d868c985aab7ad2ae2f606edc55329265a5e7676006c"
+    },
+    "noise_pred_net.up_modules.1.0.blocks.0.block.1.bias": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef"
+    },
+    "noise_pred_net.up_modules.1.0.blocks.1.block.0.weight": {
+      "shape": [
+        256,
+        256,
+        5
+      ],
+      "parameters": 327680,
+      "sha256": "ec023adba3549acef3f4718b3de5ed6b1f742ae8ccee6d115b02ab75ca2599d0"
+    },
+    "noise_pred_net.up_modules.1.0.blocks.1.block.0.bias": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "1ee0831aca45709479d8d57a80a67ad634f5ec6dfb7423789c40c8e0bce80226"
+    },
+    "noise_pred_net.up_modules.1.0.blocks.1.block.1.weight": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "893a106828fbdb9521e1d868c985aab7ad2ae2f606edc55329265a5e7676006c"
+    },
+    "noise_pred_net.up_modules.1.0.blocks.1.block.1.bias": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef"
+    },
+    "noise_pred_net.up_modules.1.0.cond_encoder.1.weight": {
+      "shape": [
+        512,
+        1545
+      ],
+      "parameters": 791040,
+      "sha256": "c0e11c95de2c7a8f98c7f9911703e4e3090699a71c1681c752e8060e8e1d8449"
+    },
+    "noise_pred_net.up_modules.1.0.cond_encoder.1.bias": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "0054e949130f6539639a4fb0cd2ac039a4eb78abed1b17ebbd31893fae296428"
+    },
+    "noise_pred_net.up_modules.1.0.residual_conv.weight": {
+      "shape": [
+        256,
+        1024,
+        1
+      ],
+      "parameters": 262144,
+      "sha256": "08062c83f936e2cb46fdd6ac8d440dcec348c5ca17c5fadf20ddb182c656cc1c"
+    },
+    "noise_pred_net.up_modules.1.0.residual_conv.bias": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "caba5637e805b0bd8e3109cfc364ce6f7a670fa19407ebd5076bce7a111e1fcf"
+    },
+    "noise_pred_net.up_modules.1.1.blocks.0.block.0.weight": {
+      "shape": [
+        256,
+        256,
+        5
+      ],
+      "parameters": 327680,
+      "sha256": "6dfcf38dda4d08b122989e494dbd756fc13726e9a856743294d422e2846ab17e"
+    },
+    "noise_pred_net.up_modules.1.1.blocks.0.block.0.bias": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "667f9e1b7a41caadb6f395bdbfe29c01caa7559b7178f4fd91d4f5a9697736c9"
+    },
+    "noise_pred_net.up_modules.1.1.blocks.0.block.1.weight": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "893a106828fbdb9521e1d868c985aab7ad2ae2f606edc55329265a5e7676006c"
+    },
+    "noise_pred_net.up_modules.1.1.blocks.0.block.1.bias": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef"
+    },
+    "noise_pred_net.up_modules.1.1.blocks.1.block.0.weight": {
+      "shape": [
+        256,
+        256,
+        5
+      ],
+      "parameters": 327680,
+      "sha256": "8981fbb92aff8ec1c9804544cc3fe35b2c4b138a67aa0a85ec3615becb862e91"
+    },
+    "noise_pred_net.up_modules.1.1.blocks.1.block.0.bias": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "ce1e11d65de092e2d53575c09a1ccb2a5ae240b34656615d28661f9f859f52f8"
+    },
+    "noise_pred_net.up_modules.1.1.blocks.1.block.1.weight": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "893a106828fbdb9521e1d868c985aab7ad2ae2f606edc55329265a5e7676006c"
+    },
+    "noise_pred_net.up_modules.1.1.blocks.1.block.1.bias": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef"
+    },
+    "noise_pred_net.up_modules.1.1.cond_encoder.1.weight": {
+      "shape": [
+        512,
+        1545
+      ],
+      "parameters": 791040,
+      "sha256": "0d2136d4c2c19dfdab739edc2c8d2a14995c1c05b5ed35e193f09927c0821f44"
+    },
+    "noise_pred_net.up_modules.1.1.cond_encoder.1.bias": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "5b2d42223c55b1ed73b9b83e39eb27c37205215d1348cd969616e59394239f00"
+    },
+    "noise_pred_net.up_modules.1.2.conv.weight": {
+      "shape": [
+        256,
+        256,
+        4
+      ],
+      "parameters": 262144,
+      "sha256": "586966a2ffe2ead76a8a21286bf31f101aaf393fcca26febd5986bc060dba664"
+    },
+    "noise_pred_net.up_modules.1.2.conv.bias": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "14573515102c5f535589f48ba691b3271c8f0a9cbb949bfe439203ce6035e1d6"
+    },
+    "noise_pred_net.down_modules.0.0.blocks.0.block.0.weight": {
+      "shape": [
+        256,
+        7,
+        5
+      ],
+      "parameters": 8960,
+      "sha256": "4e44a27aedcdcd325df4d2238dd57cb44449ee0be56bd6240d44f72b2f8b652d"
+    },
+    "noise_pred_net.down_modules.0.0.blocks.0.block.0.bias": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "912dbd2d3913d3461d7a102c05cc8a882383927393162ece982a163eb58e3dde"
+    },
+    "noise_pred_net.down_modules.0.0.blocks.0.block.1.weight": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "893a106828fbdb9521e1d868c985aab7ad2ae2f606edc55329265a5e7676006c"
+    },
+    "noise_pred_net.down_modules.0.0.blocks.0.block.1.bias": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef"
+    },
+    "noise_pred_net.down_modules.0.0.blocks.1.block.0.weight": {
+      "shape": [
+        256,
+        256,
+        5
+      ],
+      "parameters": 327680,
+      "sha256": "d73081625628562805f2c2e4c015750ba8fe212abba53e27ca553fdc0f3aab55"
+    },
+    "noise_pred_net.down_modules.0.0.blocks.1.block.0.bias": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "ecb77ceb21c515aa10757fb74e0aa87e4575f1b9fdb7d60d4ece2d2c3f4d75dd"
+    },
+    "noise_pred_net.down_modules.0.0.blocks.1.block.1.weight": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "893a106828fbdb9521e1d868c985aab7ad2ae2f606edc55329265a5e7676006c"
+    },
+    "noise_pred_net.down_modules.0.0.blocks.1.block.1.bias": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef"
+    },
+    "noise_pred_net.down_modules.0.0.cond_encoder.1.weight": {
+      "shape": [
+        512,
+        1545
+      ],
+      "parameters": 791040,
+      "sha256": "bbf5415e28c156bf9777b4fd2b03440ea36ea2db34f948977f80631645b2813c"
+    },
+    "noise_pred_net.down_modules.0.0.cond_encoder.1.bias": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "1c627cbb5668ec14a65f74351cb32edb2024574530f793aa04c02bf71a01f3b4"
+    },
+    "noise_pred_net.down_modules.0.0.residual_conv.weight": {
+      "shape": [
+        256,
+        7,
+        1
+      ],
+      "parameters": 1792,
+      "sha256": "2e6ee4279511002ff1bd5752fff25deee325719c49fcf32c9f9490060e9a8b41"
+    },
+    "noise_pred_net.down_modules.0.0.residual_conv.bias": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "bc62d3756c6eeeb07b160e009dd9564e5c11f7403e7ea93f6c783e0791899603"
+    },
+    "noise_pred_net.down_modules.0.1.blocks.0.block.0.weight": {
+      "shape": [
+        256,
+        256,
+        5
+      ],
+      "parameters": 327680,
+      "sha256": "6a8869aaaaf09442686b73f7d66fd70abe25b6b133b665cecfe18e0029c61030"
+    },
+    "noise_pred_net.down_modules.0.1.blocks.0.block.0.bias": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "793470f87896e39fee2890557441268f6e4b8b389cdc19c811956280b3c4deb6"
+    },
+    "noise_pred_net.down_modules.0.1.blocks.0.block.1.weight": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "893a106828fbdb9521e1d868c985aab7ad2ae2f606edc55329265a5e7676006c"
+    },
+    "noise_pred_net.down_modules.0.1.blocks.0.block.1.bias": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef"
+    },
+    "noise_pred_net.down_modules.0.1.blocks.1.block.0.weight": {
+      "shape": [
+        256,
+        256,
+        5
+      ],
+      "parameters": 327680,
+      "sha256": "1d5a3dda36bf72274f847e27b5263ba65e10f6a1b9adaf5dba9fb5223f63a9e4"
+    },
+    "noise_pred_net.down_modules.0.1.blocks.1.block.0.bias": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "6659d5196b420479e2af6aad0693fe6ae32af1abe9ba8438a6a2266adb3e3a2a"
+    },
+    "noise_pred_net.down_modules.0.1.blocks.1.block.1.weight": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "893a106828fbdb9521e1d868c985aab7ad2ae2f606edc55329265a5e7676006c"
+    },
+    "noise_pred_net.down_modules.0.1.blocks.1.block.1.bias": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef"
+    },
+    "noise_pred_net.down_modules.0.1.cond_encoder.1.weight": {
+      "shape": [
+        512,
+        1545
+      ],
+      "parameters": 791040,
+      "sha256": "7dcb1dde897b26363ea90b1c23b21b1dc04bcc6d28e3b4b4d49203fa121e276d"
+    },
+    "noise_pred_net.down_modules.0.1.cond_encoder.1.bias": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "fcbefb11277c0a865064f22afad2b45a468d4cd8c8c496e0fdd23dfdac08e338"
+    },
+    "noise_pred_net.down_modules.0.2.conv.weight": {
+      "shape": [
+        256,
+        256,
+        3
+      ],
+      "parameters": 196608,
+      "sha256": "555b256f643e04a380267c6e3be90dffb667a0bc214a22dc2163b1c93ddd8a37"
+    },
+    "noise_pred_net.down_modules.0.2.conv.bias": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "0b70398a8b6187f816148c1686277f00899e35fa11b1dd71fee22fb040978d3d"
+    },
+    "noise_pred_net.down_modules.1.0.blocks.0.block.0.weight": {
+      "shape": [
+        512,
+        256,
+        5
+      ],
+      "parameters": 655360,
+      "sha256": "b65010174cee22ffc51a14e05ac9e2f90bbd91e15e5d5d8b3c7d78a6332e6d33"
+    },
+    "noise_pred_net.down_modules.1.0.blocks.0.block.0.bias": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "e2b8ea96c0320b0ea7163af80d256762649e2d368830313edf967fcf52634f4c"
+    },
+    "noise_pred_net.down_modules.1.0.blocks.0.block.1.weight": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "fef951e6c76ad6a01b208af650ca6d95769bec840e009981c5ae1316a42c90b1"
+    },
+    "noise_pred_net.down_modules.1.0.blocks.0.block.1.bias": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "e5a00aa9991ac8a5ee3109844d84a55583bd20572ad3ffcd42792f3c36b183ad"
+    },
+    "noise_pred_net.down_modules.1.0.blocks.1.block.0.weight": {
+      "shape": [
+        512,
+        512,
+        5
+      ],
+      "parameters": 1310720,
+      "sha256": "b9f5aa51b87c8ab8348969d6d373282f57e5f33661008de57808895be74e6e47"
+    },
+    "noise_pred_net.down_modules.1.0.blocks.1.block.0.bias": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "da43d42a022bfe038d30a3d9ea04388abffd33690eff6402bca8c10429714562"
+    },
+    "noise_pred_net.down_modules.1.0.blocks.1.block.1.weight": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "fef951e6c76ad6a01b208af650ca6d95769bec840e009981c5ae1316a42c90b1"
+    },
+    "noise_pred_net.down_modules.1.0.blocks.1.block.1.bias": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "e5a00aa9991ac8a5ee3109844d84a55583bd20572ad3ffcd42792f3c36b183ad"
+    },
+    "noise_pred_net.down_modules.1.0.cond_encoder.1.weight": {
+      "shape": [
+        1024,
+        1545
+      ],
+      "parameters": 1582080,
+      "sha256": "1847d1db62e26c30c3d042d009c3a5d198a0decb464ca987b170a94a897b4c6e"
+    },
+    "noise_pred_net.down_modules.1.0.cond_encoder.1.bias": {
+      "shape": [
+        1024
+      ],
+      "parameters": 1024,
+      "sha256": "7c943cb7d7e5576752dae32af54b9573ef76218fa148512e4397b7d60cf98b88"
+    },
+    "noise_pred_net.down_modules.1.0.residual_conv.weight": {
+      "shape": [
+        512,
+        256,
+        1
+      ],
+      "parameters": 131072,
+      "sha256": "8bc74d0c556dfa985616ee003d1f8ff8b8ad488df248c5b32eb6d2309c64a4c7"
+    },
+    "noise_pred_net.down_modules.1.0.residual_conv.bias": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "ab921b2f60a82c321261629accf2cf2444cda3d24bc6abc6ea9e7fdd32f54610"
+    },
+    "noise_pred_net.down_modules.1.1.blocks.0.block.0.weight": {
+      "shape": [
+        512,
+        512,
+        5
+      ],
+      "parameters": 1310720,
+      "sha256": "7690e4a1340d176add82ca4ae2e77770ffde1747b5a3e5e27b0d308d8d33ea3f"
+    },
+    "noise_pred_net.down_modules.1.1.blocks.0.block.0.bias": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "3506d3c58a3069c87561f27ed3af78d0cff2dc0c9d94db260399aafe48fedcdd"
+    },
+    "noise_pred_net.down_modules.1.1.blocks.0.block.1.weight": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "fef951e6c76ad6a01b208af650ca6d95769bec840e009981c5ae1316a42c90b1"
+    },
+    "noise_pred_net.down_modules.1.1.blocks.0.block.1.bias": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "e5a00aa9991ac8a5ee3109844d84a55583bd20572ad3ffcd42792f3c36b183ad"
+    },
+    "noise_pred_net.down_modules.1.1.blocks.1.block.0.weight": {
+      "shape": [
+        512,
+        512,
+        5
+      ],
+      "parameters": 1310720,
+      "sha256": "bd1da4f22ed85f587d6c8cba1aa1317ec834df39951141adae686a2ae40d3c09"
+    },
+    "noise_pred_net.down_modules.1.1.blocks.1.block.0.bias": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "5fb6ed1d3b8fde039d21d6bd374da98d9b5e4156a48c41d367642a3410e0f1dc"
+    },
+    "noise_pred_net.down_modules.1.1.blocks.1.block.1.weight": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "fef951e6c76ad6a01b208af650ca6d95769bec840e009981c5ae1316a42c90b1"
+    },
+    "noise_pred_net.down_modules.1.1.blocks.1.block.1.bias": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "e5a00aa9991ac8a5ee3109844d84a55583bd20572ad3ffcd42792f3c36b183ad"
+    },
+    "noise_pred_net.down_modules.1.1.cond_encoder.1.weight": {
+      "shape": [
+        1024,
+        1545
+      ],
+      "parameters": 1582080,
+      "sha256": "d0d5a6999ae12a0cfdd78d096f2fd5dbc4a48740bd575a41ef532b537eca1f40"
+    },
+    "noise_pred_net.down_modules.1.1.cond_encoder.1.bias": {
+      "shape": [
+        1024
+      ],
+      "parameters": 1024,
+      "sha256": "8bae3cb9f2ca2e06c776e36316a72ea55dfb6b94fc167080c2c0fa8c061a5c33"
+    },
+    "noise_pred_net.down_modules.1.2.conv.weight": {
+      "shape": [
+        512,
+        512,
+        3
+      ],
+      "parameters": 786432,
+      "sha256": "47d1fa9fe142e25f44518882e30d0ece5e1582799dd62c9c740541a4010c88d8"
+    },
+    "noise_pred_net.down_modules.1.2.conv.bias": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "db98dac2217e30c080c637660f122e09a621353779290cb2473d0f8a6e258a94"
+    },
+    "noise_pred_net.down_modules.2.0.blocks.0.block.0.weight": {
+      "shape": [
+        1024,
+        512,
+        5
+      ],
+      "parameters": 2621440,
+      "sha256": "7df7c92d6dce2caa405505fabf81db646748926a42059155c70ad6ad012dcebe"
+    },
+    "noise_pred_net.down_modules.2.0.blocks.0.block.0.bias": {
+      "shape": [
+        1024
+      ],
+      "parameters": 1024,
+      "sha256": "c834ef28f5b497c49ecd30816f91dc8ef832514e9ca0c1a1560c4dbdb7975793"
+    },
+    "noise_pred_net.down_modules.2.0.blocks.0.block.1.weight": {
+      "shape": [
+        1024
+      ],
+      "parameters": 1024,
+      "sha256": "e9bac255f4adc7cb4ada9298e193a5ff66b434d15afabd458505325f29c398c7"
+    },
+    "noise_pred_net.down_modules.2.0.blocks.0.block.1.bias": {
+      "shape": [
+        1024
+      ],
+      "parameters": 1024,
+      "sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    "noise_pred_net.down_modules.2.0.blocks.1.block.0.weight": {
+      "shape": [
+        1024,
+        1024,
+        5
+      ],
+      "parameters": 5242880,
+      "sha256": "8dadf610c3f9450d9b0e0c338ab54fda2f690c082268f858ffa7a834d959c0fc"
+    },
+    "noise_pred_net.down_modules.2.0.blocks.1.block.0.bias": {
+      "shape": [
+        1024
+      ],
+      "parameters": 1024,
+      "sha256": "4f5980c6601ea59aadfe74152e962d86d9096b0876ac63d92ded5577233c942d"
+    },
+    "noise_pred_net.down_modules.2.0.blocks.1.block.1.weight": {
+      "shape": [
+        1024
+      ],
+      "parameters": 1024,
+      "sha256": "e9bac255f4adc7cb4ada9298e193a5ff66b434d15afabd458505325f29c398c7"
+    },
+    "noise_pred_net.down_modules.2.0.blocks.1.block.1.bias": {
+      "shape": [
+        1024
+      ],
+      "parameters": 1024,
+      "sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    "noise_pred_net.down_modules.2.0.cond_encoder.1.weight": {
+      "shape": [
+        2048,
+        1545
+      ],
+      "parameters": 3164160,
+      "sha256": "341ce4ff0df91292d9f248426526e33c3521d205a329f240716596914d1969cc"
+    },
+    "noise_pred_net.down_modules.2.0.cond_encoder.1.bias": {
+      "shape": [
+        2048
+      ],
+      "parameters": 2048,
+      "sha256": "ab4d3bb91bd5e0b053c9e309bd273fd34cfc06f8effceebcceb4dffd12a4b452"
+    },
+    "noise_pred_net.down_modules.2.0.residual_conv.weight": {
+      "shape": [
+        1024,
+        512,
+        1
+      ],
+      "parameters": 524288,
+      "sha256": "a5a633c09030f3e45d46008152d98c145267b06e73c740a6c05155fc3052a016"
+    },
+    "noise_pred_net.down_modules.2.0.residual_conv.bias": {
+      "shape": [
+        1024
+      ],
+      "parameters": 1024,
+      "sha256": "8e740fc76d85a6375610fdaab87e2ebb5b95aa8651f4dcc00bdeb4392e4ddf63"
+    },
+    "noise_pred_net.down_modules.2.1.blocks.0.block.0.weight": {
+      "shape": [
+        1024,
+        1024,
+        5
+      ],
+      "parameters": 5242880,
+      "sha256": "430699484d2038175649f88a67604a565b3ae4e648bd33789d6678410b89a86a"
+    },
+    "noise_pred_net.down_modules.2.1.blocks.0.block.0.bias": {
+      "shape": [
+        1024
+      ],
+      "parameters": 1024,
+      "sha256": "3b8f69053acbb35e7db4b6401eea221f04b333260ef244f6c3ddb43bfa25c249"
+    },
+    "noise_pred_net.down_modules.2.1.blocks.0.block.1.weight": {
+      "shape": [
+        1024
+      ],
+      "parameters": 1024,
+      "sha256": "e9bac255f4adc7cb4ada9298e193a5ff66b434d15afabd458505325f29c398c7"
+    },
+    "noise_pred_net.down_modules.2.1.blocks.0.block.1.bias": {
+      "shape": [
+        1024
+      ],
+      "parameters": 1024,
+      "sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    "noise_pred_net.down_modules.2.1.blocks.1.block.0.weight": {
+      "shape": [
+        1024,
+        1024,
+        5
+      ],
+      "parameters": 5242880,
+      "sha256": "df7aef6ea3dba41d2be55f904780634ea42d476ea354b496bca9ee81fd73dec8"
+    },
+    "noise_pred_net.down_modules.2.1.blocks.1.block.0.bias": {
+      "shape": [
+        1024
+      ],
+      "parameters": 1024,
+      "sha256": "cde450b5331b7ebc3eacf48f4b57a7f8a85efc4cc129eb89a42d4148cb795c0b"
+    },
+    "noise_pred_net.down_modules.2.1.blocks.1.block.1.weight": {
+      "shape": [
+        1024
+      ],
+      "parameters": 1024,
+      "sha256": "e9bac255f4adc7cb4ada9298e193a5ff66b434d15afabd458505325f29c398c7"
+    },
+    "noise_pred_net.down_modules.2.1.blocks.1.block.1.bias": {
+      "shape": [
+        1024
+      ],
+      "parameters": 1024,
+      "sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    "noise_pred_net.down_modules.2.1.cond_encoder.1.weight": {
+      "shape": [
+        2048,
+        1545
+      ],
+      "parameters": 3164160,
+      "sha256": "9f1ad2ef398fcb3a1105f120e5ad39fb2952cec5a28205b94f1eedeb959b3863"
+    },
+    "noise_pred_net.down_modules.2.1.cond_encoder.1.bias": {
+      "shape": [
+        2048
+      ],
+      "parameters": 2048,
+      "sha256": "1ae69e91957e19fb9545079df4a5fa483c6f10634e9dacf0fe90835c04adcb72"
+    },
+    "noise_pred_net.final_conv.0.block.0.weight": {
+      "shape": [
+        256,
+        256,
+        5
+      ],
+      "parameters": 327680,
+      "sha256": "186febd8a89980f9f6b3bd22873559c8f015d534220a7fec7d6d1148e8204b9f"
+    },
+    "noise_pred_net.final_conv.0.block.0.bias": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "d0f63ca971204c7436222346e1e687a6332c5df22ef5b6a8082120efbfe61846"
+    },
+    "noise_pred_net.final_conv.0.block.1.weight": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "893a106828fbdb9521e1d868c985aab7ad2ae2f606edc55329265a5e7676006c"
+    },
+    "noise_pred_net.final_conv.0.block.1.bias": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef"
+    },
+    "noise_pred_net.final_conv.1.weight": {
+      "shape": [
+        7,
+        256,
+        1
+      ],
+      "parameters": 1792,
+      "sha256": "edaf26a10ae72ab2570eaa8d4ea00d408ad4e7b7132b542b1929e77238a42770"
+    },
+    "noise_pred_net.final_conv.1.bias": {
+      "shape": [
+        7
+      ],
+      "parameters": 7,
+      "sha256": "5f6b3def7a2771667e4671b854944cc53bfc404c9376ba494e0aa134a823643d"
+    }
+  },
+  "after": {
+    "vision_encoder.conv1.weight": {
+      "shape": [
+        64,
+        3,
+        7,
+        7
+      ],
+      "parameters": 9408,
+      "sha256": "d25dfcc0113292fb3d0bc758e77285fc08831d5b1f4f5c3030c28e4020451100"
+    },
+    "vision_encoder.bn1.weight": {
+      "shape": [
+        64
+      ],
+      "parameters": 64,
+      "sha256": "3b92130b67c956621564f74db70b7d720af1d2193e0c2d0a99cee44a792236cf"
+    },
+    "vision_encoder.bn1.bias": {
+      "shape": [
+        64
+      ],
+      "parameters": 64,
+      "sha256": "a4315efbcf35a1d77981c6fbb752b1d27a55bc27837a143b5954d666fef74da8"
+    },
+    "vision_encoder.layer1.0.conv1.weight": {
+      "shape": [
+        64,
+        64,
+        3,
+        3
+      ],
+      "parameters": 36864,
+      "sha256": "beab97d7a19e5337249643c0e6f152638e2bbc0622dcabedc382909a4c1475dc"
+    },
+    "vision_encoder.layer1.0.bn1.weight": {
+      "shape": [
+        64
+      ],
+      "parameters": 64,
+      "sha256": "d569c3b67678a0e1f4e0105583adc23c5cf95c055921e591e729bdc5c5533302"
+    },
+    "vision_encoder.layer1.0.bn1.bias": {
+      "shape": [
+        64
+      ],
+      "parameters": 64,
+      "sha256": "9056c08cf6c1096418306a7ab60b44b895823137db6adad52d7db03791378cdd"
+    },
+    "vision_encoder.layer1.0.conv2.weight": {
+      "shape": [
+        64,
+        64,
+        3,
+        3
+      ],
+      "parameters": 36864,
+      "sha256": "06f11a1c2dd9f9cdd8326c67169dd61c7b0792774e931fe17218787aeab2a1d3"
+    },
+    "vision_encoder.layer1.0.bn2.weight": {
+      "shape": [
+        64
+      ],
+      "parameters": 64,
+      "sha256": "490d1a02ab60b1d8c9e883cd898b138728a2024c287ba8f8c8297e549e54d7e5"
+    },
+    "vision_encoder.layer1.0.bn2.bias": {
+      "shape": [
+        64
+      ],
+      "parameters": 64,
+      "sha256": "ccacc7530de32b70c7b63bd5f06f6504409fadd7a4fb822bd10631c06971e7fc"
+    },
+    "vision_encoder.layer1.1.conv1.weight": {
+      "shape": [
+        64,
+        64,
+        3,
+        3
+      ],
+      "parameters": 36864,
+      "sha256": "e78ee73843bb88c909ef58eea231b218a030204aced23b1e5f40022faa7d8598"
+    },
+    "vision_encoder.layer1.1.bn1.weight": {
+      "shape": [
+        64
+      ],
+      "parameters": 64,
+      "sha256": "14fc6530273907a57e4055524a0152ae1355ad82b14f5021bd9429177d9ba777"
+    },
+    "vision_encoder.layer1.1.bn1.bias": {
+      "shape": [
+        64
+      ],
+      "parameters": 64,
+      "sha256": "fa05da6406550d2340f4c24b47dc80e9a33e63280a44a709026bf5cc79195cb3"
+    },
+    "vision_encoder.layer1.1.conv2.weight": {
+      "shape": [
+        64,
+        64,
+        3,
+        3
+      ],
+      "parameters": 36864,
+      "sha256": "a5185f9175f7fa5121eafc6176d3f49923a8c4fcf23a27d7ee31b615e1a0402d"
+    },
+    "vision_encoder.layer1.1.bn2.weight": {
+      "shape": [
+        64
+      ],
+      "parameters": 64,
+      "sha256": "c3b2f3cbd1d3611bd3c413ca5ac12d12bc33bb29298046135cf5e6ff29120ca8"
+    },
+    "vision_encoder.layer1.1.bn2.bias": {
+      "shape": [
+        64
+      ],
+      "parameters": 64,
+      "sha256": "4c3ef6e435a9ffe4e19acd0681f842c57e49b1387cf980a07663356370dd710e"
+    },
+    "vision_encoder.layer2.0.conv1.weight": {
+      "shape": [
+        128,
+        64,
+        3,
+        3
+      ],
+      "parameters": 73728,
+      "sha256": "ca8b97db70a8c317f6bc3a27d9dca708fe06098f25ecbeeffeae59decc3abea6"
+    },
+    "vision_encoder.layer2.0.bn1.weight": {
+      "shape": [
+        128
+      ],
+      "parameters": 128,
+      "sha256": "a070803dd8426aee9d5b859ab4302953521de28394fd5702bce87837a98cc25b"
+    },
+    "vision_encoder.layer2.0.bn1.bias": {
+      "shape": [
+        128
+      ],
+      "parameters": 128,
+      "sha256": "e02f4f80282e719d492627ab7307ffbeba84a130cdd897fd14e4656a4194a020"
+    },
+    "vision_encoder.layer2.0.conv2.weight": {
+      "shape": [
+        128,
+        128,
+        3,
+        3
+      ],
+      "parameters": 147456,
+      "sha256": "1a514a0940f4baa0cf4ae58c12af4e2571c8bfc2e98203679f97249c8a8cfb8b"
+    },
+    "vision_encoder.layer2.0.bn2.weight": {
+      "shape": [
+        128
+      ],
+      "parameters": 128,
+      "sha256": "71c6a2b6a937d3d6c411e4a8c191b1bed07af5b4daf2309888ed9ad9c99e3faa"
+    },
+    "vision_encoder.layer2.0.bn2.bias": {
+      "shape": [
+        128
+      ],
+      "parameters": 128,
+      "sha256": "90d8db4f811dcb2e8c4ee5da8286c3f3c5fdb5866caf76cf232ad80a92c87e3d"
+    },
+    "vision_encoder.layer2.0.downsample.0.weight": {
+      "shape": [
+        128,
+        64,
+        1,
+        1
+      ],
+      "parameters": 8192,
+      "sha256": "993c055059eb28b888c0e42fe152bbce790b38ecf0446e764087bdb41c28d978"
+    },
+    "vision_encoder.layer2.0.downsample.1.weight": {
+      "shape": [
+        128
+      ],
+      "parameters": 128,
+      "sha256": "5c1151f4cfd1574ebe4775610f15b001129d20dcc18a09eb85fc9bf9325b34d3"
+    },
+    "vision_encoder.layer2.0.downsample.1.bias": {
+      "shape": [
+        128
+      ],
+      "parameters": 128,
+      "sha256": "90d8db4f811dcb2e8c4ee5da8286c3f3c5fdb5866caf76cf232ad80a92c87e3d"
+    },
+    "vision_encoder.layer2.1.conv1.weight": {
+      "shape": [
+        128,
+        128,
+        3,
+        3
+      ],
+      "parameters": 147456,
+      "sha256": "9d4de9fe986f3b8f08734bae3d707bb66cfe47667b5a109142d595d29d7ab2e7"
+    },
+    "vision_encoder.layer2.1.bn1.weight": {
+      "shape": [
+        128
+      ],
+      "parameters": 128,
+      "sha256": "5cc96a55e37addac9d7d0d5cce189a9e7c42b5827fe477b85d3e5212027dc3ae"
+    },
+    "vision_encoder.layer2.1.bn1.bias": {
+      "shape": [
+        128
+      ],
+      "parameters": 128,
+      "sha256": "eba2226d01d5c8bbcfa8b2db6cf492140a8e253b74be7d462bcd7ab03d92573c"
+    },
+    "vision_encoder.layer2.1.conv2.weight": {
+      "shape": [
+        128,
+        128,
+        3,
+        3
+      ],
+      "parameters": 147456,
+      "sha256": "19a772a221aa4391ee87d07310dc6045ad1dbfa96297282a1a1d4e05d224e56b"
+    },
+    "vision_encoder.layer2.1.bn2.weight": {
+      "shape": [
+        128
+      ],
+      "parameters": 128,
+      "sha256": "349133361a63eae6f54c649cbeb0491c9b558ab9a8965e32e76b8815595e8a04"
+    },
+    "vision_encoder.layer2.1.bn2.bias": {
+      "shape": [
+        128
+      ],
+      "parameters": 128,
+      "sha256": "128f3b3090618d35f395dd71ebeddb59bcfe33d87856e9c4910f1eb36a77de09"
+    },
+    "vision_encoder.layer3.0.conv1.weight": {
+      "shape": [
+        256,
+        128,
+        3,
+        3
+      ],
+      "parameters": 294912,
+      "sha256": "da522dfa2cc90f23624e2c03f4c4b003c498068e7aa28eda937eda2c20c3163e"
+    },
+    "vision_encoder.layer3.0.bn1.weight": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "13a1033addc3489bddbf0a6ff54b7a091140e30ab3c7fd46022a7c517acf871a"
+    },
+    "vision_encoder.layer3.0.bn1.bias": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "9c2b428c998761f54c4fd3df96776d9a8ebfaa55a7685f30d6fe5ff2ec0b9bd8"
+    },
+    "vision_encoder.layer3.0.conv2.weight": {
+      "shape": [
+        256,
+        256,
+        3,
+        3
+      ],
+      "parameters": 589824,
+      "sha256": "ba00e3f1972d76cca51df85811538e110e27ec78126cbe81328e68e8304d082f"
+    },
+    "vision_encoder.layer3.0.bn2.weight": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "c398471e36903c10237f1d4693a80ab7cdc108b3006aaaa45eea58bb2fd01e5d"
+    },
+    "vision_encoder.layer3.0.bn2.bias": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "86bb26058760aec61fb796c3ee7b55e2d9c76bb73583bac03bd0aec4c10fa7fe"
+    },
+    "vision_encoder.layer3.0.downsample.0.weight": {
+      "shape": [
+        256,
+        128,
+        1,
+        1
+      ],
+      "parameters": 32768,
+      "sha256": "2d05adb6db4844cc5cb9736c9009e8974cdcd9ed983b35a906ce32b222b46af9"
+    },
+    "vision_encoder.layer3.0.downsample.1.weight": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "faad7259ce65768021215b2bb9802f353a610a0b3b35c47dc215bfefb8df8515"
+    },
+    "vision_encoder.layer3.0.downsample.1.bias": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "86bb26058760aec61fb796c3ee7b55e2d9c76bb73583bac03bd0aec4c10fa7fe"
+    },
+    "vision_encoder.layer3.1.conv1.weight": {
+      "shape": [
+        256,
+        256,
+        3,
+        3
+      ],
+      "parameters": 589824,
+      "sha256": "858641c3e8c537f5604913d90e87195e984b4d4e4fe5f902a2f9af8d960709dc"
+    },
+    "vision_encoder.layer3.1.bn1.weight": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "7a4db6f1f7f47c5912104c6eb0bbefbe51146d6d8ba884afe78ab1983afccdbb"
+    },
+    "vision_encoder.layer3.1.bn1.bias": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "2c5c0fc617d976ee664af8890af0eccce9b554c971fd27e7ef66b6201a420b9b"
+    },
+    "vision_encoder.layer3.1.conv2.weight": {
+      "shape": [
+        256,
+        256,
+        3,
+        3
+      ],
+      "parameters": 589824,
+      "sha256": "6624db8cd13b62f2889ab25d9d9232aa1e944e955c743e1fad3806a042b42355"
+    },
+    "vision_encoder.layer3.1.bn2.weight": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "a1833a21027ceac6d1878327136218a34522013d1f08b7d378e7d177e3631daa"
+    },
+    "vision_encoder.layer3.1.bn2.bias": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "e3275fa946be0207ab96bffcadba1c09f8403d6cbae2370b3b25c0994fb947d9"
+    },
+    "vision_encoder.layer4.0.conv1.weight": {
+      "shape": [
+        512,
+        256,
+        3,
+        3
+      ],
+      "parameters": 1179648,
+      "sha256": "07edec69636141f7e09cb22c9c74e77c758c27a4f88f7a449310be3d2c1e103c"
+    },
+    "vision_encoder.layer4.0.bn1.weight": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "3e2f59418ecc2f1155a5c4354b9f058ec0fed06d613d072f07aa37aeaced0356"
+    },
+    "vision_encoder.layer4.0.bn1.bias": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "3d24da493538f84fb503808220e37c45315209029eaeb1f4cef45bf77b274de1"
+    },
+    "vision_encoder.layer4.0.conv2.weight": {
+      "shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "parameters": 2359296,
+      "sha256": "c0a17e5932744505e4475128b0e5a1a869810e25211511472f131011328be660"
+    },
+    "vision_encoder.layer4.0.bn2.weight": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "1c41f6ec33fba36ba1e5dec3b7ae4338453d6b64c8dddeaa6bfc1add1866559c"
+    },
+    "vision_encoder.layer4.0.bn2.bias": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "1e690d65dc1fd6110f342bf25ba9d2d33025edbd5a72f517d859c27aab6ff160"
+    },
+    "vision_encoder.layer4.0.downsample.0.weight": {
+      "shape": [
+        512,
+        256,
+        1,
+        1
+      ],
+      "parameters": 131072,
+      "sha256": "76f5f4cb6e0ab14f8aef7d85f81827901ff6d5f8fea30ec0073aeec240d7fc29"
+    },
+    "vision_encoder.layer4.0.downsample.1.weight": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "784042bed677bcb7dd30b5522a8f29b948ef3bab3fa083069fdc977025913264"
+    },
+    "vision_encoder.layer4.0.downsample.1.bias": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "1e690d65dc1fd6110f342bf25ba9d2d33025edbd5a72f517d859c27aab6ff160"
+    },
+    "vision_encoder.layer4.1.conv1.weight": {
+      "shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "parameters": 2359296,
+      "sha256": "72ff99c0fc9280344c6b9bf2ee1d5257aa2a9984c0b9199d7c4709c68da5f046"
+    },
+    "vision_encoder.layer4.1.bn1.weight": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "551a3257033c6ff170aecc64dfdec8141c89ab3d874492d4cd0466c2fe87a95d"
+    },
+    "vision_encoder.layer4.1.bn1.bias": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "95a0f0ff8c1676f20b1055ce98033cef7c393b1b4b6ebeb156f69dcc48cf70bd"
+    },
+    "vision_encoder.layer4.1.conv2.weight": {
+      "shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "parameters": 2359296,
+      "sha256": "abf804b92983c7d8b0527242de689e07b92d167609accd2490b5496245d33189"
+    },
+    "vision_encoder.layer4.1.bn2.weight": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "b94e2fc050033e4bd63f10683c5cc028d3d0a161856876a6e508a75b3d580eb5"
+    },
+    "vision_encoder.layer4.1.bn2.bias": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "19868d0b79b77e4ea8b091d635fc2b7265bc024dea846cd08e37ba83d6e53dc1"
+    },
+    "noise_pred_net.mid_modules.0.blocks.0.block.0.weight": {
+      "shape": [
+        1024,
+        1024,
+        5
+      ],
+      "parameters": 5242880,
+      "sha256": "747a7e9e40cb1aba99dac100d0fba236e4a59540f511a30ebcdae06252bc7d76"
+    },
+    "noise_pred_net.mid_modules.0.blocks.0.block.0.bias": {
+      "shape": [
+        1024
+      ],
+      "parameters": 1024,
+      "sha256": "9576d667ee688c5c4e423ba964ad62b7c39ee59a3568e7547ffae97cdddd9fee"
+    },
+    "noise_pred_net.mid_modules.0.blocks.0.block.1.weight": {
+      "shape": [
+        1024
+      ],
+      "parameters": 1024,
+      "sha256": "ed61621dcc9a32287289f7d9b838dc1e4e6634611edf7177ce46f228f653d5ac"
+    },
+    "noise_pred_net.mid_modules.0.blocks.0.block.1.bias": {
+      "shape": [
+        1024
+      ],
+      "parameters": 1024,
+      "sha256": "112da25386dbce9dd111c28cc4106379da541fb076d53d6df550949ffd4027e6"
+    },
+    "noise_pred_net.mid_modules.0.blocks.1.block.0.weight": {
+      "shape": [
+        1024,
+        1024,
+        5
+      ],
+      "parameters": 5242880,
+      "sha256": "beba3c11eed416634b9c7695a0b113f892ed6e101facd1889a1e24121c08b397"
+    },
+    "noise_pred_net.mid_modules.0.blocks.1.block.0.bias": {
+      "shape": [
+        1024
+      ],
+      "parameters": 1024,
+      "sha256": "aadc5b0f3443168d6dbf09899026f384b666953921bc1f3f5fe1d74ac36b73af"
+    },
+    "noise_pred_net.mid_modules.0.blocks.1.block.1.weight": {
+      "shape": [
+        1024
+      ],
+      "parameters": 1024,
+      "sha256": "189f899a3b32c72234f5f36dc65557cb0e0cd17eeea76fbd1d58ed95e35548be"
+    },
+    "noise_pred_net.mid_modules.0.blocks.1.block.1.bias": {
+      "shape": [
+        1024
+      ],
+      "parameters": 1024,
+      "sha256": "a8ab408762248730693eeb91282fc450444d367cf67ad88214a7d354104bf55b"
+    },
+    "noise_pred_net.mid_modules.0.cond_encoder.1.weight": {
+      "shape": [
+        2048,
+        1545
+      ],
+      "parameters": 3164160,
+      "sha256": "d835a1f7492317ce772233c56ca36fec26b08036944c81909ded0ab46fd10c8b"
+    },
+    "noise_pred_net.mid_modules.0.cond_encoder.1.bias": {
+      "shape": [
+        2048
+      ],
+      "parameters": 2048,
+      "sha256": "8b6d4749a3c4dce25d0f54203f0145bab23bd593f143fef50975865e4111577a"
+    },
+    "noise_pred_net.mid_modules.1.blocks.0.block.0.weight": {
+      "shape": [
+        1024,
+        1024,
+        5
+      ],
+      "parameters": 5242880,
+      "sha256": "df2f928eae00456c2eaad1472954ce4c28e3dd8e8c18daee21741884dc7e20c3"
+    },
+    "noise_pred_net.mid_modules.1.blocks.0.block.0.bias": {
+      "shape": [
+        1024
+      ],
+      "parameters": 1024,
+      "sha256": "fcfda3845e17bcd6a430de2b5b0a75b4539c4b5611c45373c3c5d95aee573d25"
+    },
+    "noise_pred_net.mid_modules.1.blocks.0.block.1.weight": {
+      "shape": [
+        1024
+      ],
+      "parameters": 1024,
+      "sha256": "438995cf943f8287c9b9eaa2ab93b3d5d6b637001165ca4c05039f9f0cf679c1"
+    },
+    "noise_pred_net.mid_modules.1.blocks.0.block.1.bias": {
+      "shape": [
+        1024
+      ],
+      "parameters": 1024,
+      "sha256": "a5f58d25a56ee9b2a519c341f0454981300771127a731d251f84dbb33766de2d"
+    },
+    "noise_pred_net.mid_modules.1.blocks.1.block.0.weight": {
+      "shape": [
+        1024,
+        1024,
+        5
+      ],
+      "parameters": 5242880,
+      "sha256": "527893698b6a412c445be16220717fb72cfbccc0da530eac2ff84f663f249f27"
+    },
+    "noise_pred_net.mid_modules.1.blocks.1.block.0.bias": {
+      "shape": [
+        1024
+      ],
+      "parameters": 1024,
+      "sha256": "a61f1cce59f3f83af8beab1f284e02f864422f8c84c946ef227551438070e148"
+    },
+    "noise_pred_net.mid_modules.1.blocks.1.block.1.weight": {
+      "shape": [
+        1024
+      ],
+      "parameters": 1024,
+      "sha256": "7535767c4377914e045d60c1baf1ae5d7c32c9d2bebde25bbcc9743bcef3eca8"
+    },
+    "noise_pred_net.mid_modules.1.blocks.1.block.1.bias": {
+      "shape": [
+        1024
+      ],
+      "parameters": 1024,
+      "sha256": "6c8e20bd9f713e2ccec079aa312c5272da14e75fb55e6d033dbcb3b1248636ef"
+    },
+    "noise_pred_net.mid_modules.1.cond_encoder.1.weight": {
+      "shape": [
+        2048,
+        1545
+      ],
+      "parameters": 3164160,
+      "sha256": "3d82780fded32c040eb147b950776cb87108773ecc2f7da67e5cb22cf6319fe9"
+    },
+    "noise_pred_net.mid_modules.1.cond_encoder.1.bias": {
+      "shape": [
+        2048
+      ],
+      "parameters": 2048,
+      "sha256": "986ee8279f6bc69a6a08b83f6a0aaf1326209dbbef5e82c5848472099bbc0899"
+    },
+    "noise_pred_net.diffusion_step_encoder.1.weight": {
+      "shape": [
+        1024,
+        256
+      ],
+      "parameters": 262144,
+      "sha256": "64440ee4591db1bf25e8fa6f5481683a13a0de47b4e413e4580919b2d1e38538"
+    },
+    "noise_pred_net.diffusion_step_encoder.1.bias": {
+      "shape": [
+        1024
+      ],
+      "parameters": 1024,
+      "sha256": "743a66fbfcffb995b4b0e866144e22735759c54e158a2849da21ed8aa31bf2ef"
+    },
+    "noise_pred_net.diffusion_step_encoder.3.weight": {
+      "shape": [
+        256,
+        1024
+      ],
+      "parameters": 262144,
+      "sha256": "473f896685b8d6ec919f831c0788590577f4301ef6646e05c7a14bd942f073fa"
+    },
+    "noise_pred_net.diffusion_step_encoder.3.bias": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "5007b74846951c0b7e981c15a8a4e7877a402753aff838a6487b21480ba83c52"
+    },
+    "noise_pred_net.up_modules.0.0.blocks.0.block.0.weight": {
+      "shape": [
+        512,
+        2048,
+        5
+      ],
+      "parameters": 5242880,
+      "sha256": "f9809a50ee2b15d3bd2f3b47cffcb8b8a460539bd52babff17562e6cdf085818"
+    },
+    "noise_pred_net.up_modules.0.0.blocks.0.block.0.bias": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "3b678d18c69078115d0194c016e3606068bf0ae529bb4685c74001fd648018bc"
+    },
+    "noise_pred_net.up_modules.0.0.blocks.0.block.1.weight": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "35e533a6231c64e17a5148384828e7a5a62f92ac6d9f61c0e65c63c48ba05eb4"
+    },
+    "noise_pred_net.up_modules.0.0.blocks.0.block.1.bias": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "e8995671ecc3c043f7a9527d6226ba124db4965bcd1cd0304b7c190106955b06"
+    },
+    "noise_pred_net.up_modules.0.0.blocks.1.block.0.weight": {
+      "shape": [
+        512,
+        512,
+        5
+      ],
+      "parameters": 1310720,
+      "sha256": "8a46fc19e8a37d9d10d09e6c47dfc15c8267b5b3e0060bfbc7d866b69f500fd2"
+    },
+    "noise_pred_net.up_modules.0.0.blocks.1.block.0.bias": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "919dfb3fdfb7a6879ae3a767997d8063059219605927b22d5e77543f2bb72e62"
+    },
+    "noise_pred_net.up_modules.0.0.blocks.1.block.1.weight": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "c76284e666f4e7df57a74aa150facc4a3f74cb39d1231dd044fcc5ea8b5968ef"
+    },
+    "noise_pred_net.up_modules.0.0.blocks.1.block.1.bias": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "fb260ad0bb86b92e16e96a140de7c8515639402c41f0ebd7919541962806dec9"
+    },
+    "noise_pred_net.up_modules.0.0.cond_encoder.1.weight": {
+      "shape": [
+        1024,
+        1545
+      ],
+      "parameters": 1582080,
+      "sha256": "49a88acd8eb44e77b2a7361a849742ebddbe027ba22c0217dfa9feda9b05064f"
+    },
+    "noise_pred_net.up_modules.0.0.cond_encoder.1.bias": {
+      "shape": [
+        1024
+      ],
+      "parameters": 1024,
+      "sha256": "7f3a077db56e4f73f9e7383723cbed2c7dc4293eedbebd38c5934a84df3180fd"
+    },
+    "noise_pred_net.up_modules.0.0.residual_conv.weight": {
+      "shape": [
+        512,
+        2048,
+        1
+      ],
+      "parameters": 1048576,
+      "sha256": "5474ae0b235f500a94107ef44b8e30bcea6c0c1843cf62accc57f0d243a86cb2"
+    },
+    "noise_pred_net.up_modules.0.0.residual_conv.bias": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "2b27fad12f8322de9a599d51878c89e6c481f791c96e08a0acc33cd381a73d9a"
+    },
+    "noise_pred_net.up_modules.0.1.blocks.0.block.0.weight": {
+      "shape": [
+        512,
+        512,
+        5
+      ],
+      "parameters": 1310720,
+      "sha256": "2e9bad665b643eaa90842f4f1fcdd2a193a4b2a594bac2708a30cc87f31f5261"
+    },
+    "noise_pred_net.up_modules.0.1.blocks.0.block.0.bias": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "faad44ac841bf13198000300a27d645291a575d3539ad2c9480862ce729aaefe"
+    },
+    "noise_pred_net.up_modules.0.1.blocks.0.block.1.weight": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "b3e80b65e0d86ca6e44aa69277e45e4fcf01c05c9b588041925c8f436cab0a9d"
+    },
+    "noise_pred_net.up_modules.0.1.blocks.0.block.1.bias": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "540eb59210b8d3ac12341c82718558d7178416f101cd182e548666990665e864"
+    },
+    "noise_pred_net.up_modules.0.1.blocks.1.block.0.weight": {
+      "shape": [
+        512,
+        512,
+        5
+      ],
+      "parameters": 1310720,
+      "sha256": "df66fd0f3c218adc7f25de69e226a818d9e17e5da2a105506a58e72a01022ce5"
+    },
+    "noise_pred_net.up_modules.0.1.blocks.1.block.0.bias": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "5b745f04f202bec6705eed88c79391273cb53331a3e36a3a3bc93b2a455ec8b0"
+    },
+    "noise_pred_net.up_modules.0.1.blocks.1.block.1.weight": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "bcb31e24c2a99d20f46ef5637af7165167e3c44d5400cf8fc80871c4c0ada799"
+    },
+    "noise_pred_net.up_modules.0.1.blocks.1.block.1.bias": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "5ad5d3a3cbfc625441bd97eed2f0d9d1cdb611732e3e1e88c42c036e5dd9740c"
+    },
+    "noise_pred_net.up_modules.0.1.cond_encoder.1.weight": {
+      "shape": [
+        1024,
+        1545
+      ],
+      "parameters": 1582080,
+      "sha256": "c11c9e2b683acbb1fcce247f7073f1200639dd38ee4c129c48a6c55662ca9e2f"
+    },
+    "noise_pred_net.up_modules.0.1.cond_encoder.1.bias": {
+      "shape": [
+        1024
+      ],
+      "parameters": 1024,
+      "sha256": "638ae0c5722012ae25429fbb7f7861004648cc05f323c0dc97c71cbec5e7aee4"
+    },
+    "noise_pred_net.up_modules.0.2.conv.weight": {
+      "shape": [
+        512,
+        512,
+        4
+      ],
+      "parameters": 1048576,
+      "sha256": "2f6612201edfb9b27e11390f04b3611752a2d9c8063aaa8e426213629ea9a339"
+    },
+    "noise_pred_net.up_modules.0.2.conv.bias": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "255d7571b4b2da73d70f22ea499a33542b9eb9ed49aeb204508bdd425cebdcbd"
+    },
+    "noise_pred_net.up_modules.1.0.blocks.0.block.0.weight": {
+      "shape": [
+        256,
+        1024,
+        5
+      ],
+      "parameters": 1310720,
+      "sha256": "23bda2675d76b19bba148f8c2795b460dc2bbbe9c906550ec8179671afa71fb4"
+    },
+    "noise_pred_net.up_modules.1.0.blocks.0.block.0.bias": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "4c8ac2f2ae55f31d1a9376502668821fedf15732bf164b35a7aeeb1f93300b1c"
+    },
+    "noise_pred_net.up_modules.1.0.blocks.0.block.1.weight": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "cb245545df21ff1c4fa073b437ebd1e4f5148630b0fce46eebebff6f28aa7ad5"
+    },
+    "noise_pred_net.up_modules.1.0.blocks.0.block.1.bias": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "3672c72cad712deecbbcd6fd2e5c45e24b71414ccb71c90356787a2cb49a1630"
+    },
+    "noise_pred_net.up_modules.1.0.blocks.1.block.0.weight": {
+      "shape": [
+        256,
+        256,
+        5
+      ],
+      "parameters": 327680,
+      "sha256": "04c0cf82e4ac2c9ad8cd89c07d75f839b64fac1c2fca54bc2bcae2a3ab872507"
+    },
+    "noise_pred_net.up_modules.1.0.blocks.1.block.0.bias": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "b442f5dc79e0a0657d4a60dfb49158cd558a61c9a90a7ad5b0a1e8a7a82c45fd"
+    },
+    "noise_pred_net.up_modules.1.0.blocks.1.block.1.weight": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "cbc7dc3d821e8cd271f01ac7382b1ab835f2cc9acb952277d7f2374b570f0ead"
+    },
+    "noise_pred_net.up_modules.1.0.blocks.1.block.1.bias": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "e953db3bc30476903b1def97a0aaeb36bbe0152d1b84a3dca2c3fed67d6a6ff9"
+    },
+    "noise_pred_net.up_modules.1.0.cond_encoder.1.weight": {
+      "shape": [
+        512,
+        1545
+      ],
+      "parameters": 791040,
+      "sha256": "ddaa318cdd9a5688864e7b60f97ff839ca0161d65dec50c65386b28551e81b61"
+    },
+    "noise_pred_net.up_modules.1.0.cond_encoder.1.bias": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "2dc7729b73be396b98c0419ba966d932b4abe1285646ac9867309308f720b5a4"
+    },
+    "noise_pred_net.up_modules.1.0.residual_conv.weight": {
+      "shape": [
+        256,
+        1024,
+        1
+      ],
+      "parameters": 262144,
+      "sha256": "adfa6857c705840f5b30149fcfa315418573924d39005b522f4fc9e33f2a9a21"
+    },
+    "noise_pred_net.up_modules.1.0.residual_conv.bias": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "8b511bf06874f89dda44c80e86fa70b2b917f6126559e95194896e7620e6e580"
+    },
+    "noise_pred_net.up_modules.1.1.blocks.0.block.0.weight": {
+      "shape": [
+        256,
+        256,
+        5
+      ],
+      "parameters": 327680,
+      "sha256": "9555feabe02921b9de889e9c96baa2acf19af656741a6980f4dd2934e32c0592"
+    },
+    "noise_pred_net.up_modules.1.1.blocks.0.block.0.bias": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "1514efea5c95dcfbe2ddf29e3f19890474bb7d36132afab5d5e27938dc51850b"
+    },
+    "noise_pred_net.up_modules.1.1.blocks.0.block.1.weight": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "c3c2faf4038c66336a55d198e8a3bc373dce8ccc0d11ca3d2b80f9605339ffac"
+    },
+    "noise_pred_net.up_modules.1.1.blocks.0.block.1.bias": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "8eed7896a9596777bb3de07473560b9b9c38216a721c023db974c1dd0ee01a3b"
+    },
+    "noise_pred_net.up_modules.1.1.blocks.1.block.0.weight": {
+      "shape": [
+        256,
+        256,
+        5
+      ],
+      "parameters": 327680,
+      "sha256": "f059c0c4a5921758328d12301694e8c6b2ce40f7ecebda509b42bc0df116db6e"
+    },
+    "noise_pred_net.up_modules.1.1.blocks.1.block.0.bias": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "bfd5eeac2ffb199b5e703a1778f072a5e1b829d2cef8a18ee769cb72f22abd29"
+    },
+    "noise_pred_net.up_modules.1.1.blocks.1.block.1.weight": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "5af8c28da6523dd7a3949972fd40af2e6430ccc14cd5366f046386815f821dc8"
+    },
+    "noise_pred_net.up_modules.1.1.blocks.1.block.1.bias": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "d4f108d28ef8479519d68ceb9c4fc08048440583ca40889cb8a25241c21f4d7d"
+    },
+    "noise_pred_net.up_modules.1.1.cond_encoder.1.weight": {
+      "shape": [
+        512,
+        1545
+      ],
+      "parameters": 791040,
+      "sha256": "64bd717e9f1bfad386f958c4a94f86e23dd4960c732e784a4d0022547287ee85"
+    },
+    "noise_pred_net.up_modules.1.1.cond_encoder.1.bias": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "59106145237b299be4d3d6073711d7e415c33351ab1b4324d9db073884e85a2b"
+    },
+    "noise_pred_net.up_modules.1.2.conv.weight": {
+      "shape": [
+        256,
+        256,
+        4
+      ],
+      "parameters": 262144,
+      "sha256": "ad98dfb6d982610e96ba67c014258a63f8a9c364798a8b60c7e8c4f781c4ce01"
+    },
+    "noise_pred_net.up_modules.1.2.conv.bias": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "9dc943c66ad463836c769a80c3cd3da7cba9c2eb6c3e860301c657d9467328ed"
+    },
+    "noise_pred_net.down_modules.0.0.blocks.0.block.0.weight": {
+      "shape": [
+        256,
+        7,
+        5
+      ],
+      "parameters": 8960,
+      "sha256": "f349248fdc531f125739ef1b742103f4f09baf2e14708bbb3ae8ec24ecf223da"
+    },
+    "noise_pred_net.down_modules.0.0.blocks.0.block.0.bias": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "45f40b9a5834adc541e84b19f108dc1a225b2cb48e8df474c0a9152a896dee9e"
+    },
+    "noise_pred_net.down_modules.0.0.blocks.0.block.1.weight": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "2aac627a3bd6c88e039a510ee9a576144532b544560083b33eb54f272ecf9c8b"
+    },
+    "noise_pred_net.down_modules.0.0.blocks.0.block.1.bias": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "50f1ad6b29f03f8a96a678b40921f668a47dd43d736947f587b128e8e6f3f690"
+    },
+    "noise_pred_net.down_modules.0.0.blocks.1.block.0.weight": {
+      "shape": [
+        256,
+        256,
+        5
+      ],
+      "parameters": 327680,
+      "sha256": "08568cd14b09ee2471440e1bf82b7ec9835881aba20242d336f2cbf8867fcc49"
+    },
+    "noise_pred_net.down_modules.0.0.blocks.1.block.0.bias": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "0623436f0ec2a9cdc6c96e443db91aed6fc6fd9eb9325f5b9dfb17079ec0f4e7"
+    },
+    "noise_pred_net.down_modules.0.0.blocks.1.block.1.weight": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "03c84410e1115fa9a3e07c9933754c34359f1b42c8b12b6bf598b85e0c4245de"
+    },
+    "noise_pred_net.down_modules.0.0.blocks.1.block.1.bias": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "2642f250d29e7f49e21749091bfd2458a7ce345e7acab3a5055c5ec10afc2bda"
+    },
+    "noise_pred_net.down_modules.0.0.cond_encoder.1.weight": {
+      "shape": [
+        512,
+        1545
+      ],
+      "parameters": 791040,
+      "sha256": "68dfedb9a805131404de440074af268573d8cda3dcd58ff23ae16be6bf906d43"
+    },
+    "noise_pred_net.down_modules.0.0.cond_encoder.1.bias": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "24e237388b22963fa6a581ee55dc91cb75764e1a54889a87843f919748dadf0a"
+    },
+    "noise_pred_net.down_modules.0.0.residual_conv.weight": {
+      "shape": [
+        256,
+        7,
+        1
+      ],
+      "parameters": 1792,
+      "sha256": "8ecf42b95693cbfa291f41e7efad70169311582366643f584578a8289a0beb88"
+    },
+    "noise_pred_net.down_modules.0.0.residual_conv.bias": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "aa07bf783bfcb4c9fc072a9beeeeda9c71ac51ba3d60f57fa5cacb237df8a3ad"
+    },
+    "noise_pred_net.down_modules.0.1.blocks.0.block.0.weight": {
+      "shape": [
+        256,
+        256,
+        5
+      ],
+      "parameters": 327680,
+      "sha256": "5e6398320c98d827d3d82501d9139e0ac47c495b47db33d83d1438b4c5ddc3d5"
+    },
+    "noise_pred_net.down_modules.0.1.blocks.0.block.0.bias": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "50c01bd32911c7e87cbdd8c26a01eb37e4958a6e50f82e964d6e519c6a60cd37"
+    },
+    "noise_pred_net.down_modules.0.1.blocks.0.block.1.weight": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "6f13f2ccd7dd15f385be8ee4e9f0bf642bfa1da7e2fcb30c4b533185cf707199"
+    },
+    "noise_pred_net.down_modules.0.1.blocks.0.block.1.bias": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "d15559ad5b9ce998e57a5599249cc7702be73dab369db09e401f22ada41a1045"
+    },
+    "noise_pred_net.down_modules.0.1.blocks.1.block.0.weight": {
+      "shape": [
+        256,
+        256,
+        5
+      ],
+      "parameters": 327680,
+      "sha256": "2398f8ca203de910667a9e61b4fe7c7a14ea3a207bce94b10612e136d6c4bea3"
+    },
+    "noise_pred_net.down_modules.0.1.blocks.1.block.0.bias": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "5b8ca4b0e60315cd4b67d2e8e95bdd959e9e2630009ce0acd6970370624a1fa5"
+    },
+    "noise_pred_net.down_modules.0.1.blocks.1.block.1.weight": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "a628e6a50fe24b9c6aed3311672124b956b30b7d2c3c46e7159c55727bbf4ad4"
+    },
+    "noise_pred_net.down_modules.0.1.blocks.1.block.1.bias": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "a52a0add61548ea21a44df065cda1ac3c988cb9f7145b493125cd6907b650569"
+    },
+    "noise_pred_net.down_modules.0.1.cond_encoder.1.weight": {
+      "shape": [
+        512,
+        1545
+      ],
+      "parameters": 791040,
+      "sha256": "0ef438781f9c765cbaf2795c1f12ff58c8c5ff09f30007f910caf66075f916b9"
+    },
+    "noise_pred_net.down_modules.0.1.cond_encoder.1.bias": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "0a400bf6b8c8e23dca0d14a5e060566dca92f9ecf7bd7fa2d9b85f223b9ba23e"
+    },
+    "noise_pred_net.down_modules.0.2.conv.weight": {
+      "shape": [
+        256,
+        256,
+        3
+      ],
+      "parameters": 196608,
+      "sha256": "9c27b3c74c908322491b019c30bd2802a39c1c8ebb3563decd7f7d6a31b1a6a2"
+    },
+    "noise_pred_net.down_modules.0.2.conv.bias": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "3bae9e9c205f38fabb9ebe7c2fac5228a8ad5962c15d022741be0ed2d6b579b9"
+    },
+    "noise_pred_net.down_modules.1.0.blocks.0.block.0.weight": {
+      "shape": [
+        512,
+        256,
+        5
+      ],
+      "parameters": 655360,
+      "sha256": "6ca6106002041c70bd50dec61cf016124529e7fc3f5c5380ecce71395c2fae81"
+    },
+    "noise_pred_net.down_modules.1.0.blocks.0.block.0.bias": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "a1106d8e602f5f52c1a51400d5993b24656b11c7dac987ec024ec11e4b767b25"
+    },
+    "noise_pred_net.down_modules.1.0.blocks.0.block.1.weight": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "ff3139feacf3d692b56ab7defd38c1f7ef4c7b6f18ae8eb435b7fd4ae469cc55"
+    },
+    "noise_pred_net.down_modules.1.0.blocks.0.block.1.bias": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "8d080be667b996bbd4b193eb89725f21071b0faeb583b725ee173acff62f1b61"
+    },
+    "noise_pred_net.down_modules.1.0.blocks.1.block.0.weight": {
+      "shape": [
+        512,
+        512,
+        5
+      ],
+      "parameters": 1310720,
+      "sha256": "59c3ac3be282304a96ba26e495896cb6683177ce79ef8646e56d811f05768212"
+    },
+    "noise_pred_net.down_modules.1.0.blocks.1.block.0.bias": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "bbbdae5c5ca8b4249eb683db363bfbc456b40c3c0adb60f0f038504105a8dae2"
+    },
+    "noise_pred_net.down_modules.1.0.blocks.1.block.1.weight": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "e755745c716511059641f984aea0347303631ddff211cba0d8da260e85b8b462"
+    },
+    "noise_pred_net.down_modules.1.0.blocks.1.block.1.bias": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "f9712a57193769d273eae5ca4cdbd5606f50ac4d45bae87866277829397f35e3"
+    },
+    "noise_pred_net.down_modules.1.0.cond_encoder.1.weight": {
+      "shape": [
+        1024,
+        1545
+      ],
+      "parameters": 1582080,
+      "sha256": "eb82e8e2e75fcde1c2850914a16fabe370db688b6bc1cce3593c2e5a9870be51"
+    },
+    "noise_pred_net.down_modules.1.0.cond_encoder.1.bias": {
+      "shape": [
+        1024
+      ],
+      "parameters": 1024,
+      "sha256": "2ec1659d513c936479051703d6191a270085fb9895a16e71b97105d6c48d3064"
+    },
+    "noise_pred_net.down_modules.1.0.residual_conv.weight": {
+      "shape": [
+        512,
+        256,
+        1
+      ],
+      "parameters": 131072,
+      "sha256": "8ae7380c187e77ff715a7f8481a594c68cc74b8e8e893b5cda4dd938d1f4b378"
+    },
+    "noise_pred_net.down_modules.1.0.residual_conv.bias": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "2a6ec501c54b1f70957765ceb54180d7d5380f949c849c2a5007a64ed5d6ce31"
+    },
+    "noise_pred_net.down_modules.1.1.blocks.0.block.0.weight": {
+      "shape": [
+        512,
+        512,
+        5
+      ],
+      "parameters": 1310720,
+      "sha256": "2a2d0285fc3e7055d02a8e66f58c5e4f073a2bef48f1bad64b93d10a7adcfd7a"
+    },
+    "noise_pred_net.down_modules.1.1.blocks.0.block.0.bias": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "63441708ed7a8dd4e6feb90a56cebb86a84b872dede27025bd318fa40fd03308"
+    },
+    "noise_pred_net.down_modules.1.1.blocks.0.block.1.weight": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "8f95b71b67e56bc04a3f85fa80d5656db141bc6aa57fd1bbb2d1b146194c1b18"
+    },
+    "noise_pred_net.down_modules.1.1.blocks.0.block.1.bias": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "e5ea56473c52db79ad98a74c54af4e4a175cf83849696f1c20443a96f902ece8"
+    },
+    "noise_pred_net.down_modules.1.1.blocks.1.block.0.weight": {
+      "shape": [
+        512,
+        512,
+        5
+      ],
+      "parameters": 1310720,
+      "sha256": "3269e97d6572f6fc9ba64e430a95e839caf220cb20482faac228310eae2ce9f3"
+    },
+    "noise_pred_net.down_modules.1.1.blocks.1.block.0.bias": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "c547efa360fb5e0bc8c6de597ca464c4e619e5857ce08a65ca67cb488baeafb8"
+    },
+    "noise_pred_net.down_modules.1.1.blocks.1.block.1.weight": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "ab5be8c03883c7e464a9eaa228db34781f4015a0a9819539da1d87df8c5ddb79"
+    },
+    "noise_pred_net.down_modules.1.1.blocks.1.block.1.bias": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "a49822c3f57750ecea5754af1c6cc926240b526be4d80f86a6ccfe0d6a0360df"
+    },
+    "noise_pred_net.down_modules.1.1.cond_encoder.1.weight": {
+      "shape": [
+        1024,
+        1545
+      ],
+      "parameters": 1582080,
+      "sha256": "35538920d39e03f242954dca0d97c5fc63506c8f40c1122c434e9d8e36962fbc"
+    },
+    "noise_pred_net.down_modules.1.1.cond_encoder.1.bias": {
+      "shape": [
+        1024
+      ],
+      "parameters": 1024,
+      "sha256": "068a497bd904963b632abbca5ff2f1d1641460d7fa3ce03b609b607c3d0ae84b"
+    },
+    "noise_pred_net.down_modules.1.2.conv.weight": {
+      "shape": [
+        512,
+        512,
+        3
+      ],
+      "parameters": 786432,
+      "sha256": "a6c603a7e697ec5adf996079095b4353e761b9ae1388cbb09249171d34b24a0e"
+    },
+    "noise_pred_net.down_modules.1.2.conv.bias": {
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "sha256": "c4a8cd777ba58e1d455463613f355f47017e7e21a1f9193be043ccccaa979fdc"
+    },
+    "noise_pred_net.down_modules.2.0.blocks.0.block.0.weight": {
+      "shape": [
+        1024,
+        512,
+        5
+      ],
+      "parameters": 2621440,
+      "sha256": "3bf8d39a26fc80f057909cf631f39a5affce910feb0f0047f54574e2b57df1b4"
+    },
+    "noise_pred_net.down_modules.2.0.blocks.0.block.0.bias": {
+      "shape": [
+        1024
+      ],
+      "parameters": 1024,
+      "sha256": "41d96d84df300287e8a7bb145429ed7f9b4fd8b6ddef5d9d5a968f98eafc5eb6"
+    },
+    "noise_pred_net.down_modules.2.0.blocks.0.block.1.weight": {
+      "shape": [
+        1024
+      ],
+      "parameters": 1024,
+      "sha256": "0ac55c6d1edef9986fa4ba99fa00f087fe8380d2f0d40be21e2c286d5b7ab766"
+    },
+    "noise_pred_net.down_modules.2.0.blocks.0.block.1.bias": {
+      "shape": [
+        1024
+      ],
+      "parameters": 1024,
+      "sha256": "1ff6be3df2ef1633189332a3463635ea97b61ff32eb914ca8091729ede5846b0"
+    },
+    "noise_pred_net.down_modules.2.0.blocks.1.block.0.weight": {
+      "shape": [
+        1024,
+        1024,
+        5
+      ],
+      "parameters": 5242880,
+      "sha256": "32df9fa9c078779d3a1499b4c224075001562bd63a2ad3c3cac597baa3710123"
+    },
+    "noise_pred_net.down_modules.2.0.blocks.1.block.0.bias": {
+      "shape": [
+        1024
+      ],
+      "parameters": 1024,
+      "sha256": "99b58700e2510a840f2535dcd4b4a5f18cdff8f5ee60641d5ec9578b362b3e76"
+    },
+    "noise_pred_net.down_modules.2.0.blocks.1.block.1.weight": {
+      "shape": [
+        1024
+      ],
+      "parameters": 1024,
+      "sha256": "26ac7d0a22a157b1d5c7a150ad2d98020e12b91998a4aeeb4fbbd6d512d125ab"
+    },
+    "noise_pred_net.down_modules.2.0.blocks.1.block.1.bias": {
+      "shape": [
+        1024
+      ],
+      "parameters": 1024,
+      "sha256": "91053f3a5613e2dcf4047ae15b1bee752da130ff7311160f67b304687d761141"
+    },
+    "noise_pred_net.down_modules.2.0.cond_encoder.1.weight": {
+      "shape": [
+        2048,
+        1545
+      ],
+      "parameters": 3164160,
+      "sha256": "063c5f84b22e98ae6c905b27cd913afee442e038e2340b28cd946c681ecee090"
+    },
+    "noise_pred_net.down_modules.2.0.cond_encoder.1.bias": {
+      "shape": [
+        2048
+      ],
+      "parameters": 2048,
+      "sha256": "bf5c4bd7fd9cf70ced0de11e2210f2b5c611afef89a22fd77259c5a3ff9eeb99"
+    },
+    "noise_pred_net.down_modules.2.0.residual_conv.weight": {
+      "shape": [
+        1024,
+        512,
+        1
+      ],
+      "parameters": 524288,
+      "sha256": "6d36a9a33515a158796b10466c72b9121f5ab7881f73877d0f1ba33aa826f4e0"
+    },
+    "noise_pred_net.down_modules.2.0.residual_conv.bias": {
+      "shape": [
+        1024
+      ],
+      "parameters": 1024,
+      "sha256": "30ff6d452a97f2ee02da1f7650e12ba7da7b8b80b6514b5593ab2cb3d0455ebb"
+    },
+    "noise_pred_net.down_modules.2.1.blocks.0.block.0.weight": {
+      "shape": [
+        1024,
+        1024,
+        5
+      ],
+      "parameters": 5242880,
+      "sha256": "152b1e9cee710b1f3f86767d09e2228703bb116d41cbb6b84d194fd98d2bee5b"
+    },
+    "noise_pred_net.down_modules.2.1.blocks.0.block.0.bias": {
+      "shape": [
+        1024
+      ],
+      "parameters": 1024,
+      "sha256": "b827817d4477b58e03f3cbbe66e9bc0f838bdc0c09c35db085169e6fecb34e83"
+    },
+    "noise_pred_net.down_modules.2.1.blocks.0.block.1.weight": {
+      "shape": [
+        1024
+      ],
+      "parameters": 1024,
+      "sha256": "f1fbb1f918b543354ca834cbf245ecaf47a210bb22d4bcb8f8ad42856be6d0bb"
+    },
+    "noise_pred_net.down_modules.2.1.blocks.0.block.1.bias": {
+      "shape": [
+        1024
+      ],
+      "parameters": 1024,
+      "sha256": "f3b5970d295a5a14d8770604f62ef1c329397f925a5468d5fa7428d1a1fe80e9"
+    },
+    "noise_pred_net.down_modules.2.1.blocks.1.block.0.weight": {
+      "shape": [
+        1024,
+        1024,
+        5
+      ],
+      "parameters": 5242880,
+      "sha256": "2bfbf98eb8ba5f3391c8db52cfdd5b820edb7d952dfde2d87ee72109af46d3e2"
+    },
+    "noise_pred_net.down_modules.2.1.blocks.1.block.0.bias": {
+      "shape": [
+        1024
+      ],
+      "parameters": 1024,
+      "sha256": "fbc22c0986cdd1e5d58c90d20844653fb8d23a2f88bac9399ab1d926b1580eba"
+    },
+    "noise_pred_net.down_modules.2.1.blocks.1.block.1.weight": {
+      "shape": [
+        1024
+      ],
+      "parameters": 1024,
+      "sha256": "ac077232de41a7651ffa90d7062d4e0d96c885bf6fdbbd2d8b67b584c0264903"
+    },
+    "noise_pred_net.down_modules.2.1.blocks.1.block.1.bias": {
+      "shape": [
+        1024
+      ],
+      "parameters": 1024,
+      "sha256": "99c1a6b1ec414ad7c0e1f1064f077e0f1e1b94e2933ea42fb42ec10383637b3a"
+    },
+    "noise_pred_net.down_modules.2.1.cond_encoder.1.weight": {
+      "shape": [
+        2048,
+        1545
+      ],
+      "parameters": 3164160,
+      "sha256": "804c8d6577659f5e8d3f4a95fb1c4f4141d73513c0d061eb65ef69f006327707"
+    },
+    "noise_pred_net.down_modules.2.1.cond_encoder.1.bias": {
+      "shape": [
+        2048
+      ],
+      "parameters": 2048,
+      "sha256": "ab856596fc095415601118a83ab71cdf263cc2bd4c1ef5683205d41ae4927ed9"
+    },
+    "noise_pred_net.final_conv.0.block.0.weight": {
+      "shape": [
+        256,
+        256,
+        5
+      ],
+      "parameters": 327680,
+      "sha256": "d3c5c0ec3b3a2c83fa5d9af3e99d5eacd435d3adf28b60a870e5c995653b6d08"
+    },
+    "noise_pred_net.final_conv.0.block.0.bias": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "80d8759466694447e2e1da3c96cd3f896bfc1519fce75addf66ce591413a54cb"
+    },
+    "noise_pred_net.final_conv.0.block.1.weight": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "314531f4aee64f9fdfd0a83837338765e35cd52fb2060d85c614d11f5d3ecde6"
+    },
+    "noise_pred_net.final_conv.0.block.1.bias": {
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "sha256": "13e36b9cacd0ab733de79eb221e832e3ebbfde19561accf3ab690ba9b52a2741"
+    },
+    "noise_pred_net.final_conv.1.weight": {
+      "shape": [
+        7,
+        256,
+        1
+      ],
+      "parameters": 1792,
+      "sha256": "5f20ff39db9138a816e802dc33d4bf3af22ef54816fcc7a1d23e18beb63a3388"
+    },
+    "noise_pred_net.final_conv.1.bias": {
+      "shape": [
+        7
+      ],
+      "parameters": 7,
+      "sha256": "68a532b50282d0f83c4dbceea32873b8b059463fe9230f59f049b042c41d0e24"
+    }
+  },
+  "changed": [
+    "vision_encoder.conv1.weight",
+    "vision_encoder.bn1.weight",
+    "vision_encoder.bn1.bias",
+    "vision_encoder.layer1.0.conv1.weight",
+    "vision_encoder.layer1.0.bn1.weight",
+    "vision_encoder.layer1.0.bn1.bias",
+    "vision_encoder.layer1.0.conv2.weight",
+    "vision_encoder.layer1.0.bn2.weight",
+    "vision_encoder.layer1.0.bn2.bias",
+    "vision_encoder.layer1.1.conv1.weight",
+    "vision_encoder.layer1.1.bn1.weight",
+    "vision_encoder.layer1.1.bn1.bias",
+    "vision_encoder.layer1.1.conv2.weight",
+    "vision_encoder.layer1.1.bn2.weight",
+    "vision_encoder.layer1.1.bn2.bias",
+    "vision_encoder.layer2.0.conv1.weight",
+    "vision_encoder.layer2.0.bn1.weight",
+    "vision_encoder.layer2.0.bn1.bias",
+    "vision_encoder.layer2.0.conv2.weight",
+    "vision_encoder.layer2.0.bn2.weight",
+    "vision_encoder.layer2.0.bn2.bias",
+    "vision_encoder.layer2.0.downsample.0.weight",
+    "vision_encoder.layer2.0.downsample.1.weight",
+    "vision_encoder.layer2.0.downsample.1.bias",
+    "vision_encoder.layer2.1.conv1.weight",
+    "vision_encoder.layer2.1.bn1.weight",
+    "vision_encoder.layer2.1.bn1.bias",
+    "vision_encoder.layer2.1.conv2.weight",
+    "vision_encoder.layer2.1.bn2.weight",
+    "vision_encoder.layer2.1.bn2.bias",
+    "vision_encoder.layer3.0.conv1.weight",
+    "vision_encoder.layer3.0.bn1.weight",
+    "vision_encoder.layer3.0.bn1.bias",
+    "vision_encoder.layer3.0.conv2.weight",
+    "vision_encoder.layer3.0.bn2.weight",
+    "vision_encoder.layer3.0.bn2.bias",
+    "vision_encoder.layer3.0.downsample.0.weight",
+    "vision_encoder.layer3.0.downsample.1.weight",
+    "vision_encoder.layer3.0.downsample.1.bias",
+    "vision_encoder.layer3.1.conv1.weight",
+    "vision_encoder.layer3.1.bn1.weight",
+    "vision_encoder.layer3.1.bn1.bias",
+    "vision_encoder.layer3.1.conv2.weight",
+    "vision_encoder.layer3.1.bn2.weight",
+    "vision_encoder.layer3.1.bn2.bias",
+    "vision_encoder.layer4.0.conv1.weight",
+    "vision_encoder.layer4.0.bn1.weight",
+    "vision_encoder.layer4.0.bn1.bias",
+    "vision_encoder.layer4.0.conv2.weight",
+    "vision_encoder.layer4.0.bn2.weight",
+    "vision_encoder.layer4.0.bn2.bias",
+    "vision_encoder.layer4.0.downsample.0.weight",
+    "vision_encoder.layer4.0.downsample.1.weight",
+    "vision_encoder.layer4.0.downsample.1.bias",
+    "vision_encoder.layer4.1.conv1.weight",
+    "vision_encoder.layer4.1.bn1.weight",
+    "vision_encoder.layer4.1.bn1.bias",
+    "vision_encoder.layer4.1.conv2.weight",
+    "vision_encoder.layer4.1.bn2.weight",
+    "vision_encoder.layer4.1.bn2.bias",
+    "noise_pred_net.mid_modules.0.blocks.0.block.0.weight",
+    "noise_pred_net.mid_modules.0.blocks.0.block.0.bias",
+    "noise_pred_net.mid_modules.0.blocks.0.block.1.weight",
+    "noise_pred_net.mid_modules.0.blocks.0.block.1.bias",
+    "noise_pred_net.mid_modules.0.blocks.1.block.0.weight",
+    "noise_pred_net.mid_modules.0.blocks.1.block.0.bias",
+    "noise_pred_net.mid_modules.0.blocks.1.block.1.weight",
+    "noise_pred_net.mid_modules.0.blocks.1.block.1.bias",
+    "noise_pred_net.mid_modules.0.cond_encoder.1.weight",
+    "noise_pred_net.mid_modules.0.cond_encoder.1.bias",
+    "noise_pred_net.mid_modules.1.blocks.0.block.0.weight",
+    "noise_pred_net.mid_modules.1.blocks.0.block.0.bias",
+    "noise_pred_net.mid_modules.1.blocks.0.block.1.weight",
+    "noise_pred_net.mid_modules.1.blocks.0.block.1.bias",
+    "noise_pred_net.mid_modules.1.blocks.1.block.0.weight",
+    "noise_pred_net.mid_modules.1.blocks.1.block.0.bias",
+    "noise_pred_net.mid_modules.1.blocks.1.block.1.weight",
+    "noise_pred_net.mid_modules.1.blocks.1.block.1.bias",
+    "noise_pred_net.mid_modules.1.cond_encoder.1.weight",
+    "noise_pred_net.mid_modules.1.cond_encoder.1.bias",
+    "noise_pred_net.diffusion_step_encoder.1.weight",
+    "noise_pred_net.diffusion_step_encoder.1.bias",
+    "noise_pred_net.diffusion_step_encoder.3.weight",
+    "noise_pred_net.diffusion_step_encoder.3.bias",
+    "noise_pred_net.up_modules.0.0.blocks.0.block.0.weight",
+    "noise_pred_net.up_modules.0.0.blocks.0.block.0.bias",
+    "noise_pred_net.up_modules.0.0.blocks.0.block.1.weight",
+    "noise_pred_net.up_modules.0.0.blocks.0.block.1.bias",
+    "noise_pred_net.up_modules.0.0.blocks.1.block.0.weight",
+    "noise_pred_net.up_modules.0.0.blocks.1.block.0.bias",
+    "noise_pred_net.up_modules.0.0.blocks.1.block.1.weight",
+    "noise_pred_net.up_modules.0.0.blocks.1.block.1.bias",
+    "noise_pred_net.up_modules.0.0.cond_encoder.1.weight",
+    "noise_pred_net.up_modules.0.0.cond_encoder.1.bias",
+    "noise_pred_net.up_modules.0.0.residual_conv.weight",
+    "noise_pred_net.up_modules.0.0.residual_conv.bias",
+    "noise_pred_net.up_modules.0.1.blocks.0.block.0.weight",
+    "noise_pred_net.up_modules.0.1.blocks.0.block.0.bias",
+    "noise_pred_net.up_modules.0.1.blocks.0.block.1.weight",
+    "noise_pred_net.up_modules.0.1.blocks.0.block.1.bias",
+    "noise_pred_net.up_modules.0.1.blocks.1.block.0.weight",
+    "noise_pred_net.up_modules.0.1.blocks.1.block.0.bias",
+    "noise_pred_net.up_modules.0.1.blocks.1.block.1.weight",
+    "noise_pred_net.up_modules.0.1.blocks.1.block.1.bias",
+    "noise_pred_net.up_modules.0.1.cond_encoder.1.weight",
+    "noise_pred_net.up_modules.0.1.cond_encoder.1.bias",
+    "noise_pred_net.up_modules.0.2.conv.weight",
+    "noise_pred_net.up_modules.0.2.conv.bias",
+    "noise_pred_net.up_modules.1.0.blocks.0.block.0.weight",
+    "noise_pred_net.up_modules.1.0.blocks.0.block.0.bias",
+    "noise_pred_net.up_modules.1.0.blocks.0.block.1.weight",
+    "noise_pred_net.up_modules.1.0.blocks.0.block.1.bias",
+    "noise_pred_net.up_modules.1.0.blocks.1.block.0.weight",
+    "noise_pred_net.up_modules.1.0.blocks.1.block.0.bias",
+    "noise_pred_net.up_modules.1.0.blocks.1.block.1.weight",
+    "noise_pred_net.up_modules.1.0.blocks.1.block.1.bias",
+    "noise_pred_net.up_modules.1.0.cond_encoder.1.weight",
+    "noise_pred_net.up_modules.1.0.cond_encoder.1.bias",
+    "noise_pred_net.up_modules.1.0.residual_conv.weight",
+    "noise_pred_net.up_modules.1.0.residual_conv.bias",
+    "noise_pred_net.up_modules.1.1.blocks.0.block.0.weight",
+    "noise_pred_net.up_modules.1.1.blocks.0.block.0.bias",
+    "noise_pred_net.up_modules.1.1.blocks.0.block.1.weight",
+    "noise_pred_net.up_modules.1.1.blocks.0.block.1.bias",
+    "noise_pred_net.up_modules.1.1.blocks.1.block.0.weight",
+    "noise_pred_net.up_modules.1.1.blocks.1.block.0.bias",
+    "noise_pred_net.up_modules.1.1.blocks.1.block.1.weight",
+    "noise_pred_net.up_modules.1.1.blocks.1.block.1.bias",
+    "noise_pred_net.up_modules.1.1.cond_encoder.1.weight",
+    "noise_pred_net.up_modules.1.1.cond_encoder.1.bias",
+    "noise_pred_net.up_modules.1.2.conv.weight",
+    "noise_pred_net.up_modules.1.2.conv.bias",
+    "noise_pred_net.down_modules.0.0.blocks.0.block.0.weight",
+    "noise_pred_net.down_modules.0.0.blocks.0.block.0.bias",
+    "noise_pred_net.down_modules.0.0.blocks.0.block.1.weight",
+    "noise_pred_net.down_modules.0.0.blocks.0.block.1.bias",
+    "noise_pred_net.down_modules.0.0.blocks.1.block.0.weight",
+    "noise_pred_net.down_modules.0.0.blocks.1.block.0.bias",
+    "noise_pred_net.down_modules.0.0.blocks.1.block.1.weight",
+    "noise_pred_net.down_modules.0.0.blocks.1.block.1.bias",
+    "noise_pred_net.down_modules.0.0.cond_encoder.1.weight",
+    "noise_pred_net.down_modules.0.0.cond_encoder.1.bias",
+    "noise_pred_net.down_modules.0.0.residual_conv.weight",
+    "noise_pred_net.down_modules.0.0.residual_conv.bias",
+    "noise_pred_net.down_modules.0.1.blocks.0.block.0.weight",
+    "noise_pred_net.down_modules.0.1.blocks.0.block.0.bias",
+    "noise_pred_net.down_modules.0.1.blocks.0.block.1.weight",
+    "noise_pred_net.down_modules.0.1.blocks.0.block.1.bias",
+    "noise_pred_net.down_modules.0.1.blocks.1.block.0.weight",
+    "noise_pred_net.down_modules.0.1.blocks.1.block.0.bias",
+    "noise_pred_net.down_modules.0.1.blocks.1.block.1.weight",
+    "noise_pred_net.down_modules.0.1.blocks.1.block.1.bias",
+    "noise_pred_net.down_modules.0.1.cond_encoder.1.weight",
+    "noise_pred_net.down_modules.0.1.cond_encoder.1.bias",
+    "noise_pred_net.down_modules.0.2.conv.weight",
+    "noise_pred_net.down_modules.0.2.conv.bias",
+    "noise_pred_net.down_modules.1.0.blocks.0.block.0.weight",
+    "noise_pred_net.down_modules.1.0.blocks.0.block.0.bias",
+    "noise_pred_net.down_modules.1.0.blocks.0.block.1.weight",
+    "noise_pred_net.down_modules.1.0.blocks.0.block.1.bias",
+    "noise_pred_net.down_modules.1.0.blocks.1.block.0.weight",
+    "noise_pred_net.down_modules.1.0.blocks.1.block.0.bias",
+    "noise_pred_net.down_modules.1.0.blocks.1.block.1.weight",
+    "noise_pred_net.down_modules.1.0.blocks.1.block.1.bias",
+    "noise_pred_net.down_modules.1.0.cond_encoder.1.weight",
+    "noise_pred_net.down_modules.1.0.cond_encoder.1.bias",
+    "noise_pred_net.down_modules.1.0.residual_conv.weight",
+    "noise_pred_net.down_modules.1.0.residual_conv.bias",
+    "noise_pred_net.down_modules.1.1.blocks.0.block.0.weight",
+    "noise_pred_net.down_modules.1.1.blocks.0.block.0.bias",
+    "noise_pred_net.down_modules.1.1.blocks.0.block.1.weight",
+    "noise_pred_net.down_modules.1.1.blocks.0.block.1.bias",
+    "noise_pred_net.down_modules.1.1.blocks.1.block.0.weight",
+    "noise_pred_net.down_modules.1.1.blocks.1.block.0.bias",
+    "noise_pred_net.down_modules.1.1.blocks.1.block.1.weight",
+    "noise_pred_net.down_modules.1.1.blocks.1.block.1.bias",
+    "noise_pred_net.down_modules.1.1.cond_encoder.1.weight",
+    "noise_pred_net.down_modules.1.1.cond_encoder.1.bias",
+    "noise_pred_net.down_modules.1.2.conv.weight",
+    "noise_pred_net.down_modules.1.2.conv.bias",
+    "noise_pred_net.down_modules.2.0.blocks.0.block.0.weight",
+    "noise_pred_net.down_modules.2.0.blocks.0.block.0.bias",
+    "noise_pred_net.down_modules.2.0.blocks.0.block.1.weight",
+    "noise_pred_net.down_modules.2.0.blocks.0.block.1.bias",
+    "noise_pred_net.down_modules.2.0.blocks.1.block.0.weight",
+    "noise_pred_net.down_modules.2.0.blocks.1.block.0.bias",
+    "noise_pred_net.down_modules.2.0.blocks.1.block.1.weight",
+    "noise_pred_net.down_modules.2.0.blocks.1.block.1.bias",
+    "noise_pred_net.down_modules.2.0.cond_encoder.1.weight",
+    "noise_pred_net.down_modules.2.0.cond_encoder.1.bias",
+    "noise_pred_net.down_modules.2.0.residual_conv.weight",
+    "noise_pred_net.down_modules.2.0.residual_conv.bias",
+    "noise_pred_net.down_modules.2.1.blocks.0.block.0.weight",
+    "noise_pred_net.down_modules.2.1.blocks.0.block.0.bias",
+    "noise_pred_net.down_modules.2.1.blocks.0.block.1.weight",
+    "noise_pred_net.down_modules.2.1.blocks.0.block.1.bias",
+    "noise_pred_net.down_modules.2.1.blocks.1.block.0.weight",
+    "noise_pred_net.down_modules.2.1.blocks.1.block.0.bias",
+    "noise_pred_net.down_modules.2.1.blocks.1.block.1.weight",
+    "noise_pred_net.down_modules.2.1.blocks.1.block.1.bias",
+    "noise_pred_net.down_modules.2.1.cond_encoder.1.weight",
+    "noise_pred_net.down_modules.2.1.cond_encoder.1.bias",
+    "noise_pred_net.final_conv.0.block.0.weight",
+    "noise_pred_net.final_conv.0.block.0.bias",
+    "noise_pred_net.final_conv.0.block.1.weight",
+    "noise_pred_net.final_conv.0.block.1.bias",
+    "noise_pred_net.final_conv.1.weight",
+    "noise_pred_net.final_conv.1.bias"
+  ]
+}

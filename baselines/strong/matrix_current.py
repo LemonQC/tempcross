@@ -18,7 +18,7 @@ def main():
         '|---|---|---|---:|---:|---|']
     for m in methods:
         s=read(out(m)/'status.json');link='RESULTS.md' if (out(m)/'RESULTS.md').exists() else 'status.json'
-        if m=='octo_small' and s['status']=='COMPLETE_FAITHFUL_PORT':roles[m]='联合设置已验收，禁止重跑'
+        if m in ['octo_small','smolvla'] and s['status']=='COMPLETE_FAITHFUL_PORT':roles[m]='联合设置已验收，禁止重跑'
         if m==scope['active_method'] and s['status'] not in ['COMPLETE_OFFICIAL','COMPLETE_FAITHFUL_PORT','COMPLETE_REIMPLEMENTATION']:roles[m]='本轮唯一执行候选'
         if m==scope['active_method'] and s['status'] in ['COMPLETE_OFFICIAL','COMPLETE_FAITHFUL_PORT','COMPLETE_REIMPLEMENTATION']:roles[m]='本轮已验收，禁止重跑'
         lines.append(f"| {m} | {roles[m]} | {s['status']} | {s.get('actual_training_updates',0)} | {s.get('physical_evaluation_episodes',0)} | [证据](../results/strong_baselines/{m}/{link}) |")
@@ -38,6 +38,7 @@ def main():
         '模型真实更新和完整任务smoke通过后才冻结正式训练预算与验证选模规则。当前阶段不得把安装成功或仅forward称为完整Baseline。',
         'Octo-Small联合设置已完成24000正式更新、80正式评测：两任务均0/40。另有6次丢弃探针更新和2条smoke；target-only未运行。零成功率来自实际完整任务评测。',
         'SmolVLA本轮单独使用RGB+关节/夹爪状态信息条件，保持原canonical OSC7动作。原HDF5的joint_states经核对是速度，不能误作位置；状态适配核对真实保存qpos和部署命名关节读数。该候选不得称为RGB-only等输入比较。',
+        'Flow Matching Policy采用HRI-EU官方视觉流组件：RGB96+真实qpos9+冻结CLIP768完整指令，原版GN ResNet18/条件U-Net、TorchCFM速度目标及16预测/8执行。单列信息条件；不称为原Robomimic低维/绝对动作配方或完整affordance框架复现。',
         'MimicGen v2仍为PARTIAL有界组件：两任务新结果2/40与0/40，复用旧人类BC各1/40，总数均2/80。',
         'VQ-BeT的60000阶段迭代对应84000次正式optimizer调用，探针/旧技术尝试成本另列。', '',
         '[上一轮完整性审计（历史）](https://github.com/LemonQC/tempcross/blob/8b274c9a014dccab2f8ddc364b64f10667cc8e2d/docs/STRONG_BASELINE_MASTER_MATRIX.md)；[当前范围](../results/strong_baselines/research_scope.json)。']

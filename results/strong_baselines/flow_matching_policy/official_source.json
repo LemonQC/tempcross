@@ -1,0 +1,66 @@
+{
+  "repository": "https://github.com/HRI-EU/flow_matching",
+  "revision": "516e8e18875b27741bdbdb8a252e904032c90723",
+  "branch": "master",
+  "license": "BSD-3-Clause",
+  "visual_reference": "examples/flow_pusht.py",
+  "robomimic_reference": "examples/flow_mimic.py",
+  "actual_variant": "official visual flow-component faithful port to fixed RoboCasa-X",
+  "native_network_imported": true,
+  "prior_local_DP_network_imported": false,
+  "pretrained_weights_used": false,
+  "initialization": "author visual default weights=None, from scratch; seed20261113",
+  "public_checkpoints_not_reused": "PushT/Kitchen/Robomimic observation/action tensor shapes differ; no misleading partial pretrained loading",
+  "original_Robomimic_lowdim_absolute_recipe_reproduced": false,
+  "full_affordance_prompt_framework_reproduced": false,
+  "native_files": [
+    {
+      "path": "/home/users/lemon/baseline-benchmark/vendor/hri-eu-flow-matching/README.md",
+      "sha256": "50cf0c2b634983b79474a2b5dffa7411ddc4c20ee8c566cbdaa30b2c4135a54f"
+    },
+    {
+      "path": "/home/users/lemon/baseline-benchmark/vendor/hri-eu-flow-matching/LICENSE.md",
+      "sha256": "c82911b96035adc33cdd9983fbf81b6a423a9bd3e7867ba42959137ddcd71e10"
+    },
+    {
+      "path": "/home/users/lemon/baseline-benchmark/vendor/hri-eu-flow-matching/examples/flow_pusht.py",
+      "sha256": "84ec67b5e3f643cd8c90f7670fb0b0a584ae10021f2e99f8cd89b3285880d973"
+    },
+    {
+      "path": "/home/users/lemon/baseline-benchmark/vendor/hri-eu-flow-matching/examples/flow_mimic.py",
+      "sha256": "2783587290cd2cd48fb928c2653c93bea97ce57dd5b203b5fd2270ee8fec441c"
+    },
+    {
+      "path": "/home/users/lemon/baseline-benchmark/vendor/hri-eu-flow-matching/external/models/unet.py",
+      "sha256": "fa734a97ebc3a5d998b661005b9e27a31138eb306b9bf9d75f14bc5e88fbb482"
+    },
+    {
+      "path": "/home/users/lemon/baseline-benchmark/vendor/hri-eu-flow-matching/external/models/resnet.py",
+      "sha256": "46db6fb7187df0d996031ff70bbd071b8eb4dc4b875f9fed27fbfd48c906494b"
+    },
+    {
+      "path": "/home/users/lemon/baseline-benchmark/vendor/hri-eu-flow-matching/external/models/pusht.py",
+      "sha256": "4b3f552b319a5554e0c8f813d052a20eb71a68a954db83f50961abc8667f562c"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/flow_matching_policy/env/lib/python3.10/site-packages/torchcfm/conditional_flow_matching.py",
+      "sha256": "3955261d3b24103b30e63045b192ae5663879c55629d9733530a695e903b0238"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/flow_matching_policy/env/lib/python3.10/site-packages/torchcfm/optimal_transport.py",
+      "sha256": "e109c8ad3ec0b2d038f749e15162fa35389b7a3ebd4c921e2ad9cdda0626c239"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/smolvla/env/lib/python3.10/site-packages/diffusers/training_utils.py",
+      "sha256": "c6b331da9ae961602de59c80631b2cdbcb7fc552cefbdba29f4a34dbf79e2f9d"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/smolvla/env/lib/python3.10/site-packages/diffusers/optimization.py",
+      "sha256": "080148f6969b6f70b6283df2fcb0abde8fdd04848f53f75f0ca383b736e476fb"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/smolvla/env/lib/python3.10/site-packages/torchvision/models/resnet.py",
+      "sha256": "9faf2f321fdaf7edbd791aedc6e3610c7edf9c892112cbd75861beae1e9518d1"
+    }
+  ]
+}

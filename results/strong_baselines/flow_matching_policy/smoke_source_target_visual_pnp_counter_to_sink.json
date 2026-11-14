@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "method": "flow_matching_policy",
+  "group": "source_target_visual",
+  "task": "pnp_counter_to_sink",
+  "role": "DEVELOPMENT_SMOKE",
+  "episodes": 1,
+  "successes": 0,
+  "rows": [
+    {
+      "status": "PASS",
+      "episode": {
+        "method": "flow_matching_policy",
+        "group": "source_target_visual",
+        "task": "pnp_counter_to_sink",
+        "robot": "panda",
+        "role": "DEVELOPMENT_SMOKE",
+        "official_condition_index": 0,
+        "condition_id": "53beb94b5265a6a5",
+        "seed": 1000,
+        "success": false,
+        "steps": 600,
+        "checkpoint_sha256": "24d976068cc1f6f3ab2f9db5db0bd5c37247ac2f3d9626f762c78ae5d5be3ba1",
+        "policy_calls": 600,
+        "mean_prediction_seconds": 0.0017004273862888416,
+        "clipped_dimensions": 893,
+        "video_path": "/home/users/lemon/strong-baselines-20261112/flow_matching_policy/physical/smoke/source_target_visual/pnp_counter_to_sink/condition-000/rollout.mp4",
+        "telemetry_path": "/home/users/lemon/strong-baselines-20261112/flow_matching_policy/physical/smoke/source_target_visual/pnp_counter_to_sink/condition-000/telemetry/episode-000.h5",
+        "contact_log": "/home/users/lemon/strong-baselines-20261112/flow_matching_policy/physical/smoke/source_target_visual/pnp_counter_to_sink/condition-000/telemetry/episode-000.jsonl"
+      },
+      "decoded_frames": 600,
+      "video_sha256": "37eb70fbbd9b34a03a1aec4a638071913c1634cf1cdbd6e15ff510fa0c336c54",
+      "telemetry_sha256": "d553bd7ecd4a4f1aba7a4deece28cdb34790d88d80bb0a13d8a7492e136897bd",
+      "contact_sha256": "7971e31d9572af5fd92f4e500e89c05a85ef303899a8b0ee078a1764ef0c1108",
+      "exact_action_conversion": true,
+      "official_goal_verified": true,
+      "original_frozen_state_verified": false,
+      "query_audit": "all emitted action queues match saved native chunks",
+      "failure_stage": "CLOSE_WITHOUT_BILATERAL_CONTACT",
+      "failure_stage_is_descriptive_not_causal": true
+    }
+  ]
+}

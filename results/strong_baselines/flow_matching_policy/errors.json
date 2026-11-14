@@ -1,0 +1,29 @@
+{
+  "core_algorithm_replaced": false,
+  "formal_training_started": false,
+  "physical_smoke_launches": 2,
+  "ordinary_repairs": [
+    {
+      "stage": "dependency isolation",
+      "issue": "Candidate zarr2.18.7 and numcodecs0.15.1 require Python>=3.11",
+      "fix": "Resolve Python3.10-compatible zarr2.18.3/numcodecs0.13.1;181-package graph verified; old environment read only",
+      "optimizer_calls": 0,
+      "physical_episodes": 0
+    },
+    {
+      "stage": "offline direct/RPC comparison",
+      "issue": "Data batches were channels-last strided while worker was contiguous NCHW; CPU/GPU image division paths differed",
+      "fix": "Unify NCHW, CPU float32 normalization and native no_grad.17-call direct/RPC audit then passed; no individual-cause claim",
+      "prior_failed_log": "/home/users/lemon/strong-baselines-20261112/flow_matching_policy/rpc-audit-before-layout-fix.log",
+      "prior_direct_output": "/home/users/lemon/strong-baselines-20261112/flow_matching_policy/rpc/direct-before-layout-fix.json",
+      "extra_optimizer_calls": 0,
+      "physical_episodes_before_fix": 0
+    }
+  ],
+  "source_inconsistencies_retained": [
+    "Official Robomimic script exits at debug print before backward; own driver imports unchanged native core classes",
+    "Official training Gaussian x0 versus deployment uniform x0 retained, single-Euler retained",
+    "EMA store/restore bookkeeping made explicit; no core-network, matcher or solver replacement"
+  ],
+  "utc": "2026-11-14T03:25:38.093328+00:00"
+}

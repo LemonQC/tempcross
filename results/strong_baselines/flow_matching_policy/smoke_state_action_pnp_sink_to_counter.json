@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "task": "pnp_sink_to_counter",
+  "role": "DEVELOPMENT_SMOKE",
+  "episodes": 1,
+  "successes": 0,
+  "native_queries": 82,
+  "real_qpos_rows_verified": 650,
+  "native_uniform_single_Euler_verified": true,
+  "original_prediction16_execution8_verified": true,
+  "minmax_action_decode_and_OSC12_verified": true,
+  "full_task_official_goal_and_video_verified": true,
+  "object_state_not_policy_input": true,
+  "action_ledger": "/home/users/lemon/strong-baselines-20261112/flow_matching_policy/inference/1794625849862946664-2906931.jsonl",
+  "action_ledger_sha256": "4ab017433c90241fee8a1da4e01986db99802a753c1f5e27b0aa2687851b93ae",
+  "new_physics_steps": 0
+}

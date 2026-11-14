@@ -1,0 +1,92 @@
+{
+  "status": "PASS_ORIGINAL_IDENTITIES_AND_CERTIFIED_STATE_CACHE",
+  "demonstrations": 700,
+  "source_train": 540,
+  "source_validation": 60,
+  "target_train": 90,
+  "target_validation": 10,
+  "target_train_per_task": 45,
+  "counts": [
+    {
+      "domain": "source",
+      "task": "pnp_counter_to_sink",
+      "split": "train",
+      "episodes": 270
+    },
+    {
+      "domain": "source",
+      "task": "pnp_counter_to_sink",
+      "split": "validation",
+      "episodes": 30
+    },
+    {
+      "domain": "source",
+      "task": "pnp_sink_to_counter",
+      "split": "train",
+      "episodes": 270
+    },
+    {
+      "domain": "source",
+      "task": "pnp_sink_to_counter",
+      "split": "validation",
+      "episodes": 30
+    },
+    {
+      "domain": "target",
+      "task": "pnp_counter_to_sink",
+      "split": "train",
+      "episodes": 45
+    },
+    {
+      "domain": "target",
+      "task": "pnp_counter_to_sink",
+      "split": "validation",
+      "episodes": 5
+    },
+    {
+      "domain": "target",
+      "task": "pnp_sink_to_counter",
+      "split": "train",
+      "episodes": 45
+    },
+    {
+      "domain": "target",
+      "task": "pnp_sink_to_counter",
+      "split": "validation",
+      "episodes": 5
+    }
+  ],
+  "information_tier": "RGB96_PLUS_REAL_QPOS9_PLUS_FROZEN_CLIP768",
+  "privileged_object_state_input": false,
+  "rgb_source": "existing lossless original180x320 RGB, read only; cv2 default LINEAR resize to96 square",
+  "state_source": "previously certified true arm/gripper qpos9; raw joint_states are velocities and are never used",
+  "language_source": "unchanged existing CLIP-L/14 vectors for all16 complete object-specific instructions",
+  "state_action_statistics": "min/max from original630 training demonstrations only",
+  "sampler": "byte-identical original balanced1M train anchors and256 target validation anchors",
+  "future_padding": "native repeat-last sample_sequence; permit15 tail slots to preserve all original anchor frames; native example permits7",
+  "loss_mask": false,
+  "new_demonstrations": 0,
+  "new_physics_steps": 0,
+  "files": [
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/flow_matching_policy/data/manifest.json",
+      "sha256": "c86221d8ff5ebeec4a80c8fbe453080c144fe99faa53419a3e01f95ecd28fe43"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/flow_matching_policy/data/statistics.json",
+      "sha256": "892df2e684225fdbb5659141071b7a5833724a77fe977e1d1d155a6a65f710d6"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/flow_matching_policy/data/language.json",
+      "sha256": "b0c2b8905ad3267937fe2dac2e463cd0396fe8f8dd5605319d3dca4b67a7f2ab"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/flow_matching_policy/data/train.npy",
+      "sha256": "a868931a38ea5feb4098cb8a4c927654808b8a6a4bc77c80100eb55e2154b5ce"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/flow_matching_policy/data/validation.npy",
+      "sha256": "c85aeec35a90b1ac75363c06a36be64c36ad7b5a2678d04bb368de20817eb80b"
+    }
+  ]
+}

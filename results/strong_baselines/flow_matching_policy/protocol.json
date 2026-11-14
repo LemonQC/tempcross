@@ -1,0 +1,249 @@
+{
+  "method": "flow_matching_policy",
+  "setting": "source_target_visual",
+  "base_commit": "3c9671e8ca50cfca06b8f6e46ff3e97d1461cb4c",
+  "official_revision": "516e8e18875b27741bdbdb8a252e904032c90723",
+  "official_license": "BSD-3-Clause",
+  "TorchCFM": "1.0.7",
+  "diffusers": "0.35.2",
+  "variant": "official visual flow-component faithful port to fixed RoboCasa-X",
+  "original_Robomimic_lowdim_absolute_recipe_reproduced": false,
+  "initialization": "from scratch weights=None; exact reset to pre-probe parameter hashes",
+  "information_tier": "RGB96_PLUS_REAL_QPOS9_PLUS_FROZEN_CLIP768",
+  "dataset_source_train": 540,
+  "dataset_source_validation": 60,
+  "dataset_target_train": 90,
+  "dataset_target_validation": 10,
+  "target_train_per_task": 45,
+  "new_demonstrations": 0,
+  "generated_demos_used_for_training": 0,
+  "RGB": "one original180x320 RGB ->cv2 default LINEAR96 square, CPU float32[0,1], contiguous NCHW",
+  "proprioception": "verified real arm qpos7 plus2 Robotiq joint qpos; UR5e seventh-arm slot zero",
+  "language": "same frozen768D CLIP-L/14 inputs for all16 full object-specific instructions; no task-ID collapse",
+  "object_state_input": false,
+  "extra_real_camera": false,
+  "normalization": "native per-dimension train-only min/max[-1,1] for qpos9 and canonical OSC7; no normalization changes at test",
+  "boundary_padding": "native sample_sequence repeat-last; permit15 rather than7 future tail slots to preserve original anchor frames",
+  "sampler": "byte-identical original balanced1M source/target x task anchors; consume first768000",
+  "original_validation_anchor_identity_and_frames_preserved": true,
+  "network": "author GN ResNet18 and ConditionalUnet1D; no local DP substitute",
+  "core_layer_topology_changed": false,
+  "interface_dimensions_changed": true,
+  "native_UNet_down_dims": [
+    256,
+    512,
+    1024
+  ],
+  "native_kernel_size": 5,
+  "native_norm_groups": 8,
+  "native_time_embedding": 256,
+  "global_condition_dim": 1289,
+  "action_dim": 7,
+  "parameters": 94874439,
+  "trainable_parameters": 94874439,
+  "observation_horizon": 1,
+  "prediction_horizon": 16,
+  "execution_horizon": 8,
+  "physical_execution_seconds": 0.4,
+  "training_source_distribution": "Gaussian torch.randn as official source",
+  "flow_matcher": "native TorchCFM ConditionalFlowMatcher(sigma=0)",
+  "training_loss": "unchanged full16x7 mean squared velocity error, including native repeated boundary values; no masks",
+  "inference_source_distribution": "uniform torch.rand[0,1] as official visual and Robomimic code",
+  "Gaussian_training_uniform_deployment_mismatch_retained": true,
+  "ODE_solver": "official explicit Euler",
+  "integration_steps": 1,
+  "integration_t0": 0,
+  "integration_dt": 1,
+  "action_interface": "unchanged canonical OSC7 positive-close ->OSC12 at20Hz; no IK/controller/phase modifications",
+  "batch_size": 32,
+  "training_updates": 24000,
+  "anchors_consumed": 768000,
+  "seed": 20261113,
+  "optimizer": "native-example torch.optim.AdamW",
+  "learning_rate": 0.0001,
+  "weight_decay": 1e-06,
+  "betas": [
+    0.9,
+    0.999
+  ],
+  "epsilon": 1e-08,
+  "gradient_clipping": false,
+  "mixed_precision": false,
+  "scheduler": "native diffusers get_scheduler cosine",
+  "warmup_updates": 500,
+  "ema_constructor": "native diffusers EMAModel(parameters,power=0.75)",
+  "ema_power": 0.75,
+  "ema_use_library_default_warmup": false,
+  "EMA_bookkeeping_fix": "store raw before copy_to EMA for validation/checkpoint, restore raw before next optimizer call",
+  "validation_anchors": 256,
+  "validation_interval": 1000,
+  "validation_noise": "fixed Gaussian flow-loss noise with seed17000+batch_offset; restore CPU+CUDA RNG",
+  "checkpoint_selection": "minimum fixed target-validation EMA full16x7 velocity MSE; earliest tie; never formal success",
+  "save_interval": 500,
+  "log_interval": 100,
+  "maximum_training_seconds": 14400,
+  "minimum_free_bytes": 26843545600,
+  "stopping_rule": "exact24000 optimizer calls, halt on nonfinite/error/resource; no automatic budget extension or tuning",
+  "discarded_optimizer_probe_calls": 1,
+  "probe_constant_peak_LR_no_scheduler": true,
+  "probe_pre_contiguity_unification": true,
+  "probe_weights_reused_for_formal_training": false,
+  "maximum_smoke_episodes": 2,
+  "smoke_episodes_used": 2,
+  "smoke_successes": 0,
+  "smoke_gate": "full600/650 episodes, native-generation/normalization/OSC/qpos/video/goal acceptance; not positive task success",
+  "formal_episodes_per_task": 40,
+  "formal_indices": [
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99
+  ],
+  "formal_role": "EXPOSED_REFERENCE",
+  "official_success": "placement AND retreat",
+  "control_frequency_Hz": 20,
+  "per_episode_inference_seed": 7,
+  "formal_success_used_for_selection": false,
+  "code_files": [
+    {
+      "path": "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/flow_matching_policy/data.py",
+      "sha256": "810ee0f4bea5c922a251bd46b75d96ec0a0cf83995a83eddf3c73389b81e30af"
+    },
+    {
+      "path": "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/flow_matching_policy/native.py",
+      "sha256": "68f709e78a382242ae6e1388f4ff61a9da4083b65c79582737c9f98958ddb13a"
+    },
+    {
+      "path": "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/flow_matching_policy/runtime.py",
+      "sha256": "3df6438a1f6f8bf5cea31389f512b3c399b6294c8212da902e853b53cc39b29d"
+    },
+    {
+      "path": "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/flow_matching_policy/model.py",
+      "sha256": "e39a59497764f36e87f9f589bf9cb8cb837443a459a1917053358075528951f5"
+    },
+    {
+      "path": "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/flow_matching_policy/worker.py",
+      "sha256": "d2d08373845b2b1a10823820fdaf658e7f5f0384e733883c42fb0ab2592bac23"
+    },
+    {
+      "path": "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/flow_matching_policy/evaluate.py",
+      "sha256": "bc2f39800a6bfb3a788d73dba15eaaf3546350f438e6c156884fc0246acd0467"
+    },
+    {
+      "path": "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/flow_matching_policy/audit.py",
+      "sha256": "62194580ef11855494e31d21a68077e6e3c4798cc80f718d412bf8b7275822f8"
+    },
+    {
+      "path": "/home/users/lemon/CodexProject/tempcross/results/strong_baselines/flow_matching_policy/train.py",
+      "sha256": "4b358c7c8fa123a10e4613c31896c0ae07f9b338f6a610b8a90a66077490248f"
+    }
+  ],
+  "native_files": [
+    {
+      "path": "/home/users/lemon/baseline-benchmark/vendor/hri-eu-flow-matching/README.md",
+      "sha256": "50cf0c2b634983b79474a2b5dffa7411ddc4c20ee8c566cbdaa30b2c4135a54f"
+    },
+    {
+      "path": "/home/users/lemon/baseline-benchmark/vendor/hri-eu-flow-matching/LICENSE.md",
+      "sha256": "c82911b96035adc33cdd9983fbf81b6a423a9bd3e7867ba42959137ddcd71e10"
+    },
+    {
+      "path": "/home/users/lemon/baseline-benchmark/vendor/hri-eu-flow-matching/examples/flow_pusht.py",
+      "sha256": "84ec67b5e3f643cd8c90f7670fb0b0a584ae10021f2e99f8cd89b3285880d973"
+    },
+    {
+      "path": "/home/users/lemon/baseline-benchmark/vendor/hri-eu-flow-matching/examples/flow_mimic.py",
+      "sha256": "2783587290cd2cd48fb928c2653c93bea97ce57dd5b203b5fd2270ee8fec441c"
+    },
+    {
+      "path": "/home/users/lemon/baseline-benchmark/vendor/hri-eu-flow-matching/external/models/unet.py",
+      "sha256": "fa734a97ebc3a5d998b661005b9e27a31138eb306b9bf9d75f14bc5e88fbb482"
+    },
+    {
+      "path": "/home/users/lemon/baseline-benchmark/vendor/hri-eu-flow-matching/external/models/resnet.py",
+      "sha256": "46db6fb7187df0d996031ff70bbd071b8eb4dc4b875f9fed27fbfd48c906494b"
+    },
+    {
+      "path": "/home/users/lemon/baseline-benchmark/vendor/hri-eu-flow-matching/external/models/pusht.py",
+      "sha256": "4b3f552b319a5554e0c8f813d052a20eb71a68a954db83f50961abc8667f562c"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/flow_matching_policy/env/lib/python3.10/site-packages/torchcfm/conditional_flow_matching.py",
+      "sha256": "3955261d3b24103b30e63045b192ae5663879c55629d9733530a695e903b0238"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/flow_matching_policy/env/lib/python3.10/site-packages/torchcfm/optimal_transport.py",
+      "sha256": "e109c8ad3ec0b2d038f749e15162fa35389b7a3ebd4c921e2ad9cdda0626c239"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/smolvla/env/lib/python3.10/site-packages/diffusers/training_utils.py",
+      "sha256": "c6b331da9ae961602de59c80631b2cdbcb7fc552cefbdba29f4a34dbf79e2f9d"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/smolvla/env/lib/python3.10/site-packages/diffusers/optimization.py",
+      "sha256": "080148f6969b6f70b6283df2fcb0abde8fdd04848f53f75f0ca383b736e476fb"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/smolvla/env/lib/python3.10/site-packages/torchvision/models/resnet.py",
+      "sha256": "9faf2f321fdaf7edbd791aedc6e3610c7edf9c892112cbd75861beae1e9518d1"
+    }
+  ],
+  "data_files": [
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/flow_matching_policy/data/manifest.json",
+      "sha256": "c86221d8ff5ebeec4a80c8fbe453080c144fe99faa53419a3e01f95ecd28fe43"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/flow_matching_policy/data/statistics.json",
+      "sha256": "892df2e684225fdbb5659141071b7a5833724a77fe977e1d1d155a6a65f710d6"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/flow_matching_policy/data/language.json",
+      "sha256": "b0c2b8905ad3267937fe2dac2e463cd0396fe8f8dd5605319d3dca4b67a7f2ab"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/flow_matching_policy/data/train.npy",
+      "sha256": "a868931a38ea5feb4098cb8a4c927654808b8a6a4bc77c80100eb55e2154b5ce"
+    },
+    {
+      "path": "/home/users/lemon/strong-baselines-20261112/flow_matching_policy/data/validation.npy",
+      "sha256": "c85aeec35a90b1ac75363c06a36be64c36ad7b5a2678d04bb368de20817eb80b"
+    }
+  ]
+}

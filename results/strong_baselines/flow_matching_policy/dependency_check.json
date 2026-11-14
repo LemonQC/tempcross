@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "packages": 181,
+  "missing": [],
+  "mismatches": [],
+  "utc": "2026-11-14T03:13:45.895896+00:00",
+  "overlay": "/home/users/lemon/strong-baselines-20261112/flow_matching_policy/env",
+  "read_only_dependency_cache": "/home/users/lemon/strong-baselines-20261112/smolvla/env/lib/python3.10/site-packages",
+  "prior_environment_packages_modified": false,
+  "torch": "2.9.1+cu128",
+  "numpy": "2.2.6",
+  "diffusers": "0.35.2",
+  "TorchCFM": "1.0.7",
+  "simulator_environment": "/home/users/lemon/coft-p2/barx/.venv",
+  "simulator_environment_modified": false
+}

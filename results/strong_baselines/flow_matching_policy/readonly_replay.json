@@ -1,0 +1,95 @@
+{
+  "status": "PASS_READONLY_ACTIONS_AND_CERTIFIED_SUCCESS_REFERENCES",
+  "original_demos": [
+    {
+      "frames": 404,
+      "native_minmax_inverse": true,
+      "positive_close_preserved": true,
+      "OSC12_mode_and_extra_slots_unchanged": true,
+      "prediction16_execution8_verified": true,
+      "episode_id": "f483ee5a208587558384f33a7cd9c24dbbc3daa7f8427797b931c67e6dd43890",
+      "domain": "source",
+      "task": "pnp_counter_to_sink",
+      "gripper_qpos_medians": {
+        "open": -0.027536444332940557,
+        "close": 0.3850442111945746
+      },
+      "raw_rewards_not_used_as_success_labels": true
+    },
+    {
+      "frames": 417,
+      "native_minmax_inverse": true,
+      "positive_close_preserved": true,
+      "OSC12_mode_and_extra_slots_unchanged": true,
+      "prediction16_execution8_verified": true,
+      "episode_id": "8f4a3a752a0dda76b2c5b5bb76b652b2a8ea5ea6626161e5690b723d7a651e86",
+      "domain": "source",
+      "task": "pnp_sink_to_counter",
+      "gripper_qpos_medians": {
+        "open": -0.027548914463522745,
+        "close": 0.4150580456166605
+      },
+      "raw_rewards_not_used_as_success_labels": true
+    },
+    {
+      "frames": 406,
+      "native_minmax_inverse": true,
+      "positive_close_preserved": true,
+      "OSC12_mode_and_extra_slots_unchanged": true,
+      "prediction16_execution8_verified": true,
+      "episode_id": "38184253b1415518c8deb83c010480978867327592bed262272cafe6469f2288",
+      "domain": "target",
+      "task": "pnp_counter_to_sink",
+      "gripper_qpos_medians": {
+        "open": -0.02770427797710366,
+        "close": 0.33431624982643926
+      },
+      "raw_rewards_not_used_as_success_labels": true
+    },
+    {
+      "frames": 441,
+      "native_minmax_inverse": true,
+      "positive_close_preserved": true,
+      "OSC12_mode_and_extra_slots_unchanged": true,
+      "prediction16_execution8_verified": true,
+      "episode_id": "db7472577e5974eb259f7b04008e0a051ac1ada23164d5904901ac04949503e9",
+      "domain": "target",
+      "task": "pnp_sink_to_counter",
+      "gripper_qpos_medians": {
+        "open": -0.027705807845713956,
+        "close": 0.3518315621888074
+      },
+      "raw_rewards_not_used_as_success_labels": true
+    }
+  ],
+  "existing_certified_success_references": [
+    {
+      "frames": 393,
+      "native_minmax_inverse": true,
+      "positive_close_preserved": true,
+      "OSC12_mode_and_extra_slots_unchanged": true,
+      "prediction16_execution8_verified": true,
+      "trajectory": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/probe/aug-pnp_counter_to_sink-001/trajectory.hdf5",
+      "sha256": "e28adba3baa445cdf173c1fd1e4d1f78171606bee05e20ce2c45ada64dd073ec",
+      "official_success_previously_certified": true,
+      "included_in_FMP_training": false,
+      "new_generation": false
+    },
+    {
+      "frames": 445,
+      "native_minmax_inverse": true,
+      "positive_close_preserved": true,
+      "OSC12_mode_and_extra_slots_unchanged": true,
+      "prediction16_execution8_verified": true,
+      "trajectory": "/home/users/lemon/mimicgen-baseline-20261112/augmentation/probe/aug-pnp_sink_to_counter-007/trajectory.hdf5",
+      "sha256": "f1e350418993ac7ce27fece504db076fd35bb5d7ba1a93f342b544e2b2820ff4",
+      "official_success_previously_certified": true,
+      "included_in_FMP_training": false,
+      "new_generation": false
+    }
+  ],
+  "physics_steps": 0,
+  "new_physical_episodes": 0,
+  "core_controller_modified": false,
+  "statistics_source": "original630 training demos only"
+}

@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "native_data_tests": 4,
+  "real_optimizer_calls": 1,
+  "offline_RPC_calls": 17,
+  "native_offline_queries": 3,
+  "readable_success_reference_checks": 2,
+  "physics_smoke_budget": 2,
+  "formal_training_started": false,
+  "utc": "2026-11-14T03:09:57.563474+00:00"
+}

@@ -1,7 +1,7 @@
 {
-  "revision": "20261113_official_open_candidates",
-  "base_commit": "39ecc90acf671bff9fefbf9fe4fe50575c8311e0",
-  "active_method": "smolvla",
+  "revision": "20261113_flow_matching_last_baseline",
+  "base_commit": "3c9671e8ca50cfca06b8f6e46ff3e97d1461cb4c",
+  "active_method": "flow_matching_policy",
   "ordered_candidates": [
     "octo_small",
     "smolvla",
@@ -21,7 +21,9 @@
     "barx_adaptation",
     "act",
     "vqbet",
-    "mimicgen_v2"
+    "mimicgen_v2",
+    "octo_small",
+    "smolvla"
   ],
   "mimicgen_v2_preserved_updates": 48000,
   "mimicgen_v2_preserved_formal_episodes": 80,
@@ -32,6 +34,7 @@
   "budget_freeze_after_real_update_and_complete_smoke": true,
   "reference_conditions": "60–99 EXPOSED_REFERENCE",
   "new_method_development": false,
-  "current_round_only": "smolvla",
-  "stop_after_completion_or_substantive_blocker": true
+  "current_round_only": "flow_matching_policy",
+  "stop_after_completion_or_substantive_blocker": true,
+  "last_baseline_this_round": true
 }

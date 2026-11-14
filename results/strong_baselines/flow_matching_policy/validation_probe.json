@@ -1,0 +1,10 @@
+{
+  "status": "PASS_NATIVE_EMA_AND_FIXED_VALIDATION",
+  "anchors": 256,
+  "velocity_mse": 1.3753014504909515,
+  "repeat_velocity_mse": 1.3753014504909515,
+  "raw_parameters_exactly_restored": true,
+  "CPU_CUDA_RNG_restored": true,
+  "optimizer_updates": 0,
+  "physics_steps": 0
+}
