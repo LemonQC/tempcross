@@ -1,7 +1,26 @@
 """Critical boundaries of the new faithful ports, not model-output snapshots."""
 import unittest
+from pathlib import Path
 
 
+def _strong_baseline_assets_available():
+    """The strong-port data lives on the experiment host, not in public CI."""
+    try:
+        from baselines.strong.common import ROOT, read
+        manifest_path = ROOT / "act/data/manifest.json"
+        if not manifest_path.is_file():
+            return False
+        rows = read(manifest_path)
+        packed_files = {Path(row["packed_file"]) for row in rows}
+        return bool(rows) and all(path.is_file() for path in packed_files)
+    except (ImportError, KeyError, OSError, TypeError, ValueError):
+        return False
+
+
+@unittest.skipUnless(
+    _strong_baseline_assets_available(),
+    "requires the external strong-baseline manifest and packed HDF5 assets",
+)
 class StrongDataTest(unittest.TestCase):
     def test_whole_episode_source_target_split_and_no_extra_robot(self):
         from baselines.strong.common import ROOT,PROJECT,read
