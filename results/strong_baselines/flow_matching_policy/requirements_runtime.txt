@@ -1,0 +1,21 @@
+# Python3.10; Torch CUDA12.8 wheels. Full actual inherited/overlay graph: installed_runtime.txt
+diffusers==0.35.2
+gdown==6.5.1
+gym==0.26.2
+h5py==3.14.0
+ipython==8.39.0
+numcodecs==0.13.1
+numpy==2.2.6
+opencv-python-headless==4.12.0.88
+POT==0.9.7.post1
+pygame==2.6.1
+pymunk==6.6.0
+scikit-image==0.25.2
+scikit-video==1.1.11
+scipy==1.15.3
+shapely==2.1.2
+torch==2.9.1+cu128
+torchcfm==1.0.7
+torchdiffeq==0.2.5
+torchvision==0.24.1+cu128
+zarr==2.18.3

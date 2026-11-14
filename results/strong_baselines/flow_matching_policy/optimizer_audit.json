@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "saved_update": 24000,
+  "optimizer_step_counters": [
+    24000
+  ],
+  "scheduler_last_epoch": 24000,
+  "EMA_optimization_step": 24000,
+  "changed_trainable_tensors": 208,
+  "initialization_exactly_pre_probe": true,
+  "resume_path": "/home/users/lemon/strong-baselines-20261112/flow_matching_policy/training/source_target_visual/resume.pt",
+  "resume_sha256": "9148c972c5be694579a93682e68299deb49c4146bed1473887d482bf54ea0b2b",
+  "new_optimizer_updates": 0,
+  "new_physics_steps": 0,
+  "cpu_only": true,
+  "utc": "2026-11-14T03:47:35.319596+00:00"
+}

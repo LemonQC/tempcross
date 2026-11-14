@@ -1,0 +1,193 @@
+{
+  "status": "PARTIAL",
+  "phase": "FORMAL_EVALUATION",
+  "as_of_utc": "2026-11-14T03:49:00.237802+00:00",
+  "actual_logged_optimizer_calls": 24000,
+  "resumable_saved_step": 24000,
+  "frozen_optimizer_budget": 24000,
+  "selected_step": 16000,
+  "selected_anchors": 512000,
+  "latest_training_record": {
+    "update": 24000,
+    "loss": 0.06310798227787018,
+    "gradient_norm": 0.6756015419960022,
+    "learning_rate": 0.0,
+    "anchors_consumed": 768000,
+    "elapsed_seconds": 1051.7242943192832,
+    "utc": "2026-11-14T03:47:30.483971+00:00"
+  },
+  "validation_history": [
+    {
+      "update": 1000,
+      "validation": {
+        "EMA_velocity_mse": 0.11705862730741501
+      },
+      "utc": "2026-11-14T03:30:39.739228+00:00"
+    },
+    {
+      "update": 2000,
+      "validation": {
+        "EMA_velocity_mse": 0.08513489179313183
+      },
+      "utc": "2026-11-14T03:31:22.799337+00:00"
+    },
+    {
+      "update": 3000,
+      "validation": {
+        "EMA_velocity_mse": 0.06934891548007727
+      },
+      "utc": "2026-11-14T03:32:06.705846+00:00"
+    },
+    {
+      "update": 4000,
+      "validation": {
+        "EMA_velocity_mse": 0.06091518513858318
+      },
+      "utc": "2026-11-14T03:32:50.412466+00:00"
+    },
+    {
+      "update": 5000,
+      "validation": {
+        "EMA_velocity_mse": 0.055265641305595636
+      },
+      "utc": "2026-11-14T03:33:34.104415+00:00"
+    },
+    {
+      "update": 6000,
+      "validation": {
+        "EMA_velocity_mse": 0.05128697445616126
+      },
+      "utc": "2026-11-14T03:34:17.750883+00:00"
+    },
+    {
+      "update": 7000,
+      "validation": {
+        "EMA_velocity_mse": 0.04949643067084253
+      },
+      "utc": "2026-11-14T03:35:01.476793+00:00"
+    },
+    {
+      "update": 8000,
+      "validation": {
+        "EMA_velocity_mse": 0.04737633536569774
+      },
+      "utc": "2026-11-14T03:35:45.222227+00:00"
+    },
+    {
+      "update": 9000,
+      "validation": {
+        "EMA_velocity_mse": 0.04666893510147929
+      },
+      "utc": "2026-11-14T03:36:28.985320+00:00"
+    },
+    {
+      "update": 10000,
+      "validation": {
+        "EMA_velocity_mse": 0.044807709055021405
+      },
+      "utc": "2026-11-14T03:37:12.717943+00:00"
+    },
+    {
+      "update": 11000,
+      "validation": {
+        "EMA_velocity_mse": 0.04426321410574019
+      },
+      "utc": "2026-11-14T03:37:56.414999+00:00"
+    },
+    {
+      "update": 12000,
+      "validation": {
+        "EMA_velocity_mse": 0.04303630441427231
+      },
+      "utc": "2026-11-14T03:38:40.252348+00:00"
+    },
+    {
+      "update": 13000,
+      "validation": {
+        "EMA_velocity_mse": 0.04186892509460449
+      },
+      "utc": "2026-11-14T03:39:24.370877+00:00"
+    },
+    {
+      "update": 14000,
+      "validation": {
+        "EMA_velocity_mse": 0.04142471868544817
+      },
+      "utc": "2026-11-14T03:40:08.715347+00:00"
+    },
+    {
+      "update": 15000,
+      "validation": {
+        "EMA_velocity_mse": 0.041098634945228696
+      },
+      "utc": "2026-11-14T03:40:53.067847+00:00"
+    },
+    {
+      "update": 16000,
+      "validation": {
+        "EMA_velocity_mse": 0.041013081558048725
+      },
+      "utc": "2026-11-14T03:41:37.489722+00:00"
+    },
+    {
+      "update": 17000,
+      "validation": {
+        "EMA_velocity_mse": 0.04103802121244371
+      },
+      "utc": "2026-11-14T03:42:21.848202+00:00"
+    },
+    {
+      "update": 18000,
+      "validation": {
+        "EMA_velocity_mse": 0.04120830283500254
+      },
+      "utc": "2026-11-14T03:43:06.419789+00:00"
+    },
+    {
+      "update": 19000,
+      "validation": {
+        "EMA_velocity_mse": 0.04115336947143078
+      },
+      "utc": "2026-11-14T03:43:51.400612+00:00"
+    },
+    {
+      "update": 20000,
+      "validation": {
+        "EMA_velocity_mse": 0.041203380562365055
+      },
+      "utc": "2026-11-14T03:44:36.094455+00:00"
+    },
+    {
+      "update": 21000,
+      "validation": {
+        "EMA_velocity_mse": 0.041387537494301796
+      },
+      "utc": "2026-11-14T03:45:20.182965+00:00"
+    },
+    {
+      "update": 22000,
+      "validation": {
+        "EMA_velocity_mse": 0.041753474390134215
+      },
+      "utc": "2026-11-14T03:46:03.618669+00:00"
+    },
+    {
+      "update": 23000,
+      "validation": {
+        "EMA_velocity_mse": 0.042018142296001315
+      },
+      "utc": "2026-11-14T03:46:47.073481+00:00"
+    },
+    {
+      "update": 24000,
+      "validation": {
+        "EMA_velocity_mse": 0.04219985497184098
+      },
+      "utc": "2026-11-14T03:47:30.755375+00:00"
+    }
+  ],
+  "completed_formal_episodes": 1,
+  "role": "EXPOSED_REFERENCE",
+  "partial_success_rate": 0.0,
+  "formal_budget_changed": false
+}

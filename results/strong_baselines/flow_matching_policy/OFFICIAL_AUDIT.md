@@ -64,6 +64,15 @@ trainable parameters here, not a claim of identical paper parameter count.
 The pretrained benchmark checkpoints have incompatible observation/action
 shapes; there is no misleading partial checkpoint loading.
 
+Dependency recipe is also a declared difference: use the isolated pinned
+Torch2.9.1+cu128/torchvision0.24.1 runtime and actual required native imports,
+not a claim that the entire historic requirements.txt was reproduced. Its
+Lightning<2/quality-tool requirements are not used by this driver; the resolved
+TorchCFM/TorchDyn dependency graph includes Lightning2.6.6 without training a
+Lightning model. requirements_runtime.txt and installed_runtime.txt distinguish
+the used entrypoint requirements from the complete181-package shared/overlay
+graph. Real native gradients, deployment and EMA were tested in this runtime.
+
 All raw RGB/qpos/actions are original demonstration data in an existing read-only
 cache, not SmolVLA predictions. Old baselines and their artifacts stay frozen.
 The two existing generated-success references are command-interface checks only;
