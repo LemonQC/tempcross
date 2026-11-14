@@ -1,0 +1,9 @@
+{
+  "utc": "2026-11-14T11:04:49.131857+00:00",
+  "command": "/home/users/lemon/coft-p2/barx/.venv/bin/python -m pytest -q tests",
+  "passed": 64,
+  "failed": 0,
+  "git_diff_check": "PASS",
+  "terminal_resume": "NO_NEW_PHYSICS_OR_TRAINING",
+  "server_root_bytes_approx": 3400000000
+}

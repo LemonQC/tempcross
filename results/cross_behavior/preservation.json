@@ -1,0 +1,88 @@
+{
+  "preservation_initial.json": {
+    "status": "PASS",
+    "utc": "2026-11-14T10:38:09.186081+00:00",
+    "base": "92a6d212353f5e209d63534825b4763afe6893fd",
+    "phase": "initial",
+    "historical_formal_episodes": 2080,
+    "protection": "Existing evidence manifests plus immutable Git trees; no old rollout rerun",
+    "protected_artifacts": 931,
+    "protected_bytes": 8224685809,
+    "trees": [
+      {
+        "path": "baselines",
+        "tree": "67beaa2aebc8501752db510348fb906800c539ea"
+      },
+      {
+        "path": "results/strong_baselines",
+        "tree": "5c9ec476ac0aa61c0b9261c2a916c9ba50246b3f"
+      },
+      {
+        "path": "results/baselines",
+        "tree": "1c6445de0f0463acc6015ec75c8387e9c0428e7a"
+      },
+      {
+        "path": "configs/evaluation",
+        "tree": "0b7c7dbf337626d9c1165c72e5bcd03dcf00d9e4"
+      }
+    ],
+    "server_manifest": "/home/users/lemon/cross-behavior-20261114/preservation_initial.json",
+    "server_manifest_sha256": "c7a1ac99b3caf31bc226023f79f90d508f7d1a56d1867733de1819cf38c1b272"
+  },
+  "preservation_final.json": {
+    "status": "PASS",
+    "utc": "2026-11-14T10:58:23.351085+00:00",
+    "base": "92a6d212353f5e209d63534825b4763afe6893fd",
+    "phase": "final",
+    "historical_formal_episodes": 2080,
+    "protection": "Existing evidence manifests plus immutable Git trees; no old rollout rerun",
+    "protected_artifacts": 931,
+    "protected_bytes": 8224685809,
+    "trees": [
+      {
+        "path": "baselines",
+        "tree": "67beaa2aebc8501752db510348fb906800c539ea"
+      },
+      {
+        "path": "results/strong_baselines",
+        "tree": "5c9ec476ac0aa61c0b9261c2a916c9ba50246b3f"
+      },
+      {
+        "path": "results/baselines",
+        "tree": "1c6445de0f0463acc6015ec75c8387e9c0428e7a"
+      },
+      {
+        "path": "configs/evaluation",
+        "tree": "0b7c7dbf337626d9c1165c72e5bcd03dcf00d9e4"
+      }
+    ],
+    "server_manifest": "/home/users/lemon/cross-behavior-20261114/preservation_final.json",
+    "server_manifest_sha256": "1b26a00f5af0956afbf969710391ed205841c2f50fdd6cca0d79b5b9d9f738aa"
+  },
+  "legacy_inventory_initial.json": {
+    "status": "SNAPSHOT_COMPLETE",
+    "utc": "2026-11-14T10:52:59.457170+00:00",
+    "catalog_path": "/home/users/lemon/cross-behavior-20261114/legacy_catalog.json",
+    "catalog_sha256": "3c57e333333b67f1f6b009a927b9f6d82023cac79409bca37592b8105eb0b4b7",
+    "present": 10863,
+    "missing_before_current_work": 0,
+    "historical_checksum_discrepancies": 1,
+    "bytes": 47531754027,
+    "note": "Old attempt/probe indexes can reference superseded mutable files. Discrepancies are preserved, not repaired or attributed to this task.",
+    "server_manifest": "/home/users/lemon/cross-behavior-20261114/legacy_inventory_initial.json",
+    "server_manifest_sha256": "dcee40d9111916c5097e3cf0e9da72a50fa559be0f9c6e54e6a15f1c3769e2ba"
+  },
+  "legacy_inventory_final.json": {
+    "status": "UNCHANGED_FROM_INITIAL_SNAPSHOT",
+    "utc": "2026-11-14T10:56:39.355916+00:00",
+    "catalog_path": "/home/users/lemon/cross-behavior-20261114/legacy_catalog.json",
+    "catalog_sha256": "3c57e333333b67f1f6b009a927b9f6d82023cac79409bca37592b8105eb0b4b7",
+    "present": 10863,
+    "missing_before_current_work": 0,
+    "historical_checksum_discrepancies": 1,
+    "bytes": 47531754027,
+    "note": "Old attempt/probe indexes can reference superseded mutable files. Discrepancies are preserved, not repaired or attributed to this task.",
+    "server_manifest": "/home/users/lemon/cross-behavior-20261114/legacy_inventory_final.json",
+    "server_manifest_sha256": "67a4264692a90ec3caf14e093511b3c316e0e5bf5fcbf14ba551e2b30dd17f7d"
+  }
+}

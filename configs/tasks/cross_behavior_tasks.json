@@ -1,0 +1,24 @@
+{
+  "base": "92a6d212353f5e209d63534825b4763afe6893fd",
+  "status": "NO_TASK_ACCEPTED",
+  "validated_tasks": [],
+  "candidates": {
+    "push": {
+      "status": "BLOCKED",
+      "class_name": "CBPush",
+      "report": "results/cross_behavior/push/gate.json"
+    },
+    "stack": {
+      "status": "BLOCKED",
+      "class_name": "CBStack",
+      "report": "results/cross_behavior/stack/gate.json"
+    },
+    "drawer": {
+      "status": "BLOCKED",
+      "class_name": "CBDrawer",
+      "report": "results/cross_behavior/drawer/gate.json"
+    }
+  },
+  "contract_sha256": "3e1908ade0e2939b34362bf8187b73f5afdb9539346235668aea0026d2082f76",
+  "learning_allowed": false
+}

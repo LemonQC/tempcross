@@ -1,0 +1,1184 @@
+{
+  "server_root": "/home/users/lemon/cross-behavior-20261114",
+  "episodes": [
+    {
+      "task": "push",
+      "robot": "ur5e",
+      "condition": 0,
+      "files": [
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/ur5e/dev-000/episode.json",
+          "bytes": 3424,
+          "sha256": "6b19fc50c93715eb4a25425cc1b4561c37efff4de9327e9a3b88adca13a60910"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/ur5e/dev-000/launch.json",
+          "bytes": 999,
+          "sha256": "2cb94e5e311d468fa0c30b800bc1dcc9849dad1976bfbb61fdeb1b897c1b4131"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/ur5e/dev-000/condition.json",
+          "bytes": 8245,
+          "sha256": "acbd2f750fb85bb20b85f01200da7d5a52cf373f561d99f58abd58478eace2c9"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/ur5e/dev-000/model.xml",
+          "bytes": 233459,
+          "sha256": "2e8a4f312dfb2698601d67cb1cf5eb1f52131a88e7ad0075dce2a427daa3a6af"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/ur5e/dev-000/initial.pkl",
+          "bytes": 285723,
+          "sha256": "a1839969e8ca7782e050d822225e7e2f13114178d792199113e2c02a1fde1680"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/ur5e/dev-000/initial.png",
+          "bytes": 93149,
+          "sha256": "3dddfdd40b7835f7118f83a049968621c89dba27fd3e0ad0fbbb2072eeb6b810"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/ur5e/dev-000/initial_rgbd.npz",
+          "bytes": 1568666,
+          "sha256": "fb9885cbe4c6404ee09393592d9dda113a991f7b630caf74d9fb836512e78371"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/ur5e/dev-000/final.png",
+          "bytes": 93097,
+          "sha256": "5bebe2970d811fc7e74842249e0ffa7f3443b7602676fa715a834a4c66009d8c"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/ur5e/dev-000/telemetry.jsonl",
+          "bytes": 59609,
+          "sha256": "a459a023a7b5fb15916d6f90bafce14579adc0881ce75cb49052103628ad32ca"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/ur5e/dev-000/rollout.mp4",
+          "bytes": 57586,
+          "sha256": "144ccb954e09d766519bf8e2cda9a594d10e022bef171c59bfffb41e72bece89"
+        }
+      ],
+      "full_artifact_index": {
+        "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/ur5e/dev-000/artifact_index.json",
+        "sha256": "2b77b0a5926214ae9425d0a664d0e380f44e40bdec770bab74999d6eca136704",
+        "files": 95
+      }
+    },
+    {
+      "task": "push",
+      "robot": "ur5e",
+      "condition": 1,
+      "files": [
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/ur5e/dev-001/episode.json",
+          "bytes": 3571,
+          "sha256": "fcdd2cd7f261f2e8505174e513fd37a01b3e4ce07213be81fb1e1dab4b4cd63b"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/ur5e/dev-001/launch.json",
+          "bytes": 1105,
+          "sha256": "1e45edcfefe1e171432b781b3155fc921ae9747588d907432afcaafcd378d8b8"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/ur5e/dev-001/condition.json",
+          "bytes": 8341,
+          "sha256": "62510a16055d271247fc6a76143af5f4f69931eb9aae830ab9b096bac4f18cc4"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/ur5e/dev-001/model.xml",
+          "bytes": 233432,
+          "sha256": "7b44953de329c07bedd9d5cc63adaaa63a477ac85d35974496a11fa3c12924de"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/ur5e/dev-001/initial.pkl",
+          "bytes": 285703,
+          "sha256": "0ef541f90f8a2671c43999e9935f6c7698e261b3716783ec2f0c553f7751e214"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/ur5e/dev-001/initial.png",
+          "bytes": 63182,
+          "sha256": "24e60c8f01f8840ff4abd13f4f4b88bfb533091503e6e2fafaed896973a4c884"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/ur5e/dev-001/initial_rgbd.npz",
+          "bytes": 1520221,
+          "sha256": "6b5603fb68e9234a68998b4517ba1e6ec9092ef199731d916e7a467909745c6e"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/ur5e/dev-001/final.png",
+          "bytes": 72599,
+          "sha256": "079a4e256e0200afa0ca381c5b98b191ddd4350cf6c080ed313c79b35e6f70b8"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/ur5e/dev-001/telemetry.jsonl",
+          "bytes": 1402263,
+          "sha256": "857ec713619b15cf08310763a5bbe5984d31b5eefd0c3509420f2182ec3f3552"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/ur5e/dev-001/rollout.mp4",
+          "bytes": 1027826,
+          "sha256": "de3940be71aa77ae2022aa0c1d7a3902f7c3bee85363be9d10148c69d737298f"
+        }
+      ],
+      "full_artifact_index": {
+        "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/ur5e/dev-001/artifact_index.json",
+        "sha256": "12f81d41d266750857dbb4ba02f8203578571add0a9fa4f297db58fd430f870a",
+        "files": 1216
+      }
+    },
+    {
+      "task": "push",
+      "robot": "ur5e",
+      "condition": 2,
+      "files": [
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/ur5e/dev-002/episode.json",
+          "bytes": 3575,
+          "sha256": "a20d8efb1ea02950d9f5867f4b5062d7be754bd478a22e14bd60fb739314c076"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/ur5e/dev-002/launch.json",
+          "bytes": 1105,
+          "sha256": "b023227602698216e4d1ae49a5fd8adac300adf0d4452773b92a966c8a44dddb"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/ur5e/dev-002/condition.json",
+          "bytes": 8317,
+          "sha256": "ef83a2429544be1673c7ad1ff7cee1f0671d00eb0f817e0b8fd9e529de5d10f5"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/ur5e/dev-002/model.xml",
+          "bytes": 233379,
+          "sha256": "c54761ad035e6fd0cbd1a95aa258cca7cf2b9ff17985a029fd9f5a0e7af362c9"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/ur5e/dev-002/initial.pkl",
+          "bytes": 285652,
+          "sha256": "bccbaebe2db3f3c3e4dffc85ff35df0f38a11d11fb15f05cb3b5e0d7122ed0db"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/ur5e/dev-002/initial.png",
+          "bytes": 67549,
+          "sha256": "a007f4e0129cf7733de0aa0cebf70fd0d5918c1134e9e8a094131859b2dc6acc"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/ur5e/dev-002/initial_rgbd.npz",
+          "bytes": 1532498,
+          "sha256": "a8a2f98fdea7ece987fb2043a92d95eb5faa0666f94e38bc0f15bd9fe7e1bd73"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/ur5e/dev-002/final.png",
+          "bytes": 73440,
+          "sha256": "f66a3deed88434a464cc6a4b8c781cbbb691eaca6e0ac815cd8cfbb33f65745e"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/ur5e/dev-002/telemetry.jsonl",
+          "bytes": 1408442,
+          "sha256": "ff5d4d96c0a059b5108725788edf7c016f4bf404c1880e7043c8bb2e93d31ec2"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/ur5e/dev-002/rollout.mp4",
+          "bytes": 1011425,
+          "sha256": "cd1814b0a053f67100eb570a3e9949c224799dcf2b4724a46d7a2cfd295afc81"
+        }
+      ],
+      "full_artifact_index": {
+        "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/ur5e/dev-002/artifact_index.json",
+        "sha256": "7fec7f0b3633ecfd55adc0f26fdf955de63e80f989718bdd9b0ac33d10bfec58",
+        "files": 1214
+      }
+    },
+    {
+      "task": "push",
+      "robot": "ur5e",
+      "condition": 3,
+      "files": [
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/ur5e/dev-003/episode.json",
+          "bytes": 3575,
+          "sha256": "4195cdab07ad3a9ea8a77589b8dbc75a9bd72902dd5769ba1803c932cc66b948"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/ur5e/dev-003/launch.json",
+          "bytes": 1105,
+          "sha256": "5d305ffb64a0ebe5c6b7622f7fd54313cb7c64dd76f6fbe8e11b79b662728006"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/ur5e/dev-003/condition.json",
+          "bytes": 8341,
+          "sha256": "ddc2209b0a848963ec731f2cf26a361bf5c04d94a4c5da53b6582dc0dd3972b2"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/ur5e/dev-003/model.xml",
+          "bytes": 233432,
+          "sha256": "5afc95589c69777aaaca02add4d5584a5d6c1f56b8dd19b39ea2764b69e75f38"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/ur5e/dev-003/initial.pkl",
+          "bytes": 285702,
+          "sha256": "a7dd7f6c0297ad58d0f84d1c01e8a95044c8c2047ab2a5997768c4bc2003a63b"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/ur5e/dev-003/initial.png",
+          "bytes": 66666,
+          "sha256": "0cc5b49244fb32367db5bfff0fcb094eb6e51a25294072533a92e202f1b8d0f7"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/ur5e/dev-003/initial_rgbd.npz",
+          "bytes": 1525506,
+          "sha256": "053145a9f4fb2292b13d20c9a679e1a07442bec28dda3cf652d20d1d82cfa788"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/ur5e/dev-003/final.png",
+          "bytes": 74339,
+          "sha256": "a0655acbe4c70f9f09bbb1d7341d4177b6637e7e9a34448044762f6e574b6c83"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/ur5e/dev-003/telemetry.jsonl",
+          "bytes": 1407307,
+          "sha256": "a10805a7329a0b12c99e7f91fe4b45fa0519ad82f6496f5dc6dea24bec900744"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/ur5e/dev-003/rollout.mp4",
+          "bytes": 917871,
+          "sha256": "35a61c53e6ba698a827b17922331214741965f847efa0a6be67294f5d9cb286d"
+        }
+      ],
+      "full_artifact_index": {
+        "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/ur5e/dev-003/artifact_index.json",
+        "sha256": "7805d1888f39237d67c700c26933ef0bb93854cf19ef1fe7ec3ee1b79c25ec32",
+        "files": 1216
+      }
+    },
+    {
+      "task": "push",
+      "robot": "panda",
+      "condition": 0,
+      "files": [
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/panda/dev-000/episode.json",
+          "bytes": 3730,
+          "sha256": "aa4cf6a3046b7fbbfd0ed60830eec5930a3fae8b9e417a2c1e9168f6c2782be0"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/panda/dev-000/launch.json",
+          "bytes": 1106,
+          "sha256": "a70d740aac5fdc838a2dcecdc1db524b5ef3d0b38bd06b486781df4742b287ed"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/panda/dev-000/condition.json",
+          "bytes": 8342,
+          "sha256": "fe2d4e2d66564928f340df0ed0fc369909cc0b1c3e9ca573f38c31d8cc534fa3"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/panda/dev-000/model.xml",
+          "bytes": 248965,
+          "sha256": "28faa83d32c8611f86405ac8e7220ba4f8ff23901e2b6180fb4a0f45acad5a20"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/panda/dev-000/initial.pkl",
+          "bytes": 303290,
+          "sha256": "b76956f14744ffab984563286da72af104fe861d56e992bfb8c32f2fd1eb20d6"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/panda/dev-000/initial.png",
+          "bytes": 85509,
+          "sha256": "30ea33c572065f518ced704f9a5f7e5af59ffef45e1cc8fca5af217998fbf560"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/panda/dev-000/initial_rgbd.npz",
+          "bytes": 1551758,
+          "sha256": "6da22fb8ff5a3367dad7cea6ebbe8ec4771de06c66c31868c3c817e2dcd1a8f8"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/panda/dev-000/final.png",
+          "bytes": 85810,
+          "sha256": "e4e8587c0342a318d21dcc649bbc6f867cf5fcf9ac0b6874c57da17d9ee263c7"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/panda/dev-000/telemetry.jsonl",
+          "bytes": 1457259,
+          "sha256": "79e7cd18a1f5f1a0e64deab8631337475f8a314e79c07190671841e44bbf30c6"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/panda/dev-000/rollout.mp4",
+          "bytes": 733162,
+          "sha256": "900952085ee802f36475b5f2da8661cd2d9912e754858a54418d1b972f0dbcd0"
+        }
+      ],
+      "full_artifact_index": {
+        "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/panda/dev-000/artifact_index.json",
+        "sha256": "d3b6777442f45151722f9fef06295b7c55f2b25c4161b0f390226e48d444babc",
+        "files": 1214
+      }
+    },
+    {
+      "task": "push",
+      "robot": "panda",
+      "condition": 1,
+      "files": [
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/panda/dev-001/episode.json",
+          "bytes": 3734,
+          "sha256": "96486c16b47c90a1d7c27c98d87cc796cd46da1d9472507e62457bd492277d76"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/panda/dev-001/launch.json",
+          "bytes": 1106,
+          "sha256": "67fa8242ee9cc5b8e838671b72473099664bd0e8e76ef9d827508b4556500530"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/panda/dev-001/condition.json",
+          "bytes": 8343,
+          "sha256": "714b42895b91c470bf82b81dfd63f123255e6781a86974c49295595aa5a9f5f4"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/panda/dev-001/model.xml",
+          "bytes": 248990,
+          "sha256": "17dd8fb3be00e9b06b79300f63aaa2717c5eb68eed95251ab6bab884d89d72d2"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/panda/dev-001/initial.pkl",
+          "bytes": 303322,
+          "sha256": "c4dc48285ef40fcd169688f0a2ca8d009cd7556477b79c3675811ff3f30bb5f7"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/panda/dev-001/initial.png",
+          "bytes": 65056,
+          "sha256": "b04be273f5dc434b32966c42faca7423430b5dcc1d0492dceec5b83d56213579"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/panda/dev-001/initial_rgbd.npz",
+          "bytes": 1522697,
+          "sha256": "0ffb54fa6672487a85281db5ad6bd9a0f33a8ead98779096e71637038dbf3b02"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/panda/dev-001/final.png",
+          "bytes": 65195,
+          "sha256": "23717205baa7e26a91986659ec991ca2429037b77680393a67816074cadeefa7"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/panda/dev-001/telemetry.jsonl",
+          "bytes": 1459656,
+          "sha256": "2afb500a1674e77acfa8142de0f9d339b2176eeaa1734e826e610cbc2fb41f20"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/panda/dev-001/rollout.mp4",
+          "bytes": 682061,
+          "sha256": "daec66a17af1296beb97df8bb3ac850f0538c2b8036c2c097732006642094652"
+        }
+      ],
+      "full_artifact_index": {
+        "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/panda/dev-001/artifact_index.json",
+        "sha256": "56720668d85e9701f6fc39b064469a0dba9a0f5e5313b3e57e4de868ecc79388",
+        "files": 1214
+      }
+    },
+    {
+      "task": "push",
+      "robot": "panda",
+      "condition": 2,
+      "files": [
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/panda/dev-002/episode.json",
+          "bytes": 3730,
+          "sha256": "4bd2fa3ab7e57a19944f6b5432f23fe835eff63c776bf08fc5a14ae690931913"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/panda/dev-002/launch.json",
+          "bytes": 1106,
+          "sha256": "7daa4780d4e0ea28a70ffa6c397f4f19f5c9aa55f00c99e8ff58e348c20e31b1"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/panda/dev-002/condition.json",
+          "bytes": 8319,
+          "sha256": "8bfe8ccc5645c40b696853b6f003d9aaa99af83b24a84df723a26c80273172c9"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/panda/dev-002/model.xml",
+          "bytes": 248937,
+          "sha256": "265061c8501e4358d827da59a1264c7f172a2314eafd283dfc1bca7fa9224dc6"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/panda/dev-002/initial.pkl",
+          "bytes": 303271,
+          "sha256": "aa4b9a310c979b82871b11ad948a79ca0f442cd6ddbf2250a10ec6fba5fca292"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/panda/dev-002/initial.png",
+          "bytes": 69256,
+          "sha256": "ab3fdfa52f8976a6573943f1d5f7ec6d5952450422dcb499ac198cfe358e0252"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/panda/dev-002/initial_rgbd.npz",
+          "bytes": 1534625,
+          "sha256": "9769045b6bc28ceaafd66d3ad9c1db16b257c711ee7b6392cf0b62b1da7afebc"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/panda/dev-002/final.png",
+          "bytes": 68517,
+          "sha256": "229b4a044edf98a6d156f6fbd95e613955c190088c0697d5e3bd8aab7433b5fc"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/panda/dev-002/telemetry.jsonl",
+          "bytes": 1459660,
+          "sha256": "3792774ac6ba7856dc1370761208ec16a9c0e9ce9fca37893db9df9bc5d4cf8c"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/panda/dev-002/rollout.mp4",
+          "bytes": 679144,
+          "sha256": "7ebaf94045470f0c88543a578dbd1aba76f36d881c569a90cdea873aa843705e"
+        }
+      ],
+      "full_artifact_index": {
+        "path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/panda/dev-002/artifact_index.json",
+        "sha256": "773984f7a1d7f5bfcc1badd1ba625ec82da53e761420f2884b86716c590b19a6",
+        "files": 1214
+      }
+    },
+    {
+      "task": "stack",
+      "robot": "ur5e",
+      "condition": 0,
+      "files": [
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/ur5e/dev-000/episode.json",
+          "bytes": 3975,
+          "sha256": "b36f8c76dac97850a0c10f878c2278c6cf34bf4e47c801284393a2c59c7eda8e"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/ur5e/dev-000/launch.json",
+          "bytes": 1106,
+          "sha256": "847e56b723c5b73559cd42f058c664e73387f807db8ff501d3b6adf456702b3e"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/ur5e/dev-000/condition.json",
+          "bytes": 9005,
+          "sha256": "6366268c73aae2174bdd71415c0b107a2bd1b3df31dfa601e8154b989564a56b"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/ur5e/dev-000/model.xml",
+          "bytes": 233158,
+          "sha256": "c0a30f0c10583adb15d3e79066bfda9a4388b03b7123e13b09f8e85aefd8ae8c"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/ur5e/dev-000/initial.pkl",
+          "bytes": 285756,
+          "sha256": "e250b78d23d89ac6e1f2fdbb8edf09d72bfaf632e07bd94b2aad772f52ef3dbc"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/ur5e/dev-000/initial.png",
+          "bytes": 83456,
+          "sha256": "7085f5be356b8d268bc9f770dfda10c1c2448ef94efc779c9842abed785a9355"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/ur5e/dev-000/initial_rgbd.npz",
+          "bytes": 1545222,
+          "sha256": "ad9871ed2d1cb7aaaf75a8e83215614152e0beb0012b3ad953e62824e71b7aec"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/ur5e/dev-000/final.png",
+          "bytes": 81814,
+          "sha256": "33c031ebee21978fcd0e54107a4c93973499c2afe304718bb65ef9d6328b6b26"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/ur5e/dev-000/telemetry.jsonl",
+          "bytes": 1557166,
+          "sha256": "ac4cd54e4924b40ece0028bcbeb2639bd95e1a5ba70ade844f864e29d4f77244"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/ur5e/dev-000/rollout.mp4",
+          "bytes": 1290760,
+          "sha256": "7023948a33794051f0339c427a37cace8559fd22d9f098c4765596162ac63aaa"
+        }
+      ],
+      "full_artifact_index": {
+        "path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/ur5e/dev-000/artifact_index.json",
+        "sha256": "1c5a6a884f094722cfe2291df8f3366761cd837ebf1a9382586bf705135e5a3f",
+        "files": 1214
+      }
+    },
+    {
+      "task": "stack",
+      "robot": "ur5e",
+      "condition": 1,
+      "files": [
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/ur5e/dev-001/episode.json",
+          "bytes": 3855,
+          "sha256": "7d7125f55db92da31db648bf8ca3dcd545fc463845229d3d007821c59d6b6ef0"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/ur5e/dev-001/launch.json",
+          "bytes": 1106,
+          "sha256": "09e73fcc22ba17296de2b4309b627612acc99697dc4d53d2cbffe13b7869e478"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/ur5e/dev-001/condition.json",
+          "bytes": 8980,
+          "sha256": "348cc9e11f6adc9038f0dfcdb03f8f23ce319ae68c14efa983b9975b57ebe326"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/ur5e/dev-001/model.xml",
+          "bytes": 233135,
+          "sha256": "f3b266a0f8f34065c62666e199d72cc217c16362271e4fc20c8d8398553b08e0"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/ur5e/dev-001/initial.pkl",
+          "bytes": 285735,
+          "sha256": "687184079cde5594f12f4a051ad8885a4eb84eccbc739f641f8d6083c6c0b1ea"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/ur5e/dev-001/initial.png",
+          "bytes": 62456,
+          "sha256": "7b6060ca4a2ca3ba880fec8146d754e010f6d15d340926520d8bc3c910ca35c0"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/ur5e/dev-001/initial_rgbd.npz",
+          "bytes": 1518018,
+          "sha256": "4ed9138fe4474cba0bcc00cd05db5b5dd5fc97bc900d745f94bceb52a6f681ed"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/ur5e/dev-001/final.png",
+          "bytes": 64888,
+          "sha256": "d8c09ccec103bf38c0c82982ed140b87c05ce4bd7ab598968cab84e267d4e993"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/ur5e/dev-001/telemetry.jsonl",
+          "bytes": 1745589,
+          "sha256": "0bfb304fe0940c3b2bce86abc5ad8918af8f55c8cea5d8e44eb8ca548815e56c"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/ur5e/dev-001/rollout.mp4",
+          "bytes": 1306616,
+          "sha256": "635d224e2d5a52c9f31fc2824ece2ce6ace36679fae1fab54cb23644ea184dc3"
+        }
+      ],
+      "full_artifact_index": {
+        "path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/ur5e/dev-001/artifact_index.json",
+        "sha256": "a6aaf6d1de9fbc2991583d9f47797219c2456f9379e0d572cf9ecf36b16ac284",
+        "files": 1216
+      }
+    },
+    {
+      "task": "stack",
+      "robot": "ur5e",
+      "condition": 2,
+      "files": [
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/ur5e/dev-002/episode.json",
+          "bytes": 3855,
+          "sha256": "7a9ae2fb15ee47bfcc6fd17a54a6a6cf56f8375793db388205d80dc7fa88ce37"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/ur5e/dev-002/launch.json",
+          "bytes": 1106,
+          "sha256": "68bc8246fffdb359505e274aeb7136a67c6fd969f73578431cd4b5637b186676"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/ur5e/dev-002/condition.json",
+          "bytes": 9004,
+          "sha256": "5828d3353f786ef9f7f3fd4d65277b3da004343f3cf72f9e7a7ad5893b654a0f"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/ur5e/dev-002/model.xml",
+          "bytes": 233183,
+          "sha256": "e2cc787269bcb9d15fc14b4ac8171c7994aacc7b37e2c97def078beb52405f52"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/ur5e/dev-002/initial.pkl",
+          "bytes": 285782,
+          "sha256": "d99914f1540a473719e92f674c1399efe89013ba850ba34c97765ef5961810b2"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/ur5e/dev-002/initial.png",
+          "bytes": 64942,
+          "sha256": "eab4b94bc15272f36b1b55ad4f37d541965f5b0a9c3ca80f9bd63b7d4c3d1385"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/ur5e/dev-002/initial_rgbd.npz",
+          "bytes": 1524643,
+          "sha256": "19b8c00d725ab1ab928adfb00d293a1630fb5fcad628b3393a99da3e7aac059e"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/ur5e/dev-002/final.png",
+          "bytes": 68311,
+          "sha256": "29636b689661d02a8160c50be90a91c0a1e8f2ba50ac83a96ec6f4ccb99c6378"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/ur5e/dev-002/telemetry.jsonl",
+          "bytes": 1742324,
+          "sha256": "a21c0d8577b899c31776fd29686ca0a9688749b756e92c577f8940740cd9396d"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/ur5e/dev-002/rollout.mp4",
+          "bytes": 1333774,
+          "sha256": "a073a65d810be3b32950dd8c01b2b23c2a1f289fa05e6c4d78d849318416f8ed"
+        }
+      ],
+      "full_artifact_index": {
+        "path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/ur5e/dev-002/artifact_index.json",
+        "sha256": "2192a743ec9c2b9421f8344799cc0b080fbf30e5ef02e1c61043044e73b4455d",
+        "files": 1214
+      }
+    },
+    {
+      "task": "stack",
+      "robot": "panda",
+      "condition": 0,
+      "files": [
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/panda/dev-000/episode.json",
+          "bytes": 3857,
+          "sha256": "2dad273f393613bbeef8289b42dffa1b96c20951d40f8d9df94afaa523e95dd2"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/panda/dev-000/launch.json",
+          "bytes": 1107,
+          "sha256": "d7868d8482f58adb66fe4cc21387ce34e1b2b5b303d32cba25b4e2d658b09475"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/panda/dev-000/condition.json",
+          "bytes": 9005,
+          "sha256": "246be47903d81ff5b1cfb8e17a77f58295989167b91a4df84f417275f6e6eb8d"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/panda/dev-000/model.xml",
+          "bytes": 248716,
+          "sha256": "fe17b5ebaa0c9f06218d4bf2a8d09a3094cfcedb670cd91601cd70e2db30195b"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/panda/dev-000/initial.pkl",
+          "bytes": 303375,
+          "sha256": "3311f79638d3100abbb344bedb3a910afd3135fcd18f5bf2d0a625b640df276f"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/panda/dev-000/initial.png",
+          "bytes": 84832,
+          "sha256": "a2ed4d79743a9f0e6188462bca3886deccd456c3271820c49954a5440d474aef"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/panda/dev-000/initial_rgbd.npz",
+          "bytes": 1547837,
+          "sha256": "d30aa88efeead05818f084eb4236223ab21cb404d3e9c762ad8a71a3aa63ca27"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/panda/dev-000/final.png",
+          "bytes": 84998,
+          "sha256": "62876c472764fe08a77a30e742d9fa6c72df3b1c6614103c551c01d204659e00"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/panda/dev-000/telemetry.jsonl",
+          "bytes": 1744167,
+          "sha256": "5d8374ceb8d5eea72e9df576c419d38a3657c24467407adfd8979afb46ba8a2a"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/panda/dev-000/rollout.mp4",
+          "bytes": 1548998,
+          "sha256": "06fe249dfff765e3fdcdfd3c34817b624dcc685d09fe3366117fbb650334110c"
+        }
+      ],
+      "full_artifact_index": {
+        "path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/panda/dev-000/artifact_index.json",
+        "sha256": "8f25175e61423004de0effc415d5533b5a3a6946a4113e9a4d361da12c70af62",
+        "files": 1214
+      }
+    },
+    {
+      "task": "stack",
+      "robot": "panda",
+      "condition": 1,
+      "files": [
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/panda/dev-001/episode.json",
+          "bytes": 3861,
+          "sha256": "97741789ebf72829b75050e7dfe85a0cd0e0497a7faef83eba0a37086fcb4e54"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/panda/dev-001/launch.json",
+          "bytes": 1107,
+          "sha256": "1d617435472b66a06bcbe634ebb578eff837971c387f628d1a862333295b1913"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/panda/dev-001/condition.json",
+          "bytes": 8982,
+          "sha256": "c22111bfdf5a12ababdab310f6f867db07ee47fabe1b1d818b085ca9194be2a4"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/panda/dev-001/model.xml",
+          "bytes": 248693,
+          "sha256": "4578740deb7d8231e9840eabf8a7537c53fb0ae07ee9c968955a5b906f3b74e9"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/panda/dev-001/initial.pkl",
+          "bytes": 303354,
+          "sha256": "c04b8693d16dfcaa10cf1d88bb1a8e6dcabf45b07bf19f52a7b71e6e44b473c9"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/panda/dev-001/initial.png",
+          "bytes": 63830,
+          "sha256": "d8555f63ebd62efa563a05b657b53539b43ba3b31ea5f22fd5dfe811330c8f77"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/panda/dev-001/initial_rgbd.npz",
+          "bytes": 1521694,
+          "sha256": "a29ab6ec3993177f535e926cc2ffdf918ebfaf2efce2ef43bfc7972c61d489df"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/panda/dev-001/final.png",
+          "bytes": 65420,
+          "sha256": "a61026badd129a027ceeade40ecab003610f0639ce890f5e2606ef015ae70fba"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/panda/dev-001/telemetry.jsonl",
+          "bytes": 1742223,
+          "sha256": "bbee3b454c0064e221ced2d59d23191d7b231bfc7965774fe3c3047dee1b5141"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/panda/dev-001/rollout.mp4",
+          "bytes": 1415782,
+          "sha256": "f477c4d5bd612c2461de0e1c2b7a903545fad389373f8f4d67d8ae2fbad23df6"
+        }
+      ],
+      "full_artifact_index": {
+        "path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/panda/dev-001/artifact_index.json",
+        "sha256": "d219312a3a23fbd951b509a3a188a25b61fa47c24fce2d68d101f19805074b24",
+        "files": 1214
+      }
+    },
+    {
+      "task": "stack",
+      "robot": "panda",
+      "condition": 2,
+      "files": [
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/panda/dev-002/episode.json",
+          "bytes": 3857,
+          "sha256": "bce8d728972ab794691d35c4ff22b2b8710c0915e76ad99e8ee61da46a891ab8"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/panda/dev-002/launch.json",
+          "bytes": 1107,
+          "sha256": "6547f5969beca4f3bab316de440e0489ff4e2a12feb6a4d84ecef94387c634de"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/panda/dev-002/condition.json",
+          "bytes": 9006,
+          "sha256": "396ee715ae77787494bc2f6072f3755495d8a0ed39ef90af10d686025105d64b"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/panda/dev-002/model.xml",
+          "bytes": 248741,
+          "sha256": "a242a615de717d6f3de641ba5ef79e43b9ecf471e0e31980f5c8928b8fc0e61f"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/panda/dev-002/initial.pkl",
+          "bytes": 303401,
+          "sha256": "418fa93280440bbd6e572ec0c0ed1922792ed32ac782a2b5027e3c7355ea3797"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/panda/dev-002/initial.png",
+          "bytes": 65946,
+          "sha256": "8131b4504b8facd2f18647a3a9aebba4d7c38d85cb0f65273cb88592e05338d6"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/panda/dev-002/initial_rgbd.npz",
+          "bytes": 1527373,
+          "sha256": "7122f936348bce44e417ff4b2aaa2294e37046f93fe270d3a42aab3cbef5d328"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/panda/dev-002/final.png",
+          "bytes": 68337,
+          "sha256": "6e268112b6b22eeb41d89ee383e6369d4ab5f7c08794d155f7924af4b7ece5ca"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/panda/dev-002/telemetry.jsonl",
+          "bytes": 1746391,
+          "sha256": "4499a5aa2964311ceeee844a542b3a7726f45da62bed55bf7a6050479cd4cdb6"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/panda/dev-002/rollout.mp4",
+          "bytes": 1378976,
+          "sha256": "a665199251f065a852a48b6c81a60a60bb81d91894dbc6fc08013725d98823eb"
+        }
+      ],
+      "full_artifact_index": {
+        "path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/panda/dev-002/artifact_index.json",
+        "sha256": "96ab4786928826fa620dbdfeedbbad2011fbbcd8e07ef980688bcbbf85a7327c",
+        "files": 1214
+      }
+    },
+    {
+      "task": "drawer",
+      "robot": "ur5e",
+      "condition": 0,
+      "files": [
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/ur5e/dev-000/episode.json",
+          "bytes": 5313,
+          "sha256": "08bdd2349facf7100570f379f045de263f1652eb76974bafd602a412e40d99d7"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/ur5e/dev-000/launch.json",
+          "bytes": 1107,
+          "sha256": "ac99f152f162c850724ac0bae4175e238510fecd65e3ae3faccc1b17d0add3e8"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/ur5e/dev-000/condition.json",
+          "bytes": 10216,
+          "sha256": "6b30c128c745ef04da5061ca4441e4406821ae12be9d936768acfb4328b54994"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/ur5e/dev-000/model.xml",
+          "bytes": 281448,
+          "sha256": "5dcd35509aa28eb6962f0fc43d14e68858098412e0723034a98bfe381ffc2e50"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/ur5e/dev-000/initial.pkl",
+          "bytes": 343364,
+          "sha256": "a774de655bbcf7600cd3d50a042eaea8e206e1b0b5aded3228abc3aed1293c8e"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/ur5e/dev-000/initial.png",
+          "bytes": 45165,
+          "sha256": "c82a1bb628c3b909ee290b54b0dad41180191d64ff42f464ebaa8ec052e74fde"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/ur5e/dev-000/initial_rgbd.npz",
+          "bytes": 1494936,
+          "sha256": "2f97403922d110af55d30dc5b9f80408b6c46f2f607fd4980ab2c6e40da517f5"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/ur5e/dev-000/final.png",
+          "bytes": 49845,
+          "sha256": "243bb64b79da713421cf815f1b968984b155ec0977eec868852eb5b7179e3f70"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/ur5e/dev-000/telemetry.jsonl",
+          "bytes": 1955023,
+          "sha256": "0a79617129971823398cdde7838f19d24ccb694e47be56546f88df4c4fd77b59"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/ur5e/dev-000/rollout.mp4",
+          "bytes": 1025782,
+          "sha256": "8f82d3515d4e68e4aa512fbed37f1dad8acda1914b31f780dbe152270a19f435"
+        }
+      ],
+      "full_artifact_index": {
+        "path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/ur5e/dev-000/artifact_index.json",
+        "sha256": "775291bf64e3ad8570ae6301dedb01d5d461688b284c61ffadbf773b9de9e89b",
+        "files": 1214
+      }
+    },
+    {
+      "task": "drawer",
+      "robot": "ur5e",
+      "condition": 1,
+      "files": [
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/ur5e/dev-001/episode.json",
+          "bytes": 4815,
+          "sha256": "1ec6c7e6aa44de171ee4e58c2bb4d4b304adbffc28f8b69f4f699b107e803308"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/ur5e/dev-001/launch.json",
+          "bytes": 1217,
+          "sha256": "a6414746184cec4032a34739ca01dde81677cc62c0191f152cbc5f9f9e8420d6"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/ur5e/dev-001/condition.json",
+          "bytes": 10210,
+          "sha256": "0c6fb681bbbd85d78c79f0b9ce1d01a5df15cf666ac9490e89387f31a33802f7"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/ur5e/dev-001/model.xml",
+          "bytes": 280865,
+          "sha256": "44306af01a1b9887ed909f3636b7cb4244b7b85c4ff473c5ecd60d64dd4eb6a7"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/ur5e/dev-001/initial.pkl",
+          "bytes": 340214,
+          "sha256": "d4adc46872bb2ee022c7fda465d1444bf743bbb4083ae6a5fa8f96f753dd4603"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/ur5e/dev-001/initial.png",
+          "bytes": 61132,
+          "sha256": "35f6592c8e9009d180066153c6c100359d53e582cf0c263ea07e64de12127e8a"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/ur5e/dev-001/initial_rgbd.npz",
+          "bytes": 1517138,
+          "sha256": "631b050b2f250d62bbae21d2b41bee320548915c1f5a9e7e8b689b32f75343d1"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/ur5e/dev-001/final.png",
+          "bytes": 61225,
+          "sha256": "20415cbe65edaf8457229ff5bc7b9446d70bebdcf76b3456025050090ce6c059"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/ur5e/dev-001/telemetry.jsonl",
+          "bytes": 92312,
+          "sha256": "9a2b5e6878b4412d34e9015b228b76d24e771de22fc6ab226c3b00d7cb38fd25"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/ur5e/dev-001/rollout.mp4",
+          "bytes": 48418,
+          "sha256": "9c4aa1c6ab2e7e6becf2594d05568b0c3b2c438cbb6d8906ea98215808d5f6c5"
+        }
+      ],
+      "full_artifact_index": {
+        "path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/ur5e/dev-001/artifact_index.json",
+        "sha256": "54abc37ce2067281c908771cd53c66e56d08e07665342ac825c8b4e7b2e4eaec",
+        "files": 94
+      }
+    },
+    {
+      "task": "drawer",
+      "robot": "ur5e",
+      "condition": 2,
+      "files": [
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/ur5e/dev-002/episode.json",
+          "bytes": 4922,
+          "sha256": "0a3cebe72775245a8aea3fc0720d6c80859a2be1213bef2b25d4d5612803e798"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/ur5e/dev-002/launch.json",
+          "bytes": 1217,
+          "sha256": "95641efdcb3ff616ede18552c9dc54ad4dc71d3348da07e7922e47e58382bfb0"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/ur5e/dev-002/condition.json",
+          "bytes": 11213,
+          "sha256": "7b2c3edeabde58362154a64b57f74822a0d3b0c297a14a41e6f8a1ccf629003b"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/ur5e/dev-002/model.xml",
+          "bytes": 300871,
+          "sha256": "30601ba4f621665fd56de63424574302223df45f011a98cbea566936738974b6"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/ur5e/dev-002/initial.pkl",
+          "bytes": 365542,
+          "sha256": "eeb4ebc11dccadbcd594d80bcabc39e48d5f4832e97c3d1d6af72f06659cc06e"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/ur5e/dev-002/initial.png",
+          "bytes": 47978,
+          "sha256": "3e8202285fa8fa4a0035246cd1540e4bd9b864cbe5e588012956c00cc44cca7a"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/ur5e/dev-002/initial_rgbd.npz",
+          "bytes": 1515316,
+          "sha256": "6a89f385affe4c8bb4189ec9015b810aa6bc5ca8e867744066813dd070db7698"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/ur5e/dev-002/final.png",
+          "bytes": 47926,
+          "sha256": "77918972c108702ed01d7bb7df7004f34831708ab29697c8307d99d95a478584"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/ur5e/dev-002/telemetry.jsonl",
+          "bytes": 95270,
+          "sha256": "e64ea48cad2aa746a09c1383f55a10363082e7e5dff768745da464dc6c6fb2bc"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/ur5e/dev-002/rollout.mp4",
+          "bytes": 29583,
+          "sha256": "64ef43a3f33090b969862a7462bf6046ded2630c9a35a1297c7d95c32062baef"
+        }
+      ],
+      "full_artifact_index": {
+        "path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/ur5e/dev-002/artifact_index.json",
+        "sha256": "489749664b43b8d7ea6efe1ab0c95d94c0e0304ca1002d4bf8e3bc00f3ee93c7",
+        "files": 94
+      }
+    },
+    {
+      "task": "drawer",
+      "robot": "panda",
+      "condition": 0,
+      "files": [
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/panda/dev-000/episode.json",
+          "bytes": 5073,
+          "sha256": "e7734dde5178cdd41b2c7c7110173187051896703ced8aeaa668779e3d090a72"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/panda/dev-000/launch.json",
+          "bytes": 1218,
+          "sha256": "e8e78b45a8092f452d5a53cd4b8cbe5d64255a55daf727aad3b0e252814568e3"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/panda/dev-000/condition.json",
+          "bytes": 10218,
+          "sha256": "83f8cb8ca83c1f1e0f902a407bb9d04cf0cce946a6d7652602f2614639b8b274"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/panda/dev-000/model.xml",
+          "bytes": 297005,
+          "sha256": "b1fbafc80547d6f9f7422f4da80e5c322cd9699d664c3c83a44b18da71cc38b0"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/panda/dev-000/initial.pkl",
+          "bytes": 360969,
+          "sha256": "5ae845a5fc7b13c91e569f4c4f37e970263b743f686fedf27d35c80b9ad76cfa"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/panda/dev-000/initial.png",
+          "bytes": 48036,
+          "sha256": "8ba11cc3f462de4a5b303bdbe93b90c4518a38bf259082181b7efdd670dd7330"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/panda/dev-000/initial_rgbd.npz",
+          "bytes": 1499651,
+          "sha256": "b379794e3ccec8118421841557c502c20449f33128fe223d94e80b7eae431f7d"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/panda/dev-000/final.png",
+          "bytes": 48140,
+          "sha256": "aaffc1d1ac8b27a003ef13118a8550f25bc7a028445eadf1cb91e9683f3d2df6"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/panda/dev-000/telemetry.jsonl",
+          "bytes": 1932339,
+          "sha256": "effb39644df224b1fe52d47180f61f9680839f9ae225089228498bc5e1c765e6"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/panda/dev-000/rollout.mp4",
+          "bytes": 941878,
+          "sha256": "8de3d431f1d15e1bbc71f78787d7355cc57eb234179d55b9e84222eda55b97b6"
+        }
+      ],
+      "full_artifact_index": {
+        "path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/panda/dev-000/artifact_index.json",
+        "sha256": "5397525e135eaa34977b84197738dc981d7accaa41e68ad7018fad8fb4468cbf",
+        "files": 1214
+      }
+    },
+    {
+      "task": "drawer",
+      "robot": "panda",
+      "condition": 1,
+      "files": [
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/panda/dev-001/episode.json",
+          "bytes": 4797,
+          "sha256": "4a7ebca7348c9848e3f8b59210bac331344e9e13d635a7942ea9f7911c001682"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/panda/dev-001/launch.json",
+          "bytes": 1218,
+          "sha256": "080c6ac3c41b52fb9b82b5264581f1aeb36248983dc465983f07bcef2ae47399"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/panda/dev-001/condition.json",
+          "bytes": 10212,
+          "sha256": "a550aaeca23c02767c46a1dae591b95d9fccc710588e314dd661fab7e94ee910"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/panda/dev-001/model.xml",
+          "bytes": 296422,
+          "sha256": "2aafea2982505993438d34b3f97085235f65a86b715bf28f13e964af2df92f59"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/panda/dev-001/initial.pkl",
+          "bytes": 357819,
+          "sha256": "a7b25ef02caf298fcaac449112f0594362d3aac5c4c2fe36b5b0dbab10412cf9"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/panda/dev-001/initial.png",
+          "bytes": 61885,
+          "sha256": "4b25aefa9fb86601fadb8f5cc24cd944b79f93bd7da072af159bf79014eab145"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/panda/dev-001/initial_rgbd.npz",
+          "bytes": 1519826,
+          "sha256": "11944ce3938a69af34e48b84fbcf62e59dcda6f87e080bea3d1b742283442d53"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/panda/dev-001/final.png",
+          "bytes": 59498,
+          "sha256": "570541ff47a1bb5dcbf6570da1c7dfffe98655819e424496cf95a3c1c0812f5d"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/panda/dev-001/telemetry.jsonl",
+          "bytes": 1822372,
+          "sha256": "1b44e7dcd6397dde7949f15d57bd3dd40333aa5ac13e0c4ef9ec252e97d737cf"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/panda/dev-001/rollout.mp4",
+          "bytes": 970923,
+          "sha256": "676ace4a4e70b78dc9137d0a62903d309bf9f560bd657a79784147fac2ecbeec"
+        }
+      ],
+      "full_artifact_index": {
+        "path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/panda/dev-001/artifact_index.json",
+        "sha256": "2a8a043aea48c1bbaf493f3daf867cc39d74f1b9230cc929824f0c6dd93a2c30",
+        "files": 1214
+      }
+    },
+    {
+      "task": "drawer",
+      "robot": "panda",
+      "condition": 2,
+      "files": [
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/panda/dev-002/episode.json",
+          "bytes": 4927,
+          "sha256": "f07de90ff876f12adef9257820eb50465d72bbae7b611d25c11419a56d279e62"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/panda/dev-002/launch.json",
+          "bytes": 1218,
+          "sha256": "90031a74ab970ec467b56bab22e97392b5f1bd76ef8054d27a67b4d5f08fc52f"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/panda/dev-002/condition.json",
+          "bytes": 11215,
+          "sha256": "c4d34b020f5791452d7aacd66f218ec2a5aeacb2d462eb9792172955b3f59153"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/panda/dev-002/model.xml",
+          "bytes": 316428,
+          "sha256": "acf9fd8f85e854160bd792cccbeab4b26a5acb19b864de2b379e2369e48caae8"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/panda/dev-002/initial.pkl",
+          "bytes": 383147,
+          "sha256": "a1ab15a3b8568088d5e230f572aad35859e287fd3a7a8c5b97aaa41efb4fce1f"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/panda/dev-002/initial.png",
+          "bytes": 50421,
+          "sha256": "928835c7b8084c6a1383830f074e78b7e9252a2a78e52358967af649c4c8c93a"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/panda/dev-002/initial_rgbd.npz",
+          "bytes": 1519954,
+          "sha256": "27f761af211679d7331db250780306e578eff5f330c95a214f6da2f3d85c640d"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/panda/dev-002/final.png",
+          "bytes": 50298,
+          "sha256": "0573e9c83d724aa9e52d775ccf6987b9bb9fe79e52af0c0d17066968cd75557d"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/panda/dev-002/telemetry.jsonl",
+          "bytes": 95275,
+          "sha256": "79ff74cbb6263bd4d33db08cab76816251262ba3bae38d301a9f2b9c5ba57ab4"
+        },
+        {
+          "path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/panda/dev-002/rollout.mp4",
+          "bytes": 28619,
+          "sha256": "0b9a2d68e62a9d83452aa207b69c7dae922ec799097fcec7d6fbb2164ad0fed6"
+        }
+      ],
+      "full_artifact_index": {
+        "path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/panda/dev-002/artifact_index.json",
+        "sha256": "4ed79e45526c0edbb846c157e8b9ac67b53099ba64271099ab5e0f0fe9a1e19a",
+        "files": 94
+      }
+    }
+  ],
+  "large_files_in_git": false
+}

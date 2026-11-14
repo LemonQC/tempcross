@@ -1,0 +1,9 @@
+{
+  "utc": "2026-11-14T10:47:09.538256+00:00",
+  "repair_index": 1,
+  "evidence": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/ur5e/dev-000/episode.json",
+  "diagnosis": "RGB red detector selected a larger brown cabinet component at z=1.407m instead of red cube at z=0.940m. Support cube partially occluded by robot in initial RGB. Phase 0 never reached.",
+  "change": "For Stack only: estimate counter plane using calibrated depth normals, reject RGB candidates outside block height/size support; use native initial placement on left edge of same counter reset segment so both cubes are visible. No ground-truth input, dynamics, control or success alteration.",
+  "applies_to": "Remaining Stack feasibility conditions. Push expert and initialization retain their previous definitions.",
+  "contract_sha256": "3e1908ade0e2939b34362bf8187b73f5afdb9539346235668aea0026d2082f76"
+}

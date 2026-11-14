@@ -182,3 +182,29 @@ Do not claim that all algorithms are connected until Stage C has passed for ever
 ## 12. Immediate instruction
 
 Start Stage A now. Inspect the pinned local environment and task registry, implement the three task feasibility pilots in priority order Push → Stack → Drawer, and stop after the Stage A report. Do not train models or run the old PnP benchmark again.
+
+## 13. Execution amendments and actual stop, 2026-11-14
+
+The subsequent expert instruction `202611141807.md` authorizes continuous A→D execution on this branch, superseding the Stage-A-only stop in section 12. The researcher's accompanying instruction is stricter about entry to training: **all three canonical tasks must first pass on both robots**. A failure in one task cannot be bypassed by training many algorithms on another. The present run stops at `BLOCKED_PHYSICAL_GATE`; stages B/C/D did not execute.
+
+The inspected machine is an **RTX 3090, 24 GB**, not the RTX 4090 assumed in section 9. There is no silent GPU substitution in training: no training budget was activated. `/data` is present but is not writable by the current account; the independent root `/home/users/lemon/cross-behavior-20261114` fits on the existing filesystem. No old run root is reused.
+
+The non-learning expert's explicit information tier is **primary-camera RGB-D + camera calibration + robot proprioception/FK + instruction + native asset dimensions**. Simulator object poses, handle joint states, contacts and success flags are restricted to the evaluator. This expert tier is not an RGB-only learned baseline. Native controller gains, delta scaling, robot and gripper parameters remain unchanged. Expert Cartesian motion commands are recorded separately from the OSC controller parameters.
+
+The immutable contract is `configs/tasks/cross_behavior_contracts.json`, SHA256 `3e1908ade0e2939b34362bf8187b73f5afdb9539346235668aea0026d2082f76`. It declares 600 control steps (30 s), 20 Hz, 20 consecutive stable control steps, and task-specific thresholds. These were not relaxed after observing failures. Stack also has an extra 0.10 m retreat requirement, declared before its first rollout. This is stricter than native Stack; reports explicitly separate native Stack success from the new full-contract gate. The sufficiency of that extra requirement and the expert's trajectory horizon requires review before another protocol, rather than relabelling existing failures.
+
+Each task has one documented physical/expert repair under `results/cross_behavior/{task}/repair.json`. A constructor interoperability error in the new generated-BoxObject sampler was fixed before any policy physics and is retained in the error log; it is not evidence of physical infeasibility. No global library patch or contact-check removal was used.
+
+An exact arithmetic stopping rule saves unused trial budget: after three retained failures, reaching 6/8 is impossible, so no new condition is launched for that robot. An already launched, cleanly paused episode is completed from its saved state. This accounts for UR5e Push having four attempts rather than three. Unrun slots remain `not_run`, and are never assigned failures or fabricated outcomes. Total actual trials: 19, below the 48-episode ceiling.
+
+Only actual development restores are frozen. The 20-development/40-formal condition banks, pilots, 300/50 demonstration budgets, validation splits and algorithm integrations in later stages remain **NOT_RUN**. No formal condition was instantiated or inspected. Identical condition IDs/seeds across robots in Stage A do not certify matched object poses or motion histories.
+
+Run or inspect without replay:
+
+```bash
+cd /home/users/lemon/CodexProject/tempcross-cross-behavior
+python scripts/run_cross_behavior_expansion.py --stage auto --resume --status
+python scripts/run_cross_behavior_expansion.py --stage auto --resume --background
+```
+
+The second command returns the terminal blocked state after this delivery; it does not spend another repair or training budget. Before terminal completion it resumes the exact current episode. Full MuJoCo integration state (including warmstart/controls), numerical controller/gripper caches, clocks, RNG, expert phase and evaluator history are committed each control step. Write-ahead intents distinguish committed steps from ambiguous in-flight physics. Ambiguous steps are retained and rejected, never silently replayed. Root and episode locks prevent duplicate workers. Source inventory and preservation manifests are cached; status requires only the Python standard library. Background execution is independent of the chat process.

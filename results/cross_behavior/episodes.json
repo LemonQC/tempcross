@@ -1,0 +1,2645 @@
+[
+  {
+    "status": "COMPLETE",
+    "task": "push",
+    "robot": "ur5e",
+    "condition": 0,
+    "condition_id": "cb-v1-push-development-000",
+    "role": "DEVELOPMENT_FEASIBILITY",
+    "success": false,
+    "steps": 40,
+    "final_metrics": {
+      "step": 40,
+      "contacts": [
+        [
+          "gripper0_right_left_outer_finger_collision",
+          "gripper0_right_left_inner_knuckle_collision"
+        ],
+        [
+          "gripper0_right_left_inner_finger_collision",
+          "gripper0_right_left_inner_knuckle_collision"
+        ],
+        [
+          "gripper0_right_right_outer_finger_collision",
+          "gripper0_right_right_inner_knuckle_collision"
+        ],
+        [
+          "gripper0_right_right_inner_finger_collision",
+          "gripper0_right_right_inner_knuckle_collision"
+        ],
+        [
+          "counter_main_main_group_top_left_0",
+          "cubeA_g0"
+        ],
+        [
+          "counter_main_main_group_top_left_0",
+          "cubeA_g0"
+        ],
+        [
+          "counter_main_main_group_top_left_0",
+          "cubeA_g0"
+        ],
+        [
+          "counter_main_main_group_top_left_0",
+          "cubeA_g0"
+        ]
+      ],
+      "robot_collision_pairs": [],
+      "tcp": [
+        1.8743703265156502,
+        -0.5795986859178713,
+        1.2715724538832127
+      ],
+      "native_success": false,
+      "goal_center": [
+        0.6538030444126743,
+        -0.5523944163446121,
+        0.921
+      ],
+      "in_goal": false,
+      "lift_m": 7.647389309584085e-06,
+      "grasp_or_lift_or_fall_violation": false,
+      "lateral_error_m": 0.0,
+      "goal_error_xy_m": [
+        -0.14,
+        0.0
+      ],
+      "object_position": [
+        0.5138030444126743,
+        -0.5523944163446121,
+        0.9397844891595659
+      ],
+      "linear_speed_m_s": 2.167711912784777e-14,
+      "angular_speed_rad_s": 9.228863538657548e-16,
+      "displacement_m": 0.0,
+      "supported": true,
+      "fall": false,
+      "gripper_object_contact": false,
+      "stable_control_steps": 0,
+      "success": false,
+      "first_contact_step": -1,
+      "contact_steps": 0,
+      "max_continuous_contact_steps": 0,
+      "events": {}
+    },
+    "expert_phase": 0,
+    "expert_error": "RGBD_OBJECT_OR_GOAL_NOT_DETECTED",
+    "wall_seconds": 6.422985982149839,
+    "video": "/home/users/lemon/cross-behavior-20261114/stage_a/push/ur5e/dev-000/rollout.mp4",
+    "telemetry": "/home/users/lemon/cross-behavior-20261114/stage_a/push/ur5e/dev-000/telemetry.jsonl",
+    "condition_path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/ur5e/dev-000/condition.json",
+    "contract_sha256": "3e1908ade0e2939b34362bf8187b73f5afdb9539346235668aea0026d2082f76",
+    "code_sha256": {
+      "cross_behavior/__init__.py": "edd84ef1cb0b7a172193116f2796b0f5f08cabb5b570966d2a372758aa8be9ea",
+      "cross_behavior/common.py": "9b12dfa6c2bb6393adf59a3fb69ead9dd5b468e3e4eb56d899f8ac7eb509b6c0",
+      "cross_behavior/evaluator.py": "e6e74fdaea6173ec25d3dd14b838ab4edce970e1d8cdccb0e8e16443c6efe0ba",
+      "cross_behavior/expert.py": "931fb3dc1841dd9bf54c0679d1f5fab5937f2551da7a454ef7b6d4b4a5fe419e",
+      "cross_behavior/sensing.py": "f51025595d8d4ce98b5134f132fc462cca5727153f0f042b39215d6b190aa766",
+      "cross_behavior/tasks.py": "50e87544f749ea92901f4ba1ba24157680cd04cbb692be88d23a151b2c9d1b40",
+      "cross_behavior/worker.py": "fd012c20b4c79308f1a13d7aab950afd9aba68ec1caa88bc846b4c3e910314cd"
+    },
+    "video_sha256": "144ccb954e09d766519bf8e2cda9a594d10e022bef171c59bfffb41e72bece89",
+    "telemetry_sha256": "a459a023a7b5fb15916d6f90bafce14579adc0881ce75cb49052103628ad32ca",
+    "ever_native_success": false,
+    "max_stable_control_steps": 0,
+    "max_contact_steps": 0,
+    "max_expert_phase": 0,
+    "verified_video_frames": 40,
+    "verified_contiguous_committed_steps": true,
+    "resume_records": [
+      "/home/users/lemon/cross-behavior-20261114/stage_a/push/ur5e/dev-000/resume-1794652733599554718.json",
+      "/home/users/lemon/cross-behavior-20261114/stage_a/push/ur5e/dev-000/resume-1794652790835469085.json"
+    ],
+    "launch_code_is_initial_attempt_only": true,
+    "execution_code_records": [],
+    "failure_class": "PERCEPTION_TARGET_UNIDENTIFIABLE"
+  },
+  {
+    "status": "COMPLETE",
+    "task": "push",
+    "robot": "ur5e",
+    "condition": 1,
+    "condition_id": "cb-v1-push-development-001",
+    "role": "DEVELOPMENT_FEASIBILITY",
+    "success": false,
+    "steps": 600,
+    "final_metrics": {
+      "step": 600,
+      "contacts": [
+        [
+          "gripper0_right_left_outer_finger_collision",
+          "gripper0_right_left_inner_knuckle_collision"
+        ],
+        [
+          "gripper0_right_left_inner_finger_collision",
+          "gripper0_right_left_inner_knuckle_collision"
+        ],
+        [
+          "gripper0_right_right_outer_finger_collision",
+          "gripper0_right_right_inner_knuckle_collision"
+        ],
+        [
+          "gripper0_right_right_inner_finger_collision",
+          "gripper0_right_right_inner_knuckle_collision"
+        ],
+        [
+          "counter_main_main_group_top_right_1",
+          "cubeA_g0"
+        ],
+        [
+          "counter_main_main_group_top_right_1",
+          "cubeA_g0"
+        ],
+        [
+          "counter_main_main_group_top_right_1",
+          "cubeA_g0"
+        ],
+        [
+          "counter_main_main_group_top_right_1",
+          "cubeA_g0"
+        ]
+      ],
+      "robot_collision_pairs": [],
+      "tcp": [
+        2.362907266290468,
+        -0.4402417459085367,
+        1.093114998536225
+      ],
+      "native_success": false,
+      "goal_center": [
+        2.4341442238268023,
+        -0.5484364186346031,
+        0.921
+      ],
+      "in_goal": false,
+      "lift_m": 7.647389302811725e-06,
+      "grasp_or_lift_or_fall_violation": false,
+      "lateral_error_m": 0.08512807311157078,
+      "goal_error_xy_m": [
+        -0.03423080344596219,
+        0.08512807311157078
+      ],
+      "object_position": [
+        2.39991342038084,
+        -0.46330834552303235,
+        0.9397844891595695
+      ],
+      "linear_speed_m_s": 2.1821527114500227e-14,
+      "angular_speed_rad_s": 1.0269424671095973e-15,
+      "displacement_m": 0.13577154256829982,
+      "supported": true,
+      "fall": false,
+      "gripper_object_contact": false,
+      "stable_control_steps": 0,
+      "success": false,
+      "first_contact_step": 361,
+      "contact_steps": 137,
+      "max_continuous_contact_steps": 122,
+      "events": {}
+    },
+    "expert_phase": 3,
+    "expert_error": "",
+    "wall_seconds": 41.71381119592115,
+    "video": "/home/users/lemon/cross-behavior-20261114/stage_a/push/ur5e/dev-001/rollout.mp4",
+    "telemetry": "/home/users/lemon/cross-behavior-20261114/stage_a/push/ur5e/dev-001/telemetry.jsonl",
+    "condition_path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/ur5e/dev-001/condition.json",
+    "contract_sha256": "3e1908ade0e2939b34362bf8187b73f5afdb9539346235668aea0026d2082f76",
+    "code_sha256": {
+      "cross_behavior/__init__.py": "edd84ef1cb0b7a172193116f2796b0f5f08cabb5b570966d2a372758aa8be9ea",
+      "cross_behavior/common.py": "9b12dfa6c2bb6393adf59a3fb69ead9dd5b468e3e4eb56d899f8ac7eb509b6c0",
+      "cross_behavior/evaluator.py": "e6e74fdaea6173ec25d3dd14b838ab4edce970e1d8cdccb0e8e16443c6efe0ba",
+      "cross_behavior/expert.py": "931fb3dc1841dd9bf54c0679d1f5fab5937f2551da7a454ef7b6d4b4a5fe419e",
+      "cross_behavior/preservation.py": "54183737f99e05220d4e84db40bdd7a8b3b1416e0ad0ad501deaec17f1a34eaa",
+      "cross_behavior/sensing.py": "f51025595d8d4ce98b5134f132fc462cca5727153f0f042b39215d6b190aa766",
+      "cross_behavior/tasks.py": "c0723ad8b3e05bc17c33aff0f9d5e39785669fa3f2e5ce060561e366283054ed",
+      "cross_behavior/worker.py": "7a076d9a09860a1eeb7d288e16dacc38682242cb83d41212a3dd7a43ff349bc8"
+    },
+    "video_sha256": "de3940be71aa77ae2022aa0c1d7a3902f7c3bee85363be9d10148c69d737298f",
+    "telemetry_sha256": "857ec713619b15cf08310763a5bbe5984d31b5eefd0c3509420f2182ec3f3552",
+    "ever_native_success": false,
+    "max_stable_control_steps": 0,
+    "max_contact_steps": 137,
+    "max_expert_phase": 3,
+    "verified_video_frames": 600,
+    "verified_contiguous_committed_steps": true,
+    "resume_records": [
+      "/home/users/lemon/cross-behavior-20261114/stage_a/push/ur5e/dev-001/resume-1794652858125270764.json"
+    ],
+    "launch_code_is_initial_attempt_only": true,
+    "execution_code_records": [
+      "/home/users/lemon/cross-behavior-20261114/stage_a/push/ur5e/dev-001/execution-1794652837318193283.json",
+      "/home/users/lemon/cross-behavior-20261114/stage_a/push/ur5e/dev-001/execution-1794652854199557771.json"
+    ],
+    "failure_class": "CONTACT_PUSH_OFF_GOAL"
+  },
+  {
+    "status": "COMPLETE",
+    "task": "push",
+    "robot": "ur5e",
+    "condition": 2,
+    "condition_id": "cb-v1-push-development-002",
+    "role": "DEVELOPMENT_FEASIBILITY",
+    "success": false,
+    "steps": 600,
+    "final_metrics": {
+      "step": 600,
+      "contacts": [
+        [
+          "gripper0_right_left_outer_finger_collision",
+          "gripper0_right_left_inner_knuckle_collision"
+        ],
+        [
+          "gripper0_right_left_inner_finger_collision",
+          "gripper0_right_left_inner_knuckle_collision"
+        ],
+        [
+          "gripper0_right_right_outer_finger_collision",
+          "gripper0_right_right_inner_knuckle_collision"
+        ],
+        [
+          "gripper0_right_right_inner_finger_collision",
+          "gripper0_right_right_inner_knuckle_collision"
+        ],
+        [
+          "counter_main_main_group_top_right_1",
+          "cubeA_g0"
+        ],
+        [
+          "counter_main_main_group_top_right_1",
+          "cubeA_g0"
+        ],
+        [
+          "counter_main_main_group_top_right_1",
+          "cubeA_g0"
+        ],
+        [
+          "counter_main_main_group_top_right_1",
+          "cubeA_g0"
+        ]
+      ],
+      "robot_collision_pairs": [],
+      "tcp": [
+        2.3684016652834967,
+        -0.43306732293111877,
+        1.0936112901719106
+      ],
+      "native_success": false,
+      "goal_center": [
+        2.4183692004693462,
+        -0.543680213512971,
+        0.921
+      ],
+      "in_goal": false,
+      "lift_m": 7.647389308695907e-06,
+      "grasp_or_lift_or_fall_violation": false,
+      "lateral_error_m": 0.08020062956589569,
+      "goal_error_xy_m": [
+        -0.025872476449716686,
+        0.08020062956589569
+      ],
+      "object_position": [
+        2.3924967240196295,
+        -0.46347958394707534,
+        0.9397844891595659
+      ],
+      "linear_speed_m_s": 2.1444400659976465e-14,
+      "angular_speed_rad_s": 1.1617967115576772e-13,
+      "displacement_m": 0.1394891845789003,
+      "supported": true,
+      "fall": false,
+      "gripper_object_contact": false,
+      "stable_control_steps": 0,
+      "success": false,
+      "first_contact_step": 350,
+      "contact_steps": 151,
+      "max_continuous_contact_steps": 136,
+      "events": {}
+    },
+    "expert_phase": 3,
+    "expert_error": "",
+    "wall_seconds": 41.45387353003025,
+    "video": "/home/users/lemon/cross-behavior-20261114/stage_a/push/ur5e/dev-002/rollout.mp4",
+    "telemetry": "/home/users/lemon/cross-behavior-20261114/stage_a/push/ur5e/dev-002/telemetry.jsonl",
+    "condition_path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/ur5e/dev-002/condition.json",
+    "contract_sha256": "3e1908ade0e2939b34362bf8187b73f5afdb9539346235668aea0026d2082f76",
+    "code_sha256": {
+      "cross_behavior/__init__.py": "edd84ef1cb0b7a172193116f2796b0f5f08cabb5b570966d2a372758aa8be9ea",
+      "cross_behavior/common.py": "9b12dfa6c2bb6393adf59a3fb69ead9dd5b468e3e4eb56d899f8ac7eb509b6c0",
+      "cross_behavior/evaluator.py": "e6e74fdaea6173ec25d3dd14b838ab4edce970e1d8cdccb0e8e16443c6efe0ba",
+      "cross_behavior/expert.py": "931fb3dc1841dd9bf54c0679d1f5fab5937f2551da7a454ef7b6d4b4a5fe419e",
+      "cross_behavior/preservation.py": "54183737f99e05220d4e84db40bdd7a8b3b1416e0ad0ad501deaec17f1a34eaa",
+      "cross_behavior/sensing.py": "f51025595d8d4ce98b5134f132fc462cca5727153f0f042b39215d6b190aa766",
+      "cross_behavior/tasks.py": "c0723ad8b3e05bc17c33aff0f9d5e39785669fa3f2e5ce060561e366283054ed",
+      "cross_behavior/worker.py": "7a076d9a09860a1eeb7d288e16dacc38682242cb83d41212a3dd7a43ff349bc8"
+    },
+    "video_sha256": "cd1814b0a053f67100eb570a3e9949c224799dcf2b4724a46d7a2cfd295afc81",
+    "telemetry_sha256": "ff5d4d96c0a059b5108725788edf7c016f4bf404c1880e7043c8bb2e93d31ec2",
+    "ever_native_success": false,
+    "max_stable_control_steps": 0,
+    "max_contact_steps": 151,
+    "max_expert_phase": 3,
+    "verified_video_frames": 600,
+    "verified_contiguous_committed_steps": true,
+    "resume_records": [],
+    "launch_code_is_initial_attempt_only": true,
+    "execution_code_records": [
+      "/home/users/lemon/cross-behavior-20261114/stage_a/push/ur5e/dev-002/execution-1794652896421495914.json"
+    ],
+    "failure_class": "CONTACT_PUSH_OFF_GOAL"
+  },
+  {
+    "status": "COMPLETE",
+    "task": "push",
+    "robot": "ur5e",
+    "condition": 3,
+    "condition_id": "cb-v1-push-development-003",
+    "role": "DEVELOPMENT_FEASIBILITY",
+    "success": false,
+    "steps": 600,
+    "final_metrics": {
+      "step": 600,
+      "contacts": [
+        [
+          "gripper0_right_left_outer_finger_collision",
+          "gripper0_right_left_inner_knuckle_collision"
+        ],
+        [
+          "gripper0_right_left_inner_finger_collision",
+          "gripper0_right_left_inner_knuckle_collision"
+        ],
+        [
+          "gripper0_right_right_outer_finger_collision",
+          "gripper0_right_right_inner_knuckle_collision"
+        ],
+        [
+          "gripper0_right_right_inner_finger_collision",
+          "gripper0_right_right_inner_knuckle_collision"
+        ],
+        [
+          "counter_main_main_group_top_right_1",
+          "cubeA_g0"
+        ],
+        [
+          "counter_main_main_group_top_right_1",
+          "cubeA_g0"
+        ],
+        [
+          "counter_main_main_group_top_right_1",
+          "cubeA_g0"
+        ],
+        [
+          "counter_main_main_group_top_right_1",
+          "cubeA_g0"
+        ]
+      ],
+      "robot_collision_pairs": [],
+      "tcp": [
+        2.3502727001418107,
+        -0.4438767902373797,
+        1.0927745989774746
+      ],
+      "native_success": false,
+      "goal_center": [
+        2.4191328286421974,
+        -0.5509865463932662,
+        0.921
+      ],
+      "in_goal": false,
+      "lift_m": 7.647389311804531e-06,
+      "grasp_or_lift_or_fall_violation": false,
+      "lateral_error_m": 0.08295443528553187,
+      "goal_error_xy_m": [
+        -0.028567343836892967,
+        0.08295443528553187
+      ],
+      "object_position": [
+        2.3905654848053044,
+        -0.4680321111077343,
+        0.9397844891595695
+      ],
+      "linear_speed_m_s": 2.1999340505375367e-14,
+      "angular_speed_rad_s": 1.134218136012004e-15,
+      "displacement_m": 0.13891967172832925,
+      "supported": true,
+      "fall": false,
+      "gripper_object_contact": false,
+      "stable_control_steps": 0,
+      "success": false,
+      "first_contact_step": 353,
+      "contact_steps": 137,
+      "max_continuous_contact_steps": 119,
+      "events": {}
+    },
+    "expert_phase": 3,
+    "expert_error": "",
+    "wall_seconds": 21.857448447030038,
+    "video": "/home/users/lemon/cross-behavior-20261114/stage_a/push/ur5e/dev-003/rollout.mp4",
+    "telemetry": "/home/users/lemon/cross-behavior-20261114/stage_a/push/ur5e/dev-003/telemetry.jsonl",
+    "condition_path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/ur5e/dev-003/condition.json",
+    "contract_sha256": "3e1908ade0e2939b34362bf8187b73f5afdb9539346235668aea0026d2082f76",
+    "code_sha256": {
+      "cross_behavior/__init__.py": "edd84ef1cb0b7a172193116f2796b0f5f08cabb5b570966d2a372758aa8be9ea",
+      "cross_behavior/common.py": "9b12dfa6c2bb6393adf59a3fb69ead9dd5b468e3e4eb56d899f8ac7eb509b6c0",
+      "cross_behavior/evaluator.py": "e6e74fdaea6173ec25d3dd14b838ab4edce970e1d8cdccb0e8e16443c6efe0ba",
+      "cross_behavior/expert.py": "931fb3dc1841dd9bf54c0679d1f5fab5937f2551da7a454ef7b6d4b4a5fe419e",
+      "cross_behavior/preservation.py": "54183737f99e05220d4e84db40bdd7a8b3b1416e0ad0ad501deaec17f1a34eaa",
+      "cross_behavior/sensing.py": "f51025595d8d4ce98b5134f132fc462cca5727153f0f042b39215d6b190aa766",
+      "cross_behavior/tasks.py": "c0723ad8b3e05bc17c33aff0f9d5e39785669fa3f2e5ce060561e366283054ed",
+      "cross_behavior/worker.py": "7a076d9a09860a1eeb7d288e16dacc38682242cb83d41212a3dd7a43ff349bc8"
+    },
+    "video_sha256": "35a61c53e6ba698a827b17922331214741965f847efa0a6be67294f5d9cb286d",
+    "telemetry_sha256": "a10805a7329a0b12c99e7f91fe4b45fa0519ad82f6496f5dc6dea24bec900744",
+    "ever_native_success": false,
+    "max_stable_control_steps": 0,
+    "max_contact_steps": 137,
+    "max_expert_phase": 3,
+    "verified_video_frames": 600,
+    "verified_contiguous_committed_steps": true,
+    "resume_records": [
+      "/home/users/lemon/cross-behavior-20261114/stage_a/push/ur5e/dev-003/resume-1794653233854801290.json"
+    ],
+    "launch_code_is_initial_attempt_only": true,
+    "execution_code_records": [
+      "/home/users/lemon/cross-behavior-20261114/stage_a/push/ur5e/dev-003/execution-1794652938394154172.json",
+      "/home/users/lemon/cross-behavior-20261114/stage_a/push/ur5e/dev-003/execution-1794653229903119790.json"
+    ],
+    "failure_class": "CONTACT_PUSH_OFF_GOAL"
+  },
+  {
+    "status": "COMPLETE",
+    "task": "push",
+    "robot": "panda",
+    "condition": 0,
+    "condition_id": "cb-v1-push-development-000",
+    "role": "DEVELOPMENT_FEASIBILITY",
+    "success": false,
+    "steps": 600,
+    "final_metrics": {
+      "step": 600,
+      "contacts": [
+        [
+          "cab_main_main_group_left_door_trim_bottom",
+          "robot0_link7_collision"
+        ],
+        [
+          "gripper0_right_left_outer_finger_collision",
+          "gripper0_right_left_inner_knuckle_collision"
+        ],
+        [
+          "gripper0_right_left_inner_finger_collision",
+          "gripper0_right_left_inner_knuckle_collision"
+        ],
+        [
+          "gripper0_right_right_outer_finger_collision",
+          "gripper0_right_right_inner_knuckle_collision"
+        ],
+        [
+          "gripper0_right_right_inner_finger_collision",
+          "gripper0_right_right_inner_knuckle_collision"
+        ],
+        [
+          "counter_main_main_group_top_right_1",
+          "cubeA_g0"
+        ],
+        [
+          "counter_main_main_group_top_right_1",
+          "cubeA_g0"
+        ],
+        [
+          "counter_main_main_group_top_right_1",
+          "cubeA_g0"
+        ],
+        [
+          "counter_main_main_group_top_right_1",
+          "cubeA_g0"
+        ]
+      ],
+      "robot_collision_pairs": [
+        [
+          "cab_main_main_group_left_door_trim_bottom",
+          "robot0_link7_collision"
+        ]
+      ],
+      "tcp": [
+        1.9490009769333494,
+        -0.4613669417562064,
+        1.25521349770764
+      ],
+      "native_success": false,
+      "goal_center": [
+        2.431470144436068,
+        -0.5409082004524919,
+        0.921
+      ],
+      "in_goal": false,
+      "lift_m": 7.647390222298434e-06,
+      "grasp_or_lift_or_fall_violation": false,
+      "lateral_error_m": 0.0,
+      "goal_error_xy_m": [
+        -0.14000000000000012,
+        0.0
+      ],
+      "object_position": [
+        2.291470144436068,
+        -0.5409082004524919,
+        0.9397844891595659
+      ],
+      "linear_speed_m_s": 2.1673647216395682e-14,
+      "angular_speed_rad_s": 9.847125399684676e-16,
+      "displacement_m": 0.0,
+      "supported": true,
+      "fall": false,
+      "gripper_object_contact": false,
+      "stable_control_steps": 0,
+      "success": false,
+      "first_contact_step": -1,
+      "contact_steps": 0,
+      "max_continuous_contact_steps": 0,
+      "events": {}
+    },
+    "expert_phase": 0,
+    "expert_error": "",
+    "wall_seconds": 42.49066550889984,
+    "video": "/home/users/lemon/cross-behavior-20261114/stage_a/push/panda/dev-000/rollout.mp4",
+    "telemetry": "/home/users/lemon/cross-behavior-20261114/stage_a/push/panda/dev-000/telemetry.jsonl",
+    "condition_path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/panda/dev-000/condition.json",
+    "contract_sha256": "3e1908ade0e2939b34362bf8187b73f5afdb9539346235668aea0026d2082f76",
+    "code_sha256": {
+      "cross_behavior/__init__.py": "edd84ef1cb0b7a172193116f2796b0f5f08cabb5b570966d2a372758aa8be9ea",
+      "cross_behavior/common.py": "9b12dfa6c2bb6393adf59a3fb69ead9dd5b468e3e4eb56d899f8ac7eb509b6c0",
+      "cross_behavior/evaluator.py": "e6e74fdaea6173ec25d3dd14b838ab4edce970e1d8cdccb0e8e16443c6efe0ba",
+      "cross_behavior/expert.py": "931fb3dc1841dd9bf54c0679d1f5fab5937f2551da7a454ef7b6d4b4a5fe419e",
+      "cross_behavior/preservation.py": "54183737f99e05220d4e84db40bdd7a8b3b1416e0ad0ad501deaec17f1a34eaa",
+      "cross_behavior/sensing.py": "f51025595d8d4ce98b5134f132fc462cca5727153f0f042b39215d6b190aa766",
+      "cross_behavior/tasks.py": "c0723ad8b3e05bc17c33aff0f9d5e39785669fa3f2e5ce060561e366283054ed",
+      "cross_behavior/worker.py": "7a076d9a09860a1eeb7d288e16dacc38682242cb83d41212a3dd7a43ff349bc8"
+    },
+    "video_sha256": "900952085ee802f36475b5f2da8661cd2d9912e754858a54418d1b972f0dbcd0",
+    "telemetry_sha256": "79e7cd18a1f5f1a0e64deab8631337475f8a314e79c07190671841e44bbf30c6",
+    "ever_native_success": false,
+    "max_stable_control_steps": 0,
+    "max_contact_steps": 0,
+    "max_expert_phase": 0,
+    "verified_video_frames": 600,
+    "verified_contiguous_committed_steps": true,
+    "resume_records": [],
+    "launch_code_is_initial_attempt_only": true,
+    "execution_code_records": [
+      "/home/users/lemon/cross-behavior-20261114/stage_a/push/panda/dev-000/execution-1794652962447181787.json"
+    ],
+    "failure_class": "APPROACH_OR_TARGET_ACQUISITION_NOT_COMPLETED"
+  },
+  {
+    "status": "COMPLETE",
+    "task": "push",
+    "robot": "panda",
+    "condition": 1,
+    "condition_id": "cb-v1-push-development-001",
+    "role": "DEVELOPMENT_FEASIBILITY",
+    "success": false,
+    "steps": 600,
+    "final_metrics": {
+      "step": 600,
+      "contacts": [
+        [
+          "cab_main_main_group_left_door_trim_bottom",
+          "robot0_link7_collision"
+        ],
+        [
+          "gripper0_right_left_outer_finger_collision",
+          "gripper0_right_left_inner_knuckle_collision"
+        ],
+        [
+          "gripper0_right_left_inner_finger_collision",
+          "gripper0_right_left_inner_knuckle_collision"
+        ],
+        [
+          "gripper0_right_right_outer_finger_collision",
+          "gripper0_right_right_inner_knuckle_collision"
+        ],
+        [
+          "gripper0_right_right_inner_finger_collision",
+          "gripper0_right_right_inner_knuckle_collision"
+        ],
+        [
+          "counter_main_main_group_top_right_1",
+          "cubeA_g0"
+        ],
+        [
+          "counter_main_main_group_top_right_1",
+          "cubeA_g0"
+        ],
+        [
+          "counter_main_main_group_top_right_1",
+          "cubeA_g0"
+        ],
+        [
+          "counter_main_main_group_top_right_1",
+          "cubeA_g0"
+        ]
+      ],
+      "robot_collision_pairs": [
+        [
+          "cab_main_main_group_left_door_trim_bottom",
+          "robot0_link7_collision"
+        ]
+      ],
+      "tcp": [
+        1.9357308473780517,
+        -0.4694655094607002,
+        1.2242048659498959
+      ],
+      "native_success": false,
+      "goal_center": [
+        2.4341442238268023,
+        -0.5484364186346031,
+        0.921
+      ],
+      "in_goal": false,
+      "lift_m": 7.647390222298434e-06,
+      "grasp_or_lift_or_fall_violation": false,
+      "lateral_error_m": 0.0,
+      "goal_error_xy_m": [
+        -0.14000000000000012,
+        0.0
+      ],
+      "object_position": [
+        2.294144223826802,
+        -0.5484364186346031,
+        0.9397844891595659
+      ],
+      "linear_speed_m_s": 2.168058711232179e-14,
+      "angular_speed_rad_s": 1.0632300510271122e-15,
+      "displacement_m": 0.0,
+      "supported": true,
+      "fall": false,
+      "gripper_object_contact": false,
+      "stable_control_steps": 0,
+      "success": false,
+      "first_contact_step": -1,
+      "contact_steps": 0,
+      "max_continuous_contact_steps": 0,
+      "events": {}
+    },
+    "expert_phase": 0,
+    "expert_error": "",
+    "wall_seconds": 42.752537773922086,
+    "video": "/home/users/lemon/cross-behavior-20261114/stage_a/push/panda/dev-001/rollout.mp4",
+    "telemetry": "/home/users/lemon/cross-behavior-20261114/stage_a/push/panda/dev-001/telemetry.jsonl",
+    "condition_path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/panda/dev-001/condition.json",
+    "contract_sha256": "3e1908ade0e2939b34362bf8187b73f5afdb9539346235668aea0026d2082f76",
+    "code_sha256": {
+      "cross_behavior/__init__.py": "edd84ef1cb0b7a172193116f2796b0f5f08cabb5b570966d2a372758aa8be9ea",
+      "cross_behavior/common.py": "9b12dfa6c2bb6393adf59a3fb69ead9dd5b468e3e4eb56d899f8ac7eb509b6c0",
+      "cross_behavior/evaluator.py": "e6e74fdaea6173ec25d3dd14b838ab4edce970e1d8cdccb0e8e16443c6efe0ba",
+      "cross_behavior/expert.py": "931fb3dc1841dd9bf54c0679d1f5fab5937f2551da7a454ef7b6d4b4a5fe419e",
+      "cross_behavior/preservation.py": "54183737f99e05220d4e84db40bdd7a8b3b1416e0ad0ad501deaec17f1a34eaa",
+      "cross_behavior/sensing.py": "f51025595d8d4ce98b5134f132fc462cca5727153f0f042b39215d6b190aa766",
+      "cross_behavior/tasks.py": "c0723ad8b3e05bc17c33aff0f9d5e39785669fa3f2e5ce060561e366283054ed",
+      "cross_behavior/worker.py": "7a076d9a09860a1eeb7d288e16dacc38682242cb83d41212a3dd7a43ff349bc8"
+    },
+    "video_sha256": "daec66a17af1296beb97df8bb3ac850f0538c2b8036c2c097732006642094652",
+    "telemetry_sha256": "2afb500a1674e77acfa8142de0f9d339b2176eeaa1734e826e610cbc2fb41f20",
+    "ever_native_success": false,
+    "max_stable_control_steps": 0,
+    "max_contact_steps": 0,
+    "max_expert_phase": 0,
+    "verified_video_frames": 600,
+    "verified_contiguous_committed_steps": true,
+    "resume_records": [],
+    "launch_code_is_initial_attempt_only": true,
+    "execution_code_records": [
+      "/home/users/lemon/cross-behavior-20261114/stage_a/push/panda/dev-001/execution-1794653005464038203.json"
+    ],
+    "failure_class": "APPROACH_OR_TARGET_ACQUISITION_NOT_COMPLETED"
+  },
+  {
+    "status": "COMPLETE",
+    "task": "push",
+    "robot": "panda",
+    "condition": 2,
+    "condition_id": "cb-v1-push-development-002",
+    "role": "DEVELOPMENT_FEASIBILITY",
+    "success": false,
+    "steps": 600,
+    "final_metrics": {
+      "step": 600,
+      "contacts": [
+        [
+          "cab_main_main_group_left_door_trim_bottom",
+          "robot0_link7_collision"
+        ],
+        [
+          "gripper0_right_left_outer_finger_collision",
+          "gripper0_right_left_inner_knuckle_collision"
+        ],
+        [
+          "gripper0_right_left_inner_finger_collision",
+          "gripper0_right_left_inner_knuckle_collision"
+        ],
+        [
+          "gripper0_right_right_outer_finger_collision",
+          "gripper0_right_right_inner_knuckle_collision"
+        ],
+        [
+          "gripper0_right_right_inner_finger_collision",
+          "gripper0_right_right_inner_knuckle_collision"
+        ],
+        [
+          "counter_main_main_group_top_right_1",
+          "cubeA_g0"
+        ],
+        [
+          "counter_main_main_group_top_right_1",
+          "cubeA_g0"
+        ],
+        [
+          "counter_main_main_group_top_right_1",
+          "cubeA_g0"
+        ],
+        [
+          "counter_main_main_group_top_right_1",
+          "cubeA_g0"
+        ]
+      ],
+      "robot_collision_pairs": [
+        [
+          "cab_main_main_group_left_door_trim_bottom",
+          "robot0_link7_collision"
+        ]
+      ],
+      "tcp": [
+        1.9022807385307556,
+        -0.4734698304007125,
+        1.250131964168462
+      ],
+      "native_success": false,
+      "goal_center": [
+        2.4183692004693462,
+        -0.543680213512971,
+        0.921
+      ],
+      "in_goal": false,
+      "lift_m": 7.647390222298434e-06,
+      "grasp_or_lift_or_fall_violation": false,
+      "lateral_error_m": 0.0,
+      "goal_error_xy_m": [
+        -0.14000000000000012,
+        0.0
+      ],
+      "object_position": [
+        2.278369200469346,
+        -0.543680213512971,
+        0.9397844891595659
+      ],
+      "linear_speed_m_s": 2.16771220539939e-14,
+      "angular_speed_rad_s": 1.2266449419050374e-15,
+      "displacement_m": 0.0,
+      "supported": true,
+      "fall": false,
+      "gripper_object_contact": false,
+      "stable_control_steps": 0,
+      "success": false,
+      "first_contact_step": -1,
+      "contact_steps": 0,
+      "max_continuous_contact_steps": 0,
+      "events": {}
+    },
+    "expert_phase": 0,
+    "expert_error": "",
+    "wall_seconds": 42.362381966784596,
+    "video": "/home/users/lemon/cross-behavior-20261114/stage_a/push/panda/dev-002/rollout.mp4",
+    "telemetry": "/home/users/lemon/cross-behavior-20261114/stage_a/push/panda/dev-002/telemetry.jsonl",
+    "condition_path": "/home/users/lemon/cross-behavior-20261114/stage_a/push/panda/dev-002/condition.json",
+    "contract_sha256": "3e1908ade0e2939b34362bf8187b73f5afdb9539346235668aea0026d2082f76",
+    "code_sha256": {
+      "cross_behavior/__init__.py": "edd84ef1cb0b7a172193116f2796b0f5f08cabb5b570966d2a372758aa8be9ea",
+      "cross_behavior/common.py": "9b12dfa6c2bb6393adf59a3fb69ead9dd5b468e3e4eb56d899f8ac7eb509b6c0",
+      "cross_behavior/evaluator.py": "e6e74fdaea6173ec25d3dd14b838ab4edce970e1d8cdccb0e8e16443c6efe0ba",
+      "cross_behavior/expert.py": "931fb3dc1841dd9bf54c0679d1f5fab5937f2551da7a454ef7b6d4b4a5fe419e",
+      "cross_behavior/preservation.py": "54183737f99e05220d4e84db40bdd7a8b3b1416e0ad0ad501deaec17f1a34eaa",
+      "cross_behavior/sensing.py": "f51025595d8d4ce98b5134f132fc462cca5727153f0f042b39215d6b190aa766",
+      "cross_behavior/tasks.py": "c0723ad8b3e05bc17c33aff0f9d5e39785669fa3f2e5ce060561e366283054ed",
+      "cross_behavior/worker.py": "7a076d9a09860a1eeb7d288e16dacc38682242cb83d41212a3dd7a43ff349bc8"
+    },
+    "video_sha256": "7ebaf94045470f0c88543a578dbd1aba76f36d881c569a90cdea873aa843705e",
+    "telemetry_sha256": "3792774ac6ba7856dc1370761208ec16a9c0e9ce9fca37893db9df9bc5d4cf8c",
+    "ever_native_success": false,
+    "max_stable_control_steps": 0,
+    "max_contact_steps": 0,
+    "max_expert_phase": 0,
+    "verified_video_frames": 600,
+    "verified_contiguous_committed_steps": true,
+    "resume_records": [],
+    "launch_code_is_initial_attempt_only": true,
+    "execution_code_records": [
+      "/home/users/lemon/cross-behavior-20261114/stage_a/push/panda/dev-002/execution-1794653048726565121.json"
+    ],
+    "failure_class": "APPROACH_OR_TARGET_ACQUISITION_NOT_COMPLETED"
+  },
+  {
+    "status": "COMPLETE",
+    "task": "stack",
+    "robot": "ur5e",
+    "condition": 0,
+    "condition_id": "cb-v1-stack-development-000",
+    "role": "DEVELOPMENT_FEASIBILITY",
+    "success": false,
+    "steps": 600,
+    "final_metrics": {
+      "step": 600,
+      "contacts": [
+        [
+          "gripper0_right_left_outer_finger_collision",
+          "gripper0_right_left_inner_knuckle_collision"
+        ],
+        [
+          "gripper0_right_left_inner_finger_collision",
+          "gripper0_right_left_inner_knuckle_collision"
+        ],
+        [
+          "gripper0_right_right_outer_finger_collision",
+          "gripper0_right_right_inner_knuckle_collision"
+        ],
+        [
+          "cab_2_main_group_right_door_door",
+          "gripper0_right_right_outer_finger_collision"
+        ],
+        [
+          "gripper0_right_right_inner_finger_collision",
+          "gripper0_right_right_inner_knuckle_collision"
+        ],
+        [
+          "counter_main_main_group_top_right_1",
+          "cubeA_g0"
+        ],
+        [
+          "counter_main_main_group_top_right_1",
+          "cubeA_g0"
+        ],
+        [
+          "counter_main_main_group_top_right_1",
+          "cubeA_g0"
+        ],
+        [
+          "counter_main_main_group_top_right_1",
+          "cubeA_g0"
+        ],
+        [
+          "counter_main_main_group_top_right_1",
+          "cubeB_g0"
+        ],
+        [
+          "counter_main_main_group_top_right_1",
+          "cubeB_g0"
+        ],
+        [
+          "counter_main_main_group_top_right_1",
+          "cubeB_g0"
+        ],
+        [
+          "counter_main_main_group_top_right_1",
+          "cubeB_g0"
+        ]
+      ],
+      "robot_collision_pairs": [],
+      "tcp": [
+        1.506662436835704,
+        -0.45935423670170433,
+        1.4891067759748515
+      ],
+      "native_success": false,
+      "object_B_position": [
+        2.4401343879591932,
+        -0.5515108803812183,
+        0.9447844891595659
+      ],
+      "ab_contact": false,
+      "support_B_contact": true,
+      "xy_error_m": 0.14954978183593595,
+      "height_error_m": 0.05,
+      "released": true,
+      "retreat": true,
+      "toppled": true,
+      "object_position": [
+        2.2906459590219646,
+        -0.5472275567820535,
+        0.9397844891595659
+      ],
+      "linear_speed_m_s": 2.167365071111647e-14,
+      "angular_speed_rad_s": 1.1201106778072706e-15,
+      "displacement_m": 0.0,
+      "supported": true,
+      "fall": false,
+      "gripper_object_contact": false,
+      "stable_control_steps": 0,
+      "success": false,
+      "first_contact_step": -1,
+      "contact_steps": 0,
+      "max_continuous_contact_steps": 0,
+      "events": {}
+    },
+    "expert_phase": 0,
+    "expert_error": "",
+    "wall_seconds": 43.23536524083465,
+    "video": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/ur5e/dev-000/rollout.mp4",
+    "telemetry": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/ur5e/dev-000/telemetry.jsonl",
+    "condition_path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/ur5e/dev-000/condition.json",
+    "contract_sha256": "3e1908ade0e2939b34362bf8187b73f5afdb9539346235668aea0026d2082f76",
+    "code_sha256": {
+      "cross_behavior/__init__.py": "edd84ef1cb0b7a172193116f2796b0f5f08cabb5b570966d2a372758aa8be9ea",
+      "cross_behavior/common.py": "9b12dfa6c2bb6393adf59a3fb69ead9dd5b468e3e4eb56d899f8ac7eb509b6c0",
+      "cross_behavior/evaluator.py": "e6e74fdaea6173ec25d3dd14b838ab4edce970e1d8cdccb0e8e16443c6efe0ba",
+      "cross_behavior/expert.py": "931fb3dc1841dd9bf54c0679d1f5fab5937f2551da7a454ef7b6d4b4a5fe419e",
+      "cross_behavior/preservation.py": "54183737f99e05220d4e84db40bdd7a8b3b1416e0ad0ad501deaec17f1a34eaa",
+      "cross_behavior/sensing.py": "f51025595d8d4ce98b5134f132fc462cca5727153f0f042b39215d6b190aa766",
+      "cross_behavior/tasks.py": "c0723ad8b3e05bc17c33aff0f9d5e39785669fa3f2e5ce060561e366283054ed",
+      "cross_behavior/worker.py": "5b5c2e251fa3a8edc4fe159b19cdac2f1f9e275170ee2b122da4d815b30e196d"
+    },
+    "video_sha256": "7023948a33794051f0339c427a37cace8559fd22d9f098c4765596162ac63aaa",
+    "telemetry_sha256": "ac4cd54e4924b40ece0028bcbeb2639bd95e1a5ba70ade844f864e29d4f77244",
+    "ever_native_success": false,
+    "max_stable_control_steps": 0,
+    "max_contact_steps": 0,
+    "max_expert_phase": 0,
+    "verified_video_frames": 600,
+    "verified_contiguous_committed_steps": true,
+    "resume_records": [],
+    "launch_code_is_initial_attempt_only": true,
+    "execution_code_records": [
+      "/home/users/lemon/cross-behavior-20261114/stage_a/stack/ur5e/dev-000/execution-1794653091658445634.json"
+    ],
+    "failure_class": "APPROACH_OR_TARGET_ACQUISITION_NOT_COMPLETED"
+  },
+  {
+    "status": "COMPLETE",
+    "task": "stack",
+    "robot": "ur5e",
+    "condition": 1,
+    "condition_id": "cb-v1-stack-development-001",
+    "role": "DEVELOPMENT_FEASIBILITY",
+    "success": false,
+    "steps": 600,
+    "final_metrics": {
+      "step": 600,
+      "contacts": [
+        [
+          "gripper0_right_left_outer_finger_collision",
+          "gripper0_right_left_inner_knuckle_collision"
+        ],
+        [
+          "gripper0_right_left_inner_finger_collision",
+          "gripper0_right_left_inner_knuckle_collision"
+        ],
+        [
+          "gripper0_right_right_outer_finger_collision",
+          "gripper0_right_right_inner_knuckle_collision"
+        ],
+        [
+          "gripper0_right_right_inner_finger_collision",
+          "gripper0_right_right_inner_knuckle_collision"
+        ],
+        [
+          "counter_main_main_group_top_right_0",
+          "cubeB_g0"
+        ],
+        [
+          "counter_main_main_group_top_right_0",
+          "cubeB_g0"
+        ],
+        [
+          "counter_main_main_group_top_right_0",
+          "cubeB_g0"
+        ],
+        [
+          "counter_main_main_group_top_right_0",
+          "cubeB_g0"
+        ],
+        [
+          "cubeA_g0",
+          "cubeB_g0"
+        ],
+        [
+          "cubeA_g0",
+          "cubeB_g0"
+        ],
+        [
+          "cubeA_g0",
+          "cubeB_g0"
+        ],
+        [
+          "cubeA_g0",
+          "cubeB_g0"
+        ]
+      ],
+      "robot_collision_pairs": [],
+      "tcp": [
+        1.9554250565590205,
+        -0.5494584844404699,
+        0.9914781452491677
+      ],
+      "native_success": true,
+      "object_B_position": [
+        1.9589156954728233,
+        -0.5482410564629094,
+        0.9446797766303687
+      ],
+      "ab_contact": true,
+      "support_B_contact": true,
+      "xy_error_m": 0.0012671353163156596,
+      "height_error_m": 0.0003204948231431831,
+      "released": true,
+      "retreat": false,
+      "toppled": false,
+      "object_position": [
+        1.9582025101389007,
+        -0.5492884334673028,
+        0.9893592818072255
+      ],
+      "linear_speed_m_s": 4.023020367085857e-08,
+      "angular_speed_rad_s": 6.712982340049989e-09,
+      "displacement_m": 0.14836976437539723,
+      "supported": true,
+      "fall": false,
+      "gripper_object_contact": false,
+      "stable_control_steps": 0,
+      "success": false,
+      "first_contact_step": 249,
+      "contact_steps": 311,
+      "max_continuous_contact_steps": 311,
+      "events": {
+        "lift_step": 312,
+        "support_contact_step": 557
+      }
+    },
+    "expert_phase": 7,
+    "expert_error": "",
+    "wall_seconds": 5.5641482612118125,
+    "video": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/ur5e/dev-001/rollout.mp4",
+    "telemetry": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/ur5e/dev-001/telemetry.jsonl",
+    "condition_path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/ur5e/dev-001/condition.json",
+    "contract_sha256": "3e1908ade0e2939b34362bf8187b73f5afdb9539346235668aea0026d2082f76",
+    "code_sha256": {
+      "cross_behavior/__init__.py": "edd84ef1cb0b7a172193116f2796b0f5f08cabb5b570966d2a372758aa8be9ea",
+      "cross_behavior/common.py": "9b12dfa6c2bb6393adf59a3fb69ead9dd5b468e3e4eb56d899f8ac7eb509b6c0",
+      "cross_behavior/evaluator.py": "e6e74fdaea6173ec25d3dd14b838ab4edce970e1d8cdccb0e8e16443c6efe0ba",
+      "cross_behavior/expert.py": "7ffedae541d4f296a13d95ce54dafc43a2ce4475c26ea66e25f6fa3b2cde1c6a",
+      "cross_behavior/preservation.py": "54183737f99e05220d4e84db40bdd7a8b3b1416e0ad0ad501deaec17f1a34eaa",
+      "cross_behavior/sensing.py": "b522694109806e65b7315cac2b107ffa381053c5abf33a60bf96bdc1a42b6611",
+      "cross_behavior/tasks.py": "a6a0bebc8bc8841f77a9fb90c680695ecfc08ab8d31bfd3bad1caadc0c5fdd7c",
+      "cross_behavior/worker.py": "5b5c2e251fa3a8edc4fe159b19cdac2f1f9e275170ee2b122da4d815b30e196d"
+    },
+    "video_sha256": "635d224e2d5a52c9f31fc2824ece2ce6ace36679fae1fab54cb23644ea184dc3",
+    "telemetry_sha256": "0bfb304fe0940c3b2bce86abc5ad8918af8f55c8cea5d8e44eb8ca548815e56c",
+    "ever_native_success": true,
+    "max_stable_control_steps": 0,
+    "max_contact_steps": 311,
+    "max_expert_phase": 7,
+    "verified_video_frames": 600,
+    "verified_contiguous_committed_steps": true,
+    "resume_records": [
+      "/home/users/lemon/cross-behavior-20261114/stage_a/stack/ur5e/dev-001/resume-1794653338477849666.json"
+    ],
+    "launch_code_is_initial_attempt_only": true,
+    "execution_code_records": [
+      "/home/users/lemon/cross-behavior-20261114/stage_a/stack/ur5e/dev-001/execution-1794653252299420365.json",
+      "/home/users/lemon/cross-behavior-20261114/stage_a/stack/ur5e/dev-001/execution-1794653334560086969.json"
+    ],
+    "failure_class": "NATIVE_STACK_WITHOUT_FROZEN_RETREAT_STABILITY_CONTRACT"
+  },
+  {
+    "status": "COMPLETE",
+    "task": "stack",
+    "robot": "ur5e",
+    "condition": 2,
+    "condition_id": "cb-v1-stack-development-002",
+    "role": "DEVELOPMENT_FEASIBILITY",
+    "success": false,
+    "steps": 600,
+    "final_metrics": {
+      "step": 600,
+      "contacts": [
+        [
+          "gripper0_right_left_outer_finger_collision",
+          "gripper0_right_left_inner_knuckle_collision"
+        ],
+        [
+          "gripper0_right_left_inner_finger_collision",
+          "gripper0_right_left_inner_knuckle_collision"
+        ],
+        [
+          "gripper0_right_right_outer_finger_collision",
+          "gripper0_right_right_inner_knuckle_collision"
+        ],
+        [
+          "gripper0_right_right_inner_finger_collision",
+          "gripper0_right_right_inner_knuckle_collision"
+        ],
+        [
+          "counter_main_main_group_top_right_0",
+          "cubeB_g0"
+        ],
+        [
+          "counter_main_main_group_top_right_0",
+          "cubeB_g0"
+        ],
+        [
+          "counter_main_main_group_top_right_0",
+          "cubeB_g0"
+        ],
+        [
+          "counter_main_main_group_top_right_0",
+          "cubeB_g0"
+        ],
+        [
+          "cubeA_g0",
+          "cubeB_g0"
+        ],
+        [
+          "cubeA_g0",
+          "cubeB_g0"
+        ],
+        [
+          "cubeA_g0",
+          "cubeB_g0"
+        ],
+        [
+          "cubeA_g0",
+          "cubeB_g0"
+        ]
+      ],
+      "robot_collision_pairs": [],
+      "tcp": [
+        1.9598880251139879,
+        -0.5545926880836114,
+        0.9872537630469249
+      ],
+      "native_success": true,
+      "object_B_position": [
+        1.9630563294561825,
+        -0.5537679514181086,
+        0.9446797804796412
+      ],
+      "ab_contact": true,
+      "support_B_contact": true,
+      "xy_error_m": 0.0015613699709090287,
+      "height_error_m": 0.00032063167215841404,
+      "released": true,
+      "retreat": false,
+      "toppled": false,
+      "object_position": [
+        1.9618806407537346,
+        -0.5547953910810538,
+        0.9893591488074828
+      ],
+      "linear_speed_m_s": 4.957138554919197e-08,
+      "angular_speed_rad_s": 8.271302257568224e-09,
+      "displacement_m": 0.14837966652463946,
+      "supported": true,
+      "fall": false,
+      "gripper_object_contact": false,
+      "stable_control_steps": 0,
+      "success": false,
+      "first_contact_step": 252,
+      "contact_steps": 311,
+      "max_continuous_contact_steps": 311,
+      "events": {
+        "lift_step": 315,
+        "support_contact_step": 561
+      }
+    },
+    "expert_phase": 7,
+    "expert_error": "",
+    "wall_seconds": 41.98435008293018,
+    "video": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/ur5e/dev-002/rollout.mp4",
+    "telemetry": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/ur5e/dev-002/telemetry.jsonl",
+    "condition_path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/ur5e/dev-002/condition.json",
+    "contract_sha256": "3e1908ade0e2939b34362bf8187b73f5afdb9539346235668aea0026d2082f76",
+    "code_sha256": {
+      "cross_behavior/__init__.py": "edd84ef1cb0b7a172193116f2796b0f5f08cabb5b570966d2a372758aa8be9ea",
+      "cross_behavior/common.py": "9b12dfa6c2bb6393adf59a3fb69ead9dd5b468e3e4eb56d899f8ac7eb509b6c0",
+      "cross_behavior/evaluator.py": "e6e74fdaea6173ec25d3dd14b838ab4edce970e1d8cdccb0e8e16443c6efe0ba",
+      "cross_behavior/expert.py": "7ffedae541d4f296a13d95ce54dafc43a2ce4475c26ea66e25f6fa3b2cde1c6a",
+      "cross_behavior/preservation.py": "54183737f99e05220d4e84db40bdd7a8b3b1416e0ad0ad501deaec17f1a34eaa",
+      "cross_behavior/sensing.py": "b522694109806e65b7315cac2b107ffa381053c5abf33a60bf96bdc1a42b6611",
+      "cross_behavior/tasks.py": "a6a0bebc8bc8841f77a9fb90c680695ecfc08ab8d31bfd3bad1caadc0c5fdd7c",
+      "cross_behavior/worker.py": "5b5c2e251fa3a8edc4fe159b19cdac2f1f9e275170ee2b122da4d815b30e196d"
+    },
+    "video_sha256": "a073a65d810be3b32950dd8c01b2b23c2a1f289fa05e6c4d78d849318416f8ed",
+    "telemetry_sha256": "a21c0d8577b899c31776fd29686ca0a9688749b756e92c577f8940740cd9396d",
+    "ever_native_success": true,
+    "max_stable_control_steps": 0,
+    "max_contact_steps": 311,
+    "max_expert_phase": 7,
+    "verified_video_frames": 600,
+    "verified_contiguous_committed_steps": true,
+    "resume_records": [],
+    "launch_code_is_initial_attempt_only": true,
+    "execution_code_records": [
+      "/home/users/lemon/cross-behavior-20261114/stage_a/stack/ur5e/dev-002/execution-1794653340635883619.json"
+    ],
+    "failure_class": "NATIVE_STACK_WITHOUT_FROZEN_RETREAT_STABILITY_CONTRACT"
+  },
+  {
+    "status": "COMPLETE",
+    "task": "stack",
+    "robot": "panda",
+    "condition": 0,
+    "condition_id": "cb-v1-stack-development-000",
+    "role": "DEVELOPMENT_FEASIBILITY",
+    "success": false,
+    "steps": 600,
+    "final_metrics": {
+      "step": 600,
+      "contacts": [
+        [
+          "gripper0_right_left_outer_finger_collision",
+          "gripper0_right_left_inner_knuckle_collision"
+        ],
+        [
+          "gripper0_right_left_inner_finger_collision",
+          "gripper0_right_left_inner_knuckle_collision"
+        ],
+        [
+          "gripper0_right_right_outer_finger_collision",
+          "gripper0_right_right_inner_knuckle_collision"
+        ],
+        [
+          "gripper0_right_right_inner_finger_collision",
+          "gripper0_right_right_inner_knuckle_collision"
+        ],
+        [
+          "counter_main_main_group_top_right_0",
+          "cubeB_g0"
+        ],
+        [
+          "counter_main_main_group_top_right_0",
+          "cubeB_g0"
+        ],
+        [
+          "counter_main_main_group_top_right_0",
+          "cubeB_g0"
+        ],
+        [
+          "counter_main_main_group_top_right_0",
+          "cubeB_g0"
+        ],
+        [
+          "cubeA_g0",
+          "cubeB_g0"
+        ],
+        [
+          "cubeA_g0",
+          "cubeB_g0"
+        ],
+        [
+          "cubeA_g0",
+          "cubeB_g0"
+        ],
+        [
+          "cubeA_g0",
+          "cubeB_g0"
+        ]
+      ],
+      "robot_collision_pairs": [],
+      "tcp": [
+        1.9576634559643504,
+        -0.5533085480212745,
+        1.0019337227405851
+      ],
+      "native_success": true,
+      "object_B_position": [
+        1.9615822163847898,
+        -0.5515175628351379,
+        0.9446798120649579
+      ],
+      "ab_contact": true,
+      "support_B_contact": true,
+      "xy_error_m": 0.003044315978787362,
+      "height_error_m": 0.0003217546882427619,
+      "released": true,
+      "retreat": false,
+      "toppled": false,
+      "object_position": [
+        1.9590224719472376,
+        -0.5531654609488331,
+        0.9893580573767151
+      ],
+      "linear_speed_m_s": 9.66474851632133e-08,
+      "angular_speed_rad_s": 1.6123946902499803e-08,
+      "displacement_m": 0.1470381249897564,
+      "supported": true,
+      "fall": false,
+      "gripper_object_contact": false,
+      "stable_control_steps": 0,
+      "success": false,
+      "first_contact_step": 245,
+      "contact_steps": 309,
+      "max_continuous_contact_steps": 309,
+      "events": {
+        "lift_step": 306,
+        "support_contact_step": 554
+      }
+    },
+    "expert_phase": 7,
+    "expert_error": "",
+    "wall_seconds": 42.174795816186816,
+    "video": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/panda/dev-000/rollout.mp4",
+    "telemetry": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/panda/dev-000/telemetry.jsonl",
+    "condition_path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/panda/dev-000/condition.json",
+    "contract_sha256": "3e1908ade0e2939b34362bf8187b73f5afdb9539346235668aea0026d2082f76",
+    "code_sha256": {
+      "cross_behavior/__init__.py": "edd84ef1cb0b7a172193116f2796b0f5f08cabb5b570966d2a372758aa8be9ea",
+      "cross_behavior/common.py": "9b12dfa6c2bb6393adf59a3fb69ead9dd5b468e3e4eb56d899f8ac7eb509b6c0",
+      "cross_behavior/evaluator.py": "e6e74fdaea6173ec25d3dd14b838ab4edce970e1d8cdccb0e8e16443c6efe0ba",
+      "cross_behavior/expert.py": "7ffedae541d4f296a13d95ce54dafc43a2ce4475c26ea66e25f6fa3b2cde1c6a",
+      "cross_behavior/preservation.py": "54183737f99e05220d4e84db40bdd7a8b3b1416e0ad0ad501deaec17f1a34eaa",
+      "cross_behavior/sensing.py": "b522694109806e65b7315cac2b107ffa381053c5abf33a60bf96bdc1a42b6611",
+      "cross_behavior/tasks.py": "a6a0bebc8bc8841f77a9fb90c680695ecfc08ab8d31bfd3bad1caadc0c5fdd7c",
+      "cross_behavior/worker.py": "5b5c2e251fa3a8edc4fe159b19cdac2f1f9e275170ee2b122da4d815b30e196d"
+    },
+    "video_sha256": "06fe249dfff765e3fdcdfd3c34817b624dcc685d09fe3366117fbb650334110c",
+    "telemetry_sha256": "5d8374ceb8d5eea72e9df576c419d38a3657c24467407adfd8979afb46ba8a2a",
+    "ever_native_success": true,
+    "max_stable_control_steps": 0,
+    "max_contact_steps": 309,
+    "max_expert_phase": 7,
+    "verified_video_frames": 600,
+    "verified_contiguous_committed_steps": true,
+    "resume_records": [],
+    "launch_code_is_initial_attempt_only": true,
+    "execution_code_records": [
+      "/home/users/lemon/cross-behavior-20261114/stage_a/stack/panda/dev-000/execution-1794653383148046925.json"
+    ],
+    "failure_class": "NATIVE_STACK_WITHOUT_FROZEN_RETREAT_STABILITY_CONTRACT"
+  },
+  {
+    "status": "COMPLETE",
+    "task": "stack",
+    "robot": "panda",
+    "condition": 1,
+    "condition_id": "cb-v1-stack-development-001",
+    "role": "DEVELOPMENT_FEASIBILITY",
+    "success": false,
+    "steps": 600,
+    "final_metrics": {
+      "step": 600,
+      "contacts": [
+        [
+          "gripper0_right_left_outer_finger_collision",
+          "gripper0_right_left_inner_knuckle_collision"
+        ],
+        [
+          "gripper0_right_left_inner_finger_collision",
+          "gripper0_right_left_inner_knuckle_collision"
+        ],
+        [
+          "gripper0_right_right_outer_finger_collision",
+          "gripper0_right_right_inner_knuckle_collision"
+        ],
+        [
+          "gripper0_right_right_inner_finger_collision",
+          "gripper0_right_right_inner_knuckle_collision"
+        ],
+        [
+          "counter_main_main_group_top_right_0",
+          "cubeB_g0"
+        ],
+        [
+          "counter_main_main_group_top_right_0",
+          "cubeB_g0"
+        ],
+        [
+          "counter_main_main_group_top_right_0",
+          "cubeB_g0"
+        ],
+        [
+          "counter_main_main_group_top_right_0",
+          "cubeB_g0"
+        ],
+        [
+          "cubeA_g0",
+          "cubeB_g0"
+        ],
+        [
+          "cubeA_g0",
+          "cubeB_g0"
+        ],
+        [
+          "cubeA_g0",
+          "cubeB_g0"
+        ],
+        [
+          "cubeA_g0",
+          "cubeB_g0"
+        ]
+      ],
+      "robot_collision_pairs": [],
+      "tcp": [
+        1.9566517557978496,
+        -0.5482877518878968,
+        0.9880174981628399
+      ],
+      "native_success": true,
+      "object_B_position": [
+        1.9589193773894011,
+        -0.5482398338472736,
+        0.9446797708642491
+      ],
+      "ab_contact": true,
+      "support_B_contact": true,
+      "xy_error_m": 0.0005991680599636587,
+      "height_error_m": 0.00032028983067940164,
+      "released": true,
+      "retreat": false,
+      "toppled": false,
+      "object_position": [
+        1.9589079682961354,
+        -0.5488388932739346,
+        0.9893594810335697
+      ],
+      "linear_speed_m_s": 1.9023198455809874e-08,
+      "angular_speed_rad_s": 3.1744345256873395e-09,
+      "displacement_m": 0.14904672655157777,
+      "supported": true,
+      "fall": false,
+      "gripper_object_contact": false,
+      "stable_control_steps": 0,
+      "success": false,
+      "first_contact_step": 252,
+      "contact_steps": 311,
+      "max_continuous_contact_steps": 311,
+      "events": {
+        "lift_step": 313,
+        "support_contact_step": 563
+      }
+    },
+    "expert_phase": 7,
+    "expert_error": "",
+    "wall_seconds": 41.99375852011144,
+    "video": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/panda/dev-001/rollout.mp4",
+    "telemetry": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/panda/dev-001/telemetry.jsonl",
+    "condition_path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/panda/dev-001/condition.json",
+    "contract_sha256": "3e1908ade0e2939b34362bf8187b73f5afdb9539346235668aea0026d2082f76",
+    "code_sha256": {
+      "cross_behavior/__init__.py": "edd84ef1cb0b7a172193116f2796b0f5f08cabb5b570966d2a372758aa8be9ea",
+      "cross_behavior/common.py": "9b12dfa6c2bb6393adf59a3fb69ead9dd5b468e3e4eb56d899f8ac7eb509b6c0",
+      "cross_behavior/evaluator.py": "e6e74fdaea6173ec25d3dd14b838ab4edce970e1d8cdccb0e8e16443c6efe0ba",
+      "cross_behavior/expert.py": "7ffedae541d4f296a13d95ce54dafc43a2ce4475c26ea66e25f6fa3b2cde1c6a",
+      "cross_behavior/preservation.py": "54183737f99e05220d4e84db40bdd7a8b3b1416e0ad0ad501deaec17f1a34eaa",
+      "cross_behavior/sensing.py": "b522694109806e65b7315cac2b107ffa381053c5abf33a60bf96bdc1a42b6611",
+      "cross_behavior/tasks.py": "a6a0bebc8bc8841f77a9fb90c680695ecfc08ab8d31bfd3bad1caadc0c5fdd7c",
+      "cross_behavior/worker.py": "5b5c2e251fa3a8edc4fe159b19cdac2f1f9e275170ee2b122da4d815b30e196d"
+    },
+    "video_sha256": "f477c4d5bd612c2461de0e1c2b7a903545fad389373f8f4d67d8ae2fbad23df6",
+    "telemetry_sha256": "bbee3b454c0064e221ced2d59d23191d7b231bfc7965774fe3c3047dee1b5141",
+    "ever_native_success": true,
+    "max_stable_control_steps": 0,
+    "max_contact_steps": 311,
+    "max_expert_phase": 7,
+    "verified_video_frames": 600,
+    "verified_contiguous_committed_steps": true,
+    "resume_records": [],
+    "launch_code_is_initial_attempt_only": true,
+    "execution_code_records": [
+      "/home/users/lemon/cross-behavior-20261114/stage_a/stack/panda/dev-001/execution-1794653425822256237.json"
+    ],
+    "failure_class": "NATIVE_STACK_WITHOUT_FROZEN_RETREAT_STABILITY_CONTRACT"
+  },
+  {
+    "status": "COMPLETE",
+    "task": "stack",
+    "robot": "panda",
+    "condition": 2,
+    "condition_id": "cb-v1-stack-development-002",
+    "role": "DEVELOPMENT_FEASIBILITY",
+    "success": false,
+    "steps": 600,
+    "final_metrics": {
+      "step": 600,
+      "contacts": [
+        [
+          "gripper0_right_left_outer_finger_collision",
+          "gripper0_right_left_inner_knuckle_collision"
+        ],
+        [
+          "gripper0_right_left_inner_finger_collision",
+          "gripper0_right_left_inner_knuckle_collision"
+        ],
+        [
+          "gripper0_right_right_outer_finger_collision",
+          "gripper0_right_right_inner_knuckle_collision"
+        ],
+        [
+          "gripper0_right_right_inner_finger_collision",
+          "gripper0_right_right_inner_knuckle_collision"
+        ],
+        [
+          "counter_main_main_group_top_right_0",
+          "cubeB_g0"
+        ],
+        [
+          "counter_main_main_group_top_right_0",
+          "cubeB_g0"
+        ],
+        [
+          "counter_main_main_group_top_right_0",
+          "cubeB_g0"
+        ],
+        [
+          "counter_main_main_group_top_right_0",
+          "cubeB_g0"
+        ],
+        [
+          "cubeA_g0",
+          "cubeB_g0"
+        ],
+        [
+          "cubeA_g0",
+          "cubeB_g0"
+        ],
+        [
+          "cubeA_g0",
+          "cubeB_g0"
+        ],
+        [
+          "cubeA_g0",
+          "cubeB_g0"
+        ]
+      ],
+      "robot_collision_pairs": [],
+      "tcp": [
+        1.960719781930728,
+        -0.5539004786572561,
+        0.9912104524513083
+      ],
+      "native_success": true,
+      "object_B_position": [
+        1.9630596434777372,
+        -0.5537672430420107,
+        0.9446797729910275
+      ],
+      "ab_contact": true,
+      "support_B_contact": true,
+      "xy_error_m": 0.0009048774699824998,
+      "height_error_m": 0.0003203654396092964,
+      "released": true,
+      "retreat": false,
+      "toppled": false,
+      "object_position": [
+        1.9625940312521755,
+        -0.5545431351035047,
+        0.9893594075514182
+      ],
+      "linear_speed_m_s": 2.8729112403245574e-08,
+      "angular_speed_rad_s": 4.793910010578074e-09,
+      "displacement_m": 0.14906983673802746,
+      "supported": true,
+      "fall": false,
+      "gripper_object_contact": false,
+      "stable_control_steps": 0,
+      "success": false,
+      "first_contact_step": 250,
+      "contact_steps": 311,
+      "max_continuous_contact_steps": 311,
+      "events": {
+        "lift_step": 311,
+        "support_contact_step": 561
+      }
+    },
+    "expert_phase": 7,
+    "expert_error": "",
+    "wall_seconds": 43.4498799550347,
+    "video": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/panda/dev-002/rollout.mp4",
+    "telemetry": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/panda/dev-002/telemetry.jsonl",
+    "condition_path": "/home/users/lemon/cross-behavior-20261114/stage_a/stack/panda/dev-002/condition.json",
+    "contract_sha256": "3e1908ade0e2939b34362bf8187b73f5afdb9539346235668aea0026d2082f76",
+    "code_sha256": {
+      "cross_behavior/__init__.py": "edd84ef1cb0b7a172193116f2796b0f5f08cabb5b570966d2a372758aa8be9ea",
+      "cross_behavior/common.py": "9b12dfa6c2bb6393adf59a3fb69ead9dd5b468e3e4eb56d899f8ac7eb509b6c0",
+      "cross_behavior/evaluator.py": "e6e74fdaea6173ec25d3dd14b838ab4edce970e1d8cdccb0e8e16443c6efe0ba",
+      "cross_behavior/expert.py": "7ffedae541d4f296a13d95ce54dafc43a2ce4475c26ea66e25f6fa3b2cde1c6a",
+      "cross_behavior/preservation.py": "54183737f99e05220d4e84db40bdd7a8b3b1416e0ad0ad501deaec17f1a34eaa",
+      "cross_behavior/sensing.py": "b522694109806e65b7315cac2b107ffa381053c5abf33a60bf96bdc1a42b6611",
+      "cross_behavior/tasks.py": "a6a0bebc8bc8841f77a9fb90c680695ecfc08ab8d31bfd3bad1caadc0c5fdd7c",
+      "cross_behavior/worker.py": "5b5c2e251fa3a8edc4fe159b19cdac2f1f9e275170ee2b122da4d815b30e196d"
+    },
+    "video_sha256": "a665199251f065a852a48b6c81a60a60bb81d91894dbc6fc08013725d98823eb",
+    "telemetry_sha256": "4499a5aa2964311ceeee844a542b3a7726f45da62bed55bf7a6050479cd4cdb6",
+    "ever_native_success": true,
+    "max_stable_control_steps": 0,
+    "max_contact_steps": 311,
+    "max_expert_phase": 7,
+    "verified_video_frames": 600,
+    "verified_contiguous_committed_steps": true,
+    "resume_records": [],
+    "launch_code_is_initial_attempt_only": true,
+    "execution_code_records": [
+      "/home/users/lemon/cross-behavior-20261114/stage_a/stack/panda/dev-002/execution-1794653468315147486.json"
+    ],
+    "failure_class": "NATIVE_STACK_WITHOUT_FROZEN_RETREAT_STABILITY_CONTRACT"
+  },
+  {
+    "status": "COMPLETE",
+    "task": "drawer",
+    "robot": "ur5e",
+    "condition": 0,
+    "condition_id": "cb-v1-drawer-development-000",
+    "role": "DEVELOPMENT_FEASIBILITY",
+    "success": false,
+    "steps": 600,
+    "final_metrics": {
+      "step": 600,
+      "contacts": [
+        [
+          "gripper0_right_left_outer_finger_collision",
+          "gripper0_right_left_inner_knuckle_collision"
+        ],
+        [
+          "gripper0_right_left_inner_finger_collision",
+          "gripper0_right_left_inner_knuckle_collision"
+        ],
+        [
+          "stack_4_main_group_2_door_handle_handle",
+          "gripper0_right_left_fingertip_collision"
+        ],
+        [
+          "stack_4_main_group_2_door_handle_handle",
+          "gripper0_right_left_fingerpad_collision"
+        ],
+        [
+          "gripper0_right_right_outer_finger_collision",
+          "gripper0_right_right_inner_knuckle_collision"
+        ],
+        [
+          "gripper0_right_right_inner_finger_collision",
+          "gripper0_right_right_inner_knuckle_collision"
+        ],
+        [
+          "stack_4_main_group_2_door_handle_handle",
+          "gripper0_right_right_fingerpad_collision"
+        ],
+        [
+          "counter_right_main_group_top_1",
+          "distr_counter_1_g1"
+        ],
+        [
+          "counter_right_main_group_top_1",
+          "distr_counter_1_g2"
+        ],
+        [
+          "counter_right_main_group_top_1",
+          "distr_counter_1_g9"
+        ],
+        [
+          "counter_right_main_group_top_1",
+          "distr_counter_1_g11"
+        ],
+        [
+          "counter_right_main_group_top_1",
+          "distr_counter_1_g14"
+        ],
+        [
+          "counter_right_main_group_top_1",
+          "distr_counter_1_g17"
+        ],
+        [
+          "counter_right_main_group_top_1",
+          "distr_counter_1_g19"
+        ],
+        [
+          "counter_right_main_group_top_1",
+          "distr_counter_1_g22"
+        ],
+        [
+          "counter_right_main_group_top_1",
+          "distr_counter_1_g25"
+        ],
+        [
+          "counter_right_main_group_top_1",
+          "distr_counter_1_g26"
+        ],
+        [
+          "counter_right_main_group_top_1",
+          "distr_counter_1_g28"
+        ],
+        [
+          "counter_right_main_group_top_1",
+          "distr_counter_1_g29"
+        ],
+        [
+          "counter_right_main_group_top_0",
+          "distr_counter_2_g2"
+        ],
+        [
+          "counter_right_main_group_top_0",
+          "distr_counter_2_g18"
+        ],
+        [
+          "counter_right_main_group_top_0",
+          "distr_counter_2_g24"
+        ],
+        [
+          "counter_right_main_group_top_0",
+          "distr_counter_2_g31"
+        ],
+        [
+          "stack_4_main_group_2_inner_bottom",
+          "drawer_obj_g3"
+        ],
+        [
+          "stack_4_main_group_2_inner_bottom",
+          "drawer_obj_g13"
+        ],
+        [
+          "stack_4_main_group_2_inner_bottom",
+          "drawer_obj_g14"
+        ],
+        [
+          "stack_4_main_group_2_inner_bottom",
+          "drawer_obj_g30"
+        ]
+      ],
+      "robot_collision_pairs": [],
+      "tcp": [
+        3.85702885080495,
+        -0.6362678396204181,
+        0.7893180453675734
+      ],
+      "native_success": false,
+      "drawer_normalized_joint": {
+        "door": 0.019110917141055977
+      },
+      "maximum_joint_speed": 0.08450875473181296,
+      "handle_geoms": [
+        "stack_4_main_group_2_door_handle_handle",
+        "stack_4_main_group_2_door_handle_handle_connector_bottom",
+        "stack_4_main_group_2_door_handle_handle_connector_bottom_visual",
+        "stack_4_main_group_2_door_handle_handle_connector_top",
+        "stack_4_main_group_2_door_handle_handle_connector_top_visual",
+        "stack_4_main_group_2_door_handle_handle_visual"
+      ],
+      "handle_contact": true,
+      "released": false,
+      "retreat": false,
+      "stable_control_steps": 0,
+      "success": false,
+      "first_contact_step": 556,
+      "contact_steps": 45,
+      "max_continuous_contact_steps": 45,
+      "events": {}
+    },
+    "expert_phase": 3,
+    "expert_error": "",
+    "wall_seconds": 44.326837381813675,
+    "video": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/ur5e/dev-000/rollout.mp4",
+    "telemetry": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/ur5e/dev-000/telemetry.jsonl",
+    "condition_path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/ur5e/dev-000/condition.json",
+    "contract_sha256": "3e1908ade0e2939b34362bf8187b73f5afdb9539346235668aea0026d2082f76",
+    "code_sha256": {
+      "cross_behavior/__init__.py": "edd84ef1cb0b7a172193116f2796b0f5f08cabb5b570966d2a372758aa8be9ea",
+      "cross_behavior/common.py": "9b12dfa6c2bb6393adf59a3fb69ead9dd5b468e3e4eb56d899f8ac7eb509b6c0",
+      "cross_behavior/evaluator.py": "e6e74fdaea6173ec25d3dd14b838ab4edce970e1d8cdccb0e8e16443c6efe0ba",
+      "cross_behavior/expert.py": "7ffedae541d4f296a13d95ce54dafc43a2ce4475c26ea66e25f6fa3b2cde1c6a",
+      "cross_behavior/preservation.py": "54183737f99e05220d4e84db40bdd7a8b3b1416e0ad0ad501deaec17f1a34eaa",
+      "cross_behavior/sensing.py": "b522694109806e65b7315cac2b107ffa381053c5abf33a60bf96bdc1a42b6611",
+      "cross_behavior/tasks.py": "a6a0bebc8bc8841f77a9fb90c680695ecfc08ab8d31bfd3bad1caadc0c5fdd7c",
+      "cross_behavior/worker.py": "5b5c2e251fa3a8edc4fe159b19cdac2f1f9e275170ee2b122da4d815b30e196d"
+    },
+    "video_sha256": "8f82d3515d4e68e4aa512fbed37f1dad8acda1914b31f780dbe152270a19f435",
+    "telemetry_sha256": "0a79617129971823398cdde7838f19d24ccb694e47be56546f88df4c4fd77b59",
+    "ever_native_success": false,
+    "max_stable_control_steps": 0,
+    "max_contact_steps": 45,
+    "max_expert_phase": 3,
+    "verified_video_frames": 600,
+    "verified_contiguous_committed_steps": true,
+    "resume_records": [],
+    "launch_code_is_initial_attempt_only": true,
+    "execution_code_records": [
+      "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/ur5e/dev-000/execution-1794653512276135642.json"
+    ],
+    "maximum_normalized_opening": 0.019110917141055977,
+    "failure_class": "CONTACT_WITH_INSUFFICIENT_OPENING_OR_HORIZON"
+  },
+  {
+    "status": "COMPLETE",
+    "task": "drawer",
+    "robot": "ur5e",
+    "condition": 1,
+    "condition_id": "cb-v1-drawer-development-001",
+    "role": "DEVELOPMENT_FEASIBILITY",
+    "success": false,
+    "steps": 40,
+    "final_metrics": {
+      "step": 40,
+      "contacts": [
+        [
+          "gripper0_right_left_outer_finger_collision",
+          "gripper0_right_left_inner_knuckle_collision"
+        ],
+        [
+          "gripper0_right_left_inner_finger_collision",
+          "gripper0_right_left_inner_knuckle_collision"
+        ],
+        [
+          "gripper0_right_right_outer_finger_collision",
+          "gripper0_right_right_inner_knuckle_collision"
+        ],
+        [
+          "gripper0_right_right_inner_finger_collision",
+          "gripper0_right_right_inner_knuckle_collision"
+        ],
+        [
+          "counter_right_main_group_top_1",
+          "distr_counter_1_g2"
+        ],
+        [
+          "counter_right_main_group_top_1",
+          "distr_counter_1_g14"
+        ],
+        [
+          "counter_right_main_group_top_1",
+          "distr_counter_1_g19"
+        ],
+        [
+          "counter_right_main_group_top_1",
+          "distr_counter_1_g21"
+        ],
+        [
+          "counter_right_main_group_top_1",
+          "distr_counter_2_g9"
+        ],
+        [
+          "counter_right_main_group_top_1",
+          "distr_counter_2_g10"
+        ],
+        [
+          "counter_right_main_group_top_1",
+          "distr_counter_2_g27"
+        ],
+        [
+          "counter_right_main_group_top_1",
+          "distr_counter_2_g32"
+        ],
+        [
+          "stack_4_main_group_2_inner_bottom",
+          "drawer_obj_g4"
+        ],
+        [
+          "stack_4_main_group_2_inner_bottom",
+          "drawer_obj_g6"
+        ],
+        [
+          "stack_4_main_group_2_inner_bottom",
+          "drawer_obj_g7"
+        ],
+        [
+          "stack_4_main_group_2_inner_bottom",
+          "drawer_obj_g10"
+        ],
+        [
+          "stack_4_main_group_2_inner_bottom",
+          "drawer_obj_g14"
+        ],
+        [
+          "stack_4_main_group_2_inner_bottom",
+          "drawer_obj_g16"
+        ],
+        [
+          "stack_4_main_group_2_inner_bottom",
+          "drawer_obj_g17"
+        ],
+        [
+          "stack_4_main_group_2_inner_bottom",
+          "drawer_obj_g21"
+        ],
+        [
+          "stack_4_main_group_2_inner_bottom",
+          "drawer_obj_g26"
+        ]
+      ],
+      "robot_collision_pairs": [],
+      "tcp": [
+        3.5939949073863,
+        -0.7956163693237662,
+        1.2852519072709494
+      ],
+      "native_success": false,
+      "drawer_normalized_joint": {
+        "door": 2.379460770202573e-07
+      },
+      "maximum_joint_speed": 7.468153780669527e-09,
+      "handle_geoms": [
+        "stack_4_main_group_2_door_handle_handle",
+        "stack_4_main_group_2_door_handle_handle_connector_bottom",
+        "stack_4_main_group_2_door_handle_handle_connector_bottom_visual",
+        "stack_4_main_group_2_door_handle_handle_connector_top",
+        "stack_4_main_group_2_door_handle_handle_connector_top_visual",
+        "stack_4_main_group_2_door_handle_handle_visual"
+      ],
+      "handle_contact": false,
+      "released": true,
+      "retreat": true,
+      "stable_control_steps": 0,
+      "success": false,
+      "first_contact_step": -1,
+      "contact_steps": 0,
+      "max_continuous_contact_steps": 0,
+      "events": {}
+    },
+    "expert_phase": 0,
+    "expert_error": "RGBD_HANDLE_NOT_IDENTIFIABLE",
+    "wall_seconds": 10.413094339892268,
+    "video": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/ur5e/dev-001/rollout.mp4",
+    "telemetry": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/ur5e/dev-001/telemetry.jsonl",
+    "condition_path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/ur5e/dev-001/condition.json",
+    "contract_sha256": "3e1908ade0e2939b34362bf8187b73f5afdb9539346235668aea0026d2082f76",
+    "code_sha256": {
+      "cross_behavior/__init__.py": "edd84ef1cb0b7a172193116f2796b0f5f08cabb5b570966d2a372758aa8be9ea",
+      "cross_behavior/common.py": "9b12dfa6c2bb6393adf59a3fb69ead9dd5b468e3e4eb56d899f8ac7eb509b6c0",
+      "cross_behavior/evaluator.py": "e6e74fdaea6173ec25d3dd14b838ab4edce970e1d8cdccb0e8e16443c6efe0ba",
+      "cross_behavior/expert.py": "1f9d2e091160162434a5aedd75320c36f720461a166179b9b5645f1e2ed1c72a",
+      "cross_behavior/legacy_inventory.py": "dde63f6e6031b291efecf5ae3091070cd0c67572b4f7ef09690876f39fa309a1",
+      "cross_behavior/preservation.py": "54183737f99e05220d4e84db40bdd7a8b3b1416e0ad0ad501deaec17f1a34eaa",
+      "cross_behavior/sensing.py": "bb53bcfa0050887d2c71f360591816a2e547260657a5ef0fc13525d87f032ae0",
+      "cross_behavior/tasks.py": "a6a0bebc8bc8841f77a9fb90c680695ecfc08ab8d31bfd3bad1caadc0c5fdd7c",
+      "cross_behavior/worker.py": "5b5c2e251fa3a8edc4fe159b19cdac2f1f9e275170ee2b122da4d815b30e196d"
+    },
+    "video_sha256": "9c4aa1c6ab2e7e6becf2594d05568b0c3b2c438cbb6d8906ea98215808d5f6c5",
+    "telemetry_sha256": "9a2b5e6878b4412d34e9015b228b76d24e771de22fc6ab226c3b00d7cb38fd25",
+    "ever_native_success": false,
+    "max_stable_control_steps": 0,
+    "max_contact_steps": 0,
+    "max_expert_phase": 0,
+    "verified_video_frames": 40,
+    "verified_contiguous_committed_steps": true,
+    "resume_records": [],
+    "launch_code_is_initial_attempt_only": true,
+    "execution_code_records": [
+      "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/ur5e/dev-001/execution-1794653698172272602.json"
+    ],
+    "maximum_normalized_opening": 2.4038774492230815e-07,
+    "failure_class": "PERCEPTION_TARGET_UNIDENTIFIABLE"
+  },
+  {
+    "status": "COMPLETE",
+    "task": "drawer",
+    "robot": "ur5e",
+    "condition": 2,
+    "condition_id": "cb-v1-drawer-development-002",
+    "role": "DEVELOPMENT_FEASIBILITY",
+    "success": false,
+    "steps": 40,
+    "final_metrics": {
+      "step": 40,
+      "contacts": [
+        [
+          "gripper0_right_left_outer_finger_collision",
+          "gripper0_right_left_inner_knuckle_collision"
+        ],
+        [
+          "gripper0_right_left_inner_finger_collision",
+          "gripper0_right_left_inner_knuckle_collision"
+        ],
+        [
+          "gripper0_right_right_outer_finger_collision",
+          "gripper0_right_right_inner_knuckle_collision"
+        ],
+        [
+          "gripper0_right_right_inner_finger_collision",
+          "gripper0_right_right_inner_knuckle_collision"
+        ],
+        [
+          "counter_right_main_group_top_0",
+          "distr_counter_1_g5"
+        ],
+        [
+          "counter_right_main_group_top_1",
+          "distr_counter_1_g3"
+        ],
+        [
+          "counter_right_main_group_top_1",
+          "distr_counter_1_g18"
+        ],
+        [
+          "counter_right_main_group_top_1",
+          "distr_counter_1_g19"
+        ],
+        [
+          "counter_right_main_group_top_0",
+          "distr_counter_2_g19"
+        ],
+        [
+          "counter_right_main_group_top_0",
+          "distr_counter_2_g22"
+        ],
+        [
+          "counter_right_main_group_top_0",
+          "distr_counter_2_g25"
+        ],
+        [
+          "counter_right_main_group_top_0",
+          "distr_counter_2_g31"
+        ],
+        [
+          "counter_right_main_group_top_0",
+          "distr_counter_2_g34"
+        ],
+        [
+          "counter_right_main_group_top_0",
+          "distr_counter_2_g36"
+        ],
+        [
+          "counter_right_main_group_top_1",
+          "distr_counter_3_g4"
+        ],
+        [
+          "counter_right_main_group_top_1",
+          "distr_counter_3_g13"
+        ],
+        [
+          "counter_right_main_group_top_1",
+          "distr_counter_3_g15"
+        ],
+        [
+          "counter_right_main_group_top_1",
+          "distr_counter_3_g24"
+        ],
+        [
+          "counter_right_main_group_top_1",
+          "distr_counter_3_g28"
+        ],
+        [
+          "counter_right_main_group_top_1",
+          "distr_counter_3_g31"
+        ],
+        [
+          "stack_4_main_group_2_inner_bottom",
+          "drawer_obj_g18"
+        ],
+        [
+          "stack_4_main_group_2_inner_bottom",
+          "drawer_obj_g20"
+        ]
+      ],
+      "robot_collision_pairs": [],
+      "tcp": [
+        4.898821349011208,
+        -0.7976831152040847,
+        1.2623149713665682
+      ],
+      "native_success": false,
+      "drawer_normalized_joint": {
+        "door": 0.00034800589523044606
+      },
+      "maximum_joint_speed": 6.479142955809723e-07,
+      "handle_geoms": [
+        "stack_4_main_group_2_door_handle_handle",
+        "stack_4_main_group_2_door_handle_handle_connector_bottom",
+        "stack_4_main_group_2_door_handle_handle_connector_bottom_visual",
+        "stack_4_main_group_2_door_handle_handle_connector_top",
+        "stack_4_main_group_2_door_handle_handle_connector_top_visual",
+        "stack_4_main_group_2_door_handle_handle_visual"
+      ],
+      "handle_contact": false,
+      "released": true,
+      "retreat": true,
+      "stable_control_steps": 0,
+      "success": false,
+      "first_contact_step": -1,
+      "contact_steps": 0,
+      "max_continuous_contact_steps": 0,
+      "events": {}
+    },
+    "expert_phase": 0,
+    "expert_error": "RGBD_HANDLE_NOT_IDENTIFIABLE",
+    "wall_seconds": 7.398692958988249,
+    "video": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/ur5e/dev-002/rollout.mp4",
+    "telemetry": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/ur5e/dev-002/telemetry.jsonl",
+    "condition_path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/ur5e/dev-002/condition.json",
+    "contract_sha256": "3e1908ade0e2939b34362bf8187b73f5afdb9539346235668aea0026d2082f76",
+    "code_sha256": {
+      "cross_behavior/__init__.py": "edd84ef1cb0b7a172193116f2796b0f5f08cabb5b570966d2a372758aa8be9ea",
+      "cross_behavior/common.py": "9b12dfa6c2bb6393adf59a3fb69ead9dd5b468e3e4eb56d899f8ac7eb509b6c0",
+      "cross_behavior/evaluator.py": "e6e74fdaea6173ec25d3dd14b838ab4edce970e1d8cdccb0e8e16443c6efe0ba",
+      "cross_behavior/expert.py": "1f9d2e091160162434a5aedd75320c36f720461a166179b9b5645f1e2ed1c72a",
+      "cross_behavior/legacy_inventory.py": "dde63f6e6031b291efecf5ae3091070cd0c67572b4f7ef09690876f39fa309a1",
+      "cross_behavior/preservation.py": "54183737f99e05220d4e84db40bdd7a8b3b1416e0ad0ad501deaec17f1a34eaa",
+      "cross_behavior/sensing.py": "bb53bcfa0050887d2c71f360591816a2e547260657a5ef0fc13525d87f032ae0",
+      "cross_behavior/tasks.py": "a6a0bebc8bc8841f77a9fb90c680695ecfc08ab8d31bfd3bad1caadc0c5fdd7c",
+      "cross_behavior/worker.py": "5b5c2e251fa3a8edc4fe159b19cdac2f1f9e275170ee2b122da4d815b30e196d"
+    },
+    "video_sha256": "64ef43a3f33090b969862a7462bf6046ded2630c9a35a1297c7d95c32062baef",
+    "telemetry_sha256": "e64ea48cad2aa746a09c1383f55a10363082e7e5dff768745da464dc6c6fb2bc",
+    "ever_native_success": false,
+    "max_stable_control_steps": 0,
+    "max_contact_steps": 0,
+    "max_expert_phase": 0,
+    "verified_video_frames": 40,
+    "verified_contiguous_committed_steps": true,
+    "resume_records": [],
+    "launch_code_is_initial_attempt_only": true,
+    "execution_code_records": [
+      "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/ur5e/dev-002/execution-1794653709120305186.json"
+    ],
+    "maximum_normalized_opening": 0.0003481604619999574,
+    "failure_class": "PERCEPTION_TARGET_UNIDENTIFIABLE"
+  },
+  {
+    "status": "COMPLETE",
+    "task": "drawer",
+    "robot": "panda",
+    "condition": 0,
+    "condition_id": "cb-v1-drawer-development-000",
+    "role": "DEVELOPMENT_FEASIBILITY",
+    "success": false,
+    "steps": 600,
+    "final_metrics": {
+      "step": 600,
+      "contacts": [
+        [
+          "gripper0_right_left_outer_finger_collision",
+          "gripper0_right_left_inner_knuckle_collision"
+        ],
+        [
+          "gripper0_right_left_inner_finger_collision",
+          "gripper0_right_left_inner_knuckle_collision"
+        ],
+        [
+          "gripper0_right_right_outer_finger_collision",
+          "gripper0_right_right_inner_knuckle_collision"
+        ],
+        [
+          "gripper0_right_right_inner_finger_collision",
+          "gripper0_right_right_inner_knuckle_collision"
+        ],
+        [
+          "counter_right_main_group_top_1",
+          "distr_counter_1_g1"
+        ],
+        [
+          "counter_right_main_group_top_1",
+          "distr_counter_1_g2"
+        ],
+        [
+          "counter_right_main_group_top_1",
+          "distr_counter_1_g9"
+        ],
+        [
+          "counter_right_main_group_top_1",
+          "distr_counter_1_g11"
+        ],
+        [
+          "counter_right_main_group_top_1",
+          "distr_counter_1_g14"
+        ],
+        [
+          "counter_right_main_group_top_1",
+          "distr_counter_1_g17"
+        ],
+        [
+          "counter_right_main_group_top_1",
+          "distr_counter_1_g19"
+        ],
+        [
+          "counter_right_main_group_top_1",
+          "distr_counter_1_g22"
+        ],
+        [
+          "counter_right_main_group_top_1",
+          "distr_counter_1_g25"
+        ],
+        [
+          "counter_right_main_group_top_1",
+          "distr_counter_1_g26"
+        ],
+        [
+          "counter_right_main_group_top_1",
+          "distr_counter_1_g28"
+        ],
+        [
+          "counter_right_main_group_top_1",
+          "distr_counter_1_g29"
+        ],
+        [
+          "counter_right_main_group_top_0",
+          "distr_counter_2_g2"
+        ],
+        [
+          "counter_right_main_group_top_0",
+          "distr_counter_2_g18"
+        ],
+        [
+          "counter_right_main_group_top_0",
+          "distr_counter_2_g24"
+        ],
+        [
+          "counter_right_main_group_top_0",
+          "distr_counter_2_g31"
+        ],
+        [
+          "stack_4_main_group_2_inner_bottom",
+          "drawer_obj_g3"
+        ],
+        [
+          "stack_4_main_group_2_inner_bottom",
+          "drawer_obj_g13"
+        ],
+        [
+          "stack_4_main_group_2_inner_bottom",
+          "drawer_obj_g14"
+        ],
+        [
+          "stack_4_main_group_2_inner_bottom",
+          "drawer_obj_g30"
+        ]
+      ],
+      "robot_collision_pairs": [],
+      "tcp": [
+        3.8571900758454722,
+        -0.6300323891852516,
+        0.7795175799227091
+      ],
+      "native_success": false,
+      "drawer_normalized_joint": {
+        "door": 2.7265145681145582e-06
+      },
+      "maximum_joint_speed": 5.86125538526444e-08,
+      "handle_geoms": [
+        "stack_4_main_group_2_door_handle_handle",
+        "stack_4_main_group_2_door_handle_handle_connector_bottom",
+        "stack_4_main_group_2_door_handle_handle_connector_bottom_visual",
+        "stack_4_main_group_2_door_handle_handle_connector_top",
+        "stack_4_main_group_2_door_handle_handle_connector_top_visual",
+        "stack_4_main_group_2_door_handle_handle_visual"
+      ],
+      "handle_contact": false,
+      "released": true,
+      "retreat": false,
+      "stable_control_steps": 0,
+      "success": false,
+      "first_contact_step": -1,
+      "contact_steps": 0,
+      "max_continuous_contact_steps": 0,
+      "events": {}
+    },
+    "expert_phase": 1,
+    "expert_error": "",
+    "wall_seconds": 44.12235051114112,
+    "video": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/panda/dev-000/rollout.mp4",
+    "telemetry": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/panda/dev-000/telemetry.jsonl",
+    "condition_path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/panda/dev-000/condition.json",
+    "contract_sha256": "3e1908ade0e2939b34362bf8187b73f5afdb9539346235668aea0026d2082f76",
+    "code_sha256": {
+      "cross_behavior/__init__.py": "edd84ef1cb0b7a172193116f2796b0f5f08cabb5b570966d2a372758aa8be9ea",
+      "cross_behavior/common.py": "9b12dfa6c2bb6393adf59a3fb69ead9dd5b468e3e4eb56d899f8ac7eb509b6c0",
+      "cross_behavior/evaluator.py": "e6e74fdaea6173ec25d3dd14b838ab4edce970e1d8cdccb0e8e16443c6efe0ba",
+      "cross_behavior/expert.py": "1f9d2e091160162434a5aedd75320c36f720461a166179b9b5645f1e2ed1c72a",
+      "cross_behavior/legacy_inventory.py": "dde63f6e6031b291efecf5ae3091070cd0c67572b4f7ef09690876f39fa309a1",
+      "cross_behavior/preservation.py": "54183737f99e05220d4e84db40bdd7a8b3b1416e0ad0ad501deaec17f1a34eaa",
+      "cross_behavior/sensing.py": "bb53bcfa0050887d2c71f360591816a2e547260657a5ef0fc13525d87f032ae0",
+      "cross_behavior/tasks.py": "a6a0bebc8bc8841f77a9fb90c680695ecfc08ab8d31bfd3bad1caadc0c5fdd7c",
+      "cross_behavior/worker.py": "5b5c2e251fa3a8edc4fe159b19cdac2f1f9e275170ee2b122da4d815b30e196d"
+    },
+    "video_sha256": "8de3d431f1d15e1bbc71f78787d7355cc57eb234179d55b9e84222eda55b97b6",
+    "telemetry_sha256": "effb39644df224b1fe52d47180f61f9680839f9ae225089228498bc5e1c765e6",
+    "ever_native_success": false,
+    "max_stable_control_steps": 0,
+    "max_contact_steps": 0,
+    "max_expert_phase": 1,
+    "verified_video_frames": 600,
+    "verified_contiguous_committed_steps": true,
+    "resume_records": [],
+    "launch_code_is_initial_attempt_only": true,
+    "execution_code_records": [
+      "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/panda/dev-000/execution-1794653717016441769.json"
+    ],
+    "maximum_normalized_opening": 2.728114537116849e-06,
+    "failure_class": "APPROACH_OR_TARGET_ACQUISITION_NOT_COMPLETED"
+  },
+  {
+    "status": "COMPLETE",
+    "task": "drawer",
+    "robot": "panda",
+    "condition": 1,
+    "condition_id": "cb-v1-drawer-development-001",
+    "role": "DEVELOPMENT_FEASIBILITY",
+    "success": false,
+    "steps": 600,
+    "final_metrics": {
+      "step": 600,
+      "contacts": [
+        [
+          "gripper0_right_left_outer_finger_collision",
+          "gripper0_right_left_inner_knuckle_collision"
+        ],
+        [
+          "gripper0_right_left_inner_finger_collision",
+          "gripper0_right_left_inner_knuckle_collision"
+        ],
+        [
+          "gripper0_right_right_outer_finger_collision",
+          "gripper0_right_right_inner_knuckle_collision"
+        ],
+        [
+          "gripper0_right_right_inner_finger_collision",
+          "gripper0_right_right_inner_knuckle_collision"
+        ],
+        [
+          "counter_right_main_group_top_1",
+          "distr_counter_1_g2"
+        ],
+        [
+          "counter_right_main_group_top_1",
+          "distr_counter_1_g14"
+        ],
+        [
+          "counter_right_main_group_top_1",
+          "distr_counter_1_g19"
+        ],
+        [
+          "counter_right_main_group_top_1",
+          "distr_counter_1_g21"
+        ],
+        [
+          "counter_right_main_group_top_1",
+          "distr_counter_2_g9"
+        ],
+        [
+          "counter_right_main_group_top_1",
+          "distr_counter_2_g10"
+        ],
+        [
+          "counter_right_main_group_top_1",
+          "distr_counter_2_g27"
+        ],
+        [
+          "counter_right_main_group_top_1",
+          "distr_counter_2_g32"
+        ],
+        [
+          "stack_4_main_group_2_inner_bottom",
+          "drawer_obj_g4"
+        ],
+        [
+          "stack_4_main_group_2_inner_bottom",
+          "drawer_obj_g6"
+        ],
+        [
+          "stack_4_main_group_2_inner_bottom",
+          "drawer_obj_g7"
+        ],
+        [
+          "stack_4_main_group_2_inner_bottom",
+          "drawer_obj_g10"
+        ],
+        [
+          "stack_4_main_group_2_inner_bottom",
+          "drawer_obj_g14"
+        ],
+        [
+          "stack_4_main_group_2_inner_bottom",
+          "drawer_obj_g16"
+        ],
+        [
+          "stack_4_main_group_2_inner_bottom",
+          "drawer_obj_g17"
+        ],
+        [
+          "stack_4_main_group_2_inner_bottom",
+          "drawer_obj_g21"
+        ],
+        [
+          "stack_4_main_group_2_inner_bottom",
+          "drawer_obj_g26"
+        ]
+      ],
+      "robot_collision_pairs": [],
+      "tcp": [
+        3.857236686903459,
+        -0.6300814877824328,
+        0.7794855297900521
+      ],
+      "native_success": false,
+      "drawer_normalized_joint": {
+        "door": 2.3819414138888114e-07
+      },
+      "maximum_joint_speed": 3.2208785150218205e-08,
+      "handle_geoms": [
+        "stack_4_main_group_2_door_handle_handle",
+        "stack_4_main_group_2_door_handle_handle_connector_bottom",
+        "stack_4_main_group_2_door_handle_handle_connector_bottom_visual",
+        "stack_4_main_group_2_door_handle_handle_connector_top",
+        "stack_4_main_group_2_door_handle_handle_connector_top_visual",
+        "stack_4_main_group_2_door_handle_handle_visual"
+      ],
+      "handle_contact": false,
+      "released": true,
+      "retreat": false,
+      "stable_control_steps": 0,
+      "success": false,
+      "first_contact_step": -1,
+      "contact_steps": 0,
+      "max_continuous_contact_steps": 0,
+      "events": {}
+    },
+    "expert_phase": 1,
+    "expert_error": "",
+    "wall_seconds": 49.17542220465839,
+    "video": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/panda/dev-001/rollout.mp4",
+    "telemetry": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/panda/dev-001/telemetry.jsonl",
+    "condition_path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/panda/dev-001/condition.json",
+    "contract_sha256": "3e1908ade0e2939b34362bf8187b73f5afdb9539346235668aea0026d2082f76",
+    "code_sha256": {
+      "cross_behavior/__init__.py": "edd84ef1cb0b7a172193116f2796b0f5f08cabb5b570966d2a372758aa8be9ea",
+      "cross_behavior/common.py": "9b12dfa6c2bb6393adf59a3fb69ead9dd5b468e3e4eb56d899f8ac7eb509b6c0",
+      "cross_behavior/evaluator.py": "e6e74fdaea6173ec25d3dd14b838ab4edce970e1d8cdccb0e8e16443c6efe0ba",
+      "cross_behavior/expert.py": "1f9d2e091160162434a5aedd75320c36f720461a166179b9b5645f1e2ed1c72a",
+      "cross_behavior/legacy_inventory.py": "dde63f6e6031b291efecf5ae3091070cd0c67572b4f7ef09690876f39fa309a1",
+      "cross_behavior/preservation.py": "54183737f99e05220d4e84db40bdd7a8b3b1416e0ad0ad501deaec17f1a34eaa",
+      "cross_behavior/sensing.py": "bb53bcfa0050887d2c71f360591816a2e547260657a5ef0fc13525d87f032ae0",
+      "cross_behavior/tasks.py": "a6a0bebc8bc8841f77a9fb90c680695ecfc08ab8d31bfd3bad1caadc0c5fdd7c",
+      "cross_behavior/worker.py": "5b5c2e251fa3a8edc4fe159b19cdac2f1f9e275170ee2b122da4d815b30e196d"
+    },
+    "video_sha256": "676ace4a4e70b78dc9137d0a62903d309bf9f560bd657a79784147fac2ecbeec",
+    "telemetry_sha256": "1b44e7dcd6397dde7949f15d57bd3dd40333aa5ac13e0c4ef9ec252e97d737cf",
+    "ever_native_success": false,
+    "max_stable_control_steps": 0,
+    "max_contact_steps": 0,
+    "max_expert_phase": 1,
+    "verified_video_frames": 600,
+    "verified_contiguous_committed_steps": true,
+    "resume_records": [],
+    "launch_code_is_initial_attempt_only": true,
+    "execution_code_records": [
+      "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/panda/dev-001/execution-1794653761680823606.json"
+    ],
+    "maximum_normalized_opening": 2.403859823876551e-07,
+    "failure_class": "APPROACH_OR_TARGET_ACQUISITION_NOT_COMPLETED"
+  },
+  {
+    "status": "COMPLETE",
+    "task": "drawer",
+    "robot": "panda",
+    "condition": 2,
+    "condition_id": "cb-v1-drawer-development-002",
+    "role": "DEVELOPMENT_FEASIBILITY",
+    "success": false,
+    "steps": 40,
+    "final_metrics": {
+      "step": 40,
+      "contacts": [
+        [
+          "gripper0_right_left_outer_finger_collision",
+          "gripper0_right_left_inner_knuckle_collision"
+        ],
+        [
+          "gripper0_right_left_inner_finger_collision",
+          "gripper0_right_left_inner_knuckle_collision"
+        ],
+        [
+          "gripper0_right_right_outer_finger_collision",
+          "gripper0_right_right_inner_knuckle_collision"
+        ],
+        [
+          "gripper0_right_right_inner_finger_collision",
+          "gripper0_right_right_inner_knuckle_collision"
+        ],
+        [
+          "counter_right_main_group_top_0",
+          "distr_counter_1_g5"
+        ],
+        [
+          "counter_right_main_group_top_1",
+          "distr_counter_1_g3"
+        ],
+        [
+          "counter_right_main_group_top_1",
+          "distr_counter_1_g18"
+        ],
+        [
+          "counter_right_main_group_top_1",
+          "distr_counter_1_g19"
+        ],
+        [
+          "counter_right_main_group_top_0",
+          "distr_counter_2_g19"
+        ],
+        [
+          "counter_right_main_group_top_0",
+          "distr_counter_2_g22"
+        ],
+        [
+          "counter_right_main_group_top_0",
+          "distr_counter_2_g25"
+        ],
+        [
+          "counter_right_main_group_top_0",
+          "distr_counter_2_g31"
+        ],
+        [
+          "counter_right_main_group_top_0",
+          "distr_counter_2_g34"
+        ],
+        [
+          "counter_right_main_group_top_0",
+          "distr_counter_2_g36"
+        ],
+        [
+          "counter_right_main_group_top_1",
+          "distr_counter_3_g4"
+        ],
+        [
+          "counter_right_main_group_top_1",
+          "distr_counter_3_g13"
+        ],
+        [
+          "counter_right_main_group_top_1",
+          "distr_counter_3_g15"
+        ],
+        [
+          "counter_right_main_group_top_1",
+          "distr_counter_3_g24"
+        ],
+        [
+          "counter_right_main_group_top_1",
+          "distr_counter_3_g28"
+        ],
+        [
+          "counter_right_main_group_top_1",
+          "distr_counter_3_g31"
+        ],
+        [
+          "stack_4_main_group_2_inner_bottom",
+          "drawer_obj_g18"
+        ],
+        [
+          "stack_4_main_group_2_inner_bottom",
+          "drawer_obj_g20"
+        ]
+      ],
+      "robot_collision_pairs": [],
+      "tcp": [
+        4.912651147638641,
+        -0.8103827528321943,
+        1.2583553395230642
+      ],
+      "native_success": false,
+      "drawer_normalized_joint": {
+        "door": 0.00034800069618629834
+      },
+      "maximum_joint_speed": 1.4996500274022054e-06,
+      "handle_geoms": [
+        "stack_4_main_group_2_door_handle_handle",
+        "stack_4_main_group_2_door_handle_handle_connector_bottom",
+        "stack_4_main_group_2_door_handle_handle_connector_bottom_visual",
+        "stack_4_main_group_2_door_handle_handle_connector_top",
+        "stack_4_main_group_2_door_handle_handle_connector_top_visual",
+        "stack_4_main_group_2_door_handle_handle_visual"
+      ],
+      "handle_contact": false,
+      "released": true,
+      "retreat": true,
+      "stable_control_steps": 0,
+      "success": false,
+      "first_contact_step": -1,
+      "contact_steps": 0,
+      "max_continuous_contact_steps": 0,
+      "events": {}
+    },
+    "expert_phase": 0,
+    "expert_error": "RGBD_HANDLE_NOT_IDENTIFIABLE",
+    "wall_seconds": 7.634826935827732,
+    "video": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/panda/dev-002/rollout.mp4",
+    "telemetry": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/panda/dev-002/telemetry.jsonl",
+    "condition_path": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/panda/dev-002/condition.json",
+    "contract_sha256": "3e1908ade0e2939b34362bf8187b73f5afdb9539346235668aea0026d2082f76",
+    "code_sha256": {
+      "cross_behavior/__init__.py": "edd84ef1cb0b7a172193116f2796b0f5f08cabb5b570966d2a372758aa8be9ea",
+      "cross_behavior/common.py": "9b12dfa6c2bb6393adf59a3fb69ead9dd5b468e3e4eb56d899f8ac7eb509b6c0",
+      "cross_behavior/evaluator.py": "e6e74fdaea6173ec25d3dd14b838ab4edce970e1d8cdccb0e8e16443c6efe0ba",
+      "cross_behavior/expert.py": "1f9d2e091160162434a5aedd75320c36f720461a166179b9b5645f1e2ed1c72a",
+      "cross_behavior/legacy_inventory.py": "dde63f6e6031b291efecf5ae3091070cd0c67572b4f7ef09690876f39fa309a1",
+      "cross_behavior/preservation.py": "54183737f99e05220d4e84db40bdd7a8b3b1416e0ad0ad501deaec17f1a34eaa",
+      "cross_behavior/sensing.py": "bb53bcfa0050887d2c71f360591816a2e547260657a5ef0fc13525d87f032ae0",
+      "cross_behavior/tasks.py": "a6a0bebc8bc8841f77a9fb90c680695ecfc08ab8d31bfd3bad1caadc0c5fdd7c",
+      "cross_behavior/worker.py": "5b5c2e251fa3a8edc4fe159b19cdac2f1f9e275170ee2b122da4d815b30e196d"
+    },
+    "video_sha256": "0b9a2d68e62a9d83452aa207b69c7dae922ec799097fcec7d6fbb2164ad0fed6",
+    "telemetry_sha256": "79ff74cbb6263bd4d33db08cab76816251262ba3bae38d301a9f2b9c5ba57ab4",
+    "ever_native_success": false,
+    "max_stable_control_steps": 0,
+    "max_contact_steps": 0,
+    "max_expert_phase": 0,
+    "verified_video_frames": 40,
+    "verified_contiguous_committed_steps": true,
+    "resume_records": [],
+    "launch_code_is_initial_attempt_only": true,
+    "execution_code_records": [
+      "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/panda/dev-002/execution-1794653811389892434.json"
+    ],
+    "maximum_normalized_opening": 0.0003481804340882538,
+    "failure_class": "PERCEPTION_TARGET_UNIDENTIFIABLE"
+  }
+]

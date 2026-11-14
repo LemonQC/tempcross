@@ -1,0 +1,9 @@
+{
+  "utc": "2026-11-14T10:40:36.846589+00:00",
+  "repair_index": 1,
+  "evidence": "/home/users/lemon/cross-behavior-20261114/stage_a/push/ur5e/dev-000/episode.json",
+  "diagnosis": "Default counter reset-region sampling selected leftmost counter segment at x=0.514m while TCP x=1.874m; target and object outside calibrated primary view. No perception/controller access to task ground truth.",
+  "change": "Use native counter reset-region nearest the same counter fixture used for base placement (sample_region_kwargs ref=counter, loc=nn). No object motion after initial native placement; no dynamics/controller/success change.",
+  "applies_to": "Subsequent Push conditions only; original failure retained. Stack uses corrected common assembly before its first trial.",
+  "contract_sha256": "3e1908ade0e2939b34362bf8187b73f5afdb9539346235668aea0026d2082f76"
+}

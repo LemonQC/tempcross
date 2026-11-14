@@ -1,0 +1,21 @@
+{
+  "utc": "2026-11-14T10:54:57.679721+00:00",
+  "repair_index": 1,
+  "evidence": "/home/users/lemon/cross-behavior-20261114/stage_a/drawer/ur5e/dev-000/episode.json",
+  "diagnosis": "First rollout establishes handle contact (45 steps) but reaches pull phase only on last 3 control steps. Visible surface median is ~13mm above BarHandle center; unconstrained front-plane fit tilts outward normal downward by 0.123.",
+  "change": "Drawer expert only: vertical-front-plane RGB-D fit, known 13mm native BarHandle radius cylinder-center fit, max commanded OSC translation increment 20mm instead of 6mm. Native OSC gains/scaling, robot/gripper physics, 600-step horizon and success contract unchanged.",
+  "offline_initial_rgbd_prediction": [
+    [
+      3.8593993226940033,
+      -0.6316470750353959,
+      0.7888568766376626
+    ],
+    [
+      0.0012089488201786917,
+      -0.999999269221108,
+      0.0
+    ]
+  ],
+  "cad_radius_source": "/home/users/lemon/coft-p2/barx/robocasa_x/robocasa/models/fixtures/handles.py:178",
+  "contract_sha256": "3e1908ade0e2939b34362bf8187b73f5afdb9539346235668aea0026d2082f76"
+}

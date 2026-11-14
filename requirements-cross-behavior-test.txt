@@ -1,0 +1,2 @@
+# Only the new offline RGB-D segmentation regression test; no simulator upgrade.
+opencv-python-headless==4.11.0.86

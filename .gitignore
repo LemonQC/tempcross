@@ -32,3 +32,10 @@ results/baselines/*
 !results/mechanism/**/*.csv
 !results/mechanism/**/*.md
 !results/mechanism/**/*.svg
+
+# Independent cross-behavior task gates; large trajectories stay on server.
+!results/cross_behavior/
+!results/cross_behavior/**/
+!results/cross_behavior/**/*.json
+!results/cross_behavior/**/*.csv
+!results/cross_behavior/**/*.md

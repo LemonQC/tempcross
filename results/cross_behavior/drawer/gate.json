@@ -1,0 +1,23 @@
+{
+  "task": "drawer",
+  "status": "BLOCKED",
+  "robots": {
+    "ur5e": {
+      "successes": 0,
+      "episodes": 3,
+      "not_run": 5,
+      "threshold": "6/8",
+      "passed": false,
+      "early_stop_reason": "Three failures rule out 6/8"
+    },
+    "panda": {
+      "successes": 0,
+      "episodes": 3,
+      "not_run": 5,
+      "threshold": "6/8",
+      "passed": false,
+      "early_stop_reason": "Three failures rule out 6/8"
+    }
+  },
+  "utc": "2026-11-14T10:56:59.241391+00:00"
+}

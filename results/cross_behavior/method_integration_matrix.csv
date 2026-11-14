@@ -1,0 +1,73 @@
+method,configuration,task,status,information,training_updates,physical_policy_evaluations,reason
+bc_gmm,source_only,push,NOT_RUN,RGB+instruction,0,0,All three dual-robot physical task gates required before data/adapters/training
+bc_gmm,target_only,push,NOT_RUN,RGB+instruction,0,0,All three dual-robot physical task gates required before data/adapters/training
+bc_gmm,source_target,push,NOT_RUN,RGB+instruction,0,0,All three dual-robot physical task gates required before data/adapters/training
+bc_gmm,source_only,stack,NOT_RUN,RGB+instruction,0,0,All three dual-robot physical task gates required before data/adapters/training
+bc_gmm,target_only,stack,NOT_RUN,RGB+instruction,0,0,All three dual-robot physical task gates required before data/adapters/training
+bc_gmm,source_target,stack,NOT_RUN,RGB+instruction,0,0,All three dual-robot physical task gates required before data/adapters/training
+bc_gmm,source_only,drawer,NOT_RUN,RGB+instruction,0,0,All three dual-robot physical task gates required before data/adapters/training
+bc_gmm,target_only,drawer,NOT_RUN,RGB+instruction,0,0,All three dual-robot physical task gates required before data/adapters/training
+bc_gmm,source_target,drawer,NOT_RUN,RGB+instruction,0,0,All three dual-robot physical task gates required before data/adapters/training
+bc_rnn,source_only,push,NOT_RUN,RGB+instruction,0,0,All three dual-robot physical task gates required before data/adapters/training
+bc_rnn,target_only,push,NOT_RUN,RGB+instruction,0,0,All three dual-robot physical task gates required before data/adapters/training
+bc_rnn,source_target,push,NOT_RUN,RGB+instruction,0,0,All three dual-robot physical task gates required before data/adapters/training
+bc_rnn,source_only,stack,NOT_RUN,RGB+instruction,0,0,All three dual-robot physical task gates required before data/adapters/training
+bc_rnn,target_only,stack,NOT_RUN,RGB+instruction,0,0,All three dual-robot physical task gates required before data/adapters/training
+bc_rnn,source_target,stack,NOT_RUN,RGB+instruction,0,0,All three dual-robot physical task gates required before data/adapters/training
+bc_rnn,source_only,drawer,NOT_RUN,RGB+instruction,0,0,All three dual-robot physical task gates required before data/adapters/training
+bc_rnn,target_only,drawer,NOT_RUN,RGB+instruction,0,0,All three dual-robot physical task gates required before data/adapters/training
+bc_rnn,source_target,drawer,NOT_RUN,RGB+instruction,0,0,All three dual-robot physical task gates required before data/adapters/training
+bc_transformer,source_only,push,NOT_RUN,RGB+instruction,0,0,All three dual-robot physical task gates required before data/adapters/training
+bc_transformer,target_only,push,NOT_RUN,RGB+instruction,0,0,All three dual-robot physical task gates required before data/adapters/training
+bc_transformer,source_target,push,NOT_RUN,RGB+instruction,0,0,All three dual-robot physical task gates required before data/adapters/training
+bc_transformer,source_only,stack,NOT_RUN,RGB+instruction,0,0,All three dual-robot physical task gates required before data/adapters/training
+bc_transformer,target_only,stack,NOT_RUN,RGB+instruction,0,0,All three dual-robot physical task gates required before data/adapters/training
+bc_transformer,source_target,stack,NOT_RUN,RGB+instruction,0,0,All three dual-robot physical task gates required before data/adapters/training
+bc_transformer,source_only,drawer,NOT_RUN,RGB+instruction,0,0,All three dual-robot physical task gates required before data/adapters/training
+bc_transformer,target_only,drawer,NOT_RUN,RGB+instruction,0,0,All three dual-robot physical task gates required before data/adapters/training
+bc_transformer,source_target,drawer,NOT_RUN,RGB+instruction,0,0,All three dual-robot physical task gates required before data/adapters/training
+diffusion_policy,source_only,push,NOT_RUN,RGB+instruction,0,0,All three dual-robot physical task gates required before data/adapters/training
+diffusion_policy,target_only,push,NOT_RUN,RGB+instruction,0,0,All three dual-robot physical task gates required before data/adapters/training
+diffusion_policy,source_target,push,NOT_RUN,RGB+instruction,0,0,All three dual-robot physical task gates required before data/adapters/training
+diffusion_policy,source_only,stack,NOT_RUN,RGB+instruction,0,0,All three dual-robot physical task gates required before data/adapters/training
+diffusion_policy,target_only,stack,NOT_RUN,RGB+instruction,0,0,All three dual-robot physical task gates required before data/adapters/training
+diffusion_policy,source_target,stack,NOT_RUN,RGB+instruction,0,0,All three dual-robot physical task gates required before data/adapters/training
+diffusion_policy,source_only,drawer,NOT_RUN,RGB+instruction,0,0,All three dual-robot physical task gates required before data/adapters/training
+diffusion_policy,target_only,drawer,NOT_RUN,RGB+instruction,0,0,All three dual-robot physical task gates required before data/adapters/training
+diffusion_policy,source_target,drawer,NOT_RUN,RGB+instruction,0,0,All three dual-robot physical task gates required before data/adapters/training
+barx_no_reps,source_only,push,NOT_RUN,native RGB+instruction,0,0,All three dual-robot physical task gates required before data/adapters/training
+barx_no_reps,source_only,stack,NOT_RUN,native RGB+instruction,0,0,All three dual-robot physical task gates required before data/adapters/training
+barx_no_reps,source_only,drawer,NOT_RUN,native RGB+instruction,0,0,All three dual-robot physical task gates required before data/adapters/training
+barx_joint_reps,source_only,push,NOT_RUN,native RGB+instruction,0,0,All three dual-robot physical task gates required before data/adapters/training
+barx_joint_reps,source_only,stack,NOT_RUN,native RGB+instruction,0,0,All three dual-robot physical task gates required before data/adapters/training
+barx_joint_reps,source_only,drawer,NOT_RUN,native RGB+instruction,0,0,All three dual-robot physical task gates required before data/adapters/training
+barx_lora,restricted_lora_1,push,NOT_RUN,native RGB+instruction,0,0,All three dual-robot physical task gates required before data/adapters/training
+barx_lora,restricted_lora_2,push,NOT_RUN,native RGB+instruction,0,0,All three dual-robot physical task gates required before data/adapters/training
+barx_lora,target_adaptation,push,NOT_RUN,native RGB+instruction,0,0,All three dual-robot physical task gates required before data/adapters/training
+barx_lora,restricted_lora_1,stack,NOT_RUN,native RGB+instruction,0,0,All three dual-robot physical task gates required before data/adapters/training
+barx_lora,restricted_lora_2,stack,NOT_RUN,native RGB+instruction,0,0,All three dual-robot physical task gates required before data/adapters/training
+barx_lora,target_adaptation,stack,NOT_RUN,native RGB+instruction,0,0,All three dual-robot physical task gates required before data/adapters/training
+barx_lora,restricted_lora_1,drawer,NOT_RUN,native RGB+instruction,0,0,All three dual-robot physical task gates required before data/adapters/training
+barx_lora,restricted_lora_2,drawer,NOT_RUN,native RGB+instruction,0,0,All three dual-robot physical task gates required before data/adapters/training
+barx_lora,target_adaptation,drawer,NOT_RUN,native RGB+instruction,0,0,All three dual-robot physical task gates required before data/adapters/training
+act,target_only,push,NOT_RUN,native input tier; not yet adapted,0,0,All three dual-robot physical task gates required before data/adapters/training
+act,source_target,push,NOT_RUN,native input tier; not yet adapted,0,0,All three dual-robot physical task gates required before data/adapters/training
+act,target_only,stack,NOT_RUN,native input tier; not yet adapted,0,0,All three dual-robot physical task gates required before data/adapters/training
+act,source_target,stack,NOT_RUN,native input tier; not yet adapted,0,0,All three dual-robot physical task gates required before data/adapters/training
+act,target_only,drawer,NOT_RUN,native input tier; not yet adapted,0,0,All three dual-robot physical task gates required before data/adapters/training
+act,source_target,drawer,NOT_RUN,native input tier; not yet adapted,0,0,All three dual-robot physical task gates required before data/adapters/training
+vqbet,target_only,push,NOT_RUN,native input tier; not yet adapted,0,0,All three dual-robot physical task gates required before data/adapters/training
+vqbet,source_target,push,NOT_RUN,native input tier; not yet adapted,0,0,All three dual-robot physical task gates required before data/adapters/training
+vqbet,target_only,stack,NOT_RUN,native input tier; not yet adapted,0,0,All three dual-robot physical task gates required before data/adapters/training
+vqbet,source_target,stack,NOT_RUN,native input tier; not yet adapted,0,0,All three dual-robot physical task gates required before data/adapters/training
+vqbet,target_only,drawer,NOT_RUN,native input tier; not yet adapted,0,0,All three dual-robot physical task gates required before data/adapters/training
+vqbet,source_target,drawer,NOT_RUN,native input tier; not yet adapted,0,0,All three dual-robot physical task gates required before data/adapters/training
+octo_small,source_target,push,NOT_RUN,RGB+instruction,0,0,All three dual-robot physical task gates required before data/adapters/training
+octo_small,source_target,stack,NOT_RUN,RGB+instruction,0,0,All three dual-robot physical task gates required before data/adapters/training
+octo_small,source_target,drawer,NOT_RUN,RGB+instruction,0,0,All three dual-robot physical task gates required before data/adapters/training
+smolvla,source_target_state,push,NOT_RUN,RGB+instruction+qpos9,0,0,All three dual-robot physical task gates required before data/adapters/training
+smolvla,source_target_state,stack,NOT_RUN,RGB+instruction+qpos9,0,0,All three dual-robot physical task gates required before data/adapters/training
+smolvla,source_target_state,drawer,NOT_RUN,RGB+instruction+qpos9,0,0,All three dual-robot physical task gates required before data/adapters/training
+flow_matching_policy,source_target_visual,push,NOT_RUN,RGB+CLIP768+qpos9,0,0,All three dual-robot physical task gates required before data/adapters/training
+flow_matching_policy,source_target_visual,stack,NOT_RUN,RGB+CLIP768+qpos9,0,0,All three dual-robot physical task gates required before data/adapters/training
+flow_matching_policy,source_target_visual,drawer,NOT_RUN,RGB+CLIP768+qpos9,0,0,All three dual-robot physical task gates required before data/adapters/training
