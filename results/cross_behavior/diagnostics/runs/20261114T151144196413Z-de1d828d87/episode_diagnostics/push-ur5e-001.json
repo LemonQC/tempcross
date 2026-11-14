@@ -1,0 +1,241 @@
+{
+  "metrics": {
+    "episode_id": "push-ur5e-001",
+    "task": "push",
+    "robot": "ur5e",
+    "condition": 1,
+    "steps": 600,
+    "duration_seconds": 30.0,
+    "recorded_full_success": false,
+    "native_predicate_available": false,
+    "first_native_success_step": null,
+    "final_native_success": false,
+    "final_tcp_position": [
+      2.362907266290468,
+      -0.4402417459085367,
+      1.093114998536225
+    ],
+    "final_executed_phase": 3,
+    "mean_reported_pre_action_tracking_error_m": 0.12170804471098881,
+    "max_reported_pre_action_tracking_error_m": 0.38460814382221703,
+    "mean_independently_recomputed_pre_action_tracking_error_m": 0.12126914638192168,
+    "max_tracking_error_crosscheck_difference_m": 0.0,
+    "mean_post_action_target_error_m": 0.12029036887707335,
+    "final_target_to_post_action_tcp_error_m": 3.802227515188327e-05,
+    "target_estimate_available_steps": 600,
+    "total_steps": 600,
+    "timed_out": true,
+    "maximum_stable_control_steps": 0,
+    "privileged_values_used_only_offline": true,
+    "perceived_object_position": [
+      2.2893023174655998,
+      -0.5484781874879862,
+      0.942982730502696
+    ],
+    "perceived_goal_center": [
+      2.3912368179857673,
+      -0.4881438004606826,
+      0.9242037879188865
+    ],
+    "true_object_reference_position": [
+      2.294144223826802,
+      -0.5484364186346031,
+      0.9397805634960695
+    ],
+    "true_goal_center": [
+      2.4341442238268023,
+      -0.5484364186346031,
+      0.921
+    ],
+    "true_object_reference_step": 1,
+    "object_localization_error_m": 0.005805142150377742,
+    "goal_localization_error_m": 0.07407097636255823,
+    "goal_localization_xy_error_m": 0.07400165729410023,
+    "final_object_position": [
+      2.39991342038084,
+      -0.46330834552303235,
+      0.9397844891595695
+    ],
+    "observed_displacement_vector": [
+      0.10576919655403794,
+      0.08512807311157078,
+      3.925663499937393e-06
+    ],
+    "final_recorded_displacement_m": 0.13577154256829982,
+    "observed_reference_displacement_xy_m": 0.13577154256829982,
+    "push_direction_error_degrees": 38.82876259107213,
+    "lateral_displacement_m": 0.08512807311157078,
+    "final_goal_xy_error_m": 0.09175258435730863,
+    "contact_control_steps": 137,
+    "failure_class": "OFF_GOAL_AFTER_CONTACT"
+  },
+  "phases": [
+    {
+      "episode_id": "push-ur5e-001",
+      "phase": 0,
+      "start_step": 1,
+      "end_step": 248,
+      "control_steps": 248,
+      "start_seconds": 0.0,
+      "end_seconds": 12.4
+    },
+    {
+      "episode_id": "push-ur5e-001",
+      "phase": 1,
+      "start_step": 249,
+      "end_step": 343,
+      "control_steps": 95,
+      "start_seconds": 12.4,
+      "end_seconds": 17.15
+    },
+    {
+      "episode_id": "push-ur5e-001",
+      "phase": 2,
+      "start_step": 344,
+      "end_step": 478,
+      "control_steps": 135,
+      "start_seconds": 17.15,
+      "end_seconds": 23.9
+    },
+    {
+      "episode_id": "push-ur5e-001",
+      "phase": 3,
+      "start_step": 479,
+      "end_step": 600,
+      "control_steps": 122,
+      "start_seconds": 23.9,
+      "end_seconds": 30.0
+    }
+  ],
+  "perception": {
+    "episode_id": "push-ur5e-001",
+    "first_estimate_step": 1,
+    "first_recorded_estimate": {
+      "start": [
+        2.2893023174655998,
+        -0.5484781874879862,
+        0.942982730502696
+      ],
+      "target": [
+        2.3912368179857673,
+        -0.4881438004606826,
+        0.9242037879188865
+      ],
+      "direction": [
+        0.8605552014135343,
+        0.5093571883463622,
+        0.0
+      ],
+      "initial_tcp": [
+        1.8937538931347424,
+        -0.5629536735139655,
+        1.2735748704415344
+      ],
+      "initial_rotation": [
+        [
+          -0.9997863471949825,
+          -0.00600746082309351,
+          -0.01977802763100724
+        ],
+        [
+          -0.006493657059486873,
+          0.9996760153859646,
+          0.02461090571340734
+        ],
+        [
+          0.019623770802464687,
+          0.024734079253116468,
+          -0.9995014421915521
+        ]
+      ]
+    },
+    "estimate_semantics": "Latched initial estimate; availability is not fresh detection or visibility at every subsequent step",
+    "state_alignment": "RGB estimate precedes action; logged truth is post-action of the same control step. Initial comparison is approximate, not strict causal pairing.",
+    "object_estimate": [
+      2.2893023174655998,
+      -0.5484781874879862,
+      0.942982730502696
+    ],
+    "goal_estimate": [
+      2.3912368179857673,
+      -0.4881438004606826,
+      0.9242037879188865
+    ],
+    "object_truth": [
+      2.294144223826802,
+      -0.5484364186346031,
+      0.9397805634960695
+    ],
+    "goal_truth": [
+      2.4341442238268023,
+      -0.5484364186346031,
+      0.921
+    ],
+    "overlay": {
+      "projection_reprojection_rms_pixels": 2.791255014363153e-13,
+      "projection_matrix": [
+        [
+          272.10424546774107,
+          43.401351589147176,
+          -89.01906746878335,
+          -226.36360880518455
+        ],
+        [
+          -13.727466740309628,
+          -41.628730211097526,
+          -248.54431821125118,
+          360.4718666295391
+        ],
+        [
+          0.3558996201052195,
+          0.832497837491629,
+          -0.5760986348741404,
+          1.210815260682607
+        ]
+      ],
+      "approximation": "Initial image only. World-point projection is fitted from recorded RGB-D rays; not simulator rendering.",
+      "points": {
+        "object_estimate": {
+          "pixel": [
+            281.57526576163775,
+            114.55864857469632
+          ],
+          "inside_initial_fov": true,
+          "nearest_recorded_depth_surface_distance_m": 0.016064518193504837,
+          "visibility_certified": false
+        },
+        "goal_estimate": {
+          "pixel": [
+            285.6915000319452,
+            105.3043455795502
+          ],
+          "inside_initial_fov": true,
+          "nearest_recorded_depth_surface_distance_m": 0.0024734558131778123,
+          "visibility_certified": false
+        },
+        "object_truth": {
+          "pixel": [
+            282.148380302322,
+            114.86462298484952
+          ],
+          "inside_initial_fov": true,
+          "nearest_recorded_depth_surface_distance_m": 0.017754421083497743,
+          "visibility_certified": false
+        },
+        "goal_truth": {
+          "pixel": [
+            302.93379319093515,
+            110.99289722142584
+          ],
+          "inside_initial_fov": true,
+          "nearest_recorded_depth_surface_distance_m": 0.04320417157757903,
+          "visibility_certified": false
+        }
+      },
+      "path": "push-ur5e-001.jpg",
+      "status": "GENERATED",
+      "width": 640,
+      "height": 560
+    }
+  }
+}

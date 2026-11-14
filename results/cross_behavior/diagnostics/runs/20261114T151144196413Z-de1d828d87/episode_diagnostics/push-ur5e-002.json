@@ -1,0 +1,175 @@
+{
+  "metrics": {
+    "episode_id": "push-ur5e-002",
+    "task": "push",
+    "robot": "ur5e",
+    "condition": 2,
+    "steps": 600,
+    "duration_seconds": 30.0,
+    "recorded_full_success": false,
+    "native_predicate_available": false,
+    "first_native_success_step": null,
+    "final_native_success": false,
+    "final_tcp_position": [
+      2.3684016652834967,
+      -0.43306732293111877,
+      1.0936112901719106
+    ],
+    "final_executed_phase": 3,
+    "mean_reported_pre_action_tracking_error_m": 0.11977618905239003,
+    "max_reported_pre_action_tracking_error_m": 0.36826996332190803,
+    "mean_independently_recomputed_pre_action_tracking_error_m": 0.11936134134910202,
+    "max_tracking_error_crosscheck_difference_m": 0.0,
+    "mean_post_action_target_error_m": 0.11836236911744002,
+    "final_target_to_post_action_tcp_error_m": 0.0007318754496973378,
+    "target_estimate_available_steps": 600,
+    "total_steps": 600,
+    "timed_out": true,
+    "maximum_stable_control_steps": 0,
+    "privileged_values_used_only_offline": true,
+    "perceived_object_position": [
+      2.274683254123776,
+      -0.5439600637146038,
+      0.9429671625429757
+    ],
+    "perceived_goal_center": [
+      2.3934616132415982,
+      -0.48283955386906147,
+      0.924033387099505
+    ],
+    "true_object_reference_position": [
+      2.278369200469346,
+      -0.543680213512971,
+      0.9397805634960651
+    ],
+    "true_goal_center": [
+      2.4183692004693462,
+      -0.543680213512971,
+      0.921
+    ],
+    "true_object_reference_step": 1,
+    "object_localization_error_m": 0.004880464125833606,
+    "goal_localization_error_m": 0.0658116646553585,
+    "goal_localization_xy_error_m": 0.06574172014340604,
+    "final_object_position": [
+      2.3924967240196295,
+      -0.46347958394707534,
+      0.9397844891595659
+    ],
+    "observed_displacement_vector": [
+      0.11412752355028344,
+      0.08020062956589569,
+      3.925663500825571e-06
+    ],
+    "final_recorded_displacement_m": 0.1394891845789003,
+    "observed_reference_displacement_xy_m": 0.1394891845789003,
+    "push_direction_error_degrees": 35.09679487307614,
+    "lateral_displacement_m": 0.08020062956589569,
+    "final_goal_xy_error_m": 0.08427055251039456,
+    "contact_control_steps": 151,
+    "failure_class": "OFF_GOAL_AFTER_CONTACT"
+  },
+  "phases": [
+    {
+      "episode_id": "push-ur5e-002",
+      "phase": 0,
+      "start_step": 1,
+      "end_step": 238,
+      "control_steps": 238,
+      "start_seconds": 0.0,
+      "end_seconds": 11.9
+    },
+    {
+      "episode_id": "push-ur5e-002",
+      "phase": 1,
+      "start_step": 239,
+      "end_step": 333,
+      "control_steps": 95,
+      "start_seconds": 11.9,
+      "end_seconds": 16.65
+    },
+    {
+      "episode_id": "push-ur5e-002",
+      "phase": 2,
+      "start_step": 334,
+      "end_step": 484,
+      "control_steps": 151,
+      "start_seconds": 16.65,
+      "end_seconds": 24.2
+    },
+    {
+      "episode_id": "push-ur5e-002",
+      "phase": 3,
+      "start_step": 485,
+      "end_step": 600,
+      "control_steps": 116,
+      "start_seconds": 24.2,
+      "end_seconds": 30.0
+    }
+  ],
+  "perception": {
+    "episode_id": "push-ur5e-002",
+    "first_estimate_step": 1,
+    "first_recorded_estimate": {
+      "start": [
+        2.274683254123776,
+        -0.5439600637146038,
+        0.9429671625429757
+      ],
+      "target": [
+        2.3934616132415982,
+        -0.48283955386906147,
+        0.924033387099505
+      ],
+      "direction": [
+        0.8891827475189052,
+        0.4575522281824565,
+        0.0
+      ],
+      "initial_tcp": [
+        1.8992428383544158,
+        -0.5630484429901003,
+        1.2736608380130574
+      ],
+      "initial_rotation": [
+        [
+          -0.9996761572012317,
+          -0.0019100045664090085,
+          0.025375827197017663
+        ],
+        [
+          -0.0021773134935511606,
+          0.9999423921834985,
+          -0.010510548049071259
+        ],
+        [
+          -0.025354290156251756,
+          -0.010562395414740557,
+          -0.9996227267193227
+        ]
+      ]
+    },
+    "estimate_semantics": "Latched initial estimate; availability is not fresh detection or visibility at every subsequent step",
+    "state_alignment": "RGB estimate precedes action; logged truth is post-action of the same control step. Initial comparison is approximate, not strict causal pairing.",
+    "object_estimate": [
+      2.274683254123776,
+      -0.5439600637146038,
+      0.9429671625429757
+    ],
+    "goal_estimate": [
+      2.3934616132415982,
+      -0.48283955386906147,
+      0.924033387099505
+    ],
+    "object_truth": [
+      2.278369200469346,
+      -0.543680213512971,
+      0.9397805634960651
+    ],
+    "goal_truth": [
+      2.4183692004693462,
+      -0.543680213512971,
+      0.921
+    ]
+  }
+}

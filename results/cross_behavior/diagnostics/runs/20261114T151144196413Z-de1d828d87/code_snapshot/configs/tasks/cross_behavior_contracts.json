@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "status": "FROZEN_BEFORE_FIRST_PHYSICAL_ROLLOUT",
+  "control_hz": 20,
+  "max_steps": 600,
+  "gate_episodes_per_robot": 8,
+  "minimum_successes": 6,
+  "repair_budget_per_task": 1,
+  "expert_information": ["primary_camera_RGB", "primary_camera_depth", "camera_calibration", "robot_proprioception_FK", "instruction", "known_native_asset_dimensions"],
+  "policy_forbidden_information": ["object_simulator_pose", "contact", "success", "drawer_joint_state"],
+  "all_three_tasks_must_pass_before_training": true,
+  "push": {
+    "instruction": "Push the red block into the blue outlined goal region without grasping or lifting it.",
+    "asset": "robosuite.BoxObject", "half_size_m": [0.02, 0.02, 0.02],
+    "goal_half_size_m": [0.06, 0.06], "goal_offset_counter_x_m": 0.14,
+    "minimum_displacement_m": 0.08, "maximum_lift_m": 0.02,
+    "maximum_linear_speed_m_s": 0.02, "maximum_angular_speed_rad_s": 0.3,
+    "stable_control_steps": 20, "gripper_command": -1
+  },
+  "stack": {
+    "instruction": "Place the red block on the green block, release it, and retreat.",
+    "asset": "robosuite.Stack native BoxObject sizes and native success predicate",
+    "half_size_A_m": [0.02, 0.02, 0.02], "half_size_B_m": [0.025, 0.025, 0.025],
+    "maximum_xy_error_m": 0.015, "expected_center_height_difference_m": 0.045,
+    "maximum_height_error_m": 0.012, "maximum_linear_speed_m_s": 0.015,
+    "maximum_angular_speed_rad_s": 0.3, "stable_control_steps": 20,
+    "retreat_distance_m": 0.10, "native_success_required": true
+  },
+  "drawer": {
+    "native_task": "OpenDrawer", "instruction": "native get_ep_meta language",
+    "native_normalized_open_threshold": 0.95, "native_success_required": true,
+    "handle_contact_required": true, "released_required": true,
+    "retreat_distance_m": 0.10, "stable_control_steps": 20,
+    "maximum_joint_speed_per_second": 0.02
+  }
+}

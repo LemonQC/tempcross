@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "analysis_status": "COMPLETE",
+  "run_id": "20261114T151144196413Z-de1d828d87",
+  "input_fingerprint": "de1d828d87942b9087be7514729911e16fe4bc7643ddb43ac8c6dabdd54e4453",
+  "episodes": 19,
+  "actual_control_steps": 9160,
+  "groups": [
+    {
+      "task": "drawer",
+      "robot": "panda",
+      "episodes": 3,
+      "full_successes": 0,
+      "native_predicate_ever": 0,
+      "failure_classes": {
+        "APPROACH_VISUAL_OR_CONTROL_AMBIGUOUS": 2,
+        "VISUAL_NO_ESTIMATE": 1
+      }
+    },
+    {
+      "task": "drawer",
+      "robot": "ur5e",
+      "episodes": 3,
+      "full_successes": 0,
+      "native_predicate_ever": 0,
+      "failure_classes": {
+        "CONTACT_WITH_INSUFFICIENT_OPENING": 1,
+        "VISUAL_NO_ESTIMATE": 2
+      }
+    },
+    {
+      "task": "push",
+      "robot": "panda",
+      "episodes": 3,
+      "full_successes": 0,
+      "native_predicate_ever": null,
+      "failure_classes": {
+        "APPROACH_NOT_COMPLETED_VISUAL_OR_CONTROL_AMBIGUOUS": 3
+      }
+    },
+    {
+      "task": "push",
+      "robot": "ur5e",
+      "episodes": 4,
+      "full_successes": 0,
+      "native_predicate_ever": null,
+      "failure_classes": {
+        "NO_TARGET_ESTIMATE": 1,
+        "OFF_GOAL_AFTER_CONTACT": 3
+      }
+    },
+    {
+      "task": "stack",
+      "robot": "panda",
+      "episodes": 3,
+      "full_successes": 0,
+      "native_predicate_ever": 3,
+      "failure_classes": {
+        "NATIVE_STACK_BUT_RETREAT_INCOMPLETE": 3
+      }
+    },
+    {
+      "task": "stack",
+      "robot": "ur5e",
+      "episodes": 3,
+      "full_successes": 0,
+      "native_predicate_ever": 2,
+      "failure_classes": {
+        "NATIVE_STACK_NOT_REACHED": 1,
+        "NATIVE_STACK_BUT_RETREAT_INCOMPLETE": 2
+      }
+    }
+  ],
+  "new_physics_steps": 0,
+  "training_updates": 0,
+  "baseline_reruns": 0,
+  "overlay_count": 12,
+  "undefined_values_are_null": true,
+  "phase_timing_source": "Recorded executed decision.phase, not post-step expert phase",
+  "report_scope": "Offline diagnostics of the supplied indexed episodes, not formal benchmark success or causal identification"
+}

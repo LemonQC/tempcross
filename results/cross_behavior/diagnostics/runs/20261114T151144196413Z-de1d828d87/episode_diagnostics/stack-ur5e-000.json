@@ -1,0 +1,183 @@
+{
+  "metrics": {
+    "episode_id": "stack-ur5e-000",
+    "task": "stack",
+    "robot": "ur5e",
+    "condition": 0,
+    "steps": 600,
+    "duration_seconds": 30.0,
+    "recorded_full_success": false,
+    "native_predicate_available": true,
+    "first_native_success_step": null,
+    "final_native_success": false,
+    "final_tcp_position": [
+      1.506662436835704,
+      -0.45935423670170433,
+      1.4891067759748515
+    ],
+    "final_executed_phase": 0,
+    "mean_reported_pre_action_tracking_error_m": 0.2202745363516943,
+    "max_reported_pre_action_tracking_error_m": 0.5540365478002077,
+    "mean_independently_recomputed_pre_action_tracking_error_m": 0.2197173376681409,
+    "max_tracking_error_crosscheck_difference_m": 0.0,
+    "mean_post_action_target_error_m": 0.21953370722129842,
+    "final_target_to_post_action_tcp_error_m": 0.10749184934099805,
+    "target_estimate_available_steps": 600,
+    "total_steps": 600,
+    "timed_out": true,
+    "maximum_stable_control_steps": 0,
+    "privileged_values_used_only_offline": true,
+    "first_release_step": null,
+    "remaining_seconds_after_release": null,
+    "final_retreat_distance_m": 0.9613047686522174,
+    "retreat_threshold_m": 0.1,
+    "final_retreat_pass": true,
+    "final_released": true,
+    "final_xy_error_m": 0.14954978183593595,
+    "final_height_error_m": 0.05,
+    "failure_class": "NATIVE_STACK_NOT_REACHED",
+    "timeout_reason": "NATIVE_STACK_NOT_REACHED"
+  },
+  "phases": [
+    {
+      "episode_id": "stack-ur5e-000",
+      "phase": 0,
+      "start_step": 1,
+      "end_step": 600,
+      "control_steps": 600,
+      "start_seconds": 0.0,
+      "end_seconds": 30.0
+    }
+  ],
+  "perception": {
+    "episode_id": "stack-ur5e-000",
+    "first_estimate_step": 1,
+    "first_recorded_estimate": {
+      "start": [
+        1.4524686209427946,
+        -0.39606797720133635,
+        1.406784878681874
+      ],
+      "target": [
+        2.4143329336668753,
+        -0.5289000803363378,
+        0.9433683101074052
+      ],
+      "direction": [
+        0.990598649755535,
+        -0.1368002744972058,
+        0.0
+      ],
+      "initial_tcp": [
+        1.888274748620945,
+        -0.5710736161408858,
+        1.2667618252879889
+      ],
+      "initial_rotation": [
+        [
+          -0.9997574656875133,
+          0.022020572022265275,
+          -0.00032281556948796693
+        ],
+        [
+          0.022022903240093893,
+          0.9996223967535318,
+          -0.016433369757931766
+        ],
+        [
+          -3.917852904213468e-05,
+          -0.01643649343794692,
+          -0.9998649109497273
+        ]
+      ]
+    },
+    "estimate_semantics": "Latched initial estimate; availability is not fresh detection or visibility at every subsequent step",
+    "state_alignment": "RGB estimate precedes action; logged truth is post-action of the same control step. Initial comparison is approximate, not strict causal pairing.",
+    "object_estimate": [
+      1.4524686209427946,
+      -0.39606797720133635,
+      1.406784878681874
+    ],
+    "target_estimate": [
+      2.4143329336668753,
+      -0.5289000803363378,
+      0.9433683101074052
+    ],
+    "object_truth": [
+      2.2906459590219646,
+      -0.5472275567820535,
+      0.9397805634957536
+    ],
+    "target_truth": [
+      2.4401343879591932,
+      -0.5515108803812183,
+      0.944780563339623
+    ],
+    "overlay": {
+      "projection_reprojection_rms_pixels": 5.030304027860677e-13,
+      "projection_matrix": [
+        [
+          268.58487284641757,
+          42.84000173564297,
+          -87.86770257217631,
+          -223.43584249002242
+        ],
+        [
+          -13.549916958436249,
+          -41.09030779857846,
+          -245.32966755969494,
+          355.80955492547236
+        ],
+        [
+          0.35129644693434375,
+          0.8217303819749536,
+          -0.5686474251048423,
+          1.1951546774944006
+        ]
+      ],
+      "approximation": "Initial image only. World-point projection is fitted from recorded RGB-D rays; not simulator rendering.",
+      "points": {
+        "object_estimate": {
+          "pixel": [
+            44.99625296133163,
+            12.547439074104542
+          ],
+          "inside_initial_fov": true,
+          "nearest_recorded_depth_surface_distance_m": 0.0011218506974111956,
+          "visibility_certified": false
+        },
+        "object_truth": {
+          "pixel": [
+            281.339805642978,
+            114.88902526307575
+          ],
+          "inside_initial_fov": true,
+          "nearest_recorded_depth_surface_distance_m": 0.017589413750648885,
+          "visibility_certified": false
+        },
+        "target_estimate": {
+          "pixel": [
+            297.94315952205767,
+            105.75202457050409
+          ],
+          "inside_initial_fov": true,
+          "nearest_recorded_depth_surface_distance_m": 0.0011784543011759822,
+          "visibility_certified": false
+        },
+        "target_truth": {
+          "pixel": [
+            306.33513338547914,
+            106.99907587708361
+          ],
+          "inside_initial_fov": true,
+          "nearest_recorded_depth_surface_distance_m": 0.02892547664104613,
+          "visibility_certified": false
+        }
+      },
+      "path": "stack-ur5e-000.jpg",
+      "status": "GENERATED",
+      "width": 640,
+      "height": 560
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "metrics": {
+    "episode_id": "drawer-ur5e-002",
+    "task": "drawer",
+    "robot": "ur5e",
+    "condition": 2,
+    "steps": 40,
+    "duration_seconds": 2.0,
+    "recorded_full_success": false,
+    "native_predicate_available": true,
+    "first_native_success_step": null,
+    "final_native_success": false,
+    "final_tcp_position": [
+      4.898821349011208,
+      -0.7976831152040847,
+      1.2623149713665682
+    ],
+    "final_executed_phase": null,
+    "mean_reported_pre_action_tracking_error_m": null,
+    "max_reported_pre_action_tracking_error_m": null,
+    "mean_independently_recomputed_pre_action_tracking_error_m": null,
+    "max_tracking_error_crosscheck_difference_m": null,
+    "mean_post_action_target_error_m": null,
+    "final_target_to_post_action_tcp_error_m": null,
+    "target_estimate_available_steps": 0,
+    "total_steps": 40,
+    "timed_out": false,
+    "maximum_stable_control_steps": 0,
+    "privileged_values_used_only_offline": true,
+    "perceived_handle_position": null,
+    "perceived_handle_normal": null,
+    "normal_tilt_from_horizontal_degrees": null,
+    "first_handle_contact_step": null,
+    "contact_control_steps": 0,
+    "total_handle_contact_seconds": 0.0,
+    "longest_continuous_contact_seconds": 0.0,
+    "maximum_normalized_opening": 0.0003481604619999574,
+    "handle_visibility": "NO_ESTIMATE",
+    "failure_class": "VISUAL_NO_ESTIMATE"
+  },
+  "phases": [
+    {
+      "episode_id": "drawer-ur5e-002",
+      "phase": "UNIDENTIFIED",
+      "start_step": 1,
+      "end_step": 40,
+      "control_steps": 40,
+      "start_seconds": 0.0,
+      "end_seconds": 2.0
+    }
+  ],
+  "perception": {
+    "episode_id": "drawer-ur5e-002",
+    "first_estimate_step": null,
+    "first_recorded_estimate": {},
+    "estimate_semantics": "Latched initial estimate; availability is not fresh detection or visibility at every subsequent step",
+    "state_alignment": "RGB estimate precedes action; logged truth is post-action of the same control step. Initial comparison is approximate, not strict causal pairing.",
+    "handle_estimate": null,
+    "normal_estimate": null,
+    "true_handle_pose": null,
+    "true_handle_pose_reason": "Exact dynamic handle pose was not exported in the JSONL schema; no simulator or counterfactual labels are generated."
+  }
+}

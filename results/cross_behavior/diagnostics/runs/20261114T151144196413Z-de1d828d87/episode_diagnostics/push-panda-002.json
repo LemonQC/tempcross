@@ -1,0 +1,148 @@
+{
+  "metrics": {
+    "episode_id": "push-panda-002",
+    "task": "push",
+    "robot": "panda",
+    "condition": 2,
+    "steps": 600,
+    "duration_seconds": 30.0,
+    "recorded_full_success": false,
+    "native_predicate_available": false,
+    "first_native_success_step": null,
+    "final_native_success": false,
+    "final_tcp_position": [
+      1.9022807385307556,
+      -0.4734698304007125,
+      1.250131964168462
+    ],
+    "final_executed_phase": 0,
+    "mean_reported_pre_action_tracking_error_m": 0.46234251285726863,
+    "max_reported_pre_action_tracking_error_m": 0.5441233766109198,
+    "mean_independently_recomputed_pre_action_tracking_error_m": 0.4622279063938794,
+    "max_tracking_error_crosscheck_difference_m": 0.0,
+    "mean_post_action_target_error_m": 0.46218922135318763,
+    "final_target_to_post_action_tcp_error_m": 0.45650378701842403,
+    "target_estimate_available_steps": 600,
+    "total_steps": 600,
+    "timed_out": true,
+    "maximum_stable_control_steps": 0,
+    "privileged_values_used_only_offline": true,
+    "perceived_object_position": [
+      2.0061630357190903,
+      -0.10638674882274735,
+      1.1201990646319662
+    ],
+    "perceived_goal_center": [
+      2.421152215788221,
+      -0.4832890420037097,
+      0.9244423091500309
+    ],
+    "true_object_reference_position": [
+      2.278369200469346,
+      -0.543680213512971,
+      0.9397805634955962
+    ],
+    "true_goal_center": [
+      2.4183692004693462,
+      -0.543680213512971,
+      0.921
+    ],
+    "true_object_reference_step": 1,
+    "object_localization_error_m": 0.5457770661553283,
+    "goal_localization_error_m": 0.0605531854059759,
+    "goal_localization_xy_error_m": 0.06045526255443861,
+    "final_object_position": [
+      2.278369200469346,
+      -0.543680213512971,
+      0.9397844891595659
+    ],
+    "observed_displacement_vector": [
+      0.0,
+      0.0,
+      3.925663969672755e-06
+    ],
+    "final_recorded_displacement_m": 0.0,
+    "observed_reference_displacement_xy_m": 0.0,
+    "push_direction_error_degrees": null,
+    "lateral_displacement_m": 0.0,
+    "final_goal_xy_error_m": 0.14000000000000012,
+    "contact_control_steps": 0,
+    "failure_class": "APPROACH_NOT_COMPLETED_VISUAL_OR_CONTROL_AMBIGUOUS"
+  },
+  "phases": [
+    {
+      "episode_id": "push-panda-002",
+      "phase": 0,
+      "start_step": 1,
+      "end_step": 600,
+      "control_steps": 600,
+      "start_seconds": 0.0,
+      "end_seconds": 30.0
+    }
+  ],
+  "perception": {
+    "episode_id": "push-panda-002",
+    "first_estimate_step": 1,
+    "first_recorded_estimate": {
+      "start": [
+        2.0061630357190903,
+        -0.10638674882274735,
+        1.1201990646319662
+      ],
+      "target": [
+        2.421152215788221,
+        -0.4832890420037097,
+        0.9244423091500309
+      ],
+      "direction": [
+        0.7402601525343869,
+        -0.6723205385601174,
+        0.0
+      ],
+      "initial_tcp": [
+        1.8808628261540785,
+        -0.5619842927510474,
+        1.281811048443339
+      ],
+      "initial_rotation": [
+        [
+          -0.998226929013426,
+          0.035538341487051754,
+          -0.04774960184938138
+        ],
+        [
+          0.03394917722543269,
+          0.9988555616221851,
+          0.033690063552115485
+        ],
+        [
+          0.048892244355735116,
+          0.0320092689822669,
+          -0.9982910172595366
+        ]
+      ]
+    },
+    "estimate_semantics": "Latched initial estimate; availability is not fresh detection or visibility at every subsequent step",
+    "state_alignment": "RGB estimate precedes action; logged truth is post-action of the same control step. Initial comparison is approximate, not strict causal pairing.",
+    "object_estimate": [
+      2.0061630357190903,
+      -0.10638674882274735,
+      1.1201990646319662
+    ],
+    "goal_estimate": [
+      2.421152215788221,
+      -0.4832890420037097,
+      0.9244423091500309
+    ],
+    "object_truth": [
+      2.278369200469346,
+      -0.543680213512971,
+      0.9397805634955962
+    ],
+    "goal_truth": [
+      2.4183692004693462,
+      -0.543680213512971,
+      0.921
+    ]
+  }
+}

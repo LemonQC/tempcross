@@ -1,0 +1,180 @@
+{
+  "metrics": {
+    "episode_id": "stack-ur5e-002",
+    "task": "stack",
+    "robot": "ur5e",
+    "condition": 2,
+    "steps": 600,
+    "duration_seconds": 30.0,
+    "recorded_full_success": false,
+    "native_predicate_available": true,
+    "first_native_success_step": 563,
+    "final_native_success": true,
+    "final_tcp_position": [
+      1.9598880251139879,
+      -0.5545926880836114,
+      0.9872537630469249
+    ],
+    "final_executed_phase": 7,
+    "mean_reported_pre_action_tracking_error_m": 0.07361889863152711,
+    "max_reported_pre_action_tracking_error_m": 0.2100539300821741,
+    "mean_independently_recomputed_pre_action_tracking_error_m": 0.07339112729354606,
+    "max_tracking_error_crosscheck_difference_m": 0.0,
+    "mean_post_action_target_error_m": 0.07228141403392258,
+    "final_target_to_post_action_tcp_error_m": 0.10534083422284939,
+    "target_estimate_available_steps": 600,
+    "total_steps": 600,
+    "timed_out": true,
+    "maximum_stable_control_steps": 0,
+    "privileged_values_used_only_offline": true,
+    "first_release_step": 563,
+    "remaining_seconds_after_release": 1.85,
+    "final_retreat_distance_m": 0.0029058999971945322,
+    "retreat_threshold_m": 0.1,
+    "final_retreat_pass": false,
+    "final_released": true,
+    "final_xy_error_m": 0.0015613699709090287,
+    "final_height_error_m": 0.00032063167215841404,
+    "failure_class": "NATIVE_STACK_BUT_RETREAT_INCOMPLETE",
+    "timeout_reason": "NATIVE_STACK_BUT_RETREAT_INCOMPLETE"
+  },
+  "phases": [
+    {
+      "episode_id": "stack-ur5e-002",
+      "phase": 0,
+      "start_step": 1,
+      "end_step": 137,
+      "control_steps": 137,
+      "start_seconds": 0.0,
+      "end_seconds": 6.85
+    },
+    {
+      "episode_id": "stack-ur5e-002",
+      "phase": 1,
+      "start_step": 138,
+      "end_step": 244,
+      "control_steps": 107,
+      "start_seconds": 6.85,
+      "end_seconds": 12.2
+    },
+    {
+      "episode_id": "stack-ur5e-002",
+      "phase": 2,
+      "start_step": 245,
+      "end_step": 279,
+      "control_steps": 35,
+      "start_seconds": 12.2,
+      "end_seconds": 13.95
+    },
+    {
+      "episode_id": "stack-ur5e-002",
+      "phase": 3,
+      "start_step": 280,
+      "end_step": 392,
+      "control_steps": 113,
+      "start_seconds": 13.95,
+      "end_seconds": 19.6
+    },
+    {
+      "episode_id": "stack-ur5e-002",
+      "phase": 4,
+      "start_step": 393,
+      "end_step": 492,
+      "control_steps": 100,
+      "start_seconds": 19.6,
+      "end_seconds": 24.6
+    },
+    {
+      "episode_id": "stack-ur5e-002",
+      "phase": 5,
+      "start_step": 493,
+      "end_step": 561,
+      "control_steps": 69,
+      "start_seconds": 24.6,
+      "end_seconds": 28.05
+    },
+    {
+      "episode_id": "stack-ur5e-002",
+      "phase": 6,
+      "start_step": 562,
+      "end_step": 596,
+      "control_steps": 35,
+      "start_seconds": 28.05,
+      "end_seconds": 29.8
+    },
+    {
+      "episode_id": "stack-ur5e-002",
+      "phase": 7,
+      "start_step": 597,
+      "end_step": 600,
+      "control_steps": 4,
+      "start_seconds": 29.8,
+      "end_seconds": 30.0
+    }
+  ],
+  "perception": {
+    "episode_id": "stack-ur5e-002",
+    "first_estimate_step": 1,
+    "first_recorded_estimate": {
+      "start": [
+        1.8119309995433088,
+        -0.5429529340723991,
+        0.9424752773219764
+      ],
+      "target": [
+        1.9606140907620198,
+        -0.5539014725395348,
+        0.9475901084914748
+      ],
+      "direction": [
+        0.9972997912934001,
+        -0.07343790769173981,
+        0.0
+      ],
+      "initial_tcp": [
+        1.8898613929629569,
+        -0.5848078354073447,
+        1.286918748967759
+      ],
+      "initial_rotation": [
+        [
+          -0.9996006549550663,
+          0.02046498976349064,
+          0.01948627228025989
+        ],
+        [
+          0.02078351063460506,
+          0.9996513427265394,
+          0.016286149659316126
+        ],
+        [
+          -0.019146182363632185,
+          0.016684639013314236,
+          -0.9996774712485481
+        ]
+      ]
+    },
+    "estimate_semantics": "Latched initial estimate; availability is not fresh detection or visibility at every subsequent step",
+    "state_alignment": "RGB estimate precedes action; logged truth is post-action of the same control step. Initial comparison is approximate, not strict causal pairing.",
+    "object_estimate": [
+      1.8119309995433088,
+      -0.5429529340723991,
+      0.9424752773219764
+    ],
+    "target_estimate": [
+      1.9606140907620198,
+      -0.5539014725395348,
+      0.9475901084914748
+    ],
+    "object_truth": [
+      1.8140187444049005,
+      -0.5424105194188255,
+      0.9397805634957542
+    ],
+    "target_truth": [
+      1.96306155563343,
+      -0.5537640218926031,
+      0.9447805633396236
+    ]
+  }
+}

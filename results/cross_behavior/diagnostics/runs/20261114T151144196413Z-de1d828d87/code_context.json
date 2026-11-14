@@ -1,0 +1,157 @@
+{
+  "head": "38812f37f5e991c9045f2939b58aaa8de1f46098",
+  "branch": "cross-behavior-task-expansion",
+  "dirty": true,
+  "git_status": "?? configs/diagnostics/\n?? cross_behavior/handoff.py\n?? cross_behavior/offline_diagnostic.py\n?? docs/diagnostics/\n?? results/cross_behavior/diagnostics/\n?? scripts/analyze_stage_a_offline.py\n?? scripts/cross_behavior_handoff.py\n?? scripts/run_cross_behavior_handoff.sh\n?? tests/test_cross_behavior_handoff.py",
+  "files": [
+    {
+      "path": "cross_behavior/expert.py",
+      "absolute_path": "/home/users/lemon/CodexProject/tempcross-cross-behavior/cross_behavior/expert.py",
+      "sha256": "1f9d2e091160162434a5aedd75320c36f720461a166179b9b5645f1e2ed1c72a",
+      "bytes": 5142,
+      "exists_at_head": true,
+      "github_file_link": "https://github.com/LemonQC/tempcross/blob/38812f37f5e991c9045f2939b58aaa8de1f46098/cross_behavior/expert.py",
+      "snapshot_path": "code_snapshot/cross_behavior/expert.py",
+      "publish_program": false
+    },
+    {
+      "path": "cross_behavior/evaluator.py",
+      "absolute_path": "/home/users/lemon/CodexProject/tempcross-cross-behavior/cross_behavior/evaluator.py",
+      "sha256": "e6e74fdaea6173ec25d3dd14b838ab4edce970e1d8cdccb0e8e16443c6efe0ba",
+      "bytes": 8130,
+      "exists_at_head": true,
+      "github_file_link": "https://github.com/LemonQC/tempcross/blob/38812f37f5e991c9045f2939b58aaa8de1f46098/cross_behavior/evaluator.py",
+      "snapshot_path": "code_snapshot/cross_behavior/evaluator.py",
+      "publish_program": false
+    },
+    {
+      "path": "cross_behavior/sensing.py",
+      "absolute_path": "/home/users/lemon/CodexProject/tempcross-cross-behavior/cross_behavior/sensing.py",
+      "sha256": "bb53bcfa0050887d2c71f360591816a2e547260657a5ef0fc13525d87f032ae0",
+      "bytes": 7515,
+      "exists_at_head": true,
+      "github_file_link": "https://github.com/LemonQC/tempcross/blob/38812f37f5e991c9045f2939b58aaa8de1f46098/cross_behavior/sensing.py",
+      "snapshot_path": "code_snapshot/cross_behavior/sensing.py",
+      "publish_program": false
+    },
+    {
+      "path": "cross_behavior/tasks.py",
+      "absolute_path": "/home/users/lemon/CodexProject/tempcross-cross-behavior/cross_behavior/tasks.py",
+      "sha256": "a6a0bebc8bc8841f77a9fb90c680695ecfc08ab8d31bfd3bad1caadc0c5fdd7c",
+      "bytes": 7028,
+      "exists_at_head": true,
+      "github_file_link": "https://github.com/LemonQC/tempcross/blob/38812f37f5e991c9045f2939b58aaa8de1f46098/cross_behavior/tasks.py",
+      "snapshot_path": "code_snapshot/cross_behavior/tasks.py",
+      "publish_program": false
+    },
+    {
+      "path": "cross_behavior/worker.py",
+      "absolute_path": "/home/users/lemon/CodexProject/tempcross-cross-behavior/cross_behavior/worker.py",
+      "sha256": "5b5c2e251fa3a8edc4fe159b19cdac2f1f9e275170ee2b122da4d815b30e196d",
+      "bytes": 12522,
+      "exists_at_head": true,
+      "github_file_link": "https://github.com/LemonQC/tempcross/blob/38812f37f5e991c9045f2939b58aaa8de1f46098/cross_behavior/worker.py",
+      "snapshot_path": "code_snapshot/cross_behavior/worker.py",
+      "publish_program": false
+    },
+    {
+      "path": "configs/tasks/cross_behavior_contracts.json",
+      "absolute_path": "/home/users/lemon/CodexProject/tempcross-cross-behavior/configs/tasks/cross_behavior_contracts.json",
+      "sha256": "3e1908ade0e2939b34362bf8187b73f5afdb9539346235668aea0026d2082f76",
+      "bytes": 1886,
+      "exists_at_head": true,
+      "github_file_link": "https://github.com/LemonQC/tempcross/blob/38812f37f5e991c9045f2939b58aaa8de1f46098/configs/tasks/cross_behavior_contracts.json",
+      "snapshot_path": "code_snapshot/configs/tasks/cross_behavior_contracts.json",
+      "publish_program": false
+    },
+    {
+      "path": "scripts/cross_behavior_handoff.py",
+      "absolute_path": "/home/users/lemon/CodexProject/tempcross-cross-behavior/scripts/cross_behavior_handoff.py",
+      "sha256": "48ca73e54c35b7312ef3d2ba3942730ab51b667c7c03fc7fddb7735253302d7b",
+      "bytes": 291,
+      "exists_at_head": false,
+      "github_file_link": "https://github.com/LemonQC/tempcross/blob/cross-behavior-task-expansion/scripts/cross_behavior_handoff.py",
+      "snapshot_path": "code_snapshot/scripts/cross_behavior_handoff.py",
+      "publish_program": true
+    },
+    {
+      "path": "scripts/analyze_stage_a_offline.py",
+      "absolute_path": "/home/users/lemon/CodexProject/tempcross-cross-behavior/scripts/analyze_stage_a_offline.py",
+      "sha256": "d1cc3efb156ac0ff2a2cadc9f20cba069f3b5e017c4f8fd0691086612118adcd",
+      "bytes": 302,
+      "exists_at_head": false,
+      "github_file_link": "https://github.com/LemonQC/tempcross/blob/cross-behavior-task-expansion/scripts/analyze_stage_a_offline.py",
+      "snapshot_path": "code_snapshot/scripts/analyze_stage_a_offline.py",
+      "publish_program": true
+    },
+    {
+      "path": "scripts/run_cross_behavior_handoff.sh",
+      "absolute_path": "/home/users/lemon/CodexProject/tempcross-cross-behavior/scripts/run_cross_behavior_handoff.sh",
+      "sha256": "fd3fbc30ca42c71443532b12766ac458f35866ec9a638cace67904c9bcb48901",
+      "bytes": 228,
+      "exists_at_head": false,
+      "github_file_link": "https://github.com/LemonQC/tempcross/blob/cross-behavior-task-expansion/scripts/run_cross_behavior_handoff.sh",
+      "snapshot_path": "code_snapshot/scripts/run_cross_behavior_handoff.sh",
+      "publish_program": true
+    },
+    {
+      "path": "cross_behavior/handoff.py",
+      "absolute_path": "/home/users/lemon/CodexProject/tempcross-cross-behavior/cross_behavior/handoff.py",
+      "sha256": "707ef2ff9982576dbbf9d78e833f8bcf15c0314781d0646067ddb51b70b6f6fb",
+      "bytes": 30914,
+      "exists_at_head": false,
+      "github_file_link": "https://github.com/LemonQC/tempcross/blob/cross-behavior-task-expansion/cross_behavior/handoff.py",
+      "snapshot_path": "code_snapshot/cross_behavior/handoff.py",
+      "publish_program": true
+    },
+    {
+      "path": "cross_behavior/offline_diagnostic.py",
+      "absolute_path": "/home/users/lemon/CodexProject/tempcross-cross-behavior/cross_behavior/offline_diagnostic.py",
+      "sha256": "dc20f38b614a2b82a77b9f734e98447d34076e70c81e84e7d8fa414fac21ca50",
+      "bytes": 23800,
+      "exists_at_head": false,
+      "github_file_link": "https://github.com/LemonQC/tempcross/blob/cross-behavior-task-expansion/cross_behavior/offline_diagnostic.py",
+      "snapshot_path": "code_snapshot/cross_behavior/offline_diagnostic.py",
+      "publish_program": true
+    },
+    {
+      "path": "configs/diagnostics/handoff_config.json",
+      "absolute_path": "/home/users/lemon/CodexProject/tempcross-cross-behavior/configs/diagnostics/handoff_config.json",
+      "sha256": "4dbf40af43c78c9e9de7cf9ab821e761877825ca8ccc5c75be6f4aa3bce744b9",
+      "bytes": 1112,
+      "exists_at_head": false,
+      "github_file_link": "https://github.com/LemonQC/tempcross/blob/cross-behavior-task-expansion/configs/diagnostics/handoff_config.json",
+      "snapshot_path": "code_snapshot/configs/diagnostics/handoff_config.json",
+      "publish_program": true
+    },
+    {
+      "path": "docs/diagnostics/HANDOFF_SYSTEM_GUIDE.md",
+      "absolute_path": "/home/users/lemon/CodexProject/tempcross-cross-behavior/docs/diagnostics/HANDOFF_SYSTEM_GUIDE.md",
+      "sha256": "3ef81591e6e48b0dcfa862a74e981a88e751ce0b668df45e0b8f77a7c2fb13f4",
+      "bytes": 9476,
+      "exists_at_head": false,
+      "github_file_link": "https://github.com/LemonQC/tempcross/blob/cross-behavior-task-expansion/docs/diagnostics/HANDOFF_SYSTEM_GUIDE.md",
+      "snapshot_path": "code_snapshot/docs/diagnostics/HANDOFF_SYSTEM_GUIDE.md",
+      "publish_program": true
+    },
+    {
+      "path": "tests/test_cross_behavior_handoff.py",
+      "absolute_path": "/home/users/lemon/CodexProject/tempcross-cross-behavior/tests/test_cross_behavior_handoff.py",
+      "sha256": "531850aa9eb7524a38a24d8e201c9faa59982600615bb1a5d6a74c664a73853d",
+      "bytes": 15492,
+      "exists_at_head": false,
+      "github_file_link": "https://github.com/LemonQC/tempcross/blob/cross-behavior-task-expansion/tests/test_cross_behavior_handoff.py",
+      "snapshot_path": "code_snapshot/tests/test_cross_behavior_handoff.py",
+      "publish_program": true
+    }
+  ],
+  "controller_versions": {
+    "cross_behavior/expert.py": "1f9d2e091160162434a5aedd75320c36f720461a166179b9b5645f1e2ed1c72a",
+    "cross_behavior/evaluator.py": "e6e74fdaea6173ec25d3dd14b838ab4edce970e1d8cdccb0e8e16443c6efe0ba",
+    "cross_behavior/sensing.py": "bb53bcfa0050887d2c71f360591816a2e547260657a5ef0fc13525d87f032ae0",
+    "cross_behavior/tasks.py": "a6a0bebc8bc8841f77a9fb90c680695ecfc08ab8d31bfd3bad1caadc0c5fdd7c",
+    "cross_behavior/worker.py": "5b5c2e251fa3a8edc4fe159b19cdac2f1f9e275170ee2b122da4d815b30e196d",
+    "configs/tasks/cross_behavior_contracts.json": "3e1908ade0e2939b34362bf8187b73f5afdb9539346235668aea0026d2082f76"
+  },
+  "source_patch_scope": "Configured relevant sources only; unrelated edits are not staged or copied"
+}

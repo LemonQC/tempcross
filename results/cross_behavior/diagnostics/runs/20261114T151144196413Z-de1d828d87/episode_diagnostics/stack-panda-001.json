@@ -1,0 +1,246 @@
+{
+  "metrics": {
+    "episode_id": "stack-panda-001",
+    "task": "stack",
+    "robot": "panda",
+    "condition": 1,
+    "steps": 600,
+    "duration_seconds": 30.0,
+    "recorded_full_success": false,
+    "native_predicate_available": true,
+    "first_native_success_step": 563,
+    "final_native_success": true,
+    "final_tcp_position": [
+      1.9566517557978496,
+      -0.5482877518878968,
+      0.9880174981628399
+    ],
+    "final_executed_phase": 7,
+    "mean_reported_pre_action_tracking_error_m": 0.07214224120211607,
+    "max_reported_pre_action_tracking_error_m": 0.20389229622610872,
+    "mean_independently_recomputed_pre_action_tracking_error_m": 0.07192229119372875,
+    "max_tracking_error_crosscheck_difference_m": 0.0,
+    "mean_post_action_target_error_m": 0.07081240846985414,
+    "final_target_to_post_action_tcp_error_m": 0.10458524526330039,
+    "target_estimate_available_steps": 600,
+    "total_steps": 600,
+    "timed_out": true,
+    "maximum_stable_control_steps": 0,
+    "privileged_values_used_only_offline": true,
+    "first_release_step": 563,
+    "remaining_seconds_after_release": 1.85,
+    "final_retreat_distance_m": 0.0026823813468926246,
+    "retreat_threshold_m": 0.1,
+    "final_retreat_pass": false,
+    "final_released": true,
+    "final_xy_error_m": 0.0005991680599636587,
+    "final_height_error_m": 0.00032028983067940164,
+    "failure_class": "NATIVE_STACK_BUT_RETREAT_INCOMPLETE",
+    "timeout_reason": "NATIVE_STACK_BUT_RETREAT_INCOMPLETE"
+  },
+  "phases": [
+    {
+      "episode_id": "stack-panda-001",
+      "phase": 0,
+      "start_step": 1,
+      "end_step": 136,
+      "control_steps": 136,
+      "start_seconds": 0.0,
+      "end_seconds": 6.8
+    },
+    {
+      "episode_id": "stack-panda-001",
+      "phase": 1,
+      "start_step": 137,
+      "end_step": 244,
+      "control_steps": 108,
+      "start_seconds": 6.8,
+      "end_seconds": 12.2
+    },
+    {
+      "episode_id": "stack-panda-001",
+      "phase": 2,
+      "start_step": 245,
+      "end_step": 279,
+      "control_steps": 35,
+      "start_seconds": 12.2,
+      "end_seconds": 13.95
+    },
+    {
+      "episode_id": "stack-panda-001",
+      "phase": 3,
+      "start_step": 280,
+      "end_step": 391,
+      "control_steps": 112,
+      "start_seconds": 13.95,
+      "end_seconds": 19.55
+    },
+    {
+      "episode_id": "stack-panda-001",
+      "phase": 4,
+      "start_step": 392,
+      "end_step": 490,
+      "control_steps": 99,
+      "start_seconds": 19.55,
+      "end_seconds": 24.5
+    },
+    {
+      "episode_id": "stack-panda-001",
+      "phase": 5,
+      "start_step": 491,
+      "end_step": 561,
+      "control_steps": 71,
+      "start_seconds": 24.5,
+      "end_seconds": 28.05
+    },
+    {
+      "episode_id": "stack-panda-001",
+      "phase": 6,
+      "start_step": 562,
+      "end_step": 596,
+      "control_steps": 35,
+      "start_seconds": 28.05,
+      "end_seconds": 29.8
+    },
+    {
+      "episode_id": "stack-panda-001",
+      "phase": 7,
+      "start_step": 597,
+      "end_step": 600,
+      "control_steps": 4,
+      "start_seconds": 29.8,
+      "end_seconds": 30.0
+    }
+  ],
+  "perception": {
+    "episode_id": "stack-panda-001",
+    "first_estimate_step": 1,
+    "first_recorded_estimate": {
+      "start": [
+        1.8077805173105606,
+        -0.54021596433561,
+        0.942478337405053
+      ],
+      "target": [
+        1.956588104637143,
+        -0.5482145994069426,
+        0.9476031659978243
+      ],
+      "direction": [
+        0.9985585095077552,
+        -0.053674044841526276,
+        0.0
+      ],
+      "initial_tcp": [
+        1.8918558688816172,
+        -0.5650241878566223,
+        1.280519800023772
+      ],
+      "initial_rotation": [
+        [
+          -0.998821594814869,
+          -0.010438932230230324,
+          -0.04739673433235531
+        ],
+        [
+          -0.011826510142503846,
+          0.9995068196477149,
+          0.029090395933315312
+        ],
+        [
+          0.04706968652252173,
+          0.029616653619213174,
+          -0.9984524517667671
+        ]
+      ]
+    },
+    "estimate_semantics": "Latched initial estimate; availability is not fresh detection or visibility at every subsequent step",
+    "state_alignment": "RGB estimate precedes action; logged truth is post-action of the same control step. Initial comparison is approximate, not strict causal pairing.",
+    "object_estimate": [
+      1.8077805173105606,
+      -0.54021596433561,
+      0.942478337405053
+    ],
+    "target_estimate": [
+      1.956588104637143,
+      -0.5482145994069426,
+      0.9476031659978243
+    ],
+    "object_truth": [
+      1.8101197033512504,
+      -0.5400651306585292,
+      0.9397805634955962
+    ],
+    "target_truth": [
+      1.9589194208293117,
+      -0.548237381507953,
+      0.944780563339465
+    ],
+    "overlay": {
+      "projection_reprojection_rms_pixels": 2.2396613243856155e-13,
+      "projection_matrix": [
+        [
+          265.13360859646735,
+          42.289517618745585,
+          -86.73861948571994,
+          -220.56473155741307
+        ],
+        [
+          -13.375802874869487,
+          -40.56230532676986,
+          -242.17722849347354,
+          351.2374717152541
+        ],
+        [
+          0.34678235001511004,
+          0.8111713067193093,
+          -0.5613404150084373,
+          1.1797971858492975
+        ]
+      ],
+      "approximation": "Initial image only. World-point projection is fitted from recorded RGB-D rays; not simulator rendering.",
+      "points": {
+        "object_estimate": {
+          "pixel": [
+            183.6260324717767,
+            143.81241594646264
+          ],
+          "inside_initial_fov": true,
+          "nearest_recorded_depth_surface_distance_m": 0.017762315880385866,
+          "visibility_certified": false
+        },
+        "object_truth": {
+          "pixel": [
+            184.1143093840219,
+            144.1258679438522
+          ],
+          "inside_initial_fov": true,
+          "nearest_recorded_depth_surface_distance_m": 0.018042208741137114,
+          "visibility_certified": false
+        },
+        "target_estimate": {
+          "pixel": [
+            218.68959995591547,
+            133.6255861867911
+          ],
+          "inside_initial_fov": true,
+          "nearest_recorded_depth_surface_distance_m": 0.022915218619716363,
+          "visibility_certified": false
+        },
+        "target_truth": {
+          "pixel": [
+            219.07726065799872,
+            134.00568309755533
+          ],
+          "inside_initial_fov": true,
+          "nearest_recorded_depth_surface_distance_m": 0.022880670415692264,
+          "visibility_certified": false
+        }
+      },
+      "path": "stack-panda-001.jpg",
+      "status": "GENERATED",
+      "width": 640,
+      "height": 560
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "data_root": "/home/users/lemon/cross-behavior-20261114",
+  "artifact_index": "results/cross_behavior/artifact_index.json",
+  "output_root": "results/cross_behavior/diagnostics/runs",
+  "branch": "cross-behavior-task-expansion",
+  "remote": "origin",
+  "repository": "LemonQC/tempcross",
+  "python": "/home/users/lemon/coft-p2/barx/.venv/bin/python",
+  "control_hz": 20,
+  "maximum_overlay_count": 12,
+  "maximum_overlay_width": 640,
+  "maximum_file_bytes": 2097152,
+  "maximum_package_bytes": 16777216,
+  "source_context": [
+    "cross_behavior/expert.py", "cross_behavior/evaluator.py", "cross_behavior/sensing.py",
+    "cross_behavior/tasks.py", "cross_behavior/worker.py", "configs/tasks/cross_behavior_contracts.json"
+  ],
+  "publish_programs": [
+    "scripts/cross_behavior_handoff.py", "scripts/analyze_stage_a_offline.py",
+    "scripts/run_cross_behavior_handoff.sh", "cross_behavior/handoff.py",
+    "cross_behavior/offline_diagnostic.py", "configs/diagnostics/handoff_config.json",
+    "docs/diagnostics/HANDOFF_SYSTEM_GUIDE.md", "tests/test_cross_behavior_handoff.py"
+  ]
+}

@@ -1,0 +1,1382 @@
+--- /dev/null
++++ b/scripts/cross_behavior_handoff.py
+@@ -0,0 +1,9 @@
++#!/usr/bin/env python3
++"""Offline evidence handoff; works without Codex or any connected application."""
++import sys
++from pathlib import Path
++sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
++from cross_behavior.handoff import main
++
++if __name__ == '__main__':
++    sys.exit(main())
+--- /dev/null
++++ b/scripts/analyze_stage_a_offline.py
+@@ -0,0 +1,9 @@
++#!/usr/bin/env python3
++"""Read saved JSONL/RGB-D only. Never imports a simulator or a training stack."""
++import sys
++from pathlib import Path
++sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
++from cross_behavior.offline_diagnostic import main
++
++if __name__ == '__main__':
++    sys.exit(main())
+--- /dev/null
++++ b/scripts/run_cross_behavior_handoff.sh
+@@ -0,0 +1,8 @@
++#!/usr/bin/env bash
++set -euo pipefail
++HANDOFF_REPO_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd)"
++cd -- "$HANDOFF_REPO_DIR"
++if (( $# == 0 )); then
++  set -- run
++fi
++exec python scripts/cross_behavior_handoff.py "$@"
+--- /dev/null
++++ b/cross_behavior/handoff.py
+@@ -0,0 +1,532 @@
++"""Durable offline handoff and isolated native-Git publication (standard library).
++
++No Codex API, simulation, training, credential export or force-push dependency.
++"""
++import argparse
++import datetime
++import difflib
++import fcntl
++import hashlib
++import json
++import os
++import re
++import shutil
++import subprocess
++import sys
++import tempfile
++import time
++from pathlib import Path
++
++PROJECT = Path(__file__).resolve().parents[1]
++FORBIDDEN = {'.mp4','.npz','.npy','.pkl','.h5','.hdf5','.pt','.pth','.ckpt','.safetensors'}
++SECRET = re.compile(r'gh[pousr]_[A-Za-z0-9]{20,}|github_pat_[A-Za-z0-9_]{20,}|-----BEGIN (?:OPENSSH |RSA |EC )?PRIVATE KEY-----|(?i:password|passwd|api[_-]?key|access[_-]?token|client[_-]?secret)[\"\']?\s*[:=]\s*[\"\'][^\"\'\s]{4,}[\"\']')
++
++
++class HandoffError(RuntimeError):
++    pass
++
++
++def now():
++    return datetime.datetime.now(datetime.timezone.utc).isoformat()
++
++
++def sha(data):
++    return hashlib.sha256(data).hexdigest()
++
++
++def read(path):
++    return json.loads(Path(path).read_text())
++
++
++def atomic(path, data):
++    path=Path(path);path.parent.mkdir(parents=True,exist_ok=True)
++    temporary=path.with_name(path.name+'.tmp')
++    with temporary.open('wb') as f:
++        f.write(data);f.flush();os.fsync(f.fileno())
++    os.replace(temporary,path)
++    fd=os.open(path.parent,os.O_DIRECTORY)
++    try:os.fsync(fd)
++    finally:os.close(fd)
++
++
++def write(path,value):
++    atomic(path,(json.dumps(value,indent=2,ensure_ascii=False,allow_nan=False)+'\n').encode())
++
++
++def safe_text(text):
++    text=SECRET.sub('[REDACTED]',text)
++    return re.sub(r'(https?://)[^/@\s]+:[^/@\s]+@',r'\1[REDACTED]@',text)
++
++
++def contains_json_credential(value):
++    if isinstance(value,dict):
++        for key,child in value.items():
++            if re.fullmatch(r'(?i:password|passwd|token|secret|api[_-]?key|access[_-]?token|refresh[_-]?token|client[_-]?secret|github[_-]?token|gh[_-]?token)',str(key)) and child not in (None,False,''):
++                return True
++            if contains_json_credential(child):return True
++    elif isinstance(value,list):return any(contains_json_credential(v) for v in value)
++    return False
++
++
++def process(args, repo=PROJECT, check=True, env=None, input_bytes=None, timeout=40, pass_fds=()):
++    runtime=dict(os.environ,GIT_TERMINAL_PROMPT='0')
++    if env:runtime.update(env)
++    try:
++        p=subprocess.run(args,cwd=repo,input=input_bytes,capture_output=True,env=runtime,timeout=timeout,pass_fds=pass_fds)
++    except subprocess.TimeoutExpired:
++        raise HandoffError('COMMAND_TIMEOUT: '+args[0])
++    if check and p.returncode:
++        raise HandoffError(safe_text(p.stderr.decode(errors='replace')[-2000:]))
++    return p
++
++
++def git(repo,*args,check=True,env=None,input_bytes=None):
++    return process(['git',*args],repo,check,env,input_bytes)
++
++
++def textgit(repo,*args):
++    return git(repo,*args).stdout.decode().strip()
++
++
++def relative(repo,name):
++    path=Path(name)
++    if path.is_absolute() or '..' in path.parts or name.startswith('-'):
++        raise HandoffError('Unsafe repository-relative path')
++    resolved=(repo/path).resolve()
++    if not resolved.is_relative_to(repo.resolve()) or path.name.startswith('.env'):
++        raise HandoffError('Path escapes repository or is an environment file')
++    return resolved
++
++
++def settings(repo, config_path, args):
++    cfg=read(config_path)
++    cfg['data_root']=str(Path(args.data_root or cfg['data_root']).expanduser().resolve())
++    cfg['branch']=args.branch or cfg['branch']
++    if cfg['branch'] in ('main','master') or not cfg['branch']:
++        raise HandoffError('MAIN_BRANCH_FORBIDDEN: select the research branch')
++    git(repo,'check-ref-format','--branch',cfg['branch'])
++    current=textgit(repo,'branch','--show-current')
++    if current!=cfg['branch']:
++        raise HandoffError('WRONG_BRANCH: checkout '+cfg['branch']+'; no automatic checkout')
++    cfg['config_path']=str(Path(config_path).resolve())
++    cfg['repo']=str(repo.resolve())
++    cfg['output_root']=str(relative(repo,cfg['output_root']))
++    cfg['state_root']=str(Path(textgit(repo,'rev-parse','--absolute-git-dir'))/'cross_behavior_handoff')
++    return cfg
++
++
++def remote_head(cfg,branch=None):
++    branch=branch or cfg['branch']
++    out=textgit(Path(cfg['repo']),'ls-remote','--heads',cfg['remote'],'refs/heads/'+branch)
++    if not out:raise HandoffError('REMOTE_BRANCH_MISSING: '+branch)
++    return out.split()[0]
++
++
++def verify_remote(cfg):
++    remote=textgit(Path(cfg['repo']),'remote','get-url','--push',cfg['remote'])
++    if cfg.get('allow_local_test_remote') and Path(remote).is_absolute():
++        return remote
++    normalized=re.sub(r'^git@github.com:', 'https://github.com/', remote)
++    normalized=re.sub(r'^ssh://git@github.com/', 'https://github.com/', normalized).removesuffix('.git')
++    if normalized!='https://github.com/'+cfg['repository']:
++        raise HandoffError('REMOTE_REPOSITORY_MISMATCH: expected configured GitHub repository without embedded credentials')
++    return remote
++
++
++def index_location(cfg, explicit=None):
++    if explicit:return Path(explicit).resolve()
++    root=Path(cfg['data_root'])
++    return root/'artifact_index.json' if (root/'artifact_index.json').exists() else relative(Path(cfg['repo']),cfg['artifact_index'])
++
++
++def discover(cfg,explicit=None):
++    path=index_location(cfg,explicit)
++    if not path.exists():raise HandoffError('ARTIFACT_INDEX_MISSING: use --artifact-index or place artifact_index.json under --data-root')
++    index=read(path)
++    if not isinstance(index.get('episodes'),list) or not index['episodes']:
++        raise HandoffError('UNSUPPORTED_ARTIFACT_INDEX: expected nonempty episodes list')
++    anchor=Path(index.get('server_root',cfg['data_root'])).resolve()
++    root=Path(cfg['data_root']).resolve()
++    entries=[];seen=set()
++    for episode in index['episodes']:
++        identity=f"{episode['task']}-{episode['robot']}-{int(episode['condition']):03d}"
++        if identity in seen:raise HandoffError('DUPLICATE_EPISODE: '+identity)
++        seen.add(identity);files={}
++        for f in episode['files']:
++            original=Path(f['path'])
++            try:p=(root/original.relative_to(anchor)).resolve()
++            except ValueError:raise HandoffError('ARTIFACT_PATH_OUTSIDE_DECLARED_ROOT')
++            if not p.is_relative_to(root) or p.name.startswith('.env'):
++                raise HandoffError('ARTIFACT_PATH_ESCAPE')
++            files[p.name]=dict(path=str(p),expected_sha256=f.get('sha256'),expected_bytes=f.get('bytes'))
++        for required in ('episode.json','condition.json','telemetry.jsonl'):
++            if required not in files:raise HandoffError('MISSING_REQUIRED_INDEX_ENTRY: '+identity+'/'+required)
++        full=episode.get('full_artifact_index')
++        if full:
++            p=(root/Path(full['path']).relative_to(anchor)).resolve()
++            if not p.is_relative_to(root):raise HandoffError('ARTIFACT_PATH_ESCAPE')
++            files['artifact_index.json']=dict(path=str(p),expected_sha256=full['sha256'])
++        entries.append(dict(id=identity,task=episode['task'],robot=episode['robot'],condition=episode['condition'],files=files))
++    return path,entries
++
++
++def inspect_file(path,cache,episode_id=None,expected=None):
++    path=Path(path)
++    record=dict(path=str(path.resolve()),file_type=path.suffix.lower() or 'text',episode_id=episode_id,
++                exists=path.exists(),read_success=False,bytes=None,sha256=None,expected_sha256=expected)
++    if not record['exists']:
++        record['error']='MISSING';return record
++    try:
++        before=path.stat()
++        key=[before.st_dev,before.st_ino,before.st_size,before.st_mtime_ns,before.st_ctime_ns]
++        hit=cache.get(str(path.resolve()))
++        # Some server filesystems have coarse mtime/ctime resolution. A file
++        # hashed in its metadata-change window is never eligible for cache reuse.
++        mature=hit and max(before.st_mtime_ns,before.st_ctime_ns)+2_000_000_000 < hit.get('verified_at_ns',0)
++        if hit and hit['stat']==key and mature:
++            actual=hit['sha256'];record['hash_source']='VERIFIED_STAT_CACHE'
++        else:
++            h=hashlib.sha256()
++            with path.open('rb') as stream:
++                for block in iter(lambda:stream.read(8<<20),b''):h.update(block)
++            after=path.stat()
++            if (after.st_size,after.st_mtime_ns,after.st_ctime_ns)!=(before.st_size,before.st_mtime_ns,before.st_ctime_ns):
++                raise HandoffError('INPUT_CHANGED_WHILE_HASHING')
++            actual=h.hexdigest();cache[str(path.resolve())]=dict(stat=key,sha256=actual,verified_at_ns=time.time_ns())
++            record['hash_source']='SHA256_READ'
++        record.update(bytes=before.st_size,sha256=actual,read_success=True)
++        record['integrity_ok']=expected is None or actual==expected
++        if not record['integrity_ok']:record['error']='SHA256_MISMATCH'
++    except (OSError,HandoffError) as e:
++        record['error']=type(e).__name__+': '+safe_text(str(e))
++    return record
++
++
++def source_context(cfg):
++    repo=Path(cfg['repo']);head=textgit(repo,'rev-parse','HEAD')
++    programs=list(dict.fromkeys(cfg['publish_programs']))
++    sources=list(dict.fromkeys(cfg['source_context']+programs))
++    records=[];patch=[]
++    for name in sources:
++        path=relative(repo,name)
++        if not path.is_file():raise HandoffError('CONTEXT_SOURCE_MISSING: '+name)
++        data=path.read_bytes()
++        if SECRET.search(data.decode(errors='replace')):raise HandoffError('SECRET_PATTERN_IN_CONTEXT: '+name)
++        if path.suffix=='.json' and contains_json_credential(json.loads(data)):
++            raise HandoffError('CREDENTIAL_KEY_IN_CONTEXT_JSON: '+name)
++        tracked=git(repo,'cat-file','-e',head+':'+name,check=False).returncode==0
++        records.append(dict(path=name,absolute_path=str(path),sha256=sha(data),bytes=len(data),
++            exists_at_head=tracked,github_file_link=f"https://github.com/{cfg['repository']}/blob/{head if tracked else cfg['branch']}/{name}",
++            snapshot_path='code_snapshot/'+name,publish_program=name in programs))
++        if tracked:
++            patch.append(git(repo,'diff','--no-ext-diff','--binary','HEAD','--',name).stdout.decode())
++        else:
++            patch.extend(difflib.unified_diff([],data.decode().splitlines(True),fromfile='/dev/null',tofile='b/'+name))
++    dirty=bool(textgit(repo,'status','--porcelain'))
++    return dict(head=head,branch=cfg['branch'],dirty=dirty,git_status=safe_text(textgit(repo,'status','--short')),
++                files=records,controller_versions={r['path']:r['sha256'] for r in records if r['path'] in cfg['source_context']},
++                source_patch_scope='Configured relevant sources only; unrelated edits are not staged or copied'),''.join(patch)
++
++
++def state_paths(cfg):
++    root=Path(cfg['state_root']);root.mkdir(parents=True,exist_ok=True)
++    latest=root/('latest-'+sha(cfg['branch'].encode())[:12]+'.json')
++    legacy=root/'latest.json'
++    if not latest.exists() and legacy.exists():
++        pointer=read(legacy);old=Path(pointer['state_path'])
++        if old.exists() and read(old)['branch']==cfg['branch']:write(latest,pointer)
++    return root,latest
++
++
++def load_latest(cfg,run_id=None):
++    root,latest=state_paths(cfg)
++    if run_id:
++        if not re.fullmatch(r'[A-Za-z0-9_.-]+',run_id):raise HandoffError('INVALID_RUN_ID')
++        p=root/'runs'/run_id/'state.json'
++    elif latest.exists():p=Path(read(latest)['state_path'])
++    else:return None,None
++    if not p.exists():raise HandoffError('HANDOFF_STATE_MISSING')
++    return p,read(p)
++
++
++def doctor(cfg,explicit=None,auth_probe=True):
++    repo=Path(cfg['repo']);result=dict(utc=now(),python=sys.executable,analysis_python=cfg['python'],
++        branch=cfg['branch'],head=textgit(repo,'rev-parse','HEAD'),dirty=bool(textgit(repo,'status','--porcelain')),
++        data_root=cfg['data_root'],data_exists=Path(cfg['data_root']).exists(),credential_values_logged=False,
++        git_identity_ready=git(repo,'var','GIT_AUTHOR_IDENT',check=False).returncode==0)
++    try:
++        verify_remote(cfg);result['remote_repository']='MATCH'
++        result['remote_head']=remote_head(cfg)
++        path,entries=discover(cfg,explicit);result.update(artifact_index=str(path),episodes=len(entries))
++        missing=[dict(episode=e['id'],file=name,path=f['path']) for e in entries for name,f in e['files'].items()
++                 if not Path(f['path']).is_file()]
++        result.update(missing_data_files=missing,data_ready=result['data_exists'] and not missing)
++    except HandoffError as e:result['data_or_remote_error']=safe_text(str(e))
++    p=process([cfg['python'],'-c','import json,numpy,cv2; print(json.dumps(dict(numpy=numpy.__version__,opencv=cv2.__version__)))'],repo,check=False)
++    result['analysis_dependencies']=json.loads(p.stdout) if p.returncode==0 else 'MISSING'
++    if auth_probe:
++        try:
++            ledger=Path(cfg['state_root'])/'last_publication.json'
++            previous=read(ledger) if ledger.exists() else {}
++            probe_ref=previous['commit'] if previous.get('branch',cfg['branch'])==cfg['branch'] and previous.get('commit') else 'HEAD'
++            p=git(repo,'push','--dry-run',cfg['remote'],probe_ref+':refs/heads/'+cfg['branch'],check=False)
++            # Non-fast-forward is a conflict, never classified as successful auth.
++            result['push_auth_status']='READY' if p.returncode==0 else ('CONFLICT' if b'non-fast-forward' in p.stderr or b'fetch first' in p.stderr else 'UNAVAILABLE')
++        except HandoffError:result['push_auth_status']='NETWORK_OR_AUTH_UNAVAILABLE'
++    else:result['push_auth_status']='NOT_PROBED'
++    result['one_time_auth_commands']=[
++        'gh auth login --hostname github.com --git-protocol https', 'gh auth setup-git',
++        'python scripts/cross_behavior_handoff.py doctor']
++    result['auth_alternative']='If gh is absent, configure a standard credential helper or SSH outside this program. Never put a token in source/config or chat.'
++    result['ready_for_run']=bool(result.get('remote_repository')=='MATCH' and result.get('data_ready') and result.get('episodes') and result['git_identity_ready'] and
++        isinstance(result['analysis_dependencies'],dict) and result['push_auth_status']=='READY')
++    return result
++
++
++def analyze(cfg,args):
++    repo=Path(cfg['repo']);state_root,latest=state_paths(cfg)
++    index,episodes=discover(cfg,args.artifact_index)
++    context,patch=source_context(cfg)
++    cache_path=state_root/'hash_cache.json';cache=read(cache_path) if cache_path.exists() else {}
++    records=[inspect_file(index,cache)]
++    for episode in episodes:
++        for entry in episode['files'].values():
++            records.append(inspect_file(entry['path'],cache,episode['id'],entry.get('expected_sha256')))
++    for record in context['files']:
++        records.append(inspect_file(record['absolute_path'],cache,expected=record['sha256']))
++    write(cache_path,cache)
++    fingerprint=sha(json.dumps(dict(version=1,records=[{k:r.get(k) for k in ('path','bytes','sha256','expected_sha256','exists','read_success')} for r in records],
++        controls={k:cfg[k] for k in ('branch','control_hz','maximum_overlay_count','maximum_overlay_width')}),sort_keys=True).encode())
++    catalog_path=state_root/'catalog.json';catalog=read(catalog_path) if catalog_path.exists() else {}
++    if fingerprint in catalog:
++        state_path=Path(catalog[fingerprint]);state=read(state_path)
++        if state['analysis_status']=='COMPLETE':
++            finish_package(cfg,state_path,state)
++            write(latest,dict(state_path=str(state_path)))
++            return state_path,state,True
++        if not args.resume:raise HandoffError('INCOMPLETE_RUN_EXISTS: rerun with --resume')
++    else:
++        run_id=datetime.datetime.now(datetime.timezone.utc).strftime('%Y%m%dT%H%M%S%fZ')+'-'+fingerprint[:10]
++        output=Path(cfg['output_root'])/run_id
++        output.mkdir(parents=True,exist_ok=False)
++        state_path=state_root/'runs'/run_id/'state.json'
++        # A previously published isolated commit is an allowed parent even if
++        # the user's live HEAD/index were deliberately left untouched.
++        known=read(state_root/'last_publication.json') if (state_root/'last_publication.json').exists() else {}
++        base=known.get('commit',context['head']) if known.get('branch',cfg['branch'])==cfg['branch'] else context['head']
++        state=dict(run_id=run_id,fingerprint=fingerprint,created_at=now(),output=str(output),
++                   branch=cfg['branch'],data_root=cfg['data_root'],base_commit=base,
++                   analysis_status='PENDING',package_status='PENDING',publish_status='NOT_RUN',episodes={},
++                   config={k:v for k,v in cfg.items() if k not in ('config_path','_lock_fd')},frozen_context=context,frozen_patch=patch)
++        write(state_path,state);catalog[fingerprint]=str(state_path);write(catalog_path,catalog)
++    if not state.get('snapshot_initialized'):
++        output=Path(state['output'])
++        context=state['frozen_context'];patch=state['frozen_patch']
++        def freeze(path,data):
++            if path.exists():
++                if path.read_bytes()!=data:raise HandoffError('INCOMPLETE_SNAPSHOT_CONTENT_CHANGED')
++            else:atomic(path,data)
++            temporary=path.with_name(path.name+'.tmp')
++            if temporary.exists():temporary.unlink()
++        if not (output/'input_manifest.json').exists():
++            write(output/'input_manifest.json',dict(schema_version=1,fingerprint=fingerprint,artifact_index=str(index),
++                  files=records,episodes=episodes,scope='Files listed in the top-level evidence index plus per-episode full indexes and source context. Full-index child files not consumed are referenced, not silently claimed rehashed.'))
++        freeze(output/'code_context.json',(json.dumps(context,indent=2,ensure_ascii=False,allow_nan=False)+'\n').encode())
++        freeze(output/'source_changes.patch',patch.encode())
++        for record in context['files']:
++            data=Path(record['absolute_path']).read_bytes()
++            if sha(data)!=record['sha256']:raise HandoffError('CONTEXT_CHANGED_DURING_SNAPSHOT')
++            freeze(output/record['snapshot_path'],data)
++        state['snapshot_initialized']=True;write(state_path,state)
++    write(latest,dict(state_path=str(state_path)))
++    if any(not r['read_success'] or r.get('integrity_ok') is False for r in records):
++        state.update(analysis_status='FAILED_INPUT_INTEGRITY',error='Inspect input_manifest.json; existing evidence is never repaired/overwritten')
++        write(state_path,state);return state_path,state,False
++    state.update(analysis_status='RUNNING',error=None);write(state_path,state)
++    command=[cfg['python'],str(repo/'scripts/analyze_stage_a_offline.py'),'--manifest',str(Path(state['output'])/'input_manifest.json'),
++             '--state',str(state_path),'--config',cfg['config_path']]
++    if args.resume:command.append('--resume')
++    if args.stop_after_episodes is not None:command+=['--stop-after-episodes',str(args.stop_after_episodes)]
++    try:result=process(command,repo,check=False,timeout=1800,pass_fds=(cfg['_lock_fd'],) if '_lock_fd' in cfg else ())
++    except HandoffError as error:
++        state=read(state_path);state.update(analysis_status='INTERRUPTED',error=safe_text(str(error)))
++        write(state_path,state);return state_path,state,False
++    state=read(state_path)
++    if result.returncode:
++        state['analysis_status']='INTERRUPTED' if result.returncode==75 else 'FAILED_ANALYSIS'
++        state['error']=safe_text(result.stderr.decode(errors='replace')[-2000:])
++        write(state_path,state);return state_path,state,False
++    if state['analysis_status']!='COMPLETE':raise HandoffError('ANALYZER_DID_NOT_COMPLETE')
++    finish_package(cfg,state_path,state)
++    return state_path,state,False
++
++
++def finish_package(cfg,state_path,state):
++    try:
++        if not (Path(state['output'])/'snapshot_manifest.json').exists():seal_package(state)
++        sizes=validate_package(cfg,state)
++    except HandoffError as error:
++        state.update(package_status='FAILED_VALIDATION',error=safe_text(str(error)))
++        write(state_path,state);raise
++    state.update(package_status='READY',package_size=sizes,error=None)
++    write(state_path,state)
++
++
++def seal_package(state):
++    output=Path(state['output'])
++    for required in ('input_manifest.json','code_context.json','source_changes.patch',
++                     'CROSS_BEHAVIOR_STAGE_A_OFFLINE_DIAGNOSTIC.md','episode_metrics.csv',
++                     'phase_timeline.csv','perception_audit.json','diagnostic_summary.json'):
++        if not (output/required).is_file():raise HandoffError('REQUIRED_OUTPUT_MISSING: '+required)
++    files=[]
++    for p in sorted(output.rglob('*')):
++        if p.is_file() and p.name!='snapshot_manifest.json':
++            if p.name.endswith('.tmp'):raise HandoffError('UNCOMMITTED_TEMPORARY_OUTPUT')
++            files.append(dict(path=str(p.relative_to(output)),bytes=p.stat().st_size,sha256=sha(p.read_bytes())))
++    write(output/'snapshot_manifest.json',dict(fingerprint=state['fingerprint'],files=files))
++
++
++def validate_package(cfg,state):
++    output=Path(state['output']);manifest=output/'snapshot_manifest.json'
++    if not manifest.exists():raise HandoffError('PACKAGE_MANIFEST_MISSING')
++    total=0;expected=set()
++    for f in read(manifest)['files']:
++        path=relative(output,f['path']);expected.add(path)
++        if not path.is_file():raise HandoffError('PACKAGE_FILE_MISSING: '+f['path'])
++        data=path.read_bytes()
++        if sha(data)!=f['sha256'] or len(data)!=f['bytes']:raise HandoffError('IMMUTABLE_PACKAGE_CHANGED: '+f['path'])
++    actual={p for p in output.rglob('*') if p.is_file() and p!=manifest}
++    if actual!=expected:raise HandoffError('UNEXPECTED_PACKAGE_FILES')
++    for path in sorted(actual|{manifest}):
++        data=path.read_bytes();total+=len(data)
++        if path.suffix.lower() in FORBIDDEN or path.name.startswith('.env'):
++            raise HandoffError('FORBIDDEN_RAW_UPLOAD: '+path.name)
++        if path.suffix.lower() in ('.png','.jpg','.jpeg'):
++            if path.parent!=output/'overlays':raise HandoffError('IMAGE_OUTSIDE_OVERLAY_DIRECTORY')
++        else:
++            try:decoded=data.decode()
++            except UnicodeDecodeError:raise HandoffError('UNAPPROVED_BINARY_UPLOAD')
++            if SECRET.search(decoded):raise HandoffError('SECRET_PATTERN_IN_PACKAGE: '+str(path.relative_to(output)))
++            if path.suffix=='.json' and contains_json_credential(json.loads(decoded)):
++                raise HandoffError('CREDENTIAL_KEY_IN_PACKAGE_JSON: '+str(path.relative_to(output)))
++        if len(data)>cfg['maximum_file_bytes']:raise HandoffError('OUTPUT_FILE_TOO_LARGE: '+path.name)
++    if total>cfg['maximum_package_bytes']:raise HandoffError('PACKAGE_TOO_LARGE')
++    return dict(files=len(actual)+1,bytes=total)
++
++
++def publish(cfg,state_path,state,dry_run=False):
++    repo=Path(cfg['repo']);verify_remote(cfg)
++    if state['analysis_status']!='COMPLETE':raise HandoffError('ANALYSIS_NOT_COMPLETE')
++    if state['branch']!=cfg['branch']:raise HandoffError('PACKAGE_BRANCH_MISMATCH')
++    try:sizes=validate_package(cfg,state)
++    except HandoffError as error:
++        state.update(publish_status='FAILED_VALIDATION',error=safe_text(str(error)))
++        write(state_path,state);raise
++    if state.get('publish_status')=='COMPLETE':
++        return dict(state,publication_already_complete=True)
++    base=state['base_commit'];current=remote_head(cfg)
++    candidate=state.get('candidate_commit')
++    if current!=base and current!=candidate:
++        state.update(publish_status='CONFLICT',error='REMOTE_CHANGED; no rebase, merge or force-push performed',
++            recovery_commands=[f"git fetch {cfg['remote']} {cfg['branch']}",
++                               f"git log --oneline --graph --all -12",
++                               'Preserve the package. Review the remote changes before creating a new handoff; never force push.'])
++        write(state_path,state);raise HandoffError('REMOTE_CHANGED: package retained; see status recovery_commands')
++    if dry_run:return dict(state,dry_run=True,would_publish=sizes,expected_remote=base)
++    if not candidate:
++        # Fetch objects only; leave the user's branch, live index and worktree alone.
++        git(repo,'fetch',cfg['remote'],cfg['branch'])
++        output=Path(state['output'])
++        files={str(p.relative_to(repo)):p for p in output.rglob('*') if p.is_file()}
++        context=read(output/'code_context.json')
++        for f in context['files']:
++            if f['publish_program']:files[f['path']]=output/f['snapshot_path']
++        with tempfile.TemporaryDirectory(prefix='handoff-index-',dir=cfg['state_root']) as tmp:
++            index=str(Path(tmp)/'index');env={'GIT_INDEX_FILE':index}
++            git(repo,'read-tree',base,env=env)
++            for name,path in sorted(files.items()):
++                relative(repo,name)
++                blob=git(repo,'hash-object','-w','--stdin',input_bytes=path.read_bytes()).stdout.decode().strip()
++                mode='100755' if name.endswith('.sh') else '100644'
++                git(repo,'update-index','--add','--cacheinfo',f'{mode},{blob},{name}',env=env)
++            tree=git(repo,'write-tree',env=env).stdout.decode().strip()
++            message=f"Offline cross-behavior handoff {state['run_id']}\n"
++            candidate=git(repo,'commit-tree',tree,'-p',base,input_bytes=message.encode()).stdout.decode().strip()
++        state.update(candidate_commit=candidate,candidate_tree=tree,publish_paths=sorted(files),publish_status='COMMIT_CREATED')
++        write(state_path,state)
++    if current!=candidate:
++        p=git(repo,'push',cfg['remote'],candidate+':refs/heads/'+cfg['branch'],check=False)
++        if p.returncode:
++            # A network loss after a successful receive is resolved by rereading
++            # the branch; a retry never creates another commit for the package.
++            try:observed=remote_head(cfg);received=observed==candidate
++            except HandoffError:observed=None;received=False
++            if not received:
++                conflict=observed is not None and observed!=base
++                state.update(publish_status='CONFLICT' if conflict else 'FAILED_AUTH_OR_NETWORK',error=safe_text(p.stderr.decode(errors='replace')[-2000:]))
++                if conflict:state['recovery_commands']=[f"git fetch {cfg['remote']} {cfg['branch']}",'git log --oneline --graph --all -12','Preserve this package and review the remote changes; do not force push.']
++                write(state_path,state);raise HandoffError('GIT_PUSH_FAILED: package and candidate retained; authenticate, then publish --resume')
++    if remote_head(cfg)!=candidate:raise HandoffError('REMOTE_HEAD_VERIFICATION_FAILED')
++    git(repo,'fetch',cfg['remote'],cfg['branch'])
++    # Read the fetched remote object, not merely the local candidate object.
++    fetched=textgit(repo,'rev-parse','FETCH_HEAD')
++    if fetched!=candidate:raise HandoffError('FETCHED_REMOTE_COMMIT_MISMATCH')
++    context=read(Path(state['output'])/'code_context.json')
++    lookup={str(p.relative_to(repo)):p for p in Path(state['output']).rglob('*') if p.is_file()}
++    lookup.update({f['path']:Path(state['output'])/f['snapshot_path'] for f in context['files'] if f['publish_program']})
++    for name,path in lookup.items():
++        if git(repo,'show',f'{fetched}:{name}').stdout!=path.read_bytes():
++            raise HandoffError('REMOTE_FILE_READBACK_MISMATCH: '+name)
++    state.update(publish_status='COMPLETE',github_commit=candidate,published_at=now(),error=None,
++        github_url=f"https://github.com/{cfg['repository']}/commit/{candidate}",
++        report_url=f"https://github.com/{cfg['repository']}/blob/{candidate}/{Path(state['output']).relative_to(repo)}/CROSS_BEHAVIOR_STAGE_A_OFFLINE_DIAGNOSTIC.md",
++        remote_files_verified=len(lookup),publication_transport='NATIVE_GIT',live_index_and_worktree_preserved=True)
++    write(state_path,state)
++    write(Path(cfg['state_root'])/'last_publication.json',dict(commit=candidate,run_id=state['run_id'],branch=cfg['branch']))
++    return state
++
++
++def display_state(state):
++    return {k:v for k,v in state.items() if k not in ('frozen_context','frozen_patch','config','publish_paths')}
++
++
++def main(argv=None):
++    parser=argparse.ArgumentParser(description=__doc__)
++    parser.add_argument('command',choices=['run','analyze','publish','doctor','status'])
++    parser.add_argument('--resume',action='store_true');parser.add_argument('--dry-run',action='store_true')
++    parser.add_argument('--data-root');parser.add_argument('--branch');parser.add_argument('--artifact-index')
++    parser.add_argument('--config',default=str(PROJECT/'configs/diagnostics/handoff_config.json'))
++    parser.add_argument('--run-id');parser.add_argument('--stop-after-episodes',type=int,help='Clean analysis checkpoint for recovery testing; no physics')
++    args=parser.parse_args(argv)
++    try:
++        cfg=settings(PROJECT,Path(args.config),args)
++        root,_=state_paths(cfg)
++        if args.command=='status':
++            path,state=load_latest(cfg,args.run_id)
++            print(json.dumps(display_state(state) if state else dict(status='NOT_STARTED'),indent=2,ensure_ascii=False));return 0
++        if args.command=='doctor':
++            result=doctor(cfg,args.artifact_index);print(json.dumps(result,indent=2,ensure_ascii=False))
++            return 0 if result['ready_for_run'] else 2
++        lock=(root/'handoff.lock').open('a+')
++        try:fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
++        except BlockingIOError:raise HandoffError('HANDOFF_ALREADY_RUNNING')
++        cfg['_lock_fd']=lock.fileno()
++        if args.dry_run and args.command!='publish':
++            result=doctor(cfg,args.artifact_index,auth_probe=False)
++            result.update(dry_run=True,analysis_started=False,git_objects_created=False,push_performed=False)
++            print(json.dumps(result,indent=2,ensure_ascii=False))
++            return 0 if result.get('data_ready') and result.get('remote_repository')=='MATCH' and isinstance(result.get('analysis_dependencies'),dict) else 2
++        if args.command=='publish':
++            path,state=load_latest(cfg,args.run_id)
++            if not state:raise HandoffError('NO_ANALYZED_PACKAGE: execute analyze first')
++        else:
++            path,state,reused=analyze(cfg,args)
++            state['reused_existing_analysis']=reused
++            if state['analysis_status']!='COMPLETE':
++                print(json.dumps(display_state(state),indent=2,ensure_ascii=False));return 75 if state['analysis_status']=='INTERRUPTED' else 1
++        if args.command in ('run','publish'):
++            state=publish(cfg,path,state,args.dry_run)
++        print(json.dumps(display_state(state),indent=2,ensure_ascii=False));return 0
++    except (HandoffError,OSError,ValueError,KeyError) as error:
++        print(json.dumps(dict(status='FAILED',error=safe_text(str(error))),ensure_ascii=False),file=sys.stderr)
++        return 1
+--- /dev/null
++++ b/cross_behavior/offline_diagnostic.py
+@@ -0,0 +1,320 @@
++"""Programmatic diagnostics from indexed saved evidence, without a simulator.
++
++Privileged telemetry is consumed here only, never supplied to any policy.
++JSONL is the supported trajectory schema. Unsupported/missing evidence fails
++explicitly; unavailable ground truth remains null rather than being invented.
++"""
++import argparse
++import csv
++import io
++import json
++import math
++import signal
++from collections import Counter
++from pathlib import Path
++import numpy as np
++from cross_behavior.handoff import HandoffError, atomic, read, write, sha, now, safe_text
++
++PAUSE=False
++
++
++def request_pause(*_):
++    global PAUSE
++    PAUSE=True
++
++
++def vector(value):
++    if value is None:return None
++    v=np.asarray(value,dtype=float)
++    if v.shape!=(3,) or not np.isfinite(v).all():raise HandoffError('INVALID_3D_VECTOR')
++    return v
++
++
++def norm(value):
++    return float(np.linalg.norm(value))
++
++
++def optional_list(value):
++    return None if value is None else np.asarray(value).tolist()
++
++
++def projection_from_rgbd(xyz):
++    """Fit calibrated projective mapping to recorded pixel/world ray pairs.
++
++    This does not infer or synthesize object labels. Fit error is retained;
++    unsuccessful calibration prevents overlays rather than fabricating pixels.
++    """
++    h,w=xyz.shape[:2]
++    ys=np.linspace(0,h-1,min(h,24),dtype=int);xs=np.linspace(0,w-1,min(w,32),dtype=int)
++    xx,yy=np.meshgrid(xs,ys)
++    points=xyz[np.ix_(ys,xs)].reshape(-1,3);pixels=np.column_stack((xx.ravel(),yy.ravel()))
++    mask=np.isfinite(points).all(1)&(np.linalg.norm(points,axis=1)<30)
++    points,pixels=points[mask],pixels[mask]
++    if len(points)<20:return None,None
++    center=points.mean(0);scale=max(float(points.std()),1e-8)
++    X=(points-center)/scale;uv=(pixels-np.array([w/2,h/2]))/max(w,h)
++    design=np.zeros((2*len(X),11));rhs=uv.ravel()
++    extended=np.column_stack((X,np.ones(len(X))))
++    design[::2,:4]=extended;design[1::2,4:8]=extended
++    design[::2,8:]=-uv[:,0,None]*X;design[1::2,8:]=-uv[:,1,None]*X
++    coefficients,_,rank,_=np.linalg.lstsq(design,rhs,rcond=None)
++    if rank<11:return None,None
++    P=np.r_[coefficients,1.].reshape(3,4)
++    TX=np.eye(4);TX[:3,:3]/=scale;TX[:3,3]=-center/scale
++    Tuv=np.array([[max(w,h),0,w/2],[0,max(w,h),h/2],[0,0,1.]])
++    P=Tuv@P@TX
++    projected=np.column_stack((points,np.ones(len(points))))@P.T
++    fitted=projected[:,:2]/projected[:,2,None]
++    rms=float(np.sqrt(np.mean(np.sum((fitted-pixels)**2,axis=1))))
++    return (P if rms<.5 else None),rms
++
++
++def project(P,point):
++    if P is None or point is None:return None
++    p=P@np.r_[point,1.]
++    if abs(p[2])<1e-10:return None
++    return (p[:2]/p[2]).tolist()
++
++
++def timeline(rows,identity,hz):
++    phases=[]
++    for row in rows:
++        phase=row['decision'].get('phase','UNIDENTIFIED')
++        if not phases or phases[-1]['phase']!=phase:
++            phases.append(dict(episode_id=identity,phase=phase,start_step=row['step'],end_step=row['step']))
++        else:phases[-1]['end_step']=row['step']
++    for phase in phases:
++        phase.update(control_steps=phase['end_step']-phase['start_step']+1,
++                     start_seconds=(phase['start_step']-1)/hz,end_seconds=phase['end_step']/hz)
++    return phases
++
++
++def episode_diagnostic(episode,contract,hz):
++    file=lambda name:Path(episode['files'][name]['path'])
++    data=read(file('episode.json'));condition=read(file('condition.json'))
++    rows=[json.loads(line) for line in file('telemetry.jsonl').read_text().splitlines() if line.strip()]
++    if not rows or [r['step'] for r in rows]!=list(range(1,len(rows)+1)):
++        raise HandoffError('NONCONTIGUOUS_OR_EMPTY_TELEMETRY: '+episode['id'])
++    if data.get('steps')!=len(rows):raise HandoffError('EPISODE_LENGTH_MISMATCH: '+episode['id'])
++    for row in rows:
++        if not all(k in row for k in ('decision','metrics','action')):raise HandoffError('UNSUPPORTED_JSONL_SCHEMA')
++        if len(row['action'])!=7 or not np.isfinite(row['action']).all():raise HandoffError('INVALID_SAVED_ACTION')
++    first,last=rows[0],rows[-1];metrics=[r['metrics'] for r in rows]
++    predictions=[(r['step'],r['decision']['perceived']) for r in rows if isinstance(r['decision'].get('perceived'),dict)]
++    perceived=predictions[0][1] if predictions else {}
++    target_errors=[float(r['decision']['translation_error_m']) for r in rows if r['decision'].get('translation_error_m') is not None]
++    if not all(math.isfinite(v) for v in target_errors):raise HandoffError('NONFINITE_TRACKING_ERROR')
++    tcp=vector(last['metrics']['tcp'])
++    target=vector(last['decision'].get('target_tcp'))
++    native=[r['step'] for r in rows if r['metrics'].get('native_success') is True]
++    phases=timeline(rows,episode['id'],hz)
++    independent=[];crosscheck=[];post_errors=[]
++    for i,row in enumerate(rows):
++        target_i=vector(row['decision'].get('target_tcp'))
++        if target_i is None:continue
++        post_errors.append(norm(target_i-vector(row['metrics']['tcp'])))
++        if i:
++            measured=norm(target_i-vector(rows[i-1]['metrics']['tcp']));independent.append(measured)
++            if row['decision'].get('translation_error_m') is not None:
++                crosscheck.append(abs(measured-float(row['decision']['translation_error_m'])))
++    result=dict(episode_id=episode['id'],task=episode['task'],robot=episode['robot'],condition=episode['condition'],
++        steps=len(rows),duration_seconds=len(rows)/hz,recorded_full_success=bool(data['success']),
++        native_predicate_available=episode['task']!='push',first_native_success_step=native[0] if native else None,
++        final_native_success=bool(last['metrics'].get('native_success')),final_tcp_position=tcp.tolist(),
++        final_executed_phase=last['decision'].get('phase'),
++        mean_reported_pre_action_tracking_error_m=float(np.mean(target_errors)) if target_errors else None,
++        max_reported_pre_action_tracking_error_m=max(target_errors) if target_errors else None,
++        mean_independently_recomputed_pre_action_tracking_error_m=float(np.mean(independent)) if independent else None,
++        max_tracking_error_crosscheck_difference_m=max(crosscheck) if crosscheck else None,
++        mean_post_action_target_error_m=float(np.mean(post_errors)) if post_errors else None,
++        final_target_to_post_action_tcp_error_m=norm(target-tcp) if target is not None else None,
++        target_estimate_available_steps=len(predictions),total_steps=len(rows),
++        timed_out=len(rows)>=contract.get('max_steps',len(rows)+1),
++        maximum_stable_control_steps=max(m.get('stable_control_steps',0) for m in metrics),
++        privileged_values_used_only_offline=True)
++    perception=dict(episode_id=episode['id'],first_estimate_step=predictions[0][0] if predictions else None,
++        first_recorded_estimate=perceived,estimate_semantics='Latched initial estimate; availability is not fresh detection or visibility at every subsequent step',
++        state_alignment='RGB estimate precedes action; logged truth is post-action of the same control step. Initial comparison is approximate, not strict causal pairing.')
++    if episode['task']=='push':
++        initial=vector(first['metrics']['object_position']);final=vector(last['metrics']['object_position'])
++        goal=vector(first['metrics']['goal_center']);estimate=vector(perceived.get('start'));goal_estimate=vector(perceived.get('target'))
++        shift=final-initial;intended=goal[:2]-initial[:2]
++        length=norm(intended);axis=intended/max(length,1e-12);lateral=np.array([-axis[1],axis[0]])
++        angle=None if norm(shift[:2])<1e-6 else math.degrees(math.atan2(float(shift[:2]@lateral),float(shift[:2]@axis)))
++        result.update(perceived_object_position=optional_list(estimate),perceived_goal_center=optional_list(goal_estimate),
++            true_object_reference_position=initial.tolist(),true_goal_center=goal.tolist(),
++            true_object_reference_step=first['step'],
++            object_localization_error_m=norm(estimate-initial) if estimate is not None else None,
++            goal_localization_error_m=norm(goal_estimate-goal) if goal_estimate is not None else None,
++            goal_localization_xy_error_m=norm(goal_estimate[:2]-goal[:2]) if goal_estimate is not None else None,
++            final_object_position=final.tolist(),observed_displacement_vector=shift.tolist(),
++            final_recorded_displacement_m=float(last['metrics']['displacement_m']),
++            observed_reference_displacement_xy_m=norm(shift[:2]),push_direction_error_degrees=angle,
++            lateral_displacement_m=float(shift[:2]@lateral),final_goal_xy_error_m=norm(final[:2]-goal[:2]))
++        touch=[r['step'] for r in rows if r['metrics'].get('gripper_object_contact')]
++        result['contact_control_steps']=len(touch)
++        result['failure_class']='NO_TARGET_ESTIMATE' if not predictions else (
++            'OFF_GOAL_AFTER_CONTACT' if touch else 'APPROACH_NOT_COMPLETED_VISUAL_OR_CONTROL_AMBIGUOUS')
++        perception.update(object_estimate=optional_list(estimate),goal_estimate=optional_list(goal_estimate),
++                          object_truth=initial.tolist(),goal_truth=goal.tolist())
++    elif episode['task']=='stack':
++        final_object=vector(last['metrics']['object_position'])
++        release=[r['step'] for r in rows if isinstance(r['decision'].get('phase'),int) and r['decision']['phase']>=6 and r['metrics'].get('released')]
++        distances=[norm(vector(r['metrics']['tcp'])-vector(r['metrics']['object_position'])) for r in rows]
++        result.update(first_release_step=release[0] if release else None,
++            remaining_seconds_after_release=(len(rows)-release[0])/hz if release else None,
++            final_retreat_distance_m=norm(tcp-final_object),
++            retreat_threshold_m=contract.get('stack',{}).get('retreat_distance_m'),
++            final_retreat_pass=last['metrics'].get('retreat'),final_released=last['metrics'].get('released'),
++            final_xy_error_m=last['metrics'].get('xy_error_m'),final_height_error_m=last['metrics'].get('height_error_m'))
++        result['failure_class']=('NATIVE_STACK_BUT_RETREAT_INCOMPLETE' if native and not last['metrics'].get('retreat') else
++                                 'STABILITY_INCOMPLETE' if native else 'NATIVE_STACK_NOT_REACHED')
++        result['timeout_reason']=result['failure_class'] if result['timed_out'] else 'NOT_A_TIMEOUT'
++        perception.update(object_estimate=perceived.get('start'),target_estimate=perceived.get('target'),
++                          object_truth=first['metrics'].get('object_position'),target_truth=first['metrics'].get('object_B_position'))
++    elif episode['task']=='drawer':
++        touches=[r['step'] for r in rows if r['metrics'].get('handle_contact')]
++        longest=current=0
++        for r in rows:
++            current=current+1 if r['metrics'].get('handle_contact') else 0;longest=max(longest,current)
++        opening=max(max(m['drawer_normalized_joint'].values()) for m in metrics)
++        normal=vector(perceived.get('normal'));handle=vector(perceived.get('handle'))
++        result.update(perceived_handle_position=optional_list(handle),perceived_handle_normal=optional_list(normal),
++            normal_tilt_from_horizontal_degrees=math.degrees(math.asin(min(1.,abs(normal[2])/max(norm(normal),1e-12)))) if normal is not None else None,
++            first_handle_contact_step=touches[0] if touches else None,contact_control_steps=len(touches),
++            total_handle_contact_seconds=len(touches)/hz,longest_continuous_contact_seconds=longest/hz,
++            maximum_normalized_opening=float(opening),handle_visibility='NO_ESTIMATE' if not predictions else 'ESTIMATE_AVAILABLE_VISIBILITY_NOT_CERTIFIED',
++            failure_class='VISUAL_NO_ESTIMATE' if not predictions else ('CONTACT_WITH_INSUFFICIENT_OPENING' if touches else 'APPROACH_VISUAL_OR_CONTROL_AMBIGUOUS'))
++        perception.update(handle_estimate=optional_list(handle),normal_estimate=optional_list(normal),true_handle_pose=None,
++            true_handle_pose_reason='Exact dynamic handle pose was not exported in the JSONL schema; no simulator or counterfactual labels are generated.')
++    else:raise HandoffError('UNSUPPORTED_TASK_DIAGNOSTIC: '+episode['task'])
++    return result,phases,perception
++
++
++def overlay(episode,perception,output,max_width):
++    import cv2
++    names=episode['files']
++    if 'initial.png' not in names or 'initial_rgbd.npz' not in names:return dict(status='UNAVAILABLE_INDEXED_RGBD')
++    image=cv2.imread(names['initial.png']['path'])
++    if image is None:raise HandoffError('UNREADABLE_INDEXED_IMAGE')
++    with np.load(names['initial_rgbd.npz']['path'],allow_pickle=False) as data:
++        xyz=np.asarray(data['xyz'])
++    P,rms=projection_from_rgbd(xyz)
++    audit=dict(projection_reprojection_rms_pixels=rms,projection_matrix=None if P is None else P.tolist(),
++               approximation='Initial image only. World-point projection is fitted from recorded RGB-D rays; not simulator rendering.')
++    h,w=image.shape[:2];canvas=cv2.copyMakeBorder(image,0,100,0,0,cv2.BORDER_CONSTANT,value=(25,25,25))
++    points=[('object_estimate',(0,0,255)),('goal_estimate',(255,255,0)),('object_truth',(0,255,0)),
++            ('goal_truth',(255,0,255)),('handle_estimate',(0,255,255)),('target_estimate',(255,255,0)),('target_truth',(255,0,255))]
++    audit['points']={};line=0
++    for key,color in points:
++        point=vector(perception.get(key))
++        if point is None:continue
++        pixel=project(P,point)
++        inside=pixel is not None and 0<=pixel[0]<w and 0<=pixel[1]<h
++        distances=np.linalg.norm(xyz.reshape(-1,3)-point,axis=1)
++        finite=distances[np.isfinite(distances)]
++        minimum=float(finite.min()) if len(finite) else None
++        audit['points'][key]=dict(pixel=pixel,inside_initial_fov=inside,nearest_recorded_depth_surface_distance_m=minimum,
++                                  visibility_certified=False)
++        if inside:
++            xy=tuple(int(round(v)) for v in pixel);cv2.drawMarker(canvas,xy,color,cv2.MARKER_CROSS,9,1)
++        cv2.putText(canvas,key+('' if inside else ' [off-frame/unresolved]'),(4,h+12+line*13),cv2.FONT_HERSHEY_SIMPLEX,.30,color,1,cv2.LINE_AA);line+=1
++    if canvas.shape[1]<max_width:
++        scale=min(2.,max_width/canvas.shape[1]);canvas=cv2.resize(canvas,None,fx=scale,fy=scale)
++    output.parent.mkdir(parents=True,exist_ok=True)
++    ok,data=cv2.imencode('.jpg',canvas,[cv2.IMWRITE_JPEG_QUALITY,88])
++    if not ok:raise HandoffError('OVERLAY_ENCODING_FAILED')
++    atomic(output,data.tobytes());audit.update(path=str(output.name),status='GENERATED',width=canvas.shape[1],height=canvas.shape[0])
++    return audit
++
++
++def csv_output(path,records):
++    keys=list(dict.fromkeys(k for row in records for k in row))
++    stream=io.StringIO();writer=csv.DictWriter(stream,fieldnames=keys);writer.writeheader()
++    for row in records:
++        writer.writerow({k:json.dumps(v,ensure_ascii=False) if isinstance(v,(list,dict)) else v for k,v in row.items()})
++    atomic(path,stream.getvalue().encode())
++
++
++def main(argv=None):
++    parser=argparse.ArgumentParser(description=__doc__)
++    parser.add_argument('--manifest',required=True);parser.add_argument('--state',required=True)
++    parser.add_argument('--config',required=True);parser.add_argument('--resume',action='store_true')
++    parser.add_argument('--stop-after-episodes',type=int)
++    args=parser.parse_args(argv)
++    state_path=Path(args.state);state=read(state_path);output=Path(state['output']);cfg=read(args.config)
++    signal.signal(signal.SIGTERM,request_pause);signal.signal(signal.SIGINT,request_pause)
++    try:
++        manifest=read(args.manifest)
++        # Use the frozen source contract, not a later edited live config.
++        contract_file=output/'code_snapshot/configs/tasks/cross_behavior_contracts.json'
++        contract=read(contract_file) if contract_file.exists() else {'max_steps':600}
++        metrics=[];phases=[];audits=[];processed=0
++        selected=Counter();overlay_count=0
++        for episode in manifest['episodes']:
++            identity=episode['id'];result_file=output/'episode_diagnostics'/f'{identity}.json'
++            if PAUSE or (args.stop_after_episodes is not None and processed>=args.stop_after_episodes):
++                state.update(analysis_status='INTERRUPTED',error='Clean episode-boundary interruption',updated_at=now());write(state_path,state);return 75
++            key=(episode['task'],episode['robot'])
++            make_overlay=selected[key]<2 and overlay_count<cfg['maximum_overlay_count']
++            if identity in state['episodes']:
++                if sha(result_file.read_bytes())!=state['episodes'][identity]['sha256']:raise HandoffError('COMPLETED_EPISODE_OUTPUT_CHANGED')
++                result=read(result_file)
++            else:
++                metric,phase,audit=episode_diagnostic(episode,contract,float(cfg['control_hz']))
++                if make_overlay:
++                    audit['overlay']=overlay(episode,audit,output/'overlays'/f'{identity}.jpg',cfg['maximum_overlay_width'])
++                result=dict(metrics=metric,phases=phase,perception=audit)
++                write(result_file,result)
++                state['episodes'][identity]=dict(path=str(result_file),sha256=sha(result_file.read_bytes()),status='COMPLETE')
++                write(state_path,state)
++            if make_overlay:
++                selected[key]+=1
++                if result['perception'].get('overlay',{}).get('status')=='GENERATED':overlay_count+=1
++            metrics.append(result['metrics']);phases.extend(result['phases']);audits.append(result['perception']);processed+=1
++        csv_output(output/'episode_metrics.csv',metrics);csv_output(output/'phase_timeline.csv',phases)
++        atomic(output/'overlays/README.md',
++               b'# Initial-image diagnostic overlays\n\nOnly indexed saved RGB/RGB-D is used. Cross markers are recorded estimates or logged truth projected through a fitted camera matrix. Off-frame or occluded points are not certified visible. Missing RGB-D is reported in perception_audit.json; no image or label is fabricated.\n')
++        write(output/'perception_audit.json',dict(episodes=audits,privileged_state_only_offline=True,
++              visibility_limit='Latched estimates and initial-image geometric proxies do not establish dynamic visual observability or causal failure attribution.'))
++        groups=[]
++        for task,robot in sorted({(m['task'],m['robot']) for m in metrics}):
++            rows=[m for m in metrics if m['task']==task and m['robot']==robot]
++            groups.append(dict(task=task,robot=robot,episodes=len(rows),full_successes=sum(m['recorded_full_success'] for m in rows),
++                native_predicate_ever=sum(m['first_native_success_step'] is not None for m in rows) if task!='push' else None,
++                failure_classes=dict(Counter(m['failure_class'] for m in rows))))
++        summary=dict(schema_version=1,analysis_status='COMPLETE',run_id=state['run_id'],input_fingerprint=state['fingerprint'],
++            episodes=len(metrics),actual_control_steps=sum(m['steps'] for m in metrics),groups=groups,
++            new_physics_steps=0,training_updates=0,baseline_reruns=0,overlay_count=overlay_count,
++            undefined_values_are_null=True,phase_timing_source='Recorded executed decision.phase, not post-step expert phase',
++            report_scope='Offline diagnostics of the supplied indexed episodes, not formal benchmark success or causal identification')
++        write(output/'diagnostic_summary.json',summary)
++        lines=['# Cross-behavior Stage A offline diagnostic', '',f"Run `{state['run_id']}`; input fingerprint `{state['fingerprint']}`.",
++            '',f"Computed from {len(metrics)} indexed trajectories and {summary['actual_control_steps']} saved control steps. No physics, training or demonstration collection was started.",
++            '', '| Task | Robot | Episodes | Recorded full successes | Native predicate ever |', '|---|---|---:|---:|---:|']
++        for g in groups:lines.append(f"| {g['task']} | {g['robot']} | {g['episodes']} | {g['full_successes']} | {g['native_predicate_ever'] if g['native_predicate_ever'] is not None else 'N/A'} |")
++        lines+=['','## Episode diagnostics','',
++            'All numbers below are calculated from saved JSONL. The control-step 1 object state is the first logged post-action state, not a fabricated t=0 value. Perception was computed before the action, so perception/truth comparisons are explicitly approximate in time. A latched estimate is not fresh per-frame detection.',
++            '', 'Native predicate events are separated from frozen full-contract outcomes. Tracking errors are geometric diagnostics, not evidence that perception or mechanics caused failure.', '']
++        for m in metrics:
++            lines += [f"### {m['episode_id']}",'',f"Steps: {m['steps']}; last executed phase: {m['final_executed_phase']}; diagnostic: `{m['failure_class']}`."]
++            if m['task']=='push':
++                lines.append(f"Object localization error: {m['object_localization_error_m']} m; goal XY localization error: {m['goal_localization_xy_error_m']} m; recorded displacement: {m['final_recorded_displacement_m']} m; lateral displacement: {m['lateral_displacement_m']} m; direction error: {m['push_direction_error_degrees']} degrees.")
++            elif m['task']=='stack':
++                lines.append(f"First native success: step {m['first_native_success_step']}; first recorded release in release phase: {m['first_release_step']}; final TCP: {m['final_tcp_position']}; retreat distance: {m['final_retreat_distance_m']} m; threshold: {m['retreat_threshold_m']} m; observed time remaining after release: {m['remaining_seconds_after_release']} s; timeout reason: `{m['timeout_reason']}`.")
++            else:
++                lines.append(f"Handle estimate available for {m['target_estimate_available_steps']}/{m['steps']} steps (latched); first contact: {m['first_handle_contact_step']}; total/longest contact: {m['total_handle_contact_seconds']}/{m['longest_continuous_contact_seconds']} s; maximum normalized opening: {m['maximum_normalized_opening']}; visual flag: `{m['handle_visibility']}`. Exact dynamic handle ground truth is unavailable in this schema.")
++            lines.append(f"Mean reported pre-action tracking error: {m['mean_reported_pre_action_tracking_error_m']} m; final target-to-post-action TCP error: {m['final_target_to_post_action_tcp_error_m']} m.")
++            lines.append('')
++        lines+=['## Evidence and reuse limits','',
++            '- `input_manifest.json` records absolute paths, bytes, SHA256, presence, read status and expected-checksum matches. Raw MP4/NPZ/PKL/HDF5/weights are not uploaded.',
++            '- `code_context.json`, `code_snapshot/` and `source_changes.patch` preserve the relevant executed-source context and uncommitted changes without staging unrelated files.',
++            '- `phase_timeline.csv`, `episode_metrics.csv`, `perception_audit.json` and bounded initial-image overlays expose the calculations for review.',
++            '- Missing detections/ground truth are null, not zero. Visual/control ambiguity remains unresolved where saved evidence cannot distinguish it.',
++            '- The next scientific decision remains expert observability and trajectory timing. These offline diagnostics neither authorize another physical repair nor establish algorithm novelty.','']
++        atomic(output/'CROSS_BEHAVIOR_STAGE_A_OFFLINE_DIAGNOSTIC.md','\n'.join(lines).encode())
++        state.update(analysis_status='COMPLETE',analyzed_at=now(),error=None);write(state_path,state)
++        return 0
++    except (ValueError,KeyError,OSError,HandoffError) as error:
++        state.update(analysis_status='FAILED_ANALYSIS',error=safe_text(str(error)));write(state_path,state)
++        print(safe_text(str(error)),file=__import__('sys').stderr);return 1
+--- /dev/null
++++ b/configs/diagnostics/handoff_config.json
+@@ -0,0 +1,25 @@
++{
++  "schema_version": 1,
++  "data_root": "/home/users/lemon/cross-behavior-20261114",
++  "artifact_index": "results/cross_behavior/artifact_index.json",
++  "output_root": "results/cross_behavior/diagnostics/runs",
++  "branch": "cross-behavior-task-expansion",
++  "remote": "origin",
++  "repository": "LemonQC/tempcross",
++  "python": "/home/users/lemon/coft-p2/barx/.venv/bin/python",
++  "control_hz": 20,
++  "maximum_overlay_count": 12,
++  "maximum_overlay_width": 640,
++  "maximum_file_bytes": 2097152,
++  "maximum_package_bytes": 16777216,
++  "source_context": [
++    "cross_behavior/expert.py", "cross_behavior/evaluator.py", "cross_behavior/sensing.py",
++    "cross_behavior/tasks.py", "cross_behavior/worker.py", "configs/tasks/cross_behavior_contracts.json"
++  ],
++  "publish_programs": [
++    "scripts/cross_behavior_handoff.py", "scripts/analyze_stage_a_offline.py",
++    "scripts/run_cross_behavior_handoff.sh", "cross_behavior/handoff.py",
++    "cross_behavior/offline_diagnostic.py", "configs/diagnostics/handoff_config.json",
++    "docs/diagnostics/HANDOFF_SYSTEM_GUIDE.md", "tests/test_cross_behavior_handoff.py"
++  ]
++}
+--- /dev/null
++++ b/docs/diagnostics/HANDOFF_SYSTEM_GUIDE.md
+@@ -0,0 +1,181 @@
++# Independent local analysis and GitHub handoff
++
++This tool uses local Python, the existing NumPy/OpenCV environment, and normal
++Git authentication. It does not call Codex, ChatGPT, a connected-app API, a model
++server, MuJoCo, training code or demonstration collection.
++
++From `/home/users/lemon/CodexProject/tempcross-cross-behavior`, run:
++
++```bash
++python scripts/cross_behavior_handoff.py run
++```
++
++Equivalent shell wrapper: `bash scripts/run_cross_behavior_handoff.sh`.
++
++## One-time authentication and environment check
++
++```bash
++python scripts/cross_behavior_handoff.py doctor
++```
++
++The parent command requires only the standard library. Numerical analysis runs
++in the existing Python configured in `configs/diagnostics/handoff_config.json`.
++No large dependency installation is performed. Doctor checks NumPy/OpenCV,
++the indexed data, current branch, repository identity, remote head and a genuine
++non-writing `git push --dry-run`. It never prints credential values.
++
++The initial inspected server had no credential helper, SSH key/agent, `gh`, or
++successful native Git push authentication. Read access to a public repository
++is not push authentication. A connected Codex GitHub app is not a future local
++credential source. Before native automatic publishing, complete one ordinary
++authentication setup on the server. With GitHub CLI installed:
++
++```bash
++gh auth login --hostname github.com --git-protocol https
++gh auth setup-git
++python scripts/cross_behavior_handoff.py doctor
++```
++
++If `gh` is absent, an administrator can install that small authentication tool,
++or you can use an existing standard Git credential manager or SSH setup instead.
++For an interactive HTTPS alternative, configure a standard credential helper
++and perform a normal authenticated push in a trusted terminal. GitHub requires
++a token rather than an account password for HTTPS Git. Enter it only at the
++credential prompt; never put it in source, JSON configuration, a remote URL,
++command-line arguments, logs, or a chat message. This program neither creates
++nor exports credentials. Doctor returning 2 means some prerequisite is not
++ready; inspect its named status rather than assuming upload succeeded.
++
++## Commands
++
++```bash
++python scripts/cross_behavior_handoff.py analyze
++python scripts/cross_behavior_handoff.py run --dry-run
++python scripts/cross_behavior_handoff.py run --resume
++python scripts/cross_behavior_handoff.py publish --resume
++python scripts/cross_behavior_handoff.py status
++```
++
++`analyze` produces a local immutable package. `run` analyzes and publishes it.
++`publish` retries the existing package without recomputing analysis.
++`status` reports analysis and publication separately. `--dry-run` on run/analyze
++performs read-only prerequisite checks without analysis, commits or push; on
++publish it verifies an existing package and expected remote without a commit or
++push. A small lock/state directory under Git's private worktree metadata is used.
++
++All commands accept `--resume`, `--dry-run`, `--data-root`, `--branch`, and
++`--config`. `--artifact-index` selects an explicit evidence index. `--run-id`
++selects an existing package for publication/status. Neither `main` nor `master`
++can be selected, and the current worktree must be on the requested research
++branch. The program never checks out or modifies main.
++
++## New data without source edits
++
++```bash
++python scripts/cross_behavior_handoff.py run --data-root /data/my-next-experiment
++```
++
++Place a compatible `artifact_index.json` in that directory or pass
++`--artifact-index /absolute/path/to/index.json`. The default index is
++`results/cross_behavior/artifact_index.json`. The schema is the actual existing
++top-level object containing `server_root` and `episodes`; each episode has
++`task`, `robot`, `condition`, and `files` entries with absolute paths/size/SHA256.
++Required files are `episode.json`, `condition.json` and `telemetry.jsonl`.
++Relocating a directory maps paths relative to the index's recorded `server_root`
++onto `--data-root`. Paths escaping the declared data root are rejected.
++
++Supported trajectory rows contain contiguous `step`, canonical `action`,
++`decision` and evaluator `metrics`. Push/Stack/Drawer metrics are versioned to
++the current JSONL format. New episodes in that format are discovered from the
++index, not hardcoded to 19 or to fixed directory names. A new file format or
++task schema stops explicitly; this tool does not guess unknown HDF5 fields.
++
++## Durable stages and duplicate detection
++
++Each distinct input/content/config/source fingerprint gets one unique directory:
++`results/cross_behavior/diagnostics/runs/<run_id>/`. The Git HEAD alone is not an
++analysis input: publishing unchanged data must not create another report.
++Previously complete input hashes are reused only while device/inode, size,
++mtime and ctime match. Original input SHA expectations are checked.
++
++The private state catalog is under `git rev-parse --absolute-git-dir`, in
++`cross_behavior_handoff/`. Do not delete it if you want resume/history. Finished
++episode analyses are committed atomically and skipped on resume. Interrupted
++initial snapshot creation and final package sealing are recoverable. SIGTERM
++pauses at an analysis episode boundary. A hard crash before an atomic rename
++does not turn partial output into COMPLETE. Incomplete runs require `--resume`.
++
++For a controlled recovery check with a new input set:
++
++```bash
++python scripts/cross_behavior_handoff.py analyze --stop-after-episodes 1
++python scripts/cross_behavior_handoff.py analyze --resume
++```
++
++`--stop-after-episodes` stops analysis only; it never launches a physical trial.
++Exit 75 indicates a saved interruption. Exit 1 indicates a failure; the completed
++stages and error remain available. Repeating identical complete analysis reuses
++the existing package, rather than overwriting or creating another report.
++
++## Package contents and interpretation
++
++Each package contains the diagnostic Markdown report, episode and phase CSVs,
++perception audit, summary, input manifest, code context, source patch, relevant
++source snapshots, per-episode analysis records, bounded overlays and a checksum
++manifest. Raw MP4/NPZ/PKL/HDF5/weights remain on the server. Their absolute paths,
++sizes and hashes are listed, not their bytes. Full per-step artifact indexes
++are themselves checked; their unused child files are referenced rather than
++misrepresented as freshly consumed/rehashed inputs.
++
++Push errors use saved estimated and privileged true positions offline. The
++first JSONL state is post-action step 1, and the estimate precedes its action;
++the report labels this timing limitation. Direction is undefined for negligible
++motion. Stack phase boundaries use the executed `decision.phase`; native
++predicate events are separate from the frozen full-contract success. Drawer
++reports latched-estimate availability, contact timing and actual normalized
++joint opening. Exact dynamic handle ground truth is not in the saved JSONL and
++is not invented. Initial-frame overlays fit camera projection from recorded
++RGB-D rays; fit error and unresolved/off-frame points are recorded. These are
++visual diagnostics, not counterfactual success labels or causal conclusions.
++
++Limits, source selection and the existing analysis Python are configurable in
++the JSON file. The defaults allow 12 overlays, width 640 pixels, 2 MiB per file
++and 16 MiB total. Forbidden raw formats, environment files, private-key/token
++patterns, unexpected files, package tampering and oversize files stop publication.
++The generated source patch covers only the listed relevant files, including
++their untracked contents. Other user files are never staged or copied.
++
++## Publication, conflicts and proof
++
++Publication uses an isolated temporary Git index and `git commit-tree`. It
++includes only this immutable package and the explicit `publish_programs`
++snapshots. It does not run `git add .`, rewrite the user's index, change live
++files, check out a branch, force push, auto-merge or auto-rebase. Consequently
++the live HEAD may remain behind the tool's own published commit; the private
++publication ledger supplies the correct parent on later runs. This preserves
++unrelated staged and unstaged work. Do not reset/stash user changes just to
++make this program work.
++
++A candidate commit is saved before push. If a network failure occurs after the
++server accepts it, retry checks that same commit rather than creating duplicates.
++The program fetches the actual remote commit and reads back every published
++file byte-for-byte before publication becomes COMPLETE. Commit SHA and report
++URL are saved in the private run state and printed. They are not written into
++their own immutable Git commit, which would be a self-reference.
++
++If the remote branch differs from the saved expected parent/candidate, automatic
++push stops and the local package remains intact. Inspect:
++
++```bash
++git fetch origin cross-behavior-task-expansion
++git log --oneline --graph --all -12
++python scripts/cross_behavior_handoff.py status
++```
++
++Review and reconcile the branch intentionally in a separate worktree if needed;
++do not force push. The tool does not silently change a frozen package's parent.
++After authentication/network recovery, use `publish --resume`; no analysis or
++simulation needs to repeat. A one-time connected-app bootstrap, if used for the
++first delivery, is recorded as such and does not count as native server
++authentication being ready. Future automatic publishing still requires doctor
++to confirm the local credential setup.
+--- /dev/null
++++ b/tests/test_cross_behavior_handoff.py
+@@ -0,0 +1,274 @@
++"""Synthetic calculations and complete native-Git lifecycle, without physics."""
++import copy
++import json
++import os
++from pathlib import Path
++import shutil
++import subprocess
++import sys
++from types import SimpleNamespace
++
++import numpy as np
++import pytest
++from cross_behavior import handoff as h
++from cross_behavior.offline_diagnostic import episode_diagnostic, projection_from_rgbd, project
++
++
++def command(repo,*args):
++    return subprocess.check_output(['git',*args],cwd=repo,text=True).strip()
++
++
++def row(step,task='push'):
++    metrics=dict(step=step,tcp=[.1,0.,.1],native_success=False,stable_control_steps=0,
++                 object_position=[.01*step,0.,.02],goal_center=[.1,0.,0.],displacement_m=.01*step,
++                 gripper_object_contact=False)
++    if task=='stack':metrics.update(object_B_position=[.1,0.,.025],released=step>=3,retreat=False,xy_error_m=0.,height_error_m=0.,native_success=step>=3)
++    if task=='drawer':metrics.update(handle_contact=step in (2,3),drawer_normalized_joint={'door':step*.2})
++    perceived=dict(start=[0.,0.,.02],target=[.1,0.,0.],direction=[1.,0.,0.],handle=[.1,0.,.5],normal=[0.,-1.,0.])
++    return dict(step=step,action=[0.,0.,0.,0.,0.,0.,-1.],
++                decision=dict(phase=0 if step<3 else 6,target_tcp=[.2,0.,.1],translation_error_m=.1,perceived=perceived),metrics=metrics)
++
++
++def dataset(root,tasks=('push','stack','drawer')):
++    episodes=[]
++    for task in tasks:
++        directory=root/task;directory.mkdir(parents=True,exist_ok=True)
++        h.write(directory/'episode.json',dict(steps=4,success=False))
++        h.write(directory/'condition.json',dict(task=task,role='SYNTHETIC_UNIT_TEST_ONLY'))
++        h.atomic(directory/'telemetry.jsonl',''.join(json.dumps(row(i,task))+'\n' for i in range(1,5)).encode())
++        files=[]
++        for path in sorted(directory.iterdir()):
++            files.append(dict(path=str(path),bytes=path.stat().st_size,sha256=h.sha(path.read_bytes())))
++        episodes.append(dict(task=task,robot='panda',condition=0,files=files))
++    h.write(root/'artifact_index.json',dict(server_root=str(root),episodes=episodes))
++    return episodes
++
++
++@pytest.fixture
++def system(tmp_path):
++    repo=tmp_path/'repository';repo.mkdir();remote=tmp_path/'remote.git'
++    subprocess.run(['git','init','--bare',str(remote)],check=True,capture_output=True)
++    subprocess.run(['git','init'],cwd=repo,check=True,capture_output=True)
++    command(repo,'symbolic-ref','HEAD','refs/heads/cross-behavior-task-expansion')
++    command(repo,'config','user.email','unit-test@example.invalid');command(repo,'config','user.name','Handoff tests')
++    for name in ['cross_behavior/__init__.py','cross_behavior/handoff.py','cross_behavior/offline_diagnostic.py',
++                 'scripts/cross_behavior_handoff.py','scripts/analyze_stage_a_offline.py','scripts/run_cross_behavior_handoff.sh',
++                 'docs/diagnostics/HANDOFF_SYSTEM_GUIDE.md']:
++        p=repo/name;p.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(h.PROJECT/name,p)
++    h.atomic(repo/'cross_behavior/expert.py',b'# Source context only; no policy execution\n')
++    h.write(repo/'configs/tasks/cross_behavior_contracts.json',dict(max_steps=4,stack=dict(retreat_distance_m=.1)))
++    h.atomic(repo/'.gitignore',b'results/cross_behavior/diagnostics/\n')
++    h.atomic(repo/'unrelated.txt',b'original user content\n')
++    data=tmp_path/'data';data.mkdir();dataset(data)
++    cfg=copy.deepcopy(h.read(h.PROJECT/'configs/diagnostics/handoff_config.json'))
++    cfg.update(data_root=str(data),artifact_index=str(data/'artifact_index.json'),python=sys.executable,
++               source_context=['cross_behavior/expert.py','configs/tasks/cross_behavior_contracts.json'],
++               allow_local_test_remote=True)
++    cfg['publish_programs']=[p for p in cfg['publish_programs'] if p!='tests/test_cross_behavior_handoff.py']
++    h.write(repo/'configs/diagnostics/handoff_config.json',cfg)
++    command(repo,'add','.');command(repo,'commit','-m','Synthetic fixture, not experimental evidence')
++    command(repo,'remote','add','origin',str(remote));command(repo,'push','-u','origin','HEAD')
++    return SimpleNamespace(repo=repo,data=data,remote=remote,cfg=cfg)
++
++
++def cli(system,*args,ok=True):
++    p=subprocess.run([sys.executable,'scripts/cross_behavior_handoff.py',*args],cwd=system.repo,capture_output=True,text=True,timeout=45)
++    if ok:assert p.returncode==0,(p.stdout,p.stderr)
++    return p
++
++
++def latest(system):
++    root=Path(command(system.repo,'rev-parse','--absolute-git-dir'))/'cross_behavior_handoff'
++    pointer=root/('latest-'+h.sha(b'cross-behavior-task-expansion')[:12]+'.json')
++    return h.read(h.read(pointer)['state_path'])
++
++
++def test_calculations_are_derived_from_synthetic_trajectories(tmp_path):
++    entries=dataset(tmp_path)
++    for e in entries:e['id']=e['task']+'-panda-000';e['files']={Path(f['path']).name:f for f in e['files']}
++    push,phases,_=episode_diagnostic(entries[0],{'max_steps':4},20)
++    assert push['observed_reference_displacement_xy_m']==pytest.approx(.03)
++    assert push['goal_localization_xy_error_m']==pytest.approx(0.)
++    assert push['object_localization_error_m']==pytest.approx(.01)
++    assert push['push_direction_error_degrees']==pytest.approx(0.)
++    assert [(p['start_step'],p['end_step']) for p in phases]==[(1,2),(3,4)]
++    stack,_,_=episode_diagnostic(entries[1],{'max_steps':4,'stack':{'retreat_distance_m':.1}},20)
++    assert stack['first_native_success_step']==3 and stack['first_release_step']==3
++    assert stack['final_retreat_distance_m']==pytest.approx(np.linalg.norm([.06,0.,.08]))
++    drawer,_,_=episode_diagnostic(entries[2],{'max_steps':4},20)
++    assert drawer['maximum_normalized_opening']==pytest.approx(.8)
++    assert drawer['first_handle_contact_step']==2
++    assert drawer['longest_continuous_contact_seconds']==pytest.approx(.1)
++
++
++def test_pixel_projection_from_saved_rays():
++    y,x=np.indices((40,60));depth=1.+.01*x+.002*y*y
++    xyz=np.stack(((x-30)*depth/80,(y-20)*depth/80,depth),-1)
++    P,rms=projection_from_rgbd(xyz)
++    assert P is not None and rms<1e-7
++    np.testing.assert_allclose(project(P,xyz[17,24]),[24,17],atol=1e-6)
++
++
++def test_doctor_dry_run_and_complete_native_publication_preserve_user_index(system):
++    doctor=json.loads(cli(system,'doctor').stdout)
++    assert doctor['ready_for_run'] and doctor['push_auth_status']=='READY'
++    root=system.repo/'results/cross_behavior/diagnostics/runs'
++    cli(system,'run','--dry-run');assert not root.exists()
++    h.atomic(system.repo/'unrelated.txt',b'user staged change\n');command(system.repo,'add','unrelated.txt')
++    h.atomic(system.repo/'unrelated.txt',b'user staged change\nuser unstaged change\n')
++    h.atomic(system.repo/'not-related.env',b'PRIVATE_LOCAL_CONTEXT=never-copy\n')
++    index=Path(command(system.repo,'rev-parse','--git-path','index'))
++    if not index.is_absolute():index=system.repo/index
++    before_index=index.read_bytes();before_work=(system.repo/'unrelated.txt').read_bytes()
++    state=json.loads(cli(system,'run').stdout)
++    assert state['analysis_status']==state['publish_status']=='COMPLETE'
++    assert index.read_bytes()==before_index
++    assert (system.repo/'unrelated.txt').read_bytes()==before_work
++    commit=state['github_commit']
++    assert command(system.repo,'show',commit+':unrelated.txt')=='original user content'
++    files=command(system.repo,'diff-tree','--no-commit-id','--name-only','-r',commit).splitlines()
++    assert not any('unrelated' in p or '.env' in p for p in files)
++    assert not any(p.endswith(('.mp4','.npz','.pkl')) for p in files)
++    assert state['remote_files_verified']>0
++    assert json.loads(cli(system,'doctor').stdout)['ready_for_run']
++    assert json.loads(cli(system,'status').stdout)['github_commit']==commit
++    prior=(Path(state['output'])/'episode_metrics.csv').stat().st_mtime_ns
++    repeated=json.loads(cli(system,'run').stdout)
++    assert repeated['run_id']==state['run_id'] and repeated['publication_already_complete']
++    assert (Path(state['output'])/'episode_metrics.csv').stat().st_mtime_ns==prior
++
++
++def test_clean_interruption_resume_and_different_inputs(system):
++    p=cli(system,'analyze','--stop-after-episodes','1',ok=False)
++    assert p.returncode==75
++    initial=latest(system);assert initial['analysis_status']=='INTERRUPTED' and len(initial['episodes'])==1
++    cached=Path(next(iter(initial['episodes'].values()))['path']);mtime=cached.stat().st_mtime_ns
++    done=json.loads(cli(system,'analyze','--resume').stdout)
++    assert done['analysis_status']=='COMPLETE' and len(done['episodes'])==3
++    assert cached.stat().st_mtime_ns==mtime
++    root=Path(done['output']);old_report=(root/'episode_metrics.csv').read_bytes()
++    idx=h.read(system.data/'artifact_index.json')
++    p=system.data/'push/telemetry.jsonl';rows=[json.loads(s) for s in p.read_text().splitlines()]
++    rows[-1]['metrics']['object_position'][0]=.05
++    h.atomic(p,''.join(json.dumps(r)+'\n' for r in rows).encode())
++    for f in idx['episodes'][0]['files']:
++        if f['path']==str(p):f.update(sha256=h.sha(p.read_bytes()),bytes=p.stat().st_size)
++    h.write(system.data/'artifact_index.json',idx)
++    new=json.loads(cli(system,'analyze').stdout)
++    assert new['run_id']!=done['run_id'] and root.exists()
++    assert (root/'episode_metrics.csv').read_bytes()==old_report
++
++
++def test_missing_input_and_corrupted_package_fail_closed(system):
++    p=system.data/'push/telemetry.jsonl';p.unlink()
++    bad=cli(system,'analyze',ok=False)
++    assert bad.returncode==1 and latest(system)['analysis_status']=='FAILED_INPUT_INTEGRITY'
++    assert cli(system,'publish',ok=False).returncode==1
++    doctor=cli(system,'doctor',ok=False)
++    assert doctor.returncode==2 and json.loads(doctor.stdout)['data_ready'] is False
++
++
++def test_resume_sealing_after_analyzer_completed_before_manifest(system):
++    state=json.loads(cli(system,'analyze').stdout)
++    manifest=Path(state['output'])/'snapshot_manifest.json';manifest.unlink()
++    resumed=json.loads(cli(system,'analyze','--resume').stdout)
++    assert resumed['analysis_status']=='COMPLETE' and manifest.exists()
++    h.atomic(Path(state['output'])/'episode_metrics.csv',b'tampered\n')
++    assert cli(system,'publish','--dry-run',ok=False).returncode==1
++
++
++def test_publish_network_failure_retry_and_accepted_push_recovery(system):
++    state=json.loads(cli(system,'analyze').stdout)
++    hook=system.remote/'hooks/pre-receive';hook.write_text('#!/bin/sh\nexit 1\n');hook.chmod(0o755)
++    failed=cli(system,'publish',ok=False)
++    assert failed.returncode==1
++    retained=latest(system);candidate=retained['candidate_commit']
++    assert retained['analysis_status']=='COMPLETE' and retained['publish_status']=='FAILED_AUTH_OR_NETWORK'
++    hook.unlink()
++    # Simulate a received push whose response was lost before the ledger update.
++    command(system.repo,'push','origin',candidate+':refs/heads/cross-behavior-task-expansion')
++    done=json.loads(cli(system,'publish','--resume').stdout)
++    assert done['github_commit']==candidate and done['publish_status']=='COMPLETE'
++
++
++def test_remote_conflict_stops_without_force_push(system):
++    state=json.loads(cli(system,'analyze').stdout)
++    base=command(system.repo,'rev-parse','HEAD');tree=command(system.repo,'rev-parse','HEAD^{tree}')
++    p=subprocess.run(['git','commit-tree',tree,'-p',base],input='external work\n',cwd=system.repo,capture_output=True,text=True,check=True)
++    external=p.stdout.strip();command(system.repo,'push','origin',external+':refs/heads/cross-behavior-task-expansion')
++    failed=cli(system,'publish',ok=False)
++    assert failed.returncode==1 and latest(system)['publish_status']=='CONFLICT'
++    assert command(system.repo,'ls-remote','origin','refs/heads/cross-behavior-task-expansion').split()[0]==external
++
++
++def test_main_forbidden_and_secret_redaction(system):
++    assert cli(system,'run','--branch','main',ok=False).returncode==1
++    token='ghp_'+('a'*36)
++    assert token not in h.safe_text('failed '+token)
++    h.atomic(system.repo/'cross_behavior/expert.py',('access_token = "'+token+'"\n').encode())
++    result=cli(system,'analyze',ok=False)
++    assert result.returncode==1 and token not in result.stderr
++
++
++def test_hash_cache_invalidated_on_content_change(tmp_path):
++    p=tmp_path/'x';p.write_text('first');cache={}
++    a=h.inspect_file(p,cache);assert a['read_success']
++    p.write_text('other')
++    b=h.inspect_file(p,cache);assert b['sha256']!=a['sha256'] and b['hash_source']=='SHA256_READ'
++    import time
++    time.sleep(2.05)
++    h.inspect_file(p,cache)
++    assert h.inspect_file(p,cache)['hash_source']=='VERIFIED_STAT_CACHE'
++
++
++def test_malformed_trajectory_never_becomes_complete(system):
++    idx=h.read(system.data/'artifact_index.json');p=system.data/'push/telemetry.jsonl'
++    rows=[json.loads(s) for s in p.read_text().splitlines()];rows[1]['step']=9
++    h.atomic(p,''.join(json.dumps(r)+'\n' for r in rows).encode())
++    for f in idx['episodes'][0]['files']:
++        if f['path']==str(p):f.update(sha256=h.sha(p.read_bytes()),bytes=p.stat().st_size)
++    h.write(system.data/'artifact_index.json',idx)
++    assert cli(system,'analyze',ok=False).returncode==1
++    state=latest(system)
++    assert state['analysis_status']=='FAILED_ANALYSIS' and state['publish_status']=='NOT_RUN'
++    assert not (Path(state['output'])/'snapshot_manifest.json').exists()
++
++
++def test_data_root_override_relocates_indexed_paths(system):
++    relocated=system.data.parent/'relocated-data';shutil.copytree(system.data,relocated)
++    state=json.loads(cli(system,'analyze','--data-root',str(relocated)).stdout)
++    manifest=h.read(Path(state['output'])/'input_manifest.json')
++    indexed=[r for r in manifest['files'] if r.get('episode_id')]
++    assert indexed and all(Path(r['path']).is_relative_to(relocated) for r in indexed)
++
++
++def test_forbidden_raw_secret_and_size_guards(system):
++    state=json.loads(cli(system,'analyze').stdout);output=Path(state['output'])
++    cfg=dict(system.cfg)
++    p=output/'raw.mp4';p.write_bytes(b'not-a-real-video');h.seal_package(state)
++    with pytest.raises(h.HandoffError,match='FORBIDDEN_RAW_UPLOAD'):h.validate_package(cfg,state)
++    p.unlink()
++    p=output/'credentials.json';h.write(p,{'password':''.join(['synthetic','test','value'])});h.seal_package(state)
++    with pytest.raises(h.HandoffError,match='SECRET_PATTERN|CREDENTIAL_KEY'):h.validate_package(cfg,state)
++    p.unlink();h.seal_package(state)
++    cfg['maximum_file_bytes']=10
++    with pytest.raises(h.HandoffError,match='OUTPUT_FILE_TOO_LARGE'):h.validate_package(cfg,state)
++
++
++def test_concurrent_runner_is_rejected(system):
++    import fcntl
++    root=Path(command(system.repo,'rev-parse','--absolute-git-dir'))/'cross_behavior_handoff';root.mkdir()
++    with (root/'handoff.lock').open('a') as stream:
++        fcntl.flock(stream,fcntl.LOCK_EX|fcntl.LOCK_NB)
++        result=cli(system,'analyze',ok=False)
++        assert result.returncode==1 and 'HANDOFF_ALREADY_RUNNING' in result.stderr
++    assert not (system.repo/'results/cross_behavior/diagnostics/runs').exists()
++
++
++def test_explicit_other_research_branch_has_its_own_publication_parent(system):
++    first=json.loads(cli(system,'run').stdout)
++    command(system.repo,'checkout','-b','another-research-branch')
++    command(system.repo,'push','origin','HEAD:refs/heads/another-research-branch')
++    second=json.loads(cli(system,'run','--branch','another-research-branch').stdout)
++    assert second['publish_status']=='COMPLETE' and second['branch']=='another-research-branch'
++    assert first['run_id']!=second['run_id']

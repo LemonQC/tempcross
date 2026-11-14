@@ -1,0 +1,214 @@
+{
+  "metrics": {
+    "episode_id": "push-panda-001",
+    "task": "push",
+    "robot": "panda",
+    "condition": 1,
+    "steps": 600,
+    "duration_seconds": 30.0,
+    "recorded_full_success": false,
+    "native_predicate_available": false,
+    "first_native_success_step": null,
+    "final_native_success": false,
+    "final_tcp_position": [
+      1.9357308473780517,
+      -0.4694655094607002,
+      1.2242048659498959
+    ],
+    "final_executed_phase": 0,
+    "mean_reported_pre_action_tracking_error_m": 0.4837715497513283,
+    "max_reported_pre_action_tracking_error_m": 0.5879061982213992,
+    "mean_independently_recomputed_pre_action_tracking_error_m": 0.4836179944077304,
+    "max_tracking_error_crosscheck_difference_m": 0.0,
+    "mean_post_action_target_error_m": 0.48357272983365684,
+    "final_target_to_post_action_tcp_error_m": 0.47426760877961976,
+    "target_estimate_available_steps": 600,
+    "total_steps": 600,
+    "timed_out": true,
+    "maximum_stable_control_steps": 0,
+    "privileged_values_used_only_offline": true,
+    "perceived_object_position": [
+      2.095646704512909,
+      -0.10307203594114467,
+      1.1184546526058314
+    ],
+    "perceived_goal_center": [
+      2.4536250879371178,
+      -0.48906293567062054,
+      0.9239869805151376
+    ],
+    "true_object_reference_position": [
+      2.294144223826802,
+      -0.5484364186346031,
+      0.9397805634955962
+    ],
+    "true_goal_center": [
+      2.4341442238268023,
+      -0.5484364186346031,
+      0.921
+    ],
+    "true_object_reference_step": 1,
+    "object_localization_error_m": 0.5193025405917701,
+    "goal_localization_error_m": 0.06255906487757565,
+    "goal_localization_xy_error_m": 0.062487715158732665,
+    "final_object_position": [
+      2.294144223826802,
+      -0.5484364186346031,
+      0.9397844891595659
+    ],
+    "observed_displacement_vector": [
+      0.0,
+      0.0,
+      3.925663969672755e-06
+    ],
+    "final_recorded_displacement_m": 0.0,
+    "observed_reference_displacement_xy_m": 0.0,
+    "push_direction_error_degrees": null,
+    "lateral_displacement_m": 0.0,
+    "final_goal_xy_error_m": 0.14000000000000012,
+    "contact_control_steps": 0,
+    "failure_class": "APPROACH_NOT_COMPLETED_VISUAL_OR_CONTROL_AMBIGUOUS"
+  },
+  "phases": [
+    {
+      "episode_id": "push-panda-001",
+      "phase": 0,
+      "start_step": 1,
+      "end_step": 600,
+      "control_steps": 600,
+      "start_seconds": 0.0,
+      "end_seconds": 30.0
+    }
+  ],
+  "perception": {
+    "episode_id": "push-panda-001",
+    "first_estimate_step": 1,
+    "first_recorded_estimate": {
+      "start": [
+        2.095646704512909,
+        -0.10307203594114467,
+        1.1184546526058314
+      ],
+      "target": [
+        2.4536250879371178,
+        -0.48906293567062054,
+        0.9239869805151376
+      ],
+      "direction": [
+        0.6800003822560595,
+        -0.7332117566785281,
+        0.0
+      ],
+      "initial_tcp": [
+        1.8894883235478295,
+        -0.5801802019303967,
+        1.251685231882316
+      ],
+      "initial_rotation": [
+        [
+          -0.9988679997235761,
+          -0.022214264389502365,
+          0.04206240109470992
+        ],
+        [
+          -0.02494603677131986,
+          0.9975357184128892,
+          -0.06557580148104866
+        ],
+        [
+          -0.04050202930252908,
+          -0.06655085986004414,
+          -0.996960665560213
+        ]
+      ]
+    },
+    "estimate_semantics": "Latched initial estimate; availability is not fresh detection or visibility at every subsequent step",
+    "state_alignment": "RGB estimate precedes action; logged truth is post-action of the same control step. Initial comparison is approximate, not strict causal pairing.",
+    "object_estimate": [
+      2.095646704512909,
+      -0.10307203594114467,
+      1.1184546526058314
+    ],
+    "goal_estimate": [
+      2.4536250879371178,
+      -0.48906293567062054,
+      0.9239869805151376
+    ],
+    "object_truth": [
+      2.294144223826802,
+      -0.5484364186346031,
+      0.9397805634955962
+    ],
+    "goal_truth": [
+      2.4341442238268023,
+      -0.5484364186346031,
+      0.921
+    ],
+    "overlay": {
+      "projection_reprojection_rms_pixels": 2.2116408989290002e-13,
+      "projection_matrix": [
+        [
+          267.4810054527915,
+          42.6639304761538,
+          -87.5065716159372,
+          -222.51753632120244
+        ],
+        [
+          -13.494227837094012,
+          -40.92142904013607,
+          -244.32137742752792,
+          354.34720131966264
+        ],
+        [
+          0.3498526441288086,
+          0.8183531178030299,
+          -0.5663103184959344,
+          1.1902426580110017
+        ]
+      ],
+      "approximation": "Initial image only. World-point projection is fitted from recorded RGB-D rays; not simulator rendering.",
+      "points": {
+        "object_estimate": {
+          "pixel": [
+            195.5417824598141,
+            47.29620331778049
+          ],
+          "inside_initial_fov": true,
+          "nearest_recorded_depth_surface_distance_m": 0.005144996282437868,
+          "visibility_certified": false
+        },
+        "goal_estimate": {
+          "pixel": [
+            295.12263848798204,
+            102.65275385677742
+          ],
+          "inside_initial_fov": true,
+          "nearest_recorded_depth_surface_distance_m": 0.0029863251570538245,
+          "visibility_certified": false
+        },
+        "object_truth": {
+          "pixel": [
+            282.14837788353117,
+            114.86462391211775
+          ],
+          "inside_initial_fov": true,
+          "nearest_recorded_depth_surface_distance_m": 0.020840516972778146,
+          "visibility_certified": false
+        },
+        "goal_truth": {
+          "pixel": [
+            302.9337905972707,
+            110.99289799094174
+          ],
+          "inside_initial_fov": true,
+          "nearest_recorded_depth_surface_distance_m": 0.009071311682923633,
+          "visibility_certified": false
+        }
+      },
+      "path": "push-panda-001.jpg",
+      "status": "GENERATED",
+      "width": 640,
+      "height": 560
+    }
+  }
+}

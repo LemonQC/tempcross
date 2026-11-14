@@ -1,0 +1,160 @@
+{
+  "metrics": {
+    "episode_id": "drawer-panda-000",
+    "task": "drawer",
+    "robot": "panda",
+    "condition": 0,
+    "steps": 600,
+    "duration_seconds": 30.0,
+    "recorded_full_success": false,
+    "native_predicate_available": true,
+    "first_native_success_step": null,
+    "final_native_success": false,
+    "final_tcp_position": [
+      3.8571900758454722,
+      -0.6300323891852516,
+      0.7795175799227091
+    ],
+    "final_executed_phase": 1,
+    "mean_reported_pre_action_tracking_error_m": 0.10446587632691945,
+    "max_reported_pre_action_tracking_error_m": 0.5331619059944267,
+    "mean_independently_recomputed_pre_action_tracking_error_m": 0.10375019013381842,
+    "max_tracking_error_crosscheck_difference_m": 0.0,
+    "mean_post_action_target_error_m": 0.10340420767503763,
+    "final_target_to_post_action_tcp_error_m": 0.012727251561971567,
+    "target_estimate_available_steps": 600,
+    "total_steps": 600,
+    "timed_out": true,
+    "maximum_stable_control_steps": 0,
+    "privileged_values_used_only_offline": true,
+    "perceived_handle_position": [
+      3.859457912696245,
+      -0.6316136539952488,
+      0.7888464723716974
+    ],
+    "perceived_handle_normal": [
+      -0.007366634410342801,
+      -0.9999728659806046,
+      0.0
+    ],
+    "normal_tilt_from_horizontal_degrees": 0.0,
+    "first_handle_contact_step": null,
+    "contact_control_steps": 0,
+    "total_handle_contact_seconds": 0.0,
+    "longest_continuous_contact_seconds": 0.0,
+    "maximum_normalized_opening": 2.728114537116849e-06,
+    "handle_visibility": "ESTIMATE_AVAILABLE_VISIBILITY_NOT_CERTIFIED",
+    "failure_class": "APPROACH_VISUAL_OR_CONTROL_AMBIGUOUS"
+  },
+  "phases": [
+    {
+      "episode_id": "drawer-panda-000",
+      "phase": 0,
+      "start_step": 1,
+      "end_step": 197,
+      "control_steps": 197,
+      "start_seconds": 0.0,
+      "end_seconds": 9.85
+    },
+    {
+      "episode_id": "drawer-panda-000",
+      "phase": 1,
+      "start_step": 198,
+      "end_step": 600,
+      "control_steps": 403,
+      "start_seconds": 9.85,
+      "end_seconds": 30.0
+    }
+  ],
+  "perception": {
+    "episode_id": "drawer-panda-000",
+    "first_estimate_step": 1,
+    "first_recorded_estimate": {
+      "handle": [
+        3.859457912696245,
+        -0.6316136539952488,
+        0.7888464723716974
+      ],
+      "normal": [
+        -0.007366634410342801,
+        -0.9999728659806046,
+        0.0
+      ],
+      "initial_tcp": [
+        3.6112588530361887,
+        -0.8052852343644723,
+        1.2573683153899586
+      ],
+      "initial_rotation": [
+        [
+          -0.9988940675268841,
+          -0.018603631107058587,
+          0.04318039797439439
+        ],
+        [
+          -0.02084375753427959,
+          0.9984284123341562,
+          -0.052021564910584975
+        ],
+        [
+          -0.04214474619032322,
+          -0.05286407431826008,
+          -0.997711987506928
+        ]
+      ]
+    },
+    "estimate_semantics": "Latched initial estimate; availability is not fresh detection or visibility at every subsequent step",
+    "state_alignment": "RGB estimate precedes action; logged truth is post-action of the same control step. Initial comparison is approximate, not strict causal pairing.",
+    "handle_estimate": [
+      3.859457912696245,
+      -0.6316136539952488,
+      0.7888464723716974
+    ],
+    "normal_estimate": [
+      -0.007366634410342801,
+      -0.9999728659806046,
+      0.0
+    ],
+    "true_handle_pose": null,
+    "true_handle_pose_reason": "Exact dynamic handle pose was not exported in the JSONL schema; no simulator or counterfactual labels are generated.",
+    "overlay": {
+      "projection_reprojection_rms_pixels": 2.6250099056954937e-13,
+      "projection_matrix": [
+        [
+          247.34344878261166,
+          39.45193666113866,
+          -80.91855785087715,
+          -621.6271959773019
+        ],
+        [
+          -12.478302332893712,
+          -37.840621129321605,
+          -225.92741491856975,
+          340.4042227505555
+        ],
+        [
+          0.3235136620877409,
+          0.7567426408700023,
+          -0.5236751185943609,
+          0.7188884659878151
+        ]
+      ],
+      "approximation": "Initial image only. World-point projection is fitted from recorded RGB-D rays; not simulator rendering.",
+      "points": {
+        "handle_estimate": {
+          "pixel": [
+            226.897078380223,
+            128.1330158330993
+          ],
+          "inside_initial_fov": true,
+          "nearest_recorded_depth_surface_distance_m": 0.012772313867088577,
+          "visibility_certified": false
+        }
+      },
+      "path": "drawer-panda-000.jpg",
+      "status": "GENERATED",
+      "width": 640,
+      "height": 560
+    }
+  }
+}

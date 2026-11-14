@@ -1,0 +1,1650 @@
+{
+  "episodes": [
+    {
+      "episode_id": "push-ur5e-000",
+      "first_estimate_step": null,
+      "first_recorded_estimate": {},
+      "estimate_semantics": "Latched initial estimate; availability is not fresh detection or visibility at every subsequent step",
+      "state_alignment": "RGB estimate precedes action; logged truth is post-action of the same control step. Initial comparison is approximate, not strict causal pairing.",
+      "object_estimate": null,
+      "goal_estimate": null,
+      "object_truth": [
+        0.5138030444126743,
+        -0.5523944163446121,
+        0.9397805634960645
+      ],
+      "goal_truth": [
+        0.6538030444126743,
+        -0.5523944163446121,
+        0.921
+      ],
+      "overlay": {
+        "projection_reprojection_rms_pixels": 3.597628305486518e-13,
+        "projection_matrix": [
+          [
+            263.0116930048275,
+            41.9510657626432,
+            -86.0444334903235,
+            -218.79951077361883
+          ],
+          [
+            -13.268753828673375,
+            -40.2376772973547,
+            -240.23903716162025,
+            348.426448587175
+          ],
+          [
+            0.34400698557765624,
+            0.8046793445758463,
+            -0.5568478987906392,
+            1.170355031798676
+          ]
+        ],
+        "approximation": "Initial image only. World-point projection is fitted from recorded RGB-D rays; not simulator rendering.",
+        "points": {
+          "object_truth": {
+            "pixel": [
+              -494.86910210901146,
+              364.00487498577814
+            ],
+            "inside_initial_fov": false,
+            "nearest_recorded_depth_surface_distance_m": 0.6997194266580846,
+            "visibility_certified": false
+          },
+          "goal_truth": {
+            "pixel": [
+              -340.8507087525341,
+              321.34007847740315
+            ],
+            "inside_initial_fov": false,
+            "nearest_recorded_depth_surface_distance_m": 0.5620788729660144,
+            "visibility_certified": false
+          }
+        },
+        "path": "push-ur5e-000.jpg",
+        "status": "GENERATED",
+        "width": 640,
+        "height": 560
+      }
+    },
+    {
+      "episode_id": "push-ur5e-001",
+      "first_estimate_step": 1,
+      "first_recorded_estimate": {
+        "start": [
+          2.2893023174655998,
+          -0.5484781874879862,
+          0.942982730502696
+        ],
+        "target": [
+          2.3912368179857673,
+          -0.4881438004606826,
+          0.9242037879188865
+        ],
+        "direction": [
+          0.8605552014135343,
+          0.5093571883463622,
+          0.0
+        ],
+        "initial_tcp": [
+          1.8937538931347424,
+          -0.5629536735139655,
+          1.2735748704415344
+        ],
+        "initial_rotation": [
+          [
+            -0.9997863471949825,
+            -0.00600746082309351,
+            -0.01977802763100724
+          ],
+          [
+            -0.006493657059486873,
+            0.9996760153859646,
+            0.02461090571340734
+          ],
+          [
+            0.019623770802464687,
+            0.024734079253116468,
+            -0.9995014421915521
+          ]
+        ]
+      },
+      "estimate_semantics": "Latched initial estimate; availability is not fresh detection or visibility at every subsequent step",
+      "state_alignment": "RGB estimate precedes action; logged truth is post-action of the same control step. Initial comparison is approximate, not strict causal pairing.",
+      "object_estimate": [
+        2.2893023174655998,
+        -0.5484781874879862,
+        0.942982730502696
+      ],
+      "goal_estimate": [
+        2.3912368179857673,
+        -0.4881438004606826,
+        0.9242037879188865
+      ],
+      "object_truth": [
+        2.294144223826802,
+        -0.5484364186346031,
+        0.9397805634960695
+      ],
+      "goal_truth": [
+        2.4341442238268023,
+        -0.5484364186346031,
+        0.921
+      ],
+      "overlay": {
+        "projection_reprojection_rms_pixels": 2.791255014363153e-13,
+        "projection_matrix": [
+          [
+            272.10424546774107,
+            43.401351589147176,
+            -89.01906746878335,
+            -226.36360880518455
+          ],
+          [
+            -13.727466740309628,
+            -41.628730211097526,
+            -248.54431821125118,
+            360.4718666295391
+          ],
+          [
+            0.3558996201052195,
+            0.832497837491629,
+            -0.5760986348741404,
+            1.210815260682607
+          ]
+        ],
+        "approximation": "Initial image only. World-point projection is fitted from recorded RGB-D rays; not simulator rendering.",
+        "points": {
+          "object_estimate": {
+            "pixel": [
+              281.57526576163775,
+              114.55864857469632
+            ],
+            "inside_initial_fov": true,
+            "nearest_recorded_depth_surface_distance_m": 0.016064518193504837,
+            "visibility_certified": false
+          },
+          "goal_estimate": {
+            "pixel": [
+              285.6915000319452,
+              105.3043455795502
+            ],
+            "inside_initial_fov": true,
+            "nearest_recorded_depth_surface_distance_m": 0.0024734558131778123,
+            "visibility_certified": false
+          },
+          "object_truth": {
+            "pixel": [
+              282.148380302322,
+              114.86462298484952
+            ],
+            "inside_initial_fov": true,
+            "nearest_recorded_depth_surface_distance_m": 0.017754421083497743,
+            "visibility_certified": false
+          },
+          "goal_truth": {
+            "pixel": [
+              302.93379319093515,
+              110.99289722142584
+            ],
+            "inside_initial_fov": true,
+            "nearest_recorded_depth_surface_distance_m": 0.04320417157757903,
+            "visibility_certified": false
+          }
+        },
+        "path": "push-ur5e-001.jpg",
+        "status": "GENERATED",
+        "width": 640,
+        "height": 560
+      }
+    },
+    {
+      "episode_id": "push-ur5e-002",
+      "first_estimate_step": 1,
+      "first_recorded_estimate": {
+        "start": [
+          2.274683254123776,
+          -0.5439600637146038,
+          0.9429671625429757
+        ],
+        "target": [
+          2.3934616132415982,
+          -0.48283955386906147,
+          0.924033387099505
+        ],
+        "direction": [
+          0.8891827475189052,
+          0.4575522281824565,
+          0.0
+        ],
+        "initial_tcp": [
+          1.8992428383544158,
+          -0.5630484429901003,
+          1.2736608380130574
+        ],
+        "initial_rotation": [
+          [
+            -0.9996761572012317,
+            -0.0019100045664090085,
+            0.025375827197017663
+          ],
+          [
+            -0.0021773134935511606,
+            0.9999423921834985,
+            -0.010510548049071259
+          ],
+          [
+            -0.025354290156251756,
+            -0.010562395414740557,
+            -0.9996227267193227
+          ]
+        ]
+      },
+      "estimate_semantics": "Latched initial estimate; availability is not fresh detection or visibility at every subsequent step",
+      "state_alignment": "RGB estimate precedes action; logged truth is post-action of the same control step. Initial comparison is approximate, not strict causal pairing.",
+      "object_estimate": [
+        2.274683254123776,
+        -0.5439600637146038,
+        0.9429671625429757
+      ],
+      "goal_estimate": [
+        2.3934616132415982,
+        -0.48283955386906147,
+        0.924033387099505
+      ],
+      "object_truth": [
+        2.278369200469346,
+        -0.543680213512971,
+        0.9397805634960651
+      ],
+      "goal_truth": [
+        2.4183692004693462,
+        -0.543680213512971,
+        0.921
+      ]
+    },
+    {
+      "episode_id": "push-ur5e-003",
+      "first_estimate_step": 1,
+      "first_recorded_estimate": {
+        "start": [
+          2.2742990940812344,
+          -0.5502782601157449,
+          0.9429481141955325
+        ],
+        "target": [
+          2.377717269681815,
+          -0.49224619406178194,
+          0.9239046094086059
+        ],
+        "direction": [
+          0.8720818946893517,
+          0.4893599584712981,
+          0.0
+        ],
+        "initial_tcp": [
+          1.890820725677451,
+          -0.5619517332100972,
+          1.2703886644560498
+        ],
+        "initial_rotation": [
+          [
+            -0.999925134179377,
+            0.011928094808531202,
+            0.002728844186256897
+          ],
+          [
+            0.011975757080793062,
+            0.9997631352188215,
+            0.018172911152961286
+          ],
+          [
+            -0.0025114296119963134,
+            0.018204230598140667,
+            -0.9998311350971388
+          ]
+        ]
+      },
+      "estimate_semantics": "Latched initial estimate; availability is not fresh detection or visibility at every subsequent step",
+      "state_alignment": "RGB estimate precedes action; logged truth is post-action of the same control step. Initial comparison is approximate, not strict causal pairing.",
+      "object_estimate": [
+        2.2742990940812344,
+        -0.5502782601157449,
+        0.9429481141955325
+      ],
+      "goal_estimate": [
+        2.377717269681815,
+        -0.49224619406178194,
+        0.9239046094086059
+      ],
+      "object_truth": [
+        2.2791328286421972,
+        -0.5509865463932662,
+        0.9397805634960653
+      ],
+      "goal_truth": [
+        2.4191328286421974,
+        -0.5509865463932662,
+        0.921
+      ]
+    },
+    {
+      "episode_id": "push-panda-000",
+      "first_estimate_step": 1,
+      "first_recorded_estimate": {
+        "start": [
+          2.1371931478959962,
+          -0.09304443346073032,
+          1.1103554291106748
+        ],
+        "target": [
+          2.3935120949024435,
+          -0.4811765521929855,
+          0.9242974158107063
+        ],
+        "direction": [
+          0.5510694447630949,
+          -0.8344593860988648,
+          0.0
+        ],
+        "initial_tcp": [
+          1.8929045625688437,
+          -0.5694772116767076,
+          1.290663364573736
+        ],
+        "initial_rotation": [
+          [
+            -0.9998942447037471,
+            0.00924853884847462,
+            -0.011223365693404288
+          ],
+          [
+            0.008858757827938183,
+            0.99937246401237,
+            0.03429578084235072
+          ],
+          [
+            0.011533508488988618,
+            0.034192728803195314,
+            -0.999348705647294
+          ]
+        ]
+      },
+      "estimate_semantics": "Latched initial estimate; availability is not fresh detection or visibility at every subsequent step",
+      "state_alignment": "RGB estimate precedes action; logged truth is post-action of the same control step. Initial comparison is approximate, not strict causal pairing.",
+      "object_estimate": [
+        2.1371931478959962,
+        -0.09304443346073032,
+        1.1103554291106748
+      ],
+      "goal_estimate": [
+        2.3935120949024435,
+        -0.4811765521929855,
+        0.9242974158107063
+      ],
+      "object_truth": [
+        2.291470144436068,
+        -0.5409082004524919,
+        0.9397805634955962
+      ],
+      "goal_truth": [
+        2.431470144436068,
+        -0.5409082004524919,
+        0.921
+      ],
+      "overlay": {
+        "projection_reprojection_rms_pixels": 2.2369099057708668e-13,
+        "projection_matrix": [
+          [
+            265.7224040743607,
+            42.38343073315229,
+            -86.9312442124666,
+            -221.05455262307953
+          ],
+          [
+            -13.405507378565668,
+            -40.65238397145385,
+            -242.715043399214,
+            352.0174825604771
+          ],
+          [
+            0.3475524706506848,
+            0.8129727131122817,
+            -0.5625870113307436,
+            1.1824172097736845
+          ]
+        ],
+        "approximation": "Initial image only. World-point projection is fitted from recorded RGB-D rays; not simulator rendering.",
+        "points": {
+          "object_estimate": {
+            "pixel": [
+              201.1425184130735,
+              47.065322939230924
+            ],
+            "inside_initial_fov": true,
+            "nearest_recorded_depth_surface_distance_m": 0.0013075913555227814,
+            "visibility_certified": false
+          },
+          "goal_estimate": {
+            "pixel": [
+              284.8417811135163,
+              104.38816191931987
+            ],
+            "inside_initial_fov": true,
+            "nearest_recorded_depth_surface_distance_m": 0.0027808594922901697,
+            "visibility_certified": false
+          },
+          "object_truth": {
+            "pixel": [
+              280.31135022395665,
+              114.00708015615038
+            ],
+            "inside_initial_fov": true,
+            "nearest_recorded_depth_surface_distance_m": 0.0191335309184426,
+            "visibility_certified": false
+          },
+          "goal_truth": {
+            "pixel": [
+              301.09760492081176,
+              110.20162611402093
+            ],
+            "inside_initial_fov": true,
+            "nearest_recorded_depth_surface_distance_m": 0.0037136057498422456,
+            "visibility_certified": false
+          }
+        },
+        "path": "push-panda-000.jpg",
+        "status": "GENERATED",
+        "width": 640,
+        "height": 560
+      }
+    },
+    {
+      "episode_id": "push-panda-001",
+      "first_estimate_step": 1,
+      "first_recorded_estimate": {
+        "start": [
+          2.095646704512909,
+          -0.10307203594114467,
+          1.1184546526058314
+        ],
+        "target": [
+          2.4536250879371178,
+          -0.48906293567062054,
+          0.9239869805151376
+        ],
+        "direction": [
+          0.6800003822560595,
+          -0.7332117566785281,
+          0.0
+        ],
+        "initial_tcp": [
+          1.8894883235478295,
+          -0.5801802019303967,
+          1.251685231882316
+        ],
+        "initial_rotation": [
+          [
+            -0.9988679997235761,
+            -0.022214264389502365,
+            0.04206240109470992
+          ],
+          [
+            -0.02494603677131986,
+            0.9975357184128892,
+            -0.06557580148104866
+          ],
+          [
+            -0.04050202930252908,
+            -0.06655085986004414,
+            -0.996960665560213
+          ]
+        ]
+      },
+      "estimate_semantics": "Latched initial estimate; availability is not fresh detection or visibility at every subsequent step",
+      "state_alignment": "RGB estimate precedes action; logged truth is post-action of the same control step. Initial comparison is approximate, not strict causal pairing.",
+      "object_estimate": [
+        2.095646704512909,
+        -0.10307203594114467,
+        1.1184546526058314
+      ],
+      "goal_estimate": [
+        2.4536250879371178,
+        -0.48906293567062054,
+        0.9239869805151376
+      ],
+      "object_truth": [
+        2.294144223826802,
+        -0.5484364186346031,
+        0.9397805634955962
+      ],
+      "goal_truth": [
+        2.4341442238268023,
+        -0.5484364186346031,
+        0.921
+      ],
+      "overlay": {
+        "projection_reprojection_rms_pixels": 2.2116408989290002e-13,
+        "projection_matrix": [
+          [
+            267.4810054527915,
+            42.6639304761538,
+            -87.5065716159372,
+            -222.51753632120244
+          ],
+          [
+            -13.494227837094012,
+            -40.92142904013607,
+            -244.32137742752792,
+            354.34720131966264
+          ],
+          [
+            0.3498526441288086,
+            0.8183531178030299,
+            -0.5663103184959344,
+            1.1902426580110017
+          ]
+        ],
+        "approximation": "Initial image only. World-point projection is fitted from recorded RGB-D rays; not simulator rendering.",
+        "points": {
+          "object_estimate": {
+            "pixel": [
+              195.5417824598141,
+              47.29620331778049
+            ],
+            "inside_initial_fov": true,
+            "nearest_recorded_depth_surface_distance_m": 0.005144996282437868,
+            "visibility_certified": false
+          },
+          "goal_estimate": {
+            "pixel": [
+              295.12263848798204,
+              102.65275385677742
+            ],
+            "inside_initial_fov": true,
+            "nearest_recorded_depth_surface_distance_m": 0.0029863251570538245,
+            "visibility_certified": false
+          },
+          "object_truth": {
+            "pixel": [
+              282.14837788353117,
+              114.86462391211775
+            ],
+            "inside_initial_fov": true,
+            "nearest_recorded_depth_surface_distance_m": 0.020840516972778146,
+            "visibility_certified": false
+          },
+          "goal_truth": {
+            "pixel": [
+              302.9337905972707,
+              110.99289799094174
+            ],
+            "inside_initial_fov": true,
+            "nearest_recorded_depth_surface_distance_m": 0.009071311682923633,
+            "visibility_certified": false
+          }
+        },
+        "path": "push-panda-001.jpg",
+        "status": "GENERATED",
+        "width": 640,
+        "height": 560
+      }
+    },
+    {
+      "episode_id": "push-panda-002",
+      "first_estimate_step": 1,
+      "first_recorded_estimate": {
+        "start": [
+          2.0061630357190903,
+          -0.10638674882274735,
+          1.1201990646319662
+        ],
+        "target": [
+          2.421152215788221,
+          -0.4832890420037097,
+          0.9244423091500309
+        ],
+        "direction": [
+          0.7402601525343869,
+          -0.6723205385601174,
+          0.0
+        ],
+        "initial_tcp": [
+          1.8808628261540785,
+          -0.5619842927510474,
+          1.281811048443339
+        ],
+        "initial_rotation": [
+          [
+            -0.998226929013426,
+            0.035538341487051754,
+            -0.04774960184938138
+          ],
+          [
+            0.03394917722543269,
+            0.9988555616221851,
+            0.033690063552115485
+          ],
+          [
+            0.048892244355735116,
+            0.0320092689822669,
+            -0.9982910172595366
+          ]
+        ]
+      },
+      "estimate_semantics": "Latched initial estimate; availability is not fresh detection or visibility at every subsequent step",
+      "state_alignment": "RGB estimate precedes action; logged truth is post-action of the same control step. Initial comparison is approximate, not strict causal pairing.",
+      "object_estimate": [
+        2.0061630357190903,
+        -0.10638674882274735,
+        1.1201990646319662
+      ],
+      "goal_estimate": [
+        2.421152215788221,
+        -0.4832890420037097,
+        0.9244423091500309
+      ],
+      "object_truth": [
+        2.278369200469346,
+        -0.543680213512971,
+        0.9397805634955962
+      ],
+      "goal_truth": [
+        2.4183692004693462,
+        -0.543680213512971,
+        0.921
+      ]
+    },
+    {
+      "episode_id": "stack-ur5e-000",
+      "first_estimate_step": 1,
+      "first_recorded_estimate": {
+        "start": [
+          1.4524686209427946,
+          -0.39606797720133635,
+          1.406784878681874
+        ],
+        "target": [
+          2.4143329336668753,
+          -0.5289000803363378,
+          0.9433683101074052
+        ],
+        "direction": [
+          0.990598649755535,
+          -0.1368002744972058,
+          0.0
+        ],
+        "initial_tcp": [
+          1.888274748620945,
+          -0.5710736161408858,
+          1.2667618252879889
+        ],
+        "initial_rotation": [
+          [
+            -0.9997574656875133,
+            0.022020572022265275,
+            -0.00032281556948796693
+          ],
+          [
+            0.022022903240093893,
+            0.9996223967535318,
+            -0.016433369757931766
+          ],
+          [
+            -3.917852904213468e-05,
+            -0.01643649343794692,
+            -0.9998649109497273
+          ]
+        ]
+      },
+      "estimate_semantics": "Latched initial estimate; availability is not fresh detection or visibility at every subsequent step",
+      "state_alignment": "RGB estimate precedes action; logged truth is post-action of the same control step. Initial comparison is approximate, not strict causal pairing.",
+      "object_estimate": [
+        1.4524686209427946,
+        -0.39606797720133635,
+        1.406784878681874
+      ],
+      "target_estimate": [
+        2.4143329336668753,
+        -0.5289000803363378,
+        0.9433683101074052
+      ],
+      "object_truth": [
+        2.2906459590219646,
+        -0.5472275567820535,
+        0.9397805634957536
+      ],
+      "target_truth": [
+        2.4401343879591932,
+        -0.5515108803812183,
+        0.944780563339623
+      ],
+      "overlay": {
+        "projection_reprojection_rms_pixels": 5.030304027860677e-13,
+        "projection_matrix": [
+          [
+            268.58487284641757,
+            42.84000173564297,
+            -87.86770257217631,
+            -223.43584249002242
+          ],
+          [
+            -13.549916958436249,
+            -41.09030779857846,
+            -245.32966755969494,
+            355.80955492547236
+          ],
+          [
+            0.35129644693434375,
+            0.8217303819749536,
+            -0.5686474251048423,
+            1.1951546774944006
+          ]
+        ],
+        "approximation": "Initial image only. World-point projection is fitted from recorded RGB-D rays; not simulator rendering.",
+        "points": {
+          "object_estimate": {
+            "pixel": [
+              44.99625296133163,
+              12.547439074104542
+            ],
+            "inside_initial_fov": true,
+            "nearest_recorded_depth_surface_distance_m": 0.0011218506974111956,
+            "visibility_certified": false
+          },
+          "object_truth": {
+            "pixel": [
+              281.339805642978,
+              114.88902526307575
+            ],
+            "inside_initial_fov": true,
+            "nearest_recorded_depth_surface_distance_m": 0.017589413750648885,
+            "visibility_certified": false
+          },
+          "target_estimate": {
+            "pixel": [
+              297.94315952205767,
+              105.75202457050409
+            ],
+            "inside_initial_fov": true,
+            "nearest_recorded_depth_surface_distance_m": 0.0011784543011759822,
+            "visibility_certified": false
+          },
+          "target_truth": {
+            "pixel": [
+              306.33513338547914,
+              106.99907587708361
+            ],
+            "inside_initial_fov": true,
+            "nearest_recorded_depth_surface_distance_m": 0.02892547664104613,
+            "visibility_certified": false
+          }
+        },
+        "path": "stack-ur5e-000.jpg",
+        "status": "GENERATED",
+        "width": 640,
+        "height": 560
+      }
+    },
+    {
+      "episode_id": "stack-ur5e-001",
+      "first_estimate_step": 1,
+      "first_recorded_estimate": {
+        "start": [
+          1.8077805244911076,
+          -0.5402159637638783,
+          0.942478330061213
+        ],
+        "target": [
+          1.9565922213841436,
+          -0.5482111513681833,
+          0.9476028263547228
+        ],
+        "direction": [
+          0.9985598285168739,
+          -0.053649500205979556,
+          0.0
+        ],
+        "initial_tcp": [
+          1.8892819329317916,
+          -0.573308400539703,
+          1.2823575871448822
+        ],
+        "initial_rotation": [
+          [
+            -0.9995494604284294,
+            -0.01940169363735312,
+            0.022900882979420827
+          ],
+          [
+            -0.01895189907340189,
+            0.9996263526963642,
+            0.019697221034315503
+          ],
+          [
+            -0.023274485574259714,
+            0.019254331433871806,
+            -0.9995436804073583
+          ]
+        ]
+      },
+      "estimate_semantics": "Latched initial estimate; availability is not fresh detection or visibility at every subsequent step",
+      "state_alignment": "RGB estimate precedes action; logged truth is post-action of the same control step. Initial comparison is approximate, not strict causal pairing.",
+      "object_estimate": [
+        1.8077805244911076,
+        -0.5402159637638783,
+        0.942478330061213
+      ],
+      "target_estimate": [
+        1.9565922213841436,
+        -0.5482111513681833,
+        0.9476028263547228
+      ],
+      "object_truth": [
+        1.8101197033512504,
+        -0.5400651306585292,
+        0.9397805634957532
+      ],
+      "target_truth": [
+        1.9589194208293117,
+        -0.548237381507953,
+        0.9447805633396223
+      ],
+      "overlay": {
+        "projection_reprojection_rms_pixels": 5.198670464411628e-13,
+        "projection_matrix": [
+          [
+            263.7806448344838,
+            42.0737140995325,
+            -86.29599646590607,
+            -219.4392045915539
+          ],
+          [
+            -13.307547120501745,
+            -40.355317718122734,
+            -240.94140969855246,
+            349.445122724676
+          ],
+          [
+            0.3450127428338778,
+            0.807031935607412,
+            -0.5584759217630089,
+            1.1737767169265434
+          ]
+        ],
+        "approximation": "Initial image only. World-point projection is fitted from recorded RGB-D rays; not simulator rendering.",
+        "points": {
+          "object_estimate": {
+            "pixel": [
+              183.62603251534722,
+              143.81241595545953
+            ],
+            "inside_initial_fov": true,
+            "nearest_recorded_depth_surface_distance_m": 0.017762315778871215,
+            "visibility_certified": false
+          },
+          "object_truth": {
+            "pixel": [
+              184.11430792562118,
+              144.12586718987075
+            ],
+            "inside_initial_fov": true,
+            "nearest_recorded_depth_surface_distance_m": 0.018042208197450813,
+            "visibility_certified": false
+          },
+          "target_estimate": {
+            "pixel": [
+              218.6899402928703,
+              133.62478823121918
+            ],
+            "inside_initial_fov": true,
+            "nearest_recorded_depth_surface_distance_m": 0.022918765584372162,
+            "visibility_certified": false
+          },
+          "target_truth": {
+            "pixel": [
+              219.07725937938628,
+              134.00568209028913
+            ],
+            "inside_initial_fov": true,
+            "nearest_recorded_depth_surface_distance_m": 0.022880671869772214,
+            "visibility_certified": false
+          }
+        },
+        "path": "stack-ur5e-001.jpg",
+        "status": "GENERATED",
+        "width": 640,
+        "height": 560
+      }
+    },
+    {
+      "episode_id": "stack-ur5e-002",
+      "first_estimate_step": 1,
+      "first_recorded_estimate": {
+        "start": [
+          1.8119309995433088,
+          -0.5429529340723991,
+          0.9424752773219764
+        ],
+        "target": [
+          1.9606140907620198,
+          -0.5539014725395348,
+          0.9475901084914748
+        ],
+        "direction": [
+          0.9972997912934001,
+          -0.07343790769173981,
+          0.0
+        ],
+        "initial_tcp": [
+          1.8898613929629569,
+          -0.5848078354073447,
+          1.286918748967759
+        ],
+        "initial_rotation": [
+          [
+            -0.9996006549550663,
+            0.02046498976349064,
+            0.01948627228025989
+          ],
+          [
+            0.02078351063460506,
+            0.9996513427265394,
+            0.016286149659316126
+          ],
+          [
+            -0.019146182363632185,
+            0.016684639013314236,
+            -0.9996774712485481
+          ]
+        ]
+      },
+      "estimate_semantics": "Latched initial estimate; availability is not fresh detection or visibility at every subsequent step",
+      "state_alignment": "RGB estimate precedes action; logged truth is post-action of the same control step. Initial comparison is approximate, not strict causal pairing.",
+      "object_estimate": [
+        1.8119309995433088,
+        -0.5429529340723991,
+        0.9424752773219764
+      ],
+      "target_estimate": [
+        1.9606140907620198,
+        -0.5539014725395348,
+        0.9475901084914748
+      ],
+      "object_truth": [
+        1.8140187444049005,
+        -0.5424105194188255,
+        0.9397805634957542
+      ],
+      "target_truth": [
+        1.96306155563343,
+        -0.5537640218926031,
+        0.9447805633396236
+      ]
+    },
+    {
+      "episode_id": "stack-panda-000",
+      "first_estimate_step": 1,
+      "first_recorded_estimate": {
+        "start": [
+          1.8106972120975362,
+          -0.5475022357484911,
+          0.9424616330966897
+        ],
+        "target": [
+          1.9576323571009766,
+          -0.5526412033969056,
+          0.9475920771865758
+        ],
+        "direction": [
+          0.9993889564015113,
+          -0.034953023083822636,
+          0.0
+        ],
+        "initial_tcp": [
+          1.8845037305691443,
+          -0.5572848888585867,
+          1.2740528293065858
+        ],
+        "initial_rotation": [
+          [
+            -0.9995857739502233,
+            -0.028559960634400007,
+            -0.003550938593191013
+          ],
+          [
+            -0.02866868127280829,
+            0.9989508510858389,
+            0.03571139634561979
+          ],
+          [
+            0.0025272970559913595,
+            0.03579840448172708,
+            -0.9993558360294652
+          ]
+        ]
+      },
+      "estimate_semantics": "Latched initial estimate; availability is not fresh detection or visibility at every subsequent step",
+      "state_alignment": "RGB estimate precedes action; logged truth is post-action of the same control step. Initial comparison is approximate, not strict causal pairing.",
+      "object_estimate": [
+        1.8106972120975362,
+        -0.5475022357484911,
+        0.9424616330966897
+      ],
+      "target_estimate": [
+        1.9576323571009766,
+        -0.5526412033969056,
+        0.9475920771865758
+      ],
+      "object_truth": [
+        1.8121042923552981,
+        -0.5472275567820535,
+        0.9397805634955962
+      ],
+      "target_truth": [
+        1.961592721292527,
+        -0.5515108803812183,
+        0.944780563339465
+      ],
+      "overlay": {
+        "projection_reprojection_rms_pixels": 2.507386423669133e-13,
+        "projection_matrix": [
+          [
+            266.0013440805148,
+            42.42792208836853,
+            -87.02249958695083,
+            -221.28660335677446
+          ],
+          [
+            -13.4195797496027,
+            -40.69505846893241,
+            -242.96983156403306,
+            352.3870102013407
+          ],
+          [
+            0.3479173120110917,
+            0.8138261242737896,
+            -0.5631775825213875,
+            1.1836584403800468
+          ]
+        ],
+        "approximation": "Initial image only. World-point projection is fitted from recorded RGB-D rays; not simulator rendering.",
+        "points": {
+          "object_estimate": {
+            "pixel": [
+              185.26101496704928,
+              144.96723824177312
+            ],
+            "inside_initial_fov": true,
+            "nearest_recorded_depth_surface_distance_m": 0.017743252957655584,
+            "visibility_certified": false
+          },
+          "object_truth": {
+            "pixel": [
+              185.50808327126956,
+              145.32351221226799
+            ],
+            "inside_initial_fov": true,
+            "nearest_recorded_depth_surface_distance_m": 0.01796907119789046,
+            "visibility_certified": false
+          },
+          "target_estimate": {
+            "pixel": [
+              219.59496691095225,
+              134.30730542172503
+            ],
+            "inside_initial_fov": true,
+            "nearest_recorded_depth_surface_distance_m": 0.02167109002851133,
+            "visibility_certified": false
+          },
+          "target_truth": {
+            "pixel": [
+              220.15280057795243,
+              134.37813733351237
+            ],
+            "inside_initial_fov": true,
+            "nearest_recorded_depth_surface_distance_m": 0.022844897230683895,
+            "visibility_certified": false
+          }
+        },
+        "path": "stack-panda-000.jpg",
+        "status": "GENERATED",
+        "width": 640,
+        "height": 560
+      }
+    },
+    {
+      "episode_id": "stack-panda-001",
+      "first_estimate_step": 1,
+      "first_recorded_estimate": {
+        "start": [
+          1.8077805173105606,
+          -0.54021596433561,
+          0.942478337405053
+        ],
+        "target": [
+          1.956588104637143,
+          -0.5482145994069426,
+          0.9476031659978243
+        ],
+        "direction": [
+          0.9985585095077552,
+          -0.053674044841526276,
+          0.0
+        ],
+        "initial_tcp": [
+          1.8918558688816172,
+          -0.5650241878566223,
+          1.280519800023772
+        ],
+        "initial_rotation": [
+          [
+            -0.998821594814869,
+            -0.010438932230230324,
+            -0.04739673433235531
+          ],
+          [
+            -0.011826510142503846,
+            0.9995068196477149,
+            0.029090395933315312
+          ],
+          [
+            0.04706968652252173,
+            0.029616653619213174,
+            -0.9984524517667671
+          ]
+        ]
+      },
+      "estimate_semantics": "Latched initial estimate; availability is not fresh detection or visibility at every subsequent step",
+      "state_alignment": "RGB estimate precedes action; logged truth is post-action of the same control step. Initial comparison is approximate, not strict causal pairing.",
+      "object_estimate": [
+        1.8077805173105606,
+        -0.54021596433561,
+        0.942478337405053
+      ],
+      "target_estimate": [
+        1.956588104637143,
+        -0.5482145994069426,
+        0.9476031659978243
+      ],
+      "object_truth": [
+        1.8101197033512504,
+        -0.5400651306585292,
+        0.9397805634955962
+      ],
+      "target_truth": [
+        1.9589194208293117,
+        -0.548237381507953,
+        0.944780563339465
+      ],
+      "overlay": {
+        "projection_reprojection_rms_pixels": 2.2396613243856155e-13,
+        "projection_matrix": [
+          [
+            265.13360859646735,
+            42.289517618745585,
+            -86.73861948571994,
+            -220.56473155741307
+          ],
+          [
+            -13.375802874869487,
+            -40.56230532676986,
+            -242.17722849347354,
+            351.2374717152541
+          ],
+          [
+            0.34678235001511004,
+            0.8111713067193093,
+            -0.5613404150084373,
+            1.1797971858492975
+          ]
+        ],
+        "approximation": "Initial image only. World-point projection is fitted from recorded RGB-D rays; not simulator rendering.",
+        "points": {
+          "object_estimate": {
+            "pixel": [
+              183.6260324717767,
+              143.81241594646264
+            ],
+            "inside_initial_fov": true,
+            "nearest_recorded_depth_surface_distance_m": 0.017762315880385866,
+            "visibility_certified": false
+          },
+          "object_truth": {
+            "pixel": [
+              184.1143093840219,
+              144.1258679438522
+            ],
+            "inside_initial_fov": true,
+            "nearest_recorded_depth_surface_distance_m": 0.018042208741137114,
+            "visibility_certified": false
+          },
+          "target_estimate": {
+            "pixel": [
+              218.68959995591547,
+              133.6255861867911
+            ],
+            "inside_initial_fov": true,
+            "nearest_recorded_depth_surface_distance_m": 0.022915218619716363,
+            "visibility_certified": false
+          },
+          "target_truth": {
+            "pixel": [
+              219.07726065799872,
+              134.00568309755533
+            ],
+            "inside_initial_fov": true,
+            "nearest_recorded_depth_surface_distance_m": 0.022880670415692264,
+            "visibility_certified": false
+          }
+        },
+        "path": "stack-panda-001.jpg",
+        "status": "GENERATED",
+        "width": 640,
+        "height": 560
+      }
+    },
+    {
+      "episode_id": "stack-panda-002",
+      "first_estimate_step": 1,
+      "first_recorded_estimate": {
+        "start": [
+          1.8119309982331484,
+          -0.5429529348062818,
+          0.9424752843440249
+        ],
+        "target": [
+          1.9606140894603348,
+          -0.5539014730918259,
+          0.9475901280384006
+        ],
+        "direction": [
+          0.9972997913829154,
+          -0.07343790647610962,
+          0.0
+        ],
+        "initial_tcp": [
+          1.8883577268538885,
+          -0.5756313763371126,
+          1.2778032528563017
+        ],
+        "initial_rotation": [
+          [
+            -0.9997710605352563,
+            -0.019447213286161877,
+            0.008923699435119758
+          ],
+          [
+            -0.019475205935166065,
+            0.9998056551076995,
+            -0.003060779058264307
+          ],
+          [
+            -0.008862441536546249,
+            -0.0032338692093474963,
+            -0.999955498619786
+          ]
+        ]
+      },
+      "estimate_semantics": "Latched initial estimate; availability is not fresh detection or visibility at every subsequent step",
+      "state_alignment": "RGB estimate precedes action; logged truth is post-action of the same control step. Initial comparison is approximate, not strict causal pairing.",
+      "object_estimate": [
+        1.8119309982331484,
+        -0.5429529348062818,
+        0.9424752843440249
+      ],
+      "target_estimate": [
+        1.9606140894603348,
+        -0.5539014730918259,
+        0.9475901280384006
+      ],
+      "object_truth": [
+        1.8140187444049005,
+        -0.5424105194188255,
+        0.9397805634955962
+      ],
+      "target_truth": [
+        1.96306155563343,
+        -0.5537640218926031,
+        0.944780563339465
+      ]
+    },
+    {
+      "episode_id": "drawer-ur5e-000",
+      "first_estimate_step": 6,
+      "first_recorded_estimate": {
+        "handle": [
+          3.8581474569345,
+          -0.6399944097592414,
+          0.797760198571942
+        ],
+        "normal": [
+          -0.054611668198107734,
+          -0.9908756823139293,
+          -0.1232191052374785
+        ],
+        "initial_tcp": [
+          3.6200914437034317,
+          -0.7946642267069163,
+          1.270084657425792
+        ],
+        "initial_rotation": [
+          [
+            -0.999991534993378,
+            -0.0010249505919894784,
+            0.003984898727724074
+          ],
+          [
+            -0.000995358967847899,
+            0.9999719697588698,
+            0.007420846116830329
+          ],
+          [
+            -0.003992393030672368,
+            0.007416816894634209,
+            -0.999964525183288
+          ]
+        ]
+      },
+      "estimate_semantics": "Latched initial estimate; availability is not fresh detection or visibility at every subsequent step",
+      "state_alignment": "RGB estimate precedes action; logged truth is post-action of the same control step. Initial comparison is approximate, not strict causal pairing.",
+      "handle_estimate": [
+        3.8581474569345,
+        -0.6399944097592414,
+        0.797760198571942
+      ],
+      "normal_estimate": [
+        -0.054611668198107734,
+        -0.9908756823139293,
+        -0.1232191052374785
+      ],
+      "true_handle_pose": null,
+      "true_handle_pose_reason": "Exact dynamic handle pose was not exported in the JSONL schema; no simulator or counterfactual labels are generated.",
+      "overlay": {
+        "projection_reprojection_rms_pixels": 4.3414163637363955e-13,
+        "projection_matrix": [
+          [
+            251.27620104389638,
+            40.07922238097492,
+            -82.20516018147504,
+            -631.5110453216527
+          ],
+          [
+            -12.676706724436656,
+            -38.44228578799814,
+            -229.51965316774903,
+            345.81663599872024
+          ],
+          [
+            0.328657514501038,
+            0.7687748248940212,
+            -0.5320015352527185,
+            0.7303187799623685
+          ]
+        ],
+        "approximation": "Initial image only. World-point projection is fitted from recorded RGB-D rays; not simulator rendering.",
+        "points": {
+          "handle_estimate": {
+            "pixel": [
+              228.04102158758437,
+              127.93084375361195
+            ],
+            "inside_initial_fov": true,
+            "nearest_recorded_depth_surface_distance_m": 0.0013304650913415778,
+            "visibility_certified": false
+          }
+        },
+        "path": "drawer-ur5e-000.jpg",
+        "status": "GENERATED",
+        "width": 640,
+        "height": 560
+      }
+    },
+    {
+      "episode_id": "drawer-ur5e-001",
+      "first_estimate_step": null,
+      "first_recorded_estimate": {},
+      "estimate_semantics": "Latched initial estimate; availability is not fresh detection or visibility at every subsequent step",
+      "state_alignment": "RGB estimate precedes action; logged truth is post-action of the same control step. Initial comparison is approximate, not strict causal pairing.",
+      "handle_estimate": null,
+      "normal_estimate": null,
+      "true_handle_pose": null,
+      "true_handle_pose_reason": "Exact dynamic handle pose was not exported in the JSONL schema; no simulator or counterfactual labels are generated.",
+      "overlay": {
+        "projection_reprojection_rms_pixels": 5.2855440852322816e-12,
+        "projection_matrix": [
+          [
+            240.38748899476988,
+            38.34244448015553,
+            -78.64291152292802,
+            -604.1453728504088
+          ],
+          [
+            -12.127378809140634,
+            -36.776441720259896,
+            -219.57373158810347,
+            330.83114272448034
+          ],
+          [
+            0.31441558683546567,
+            0.7354610156825079,
+            -0.5089479732729655,
+            0.6986714178644867
+          ]
+        ],
+        "approximation": "Initial image only. World-point projection is fitted from recorded RGB-D rays; not simulator rendering.",
+        "points": {},
+        "path": "drawer-ur5e-001.jpg",
+        "status": "GENERATED",
+        "width": 640,
+        "height": 560
+      }
+    },
+    {
+      "episode_id": "drawer-ur5e-002",
+      "first_estimate_step": null,
+      "first_recorded_estimate": {},
+      "estimate_semantics": "Latched initial estimate; availability is not fresh detection or visibility at every subsequent step",
+      "state_alignment": "RGB estimate precedes action; logged truth is post-action of the same control step. Initial comparison is approximate, not strict causal pairing.",
+      "handle_estimate": null,
+      "normal_estimate": null,
+      "true_handle_pose": null,
+      "true_handle_pose_reason": "Exact dynamic handle pose was not exported in the JSONL schema; no simulator or counterfactual labels are generated."
+    },
+    {
+      "episode_id": "drawer-panda-000",
+      "first_estimate_step": 1,
+      "first_recorded_estimate": {
+        "handle": [
+          3.859457912696245,
+          -0.6316136539952488,
+          0.7888464723716974
+        ],
+        "normal": [
+          -0.007366634410342801,
+          -0.9999728659806046,
+          0.0
+        ],
+        "initial_tcp": [
+          3.6112588530361887,
+          -0.8052852343644723,
+          1.2573683153899586
+        ],
+        "initial_rotation": [
+          [
+            -0.9988940675268841,
+            -0.018603631107058587,
+            0.04318039797439439
+          ],
+          [
+            -0.02084375753427959,
+            0.9984284123341562,
+            -0.052021564910584975
+          ],
+          [
+            -0.04214474619032322,
+            -0.05286407431826008,
+            -0.997711987506928
+          ]
+        ]
+      },
+      "estimate_semantics": "Latched initial estimate; availability is not fresh detection or visibility at every subsequent step",
+      "state_alignment": "RGB estimate precedes action; logged truth is post-action of the same control step. Initial comparison is approximate, not strict causal pairing.",
+      "handle_estimate": [
+        3.859457912696245,
+        -0.6316136539952488,
+        0.7888464723716974
+      ],
+      "normal_estimate": [
+        -0.007366634410342801,
+        -0.9999728659806046,
+        0.0
+      ],
+      "true_handle_pose": null,
+      "true_handle_pose_reason": "Exact dynamic handle pose was not exported in the JSONL schema; no simulator or counterfactual labels are generated.",
+      "overlay": {
+        "projection_reprojection_rms_pixels": 2.6250099056954937e-13,
+        "projection_matrix": [
+          [
+            247.34344878261166,
+            39.45193666113866,
+            -80.91855785087715,
+            -621.6271959773019
+          ],
+          [
+            -12.478302332893712,
+            -37.840621129321605,
+            -225.92741491856975,
+            340.4042227505555
+          ],
+          [
+            0.3235136620877409,
+            0.7567426408700023,
+            -0.5236751185943609,
+            0.7188884659878151
+          ]
+        ],
+        "approximation": "Initial image only. World-point projection is fitted from recorded RGB-D rays; not simulator rendering.",
+        "points": {
+          "handle_estimate": {
+            "pixel": [
+              226.897078380223,
+              128.1330158330993
+            ],
+            "inside_initial_fov": true,
+            "nearest_recorded_depth_surface_distance_m": 0.012772313867088577,
+            "visibility_certified": false
+          }
+        },
+        "path": "drawer-panda-000.jpg",
+        "status": "GENERATED",
+        "width": 640,
+        "height": 560
+      }
+    },
+    {
+      "episode_id": "drawer-panda-001",
+      "first_estimate_step": 1,
+      "first_recorded_estimate": {
+        "handle": [
+          3.859456446300094,
+          -0.6316151799930676,
+          0.7888462153105423
+        ],
+        "normal": [
+          -0.00715533860092137,
+          -0.9999744002370791,
+          0.0
+        ],
+        "initial_tcp": [
+          3.603516703272713,
+          -0.8050202499890261,
+          1.2649213722231731
+        ],
+        "initial_rotation": [
+          [
+            -0.9999747961166711,
+            -0.007039225406748703,
+            0.0009254388649032473
+          ],
+          [
+            -0.007074083486031721,
+            0.9989363594962194,
+            -0.045564317390587694
+          ],
+          [
+            -0.0006037170300257776,
+            -0.04556971562463982,
+            -0.9989609784889671
+          ]
+        ]
+      },
+      "estimate_semantics": "Latched initial estimate; availability is not fresh detection or visibility at every subsequent step",
+      "state_alignment": "RGB estimate precedes action; logged truth is post-action of the same control step. Initial comparison is approximate, not strict causal pairing.",
+      "handle_estimate": [
+        3.859456446300094,
+        -0.6316151799930676,
+        0.7888462153105423
+      ],
+      "normal_estimate": [
+        -0.00715533860092137,
+        -0.9999744002370791,
+        0.0
+      ],
+      "true_handle_pose": null,
+      "true_handle_pose_reason": "Exact dynamic handle pose was not exported in the JSONL schema; no simulator or counterfactual labels are generated.",
+      "overlay": {
+        "projection_reprojection_rms_pixels": 2.6992036128945236e-13,
+        "projection_matrix": [
+          [
+            247.5478442198563,
+            39.484539696208074,
+            -80.9854260132259,
+            -622.1408832209889
+          ],
+          [
+            -12.488613737625018,
+            -37.8718913165115,
+            -226.11411314282338,
+            340.6855195944139
+          ],
+          [
+            0.32378099781103775,
+            0.7573679873627897,
+            -0.5241078647255124,
+            0.7194825474094014
+          ]
+        ],
+        "approximation": "Initial image only. World-point projection is fitted from recorded RGB-D rays; not simulator rendering.",
+        "points": {
+          "handle_estimate": {
+            "pixel": [
+              226.89702086020662,
+              128.13331827497086
+            ],
+            "inside_initial_fov": true,
+            "nearest_recorded_depth_surface_distance_m": 0.012772801163364577,
+            "visibility_certified": false
+          }
+        },
+        "path": "drawer-panda-001.jpg",
+        "status": "GENERATED",
+        "width": 640,
+        "height": 560
+      }
+    },
+    {
+      "episode_id": "drawer-panda-002",
+      "first_estimate_step": null,
+      "first_recorded_estimate": {},
+      "estimate_semantics": "Latched initial estimate; availability is not fresh detection or visibility at every subsequent step",
+      "state_alignment": "RGB estimate precedes action; logged truth is post-action of the same control step. Initial comparison is approximate, not strict causal pairing.",
+      "handle_estimate": null,
+      "normal_estimate": null,
+      "true_handle_pose": null,
+      "true_handle_pose_reason": "Exact dynamic handle pose was not exported in the JSONL schema; no simulator or counterfactual labels are generated."
+    }
+  ],
+  "privileged_state_only_offline": true,
+  "visibility_limit": "Latched estimates and initial-image geometric proxies do not establish dynamic visual observability or causal failure attribution."
+}
